@@ -1,0 +1,476 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022101059,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:11 PM EST),period,start,0,0,1
+0022101059,4,PT12M00.00S,1,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Jump Ball Plumlee vs. Powell: Tip to Washington,Jump Ball,,1,0,2
+0022101059,7,PT11M46.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,-125,232,26,Made,1,3,0,3,h,Rozier 26' 3PT Jump Shot (3 PTS) (Plumlee 1 AST),Made Shot,Jump Shot,1,3,3
+0022101059,9,PT11M26.00S,1,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson OFF.Foul (P1) (S.Mehta),Foul,Offensive,1,0,4
+0022101059,11,PT11M26.00S,1,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson Offensive Foul Turnover (P1.T1),Turnover,Offensive Foul Turnover,1,0,5
+0022101059,12,PT11M10.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,-208,8,21,Made,1,5,0,5,h,Rozier 21' Jump Shot (5 PTS) (Plumlee 2 AST),Made Shot,Jump Shot,1,2,6
+0022101059,14,PT11M00.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,7
+0022101059,14,PT11M00.00S,1,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball STEAL (1 STL),,,1,0,8
+0022101059,16,PT10M53.00S,1,1610612766,CHA,1630163,Ball,L. Ball,-233,-13,0,Made,1,8,0,8,h,Ball 3PT Jump Shot (3 PTS) (Bridges 1 AST),Made Shot,Jump Shot,1,3,9
+0022101059,18,PT10M41.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,-2,24,2,Made,1,8,2,10,v,Kleber 2' Cutting Dunk Shot (2 PTS) (Powell 1 AST),Made Shot,Cutting Dunk Shot,1,2,10
+0022101059,20,PT10M22.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,124,231,26,Made,1,11,2,13,h,Bridges 26' 3PT Jump Shot (3 PTS) (Rozier 1 AST),Made Shot,Jump Shot,1,3,11
+0022101059,22,PT10M10.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,153,205,26,Missed,1,,,0,v,MISS Doncic 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,12
+0022101059,23,PT10M08.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,Rozier REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,13
+0022101059,24,PT10M02.00S,1,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee OFF.Foul (P1) (K.Lane),Foul,Offensive,1,0,14
+0022101059,26,PT10M02.00S,1,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee Offensive Foul Turnover (P1.T1),Turnover,Offensive Foul Turnover,1,0,15
+0022101059,28,PT09M36.00S,1,1610612742,DAL,1628973,Brunson,J. Brunson,-70,143,16,Missed,1,,,0,v,MISS Brunson 16' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,16
+0022101059,29,PT09M33.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,17
+0022101059,30,PT09M31.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,17,268,27,Missed,1,,,0,v,MISS Finney-Smith 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,18
+0022101059,31,PT09M31.00S,1,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,19
+0022101059,32,PT09M23.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,18,6,2,Made,1,13,2,15,h,Bridges 2' Cutting Layup Shot (5 PTS) (Ball 1 AST),Made Shot,Cutting Layup Shot,1,2,20
+0022101059,34,PT09M06.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,-74,19,8,Missed,1,,,0,v,MISS Doncic 8' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,21
+0022101059,35,PT09M04.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,22
+0022101059,36,PT09M00.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,-227,58,0,Made,1,16,2,18,h,Rozier 3PT Running Jump Shot (8 PTS) (Ball 2 AST),Made Shot,Running Jump Shot,1,3,23
+0022101059,38,PT08M59.00S,1,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,24
+0022101059,39,PT08M41.00S,1,1610612742,DAL,1628973,Brunson,J. Brunson,0,90,9,Made,1,16,4,20,v,Brunson 9' Turnaround Jump Shot (2 PTS),Made Shot,Turnaround Jump Shot,1,2,25
+0022101059,40,PT08M22.00S,1,1610612766,CHA,1629023,Washington,P. Washington,237,-25,24,Made,1,19,4,23,h,Washington 24' 3PT Jump Shot (3 PTS) (Bridges 2 AST),Made Shot,Jump Shot,1,3,26
+0022101059,42,PT08M10.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,-154,208,26,Missed,1,,,0,v,MISS Doncic 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,27
+0022101059,43,PT08M07.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,28
+0022101059,44,PT07M53.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,221,128,26,Missed,1,,,0,h,MISS Bridges 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,29
+0022101059,45,PT07M51.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,30
+0022101059,46,PT07M43.00S,1,1610612742,DAL,203939,Powell,D. Powell,5,4,1,Missed,1,,,0,v,MISS Powell 1' Alley Oop Dunk,Missed Shot,Alley Oop Dunk Shot,1,2,31
+0022101059,46,PT07M43.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges BLOCK (1 BLK),,,1,2,32
+0022101059,48,PT07M43.00S,1,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,33
+0022101059,50,PT07M28.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,-18,6,2,Missed,1,,,0,v,MISS Finney-Smith 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,34
+0022101059,51,PT07M28.00S,1,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,35
+0022101059,52,PT07M28.00S,1,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Turnover: Shot Clock (T#3),Turnover,Shot Clock Turnover,0,0,36
+0022101059,53,PT07M09.00S,1,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee Bad Pass Turnover (P2.T2),Turnover,Bad Pass,1,0,37
+0022101059,53,PT07M09.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber STEAL (1 STL),,,1,0,38
+0022101059,55,PT07M08.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges Personal Take Foul (P1.T1) (S.Mehta),Foul,Personal Take,1,0,39
+0022101059,57,PT06M57.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,7,15,2,Made,1,19,6,25,v,Doncic 2' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,40
+0022101059,58,PT06M41.00S,1,1610612766,CHA,1629023,Washington,P. Washington,-141,216,26,Made,1,22,6,28,h,Washington 26' 3PT Jump Shot (6 PTS) (Plumlee 3 AST),Made Shot,Jump Shot,1,3,41
+0022101059,60,PT06M20.00S,1,1610612742,DAL,1628973,Brunson,J. Brunson,-32,-1,3,Missed,1,,,0,v,MISS Brunson 3' Finger Roll Layup,Missed Shot,Finger Roll Layup Shot,1,2,42
+0022101059,61,PT06M19.00S,1,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,43
+0022101059,62,PT06M13.00S,1,1610612766,CHA,1630163,Ball,L. Ball,179,204,27,Missed,1,,,0,h,MISS Ball 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,44
+0022101059,63,PT06M10.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,45
+0022101059,64,PT06M01.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,-200,150,25,Made,1,22,9,31,v,Finney-Smith 25' 3PT Jump Shot (3 PTS) (Powell 2 AST),Made Shot,Jump Shot,1,3,46
+0022101059,66,PT05M43.00S,1,1610612766,CHA,1629023,Washington,P. Washington,-47,252,26,Missed,1,,,0,h,MISS Washington 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,47
+0022101059,67,PT05M41.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,48
+0022101059,68,PT05M32.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,-39,253,26,Made,1,22,12,34,v,Doncic 26' 3PT Step Back Jump Shot (5 PTS),Made Shot,Step Back Jump shot,1,3,49
+0022101059,69,PT05M32.00S,1,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,50
+0022101059,70,PT05M32.00S,1,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,SUB: Martin FOR Ball,Substitution,,0,0,51
+0022101059,71,PT05M32.00S,1,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,SUB: Harrell FOR Washington,Substitution,,0,0,52
+0022101059,72,PT05M32.00S,1,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,SUB: Oubre Jr. FOR Plumlee,Substitution,,0,0,53
+0022101059,78,PT05M32.00S,1,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,SUB: Burke FOR Brunson,Substitution,,0,0,54
+0022101059,79,PT05M13.00S,1,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,Martin Lost Ball Turnover (P1.T3),Turnover,Lost Ball,1,0,55
+0022101059,79,PT05M13.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith STEAL (1 STL),,,1,0,56
+0022101059,81,PT05M08.00S,1,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,Oubre Jr. P.FOUL (P1.T2) (K.Lane),Foul,Personal,1,0,57
+0022101059,83,PT05M08.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,SUB: Chriss FOR Powell,Substitution,,0,0,58
+0022101059,85,PT04M54.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,17,260,26,Made,1,22,15,37,v,Doncic 26' 3PT Step Back Jump Shot (8 PTS),Made Shot,Step Back Jump shot,1,3,59
+0022101059,86,PT04M41.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges Out of Bounds - Bad Pass Turnover Turnover (P1.T4),Turnover,Out of Bounds - Bad Pass Turnover,1,0,60
+0022101059,87,PT04M31.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,-148,200,25,Made,1,22,18,40,v,Doncic 25' 3PT Step Back Jump Shot (11 PTS),Made Shot,Step Back Jump shot,1,3,61
+0022101059,88,PT04M13.00S,1,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,234,-17,0,Missed,1,,,0,h,MISS Oubre Jr. 3PT Jump Shot,Missed Shot,Jump Shot,1,3,62
+0022101059,89,PT04M12.00S,1,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Unknown,0,0,63
+0022101059,91,PT04M03.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,26,-6,3,Missed,1,,,0,h,MISS Bridges 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,64
+0022101059,91,PT04M03.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber BLOCK (1 BLK),,,1,2,65
+0022101059,93,PT04M03.00S,1,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Unknown,0,0,66
+0022101059,95,PT04M01.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,240,13,24,Made,1,25,18,43,h,Bridges 24' 3PT Jump Shot (8 PTS) (Martin 1 AST),Made Shot,Jump Shot,1,3,67
+0022101059,97,PT03M46.00S,1,1610612742,DAL,1627737,Chriss,M. Chriss,11,38,4,Missed,1,,,0,v,MISS Chriss 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,68
+0022101059,97,PT03M46.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,Rozier BLOCK (1 BLK),,,1,2,69
+0022101059,99,PT03M46.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,Rozier REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,70
+0022101059,100,PT03M46.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber Personal Take Foul (P1.T1) (J.Williams),Foul,Personal Take,1,0,71
+0022101059,102,PT03M46.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,SUB: Bertans FOR Kleber,Substitution,,0,0,72
+0022101059,104,PT03M21.00S,1,1610612766,CHA,1626149,Harrell,M. Harrell,-80,159,18,Missed,1,,,0,h,MISS Harrell 18' Jump Shot,Missed Shot,Jump Shot,1,2,73
+0022101059,105,PT03M18.00S,1,1610612742,DAL,202722,Bertans,D. Bertans,0,0,0,,0,,,0,v,Bertans REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,74
+0022101059,106,PT03M09.00S,1,1610612742,DAL,203504,Burke,T. Burke,0,0,0,,0,,,0,v,Burke OFF.Foul (P1) (K.Lane),Foul,Offensive,1,0,75
+0022101059,108,PT03M09.00S,1,1610612742,DAL,203504,Burke,T. Burke,0,0,0,,0,,,0,v,Burke Offensive Foul Turnover (P1.T4),Turnover,Offensive Foul Turnover,1,0,76
+0022101059,109,PT03M09.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,SUB: Washington FOR Bridges,Substitution,,0,0,77
+0022101059,110,PT03M09.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,SUB: Ball FOR Rozier,Substitution,,0,0,78
+0022101059,111,PT03M09.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,SUB: Green FOR Finney-Smith,Substitution,,0,0,79
+0022101059,115,PT02M59.00S,1,1610612766,CHA,1629023,Washington,P. Washington,-22,23,3,Missed,1,,,0,h,MISS Washington 3' Layup,Missed Shot,Layup Shot,1,2,80
+0022101059,116,PT02M58.00S,1,1610612742,DAL,1627737,Chriss,M. Chriss,0,0,0,,0,,,0,v,Chriss REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,81
+0022101059,117,PT02M51.00S,1,1610612742,DAL,1630182,Green,J. Green,-237,-4,24,Made,1,25,21,46,v,Green 24' 3PT Jump Shot (3 PTS) (Chriss 1 AST),Made Shot,Jump Shot,1,3,82
+0022101059,119,PT02M38.00S,1,1610612742,DAL,1627737,Chriss,M. Chriss,0,0,0,,0,,,0,v,Chriss S.FOUL (P1.T2) (K.Lane),Foul,Shooting,1,0,83
+0022101059,121,PT02M38.00S,1,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,MISS Harrell Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,84
+0022101059,122,PT02M38.00S,1,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Normal Rebound,0,0,85
+0022101059,123,PT02M38.00S,1,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,26,21,47,h,Harrell Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,86
+0022101059,124,PT02M29.00S,1,1610612742,DAL,1630182,Green,J. Green,0,0,0,,0,,,0,v,Green Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,87
+0022101059,124,PT02M29.00S,1,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell STEAL (1 STL),,,1,0,88
+0022101059,126,PT02M20.00S,1,1610612742,DAL,203504,Burke,T. Burke,0,0,0,,0,,,0,v,Burke P.FOUL (P2.T3) (S.Mehta),Foul,Personal,1,0,89
+0022101059,128,PT02M13.00S,1,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,9,17,2,Missed,1,,,0,h,MISS Oubre Jr. 2' Driving Dunk,Missed Shot,Driving Dunk Shot,1,2,90
+0022101059,128,PT02M13.00S,1,1610612742,DAL,1627737,Chriss,M. Chriss,0,0,0,,0,,,0,v,Chriss BLOCK (1 BLK),,,1,2,91
+0022101059,129,PT02M11.00S,1,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,92
+0022101059,130,PT02M10.00S,1,1610612742,DAL,202722,Bertans,D. Bertans,0,0,0,,0,,,0,v,Bertans S.FOUL (P1.T4) (K.Lane),Foul,Shooting,1,0,93
+0022101059,132,PT02M10.00S,1,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,27,21,48,h,Harrell Free Throw 1 of 2 (2 PTS),Free Throw,Free Throw 1 of 2,1,0,94
+0022101059,134,PT02M10.00S,1,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,28,21,49,h,Harrell Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,95
+0022101059,136,PT02M03.00S,1,1610612742,DAL,203504,Burke,T. Burke,0,0,0,,0,,,0,v,Burke Bad Pass Turnover (P2.T6),Turnover,Bad Pass,1,0,96
+0022101059,136,PT02M03.00S,1,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,Martin STEAL (1 STL),,,1,0,97
+0022101059,138,PT02M00.00S,1,1610612766,CHA,1628998,Martin,C. Martin,-6,20,2,Made,1,30,21,51,h,Martin 2' Running Dunk (2 PTS),Made Shot,Running Dunk Shot,1,2,98
+0022101059,139,PT01M49.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,-165,204,26,Made,1,30,24,54,v,Doncic 26' 3PT Pullup Jump Shot (14 PTS),Made Shot,Pullup Jump shot,1,3,99
+0022101059,140,PT01M32.00S,1,1610612766,CHA,1630163,Ball,L. Ball,1,25,3,Missed,1,,,0,h,MISS Ball 3' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,100
+0022101059,141,PT01M30.00S,1,1610612742,DAL,203504,Burke,T. Burke,0,0,0,,0,,,0,v,Burke REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,101
+0022101059,142,PT01M24.00S,1,1610612742,DAL,203504,Burke,T. Burke,-28,17,3,Missed,1,,,0,v,MISS Burke 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,102
+0022101059,142,PT01M24.00S,1,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell BLOCK (1 BLK),,,1,2,103
+0022101059,144,PT01M22.00S,1,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,Martin REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,104
+0022101059,145,PT01M17.00S,1,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,239,-15,24,Missed,1,,,0,h,MISS Oubre Jr. 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,105
+0022101059,146,PT01M14.00S,1,1610612742,DAL,202722,Bertans,D. Bertans,0,0,0,,0,,,0,v,Bertans REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,106
+0022101059,147,PT01M00.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,17,-6,2,Missed,1,,,0,v,MISS Doncic 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,107
+0022101059,148,PT00M58.60S,1,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,108
+0022101059,149,PT00M56.00S,1,1610612766,CHA,1630163,Ball,L. Ball,-99,251,27,Made,1,33,24,57,h,Ball 27' 3PT Running Pull-Up Jump Shot (6 PTS),Made Shot,Running Pull-Up Jump Shot,1,3,109
+0022101059,150,PT00M38.20S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic Bad Pass Turnover (P2.T7),Turnover,Bad Pass,1,0,110
+0022101059,150,PT00M38.20S,1,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball STEAL (2 STL),,,1,0,111
+0022101059,152,PT00M33.20S,1,1610612766,CHA,1630163,Ball,L. Ball,169,205,27,Missed,1,,,0,h,MISS Ball 27' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,112
+0022101059,153,PT00M29.50S,1,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,113
+0022101059,154,PT00M28.70S,1,1610612766,CHA,1626149,Harrell,M. Harrell,4,16,2,Made,1,35,24,59,h,Harrell 2' Putback Dunk (5 PTS),Made Shot,Putback Dunk Shot,1,2,114
+0022101059,155,PT00M28.70S,1,1610612742,DAL,1627737,Chriss,M. Chriss,0,0,0,,0,,,0,v,Chriss S.FOUL (P2.PN) (S.Mehta),Foul,Shooting,1,0,115
+0022101059,157,PT00M28.70S,1,1610612742,DAL,1627737,Chriss,M. Chriss,0,0,0,,0,,,0,v,SUB: Kleber FOR Chriss,Substitution,,0,0,116
+0022101059,159,PT00M28.70S,1,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,MISS Harrell Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,117
+0022101059,160,PT00M27.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,118
+0022101059,161,PT00M13.10S,1,1610612742,DAL,202722,Bertans,D. Bertans,-184,210,28,Missed,1,,,0,v,MISS Bertans 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,119
+0022101059,162,PT00M09.80S,1,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,Oubre Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,120
+0022101059,163,PT00M00.00S,1,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,20,10,2,Missed,1,,,0,h,MISS Oubre Jr. 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,121
+0022101059,164,PT00M00.00S,1,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Unknown,0,0,122
+0022101059,165,PT00M00.00S,1,0,,0,,,0,0,0,,0,35,24,59,,End of 1st Period (7:37 PM EST),period,end,1,0,123
+0022101059,174,PT12M00.00S,2,0,,0,,,0,0,0,,0,35,24,59,,Start of 2nd Period (7:40 PM EST),period,start,0,0,124
+0022101059,175,PT11M44.00S,2,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell S.FOUL (P1.T1) (S.Mehta),Foul,Shooting,1,0,125
+0022101059,177,PT11M44.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,35,25,60,v,Brunson Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,126
+0022101059,178,PT11M44.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,35,26,61,v,Brunson Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,127
+0022101059,179,PT11M29.00S,2,1610612766,CHA,202738,Thomas,I. Thomas,25,18,3,Made,1,37,26,63,h,Thomas 3' Driving Floating Bank Jump Shot (2 PTS) (Oubre Jr. 1 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,128
+0022101059,181,PT11M13.00S,2,1610612742,DAL,1630182,Green,J. Green,0,0,0,,0,,,0,v,Green Bad Pass Turnover (P2.T8),Turnover,Bad Pass,1,0,129
+0022101059,181,PT11M13.00S,2,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball STEAL (3 STL),,,1,0,130
+0022101059,183,PT11M13.00S,2,1610612742,DAL,202722,Bertans,D. Bertans,0,0,0,,0,,,0,v,Bertans P.FOUL (P2.T1) (K.Lane),Foul,Personal,1,0,131
+0022101059,185,PT10M59.00S,2,1610612766,CHA,1629667,McDaniels,J. McDaniels,234,-9,0,Missed,1,,,0,h,MISS McDaniels 3PT Jump Shot,Missed Shot,Jump Shot,1,3,132
+0022101059,186,PT10M56.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,133
+0022101059,187,PT10M47.00S,2,1610612742,DAL,202722,Bertans,D. Bertans,0,0,0,Made,1,37,28,65,v,Bertans Cutting Dunk Shot (2 PTS) (Green 1 AST),Made Shot,Cutting Dunk Shot,1,2,134
+0022101059,189,PT10M34.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber S.FOUL (P2.T2) (J.Williams),Foul,Shooting,1,0,135
+0022101059,191,PT10M34.00S,2,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,38,28,66,h,Harrell Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,136
+0022101059,192,PT10M34.00S,2,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,39,28,67,h,Harrell Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,137
+0022101059,193,PT10M22.00S,2,1610612742,DAL,202722,Bertans,D. Bertans,0,0,0,,0,,,0,v,Bertans OFF.Foul (P3) (S.Mehta),Foul,Offensive,1,0,138
+0022101059,195,PT10M22.00S,2,1610612742,DAL,202722,Bertans,D. Bertans,0,0,0,,0,,,0,v,Bertans Offensive Foul Turnover (P1.T9),Turnover,Offensive Foul Turnover,1,0,139
+0022101059,196,PT10M01.00S,2,1610612766,CHA,202738,Thomas,I. Thomas,87,81,12,Made,1,41,28,69,h,Thomas 12' Pullup Jump Shot (4 PTS),Made Shot,Pullup Jump shot,1,2,140
+0022101059,197,PT09M48.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,238,8,24,Missed,1,,,0,v,MISS Brunson 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,141
+0022101059,198,PT09M45.00S,2,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,Oubre Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,142
+0022101059,199,PT09M32.00S,2,1610612766,CHA,1626149,Harrell,M. Harrell,2,31,3,Missed,1,,,0,h,MISS Harrell 3' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,143
+0022101059,200,PT09M31.00S,2,1610612742,DAL,202722,Bertans,D. Bertans,0,0,0,,0,,,0,v,Bertans REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,144
+0022101059,201,PT09M28.00S,2,1610612742,DAL,1630182,Green,J. Green,6,3,1,Made,1,41,30,71,v,Green 1' Running Reverse Layup (5 PTS) (Brown 1 AST),Made Shot,Running Reverse Layup Shot,1,2,145
+0022101059,203,PT09M28.00S,2,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,146
+0022101059,204,PT09M28.00S,2,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,SUB: Bridges FOR Harrell,Substitution,,0,0,147
+0022101059,205,PT09M28.00S,2,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,SUB: Plumlee FOR Oubre Jr.,Substitution,,0,0,148
+0022101059,208,PT09M06.00S,2,1610612766,CHA,203486,Plumlee,M. Plumlee,6,8,1,Missed,1,,,0,h,MISS Plumlee 1' Alley Oop Layup,Missed Shot,Alley Oop Layup shot,1,2,149
+0022101059,209,PT09M04.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,150
+0022101059,210,PT09M01.00S,2,1610612742,DAL,1628425,Brown,S. Brown,244,11,24,Missed,1,,,0,v,MISS Brown 24' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,151
+0022101059,211,PT08M57.00S,2,1610612742,DAL,1628425,Brown,S. Brown,0,0,0,,0,,,0,v,Brown REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,152
+0022101059,212,PT08M56.00S,2,1610612742,DAL,1628425,Brown,S. Brown,-4,6,1,Made,1,41,32,73,v,Brown 1' Reverse Layup (2 PTS),Made Shot,Reverse Layup Shot,1,2,153
+0022101059,213,PT08M36.00S,2,1610612766,CHA,1630163,Ball,L. Ball,-192,216,29,Missed,1,,,0,h,MISS Ball 29' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,154
+0022101059,214,PT08M31.00S,2,1610612742,DAL,1630182,Green,J. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,155
+0022101059,215,PT08M31.00S,2,1610612742,DAL,1630182,Green,J. Green,0,0,0,,0,,,0,v,Green Out of Bounds - Bad Pass Turnover Turnover (P3.T10),Turnover,Out of Bounds - Bad Pass Turnover,1,0,156
+0022101059,216,PT08M17.00S,2,1610612742,DAL,1628425,Brown,S. Brown,0,0,0,,0,,,0,v,Brown P.FOUL (P1.T3) (S.Mehta),Foul,Personal,1,0,157
+0022101059,218,PT08M17.00S,2,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,SUB: Rozier FOR Ball,Substitution,,0,0,158
+0022101059,220,PT08M09.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,16,38,4,Missed,1,,,0,h,MISS Bridges 4' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,159
+0022101059,221,PT08M09.00S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,160
+0022101059,223,PT07M51.00S,2,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,McDaniels S.FOUL (P1.T2) (S.Mehta),Foul,Shooting,1,0,161
+0022101059,225,PT07M51.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,41,33,74,v,Brunson Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,162
+0022101059,226,PT07M51.00S,2,1610612742,DAL,1630182,Green,J. Green,0,0,0,,0,,,0,v,SUB: Ntilikina FOR Green,Substitution,,0,0,163
+0022101059,227,PT07M51.00S,2,1610612742,DAL,202722,Bertans,D. Bertans,0,0,0,,0,,,0,v,SUB: Powell FOR Bertans,Substitution,,0,0,164
+0022101059,230,PT07M51.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,41,34,75,v,Brunson Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,165
+0022101059,231,PT07M35.00S,2,1610612766,CHA,1626179,Rozier,T. Rozier,26,46,5,Made,1,43,34,77,h,Rozier 5' Floating Jump Shot (10 PTS) (Thomas 1 AST),Made Shot,Floating Jump shot,1,2,166
+0022101059,233,PT07M24.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,-48,19,5,Made,1,43,36,79,v,Brunson 5' Driving Layup (8 PTS),Made Shot,Driving Layup Shot,1,2,167
+0022101059,234,PT07M17.00S,2,1610612766,CHA,1629667,McDaniels,J. McDaniels,28,8,3,Missed,1,,,0,h,MISS McDaniels 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,168
+0022101059,235,PT07M15.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,169
+0022101059,236,PT07M09.00S,2,1610612742,DAL,203939,Powell,D. Powell,-4,30,3,Missed,1,,,0,v,MISS Powell 3' Layup,Missed Shot,Layup Shot,1,2,170
+0022101059,236,PT07M09.00S,2,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,McDaniels BLOCK (1 BLK),,,1,2,171
+0022101059,238,PT07M09.00S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,172
+0022101059,240,PT07M09.00S,2,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,SUB: Washington FOR McDaniels,Substitution,,0,0,173
+0022101059,241,PT07M09.00S,2,1610612742,DAL,1628425,Brown,S. Brown,0,0,0,,0,,,0,v,SUB: Finney-Smith FOR Brown,Substitution,,0,0,174
+0022101059,244,PT07M00.00S,2,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,64,252,26,Made,1,43,39,82,v,Finney-Smith 26' 3PT Jump Shot (6 PTS) (Brunson 1 AST),Made Shot,Jump Shot,1,3,175
+0022101059,246,PT06M40.00S,2,1610612766,CHA,202738,Thomas,I. Thomas,143,99,17,Made,1,45,39,84,h,Thomas 17' Step Back Jump Shot (6 PTS),Made Shot,Step Back Jump shot,1,2,176
+0022101059,247,PT06M28.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,-71,138,16,Made,1,45,41,86,v,Brunson 16' Pullup Jump Shot (10 PTS),Made Shot,Pullup Jump shot,1,2,177
+0022101059,248,PT06M14.00S,2,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,Rozier Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,178
+0022101059,248,PT06M14.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson STEAL (1 STL),,,1,0,179
+0022101059,250,PT06M10.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,-1,-5,1,Made,1,45,43,88,v,Kleber 1' Running Dunk (4 PTS) (Brunson 2 AST),Made Shot,Running Dunk Shot,1,2,180
+0022101059,252,PT05M52.00S,2,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell S.FOUL (P1.T4) (S.Mehta),Foul,Shooting,1,0,181
+0022101059,254,PT05M52.00S,2,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,46,43,89,h,Plumlee Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,182
+0022101059,255,PT05M52.00S,2,1610612766,CHA,202738,Thomas,I. Thomas,0,0,0,,0,,,0,h,SUB: Martin FOR Thomas,Substitution,,0,0,183
+0022101059,256,PT05M52.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,SUB: Doncic FOR Kleber,Substitution,,0,0,184
+0022101059,259,PT05M52.00S,2,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,MISS Plumlee Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,185
+0022101059,260,PT05M50.00S,2,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,186
+0022101059,261,PT05M26.00S,2,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,42,77,9,Made,1,46,45,91,v,Finney-Smith 9' Floating Jump Shot (8 PTS) (Doncic 1 AST),Made Shot,Floating Jump shot,1,2,187
+0022101059,263,PT05M09.00S,2,1610612766,CHA,1628998,Martin,C. Martin,-230,16,0,Missed,1,,,0,h,MISS Martin 3PT Jump Shot,Missed Shot,Jump Shot,1,3,188
+0022101059,264,PT05M05.00S,2,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,189
+0022101059,265,PT04M56.00S,2,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,Rozier P.FOUL (P1.T3) (K.Lane),Foul,Personal,1,0,190
+0022101059,267,PT04M42.00S,2,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,-136,211,25,Missed,1,,,0,v,MISS Finney-Smith 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,191
+0022101059,268,PT04M39.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,192
+0022101059,269,PT04M34.00S,2,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,Rozier Lost Ball Turnover (P2.T6),Turnover,Lost Ball,1,0,193
+0022101059,269,PT04M34.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson STEAL (2 STL),,,1,0,194
+0022101059,271,PT04M27.00S,2,1610612742,DAL,1628373,Ntilikina,F. Ntilikina,-4,5,1,Made,1,46,47,93,v,Ntilikina 1' Running Layup (2 PTS),Made Shot,Running Layup Shot,1,2,195
+0022101059,272,PT04M16.00S,2,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,196
+0022101059,273,PT04M16.00S,2,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,SUB: Oubre Jr. FOR Plumlee,Substitution,,0,0,197
+0022101059,274,PT04M16.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,SUB: Green FOR Brunson,Substitution,,0,0,198
+0022101059,277,PT04M10.00S,2,1610612766,CHA,1626179,Rozier,T. Rozier,-135,225,26,Missed,1,,,0,h,MISS Rozier 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,199
+0022101059,278,PT04M06.00S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,200
+0022101059,280,PT03M56.00S,2,1610612742,DAL,1630182,Green,J. Green,237,24,24,Missed,1,,,0,v,MISS Green 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,201
+0022101059,281,PT03M52.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,202
+0022101059,282,PT03M49.00S,2,1610612742,DAL,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina S.FOUL (P1.PN) (S.Mehta),Foul,Shooting,1,0,203
+0022101059,284,PT03M49.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,47,47,94,h,Bridges Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,204
+0022101059,285,PT03M49.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,48,47,95,h,Bridges Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,205
+0022101059,286,PT03M40.00S,2,1610612742,DAL,1629029,Dončić,L. Dončić,-6,288,29,Missed,1,,,0,v,MISS Doncic 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,206
+0022101059,287,PT03M37.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,207
+0022101059,288,PT03M19.00S,2,1610612766,CHA,1629023,Washington,P. Washington,176,194,26,Missed,1,,,0,h,MISS Washington 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,208
+0022101059,289,PT03M15.00S,2,1610612742,DAL,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,209
+0022101059,290,PT03M01.00S,2,1610612742,DAL,1629029,Dončić,L. Dončić,5,24,2,Made,1,48,49,97,v,Doncic 2' Driving Floating Jump Shot (16 PTS),Made Shot,Driving Floating Jump Shot,1,2,210
+0022101059,291,PT02M38.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,4,64,6,Made,1,50,49,99,h,Bridges 6' Driving Hook Shot (12 PTS),Made Shot,Driving Hook Shot,1,2,211
+0022101059,292,PT02M22.00S,2,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,-234,-5,0,Missed,1,,,0,v,MISS Finney-Smith 3PT Jump Shot,Missed Shot,Jump Shot,1,3,212
+0022101059,293,PT02M18.00S,2,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,213
+0022101059,294,PT02M15.00S,2,1610612742,DAL,1628373,Ntilikina,F. Ntilikina,-119,221,25,Made,1,50,52,102,v,Ntilikina 25' 3PT Jump Shot (5 PTS) (Doncic 2 AST),Made Shot,Jump Shot,1,3,214
+0022101059,296,PT01M57.00S,2,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,233,-17,0,Made,1,53,52,105,h,Oubre Jr. 3PT Jump Shot (3 PTS) (Martin 2 AST),Made Shot,Jump Shot,1,3,215
+0022101059,298,PT01M38.00S,2,1610612742,DAL,1628373,Ntilikina,F. Ntilikina,234,25,24,Missed,1,,,0,v,MISS Ntilikina 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,216
+0022101059,299,PT01M35.00S,2,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,Martin REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,217
+0022101059,300,PT01M33.00S,2,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith S.FOUL (P1.PN) (J.Williams),Foul,Shooting,1,0,218
+0022101059,302,PT01M33.00S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,219
+0022101059,303,PT01M33.00S,2,1610612742,DAL,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,SUB: Kleber FOR Ntilikina,Substitution,,0,0,220
+0022101059,304,PT01M33.00S,2,1610612742,DAL,1630182,Green,J. Green,0,0,0,,0,,,0,v,SUB: Brunson FOR Green,Substitution,,0,0,221
+0022101059,307,PT01M33.00S,2,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,54,52,106,h,Oubre Jr. Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,222
+0022101059,308,PT01M33.00S,2,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,55,52,107,h,Oubre Jr. Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,223
+0022101059,309,PT01M18.00S,2,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,Oubre Jr. S.FOUL (P2.T4) (J.Williams),Foul,Shooting,1,0,224
+0022101059,311,PT01M18.00S,2,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,MISS Doncic Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,225
+0022101059,312,PT01M18.00S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Normal Rebound,0,0,226
+0022101059,313,PT01M18.00S,2,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,SUB: Ball FOR Martin,Substitution,,0,0,227
+0022101059,315,PT01M18.00S,2,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,MISS Doncic Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,228
+0022101059,316,PT01M15.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,229
+0022101059,317,PT00M59.90S,2,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,1,270,27,Missed,1,,,0,h,MISS Oubre Jr. 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,230
+0022101059,318,PT00M57.50S,2,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,231
+0022101059,319,PT00M45.50S,2,1610612742,DAL,203939,Powell,D. Powell,-43,24,5,Missed,1,,,0,v,MISS Powell 5' Dunk,Missed Shot,Dunk Shot,1,2,232
+0022101059,319,PT00M45.50S,2,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball BLOCK (1 BLK),,,1,2,233
+0022101059,321,PT00M43.10S,2,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,Rozier REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,234
+0022101059,322,PT00M32.40S,2,1610612766,CHA,1629023,Washington,P. Washington,33,258,26,Made,1,58,52,110,h,Washington 26' 3PT Jump Shot (9 PTS) (Rozier 2 AST),Made Shot,Jump Shot,1,3,235
+0022101059,324,PT00M12.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,-233,-2,0,Missed,1,,,0,v,MISS Brunson 3PT Jump Shot,Missed Shot,Jump Shot,1,3,236
+0022101059,325,PT00M09.40S,2,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,237
+0022101059,326,PT00M04.50S,2,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,-214,154,26,Made,1,61,52,113,h,Oubre Jr. 26' 3PT Running Jump Shot (8 PTS) (Ball 3 AST),Made Shot,Running Jump Shot,1,3,238
+0022101059,329,PT00M00.00S,2,1610612742,DAL,203939,Powell,D. Powell,194,416,46,Missed,1,,,0,v,MISS Powell 46' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,239
+0022101059,330,PT00M00.00S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,240
+0022101059,331,PT00M00.00S,2,0,,0,,,0,0,0,,0,61,52,113,,End of 2nd Period (8:08 PM EST),period,end,1,0,241
+0022101059,334,PT12M00.00S,3,0,,0,,,0,0,0,,0,61,52,113,,Start of 3rd Period (8:24 PM EST),period,start,0,0,242
+0022101059,335,PT11M40.00S,3,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber Lost Ball Turnover (P1.T11),Turnover,Lost Ball,1,0,243
+0022101059,335,PT11M40.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges STEAL (1 STL),,,1,0,244
+0022101059,337,PT11M35.00S,3,1610612766,CHA,1629023,Washington,P. Washington,-9,5,1,Made,1,63,52,115,h,Washington 1' Running Dunk (11 PTS) (Bridges 3 AST),Made Shot,Running Dunk Shot,1,2,245
+0022101059,339,PT11M19.00S,3,1610612742,DAL,1628467,Kleber,M. Kleber,241,-8,24,Missed,1,,,0,v,MISS Kleber 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,246
+0022101059,340,PT11M16.00S,3,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,247
+0022101059,341,PT11M12.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,-162,195,25,Missed,1,,,0,h,MISS Rozier 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,248
+0022101059,342,PT11M09.00S,3,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,249
+0022101059,343,PT10M50.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,-137,216,26,Made,1,63,55,118,v,Doncic 26' 3PT Step Back Jump Shot (19 PTS),Made Shot,Step Back Jump shot,1,3,250
+0022101059,344,PT10M35.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,229,14,0,Missed,1,,,0,h,MISS Bridges 3PT Jump Shot,Missed Shot,Jump Shot,1,3,251
+0022101059,346,PT10M31.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,252
+0022101059,347,PT10M22.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,235,8,24,Missed,1,,,0,v,MISS Doncic 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,253
+0022101059,348,PT10M17.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,Rozier REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,254
+0022101059,349,PT10M14.00S,3,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee Offensive Charge Foul (P2) (S.Mehta),Foul,Offensive Charge,1,0,255
+0022101059,351,PT10M14.00S,3,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee Offensive Foul Turnover (P3.T7),Turnover,Offensive Foul Turnover,1,0,256
+0022101059,352,PT09M59.00S,3,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee S.FOUL (P3.T1) (J.Williams),Foul,Shooting,1,0,257
+0022101059,354,PT09M59.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,63,56,119,v,Doncic Free Throw 1 of 2 (20 PTS),Free Throw,Free Throw 1 of 2,1,0,258
+0022101059,355,PT09M59.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,63,57,120,v,Doncic Free Throw 2 of 2 (21 PTS),Free Throw,Free Throw 2 of 2,1,0,259
+0022101059,356,PT09M41.00S,3,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber P.FOUL (P3.T1) (J.Williams),Foul,Personal,1,0,260
+0022101059,358,PT09M33.00S,3,1610612766,CHA,1629023,Washington,P. Washington,-78,245,26,Made,1,66,57,123,h,Washington 26' 3PT Jump Shot (14 PTS) (Plumlee 4 AST),Made Shot,Jump Shot,1,3,261
+0022101059,360,PT09M17.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,6,52,5,Made,1,66,59,125,v,Doncic 5' Floating Jump Shot (23 PTS),Made Shot,Floating Jump shot,1,2,262
+0022101059,361,PT09M04.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,-229,-23,0,Made,1,69,59,128,h,Rozier 3PT Jump Shot (13 PTS) (Plumlee 5 AST),Made Shot,Jump Shot,1,3,263
+0022101059,363,PT08M52.00S,3,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee S.FOUL (P4.T2) (S.Mehta),Foul,Shooting,1,0,264
+0022101059,365,PT08M52.00S,3,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,69,60,129,v,Powell Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,265
+0022101059,366,PT08M52.00S,3,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,69,61,130,v,Powell Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,266
+0022101059,367,PT08M37.00S,3,1610612766,CHA,1629023,Washington,P. Washington,237,9,24,Missed,1,,,0,h,MISS Washington 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,267
+0022101059,368,PT08M35.00S,3,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,268
+0022101059,369,PT08M15.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,-47,256,26,Made,1,69,64,133,v,Doncic 26' 3PT Pullup Jump Shot (26 PTS) (Finney-Smith 1 AST),Made Shot,Pullup Jump shot,1,3,269
+0022101059,371,PT07M57.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic S.FOUL (P1.T2) (J.Williams),Foul,Shooting,1,0,270
+0022101059,373,PT07M57.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,70,64,134,h,Bridges Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,1,0,271
+0022101059,374,PT07M57.00S,3,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,SUB: Martin FOR Plumlee,Substitution,,0,0,272
+0022101059,376,PT07M57.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,71,64,135,h,Bridges Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,1,0,273
+0022101059,377,PT07M48.00S,3,1610612742,DAL,1628973,Brunson,J. Brunson,0,25,3,Missed,1,,,0,v,MISS Brunson 3' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,274
+0022101059,378,PT07M43.00S,3,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,275
+0022101059,379,PT07M40.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,-12,273,27,Made,1,71,67,138,v,Doncic 27' 3PT Step Back Jump Shot (29 PTS),Made Shot,Step Back Jump shot,1,3,276
+0022101059,380,PT07M29.00S,3,1610612766,CHA,1629023,Washington,P. Washington,66,246,25,Made,1,74,67,141,h,Washington 25' 3PT Jump Shot (17 PTS) (Ball 4 AST),Made Shot,Jump Shot,1,3,277
+0022101059,382,PT07M14.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,-56,34,7,Made,1,74,69,143,v,Doncic 7' Driving Floating Bank Jump Shot (31 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,278
+0022101059,383,PT07M06.00S,3,1610612766,CHA,1629023,Washington,P. Washington,48,257,26,Missed,1,,,0,h,MISS Washington 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,279
+0022101059,384,PT07M03.00S,3,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,280
+0022101059,385,PT06M41.00S,3,1610612742,DAL,1628467,Kleber,M. Kleber,-80,260,27,Made,1,74,72,146,v,Kleber 27' 3PT Jump Shot (7 PTS) (Doncic 3 AST),Made Shot,Jump Shot,1,3,281
+0022101059,387,PT06M40.00S,3,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,282
+0022101059,388,PT06M22.00S,3,1610612766,CHA,1630163,Ball,L. Ball,-203,153,25,Made,1,77,72,149,h,Ball 25' 3PT Jump Shot (9 PTS) (Rozier 3 AST),Made Shot,Jump Shot,1,3,283
+0022101059,390,PT05M58.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic OFF.Foul (P2) (J.Williams),Foul,Offensive,1,0,284
+0022101059,392,PT05M58.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic Offensive Foul Turnover (P3.T12),Turnover,Offensive Foul Turnover,1,0,285
+0022101059,393,PT05M42.00S,3,1610612766,CHA,1629023,Washington,P. Washington,7,56,6,Made,1,79,72,151,h,Washington 6' Floating Jump Shot (19 PTS) (Martin 3 AST),Made Shot,Floating Jump shot,1,2,286
+0022101059,395,PT05M30.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,-2,20,2,Missed,1,,,0,v,MISS Doncic 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,287
+0022101059,395,PT05M30.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges BLOCK (2 BLK),,,1,2,288
+0022101059,397,PT05M27.00S,3,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,Martin REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,289
+0022101059,398,PT05M20.00S,3,1610612766,CHA,1630163,Ball,L. Ball,-25,166,17,Made,1,81,72,153,h,Ball 17' Step Back Jump Shot (11 PTS),Made Shot,Step Back Jump shot,1,2,290
+0022101059,399,PT05M03.00S,3,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball P.FOUL (P1.T3) (S.Mehta),Foul,Personal,1,0,291
+0022101059,401,PT05M03.00S,3,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,SUB: Burke FOR Powell,Substitution,,0,0,292
+0022101059,402,PT05M03.00S,3,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,SUB: Ntilikina FOR Brunson,Substitution,,0,0,293
+0022101059,405,PT04M55.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,15,25,3,Missed,1,,,0,v,MISS Finney-Smith 3' Cutting Dunk Shot,Missed Shot,Cutting Dunk Shot,1,2,294
+0022101059,406,PT04M53.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,295
+0022101059,407,PT04M39.00S,3,1610612766,CHA,1629023,Washington,P. Washington,7,-5,1,Made,1,83,72,155,h,Washington 1' Cutting Dunk Shot (21 PTS) (Ball 5 AST),Made Shot,Cutting Dunk Shot,1,2,296
+0022101059,409,PT04M39.00S,3,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,297
+0022101059,410,PT04M20.00S,3,1610612742,DAL,1628373,Ntilikina,F. Ntilikina,-234,70,24,Missed,1,,,0,v,MISS Ntilikina 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,298
+0022101059,411,PT04M16.00S,3,1610612742,DAL,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,299
+0022101059,412,PT04M15.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,-229,-4,0,Missed,1,,,0,v,MISS Finney-Smith 3PT Jump Shot,Missed Shot,Jump Shot,1,3,300
+0022101059,413,PT04M15.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,301
+0022101059,414,PT04M02.00S,3,1610612742,DAL,203504,Burke,T. Burke,0,0,0,,0,,,0,v,Burke S.FOUL (P3.T3) (K.Lane),Foul,Shooting,1,0,302
+0022101059,416,PT04M02.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,84,72,156,h,Bridges Free Throw 1 of 2 (15 PTS),Free Throw,Free Throw 1 of 2,1,0,303
+0022101059,417,PT04M02.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,85,72,157,h,Bridges Free Throw 2 of 2 (16 PTS),Free Throw,Free Throw 2 of 2,0,0,304
+0022101059,418,PT03M49.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges S.FOUL (P2.T4) (K.Lane),Foul,Shooting,1,0,305
+0022101059,420,PT03M49.00S,3,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,85,73,158,v,Kleber Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,306
+0022101059,421,PT03M49.00S,3,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,85,74,159,v,Kleber Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,307
+0022101059,422,PT03M31.00S,3,1610612766,CHA,1628998,Martin,C. Martin,147,9,15,Made,1,87,74,161,h,Martin 15' Fadeaway Jumper (4 PTS) (Ball 6 AST),Made Shot,Fadeaway Jump Shot,1,2,308
+0022101059,424,PT03M18.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic Bad Pass Turnover (P4.T13),Turnover,Bad Pass,1,0,309
+0022101059,424,PT03M18.00S,3,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball STEAL (4 STL),,,1,0,310
+0022101059,426,PT03M17.00S,3,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber Personal Take Foul (P4.T4) (K.Lane),Foul,Personal Take,1,0,311
+0022101059,428,PT03M17.00S,3,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,SUB: Oubre Jr. FOR Ball,Substitution,,0,0,312
+0022101059,430,PT03M10.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,-195,161,25,Missed,1,,,0,h,MISS Rozier 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,313
+0022101059,431,PT03M06.00S,3,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,314
+0022101059,432,PT03M00.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,-118,110,16,Made,1,87,76,163,v,Doncic 16' Driving Floating Bank Jump Shot (33 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,315
+0022101059,433,PT03M00.00S,3,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,Oubre Jr. S.FOUL (P3.PN) (S.Mehta),Foul,Shooting,1,0,316
+0022101059,435,PT03M00.00S,3,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,SUB: Green FOR Kleber,Substitution,,0,0,317
+0022101059,437,PT03M00.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,87,77,164,v,Doncic Free Throw 1 of 1 (34 PTS),Free Throw,Free Throw 1 of 1,1,0,318
+0022101059,438,PT02M37.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,-100,199,22,Missed,1,,,0,h,MISS Bridges 22' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,319
+0022101059,439,PT02M31.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,Rozier REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,320
+0022101059,441,PT02M29.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,17,24,3,Made,1,89,77,166,h,Bridges 3' Layup (18 PTS) (Rozier 4 AST),Made Shot,Layup Shot,1,2,321
+0022101059,442,PT02M29.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith Violation:Defensive Goaltending (K.Lane),Violation,Defensive Goaltending,1,0,322
+0022101059,443,PT02M15.00S,3,1610612742,DAL,1628373,Ntilikina,F. Ntilikina,0,69,7,Missed,1,,,0,v,MISS Ntilikina 7' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,323
+0022101059,444,PT02M13.00S,3,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,324
+0022101059,445,PT02M05.00S,3,1610612766,CHA,1629023,Washington,P. Washington,9,5,1,Missed,1,,,0,h,MISS Washington 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,325
+0022101059,446,PT02M02.00S,3,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,Oubre Jr. REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,326
+0022101059,447,PT01M57.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,12,13,2,Made,1,91,77,168,h,Bridges 2' Driving Finger Roll Layup (20 PTS) (Rozier 5 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,327
+0022101059,449,PT01M46.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,-1,279,28,Made,1,91,80,171,v,Doncic 28' 3PT Step Back Jump Shot (37 PTS),Made Shot,Step Back Jump shot,1,3,328
+0022101059,450,PT01M30.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,-16,31,3,Made,1,93,80,173,h,Rozier 3' Driving Finger Roll Layup (15 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,329
+0022101059,451,PT01M15.00S,3,1610612742,DAL,203504,Burke,T. Burke,-22,169,17,Missed,1,,,0,v,MISS Burke 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,330
+0022101059,452,PT01M12.00S,3,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,Martin REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,331
+0022101059,453,PT00M58.20S,3,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,134,241,28,Made,1,96,80,176,h,Oubre Jr. 28' 3PT Jump Shot (11 PTS) (Rozier 6 AST),Made Shot,Jump Shot,1,3,332
+0022101059,455,PT00M48.20S,3,1610612742,DAL,1628373,Ntilikina,F. Ntilikina,-202,10,20,Missed,1,,,0,v,MISS Ntilikina 20' Jump Shot,Missed Shot,Jump Shot,1,2,333
+0022101059,456,PT00M45.30S,3,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,Rozier REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,334
+0022101059,457,PT00M28.50S,3,1610612766,CHA,1626179,Rozier,T. Rozier,-138,216,26,Made,1,99,80,179,h,Rozier 26' 3PT Step Back Jump Shot (18 PTS),Made Shot,Step Back Jump shot,1,3,335
+0022101059,458,PT00M10.30S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,2,25,3,Missed,1,,,0,v,MISS Finney-Smith 3' Dunk,Missed Shot,Dunk Shot,1,2,336
+0022101059,458,PT00M10.30S,3,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,Martin BLOCK (1 BLK),,,1,2,337
+0022101059,460,PT00M07.30S,3,1610612742,DAL,1630182,Green,J. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,338
+0022101059,461,PT00M05.30S,3,1610612742,DAL,203504,Burke,T. Burke,-94,248,27,Missed,1,,,0,v,MISS Burke 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,339
+0022101059,462,PT00M03.30S,3,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,Martin REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,340
+0022101059,463,PT00M00.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,-145,209,25,Made,1,102,80,182,h,Bridges 25' 3PT Running Jump Shot (23 PTS) (Martin 4 AST),Made Shot,Running Jump Shot,1,3,341
+0022101059,465,PT00M00.00S,3,0,,463,,,0,0,0,,0,102,80,182,,Instant Replay3rd Period (8:50 PM EST),Instant Replay,Support Ruling,0,0,342
+0022101059,466,PT00M00.00S,3,0,,0,,,0,0,0,,0,102,80,182,,End of 3rd Period (8:50 PM EST),period,end,1,0,343
+0022101059,480,PT12M00.00S,4,0,,0,,,0,0,0,,0,102,80,182,,Start of 4th Period (8:52 PM EST),period,start,0,0,344
+0022101059,481,PT11M42.00S,4,1610612766,CHA,1628998,Martin,C. Martin,18,21,3,Missed,1,,,0,h,MISS Martin 3' Layup,Missed Shot,Layup Shot,1,2,345
+0022101059,482,PT11M40.00S,4,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,Martin REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,346
+0022101059,483,PT11M37.00S,4,1610612766,CHA,1629667,McDaniels,J. McDaniels,-237,-1,24,Missed,1,,,0,h,MISS McDaniels 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,347
+0022101059,484,PT11M35.00S,4,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,348
+0022101059,485,PT11M32.00S,4,1610612766,CHA,1630163,Ball,L. Ball,-179,192,26,Made,1,105,80,185,h,Ball 26' 3PT Jump Shot (14 PTS) (Harrell 1 AST),Made Shot,Jump Shot,1,3,349
+0022101059,487,PT11M15.00S,4,1610612742,DAL,202722,Bertans,D. Bertans,-234,-1,0,Missed,1,,,0,v,MISS Bertans 3PT Jump Shot,Missed Shot,Jump Shot,1,3,350
+0022101059,488,PT11M13.00S,4,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,Martin REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,351
+0022101059,489,PT10M59.00S,4,1610612766,CHA,1626149,Harrell,M. Harrell,-18,5,2,Missed,1,,,0,h,MISS Harrell 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,352
+0022101059,490,PT10M58.00S,4,1610612742,DAL,1627737,Chriss,M. Chriss,0,0,0,,0,,,0,v,Chriss REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,353
+0022101059,491,PT10M55.00S,4,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball P.FOUL (P2.T1) (J.Williams),Foul,Personal,1,0,354
+0022101059,493,PT10M48.00S,4,1610612742,DAL,1628373,Ntilikina,F. Ntilikina,-192,33,19,Made,1,105,82,187,v,Ntilikina 19' Jump Shot (7 PTS) (Bertans 1 AST),Made Shot,Jump Shot,1,2,355
+0022101059,495,PT10M20.00S,4,1610612766,CHA,1630163,Ball,L. Ball,195,164,25,Made,1,108,82,190,h,Ball 25' 3PT Jump Shot (17 PTS) (Harrell 2 AST),Made Shot,Jump Shot,1,3,356
+0022101059,497,PT10M06.00S,4,1610612742,DAL,203504,Burke,T. Burke,0,0,0,,0,,,0,v,Burke Bad Pass Turnover (P3.T14),Turnover,Bad Pass,1,0,357
+0022101059,497,PT10M06.00S,4,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,Martin STEAL (2 STL),,,1,0,358
+0022101059,499,PT10M00.00S,4,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,235,120,26,Missed,1,,,0,h,MISS Oubre Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,359
+0022101059,500,PT09M58.00S,4,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell REBOUND (Off:3 Def:0),Rebound,Unknown,1,0,360
+0022101059,501,PT09M58.00S,4,1610612766,CHA,1626149,Harrell,M. Harrell,2,6,1,Made,1,110,82,192,h,Harrell 1' Layup (9 PTS),Made Shot,Layup Shot,1,2,361
+0022101059,502,PT09M58.00S,4,1610612742,DAL,202722,Bertans,D. Bertans,0,0,0,,0,,,0,v,Bertans S.FOUL (P4.T1) (J.Williams),Foul,Shooting,1,0,362
+0022101059,504,PT09M58.00S,4,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,MISS Harrell Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,363
+0022101059,505,PT09M55.00S,4,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,Martin REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,364
+0022101059,506,PT09M52.00S,4,1610612766,CHA,1626149,Harrell,M. Harrell,-13,9,2,Made,1,112,82,194,h,Harrell 2' Cutting Layup Shot (11 PTS) (Martin 5 AST),Made Shot,Cutting Layup Shot,1,2,365
+0022101059,508,PT09M37.00S,4,1610612742,DAL,202722,Bertans,D. Bertans,17,-10,2,Missed,1,,,0,v,MISS Bertans 2' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,366
+0022101059,509,PT09M33.00S,4,1610612742,DAL,1627737,Chriss,M. Chriss,0,0,0,,0,,,0,v,Chriss REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,367
+0022101059,510,PT09M33.00S,4,1610612742,DAL,1627737,Chriss,M. Chriss,0,0,0,Missed,1,,,0,v,MISS Chriss Putback Dunk,Missed Shot,Putback Dunk Shot,1,2,368
+0022101059,511,PT09M33.00S,4,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,McDaniels REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,369
+0022101059,512,PT09M33.00S,4,1610612742,DAL,202722,Bertans,D. Bertans,0,0,0,,0,,,0,v,Bertans Personal Take Foul (P5.T2) (J.Williams),Foul,Personal Take,1,0,370
+0022101059,514,PT09M25.00S,4,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,-6,-2,1,Made,1,114,82,196,h,Oubre Jr. 1' Driving Layup (13 PTS) (Harrell 3 AST),Made Shot,Driving Layup Shot,1,2,371
+0022101059,516,PT09M12.00S,4,1610612742,DAL,203504,Burke,T. Burke,-1,83,8,Made,1,114,84,198,v,Burke 8' Driving Floating Jump Shot (2 PTS) (Ntilikina 1 AST),Made Shot,Driving Floating Jump Shot,1,2,372
+0022101059,517,PT08M53.00S,4,1610612766,CHA,1630163,Ball,L. Ball,-184,-1,18,Missed,1,,,0,h,MISS Ball 18' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,373
+0022101059,518,PT08M51.00S,4,1610612742,DAL,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,374
+0022101059,519,PT08M43.00S,4,1610612742,DAL,1628373,Ntilikina,F. Ntilikina,-6,22,2,Made,1,114,86,200,v,Ntilikina 2' Driving Layup (9 PTS),Made Shot,Driving Layup Shot,1,2,375
+0022101059,521,PT08M26.00S,4,1610612766,CHA,1629667,McDaniels,J. McDaniels,1,30,3,Made,1,116,86,202,h,McDaniels 3' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,376
+0022101059,522,PT08M13.00S,4,1610612742,DAL,203504,Burke,T. Burke,-66,2,7,Missed,1,,,0,v,MISS Burke 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,377
+0022101059,523,PT08M11.00S,4,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,Oubre Jr. REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,378
+0022101059,524,PT08M07.00S,4,1610612742,DAL,202722,Bertans,D. Bertans,0,0,0,,0,,,0,v,Bertans S.FOUL (P6.T3) (K.Lane),Foul,Shooting,1,0,379
+0022101059,526,PT08M07.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Violation: Delay of game Violation,Violation,Delay Of Game,0,0,380
+0022101059,527,PT08M07.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,381
+0022101059,528,PT08M07.00S,4,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,SUB: Thomas FOR Martin,Substitution,,0,0,382
+0022101059,529,PT08M07.00S,4,1610612742,DAL,202722,Bertans,D. Bertans,0,0,0,,0,,,0,v,SUB: Green FOR Bertans,Substitution,,0,0,383
+0022101059,532,PT08M07.00S,4,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,MISS McDaniels Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,384
+0022101059,533,PT08M07.00S,4,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Normal Rebound,0,0,385
+0022101059,534,PT08M07.00S,4,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,117,86,203,h,McDaniels Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,386
+0022101059,535,PT07M55.00S,4,1610612742,DAL,1630182,Green,J. Green,0,11,1,Made,1,117,88,205,v,Green 1' Driving Dunk (7 PTS),Made Shot,Driving Dunk Shot,1,2,387
+0022101059,536,PT07M41.00S,4,1610612766,CHA,1630163,Ball,L. Ball,1,25,3,Missed,1,,,0,h,MISS Ball 3' Layup,Missed Shot,Layup Shot,1,2,388
+0022101059,537,PT07M39.00S,4,1610612742,DAL,1627737,Chriss,M. Chriss,0,0,0,,0,,,0,v,Chriss REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,389
+0022101059,538,PT07M34.00S,4,1610612742,DAL,203504,Burke,T. Burke,89,243,26,Missed,1,,,0,v,MISS Burke 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,390
+0022101059,539,PT07M30.00S,4,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,391
+0022101059,540,PT07M21.00S,4,1610612742,DAL,1628425,Brown,S. Brown,0,0,0,,0,,,0,v,Brown P.FOUL (P2.T4) (S.Mehta),Foul,Personal,1,0,392
+0022101059,542,PT07M14.00S,4,1610612766,CHA,202738,Thomas,I. Thomas,94,58,11,Made,1,119,88,207,h,Thomas 11' Pullup Jump Shot (8 PTS) (Harrell 4 AST),Made Shot,Pullup Jump shot,1,2,393
+0022101059,544,PT06M59.00S,4,1610612742,DAL,203504,Burke,T. Burke,-76,154,17,Missed,1,,,0,v,MISS Burke 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,394
+0022101059,545,PT06M58.00S,4,1610612742,DAL,1627737,Chriss,M. Chriss,0,0,0,,0,,,0,v,Chriss REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,395
+0022101059,546,PT06M58.00S,4,1610612742,DAL,1627737,Chriss,M. Chriss,16,11,2,Made,1,119,90,209,v,Chriss 2' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,396
+0022101059,547,PT06M58.00S,4,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball S.FOUL (P3.T2) (S.Mehta),Foul,Shooting,1,0,397
+0022101059,549,PT06M58.00S,4,1610612742,DAL,1627737,Chriss,M. Chriss,0,0,0,,0,,,0,v,MISS Chriss Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,398
+0022101059,550,PT06M56.00S,4,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,399
+0022101059,551,PT06M41.00S,4,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,234,25,24,Missed,1,,,0,h,MISS Oubre Jr. 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,400
+0022101059,552,PT06M37.00S,4,1610612742,DAL,1627737,Chriss,M. Chriss,0,0,0,,0,,,0,v,Chriss REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,401
+0022101059,553,PT06M31.00S,4,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell S.FOUL (P2.T3) (K.Lane),Foul,Shooting,1,0,402
+0022101059,555,PT06M31.00S,4,1610612742,DAL,1627737,Chriss,M. Chriss,0,0,0,,0,119,91,210,v,Chriss Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,403
+0022101059,556,PT06M31.00S,4,1610612742,DAL,1627737,Chriss,M. Chriss,0,0,0,,0,,,0,v,MISS Chriss Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,404
+0022101059,557,PT06M26.00S,4,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,405
+0022101059,558,PT06M13.00S,4,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,4,-17,2,Made,1,121,91,212,h,Oubre Jr. 2' Cutting Dunk Shot (15 PTS) (Ball 7 AST),Made Shot,Cutting Dunk Shot,1,2,406
+0022101059,560,PT06M01.00S,4,1610612742,DAL,1627737,Chriss,M. Chriss,156,217,27,Missed,1,,,0,v,MISS Chriss 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,407
+0022101059,561,PT05M59.00S,4,1610612742,DAL,1630182,Green,J. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,408
+0022101059,562,PT05M56.00S,4,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,McDaniels S.FOUL (P2.T4) (J.Williams),Foul,Shooting,1,0,409
+0022101059,564,PT05M56.00S,4,1610612742,DAL,1628425,Brown,S. Brown,0,0,0,,0,121,92,213,v,Brown Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,410
+0022101059,565,PT05M56.00S,4,1610612742,DAL,1628425,Brown,S. Brown,0,0,0,,0,121,93,214,v,Brown Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,411
+0022101059,566,PT05M45.00S,4,1610612742,DAL,203504,Burke,T. Burke,0,0,0,,0,,,0,v,Burke S.FOUL (P4.PN) (K.Lane),Foul,Shooting,1,0,412
+0022101059,568,PT05M45.00S,4,1610612766,CHA,202738,Thomas,I. Thomas,0,0,0,,0,122,93,215,h,Thomas Free Throw 1 of 3 (9 PTS),Free Throw,Free Throw 1 of 3,1,0,413
+0022101059,569,PT05M45.00S,4,1610612766,CHA,202738,Thomas,I. Thomas,0,0,0,,0,123,93,216,h,Thomas Free Throw 2 of 3 (10 PTS),Free Throw,Free Throw 2 of 3,1,0,414
+0022101059,570,PT05M45.00S,4,1610612766,CHA,202738,Thomas,I. Thomas,0,0,0,,0,124,93,217,h,Thomas Free Throw 3 of 3 (11 PTS),Free Throw,Free Throw 3 of 3,1,0,415
+0022101059,571,PT05M30.00S,4,1610612742,DAL,1628425,Brown,S. Brown,75,20,8,Missed,1,,,0,v,MISS Brown 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,416
+0022101059,572,PT05M29.00S,4,1610612742,DAL,1628425,Brown,S. Brown,0,0,0,,0,,,0,v,Brown REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,417
+0022101059,574,PT05M19.00S,4,1610612742,DAL,1628373,Ntilikina,F. Ntilikina,-1,17,2,Made,1,124,95,219,v,Ntilikina 2' Driving Layup (11 PTS),Made Shot,Driving Layup Shot,1,2,418
+0022101059,576,PT04M56.00S,4,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,SUB: Thor FOR Ball,Substitution,,0,0,419
+0022101059,578,PT04M52.00S,4,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,118,222,25,Missed,1,,,0,h,MISS Oubre Jr. 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,420
+0022101059,579,PT04M49.00S,4,1610612742,DAL,1627737,Chriss,M. Chriss,0,0,0,,0,,,0,v,Chriss REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,421
+0022101059,580,PT04M39.00S,4,1610612742,DAL,1628425,Brown,S. Brown,-230,2,0,Missed,1,,,0,v,MISS Brown 3PT Jump Shot,Missed Shot,Jump Shot,1,3,422
+0022101059,581,PT04M38.00S,4,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,Oubre Jr. REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,423
+0022101059,582,PT04M19.00S,4,1610612766,CHA,1629667,McDaniels,J. McDaniels,-4,36,4,Missed,1,,,0,h,MISS McDaniels 4' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,424
+0022101059,583,PT04M16.00S,4,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell REBOUND (Off:4 Def:2),Rebound,Unknown,1,0,425
+0022101059,584,PT04M16.00S,4,1610612742,DAL,1628425,Brown,S. Brown,0,0,0,,0,,,0,v,Brown S.FOUL (P3.PN) (S.Mehta),Foul,Shooting,1,0,426
+0022101059,586,PT04M16.00S,4,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell T.FOUL (P2.T4) (S.Mehta),Foul,Technical,1,0,427
+0022101059,587,PT04M16.00S,4,1610612742,DAL,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,124,96,220,v,Ntilikina Free Throw Technical (12 PTS),Free Throw,Free Throw Technical,1,0,428
+0022101059,588,PT04M16.00S,4,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,125,96,221,h,Harrell Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,1,0,429
+0022101059,589,PT04M16.00S,4,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,126,96,222,h,Harrell Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,430
+0022101059,590,PT04M06.00S,4,1610612742,DAL,203504,Burke,T. Burke,-82,239,25,Missed,1,,,0,v,MISS Burke 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,431
+0022101059,591,PT04M04.00S,4,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Unknown,0,0,432
+0022101059,593,PT04M04.00S,4,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,SUB: Richards FOR Harrell,Substitution,,0,0,433
+0022101059,595,PT03M45.00S,4,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,69,25,7,Missed,1,,,0,h,MISS Oubre Jr. 7' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,434
+0022101059,596,PT03M41.00S,4,1610612766,CHA,1630208,Richards,N. Richards,0,0,0,,0,,,0,h,Richards REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,435
+0022101059,597,PT03M40.00S,4,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,2,4,0,Missed,1,,,0,h,MISS Oubre Jr. Layup,Missed Shot,Layup Shot,1,2,436
+0022101059,597,PT03M40.00S,4,1610612742,DAL,1627737,Chriss,M. Chriss,0,0,0,,0,,,0,v,Chriss BLOCK (2 BLK),,,1,2,437
+0022101059,599,PT03M40.00S,4,1610612742,DAL,1627737,Chriss,M. Chriss,0,0,0,,0,,,0,v,Chriss REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,438
+0022101059,600,PT03M31.00S,4,1610612742,DAL,1627737,Chriss,M. Chriss,-1,15,2,Made,1,126,98,224,v,Chriss 2' Cutting Dunk Shot (5 PTS) (Green 2 AST),Made Shot,Cutting Dunk Shot,1,2,439
+0022101059,602,PT03M18.00S,4,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,McDaniels Traveling Turnover (P1.T8),Turnover,Traveling,1,0,440
+0022101059,603,PT02M56.00S,4,1610612742,DAL,203504,Burke,T. Burke,235,48,24,Missed,1,,,0,v,MISS Burke 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,441
+0022101059,604,PT02M53.00S,4,1610612742,DAL,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,442
+0022101059,605,PT02M51.00S,4,1610612742,DAL,1627737,Chriss,M. Chriss,16,11,2,Missed,1,,,0,v,MISS Chriss 2' Dunk,Missed Shot,Dunk Shot,1,2,443
+0022101059,605,PT02M51.00S,4,1610612766,CHA,1630208,Richards,N. Richards,0,0,0,,0,,,0,h,Richards BLOCK (1 BLK),,,1,2,444
+0022101059,607,PT02M51.00S,4,1610612766,CHA,202738,Thomas,I. Thomas,0,0,0,,0,,,0,h,Thomas REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,445
+0022101059,608,PT02M42.00S,4,1610612766,CHA,202738,Thomas,I. Thomas,-6,14,2,Missed,1,,,0,h,MISS Thomas 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,446
+0022101059,609,PT02M40.00S,4,1610612742,DAL,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,447
+0022101059,610,PT02M37.00S,4,1610612742,DAL,203504,Burke,T. Burke,-212,137,25,Made,1,126,101,227,v,Burke 25' 3PT Running Jump Shot (5 PTS) (Ntilikina 2 AST),Made Shot,Running Jump Shot,1,3,448
+0022101059,612,PT02M22.00S,4,1610612742,DAL,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina S.FOUL (P2.PN) (J.Williams),Foul,Shooting,1,0,449
+0022101059,614,PT02M22.00S,4,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,450
+0022101059,615,PT02M22.00S,4,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,MISS McDaniels Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,451
+0022101059,616,PT02M22.00S,4,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Normal Rebound,0,0,452
+0022101059,617,PT02M22.00S,4,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,127,101,228,h,McDaniels Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,453
+0022101059,618,PT02M05.00S,4,1610612742,DAL,1630182,Green,J. Green,26,25,4,Missed,1,,,0,v,MISS Green 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,454
+0022101059,619,PT02M02.00S,4,1610612742,DAL,1627737,Chriss,M. Chriss,0,0,0,,0,,,0,v,Chriss REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,455
+0022101059,620,PT02M02.00S,4,1610612742,DAL,1627737,Chriss,M. Chriss,0,0,0,Missed,1,,,0,v,MISS Chriss Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,456
+0022101059,621,PT02M01.00S,4,1610612766,CHA,1630550,Thor,J. Thor,0,0,0,,0,,,0,h,Thor REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,457
+0022101059,622,PT01M51.00S,4,1610612766,CHA,1630208,Richards,N. Richards,0,0,0,,0,,,0,h,Richards Palming Turnover (P1.T9),Turnover,Palming Turnover,1,0,458
+0022101059,623,PT01M32.00S,4,1610612742,DAL,1627737,Chriss,M. Chriss,25,17,3,Made,1,127,103,230,v,Chriss 3' Layup (7 PTS) (Ntilikina 3 AST),Made Shot,Layup Shot,1,2,459
+0022101059,625,PT01M32.00S,4,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,McDaniels S.FOUL (P3.PN) (S.Mehta),Foul,Shooting,1,0,460
+0022101059,627,PT01M32.00S,4,1610612742,DAL,1627737,Chriss,M. Chriss,0,0,0,,0,127,104,231,v,Chriss Free Throw 1 of 1 (8 PTS),Free Throw,Free Throw 1 of 1,1,0,461
+0022101059,628,PT01M18.00S,4,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,0,46,5,Missed,1,,,0,h,MISS Oubre Jr. 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,462
+0022101059,628,PT01M18.00S,4,1610612742,DAL,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina BLOCK (1 BLK),,,1,2,463
+0022101059,629,PT01M15.00S,4,1610612742,DAL,1628425,Brown,S. Brown,0,0,0,,0,,,0,v,Brown REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,464
+0022101059,630,PT01M12.00S,4,1610612742,DAL,1627737,Chriss,M. Chriss,4,5,1,Made,1,127,106,233,v,Chriss 1' Cutting Dunk Shot (10 PTS) (Burke 1 AST),Made Shot,Cutting Dunk Shot,1,2,465
+0022101059,632,PT01M01.00S,4,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,-6,24,2,Made,1,129,106,235,h,Oubre Jr. 2' Cutting Dunk Shot (17 PTS) (Thomas 2 AST),Made Shot,Cutting Dunk Shot,1,2,466
+0022101059,634,PT00M52.20S,4,1610612742,DAL,203504,Burke,T. Burke,75,125,15,Missed,1,,,0,v,MISS Burke 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,467
+0022101059,635,PT00M50.00S,4,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,Oubre Jr. REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,468
+0022101059,636,PT00M39.60S,4,1610612766,CHA,1630550,Thor,J. Thor,-71,9,7,Missed,1,,,0,h,MISS Thor 7' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,469
+0022101059,637,PT00M37.60S,4,1610612742,DAL,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,470
+0022101059,638,PT00M35.60S,4,1610612742,DAL,1630182,Green,J. Green,12,12,2,Made,1,129,108,237,v,Green 2' Running Dunk (9 PTS) (Ntilikina 4 AST),Made Shot,Running Dunk Shot,1,2,471
+0022101059,640,PT00M27.90S,4,1610612766,CHA,202738,Thomas,I. Thomas,-172,194,26,Missed,1,,,0,h,MISS Thomas 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,472
+0022101059,641,PT00M25.70S,4,1610612742,DAL,1628425,Brown,S. Brown,0,0,0,,0,,,0,v,Brown REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,473
+0022101059,643,PT00M03.30S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Turnover: Shot Clock (T#15),Turnover,Shot Clock Turnover,0,0,474
+0022101059,644,PT00M00.00S,4,0,,0,,,0,0,0,,0,129,108,237,,End of 4th Period (9:21 PM EST),period,end,1,0,475

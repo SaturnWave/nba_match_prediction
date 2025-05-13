@@ -1,0 +1,506 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022100834,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (8:11 PM EST),period,start,0,0,1
+0022100834,4,PT12M00.00S,1,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Jump Ball Wood vs. Achiuwa: Tip to Porter Jr.,Jump Ball,,1,0,2
+0022100834,7,PT11M41.00S,1,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,-230,11,0,Made,1,3,0,3,h,Porter Jr. 3PT Jump Shot (3 PTS) (Tate 1 AST),Made Shot,Jump Shot,1,3,3
+0022100834,9,PT11M16.00S,1,1610612761,TOR,1627783,Siakam,P. Siakam,9,6,1,Made,1,3,2,5,v,Siakam 1' Cutting Dunk Shot (2 PTS) (Achiuwa 1 AST),Made Shot,Cutting Dunk Shot,1,2,4
+0022100834,11,PT11M03.00S,1,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,-9,270,27,Made,1,6,2,8,h,Porter Jr. 27' 3PT Pullup Jump Shot (6 PTS),Made Shot,Pullup Jump shot,1,3,5
+0022100834,12,PT10M56.00S,1,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. S.FOUL (P1.T1) (G.Petraitis),Foul,Shooting,1,0,6
+0022100834,14,PT10M56.00S,1,1610612761,TOR,1627783,Siakam,P. Siakam,0,0,0,,0,,,0,v,MISS Siakam Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,7
+0022100834,15,PT10M56.00S,1,0,,1610612761,,,0,0,0,,0,,,0,v,Raptors Rebound,Rebound,Normal Rebound,0,0,8
+0022100834,16,PT10M56.00S,1,1610612761,TOR,1627783,Siakam,P. Siakam,0,0,0,,0,6,3,9,v,Siakam Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,9
+0022100834,17,PT10M44.00S,1,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,2,2,0,Made,1,8,3,11,h,Porter Jr. Driving Finger Roll Layup (8 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,10
+0022100834,18,PT10M28.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,-89,234,25,Missed,1,,,0,v,MISS Barnes 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,11
+0022100834,19,PT10M28.00S,1,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,12
+0022100834,20,PT10M13.00S,1,1610612745,HOU,1626174,Wood,C. Wood,-135,228,26,Missed,1,,,0,h,MISS Wood 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,13
+0022100834,21,PT10M12.00S,1,1610612761,TOR,1627783,Siakam,P. Siakam,0,0,0,,0,,,0,v,Siakam REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,14
+0022100834,22,PT10M00.00S,1,1610612761,TOR,1627783,Siakam,P. Siakam,-45,115,12,Made,1,8,5,13,v,Siakam 12' Fadeaway Jumper (5 PTS),Made Shot,Fadeaway Jump Shot,1,2,15
+0022100834,23,PT09M42.00S,1,1610612745,HOU,1630256,Tate,J. Tate,-16,18,2,Missed,1,,,0,h,MISS Tate 2' Layup,Missed Shot,Layup Shot,1,2,16
+0022100834,25,PT09M41.00S,1,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,h,Tate REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,17
+0022100834,26,PT09M40.00S,1,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,-232,69,24,Made,1,11,5,16,h,Porter Jr. 24' 3PT Jump Shot (11 PTS) (Tate 2 AST),Made Shot,Jump Shot,1,3,18
+0022100834,28,PT09M13.00S,1,1610612761,TOR,1628384,Anunoby,O. Anunoby,-4,99,10,Missed,1,,,0,v,MISS Anunoby 10' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,19
+0022100834,29,PT09M12.00S,1,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,20
+0022100834,30,PT09M08.00S,1,1610612761,TOR,1627783,Siakam,P. Siakam,0,0,0,,0,,,0,v,Siakam S.FOUL (P1.T1) (G.Petraitis),Foul,Shooting,1,0,21
+0022100834,32,PT09M08.00S,1,1610612745,HOU,1629726,Mathews,G. Mathews,0,0,0,,0,12,5,17,h,Mathews Free Throw 1 of 3 (1 PTS),Free Throw,Free Throw 1 of 3,1,0,22
+0022100834,33,PT09M08.00S,1,1610612745,HOU,1629726,Mathews,G. Mathews,0,0,0,,0,,,0,h,MISS Mathews Free Throw 2 of 3,Free Throw,Free Throw 2 of 3,1,0,23
+0022100834,34,PT09M08.00S,1,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Rebound,Rebound,Normal Rebound,0,0,24
+0022100834,35,PT09M08.00S,1,1610612745,HOU,1629726,Mathews,G. Mathews,0,0,0,,0,13,5,18,h,Mathews Free Throw 3 of 3 (2 PTS),Free Throw,Free Throw 3 of 3,1,0,25
+0022100834,36,PT08M56.00S,1,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,147,203,25,Made,1,13,8,21,v,Trent Jr. 25' 3PT Jump Shot (3 PTS) (Barnes 1 AST),Made Shot,Jump Shot,1,3,26
+0022100834,38,PT08M38.00S,1,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,h,Tate Out of Bounds - Bad Pass Turnover Turnover (P1.T1),Turnover,Out of Bounds - Bad Pass Turnover,1,0,27
+0022100834,39,PT08M20.00S,1,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,162,198,26,Missed,1,,,0,v,MISS Trent Jr. 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,28
+0022100834,40,PT08M20.00S,1,1610612745,HOU,1629726,Mathews,G. Mathews,0,0,0,,0,,,0,h,Mathews REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,29
+0022100834,41,PT08M09.00S,1,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,30
+0022100834,41,PT08M09.00S,1,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,0,0,0,,0,,,0,v,Trent Jr. STEAL (1 STL),,,1,0,31
+0022100834,43,PT08M03.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,232,62,24,Missed,1,,,0,v,MISS Barnes 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,32
+0022100834,44,PT08M02.00S,1,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,33
+0022100834,46,PT07M52.00S,1,1610612745,HOU,1629726,Mathews,G. Mathews,-7,23,2,Made,1,15,8,23,h,Mathews 2' Cutting Layup Shot (4 PTS) (Porter Jr. 1 AST),Made Shot,Cutting Layup Shot,1,2,34
+0022100834,48,PT07M44.00S,1,1610612745,HOU,1629726,Mathews,G. Mathews,0,0,0,,0,,,0,h,Mathews P.FOUL (P1.T2) (B.Kennedy),Foul,Personal,1,0,35
+0022100834,50,PT07M37.00S,1,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. P.FOUL (P2.T3) (B.Kennedy),Foul,Personal,1,0,36
+0022100834,52,PT07M30.00S,1,1610612761,TOR,1630173,Achiuwa,P. Achiuwa,43,26,5,Made,1,15,10,25,v,Achiuwa 5' Driving Floating Bank Jump Shot (2 PTS) (Trent Jr. 1 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,37
+0022100834,54,PT07M13.00S,1,1610612745,HOU,1626174,Wood,C. Wood,-15,11,2,Made,1,17,10,27,h,Wood 2' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,38
+0022100834,55,PT06M59.00S,1,1610612761,TOR,1627783,Siakam,P. Siakam,2,253,25,Missed,1,,,0,v,MISS Siakam 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,39
+0022100834,56,PT06M59.00S,1,1610612761,TOR,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,40
+0022100834,57,PT06M49.00S,1,1610612761,TOR,1630173,Achiuwa,P. Achiuwa,20,9,2,Made,1,17,12,29,v,Achiuwa 2' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,41
+0022100834,58,PT06M39.00S,1,1610612745,HOU,1629726,Mathews,G. Mathews,-141,268,30,Made,1,20,12,32,h,Mathews 30' 3PT Jump Shot (7 PTS) (Tate 3 AST),Made Shot,Jump Shot,1,3,42
+0022100834,60,PT06M37.00S,1,0,,1610612761,,,0,0,0,,0,,,0,v,Raptors Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,43
+0022100834,61,PT06M37.00S,1,1610612761,TOR,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,SUB: Banton FOR Achiuwa,Substitution,,0,0,44
+0022100834,62,PT06M37.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,v,SUB: Boucher FOR Barnes,Substitution,,0,0,45
+0022100834,65,PT06M14.00S,1,1610612761,TOR,1627783,Siakam,P. Siakam,4,83,8,Missed,1,,,0,v,MISS Siakam 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,46
+0022100834,66,PT06M14.00S,1,1610612745,HOU,1630224,Green,J. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,47
+0022100834,67,PT06M01.00S,1,1610612745,HOU,1630224,Green,J. Green,0,18,2,Made,1,22,12,34,h,Green 2' Driving Dunk (2 PTS) (Porter Jr. 2 AST),Made Shot,Driving Dunk Shot,1,2,48
+0022100834,70,PT05M45.00S,1,1610612745,HOU,1630224,Green,J. Green,0,0,0,,0,,,0,h,Green S.FOUL (P1.T4) (B.Kennedy),Foul,Shooting,1,0,49
+0022100834,72,PT05M45.00S,1,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,0,0,0,,0,,,0,v,MISS Trent Jr. Free Throw 1 of 3,Free Throw,Free Throw 1 of 3,1,0,50
+0022100834,73,PT05M45.00S,1,0,,1610612761,,,0,0,0,,0,,,0,v,Raptors Rebound,Rebound,Normal Rebound,0,0,51
+0022100834,74,PT05M45.00S,1,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,0,0,0,,0,22,13,35,v,Trent Jr. Free Throw 2 of 3 (4 PTS),Free Throw,Free Throw 2 of 3,1,0,52
+0022100834,75,PT05M45.00S,1,1610612745,HOU,1630224,Green,J. Green,0,0,0,,0,,,0,h,SUB: Martin Jr. FOR Green,Substitution,,0,0,53
+0022100834,77,PT05M45.00S,1,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,0,0,0,,0,22,14,36,v,Trent Jr. Free Throw 3 of 3 (5 PTS),Free Throw,Free Throw 3 of 3,1,0,54
+0022100834,78,PT05M35.00S,1,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,h,Martin Jr. Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,55
+0022100834,78,PT05M35.00S,1,1610612761,TOR,1630625,Banton,D. Banton,0,0,0,,0,,,0,v,Banton STEAL (1 STL),,,1,0,56
+0022100834,80,PT05M31.00S,1,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,6,10,1,Made,1,22,16,38,v,Trent Jr. 1' Running Dunk (7 PTS) (Banton 1 AST),Made Shot,Running Dunk Shot,1,2,57
+0022100834,82,PT05M14.00S,1,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,13,1,Made,1,24,16,40,h,Porter Jr. 1' Cutting Layup Shot (13 PTS) (Wood 1 AST),Made Shot,Cutting Layup Shot,1,2,58
+0022100834,84,PT04M55.00S,1,1610612761,TOR,1627783,Siakam,P. Siakam,-45,113,12,Missed,1,,,0,v,MISS Siakam 12' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,59
+0022100834,85,PT04M55.00S,1,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,60
+0022100834,86,PT04M47.00S,1,1610612745,HOU,1630231,Martin,K. Martin,2,11,1,Made,1,26,16,42,h,Martin Jr. 1' Cutting Dunk Shot (2 PTS) (Wood 2 AST),Made Shot,Cutting Dunk Shot,1,2,61
+0022100834,88,PT04M32.00S,1,1610612761,TOR,1630625,Banton,D. Banton,1,4,0,Made,1,26,18,44,v,Banton Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,62
+0022100834,89,PT04M21.00S,1,1610612761,TOR,1630625,Banton,D. Banton,0,0,0,,0,,,0,v,Banton P.FOUL (P1.T2) (M.Myers),Foul,Personal,1,0,63
+0022100834,91,PT04M21.00S,1,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,h,SUB: Sengun FOR Tate,Substitution,,0,0,64
+0022100834,92,PT04M21.00S,1,1610612761,TOR,1628384,Anunoby,O. Anunoby,0,0,0,,0,,,0,v,SUB: Barnes FOR Anunoby,Substitution,,0,0,65
+0022100834,95,PT04M14.00S,1,1610612745,HOU,1629726,Mathews,G. Mathews,-74,249,26,Missed,1,,,0,h,MISS Mathews 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,66
+0022100834,96,PT04M12.00S,1,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,h,Martin Jr. REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,67
+0022100834,97,PT04M10.00S,1,1610612745,HOU,1630231,Martin,K. Martin,7,18,2,Made,1,28,18,46,h,Martin Jr. 2' Putback Dunk (4 PTS),Made Shot,Putback Dunk Shot,1,2,68
+0022100834,98,PT03M56.00S,1,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,168,185,25,Made,1,28,21,49,v,Trent Jr. 25' 3PT Step Back Jump Shot (10 PTS),Made Shot,Step Back Jump shot,1,3,69
+0022100834,99,PT03M46.00S,1,1610612745,HOU,1629726,Mathews,G. Mathews,-211,231,31,Missed,1,,,0,h,MISS Mathews 31' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,70
+0022100834,100,PT03M45.00S,1,1610612761,TOR,1630625,Banton,D. Banton,0,0,0,,0,,,0,v,Banton REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,71
+0022100834,101,PT03M37.00S,1,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,26,245,25,Made,1,28,24,52,v,Trent Jr. 25' 3PT Jump Shot (13 PTS) (Banton 2 AST),Made Shot,Jump Shot,1,3,72
+0022100834,103,PT03M21.00S,1,1610612745,HOU,1626174,Wood,C. Wood,-1,13,1,Made,1,30,24,54,h,Wood 1' Cutting Dunk Shot (4 PTS) (Porter Jr. 3 AST),Made Shot,Cutting Dunk Shot,1,2,73
+0022100834,105,PT02M54.00S,1,1610612761,TOR,1630625,Banton,D. Banton,167,193,26,Missed,1,,,0,v,MISS Banton 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,74
+0022100834,106,PT02M54.00S,1,1610612761,TOR,1628449,Boucher,C. Boucher,0,0,0,,0,,,0,v,Boucher REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,75
+0022100834,107,PT02M53.00S,1,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood S.FOUL (P1.PN) (M.Myers),Foul,Shooting,1,0,76
+0022100834,109,PT02M53.00S,1,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,77
+0022100834,110,PT02M53.00S,1,1610612761,TOR,1627783,Siakam,P. Siakam,0,0,0,,0,,,0,v,SUB: Anunoby FOR Siakam,Substitution,,0,0,78
+0022100834,112,PT02M53.00S,1,1610612761,TOR,1628449,Boucher,C. Boucher,0,0,0,,0,30,25,55,v,Boucher Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,79
+0022100834,113,PT02M53.00S,1,1610612761,TOR,1628449,Boucher,C. Boucher,0,0,0,,0,30,26,56,v,Boucher Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,80
+0022100834,114,PT02M48.00S,1,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,h,Martin Jr. Lost Ball Turnover (P2.T4),Turnover,Lost Ball,1,0,81
+0022100834,114,PT02M48.00S,1,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,0,0,0,,0,,,0,v,Trent Jr. STEAL (2 STL),,,1,0,82
+0022100834,116,PT02M46.00S,1,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,-1,1,0,Made,1,30,28,58,v,Trent Jr. Layup (15 PTS),Made Shot,Layup Shot,1,2,83
+0022100834,118,PT02M35.00S,1,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,h,Martin Jr. Out of Bounds Lost Ball Turnover (P3.T5),Turnover,Out of Bounds Lost Ball Turnover,1,0,84
+0022100834,119,PT02M35.00S,1,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,h,SUB: Christopher FOR Porter Jr.,Substitution,,0,0,85
+0022100834,120,PT02M35.00S,1,1610612745,HOU,1629726,Mathews,G. Mathews,0,0,0,,0,,,0,h,SUB: Green FOR Mathews,Substitution,,0,0,86
+0022100834,123,PT02M23.00S,1,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,-102,131,17,Made,1,30,30,60,v,Trent Jr. 17' Step Back Jump Shot (17 PTS),Made Shot,Step Back Jump shot,1,2,87
+0022100834,124,PT02M16.00S,1,1610612745,HOU,1630528,Christopher,J. Christopher,0,0,0,,0,,,0,h,Christopher Bad Pass Turnover (P1.T6),Turnover,Bad Pass,1,0,88
+0022100834,124,PT02M16.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,v,Barnes STEAL (1 STL),,,1,0,89
+0022100834,126,PT02M13.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,1,6,1,Made,1,30,32,62,v,Barnes 1' Layup (2 PTS),Made Shot,Layup Shot,1,2,90
+0022100834,127,PT02M12.00S,1,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,91
+0022100834,128,PT02M12.00S,1,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,SUB: Tate FOR Wood,Substitution,,0,0,92
+0022100834,130,PT02M06.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,v,Barnes P.FOUL (P1.T3) (G.Petraitis),Foul,Personal,1,0,93
+0022100834,132,PT01M56.00S,1,1610612745,HOU,1630224,Green,J. Green,2,23,2,Missed,1,,,0,h,MISS Green 2' Driving Dunk,Missed Shot,Driving Dunk Shot,1,2,94
+0022100834,133,PT01M54.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,v,Barnes REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,95
+0022100834,134,PT01M52.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,v,Barnes Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,96
+0022100834,134,PT01M52.00S,1,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,h,Tate STEAL (1 STL),,,1,0,97
+0022100834,136,PT01M51.00S,1,1610612745,HOU,1630256,Tate,J. Tate,1,16,2,Made,1,32,32,64,h,Tate 2' Running Finger Roll Layup (2 PTS),Made Shot,Running Finger Roll Layup Shot,1,2,98
+0022100834,137,PT01M51.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,v,Barnes S.FOUL (P2.T4) (B.Kennedy),Foul,Shooting,1,0,99
+0022100834,139,PT01M51.00S,1,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,33,32,65,h,Tate Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,1,0,100
+0022100834,140,PT01M33.00S,1,1610612761,TOR,1628384,Anunoby,O. Anunoby,-202,145,25,Missed,1,,,0,v,MISS Anunoby 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,101
+0022100834,141,PT01M32.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,v,Barnes REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,102
+0022100834,142,PT01M26.00S,1,1610612761,TOR,1628449,Boucher,C. Boucher,163,199,26,Missed,1,,,0,v,MISS Boucher 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,103
+0022100834,143,PT01M23.00S,1,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,h,Tate REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,104
+0022100834,144,PT01M11.00S,1,1610612745,HOU,1630224,Green,J. Green,225,54,0,Made,1,36,32,68,h,Green 3PT Jump Shot (5 PTS) (Sengun 1 AST),Made Shot,Jump Shot,1,3,105
+0022100834,146,PT00M57.30S,1,1610612761,TOR,1628384,Anunoby,O. Anunoby,-23,14,3,Missed,1,,,0,v,MISS Anunoby 3' Driving Dunk,Missed Shot,Driving Dunk Shot,1,2,106
+0022100834,146,PT00M57.30S,1,1610612745,HOU,1630578,Sengun,A. Sengun,0,0,0,,0,,,0,h,Sengun BLOCK (1 BLK),,,1,2,107
+0022100834,148,PT00M56.70S,1,1610612761,TOR,1630625,Banton,D. Banton,0,0,0,,0,,,0,v,Banton REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,108
+0022100834,149,PT00M56.70S,1,1610612761,TOR,1630625,Banton,D. Banton,2,13,1,Made,1,36,34,70,v,Banton 1' Putback Layup (4 PTS),Made Shot,Putback Layup Shot,1,2,109
+0022100834,150,PT00M46.00S,1,1610612745,HOU,1630256,Tate,J. Tate,-28,17,3,Made,1,38,34,72,h,Tate 3' Driving Layup (5 PTS),Made Shot,Driving Layup Shot,1,2,110
+0022100834,151,PT00M36.00S,1,1610612761,TOR,1630567,Barnes,S. Barnes,-237,73,25,Made,1,38,37,75,v,Barnes 25' 3PT Jump Shot (5 PTS) (Trent Jr. 2 AST),Made Shot,Jump Shot,1,3,111
+0022100834,153,PT00M19.50S,1,1610612745,HOU,1630528,Christopher,J. Christopher,-230,39,0,Made,1,41,37,78,h,Christopher 3PT Jump Shot (3 PTS) (Sengun 2 AST),Made Shot,Jump Shot,1,3,112
+0022100834,155,PT00M00.00S,1,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,-121,216,25,Missed,1,,,0,v,MISS Trent Jr. 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,113
+0022100834,156,PT00M00.00S,1,0,,1610612761,,,0,0,0,,0,,,0,v,Raptors Rebound,Rebound,Unknown,0,0,114
+0022100834,213,PT00M00.00S,1,0,,0,,,0,0,0,,0,41,37,78,,Instant Replay1st Period (8:38 PM EST),Instant Replay,Support Ruling,0,0,115
+0022100834,157,PT00M00.00S,1,0,,0,,,0,0,0,,0,41,37,78,,End of 1st Period (8:38 PM EST),period,end,1,0,116
+0022100834,166,PT12M00.00S,2,0,,0,,,0,0,0,,0,41,37,78,,Start of 2nd Period (8:41 PM EST),period,start,0,0,117
+0022100834,167,PT11M45.00S,2,1610612761,TOR,1628384,Anunoby,O. Anunoby,-6,75,8,Made,1,41,39,80,v,Anunoby 8' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,118
+0022100834,168,PT11M23.00S,2,1610612745,HOU,1630578,Sengun,A. Sengun,-18,18,3,Missed,1,,,0,h,MISS Sengun 3' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,119
+0022100834,168,PT11M23.00S,2,1610612761,TOR,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa BLOCK (1 BLK),,,1,2,120
+0022100834,170,PT11M19.00S,2,1610612761,TOR,1630201,Flynn,M. Flynn,0,0,0,,0,,,0,v,Flynn REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,121
+0022100834,171,PT11M09.00S,2,1610612761,TOR,1627783,Siakam,P. Siakam,44,27,5,Made,1,41,41,82,v,Siakam 5' Turnaround Bank Hook Shot (7 PTS),Made Shot,Turnaround Bank Hook Shot,1,2,122
+0022100834,172,PT11M00.00S,2,1610612745,HOU,1630528,Christopher,J. Christopher,135,211,25,Missed,1,,,0,h,MISS Christopher 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,123
+0022100834,173,PT10M58.00S,2,0,,1610612761,,,0,0,0,,0,,,0,v,Raptors Rebound,Rebound,Unknown,0,0,124
+0022100834,175,PT10M45.00S,2,1610612761,TOR,1627783,Siakam,P. Siakam,28,78,8,Made,1,41,43,84,v,Siakam 8' Driving Floating Jump Shot (9 PTS) (Flynn 1 AST),Made Shot,Driving Floating Jump Shot,1,2,125
+0022100834,176,PT10M24.00S,2,1610612745,HOU,1630224,Green,J. Green,-27,268,27,Missed,1,,,0,h,MISS Green 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,126
+0022100834,177,PT10M19.00S,2,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Rebound,Rebound,Unknown,0,0,127
+0022100834,179,PT10M06.00S,2,1610612745,HOU,1630578,Sengun,A. Sengun,-22,11,2,Missed,1,,,0,h,MISS Sengun 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,128
+0022100834,180,PT10M05.00S,2,1610612761,TOR,1628384,Anunoby,O. Anunoby,0,0,0,,0,,,0,v,Anunoby REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,129
+0022100834,181,PT09M53.00S,2,1610612761,TOR,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,130
+0022100834,181,PT09M53.00S,2,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,h,Martin Jr. STEAL (1 STL),,,1,0,131
+0022100834,183,PT09M49.00S,2,1610612745,HOU,1630224,Green,J. Green,-58,70,9,Made,1,43,43,86,h,Green 9' Pullup Jump Shot (7 PTS) (Tate 4 AST),Made Shot,Pullup Jump shot,1,2,132
+0022100834,184,PT09M49.00S,2,1610612761,TOR,1630201,Flynn,M. Flynn,0,0,0,,0,,,0,v,Flynn S.FOUL (P1.T1) (B.Kennedy),Foul,Shooting,1,0,133
+0022100834,186,PT09M49.00S,2,1610612745,HOU,1630224,Green,J. Green,0,0,0,,0,,,0,h,MISS Green Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,134
+0022100834,187,PT09M49.00S,2,1610612745,HOU,1630578,Sengun,A. Sengun,0,0,0,,0,,,0,h,Sengun REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,135
+0022100834,188,PT09M48.00S,2,1610612761,TOR,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa P.FOUL (P1.T2) (M.Myers),Foul,Personal,1,0,136
+0022100834,190,PT09M39.00S,2,1610612761,TOR,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa P.FOUL (P2.T3) (G.Petraitis),Foul,Personal,1,0,137
+0022100834,192,PT09M29.00S,2,1610612745,HOU,1630224,Green,J. Green,5,5,1,Made,1,45,43,88,h,Green 1' Cutting Layup Shot (9 PTS) (Sengun 3 AST),Made Shot,Cutting Layup Shot,1,2,138
+0022100834,194,PT09M18.00S,2,1610612761,TOR,1628384,Anunoby,O. Anunoby,-115,224,25,Missed,1,,,0,v,MISS Anunoby 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,139
+0022100834,195,PT09M17.00S,2,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,h,Martin Jr. REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,140
+0022100834,197,PT09M01.00S,2,1610612745,HOU,1630231,Martin,K. Martin,7,80,8,Missed,1,,,0,h,MISS Martin Jr. 8' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,141
+0022100834,198,PT09M00.00S,2,1610612761,TOR,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,142
+0022100834,199,PT08M50.00S,2,1610612761,TOR,1629139,Watanabe,Y. Watanabe,120,222,25,Missed,1,,,0,v,MISS Watanabe 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,143
+0022100834,200,PT08M46.00S,2,1610612745,HOU,1630528,Christopher,J. Christopher,0,0,0,,0,,,0,h,Christopher REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,144
+0022100834,201,PT08M34.00S,2,1610612745,HOU,1630231,Martin,K. Martin,5,32,3,Missed,1,,,0,h,MISS Martin Jr. 3' Cutting Dunk Shot,Missed Shot,Cutting Dunk Shot,1,2,145
+0022100834,201,PT08M34.00S,2,1610612761,TOR,1629139,Watanabe,Y. Watanabe,0,0,0,,0,,,0,v,Watanabe BLOCK (1 BLK),,,1,2,146
+0022100834,203,PT08M31.00S,2,1610612761,TOR,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,147
+0022100834,204,PT08M26.00S,2,1610612761,TOR,1628384,Anunoby,O. Anunoby,0,0,0,,0,,,0,v,Anunoby OFF.Foul (P1) (M.Myers),Foul,Offensive,1,0,148
+0022100834,206,PT08M26.00S,2,1610612761,TOR,1628384,Anunoby,O. Anunoby,0,0,0,,0,,,0,v,Anunoby Offensive Foul Turnover (P1.T3),Turnover,Offensive Foul Turnover,1,0,149
+0022100834,207,PT08M26.00S,2,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,h,SUB: Nwaba FOR Tate,Substitution,,0,0,150
+0022100834,208,PT08M26.00S,2,1610612761,TOR,1628384,Anunoby,O. Anunoby,0,0,0,,0,,,0,v,SUB: Birch FOR Anunoby,Substitution,,0,0,151
+0022100834,209,PT08M26.00S,2,1610612761,TOR,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,SUB: Barnes FOR Achiuwa,Substitution,,0,0,152
+0022100834,214,PT08M01.00S,2,1610612745,HOU,1630528,Christopher,J. Christopher,-2,10,1,Missed,1,,,0,h,MISS Christopher 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,153
+0022100834,215,PT07M57.00S,2,1610612745,HOU,1628021,Nwaba,D. Nwaba,0,0,0,,0,,,0,h,Nwaba REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,154
+0022100834,216,PT07M57.00S,2,1610612745,HOU,1628021,Nwaba,D. Nwaba,0,0,0,Made,1,47,43,90,h,Nwaba Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,155
+0022100834,217,PT07M51.00S,2,1610612745,HOU,1630528,Christopher,J. Christopher,0,0,0,,0,,,0,h,Christopher P.FOUL (P1.T1) (G.Petraitis),Foul,Personal,1,0,156
+0022100834,219,PT07M51.00S,2,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,h,SUB: Wood FOR Martin Jr.,Substitution,,0,0,157
+0022100834,221,PT07M42.00S,2,1610612761,TOR,1627783,Siakam,P. Siakam,-10,71,7,Made,1,47,45,92,v,Siakam 7' Turnaround Hook Shot (11 PTS),Made Shot,Turnaround Hook Shot,1,2,158
+0022100834,222,PT07M25.00S,2,1610612761,TOR,1629139,Watanabe,Y. Watanabe,0,0,0,,0,,,0,v,Watanabe P.FOUL (P1.T4) (B.Kennedy),Foul,Personal,1,0,159
+0022100834,224,PT07M25.00S,2,1610612761,TOR,1629139,Watanabe,Y. Watanabe,0,0,0,,0,,,0,v,SUB: Trent Jr. FOR Watanabe,Substitution,,0,0,160
+0022100834,227,PT07M10.00S,2,1610612745,HOU,1630528,Christopher,J. Christopher,222,69,0,Missed,1,,,0,h,MISS Christopher 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,161
+0022100834,228,PT07M09.00S,2,1610612761,TOR,203920,Birch,K. Birch,0,0,0,,0,,,0,v,Birch REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,162
+0022100834,229,PT07M02.00S,2,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,-12,3,1,Made,1,47,47,94,v,Trent Jr. 1' Cutting Layup Shot (19 PTS) (Siakam 1 AST),Made Shot,Cutting Layup Shot,1,2,163
+0022100834,231,PT07M02.00S,2,1610612745,HOU,1628021,Nwaba,D. Nwaba,0,0,0,,0,,,0,h,Nwaba S.FOUL (P1.T2) (G.Petraitis),Foul,Shooting,1,0,164
+0022100834,233,PT07M02.00S,2,1610612745,HOU,1630528,Christopher,J. Christopher,0,0,0,,0,,,0,h,SUB: Porter Jr. FOR Christopher,Substitution,,0,0,165
+0022100834,235,PT07M02.00S,2,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,0,0,0,,0,47,48,95,v,Trent Jr. Free Throw 1 of 1 (20 PTS),Free Throw,Free Throw 1 of 1,1,0,166
+0022100834,237,PT06M47.00S,2,1610612745,HOU,1626174,Wood,C. Wood,0,16,2,Made,1,49,48,97,h,Wood 2' Dunk (6 PTS) (Sengun 4 AST),Made Shot,Dunk Shot,1,2,167
+0022100834,239,PT06M29.00S,2,1610612761,TOR,1627783,Siakam,P. Siakam,59,35,7,Made,1,49,50,99,v,Siakam 7' Driving Bank Hook Shot (13 PTS),Made Shot,Driving Bank Hook Shot,1,2,168
+0022100834,240,PT06M17.00S,2,1610612745,HOU,1628021,Nwaba,D. Nwaba,225,11,0,Missed,1,,,0,h,MISS Nwaba 3PT Jump Shot,Missed Shot,Jump Shot,1,3,169
+0022100834,241,PT06M14.00S,2,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,170
+0022100834,242,PT06M10.00S,2,1610612745,HOU,1626174,Wood,C. Wood,224,58,0,Missed,1,,,0,h,MISS Wood 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,171
+0022100834,243,PT06M06.00S,2,1610612745,HOU,1630578,Sengun,A. Sengun,0,0,0,,0,,,0,h,Sengun REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,172
+0022100834,244,PT06M03.00S,2,1610612745,HOU,1630578,Sengun,A. Sengun,0,0,0,,0,,,0,h,Sengun Lost Ball Turnover (P1.T7),Turnover,Lost Ball,1,0,173
+0022100834,244,PT06M03.00S,2,1610612761,TOR,1630201,Flynn,M. Flynn,0,0,0,,0,,,0,v,Flynn STEAL (1 STL),,,1,0,174
+0022100834,246,PT05M58.00S,2,1610612745,HOU,1628021,Nwaba,D. Nwaba,0,0,0,,0,,,0,h,Nwaba S.FOUL (P2.T3) (M.Myers),Foul,Shooting,1,0,175
+0022100834,248,PT05M58.00S,2,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,176
+0022100834,249,PT05M58.00S,2,1610612745,HOU,1630224,Green,J. Green,0,0,0,,0,,,0,h,SUB: Mathews FOR Green,Substitution,,0,0,177
+0022100834,251,PT05M58.00S,2,1610612761,TOR,1627783,Siakam,P. Siakam,0,0,0,,0,49,51,100,v,Siakam Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,178
+0022100834,252,PT05M58.00S,2,1610612761,TOR,1627783,Siakam,P. Siakam,0,0,0,,0,,,0,v,MISS Siakam Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,179
+0022100834,253,PT05M58.00S,2,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,v,Barnes REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,180
+0022100834,254,PT05M50.00S,2,1610612745,HOU,1630578,Sengun,A. Sengun,0,0,0,,0,,,0,h,Sengun S.FOUL (P1.T4) (B.Kennedy),Foul,Shooting,1,0,181
+0022100834,256,PT05M50.00S,2,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,0,0,0,,0,49,52,101,v,Trent Jr. Free Throw 1 of 2 (21 PTS),Free Throw,Free Throw 1 of 2,1,0,182
+0022100834,257,PT05M50.00S,2,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,0,0,0,,0,49,53,102,v,Trent Jr. Free Throw 2 of 2 (22 PTS),Free Throw,Free Throw 2 of 2,1,0,183
+0022100834,259,PT05M49.00S,2,1610612745,HOU,1630578,Sengun,A. Sengun,0,0,0,,0,,,0,h,Sengun Bad Pass Turnover (P2.T8),Turnover,Bad Pass,1,0,184
+0022100834,259,PT05M49.00S,2,1610612761,TOR,203920,Birch,K. Birch,0,0,0,,0,,,0,v,Birch STEAL (1 STL),,,1,0,185
+0022100834,261,PT05M46.00S,2,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,229,3,0,Missed,1,,,0,v,MISS Trent Jr. 3PT Jump Shot,Missed Shot,Jump Shot,1,3,186
+0022100834,262,PT05M44.00S,2,1610612761,TOR,1630201,Flynn,M. Flynn,0,0,0,,0,,,0,v,Flynn REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,187
+0022100834,263,PT05M37.00S,2,1610612761,TOR,1627783,Siakam,P. Siakam,-173,184,25,Made,1,49,56,105,v,Siakam 25' 3PT Jump Shot (17 PTS) (Flynn 2 AST),Made Shot,Jump Shot,1,3,188
+0022100834,264,PT05M16.00S,2,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,0,0,0,,0,,,0,v,Trent Jr. S.FOUL (P1.PN) (M.Myers),Foul,Shooting,1,0,189
+0022100834,266,PT05M16.00S,2,1610612745,HOU,1628021,Nwaba,D. Nwaba,0,0,0,,0,50,56,106,h,Nwaba Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,190
+0022100834,267,PT05M16.00S,2,1610612745,HOU,1630578,Sengun,A. Sengun,0,0,0,,0,,,0,h,SUB: Tate FOR Sengun,Substitution,,0,0,191
+0022100834,269,PT05M16.00S,2,1610612745,HOU,1628021,Nwaba,D. Nwaba,0,0,0,,0,51,56,107,h,Nwaba Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,192
+0022100834,270,PT05M05.00S,2,1610612761,TOR,1630201,Flynn,M. Flynn,2,5,1,Missed,1,,,0,v,MISS Flynn 1' Driving Bank Hook Shot,Missed Shot,Driving Bank Hook Shot,1,2,193
+0022100834,271,PT05M03.00S,2,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,194
+0022100834,272,PT05M03.00S,2,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood Double Dribble Turnover (P1.T9),Turnover,Double Dribble,1,0,195
+0022100834,273,PT05M03.00S,2,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,SUB: Sengun FOR Wood,Substitution,,0,0,196
+0022100834,275,PT04M51.00S,2,1610612761,TOR,1630201,Flynn,M. Flynn,-196,147,25,Made,1,51,59,110,v,Flynn 25' 3PT Step Back Jump Shot (3 PTS),Made Shot,Step Back Jump shot,1,3,197
+0022100834,276,PT04M33.00S,2,1610612745,HOU,1630256,Tate,J. Tate,-21,18,3,Made,1,53,59,112,h,Tate 3' Driving Layup (7 PTS) (Porter Jr. 4 AST),Made Shot,Driving Layup Shot,1,2,198
+0022100834,278,PT04M13.00S,2,1610612761,TOR,1627783,Siakam,P. Siakam,1,63,6,Made,1,53,61,114,v,Siakam 6' Driving Layup (19 PTS),Made Shot,Driving Layup Shot,1,2,199
+0022100834,279,PT04M01.00S,2,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,h,Tate Out of Bounds - Bad Pass Turnover Turnover (P2.T10),Turnover,Out of Bounds - Bad Pass Turnover,1,0,200
+0022100834,280,PT04M01.00S,2,1610612745,HOU,1628021,Nwaba,D. Nwaba,0,0,0,,0,,,0,h,SUB: Green FOR Nwaba,Substitution,,0,0,201
+0022100834,281,PT04M01.00S,2,1610612761,TOR,203920,Birch,K. Birch,0,0,0,,0,,,0,v,SUB: Boucher FOR Birch,Substitution,,0,0,202
+0022100834,284,PT03M54.00S,2,1610612761,TOR,1627783,Siakam,P. Siakam,18,262,26,Missed,1,,,0,v,MISS Siakam 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,203
+0022100834,285,PT03M52.00S,2,1610612745,HOU,1630578,Sengun,A. Sengun,0,0,0,,0,,,0,h,Sengun REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,204
+0022100834,286,PT03M52.00S,2,1610612761,TOR,1628449,Boucher,C. Boucher,0,0,0,,0,,,0,v,Boucher P.FOUL (P1.PN) (B.Kennedy),Foul,Personal,1,0,205
+0022100834,288,PT03M52.00S,2,1610612745,HOU,1630578,Sengun,A. Sengun,0,0,0,,0,,,0,h,MISS Sengun Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,206
+0022100834,289,PT03M52.00S,2,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Rebound,Rebound,Normal Rebound,0,0,207
+0022100834,290,PT03M52.00S,2,1610612745,HOU,1630578,Sengun,A. Sengun,0,0,0,,0,,,0,h,MISS Sengun Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,208
+0022100834,291,PT03M50.00S,2,1610612761,TOR,1630201,Flynn,M. Flynn,0,0,0,,0,,,0,v,Flynn REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,209
+0022100834,292,PT03M28.00S,2,1610612761,TOR,1627783,Siakam,P. Siakam,43,109,12,Made,1,53,63,116,v,Siakam 12' Turnaround Fadeaway (21 PTS),Made Shot,Turnaround Fadeaway shot,1,2,210
+0022100834,293,PT03M10.00S,2,1610612761,TOR,1628449,Boucher,C. Boucher,0,0,0,,0,,,0,v,Boucher S.FOUL (P2.PN) (G.Petraitis),Foul,Shooting,1,0,211
+0022100834,295,PT03M10.00S,2,1610612745,HOU,1630224,Green,J. Green,0,0,0,,0,,,0,h,MISS Green Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,212
+0022100834,296,PT03M10.00S,2,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Rebound,Rebound,Normal Rebound,0,0,213
+0022100834,298,PT03M10.00S,2,1610612745,HOU,1630224,Green,J. Green,0,0,0,,0,54,63,117,h,Green Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,214
+0022100834,299,PT03M00.00S,2,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,131,229,26,Made,1,54,66,120,v,Trent Jr. 26' 3PT Jump Shot (25 PTS) (Barnes 2 AST),Made Shot,Jump Shot,1,3,215
+0022100834,301,PT02M49.00S,2,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,-167,206,27,Missed,1,,,0,h,MISS Porter Jr. 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,216
+0022100834,302,PT02M47.00S,2,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,h,Tate REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,217
+0022100834,303,PT02M44.00S,2,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,-229,22,0,Made,1,57,66,123,h,Porter Jr. 3PT Jump Shot (16 PTS) (Tate 5 AST),Made Shot,Jump Shot,1,3,218
+0022100834,305,PT02M32.00S,2,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,0,0,0,,0,,,0,v,Trent Jr. Lost Ball Turnover (P1.T4),Turnover,Lost Ball,1,0,219
+0022100834,305,PT02M32.00S,2,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. STEAL (1 STL),,,1,0,220
+0022100834,307,PT02M32.00S,2,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,-99,251,27,Missed,1,,,0,h,MISS Porter Jr. 27' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,221
+0022100834,308,PT02M32.00S,2,1610612761,TOR,1628449,Boucher,C. Boucher,0,0,0,,0,,,0,v,Boucher REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,222
+0022100834,309,PT02M32.00S,2,1610612761,TOR,1627783,Siakam,P. Siakam,4,37,4,Made,1,57,68,125,v,Siakam 4' Driving Layup (23 PTS),Made Shot,Driving Layup Shot,1,2,223
+0022100834,310,PT02M32.00S,2,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,h,Tate S.FOUL (P1.PN) (G.Petraitis),Foul,Shooting,1,0,224
+0022100834,312,PT02M32.00S,2,1610612745,HOU,1630224,Green,J. Green,0,0,0,,0,,,0,h,Green T.FOUL (P1.PN) (G.Petraitis),Foul,Technical,0,0,225
+0022100834,313,PT02M32.00S,2,0,,1610612761,,,0,0,0,,0,,,0,v,Raptors Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,226
+0022100834,314,PT02M32.00S,2,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,0,0,0,,0,,,0,v,Trent Jr. T.FOUL (P1.PN) (B.Kennedy),Foul,Technical,0,0,227
+0022100834,315,PT02M32.00S,2,1610612761,TOR,1627783,Siakam,P. Siakam,0,0,0,,0,57,69,126,v,Siakam Free Throw 1 of 1 (24 PTS),Free Throw,Free Throw 1 of 1,1,0,228
+0022100834,316,PT02M14.00S,2,1610612745,HOU,1630578,Sengun,A. Sengun,-1,33,3,Missed,1,,,0,h,MISS Sengun 3' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,229
+0022100834,317,PT02M12.00S,2,0,,1610612761,,,0,0,0,,0,,,0,v,Raptors Rebound,Rebound,Unknown,0,0,230
+0022100834,318,PT02M12.00S,2,1610612761,TOR,1630201,Flynn,M. Flynn,0,0,0,,0,,,0,v,SUB: Anunoby FOR Flynn,Substitution,,0,0,231
+0022100834,320,PT01M57.00S,2,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,-154,198,25,Missed,1,,,0,v,MISS Trent Jr. 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,232
+0022100834,321,PT01M57.00S,2,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,h,Tate REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,233
+0022100834,322,PT01M33.00S,2,1610612745,HOU,1630256,Tate,J. Tate,-4,52,5,Made,1,59,69,128,h,Tate 5' Reverse Layup (9 PTS) (Porter Jr. 5 AST),Made Shot,Reverse Layup Shot,1,2,234
+0022100834,324,PT01M21.00S,2,1610612761,TOR,1628449,Boucher,C. Boucher,-21,11,2,Missed,1,,,0,v,MISS Boucher 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,235
+0022100834,325,PT01M19.00S,2,1610612745,HOU,1630578,Sengun,A. Sengun,0,0,0,,0,,,0,h,Sengun REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,236
+0022100834,326,PT01M15.00S,2,1610612745,HOU,1630256,Tate,J. Tate,-6,22,2,Made,1,61,69,130,h,Tate 2' Running Finger Roll Layup (11 PTS),Made Shot,Running Finger Roll Layup Shot,1,2,237
+0022100834,327,PT00M53.40S,2,1610612761,TOR,1630567,Barnes,S. Barnes,-228,36,0,Missed,1,,,0,v,MISS Barnes 3PT Jump Shot,Missed Shot,Jump Shot,1,3,238
+0022100834,328,PT00M52.20S,2,1610612761,TOR,1628449,Boucher,C. Boucher,0,0,0,,0,,,0,v,Boucher REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,239
+0022100834,329,PT00M51.80S,2,1610612745,HOU,1630578,Sengun,A. Sengun,0,0,0,,0,,,0,h,Sengun S.FOUL (P2.PN) (M.Myers),Foul,Shooting,1,0,240
+0022100834,331,PT00M51.80S,2,1610612761,TOR,1628449,Boucher,C. Boucher,0,0,0,,0,61,70,131,v,Boucher Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,241
+0022100834,332,PT00M51.80S,2,1610612745,HOU,1630578,Sengun,A. Sengun,0,0,0,,0,,,0,h,SUB: Wood FOR Sengun,Substitution,,0,0,242
+0022100834,334,PT00M51.80S,2,1610612761,TOR,1628449,Boucher,C. Boucher,0,0,0,,0,61,71,132,v,Boucher Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,243
+0022100834,335,PT00M33.50S,2,1610612745,HOU,1630224,Green,J. Green,170,186,25,Missed,1,,,0,h,MISS Green 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,244
+0022100834,336,PT00M31.20S,2,1610612745,HOU,1629726,Mathews,G. Mathews,0,0,0,,0,,,0,h,Mathews REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,245
+0022100834,337,PT00M31.20S,2,1610612745,HOU,1629726,Mathews,G. Mathews,0,23,2,Made,1,63,71,134,h,Mathews 2' Putback Layup (9 PTS),Made Shot,Putback Layup Shot,1,2,246
+0022100834,338,PT00M10.00S,2,1610612761,TOR,1627783,Siakam,P. Siakam,-132,136,19,Made,1,63,73,136,v,Siakam 19' Fadeaway Jumper (26 PTS),Made Shot,Fadeaway Jump Shot,1,2,247
+0022100834,339,PT00M03.90S,2,1610612761,TOR,1628449,Boucher,C. Boucher,0,0,0,,0,,,0,v,Boucher S.FOUL (P3.PN) (B.Kennedy),Foul,Shooting,1,0,248
+0022100834,341,PT00M03.90S,2,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,h,MISS Porter Jr. Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,249
+0022100834,342,PT00M03.90S,2,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Rebound,Rebound,Normal Rebound,0,0,250
+0022100834,343,PT00M03.90S,2,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,64,73,137,h,Porter Jr. Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,1,0,251
+0022100834,344,PT00M00.00S,2,1610612761,TOR,1628384,Anunoby,O. Anunoby,-116,193,23,Missed,1,,,0,v,MISS Anunoby 23' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,252
+0022100834,345,PT00M00.00S,2,0,,1610612761,,,0,0,0,,0,,,0,v,Raptors Rebound,Rebound,Unknown,0,0,253
+0022100834,346,PT00M00.00S,2,0,,0,,,0,0,0,,0,64,73,137,,End of 2nd Period (9:11 PM EST),period,end,1,0,254
+0022100834,349,PT12M00.00S,3,0,,0,,,0,0,0,,0,64,73,137,,Start of 3rd Period (9:26 PM EST),period,start,0,0,255
+0022100834,350,PT11M51.00S,3,1610612745,HOU,1629726,Mathews,G. Mathews,0,0,0,,0,,,0,h,Mathews P.FOUL (P2.T1) (G.Petraitis),Foul,Personal,1,0,256
+0022100834,352,PT11M43.00S,3,1610612761,TOR,1627783,Siakam,P. Siakam,0,0,0,,0,,,0,v,Siakam Out of Bounds - Bad Pass Turnover Turnover (P1.T5),Turnover,Out of Bounds - Bad Pass Turnover,1,0,257
+0022100834,353,PT11M33.00S,3,1610612761,TOR,1628384,Anunoby,O. Anunoby,0,0,0,,0,,,0,v,Anunoby P.FOUL (P2.T1) (M.Myers),Foul,Personal,1,0,258
+0022100834,355,PT11M20.00S,3,1610612745,HOU,1630224,Green,J. Green,-132,213,25,Made,1,67,73,140,h,Green 25' 3PT Step Back Jump Shot (13 PTS),Made Shot,Step Back Jump shot,1,3,259
+0022100834,356,PT11M05.00S,3,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,173,207,27,Missed,1,,,0,v,MISS Trent Jr. 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,260
+0022100834,357,PT11M05.00S,3,1610612745,HOU,1629726,Mathews,G. Mathews,0,0,0,,0,,,0,h,Mathews REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,261
+0022100834,358,PT10M51.00S,3,1610612745,HOU,1629726,Mathews,G. Mathews,-109,269,29,Missed,1,,,0,h,MISS Mathews 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,262
+0022100834,359,PT10M50.00S,3,1610612761,TOR,1627783,Siakam,P. Siakam,0,0,0,,0,,,0,v,Siakam REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,263
+0022100834,360,PT10M44.00S,3,1610612761,TOR,1627783,Siakam,P. Siakam,0,0,0,,0,,,0,v,Siakam Bad Pass Turnover (P2.T6),Turnover,Bad Pass,1,0,264
+0022100834,360,PT10M44.00S,3,1610612745,HOU,1629726,Mathews,G. Mathews,0,0,0,,0,,,0,h,Mathews STEAL (1 STL),,,1,0,265
+0022100834,362,PT10M32.00S,3,1610612745,HOU,1626174,Wood,C. Wood,-11,44,5,Missed,1,,,0,h,MISS Wood 5' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,266
+0022100834,363,PT10M31.00S,3,1610612761,TOR,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,267
+0022100834,364,PT10M23.00S,3,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,2,254,25,Made,1,67,76,143,v,Trent Jr. 25' 3PT Pullup Jump Shot (28 PTS) (Achiuwa 2 AST),Made Shot,Pullup Jump shot,1,3,268
+0022100834,366,PT09M57.00S,3,1610612745,HOU,1630224,Green,J. Green,-23,13,3,Missed,1,,,0,h,MISS Green 3' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,269
+0022100834,367,PT09M57.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,v,Barnes REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,270
+0022100834,368,PT09M55.00S,3,1610612761,TOR,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,Achiuwa Traveling Turnover (P2.T7),Turnover,Traveling,1,0,271
+0022100834,369,PT09M38.00S,3,1610612745,HOU,1626174,Wood,C. Wood,-161,192,25,Missed,1,,,0,h,MISS Wood 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,272
+0022100834,370,PT09M37.00S,3,1610612761,TOR,1628384,Anunoby,O. Anunoby,0,0,0,,0,,,0,v,Anunoby REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,273
+0022100834,371,PT09M28.00S,3,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,h,Tate P.FOUL (P2.T2) (G.Petraitis),Foul,Personal,1,0,274
+0022100834,373,PT09M23.00S,3,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood S.FOUL (P2.T3) (B.Kennedy),Foul,Shooting,1,0,275
+0022100834,375,PT09M23.00S,3,1610612761,TOR,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,67,77,144,v,Achiuwa Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,276
+0022100834,376,PT09M23.00S,3,1610612761,TOR,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,67,78,145,v,Achiuwa Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,277
+0022100834,377,PT09M05.00S,3,1610612745,HOU,1630256,Tate,J. Tate,-36,13,4,Missed,1,,,0,h,MISS Tate 4' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,278
+0022100834,378,PT09M04.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,v,Barnes REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,279
+0022100834,379,PT08M58.00S,3,1610612761,TOR,1630173,Achiuwa,P. Achiuwa,33,13,4,Missed,1,,,0,v,MISS Achiuwa 4' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,280
+0022100834,380,PT08M56.00S,3,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,281
+0022100834,381,PT08M55.00S,3,1610612761,TOR,1627783,Siakam,P. Siakam,0,0,0,,0,,,0,v,Siakam Personal Take Foul (P2.T2) (M.Myers),Foul,Personal Take,1,0,282
+0022100834,383,PT08M42.00S,3,1610612745,HOU,1629726,Mathews,G. Mathews,234,45,24,Missed,1,,,0,h,MISS Mathews 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,283
+0022100834,384,PT08M41.00S,3,1610612761,TOR,1627783,Siakam,P. Siakam,0,0,0,,0,,,0,v,Siakam REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,284
+0022100834,385,PT08M34.00S,3,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,-174,191,26,Missed,1,,,0,v,MISS Trent Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,285
+0022100834,386,PT08M31.00S,3,1610612761,TOR,1628384,Anunoby,O. Anunoby,0,0,0,,0,,,0,v,Anunoby REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,286
+0022100834,387,PT08M30.00S,3,1610612761,TOR,1628384,Anunoby,O. Anunoby,2,13,1,Made,1,67,80,147,v,Anunoby 1' Putback Layup (4 PTS),Made Shot,Putback Layup Shot,1,2,287
+0022100834,388,PT08M15.00S,3,1610612745,HOU,1630224,Green,J. Green,-4,9,1,Made,1,69,80,149,h,Green 1' Driving Dunk (15 PTS),Made Shot,Driving Dunk Shot,1,2,288
+0022100834,389,PT07M55.00S,3,1610612761,TOR,1628384,Anunoby,O. Anunoby,183,180,26,Missed,1,,,0,v,MISS Anunoby 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,289
+0022100834,390,PT07M54.00S,3,1610612745,HOU,1629726,Mathews,G. Mathews,0,0,0,,0,,,0,h,Mathews REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,290
+0022100834,391,PT07M45.00S,3,1610612745,HOU,1629726,Mathews,G. Mathews,-127,221,25,Made,1,72,80,152,h,Mathews 25' 3PT Jump Shot (12 PTS) (Wood 3 AST),Made Shot,Jump Shot,1,3,291
+0022100834,393,PT07M31.00S,3,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,-29,134,14,Missed,1,,,0,v,MISS Trent Jr. 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,292
+0022100834,394,PT07M29.00S,3,1610612745,HOU,1629726,Mathews,G. Mathews,0,0,0,,0,,,0,h,Mathews REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,293
+0022100834,395,PT07M25.00S,3,1610612761,TOR,1627783,Siakam,P. Siakam,0,0,0,,0,,,0,v,Siakam S.FOUL (P3.T3) (B.Kennedy),Foul,Shooting,1,0,294
+0022100834,397,PT07M25.00S,3,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,h,MISS Tate Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,295
+0022100834,398,PT07M25.00S,3,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Rebound,Rebound,Normal Rebound,0,0,296
+0022100834,399,PT07M25.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,v,SUB: Banton FOR Barnes,Substitution,,0,0,297
+0022100834,400,PT07M25.00S,3,1610612761,TOR,1630173,Achiuwa,P. Achiuwa,0,0,0,,0,,,0,v,SUB: Boucher FOR Achiuwa,Substitution,,0,0,298
+0022100834,403,PT07M25.00S,3,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,73,80,153,h,Tate Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,299
+0022100834,404,PT07M05.00S,3,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,2,8,1,Made,1,73,82,155,v,Trent Jr. 1' Driving Finger Roll Layup (30 PTS) (Siakam 2 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,300
+0022100834,406,PT06M59.00S,3,1610612761,TOR,1627783,Siakam,P. Siakam,0,0,0,,0,,,0,v,Siakam S.FOUL (P4.T4) (G.Petraitis),Foul,Shooting,1,0,301
+0022100834,408,PT06M59.00S,3,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,302
+0022100834,409,PT06M59.00S,3,1610612745,HOU,1629726,Mathews,G. Mathews,0,0,0,,0,,,0,h,MISS Mathews Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,303
+0022100834,410,PT06M59.00S,3,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Rebound,Rebound,Normal Rebound,0,0,304
+0022100834,411,PT06M59.00S,3,1610612745,HOU,1629726,Mathews,G. Mathews,0,0,0,,0,74,82,156,h,Mathews Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,305
+0022100834,412,PT06M41.00S,3,1610612761,TOR,1627783,Siakam,P. Siakam,-10,13,2,Made,1,74,84,158,v,Siakam 2' Driving Layup (28 PTS),Made Shot,Driving Layup Shot,1,2,306
+0022100834,413,PT06M34.00S,3,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,12,-1,1,Made,1,76,84,160,h,Porter Jr. 1' Driving Dunk (19 PTS),Made Shot,Driving Dunk Shot,1,2,307
+0022100834,414,PT06M19.00S,3,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,-33,120,12,Made,1,76,86,162,v,Trent Jr. 12' Turnaround Fadeaway (32 PTS),Made Shot,Turnaround Fadeaway shot,1,2,308
+0022100834,415,PT06M10.00S,3,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,-28,8,3,Made,1,78,86,164,h,Porter Jr. 3' Driving Finger Roll Layup (21 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,309
+0022100834,416,PT06M05.00S,3,1610612761,TOR,1630625,Banton,D. Banton,-154,212,26,Missed,1,,,0,v,MISS Banton 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,310
+0022100834,417,PT06M05.00S,3,1610612761,TOR,1628384,Anunoby,O. Anunoby,0,0,0,,0,,,0,v,Anunoby REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,311
+0022100834,418,PT06M05.00S,3,1610612761,TOR,1628384,Anunoby,O. Anunoby,174,189,26,Made,1,78,89,167,v,Anunoby 26' 3PT Jump Shot (7 PTS) (Siakam 3 AST),Made Shot,Jump Shot,1,3,312
+0022100834,421,PT05M48.00S,3,1610612745,HOU,1630224,Green,J. Green,-152,198,25,Made,1,81,89,170,h,Green 25' 3PT Jump Shot (18 PTS) (Wood 4 AST),Made Shot,Jump Shot,1,3,313
+0022100834,423,PT05M37.00S,3,1610612761,TOR,1628384,Anunoby,O. Anunoby,0,0,0,,0,,,0,v,Anunoby Offensive Charge Foul (P3) (M.Myers),Foul,Offensive Charge,1,0,314
+0022100834,425,PT05M37.00S,3,1610612761,TOR,1628384,Anunoby,O. Anunoby,0,0,0,,0,,,0,v,Anunoby Offensive Foul Turnover (P2.T8),Turnover,Offensive Foul Turnover,1,0,315
+0022100834,426,PT05M25.00S,3,1610612745,HOU,1630256,Tate,J. Tate,-33,25,4,Missed,1,,,0,h,MISS Tate 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,316
+0022100834,427,PT05M25.00S,3,1610612761,TOR,1630625,Banton,D. Banton,0,0,0,,0,,,0,v,Banton REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,317
+0022100834,428,PT05M17.00S,3,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,7,8,1,Made,1,81,91,172,v,Trent Jr. 1' Driving Layup (34 PTS),Made Shot,Driving Layup Shot,1,2,318
+0022100834,429,PT05M06.00S,3,1610612761,TOR,1630625,Banton,D. Banton,0,0,0,,0,,,0,v,Banton P.FOUL (P2.PN) (B.Kennedy),Foul,Personal,1,0,319
+0022100834,431,PT05M06.00S,3,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,MISS Wood Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,320
+0022100834,432,PT05M06.00S,3,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Rebound,Rebound,Normal Rebound,0,0,321
+0022100834,433,PT05M06.00S,3,1610612761,TOR,1628384,Anunoby,O. Anunoby,0,0,0,,0,,,0,v,SUB: Barnes FOR Anunoby,Substitution,,0,0,322
+0022100834,435,PT05M06.00S,3,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,82,91,173,h,Wood Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,323
+0022100834,436,PT04M43.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,223,17,0,Missed,1,,,0,v,MISS Barnes 3PT Jump Shot,Missed Shot,Jump Shot,1,3,324
+0022100834,437,PT04M42.00S,3,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,325
+0022100834,438,PT04M35.00S,3,1610612761,TOR,1627783,Siakam,P. Siakam,0,0,0,,0,,,0,v,Siakam P.FOUL (P5.PN) (G.Petraitis),Foul,Personal,1,0,326
+0022100834,440,PT04M35.00S,3,1610612745,HOU,1629726,Mathews,G. Mathews,0,0,0,,0,83,91,174,h,Mathews Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,327
+0022100834,441,PT04M35.00S,3,1610612761,TOR,1627783,Siakam,P. Siakam,0,0,0,,0,,,0,v,SUB: Anunoby FOR Siakam,Substitution,,0,0,328
+0022100834,443,PT04M35.00S,3,1610612745,HOU,1629726,Mathews,G. Mathews,0,0,0,,0,84,91,175,h,Mathews Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,329
+0022100834,444,PT04M17.00S,3,1610612761,TOR,1628449,Boucher,C. Boucher,-4,12,1,Made,1,84,93,177,v,Boucher 1' Dunk (6 PTS) (Trent Jr. 3 AST),Made Shot,Dunk Shot,1,2,330
+0022100834,446,PT04M04.00S,3,1610612745,HOU,1630224,Green,J. Green,45,10,5,Missed,1,,,0,h,MISS Green 5' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,331
+0022100834,447,PT04M03.00S,3,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,v,Barnes REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,332
+0022100834,448,PT04M02.00S,3,1610612761,TOR,1630625,Banton,D. Banton,0,0,0,,0,,,0,v,Banton OFF.Foul (P3) (B.Kennedy),Foul,Offensive,1,0,333
+0022100834,450,PT04M02.00S,3,1610612761,TOR,1630625,Banton,D. Banton,0,0,0,,0,,,0,v,Banton Offensive Foul Turnover (P1.T9),Turnover,Offensive Foul Turnover,1,0,334
+0022100834,451,PT04M02.00S,3,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,h,SUB: Martin Jr. FOR Tate,Substitution,,0,0,335
+0022100834,452,PT04M02.00S,3,1610612745,HOU,1629726,Mathews,G. Mathews,0,0,0,,0,,,0,h,SUB: Christopher FOR Mathews,Substitution,,0,0,336
+0022100834,455,PT03M50.00S,3,1610612745,HOU,1626174,Wood,C. Wood,-157,201,26,Made,1,87,93,180,h,Wood 26' 3PT Jump Shot (10 PTS) (Porter Jr. 6 AST),Made Shot,Jump Shot,1,3,337
+0022100834,457,PT03M37.00S,3,1610612761,TOR,1628449,Boucher,C. Boucher,-25,10,3,Missed,1,,,0,v,MISS Boucher 3' Layup,Missed Shot,Layup Shot,1,2,338
+0022100834,457,PT03M37.00S,3,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood BLOCK (1 BLK),,,1,2,339
+0022100834,459,PT03M34.00S,3,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,h,Martin Jr. REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,340
+0022100834,461,PT03M25.00S,3,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. Bad Pass Turnover (P2.T11),Turnover,Bad Pass,1,0,341
+0022100834,461,PT03M25.00S,3,1610612761,TOR,1628449,Boucher,C. Boucher,0,0,0,,0,,,0,v,Boucher STEAL (1 STL),,,1,0,342
+0022100834,463,PT03M22.00S,3,1610612761,TOR,1630625,Banton,D. Banton,0,16,2,Made,1,87,95,182,v,Banton 2' Running Dunk (6 PTS) (Barnes 3 AST),Made Shot,Running Dunk Shot,1,2,343
+0022100834,465,PT03M10.00S,3,1610612745,HOU,1630224,Green,J. Green,0,0,0,,0,,,0,h,Green Out of Bounds - Bad Pass Turnover Turnover (P1.T12),Turnover,Out of Bounds - Bad Pass Turnover,1,0,344
+0022100834,466,PT02M55.00S,3,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,15,10,2,Missed,1,,,0,v,MISS Trent Jr. 2' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,345
+0022100834,467,PT02M54.00S,3,1610612761,TOR,1628449,Boucher,C. Boucher,0,0,0,,0,,,0,v,Boucher REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,346
+0022100834,468,PT02M53.00S,3,1610612761,TOR,1628449,Boucher,C. Boucher,-9,41,4,Missed,1,,,0,v,MISS Boucher 4' Putback Layup,Missed Shot,Putback Layup Shot,1,2,347
+0022100834,469,PT02M53.00S,3,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,348
+0022100834,470,PT02M44.00S,3,1610612745,HOU,1630231,Martin,K. Martin,7,17,2,Made,1,89,95,184,h,Martin Jr. 2' Layup (6 PTS) (Porter Jr. 7 AST),Made Shot,Layup Shot,1,2,349
+0022100834,472,PT02M27.00S,3,1610612761,TOR,1630625,Banton,D. Banton,-28,28,4,Made,1,89,97,186,v,Banton 4' Driving Floating Bank Jump Shot (8 PTS) (Barnes 4 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,350
+0022100834,473,PT01M57.00S,3,1610612745,HOU,1626174,Wood,C. Wood,-156,195,25,Missed,1,,,0,h,MISS Wood 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,351
+0022100834,474,PT01M56.00S,3,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,0,0,0,,0,,,0,v,Trent Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,352
+0022100834,475,PT01M42.00S,3,1610612761,TOR,1628449,Boucher,C. Boucher,-7,21,2,Made,1,89,99,188,v,Boucher 2' Alley Oop Layup (8 PTS) (Barnes 5 AST),Made Shot,Alley Oop Layup shot,1,2,353
+0022100834,478,PT01M31.00S,3,0,,1610612761,,,0,0,0,,0,,,0,v,Raptors Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,354
+0022100834,480,PT01M31.00S,3,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,h,SUB: Tate FOR Porter Jr.,Substitution,,0,0,355
+0022100834,484,PT01M20.00S,3,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,h,Martin Jr. Out of Bounds Lost Ball Turnover (P4.T13),Turnover,Out of Bounds Lost Ball Turnover,1,0,356
+0022100834,485,PT01M08.00S,3,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,h,Martin Jr. S.FOUL (P1.T4) (G.Petraitis),Foul,Shooting,1,0,357
+0022100834,487,PT01M08.00S,3,1610612761,TOR,1628449,Boucher,C. Boucher,0,0,0,,0,89,100,189,v,Boucher Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,358
+0022100834,488,PT01M08.00S,3,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,SUB: Sengun FOR Wood,Substitution,,0,0,359
+0022100834,490,PT01M08.00S,3,1610612761,TOR,1628449,Boucher,C. Boucher,0,0,0,,0,89,101,190,v,Boucher Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,360
+0022100834,491,PT00M50.30S,3,1610612745,HOU,1630224,Green,J. Green,0,0,0,,0,,,0,h,Green Lost Ball Turnover (P2.T14),Turnover,Lost Ball,1,0,361
+0022100834,491,PT00M50.30S,3,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,0,0,0,,0,,,0,v,Trent Jr. STEAL (3 STL),,,1,0,362
+0022100834,494,PT00M40.90S,3,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,-44,131,14,Missed,1,,,0,v,MISS Trent Jr. 14' Jump Shot,Missed Shot,Jump Shot,1,2,363
+0022100834,495,PT00M39.00S,3,1610612745,HOU,1630528,Christopher,J. Christopher,0,0,0,,0,,,0,h,Christopher REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,364
+0022100834,496,PT00M35.80S,3,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,h,Tate Offensive Charge Foul (P3) (G.Petraitis),Foul,Offensive Charge,0,0,365
+0022100834,498,PT00M35.80S,3,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,h,Tate Offensive Foul Turnover (P3.T15),Turnover,Offensive Foul Turnover,0,0,366
+0022100834,499,PT00M28.30S,3,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,0,0,0,,0,,,0,v,Trent Jr. Lost Ball Turnover (P2.T10),Turnover,Lost Ball,1,0,367
+0022100834,499,PT00M28.30S,3,1610612745,HOU,1630224,Green,J. Green,0,0,0,,0,,,0,h,Green STEAL (1 STL),,,1,0,368
+0022100834,501,PT00M10.50S,3,1610612745,HOU,1630528,Christopher,J. Christopher,23,250,25,Made,1,92,101,193,h,Christopher 25' 3PT Jump Shot (6 PTS) (Green 1 AST),Made Shot,Jump Shot,1,3,369
+0022100834,503,PT00M00.00S,3,1610612761,TOR,1628449,Boucher,C. Boucher,202,151,25,Made,1,92,104,196,v,Boucher 25' 3PT Jump Shot (13 PTS) (Trent Jr. 4 AST),Made Shot,Jump Shot,1,3,370
+0022100834,505,PT00M00.00S,3,0,,503,,,0,0,0,,0,92,104,196,,Instant Replay3rd Period (9:54 PM EST),Instant Replay,Support Ruling,0,0,371
+0022100834,506,PT00M00.00S,3,0,,0,,,0,0,0,,0,92,104,196,,End of 3rd Period (9:55 PM EST),period,end,1,0,372
+0022100834,513,PT12M00.00S,4,0,,0,,,0,0,0,,0,92,104,196,,Start of 4th Period (9:57 PM EST),period,start,0,0,373
+0022100834,514,PT11M39.00S,4,1610612745,HOU,1630528,Christopher,J. Christopher,129,225,26,Missed,1,,,0,h,MISS Christopher 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,374
+0022100834,515,PT11M37.00S,4,0,,1610612761,,,0,0,0,,0,,,0,v,Raptors Rebound,Rebound,Unknown,0,0,375
+0022100834,517,PT11M19.00S,4,1610612761,TOR,1630625,Banton,D. Banton,-23,17,3,Made,1,92,106,198,v,Banton 3' Driving Layup (10 PTS),Made Shot,Driving Layup Shot,1,2,376
+0022100834,519,PT10M55.00S,4,1610612761,TOR,203920,Birch,K. Birch,0,0,0,,0,,,0,v,Birch S.FOUL (P1.T1) (G.Petraitis),Foul,Shooting,1,0,377
+0022100834,521,PT10M55.00S,4,1610612745,HOU,1628021,Nwaba,D. Nwaba,0,0,0,,0,,,0,h,MISS Nwaba Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,378
+0022100834,522,PT10M55.00S,4,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Rebound,Rebound,Normal Rebound,0,0,379
+0022100834,523,PT10M55.00S,4,1610612745,HOU,1628021,Nwaba,D. Nwaba,0,0,0,,0,93,106,199,h,Nwaba Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,380
+0022100834,524,PT10M33.00S,4,1610612761,TOR,1628384,Anunoby,O. Anunoby,-131,227,26,Made,1,93,109,202,v,Anunoby 26' 3PT Pullup Jump Shot (10 PTS),Made Shot,Pullup Jump shot,1,3,381
+0022100834,525,PT10M07.00S,4,1610612745,HOU,1628021,Nwaba,D. Nwaba,178,177,25,Missed,1,,,0,h,MISS Nwaba 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,382
+0022100834,526,PT10M02.00S,4,1610612745,HOU,1628021,Nwaba,D. Nwaba,0,0,0,,0,,,0,h,Nwaba REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,383
+0022100834,527,PT09M59.00S,4,1610612745,HOU,1628021,Nwaba,D. Nwaba,-5,58,6,Missed,1,,,0,h,MISS Nwaba 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,384
+0022100834,528,PT09M56.00S,4,1610612761,TOR,1630201,Flynn,M. Flynn,0,0,0,,0,,,0,v,Flynn REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,385
+0022100834,529,PT09M51.00S,4,1610612761,TOR,1630201,Flynn,M. Flynn,-26,174,18,Missed,1,,,0,v,MISS Flynn 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,386
+0022100834,530,PT09M49.00S,4,0,,1610612761,,,0,0,0,,0,,,0,v,Raptors Rebound,Rebound,Unknown,0,0,387
+0022100834,532,PT09M48.00S,4,1610612745,HOU,1630578,Sengun,A. Sengun,0,0,0,,0,,,0,h,Sengun L.B.FOUL (P3.T1) (G.Petraitis),Foul,Loose Ball,1,0,388
+0022100834,534,PT09M38.00S,4,1610612761,TOR,1630625,Banton,D. Banton,-157,235,28,Missed,1,,,0,v,MISS Banton 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,389
+0022100834,535,PT09M34.00S,4,1610612745,HOU,1628021,Nwaba,D. Nwaba,0,0,0,,0,,,0,h,Nwaba REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,390
+0022100834,536,PT09M33.00S,4,1610612745,HOU,1628021,Nwaba,D. Nwaba,0,1,0,Made,1,95,109,204,h,Nwaba Running Layup (7 PTS),Made Shot,Running Layup Shot,0,2,391
+0022100834,537,PT09M23.00S,4,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,h,Tate S.FOUL (P4.T2) (M.Myers),Foul,Shooting,1,0,392
+0022100834,539,PT09M23.00S,4,1610612761,TOR,1628449,Boucher,C. Boucher,0,0,0,,0,95,110,205,v,Boucher Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,393
+0022100834,540,PT09M23.00S,4,1610612761,TOR,1628449,Boucher,C. Boucher,0,0,0,,0,,,0,v,MISS Boucher Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,394
+0022100834,551,PT09M23.00S,4,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Rebound,Rebound,Unknown,0,0,395
+0022100834,558,PT09M23.00S,4,1610612761,TOR,1628449,Boucher,C. Boucher,0,0,0,,0,,,0,v,Lane,Violation,Lane,0,0,396
+0022100834,541,PT09M15.00S,4,1610612745,HOU,1628021,Nwaba,D. Nwaba,0,0,0,,0,,,0,h,Nwaba Bad Pass Turnover (P1.T16),Turnover,Bad Pass,1,0,397
+0022100834,541,PT09M15.00S,4,1610612761,TOR,1628384,Anunoby,O. Anunoby,0,0,0,,0,,,0,v,Anunoby STEAL (1 STL),,,1,0,398
+0022100834,543,PT09M13.00S,4,1610612761,TOR,1628449,Boucher,C. Boucher,0,20,2,Made,1,95,112,207,v,Boucher 2' Alley Oop Dunk (16 PTS) (Anunoby 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,399
+0022100834,545,PT09M04.00S,4,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,h,Martin Jr. Out of Bounds - Bad Pass Turnover Turnover (P5.T17),Turnover,Out of Bounds - Bad Pass Turnover,1,0,400
+0022100834,546,PT09M04.00S,4,1610612745,HOU,1628021,Nwaba,D. Nwaba,0,0,0,,0,,,0,h,SUB: Mathews FOR Nwaba,Substitution,,0,0,401
+0022100834,548,PT08M48.00S,4,1610612761,TOR,203920,Birch,K. Birch,0,18,2,Made,1,95,114,209,v,Birch 2' Dunk (2 PTS) (Anunoby 2 AST),Made Shot,Dunk Shot,1,2,402
+0022100834,550,PT08M48.00S,4,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,403
+0022100834,552,PT08M48.00S,4,1610612745,HOU,1630528,Christopher,J. Christopher,0,0,0,,0,,,0,h,SUB: Porter Jr. FOR Christopher,Substitution,,0,0,404
+0022100834,554,PT08M44.00S,4,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. OFF.Foul (P3) (G.Petraitis),Foul,Offensive,1,0,405
+0022100834,556,PT08M44.00S,4,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. Offensive Foul Turnover (P3.T18),Turnover,Offensive Foul Turnover,1,0,406
+0022100834,557,PT08M44.00S,4,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,407
+0022100834,559,PT08M44.00S,4,0,,554,,,0,0,0,,0,95,114,209,,Instant Replay4th Period (10:06 PM EST),Instant Replay,Coach Challenge Ruling Stands,0,0,408
+0022100834,560,PT08M44.00S,4,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Violation: Delay of game Violation,Violation,Delay Of Game,0,0,409
+0022100834,562,PT08M22.00S,4,1610612761,TOR,1628384,Anunoby,O. Anunoby,130,231,27,Missed,1,,,0,v,MISS Anunoby 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,410
+0022100834,563,PT08M17.00S,4,1610612761,TOR,1628449,Boucher,C. Boucher,0,0,0,,0,,,0,v,Boucher REBOUND (Off:4 Def:1),Rebound,Unknown,1,0,411
+0022100834,564,PT08M16.00S,4,1610612761,TOR,1628384,Anunoby,O. Anunoby,130,227,26,Missed,1,,,0,v,MISS Anunoby 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,412
+0022100834,565,PT08M14.00S,4,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,h,Martin Jr. REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,413
+0022100834,566,PT08M07.00S,4,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,-74,236,25,Made,1,98,114,212,h,Porter Jr. 25' 3PT Step Back Jump Shot (24 PTS),Made Shot,Step Back Jump shot,1,3,414
+0022100834,567,PT07M50.00S,4,1610612761,TOR,1630201,Flynn,M. Flynn,0,0,0,,0,,,0,v,Flynn Offensive Charge Foul (P2) (B.Kennedy),Foul,Offensive Charge,1,0,415
+0022100834,569,PT07M50.00S,4,1610612761,TOR,1630201,Flynn,M. Flynn,0,0,0,,0,,,0,v,Flynn Offensive Foul Turnover (P1.T11),Turnover,Offensive Foul Turnover,1,0,416
+0022100834,570,PT07M50.00S,4,1610612745,HOU,1630578,Sengun,A. Sengun,0,0,0,,0,,,0,h,SUB: Wood FOR Sengun,Substitution,,0,0,417
+0022100834,572,PT07M39.00S,4,1610612745,HOU,1630256,Tate,J. Tate,145,201,25,Missed,1,,,0,h,MISS Tate 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,418
+0022100834,573,PT07M38.00S,4,1610612761,TOR,1630625,Banton,D. Banton,0,0,0,,0,,,0,v,Banton REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,419
+0022100834,574,PT07M12.00S,4,1610612761,TOR,1630201,Flynn,M. Flynn,-229,68,24,Made,1,98,117,215,v,Flynn 24' 3PT Step Back Jump Shot (6 PTS),Made Shot,Step Back Jump shot,1,3,420
+0022100834,575,PT06M55.00S,4,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,-26,5,3,Missed,1,,,0,h,MISS Porter Jr. 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,421
+0022100834,575,PT06M55.00S,4,1610612761,TOR,203920,Birch,K. Birch,0,0,0,,0,,,0,v,Birch BLOCK (1 BLK),,,1,2,422
+0022100834,577,PT06M55.00S,4,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Rebound,Rebound,Unknown,0,0,423
+0022100834,579,PT06M55.00S,4,1610612761,TOR,1628384,Anunoby,O. Anunoby,0,0,0,,0,,,0,v,SUB: Barnes FOR Anunoby,Substitution,,0,0,424
+0022100834,580,PT06M55.00S,4,1610612761,TOR,1628449,Boucher,C. Boucher,0,0,0,,0,,,0,v,SUB: Siakam FOR Boucher,Substitution,,0,0,425
+0022100834,581,PT06M55.00S,4,1610612761,TOR,1630625,Banton,D. Banton,0,0,0,,0,,,0,v,SUB: Trent Jr. FOR Banton,Substitution,,0,0,426
+0022100834,585,PT06M50.00S,4,1610612745,HOU,1629726,Mathews,G. Mathews,-222,35,0,Made,1,101,117,218,h,Mathews 3PT Step Back Jump Shot (18 PTS) (Porter Jr. 8 AST),Made Shot,Step Back Jump shot,1,3,427
+0022100834,587,PT06M31.00S,4,1610612761,TOR,1627783,Siakam,P. Siakam,-88,188,21,Missed,1,,,0,v,MISS Siakam 21' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,428
+0022100834,588,PT06M26.00S,4,1610612761,TOR,203920,Birch,K. Birch,0,0,0,,0,,,0,v,Birch REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,429
+0022100834,589,PT06M23.00S,4,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,78,193,21,Missed,1,,,0,v,MISS Trent Jr. 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,430
+0022100834,590,PT06M20.00S,4,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,h,Tate REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,431
+0022100834,591,PT06M14.00S,4,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,120,229,26,Made,1,104,117,221,h,Porter Jr. 26' 3PT Jump Shot (27 PTS) (Tate 6 AST),Made Shot,Jump Shot,1,3,432
+0022100834,593,PT05M50.00S,4,1610612761,TOR,1630567,Barnes,S. Barnes,-1,57,6,Made,1,104,119,223,v,Barnes 6' Floating Jump Shot (7 PTS) (Siakam 4 AST),Made Shot,Floating Jump shot,1,2,433
+0022100834,595,PT05M26.00S,4,1610612745,HOU,1630231,Martin,K. Martin,232,6,0,Made,1,107,119,226,h,Martin Jr. 3PT Jump Shot (9 PTS) (Wood 5 AST),Made Shot,Jump Shot,1,3,434
+0022100834,597,PT05M14.00S,4,1610612761,TOR,1627783,Siakam,P. Siakam,6,263,26,Missed,1,,,0,v,MISS Siakam 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,435
+0022100834,598,PT05M13.00S,4,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,436
+0022100834,599,PT05M07.00S,4,1610612745,HOU,1630231,Martin,K. Martin,12,8,1,Made,1,109,119,228,h,Martin Jr. 1' Alley Oop Dunk (11 PTS) (Wood 6 AST),Made Shot,Alley Oop Dunk Shot,1,2,437
+0022100834,601,PT05M05.00S,4,0,,1610612761,,,0,0,0,,0,,,0,v,Raptors Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,438
+0022100834,602,PT04M57.00S,4,1610612761,TOR,1630201,Flynn,M. Flynn,-7,165,17,Made,1,109,121,230,v,Flynn 17' Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,2,439
+0022100834,603,PT04M38.00S,4,1610612745,HOU,1630256,Tate,J. Tate,229,5,0,Missed,1,,,0,h,MISS Tate 3PT Jump Shot,Missed Shot,Jump Shot,1,3,440
+0022100834,604,PT04M36.00S,4,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,h,Martin Jr. REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,441
+0022100834,605,PT04M36.00S,4,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,Missed,1,,,0,h,MISS Martin Jr. Tip Dunk Shot,Missed Shot,Tip Dunk Shot,1,2,442
+0022100834,606,PT04M36.00S,4,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,h,Martin Jr. REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,443
+0022100834,607,PT04M36.00S,4,1610612761,TOR,1630201,Flynn,M. Flynn,0,0,0,,0,,,0,v,Flynn P.FOUL (P3.T2) (M.Myers),Foul,Personal,1,0,444
+0022100834,609,PT04M31.00S,4,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood Lost Ball Turnover (P2.T19),Turnover,Lost Ball,1,0,445
+0022100834,609,PT04M31.00S,4,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,0,0,0,,0,,,0,v,Trent Jr. STEAL (4 STL),,,1,0,446
+0022100834,611,PT04M29.00S,4,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,0,26,3,Made,1,109,123,232,v,Trent Jr. 3' Running Finger Roll Layup (36 PTS),Made Shot,Running Finger Roll Layup Shot,1,2,447
+0022100834,612,PT04M29.00S,4,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood S.FOUL (P3.T3) (G.Petraitis),Foul,Shooting,1,0,448
+0022100834,614,PT04M29.00S,4,1610612745,HOU,1629726,Mathews,G. Mathews,0,0,0,,0,,,0,h,SUB: Green FOR Mathews,Substitution,,0,0,449
+0022100834,616,PT04M29.00S,4,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,0,0,0,,0,109,124,233,v,Trent Jr. Free Throw 1 of 1 (37 PTS),Free Throw,Free Throw 1 of 1,1,0,450
+0022100834,617,PT04M12.00S,4,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,136,216,26,Missed,1,,,0,h,MISS Porter Jr. 26' 3PT Jump Bank Shot,Missed Shot,Jump Bank Shot,1,3,451
+0022100834,618,PT04M11.00S,4,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,v,Barnes REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,452
+0022100834,619,PT03M59.00S,4,1610612761,TOR,1627783,Siakam,P. Siakam,9,7,1,Made,1,109,126,235,v,Siakam 1' Driving Finger Roll Layup (30 PTS) (Barnes 6 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,453
+0022100834,622,PT03M46.00S,4,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,-9,29,3,Made,1,111,126,237,h,Porter Jr. 3' Driving Layup (29 PTS),Made Shot,Driving Layup Shot,1,2,454
+0022100834,623,PT03M46.00S,4,1610612761,TOR,1627783,Siakam,P. Siakam,0,0,0,,0,,,0,v,Siakam S.FOUL (P6.T3) (G.Petraitis),Foul,Shooting,1,0,455
+0022100834,625,PT03M46.00S,4,0,,1610612761,,,0,0,0,,0,,,0,v,Raptors Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,456
+0022100834,626,PT03M46.00S,4,0,,623,,,0,0,0,,0,111,126,237,,Instant Replay4th Period (10:20 PM EST),Instant Replay,Coach Challenge Ruling Stands,1,0,457
+0022100834,627,PT03M46.00S,4,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,h,SUB: Mathews FOR Martin Jr.,Substitution,,0,0,458
+0022100834,628,PT03M46.00S,4,1610612761,TOR,1627783,Siakam,P. Siakam,0,0,0,,0,,,0,v,SUB: Anunoby FOR Siakam,Substitution,,0,0,459
+0022100834,631,PT03M46.00S,4,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,112,126,238,h,Porter Jr. Free Throw 1 of 1 (30 PTS),Free Throw,Free Throw 1 of 1,1,0,460
+0022100834,632,PT03M30.00S,4,1610612761,TOR,1630567,Barnes,S. Barnes,-118,142,18,Missed,1,,,0,v,MISS Barnes 18' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,461
+0022100834,632,PT03M30.00S,4,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,h,Tate BLOCK (1 BLK),,,1,2,462
+0022100834,634,PT03M26.00S,4,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,463
+0022100834,635,PT03M25.00S,4,1610612761,TOR,203920,Birch,K. Birch,0,0,0,,0,,,0,v,Birch S.FOUL (P2.T4) (M.Myers),Foul,Shooting,1,0,464
+0022100834,637,PT03M25.00S,4,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,MISS Wood Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,465
+0022100834,638,PT03M25.00S,4,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Rebound,Rebound,Normal Rebound,0,0,466
+0022100834,639,PT03M25.00S,4,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,113,126,239,h,Wood Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,467
+0022100834,640,PT03M12.00S,4,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,-26,275,28,Missed,1,,,0,v,MISS Trent Jr. 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,468
+0022100834,641,PT03M07.00S,4,1610612761,TOR,203920,Birch,K. Birch,0,0,0,,0,,,0,v,Birch REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,469
+0022100834,642,PT03M07.00S,4,1610612761,TOR,203920,Birch,K. Birch,0,0,0,Missed,1,,,0,v,MISS Birch Tip Dunk Shot,Missed Shot,Tip Dunk Shot,1,2,470
+0022100834,643,PT03M06.00S,4,1610612745,HOU,1629726,Mathews,G. Mathews,0,0,0,,0,,,0,h,Mathews REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,471
+0022100834,644,PT02M59.00S,4,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,13,14,2,Missed,1,,,0,h,MISS Porter Jr. 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,472
+0022100834,645,PT02M55.00S,4,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,473
+0022100834,646,PT02M54.00S,4,1610612745,HOU,1626174,Wood,C. Wood,1,5,1,Made,1,115,126,241,h,Wood 1' Putback Dunk (13 PTS),Made Shot,Putback Dunk Shot,1,2,474
+0022100834,647,PT02M36.00S,4,1610612761,TOR,1630567,Barnes,S. Barnes,-6,34,3,Made,1,115,128,243,v,Barnes 3' Driving Finger Roll Layup (9 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,475
+0022100834,648,PT02M25.00S,4,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,0,0,0,,0,,,0,v,Trent Jr. S.FOUL (P2.PN) (G.Petraitis),Foul,Shooting,1,0,476
+0022100834,650,PT02M25.00S,4,1610612745,HOU,1629726,Mathews,G. Mathews,0,0,0,,0,,,0,h,MISS Mathews Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,477
+0022100834,651,PT02M25.00S,4,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Rebound,Rebound,Normal Rebound,0,0,478
+0022100834,652,PT02M25.00S,4,1610612745,HOU,1629726,Mathews,G. Mathews,0,0,0,,0,116,128,244,h,Mathews Free Throw 2 of 2 (19 PTS),Free Throw,Free Throw 2 of 2,1,0,479
+0022100834,653,PT02M07.00S,4,1610612761,TOR,1630201,Flynn,M. Flynn,18,23,3,Missed,1,,,0,v,MISS Flynn 3' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,480
+0022100834,653,PT02M07.00S,4,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood BLOCK (2 BLK),,,1,2,481
+0022100834,655,PT02M04.00S,4,1610612761,TOR,203920,Birch,K. Birch,0,0,0,,0,,,0,v,Birch REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,482
+0022100834,656,PT02M02.00S,4,1610612761,TOR,1628384,Anunoby,O. Anunoby,190,162,25,Made,1,116,131,247,v,Anunoby 25' 3PT Jump Shot (13 PTS) (Birch 1 AST),Made Shot,Jump Shot,1,3,483
+0022100834,658,PT01M57.00S,4,1610612745,HOU,1630224,Green,J. Green,0,0,0,,0,,,0,h,Green Lost Ball Turnover (P3.T20),Turnover,Lost Ball,1,0,484
+0022100834,658,PT01M57.00S,4,1610612761,TOR,1630201,Flynn,M. Flynn,0,0,0,,0,,,0,v,Flynn STEAL (2 STL),,,1,0,485
+0022100834,660,PT01M51.00S,4,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,199,160,26,Made,1,116,134,250,v,Trent Jr. 26' 3PT Jump Shot (40 PTS) (Flynn 3 AST),Made Shot,Jump Shot,1,3,486
+0022100834,662,PT01M32.00S,4,1610612745,HOU,1629726,Mathews,G. Mathews,0,0,0,,0,,,0,h,Mathews Bad Pass Turnover (P1.T21),Turnover,Bad Pass,1,0,487
+0022100834,662,PT01M32.00S,4,1610612761,TOR,203920,Birch,K. Birch,0,0,0,,0,,,0,v,Birch STEAL (2 STL),,,1,0,488
+0022100834,664,PT01M24.00S,4,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,17,20,3,Made,1,116,136,252,v,Trent Jr. 3' Driving Layup (42 PTS),Made Shot,Driving Layup Shot,1,2,489
+0022100834,665,PT01M17.00S,4,1610612761,TOR,1630201,Flynn,M. Flynn,0,0,0,,0,,,0,v,Flynn Personal Take Foul (P4.PN) (G.Petraitis),Foul,Personal Take,1,0,490
+0022100834,667,PT01M17.00S,4,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,117,136,253,h,Wood Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,491
+0022100834,668,PT01M17.00S,4,1610612761,TOR,1630567,Barnes,S. Barnes,0,0,0,,0,,,0,v,SUB: Watanabe FOR Barnes,Substitution,,0,0,492
+0022100834,669,PT01M17.00S,4,1610612761,TOR,1629018,Trent Jr.,G. Trent Jr.,0,0,0,,0,,,0,v,SUB: Banton FOR Trent Jr.,Substitution,,0,0,493
+0022100834,670,PT01M17.00S,4,1610612761,TOR,1628384,Anunoby,O. Anunoby,0,0,0,,0,,,0,v,SUB: Mykhailiuk FOR Anunoby,Substitution,,0,0,494
+0022100834,674,PT01M17.00S,4,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,118,136,254,h,Wood Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,495
+0022100834,675,PT01M03.00S,4,1610612761,TOR,1629004,Mykhailiuk,S. Mykhailiuk,-75,84,11,Missed,1,,,0,v,MISS Mykhailiuk 11' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,496
+0022100834,676,PT01M03.00S,4,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,497
+0022100834,677,PT00M53.90S,4,1610612745,HOU,1626174,Wood,C. Wood,12,274,27,Missed,1,,,0,h,MISS Wood 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,498
+0022100834,678,PT00M52.10S,4,1610612761,TOR,1630201,Flynn,M. Flynn,0,0,0,,0,,,0,v,Flynn REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,499
+0022100834,679,PT00M42.00S,4,1610612761,TOR,1629139,Watanabe,Y. Watanabe,-174,190,26,Made,1,118,139,257,v,Watanabe 26' 3PT Jump Shot (3 PTS) (Banton 3 AST),Made Shot,Jump Shot,1,3,500
+0022100834,682,PT00M28.70S,4,1610612745,HOU,1630224,Green,J. Green,142,215,26,Missed,1,,,0,h,MISS Green 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,501
+0022100834,683,PT00M27.20S,4,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:3 Def:8),Rebound,Unknown,1,0,502
+0022100834,684,PT00M27.20S,4,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,Made,1,120,139,259,h,Wood Tip Dunk Shot (17 PTS),Made Shot,Tip Dunk Shot,1,2,503
+0022100834,685,PT00M03.20S,4,0,,1610612761,,,0,0,0,,0,,,0,v,Raptors Turnover: Shot Clock (T#12),Turnover,Shot Clock Turnover,0,0,504
+0022100834,686,PT00M00.00S,4,0,,0,,,0,0,0,,0,120,139,259,,End of 4th Period (10:30 PM EST),period,end,1,0,505

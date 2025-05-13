@@ -1,0 +1,525 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021900837,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:41 PM EST),period,start,0,0,1
+0021900837,4,PT12M00.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Jump Ball Dedmon vs. Kleber: Tip to Curry,Jump Ball,,1,0,2
+0021900837,7,PT11M50.00S,1,1610612742,DAL,1628973,Brunson,J. Brunson,1,10,1,Made,1,0,2,2,v,Brunson 1' Driving Layup (2 PTS) (Hardaway Jr. 1 AST),Made Shot,Driving Layup Shot,1,2,3
+0021900837,9,PT11M50.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon S.FOUL (P1.T1) (D.Collins),Foul,Shooting,1,0,4
+0021900837,11,PT11M50.00S,1,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,MISS Brunson Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,5
+0021900837,12,PT11M48.00S,1,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,6
+0021900837,13,PT11M48.00S,1,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson Personal Take Foul (P1.T1) (M.Myers),Foul,Personal Take,1,0,7
+0021900837,15,PT11M48.00S,1,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,SUB: Wright FOR Brunson,Substitution,,0,0,8
+0021900837,17,PT11M37.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,Huerter Out of Bounds - Bad Pass Turnover Turnover (P1.T1),Turnover,Out of Bounds - Bad Pass Turnover,1,0,9
+0021900837,18,PT11M29.00S,1,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,-25,131,13,Made,1,0,4,4,v,Hardaway Jr. 13' Pullup Jump Shot (2 PTS) (Kleber 1 AST),Made Shot,Pullup Jump shot,1,2,10
+0021900837,20,PT11M18.00S,1,1610612737,ATL,1628381,Collins,J. Collins,-87,252,27,Made,1,3,4,7,h,Collins 27' 3PT Jump Shot (3 PTS) (Young 1 AST),Made Shot,Jump Shot,1,3,11
+0021900837,22,PT11M03.00S,1,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,155,195,25,Missed,1,,,0,v,MISS Hardaway Jr. 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,12
+0021900837,23,PT11M00.00S,1,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,13
+0021900837,24,PT10M51.00S,1,1610612737,ATL,1628381,Collins,J. Collins,-11,90,9,Missed,1,,,0,h,MISS Collins 9' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,14
+0021900837,25,PT10M48.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,15
+0021900837,26,PT10M44.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,111,235,26,Missed,1,,,0,v,MISS Finney-Smith 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,16
+0021900837,27,PT10M41.00S,1,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,17
+0021900837,28,PT10M35.00S,1,1610612737,ATL,1629027,Young,T. Young,-9,258,26,Missed,1,,,0,h,MISS Young 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,18
+0021900837,29,PT10M32.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,19
+0021900837,30,PT10M27.00S,1,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,84,239,25,Made,1,3,7,10,v,Hardaway Jr. 25' 3PT Jump Shot (5 PTS) (Wright 1 AST),Made Shot,Jump Shot,1,3,20
+0021900837,32,PT10M07.00S,1,1610612737,ATL,1628381,Collins,J. Collins,0,13,1,Made,1,5,7,12,h,Collins 1' Cutting Layup Shot (5 PTS) (Dedmon 1 AST),Made Shot,Cutting Layup Shot,1,2,21
+0021900837,34,PT09M45.00S,1,1610612742,DAL,1626153,Wright,D. Wright,159,209,26,Made,1,5,10,15,v,Wright 26' 3PT Jump Shot (3 PTS) (Curry 1 AST),Made Shot,Jump Shot,1,3,22
+0021900837,36,PT09M32.00S,1,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young Offensive Charge Foul (P1.T2) (D.Collins),Foul,Offensive Charge,1,0,23
+0021900837,38,PT09M32.00S,1,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young Offensive Foul Turnover (P1.T2),Turnover,Offensive Foul Turnover,1,0,24
+0021900837,39,PT09M22.00S,1,1610612742,DAL,1626153,Wright,D. Wright,1,15,2,Missed,1,,,0,v,MISS Wright 2' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,25
+0021900837,40,PT09M20.00S,1,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,26
+0021900837,41,PT09M14.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,-8,16,2,Missed,1,,,0,h,MISS Dedmon 2' Layup,Missed Shot,Layup Shot,1,2,27
+0021900837,42,PT09M12.00S,1,1610612742,DAL,203552,Curry,S. Curry,0,0,0,,0,,,0,v,Curry REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,28
+0021900837,43,PT09M08.00S,1,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,-123,220,25,Made,1,5,13,18,v,Hardaway Jr. 25' 3PT Jump Shot (8 PTS) (Curry 2 AST),Made Shot,Jump Shot,1,3,29
+0021900837,45,PT09M06.00S,1,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,30
+0021900837,46,PT09M06.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,SUB: Graham FOR Dedmon,Substitution,,0,0,31
+0021900837,48,PT08M45.00S,1,1610612737,ATL,1628381,Collins,J. Collins,8,17,2,Missed,1,,,0,h,MISS Collins 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,32
+0021900837,48,PT08M45.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber BLOCK (1 BLK),,,1,2,33
+0021900837,50,PT08M42.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,34
+0021900837,51,PT08M40.00S,1,1610612742,DAL,203552,Curry,S. Curry,-89,255,27,Made,1,5,16,21,v,Curry 27' 3PT Pullup Jump Shot (3 PTS),Made Shot,Pullup Jump shot,1,3,35
+0021900837,52,PT08M26.00S,1,1610612737,ATL,1629027,Young,T. Young,-1,10,1,Made,1,7,16,23,h,Young 1' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,36
+0021900837,53,PT08M17.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith Traveling Turnover (P1.T1),Turnover,Traveling,1,0,37
+0021900837,54,PT08M06.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber S.FOUL (P1.T2) (D.Collins),Foul,Shooting,1,0,38
+0021900837,56,PT08M06.00S,1,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,8,16,24,h,Reddish Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,39
+0021900837,57,PT08M06.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,SUB: Kidd-Gilchrist FOR Kleber,Substitution,,0,0,40
+0021900837,59,PT08M06.00S,1,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,9,16,25,h,Reddish Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,41
+0021900837,60,PT07M50.00S,1,1610612742,DAL,203552,Curry,S. Curry,-29,256,26,Missed,1,,,0,v,MISS Curry 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,42
+0021900837,61,PT07M44.00S,1,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,43
+0021900837,62,PT07M37.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,-136,253,29,Missed,1,,,0,h,MISS Huerter 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,44
+0021900837,63,PT07M34.00S,1,1610612742,DAL,1626153,Wright,D. Wright,0,0,0,,0,,,0,v,Wright REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,45
+0021900837,64,PT07M29.00S,1,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,24,290,29,Missed,1,,,0,v,MISS Hardaway Jr. 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,46
+0021900837,65,PT07M25.00S,1,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,47
+0021900837,66,PT07M19.00S,1,1610612742,DAL,203077,Kidd-Gilchrist,M. Kidd-Gilchrist,0,0,0,,0,,,0,v,Kidd-Gilchrist P.FOUL (P1.T3) (R.Mott),Foul,Personal,1,0,48
+0021900837,68,PT07M13.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,69,260,27,Missed,1,,,0,h,MISS Huerter 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,49
+0021900837,69,PT07M11.00S,1,1610612742,DAL,1626153,Wright,D. Wright,0,0,0,,0,,,0,v,Wright REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,50
+0021900837,70,PT07M07.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,240,73,25,Missed,1,,,0,v,MISS Finney-Smith 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,51
+0021900837,71,PT07M02.00S,1,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,52
+0021900837,72,PT06M53.00S,1,1610612737,ATL,1626203,Graham,T. Graham,-230,-13,0,Missed,1,,,0,h,MISS Graham 3PT Jump Shot,Missed Shot,Jump Shot,1,3,53
+0021900837,73,PT06M50.00S,1,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Unknown,0,0,54
+0021900837,76,PT06M42.00S,1,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young Bad Pass Turnover (P2.T3),Turnover,Bad Pass,1,0,55
+0021900837,76,PT06M42.00S,1,1610612742,DAL,1626153,Wright,D. Wright,0,0,0,,0,,,0,v,Wright STEAL (1 STL),,,1,0,56
+0021900837,78,PT06M38.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith Lost Ball Turnover (P2.T2),Turnover,Lost Ball,1,0,57
+0021900837,78,PT06M38.00S,1,1610612737,ATL,1626203,Graham,T. Graham,0,0,0,,0,,,0,h,Graham STEAL (1 STL),,,1,0,58
+0021900837,80,PT06M34.00S,1,1610612737,ATL,1628381,Collins,J. Collins,14,65,7,Missed,1,,,0,h,MISS Collins 7' Driving Layup,Missed Shot,Driving Layup Shot,1,2,59
+0021900837,81,PT06M31.00S,1,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,60
+0021900837,82,PT06M31.00S,1,1610612737,ATL,1628381,Collins,J. Collins,-5,17,2,Missed,1,,,0,h,MISS Collins 2' Putback Layup,Missed Shot,Putback Layup Shot,1,2,61
+0021900837,83,PT06M28.00S,1,1610612737,ATL,1626203,Graham,T. Graham,0,0,0,,0,,,0,h,Graham REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,62
+0021900837,84,PT06M28.00S,1,1610612737,ATL,1626203,Graham,T. Graham,0,-6,1,Made,1,11,16,27,h,Graham 1' Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,63
+0021900837,85,PT06M20.00S,1,1610612742,DAL,1626153,Wright,D. Wright,-4,14,1,Made,1,11,18,29,v,Wright 1' Driving Reverse Layup (5 PTS),Made Shot,Driving Reverse Layup Shot,1,2,64
+0021900837,86,PT06M05.00S,1,1610612737,ATL,1628381,Collins,J. Collins,-1,11,1,Made,1,13,18,31,h,Collins 1' Cutting Dunk Shot (7 PTS) (Huerter 1 AST),Made Shot,Cutting Dunk Shot,1,2,65
+0021900837,89,PT06M01.00S,1,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,SUB: Dedmon FOR Collins,Substitution,,0,0,66
+0021900837,90,PT06M01.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,SUB: Lee FOR Finney-Smith,Substitution,,0,0,67
+0021900837,91,PT06M01.00S,1,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,v,SUB: Kleber FOR Hardaway Jr.,Substitution,,0,0,68
+0021900837,95,PT05M52.00S,1,1610612742,DAL,203077,Kidd-Gilchrist,M. Kidd-Gilchrist,47,56,7,Missed,1,,,0,v,MISS Kidd-Gilchrist 7' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,69
+0021900837,96,PT05M50.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,70
+0021900837,97,PT05M46.00S,1,1610612742,DAL,203552,Curry,S. Curry,0,0,0,,0,,,0,v,Curry S.FOUL (P1.T4) (D.Collins),Foul,Shooting,1,0,71
+0021900837,99,PT05M46.00S,1,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,14,18,32,h,Young Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,72
+0021900837,102,PT05M46.00S,1,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,15,18,33,h,Young Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,73
+0021900837,100,PT05M46.00S,1,1610612737,ATL,1626203,Graham,T. Graham,0,0,0,,0,,,0,h,SUB: Teague FOR Graham,Substitution,,0,0,74
+0021900837,103,PT05M33.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,19,2,Missed,1,,,0,v,MISS Kleber 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,75
+0021900837,103,PT05M33.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon BLOCK (1 BLK),,,1,2,76
+0021900837,105,PT05M30.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,77
+0021900837,106,PT05M29.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,16,15,2,Missed,1,,,0,v,MISS Kleber 2' Putback Layup,Missed Shot,Putback Layup Shot,1,2,78
+0021900837,107,PT05M28.00S,1,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,,,0,h,Reddish REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,79
+0021900837,109,PT05M21.00S,1,1610612742,DAL,203077,Kidd-Gilchrist,M. Kidd-Gilchrist,0,0,0,,0,,,0,v,SUB: Jackson FOR Kidd-Gilchrist,Substitution,,0,0,80
+0021900837,111,PT05M19.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,232,15,0,Missed,1,,,0,h,MISS Huerter 3PT Jump Shot,Missed Shot,Jump Shot,1,3,81
+0021900837,112,PT05M16.00S,1,1610612742,DAL,201584,Lee,C. Lee,0,0,0,,0,,,0,v,Lee REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,82
+0021900837,113,PT05M09.00S,1,1610612742,DAL,203552,Curry,S. Curry,38,25,5,Made,1,15,20,35,v,Curry 5' Driving Layup (5 PTS),Made Shot,Driving Layup Shot,1,2,83
+0021900837,114,PT04M56.00S,1,1610612737,ATL,1629027,Young,T. Young,-9,12,2,Missed,1,,,0,h,MISS Young 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,84
+0021900837,114,PT04M56.00S,1,1610612742,DAL,201584,Lee,C. Lee,0,0,0,,0,,,0,v,Lee BLOCK (1 BLK),,,1,2,85
+0021900837,116,PT04M54.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,86
+0021900837,117,PT04M49.00S,1,1610612742,DAL,203552,Curry,S. Curry,-87,268,28,Made,1,15,23,38,v,Curry 28' 3PT Jump Shot (8 PTS),Made Shot,Jump Shot,1,3,87
+0021900837,118,PT04M47.00S,1,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,88
+0021900837,119,PT04M47.00S,1,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,SUB: Carter FOR Young,Substitution,,0,0,89
+0021900837,121,PT04M47.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,SUB: Marjanovic FOR Kleber,Substitution,,0,0,90
+0021900837,122,PT04M47.00S,1,1610612742,DAL,1626153,Wright,D. Wright,0,0,0,,0,,,0,v,SUB: Barea FOR Wright,Substitution,,0,0,91
+0021900837,125,PT04M36.00S,1,1610612737,ATL,1629629,Reddish,C. Reddish,-16,22,3,Made,1,17,23,40,h,Reddish 3' Driving Layup (4 PTS) (Dedmon 2 AST),Made Shot,Driving Layup Shot,1,2,92
+0021900837,127,PT04M25.00S,1,1610612742,DAL,203552,Curry,S. Curry,41,93,10,Missed,1,,,0,v,MISS Curry 10' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,93
+0021900837,128,PT04M22.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,94
+0021900837,129,PT04M10.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,-7,4,1,Missed,1,,,0,h,MISS Huerter 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,95
+0021900837,129,PT04M10.00S,1,1610612742,DAL,1626246,Marjanović,B. Marjanović,0,0,0,,0,,,0,v,Marjanovic BLOCK (1 BLK),,,1,2,96
+0021900837,131,PT04M08.00S,1,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,Barea REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,97
+0021900837,132,PT04M03.00S,1,1610612742,DAL,203552,Curry,S. Curry,11,17,2,Made,1,17,25,42,v,Curry 2' Driving Layup (10 PTS) (Barea 1 AST),Made Shot,Driving Layup Shot,1,2,98
+0021900837,134,PT04M03.00S,1,1610612737,ATL,201952,Teague,J. Teague,0,0,0,,0,,,0,h,Teague S.FOUL (P1.T3) (D.Collins),Foul,Shooting,1,0,99
+0021900837,136,PT04M03.00S,1,1610612742,DAL,203552,Curry,S. Curry,0,0,0,,0,17,26,43,v,Curry Free Throw 1 of 1 (11 PTS),Free Throw,Free Throw 1 of 1,1,0,100
+0021900837,137,PT03M55.00S,1,1610612737,ATL,201952,Teague,J. Teague,-90,247,26,Missed,1,,,0,h,MISS Teague 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,101
+0021900837,138,PT03M51.00S,1,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,Barea REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,102
+0021900837,139,PT03M40.00S,1,1610612737,ATL,201952,Teague,J. Teague,0,0,0,,0,,,0,h,Teague P.FOUL (P2.T4) (D.Collins),Foul,Personal,1,0,103
+0021900837,141,PT03M40.00S,1,1610612737,ATL,201952,Teague,J. Teague,0,0,0,,0,,,0,h,SUB: Goodwin FOR Teague,Substitution,,0,0,104
+0021900837,143,PT03M31.00S,1,1610612742,DAL,203552,Curry,S. Curry,23,17,3,Missed,1,,,0,v,MISS Curry 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,105
+0021900837,144,PT03M27.00S,1,1610612742,DAL,1626246,Marjanović,B. Marjanović,0,0,0,,0,,,0,v,Marjanovic REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,106
+0021900837,145,PT03M27.00S,1,1610612742,DAL,1626246,Marjanović,B. Marjanović,0,-6,1,Made,1,17,28,45,v,Marjanovic 1' Putback Dunk (2 PTS),Made Shot,Putback Dunk Shot,1,2,107
+0021900837,146,PT03M19.00S,1,1610612742,DAL,1626246,Marjanović,B. Marjanović,0,0,0,,0,,,0,v,Marjanovic S.FOUL (P1.PN) (D.Collins),Foul,Shooting,1,0,108
+0021900837,148,PT03M19.00S,1,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,18,28,46,h,Reddish Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,109
+0021900837,149,PT03M19.00S,1,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,19,28,47,h,Reddish Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,110
+0021900837,150,PT03M09.00S,1,1610612742,DAL,200826,Barea,J. Barea,46,64,8,Made,1,19,30,49,v,Barea 8' Driving Floating Jump Shot (2 PTS),Made Shot,Driving Floating Jump Shot,1,2,111
+0021900837,151,PT02M49.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,-43,111,12,Missed,1,,,0,h,MISS Dedmon 12' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,112
+0021900837,152,PT02M46.00S,1,1610612742,DAL,1626246,Marjanović,B. Marjanović,0,0,0,,0,,,0,v,Marjanovic REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,113
+0021900837,153,PT02M34.00S,1,1610612742,DAL,1626246,Marjanović,B. Marjanović,95,58,11,Missed,1,,,0,v,MISS Marjanovic 11' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,114
+0021900837,154,PT02M32.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,Huerter REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,115
+0021900837,155,PT02M25.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,-46,106,12,Missed,1,,,0,h,MISS Huerter 12' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,116
+0021900837,156,PT02M21.00S,1,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,Barea REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,117
+0021900837,157,PT02M16.00S,1,1610612742,DAL,200826,Barea,J. Barea,45,92,10,Missed,1,,,0,v,MISS Barea 10' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,118
+0021900837,158,PT02M14.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,119
+0021900837,159,PT02M01.00S,1,1610612737,ATL,1629164,Goodwin,B. Goodwin,225,79,24,Missed,1,,,0,h,MISS Goodwin 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,120
+0021900837,160,PT01M59.00S,1,1610612742,DAL,1628382,Jackson,J. Jackson,0,0,0,,0,,,0,v,Jackson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,121
+0021900837,161,PT01M37.00S,1,1610612742,DAL,1628382,Jackson,J. Jackson,145,213,26,Missed,1,,,0,v,MISS Jackson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,122
+0021900837,162,PT01M33.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,123
+0021900837,163,PT01M27.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,81,237,25,Missed,1,,,0,h,MISS Dedmon 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,124
+0021900837,164,PT01M24.00S,1,1610612742,DAL,1628382,Jackson,J. Jackson,0,0,0,,0,,,0,v,Jackson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,125
+0021900837,165,PT01M12.00S,1,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,Barea Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,126
+0021900837,165,PT01M12.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,Huerter STEAL (1 STL),,,1,0,127
+0021900837,167,PT01M08.00S,1,1610612737,ATL,1629164,Goodwin,B. Goodwin,4,12,1,Made,1,21,30,51,h,Goodwin 1' Cutting Finger Roll Layup Shot (2 PTS) (Huerter 2 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,128
+0021900837,169,PT01M06.00S,1,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,129
+0021900837,170,PT01M06.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,SUB: Young FOR Huerter,Substitution,,0,0,130
+0021900837,171,PT01M06.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,SUB: Graham FOR Dedmon,Substitution,,0,0,131
+0021900837,172,PT01M06.00S,1,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,,,0,h,SUB: Fernando FOR Reddish,Substitution,,0,0,132
+0021900837,173,PT01M06.00S,1,1610612742,DAL,203552,Curry,S. Curry,0,0,0,,0,,,0,v,SUB: Hardaway Jr. FOR Curry,Substitution,,0,0,133
+0021900837,174,PT01M06.00S,1,1610612742,DAL,1626246,Marjanović,B. Marjanović,0,0,0,,0,,,0,v,SUB: Kleber FOR Marjanovic,Substitution,,0,0,134
+0021900837,180,PT00M53.50S,1,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,-42,88,10,Made,1,21,32,53,v,Hardaway Jr. 10' Pullup Jump Shot (10 PTS),Made Shot,Pullup Jump shot,1,2,135
+0021900837,181,PT00M53.50S,1,1610612737,ATL,1629164,Goodwin,B. Goodwin,0,0,0,,0,,,0,h,Goodwin S.FOUL (P1.PN) (D.Collins),Foul,Shooting,1,0,136
+0021900837,183,PT00M53.50S,1,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,21,33,54,v,Hardaway Jr. Free Throw 1 of 1 (11 PTS),Free Throw,Free Throw 1 of 1,1,0,137
+0021900837,184,PT00M40.00S,1,1610612737,ATL,1629027,Young,T. Young,8,8,1,Missed,1,,,0,h,MISS Young 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,138
+0021900837,184,PT00M40.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber BLOCK (2 BLK),,,1,2,139
+0021900837,186,PT00M39.70S,1,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Unknown,0,0,140
+0021900837,188,PT00M37.00S,1,1610612737,ATL,1626203,Graham,T. Graham,-3,12,1,Missed,1,,,0,h,MISS Graham 1' Layup,Missed Shot,Layup Shot,1,2,141
+0021900837,189,PT00M32.80S,1,1610612737,ATL,1626203,Graham,T. Graham,0,0,0,,0,,,0,h,Graham REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,142
+0021900837,190,PT00M30.50S,1,1610612737,ATL,1629164,Goodwin,B. Goodwin,-24,252,25,Missed,1,,,0,h,MISS Goodwin 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,143
+0021900837,191,PT00M26.90S,1,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,Barea REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,144
+0021900837,192,PT00M08.60S,1,1610612742,DAL,200826,Barea,J. Barea,-58,95,11,Made,1,21,35,56,v,Barea 11' Pullup Jump Shot (4 PTS),Made Shot,Pullup Jump shot,1,2,145
+0021900837,193,PT00M00.20S,1,1610612737,ATL,1626203,Graham,T. Graham,227,33,0,Missed,1,,,0,h,MISS Graham 3PT Jump Shot,Missed Shot,Jump Shot,1,3,146
+0021900837,194,PT00M00.20S,1,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Unknown,0,0,147
+0021900837,195,PT00M00.00S,1,0,,0,,,0,0,0,,0,21,35,56,,End of 1st Period (8:09 PM EST),period,end,1,0,148
+0021900837,200,PT12M00.00S,2,0,,0,,,0,0,0,,0,21,35,56,,Start of 2nd Period (8:12 PM EST),period,start,0,0,149
+0021900837,201,PT11M42.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber Violation:Kicked Ball (M.Myers),Violation,Kicked Ball,0,0,150
+0021900837,202,PT11M39.00S,2,1610612737,ATL,1628381,Collins,J. Collins,184,201,27,Made,1,24,35,59,h,Collins 27' 3PT Jump Shot (10 PTS) (Fernando 1 AST),Made Shot,Jump Shot,1,3,151
+0021900837,204,PT11M27.00S,2,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young S.FOUL (P2.T1) (M.Myers),Foul,Shooting,1,0,152
+0021900837,206,PT11M27.00S,2,1610612742,DAL,201584,Lee,C. Lee,0,0,0,,0,24,36,60,v,Lee Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,153
+0021900837,207,PT11M27.00S,2,1610612742,DAL,201584,Lee,C. Lee,0,0,0,,0,,,0,v,MISS Lee Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,154
+0021900837,208,PT11M25.00S,2,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,155
+0021900837,209,PT11M15.00S,2,1610612737,ATL,1628381,Collins,J. Collins,125,215,25,Made,1,27,36,63,h,Collins 25' 3PT Jump Shot (13 PTS) (Young 2 AST),Made Shot,Jump Shot,1,3,156
+0021900837,211,PT10M59.00S,2,1610612742,DAL,200826,Barea,J. Barea,93,230,25,Missed,1,,,0,v,MISS Barea 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,157
+0021900837,212,PT10M56.00S,2,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,Barea REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,158
+0021900837,213,PT10M55.00S,2,1610612742,DAL,1628382,Jackson,J. Jackson,177,187,26,Made,1,27,39,66,v,Jackson 26' 3PT Jump Shot (3 PTS) (Barea 2 AST),Made Shot,Jump Shot,1,3,159
+0021900837,215,PT10M30.00S,2,1610612737,ATL,1628981,Fernando,B. Fernando,-43,62,8,Made,1,29,39,68,h,Fernando 8' Hook Shot (2 PTS) (Graham 1 AST),Made Shot,Hook Shot,1,2,160
+0021900837,217,PT10M20.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,34,251,25,Made,1,29,42,71,v,Kleber 25' 3PT Jump Shot (3 PTS) (Barea 3 AST),Made Shot,Jump Shot,1,3,161
+0021900837,219,PT10M13.00S,2,1610612742,DAL,201584,Lee,C. Lee,0,0,0,,0,,,0,v,Lee P.FOUL (P1.T1) (M.Myers),Foul,Personal,1,0,162
+0021900837,221,PT10M10.00S,2,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,v,Hardaway Jr. P.FOUL (P1.T2) (M.Myers),Foul,Personal,1,0,163
+0021900837,223,PT10M03.00S,2,1610612737,ATL,1628981,Fernando,B. Fernando,-1,6,1,Made,1,31,42,73,h,Fernando 1' Dunk (4 PTS) (Young 3 AST),Made Shot,Dunk Shot,1,2,164
+0021900837,225,PT09M51.00S,2,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,-14,262,26,Made,1,31,45,76,v,Hardaway Jr. 26' 3PT Jump Shot (14 PTS) (Barea 4 AST),Made Shot,Jump Shot,1,3,165
+0021900837,227,PT09M41.00S,2,1610612737,ATL,201952,Teague,J. Teague,-1,2,0,Made,1,33,45,78,h,Teague Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,166
+0021900837,228,PT09M27.00S,2,1610612742,DAL,200826,Barea,J. Barea,7,13,1,Made,1,33,47,80,v,Barea 1' Driving Reverse Layup (6 PTS),Made Shot,Driving Reverse Layup Shot,1,2,167
+0021900837,229,PT09M18.00S,2,1610612737,ATL,1629027,Young,T. Young,-13,133,13,Made,1,35,47,82,h,Young 13' Driving Floating Jump Shot (6 PTS),Made Shot,Driving Floating Jump Shot,1,2,168
+0021900837,230,PT09M03.00S,2,1610612737,ATL,1626203,Graham,T. Graham,0,0,0,,0,,,0,h,Graham P.FOUL (P1.T2) (R.Mott),Foul,Personal,1,0,169
+0021900837,232,PT09M03.00S,2,1610612737,ATL,201952,Teague,J. Teague,0,0,0,,0,,,0,h,SUB: Reddish FOR Teague,Substitution,,0,0,170
+0021900837,234,PT08M55.00S,2,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,,,0,h,Reddish P.FOUL (P1.T3) (R.Mott),Foul,Personal,1,0,171
+0021900837,236,PT08M47.00S,2,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,Barea Lost Ball Turnover (P2.T4),Turnover,Lost Ball,1,0,172
+0021900837,236,PT08M47.00S,2,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins STEAL (1 STL),,,1,0,173
+0021900837,238,PT08M40.00S,2,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young Bad Pass Turnover (P3.T4),Turnover,Bad Pass,1,0,174
+0021900837,238,PT08M40.00S,2,1610612742,DAL,201584,Lee,C. Lee,0,0,0,,0,,,0,v,Lee STEAL (1 STL),,,1,0,175
+0021900837,240,PT08M31.00S,2,1610612742,DAL,1628382,Jackson,J. Jackson,-3,17,2,Made,1,35,49,84,v,Jackson 2' Driving Dunk (5 PTS) (Lee 1 AST),Made Shot,Driving Dunk Shot,1,2,176
+0021900837,241,PT08M29.00S,2,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,177
+0021900837,242,PT08M29.00S,2,1610612737,ATL,1628981,Fernando,B. Fernando,0,0,0,,0,,,0,h,SUB: Huerter FOR Fernando,Substitution,,0,0,178
+0021900837,243,PT08M29.00S,2,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,SUB: Wright FOR Barea,Substitution,,0,0,179
+0021900837,244,PT08M29.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,SUB: Finney-Smith FOR Kleber,Substitution,,0,0,180
+0021900837,249,PT08M15.00S,2,1610612737,ATL,1629629,Reddish,C. Reddish,-94,243,26,Missed,1,,,0,h,MISS Reddish 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,181
+0021900837,250,PT08M15.00S,2,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Unknown,0,0,182
+0021900837,251,PT08M15.00S,2,1610612742,DAL,1628382,Jackson,J. Jackson,0,0,0,,0,,,0,v,Jackson L.B.FOUL (P1.T3) (D.Collins),Foul,Loose Ball,1,0,183
+0021900837,253,PT08M06.00S,2,1610612737,ATL,1628381,Collins,J. Collins,8,34,3,Missed,1,,,0,h,MISS Collins 3' Layup,Missed Shot,Layup Shot,1,2,184
+0021900837,254,PT08M03.00S,2,1610612742,DAL,201584,Lee,C. Lee,0,0,0,,0,,,0,v,Lee REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,185
+0021900837,255,PT07M58.00S,2,1610612742,DAL,1626153,Wright,D. Wright,2,14,1,Made,1,35,51,86,v,Wright 1' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,186
+0021900837,256,PT07M47.00S,2,1610612737,ATL,1628381,Collins,J. Collins,2,11,1,Made,1,37,51,88,h,Collins 1' Cutting Dunk Shot (15 PTS) (Young 4 AST),Made Shot,Cutting Dunk Shot,1,2,187
+0021900837,258,PT07M27.00S,2,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,,,0,h,Reddish S.FOUL (P2.T4) (M.Myers),Foul,Shooting,1,0,188
+0021900837,260,PT07M27.00S,2,1610612742,DAL,1628382,Jackson,J. Jackson,0,0,0,,0,,,0,v,MISS Jackson Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,189
+0021900837,261,PT07M27.00S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Normal Rebound,0,0,190
+0021900837,262,PT07M27.00S,2,1610612742,DAL,1628382,Jackson,J. Jackson,0,0,0,,0,37,52,89,v,Jackson Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,191
+0021900837,263,PT07M12.00S,2,1610612737,ATL,1629629,Reddish,C. Reddish,-12,33,4,Made,1,39,52,91,h,Reddish 4' Driving Layup (8 PTS) (Graham 2 AST),Made Shot,Driving Layup Shot,1,2,192
+0021900837,265,PT06M51.00S,2,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,22,24,3,Made,1,39,54,93,v,Hardaway Jr. 3' Driving Layup (16 PTS),Made Shot,Driving Layup Shot,1,2,193
+0021900837,266,PT06M40.00S,2,1610612737,ATL,1628381,Collins,J. Collins,18,26,3,Made,1,41,54,95,h,Collins 3' Layup (17 PTS) (Huerter 3 AST),Made Shot,Layup Shot,1,2,194
+0021900837,268,PT06M40.00S,2,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,v,Hardaway Jr. S.FOUL (P2.T4) (M.Myers),Foul,Shooting,1,0,195
+0021900837,270,PT06M40.00S,2,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,v,SUB: Curry FOR Hardaway Jr.,Substitution,,0,0,196
+0021900837,272,PT06M40.00S,2,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,42,54,96,h,Collins Free Throw 1 of 1 (18 PTS),Free Throw,Free Throw 1 of 1,1,0,197
+0021900837,273,PT06M29.00S,2,1610612742,DAL,201584,Lee,C. Lee,230,47,0,Missed,1,,,0,v,MISS Lee 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,198
+0021900837,274,PT06M25.00S,2,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,199
+0021900837,275,PT06M12.00S,2,1610612737,ATL,1629027,Young,T. Young,-8,91,9,Missed,1,,,0,h,MISS Young 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,200
+0021900837,276,PT06M08.00S,2,1610612742,DAL,1628382,Jackson,J. Jackson,0,0,0,,0,,,0,v,Jackson REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,201
+0021900837,277,PT06M04.00S,2,1610612742,DAL,1626153,Wright,D. Wright,229,85,24,Made,1,42,57,99,v,Wright 24' 3PT Jump Shot (10 PTS) (Curry 3 AST),Made Shot,Jump Shot,1,3,202
+0021900837,279,PT05M45.00S,2,1610612742,DAL,201584,Lee,C. Lee,0,0,0,,0,,,0,v,Lee P.FOUL (P2.PN) (D.Collins),Foul,Personal,1,0,203
+0021900837,281,PT05M45.00S,2,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,43,57,100,h,Collins Free Throw 1 of 2 (19 PTS),Free Throw,Free Throw 1 of 2,1,0,204
+0021900837,282,PT05M45.00S,2,1610612737,ATL,1626203,Graham,T. Graham,0,0,0,,0,,,0,h,SUB: Dedmon FOR Graham,Substitution,,0,0,205
+0021900837,283,PT05M45.00S,2,1610612742,DAL,1628382,Jackson,J. Jackson,0,0,0,,0,,,0,v,SUB: Kleber FOR Jackson,Substitution,,0,0,206
+0021900837,286,PT05M45.00S,2,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,MISS Collins Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,207
+0021900837,287,PT05M42.00S,2,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,208
+0021900837,288,PT05M22.00S,2,1610612742,DAL,201584,Lee,C. Lee,74,247,26,Missed,1,,,0,v,MISS Lee 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,209
+0021900837,289,PT05M18.00S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,210
+0021900837,290,PT05M14.00S,2,1610612737,ATL,1628989,Huerter,K. Huerter,-229,-10,0,Made,1,46,57,103,h,Huerter 3PT Jump Shot (3 PTS) (Reddish 1 AST),Made Shot,Jump Shot,1,3,211
+0021900837,292,PT04M48.00S,2,1610612742,DAL,1626153,Wright,D. Wright,5,10,1,Made,1,46,59,105,v,Wright 1' Reverse Layup (12 PTS),Made Shot,Reverse Layup Shot,1,2,212
+0021900837,294,PT04M36.00S,2,1610612737,ATL,1628381,Collins,J. Collins,29,28,4,Made,1,48,59,107,h,Collins 4' Driving Layup (21 PTS) (Young 5 AST),Made Shot,Driving Layup Shot,1,2,213
+0021900837,296,PT04M35.00S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,214
+0021900837,297,PT04M35.00S,2,1610612742,DAL,201584,Lee,C. Lee,0,0,0,,0,,,0,v,SUB: Hardaway Jr. FOR Lee,Substitution,,0,0,215
+0021900837,299,PT04M11.00S,2,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,40,38,6,Missed,1,,,0,v,MISS Finney-Smith 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,216
+0021900837,300,PT04M09.00S,2,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,,,0,h,Reddish REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,217
+0021900837,301,PT04M08.00S,2,1610612742,DAL,1626153,Wright,D. Wright,0,0,0,,0,,,0,v,Wright S.FOUL (P1.PN) (M.Myers),Foul,Shooting,1,0,218
+0021900837,303,PT04M08.00S,2,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,49,59,108,h,Reddish Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,219
+0021900837,304,PT04M08.00S,2,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,50,59,109,h,Reddish Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,220
+0021900837,305,PT03M57.00S,2,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,67,22,7,Made,1,50,61,111,v,Hardaway Jr. 7' Driving Floating Jump Shot (18 PTS) (Wright 2 AST),Made Shot,Driving Floating Jump Shot,1,2,221
+0021900837,307,PT03M40.00S,2,1610612737,ATL,1629629,Reddish,C. Reddish,-16,169,17,Made,1,52,61,113,h,Reddish 17' Step Back Jump Shot (12 PTS) (Collins 1 AST),Made Shot,Step Back Jump shot,1,2,222
+0021900837,309,PT03M19.00S,2,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,231,27,0,Missed,1,,,0,v,MISS Hardaway Jr. 3PT Jump Shot,Missed Shot,Jump Shot,1,3,223
+0021900837,310,PT03M16.00S,2,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,224
+0021900837,311,PT03M14.00S,2,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith S.FOUL (P1.PN) (D.Collins),Foul,Shooting,1,0,225
+0021900837,313,PT03M14.00S,2,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,,,0,h,MISS Reddish Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,226
+0021900837,314,PT03M14.00S,2,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Normal Rebound,0,0,227
+0021900837,315,PT03M14.00S,2,1610612742,DAL,1626153,Wright,D. Wright,0,0,0,,0,,,0,v,SUB: Barea FOR Wright,Substitution,,0,0,228
+0021900837,317,PT03M14.00S,2,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,53,61,114,h,Reddish Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,229
+0021900837,318,PT03M03.00S,2,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,v,Hardaway Jr. Lost Ball Turnover (P1.T5),Turnover,Lost Ball,1,0,230
+0021900837,318,PT03M03.00S,2,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,Huerter STEAL (2 STL),,,1,0,231
+0021900837,320,PT02M57.00S,2,1610612737,ATL,1629629,Reddish,C. Reddish,-20,38,4,Made,1,55,61,116,h,Reddish 4' Driving Layup (15 PTS) (Huerter 4 AST),Made Shot,Driving Layup Shot,1,2,232
+0021900837,322,PT02M57.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber S.FOUL (P2.PN) (R.Mott),Foul,Shooting,1,0,233
+0021900837,324,PT02M57.00S,2,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,56,61,117,h,Reddish Free Throw 1 of 1 (16 PTS),Free Throw,Free Throw 1 of 1,1,0,234
+0021900837,325,PT02M43.00S,2,1610612742,DAL,203552,Curry,S. Curry,192,226,30,Missed,1,,,0,v,MISS Curry 30' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,235
+0021900837,326,PT02M38.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,236
+0021900837,327,PT02M35.00S,2,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,14,71,7,Missed,1,,,0,v,MISS Hardaway Jr. 7' Driving Layup,Missed Shot,Driving Layup Shot,1,2,237
+0021900837,327,PT02M35.00S,2,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins BLOCK (1 BLK),,,1,2,238
+0021900837,329,PT02M33.00S,2,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,,,0,h,Reddish REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,239
+0021900837,330,PT02M25.00S,2,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young Bad Pass Turnover (P4.T5),Turnover,Bad Pass,1,0,240
+0021900837,330,PT02M25.00S,2,1610612742,DAL,203552,Curry,S. Curry,0,0,0,,0,,,0,v,Curry STEAL (1 STL),,,1,0,241
+0021900837,332,PT02M20.00S,2,1610612742,DAL,200826,Barea,J. Barea,-226,26,0,Missed,1,,,0,v,MISS Barea 3PT Jump Shot,Missed Shot,Jump Shot,1,3,242
+0021900837,333,PT02M16.00S,2,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,Huerter REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,243
+0021900837,334,PT02M05.00S,2,1610612737,ATL,1629629,Reddish,C. Reddish,-8,254,25,Missed,1,,,0,h,MISS Reddish 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,244
+0021900837,335,PT02M03.00S,2,1610612742,DAL,203552,Curry,S. Curry,0,0,0,,0,,,0,v,Curry REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,245
+0021900837,336,PT01M57.00S,2,1610612742,DAL,203552,Curry,S. Curry,7,9,1,Made,1,56,63,119,v,Curry 1' Driving Layup (13 PTS),Made Shot,Driving Layup Shot,1,2,246
+0021900837,337,PT01M33.00S,2,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,,,0,h,Reddish OFF.Foul (P3) (M.Myers),Foul,Offensive,1,0,247
+0021900837,339,PT01M33.00S,2,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,,,0,h,Reddish Offensive Foul Turnover (P1.T6),Turnover,Offensive Foul Turnover,1,0,248
+0021900837,340,PT01M33.00S,2,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,,,0,h,SUB: Graham FOR Reddish,Substitution,,0,0,249
+0021900837,342,PT01M10.00S,2,1610612742,DAL,200826,Barea,J. Barea,-222,13,0,Missed,1,,,0,v,MISS Barea 3PT Jump Shot,Missed Shot,Jump Shot,1,3,250
+0021900837,343,PT01M06.00S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,251
+0021900837,347,PT00M55.70S,2,1610612737,ATL,1628989,Huerter,K. Huerter,-115,241,27,Missed,1,,,0,h,MISS Huerter 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,252
+0021900837,348,PT00M52.70S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,253
+0021900837,350,PT00M52.70S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon T.FOUL (P1.T4) (D.Collins),Foul,Technical,1,0,254
+0021900837,351,PT00M52.70S,2,1610612742,DAL,203552,Curry,S. Curry,0,0,0,,0,56,64,120,v,Curry Free Throw Technical (14 PTS),Free Throw,Free Throw Technical,1,0,255
+0021900837,352,PT00M52.70S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon L.B.FOUL (P2.PN) (D.Collins),Foul,Loose Ball,1,0,256
+0021900837,354,PT00M52.70S,2,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,56,65,121,v,Hardaway Jr. Free Throw 1 of 2 (19 PTS),Free Throw,Free Throw 1 of 2,1,0,257
+0021900837,355,PT00M52.70S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,SUB: Carter FOR Dedmon,Substitution,,0,0,258
+0021900837,357,PT00M52.70S,2,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,56,66,122,v,Hardaway Jr. Free Throw 2 of 2 (20 PTS),Free Throw,Free Throw 2 of 2,1,0,259
+0021900837,359,PT00M39.40S,2,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,SUB: Wright FOR Barea,Substitution,,0,0,260
+0021900837,361,PT00M34.00S,2,1610612737,ATL,1629027,Young,T. Young,-6,8,1,Made,1,58,66,124,h,Young 1' Driving Layup (8 PTS),Made Shot,Driving Layup Shot,1,2,261
+0021900837,362,PT00M28.00S,2,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,-108,253,28,Missed,1,,,0,v,MISS Hardaway Jr. 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,262
+0021900837,363,PT00M24.80S,2,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,263
+0021900837,364,PT00M02.40S,2,1610612737,ATL,1629027,Young,T. Young,-117,258,28,Missed,1,,,0,h,MISS Young 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,264
+0021900837,365,PT00M02.40S,2,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Unknown,0,0,265
+0021900837,366,PT00M00.00S,2,0,,0,,,0,0,0,,0,58,66,124,,End of 2nd Period (8:39 PM EST),period,end,1,0,266
+0021900837,372,PT12M00.00S,3,0,,0,,,0,0,0,,0,58,66,124,,Start of 3rd Period (8:54 PM EST),period,start,0,0,267
+0021900837,373,PT11M41.00S,3,1610612737,ATL,1628989,Huerter,K. Huerter,177,205,27,Missed,1,,,0,h,MISS Huerter 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,268
+0021900837,374,PT11M37.00S,3,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,v,Hardaway Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,269
+0021900837,375,PT11M25.00S,3,1610612742,DAL,1628467,Kleber,M. Kleber,0,11,1,Made,1,58,68,126,v,Kleber 1' Alley Oop Dunk (5 PTS) (Hardaway Jr. 2 AST),Made Shot,Alley Oop Dunk Shot,1,2,270
+0021900837,377,PT11M17.00S,3,1610612737,ATL,1629629,Reddish,C. Reddish,45,4,5,Missed,1,,,0,h,MISS Reddish 5' Layup,Missed Shot,Layup Shot,1,2,271
+0021900837,378,PT11M13.00S,3,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,,,0,h,Reddish REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,272
+0021900837,379,PT11M13.00S,3,1610612737,ATL,1629629,Reddish,C. Reddish,0,-6,1,Missed,1,,,0,h,MISS Reddish 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,273
+0021900837,380,PT11M11.00S,3,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,,,0,h,Reddish REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,274
+0021900837,381,PT11M11.00S,3,1610612737,ATL,1629629,Reddish,C. Reddish,0,-6,1,Made,1,60,68,128,h,Reddish 1' Tip Layup Shot (18 PTS),Made Shot,Tip Layup Shot,1,2,275
+0021900837,382,PT10M52.00S,3,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber OFF.Foul (P3) (M.Myers),Foul,Offensive,1,0,276
+0021900837,384,PT10M52.00S,3,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber Offensive Foul Turnover (P1.T6),Turnover,Offensive Foul Turnover,1,0,277
+0021900837,385,PT10M32.00S,3,1610612737,ATL,203473,Dedmon,D. Dedmon,28,29,4,Made,1,62,68,130,h,Dedmon 4' Layup (2 PTS) (Huerter 5 AST),Made Shot,Layup Shot,1,2,278
+0021900837,392,PT10M06.00S,3,1610612742,DAL,203552,Curry,S. Curry,71,13,7,Missed,1,,,0,v,MISS Curry 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,279
+0021900837,393,PT10M03.00S,3,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,280
+0021900837,398,PT09M44.00S,3,1610612737,ATL,1629027,Young,T. Young,-156,226,27,Missed,1,,,0,h,MISS Young 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,281
+0021900837,399,PT09M41.00S,3,1610612742,DAL,203552,Curry,S. Curry,0,0,0,,0,,,0,v,Curry REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,282
+0021900837,400,PT09M30.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,-14,257,26,Missed,1,,,0,v,MISS Finney-Smith 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,283
+0021900837,401,PT09M28.00S,3,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,1,0,284
+0021900837,402,PT09M28.00S,3,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon L.B.FOUL (P3.T1) (R.Mott),Foul,Loose Ball,1,0,285
+0021900837,404,PT09M14.00S,3,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,-87,270,28,Missed,1,,,0,v,MISS Hardaway Jr. 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,286
+0021900837,405,PT09M10.00S,3,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,287
+0021900837,406,PT09M06.00S,3,1610612737,ATL,1628381,Collins,J. Collins,9,8,1,Made,1,64,68,132,h,Collins 1' Alley Oop Dunk (23 PTS) (Young 6 AST),Made Shot,Alley Oop Dunk Shot,1,2,288
+0021900837,408,PT08M48.00S,3,1610612742,DAL,1626153,Wright,D. Wright,-30,74,8,Missed,1,,,0,v,MISS Wright 8' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,289
+0021900837,409,PT08M46.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,290
+0021900837,410,PT08M46.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,-8,-3,1,Made,1,64,70,134,v,Finney-Smith 1' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,291
+0021900837,411,PT08M46.00S,3,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon S.FOUL (P4.T2) (D.Collins),Foul,Shooting,1,0,292
+0021900837,413,PT08M46.00S,3,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,SUB: Graham FOR Dedmon,Substitution,,0,0,293
+0021900837,415,PT08M46.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,MISS Finney-Smith Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,294
+0021900837,416,PT08M44.00S,3,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:1 Def:10),Rebound,Unknown,1,0,295
+0021900837,417,PT08M29.00S,3,1610612737,ATL,1629629,Reddish,C. Reddish,-237,17,24,Missed,1,,,0,h,MISS Reddish 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,296
+0021900837,418,PT08M26.00S,3,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,v,Hardaway Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,297
+0021900837,419,PT08M15.00S,3,1610612742,DAL,203552,Curry,S. Curry,-12,18,2,Made,1,64,72,136,v,Curry 2' Driving Layup (16 PTS) (Kleber 2 AST),Made Shot,Driving Layup Shot,1,2,298
+0021900837,421,PT07M57.00S,3,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins Traveling Turnover (P1.T7),Turnover,Traveling,1,0,299
+0021900837,422,PT07M37.00S,3,1610612742,DAL,1628467,Kleber,M. Kleber,-232,8,0,Missed,1,,,0,v,MISS Kleber 3PT Jump Shot,Missed Shot,Jump Shot,1,3,300
+0021900837,423,PT07M33.00S,3,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,,,0,h,Reddish REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,301
+0021900837,424,PT07M28.00S,3,1610612737,ATL,1629629,Reddish,C. Reddish,13,17,2,Missed,1,,,0,h,MISS Reddish 2' Driving Dunk,Missed Shot,Driving Dunk Shot,1,2,302
+0021900837,424,PT07M28.00S,3,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber BLOCK (3 BLK),,,1,2,303
+0021900837,426,PT07M24.00S,3,1610612742,DAL,1626153,Wright,D. Wright,0,0,0,,0,,,0,v,Wright REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,304
+0021900837,427,PT07M23.00S,3,1610612742,DAL,203552,Curry,S. Curry,119,232,26,Missed,1,,,0,v,MISS Curry 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,305
+0021900837,428,PT07M20.00S,3,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,306
+0021900837,430,PT07M14.00S,3,1610612742,DAL,1626153,Wright,D. Wright,-6,1,1,Made,1,64,74,138,v,Wright 1' Driving Layup (14 PTS) (Finney-Smith 1 AST),Made Shot,Driving Layup Shot,1,2,307
+0021900837,432,PT07M12.00S,3,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,308
+0021900837,433,PT07M12.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,SUB: Jackson FOR Finney-Smith,Substitution,,0,0,309
+0021900837,435,PT06M59.00S,3,1610612737,ATL,1629629,Reddish,C. Reddish,0,20,2,Missed,1,,,0,h,MISS Reddish 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,310
+0021900837,435,PT06M59.00S,3,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber BLOCK (4 BLK),,,1,2,311
+0021900837,437,PT06M59.00S,3,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Unknown,0,0,312
+0021900837,439,PT06M51.00S,3,1610612737,ATL,1626203,Graham,T. Graham,230,25,0,Made,1,67,74,141,h,Graham 3PT Jump Shot (5 PTS) (Reddish 2 AST),Made Shot,Jump Shot,1,3,313
+0021900837,441,PT06M37.00S,3,1610612742,DAL,203552,Curry,S. Curry,180,189,26,Made,1,67,77,144,v,Curry 26' 3PT Jump Shot (19 PTS) (Hardaway Jr. 3 AST),Made Shot,Jump Shot,1,3,314
+0021900837,443,PT06M23.00S,3,1610612737,ATL,1628989,Huerter,K. Huerter,9,93,9,Missed,1,,,0,h,MISS Huerter 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,315
+0021900837,444,PT06M20.00S,3,1610612742,DAL,1628382,Jackson,J. Jackson,0,0,0,,0,,,0,v,Jackson REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,316
+0021900837,445,PT06M13.00S,3,1610612742,DAL,203552,Curry,S. Curry,0,0,0,,0,,,0,v,Curry Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,317
+0021900837,445,PT06M13.00S,3,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,,,0,h,Reddish STEAL (1 STL),,,1,0,318
+0021900837,447,PT06M07.00S,3,1610612737,ATL,1629027,Young,T. Young,6,6,1,Made,1,69,77,146,h,Young 1' Driving Layup (10 PTS),Made Shot,Driving Layup Shot,1,2,319
+0021900837,448,PT05M45.00S,3,1610612742,DAL,203552,Curry,S. Curry,-122,225,26,Missed,1,,,0,v,MISS Curry 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,320
+0021900837,449,PT05M42.00S,3,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:1 Def:11),Rebound,Unknown,1,0,321
+0021900837,450,PT05M28.00S,3,1610612737,ATL,1628989,Huerter,K. Huerter,-221,72,0,Missed,1,,,0,h,MISS Huerter 3PT Jump Shot,Missed Shot,Jump Shot,1,3,322
+0021900837,451,PT05M24.00S,3,1610612742,DAL,1628382,Jackson,J. Jackson,0,0,0,,0,,,0,v,Jackson REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,323
+0021900837,452,PT05M15.00S,3,1610612742,DAL,203552,Curry,S. Curry,0,0,0,,0,,,0,v,Curry Bad Pass Turnover (P2.T8),Turnover,Bad Pass,1,0,324
+0021900837,454,PT05M15.00S,3,1610612742,DAL,203552,Curry,S. Curry,0,0,0,,0,,,0,v,Curry L.B.FOUL (P2.T1) (R.Mott),Foul,Loose Ball,1,0,325
+0021900837,456,PT05M15.00S,3,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,SUB: Teague FOR Huerter,Substitution,,0,0,326
+0021900837,457,PT05M15.00S,3,1610612742,DAL,203552,Curry,S. Curry,0,0,0,,0,,,0,v,SUB: Lee FOR Curry,Substitution,,0,0,327
+0021900837,458,PT05M15.00S,3,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,SUB: Finney-Smith FOR Kleber,Substitution,,0,0,328
+0021900837,462,PT05M04.00S,3,1610612742,DAL,201584,Lee,C. Lee,0,0,0,,0,,,0,v,Lee S.FOUL (P3.T2) (M.Myers),Foul,Shooting,1,0,329
+0021900837,464,PT05M04.00S,3,1610612737,ATL,201952,Teague,J. Teague,0,0,0,,0,,,0,h,MISS Teague Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,330
+0021900837,465,PT05M04.00S,3,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Normal Rebound,0,0,331
+0021900837,466,PT05M04.00S,3,1610612737,ATL,201952,Teague,J. Teague,0,0,0,,0,70,77,147,h,Teague Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,332
+0021900837,467,PT04M56.00S,3,1610612742,DAL,1628382,Jackson,J. Jackson,106,230,25,Missed,1,,,0,v,MISS Jackson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,333
+0021900837,468,PT04M50.00S,3,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:1 Def:12),Rebound,Unknown,1,0,334
+0021900837,469,PT04M46.00S,3,1610612737,ATL,1629027,Young,T. Young,17,29,3,Made,1,72,77,149,h,Young 3' Driving Floating Jump Shot (12 PTS),Made Shot,Driving Floating Jump Shot,1,2,335
+0021900837,470,PT04M30.00S,3,1610612742,DAL,1628382,Jackson,J. Jackson,6,5,1,Made,1,72,79,151,v,Jackson 1' Cutting Layup Shot (8 PTS) (Finney-Smith 2 AST),Made Shot,Cutting Layup Shot,1,2,336
+0021900837,472,PT04M10.00S,3,1610612737,ATL,201952,Teague,J. Teague,-75,242,25,Missed,1,,,0,h,MISS Teague 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,337
+0021900837,473,PT04M07.00S,3,1610612737,ATL,1626203,Graham,T. Graham,0,0,0,,0,,,0,h,Graham REBOUND (Off:3 Def:0),Rebound,Unknown,1,0,338
+0021900837,474,PT04M07.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith S.FOUL (P2.T3) (R.Mott),Foul,Shooting,1,0,339
+0021900837,476,PT04M07.00S,3,1610612737,ATL,1626203,Graham,T. Graham,0,0,0,,0,,,0,h,MISS Graham Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,340
+0021900837,477,PT04M07.00S,3,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Normal Rebound,0,0,341
+0021900837,478,PT04M07.00S,3,1610612737,ATL,1626203,Graham,T. Graham,0,0,0,,0,,,0,h,MISS Graham Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,342
+0021900837,479,PT04M05.00S,3,1610612742,DAL,1628382,Jackson,J. Jackson,0,0,0,,0,,,0,v,Jackson REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,343
+0021900837,480,PT03M59.00S,3,1610612742,DAL,201584,Lee,C. Lee,-232,13,0,Missed,1,,,0,v,MISS Lee 3PT Jump Shot,Missed Shot,Jump Shot,1,3,344
+0021900837,481,PT03M54.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,345
+0021900837,482,PT03M54.00S,3,1610612737,ATL,1626203,Graham,T. Graham,0,0,0,,0,,,0,h,Graham S.FOUL (P2.T3) (R.Mott),Foul,Shooting,1,0,346
+0021900837,484,PT03M54.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,72,80,152,v,Finney-Smith Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,347
+0021900837,485,PT03M54.00S,3,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,SUB: Goodwin FOR Young,Substitution,,0,0,348
+0021900837,487,PT03M54.00S,3,1610612742,DAL,1626153,Wright,D. Wright,0,0,0,,0,,,0,v,SUB: Barea FOR Wright,Substitution,,0,0,349
+0021900837,489,PT03M54.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,72,81,153,v,Finney-Smith Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,350
+0021900837,490,PT03M44.00S,3,1610612737,ATL,1629629,Reddish,C. Reddish,-152,189,24,Missed,1,,,0,h,MISS Reddish 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,351
+0021900837,491,PT03M40.00S,3,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,v,Hardaway Jr. REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,352
+0021900837,492,PT03M31.00S,3,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,131,217,25,Made,1,72,84,156,v,Hardaway Jr. 25' 3PT Pullup Jump Shot (23 PTS) (Lee 2 AST),Made Shot,Pullup Jump shot,1,3,353
+0021900837,494,PT03M13.00S,3,1610612737,ATL,201952,Teague,J. Teague,-10,3,1,Missed,1,,,0,h,MISS Teague 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,354
+0021900837,494,PT03M13.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith BLOCK (1 BLK),,,1,2,355
+0021900837,496,PT03M12.00S,3,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:2 Def:12),Rebound,Unknown,1,0,356
+0021900837,497,PT03M12.00S,3,1610612742,DAL,201584,Lee,C. Lee,0,0,0,,0,,,0,v,Lee S.FOUL (P4.T4) (R.Mott),Foul,Shooting,1,0,357
+0021900837,499,PT03M12.00S,3,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,73,84,157,h,Collins Free Throw 1 of 2 (24 PTS),Free Throw,Free Throw 1 of 2,1,0,358
+0021900837,500,PT03M12.00S,3,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,,,0,h,SUB: Huerter FOR Reddish,Substitution,,0,0,359
+0021900837,502,PT03M12.00S,3,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,MISS Collins Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,360
+0021900837,503,PT03M10.00S,3,1610612742,DAL,1628382,Jackson,J. Jackson,0,0,0,,0,,,0,v,Jackson REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,361
+0021900837,504,PT02M54.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,-11,11,2,Made,1,73,86,159,v,Finney-Smith 2' Cutting Layup Shot (6 PTS) (Hardaway Jr. 4 AST),Made Shot,Cutting Layup Shot,1,2,362
+0021900837,506,PT02M37.00S,3,1610612737,ATL,201952,Teague,J. Teague,0,0,0,,0,,,0,h,Teague Bad Pass Turnover (P1.T8),Turnover,Bad Pass,1,0,363
+0021900837,506,PT02M37.00S,3,1610612742,DAL,201584,Lee,C. Lee,0,0,0,,0,,,0,v,Lee STEAL (2 STL),,,1,0,364
+0021900837,508,PT02M27.00S,3,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,53,257,26,Missed,1,,,0,v,MISS Hardaway Jr. 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,365
+0021900837,509,PT02M24.00S,3,1610612737,ATL,1626203,Graham,T. Graham,0,0,0,,0,,,0,h,Graham REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,366
+0021900837,510,PT02M11.00S,3,1610612737,ATL,1628381,Collins,J. Collins,28,22,4,Made,1,75,86,161,h,Collins 4' Layup (26 PTS) (Goodwin 1 AST),Made Shot,Layup Shot,1,2,367
+0021900837,512,PT02M10.00S,3,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,368
+0021900837,513,PT02M10.00S,3,1610612737,ATL,1626203,Graham,T. Graham,0,0,0,,0,,,0,h,SUB: Carter FOR Graham,Substitution,,0,0,369
+0021900837,514,PT02M10.00S,3,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,SUB: Fernando FOR Collins,Substitution,,0,0,370
+0021900837,515,PT02M10.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,SUB: Kidd-Gilchrist FOR Finney-Smith,Substitution,,0,0,371
+0021900837,516,PT02M10.00S,3,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,v,SUB: Curry FOR Hardaway Jr.,Substitution,,0,0,372
+0021900837,521,PT01M51.00S,3,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,Barea Out of Bounds - Bad Pass Turnover Turnover (P3.T9),Turnover,Out of Bounds - Bad Pass Turnover,1,0,373
+0021900837,522,PT01M43.00S,3,1610612737,ATL,1629164,Goodwin,B. Goodwin,131,231,27,Missed,1,,,0,h,MISS Goodwin 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,374
+0021900837,523,PT01M41.00S,3,1610612742,DAL,201584,Lee,C. Lee,0,0,0,,0,,,0,v,Lee REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,375
+0021900837,524,PT01M24.00S,3,1610612742,DAL,200826,Barea,J. Barea,43,248,25,Missed,1,,,0,v,MISS Barea 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,376
+0021900837,525,PT01M21.00S,3,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,Huerter REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,377
+0021900837,526,PT01M03.00S,3,1610612737,ATL,1713,Carter,V. Carter,121,105,16,Missed,1,,,0,h,MISS Carter 16' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,378
+0021900837,527,PT00M59.80S,3,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,Barea REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,379
+0021900837,528,PT00M51.50S,3,1610612742,DAL,203552,Curry,S. Curry,0,0,0,,0,,,0,v,Curry Bad Pass Turnover (P3.T10),Turnover,Bad Pass,1,0,380
+0021900837,528,PT00M51.50S,3,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,Huerter STEAL (3 STL),,,1,0,381
+0021900837,530,PT00M45.50S,3,1610612737,ATL,201952,Teague,J. Teague,30,66,7,Missed,1,,,0,h,MISS Teague 7' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,382
+0021900837,531,PT00M42.10S,3,1610612737,ATL,1628981,Fernando,B. Fernando,0,0,0,,0,,,0,h,Fernando REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,383
+0021900837,532,PT00M35.40S,3,1610612737,ATL,1629164,Goodwin,B. Goodwin,24,82,9,Missed,1,,,0,h,MISS Goodwin 9' Driving Layup,Missed Shot,Driving Layup Shot,1,2,384
+0021900837,532,PT00M35.40S,3,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,Barea BLOCK (1 BLK),,,1,2,385
+0021900837,534,PT00M35.40S,3,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Unknown,0,0,386
+0021900837,536,PT00M28.90S,3,1610612737,ATL,201952,Teague,J. Teague,82,55,10,Made,1,77,86,163,h,Teague 10' Driving Floating Bank Jump Shot (5 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,387
+0021900837,537,PT00M21.60S,3,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,h,Carter P.FOUL (P1.T4) (R.Mott),Foul,Personal,1,0,388
+0021900837,539,PT00M08.00S,3,1610612742,DAL,200826,Barea,J. Barea,-14,8,2,Missed,1,,,0,v,MISS Barea 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,389
+0021900837,540,PT00M05.80S,3,1610612742,DAL,203077,Kidd-Gilchrist,M. Kidd-Gilchrist,0,0,0,,0,,,0,v,Kidd-Gilchrist REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,390
+0021900837,541,PT00M05.20S,3,1610612742,DAL,203077,Kidd-Gilchrist,M. Kidd-Gilchrist,0,0,0,,0,,,0,v,Kidd-Gilchrist Out of Bounds - Bad Pass Turnover Turnover (P1.T11),Turnover,Out of Bounds - Bad Pass Turnover,1,0,391
+0021900837,542,PT00M01.80S,3,1610612737,ATL,1629164,Goodwin,B. Goodwin,-125,232,26,Missed,1,,,0,h,MISS Goodwin 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,392
+0021900837,543,PT00M00.80S,3,1610612742,DAL,201584,Lee,C. Lee,0,0,0,,0,,,0,v,Lee REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,393
+0021900837,544,PT00M00.00S,3,0,,0,,,0,0,0,,0,77,86,163,,End of 3rd Period (9:20 PM EST),period,end,1,0,394
+0021900837,551,PT12M00.00S,4,0,,0,,,0,0,0,,0,77,86,163,,Start of 4th Period (9:22 PM EST),period,start,0,0,395
+0021900837,552,PT11M42.00S,4,1610612742,DAL,1628382,Jackson,J. Jackson,2,22,2,Missed,1,,,0,v,MISS Jackson 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,396
+0021900837,553,PT11M40.00S,4,1610612737,ATL,1628981,Fernando,B. Fernando,0,0,0,,0,,,0,h,Fernando REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,397
+0021900837,554,PT11M26.00S,4,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,,,0,h,Reddish Bad Pass Turnover (P2.T9),Turnover,Bad Pass,1,0,398
+0021900837,554,PT11M26.00S,4,1610612742,DAL,203552,Curry,S. Curry,0,0,0,,0,,,0,v,Curry STEAL (2 STL),,,1,0,399
+0021900837,556,PT11M15.00S,4,1610612742,DAL,200826,Barea,J. Barea,18,26,3,Missed,1,,,0,v,MISS Barea 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,400
+0021900837,557,PT11M12.00S,4,1610612737,ATL,1628981,Fernando,B. Fernando,0,0,0,,0,,,0,h,Fernando REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,401
+0021900837,562,PT11M08.00S,4,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young Out of Bounds - Bad Pass Turnover Turnover (P5.T10),Turnover,Out of Bounds - Bad Pass Turnover,0,0,402
+0021900837,563,PT11M01.00S,4,1610612742,DAL,200826,Barea,J. Barea,-6,13,1,Made,1,77,88,165,v,Barea 1' Driving Layup (8 PTS) (Curry 4 AST),Made Shot,Driving Layup Shot,1,2,403
+0021900837,565,PT10M54.00S,4,1610612737,ATL,1629629,Reddish,C. Reddish,-225,41,0,Missed,1,,,0,h,MISS Reddish 3PT Jump Shot,Missed Shot,Jump Shot,1,3,404
+0021900837,566,PT10M52.00S,4,1610612742,DAL,203552,Curry,S. Curry,0,0,0,,0,,,0,v,Curry REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,405
+0021900837,567,PT10M40.00S,4,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,,,0,h,Reddish P.FOUL (P4.T1) (M.Myers),Foul,Personal,1,0,406
+0021900837,569,PT10M29.00S,4,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,h,Carter S.FOUL (P2.T2) (R.Mott),Foul,Shooting,1,0,407
+0021900837,571,PT10M29.00S,4,1610612742,DAL,1628382,Jackson,J. Jackson,0,0,0,,0,77,89,166,v,Jackson Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,408
+0021900837,572,PT10M29.00S,4,1610612742,DAL,1628382,Jackson,J. Jackson,0,0,0,,0,77,90,167,v,Jackson Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,409
+0021900837,573,PT10M08.00S,4,1610612737,ATL,201952,Teague,J. Teague,-10,85,9,Made,1,79,90,169,h,Teague 9' Driving Floating Jump Shot (7 PTS) (Young 7 AST),Made Shot,Driving Floating Jump Shot,1,2,410
+0021900837,575,PT09M55.00S,4,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,Barea Bad Pass Turnover (P4.T12),Turnover,Bad Pass,1,0,411
+0021900837,575,PT09M55.00S,4,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,,,0,h,Reddish STEAL (2 STL),,,1,0,412
+0021900837,577,PT09M52.00S,4,1610612737,ATL,1629629,Reddish,C. Reddish,1,9,1,Made,1,81,90,171,h,Reddish 1' Driving Dunk (20 PTS),Made Shot,Driving Dunk Shot,1,2,413
+0021900837,578,PT09M26.00S,4,1610612742,DAL,201584,Lee,C. Lee,106,227,25,Missed,1,,,0,v,MISS Lee 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,414
+0021900837,579,PT09M23.00S,4,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,h,Carter REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,415
+0021900837,580,PT09M17.00S,4,1610612737,ATL,201952,Teague,J. Teague,19,82,8,Missed,1,,,0,h,MISS Teague 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,416
+0021900837,581,PT09M15.00S,4,1610612737,ATL,1628981,Fernando,B. Fernando,0,0,0,,0,,,0,h,Fernando REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,417
+0021900837,582,PT09M15.00S,4,1610612737,ATL,1628981,Fernando,B. Fernando,6,6,1,Made,1,83,90,173,h,Fernando 1' Putback Layup (6 PTS),Made Shot,Putback Layup Shot,1,2,418
+0021900837,583,PT09M15.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber S.FOUL (P4.T1) (M.Myers),Foul,Shooting,1,0,419
+0021900837,585,PT09M15.00S,4,1610612737,ATL,201952,Teague,J. Teague,0,0,0,,0,,,0,h,SUB: Huerter FOR Teague,Substitution,,0,0,420
+0021900837,586,PT09M15.00S,4,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,h,SUB: Collins FOR Carter,Substitution,,0,0,421
+0021900837,587,PT09M15.00S,4,1610612742,DAL,201584,Lee,C. Lee,0,0,0,,0,,,0,v,SUB: Wright FOR Lee,Substitution,,0,0,422
+0021900837,591,PT09M15.00S,4,1610612737,ATL,1628981,Fernando,B. Fernando,0,0,0,,0,,,0,h,MISS Fernando Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,423
+0021900837,592,PT09M13.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,424
+0021900837,593,PT08M55.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,-1,20,2,Made,1,83,92,175,v,Kleber 2' Layup (7 PTS) (Barea 5 AST),Made Shot,Layup Shot,1,2,425
+0021900837,595,PT08M45.00S,4,1610612737,ATL,1629629,Reddish,C. Reddish,226,22,0,Missed,1,,,0,h,MISS Reddish 3PT Jump Shot,Missed Shot,Jump Shot,1,3,426
+0021900837,596,PT08M45.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,427
+0021900837,597,PT08M45.00S,4,1610612737,ATL,1628981,Fernando,B. Fernando,0,0,0,,0,,,0,h,Fernando L.B.FOUL (P1.T3) (R.Mott),Foul,Loose Ball,1,0,428
+0021900837,599,PT08M45.00S,4,1610612737,ATL,1628981,Fernando,B. Fernando,0,0,0,,0,,,0,h,SUB: Dedmon FOR Fernando,Substitution,,0,0,429
+0021900837,601,PT08M32.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,230,46,0,Missed,1,,,0,v,MISS Kleber 3PT Jump Shot,Missed Shot,Jump Shot,1,3,430
+0021900837,602,PT08M29.00S,4,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,431
+0021900837,603,PT08M24.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber S.FOUL (P5.T2) (R.Mott),Foul,Shooting,1,0,432
+0021900837,605,PT08M24.00S,4,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,84,92,176,h,Collins Free Throw 1 of 2 (27 PTS),Free Throw,Free Throw 1 of 2,1,0,433
+0021900837,606,PT08M24.00S,4,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,SUB: Finney-Smith FOR Barea,Substitution,,0,0,434
+0021900837,607,PT08M24.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,SUB: Hardaway Jr. FOR Kleber,Substitution,,0,0,435
+0021900837,610,PT08M24.00S,4,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,MISS Collins Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,436
+0021900837,611,PT08M22.00S,4,1610612742,DAL,1628382,Jackson,J. Jackson,0,0,0,,0,,,0,v,Jackson REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,437
+0021900837,612,PT08M17.00S,4,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,v,Hardaway Jr. Step Out of Bounds Turnover (P2.T13),Turnover,Step Out of Bounds Turnover,1,0,438
+0021900837,613,PT08M04.00S,4,1610612737,ATL,203473,Dedmon,D. Dedmon,-5,1,1,Made,1,86,92,178,h,Dedmon 1' Dunk (4 PTS) (Young 8 AST),Made Shot,Dunk Shot,1,2,439
+0021900837,615,PT07M44.00S,4,1610612742,DAL,1626153,Wright,D. Wright,0,0,0,,0,,,0,v,Wright Bad Pass Turnover (P1.T14),Turnover,Bad Pass,1,0,440
+0021900837,615,PT07M44.00S,4,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,,,0,h,Reddish STEAL (3 STL),,,1,0,441
+0021900837,617,PT07M39.00S,4,1610612737,ATL,1628381,Collins,J. Collins,3,15,2,Made,1,88,92,180,h,Collins 2' Alley Oop Layup (29 PTS) (Young 9 AST),Made Shot,Alley Oop Layup shot,1,2,442
+0021900837,619,PT07M39.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,443
+0021900837,620,PT07M16.00S,4,1610612742,DAL,1626153,Wright,D. Wright,0,0,0,,0,,,0,v,Wright Lost Ball Turnover (P2.T15),Turnover,Lost Ball,1,0,444
+0021900837,620,PT07M16.00S,4,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,Huerter STEAL (4 STL),,,1,0,445
+0021900837,622,PT07M13.00S,4,1610612737,ATL,1628381,Collins,J. Collins,0,16,2,Made,1,90,92,182,h,Collins 2' Driving Dunk (31 PTS) (Huerter 6 AST),Made Shot,Driving Dunk Shot,1,2,446
+0021900837,624,PT06M54.00S,4,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins P.FOUL (P1.T4) (R.Mott),Foul,Personal,1,0,447
+0021900837,626,PT06M40.00S,4,1610612742,DAL,203552,Curry,S. Curry,0,0,0,,0,,,0,v,Curry Out of Bounds - Bad Pass Turnover Turnover (P4.T16),Turnover,Out of Bounds - Bad Pass Turnover,1,0,448
+0021900837,627,PT06M33.00S,4,1610612737,ATL,1629027,Young,T. Young,12,13,2,Made,1,92,92,184,h,Young 2' Driving Layup (14 PTS),Made Shot,Driving Layup Shot,1,2,449
+0021900837,628,PT06M21.00S,4,1610612742,DAL,203552,Curry,S. Curry,-186,175,26,Made,1,92,95,187,v,Curry 26' 3PT Jump Shot (22 PTS) (Hardaway Jr. 5 AST),Made Shot,Jump Shot,1,3,450
+0021900837,630,PT06M06.00S,4,1610612737,ATL,1629027,Young,T. Young,22,294,29,Missed,1,,,0,h,MISS Young 29' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,451
+0021900837,631,PT06M06.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,452
+0021900837,633,PT06M06.00S,4,1610612742,DAL,1626153,Wright,D. Wright,0,0,0,,0,,,0,v,SUB: Barea FOR Wright,Substitution,,0,0,453
+0021900837,635,PT05M56.00S,4,1610612742,DAL,203552,Curry,S. Curry,136,230,27,Missed,1,,,0,v,MISS Curry 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,454
+0021900837,636,PT05M53.00S,4,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:0 Def:9),Rebound,Unknown,1,0,455
+0021900837,637,PT05M44.00S,4,1610612737,ATL,203473,Dedmon,D. Dedmon,-4,10,1,Made,1,94,95,189,h,Dedmon 1' Layup (6 PTS) (Young 10 AST),Made Shot,Layup Shot,1,2,456
+0021900837,639,PT05M32.00S,4,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,-19,249,25,Missed,1,,,0,v,MISS Finney-Smith 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,457
+0021900837,639,PT05M32.00S,4,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon BLOCK (2 BLK),,,1,3,458
+0021900837,641,PT05M29.00S,4,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,459
+0021900837,642,PT05M27.00S,4,1610612737,ATL,1629027,Young,T. Young,2,10,1,Missed,1,,,0,h,MISS Young 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,460
+0021900837,643,PT05M24.00S,4,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,461
+0021900837,644,PT05M24.00S,4,1610612737,ATL,203473,Dedmon,D. Dedmon,9,11,1,Made,1,96,95,191,h,Dedmon 1' Putback Layup (8 PTS),Made Shot,Putback Layup Shot,1,2,462
+0021900837,645,PT05M24.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,463
+0021900837,646,PT05M24.00S,4,1610612742,DAL,1628382,Jackson,J. Jackson,0,0,0,,0,,,0,v,SUB: Kleber FOR Jackson,Substitution,,0,0,464
+0021900837,647,PT05M24.00S,4,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,SUB: Wright FOR Barea,Substitution,,0,0,465
+0021900837,650,PT05M05.00S,4,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,-198,152,25,Made,1,96,98,194,v,Hardaway Jr. 25' 3PT Jump Shot (26 PTS) (Curry 5 AST),Made Shot,Jump Shot,1,3,466
+0021900837,652,PT04M49.00S,4,1610612737,ATL,203473,Dedmon,D. Dedmon,-221,42,0,Missed,1,,,0,h,MISS Dedmon 3PT Jump Shot,Missed Shot,Jump Shot,1,3,467
+0021900837,653,PT04M44.00S,4,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,468
+0021900837,654,PT04M27.00S,4,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,-13,15,2,Made,1,96,100,196,v,Hardaway Jr. 2' Driving Layup (28 PTS),Made Shot,Driving Layup Shot,1,2,469
+0021900837,655,PT04M11.00S,4,1610612737,ATL,1629027,Young,T. Young,-5,11,1,Missed,1,,,0,h,MISS Young 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,470
+0021900837,655,PT04M11.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber BLOCK (5 BLK),,,1,2,471
+0021900837,657,PT04M09.00S,4,1610612742,DAL,203552,Curry,S. Curry,0,0,0,,0,,,0,v,Curry REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,472
+0021900837,658,PT04M06.00S,4,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,162,194,25,Missed,1,,,0,v,MISS Hardaway Jr. 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,473
+0021900837,659,PT04M03.00S,4,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:1 Def:10),Rebound,Unknown,1,0,474
+0021900837,660,PT04M00.00S,4,1610612737,ATL,1629027,Young,T. Young,92,240,26,Made,1,99,100,199,h,Young 26' 3PT Step Back Jump Shot (17 PTS),Made Shot,Step Back Jump shot,1,3,475
+0021900837,661,PT03M32.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,-18,37,4,Missed,1,,,0,v,MISS Kleber 4' Layup,Missed Shot,Layup Shot,1,2,476
+0021900837,661,PT03M32.00S,4,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins BLOCK (2 BLK),,,1,2,477
+0021900837,663,PT03M29.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,478
+0021900837,664,PT03M28.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,-121,-22,12,Made,1,99,102,201,v,Kleber 12' Fadeaway Jumper (9 PTS),Made Shot,Fadeaway Jump Shot,1,2,479
+0021900837,665,PT03M21.00S,4,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,480
+0021900837,666,PT03M08.00S,4,1610612737,ATL,1628989,Huerter,K. Huerter,-133,257,29,Missed,1,,,0,h,MISS Huerter 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,481
+0021900837,667,PT03M04.00S,4,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:3 Def:12),Rebound,Unknown,1,0,482
+0021900837,668,PT03M00.00S,4,1610612737,ATL,1629027,Young,T. Young,44,329,33,Made,1,102,102,204,h,Young 33' 3PT Jump Shot (20 PTS) (Collins 2 AST),Made Shot,Jump Shot,1,3,483
+0021900837,670,PT02M40.00S,4,1610612742,DAL,203552,Curry,S. Curry,73,29,8,Missed,1,,,0,v,MISS Curry 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,484
+0021900837,671,PT02M38.00S,4,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,485
+0021900837,672,PT02M28.00S,4,1610612737,ATL,203473,Dedmon,D. Dedmon,116,227,25,Missed,1,,,0,h,MISS Dedmon 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,486
+0021900837,673,PT02M25.00S,4,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,v,Hardaway Jr. REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,487
+0021900837,674,PT02M17.00S,4,1610612737,ATL,1629629,Reddish,C. Reddish,0,0,0,,0,,,0,h,Reddish S.FOUL (P5.PN) (R.Mott),Foul,Shooting,1,0,488
+0021900837,676,PT02M17.00S,4,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,102,103,205,v,Hardaway Jr. Free Throw 1 of 2 (29 PTS),Free Throw,Free Throw 1 of 2,1,0,489
+0021900837,677,PT02M17.00S,4,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,v,MISS Hardaway Jr. Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,490
+0021900837,678,PT02M12.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:4 Def:4),Rebound,Unknown,1,0,491
+0021900837,679,PT02M11.00S,4,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon S.FOUL (P5.PN) (D.Collins),Foul,Shooting,1,0,492
+0021900837,681,PT02M11.00S,4,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,v,MISS Hardaway Jr. Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,493
+0021900837,682,PT02M11.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Normal Rebound,0,0,494
+0021900837,683,PT02M11.00S,4,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,102,104,206,v,Hardaway Jr. Free Throw 2 of 2 (30 PTS),Free Throw,Free Throw 2 of 2,1,0,495
+0021900837,684,PT01M53.00S,4,1610612737,ATL,1629027,Young,T. Young,-105,258,28,Made,1,105,104,209,h,Young 28' 3PT Pullup Jump Shot (23 PTS) (Reddish 3 AST),Made Shot,Pullup Jump shot,1,3,496
+0021900837,685,PT01M53.00S,4,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith S.FOUL (P3.T3) (M.Myers),Foul,Shooting,1,0,497
+0021900837,688,PT01M53.00S,4,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,MISS Young Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,498
+0021900837,689,PT01M47.00S,4,1610612742,DAL,1626153,Wright,D. Wright,0,0,0,,0,,,0,v,Wright REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,499
+0021900837,690,PT01M38.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,-232,67,24,Missed,1,,,0,v,MISS Kleber 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,500
+0021900837,691,PT01M35.00S,4,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,501
+0021900837,692,PT01M17.00S,4,1610612737,ATL,1629027,Young,T. Young,-139,339,37,Missed,1,,,0,h,MISS Young 37' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,502
+0021900837,693,PT01M14.00S,4,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:4 Def:12),Rebound,Unknown,1,0,503
+0021900837,694,PT01M13.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber S.FOUL (P6.PN) (R.Mott),Foul,Shooting,1,0,504
+0021900837,696,PT01M13.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,SUB: Jackson FOR Kleber,Substitution,,0,0,505
+0021900837,698,PT01M13.00S,4,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,106,104,210,h,Collins Free Throw 1 of 2 (32 PTS),Free Throw,Free Throw 1 of 2,1,0,506
+0021900837,699,PT01M13.00S,4,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,107,104,211,h,Collins Free Throw 2 of 2 (33 PTS),Free Throw,Free Throw 2 of 2,1,0,507
+0021900837,700,PT01M13.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,508
+0021900837,701,PT01M08.00S,4,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,14,260,26,Made,1,107,107,214,v,Hardaway Jr. 26' 3PT Pullup Jump Shot (33 PTS),Made Shot,Pullup Jump shot,1,3,509
+0021900837,702,PT00M57.50S,4,1610612737,ATL,1629027,Young,T. Young,2,10,1,Made,1,109,107,216,h,Young 1' Driving Layup (25 PTS),Made Shot,Driving Layup Shot,1,2,510
+0021900837,703,PT00M39.10S,4,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,3,10,1,Missed,1,,,0,v,MISS Hardaway Jr. 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,511
+0021900837,704,PT00M36.80S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,512
+0021900837,706,PT00M36.80S,4,0,,703,Thomas,K. Thomas,0,0,0,,0,109,107,216,,Instant Replay4th Period (9:51 PM EST),Instant Replay,Overturn Ruling,0,0,513
+0021900837,707,PT00M36.00S,4,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,127,65,14,Missed,1,,,0,v,MISS Hardaway Jr. 14' Jump Shot,Missed Shot,Jump Shot,1,2,514
+0021900837,708,PT00M32.50S,4,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:1 Def:11),Rebound,Unknown,1,0,515
+0021900837,713,PT00M08.40S,4,1610612737,ATL,1629027,Young,T. Young,14,48,5,Missed,1,,,0,h,MISS Young 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,516
+0021900837,713,PT00M08.40S,4,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith BLOCK (2 BLK),,,1,2,517
+0021900837,715,PT00M08.40S,4,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:5 Def:12),Rebound,Unknown,1,0,518
+0021900837,716,PT00M08.40S,4,1610612737,ATL,1628381,Collins,J. Collins,0,-6,1,Made,1,111,107,218,h,Collins 1' Tip Layup Shot (35 PTS),Made Shot,Tip Layup Shot,1,2,519
+0021900837,712,PT00M08.40S,4,0,,723,McDaniel,C. McDaniel,0,0,0,,0,109,107,216,,Instant Replay4th Period (9:57 PM EST),Instant Replay,Overturn Ruling,0,0,520
+0021900837,717,PT00M08.40S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.7 Short 0),Timeout,Regular,0,0,521
+0021900837,718,PT00M04.40S,4,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,-185,178,26,Missed,1,,,0,v,MISS Hardaway Jr. 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,522
+0021900837,719,PT00M00.20S,4,1610612742,DAL,203552,Curry,S. Curry,0,0,0,,0,,,0,v,Curry REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,523
+0021900837,720,PT00M00.00S,4,0,,0,,,0,0,0,,0,111,107,218,,End of 4th Period (10:01 PM EST),period,end,1,0,524

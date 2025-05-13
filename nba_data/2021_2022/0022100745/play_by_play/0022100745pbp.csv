@@ -1,0 +1,444 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022100745,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:11 PM EST),period,start,0,0,1
+0022100745,4,PT12M00.00S,1,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,h,Jump Ball Hernangomez vs. Williams III: Tip to Smart,Jump Ball,,1,0,2
+0022100745,7,PT11M46.00S,1,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,v,Smart Out of Bounds - Bad Pass Turnover Turnover (P1.T1),Turnover,Out of Bounds - Bad Pass Turnover,1,0,3
+0022100745,8,PT11M26.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III S.FOUL (P1.T1) (K.Cutler),Foul,Shooting,1,0,4
+0022100745,10,PT11M26.00S,1,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,1,0,1,h,Hernangomez Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,5
+0022100745,11,PT11M26.00S,1,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,2,0,2,h,Hernangomez Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,6
+0022100745,12,PT11M17.00S,1,1610612738,BOS,1627759,Brown,J. Brown,-238,32,24,Missed,1,,,0,v,MISS Brown 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,7
+0022100745,13,PT11M14.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,8
+0022100745,14,PT11M11.00S,1,1610612738,BOS,1627759,Brown,J. Brown,-228,58,24,Made,1,2,3,5,v,Brown 24' 3PT Jump Shot (3 PTS) (Smart 1 AST),Made Shot,Jump Shot,1,3,9
+0022100745,16,PT10M43.00S,1,1610612740,NOP,1628404,Hart,J. Hart,-114,8,11,Missed,1,,,0,h,MISS Hart 11' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,10
+0022100745,16,PT10M43.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III BLOCK (1 BLK),,,1,2,11
+0022100745,18,PT10M43.00S,1,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Rebound,Rebound,Unknown,0,0,12
+0022100745,26,PT10M43.00S,1,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Turnover: Shot Clock (T#1),Turnover,Shot Clock Turnover,0,0,13
+0022100745,20,PT10M34.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,2,267,27,Made,1,2,6,8,v,Tatum 27' 3PT Jump Shot (3 PTS) (Williams III 1 AST),Made Shot,Jump Shot,1,3,14
+0022100745,22,PT10M20.00S,1,1610612740,NOP,1628984,Graham,D. Graham,-114,246,27,Missed,1,,,0,h,MISS Graham 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,15
+0022100745,23,PT10M20.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,16
+0022100745,24,PT10M08.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,143,49,15,Made,1,2,8,10,v,Tatum 15' Step Back Jump Shot (5 PTS),Made Shot,Step Back Jump shot,1,2,17
+0022100745,25,PT10M07.00S,1,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,18
+0022100745,27,PT09M56.00S,1,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,49,20,5,Missed,1,,,0,h,MISS Hernangomez 5' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,19
+0022100745,28,PT09M51.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,20
+0022100745,29,PT09M37.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,17,20,3,Made,1,2,10,12,v,Tatum 3' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,21
+0022100745,30,PT09M21.00S,1,1610612740,NOP,202066,Temple,G. Temple,-20,15,3,Made,1,4,10,14,h,Temple 3' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,22
+0022100745,31,PT09M12.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,-121,238,27,Missed,1,,,0,v,MISS Tatum 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,23
+0022100745,32,PT09M08.00S,1,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,Hart REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,24
+0022100745,33,PT09M02.00S,1,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,Hart Lost Ball Turnover (P1.T2),Turnover,Lost Ball,1,0,25
+0022100745,33,PT09M02.00S,1,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,v,Brown STEAL (1 STL),,,1,0,26
+0022100745,35,PT08M56.00S,1,1610612738,BOS,1627759,Brown,J. Brown,17,27,3,Made,1,4,12,16,v,Brown 3' Running Layup (5 PTS),Made Shot,Running Layup Shot,1,2,27
+0022100745,36,PT08M38.00S,1,1610612740,NOP,202066,Temple,G. Temple,-15,145,15,Missed,1,,,0,h,MISS Temple 15' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,28
+0022100745,37,PT08M34.00S,1,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,29
+0022100745,38,PT08M26.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,-86,71,11,Made,1,4,14,18,v,Tatum 11' Turnaround Jump Shot (9 PTS),Made Shot,Turnaround Jump Shot,1,2,30
+0022100745,40,PT08M07.00S,1,1610612740,NOP,1628404,Hart,J. Hart,-134,240,27,Missed,1,,,0,h,MISS Hart 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,31
+0022100745,41,PT08M04.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,32
+0022100745,42,PT07M48.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,22,17,3,Made,1,4,16,20,v,Tatum 3' Driving Layup (11 PTS) (Horford 1 AST),Made Shot,Driving Layup Shot,1,2,33
+0022100745,44,PT07M32.00S,1,1610612740,NOP,202066,Temple,G. Temple,234,67,24,Missed,1,,,0,h,MISS Temple 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,34
+0022100745,45,PT07M27.00S,1,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,35
+0022100745,46,PT07M19.00S,1,1610612738,BOS,203935,Smart,M. Smart,228,46,0,Missed,1,,,0,v,MISS Smart 3PT Jump Shot,Missed Shot,Jump Shot,1,3,36
+0022100745,47,PT07M16.00S,1,1610612740,NOP,202066,Temple,G. Temple,0,0,0,,0,,,0,h,Temple REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,37
+0022100745,48,PT07M16.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum P.FOUL (P1.T2) (A.Nagy),Foul,Personal,1,0,38
+0022100745,50,PT07M02.00S,1,1610612740,NOP,1630529,Jones,H. Jones,-59,252,26,Missed,1,,,0,h,MISS Jones 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,39
+0022100745,51,PT06M58.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,40
+0022100745,52,PT06M51.00S,1,1610612738,BOS,201143,Horford,A. Horford,18,18,3,Made,1,4,18,22,v,Horford 3' Layup (2 PTS) (Smart 2 AST),Made Shot,Layup Shot,1,2,41
+0022100745,54,PT06M35.00S,1,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,v,Smart S.FOUL (P1.T3) (N.Sago),Foul,Shooting,1,0,42
+0022100745,56,PT06M35.00S,1,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,5,18,23,h,Hernangomez Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,43
+0022100745,57,PT06M35.00S,1,1610612740,NOP,202066,Temple,G. Temple,0,0,0,,0,,,0,h,SUB: Alexander-Walker FOR Temple,Substitution,,0,0,44
+0022100745,59,PT06M35.00S,1,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,6,18,24,h,Hernangomez Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,45
+0022100745,60,PT06M13.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,-68,250,26,Missed,1,,,0,v,MISS Tatum 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,46
+0022100745,61,PT06M09.00S,1,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,Hart REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,47
+0022100745,62,PT06M05.00S,1,1610612740,NOP,1628984,Graham,D. Graham,-120,222,25,Missed,1,,,0,h,MISS Graham 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,48
+0022100745,63,PT06M02.00S,1,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,v,Smart REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,49
+0022100745,64,PT05M54.00S,1,1610612738,BOS,201143,Horford,A. Horford,-34,68,8,Missed,1,,,0,v,MISS Horford 8' Layup,Missed Shot,Layup Shot,1,2,50
+0022100745,65,PT05M51.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,51
+0022100745,66,PT05M49.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,9,42,4,Missed,1,,,0,v,MISS Williams III 4' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,52
+0022100745,67,PT05M45.00S,1,1610612740,NOP,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,h,Alexander-Walker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,53
+0022100745,68,PT05M44.00S,1,1610612740,NOP,1629638,Alexander-Walker,N. Alexander-Walker,-45,34,6,Missed,1,,,0,h,MISS Alexander-Walker 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,54
+0022100745,69,PT05M41.00S,1,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,55
+0022100745,70,PT05M38.00S,1,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,v,Smart Bad Pass Turnover (P2.T2),Turnover,Bad Pass,1,0,56
+0022100745,70,PT05M38.00S,1,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,Hart STEAL (1 STL),,,1,0,57
+0022100745,72,PT05M33.00S,1,1610612740,NOP,1630529,Jones,H. Jones,-21,10,2,Missed,1,,,0,h,MISS Jones 2' Layup,Missed Shot,Layup Shot,1,2,58
+0022100745,72,PT05M33.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III BLOCK (2 BLK),,,1,2,59
+0022100745,74,PT05M26.00S,1,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,60
+0022100745,75,PT05M21.00S,1,1610612738,BOS,1627759,Brown,J. Brown,34,31,5,Made,1,6,20,26,v,Brown 5' Driving Floating Jump Shot (7 PTS) (Tatum 1 AST),Made Shot,Driving Floating Jump Shot,1,2,61
+0022100745,77,PT05M06.00S,1,1610612740,NOP,1629638,Alexander-Walker,N. Alexander-Walker,102,229,25,Missed,1,,,0,h,MISS Alexander-Walker 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,62
+0022100745,78,PT05M01.00S,1,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,h,Hernangomez REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,63
+0022100745,79,PT04M59.00S,1,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,-21,8,2,Made,1,8,20,28,h,Hernangomez 2' Layup (6 PTS),Made Shot,Layup Shot,1,2,64
+0022100745,80,PT04M49.00S,1,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,h,Hernangomez S.FOUL (P1.T1) (K.Cutler),Foul,Shooting,1,0,65
+0022100745,82,PT04M49.00S,1,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,8,21,29,v,Brown Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,66
+0022100745,83,PT04M49.00S,1,1610612740,NOP,1628984,Graham,D. Graham,0,0,0,,0,,,0,h,SUB: Alvarado FOR Graham,Substitution,,0,0,67
+0022100745,85,PT04M49.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,SUB: Williams FOR Tatum,Substitution,,0,0,68
+0022100745,86,PT04M49.00S,1,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,SUB: Richardson FOR Horford,Substitution,,0,0,69
+0022100745,111,PT04M49.00S,1,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,h,SUB: Hayes FOR Hernangomez,Substitution,,0,0,70
+0022100745,91,PT04M49.00S,1,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,8,22,30,v,Brown Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,71
+0022100745,92,PT04M34.00S,1,1610612740,NOP,1630529,Jones,H. Jones,169,220,28,Missed,1,,,0,h,MISS Jones 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,72
+0022100745,93,PT04M33.00S,1,1610612740,NOP,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,73
+0022100745,94,PT04M33.00S,1,1610612740,NOP,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes OFF.Foul (P1) (N.Sago),Foul,Offensive,1,0,74
+0022100745,96,PT04M33.00S,1,1610612740,NOP,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes Offensive Foul Turnover (P1.T3),Turnover,Offensive Foul Turnover,1,0,75
+0022100745,112,PT04M33.00S,1,1610612740,NOP,1630529,Jones,H. Jones,0,0,0,,0,,,0,h,SUB: Marshall FOR Jones,Substitution,,0,0,76
+0022100745,97,PT04M13.00S,1,1610612738,BOS,1626196,Richardson,J. Richardson,97,259,28,Missed,1,,,0,v,MISS Richardson 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,77
+0022100745,98,PT04M08.00S,1,1610612740,NOP,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,h,Alexander-Walker REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,78
+0022100745,99,PT03M51.00S,1,1610612740,NOP,1628404,Hart,J. Hart,-43,266,27,Missed,1,,,0,h,MISS Hart 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,79
+0022100745,100,PT03M48.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,80
+0022100745,101,PT03M34.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,15,25,3,Made,1,8,24,32,v,Williams III 3' Dunk (2 PTS) (Brown 1 AST),Made Shot,Dunk Shot,1,2,81
+0022100745,103,PT03M21.00S,1,1610612740,NOP,1630230,Marshall,N. Marshall,229,55,24,Missed,1,,,0,h,MISS Marshall 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,82
+0022100745,104,PT03M21.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,83
+0022100745,105,PT03M14.00S,1,1610612738,BOS,1627759,Brown,J. Brown,12,16,2,Made,1,8,26,34,v,Brown 2' Layup (11 PTS) (Smart 3 AST),Made Shot,Layup Shot,1,2,84
+0022100745,108,PT03M14.00S,1,1610612740,NOP,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,h,Alexander-Walker S.FOUL (P1.T2) (A.Nagy),Foul,Shooting,1,0,85
+0022100745,110,PT03M14.00S,1,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,86
+0022100745,114,PT03M14.00S,1,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,v,SUB: Schroder FOR Smart,Substitution,,0,0,87
+0022100745,115,PT03M14.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,SUB: Horford FOR Williams III,Substitution,,0,0,88
+0022100745,118,PT03M14.00S,1,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,8,27,35,v,Brown Free Throw 1 of 1 (12 PTS),Free Throw,Free Throw 1 of 1,1,0,89
+0022100745,119,PT03M02.00S,1,1610612738,BOS,203471,Schröder,D. Schröder,0,0,0,,0,,,0,v,Schroder P.FOUL (P1.T4) (K.Cutler),Foul,Personal,1,0,90
+0022100745,121,PT02M56.00S,1,1610612740,NOP,1629638,Alexander-Walker,N. Alexander-Walker,-2,262,26,Missed,1,,,0,h,MISS Alexander-Walker 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,91
+0022100745,122,PT02M53.00S,1,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,Williams REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,92
+0022100745,123,PT02M36.00S,1,1610612740,NOP,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes P.FOUL (P2.T3) (K.Cutler),Foul,Personal,1,0,93
+0022100745,125,PT02M22.00S,1,1610612738,BOS,203471,Schröder,D. Schröder,0,0,0,,0,,,0,v,Schroder Lost Ball Turnover (P1.T3),Turnover,Lost Ball,1,0,94
+0022100745,125,PT02M22.00S,1,1610612740,NOP,1630631,Alvarado,J. Alvarado,0,0,0,,0,,,0,h,Alvarado STEAL (1 STL),,,1,0,95
+0022100745,127,PT02M16.00S,1,1610612740,NOP,1630230,Marshall,N. Marshall,-27,13,3,Made,1,10,27,37,h,Marshall 3' Layup (2 PTS) (Alvarado 1 AST),Made Shot,Layup Shot,1,2,96
+0022100745,129,PT01M47.00S,1,1610612738,BOS,1627759,Brown,J. Brown,-200,185,27,Missed,1,,,0,v,MISS Brown 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,97
+0022100745,130,PT01M47.00S,1,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,Hart REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,98
+0022100745,131,PT01M34.00S,1,1610612740,NOP,1629638,Alexander-Walker,N. Alexander-Walker,-16,24,3,Made,1,12,27,39,h,Alexander-Walker 3' Layup (2 PTS),Made Shot,Layup Shot,1,2,99
+0022100745,132,PT01M17.00S,1,1610612738,BOS,201143,Horford,A. Horford,75,80,11,Missed,1,,,0,v,MISS Horford 11' Driving Layup,Missed Shot,Driving Layup Shot,1,2,100
+0022100745,133,PT01M15.00S,1,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,Hart REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,101
+0022100745,134,PT01M07.00S,1,1610612740,NOP,1630230,Marshall,N. Marshall,4,261,26,Missed,1,,,0,h,MISS Marshall 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,102
+0022100745,135,PT01M04.00S,1,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,103
+0022100745,136,PT01M00.00S,1,1610612738,BOS,1627759,Brown,J. Brown,-142,242,28,Missed,1,,,0,v,MISS Brown 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,104
+0022100745,137,PT00M57.50S,1,1610612740,NOP,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,105
+0022100745,138,PT00M47.80S,1,1610612740,NOP,1629638,Alexander-Walker,N. Alexander-Walker,32,8,3,Missed,1,,,0,h,MISS Alexander-Walker 3' Layup,Missed Shot,Layup Shot,1,2,106
+0022100745,138,PT00M47.80S,1,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford BLOCK (1 BLK),,,1,2,107
+0022100745,140,PT00M47.80S,1,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Rebound,Rebound,Unknown,0,0,108
+0022100745,141,PT00M47.80S,1,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,SUB: Temple FOR Hart,Substitution,,0,0,109
+0022100745,142,PT00M47.80S,1,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,v,SUB: Tatum FOR Brown,Substitution,,0,0,110
+0022100745,145,PT00M42.10S,1,1610612740,NOP,1629637,Hayes,J. Hayes,66,10,7,Missed,1,,,0,h,MISS Hayes 7' Driving Layup,Missed Shot,Driving Layup Shot,1,2,111
+0022100745,146,PT00M39.30S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,112
+0022100745,147,PT00M30.40S,1,1610612738,BOS,201143,Horford,A. Horford,168,-4,17,Missed,1,,,0,v,MISS Horford 17' Jump Shot,Missed Shot,Jump Shot,1,2,113
+0022100745,148,PT00M27.50S,1,1610612740,NOP,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,h,Alexander-Walker REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,114
+0022100745,149,PT00M05.70S,1,1610612740,NOP,1630631,Alvarado,J. Alvarado,173,203,27,Made,1,15,27,42,h,Alvarado 27' 3PT Jump Shot (3 PTS) (Alexander-Walker 1 AST),Made Shot,Jump Shot,1,3,115
+0022100745,151,PT00M00.00S,1,0,,0,,,0,0,0,,0,15,27,42,,End of 1st Period (7:35 PM EST),period,end,1,0,116
+0022100745,155,PT12M00.00S,2,0,,0,,,0,0,0,,0,15,27,42,,Start of 2nd Period (7:37 PM EST),period,start,0,0,117
+0022100745,156,PT11M50.00S,2,1610612740,NOP,1630529,Jones,H. Jones,-53,42,7,Missed,1,,,0,h,MISS Jones 7' Layup,Missed Shot,Layup Shot,1,2,118
+0022100745,156,PT11M50.00S,2,1610612738,BOS,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,v,Richardson BLOCK (1 BLK),,,1,2,119
+0022100745,158,PT11M50.00S,2,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Rebound,Rebound,Unknown,0,0,120
+0022100745,159,PT11M41.00S,2,1610612740,NOP,1630631,Alvarado,J. Alvarado,118,220,25,Made,1,18,27,45,h,Alvarado 25' 3PT Jump Shot (6 PTS) (Alexander-Walker 2 AST),Made Shot,Jump Shot,1,3,121
+0022100745,161,PT11M20.00S,2,1610612738,BOS,1629684,Williams,G. Williams,237,85,25,Missed,1,,,0,v,MISS Williams 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,122
+0022100745,162,PT11M20.00S,2,1610612740,NOP,1630631,Alvarado,J. Alvarado,0,0,0,,0,,,0,h,Alvarado REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,123
+0022100745,163,PT11M04.00S,2,1610612740,NOP,1630631,Alvarado,J. Alvarado,-27,13,3,Made,1,20,27,47,h,Alvarado 3' Layup (8 PTS),Made Shot,Layup Shot,1,2,124
+0022100745,164,PT10M44.00S,2,1610612738,BOS,1626196,Richardson,J. Richardson,102,254,27,Made,1,20,30,50,v,Richardson 27' 3PT Jump Shot (3 PTS) (Tatum 2 AST),Made Shot,Jump Shot,1,3,125
+0022100745,169,PT10M20.00S,2,1610612740,NOP,1630631,Alvarado,J. Alvarado,20,14,2,Made,1,22,30,52,h,Alvarado 2' Driving Layup (10 PTS),Made Shot,Driving Layup Shot,1,2,126
+0022100745,170,PT10M04.00S,2,1610612740,NOP,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes P.FOUL (P3.T1) (K.Cutler),Foul,Personal,1,0,127
+0022100745,172,PT10M04.00S,2,1610612740,NOP,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,SUB: Hernangomez FOR Hayes,Substitution,,0,0,128
+0022100745,174,PT09M49.00S,2,0,,1610612738,,,0,0,0,,0,,,0,v,Celtics Turnover: Shot Clock (T#4),Turnover,Shot Clock Turnover,1,0,129
+0022100745,175,PT09M36.00S,2,1610612740,NOP,1630631,Alvarado,J. Alvarado,-167,218,27,Missed,1,,,0,h,MISS Alvarado 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,130
+0022100745,176,PT09M32.00S,2,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,Williams REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,131
+0022100745,177,PT09M28.00S,2,1610612738,BOS,203471,Schröder,D. Schröder,0,0,0,,0,,,0,v,Schroder Bad Pass Turnover (P2.T5),Turnover,Bad Pass,1,0,132
+0022100745,177,PT09M28.00S,2,1610612740,NOP,1630631,Alvarado,J. Alvarado,0,0,0,,0,,,0,h,Alvarado STEAL (2 STL),,,1,0,133
+0022100745,179,PT09M23.00S,2,1610612740,NOP,1629638,Alexander-Walker,N. Alexander-Walker,-42,22,5,Missed,1,,,0,h,MISS Alexander-Walker 5' Layup,Missed Shot,Layup Shot,1,2,134
+0022100745,180,PT09M19.00S,2,1610612740,NOP,1630631,Alvarado,J. Alvarado,0,0,0,,0,,,0,h,Alvarado REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,135
+0022100745,181,PT09M17.00S,2,1610612740,NOP,1630631,Alvarado,J. Alvarado,-9,67,7,Missed,1,,,0,h,MISS Alvarado 7' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,136
+0022100745,182,PT09M15.00S,2,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,Williams REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,137
+0022100745,183,PT08M55.00S,2,1610612738,BOS,1626196,Richardson,J. Richardson,-28,209,21,Made,1,22,32,54,v,Richardson 21' Pullup Jump Shot (5 PTS) (Tatum 3 AST),Made Shot,Pullup Jump shot,1,2,138
+0022100745,185,PT08M36.00S,2,1610612740,NOP,1629109,Clark,G. Clark,232,42,24,Missed,1,,,0,h,MISS Clark 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,139
+0022100745,186,PT08M34.00S,2,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,Williams REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,140
+0022100745,187,PT08M27.00S,2,1610612738,BOS,1629684,Williams,G. Williams,22,265,27,Made,1,22,35,57,v,Williams 27' 3PT Jump Shot (3 PTS) (Richardson 1 AST),Made Shot,Jump Shot,1,3,141
+0022100745,189,PT07M58.00S,2,1610612740,NOP,1629638,Alexander-Walker,N. Alexander-Walker,93,143,17,Missed,1,,,0,h,MISS Alexander-Walker 17' Jump Shot,Missed Shot,Jump Shot,1,2,142
+0022100745,189,PT07M58.00S,2,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,Williams BLOCK (1 BLK),,,1,2,143
+0022100745,191,PT07M51.00S,2,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,144
+0022100745,192,PT07M50.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,6,47,5,Made,1,22,37,59,v,Tatum 5' Running Dunk (13 PTS) (Horford 2 AST),Made Shot,Running Dunk Shot,1,2,145
+0022100745,194,PT07M28.00S,2,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Turnover: Shot Clock (T#4),Turnover,Shot Clock Turnover,0,0,146
+0022100745,195,PT07M28.00S,2,1610612740,NOP,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,h,SUB: Graham FOR Alexander-Walker,Substitution,,0,0,147
+0022100745,196,PT07M28.00S,2,1610612740,NOP,1629109,Clark,G. Clark,0,0,0,,0,,,0,h,SUB: Temple FOR Clark,Substitution,,0,0,148
+0022100745,197,PT07M28.00S,2,1610612740,NOP,1630631,Alvarado,J. Alvarado,0,0,0,,0,,,0,h,SUB: Hart FOR Alvarado,Substitution,,0,0,149
+0022100745,198,PT07M28.00S,2,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,SUB: Williams III FOR Horford,Substitution,,0,0,150
+0022100745,203,PT07M20.00S,2,1610612738,BOS,203471,Schröder,D. Schröder,114,233,26,Missed,1,,,0,v,MISS Schroder 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,151
+0022100745,204,PT07M17.00S,2,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,Hart REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,152
+0022100745,205,PT07M14.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum P.FOUL (P2.T1) (K.Cutler),Foul,Personal,1,0,153
+0022100745,207,PT07M14.00S,2,1610612738,BOS,203471,Schröder,D. Schröder,0,0,0,,0,,,0,v,SUB: Smart FOR Schroder,Substitution,,0,0,154
+0022100745,209,PT07M09.00S,2,1610612740,NOP,1630529,Jones,H. Jones,199,173,26,Missed,1,,,0,h,MISS Jones 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,155
+0022100745,210,PT07M06.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,156
+0022100745,211,PT07M02.00S,2,1610612740,NOP,1630529,Jones,H. Jones,0,0,0,,0,,,0,h,Jones P.FOUL (P1.T2) (K.Cutler),Foul,Personal,1,0,157
+0022100745,213,PT06M55.00S,2,1610612738,BOS,1626196,Richardson,J. Richardson,147,220,26,Missed,1,,,0,v,MISS Richardson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,158
+0022100745,214,PT06M51.00S,2,1610612740,NOP,1630529,Jones,H. Jones,0,0,0,,0,,,0,h,Jones REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,159
+0022100745,215,PT06M48.00S,2,1610612740,NOP,202066,Temple,G. Temple,-23,8,2,Made,1,24,37,61,h,Temple 2' Layup (4 PTS) (Jones 1 AST),Made Shot,Layup Shot,1,2,160
+0022100745,218,PT06M48.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III S.FOUL (P2.T2) (N.Sago),Foul,Shooting,1,0,161
+0022100745,220,PT06M48.00S,2,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,162
+0022100745,221,PT06M48.00S,2,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,SUB: Nesmith FOR Williams,Substitution,,0,0,163
+0022100745,223,PT06M48.00S,2,1610612740,NOP,202066,Temple,G. Temple,0,0,0,,0,25,37,62,h,Temple Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,164
+0022100745,224,PT06M30.00S,2,1610612738,BOS,203935,Smart,M. Smart,234,67,24,Missed,1,,,0,v,MISS Smart 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,165
+0022100745,225,PT06M26.00S,2,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,Hart REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,166
+0022100745,226,PT06M20.00S,2,1610612740,NOP,1628984,Graham,D. Graham,-228,72,24,Missed,1,,,0,h,MISS Graham 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,167
+0022100745,227,PT06M15.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,168
+0022100745,228,PT06M06.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,-130,43,14,Made,1,25,39,64,v,Tatum 14' Turnaround Jump Shot (15 PTS),Made Shot,Turnaround Jump Shot,1,2,169
+0022100745,229,PT05M43.00S,2,1610612740,NOP,1628984,Graham,D. Graham,123,68,14,Made,1,27,39,66,h,Graham 14' Floating Jump Shot (2 PTS) (Hernangomez 1 AST),Made Shot,Floating Jump shot,1,2,170
+0022100745,231,PT05M25.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,16,281,28,Missed,1,,,0,v,MISS Tatum 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,171
+0022100745,232,PT05M22.00S,2,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,v,Smart REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,172
+0022100745,233,PT05M21.00S,2,1610612738,BOS,203935,Smart,M. Smart,11,28,3,Made,1,27,41,68,v,Smart 3' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,173
+0022100745,234,PT05M06.00S,2,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,h,Hernangomez OFF.Foul (P2) (A.Nagy),Foul,Offensive,1,0,174
+0022100745,236,PT05M06.00S,2,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,h,Hernangomez Offensive Foul Turnover (P1.T5),Turnover,Offensive Foul Turnover,1,0,175
+0022100745,237,PT05M06.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,SUB: Brown FOR Tatum,Substitution,,0,0,176
+0022100745,238,PT05M06.00S,2,1610612738,BOS,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,v,SUB: Williams FOR Richardson,Substitution,,0,0,177
+0022100745,241,PT04M55.00S,2,1610612738,BOS,1630174,Nesmith,A. Nesmith,-239,64,25,Missed,1,,,0,v,MISS Nesmith 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,178
+0022100745,242,PT04M52.00S,2,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,Hart REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,179
+0022100745,243,PT04M48.00S,2,1610612740,NOP,1628404,Hart,J. Hart,-10,148,15,Made,1,29,41,70,h,Hart 15' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,180
+0022100745,244,PT04M35.00S,2,1610612738,BOS,1627759,Brown,J. Brown,36,79,9,Missed,1,,,0,v,MISS Brown 9' Layup,Missed Shot,Layup Shot,1,2,181
+0022100745,245,PT04M30.00S,2,1610612740,NOP,202066,Temple,G. Temple,0,0,0,,0,,,0,h,Temple REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,182
+0022100745,248,PT04M14.00S,2,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,0,26,3,Missed,1,,,0,h,MISS Hernangomez 3' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,183
+0022100745,249,PT04M11.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,184
+0022100745,251,PT03M54.00S,2,1610612738,BOS,1627759,Brown,J. Brown,-136,243,28,Missed,1,,,0,v,MISS Brown 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,185
+0022100745,252,PT03M51.00S,2,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,h,Hernangomez REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,186
+0022100745,253,PT03M28.00S,2,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,-64,22,7,Made,1,31,41,72,h,Hernangomez 7' Floating Jump Shot (8 PTS) (Graham 1 AST),Made Shot,Floating Jump shot,1,2,187
+0022100745,255,PT03M11.00S,2,1610612738,BOS,1627759,Brown,J. Brown,203,168,26,Made,1,31,44,75,v,Brown 26' 3PT Jump Shot (15 PTS) (Smart 4 AST),Made Shot,Jump Shot,1,3,188
+0022100745,257,PT02M55.00S,2,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,-71,-14,7,Missed,1,,,0,h,MISS Hernangomez 7' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,189
+0022100745,258,PT02M53.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,190
+0022100745,260,PT02M47.00S,2,0,,1610612738,,,0,0,0,,0,,,0,v,Celtics Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,191
+0022100745,261,PT02M47.00S,2,1610612738,BOS,1630174,Nesmith,A. Nesmith,0,0,0,,0,,,0,v,SUB: Tatum FOR Nesmith,Substitution,,0,0,192
+0022100745,264,PT02M33.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,-146,237,28,Made,1,31,47,78,v,Tatum 28' 3PT Jump Shot (18 PTS),Made Shot,Jump Shot,1,3,193
+0022100745,266,PT02M17.00S,2,1610612740,NOP,1628404,Hart,J. Hart,44,104,11,Missed,1,,,0,h,MISS Hart 11' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,194
+0022100745,267,PT02M15.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,195
+0022100745,268,PT02M12.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum Out of Bounds - Bad Pass Turnover Turnover (P1.T6),Turnover,Out of Bounds - Bad Pass Turnover,1,0,196
+0022100745,269,PT01M52.00S,2,1610612740,NOP,202066,Temple,G. Temple,0,0,0,,0,,,0,h,Temple Bad Pass Turnover (P1.T6),Turnover,Bad Pass,1,0,197
+0022100745,269,PT01M52.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III STEAL (1 STL),,,1,0,198
+0022100745,271,PT01M39.00S,2,1610612738,BOS,203935,Smart,M. Smart,-43,122,13,Missed,1,,,0,v,MISS Smart 13' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,199
+0022100745,272,PT01M36.00S,2,1610612740,NOP,1628984,Graham,D. Graham,0,0,0,,0,,,0,h,Graham REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,200
+0022100745,274,PT01M34.00S,2,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,v,Smart S.FOUL (P2.T3) (N.Sago),Foul,Shooting,1,0,201
+0022100745,276,PT01M34.00S,2,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,32,47,79,h,Hart Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,202
+0022100745,277,PT01M34.00S,2,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,MISS Hart Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,203
+0022100745,278,PT01M28.00S,2,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,v,Brown REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,204
+0022100745,279,PT01M23.00S,2,1610612738,BOS,1627759,Brown,J. Brown,-37,121,13,Missed,1,,,0,v,MISS Brown 13' Jump Shot,Missed Shot,Jump Shot,1,2,205
+0022100745,280,PT01M18.00S,2,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,Hart REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,206
+0022100745,281,PT01M09.00S,2,1610612740,NOP,1628984,Graham,D. Graham,-129,236,27,Missed,1,,,0,h,MISS Graham 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,207
+0022100745,282,PT01M06.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,208
+0022100745,283,PT00M53.90S,2,1610612738,BOS,1628369,Tatum,J. Tatum,51,268,27,Made,1,32,50,82,v,Tatum 27' 3PT Pullup Jump Shot (21 PTS),Made Shot,Pullup Jump shot,1,3,209
+0022100745,284,PT00M37.50S,2,1610612740,NOP,202066,Temple,G. Temple,-235,17,24,Missed,1,,,0,h,MISS Temple 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,210
+0022100745,285,PT00M34.60S,2,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,211
+0022100745,286,PT00M27.70S,2,1610612738,BOS,1627759,Brown,J. Brown,18,26,3,Made,1,32,52,84,v,Brown 3' Driving Layup (17 PTS) (Smart 5 AST),Made Shot,Driving Layup Shot,1,2,212
+0022100745,288,PT00M06.90S,2,1610612740,NOP,1628404,Hart,J. Hart,21,6,2,Made,1,34,52,86,h,Hart 2' Cutting Layup Shot (5 PTS) (Graham 2 AST),Made Shot,Cutting Layup Shot,1,2,213
+0022100745,291,PT00M00.00S,2,0,,0,,,0,0,0,,0,34,52,86,,End of 2nd Period (8:01 PM EST),period,end,1,0,214
+0022100745,294,PT12M00.00S,3,0,,0,,,0,0,0,,0,34,52,86,,Start of 3rd Period (8:16 PM EST),period,start,0,0,215
+0022100745,295,PT11M46.00S,3,1610612740,NOP,1628984,Graham,D. Graham,0,0,0,,0,,,0,h,Graham Out of Bounds - Bad Pass Turnover Turnover (P1.T7),Turnover,Out of Bounds - Bad Pass Turnover,1,0,216
+0022100745,296,PT11M33.00S,3,1610612738,BOS,1629057,Williams III,R. Williams III,13,14,2,Made,1,34,54,88,v,Williams III 2' Layup (4 PTS) (Smart 6 AST),Made Shot,Layup Shot,1,2,217
+0022100745,298,PT11M15.00S,3,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,-32,53,6,Made,1,36,54,90,h,Hernangomez 6' Hook Shot (10 PTS) (Hart 1 AST),Made Shot,Hook Shot,1,2,218
+0022100745,300,PT10M54.00S,3,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,v,Smart Bad Pass Turnover (P3.T7),Turnover,Bad Pass,1,0,219
+0022100745,300,PT10M54.00S,3,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,Hart STEAL (2 STL),,,1,0,220
+0022100745,302,PT10M53.00S,3,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,v,Smart Personal Take Foul (P3.T1) (N.Sago),Foul,Personal Take,1,0,221
+0022100745,304,PT10M46.00S,3,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,h,Hernangomez Bad Pass Turnover (P2.T8),Turnover,Bad Pass,1,0,222
+0022100745,304,PT10M46.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum STEAL (1 STL),,,1,0,223
+0022100745,306,PT10M39.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,-17,8,2,Made,1,36,56,92,v,Tatum 2' Running Layup (23 PTS),Made Shot,Running Layup Shot,1,2,224
+0022100745,308,PT10M25.00S,3,1610612740,NOP,1628984,Graham,D. Graham,230,109,25,Missed,1,,,0,h,MISS Graham 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,225
+0022100745,309,PT10M22.00S,3,1610612740,NOP,1630529,Jones,H. Jones,0,0,0,,0,,,0,h,Jones REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,226
+0022100745,310,PT10M20.00S,3,1610612740,NOP,1630529,Jones,H. Jones,-15,21,3,Made,1,38,56,94,h,Jones 3' Putback Dunk (2 PTS),Made Shot,Putback Dunk Shot,1,2,227
+0022100745,311,PT10M03.00S,3,1610612738,BOS,1627759,Brown,J. Brown,22,26,3,Made,1,38,58,96,v,Brown 3' Layup (19 PTS) (Smart 7 AST),Made Shot,Layup Shot,1,2,228
+0022100745,313,PT09M50.00S,3,1610612740,NOP,1628404,Hart,J. Hart,233,23,0,Made,1,41,58,99,h,Hart 3PT Jump Shot (8 PTS) (Temple 1 AST),Made Shot,Jump Shot,1,3,229
+0022100745,315,PT09M33.00S,3,1610612738,BOS,1627759,Brown,J. Brown,87,156,18,Made,1,41,60,101,v,Brown 18' Turnaround Jump Shot (21 PTS) (Smart 8 AST),Made Shot,Turnaround Jump Shot,1,2,230
+0022100745,317,PT09M14.00S,3,1610612740,NOP,1630529,Jones,H. Jones,-232,68,24,Made,1,44,60,104,h,Jones 24' 3PT Jump Shot (5 PTS) (Temple 2 AST),Made Shot,Jump Shot,1,3,231
+0022100745,319,PT09M03.00S,3,1610612738,BOS,1627759,Brown,J. Brown,233,64,24,Made,1,44,63,107,v,Brown 24' 3PT Jump Shot (24 PTS) (Horford 3 AST),Made Shot,Jump Shot,1,3,232
+0022100745,321,PT08M47.00S,3,1610612740,NOP,1628984,Graham,D. Graham,-105,126,16,Missed,1,,,0,h,MISS Graham 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,233
+0022100745,322,PT08M44.00S,3,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III REBOUND (Off:2 Def:9),Rebound,Unknown,1,0,234
+0022100745,323,PT08M29.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum Bad Pass Turnover (P2.T8),Turnover,Bad Pass,1,0,235
+0022100745,323,PT08M29.00S,3,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,Hart STEAL (3 STL),,,1,0,236
+0022100745,325,PT08M24.00S,3,1610612740,NOP,1630529,Jones,H. Jones,-15,25,3,Made,1,46,63,109,h,Jones 3' Cutting Dunk Shot (7 PTS) (Hart 2 AST),Made Shot,Cutting Dunk Shot,1,2,237
+0022100745,327,PT08M04.00S,3,1610612738,BOS,1627759,Brown,J. Brown,40,75,9,Missed,1,,,0,v,MISS Brown 9' Layup,Missed Shot,Layup Shot,1,2,238
+0022100745,328,PT08M02.00S,3,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,h,Hernangomez REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,239
+0022100745,329,PT07M58.00S,3,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,v,Smart S.FOUL (P4.T2) (K.Cutler),Foul,Shooting,1,0,240
+0022100745,331,PT07M58.00S,3,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,241
+0022100745,332,PT07M58.00S,3,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,v,SUB: Schroder FOR Smart,Substitution,,0,0,242
+0022100745,334,PT07M58.00S,3,1610612740,NOP,1630529,Jones,H. Jones,0,0,0,,0,47,63,110,h,Jones Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,243
+0022100745,335,PT07M58.00S,3,1610612740,NOP,1630529,Jones,H. Jones,0,0,0,,0,48,63,111,h,Jones Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,244
+0022100745,336,PT07M37.00S,3,1610612738,BOS,1627759,Brown,J. Brown,0,124,12,Missed,1,,,0,v,MISS Brown 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,245
+0022100745,337,PT07M35.00S,3,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,Hart REBOUND (Off:0 Def:9),Rebound,Unknown,1,0,246
+0022100745,338,PT07M32.00S,3,1610612738,BOS,203471,Schröder,D. Schröder,0,0,0,,0,,,0,v,Schroder P.FOUL (P2.T3) (A.Nagy),Foul,Personal,1,0,247
+0022100745,340,PT07M25.00S,3,1610612740,NOP,202066,Temple,G. Temple,-12,34,4,Made,1,50,63,113,h,Temple 4' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,248
+0022100745,342,PT07M08.00S,3,1610612740,NOP,1628984,Graham,D. Graham,0,0,0,,0,,,0,h,Graham S.FOUL (P1.T1) (A.Nagy),Foul,Shooting,1,0,249
+0022100745,344,PT07M08.00S,3,1610612738,BOS,203471,Schröder,D. Schröder,0,0,0,,0,,,0,v,MISS Schroder Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,250
+0022100745,345,PT07M08.00S,3,0,,1610612738,,,0,0,0,,0,,,0,v,Celtics Rebound,Rebound,Normal Rebound,0,0,251
+0022100745,346,PT07M08.00S,3,1610612738,BOS,203471,Schröder,D. Schröder,0,0,0,,0,50,64,114,v,Schroder Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,252
+0022100745,348,PT06M47.00S,3,1610612740,NOP,1630529,Jones,H. Jones,-51,264,27,Missed,1,,,0,h,MISS Jones 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,253
+0022100745,349,PT06M44.00S,3,1610612738,BOS,203471,Schröder,D. Schröder,0,0,0,,0,,,0,v,Schroder REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,254
+0022100745,350,PT06M39.00S,3,1610612738,BOS,201143,Horford,A. Horford,228,32,0,Made,1,50,67,117,v,Horford 3PT Jump Shot (5 PTS) (Tatum 4 AST),Made Shot,Jump Shot,1,3,255
+0022100745,352,PT06M33.00S,3,1610612740,NOP,202066,Temple,G. Temple,-12,32,3,Made,1,52,67,119,h,Temple 3' Layup (9 PTS) (Graham 3 AST),Made Shot,Layup Shot,1,2,256
+0022100745,354,PT06M09.00S,3,1610612738,BOS,203471,Schröder,D. Schröder,-234,33,24,Made,1,52,70,122,v,Schroder 24' 3PT Jump Shot (4 PTS) (Williams III 2 AST),Made Shot,Jump Shot,1,3,257
+0022100745,356,PT05M54.00S,3,1610612740,NOP,202066,Temple,G. Temple,-156,226,27,Missed,1,,,0,h,MISS Temple 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,258
+0022100745,357,PT05M52.00S,3,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,h,Hernangomez REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,259
+0022100745,358,PT05M50.00S,3,1610612740,NOP,1628984,Graham,D. Graham,165,206,26,Made,1,55,70,125,h,Graham 26' 3PT Jump Shot (5 PTS) (Hernangomez 2 AST),Made Shot,Jump Shot,1,3,260
+0022100745,360,PT05M29.00S,3,1610612738,BOS,1627759,Brown,J. Brown,188,178,26,Missed,1,,,0,v,MISS Brown 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,261
+0022100745,361,PT05M26.00S,3,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Rebound,Rebound,Unknown,1,0,262
+0022100745,363,PT05M26.00S,3,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III L.B.FOUL (P3.T4) (K.Cutler),Foul,Loose Ball,1,0,263
+0022100745,365,PT05M26.00S,3,1610612740,NOP,1628984,Graham,D. Graham,0,0,0,,0,,,0,h,SUB: Hayes FOR Graham,Substitution,,0,0,264
+0022100745,366,PT05M26.00S,3,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,h,SUB: Alvarado FOR Hernangomez,Substitution,,0,0,265
+0022100745,367,PT05M26.00S,3,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,SUB: Williams FOR Horford,Substitution,,0,0,266
+0022100745,371,PT05M05.00S,3,1610612740,NOP,1628404,Hart,J. Hart,104,253,27,Missed,1,,,0,h,MISS Hart 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,267
+0022100745,372,PT05M01.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,268
+0022100745,373,PT04M51.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,47,63,8,Made,1,55,72,127,v,Tatum 8' Layup (25 PTS),Made Shot,Layup Shot,1,2,269
+0022100745,374,PT04M33.00S,3,1610612740,NOP,1630631,Alvarado,J. Alvarado,241,49,25,Made,1,58,72,130,h,Alvarado 25' 3PT Jump Shot (13 PTS) (Jones 2 AST),Made Shot,Jump Shot,1,3,270
+0022100745,376,PT04M16.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,-134,215,25,Missed,1,,,0,v,MISS Tatum 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,271
+0022100745,377,PT04M14.00S,3,1610612740,NOP,1630631,Alvarado,J. Alvarado,0,0,0,,0,,,0,h,Alvarado REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,272
+0022100745,378,PT04M01.00S,3,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,Williams P.FOUL (P1.PN) (K.Cutler),Foul,Personal,1,0,273
+0022100745,380,PT04M01.00S,3,1610612740,NOP,202066,Temple,G. Temple,0,0,0,,0,,,0,h,MISS Temple Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,274
+0022100745,381,PT04M01.00S,3,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Rebound,Rebound,Normal Rebound,0,0,275
+0022100745,382,PT04M01.00S,3,1610612740,NOP,1630529,Jones,H. Jones,0,0,0,,0,,,0,h,SUB: Marshall FOR Jones,Substitution,,0,0,276
+0022100745,383,PT04M01.00S,3,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,v,SUB: Langford FOR Brown,Substitution,,0,0,277
+0022100745,384,PT04M01.00S,3,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,SUB: Richardson FOR Williams,Substitution,,0,0,278
+0022100745,388,PT04M01.00S,3,1610612740,NOP,202066,Temple,G. Temple,0,0,0,,0,,,0,h,MISS Temple Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,279
+0022100745,389,PT03M59.00S,3,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III REBOUND (Off:2 Def:10),Rebound,Unknown,1,0,280
+0022100745,391,PT03M47.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,-158,205,26,Made,1,58,75,133,v,Tatum 26' 3PT Jump Shot (28 PTS) (Williams III 3 AST),Made Shot,Jump Shot,1,3,281
+0022100745,393,PT03M31.00S,3,1610612740,NOP,1630631,Alvarado,J. Alvarado,65,104,12,Made,1,60,75,135,h,Alvarado 12' Pullup Jump Shot (15 PTS),Made Shot,Pullup Jump shot,1,2,282
+0022100745,394,PT03M17.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,138,226,26,Missed,1,,,0,v,MISS Tatum 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,283
+0022100745,395,PT03M15.00S,3,1610612740,NOP,1630631,Alvarado,J. Alvarado,0,0,0,,0,,,0,h,Alvarado REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,284
+0022100745,396,PT03M10.00S,3,1610612740,NOP,1630230,Marshall,N. Marshall,36,22,4,Missed,1,,,0,h,MISS Marshall 4' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,285
+0022100745,397,PT03M09.00S,3,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III REBOUND (Off:2 Def:11),Rebound,Unknown,1,0,286
+0022100745,398,PT02M56.00S,3,1610612738,BOS,203471,Schröder,D. Schröder,0,0,0,,0,,,0,v,Schroder Out of Bounds - Bad Pass Turnover Turnover (P3.T9),Turnover,Out of Bounds - Bad Pass Turnover,1,0,287
+0022100745,399,PT02M56.00S,3,0,,1610612738,,,0,0,0,,0,,,0,v,Celtics Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,288
+0022100745,401,PT02M56.00S,3,1610612740,NOP,202066,Temple,G. Temple,0,0,0,,0,,,0,h,SUB: Alexander-Walker FOR Temple,Substitution,,0,0,289
+0022100745,402,PT02M56.00S,3,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,SUB: Williams FOR Williams III,Substitution,,0,0,290
+0022100745,403,PT02M56.00S,3,1610612738,BOS,1629641,Langford,R. Langford,0,0,0,,0,,,0,v,SUB: Horford FOR Langford,Substitution,,0,0,291
+0022100745,408,PT02M49.00S,3,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,Hart Bad Pass Turnover (P2.T9),Turnover,Bad Pass,1,0,292
+0022100745,408,PT02M49.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum STEAL (2 STL),,,1,0,293
+0022100745,410,PT02M46.00S,3,1610612738,BOS,203471,Schröder,D. Schröder,0,0,0,,0,,,0,v,Schroder Out of Bounds - Bad Pass Turnover Turnover (P4.T10),Turnover,Out of Bounds - Bad Pass Turnover,1,0,294
+0022100745,412,PT02M45.00S,3,1610612740,NOP,1629637,Hayes,J. Hayes,-15,32,4,Made,1,62,75,137,h,Hayes 4' Dunk (2 PTS) (Alexander-Walker 3 AST),Made Shot,Dunk Shot,1,2,295
+0022100745,415,PT02M45.00S,3,1610612738,BOS,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,v,Richardson S.FOUL (P1.PN) (N.Sago),Foul,Shooting,1,0,296
+0022100745,417,PT02M45.00S,3,1610612740,NOP,1629637,Hayes,J. Hayes,0,0,0,,0,63,75,138,h,Hayes Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,1,0,297
+0022100745,418,PT02M28.00S,3,1610612738,BOS,203471,Schröder,D. Schröder,-87,141,17,Missed,1,,,0,v,MISS Schroder 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,298
+0022100745,419,PT02M21.00S,3,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,Hart REBOUND (Off:0 Def:10),Rebound,Unknown,1,0,299
+0022100745,420,PT02M19.00S,3,1610612740,NOP,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,Hayes Out of Bounds - Bad Pass Turnover Turnover (P2.T10),Turnover,Out of Bounds - Bad Pass Turnover,1,0,300
+0022100745,421,PT02M09.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,118,231,26,Missed,1,,,0,v,MISS Tatum 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,301
+0022100745,422,PT02M05.00S,3,0,,1610612738,,,0,0,0,,0,,,0,v,Celtics Rebound,Rebound,Unknown,0,0,302
+0022100745,423,PT02M05.00S,3,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,SUB: Temple FOR Hart,Substitution,,0,0,303
+0022100745,424,PT02M05.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,SUB: Brown FOR Tatum,Substitution,,0,0,304
+0022100745,427,PT01M58.00S,3,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford Bad Pass Turnover (P1.T11),Turnover,Bad Pass,1,0,305
+0022100745,427,PT01M58.00S,3,1610612740,NOP,202066,Temple,G. Temple,0,0,0,,0,,,0,h,Temple STEAL (1 STL),,,1,0,306
+0022100745,429,PT01M53.00S,3,1610612740,NOP,1630230,Marshall,N. Marshall,-15,38,4,Made,1,65,75,140,h,Marshall 4' Running Layup (4 PTS) (Temple 3 AST),Made Shot,Running Layup Shot,1,2,307
+0022100745,431,PT01M40.00S,3,1610612740,NOP,1630230,Marshall,N. Marshall,0,0,0,,0,,,0,h,Marshall P.FOUL (P1.T2) (A.Nagy),Foul,Personal,1,0,308
+0022100745,433,PT01M28.00S,3,1610612738,BOS,201143,Horford,A. Horford,-107,237,26,Made,1,65,78,143,v,Horford 26' 3PT Jump Shot (8 PTS) (Brown 2 AST),Made Shot,Jump Shot,1,3,309
+0022100745,435,PT01M14.00S,3,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,Williams S.FOUL (P2.PN) (A.Nagy),Foul,Shooting,1,0,310
+0022100745,437,PT01M14.00S,3,1610612740,NOP,202066,Temple,G. Temple,0,0,0,,0,,,0,h,MISS Temple Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,311
+0022100745,438,PT01M14.00S,3,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Rebound,Rebound,Normal Rebound,0,0,312
+0022100745,439,PT01M14.00S,3,1610612740,NOP,202066,Temple,G. Temple,0,0,0,,0,66,78,144,h,Temple Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,313
+0022100745,442,PT00M58.10S,3,0,,440,Tabak,Z. Tabak,0,0,0,,0,66,78,144,,Instant Replay3rd Period (8:41 PM EST),Instant Replay,Coach Challenge Overturn Ruling,1,0,314
+0022100745,449,PT00M58.10S,3,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,v,Brown Lost Ball Turnover (P1.T12),Turnover,Lost Ball,1,0,315
+0022100745,449,PT00M58.10S,3,1610612740,NOP,1630631,Alvarado,J. Alvarado,0,0,0,,0,,,0,h,Alvarado STEAL (3 STL),,,1,0,316
+0022100745,443,PT00M58.10S,3,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Timeout: Coach Challenge (Full 4 Short 0),Timeout,Coach Challenge,0,0,317
+0022100745,444,PT00M43.10S,3,1610612740,NOP,202066,Temple,G. Temple,20,22,3,Made,1,68,78,146,h,Temple 3' Layup (12 PTS) (Alvarado 2 AST),Made Shot,Layup Shot,1,2,318
+0022100745,446,PT00M32.40S,3,1610612738,BOS,203471,Schröder,D. Schröder,4,255,26,Missed,1,,,0,v,MISS Schroder 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,319
+0022100745,447,PT00M32.40S,3,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,Williams REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,320
+0022100745,448,PT00M25.30S,3,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,Williams Out of Bounds Lost Ball Turnover (P1.T13),Turnover,Out of Bounds Lost Ball Turnover,1,0,321
+0022100745,451,PT00M04.60S,3,1610612740,NOP,1630631,Alvarado,J. Alvarado,22,31,4,Made,1,70,78,148,h,Alvarado 4' Driving Layup (17 PTS),Made Shot,Driving Layup Shot,1,2,322
+0022100745,452,PT00M00.00S,3,0,,0,,,0,0,0,,0,70,78,148,,End of 3rd Period (8:46 PM EST),period,end,1,0,323
+0022100745,461,PT12M00.00S,4,0,,0,,,0,0,0,,0,70,78,148,,Start of 4th Period (8:49 PM EST),period,start,0,0,324
+0022100745,462,PT11M40.00S,4,1610612740,NOP,1630529,Jones,H. Jones,0,0,0,,0,,,0,h,Jones S.FOUL (P2.T1) (A.Nagy),Foul,Shooting,1,0,325
+0022100745,464,PT11M40.00S,4,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,70,79,149,v,Smart Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,326
+0022100745,465,PT11M40.00S,4,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,v,MISS Smart Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,327
+0022100745,466,PT11M36.00S,4,1610612740,NOP,1630529,Jones,H. Jones,0,0,0,,0,,,0,h,Jones REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,328
+0022100745,467,PT11M21.00S,4,1610612740,NOP,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,h,Alexander-Walker Out of Bounds Lost Ball Turnover (P1.T11),Turnover,Out of Bounds Lost Ball Turnover,1,0,329
+0022100745,468,PT11M07.00S,4,1610612738,BOS,203935,Smart,M. Smart,12,-6,1,Made,1,70,81,151,v,Smart 1' Layup (5 PTS) (Tatum 5 AST),Made Shot,Layup Shot,1,2,330
+0022100745,470,PT10M52.00S,4,1610612740,NOP,1629638,Alexander-Walker,N. Alexander-Walker,-147,227,27,Made,1,73,81,154,h,Alexander-Walker 27' 3PT Jump Shot (5 PTS) (Jones 3 AST),Made Shot,Jump Shot,1,3,331
+0022100745,472,PT10M44.00S,4,1610612740,NOP,1630631,Alvarado,J. Alvarado,0,0,0,,0,,,0,h,Alvarado P.FOUL (P1.T2) (K.Cutler),Foul,Personal,1,0,332
+0022100745,474,PT10M27.00S,4,1610612738,BOS,1626196,Richardson,J. Richardson,50,84,10,Made,1,73,83,156,v,Richardson 10' Turnaround Jump Shot (7 PTS) (Tatum 6 AST),Made Shot,Turnaround Jump Shot,1,2,333
+0022100745,478,PT10M07.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum S.FOUL (P3.T1) (N.Sago),Foul,Shooting,1,0,334
+0022100745,480,PT10M07.00S,4,1610612740,NOP,1629637,Hayes,J. Hayes,0,0,0,,0,74,83,157,h,Hayes Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,335
+0022100745,481,PT10M07.00S,4,1610612740,NOP,1629637,Hayes,J. Hayes,0,0,0,,0,75,83,158,h,Hayes Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,336
+0022100745,482,PT09M57.00S,4,1610612738,BOS,1629057,Williams III,R. Williams III,-20,13,2,Made,1,75,85,160,v,Williams III 2' Layup (6 PTS) (Smart 9 AST),Made Shot,Layup Shot,1,2,337
+0022100745,484,PT09M38.00S,4,1610612740,NOP,1630631,Alvarado,J. Alvarado,-1,117,12,Missed,1,,,0,h,MISS Alvarado 12' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,338
+0022100745,485,PT09M36.00S,4,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III REBOUND (Off:2 Def:12),Rebound,Unknown,1,0,339
+0022100745,486,PT09M19.00S,4,1610612738,BOS,1627759,Brown,J. Brown,-225,75,24,Made,1,75,88,163,v,Brown 24' 3PT Jump Shot (27 PTS) (Richardson 2 AST),Made Shot,Jump Shot,1,3,340
+0022100745,488,PT09M19.00S,4,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,341
+0022100745,489,PT09M19.00S,4,1610612740,NOP,1629637,Hayes,J. Hayes,0,0,0,,0,,,0,h,SUB: Hernangomez FOR Hayes,Substitution,,0,0,342
+0022100745,490,PT09M19.00S,4,1610612740,NOP,1630631,Alvarado,J. Alvarado,0,0,0,,0,,,0,h,SUB: Graham FOR Alvarado,Substitution,,0,0,343
+0022100745,493,PT09M02.00S,4,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,v,Brown S.FOUL (P1.T2) (K.Cutler),Foul,Shooting,1,0,344
+0022100745,495,PT09M02.00S,4,1610612740,NOP,1628984,Graham,D. Graham,0,0,0,,0,76,88,164,h,Graham Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,345
+0022100745,496,PT09M02.00S,4,1610612740,NOP,1628984,Graham,D. Graham,0,0,0,,0,77,88,165,h,Graham Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,346
+0022100745,497,PT08M50.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,-228,22,0,Missed,1,,,0,v,MISS Tatum 3PT Jump Shot,Missed Shot,Jump Shot,1,3,347
+0022100745,498,PT08M48.00S,4,1610612740,NOP,1630529,Jones,H. Jones,0,0,0,,0,,,0,h,Jones REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,348
+0022100745,499,PT08M43.00S,4,1610612740,NOP,1630529,Jones,H. Jones,-28,50,6,Missed,1,,,0,h,MISS Jones 6' Running Layup,Missed Shot,Running Layup Shot,1,2,349
+0022100745,500,PT08M42.00S,4,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,h,Hernangomez REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,350
+0022100745,501,PT08M42.00S,4,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,h,Hernangomez Out of Bounds Lost Ball Turnover (P3.T12),Turnover,Out of Bounds Lost Ball Turnover,1,0,351
+0022100745,502,PT08M25.00S,4,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,h,Hernangomez S.FOUL (P3.T3) (K.Cutler),Foul,Shooting,1,0,352
+0022100745,504,PT08M25.00S,4,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,77,89,166,v,Brown Free Throw 1 of 2 (28 PTS),Free Throw,Free Throw 1 of 2,1,0,353
+0022100745,505,PT08M25.00S,4,1610612740,NOP,1630529,Jones,H. Jones,0,0,0,,0,,,0,h,SUB: Hart FOR Jones,Substitution,,0,0,354
+0022100745,507,PT08M25.00S,4,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,77,90,167,v,Brown Free Throw 2 of 2 (29 PTS),Free Throw,Free Throw 2 of 2,1,0,355
+0022100745,508,PT08M09.00S,4,1610612740,NOP,202066,Temple,G. Temple,23,32,4,Missed,1,,,0,h,MISS Temple 4' Layup,Missed Shot,Layup Shot,1,2,356
+0022100745,509,PT08M07.00S,4,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III REBOUND (Off:2 Def:13),Rebound,Unknown,1,0,357
+0022100745,510,PT08M03.00S,4,1610612738,BOS,1627759,Brown,J. Brown,16,24,3,Made,1,77,92,169,v,Brown 3' Running Layup (31 PTS),Made Shot,Running Layup Shot,1,2,358
+0022100745,511,PT07M50.00S,4,1610612740,NOP,202066,Temple,G. Temple,-168,204,26,Missed,1,,,0,h,MISS Temple 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,359
+0022100745,512,PT07M50.00S,4,1610612740,NOP,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,h,Alexander-Walker REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,360
+0022100745,513,PT07M39.00S,4,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,23,25,3,Made,1,79,92,171,h,Hernangomez 3' Cutting Layup Shot (12 PTS) (Alexander-Walker 4 AST),Made Shot,Cutting Layup Shot,1,2,361
+0022100745,515,PT07M30.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,17,6,2,Made,1,79,94,173,v,Tatum 2' Cutting Dunk Shot (30 PTS) (Brown 3 AST),Made Shot,Cutting Dunk Shot,1,2,362
+0022100745,517,PT07M07.00S,4,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III S.FOUL (P4.T3) (A.Nagy),Foul,Shooting,1,0,363
+0022100745,519,PT07M07.00S,4,1610612740,NOP,1628984,Graham,D. Graham,0,0,0,,0,80,94,174,h,Graham Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,364
+0022100745,520,PT07M07.00S,4,1610612740,NOP,1628984,Graham,D. Graham,0,0,0,,0,81,94,175,h,Graham Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,365
+0022100745,521,PT06M48.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,22,22,3,Made,1,81,96,177,v,Tatum 3' Driving Layup (32 PTS),Made Shot,Driving Layup Shot,1,2,366
+0022100745,523,PT06M25.00S,4,1610612740,NOP,1628404,Hart,J. Hart,16,17,2,Made,1,83,96,179,h,Hart 2' Driving Layup (10 PTS) (Temple 4 AST),Made Shot,Driving Layup Shot,1,2,367
+0022100745,525,PT06M25.00S,4,1610612738,BOS,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,v,Richardson S.FOUL (P2.T4) (A.Nagy),Foul,Shooting,1,0,368
+0022100745,527,PT06M25.00S,4,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,v,SUB: Williams FOR Brown,Substitution,,0,0,369
+0022100745,533,PT06M25.00S,4,1610612740,NOP,1629638,Alexander-Walker,N. Alexander-Walker,0,0,0,,0,,,0,h,SUB: Jones FOR Alexander-Walker,Substitution,,0,0,370
+0022100745,529,PT06M25.00S,4,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,MISS Hart Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,371
+0022100745,530,PT06M25.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,372
+0022100745,531,PT06M11.00S,4,1610612738,BOS,1626196,Richardson,J. Richardson,230,88,25,Made,1,83,99,182,v,Richardson 25' 3PT Jump Shot (10 PTS) (Tatum 7 AST),Made Shot,Jump Shot,1,3,373
+0022100745,535,PT05M51.00S,4,1610612740,NOP,1630529,Jones,H. Jones,20,22,3,Made,1,85,99,184,h,Jones 3' Driving Layup (11 PTS),Made Shot,Driving Layup Shot,1,2,374
+0022100745,536,PT05M35.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,-55,116,13,Made,1,85,101,186,v,Tatum 13' Jump Shot (34 PTS) (Smart 10 AST),Made Shot,Jump Shot,1,2,375
+0022100745,539,PT05M25.00S,4,0,,1610612738,,,0,0,0,,0,,,0,v,Celtics Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,376
+0022100745,551,PT05M25.00S,4,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,SUB: Brown FOR Williams,Substitution,,0,0,377
+0022100745,540,PT05M22.00S,4,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,42,17,5,Made,1,87,101,188,h,Hernangomez 5' Layup (14 PTS) (Jones 4 AST),Made Shot,Layup Shot,1,2,378
+0022100745,542,PT05M04.00S,4,1610612738,BOS,1629057,Williams III,R. Williams III,1,24,2,Made,1,87,103,190,v,Williams III 2' Alley Oop Dunk (8 PTS) (Smart 11 AST),Made Shot,Alley Oop Dunk Shot,1,2,379
+0022100745,544,PT04M55.00S,4,1610612740,NOP,1628984,Graham,D. Graham,-191,197,27,Made,1,90,103,193,h,Graham 27' 3PT Jump Shot (12 PTS),Made Shot,Jump Shot,1,3,380
+0022100745,545,PT04M35.00S,4,1610612738,BOS,203935,Smart,M. Smart,-213,131,25,Missed,1,,,0,v,MISS Smart 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,381
+0022100745,546,PT04M31.00S,4,1610612738,BOS,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,v,Richardson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,382
+0022100745,547,PT04M18.00S,4,1610612738,BOS,1629057,Williams III,R. Williams III,-74,252,26,Missed,1,,,0,v,MISS Williams III 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,383
+0022100745,548,PT04M14.00S,4,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,Hart REBOUND (Off:0 Def:11),Rebound,Unknown,1,0,384
+0022100745,549,PT03M59.00S,4,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,h,Hernangomez Bad Pass Turnover (P4.T13),Turnover,Bad Pass,1,0,385
+0022100745,549,PT03M59.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum STEAL (3 STL),,,1,0,386
+0022100745,553,PT03M59.00S,4,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,h,Hernangomez P.FOUL (P4.T4) (K.Cutler),Foul,Personal,1,0,387
+0022100745,555,PT03M46.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,-191,171,26,Missed,1,,,0,v,MISS Tatum 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,388
+0022100745,556,PT03M43.00S,4,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III REBOUND (Off:3 Def:13),Rebound,Unknown,1,0,389
+0022100745,557,PT03M42.00S,4,1610612738,BOS,1626196,Richardson,J. Richardson,4,251,25,Missed,1,,,0,v,MISS Richardson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,390
+0022100745,558,PT03M36.00S,4,1610612740,NOP,202066,Temple,G. Temple,0,0,0,,0,,,0,h,Temple REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,391
+0022100745,559,PT03M33.00S,4,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,-20,25,3,Missed,1,,,0,h,MISS Hernangomez 3' Layup,Missed Shot,Layup Shot,1,2,392
+0022100745,559,PT03M33.00S,4,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III BLOCK (3 BLK),,,1,2,393
+0022100745,561,PT03M28.00S,4,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,v,Brown REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,394
+0022100745,562,PT03M20.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,21,19,3,Made,1,90,105,195,v,Tatum 3' Layup (36 PTS) (Smart 12 AST),Made Shot,Layup Shot,1,2,395
+0022100745,564,PT02M59.00S,4,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,-17,70,7,Missed,1,,,0,h,MISS Hernangomez 7' Layup,Missed Shot,Layup Shot,1,2,396
+0022100745,564,PT02M59.00S,4,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,Williams III BLOCK (4 BLK),,,1,2,397
+0022100745,566,PT02M59.00S,4,1610612740,NOP,202066,Temple,G. Temple,0,0,0,,0,,,0,h,Temple REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,398
+0022100745,567,PT02M53.00S,4,1610612740,NOP,1628984,Graham,D. Graham,-107,235,26,Missed,1,,,0,h,MISS Graham 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,399
+0022100745,568,PT02M51.00S,4,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,Hart REBOUND (Off:1 Def:11),Rebound,Unknown,1,0,400
+0022100745,569,PT02M47.00S,4,1610612740,NOP,1628984,Graham,D. Graham,-230,21,0,Missed,1,,,0,h,MISS Graham 3PT Jump Shot,Missed Shot,Jump Shot,1,3,401
+0022100745,570,PT02M47.00S,4,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,v,Smart REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,402
+0022100745,571,PT02M39.00S,4,1610612740,NOP,202066,Temple,G. Temple,0,0,0,,0,,,0,h,Temple S.FOUL (P1.PN) (A.Nagy),Foul,Shooting,1,0,403
+0022100745,573,PT02M39.00S,4,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,v,MISS Brown Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,404
+0022100745,574,PT02M39.00S,4,0,,1610612738,,,0,0,0,,0,,,0,v,Celtics Rebound,Rebound,Normal Rebound,0,0,405
+0022100745,575,PT02M39.00S,4,1610612740,NOP,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,h,SUB: Hayes FOR Hernangomez,Substitution,,0,0,406
+0022100745,577,PT02M39.00S,4,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,v,MISS Brown Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,407
+0022100745,578,PT02M36.00S,4,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,Hart REBOUND (Off:1 Def:12),Rebound,Unknown,1,0,408
+0022100745,579,PT02M30.00S,4,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,Hart Out of Bounds - Bad Pass Turnover Turnover (P3.T14),Turnover,Out of Bounds - Bad Pass Turnover,1,0,409
+0022100745,580,PT02M16.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,-185,193,27,Missed,1,,,0,v,MISS Tatum 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,410
+0022100745,581,PT02M12.00S,4,1610612740,NOP,202066,Temple,G. Temple,0,0,0,,0,,,0,h,Temple REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,411
+0022100745,582,PT02M09.00S,4,1610612740,NOP,202066,Temple,G. Temple,0,0,0,,0,,,0,h,Temple Lost Ball Turnover (P2.T15),Turnover,Lost Ball,1,0,412
+0022100745,582,PT02M09.00S,4,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,v,Smart STEAL (1 STL),,,1,0,413
+0022100745,584,PT02M07.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,-11,6,1,Made,1,90,107,197,v,Tatum 1' Dunk (38 PTS) (Williams III 4 AST),Made Shot,Dunk Shot,1,2,414
+0022100745,586,PT02M07.00S,4,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,415
+0022100745,587,PT02M07.00S,4,1610612740,NOP,1628404,Hart,J. Hart,0,0,0,,0,,,0,h,SUB: Alvarado FOR Hart,Substitution,,0,0,416
+0022100745,588,PT02M07.00S,4,1610612740,NOP,1628984,Graham,D. Graham,0,0,0,,0,,,0,h,SUB: Alexander-Walker FOR Graham,Substitution,,0,0,417
+0022100745,589,PT02M07.00S,4,1610612740,NOP,1630529,Jones,H. Jones,0,0,0,,0,,,0,h,SUB: Marshall FOR Jones,Substitution,,0,0,418
+0022100745,590,PT02M07.00S,4,1610612740,NOP,202066,Temple,G. Temple,0,0,0,,0,,,0,h,SUB: Clark FOR Temple,Substitution,,0,0,419
+0022100745,591,PT02M07.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,SUB: Williams FOR Tatum,Substitution,,0,0,420
+0022100745,592,PT02M07.00S,4,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,v,SUB: Hauser FOR Brown,Substitution,,0,0,421
+0022100745,593,PT02M07.00S,4,1610612738,BOS,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,v,SUB: Fernando FOR Richardson,Substitution,,0,0,422
+0022100745,594,PT02M07.00S,4,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,v,SUB: Nesmith FOR Smart,Substitution,,0,0,423
+0022100745,595,PT02M07.00S,4,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,v,SUB: Pritchard FOR Williams III,Substitution,,0,0,424
+0022100745,605,PT01M49.00S,4,1610612740,NOP,1629638,Alexander-Walker,N. Alexander-Walker,87,185,20,Missed,1,,,0,h,MISS Alexander-Walker 20' Jump Shot,Missed Shot,Jump Shot,1,2,425
+0022100745,606,PT01M46.00S,4,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,Williams REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,426
+0022100745,607,PT01M44.00S,4,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,v,Williams Lost Ball Turnover (P2.T14),Turnover,Lost Ball,1,0,427
+0022100745,607,PT01M44.00S,4,1610612740,NOP,1630631,Alvarado,J. Alvarado,0,0,0,,0,,,0,h,Alvarado STEAL (4 STL),,,1,0,428
+0022100745,609,PT01M41.00S,4,1610612740,NOP,1630631,Alvarado,J. Alvarado,6,29,3,Made,1,92,107,199,h,Alvarado 3' Layup (19 PTS),Made Shot,Layup Shot,1,2,429
+0022100745,610,PT01M32.00S,4,1610612738,BOS,1630174,Nesmith,A. Nesmith,-163,209,27,Missed,1,,,0,v,MISS Nesmith 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,430
+0022100745,611,PT01M32.00S,4,1610612740,NOP,1630230,Marshall,N. Marshall,0,0,0,,0,,,0,h,Marshall REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,431
+0022100745,612,PT01M28.00S,4,1610612738,BOS,1630573,Hauser,S. Hauser,0,0,0,,0,,,0,v,Hauser P.FOUL (P1.PN) (A.Nagy),Foul,Personal,1,0,432
+0022100745,614,PT01M28.00S,4,1610612740,NOP,1630230,Marshall,N. Marshall,0,0,0,,0,,,0,h,MISS Marshall Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,433
+0022100745,615,PT01M28.00S,4,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Rebound,Rebound,Normal Rebound,0,0,434
+0022100745,616,PT01M28.00S,4,1610612740,NOP,1630230,Marshall,N. Marshall,0,0,0,,0,93,107,200,h,Marshall Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,435
+0022100745,617,PT01M08.00S,4,1610612738,BOS,1630573,Hauser,S. Hauser,51,262,27,Missed,1,,,0,v,MISS Hauser 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,436
+0022100745,618,PT01M06.00S,4,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Rebound,Rebound,Unknown,0,0,437
+0022100745,619,PT00M52.70S,4,1610612740,NOP,1629109,Clark,G. Clark,22,55,6,Made,1,95,107,202,h,Clark 6' Driving Hook Shot (2 PTS) (Alexander-Walker 5 AST),Made Shot,Driving Hook Shot,1,2,438
+0022100745,620,PT00M35.20S,4,1610612738,BOS,1630202,Pritchard,P. Pritchard,-109,142,18,Missed,1,,,0,v,MISS Pritchard 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,439
+0022100745,622,PT00M32.50S,4,1610612740,NOP,1630230,Marshall,N. Marshall,0,0,0,,0,,,0,h,Marshall REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,440
+0022100745,623,PT00M28.10S,4,1610612740,NOP,1630230,Marshall,N. Marshall,-12,28,3,Made,1,97,107,204,h,Marshall 3' Driving Dunk (7 PTS),Made Shot,Driving Dunk Shot,1,2,441
+0022100745,624,PT00M05.10S,4,1610612738,BOS,1630174,Nesmith,A. Nesmith,0,0,0,,0,,,0,v,Nesmith Out of Bounds Lost Ball Turnover (P1.T15),Turnover,Out of Bounds Lost Ball Turnover,1,0,442
+0022100745,628,PT00M00.00S,4,0,,0,,,0,0,0,,0,97,107,204,,End of 4th Period (9:17 PM EST),period,end,1,0,443

@@ -1,0 +1,553 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022100303,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (6:11 PM EST),period,start,0,0,1
+0022100303,4,PT12M00.00S,1,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Jump Ball Adams vs. Len: Tip to Jones,Jump Ball,,1,0,2
+0022100303,7,PT11M46.00S,1,1610612763,MEM,1630217,Bane,D. Bane,-230,-10,0,Made,1,3,0,3,h,Bane 3PT Jump Shot (3 PTS) (Adams 1 AST),Made Shot,Jump Shot,1,3,3
+0022100303,9,PT11M30.00S,1,1610612758,SAC,203458,Len,A. Len,0,0,0,,0,,,0,v,Len OFF.Foul (P1) (T.Maddox),Foul,Offensive,1,0,4
+0022100303,11,PT11M30.00S,1,1610612758,SAC,203458,Len,A. Len,0,0,0,,0,,,0,v,Len Offensive Foul Turnover (P1.T1),Turnover,Offensive Foul Turnover,1,0,5
+0022100303,12,PT11M18.00S,1,1610612763,MEM,203500,Adams,S. Adams,4,10,1,Missed,1,,,0,h,MISS Adams 1' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,6
+0022100303,13,PT11M15.00S,1,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,Davis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,7
+0022100303,14,PT11M12.00S,1,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,Davis Offensive Charge Foul (P1) (B.Barnaky),Foul,Offensive Charge,1,0,8
+0022100303,16,PT11M12.00S,1,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,Davis Offensive Foul Turnover (P1.T2),Turnover,Offensive Foul Turnover,1,0,9
+0022100303,17,PT11M02.00S,1,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,Davis S.FOUL (P2.T1) (T.Maddox),Foul,Shooting,1,0,10
+0022100303,19,PT11M02.00S,1,1610612763,MEM,1628415,Brooks,D. Brooks,0,0,0,,0,4,0,4,h,Brooks Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,11
+0022100303,20,PT11M02.00S,1,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,SUB: Hield FOR Davis,Substitution,,0,0,12
+0022100303,22,PT11M02.00S,1,1610612763,MEM,1628415,Brooks,D. Brooks,0,0,0,,0,5,0,5,h,Brooks Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,13
+0022100303,23,PT10M51.00S,1,1610612758,SAC,1629002,Metu,C. Metu,-18,4,2,Missed,1,,,0,v,MISS Metu 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,14
+0022100303,23,PT10M51.00S,1,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams BLOCK (1 BLK),,,1,2,15
+0022100303,25,PT10M47.00S,1,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,16
+0022100303,26,PT10M42.00S,1,1610612763,MEM,1628415,Brooks,D. Brooks,-22,101,10,Made,1,7,0,7,h,Brooks 10' Pullup Jump Shot (4 PTS) (Bane 1 AST),Made Shot,Pullup Jump shot,1,2,17
+0022100303,28,PT10M25.00S,1,1610612758,SAC,1627741,Hield,B. Hield,100,235,26,Missed,1,,,0,v,MISS Hield 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,18
+0022100303,29,PT10M23.00S,1,1610612763,MEM,1628415,Brooks,D. Brooks,0,0,0,,0,,,0,h,Brooks REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,19
+0022100303,30,PT10M15.00S,1,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox S.FOUL (P1.T2) (L.Holtkamp),Foul,Shooting,1,0,20
+0022100303,32,PT10M15.00S,1,1610612763,MEM,1628415,Brooks,D. Brooks,0,0,0,,0,8,0,8,h,Brooks Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,21
+0022100303,33,PT10M15.00S,1,1610612763,MEM,1628415,Brooks,D. Brooks,0,0,0,,0,9,0,9,h,Brooks Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,22
+0022100303,34,PT10M15.00S,1,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Violation: Delay of game Violation,Violation,Delay Of Game,0,0,23
+0022100303,35,PT10M03.00S,1,1610612758,SAC,1630169,Haliburton,T. Haliburton,-1,70,7,Missed,1,,,0,v,MISS Haliburton 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,24
+0022100303,36,PT10M01.00S,1,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,25
+0022100303,37,PT09M57.00S,1,1610612763,MEM,1630217,Bane,D. Bane,-6,5,1,Made,1,11,0,11,h,Bane 1' Running Finger Roll Layup (5 PTS),Made Shot,Running Finger Roll Layup Shot,1,2,26
+0022100303,38,PT09M50.00S,1,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,27
+0022100303,39,PT09M40.00S,1,1610612758,SAC,1628368,Fox,D. Fox,-234,28,24,Made,1,11,3,14,v,Fox 24' 3PT Pullup Jump Shot (3 PTS) (Haliburton 1 AST),Made Shot,Pullup Jump shot,1,3,28
+0022100303,41,PT09M29.00S,1,1610612758,SAC,203458,Len,A. Len,0,0,0,,0,,,0,v,Len P.FOUL (P2.T3) (B.Barnaky),Foul,Personal,0,0,29
+0022100303,43,PT09M29.00S,1,1610612758,SAC,203458,Len,A. Len,0,0,0,,0,,,0,v,SUB: Thompson FOR Len,Substitution,,0,0,30
+0022100303,45,PT09M21.00S,1,1610612763,MEM,203500,Adams,S. Adams,-9,11,1,Missed,1,,,0,h,MISS Adams 1' Alley Oop Layup,Missed Shot,Alley Oop Layup shot,1,2,31
+0022100303,45,PT09M21.00S,1,1610612758,SAC,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson BLOCK (1 BLK),,,1,2,32
+0022100303,47,PT09M18.00S,1,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,33
+0022100303,48,PT09M15.00S,1,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,-78,-17,8,Missed,1,,,0,h,MISS Jackson Jr. 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,34
+0022100303,49,PT09M12.00S,1,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,35
+0022100303,50,PT09M01.00S,1,1610612758,SAC,1627741,Hield,B. Hield,7,5,1,Missed,1,,,0,v,MISS Hield 1' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,36
+0022100303,51,PT09M00.00S,1,1610612758,SAC,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,37
+0022100303,52,PT08M59.00S,1,1610612758,SAC,202684,Thompson,T. Thompson,-4,6,1,Made,1,11,5,16,v,Thompson 1' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,38
+0022100303,53,PT08M49.00S,1,1610612763,MEM,1630217,Bane,D. Bane,-9,6,1,Missed,1,,,0,h,MISS Bane 1' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,39
+0022100303,54,PT08M47.00S,1,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,40
+0022100303,55,PT08M43.00S,1,1610612763,MEM,1630217,Bane,D. Bane,0,0,0,,0,,,0,h,Bane S.FOUL (P1.T1) (L.Holtkamp),Foul,Shooting,1,0,41
+0022100303,57,PT08M43.00S,1,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,11,6,17,v,Metu Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,42
+0022100303,58,PT08M43.00S,1,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,11,7,18,v,Metu Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,43
+0022100303,59,PT08M30.00S,1,1610612763,MEM,1628415,Brooks,D. Brooks,2,5,1,Made,1,13,7,20,h,Brooks 1' Driving Dunk (8 PTS) (Adams 2 AST),Made Shot,Driving Dunk Shot,1,2,44
+0022100303,61,PT08M21.00S,1,1610612758,SAC,1630169,Haliburton,T. Haliburton,121,37,13,Made,1,13,9,22,v,Haliburton 13' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,45
+0022100303,62,PT08M03.00S,1,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,28,98,10,Missed,1,,,0,h,MISS Jackson Jr. 10' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,46
+0022100303,62,PT08M03.00S,1,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu BLOCK (1 BLK),,,1,2,47
+0022100303,64,PT07M59.00S,1,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,48
+0022100303,65,PT07M59.00S,1,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,Made,1,15,9,24,h,Jackson Jr. Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,49
+0022100303,66,PT07M46.00S,1,1610612758,SAC,1628368,Fox,D. Fox,134,221,26,Missed,1,,,0,v,MISS Fox 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,50
+0022100303,67,PT07M42.00S,1,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,51
+0022100303,68,PT07M37.00S,1,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,115,251,28,Missed,1,,,0,h,MISS Jackson Jr. 28' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,52
+0022100303,69,PT07M33.00S,1,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,53
+0022100303,70,PT07M32.00S,1,1610612758,SAC,1629002,Metu,C. Metu,-4,6,1,Made,1,15,11,26,v,Metu 1' Running Dunk (4 PTS) (Fox 1 AST),Made Shot,Running Dunk Shot,1,2,54
+0022100303,72,PT07M15.00S,1,1610612763,MEM,1626145,Jones,T. Jones,-45,58,7,Missed,1,,,0,h,MISS Jones 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,55
+0022100303,73,PT07M13.00S,1,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,56
+0022100303,74,PT07M05.00S,1,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams S.FOUL (P1.T2) (T.Maddox),Foul,Shooting,1,0,57
+0022100303,76,PT07M05.00S,1,1610612758,SAC,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,MISS Thompson Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,58
+0022100303,77,PT07M05.00S,1,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Normal Rebound,0,0,59
+0022100303,78,PT07M05.00S,1,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,SUB: Melton FOR Jackson Jr.,Substitution,,0,0,60
+0022100303,79,PT07M05.00S,1,1610612763,MEM,1630217,Bane,D. Bane,0,0,0,,0,,,0,h,SUB: Anderson FOR Bane,Substitution,,0,0,61
+0022100303,82,PT07M05.00S,1,1610612758,SAC,202684,Thompson,T. Thompson,0,0,0,,0,15,12,27,v,Thompson Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,62
+0022100303,83,PT06M52.00S,1,1610612763,MEM,1628415,Brooks,D. Brooks,-94,230,25,Missed,1,,,0,h,MISS Brooks 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,63
+0022100303,84,PT06M49.00S,1,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,64
+0022100303,85,PT06M43.00S,1,1610612758,SAC,1629002,Metu,C. Metu,-36,262,26,Missed,1,,,0,v,MISS Metu 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,65
+0022100303,86,PT06M38.00S,1,1610612763,MEM,1629001,Melton,D. Melton,0,0,0,,0,,,0,h,Melton REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,66
+0022100303,87,PT06M31.00S,1,1610612763,MEM,1626145,Jones,T. Jones,27,111,11,Made,1,17,12,29,h,Jones 11' Driving Floating Jump Shot (2 PTS),Made Shot,Driving Floating Jump Shot,1,2,67
+0022100303,88,PT06M20.00S,1,1610612758,SAC,202684,Thompson,T. Thompson,-23,22,3,Made,1,17,14,31,v,Thompson 3' Cutting Layup Shot (5 PTS) (Metu 1 AST),Made Shot,Cutting Layup Shot,1,2,68
+0022100303,90,PT06M20.00S,1,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams S.FOUL (P2.T3) (B.Barnaky),Foul,Shooting,1,0,69
+0022100303,92,PT06M20.00S,1,1610612763,MEM,1628415,Brooks,D. Brooks,0,0,0,,0,,,0,h,SUB: Williams FOR Brooks,Substitution,,0,0,70
+0022100303,93,PT06M20.00S,1,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,SUB: Bagley III FOR Metu,Substitution,,0,0,71
+0022100303,96,PT06M20.00S,1,1610612758,SAC,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,MISS Thompson Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,72
+0022100303,97,PT06M17.00S,1,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,73
+0022100303,98,PT06M02.00S,1,1610612763,MEM,1629001,Melton,D. Melton,82,240,25,Made,1,20,14,34,h,Melton 25' 3PT Jump Shot (3 PTS) (Jones 1 AST),Made Shot,Jump Shot,1,3,74
+0022100303,100,PT05M44.00S,1,1610612758,SAC,1630169,Haliburton,T. Haliburton,-31,5,3,Missed,1,,,0,v,MISS Haliburton 3' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,75
+0022100303,100,PT05M44.00S,1,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams BLOCK (2 BLK),,,1,2,76
+0022100303,102,PT05M41.00S,1,1610612763,MEM,1626145,Jones,T. Jones,0,0,0,,0,,,0,h,Jones REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,77
+0022100303,103,PT05M32.00S,1,1610612763,MEM,1630533,Williams,Z. Williams,34,75,8,Made,1,22,14,36,h,Williams 8' Floating Jump Shot (2 PTS) (Melton 1 AST),Made Shot,Floating Jump shot,1,2,78
+0022100303,105,PT05M23.00S,1,1610612763,MEM,1630533,Williams,Z. Williams,0,0,0,,0,,,0,h,Williams P.FOUL (P1.T4) (B.Barnaky),Foul,Personal,1,0,79
+0022100303,107,PT05M23.00S,1,1610612758,SAC,1630169,Haliburton,T. Haliburton,0,0,0,,0,,,0,v,SUB: Mitchell FOR Haliburton,Substitution,,0,0,80
+0022100303,109,PT05M14.00S,1,1610612758,SAC,1627741,Hield,B. Hield,96,47,11,Made,1,22,16,38,v,Hield 11' Driving Floating Jump Shot (2 PTS) (Fox 2 AST),Made Shot,Driving Floating Jump Shot,1,2,81
+0022100303,111,PT04M56.00S,1,1610612763,MEM,1630533,Williams,Z. Williams,-71,10,7,Made,1,24,16,40,h,Williams 7' Fadeaway Jumper (4 PTS) (Adams 3 AST),Made Shot,Fadeaway Jump Shot,1,2,82
+0022100303,113,PT04M47.00S,1,1610612758,SAC,1627741,Hield,B. Hield,20,263,26,Missed,1,,,0,v,MISS Hield 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,83
+0022100303,114,PT04M46.00S,1,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,84
+0022100303,115,PT04M38.00S,1,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams OFF.Foul (P3) (T.Maddox),Foul,Offensive,1,0,85
+0022100303,117,PT04M38.00S,1,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams Offensive Foul Turnover (P1.T1),Turnover,Offensive Foul Turnover,1,0,86
+0022100303,118,PT04M38.00S,1,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,SUB: Clarke FOR Adams,Substitution,,0,0,87
+0022100303,120,PT04M24.00S,1,1610612758,SAC,202684,Thompson,T. Thompson,29,28,4,Missed,1,,,0,v,MISS Thompson 4' Hook Shot,Missed Shot,Hook Shot,1,2,88
+0022100303,121,PT04M20.00S,1,1610612763,MEM,1629001,Melton,D. Melton,0,0,0,,0,,,0,h,Melton REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,89
+0022100303,122,PT04M17.00S,1,1610612763,MEM,1630533,Williams,Z. Williams,1,6,1,Made,1,26,16,42,h,Williams 1' Running Alley Oop Layup Shot (6 PTS) (Jones 2 AST),Made Shot,Running Alley Oop Layup Shot,1,2,90
+0022100303,124,PT04M07.00S,1,1610612758,SAC,1628368,Fox,D. Fox,-39,6,4,Missed,1,,,0,v,MISS Fox 4' Layup,Missed Shot,Layup Shot,1,2,91
+0022100303,124,PT04M07.00S,1,1610612763,MEM,1629634,Clarke,B. Clarke,0,0,0,,0,,,0,h,Clarke BLOCK (1 BLK),,,1,2,92
+0022100303,126,PT04M07.00S,1,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Unknown,1,0,93
+0022100303,127,PT04M07.00S,1,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson L.B.FOUL (P1.PN) (T.Maddox),Foul,Loose Ball,1,0,94
+0022100303,129,PT04M07.00S,1,1610612758,SAC,202684,Thompson,T. Thompson,0,0,0,,0,26,17,43,v,Thompson Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,95
+0022100303,130,PT04M07.00S,1,1610612763,MEM,1626145,Jones,T. Jones,0,0,0,,0,,,0,h,SUB: Bane FOR Jones,Substitution,,0,0,96
+0022100303,132,PT04M07.00S,1,1610612758,SAC,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,MISS Thompson Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,97
+0022100303,133,PT04M05.00S,1,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,98
+0022100303,134,PT03M48.00S,1,1610612763,MEM,1629634,Clarke,B. Clarke,49,62,8,Missed,1,,,0,h,MISS Clarke 8' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,99
+0022100303,135,PT03M45.00S,1,1610612758,SAC,1627741,Hield,B. Hield,0,0,0,,0,,,0,v,Hield REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,100
+0022100303,136,PT03M39.00S,1,1610612758,SAC,1627741,Hield,B. Hield,110,246,27,Missed,1,,,0,v,MISS Hield 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,101
+0022100303,137,PT03M36.00S,1,1610612763,MEM,1629634,Clarke,B. Clarke,0,0,0,,0,,,0,h,Clarke REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,102
+0022100303,138,PT03M32.00S,1,1610612763,MEM,1629001,Melton,D. Melton,81,240,25,Made,1,29,17,46,h,Melton 25' 3PT Running Pull-Up Jump Shot (6 PTS),Made Shot,Running Pull-Up Jump Shot,1,3,103
+0022100303,139,PT03M17.00S,1,1610612763,MEM,1629634,Clarke,B. Clarke,0,0,0,,0,,,0,h,Clarke S.FOUL (P1.PN) (L.Holtkamp),Foul,Shooting,1,0,104
+0022100303,141,PT03M17.00S,1,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,29,18,47,v,Fox Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,105
+0022100303,142,PT03M17.00S,1,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,106
+0022100303,143,PT03M17.00S,1,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,MISS Fox Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,107
+0022100303,144,PT03M15.00S,1,1610612763,MEM,1629001,Melton,D. Melton,0,0,0,,0,,,0,h,Melton REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,108
+0022100303,145,PT02M55.00S,1,1610612763,MEM,203937,Anderson,K. Anderson,54,71,9,Made,1,31,18,49,h,Anderson 9' Turnaround Fadeaway (2 PTS),Made Shot,Turnaround Fadeaway shot,1,2,109
+0022100303,146,PT02M36.00S,1,1610612758,SAC,1627741,Hield,B. Hield,-124,91,15,Made,1,31,20,51,v,Hield 15' Jump Shot (4 PTS) (Thompson 1 AST),Made Shot,Jump Shot,1,2,110
+0022100303,148,PT02M25.00S,1,1610612763,MEM,1630217,Bane,D. Bane,65,240,25,Made,1,34,20,54,h,Bane 25' 3PT Jump Shot (8 PTS) (Anderson 1 AST),Made Shot,Jump Shot,1,3,111
+0022100303,150,PT02M05.00S,1,1610612758,SAC,1630558,Mitchell,D. Mitchell,-88,88,12,Made,1,34,22,56,v,Mitchell 12' Driving Floating Jump Shot (2 PTS),Made Shot,Driving Floating Jump Shot,1,2,112
+0022100303,151,PT01M56.00S,1,1610612763,MEM,1629634,Clarke,B. Clarke,37,69,8,Made,1,36,22,58,h,Clarke 8' Floating Jump Shot (2 PTS) (Melton 2 AST),Made Shot,Floating Jump shot,1,2,113
+0022100303,153,PT01M40.00S,1,1610612758,SAC,1628368,Fox,D. Fox,1,104,10,Made,1,36,24,60,v,Fox 10' Driving Floating Jump Shot (6 PTS) (Thompson 2 AST),Made Shot,Driving Floating Jump Shot,1,2,114
+0022100303,155,PT01M32.00S,1,1610612763,MEM,1629001,Melton,D. Melton,69,248,26,Missed,1,,,0,h,MISS Melton 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,115
+0022100303,156,PT01M30.00S,1,1610612758,SAC,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,116
+0022100303,157,PT01M21.00S,1,1610612758,SAC,1627741,Hield,B. Hield,92,244,26,Missed,1,,,0,v,MISS Hield 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,117
+0022100303,158,PT01M19.00S,1,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Unknown,0,0,118
+0022100303,159,PT01M19.00S,1,1610612763,MEM,1629001,Melton,D. Melton,0,0,0,,0,,,0,h,Melton L.B.FOUL (P1.PN) (B.Barnaky),Foul,Loose Ball,1,0,119
+0022100303,161,PT01M19.00S,1,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,SUB: Konchar FOR Anderson,Substitution,,0,0,120
+0022100303,162,PT01M19.00S,1,1610612763,MEM,1630533,Williams,Z. Williams,0,0,0,,0,,,0,h,SUB: Jackson Jr. FOR Williams,Substitution,,0,0,121
+0022100303,167,PT01M19.00S,1,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,SUB: Haliburton FOR Fox,Substitution,,0,0,122
+0022100303,165,PT01M19.00S,1,1610612758,SAC,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,MISS Thompson Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,123
+0022100303,166,PT01M19.00S,1,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Normal Rebound,0,0,124
+0022100303,169,PT01M19.00S,1,1610612758,SAC,202684,Thompson,T. Thompson,0,0,0,,0,36,25,61,v,Thompson Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,125
+0022100303,170,PT01M06.00S,1,1610612763,MEM,1630217,Bane,D. Bane,0,0,0,,0,,,0,h,Bane Out of Bounds - Bad Pass Turnover Turnover (P1.T2),Turnover,Out of Bounds - Bad Pass Turnover,1,0,126
+0022100303,171,PT00M52.70S,1,1610612758,SAC,202684,Thompson,T. Thompson,1,17,2,Missed,1,,,0,v,MISS Thompson 2' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,127
+0022100303,172,PT00M49.30S,1,1610612758,SAC,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,128
+0022100303,173,PT00M49.30S,1,1610612758,SAC,202684,Thompson,T. Thompson,0,0,0,Missed,1,,,0,v,MISS Thompson Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,129
+0022100303,174,PT00M48.50S,1,1610612763,MEM,1629634,Clarke,B. Clarke,0,0,0,,0,,,0,h,Clarke REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,130
+0022100303,175,PT00M34.50S,1,1610612763,MEM,1630217,Bane,D. Bane,48,116,13,Made,1,38,25,63,h,Bane 13' Driving Floating Jump Shot (10 PTS),Made Shot,Driving Floating Jump Shot,1,2,131
+0022100303,176,PT00M18.80S,1,1610612758,SAC,1627741,Hield,B. Hield,-147,209,26,Missed,1,,,0,v,MISS Hield 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,132
+0022100303,176,PT00M18.80S,1,1610612763,MEM,1630217,Bane,D. Bane,0,0,0,,0,,,0,h,Bane BLOCK (1 BLK),,,1,3,133
+0022100303,178,PT00M15.20S,1,1610612763,MEM,1629634,Clarke,B. Clarke,0,0,0,,0,,,0,h,Clarke REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,134
+0022100303,179,PT00M02.30S,1,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,-49,271,28,Missed,1,,,0,h,MISS Jackson Jr. 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,135
+0022100303,180,PT00M02.30S,1,1610612758,SAC,1627741,Hield,B. Hield,0,0,0,,0,,,0,v,Hield REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,136
+0022100303,181,PT00M00.00S,1,0,,0,,,0,0,0,,0,38,25,63,,End of 1st Period (6:37 PM EST),period,end,1,0,137
+0022100303,188,PT12M00.00S,2,0,,0,,,0,0,0,,0,38,25,63,,Start of 2nd Period (6:40 PM EST),period,start,0,0,138
+0022100303,189,PT11M47.00S,2,1610612758,SAC,1627741,Hield,B. Hield,92,241,26,Missed,1,,,0,v,MISS Hield 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,139
+0022100303,190,PT11M44.00S,2,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,140
+0022100303,191,PT11M37.00S,2,1610612763,MEM,1628415,Brooks,D. Brooks,-119,153,19,Missed,1,,,0,h,MISS Brooks 19' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,141
+0022100303,192,PT11M33.00S,2,1610612758,SAC,203458,Len,A. Len,0,0,0,,0,,,0,v,Len REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,142
+0022100303,193,PT11M23.00S,2,1610612758,SAC,1627741,Hield,B. Hield,-234,7,0,Made,1,38,28,66,v,Hield 3PT Jump Shot (7 PTS) (Mitchell 1 AST),Made Shot,Jump Shot,1,3,143
+0022100303,195,PT11M05.00S,2,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. Lost Ball Turnover (P1.T3),Turnover,Lost Ball,1,0,144
+0022100303,195,PT11M05.00S,2,1610612758,SAC,1628963,Bagley III,M. Bagley III,0,0,0,,0,,,0,v,Bagley III STEAL (1 STL),,,1,0,145
+0022100303,197,PT10M56.00S,2,1610612758,SAC,1630558,Mitchell,D. Mitchell,222,88,24,Missed,1,,,0,v,MISS Mitchell 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,146
+0022100303,198,PT10M53.00S,2,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,147
+0022100303,199,PT10M49.00S,2,1610612763,MEM,1628415,Brooks,D. Brooks,-127,216,25,Missed,1,,,0,h,MISS Brooks 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,148
+0022100303,200,PT10M44.00S,2,1610612763,MEM,1629723,Konchar,J. Konchar,0,0,0,,0,,,0,h,Konchar REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,149
+0022100303,201,PT10M39.00S,2,1610612763,MEM,1626145,Jones,T. Jones,76,98,12,Made,1,40,28,68,h,Jones 12' Driving Floating Jump Shot (4 PTS),Made Shot,Driving Floating Jump Shot,1,2,150
+0022100303,202,PT10M39.00S,2,1610612758,SAC,203458,Len,A. Len,0,0,0,,0,,,0,v,Len S.FOUL (P3.T1) (B.Barnaky),Foul,Shooting,1,0,151
+0022100303,204,PT10M39.00S,2,1610612758,SAC,203458,Len,A. Len,0,0,0,,0,,,0,v,SUB: Jones FOR Len,Substitution,,0,0,152
+0022100303,206,PT10M39.00S,2,1610612763,MEM,1626145,Jones,T. Jones,0,0,0,,0,,,0,h,MISS Jones Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,153
+0022100303,207,PT10M36.00S,2,1610612758,SAC,1627745,Jones,D. Jones,0,0,0,,0,,,0,v,Jones REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,154
+0022100303,208,PT10M24.00S,2,1610612758,SAC,1627741,Hield,B. Hield,-9,4,1,Made,1,40,30,70,v,Hield 1' Driving Finger Roll Layup (9 PTS) (Mitchell 2 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,155
+0022100303,210,PT10M14.00S,2,1610612763,MEM,1629634,Clarke,B. Clarke,-1,11,1,Made,1,42,30,72,h,Clarke 1' Cutting Dunk Shot (4 PTS) (Jones 3 AST),Made Shot,Cutting Dunk Shot,1,2,156
+0022100303,212,PT09M57.00S,2,1610612763,MEM,1628415,Brooks,D. Brooks,0,0,0,,0,,,0,h,Brooks S.FOUL (P1.T1) (T.Maddox),Foul,Shooting,1,0,157
+0022100303,214,PT09M57.00S,2,1610612758,SAC,1627741,Hield,B. Hield,0,0,0,,0,42,31,73,v,Hield Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,158
+0022100303,215,PT09M57.00S,2,1610612758,SAC,1627741,Hield,B. Hield,0,0,0,,0,42,32,74,v,Hield Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,159
+0022100303,216,PT09M46.00S,2,1610612763,MEM,1629634,Clarke,B. Clarke,-1,59,6,Made,1,44,32,76,h,Clarke 6' Floating Jump Shot (6 PTS) (Jones 4 AST),Made Shot,Floating Jump shot,1,2,160
+0022100303,218,PT09M36.00S,2,1610612758,SAC,1630558,Mitchell,D. Mitchell,154,206,26,Made,1,44,35,79,v,Mitchell 26' 3PT Jump Shot (5 PTS) (Hield 1 AST),Made Shot,Jump Shot,1,3,161
+0022100303,220,PT09M18.00S,2,1610612758,SAC,1627745,Jones,D. Jones,0,0,0,,0,,,0,v,Jones P.FOUL (P1.T2) (T.Maddox),Foul,Personal,1,0,162
+0022100303,222,PT09M08.00S,2,1610612763,MEM,1628415,Brooks,D. Brooks,-97,11,10,Made,1,46,35,81,h,Brooks 10' Turnaround Fadeaway (10 PTS),Made Shot,Turnaround Fadeaway shot,1,2,163
+0022100303,223,PT08M50.00S,2,1610612758,SAC,1630558,Mitchell,D. Mitchell,178,191,26,Missed,1,,,0,v,MISS Mitchell 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,164
+0022100303,224,PT08M47.00S,2,1610612763,MEM,1629723,Konchar,J. Konchar,0,0,0,,0,,,0,h,Konchar REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,165
+0022100303,225,PT08M43.00S,2,1610612763,MEM,1629634,Clarke,B. Clarke,5,10,1,Made,1,48,35,83,h,Clarke 1' Running Layup (8 PTS) (Konchar 1 AST),Made Shot,Running Layup Shot,1,2,166
+0022100303,227,PT08M41.00S,2,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,167
+0022100303,228,PT08M41.00S,2,1610612763,MEM,1629634,Clarke,B. Clarke,0,0,0,,0,,,0,h,SUB: Adams FOR Clarke,Substitution,,0,0,168
+0022100303,229,PT08M41.00S,2,1610612758,SAC,1627741,Hield,B. Hield,0,0,0,,0,,,0,v,SUB: Davis FOR Hield,Substitution,,0,0,169
+0022100303,230,PT08M41.00S,2,1610612758,SAC,1628963,Bagley III,M. Bagley III,0,0,0,,0,,,0,v,SUB: Metu FOR Bagley III,Substitution,,0,0,170
+0022100303,234,PT08M32.00S,2,1610612758,SAC,1630169,Haliburton,T. Haliburton,0,0,0,,0,,,0,v,Haliburton Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,171
+0022100303,234,PT08M32.00S,2,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams STEAL (1 STL),,,1,0,172
+0022100303,236,PT08M27.00S,2,1610612763,MEM,1628415,Brooks,D. Brooks,-130,214,25,Made,1,51,35,86,h,Brooks 25' 3PT Running Jump Shot (13 PTS) (Jones 5 AST),Made Shot,Running Jump Shot,1,3,173
+0022100303,238,PT08M17.00S,2,1610612758,SAC,1629056,Davis,T. Davis,32,89,9,Missed,1,,,0,v,MISS Davis 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,174
+0022100303,239,PT08M13.00S,2,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,175
+0022100303,240,PT08M04.00S,2,1610612758,SAC,1629056,Davis,T. Davis,227,99,25,Made,1,51,38,89,v,Davis 25' 3PT Step Back Jump Shot (3 PTS) (Metu 2 AST),Made Shot,Step Back Jump shot,1,3,176
+0022100303,303,PT08M04.00S,2,0,,240,Thompson,B. Thompson,0,0,0,,0,51,38,89,,Instant Replay2nd Period (6:49 PM EST),Instant Replay,Overturn Ruling,0,0,177
+0022100303,242,PT07M47.00S,2,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell P.FOUL (P1.T3) (T.Maddox),Foul,Personal,1,0,178
+0022100303,244,PT07M47.00S,2,1610612758,SAC,1630169,Haliburton,T. Haliburton,0,0,0,,0,,,0,v,SUB: Fox FOR Haliburton,Substitution,,0,0,179
+0022100303,246,PT07M41.00S,2,1610612763,MEM,1628415,Brooks,D. Brooks,80,235,25,Missed,1,,,0,h,MISS Brooks 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,180
+0022100303,247,PT07M39.00S,2,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,181
+0022100303,248,PT07M33.00S,2,1610612758,SAC,1629002,Metu,C. Metu,233,0,0,Missed,1,,,0,v,MISS Metu 3PT Jump Shot,Missed Shot,Jump Shot,1,3,182
+0022100303,249,PT07M30.00S,2,1610612758,SAC,1627745,Jones,D. Jones,0,0,0,,0,,,0,v,Jones REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,183
+0022100303,250,PT07M25.00S,2,1610612758,SAC,1627745,Jones,D. Jones,-4,6,1,Made,1,51,40,91,v,Jones 1' Alley Oop Dunk (2 PTS) (Mitchell 3 AST),Made Shot,Alley Oop Dunk Shot,1,2,184
+0022100303,252,PT07M11.00S,2,1610612763,MEM,1629723,Konchar,J. Konchar,-2,10,1,Made,1,53,40,93,h,Konchar 1' Cutting Layup Shot (2 PTS) (Adams 4 AST),Made Shot,Cutting Layup Shot,1,2,185
+0022100303,254,PT07M01.00S,2,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,Davis Bad Pass Turnover (P2.T4),Turnover,Bad Pass,1,0,186
+0022100303,254,PT07M01.00S,2,1610612763,MEM,1628415,Brooks,D. Brooks,0,0,0,,0,,,0,h,Brooks STEAL (1 STL),,,1,0,187
+0022100303,256,PT06M50.00S,2,1610612763,MEM,1626145,Jones,T. Jones,97,258,28,Missed,1,,,0,h,MISS Jones 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,188
+0022100303,257,PT06M45.00S,2,1610612758,SAC,1627745,Jones,D. Jones,0,0,0,,0,,,0,v,Jones REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,189
+0022100303,258,PT06M36.00S,2,1610612758,SAC,1630558,Mitchell,D. Mitchell,54,260,27,Missed,1,,,0,v,MISS Mitchell 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,190
+0022100303,259,PT06M35.00S,2,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,191
+0022100303,260,PT06M32.00S,2,1610612758,SAC,1629002,Metu,C. Metu,145,205,25,Missed,1,,,0,v,MISS Metu 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,192
+0022100303,261,PT06M28.00S,2,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,193
+0022100303,262,PT06M24.00S,2,1610612758,SAC,1627745,Jones,D. Jones,0,0,0,,0,,,0,v,Jones Personal Take Foul (P2.T4) (L.Holtkamp),Foul,Personal Take,1,0,194
+0022100303,264,PT06M24.00S,2,1610612763,MEM,1626145,Jones,T. Jones,0,0,0,,0,,,0,h,SUB: Melton FOR Jones,Substitution,,0,0,195
+0022100303,265,PT06M24.00S,2,1610612763,MEM,1628415,Brooks,D. Brooks,0,0,0,,0,,,0,h,SUB: Bane FOR Brooks,Substitution,,0,0,196
+0022100303,266,PT06M24.00S,2,1610612763,MEM,1629723,Konchar,J. Konchar,0,0,0,,0,,,0,h,SUB: Williams FOR Konchar,Substitution,,0,0,197
+0022100303,267,PT06M24.00S,2,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,SUB: Hield FOR Davis,Substitution,,0,0,198
+0022100303,272,PT06M11.00S,2,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,2,3,0,Made,1,55,40,95,h,Jackson Jr. Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,199
+0022100303,273,PT06M00.00S,2,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. S.FOUL (P1.T2) (L.Holtkamp),Foul,Shooting,1,0,200
+0022100303,275,PT06M00.00S,2,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,55,41,96,v,Metu Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,201
+0022100303,276,PT06M00.00S,2,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,55,42,97,v,Metu Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,202
+0022100303,277,PT05M45.00S,2,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,-44,69,8,Missed,1,,,0,h,MISS Jackson Jr. 8' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,203
+0022100303,278,PT05M42.00S,2,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,204
+0022100303,279,PT05M41.00S,2,1610612763,MEM,203500,Adams,S. Adams,9,22,2,Missed,1,,,0,h,MISS Adams 2' Putback Layup,Missed Shot,Putback Layup Shot,1,2,205
+0022100303,279,PT05M41.00S,2,1610612758,SAC,1627745,Jones,D. Jones,0,0,0,,0,,,0,v,Jones BLOCK (1 BLK),,,1,2,206
+0022100303,280,PT05M34.00S,2,1610612763,MEM,1629001,Melton,D. Melton,0,0,0,,0,,,0,h,Melton REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,207
+0022100303,281,PT05M34.00S,2,1610612763,MEM,1629001,Melton,D. Melton,5,72,7,Made,1,57,42,99,h,Melton 7' Floating Jump Shot (8 PTS),Made Shot,Floating Jump shot,1,2,208
+0022100303,282,PT05M29.00S,2,1610612758,SAC,1630558,Mitchell,D. Mitchell,7,11,1,Missed,1,,,0,v,MISS Mitchell 1' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,209
+0022100303,283,PT05M27.00S,2,1610612763,MEM,1629001,Melton,D. Melton,0,0,0,,0,,,0,h,Melton REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,210
+0022100303,284,PT05M19.00S,2,1610612763,MEM,1630217,Bane,D. Bane,-11,8,1,Made,1,59,42,101,h,Bane 1' Driving Reverse Layup (12 PTS) (Melton 3 AST),Made Shot,Driving Reverse Layup Shot,1,2,211
+0022100303,286,PT05M02.00S,2,1610612758,SAC,1628368,Fox,D. Fox,0,5,1,Missed,1,,,0,v,MISS Fox 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,212
+0022100303,287,PT04M58.00S,2,1610612758,SAC,1627741,Hield,B. Hield,0,0,0,,0,,,0,v,Hield REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,213
+0022100303,288,PT04M58.00S,2,1610612758,SAC,1627741,Hield,B. Hield,0,0,0,Made,1,59,44,103,v,Hield Tip Layup Shot (13 PTS),Made Shot,Tip Layup Shot,1,2,214
+0022100303,289,PT04M48.00S,2,1610612763,MEM,1630533,Williams,Z. Williams,213,148,26,Missed,1,,,0,h,MISS Williams 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,215
+0022100303,290,PT04M48.00S,2,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Rebound,Rebound,Unknown,0,0,216
+0022100303,291,PT04M48.00S,2,1610612758,SAC,1627745,Jones,D. Jones,0,0,0,,0,,,0,v,Jones FLAGRANT.FOUL.TYPE1 (P3.PN) (L.Holtkamp),Foul,Flagrant Type 1,1,0,217
+0022100303,293,PT04M48.00S,2,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,SUB: Anderson FOR Jackson Jr.,Substitution,,0,0,218
+0022100303,295,PT04M48.00S,2,0,,291,Pinckney,E. Pinckney,0,0,0,,0,59,44,103,,Instant Replay2nd Period (6:55 PM EST),Instant Replay,Overturn Ruling,0,0,219
+0022100303,296,PT04M48.00S,2,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,SUB: Thompson FOR Mitchell,Substitution,,0,0,220
+0022100303,297,PT04M48.00S,2,1610612758,SAC,1627745,Jones,D. Jones,0,0,0,,0,,,0,v,SUB: Haliburton FOR Jones,Substitution,,0,0,221
+0022100303,300,PT04M48.00S,2,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,MISS Adams Free Throw Flagrant 1 of 2,Free Throw,Free Throw Flagrant 1 of 2,1,0,222
+0022100303,301,PT04M48.00S,2,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Rebound,Rebound,Normal Rebound,0,0,223
+0022100303,302,PT04M48.00S,2,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,60,44,104,h,Adams Free Throw Flagrant 2 of 2 (1 PTS),Free Throw,Free Throw Flagrant 2 of 2,1,0,224
+0022100303,304,PT04M38.00S,2,1610612763,MEM,1629001,Melton,D. Melton,-94,104,14,Missed,1,,,0,h,MISS Melton 14' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,225
+0022100303,305,PT04M35.00S,2,1610612758,SAC,1627741,Hield,B. Hield,0,0,0,,0,,,0,v,Hield REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,226
+0022100303,306,PT04M22.00S,2,1610612758,SAC,1628368,Fox,D. Fox,88,65,11,Missed,1,,,0,v,MISS Fox 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,227
+0022100303,307,PT04M20.00S,2,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,228
+0022100303,308,PT04M13.00S,2,1610612763,MEM,1630533,Williams,Z. Williams,-5,87,9,Made,1,62,44,106,h,Williams 9' Floating Jump Shot (8 PTS) (Anderson 2 AST),Made Shot,Floating Jump shot,1,2,229
+0022100303,310,PT03M59.00S,2,1610612758,SAC,1629002,Metu,C. Metu,32,110,11,Missed,1,,,0,v,MISS Metu 11' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,230
+0022100303,311,PT03M57.00S,2,1610612763,MEM,1630533,Williams,Z. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,231
+0022100303,312,PT03M45.00S,2,1610612758,SAC,1627741,Hield,B. Hield,0,0,0,,0,,,0,v,Hield P.FOUL (P1.PN) (L.Holtkamp),Foul,Personal,1,0,232
+0022100303,314,PT03M45.00S,2,1610612763,MEM,1629001,Melton,D. Melton,0,0,0,,0,63,44,107,h,Melton Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,233
+0022100303,315,PT03M45.00S,2,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,SUB: Clarke FOR Adams,Substitution,,0,0,234
+0022100303,317,PT03M45.00S,2,1610612763,MEM,1629001,Melton,D. Melton,0,0,0,,0,64,44,108,h,Melton Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,235
+0022100303,318,PT03M33.00S,2,1610612758,SAC,1629002,Metu,C. Metu,-156,212,26,Missed,1,,,0,v,MISS Metu 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,236
+0022100303,319,PT03M30.00S,2,1610612763,MEM,1630533,Williams,Z. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,237
+0022100303,320,PT03M21.00S,2,1610612763,MEM,1630217,Bane,D. Bane,-184,172,25,Made,1,67,44,111,h,Bane 25' 3PT Step Back Jump Shot (15 PTS) (Williams 1 AST),Made Shot,Step Back Jump shot,1,3,238
+0022100303,322,PT02M59.00S,2,1610612758,SAC,1630169,Haliburton,T. Haliburton,138,216,26,Missed,1,,,0,v,MISS Haliburton 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,239
+0022100303,323,PT02M56.00S,2,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,240
+0022100303,324,PT02M52.00S,2,1610612758,SAC,1627741,Hield,B. Hield,-152,207,26,Missed,1,,,0,v,MISS Hield 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,241
+0022100303,325,PT02M51.00S,2,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Unknown,0,0,242
+0022100303,326,PT02M51.00S,2,1610612763,MEM,1629634,Clarke,B. Clarke,0,0,0,,0,,,0,h,Clarke L.B.FOUL (P2.T3) (L.Holtkamp),Foul,Loose Ball,1,0,243
+0022100303,328,PT02M51.00S,2,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,244
+0022100303,330,PT02M51.00S,2,1610612763,MEM,1630533,Williams,Z. Williams,0,0,0,,0,,,0,h,SUB: Brooks FOR Williams,Substitution,,0,0,245
+0022100303,331,PT02M51.00S,2,1610612758,SAC,1630169,Haliburton,T. Haliburton,0,0,0,,0,,,0,v,SUB: Davis FOR Haliburton,Substitution,,0,0,246
+0022100303,334,PT02M40.00S,2,1610612758,SAC,1628368,Fox,D. Fox,-54,264,27,Made,1,67,47,114,v,Fox 27' 3PT Pullup Jump Shot (9 PTS),Made Shot,Pullup Jump shot,1,3,247
+0022100303,335,PT02M17.00S,2,1610612763,MEM,1630217,Bane,D. Bane,-195,148,24,Missed,1,,,0,h,MISS Bane 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,248
+0022100303,336,PT02M14.00S,2,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,Davis REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,249
+0022100303,337,PT02M09.00S,2,1610612758,SAC,1629056,Davis,T. Davis,-5,258,26,Missed,1,,,0,v,MISS Davis 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,250
+0022100303,338,PT02M04.00S,2,1610612763,MEM,1628415,Brooks,D. Brooks,0,0,0,,0,,,0,h,Brooks REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,251
+0022100303,339,PT02M00.00S,2,1610612763,MEM,1628415,Brooks,D. Brooks,25,26,4,Missed,1,,,0,h,MISS Brooks 4' Running Layup,Missed Shot,Running Layup Shot,1,2,252
+0022100303,339,PT02M00.00S,2,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox BLOCK (1 BLK),,,1,2,253
+0022100303,341,PT01M55.00S,2,1610612763,MEM,1628415,Brooks,D. Brooks,0,0,0,,0,,,0,h,Brooks REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,254
+0022100303,342,PT01M55.00S,2,1610612763,MEM,1629001,Melton,D. Melton,-225,13,0,Missed,1,,,0,h,MISS Melton 3PT Jump Shot,Missed Shot,Jump Shot,1,3,255
+0022100303,343,PT01M55.00S,2,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Rebound,Rebound,Unknown,0,0,256
+0022100303,345,PT01M55.00S,2,1610612763,MEM,1629001,Melton,D. Melton,0,0,0,,0,,,0,h,SUB: Jones FOR Melton,Substitution,,0,0,257
+0022100303,347,PT01M47.00S,2,1610612763,MEM,1628415,Brooks,D. Brooks,112,243,27,Missed,1,,,0,h,MISS Brooks 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,258
+0022100303,348,PT01M44.00S,2,1610612758,SAC,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,259
+0022100303,349,PT01M27.00S,2,1610612758,SAC,1628368,Fox,D. Fox,-109,236,26,Missed,1,,,0,v,MISS Fox 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,260
+0022100303,350,PT01M23.00S,2,1610612763,MEM,1630217,Bane,D. Bane,0,0,0,,0,,,0,h,Bane REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,261
+0022100303,351,PT01M18.00S,2,1610612763,MEM,1626145,Jones,T. Jones,-9,19,2,Missed,1,,,0,h,MISS Jones 2' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,262
+0022100303,351,PT01M18.00S,2,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox BLOCK (2 BLK),,,1,2,263
+0022100303,353,PT01M14.00S,2,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,264
+0022100303,354,PT01M14.00S,2,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu Lost Ball Turnover (P1.T5),Turnover,Lost Ball,1,0,265
+0022100303,354,PT01M14.00S,2,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson STEAL (1 STL),,,1,0,266
+0022100303,356,PT01M12.00S,2,1610612763,MEM,1629634,Clarke,B. Clarke,-1,5,1,Made,1,69,47,116,h,Clarke 1' Cutting Dunk Shot (10 PTS) (Anderson 3 AST),Made Shot,Cutting Dunk Shot,1,2,267
+0022100303,358,PT01M04.00S,2,1610612758,SAC,1627741,Hield,B. Hield,10,20,2,Missed,1,,,0,v,MISS Hield 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,268
+0022100303,360,PT01M01.00S,2,1610612763,MEM,1629634,Clarke,B. Clarke,0,0,0,,0,,,0,h,Clarke REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,269
+0022100303,361,PT00M56.70S,2,1610612763,MEM,1626145,Jones,T. Jones,105,234,26,Missed,1,,,0,h,MISS Jones 26' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,270
+0022100303,362,PT00M56.00S,2,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,271
+0022100303,363,PT00M56.00S,2,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,Made,1,71,47,118,h,Anderson Tip Layup Shot (4 PTS),Made Shot,Tip Layup Shot,1,2,272
+0022100303,364,PT00M41.90S,2,1610612758,SAC,1628368,Fox,D. Fox,-15,20,3,Made,1,71,49,120,v,Fox 3' Driving Finger Roll Layup (11 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,273
+0022100303,365,PT00M41.90S,2,1610612763,MEM,1628415,Brooks,D. Brooks,0,0,0,,0,,,0,h,Brooks S.FOUL (P2.T4) (B.Barnaky),Foul,Shooting,1,0,274
+0022100303,367,PT00M41.90S,2,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,71,50,121,v,Fox Free Throw 1 of 1 (12 PTS),Free Throw,Free Throw 1 of 1,1,0,275
+0022100303,368,PT00M31.30S,2,1610612763,MEM,203937,Anderson,K. Anderson,110,232,26,Made,1,74,50,124,h,Anderson 26' 3PT Jump Shot (7 PTS) (Jones 6 AST),Made Shot,Jump Shot,1,3,276
+0022100303,370,PT00M11.80S,2,1610612758,SAC,1628368,Fox,D. Fox,27,260,26,Missed,1,,,0,v,MISS Fox 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,277
+0022100303,371,PT00M10.00S,2,1610612763,MEM,1630217,Bane,D. Bane,0,0,0,,0,,,0,h,Bane REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,278
+0022100303,372,PT00M07.90S,2,1610612763,MEM,1628415,Brooks,D. Brooks,2,8,1,Made,1,76,50,126,h,Brooks 1' Running Finger Roll Layup (15 PTS) (Bane 2 AST),Made Shot,Running Finger Roll Layup Shot,1,2,279
+0022100303,374,PT00M01.60S,2,1610612758,SAC,202684,Thompson,T. Thompson,103,99,14,Made,1,76,52,128,v,Thompson 14' Floating Jump Shot (9 PTS),Made Shot,Floating Jump shot,1,2,280
+0022100303,376,PT00M00.00S,2,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,281
+0022100303,376,PT00M00.00S,2,1610612758,SAC,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson STEAL (1 STL),,,1,0,282
+0022100303,378,PT00M00.00S,2,0,,0,,,0,0,0,,0,76,52,128,,End of 2nd Period (7:08 PM EST),period,end,1,0,283
+0022100303,387,PT12M00.00S,3,0,,0,,,0,0,0,,0,76,52,128,,Start of 3rd Period (7:24 PM EST),period,start,0,0,284
+0022100303,388,PT12M00.00S,3,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Violation: Delay of game Violation,Violation,Delay Of Game,0,0,285
+0022100303,389,PT11M41.00S,3,1610612758,SAC,1629056,Davis,T. Davis,6,119,12,Made,1,76,54,130,v,Davis 12' Driving Floating Jump Shot (5 PTS),Made Shot,Driving Floating Jump Shot,1,2,286
+0022100303,390,PT11M21.00S,3,1610612763,MEM,1628415,Brooks,D. Brooks,78,152,17,Missed,1,,,0,h,MISS Brooks 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,287
+0022100303,391,PT11M20.00S,3,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,288
+0022100303,392,PT11M12.00S,3,1610612758,SAC,1628368,Fox,D. Fox,1,122,12,Missed,1,,,0,v,MISS Fox 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,289
+0022100303,392,PT11M12.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. BLOCK (1 BLK),,,1,2,290
+0022100303,394,PT11M07.00S,3,1610612763,MEM,1628415,Brooks,D. Brooks,0,0,0,,0,,,0,h,Brooks REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,291
+0022100303,395,PT11M05.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,-13,7,1,Made,1,78,54,132,h,Jackson Jr. 1' Running Finger Roll Layup (6 PTS) (Brooks 1 AST),Made Shot,Running Finger Roll Layup Shot,1,2,292
+0022100303,397,PT10M50.00S,3,1610612758,SAC,1629056,Davis,T. Davis,119,248,28,Missed,1,,,0,v,MISS Davis 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,293
+0022100303,398,PT10M48.00S,3,1610612758,SAC,1630169,Haliburton,T. Haliburton,0,0,0,,0,,,0,v,Haliburton REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,294
+0022100303,399,PT10M46.00S,3,1610612758,SAC,1629002,Metu,C. Metu,-58,248,25,Missed,1,,,0,v,MISS Metu 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,295
+0022100303,400,PT10M43.00S,3,1610612763,MEM,1630217,Bane,D. Bane,0,0,0,,0,,,0,h,Bane REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,296
+0022100303,401,PT10M33.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,17,20,3,Made,1,80,54,134,h,Jackson Jr. 3' Driving Floating Bank Jump Shot (8 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,297
+0022100303,402,PT10M19.00S,3,1610612758,SAC,203458,Len,A. Len,16,261,26,Missed,1,,,0,v,MISS Len 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,298
+0022100303,403,PT10M17.00S,3,1610612763,MEM,1628415,Brooks,D. Brooks,0,0,0,,0,,,0,h,Brooks REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,299
+0022100303,404,PT10M12.00S,3,1610612763,MEM,1628415,Brooks,D. Brooks,-234,43,24,Missed,1,,,0,h,MISS Brooks 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,300
+0022100303,405,PT10M08.00S,3,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,301
+0022100303,406,PT10M03.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. S.FOUL (P2.T1) (B.Barnaky),Foul,Shooting,1,0,302
+0022100303,408,PT10M03.00S,3,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,80,55,135,v,Davis Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,303
+0022100303,409,PT10M03.00S,3,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,80,56,136,v,Davis Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,304
+0022100303,410,PT09M46.00S,3,1610612763,MEM,1628415,Brooks,D. Brooks,-23,15,3,Made,1,82,56,138,h,Brooks 3' Driving Finger Roll Layup (17 PTS) (Jones 7 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,305
+0022100303,412,PT09M32.00S,3,1610612758,SAC,1628368,Fox,D. Fox,6,50,5,Missed,1,,,0,v,MISS Fox 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,306
+0022100303,412,PT09M32.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. BLOCK (2 BLK),,,1,2,307
+0022100303,414,PT09M29.00S,3,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,308
+0022100303,415,PT09M26.00S,3,1610612758,SAC,1629056,Davis,T. Davis,124,87,15,Missed,1,,,0,v,MISS Davis 15' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,309
+0022100303,416,PT09M24.00S,3,1610612763,MEM,1626145,Jones,T. Jones,0,0,0,,0,,,0,h,Jones REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,310
+0022100303,417,PT09M17.00S,3,1610612763,MEM,1626145,Jones,T. Jones,-10,2,1,Missed,1,,,0,h,MISS Jones 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,311
+0022100303,417,PT09M17.00S,3,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,Davis BLOCK (1 BLK),,,1,2,312
+0022100303,419,PT09M15.00S,3,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,313
+0022100303,420,PT09M15.00S,3,1610612763,MEM,203500,Adams,S. Adams,2,2,0,Made,1,84,56,140,h,Adams Reverse Layup (3 PTS),Made Shot,Reverse Layup Shot,1,2,314
+0022100303,421,PT09M15.00S,3,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,315
+0022100303,422,PT09M15.00S,3,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,SUB: Hield FOR Davis,Substitution,,0,0,316
+0022100303,423,PT09M15.00S,3,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,SUB: Bagley III FOR Fox,Substitution,,0,0,317
+0022100303,424,PT09M15.00S,3,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,SUB: Jones FOR Metu,Substitution,,0,0,318
+0022100303,425,PT09M15.00S,3,1610612758,SAC,203458,Len,A. Len,0,0,0,,0,,,0,v,SUB: King FOR Len,Substitution,,0,0,319
+0022100303,426,PT09M15.00S,3,1610612758,SAC,1630169,Haliburton,T. Haliburton,0,0,0,,0,,,0,v,SUB: Mitchell FOR Haliburton,Substitution,,0,0,320
+0022100303,432,PT08M57.00S,3,1610612763,MEM,1630217,Bane,D. Bane,0,0,0,,0,,,0,h,Bane S.FOUL (P2.T2) (L.Holtkamp),Foul,Shooting,1,0,321
+0022100303,434,PT08M57.00S,3,1610612758,SAC,1628963,Bagley III,M. Bagley III,0,0,0,,0,84,57,141,v,Bagley III Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,322
+0022100303,435,PT08M57.00S,3,1610612758,SAC,1628963,Bagley III,M. Bagley III,0,0,0,,0,,,0,v,MISS Bagley III Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,323
+0022100303,436,PT08M55.00S,3,1610612763,MEM,1630217,Bane,D. Bane,0,0,0,,0,,,0,h,Bane REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,324
+0022100303,437,PT08M39.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,-39,58,7,Missed,1,,,0,h,MISS Jackson Jr. 7' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,325
+0022100303,438,PT08M39.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,326
+0022100303,439,PT08M38.00S,3,1610612758,SAC,1628963,Bagley III,M. Bagley III,0,0,0,,0,,,0,v,Bagley III S.FOUL (P1.T1) (B.Barnaky),Foul,Shooting,1,0,327
+0022100303,441,PT08M38.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,85,57,142,h,Jackson Jr. Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,328
+0022100303,442,PT08M38.00S,3,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Delay,Foul,Delay Technical,0,0,329
+0022100303,443,PT08M38.00S,3,1610612758,SAC,1627741,Hield,B. Hield,0,0,0,,0,85,58,143,v,Hield Free Throw Technical (14 PTS),Free Throw,Free Throw Technical,1,0,330
+0022100303,444,PT08M38.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,86,58,144,h,Jackson Jr. Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,331
+0022100303,445,PT08M27.00S,3,1610612758,SAC,1629663,King,L. King,89,153,18,Made,1,86,60,146,v,King 18' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,332
+0022100303,447,PT08M16.00S,3,1610612763,MEM,1630217,Bane,D. Bane,0,0,0,,0,,,0,h,Bane Lost Ball Turnover (P2.T5),Turnover,Lost Ball,1,0,333
+0022100303,447,PT08M16.00S,3,1610612758,SAC,1629663,King,L. King,0,0,0,,0,,,0,v,King STEAL (1 STL),,,1,0,334
+0022100303,449,PT08M14.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. S.FOUL (P3.T3) (B.Barnaky),Foul,Shooting,1,0,335
+0022100303,451,PT08M14.00S,3,1610612758,SAC,1629663,King,L. King,0,0,0,,0,86,61,147,v,King Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,336
+0022100303,452,PT08M14.00S,3,1610612758,SAC,1629663,King,L. King,0,0,0,,0,,,0,v,MISS King Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,337
+0022100303,453,PT08M12.00S,3,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,338
+0022100303,454,PT08M02.00S,3,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell S.FOUL (P2.T2) (L.Holtkamp),Foul,Shooting,1,0,339
+0022100303,456,PT08M02.00S,3,1610612763,MEM,1626145,Jones,T. Jones,0,0,0,,0,87,61,148,h,Jones Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,340
+0022100303,457,PT08M02.00S,3,1610612763,MEM,1626145,Jones,T. Jones,0,0,0,,0,88,61,149,h,Jones Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,341
+0022100303,458,PT07M49.00S,3,1610612758,SAC,1630558,Mitchell,D. Mitchell,40,106,11,Missed,1,,,0,v,MISS Mitchell 11' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,342
+0022100303,459,PT07M47.00S,3,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,343
+0022100303,460,PT07M35.00S,3,1610612763,MEM,1628415,Brooks,D. Brooks,0,16,2,Made,1,90,61,151,h,Brooks 2' Driving Dunk (19 PTS),Made Shot,Driving Dunk Shot,1,2,344
+0022100303,461,PT07M23.00S,3,1610612763,MEM,1626145,Jones,T. Jones,0,0,0,,0,,,0,h,Jones P.FOUL (P1.T4) (B.Barnaky),Foul,Personal,1,0,345
+0022100303,463,PT07M11.00S,3,1610612758,SAC,1627741,Hield,B. Hield,11,13,2,Missed,1,,,0,v,MISS Hield 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,346
+0022100303,464,PT07M08.00S,3,1610612763,MEM,1626145,Jones,T. Jones,0,0,0,,0,,,0,h,Jones REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,347
+0022100303,465,PT06M55.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,-42,262,27,Made,1,93,61,154,h,Jackson Jr. 27' 3PT Jump Shot (13 PTS) (Jones 8 AST),Made Shot,Jump Shot,1,3,348
+0022100303,467,PT06M38.00S,3,1610612758,SAC,1629663,King,L. King,-103,229,25,Missed,1,,,0,v,MISS King 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,349
+0022100303,468,PT06M36.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,350
+0022100303,469,PT06M26.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,-11,11,2,Made,1,95,61,156,h,Jackson Jr. 2' Driving Finger Roll Layup (15 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,351
+0022100303,470,PT06M26.00S,3,1610612758,SAC,1627745,Jones,D. Jones,0,0,0,,0,,,0,v,Jones S.FOUL (P4.T3) (B.Barnaky),Foul,Shooting,1,0,352
+0022100303,472,PT06M26.00S,3,1610612763,MEM,1630217,Bane,D. Bane,0,0,0,,0,,,0,h,SUB: Melton FOR Bane,Substitution,,0,0,353
+0022100303,474,PT06M26.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,96,61,157,h,Jackson Jr. Free Throw 1 of 1 (16 PTS),Free Throw,Free Throw 1 of 1,1,0,354
+0022100303,475,PT06M16.00S,3,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell Bad Pass Turnover (P1.T6),Turnover,Bad Pass,1,0,355
+0022100303,475,PT06M16.00S,3,1610612763,MEM,1628415,Brooks,D. Brooks,0,0,0,,0,,,0,h,Brooks STEAL (2 STL),,,1,0,356
+0022100303,477,PT06M09.00S,3,1610612763,MEM,1628415,Brooks,D. Brooks,-2,11,1,Made,1,98,61,159,h,Brooks 1' Driving Dunk (21 PTS),Made Shot,Driving Dunk Shot,1,2,357
+0022100303,478,PT06M08.00S,3,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,358
+0022100303,479,PT06M08.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,SUB: Anderson FOR Jackson Jr.,Substitution,,0,0,359
+0022100303,481,PT05M55.00S,3,1610612758,SAC,1630558,Mitchell,D. Mitchell,-10,4,1,Made,1,98,63,161,v,Mitchell 1' Driving Finger Roll Layup (7 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,360
+0022100303,482,PT05M37.00S,3,1610612758,SAC,1629663,King,L. King,0,0,0,,0,,,0,v,King P.FOUL (P1.T4) (T.Maddox),Foul,Personal,1,0,361
+0022100303,484,PT05M25.00S,3,1610612763,MEM,1628415,Brooks,D. Brooks,17,17,2,Missed,1,,,0,h,MISS Brooks 2' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,362
+0022100303,485,PT05M22.00S,3,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams REBOUND (Off:4 Def:7),Rebound,Unknown,1,0,363
+0022100303,486,PT05M20.00S,3,1610612763,MEM,203937,Anderson,K. Anderson,66,267,28,Missed,1,,,0,h,MISS Anderson 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,364
+0022100303,487,PT05M17.00S,3,1610612758,SAC,1627741,Hield,B. Hield,0,0,0,,0,,,0,v,Hield REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,365
+0022100303,488,PT05M01.00S,3,1610612758,SAC,1627741,Hield,B. Hield,-11,13,2,Missed,1,,,0,v,MISS Hield 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,366
+0022100303,488,PT05M01.00S,3,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams BLOCK (3 BLK),,,1,2,367
+0022100303,490,PT04M57.00S,3,1610612763,MEM,1628415,Brooks,D. Brooks,0,0,0,,0,,,0,h,Brooks REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,368
+0022100303,491,PT04M56.00S,3,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell S.FOUL (P3.PN) (B.Barnaky),Foul,Shooting,1,0,369
+0022100303,493,PT04M56.00S,3,1610612763,MEM,1629001,Melton,D. Melton,0,0,0,,0,,,0,h,MISS Melton Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,370
+0022100303,494,PT04M56.00S,3,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Rebound,Rebound,Normal Rebound,0,0,371
+0022100303,495,PT04M56.00S,3,1610612763,MEM,1628415,Brooks,D. Brooks,0,0,0,,0,,,0,h,SUB: Williams FOR Brooks,Substitution,,0,0,372
+0022100303,497,PT04M56.00S,3,1610612763,MEM,1629001,Melton,D. Melton,0,0,0,,0,99,63,162,h,Melton Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,373
+0022100303,498,PT04M47.00S,3,1610612758,SAC,1629663,King,L. King,11,255,26,Made,1,99,66,165,v,King 26' 3PT Pullup Jump Shot (6 PTS) (Jones 1 AST),Made Shot,Pullup Jump shot,1,3,374
+0022100303,499,PT04M26.00S,3,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams Out of Bounds Lost Ball Turnover (P2.T6),Turnover,Out of Bounds Lost Ball Turnover,1,0,375
+0022100303,500,PT04M26.00S,3,1610612758,SAC,1627745,Jones,D. Jones,0,0,0,,0,,,0,v,SUB: Thompson FOR Jones,Substitution,,0,0,376
+0022100303,502,PT04M18.00S,3,1610612758,SAC,1629663,King,L. King,4,95,10,Missed,1,,,0,v,MISS King 10' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,377
+0022100303,503,PT04M15.00S,3,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams REBOUND (Off:4 Def:8),Rebound,Unknown,1,0,378
+0022100303,504,PT04M10.00S,3,1610612763,MEM,1629001,Melton,D. Melton,-124,230,26,Missed,1,,,0,h,MISS Melton 26' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,379
+0022100303,505,PT04M05.00S,3,1610612758,SAC,1628963,Bagley III,M. Bagley III,0,0,0,,0,,,0,v,Bagley III REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,380
+0022100303,506,PT03M52.00S,3,1610612758,SAC,202684,Thompson,T. Thompson,48,64,8,Missed,1,,,0,v,MISS Thompson 8' Hook Shot,Missed Shot,Hook Shot,1,2,381
+0022100303,507,PT03M50.00S,3,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,382
+0022100303,508,PT03M47.00S,3,1610612763,MEM,1626145,Jones,T. Jones,138,222,26,Missed,1,,,0,h,MISS Jones 26' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,383
+0022100303,509,PT03M42.00S,3,1610612758,SAC,1628963,Bagley III,M. Bagley III,0,0,0,,0,,,0,v,Bagley III REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,384
+0022100303,510,PT03M35.00S,3,1610612758,SAC,1630558,Mitchell,D. Mitchell,12,3,1,Made,1,99,68,167,v,Mitchell 1' Driving Finger Roll Layup (9 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,385
+0022100303,511,PT03M35.00S,3,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,386
+0022100303,513,PT03M35.00S,3,1610612763,MEM,203500,Adams,S. Adams,0,0,0,,0,,,0,h,SUB: Jackson Jr. FOR Adams,Substitution,,0,0,387
+0022100303,514,PT03M35.00S,3,1610612763,MEM,1626145,Jones,T. Jones,0,0,0,,0,,,0,h,SUB: Bane FOR Jones,Substitution,,0,0,388
+0022100303,517,PT03M19.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,27,267,27,Missed,1,,,0,h,MISS Jackson Jr. 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,389
+0022100303,518,PT03M16.00S,3,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,390
+0022100303,519,PT03M00.00S,3,1610612758,SAC,1628963,Bagley III,M. Bagley III,67,57,9,Missed,1,,,0,v,MISS Bagley III 9' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,391
+0022100303,520,PT02M57.00S,3,1610612758,SAC,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,392
+0022100303,521,PT02M56.00S,3,1610612758,SAC,202684,Thompson,T. Thompson,1,16,2,Missed,1,,,0,v,MISS Thompson 2' Hook Shot,Missed Shot,Hook Shot,1,2,393
+0022100303,522,PT02M51.00S,3,1610612758,SAC,1628963,Bagley III,M. Bagley III,0,0,0,,0,,,0,v,Bagley III REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,394
+0022100303,523,PT02M51.00S,3,1610612758,SAC,1628963,Bagley III,M. Bagley III,0,0,0,Made,1,99,70,169,v,Bagley III Tip Dunk Shot (3 PTS),Made Shot,Tip Dunk Shot,1,2,395
+0022100303,524,PT02M43.00S,3,1610612763,MEM,1630217,Bane,D. Bane,104,253,27,Missed,1,,,0,h,MISS Bane 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,396
+0022100303,525,PT02M40.00S,3,1610612758,SAC,1627741,Hield,B. Hield,0,0,0,,0,,,0,v,Hield REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,397
+0022100303,526,PT02M35.00S,3,1610612758,SAC,1629663,King,L. King,-169,183,25,Missed,1,,,0,v,MISS King 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,398
+0022100303,527,PT02M34.00S,3,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Unknown,0,0,399
+0022100303,528,PT02M34.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. L.B.FOUL (P4.PN) (T.Maddox),Foul,Loose Ball,1,0,400
+0022100303,530,PT02M34.00S,3,1610612758,SAC,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,MISS Thompson Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,401
+0022100303,531,PT02M34.00S,3,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Normal Rebound,0,0,402
+0022100303,532,PT02M34.00S,3,1610612758,SAC,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,MISS Thompson Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,403
+0022100303,533,PT02M32.00S,3,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,404
+0022100303,534,PT02M21.00S,3,1610612758,SAC,1627741,Hield,B. Hield,0,0,0,,0,,,0,v,Hield S.FOUL (P2.PN) (T.Maddox),Foul,Shooting,1,0,405
+0022100303,536,PT02M21.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,MISS Jackson Jr. Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,406
+0022100303,537,PT02M21.00S,3,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Rebound,Rebound,Normal Rebound,0,0,407
+0022100303,538,PT02M21.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,100,70,170,h,Jackson Jr. Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,1,0,408
+0022100303,539,PT02M10.00S,3,1610612758,SAC,1630558,Mitchell,D. Mitchell,-6,108,11,Missed,1,,,0,v,MISS Mitchell 11' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,409
+0022100303,540,PT02M07.00S,3,1610612763,MEM,1630217,Bane,D. Bane,0,0,0,,0,,,0,h,Bane REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,410
+0022100303,541,PT01M56.00S,3,1610612763,MEM,1630217,Bane,D. Bane,-148,215,26,Made,1,103,70,173,h,Bane 26' 3PT Jump Shot (18 PTS) (Melton 4 AST),Made Shot,Jump Shot,1,3,411
+0022100303,543,PT01M45.00S,3,1610612758,SAC,1627741,Hield,B. Hield,94,235,25,Missed,1,,,0,v,MISS Hield 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,412
+0022100303,544,PT01M42.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,413
+0022100303,545,PT01M37.00S,3,1610612763,MEM,1629001,Melton,D. Melton,22,74,8,Missed,1,,,0,h,MISS Melton 8' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,414
+0022100303,546,PT01M32.00S,3,1610612758,SAC,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,415
+0022100303,547,PT01M26.00S,3,1610612758,SAC,1629663,King,L. King,232,59,24,Missed,1,,,0,v,MISS King 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,416
+0022100303,548,PT01M23.00S,3,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,417
+0022100303,549,PT01M12.00S,3,1610612763,MEM,1629001,Melton,D. Melton,225,-4,0,Made,1,106,70,176,h,Melton 3PT Jump Shot (14 PTS) (Anderson 4 AST),Made Shot,Jump Shot,1,3,418
+0022100303,551,PT00M55.80S,3,1610612758,SAC,1628963,Bagley III,M. Bagley III,48,250,25,Missed,1,,,0,v,MISS Bagley III 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,419
+0022100303,552,PT00M53.90S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,420
+0022100303,553,PT00M47.10S,3,1610612763,MEM,1630217,Bane,D. Bane,7,15,2,Missed,1,,,0,h,MISS Bane 2' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,421
+0022100303,554,PT00M43.00S,3,1610612758,SAC,1628963,Bagley III,M. Bagley III,0,0,0,,0,,,0,v,Bagley III REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,422
+0022100303,555,PT00M41.20S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. S.FOUL (P5.PN) (L.Holtkamp),Foul,Shooting,1,0,423
+0022100303,557,PT00M41.20S,3,1610612758,SAC,1628963,Bagley III,M. Bagley III,0,0,0,,0,106,71,177,v,Bagley III Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,424
+0022100303,558,PT00M41.20S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,SUB: Clarke FOR Jackson Jr.,Substitution,,0,0,425
+0022100303,559,PT00M41.20S,3,1610612758,SAC,1627741,Hield,B. Hield,0,0,0,,0,,,0,v,SUB: Ramsey FOR Hield,Substitution,,0,0,426
+0022100303,562,PT00M41.20S,3,1610612758,SAC,1628963,Bagley III,M. Bagley III,0,0,0,,0,106,72,178,v,Bagley III Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,427
+0022100303,563,PT00M33.40S,3,1610612763,MEM,203937,Anderson,K. Anderson,-50,70,9,Missed,1,,,0,h,MISS Anderson 9' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,428
+0022100303,564,PT00M28.60S,3,1610612758,SAC,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,429
+0022100303,566,PT00M17.00S,3,1610612763,MEM,1630217,Bane,D. Bane,0,0,0,,0,,,0,h,Bane S.FOUL (P3.PN) (T.Maddox),Foul,Shooting,1,0,430
+0022100303,568,PT00M17.00S,3,1610612758,SAC,1630186,Ramsey,J. Ramsey,0,0,0,,0,106,73,179,v,Ramsey Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,431
+0022100303,569,PT00M17.00S,3,1610612758,SAC,1630186,Ramsey,J. Ramsey,0,0,0,,0,106,74,180,v,Ramsey Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,432
+0022100303,570,PT00M00.60S,3,1610612763,MEM,203937,Anderson,K. Anderson,-16,139,14,Missed,1,,,0,h,MISS Anderson 14' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,433
+0022100303,571,PT00M00.10S,3,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Rebound,Rebound,Unknown,0,0,434
+0022100303,572,PT00M00.00S,3,0,,0,,,0,0,0,,0,106,74,180,,End of 3rd Period (7:54 PM EST),period,end,1,0,435
+0022100303,579,PT12M00.00S,4,0,,0,,,0,0,0,,0,106,74,180,,Start of 4th Period (7:57 PM EST),period,start,0,0,436
+0022100303,580,PT11M46.00S,4,1610612763,MEM,1629634,Clarke,B. Clarke,-42,58,7,Made,1,108,74,182,h,Clarke 7' Turnaround Hook Shot (12 PTS),Made Shot,Turnaround Hook Shot,1,2,437
+0022100303,581,PT11M32.00S,4,1610612758,SAC,1629663,King,L. King,-82,184,20,Missed,1,,,0,v,MISS King 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,438
+0022100303,582,PT11M29.00S,4,1610612763,MEM,1629723,Konchar,J. Konchar,0,0,0,,0,,,0,h,Konchar REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,439
+0022100303,583,PT11M16.00S,4,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson Out of Bounds Lost Ball Turnover (P2.T7),Turnover,Out of Bounds Lost Ball Turnover,1,0,440
+0022100303,584,PT11M02.00S,4,1610612763,MEM,1630217,Bane,D. Bane,0,0,0,,0,,,0,h,Bane P.FOUL (P4.T1) (T.Maddox),Foul,Personal,1,0,441
+0022100303,586,PT10M53.00S,4,1610612758,SAC,1629002,Metu,C. Metu,-1,9,1,Made,1,108,76,184,v,Metu 1' Driving Dunk (8 PTS) (Haliburton 2 AST),Made Shot,Driving Dunk Shot,1,2,442
+0022100303,590,PT10M40.00S,4,1610612758,SAC,1630186,Ramsey,J. Ramsey,0,0,0,,0,,,0,v,Ramsey S.FOUL (P1.T1) (T.Maddox),Foul,Shooting,1,0,443
+0022100303,592,PT10M40.00S,4,1610612763,MEM,1629634,Clarke,B. Clarke,0,0,0,,0,,,0,h,MISS Clarke Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,444
+0022100303,593,PT10M40.00S,4,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Rebound,Rebound,Normal Rebound,0,0,445
+0022100303,594,PT10M40.00S,4,1610612763,MEM,1629634,Clarke,B. Clarke,0,0,0,,0,109,76,185,h,Clarke Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,446
+0022100303,595,PT10M28.00S,4,1610612758,SAC,1629663,King,L. King,-124,210,24,Missed,1,,,0,v,MISS King 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,447
+0022100303,596,PT10M25.00S,4,1610612763,MEM,1629723,Konchar,J. Konchar,0,0,0,,0,,,0,h,Konchar REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,448
+0022100303,597,PT10M19.00S,4,1610612763,MEM,1630217,Bane,D. Bane,-234,54,24,Missed,1,,,0,h,MISS Bane 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,449
+0022100303,598,PT10M16.00S,4,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,450
+0022100303,599,PT10M10.00S,4,1610612763,MEM,1630533,Williams,Z. Williams,0,0,0,,0,,,0,h,Williams S.FOUL (P2.T2) (T.Maddox),Foul,Shooting,1,0,451
+0022100303,601,PT10M10.00S,4,1610612758,SAC,1630169,Haliburton,T. Haliburton,0,0,0,,0,109,77,186,v,Haliburton Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,452
+0022100303,602,PT10M10.00S,4,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,SUB: Aldama FOR Anderson,Substitution,,0,0,453
+0022100303,603,PT10M10.00S,4,1610612763,MEM,1630217,Bane,D. Bane,0,0,0,,0,,,0,h,SUB: Tillie FOR Bane,Substitution,,0,0,454
+0022100303,606,PT10M10.00S,4,1610612758,SAC,1630169,Haliburton,T. Haliburton,0,0,0,,0,,,0,v,MISS Haliburton Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,455
+0022100303,607,PT10M08.00S,4,1610612763,MEM,1629634,Clarke,B. Clarke,0,0,0,,0,,,0,h,Clarke REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,456
+0022100303,608,PT09M50.00S,4,1610612763,MEM,1629634,Clarke,B. Clarke,-60,71,9,Made,1,111,77,188,h,Clarke 9' Pullup Jump Shot (15 PTS),Made Shot,Pullup Jump shot,1,2,457
+0022100303,610,PT09M38.00S,4,1610612763,MEM,1630533,Williams,Z. Williams,0,0,0,,0,,,0,h,Williams S.FOUL (P3.T3) (L.Holtkamp),Foul,Shooting,1,0,458
+0022100303,612,PT09M38.00S,4,1610612758,SAC,1630169,Haliburton,T. Haliburton,0,0,0,,0,111,78,189,v,Haliburton Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,459
+0022100303,613,PT09M38.00S,4,1610612758,SAC,1630169,Haliburton,T. Haliburton,0,0,0,,0,111,79,190,v,Haliburton Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,460
+0022100303,615,PT09M19.00S,4,1610612763,MEM,1629681,Tillie,K. Tillie,228,18,0,Missed,1,,,0,h,MISS Tillie 3PT Jump Shot,Missed Shot,Jump Shot,1,3,461
+0022100303,616,PT09M16.00S,4,1610612758,SAC,1629663,King,L. King,0,0,0,,0,,,0,v,King REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,462
+0022100303,617,PT09M03.00S,4,1610612758,SAC,1630186,Ramsey,J. Ramsey,-62,235,24,Missed,1,,,0,v,MISS Ramsey 24' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,463
+0022100303,618,PT09M01.00S,4,1610612763,MEM,1629634,Clarke,B. Clarke,0,0,0,,0,,,0,h,Clarke REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,464
+0022100303,619,PT08M54.00S,4,1610612763,MEM,1629723,Konchar,J. Konchar,-10,10,1,Made,1,113,79,192,h,Konchar 1' Cutting Finger Roll Layup Shot (4 PTS) (Clarke 1 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,465
+0022100303,621,PT08M47.00S,4,1610612763,MEM,1629723,Konchar,J. Konchar,0,0,0,,0,,,0,h,Konchar P.FOUL (P1.T4) (B.Barnaky),Foul,Personal,1,0,466
+0022100303,623,PT08M47.00S,4,1610612763,MEM,1630533,Williams,Z. Williams,0,0,0,,0,,,0,h,SUB: Tillman FOR Williams,Substitution,,0,0,467
+0022100303,624,PT08M47.00S,4,1610612763,MEM,1629634,Clarke,B. Clarke,0,0,0,,0,,,0,h,SUB: Culver FOR Clarke,Substitution,,0,0,468
+0022100303,627,PT08M47.00S,4,1610612758,SAC,1630169,Haliburton,T. Haliburton,0,0,0,,0,,,0,v,SUB: Mitchell FOR Haliburton,Substitution,,0,0,469
+0022100303,629,PT08M38.00S,4,1610612758,SAC,202684,Thompson,T. Thompson,48,48,7,Missed,1,,,0,v,MISS Thompson 7' Hook Shot,Missed Shot,Hook Shot,1,2,470
+0022100303,629,PT08M38.00S,4,1610612763,MEM,1630583,Aldama,S. Aldama,0,0,0,,0,,,0,h,Aldama BLOCK (1 BLK),,,1,2,471
+0022100303,631,PT08M35.00S,4,1610612763,MEM,1629633,Culver,J. Culver,0,0,0,,0,,,0,h,Culver REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,472
+0022100303,632,PT08M26.00S,4,1610612763,MEM,1629633,Culver,J. Culver,9,27,3,Missed,1,,,0,h,MISS Culver 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,473
+0022100303,632,PT08M26.00S,4,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell BLOCK (1 BLK),,,1,2,474
+0022100303,634,PT08M23.00S,4,1610612763,MEM,1629723,Konchar,J. Konchar,0,0,0,,0,,,0,h,Konchar REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,475
+0022100303,635,PT08M21.00S,4,1610612763,MEM,1629633,Culver,J. Culver,-218,144,26,Missed,1,,,0,h,MISS Culver 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,476
+0022100303,636,PT08M19.00S,4,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,477
+0022100303,637,PT08M18.00S,4,1610612758,SAC,1630186,Ramsey,J. Ramsey,20,4,2,Missed,1,,,0,v,MISS Ramsey 2' Running Layup,Missed Shot,Running Layup Shot,1,2,478
+0022100303,637,PT08M18.00S,4,1610612763,MEM,1629681,Tillie,K. Tillie,0,0,0,,0,,,0,h,Tillie BLOCK (1 BLK),,,1,2,479
+0022100303,639,PT08M18.00S,4,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Unknown,0,0,480
+0022100303,641,PT08M18.00S,4,1610612758,SAC,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,SUB: Davis FOR Thompson,Substitution,,0,0,481
+0022100303,643,PT08M11.00S,4,1610612758,SAC,1629002,Metu,C. Metu,118,226,25,Missed,1,,,0,v,MISS Metu 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,482
+0022100303,644,PT08M08.00S,4,1610612763,MEM,1630583,Aldama,S. Aldama,0,0,0,,0,,,0,h,Aldama REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,483
+0022100303,645,PT07M59.00S,4,1610612763,MEM,1629681,Tillie,K. Tillie,205,153,26,Missed,1,,,0,h,MISS Tillie 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,484
+0022100303,646,PT07M56.00S,4,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,485
+0022100303,647,PT07M44.00S,4,1610612758,SAC,1629002,Metu,C. Metu,23,48,5,Missed,1,,,0,v,MISS Metu 5' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,486
+0022100303,647,PT07M44.00S,4,1610612763,MEM,1630583,Aldama,S. Aldama,0,0,0,,0,,,0,h,Aldama BLOCK (2 BLK),,,1,2,487
+0022100303,649,PT07M41.00S,4,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,488
+0022100303,650,PT07M35.00S,4,1610612758,SAC,1630558,Mitchell,D. Mitchell,-17,6,2,Made,1,113,81,194,v,Mitchell 2' Driving Floating Bank Jump Shot (11 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,489
+0022100303,651,PT07M07.00S,4,1610612763,MEM,1630214,Tillman,X. Tillman,-131,117,18,Missed,1,,,0,h,MISS Tillman 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,490
+0022100303,652,PT07M04.00S,4,1610612763,MEM,1630583,Aldama,S. Aldama,0,0,0,,0,,,0,h,Aldama REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,491
+0022100303,653,PT07M04.00S,4,1610612763,MEM,1630583,Aldama,S. Aldama,0,0,0,Missed,1,,,0,h,MISS Aldama Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,492
+0022100303,654,PT07M04.00S,4,1610612763,MEM,1629723,Konchar,J. Konchar,0,0,0,,0,,,0,h,Konchar REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,493
+0022100303,655,PT07M00.00S,4,1610612763,MEM,1629723,Konchar,J. Konchar,0,0,0,Made,1,115,81,196,h,Konchar Tip Layup Shot (6 PTS),Made Shot,Tip Layup Shot,1,2,494
+0022100303,656,PT06M53.00S,4,1610612758,SAC,1629056,Davis,T. Davis,-11,5,1,Made,1,115,83,198,v,Davis 1' Driving Finger Roll Layup (9 PTS) (Mitchell 4 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,495
+0022100303,658,PT06M33.00S,4,1610612763,MEM,1629723,Konchar,J. Konchar,0,0,0,,0,,,0,h,Konchar Lost Ball Turnover (P1.T8),Turnover,Lost Ball,1,0,496
+0022100303,658,PT06M33.00S,4,1610612758,SAC,1629663,King,L. King,0,0,0,,0,,,0,v,King STEAL (2 STL),,,1,0,497
+0022100303,660,PT06M30.00S,4,1610612758,SAC,1630186,Ramsey,J. Ramsey,-4,-1,0,Made,1,115,85,200,v,Ramsey Running Dunk (4 PTS) (Metu 3 AST),Made Shot,Running Dunk Shot,1,2,498
+0022100303,662,PT06M11.00S,4,1610612763,MEM,1630583,Aldama,S. Aldama,-54,269,27,Missed,1,,,0,h,MISS Aldama 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,499
+0022100303,663,PT06M08.00S,4,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:3 Def:8),Rebound,Unknown,1,0,500
+0022100303,665,PT06M04.00S,4,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,501
+0022100303,666,PT06M04.00S,4,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,SUB: Jones FOR Metu,Substitution,,0,0,502
+0022100303,669,PT05M57.00S,4,1610612763,MEM,1630583,Aldama,S. Aldama,0,0,0,,0,,,0,h,Aldama P.FOUL (P1.PN) (T.Maddox),Foul,Personal,1,0,503
+0022100303,671,PT05M57.00S,4,1610612758,SAC,1627745,Jones,D. Jones,0,0,0,,0,115,86,201,v,Jones Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,504
+0022100303,672,PT05M57.00S,4,1610612758,SAC,1627745,Jones,D. Jones,0,0,0,,0,115,87,202,v,Jones Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,505
+0022100303,673,PT05M45.00S,4,1610612763,MEM,1630214,Tillman,X. Tillman,0,25,3,Made,1,117,87,204,h,Tillman 3' Cutting Layup Shot (2 PTS) (Aldama 1 AST),Made Shot,Cutting Layup Shot,1,2,506
+0022100303,675,PT05M24.00S,4,1610612758,SAC,1629056,Davis,T. Davis,-100,224,25,Missed,1,,,0,v,MISS Davis 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,507
+0022100303,676,PT05M21.00S,4,1610612763,MEM,1629633,Culver,J. Culver,0,0,0,,0,,,0,h,Culver REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,508
+0022100303,677,PT05M08.00S,4,1610612763,MEM,1630214,Tillman,X. Tillman,18,256,26,Missed,1,,,0,h,MISS Tillman 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,509
+0022100303,678,PT05M04.00S,4,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,Davis REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,510
+0022100303,679,PT05M00.00S,4,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,Davis Out of Bounds - Bad Pass Turnover Turnover (P3.T7),Turnover,Out of Bounds - Bad Pass Turnover,1,0,511
+0022100303,680,PT04M41.00S,4,1610612763,MEM,1630214,Tillman,X. Tillman,-26,107,11,Missed,1,,,0,h,MISS Tillman 11' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,512
+0022100303,681,PT04M38.00S,4,1610612758,SAC,1629663,King,L. King,0,0,0,,0,,,0,v,King REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,513
+0022100303,682,PT04M31.00S,4,1610612758,SAC,1629663,King,L. King,94,248,27,Missed,1,,,0,v,MISS King 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,514
+0022100303,683,PT04M29.00S,4,1610612763,MEM,1630583,Aldama,S. Aldama,0,0,0,,0,,,0,h,Aldama REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,515
+0022100303,684,PT04M18.00S,4,1610612763,MEM,1630214,Tillman,X. Tillman,0,0,0,,0,,,0,h,Tillman Bad Pass Turnover (P1.T9),Turnover,Bad Pass,1,0,516
+0022100303,684,PT04M18.00S,4,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell STEAL (1 STL),,,1,0,517
+0022100303,686,PT04M11.00S,4,1610612758,SAC,1630558,Mitchell,D. Mitchell,-77,229,24,Missed,1,,,0,v,MISS Mitchell 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,518
+0022100303,687,PT04M07.00S,4,1610612763,MEM,1629723,Konchar,J. Konchar,0,0,0,,0,,,0,h,Konchar REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,519
+0022100303,688,PT03M51.00S,4,1610612763,MEM,1630583,Aldama,S. Aldama,162,207,26,Missed,1,,,0,h,MISS Aldama 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,520
+0022100303,689,PT03M50.00S,4,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Unknown,0,0,521
+0022100303,691,PT03M38.00S,4,1610612758,SAC,1627745,Jones,D. Jones,2,6,1,Made,1,117,89,206,v,Jones 1' Cutting Dunk Shot (6 PTS) (Mitchell 5 AST),Made Shot,Cutting Dunk Shot,1,2,522
+0022100303,693,PT03M21.00S,4,1610612763,MEM,1629633,Culver,J. Culver,94,125,16,Missed,1,,,0,h,MISS Culver 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,523
+0022100303,694,PT03M18.00S,4,1610612763,MEM,1629681,Tillie,K. Tillie,0,0,0,,0,,,0,h,Tillie REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,524
+0022100303,695,PT03M17.00S,4,1610612763,MEM,1629681,Tillie,K. Tillie,1,13,1,Made,1,119,89,208,h,Tillie 1' Fadeaway Jumper (2 PTS),Made Shot,Fadeaway Jump Shot,1,2,525
+0022100303,696,PT03M02.00S,4,1610612758,SAC,1629056,Davis,T. Davis,0,8,1,Missed,1,,,0,v,MISS Davis 1' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,526
+0022100303,696,PT03M02.00S,4,1610612763,MEM,1629681,Tillie,K. Tillie,0,0,0,,0,,,0,h,Tillie BLOCK (2 BLK),,,1,2,527
+0022100303,698,PT02M58.00S,4,1610612763,MEM,1629723,Konchar,J. Konchar,0,0,0,,0,,,0,h,Konchar REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,528
+0022100303,699,PT02M55.00S,4,1610612763,MEM,1629723,Konchar,J. Konchar,-159,202,26,Made,1,122,89,211,h,Konchar 26' 3PT Jump Shot (9 PTS) (Culver 1 AST),Made Shot,Jump Shot,1,3,529
+0022100303,701,PT02M34.00S,4,1610612758,SAC,1629663,King,L. King,-124,226,26,Made,1,122,92,214,v,King 26' 3PT Jump Shot (9 PTS) (Mitchell 6 AST),Made Shot,Jump Shot,1,3,530
+0022100303,703,PT02M20.00S,4,1610612763,MEM,1630583,Aldama,S. Aldama,227,74,24,Made,1,125,92,217,h,Aldama 24' 3PT Jump Shot (3 PTS) (Konchar 2 AST),Made Shot,Jump Shot,1,3,531
+0022100303,705,PT02M08.00S,4,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,Davis Step Out of Bounds Turnover (P4.T8),Turnover,Step Out of Bounds Turnover,1,0,532
+0022100303,706,PT02M08.00S,4,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,533
+0022100303,708,PT01M49.00S,4,1610612763,MEM,1630214,Tillman,X. Tillman,142,212,26,Missed,1,,,0,h,MISS Tillman 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,534
+0022100303,709,PT01M45.00S,4,1610612758,SAC,1629663,King,L. King,0,0,0,,0,,,0,v,King REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,535
+0022100303,710,PT01M28.00S,4,1610612758,SAC,1630186,Ramsey,J. Ramsey,-33,67,7,Missed,1,,,0,v,MISS Ramsey 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,536
+0022100303,711,PT01M25.00S,4,1610612763,MEM,1629723,Konchar,J. Konchar,0,0,0,,0,,,0,h,Konchar REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,537
+0022100303,712,PT01M17.00S,4,1610612763,MEM,1630214,Tillman,X. Tillman,-5,21,2,Missed,1,,,0,h,MISS Tillman 2' Dunk,Missed Shot,Dunk Shot,1,2,538
+0022100303,712,PT01M17.00S,4,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,Davis BLOCK (2 BLK),,,1,2,539
+0022100303,714,PT01M15.00S,4,1610612758,SAC,1629663,King,L. King,0,0,0,,0,,,0,v,King REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,540
+0022100303,715,PT01M14.00S,4,1610612763,MEM,1629681,Tillie,K. Tillie,0,0,0,,0,,,0,h,Tillie S.FOUL (P1.PN) (T.Maddox),Foul,Shooting,1,0,541
+0022100303,717,PT01M14.00S,4,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,MISS Davis Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,542
+0022100303,718,PT01M14.00S,4,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Normal Rebound,0,0,543
+0022100303,719,PT01M14.00S,4,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,125,93,218,v,Davis Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,544
+0022100303,720,PT01M04.00S,4,1610612763,MEM,1629681,Tillie,K. Tillie,146,206,25,Made,1,128,93,221,h,Tillie 25' 3PT Jump Shot (5 PTS) (Tillman 1 AST),Made Shot,Jump Shot,1,3,545
+0022100303,722,PT00M57.50S,4,1610612758,SAC,1630186,Ramsey,J. Ramsey,-5,5,1,Made,1,128,95,223,v,Ramsey 1' Driving Reverse Layup (6 PTS),Made Shot,Driving Reverse Layup Shot,1,2,546
+0022100303,723,PT00M49.90S,4,1610612763,MEM,1630214,Tillman,X. Tillman,10,132,13,Missed,1,,,0,h,MISS Tillman 13' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,547
+0022100303,724,PT00M47.10S,4,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,Davis REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,548
+0022100303,725,PT00M39.90S,4,1610612758,SAC,1629056,Davis,T. Davis,4,247,25,Made,1,128,98,226,v,Davis 25' 3PT Step Back Jump Shot (13 PTS),Made Shot,Step Back Jump shot,1,3,549
+0022100303,726,PT00M14.90S,4,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Turnover: Shot Clock (T#10),Turnover,Shot Clock Turnover,0,0,550
+0022100303,727,PT00M05.50S,4,1610612758,SAC,1629663,King,L. King,-66,246,25,Made,1,128,101,229,v,King 25' 3PT Pullup Jump Shot (12 PTS),Made Shot,Pullup Jump shot,1,3,551
+0022100303,728,PT00M00.00S,4,0,,0,,,0,0,0,,0,128,101,229,,End of 4th Period (8:23 PM EST),period,end,1,0,552

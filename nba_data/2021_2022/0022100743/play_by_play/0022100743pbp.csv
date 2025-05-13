@@ -1,0 +1,504 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022100743,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (9:11 PM EST),period,start,0,0,1
+0022100743,4,PT12M00.00S,1,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Jump Ball Biyombo vs. Towns: Tip to Paul,Jump Ball,,1,0,2
+0022100743,7,PT11M47.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards S.FOUL (P1.T1) (S.Twardoski),Foul,Shooting,1,0,3
+0022100743,9,PT11M47.00S,1,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,1,0,1,h,Bridges Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,4
+0022100743,10,PT11M47.00S,1,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,2,0,2,h,Bridges Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,5
+0022100743,11,PT11M35.00S,1,1610612750,MIN,1629669,Nowell,J. Nowell,-74,250,26,Made,1,2,3,5,v,Nowell 26' 3PT Jump Shot (3 PTS) (Edwards 1 AST),Made Shot,Jump Shot,1,3,6
+0022100743,13,PT11M17.00S,1,1610612750,MIN,1629669,Nowell,J. Nowell,0,0,0,,0,,,0,v,Nowell S.FOUL (P1.T2) (M.Ervin),Foul,Shooting,1,0,7
+0022100743,15,PT11M17.00S,1,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,3,3,6,h,Biyombo Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,8
+0022100743,16,PT11M17.00S,1,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,MISS Biyombo Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,9
+0022100743,17,PT11M14.00S,1,1610612750,MIN,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,v,Vanderbilt REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,10
+0022100743,19,PT11M00.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,-21,53,6,Made,1,3,5,8,v,Edwards 6' Driving Hook Shot (2 PTS),Made Shot,Driving Hook Shot,1,2,11
+0022100743,20,PT10M44.00S,1,1610612756,PHX,1626164,Booker,D. Booker,-29,92,10,Missed,1,,,0,h,MISS Booker 10' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,12
+0022100743,21,PT10M41.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,13
+0022100743,22,PT10M32.00S,1,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,Towns Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,14
+0022100743,22,PT10M32.00S,1,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker STEAL (1 STL),,,1,0,15
+0022100743,24,PT10M29.00S,1,1610612750,MIN,1629669,Nowell,J. Nowell,0,0,0,,0,,,0,v,Nowell S.FOUL (P2.T3) (S.Twardoski),Foul,Shooting,1,0,16
+0022100743,26,PT10M29.00S,1,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,4,5,9,h,Bridges Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,17
+0022100743,27,PT10M29.00S,1,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,5,5,10,h,Bridges Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,18
+0022100743,28,PT10M17.00S,1,1610612750,MIN,1629669,Nowell,J. Nowell,53,42,7,Made,1,5,7,12,v,Nowell 7' Driving Layup (5 PTS),Made Shot,Driving Layup Shot,1,2,19
+0022100743,29,PT10M03.00S,1,1610612756,PHX,1626164,Booker,D. Booker,42,44,6,Missed,1,,,0,h,MISS Booker 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,20
+0022100743,30,PT10M01.00S,1,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,21
+0022100743,34,PT10M01.00S,1,1610612756,PHX,202687,Biyombo,B. Biyombo,-7,-5,1,Missed,1,,,0,h,MISS Biyombo 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,22
+0022100743,35,PT09M59.00S,1,1610612750,MIN,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,v,Vanderbilt REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,23
+0022100743,31,PT09M51.00S,1,1610612750,MIN,1626157,Towns,K. Towns,-140,277,31,Missed,1,,,0,v,MISS Towns 31' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,24
+0022100743,32,PT09M48.00S,1,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,25
+0022100743,36,PT09M38.00S,1,1610612756,PHX,1628969,Bridges,M. Bridges,-120,16,12,Made,1,7,7,14,h,Bridges 12' Fadeaway Jumper (6 PTS) (Paul 1 AST),Made Shot,Fadeaway Jump Shot,1,2,26
+0022100743,38,PT09M28.00S,1,1610612750,MIN,1629669,Nowell,J. Nowell,-116,82,14,Missed,1,,,0,v,MISS Nowell 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,27
+0022100743,39,PT09M25.00S,1,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,28
+0022100743,40,PT09M20.00S,1,1610612756,PHX,1626164,Booker,D. Booker,165,188,25,Made,1,10,7,17,h,Booker 25' 3PT Running Pull-Up Jump Shot (3 PTS),Made Shot,Running Pull-Up Jump Shot,1,3,29
+0022100743,41,PT09M04.00S,1,1610612750,MIN,1629669,Nowell,J. Nowell,234,72,24,Missed,1,,,0,v,MISS Nowell 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,30
+0022100743,42,PT09M00.00S,1,1610612750,MIN,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,v,Vanderbilt REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,31
+0022100743,43,PT08M59.00S,1,1610612750,MIN,1629020,Vanderbilt,J. Vanderbilt,0,55,6,Missed,1,,,0,v,MISS Vanderbilt 6' Putback Layup,Missed Shot,Putback Layup Shot,1,2,32
+0022100743,44,PT08M56.00S,1,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,33
+0022100743,45,PT08M52.00S,1,1610612756,PHX,1626164,Booker,D. Booker,-118,229,26,Missed,1,,,0,h,MISS Booker 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,34
+0022100743,46,PT08M48.00S,1,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,35
+0022100743,47,PT08M36.00S,1,1610612756,PHX,1628969,Bridges,M. Bridges,230,18,0,Made,1,13,7,20,h,Bridges 3PT Jump Shot (9 PTS) (Booker 1 AST),Made Shot,Jump Shot,1,3,36
+0022100743,49,PT08M20.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,-94,261,28,Made,1,13,10,23,v,Edwards 28' 3PT Jump Shot (5 PTS) (Towns 1 AST),Made Shot,Jump Shot,1,3,37
+0022100743,51,PT08M00.00S,1,1610612756,PHX,1626164,Booker,D. Booker,145,39,15,Made,1,15,10,25,h,Booker 15' Step Back Jump Shot (5 PTS) (Paul 2 AST),Made Shot,Step Back Jump shot,1,2,38
+0022100743,53,PT07M48.00S,1,1610612750,MIN,1629669,Nowell,J. Nowell,7,74,7,Missed,1,,,0,v,MISS Nowell 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,39
+0022100743,54,PT07M47.00S,1,1610612750,MIN,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,v,Vanderbilt REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,40
+0022100743,55,PT07M39.00S,1,1610612750,MIN,1626157,Towns,K. Towns,92,3,9,Made,1,15,12,27,v,Towns 9' Turnaround Hook Shot (2 PTS),Made Shot,Turnaround Hook Shot,1,2,41
+0022100743,56,PT07M39.00S,1,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo P.FOUL (P1.T1) (M.Ervin),Foul,Personal,1,0,42
+0022100743,58,PT07M39.00S,1,1610612750,MIN,1629669,Nowell,J. Nowell,0,0,0,,0,,,0,v,SUB: Beasley FOR Nowell,Substitution,,0,0,43
+0022100743,60,PT07M39.00S,1,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,15,13,28,v,Towns Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,1,0,44
+0022100743,61,PT07M27.00S,1,1610612756,PHX,202687,Biyombo,B. Biyombo,6,55,6,Made,1,17,13,30,h,Biyombo 6' Cutting Dunk Shot (3 PTS) (Paul 3 AST),Made Shot,Cutting Dunk Shot,1,2,45
+0022100743,63,PT07M11.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,-88,262,28,Made,1,17,16,33,v,Edwards 28' 3PT Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,3,46
+0022100743,64,PT06M57.00S,1,1610612756,PHX,1629661,Johnson,C. Johnson,-120,122,17,Made,1,19,16,35,h,Johnson 17' Step Back Jump Shot (2 PTS) (Paul 4 AST),Made Shot,Step Back Jump shot,1,2,47
+0022100743,66,PT06M36.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,48
+0022100743,66,PT06M36.00S,1,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,Johnson STEAL (1 STL),,,1,0,49
+0022100743,68,PT06M32.00S,1,1610612756,PHX,1628969,Bridges,M. Bridges,13,49,5,Made,1,21,16,37,h,Bridges 5' Running Layup (11 PTS) (Johnson 1 AST),Made Shot,Running Layup Shot,1,2,50
+0022100743,70,PT06M15.00S,1,1610612750,MIN,1626157,Towns,K. Towns,-54,35,6,Made,1,21,18,39,v,Towns 6' Driving Layup (5 PTS),Made Shot,Driving Layup Shot,1,2,51
+0022100743,71,PT06M08.00S,1,1610612756,PHX,1626164,Booker,D. Booker,21,46,5,Made,1,23,18,41,h,Booker 5' Layup (7 PTS) (Paul 5 AST),Made Shot,Layup Shot,1,2,52
+0022100743,73,PT05M53.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,-99,-1,10,Missed,1,,,0,v,MISS Edwards 10' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,53
+0022100743,74,PT05M51.00S,1,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,54
+0022100743,75,PT05M48.00S,1,1610612756,PHX,1626164,Booker,D. Booker,50,33,6,Made,1,25,18,43,h,Booker 6' Running Layup (9 PTS) (Paul 6 AST),Made Shot,Running Layup Shot,1,2,55
+0022100743,77,PT05M48.00S,1,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,56
+0022100743,78,PT05M48.00S,1,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,SUB: Okogie FOR McDaniels,Substitution,,0,0,57
+0022100743,79,PT05M48.00S,1,1610612750,MIN,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,v,SUB: Prince FOR Vanderbilt,Substitution,,0,0,58
+0022100743,82,PT05M41.00S,1,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Violation: Delay of game Violation,Violation,Delay Of Game,0,0,59
+0022100743,83,PT05M30.00S,1,1610612750,MIN,1626157,Towns,K. Towns,20,62,7,Made,1,25,20,45,v,Towns 7' Hook Shot (7 PTS),Made Shot,Hook Shot,1,2,60
+0022100743,84,PT05M01.00S,1,1610612756,PHX,1626164,Booker,D. Booker,138,85,16,Missed,1,,,0,h,MISS Booker 16' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,61
+0022100743,85,PT04M59.00S,1,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Unknown,0,0,62
+0022100743,87,PT04M59.00S,1,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,SUB: McLaughlin FOR Edwards,Substitution,,0,0,63
+0022100743,89,PT04M43.00S,1,1610612750,MIN,1626157,Towns,K. Towns,-154,66,17,Missed,1,,,0,v,MISS Towns 17' Jump Shot,Missed Shot,Jump Shot,1,2,64
+0022100743,90,PT04M41.00S,1,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,65
+0022100743,91,PT04M37.00S,1,1610612750,MIN,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,Prince S.FOUL (P1.T4) (M.Ervin),Foul,Shooting,1,0,66
+0022100743,93,PT04M37.00S,1,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,26,20,46,h,Booker Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,67
+0022100743,94,PT04M37.00S,1,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,SUB: Wainright FOR Johnson,Substitution,,0,0,68
+0022100743,96,PT04M37.00S,1,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,27,20,47,h,Booker Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,69
+0022100743,97,PT04M27.00S,1,1610612750,MIN,1627736,Beasley,M. Beasley,-50,261,27,Missed,1,,,0,v,MISS Beasley 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,70
+0022100743,98,PT04M24.00S,1,1610612756,PHX,1630688,Wainright,I. Wainright,0,0,0,,0,,,0,h,Wainright REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,71
+0022100743,100,PT04M18.00S,1,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,SUB: Shamet FOR Paul,Substitution,,0,0,72
+0022100743,101,PT04M18.00S,1,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,h,SUB: Payton FOR Bridges,Substitution,,0,0,73
+0022100743,104,PT04M05.00S,1,1610612756,PHX,202687,Biyombo,B. Biyombo,71,33,8,Made,1,29,20,49,h,Biyombo 8' Turnaround Hook Shot (5 PTS),Made Shot,Turnaround Hook Shot,1,2,74
+0022100743,105,PT03M55.00S,1,1610612750,MIN,1626157,Towns,K. Towns,64,56,9,Missed,1,,,0,v,MISS Towns 9' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,75
+0022100743,106,PT03M52.00S,1,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,76
+0022100743,108,PT03M51.00S,1,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,77
+0022100743,108,PT03M51.00S,1,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,v,McLaughlin STEAL (1 STL),,,1,0,78
+0022100743,110,PT03M47.00S,1,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,25,34,4,Made,1,29,22,51,v,McLaughlin 4' Driving Reverse Layup (2 PTS),Made Shot,Driving Reverse Layup Shot,1,2,79
+0022100743,111,PT03M28.00S,1,1610612756,PHX,1629013,Shamet,L. Shamet,230,59,24,Missed,1,,,0,h,MISS Shamet 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,80
+0022100743,112,PT03M22.00S,1,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,Towns REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,81
+0022100743,113,PT03M18.00S,1,1610612750,MIN,1627736,Beasley,M. Beasley,142,222,26,Made,1,29,25,54,v,Beasley 26' 3PT Running Pull-Up Jump Shot (3 PTS),Made Shot,Running Pull-Up Jump Shot,1,3,82
+0022100743,115,PT03M04.00S,1,1610612756,PHX,1629013,Shamet,L. Shamet,-235,49,24,Made,1,32,25,57,h,Shamet 24' 3PT Step Back Jump Shot (3 PTS) (Booker 2 AST),Made Shot,Step Back Jump shot,1,3,83
+0022100743,117,PT02M42.00S,1,1610612750,MIN,1626157,Towns,K. Towns,59,21,6,Missed,1,,,0,v,MISS Towns 6' Layup,Missed Shot,Layup Shot,1,2,84
+0022100743,118,PT02M42.00S,1,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,Towns REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,85
+0022100743,120,PT02M42.00S,1,1610612756,PHX,1630688,Wainright,I. Wainright,0,0,0,,0,,,0,h,Wainright S.FOUL (P1.T2) (M.Ervin),Foul,Shooting,1,0,86
+0022100743,119,PT02M42.00S,1,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,87
+0022100743,122,PT02M42.00S,1,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,32,26,58,v,Towns Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,88
+0022100743,123,PT02M42.00S,1,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,MISS Towns Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,89
+0022100743,124,PT02M38.00S,1,1610612756,PHX,1630688,Wainright,I. Wainright,0,0,0,,0,,,0,h,Wainright REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,90
+0022100743,125,PT02M23.00S,1,1610612756,PHX,1629013,Shamet,L. Shamet,176,183,25,Missed,1,,,0,h,MISS Shamet 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,91
+0022100743,126,PT02M23.00S,1,1610612756,PHX,1630688,Wainright,I. Wainright,0,0,0,,0,,,0,h,Wainright REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,92
+0022100743,127,PT02M17.00S,1,1610612756,PHX,202687,Biyombo,B. Biyombo,-1,37,4,Made,1,34,26,60,h,Biyombo 4' Dunk (7 PTS) (Shamet 1 AST),Made Shot,Dunk Shot,1,2,93
+0022100743,129,PT02M17.00S,1,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,Towns S.FOUL (P1.PN) (T.Maddox),Foul,Shooting,1,0,94
+0022100743,131,PT02M17.00S,1,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,SUB: Reid FOR Towns,Substitution,,0,0,95
+0022100743,133,PT02M17.00S,1,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,MISS Biyombo Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,96
+0022100743,134,PT02M11.00S,1,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,v,McLaughlin REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,97
+0022100743,135,PT02M05.00S,1,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,16,55,6,Missed,1,,,0,v,MISS McLaughlin 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,98
+0022100743,136,PT02M03.00S,1,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,99
+0022100743,137,PT01M44.00S,1,1610612756,PHX,1626164,Booker,D. Booker,78,186,20,Missed,1,,,0,h,MISS Booker 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,100
+0022100743,137,PT01M44.00S,1,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,Okogie BLOCK (1 BLK),,,1,2,101
+0022100743,139,PT01M40.00S,1,1610612756,PHX,203901,Payton,E. Payton,0,0,0,,0,,,0,h,Payton REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,102
+0022100743,140,PT01M40.00S,1,1610612756,PHX,1630688,Wainright,I. Wainright,-127,223,26,Missed,1,,,0,h,MISS Wainright 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,103
+0022100743,141,PT01M40.00S,1,1610612750,MIN,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,Prince REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,104
+0022100743,142,PT01M34.00S,1,1610612750,MIN,1627752,Prince,T. Prince,16,41,4,Made,1,34,28,62,v,Prince 4' Reverse Layup (2 PTS),Made Shot,Reverse Layup Shot,1,2,105
+0022100743,145,PT01M34.00S,1,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Defensive Goaltending,Violation,Defensive Goaltending,1,0,106
+0022100743,143,PT01M34.00S,1,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker S.FOUL (P1.T3) (M.Ervin),Foul,Shooting,1,0,107
+0022100743,146,PT01M34.00S,1,1610612756,PHX,1630688,Wainright,I. Wainright,0,0,0,,0,,,0,h,SUB: Smith FOR Wainright,Substitution,,0,0,108
+0022100743,147,PT01M34.00S,1,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,SUB: Johnson FOR Biyombo,Substitution,,0,0,109
+0022100743,150,PT01M34.00S,1,1610612750,MIN,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,MISS Prince Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,110
+0022100743,151,PT01M31.00S,1,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,111
+0022100743,152,PT01M15.00S,1,1610612756,PHX,1626164,Booker,D. Booker,197,151,25,Missed,1,,,0,h,MISS Booker 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,112
+0022100743,153,PT01M14.00S,1,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Unknown,0,0,113
+0022100743,161,PT00M50.90S,1,1610612750,MIN,1627736,Beasley,M. Beasley,-16,139,14,Made,1,34,30,64,v,Beasley 14' Jump Shot (5 PTS),Made Shot,Jump Shot,0,2,114
+0022100743,156,PT00M39.50S,1,1610612756,PHX,1626164,Booker,D. Booker,-241,38,24,Made,1,37,30,67,h,Booker 24' 3PT Jump Shot (14 PTS) (Shamet 2 AST),Made Shot,Jump Shot,1,3,115
+0022100743,159,PT00M34.10S,1,1610612756,PHX,1630188,Smith,J. Smith,0,0,0,,0,,,0,h,Smith S.FOUL (P1.PN) (S.Twardoski),Foul,Shooting,1,0,116
+0022100743,162,PT00M34.10S,1,1610612750,MIN,1627752,Prince,T. Prince,0,0,0,,0,37,31,68,v,Prince Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,117
+0022100743,163,PT00M34.10S,1,1610612756,PHX,203901,Payton,E. Payton,0,0,0,,0,,,0,h,SUB: Paul FOR Payton,Substitution,,0,0,118
+0022100743,165,PT00M34.10S,1,1610612750,MIN,1627752,Prince,T. Prince,0,0,0,,0,37,32,69,v,Prince Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,119
+0022100743,166,PT00M24.80S,1,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid S.FOUL (P1.PN) (T.Maddox),Foul,Shooting,1,0,120
+0022100743,168,PT00M24.80S,1,1610612756,PHX,1629013,Shamet,L. Shamet,0,0,0,,0,38,32,70,h,Shamet Free Throw 1 of 3 (4 PTS),Free Throw,Free Throw 1 of 3,1,0,121
+0022100743,169,PT00M24.80S,1,1610612756,PHX,1629013,Shamet,L. Shamet,0,0,0,,0,39,32,71,h,Shamet Free Throw 2 of 3 (5 PTS),Free Throw,Free Throw 2 of 3,1,0,122
+0022100743,170,PT00M24.80S,1,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,SUB: Edwards FOR Reid,Substitution,,0,0,123
+0022100743,171,PT00M24.80S,1,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,SUB: Towns FOR Okogie,Substitution,,0,0,124
+0022100743,174,PT00M24.80S,1,1610612756,PHX,1629013,Shamet,L. Shamet,0,0,0,,0,40,32,72,h,Shamet Free Throw 3 of 3 (6 PTS),Free Throw,Free Throw 3 of 3,1,0,125
+0022100743,175,PT00M04.50S,1,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,229,-5,0,Missed,1,,,0,v,MISS McLaughlin 3PT Jump Shot,Missed Shot,Jump Shot,1,3,126
+0022100743,176,PT00M02.70S,1,1610612756,PHX,1629013,Shamet,L. Shamet,0,0,0,,0,,,0,h,Shamet REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,127
+0022100743,179,PT00M00.00S,1,0,,0,,,0,0,0,,0,40,32,72,,End of 1st Period (9:39 PM EST),period,end,1,0,128
+0022100743,186,PT12M00.00S,2,0,,0,,,0,0,0,,0,40,32,72,,Start of 2nd Period (9:42 PM EST),period,start,0,0,129
+0022100743,187,PT11M40.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,54,245,25,Missed,1,,,0,v,MISS Edwards 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,130
+0022100743,188,PT11M37.00S,2,1610612756,PHX,1629013,Shamet,L. Shamet,0,0,0,,0,,,0,h,Shamet REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,131
+0022100743,189,PT11M34.00S,2,1610612756,PHX,1629013,Shamet,L. Shamet,0,0,0,,0,,,0,h,Shamet Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,132
+0022100743,189,PT11M34.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards STEAL (1 STL),,,1,0,133
+0022100743,191,PT11M29.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,31,19,4,Made,1,40,34,74,v,Edwards 4' Running Layup (10 PTS),Made Shot,Running Layup Shot,1,2,134
+0022100743,192,PT11M09.00S,2,1610612756,PHX,1630188,Smith,J. Smith,-7,37,4,Missed,1,,,0,h,MISS Smith 4' Layup,Missed Shot,Layup Shot,1,2,135
+0022100743,192,PT11M09.00S,2,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid BLOCK (1 BLK),,,1,2,136
+0022100743,194,PT11M09.00S,2,1610612756,PHX,1629013,Shamet,L. Shamet,0,0,0,,0,,,0,h,Shamet REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,137
+0022100743,195,PT11M05.00S,2,1610612756,PHX,101108,Paul,C. Paul,26,113,12,Made,1,42,34,76,h,Paul 12' Driving Floating Jump Shot (2 PTS) (Bridges 1 AST),Made Shot,Driving Floating Jump Shot,1,2,138
+0022100743,196,PT10M52.00S,2,1610612750,MIN,1627752,Prince,T. Prince,-18,256,26,Made,1,42,37,79,v,Prince 26' 3PT Pullup Jump Shot (7 PTS) (McLaughlin 1 AST),Made Shot,Pullup Jump shot,1,3,139
+0022100743,198,PT10M35.00S,2,1610612756,PHX,1630188,Smith,J. Smith,-12,44,5,Missed,1,,,0,h,MISS Smith 5' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,140
+0022100743,198,PT10M35.00S,2,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid BLOCK (2 BLK),,,1,2,141
+0022100743,200,PT10M35.00S,2,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Rebound,Rebound,Unknown,0,0,142
+0022100743,201,PT10M35.00S,2,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,v,SUB: Nowell FOR McLaughlin,Substitution,,0,0,143
+0022100743,204,PT10M33.00S,2,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid P.FOUL (P2.T1) (M.Ervin),Foul,Personal,1,0,144
+0022100743,206,PT10M25.00S,2,1610612756,PHX,1630188,Smith,J. Smith,-32,50,6,Made,1,44,37,81,h,Smith 6' Cutting Layup Shot (2 PTS) (Paul 7 AST),Made Shot,Cutting Layup Shot,1,2,145
+0022100743,208,PT10M25.00S,2,1610612750,MIN,1629669,Nowell,J. Nowell,0,0,0,,0,,,0,v,Nowell S.FOUL (P3.T2) (S.Twardoski),Foul,Shooting,1,0,146
+0022100743,210,PT10M25.00S,2,1610612756,PHX,1630188,Smith,J. Smith,0,0,0,,0,,,0,h,MISS Smith Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,147
+0022100743,211,PT10M23.00S,2,1610612750,MIN,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,Prince REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,148
+0022100743,212,PT10M11.00S,2,1610612750,MIN,1629669,Nowell,J. Nowell,-33,262,26,Missed,1,,,0,v,MISS Nowell 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,149
+0022100743,213,PT10M08.00S,2,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,150
+0022100743,214,PT10M02.00S,2,1610612756,PHX,1628969,Bridges,M. Bridges,218,125,25,Missed,1,,,0,h,MISS Bridges 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,151
+0022100743,215,PT10M00.00S,2,1610612750,MIN,1629669,Nowell,J. Nowell,0,0,0,,0,,,0,v,Nowell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,152
+0022100743,216,PT09M50.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,2,24,2,Missed,1,,,0,v,MISS Edwards 2' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,153
+0022100743,218,PT09M47.00S,2,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,154
+0022100743,219,PT09M42.00S,2,1610612756,PHX,101108,Paul,C. Paul,-103,249,27,Made,1,47,37,84,h,Paul 27' 3PT Jump Shot (5 PTS) (Shamet 3 AST),Made Shot,Jump Shot,1,3,155
+0022100743,221,PT09M41.00S,2,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,156
+0022100743,222,PT09M41.00S,2,1610612750,MIN,1629669,Nowell,J. Nowell,0,0,0,,0,,,0,v,SUB: McDaniels FOR Nowell,Substitution,,0,0,157
+0022100743,224,PT09M24.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,-33,21,4,Made,1,47,39,86,v,Edwards 4' Driving Layup (12 PTS),Made Shot,Driving Layup Shot,1,2,158
+0022100743,225,PT09M04.00S,2,1610612756,PHX,1629013,Shamet,L. Shamet,-43,23,5,Missed,1,,,0,h,MISS Shamet 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,159
+0022100743,225,PT09M04.00S,2,1610612750,MIN,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,Prince BLOCK (1 BLK),,,1,2,160
+0022100743,227,PT09M02.00S,2,1610612750,MIN,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,Prince REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,161
+0022100743,229,PT09M00.00S,2,1610612750,MIN,1629675,Reid,N. Reid,-22,24,3,Made,1,47,41,88,v,Reid 3' Running Reverse Layup (2 PTS) (Prince 1 AST),Made Shot,Running Reverse Layup Shot,1,2,162
+0022100743,231,PT09M00.00S,2,1610612756,PHX,1630188,Smith,J. Smith,0,0,0,,0,,,0,h,Smith Violation:Defensive Goaltending (S.Twardoski),Violation,Defensive Goaltending,1,0,163
+0022100743,232,PT08M44.00S,2,1610612756,PHX,101108,Paul,C. Paul,44,273,28,Missed,1,,,0,h,MISS Paul 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,164
+0022100743,233,PT08M42.00S,2,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Rebound,Rebound,Unknown,1,0,165
+0022100743,234,PT08M42.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels L.B.FOUL (P1.T3) (M.Ervin),Foul,Loose Ball,1,0,166
+0022100743,236,PT08M38.00S,2,1610612756,PHX,1629661,Johnson,C. Johnson,221,123,25,Made,1,50,41,91,h,Johnson 25' 3PT Jump Shot (5 PTS) (Shamet 4 AST),Made Shot,Jump Shot,1,3,167
+0022100743,238,PT08M19.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,-23,195,20,Made,1,50,43,93,v,McDaniels 20' Pullup Jump Shot (2 PTS) (Prince 2 AST),Made Shot,Pullup Jump shot,1,2,168
+0022100743,240,PT08M03.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards P.FOUL (P2.T4) (S.Twardoski),Foul,Personal,1,0,169
+0022100743,242,PT07M56.00S,2,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,170
+0022100743,242,PT07M56.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards STEAL (2 STL),,,1,0,171
+0022100743,244,PT07M48.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,153,204,26,Missed,1,,,0,v,MISS Edwards 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,172
+0022100743,245,PT07M46.00S,2,1610612756,PHX,1629013,Shamet,L. Shamet,0,0,0,,0,,,0,h,Shamet REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,173
+0022100743,246,PT07M37.00S,2,1610612756,PHX,1630188,Smith,J. Smith,-143,118,19,Missed,1,,,0,h,MISS Smith 19' Jump Shot,Missed Shot,Jump Shot,1,2,174
+0022100743,247,PT07M35.00S,2,1610612750,MIN,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,v,Vanderbilt REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,175
+0022100743,248,PT07M25.00S,2,1610612750,MIN,1627752,Prince,T. Prince,-232,10,0,Made,1,50,46,96,v,Prince 3PT Jump Shot (10 PTS) (Edwards 2 AST),Made Shot,Jump Shot,1,3,176
+0022100743,250,PT07M01.00S,2,1610612756,PHX,101108,Paul,C. Paul,-138,231,27,Made,1,53,46,99,h,Paul 27' 3PT Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,3,177
+0022100743,251,PT06M50.00S,2,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul S.FOUL (P1.T1) (T.Maddox),Foul,Shooting,1,0,178
+0022100743,253,PT06M50.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,53,47,100,v,Edwards Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,0,0,179
+0022100743,255,PT06M50.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,53,48,101,v,Edwards Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,1,0,180
+0022100743,256,PT06M30.00S,2,1610612756,PHX,1629661,Johnson,C. Johnson,-100,253,27,Missed,1,,,0,h,MISS Johnson 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,181
+0022100743,257,PT06M28.00S,2,1610612750,MIN,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,v,Vanderbilt REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,182
+0022100743,258,PT06M24.00S,2,1610612750,MIN,1629020,Vanderbilt,J. Vanderbilt,-50,30,6,Made,1,53,50,103,v,Vanderbilt 6' Running Layup (2 PTS),Made Shot,Running Layup Shot,1,2,183
+0022100743,259,PT06M24.00S,2,1610612756,PHX,1630188,Smith,J. Smith,0,0,0,,0,,,0,h,Smith S.FOUL (P2.T2) (S.Twardoski),Foul,Shooting,1,0,184
+0022100743,261,PT06M24.00S,2,1610612756,PHX,1630188,Smith,J. Smith,0,0,0,,0,,,0,h,SUB: Biyombo FOR Smith,Substitution,,0,0,185
+0022100743,262,PT06M24.00S,2,1610612756,PHX,1629013,Shamet,L. Shamet,0,0,0,,0,,,0,h,SUB: Wainright FOR Shamet,Substitution,,0,0,186
+0022100743,263,PT06M24.00S,2,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,SUB: Booker FOR Johnson,Substitution,,0,0,187
+0022100743,267,PT06M24.00S,2,1610612750,MIN,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,53,51,104,v,Vanderbilt Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,1,0,188
+0022100743,268,PT06M08.00S,2,1610612756,PHX,1630688,Wainright,I. Wainright,228,22,0,Missed,1,,,0,h,MISS Wainright 3PT Jump Shot,Missed Shot,Jump Shot,1,3,189
+0022100743,268,PT06M08.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards BLOCK (1 BLK),,,1,3,190
+0022100743,270,PT06M04.00S,2,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,191
+0022100743,271,PT05M57.00S,2,1610612750,MIN,1629020,Vanderbilt,J. Vanderbilt,-39,29,5,Made,1,53,53,106,v,Vanderbilt 5' Cutting Layup Shot (5 PTS) (Edwards 3 AST),Made Shot,Cutting Layup Shot,1,2,192
+0022100743,273,PT05M46.00S,2,1610612756,PHX,1626164,Booker,D. Booker,82,15,8,Made,1,55,53,108,h,Booker 8' Pullup Jump Shot (16 PTS) (Paul 8 AST),Made Shot,Pullup Jump shot,1,2,193
+0022100743,275,PT05M39.00S,2,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul S.FOUL (P2.T3) (S.Twardoski),Foul,Shooting,1,0,194
+0022100743,277,PT05M39.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,55,54,109,v,Edwards Free Throw 1 of 2 (15 PTS),Free Throw,Free Throw 1 of 2,1,0,195
+0022100743,278,PT05M39.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,55,55,110,v,Edwards Free Throw 2 of 2 (16 PTS),Free Throw,Free Throw 2 of 2,1,0,196
+0022100743,279,PT05M20.00S,2,1610612756,PHX,1630688,Wainright,I. Wainright,44,32,5,Made,1,57,55,112,h,Wainright 5' Driving Layup (2 PTS) (Paul 9 AST),Made Shot,Driving Layup Shot,1,2,197
+0022100743,281,PT05M11.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,22,264,26,Missed,1,,,0,v,MISS Edwards 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,198
+0022100743,282,PT05M08.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,199
+0022100743,283,PT05M06.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,-53,16,6,Made,1,57,57,114,v,McDaniels 6' Driving Finger Roll Layup (4 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,200
+0022100743,284,PT04M57.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards P.FOUL (P3.PN) (S.Twardoski),Foul,Personal,1,0,201
+0022100743,286,PT04M57.00S,2,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,58,57,115,h,Paul Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,202
+0022100743,287,PT04M57.00S,2,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,59,57,116,h,Paul Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,203
+0022100743,288,PT04M39.00S,2,1610612750,MIN,1629675,Reid,N. Reid,-21,62,7,Missed,1,,,0,v,MISS Reid 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,204
+0022100743,289,PT04M37.00S,2,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,205
+0022100743,290,PT04M36.00S,2,1610612756,PHX,1630688,Wainright,I. Wainright,0,0,0,,0,,,0,h,Wainright S.FOUL (P2.T4) (S.Twardoski),Foul,Shooting,1,0,206
+0022100743,292,PT04M36.00S,2,1610612750,MIN,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,59,58,117,v,Vanderbilt Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,207
+0022100743,293,PT04M36.00S,2,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,SUB: Payton FOR Paul,Substitution,,0,0,208
+0022100743,295,PT04M36.00S,2,1610612750,MIN,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,59,59,118,v,Vanderbilt Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,209
+0022100743,296,PT04M20.00S,2,1610612756,PHX,203901,Payton,E. Payton,0,0,0,,0,,,0,h,Payton Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,210
+0022100743,296,PT04M20.00S,2,1610612750,MIN,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,Prince STEAL (1 STL),,,1,0,211
+0022100743,298,PT04M12.00S,2,1610612750,MIN,1627752,Prince,T. Prince,11,25,3,Made,1,59,61,120,v,Prince 3' Reverse Layup (12 PTS),Made Shot,Reverse Layup Shot,1,2,212
+0022100743,299,PT03M50.00S,2,1610612756,PHX,202687,Biyombo,B. Biyombo,54,44,7,Made,1,61,61,122,h,Biyombo 7' Hook Shot (9 PTS) (Payton 1 AST),Made Shot,Hook Shot,1,2,213
+0022100743,301,PT03M40.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,9,50,5,Missed,1,,,0,v,MISS Edwards 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,214
+0022100743,302,PT03M39.00S,2,1610612756,PHX,203901,Payton,E. Payton,0,0,0,,0,,,0,h,Payton REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,215
+0022100743,303,PT03M23.00S,2,1610612756,PHX,1626164,Booker,D. Booker,-112,238,26,Made,1,64,61,125,h,Booker 26' 3PT Step Back Jump Shot (19 PTS),Made Shot,Step Back Jump shot,1,3,216
+0022100743,304,PT03M02.00S,2,1610612750,MIN,1627752,Prince,T. Prince,-232,68,24,Missed,1,,,0,v,MISS Prince 24' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,217
+0022100743,305,PT03M00.00S,2,1610612756,PHX,1630688,Wainright,I. Wainright,0,0,0,,0,,,0,h,Wainright REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,218
+0022100743,306,PT02M57.00S,2,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid S.FOUL (P3.PN) (S.Twardoski),Foul,Shooting,1,0,219
+0022100743,308,PT02M57.00S,2,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,220
+0022100743,310,PT02M57.00S,2,1610612756,PHX,1630688,Wainright,I. Wainright,0,0,0,,0,,,0,h,SUB: Johnson FOR Wainright,Substitution,,0,0,221
+0022100743,311,PT02M57.00S,2,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,SUB: Towns FOR Edwards,Substitution,,0,0,222
+0022100743,312,PT02M57.00S,2,1610612750,MIN,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,v,SUB: Okogie FOR Vanderbilt,Substitution,,0,0,223
+0022100743,313,PT02M57.00S,2,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,SUB: McLaughlin FOR Reid,Substitution,,0,0,224
+0022100743,314,PT02M57.00S,2,1610612750,MIN,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,SUB: Beasley FOR Prince,Substitution,,0,0,225
+0022100743,320,PT02M57.00S,2,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,65,61,126,h,Biyombo Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,226
+0022100743,321,PT02M57.00S,2,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,MISS Biyombo Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,227
+0022100743,322,PT02M55.00S,2,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,Towns REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,228
+0022100743,323,PT02M41.00S,2,1610612750,MIN,1627736,Beasley,M. Beasley,7,260,26,Made,1,65,64,129,v,Beasley 26' 3PT Step Back Jump Shot (8 PTS) (Towns 2 AST),Made Shot,Step Back Jump shot,1,3,229
+0022100743,325,PT02M23.00S,2,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,Towns S.FOUL (P2.PN) (M.Ervin),Foul,Shooting,1,0,230
+0022100743,327,PT02M23.00S,2,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,MISS Booker Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,231
+0022100743,328,PT02M23.00S,2,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Rebound,Rebound,Normal Rebound,0,0,232
+0022100743,329,PT02M23.00S,2,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,66,64,130,h,Booker Free Throw 2 of 2 (20 PTS),Free Throw,Free Throw 2 of 2,1,0,233
+0022100743,330,PT02M07.00S,2,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,4,68,7,Made,1,66,66,132,v,McLaughlin 7' Driving Floating Jump Shot (4 PTS) (Towns 3 AST),Made Shot,Driving Floating Jump Shot,1,2,234
+0022100743,332,PT01M52.00S,2,1610612756,PHX,1628969,Bridges,M. Bridges,206,144,25,Made,1,69,66,135,h,Bridges 25' 3PT Jump Shot (14 PTS) (Payton 2 AST),Made Shot,Jump Shot,1,3,235
+0022100743,334,PT01M32.00S,2,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo P.FOUL (P2.PN) (M.Ervin),Foul,Personal,1,0,236
+0022100743,336,PT01M32.00S,2,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,MISS Towns Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,237
+0022100743,337,PT01M32.00S,2,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Normal Rebound,0,0,238
+0022100743,338,PT01M32.00S,2,1610612756,PHX,203901,Payton,E. Payton,0,0,0,,0,,,0,h,SUB: Paul FOR Payton,Substitution,,0,0,239
+0022100743,340,PT01M32.00S,2,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,MISS Towns Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,240
+0022100743,341,PT01M31.00S,2,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Rebound,Rebound,Unknown,0,0,241
+0022100743,343,PT01M15.00S,2,1610612756,PHX,1626164,Booker,D. Booker,-107,130,17,Missed,1,,,0,h,MISS Booker 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,242
+0022100743,344,PT01M13.00S,2,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,Towns REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,243
+0022100743,345,PT01M08.00S,2,1610612750,MIN,1627736,Beasley,M. Beasley,146,252,29,Missed,1,,,0,v,MISS Beasley 29' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,244
+0022100743,346,PT01M04.00S,2,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,245
+0022100743,347,PT00M57.10S,2,1610612756,PHX,101108,Paul,C. Paul,-1,259,26,Made,1,72,66,138,h,Paul 26' 3PT Jump Shot (13 PTS) (Johnson 2 AST),Made Shot,Jump Shot,1,3,246
+0022100743,349,PT00M38.50S,2,1610612750,MIN,1626157,Towns,K. Towns,-34,266,27,Missed,1,,,0,v,MISS Towns 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,247
+0022100743,350,PT00M34.80S,2,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,248
+0022100743,351,PT00M28.70S,2,1610612756,PHX,101108,Paul,C. Paul,-126,118,17,Missed,1,,,0,h,MISS Paul 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,249
+0022100743,352,PT00M26.00S,2,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,250
+0022100743,355,PT00M01.60S,2,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,Towns Lost Ball Turnover (P2.T3),Turnover,Lost Ball,1,0,251
+0022100743,357,PT00M01.10S,2,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,Towns L.B.FOUL (P3.PN) (M.Ervin),Foul,Loose Ball,1,0,252
+0022100743,359,PT00M01.10S,2,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,Towns T.FOUL (P3.PN) (M.Ervin),Foul,Technical,1,0,253
+0022100743,360,PT00M01.10S,2,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,MISS Paul Free Throw Technical,Free Throw,Free Throw Technical,1,0,254
+0022100743,361,PT00M01.10S,2,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Rebound,Rebound,Normal Rebound,0,0,255
+0022100743,362,PT00M01.10S,2,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,73,66,139,h,Paul Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,256
+0022100743,363,PT00M01.10S,2,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,SUB: Smith FOR Biyombo,Substitution,,0,0,257
+0022100743,365,PT00M01.10S,2,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,74,66,140,h,Paul Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,258
+0022100743,368,PT00M00.00S,2,0,,0,,,0,0,0,,0,74,66,140,,End of 2nd Period (10:11 PM EST),period,end,1,0,259
+0022100743,378,PT12M00.00S,3,0,,0,,,0,0,0,,0,74,66,140,,Start of 3rd Period (10:27 PM EST),period,start,0,0,260
+0022100743,379,PT11M45.00S,3,1610612750,MIN,1626157,Towns,K. Towns,7,164,16,Missed,1,,,0,v,MISS Towns 16' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,261
+0022100743,380,PT11M43.00S,3,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,262
+0022100743,381,PT11M26.00S,3,1610612756,PHX,202687,Biyombo,B. Biyombo,18,13,2,Made,1,76,66,142,h,Biyombo 2' Dunk (12 PTS) (Booker 3 AST),Made Shot,Dunk Shot,1,2,263
+0022100743,383,PT11M06.00S,3,1610612750,MIN,1629669,Nowell,J. Nowell,-238,49,24,Made,1,76,69,145,v,Nowell 24' 3PT Jump Shot (8 PTS) (Edwards 4 AST),Made Shot,Jump Shot,1,3,264
+0022100743,385,PT10M42.00S,3,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo Traveling Turnover (P1.T5),Turnover,Traveling,1,0,265
+0022100743,386,PT10M33.00S,3,1610612750,MIN,1626157,Towns,K. Towns,-37,260,26,Missed,1,,,0,v,MISS Towns 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,266
+0022100743,387,PT10M30.00S,3,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,267
+0022100743,388,PT10M26.00S,3,1610612756,PHX,1629661,Johnson,C. Johnson,-230,9,0,Made,1,79,69,148,h,Johnson 3PT Running Jump Shot (8 PTS) (Booker 4 AST),Made Shot,Running Jump Shot,1,3,268
+0022100743,390,PT10M08.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,-131,231,27,Missed,1,,,0,v,MISS Edwards 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,269
+0022100743,391,PT10M04.00S,3,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,270
+0022100743,392,PT09M59.00S,3,1610612756,PHX,1626164,Booker,D. Booker,28,5,3,Made,1,81,69,150,h,Booker 3' Running Finger Roll Layup (22 PTS) (Paul 10 AST),Made Shot,Running Finger Roll Layup Shot,1,2,271
+0022100743,393,PT09M59.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,272
+0022100743,395,PT09M43.00S,3,1610612750,MIN,1626157,Towns,K. Towns,-86,74,11,Made,1,81,71,152,v,Towns 11' Hook Shot (10 PTS) (Edwards 5 AST),Made Shot,Hook Shot,1,2,273
+0022100743,397,PT09M18.00S,3,1610612756,PHX,1629661,Johnson,C. Johnson,235,27,24,Missed,1,,,0,h,MISS Johnson 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,274
+0022100743,398,PT09M15.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,275
+0022100743,399,PT09M08.00S,3,1610612750,MIN,1626157,Towns,K. Towns,-6,293,29,Made,1,81,74,155,v,Towns 29' 3PT Jump Shot (13 PTS) (Edwards 6 AST),Made Shot,Jump Shot,1,3,276
+0022100743,401,PT08M57.00S,3,1610612756,PHX,1626164,Booker,D. Booker,-98,243,26,Missed,1,,,0,h,MISS Booker 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,277
+0022100743,402,PT08M54.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,278
+0022100743,403,PT08M43.00S,3,1610612750,MIN,1626157,Towns,K. Towns,-51,113,12,Missed,1,,,0,v,MISS Towns 12' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,279
+0022100743,404,PT08M41.00S,3,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,280
+0022100743,405,PT08M36.00S,3,1610612756,PHX,1626164,Booker,D. Booker,49,55,7,Made,1,83,74,157,h,Booker 7' Turnaround Jump Shot (24 PTS) (Paul 11 AST),Made Shot,Turnaround Jump Shot,1,2,281
+0022100743,407,PT08M21.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,165,201,26,Made,1,83,77,160,v,Edwards 26' 3PT Step Back Jump Shot (19 PTS),Made Shot,Step Back Jump shot,1,3,282
+0022100743,408,PT07M54.00S,3,1610612756,PHX,1629661,Johnson,C. Johnson,64,58,9,Missed,1,,,0,h,MISS Johnson 9' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,283
+0022100743,409,PT07M52.00S,3,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,Towns REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,284
+0022100743,410,PT07M38.00S,3,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo P.FOUL (P3.T1) (S.Twardoski),Foul,Personal,1,0,285
+0022100743,412,PT07M26.00S,3,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges S.FOUL (P1.T2) (S.Twardoski),Foul,Shooting,1,0,286
+0022100743,414,PT07M26.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,MISS Edwards Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,287
+0022100743,415,PT07M26.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Normal Rebound,0,0,288
+0022100743,416,PT07M26.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,83,78,161,v,Edwards Free Throw 2 of 2 (20 PTS),Free Throw,Free Throw 2 of 2,1,0,289
+0022100743,417,PT07M12.00S,3,1610612756,PHX,1626164,Booker,D. Booker,-105,59,12,Missed,1,,,0,h,MISS Booker 12' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,290
+0022100743,418,PT07M08.00S,3,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,291
+0022100743,419,PT06M58.00S,3,1610612750,MIN,1626157,Towns,K. Towns,-25,41,5,Missed,1,,,0,v,MISS Towns 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,292
+0022100743,421,PT06M54.00S,3,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,293
+0022100743,422,PT06M52.00S,3,1610612756,PHX,1626164,Booker,D. Booker,-229,34,0,Made,1,86,78,164,h,Booker 3PT Running Pull-Up Jump Shot (27 PTS) (Bridges 2 AST),Made Shot,Running Pull-Up Jump Shot,1,3,294
+0022100743,424,PT06M30.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,-31,278,28,Missed,1,,,0,v,MISS Edwards 28' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,295
+0022100743,425,PT06M26.00S,3,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,296
+0022100743,426,PT06M15.00S,3,1610612756,PHX,202687,Biyombo,B. Biyombo,-28,30,4,Missed,1,,,0,h,MISS Biyombo 4' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,297
+0022100743,427,PT06M14.00S,3,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,298
+0022100743,428,PT06M14.00S,3,1610612756,PHX,202687,Biyombo,B. Biyombo,-29,31,4,Missed,1,,,0,h,MISS Biyombo 4' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,299
+0022100743,429,PT06M14.00S,3,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Rebound,Rebound,Unknown,0,0,300
+0022100743,431,PT06M12.00S,3,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul Bad Pass Turnover (P2.T6),Turnover,Bad Pass,1,0,301
+0022100743,431,PT06M12.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards STEAL (3 STL),,,1,0,302
+0022100743,433,PT06M04.00S,3,1610612750,MIN,1626157,Towns,K. Towns,1,283,28,Made,1,86,81,167,v,Towns 28' 3PT Jump Shot (16 PTS) (Edwards 7 AST),Made Shot,Jump Shot,1,3,303
+0022100743,435,PT05M39.00S,3,1610612756,PHX,1626164,Booker,D. Booker,15,66,7,Missed,1,,,0,h,MISS Booker 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,304
+0022100743,436,PT05M37.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,305
+0022100743,437,PT05M26.00S,3,1610612750,MIN,1630183,McDaniels,J. McDaniels,-232,60,24,Missed,1,,,0,v,MISS McDaniels 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,306
+0022100743,438,PT05M23.00S,3,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,307
+0022100743,439,PT05M19.00S,3,1610612756,PHX,1629661,Johnson,C. Johnson,-230,15,0,Missed,1,,,0,h,MISS Johnson 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,308
+0022100743,440,PT05M15.00S,3,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,309
+0022100743,441,PT05M14.00S,3,1610612756,PHX,1629661,Johnson,C. Johnson,21,25,3,Made,1,88,81,169,h,Johnson 3' Driving Dunk (10 PTS),Made Shot,Driving Dunk Shot,1,2,310
+0022100743,442,PT05M03.00S,3,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,Johnson P.FOUL (P1.T3) (S.Twardoski),Foul,Personal,1,0,311
+0022100743,444,PT05M03.00S,3,1610612750,MIN,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,v,SUB: Beasley FOR Vanderbilt,Substitution,,0,0,312
+0022100743,445,PT05M03.00S,3,1610612750,MIN,1629669,Nowell,J. Nowell,0,0,0,,0,,,0,v,SUB: Okogie FOR Nowell,Substitution,,0,0,313
+0022100743,448,PT04M52.00S,3,1610612750,MIN,1627736,Beasley,M. Beasley,99,112,15,Missed,1,,,0,v,MISS Beasley 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,314
+0022100743,449,PT04M49.00S,3,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,Towns REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,315
+0022100743,450,PT04M47.00S,3,1610612750,MIN,1626157,Towns,K. Towns,-28,22,4,Missed,1,,,0,v,MISS Towns 4' Putback Layup,Missed Shot,Putback Layup Shot,1,2,316
+0022100743,450,PT04M47.00S,3,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul BLOCK (1 BLK),,,1,2,317
+0022100743,452,PT04M44.00S,3,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,Towns REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,318
+0022100743,453,PT04M42.00S,3,1610612750,MIN,1627736,Beasley,M. Beasley,-232,53,24,Missed,1,,,0,v,MISS Beasley 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,319
+0022100743,454,PT04M39.00S,3,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,320
+0022100743,455,PT04M38.00S,3,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo Lost Ball Turnover (P2.T7),Turnover,Lost Ball,1,0,321
+0022100743,455,PT04M38.00S,3,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels STEAL (1 STL),,,1,0,322
+0022100743,457,PT04M34.00S,3,1610612750,MIN,1626157,Towns,K. Towns,-23,34,4,Made,1,88,83,171,v,Towns 4' Layup (18 PTS) (McDaniels 1 AST),Made Shot,Layup Shot,1,2,323
+0022100743,459,PT04M20.00S,3,1610612756,PHX,1629661,Johnson,C. Johnson,238,10,24,Missed,1,,,0,h,MISS Johnson 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,324
+0022100743,460,PT04M17.00S,3,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,325
+0022100743,464,PT04M16.00S,3,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges Out of Bounds - Bad Pass Turnover Turnover (P1.T8),Turnover,Out of Bounds - Bad Pass Turnover,1,0,326
+0022100743,465,PT04M02.00S,3,1610612750,MIN,1626157,Towns,K. Towns,-72,25,8,Made,1,88,85,173,v,Towns 8' Pullup Jump Shot (20 PTS),Made Shot,Pullup Jump shot,1,2,327
+0022100743,466,PT04M02.00S,3,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo S.FOUL (P4.T4) (M.Ervin),Foul,Shooting,1,0,328
+0022100743,462,PT04M02.00S,3,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,SUB: Shamet FOR Johnson,Substitution,,0,0,329
+0022100743,468,PT04M02.00S,3,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,SUB: Payton FOR Paul,Substitution,,0,0,330
+0022100743,469,PT04M02.00S,3,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,SUB: Smith FOR Biyombo,Substitution,,0,0,331
+0022100743,472,PT04M02.00S,3,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,88,86,174,v,Towns Free Throw 1 of 1 (21 PTS),Free Throw,Free Throw 1 of 1,1,0,332
+0022100743,473,PT03M50.00S,3,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels S.FOUL (P2.T1) (T.Maddox),Foul,Shooting,1,0,333
+0022100743,475,PT03M50.00S,3,1610612756,PHX,1630188,Smith,J. Smith,0,0,0,,0,,,0,h,MISS Smith Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,334
+0022100743,476,PT03M50.00S,3,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Rebound,Rebound,Normal Rebound,0,0,335
+0022100743,477,PT03M50.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,SUB: McLaughlin FOR Edwards,Substitution,,0,0,336
+0022100743,478,PT03M50.00S,3,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,SUB: Prince FOR McDaniels,Substitution,,0,0,337
+0022100743,481,PT03M50.00S,3,1610612756,PHX,1630188,Smith,J. Smith,0,0,0,,0,89,86,175,h,Smith Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,338
+0022100743,482,PT03M36.00S,3,1610612750,MIN,1627736,Beasley,M. Beasley,223,111,25,Missed,1,,,0,v,MISS Beasley 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,339
+0022100743,483,PT03M34.00S,3,1610612756,PHX,1630188,Smith,J. Smith,0,0,0,,0,,,0,h,Smith REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,340
+0022100743,484,PT03M20.00S,3,1610612756,PHX,1630188,Smith,J. Smith,229,0,0,Made,1,92,86,178,h,Smith 3PT Jump Shot (6 PTS) (Booker 5 AST),Made Shot,Jump Shot,1,3,341
+0022100743,486,PT02M57.00S,3,1610612750,MIN,1627752,Prince,T. Prince,77,52,9,Missed,1,,,0,v,MISS Prince 9' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,342
+0022100743,487,PT02M56.00S,3,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,343
+0022100743,488,PT02M47.00S,3,1610612756,PHX,1629013,Shamet,L. Shamet,-227,43,0,Made,1,95,86,181,h,Shamet 3PT Jump Shot (9 PTS) (Booker 6 AST),Made Shot,Jump Shot,1,3,344
+0022100743,490,PT02M25.00S,3,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,Towns OFF.Foul (P4) (T.Maddox),Foul,Offensive,1,0,345
+0022100743,492,PT02M25.00S,3,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,Towns Offensive Foul Turnover (P3.T4),Turnover,Offensive Foul Turnover,1,0,346
+0022100743,493,PT02M25.00S,3,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,347
+0022100743,494,PT02M25.00S,3,0,,490,,,0,0,0,,0,95,86,181,,Instant Replay3rd Period (10:45 PM EST),Instant Replay,Support Ruling,0,0,348
+0022100743,495,PT02M25.00S,3,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,SUB: Reid FOR Towns,Substitution,,0,0,349
+0022100743,497,PT02M16.00S,3,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,v,McLaughlin S.FOUL (P1.T2) (T.Maddox),Foul,Shooting,1,0,350
+0022100743,499,PT02M16.00S,3,1610612756,PHX,1630188,Smith,J. Smith,0,0,0,,0,96,86,182,h,Smith Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,351
+0022100743,500,PT02M16.00S,3,1610612756,PHX,1630188,Smith,J. Smith,0,0,0,,0,97,86,183,h,Smith Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,352
+0022100743,501,PT02M05.00S,3,1610612750,MIN,1627736,Beasley,M. Beasley,109,52,12,Missed,1,,,0,v,MISS Beasley 12' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,353
+0022100743,502,PT02M03.00S,3,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,354
+0022100743,503,PT02M03.00S,3,1610612750,MIN,1629675,Reid,N. Reid,-1,48,5,Made,1,97,88,185,v,Reid 5' Putback Layup (4 PTS),Made Shot,Putback Layup Shot,1,2,355
+0022100743,504,PT01M44.00S,3,1610612756,PHX,1626164,Booker,D. Booker,135,137,19,Missed,1,,,0,h,MISS Booker 19' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,356
+0022100743,505,PT01M40.00S,3,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,357
+0022100743,506,PT01M37.00S,3,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,Okogie Traveling Turnover (P1.T5),Turnover,Traveling,1,0,358
+0022100743,507,PT01M37.00S,3,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,h,SUB: Wainright FOR Bridges,Substitution,,0,0,359
+0022100743,509,PT01M14.00S,3,1610612756,PHX,1629013,Shamet,L. Shamet,-228,120,26,Made,1,100,88,188,h,Shamet 26' 3PT Jump Shot (12 PTS) (Booker 7 AST),Made Shot,Jump Shot,1,3,360
+0022100743,511,PT00M59.70S,3,1610612750,MIN,1627736,Beasley,M. Beasley,136,223,26,Missed,1,,,0,v,MISS Beasley 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,361
+0022100743,512,PT00M56.00S,3,1610612756,PHX,1630188,Smith,J. Smith,0,0,0,,0,,,0,h,Smith REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,362
+0022100743,513,PT00M48.80S,3,1610612756,PHX,1630188,Smith,J. Smith,0,0,0,,0,,,0,h,Smith OFF.Foul (P3) (S.Twardoski),Foul,Offensive,1,0,363
+0022100743,515,PT00M48.80S,3,1610612756,PHX,1630188,Smith,J. Smith,0,0,0,,0,,,0,h,Smith Offensive Foul Turnover (P1.T9),Turnover,Offensive Foul Turnover,1,0,364
+0022100743,516,PT00M48.80S,3,1610612756,PHX,1630688,Wainright,I. Wainright,0,0,0,,0,,,0,h,SUB: Bridges FOR Wainright,Substitution,,0,0,365
+0022100743,517,PT00M48.80S,3,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,SUB: Edwards FOR Okogie,Substitution,,0,0,366
+0022100743,520,PT00M34.40S,3,1610612750,MIN,1629675,Reid,N. Reid,6,58,6,Missed,1,,,0,v,MISS Reid 6' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,367
+0022100743,521,PT00M32.10S,3,1610612756,PHX,1630188,Smith,J. Smith,0,0,0,,0,,,0,h,Smith REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,368
+0022100743,522,PT00M11.40S,3,1610612756,PHX,1626164,Booker,D. Booker,-2,146,15,Missed,1,,,0,h,MISS Booker 15' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,369
+0022100743,523,PT00M08.60S,3,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,370
+0022100743,524,PT00M02.50S,3,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,60,31,7,Made,1,100,90,190,v,McLaughlin 7' Driving Floating Bank Jump Shot (6 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,371
+0022100743,525,PT00M02.50S,3,1610612756,PHX,1630188,Smith,J. Smith,0,0,0,,0,,,0,h,Smith S.FOUL (P4.PN) (T.Maddox),Foul,Shooting,1,0,372
+0022100743,527,PT00M02.50S,3,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,100,91,191,v,McLaughlin Free Throw 1 of 1 (7 PTS),Free Throw,Free Throw 1 of 1,0,0,373
+0022100743,529,PT00M01.00S,3,1610612756,PHX,203901,Payton,E. Payton,0,0,0,,0,,,0,h,Payton Bad Pass Turnover (P2.T10),Turnover,Bad Pass,1,0,374
+0022100743,529,PT00M01.00S,3,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards STEAL (4 STL),,,1,0,375
+0022100743,531,PT00M00.40S,3,1610612750,MIN,1630162,Edwards,A. Edwards,-2,137,14,Made,1,100,93,193,v,Edwards 14' Floating Jump Shot (22 PTS),Made Shot,Floating Jump shot,1,2,376
+0022100743,532,PT00M00.00S,3,0,,0,,,0,0,0,,0,100,93,193,,End of 3rd Period (10:52 PM EST),period,end,1,0,377
+0022100743,537,PT12M00.00S,4,0,,0,,,0,0,0,,0,100,93,193,,Start of 4th Period (10:55 PM EST),period,start,0,0,378
+0022100743,538,PT11M46.00S,4,1610612756,PHX,1629013,Shamet,L. Shamet,-120,240,27,Missed,1,,,0,h,MISS Shamet 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,379
+0022100743,539,PT11M43.00S,4,1610612750,MIN,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,Prince REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,380
+0022100743,540,PT11M32.00S,4,1610612756,PHX,1630188,Smith,J. Smith,0,0,0,,0,,,0,h,Smith S.FOUL (P5.T1) (S.Twardoski),Foul,Shooting,1,0,381
+0022100743,542,PT11M32.00S,4,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,100,94,194,v,Beasley Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,382
+0022100743,543,PT11M32.00S,4,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,100,95,195,v,Beasley Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,383
+0022100743,545,PT11M10.00S,4,1610612756,PHX,1629013,Shamet,L. Shamet,-75,66,10,Made,1,102,95,197,h,Shamet 10' Driving Floating Jump Shot (14 PTS),Made Shot,Driving Floating Jump Shot,1,2,384
+0022100743,546,PT10M49.00S,4,1610612750,MIN,1627752,Prince,T. Prince,0,54,5,Made,1,102,97,199,v,Prince 5' Driving Finger Roll Layup (14 PTS) (Edwards 8 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,385
+0022100743,547,PT10M38.00S,4,1610612756,PHX,1628969,Bridges,M. Bridges,0,12,1,Made,1,104,97,201,h,Bridges 1' Cutting Layup Shot (16 PTS) (Shamet 5 AST),Made Shot,Cutting Layup Shot,1,2,386
+0022100743,549,PT10M27.00S,4,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,Johnson S.FOUL (P2.T2) (M.Ervin),Foul,Shooting,1,0,387
+0022100743,551,PT10M27.00S,4,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,104,98,202,v,Reid Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,388
+0022100743,553,PT10M27.00S,4,1610612756,PHX,1630188,Smith,J. Smith,0,0,0,,0,,,0,h,SUB: Wainright FOR Smith,Substitution,,0,0,389
+0022100743,555,PT10M27.00S,4,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,104,99,203,v,Reid Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,390
+0022100743,556,PT10M12.00S,4,1610612756,PHX,101108,Paul,C. Paul,-136,0,14,Missed,1,,,0,h,MISS Paul 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,391
+0022100743,557,PT10M11.00S,4,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Unknown,1,0,392
+0022100743,558,PT10M11.00S,4,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,Johnson L.B.FOUL (P3.T3) (M.Ervin),Foul,Loose Ball,1,0,393
+0022100743,560,PT09M52.00S,4,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid Bad Pass Turnover (P1.T6),Turnover,Bad Pass,1,0,394
+0022100743,560,PT09M52.00S,4,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,Johnson STEAL (2 STL),,,1,0,395
+0022100743,562,PT09M45.00S,4,1610612756,PHX,1629661,Johnson,C. Johnson,147,231,27,Made,1,107,99,206,h,Johnson 27' 3PT Jump Shot (13 PTS) (Paul 12 AST),Made Shot,Jump Shot,1,3,396
+0022100743,564,PT09M21.00S,4,1610612750,MIN,1627736,Beasley,M. Beasley,167,-1,17,Made,1,107,101,208,v,Beasley 17' Pullup Jump Shot (12 PTS) (Edwards 9 AST),Made Shot,Pullup Jump shot,1,2,397
+0022100743,565,PT09M09.00S,4,1610612756,PHX,1630688,Wainright,I. Wainright,0,0,0,,0,,,0,h,Wainright OFF.Foul (P3) (M.Ervin),Foul,Offensive,1,0,398
+0022100743,568,PT09M09.00S,4,1610612756,PHX,1630688,Wainright,I. Wainright,0,0,0,,0,,,0,h,Wainright Offensive Foul Turnover (P1.T11),Turnover,Offensive Foul Turnover,1,0,399
+0022100743,569,PT08M58.00S,4,1610612750,MIN,1627736,Beasley,M. Beasley,2,256,26,Made,1,107,104,211,v,Beasley 26' 3PT Pullup Jump Shot (15 PTS),Made Shot,Pullup Jump shot,1,3,400
+0022100743,570,PT08M41.00S,4,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley P.FOUL (P1.T1) (T.Maddox),Foul,Personal,1,0,401
+0022100743,572,PT08M30.00S,4,1610612756,PHX,1629013,Shamet,L. Shamet,-126,257,29,Missed,1,,,0,h,MISS Shamet 29' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,402
+0022100743,573,PT08M25.00S,4,1610612750,MIN,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,Prince REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,403
+0022100743,574,PT08M06.00S,4,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,197,158,25,Missed,1,,,0,v,MISS McLaughlin 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,404
+0022100743,575,PT08M01.00S,4,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,405
+0022100743,576,PT08M00.00S,4,1610612756,PHX,1629661,Johnson,C. Johnson,49,62,8,Made,1,109,104,213,h,Johnson 8' Running Layup (15 PTS),Made Shot,Running Layup Shot,1,2,406
+0022100743,577,PT08M00.00S,4,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid S.FOUL (P4.T2) (S.Twardoski),Foul,Shooting,1,0,407
+0022100743,579,PT08M00.00S,4,1610612756,PHX,1630688,Wainright,I. Wainright,0,0,0,,0,,,0,h,SUB: Biyombo FOR Wainright,Substitution,,0,0,408
+0022100743,580,PT08M00.00S,4,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,SUB: Towns FOR Reid,Substitution,,0,0,409
+0022100743,583,PT08M00.00S,4,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,v,SUB: Nowell FOR McLaughlin,Substitution,,0,0,410
+0022100743,585,PT08M00.00S,4,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,110,104,214,h,Johnson Free Throw 1 of 1 (16 PTS),Free Throw,Free Throw 1 of 1,1,0,411
+0022100743,586,PT07M48.00S,4,1610612750,MIN,1626157,Towns,K. Towns,97,246,26,Missed,1,,,0,v,MISS Towns 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,412
+0022100743,587,PT07M45.00S,4,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,413
+0022100743,588,PT07M39.00S,4,1610612756,PHX,202687,Biyombo,B. Biyombo,-12,27,3,Made,1,112,104,216,h,Biyombo 3' Cutting Dunk Shot (14 PTS) (Paul 13 AST),Made Shot,Cutting Dunk Shot,1,2,414
+0022100743,590,PT07M26.00S,4,1610612750,MIN,1627736,Beasley,M. Beasley,49,33,6,Made,1,112,106,218,v,Beasley 6' Cutting Layup Shot (17 PTS) (Edwards 10 AST),Made Shot,Cutting Layup Shot,1,2,415
+0022100743,591,PT07M16.00S,4,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley P.FOUL (P2.T3) (T.Maddox),Foul,Personal,1,0,416
+0022100743,594,PT07M16.00S,4,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,h,SUB: Booker FOR Bridges,Substitution,,0,0,417
+0022100743,596,PT07M09.00S,4,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,Johnson Traveling Turnover (P1.T12),Turnover,Traveling,1,0,418
+0022100743,598,PT06M54.00S,4,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,419
+0022100743,599,PT06M54.00S,4,1610612750,MIN,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,SUB: Vanderbilt FOR Prince,Substitution,,0,0,420
+0022100743,602,PT06M48.00S,4,1610612750,MIN,1630162,Edwards,A. Edwards,40,104,11,Made,1,112,108,220,v,Edwards 11' Floating Jump Shot (24 PTS) (Towns 4 AST),Made Shot,Floating Jump shot,1,2,421
+0022100743,604,PT06M30.00S,4,1610612750,MIN,1629669,Nowell,J. Nowell,0,0,0,,0,,,0,v,Nowell P.FOUL (P4.T4) (S.Twardoski),Foul,Personal,1,0,422
+0022100743,606,PT06M23.00S,4,1610612756,PHX,1629661,Johnson,C. Johnson,-225,14,0,Made,1,115,108,223,h,Johnson 3PT Jump Shot (19 PTS) (Booker 8 AST),Made Shot,Jump Shot,1,3,423
+0022100743,608,PT06M05.00S,4,1610612750,MIN,1626157,Towns,K. Towns,-7,265,27,Missed,1,,,0,v,MISS Towns 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,424
+0022100743,609,PT06M02.00S,4,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,425
+0022100743,610,PT05M56.00S,4,1610612756,PHX,1629661,Johnson,C. Johnson,-179,193,26,Made,1,118,108,226,h,Johnson 26' 3PT Jump Shot (22 PTS) (Paul 14 AST),Made Shot,Jump Shot,1,3,426
+0022100743,612,PT05M41.00S,4,1610612750,MIN,1629669,Nowell,J. Nowell,37,38,5,Made,1,118,110,228,v,Nowell 5' Driving Layup (10 PTS),Made Shot,Driving Layup Shot,1,2,427
+0022100743,613,PT05M26.00S,4,1610612756,PHX,1629013,Shamet,L. Shamet,232,36,0,Made,1,121,110,231,h,Shamet 3PT Jump Shot (17 PTS) (Johnson 3 AST),Made Shot,Jump Shot,1,3,428
+0022100743,615,PT05M26.00S,4,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,429
+0022100743,616,PT05M26.00S,4,1610612756,PHX,1629013,Shamet,L. Shamet,0,0,0,,0,,,0,h,SUB: Bridges FOR Shamet,Substitution,,0,0,430
+0022100743,617,PT05M26.00S,4,1610612750,MIN,1629669,Nowell,J. Nowell,0,0,0,,0,,,0,v,SUB: McDaniels FOR Nowell,Substitution,,0,0,431
+0022100743,620,PT05M10.00S,4,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker P.FOUL (P2.T4) (M.Ervin),Foul,Personal,1,0,432
+0022100743,622,PT05M03.00S,4,1610612750,MIN,1630162,Edwards,A. Edwards,196,170,26,Made,1,121,113,234,v,Edwards 26' 3PT Pullup Jump Shot (27 PTS),Made Shot,Pullup Jump shot,1,3,433
+0022100743,624,PT04M48.00S,4,1610612756,PHX,1626164,Booker,D. Booker,137,222,26,Missed,1,,,0,h,MISS Booker 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,434
+0022100743,625,PT04M46.00S,4,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,435
+0022100743,626,PT04M43.00S,4,1610612756,PHX,101108,Paul,C. Paul,-45,250,25,Made,1,124,113,237,h,Paul 25' 3PT Jump Shot (18 PTS) (Johnson 4 AST),Made Shot,Jump Shot,1,3,436
+0022100743,628,PT04M26.00S,4,1610612750,MIN,1630162,Edwards,A. Edwards,-12,257,26,Missed,1,,,0,v,MISS Edwards 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,437
+0022100743,629,PT04M23.00S,4,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,438
+0022100743,630,PT04M18.00S,4,1610612756,PHX,1626164,Booker,D. Booker,-208,162,26,Missed,1,,,0,h,MISS Booker 26' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,439
+0022100743,631,PT04M15.00S,4,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:4 Def:7),Rebound,Unknown,1,0,440
+0022100743,632,PT04M11.00S,4,1610612756,PHX,1628969,Bridges,M. Bridges,-22,24,3,Made,1,126,113,239,h,Bridges 3' Layup (18 PTS) (Booker 9 AST),Made Shot,Layup Shot,1,2,441
+0022100743,634,PT04M11.00S,4,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,442
+0022100743,635,PT03M57.00S,4,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo S.FOUL (P5.PN) (T.Maddox),Foul,Shooting,1,0,443
+0022100743,637,PT03M57.00S,4,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,126,114,240,v,Beasley Free Throw 1 of 2 (18 PTS),Free Throw,Free Throw 1 of 2,0,0,444
+0022100743,638,PT03M57.00S,4,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,SUB: Smith FOR Biyombo,Substitution,,0,0,445
+0022100743,640,PT03M57.00S,4,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,126,115,241,v,Beasley Free Throw 2 of 2 (19 PTS),Free Throw,Free Throw 2 of 2,1,0,446
+0022100743,641,PT03M39.00S,4,1610612756,PHX,101108,Paul,C. Paul,97,152,18,Missed,1,,,0,h,MISS Paul 18' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,447
+0022100743,642,PT03M37.00S,4,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,448
+0022100743,643,PT03M31.00S,4,1610612750,MIN,1627736,Beasley,M. Beasley,5,259,26,Made,1,126,118,244,v,Beasley 26' 3PT Running Pull-Up Jump Shot (22 PTS),Made Shot,Running Pull-Up Jump Shot,1,3,449
+0022100743,644,PT03M31.00S,4,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,450
+0022100743,645,PT03M21.00S,4,1610612756,PHX,1626164,Booker,D. Booker,-6,257,26,Missed,1,,,0,h,MISS Booker 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,451
+0022100743,646,PT03M17.00S,4,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,Towns REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,452
+0022100743,647,PT03M02.00S,4,1610612750,MIN,1630162,Edwards,A. Edwards,-11,37,4,Missed,1,,,0,v,MISS Edwards 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,453
+0022100743,647,PT03M02.00S,4,1610612756,PHX,1630188,Smith,J. Smith,0,0,0,,0,,,0,h,Smith BLOCK (1 BLK),,,1,2,454
+0022100743,649,PT03M02.00S,4,1610612756,PHX,1630188,Smith,J. Smith,0,0,0,,0,,,0,h,Smith REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,455
+0022100743,650,PT03M02.00S,4,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,Towns P.FOUL (P5.PN) (M.Ervin),Foul,Personal,1,0,456
+0022100743,652,PT03M02.00S,4,1610612756,PHX,1630188,Smith,J. Smith,0,0,0,,0,127,118,245,h,Smith Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,457
+0022100743,653,PT03M02.00S,4,1610612756,PHX,1630188,Smith,J. Smith,0,0,0,,0,128,118,246,h,Smith Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,458
+0022100743,654,PT02M47.00S,4,1610612750,MIN,1627736,Beasley,M. Beasley,-31,34,5,Made,1,128,120,248,v,Beasley 5' Cutting Layup Shot (24 PTS) (Towns 5 AST),Made Shot,Cutting Layup Shot,1,2,459
+0022100743,656,PT02M20.00S,4,1610612756,PHX,1628969,Bridges,M. Bridges,1,61,6,Missed,1,,,0,h,MISS Bridges 6' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,460
+0022100743,656,PT02M20.00S,4,1610612750,MIN,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,v,Vanderbilt BLOCK (1 BLK),,,1,2,461
+0022100743,657,PT02M17.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,462
+0022100743,658,PT02M14.00S,4,1610612750,MIN,1627736,Beasley,M. Beasley,40,29,5,Made,1,128,122,250,v,Beasley 5' Running Layup (26 PTS) (McDaniels 2 AST),Made Shot,Running Layup Shot,1,2,463
+0022100743,660,PT01M51.00S,4,1610612756,PHX,1626164,Booker,D. Booker,33,67,7,Missed,1,,,0,h,MISS Booker 7' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,464
+0022100743,661,PT01M48.00S,4,1610612750,MIN,1630162,Edwards,A. Edwards,0,0,0,,0,,,0,v,Edwards REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,465
+0022100743,662,PT01M36.00S,4,1610612750,MIN,1630162,Edwards,A. Edwards,-17,259,26,Missed,1,,,0,v,MISS Edwards 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,466
+0022100743,663,PT01M34.00S,4,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,467
+0022100743,664,PT01M11.00S,4,1610612756,PHX,1628969,Bridges,M. Bridges,232,8,0,Missed,1,,,0,h,MISS Bridges 3PT Jump Shot,Missed Shot,Jump Shot,1,3,468
+0022100743,665,PT01M09.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,469
+0022100743,666,PT01M05.00S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels Lost Ball Turnover (P1.T7),Turnover,Lost Ball,1,0,470
+0022100743,666,PT01M05.00S,4,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul STEAL (1 STL),,,1,0,471
+0022100743,668,PT00M48.70S,4,1610612750,MIN,1630183,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels P.FOUL (P3.PN) (S.Twardoski),Foul,Personal,1,0,472
+0022100743,671,PT00M48.70S,4,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,MISS Paul Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,473
+0022100743,672,PT00M48.70S,4,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Rebound,Rebound,Normal Rebound,0,0,474
+0022100743,673,PT00M48.70S,4,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,129,122,251,h,Paul Free Throw 2 of 2 (19 PTS),Free Throw,Free Throw 2 of 2,1,0,475
+0022100743,674,PT00M48.70S,4,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,476
+0022100743,675,PT00M46.40S,4,1610612756,PHX,1630188,Smith,J. Smith,0,0,0,,0,,,0,h,Smith P.FOUL (P6.PN) (S.Twardoski),Foul,Personal,1,0,477
+0022100743,677,PT00M46.40S,4,1610612756,PHX,1630188,Smith,J. Smith,0,0,0,,0,,,0,h,SUB: Biyombo FOR Smith,Substitution,,0,0,478
+0022100743,679,PT00M46.40S,4,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,129,123,252,v,Towns Free Throw 1 of 2 (22 PTS),Free Throw,Free Throw 1 of 2,1,0,479
+0022100743,680,PT00M46.40S,4,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,129,124,253,v,Towns Free Throw 2 of 2 (23 PTS),Free Throw,Free Throw 2 of 2,1,0,480
+0022100743,681,PT00M40.90S,4,1610612750,MIN,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,v,Vanderbilt P.FOUL (P1.PN) (M.Ervin),Foul,Personal,1,0,481
+0022100743,683,PT00M40.90S,4,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,130,124,254,h,Johnson Free Throw 1 of 2 (23 PTS),Free Throw,Free Throw 1 of 2,1,0,482
+0022100743,684,PT00M40.90S,4,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,MISS Johnson Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,483
+0022100743,685,PT00M38.00S,4,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,Towns REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,484
+0022100743,686,PT00M33.60S,4,1610612750,MIN,1627736,Beasley,M. Beasley,199,165,26,Missed,1,,,0,v,MISS Beasley 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,485
+0022100743,687,PT00M30.60S,4,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:4 Def:8),Rebound,Unknown,1,0,486
+0022100743,688,PT00M26.20S,4,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,487
+0022100743,689,PT00M26.20S,4,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Timeout: Regular (Full 7 Short 0),Timeout,Regular,0,0,488
+0022100743,690,PT00M26.20S,4,1610612756,PHX,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,SUB: Shamet FOR Biyombo,Substitution,,0,0,489
+0022100743,691,PT00M26.20S,4,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,v,SUB: Prince FOR Towns,Substitution,,0,0,490
+0022100743,694,PT00M22.50S,4,1610612750,MIN,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,v,Vanderbilt Personal Take Foul (P2.PN) (M.Ervin),Foul,Personal Take,1,0,491
+0022100743,696,PT00M22.50S,4,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,131,124,255,h,Booker Free Throw 1 of 2 (28 PTS),Free Throw,Free Throw 1 of 2,1,0,492
+0022100743,697,PT00M22.50S,4,1610612756,PHX,1629013,Shamet,L. Shamet,0,0,0,,0,,,0,h,SUB: Wainright FOR Shamet,Substitution,,0,0,493
+0022100743,698,PT00M22.50S,4,1610612750,MIN,1629020,Vanderbilt,J. Vanderbilt,0,0,0,,0,,,0,v,SUB: Towns FOR Vanderbilt,Substitution,,0,0,494
+0022100743,701,PT00M22.50S,4,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,132,124,256,h,Booker Free Throw 2 of 2 (29 PTS),Free Throw,Free Throw 2 of 2,1,0,495
+0022100743,702,PT00M13.30S,4,1610612750,MIN,1627752,Prince,T. Prince,157,197,25,Missed,1,,,0,v,MISS Prince 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,496
+0022100743,703,PT00M10.10S,4,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,497
+0022100743,704,PT00M06.50S,4,1610612750,MIN,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,Prince Personal Take Foul (P2.PN) (S.Twardoski),Foul,Personal Take,1,0,498
+0022100743,706,PT00M06.50S,4,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,133,124,257,h,Paul Free Throw 1 of 2 (20 PTS),Free Throw,Free Throw 1 of 2,1,0,499
+0022100743,707,PT00M06.50S,4,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,134,124,258,h,Paul Free Throw 2 of 2 (21 PTS),Free Throw,Free Throw 2 of 2,1,0,500
+0022100743,711,PT00M00.30S,4,1610612750,MIN,1627736,Beasley,M. Beasley,-152,18,15,Missed,1,,,0,v,MISS Beasley 15' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,0,2,501
+0022100743,712,PT00M00.10S,4,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Unknown,0,0,502
+0022100743,710,PT00M00.00S,4,0,,0,,,0,0,0,,0,134,124,258,,End of 4th Period (11:34 PM EST),period,end,1,0,503

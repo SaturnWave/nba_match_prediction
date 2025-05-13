@@ -1,0 +1,482 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022001027,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:41 PM EST),period,start,0,0,1
+0022001027,4,PT12M00.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Jump Ball Allen vs. Sabonis: Tip to Okoro,Jump Ball,,1,0,2
+0022001027,7,PT11M49.00S,1,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,,,0,v,Sumner S.FOUL (P1.T1) (M.Ayotte),Foul,Shooting,1,0,3
+0022001027,9,PT11M49.00S,1,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,1,0,1,h,Okoro Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,4
+0022001027,10,PT11M49.00S,1,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,2,0,2,h,Okoro Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,5
+0022001027,11,PT11M32.00S,1,1610612754,IND,1627747,LeVert,C. LeVert,-81,242,26,Made,1,2,3,5,v,LeVert 26' 3PT Jump Shot (3 PTS) (Sumner 1 AST),Made Shot,Jump Shot,1,3,6
+0022001027,13,PT11M20.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,Sexton Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,7
+0022001027,13,PT11M20.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis STEAL (1 STL),,,1,0,8
+0022001027,15,PT11M09.00S,1,1610612754,IND,1629052,Brissett,O. Brissett,-3,17,2,Made,1,2,5,7,v,Brissett 2' Layup (2 PTS) (LeVert 1 AST),Made Shot,Layup Shot,1,2,9
+0022001027,17,PT10M54.00S,1,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,h,Wade Out of Bounds Lost Ball Turnover (P1.T2),Turnover,Out of Bounds Lost Ball Turnover,1,0,10
+0022001027,18,PT10M44.00S,1,1610612754,IND,203926,McDermott,D. McDermott,7,8,1,Made,1,2,7,9,v,McDermott 1' Driving Layup (2 PTS) (Sabonis 1 AST),Made Shot,Driving Layup Shot,1,2,11
+0022001027,20,PT10M26.00S,1,1610612739,CLE,1629731,Wade,D. Wade,-114,235,26,Missed,1,,,0,h,MISS Wade 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,12
+0022001027,21,PT10M22.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,13
+0022001027,22,PT10M12.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,-26,52,6,Made,1,2,9,11,v,Sabonis 6' Floating Jump Shot (2 PTS) (LeVert 2 AST),Made Shot,Floating Jump shot,1,2,14
+0022001027,24,PT09M58.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,-132,233,27,Missed,1,,,0,h,MISS Sexton 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,15
+0022001027,25,PT09M56.00S,1,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,h,Okoro REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,16
+0022001027,26,PT09M54.00S,1,1610612739,CLE,1628422,Dotson,D. Dotson,220,138,26,Missed,1,,,0,h,MISS Dotson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,17
+0022001027,27,PT09M52.00S,1,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,,,0,v,Sumner REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,18
+0022001027,28,PT09M48.00S,1,1610612754,IND,1628410,Sumner,E. Sumner,9,73,7,Missed,1,,,0,v,MISS Sumner 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,19
+0022001027,29,PT09M45.00S,1,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,h,Okoro REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,20
+0022001027,31,PT09M34.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,-6,8,1,Made,1,4,9,13,h,Sexton 1' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,21
+0022001027,32,PT09M19.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,-6,5,1,Made,1,4,11,15,v,Sabonis 1' Layup (4 PTS),Made Shot,Layup Shot,1,2,22
+0022001027,33,PT09M00.00S,1,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,,,0,v,Sumner S.FOUL (P2.T2) (B.Forte),Foul,Shooting,1,0,23
+0022001027,35,PT09M00.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,5,11,16,h,Sexton Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,24
+0022001027,36,PT09M00.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,6,11,17,h,Sexton Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,25
+0022001027,37,PT08M51.00S,1,1610612754,IND,1627747,LeVert,C. LeVert,-16,42,4,Made,1,6,13,19,v,LeVert 4' Driving Floating Jump Shot (5 PTS),Made Shot,Driving Floating Jump Shot,1,2,26
+0022001027,38,PT08M38.00S,1,1610612739,CLE,1628422,Dotson,D. Dotson,231,18,0,Missed,1,,,0,h,MISS Dotson 3PT Jump Shot,Missed Shot,Jump Shot,1,3,27
+0022001027,39,PT08M36.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,28
+0022001027,40,PT08M21.00S,1,1610612754,IND,1629052,Brissett,O. Brissett,-237,43,24,Made,1,6,16,22,v,Brissett 24' 3PT Step Back Jump Shot (5 PTS),Made Shot,Step Back Jump shot,1,3,29
+0022001027,41,PT08M20.00S,1,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,30
+0022001027,42,PT08M02.00S,1,1610612739,CLE,1628386,Allen,J. Allen,-61,54,8,Made,1,8,16,24,h,Allen 8' Turnaround Hook Shot (2 PTS),Made Shot,Turnaround Hook Shot,1,2,31
+0022001027,44,PT07M43.00S,1,1610612754,IND,1627747,LeVert,C. LeVert,62,59,9,Missed,1,,,0,v,MISS LeVert 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,32
+0022001027,45,PT07M41.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,33
+0022001027,46,PT07M36.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,-96,235,25,Missed,1,,,0,v,MISS Sabonis 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,34
+0022001027,47,PT07M33.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,35
+0022001027,48,PT07M25.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,43,20,5,Missed,1,,,0,h,MISS Sexton 5' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,36
+0022001027,49,PT07M22.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,37
+0022001027,50,PT07M20.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,38
+0022001027,50,PT07M20.00S,1,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,,,0,v,LeVert STEAL (1 STL),,,1,0,39
+0022001027,52,PT07M09.00S,1,1610612754,IND,203926,McDermott,D. McDermott,6,8,1,Made,1,8,18,26,v,McDermott 1' Layup (4 PTS),Made Shot,Layup Shot,1,2,40
+0022001027,53,PT06M51.00S,1,1610612739,CLE,1628386,Allen,J. Allen,-32,49,6,Missed,1,,,0,h,MISS Allen 6' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,41
+0022001027,54,PT06M51.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,Sexton REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,42
+0022001027,55,PT06M51.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,11,10,1,Made,1,10,18,28,h,Sexton 1' Putback Layup (6 PTS),Made Shot,Putback Layup Shot,1,2,43
+0022001027,56,PT06M51.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis S.FOUL (P1.T3) (B.Forte),Foul,Shooting,1,0,44
+0022001027,58,PT06M51.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,MISS Sexton Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,45
+0022001027,59,PT06M47.00S,1,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,McDermott REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,46
+0022001027,60,PT06M28.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,-82,61,10,Missed,1,,,0,v,MISS Sabonis 10' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,47
+0022001027,61,PT06M26.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,Sexton REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,48
+0022001027,62,PT06M16.00S,1,1610612739,CLE,1628386,Allen,J. Allen,-41,68,8,Made,1,12,18,30,h,Allen 8' Turnaround Hook Shot (4 PTS) (Sexton 1 AST),Made Shot,Turnaround Hook Shot,1,2,49
+0022001027,64,PT05M59.00S,1,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,,,0,v,Sumner Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,50
+0022001027,64,PT05M59.00S,1,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,h,Okoro STEAL (1 STL),,,1,0,51
+0022001027,66,PT05M53.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,205,141,25,Missed,1,,,0,h,MISS Sexton 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,52
+0022001027,67,PT05M51.00S,1,1610612754,IND,1629052,Brissett,O. Brissett,0,0,0,,0,,,0,v,Brissett REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,53
+0022001027,68,PT05M46.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,12,4,1,Made,1,12,20,32,v,Sabonis 1' Cutting Layup Shot (6 PTS) (LeVert 3 AST),Made Shot,Cutting Layup Shot,1,2,54
+0022001027,70,PT05M25.00S,1,1610612739,CLE,1628386,Allen,J. Allen,13,262,26,Made,1,15,20,35,h,Allen 26' 3PT Jump Shot (7 PTS) (Okoro 1 AST),Made Shot,Jump Shot,1,3,55
+0022001027,72,PT05M13.00S,1,1610612754,IND,1627747,LeVert,C. LeVert,-16,34,4,Missed,1,,,0,v,MISS LeVert 4' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,56
+0022001027,73,PT05M11.00S,1,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,h,Wade REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,57
+0022001027,74,PT05M01.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,-34,70,8,Missed,1,,,0,h,MISS Sexton 8' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,58
+0022001027,75,PT04M59.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,59
+0022001027,76,PT04M51.00S,1,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,,,0,v,Sumner Bad Pass Turnover (P2.T2),Turnover,Bad Pass,1,0,60
+0022001027,76,PT04M51.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,Sexton STEAL (1 STL),,,1,0,61
+0022001027,78,PT04M46.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,-195,172,26,Made,1,18,20,38,h,Sexton 26' 3PT Pullup Jump Shot (9 PTS),Made Shot,Pullup Jump shot,1,3,62
+0022001027,79,PT04M39.00S,1,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,63
+0022001027,80,PT04M39.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,SUB: Kabengele FOR Sexton,Substitution,,0,0,64
+0022001027,81,PT04M39.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,SUB: Thomas FOR Allen,Substitution,,0,0,65
+0022001027,82,PT04M39.00S,1,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,,,0,v,SUB: J. Holiday FOR Sumner,Substitution,,0,0,66
+0022001027,86,PT04M29.00S,1,1610612754,IND,203926,McDermott,D. McDermott,-36,13,4,Missed,1,,,0,v,MISS McDermott 4' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,67
+0022001027,87,PT04M27.00S,1,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,h,Okoro REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,68
+0022001027,88,PT04M19.00S,1,1610612739,CLE,1628422,Dotson,D. Dotson,157,210,26,Made,1,21,20,41,h,Dotson 26' 3PT Jump Shot (3 PTS) (Okoro 2 AST),Made Shot,Jump Shot,1,3,69
+0022001027,90,PT04M01.00S,1,1610612754,IND,1627747,LeVert,C. LeVert,-8,95,10,Made,1,21,22,43,v,LeVert 10' Driving Floating Jump Shot (7 PTS),Made Shot,Driving Floating Jump Shot,1,2,70
+0022001027,91,PT03M42.00S,1,1610612739,CLE,1629731,Wade,D. Wade,31,80,9,Made,1,23,22,45,h,Wade 9' Turnaround Fadeaway (2 PTS),Made Shot,Turnaround Fadeaway shot,1,2,71
+0022001027,92,PT03M18.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,-49,41,6,Missed,1,,,0,v,MISS Sabonis 6' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,72
+0022001027,93,PT03M16.00S,1,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,h,Wade REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,73
+0022001027,94,PT03M11.00S,1,1610612739,CLE,1628422,Dotson,D. Dotson,190,179,26,Missed,1,,,0,h,MISS Dotson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,74
+0022001027,95,PT03M09.00S,1,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,h,Wade REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,75
+0022001027,96,PT02M57.00S,1,1610612739,CLE,1630171,Okoro,I. Okoro,232,65,24,Missed,1,,,0,h,MISS Okoro 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,76
+0022001027,97,PT02M55.00S,1,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,77
+0022001027,98,PT02M55.00S,1,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,SUB: McConnell FOR McDermott,Substitution,,0,0,78
+0022001027,100,PT02M44.00S,1,1610612754,IND,1627747,LeVert,C. LeVert,-20,95,10,Missed,1,,,0,v,MISS LeVert 10' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,79
+0022001027,101,PT02M42.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,80
+0022001027,102,PT02M40.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,1,25,3,Missed,1,,,0,v,MISS Sabonis 3' Putback Layup,Missed Shot,Putback Layup Shot,1,2,81
+0022001027,103,PT02M35.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,82
+0022001027,104,PT02M35.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,Made,1,23,24,47,v,Sabonis Tip Layup Shot (8 PTS),Made Shot,Tip Layup Shot,1,2,83
+0022001027,105,PT02M21.00S,1,1610612739,CLE,1629731,Wade,D. Wade,20,4,2,Made,1,25,24,49,h,Wade 2' Driving Layup (4 PTS) (Thomas 1 AST),Made Shot,Driving Layup Shot,1,2,84
+0022001027,107,PT02M07.00S,1,1610612754,IND,203200,Holiday,J. Holiday,-84,134,16,Missed,1,,,0,v,MISS J. Holiday 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,85
+0022001027,108,PT02M05.00S,1,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,h,Okoro REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,86
+0022001027,109,PT01M55.00S,1,1610612739,CLE,1630271,Thomas,B. Thomas,5,15,2,Made,1,27,24,51,h,Thomas 2' Driving Layup (2 PTS) (Okoro 3 AST),Made Shot,Driving Layup Shot,1,2,87
+0022001027,111,PT01M46.00S,1,1610612739,CLE,1629662,Kabengele,M. Kabengele,0,0,0,,0,,,0,h,Kabengele S.FOUL (P1.T1) (A.Nagy),Foul,Shooting,1,0,88
+0022001027,113,PT01M46.00S,1,1610612754,IND,1629052,Brissett,O. Brissett,0,0,0,,0,27,25,52,v,Brissett Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,89
+0022001027,114,PT01M46.00S,1,1610612739,CLE,1628422,Dotson,D. Dotson,0,0,0,,0,,,0,h,SUB: Martin FOR Dotson,Substitution,,0,0,90
+0022001027,115,PT01M46.00S,1,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,,,0,v,SUB: A. Holiday FOR LeVert,Substitution,,0,0,91
+0022001027,118,PT01M46.00S,1,1610612754,IND,1629052,Brissett,O. Brissett,0,0,0,,0,,,0,v,MISS Brissett Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,92
+0022001027,119,PT01M43.00S,1,1610612739,CLE,1629662,Kabengele,M. Kabengele,0,0,0,,0,,,0,h,Kabengele REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,93
+0022001027,120,PT01M21.00S,1,1610612739,CLE,1630271,Thomas,B. Thomas,226,107,25,Missed,1,,,0,h,MISS Thomas 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,94
+0022001027,121,PT01M21.00S,1,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Rebound,Rebound,Unknown,0,0,95
+0022001027,123,PT01M14.00S,1,1610612739,CLE,1629662,Kabengele,M. Kabengele,19,17,3,Missed,1,,,0,h,MISS Kabengele 3' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,96
+0022001027,123,PT01M14.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis BLOCK (1 BLK),,,1,2,97
+0022001027,125,PT01M11.00S,1,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,J. Holiday REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,98
+0022001027,126,PT01M09.00S,1,1610612754,IND,203200,Holiday,J. Holiday,-157,193,25,Missed,1,,,0,v,MISS J. Holiday 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,99
+0022001027,127,PT01M04.00S,1,1610612754,IND,1629052,Brissett,O. Brissett,0,0,0,,0,,,0,v,Brissett REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,100
+0022001027,128,PT00M55.70S,1,1610612739,CLE,1630271,Thomas,B. Thomas,0,0,0,,0,,,0,h,Thomas S.FOUL (P1.PN) (M.Ayotte),Foul,Shooting,1,0,101
+0022001027,130,PT00M55.70S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,MISS Sabonis Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,102
+0022001027,131,PT00M55.70S,1,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Normal Rebound,0,0,103
+0022001027,132,PT00M55.70S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,MISS Sabonis Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,104
+0022001027,133,PT00M53.50S,1,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,h,Wade REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,105
+0022001027,134,PT00M30.50S,1,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,v,A. Holiday S.FOUL (P1.T4) (A.Nagy),Foul,Shooting,1,0,106
+0022001027,136,PT00M30.50S,1,0,,134,Johnson,K. Johnson,0,0,0,,0,27,25,52,,Instant Replay1st Period (8:03 PM EST),Instant Replay,Support Ruling,0,0,107
+0022001027,137,PT00M30.50S,1,1610612739,CLE,1630271,Thomas,B. Thomas,0,0,0,,0,,,0,h,MISS Thomas Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,108
+0022001027,138,PT00M30.50S,1,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Rebound,Rebound,Normal Rebound,0,0,109
+0022001027,139,PT00M30.50S,1,1610612739,CLE,1630271,Thomas,B. Thomas,0,0,0,,0,28,25,53,h,Thomas Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,110
+0022001027,140,PT00M19.90S,1,1610612754,IND,204456,McConnell,T. McConnell,-16,73,7,Made,1,28,27,55,v,McConnell 7' Turnaround Jump Shot (2 PTS),Made Shot,Turnaround Jump Shot,1,2,111
+0022001027,141,PT00M03.00S,1,1610612739,CLE,1630171,Okoro,I. Okoro,21,23,3,Missed,1,,,0,h,MISS Okoro 3' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,112
+0022001027,142,PT00M03.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,113
+0022001027,143,PT00M00.00S,1,0,,0,,,0,0,0,,0,28,27,55,,End of 1st Period (8:06 PM EST),period,end,1,0,114
+0022001027,152,PT12M00.00S,2,0,,0,,,0,0,0,,0,28,27,55,,Start of 2nd Period (8:09 PM EST),period,start,0,0,115
+0022001027,153,PT11M46.00S,2,1610612754,IND,1629048,Bitadze,G. Bitadze,-29,136,14,Missed,1,,,0,v,MISS Bitadze 14' Jump Shot,Missed Shot,Jump Shot,1,2,116
+0022001027,154,PT11M44.00S,2,1610612754,IND,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,Martin REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,117
+0022001027,155,PT11M32.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,-76,113,14,Missed,1,,,0,v,MISS A. Holiday 14' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,118
+0022001027,156,PT11M29.00S,2,1610612739,CLE,1629662,Kabengele,M. Kabengele,0,0,0,,0,,,0,h,Kabengele REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,119
+0022001027,157,PT11M19.00S,2,1610612739,CLE,1629662,Kabengele,M. Kabengele,105,50,12,Missed,1,,,0,h,MISS Kabengele 12' Jump Shot,Missed Shot,Jump Shot,1,2,120
+0022001027,158,PT11M16.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,v,A. Holiday REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,121
+0022001027,159,PT11M10.00S,2,1610612754,IND,1629048,Bitadze,G. Bitadze,139,220,26,Missed,1,,,0,v,MISS Bitadze 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,122
+0022001027,160,PT11M07.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,Sexton REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,123
+0022001027,161,PT11M00.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,-16,54,6,Missed,1,,,0,h,MISS Sexton 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,124
+0022001027,162,PT11M00.00S,2,1610612739,CLE,1629662,Kabengele,M. Kabengele,0,0,0,,0,,,0,h,Kabengele REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,125
+0022001027,163,PT11M00.00S,2,1610612739,CLE,1629662,Kabengele,M. Kabengele,13,6,1,Made,1,30,27,57,h,Kabengele 1' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,126
+0022001027,164,PT11M00.00S,2,1610612754,IND,1629048,Bitadze,G. Bitadze,0,0,0,,0,,,0,v,Bitadze S.FOUL (P1.T1) (M.Ayotte),Foul,Shooting,1,0,127
+0022001027,166,PT11M00.00S,2,1610612739,CLE,1629662,Kabengele,M. Kabengele,0,0,0,,0,31,27,58,h,Kabengele Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,1,0,128
+0022001027,167,PT10M44.00S,2,1610612754,IND,204456,McConnell,T. McConnell,12,20,2,Missed,1,,,0,v,MISS McConnell 2' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,129
+0022001027,168,PT10M42.00S,2,1610612754,IND,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,Martin REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,130
+0022001027,169,PT10M41.00S,2,1610612754,IND,1629103,Martin,K. Martin,-2,10,1,Made,1,31,29,60,v,Martin 1' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,131
+0022001027,170,PT10M20.00S,2,1610612739,CLE,1629662,Kabengele,M. Kabengele,-13,263,26,Missed,1,,,0,h,MISS Kabengele 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,132
+0022001027,171,PT10M18.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,Sexton REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,133
+0022001027,172,PT10M05.00S,2,1610612739,CLE,1629725,Martin,J. Martin,15,50,5,Missed,1,,,0,h,MISS Martin 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,134
+0022001027,172,PT10M05.00S,2,1610612754,IND,1629048,Bitadze,G. Bitadze,0,0,0,,0,,,0,v,Bitadze BLOCK (1 BLK),,,1,2,135
+0022001027,174,PT10M02.00S,2,1610612754,IND,1629048,Bitadze,G. Bitadze,0,0,0,,0,,,0,v,Bitadze REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,136
+0022001027,175,PT09M59.00S,2,1610612754,IND,1629048,Bitadze,G. Bitadze,133,222,26,Missed,1,,,0,v,MISS Bitadze 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,137
+0022001027,176,PT09M54.00S,2,1610612754,IND,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,Martin REBOUND (Off:3 Def:0),Rebound,Unknown,1,0,138
+0022001027,177,PT09M54.00S,2,1610612754,IND,1629103,Martin,K. Martin,0,0,0,Missed,1,,,0,v,MISS Martin Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,139
+0022001027,178,PT09M54.00S,2,1610612754,IND,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,Martin REBOUND (Off:4 Def:0),Rebound,Unknown,1,0,140
+0022001027,179,PT09M51.00S,2,1610612754,IND,1629103,Martin,K. Martin,30,22,4,Missed,1,,,0,v,MISS Martin 4' Putback Layup,Missed Shot,Putback Layup Shot,1,2,141
+0022001027,180,PT09M49.00S,2,1610612739,CLE,1629725,Martin,J. Martin,0,0,0,,0,,,0,h,Martin REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,142
+0022001027,181,PT09M35.00S,2,1610612739,CLE,1630271,Thomas,B. Thomas,2,10,1,Made,1,33,29,62,h,Thomas 1' Driving Layup (5 PTS) (Sexton 2 AST),Made Shot,Driving Layup Shot,1,2,143
+0022001027,183,PT09M17.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,v,A. Holiday Lost Ball Turnover (P1.T3),Turnover,Lost Ball,1,0,144
+0022001027,183,PT09M17.00S,2,1610612739,CLE,1629725,Martin,J. Martin,0,0,0,,0,,,0,h,Martin STEAL (1 STL),,,1,0,145
+0022001027,185,PT09M12.00S,2,1610612739,CLE,1628422,Dotson,D. Dotson,0,0,0,,0,,,0,h,Dotson Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,146
+0022001027,185,PT09M12.00S,2,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,McConnell STEAL (1 STL),,,1,0,147
+0022001027,187,PT09M07.00S,2,1610612754,IND,1629103,Martin,K. Martin,7,17,2,Made,1,33,31,64,v,Martin 2' Running Dunk (4 PTS) (McConnell 1 AST),Made Shot,Running Dunk Shot,1,2,148
+0022001027,189,PT08M52.00S,2,1610612739,CLE,1628422,Dotson,D. Dotson,-228,10,0,Missed,1,,,0,h,MISS Dotson 3PT Jump Shot,Missed Shot,Jump Shot,1,3,149
+0022001027,190,PT08M49.00S,2,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,McConnell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,150
+0022001027,191,PT08M41.00S,2,1610612754,IND,203200,Holiday,J. Holiday,230,24,0,Made,1,33,34,67,v,J. Holiday 3PT Jump Shot (3 PTS) (A. Holiday 1 AST),Made Shot,Jump Shot,1,3,151
+0022001027,193,PT08M25.00S,2,1610612739,CLE,1629662,Kabengele,M. Kabengele,106,230,25,Made,1,36,34,70,h,Kabengele 25' 3PT Jump Shot (6 PTS) (Sexton 3 AST),Made Shot,Jump Shot,1,3,152
+0022001027,195,PT08M12.00S,2,1610612754,IND,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,Martin Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,153
+0022001027,195,PT08M12.00S,2,1610612739,CLE,1629662,Kabengele,M. Kabengele,0,0,0,,0,,,0,h,Kabengele STEAL (1 STL),,,1,0,154
+0022001027,197,PT08M10.00S,2,1610612754,IND,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,Martin S.FOUL (P1.T2) (M.Ayotte),Foul,Shooting,1,0,155
+0022001027,199,PT08M10.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,37,34,71,h,Sexton Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,156
+0022001027,200,PT08M10.00S,2,1610612739,CLE,1628422,Dotson,D. Dotson,0,0,0,,0,,,0,h,SUB: Okoro FOR Dotson,Substitution,,0,0,157
+0022001027,202,PT08M10.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,38,34,72,h,Sexton Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,158
+0022001027,203,PT07M55.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,-217,124,25,Missed,1,,,0,v,MISS A. Holiday 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,159
+0022001027,204,PT07M53.00S,2,1610612739,CLE,1630271,Thomas,B. Thomas,0,0,0,,0,,,0,h,Thomas REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,160
+0022001027,205,PT07M46.00S,2,1610612739,CLE,1629662,Kabengele,M. Kabengele,210,159,26,Made,1,41,34,75,h,Kabengele 26' 3PT Jump Shot (9 PTS) (Thomas 2 AST),Made Shot,Jump Shot,1,3,161
+0022001027,207,PT07M40.00S,2,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,McConnell OFF.Foul (P1) (B.Forte),Foul,Offensive,1,0,162
+0022001027,209,PT07M40.00S,2,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,McConnell Offensive Foul Turnover (P1.T5),Turnover,Offensive Foul Turnover,1,0,163
+0022001027,211,PT07M22.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,20,8,2,Missed,1,,,0,h,MISS Sexton 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,164
+0022001027,212,PT07M18.00S,2,1610612739,CLE,1629725,Martin,J. Martin,0,0,0,,0,,,0,h,Martin REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,165
+0022001027,213,PT07M18.00S,2,1610612739,CLE,1629725,Martin,J. Martin,0,0,0,Missed,1,,,0,h,MISS Martin Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,166
+0022001027,214,PT07M17.00S,2,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,McConnell REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,167
+0022001027,215,PT07M12.00S,2,1610612754,IND,203200,Holiday,J. Holiday,-205,135,25,Missed,1,,,0,v,MISS J. Holiday 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,168
+0022001027,216,PT07M10.00S,2,1610612739,CLE,1630271,Thomas,B. Thomas,0,0,0,,0,,,0,h,Thomas REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,169
+0022001027,217,PT07M07.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,9,10,1,Missed,1,,,0,h,MISS Sexton 1' Running Layup,Missed Shot,Running Layup Shot,1,2,170
+0022001027,218,PT07M06.00S,2,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Rebound,Rebound,Unknown,0,0,171
+0022001027,219,PT07M06.00S,2,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,J. Holiday L.B.FOUL (P1.T3) (A.Nagy),Foul,Loose Ball,1,0,172
+0022001027,221,PT07M06.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,SUB: Wade FOR Sexton,Substitution,,0,0,173
+0022001027,222,PT07M06.00S,2,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,SUB: Sabonis FOR J. Holiday,Substitution,,0,0,174
+0022001027,223,PT07M06.00S,2,1610612754,IND,1629048,Bitadze,G. Bitadze,0,0,0,,0,,,0,v,SUB: LeVert FOR Bitadze,Substitution,,0,0,175
+0022001027,227,PT06M51.00S,2,1610612739,CLE,1630171,Okoro,I. Okoro,70,258,27,Made,1,44,34,78,h,Okoro 27' 3PT Step Back Jump Shot (5 PTS),Made Shot,Step Back Jump shot,1,3,176
+0022001027,228,PT06M46.00S,2,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,177
+0022001027,229,PT06M34.00S,2,1610612754,IND,1627747,LeVert,C. LeVert,63,108,13,Made,1,44,36,80,v,LeVert 13' Pullup Jump Shot (9 PTS) (McConnell 2 AST),Made Shot,Pullup Jump shot,1,2,178
+0022001027,231,PT06M19.00S,2,1610612739,CLE,1630171,Okoro,I. Okoro,3,11,1,Made,1,46,36,82,h,Okoro 1' Driving Layup (7 PTS) (Kabengele 1 AST),Made Shot,Driving Layup Shot,1,2,179
+0022001027,232,PT06M03.00S,2,1610612754,IND,1627747,LeVert,C. LeVert,16,21,3,Missed,1,,,0,v,MISS LeVert 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,180
+0022001027,233,PT05M59.00S,2,1610612739,CLE,1629662,Kabengele,M. Kabengele,0,0,0,,0,,,0,h,Kabengele REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,181
+0022001027,234,PT05M56.00S,2,1610612739,CLE,1629731,Wade,D. Wade,163,207,26,Missed,1,,,0,h,MISS Wade 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,182
+0022001027,235,PT05M54.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,183
+0022001027,237,PT05M46.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,192,199,28,Missed,1,,,0,v,MISS A. Holiday 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,184
+0022001027,238,PT05M42.00S,2,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,h,Wade REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,185
+0022001027,239,PT05M33.00S,2,1610612739,CLE,1629662,Kabengele,M. Kabengele,176,201,27,Missed,1,,,0,h,MISS Kabengele 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,186
+0022001027,240,PT05M31.00S,2,1610612754,IND,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,Martin REBOUND (Off:4 Def:1),Rebound,Unknown,1,0,187
+0022001027,241,PT05M21.00S,2,1610612754,IND,1629103,Martin,K. Martin,13,87,9,Made,1,46,38,84,v,Martin 9' Driving Floating Jump Shot (6 PTS) (LeVert 4 AST),Made Shot,Driving Floating Jump Shot,1,2,188
+0022001027,243,PT05M04.00S,2,1610612739,CLE,1629725,Martin,J. Martin,0,0,0,,0,,,0,h,Martin Lost Ball Turnover (P1.T5),Turnover,Lost Ball,1,0,189
+0022001027,243,PT05M04.00S,2,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,McConnell STEAL (2 STL),,,1,0,190
+0022001027,245,PT04M59.00S,2,1610612754,IND,1629103,Martin,K. Martin,5,13,1,Made,1,46,40,86,v,Martin 1' Running Layup (8 PTS) (LeVert 5 AST),Made Shot,Running Layup Shot,1,2,191
+0022001027,247,PT04M48.00S,2,1610612739,CLE,1630271,Thomas,B. Thomas,0,0,0,,0,,,0,h,Thomas Lost Ball Turnover (P1.T6),Turnover,Lost Ball,1,0,192
+0022001027,247,PT04M48.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,v,A. Holiday STEAL (1 STL),,,1,0,193
+0022001027,249,PT04M43.00S,2,1610612754,IND,1629103,Martin,K. Martin,-4,5,1,Made,1,46,42,88,v,Martin 1' Running Layup (10 PTS) (A. Holiday 2 AST),Made Shot,Running Layup Shot,1,2,194
+0022001027,251,PT04M43.00S,2,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,195
+0022001027,252,PT04M43.00S,2,1610612739,CLE,1629725,Martin,J. Martin,0,0,0,,0,,,0,h,SUB: Sexton FOR Martin,Substitution,,0,0,196
+0022001027,253,PT04M43.00S,2,1610612739,CLE,1629662,Kabengele,M. Kabengele,0,0,0,,0,,,0,h,SUB: Allen FOR Kabengele,Substitution,,0,0,197
+0022001027,256,PT04M26.00S,2,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,h,Okoro Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,198
+0022001027,256,PT04M26.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,v,A. Holiday STEAL (2 STL),,,1,0,199
+0022001027,258,PT04M24.00S,2,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,h,Okoro S.FOUL (P1.T1) (A.Nagy),Foul,Shooting,1,0,200
+0022001027,260,PT04M24.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,46,43,89,v,A. Holiday Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,201
+0022001027,261,PT04M24.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,v,MISS A. Holiday Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,202
+0022001027,262,PT04M21.00S,2,1610612739,CLE,1630271,Thomas,B. Thomas,0,0,0,,0,,,0,h,Thomas REBOUND (Off:0 Def:3),Rebound,Unknown,0,0,203
+0022001027,263,PT04M10.00S,2,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,McConnell P.FOUL (P2.T4) (B.Forte),Foul,Personal,1,0,204
+0022001027,265,PT04M00.00S,2,1610612739,CLE,1629731,Wade,D. Wade,-60,71,9,Missed,1,,,0,h,MISS Wade 9' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,205
+0022001027,266,PT03M58.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,206
+0022001027,267,PT03M51.00S,2,1610612754,IND,1627747,LeVert,C. LeVert,8,11,1,Made,1,46,45,91,v,LeVert 1' Driving Layup (11 PTS),Made Shot,Driving Layup Shot,1,2,207
+0022001027,268,PT03M34.00S,2,1610612739,CLE,1630171,Okoro,I. Okoro,-182,184,26,Missed,1,,,0,h,MISS Okoro 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,208
+0022001027,269,PT03M32.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,209
+0022001027,270,PT03M28.00S,2,1610612739,CLE,1630271,Thomas,B. Thomas,0,0,0,,0,,,0,h,Thomas S.FOUL (P2.T2) (A.Nagy),Foul,Shooting,1,0,210
+0022001027,272,PT03M28.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,46,46,92,v,Sabonis Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,211
+0022001027,273,PT03M28.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,46,47,93,v,Sabonis Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,212
+0022001027,274,PT03M13.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,8,11,1,Made,1,48,47,95,h,Sexton 1' Driving Layup (13 PTS),Made Shot,Driving Layup Shot,1,2,213
+0022001027,275,PT03M05.00S,2,1610612754,IND,1629103,Martin,K. Martin,-228,-10,0,Missed,1,,,0,v,MISS Martin 3PT Jump Shot,Missed Shot,Jump Shot,1,3,214
+0022001027,276,PT03M03.00S,2,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,h,Okoro REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,215
+0022001027,277,PT02M48.00S,2,1610612754,IND,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,Martin S.FOUL (P2.PN) (A.Nagy),Foul,Shooting,1,0,216
+0022001027,279,PT02M48.00S,2,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,49,47,96,h,Wade Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,217
+0022001027,280,PT02M48.00S,2,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,50,47,97,h,Wade Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,218
+0022001027,281,PT02M33.00S,2,1610612754,IND,1627747,LeVert,C. LeVert,61,115,13,Made,1,50,49,99,v,LeVert 13' Pullup Jump Shot (13 PTS),Made Shot,Pullup Jump shot,1,2,219
+0022001027,282,PT02M18.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,68,32,8,Made,1,52,49,101,h,Sexton 8' Floating Jump Shot (15 PTS) (Wade 1 AST),Made Shot,Floating Jump shot,1,2,220
+0022001027,284,PT02M09.00S,2,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,h,Okoro S.FOUL (P2.T3) (A.Nagy),Foul,Shooting,1,0,221
+0022001027,286,PT02M09.00S,2,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,52,50,102,v,LeVert Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,222
+0022001027,287,PT02M09.00S,2,1610612754,IND,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,SUB: Sumner FOR Martin,Substitution,,0,0,223
+0022001027,289,PT02M09.00S,2,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,52,51,103,v,LeVert Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,224
+0022001027,290,PT01M53.00S,2,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,McConnell P.FOUL (P3.PN) (M.Ayotte),Foul,Personal,1,0,225
+0022001027,292,PT01M53.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,53,51,104,h,Sexton Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,1,0,226
+0022001027,293,PT01M53.00S,2,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,SUB: Brissett FOR McConnell,Substitution,,0,0,227
+0022001027,295,PT01M53.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,54,51,105,h,Sexton Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,1,0,228
+0022001027,296,PT01M38.00S,2,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,,,0,v,LeVert Bad Pass Turnover (P1.T6),Turnover,Bad Pass,1,0,229
+0022001027,296,PT01M38.00S,2,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,h,Wade STEAL (1 STL),,,1,0,230
+0022001027,298,PT01M32.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,11,0,1,Made,1,56,51,107,h,Sexton 1' Running Layup (19 PTS) (Wade 2 AST),Made Shot,Running Layup Shot,1,2,231
+0022001027,300,PT01M19.00S,2,1610612754,IND,1628410,Sumner,E. Sumner,6,6,1,Made,1,56,53,109,v,Sumner 1' Cutting Layup Shot (2 PTS) (Sabonis 2 AST),Made Shot,Cutting Layup Shot,1,2,232
+0022001027,302,PT00M59.10S,2,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,Sexton Bad Pass Turnover (P2.T8),Turnover,Bad Pass,1,0,233
+0022001027,302,PT00M59.10S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis STEAL (2 STL),,,1,0,234
+0022001027,304,PT00M54.70S,2,1610612754,IND,1629052,Brissett,O. Brissett,0,0,0,,0,,,0,v,Brissett Lost Ball Turnover (P1.T7),Turnover,Lost Ball,1,0,235
+0022001027,304,PT00M54.70S,2,1610612739,CLE,1630271,Thomas,B. Thomas,0,0,0,,0,,,0,h,Thomas STEAL (1 STL),,,1,0,236
+0022001027,306,PT00M49.50S,2,1610612739,CLE,1629731,Wade,D. Wade,-2,5,1,Made,1,58,53,111,h,Wade 1' Cutting Layup Shot (8 PTS) (Okoro 4 AST),Made Shot,Cutting Layup Shot,1,2,237
+0022001027,308,PT00M28.90S,2,1610612754,IND,1628988,Holiday,A. Holiday,-231,24,0,Missed,1,,,0,v,MISS A. Holiday 3PT Jump Shot,Missed Shot,Jump Shot,1,3,238
+0022001027,309,PT00M25.90S,2,1610612739,CLE,1630271,Thomas,B. Thomas,0,0,0,,0,,,0,h,Thomas REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,239
+0022001027,310,PT00M04.80S,2,1610612739,CLE,1629012,Sexton,C. Sexton,-84,172,19,Missed,1,,,0,h,MISS Sexton 19' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,240
+0022001027,311,PT00M02.50S,2,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,241
+0022001027,312,PT00M01.10S,2,1610612739,CLE,1630171,Okoro,I. Okoro,-12,-3,1,Made,1,60,53,113,h,Okoro 1' Cutting Dunk Shot (9 PTS) (Allen 1 AST),Made Shot,Cutting Dunk Shot,1,2,242
+0022001027,314,PT00M00.00S,2,0,,0,,,0,0,0,,0,60,53,113,,End of 2nd Period (8:33 PM EST),period,end,1,0,243
+0022001027,319,PT12M00.00S,3,0,,0,,,0,0,0,,0,60,53,113,,Start of 3rd Period (8:48 PM EST),period,start,0,0,244
+0022001027,320,PT11M48.00S,3,1610612754,IND,203926,McDermott,D. McDermott,14,5,1,Made,1,60,55,115,v,McDermott 1' Driving Layup (6 PTS) (Sabonis 3 AST),Made Shot,Driving Layup Shot,1,2,245
+0022001027,322,PT11M21.00S,3,1610612739,CLE,1630171,Okoro,I. Okoro,-2,24,2,Missed,1,,,0,h,MISS Okoro 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,246
+0022001027,324,PT11M18.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:3 Def:8),Rebound,Unknown,1,0,247
+0022001027,325,PT11M17.00S,3,1610612754,IND,203926,McDermott,D. McDermott,-3,4,1,Made,1,60,57,117,v,McDermott 1' Running Layup (8 PTS) (Sabonis 4 AST),Made Shot,Running Layup Shot,1,2,248
+0022001027,327,PT11M02.00S,3,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,249
+0022001027,328,PT10M56.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,-13,4,1,Made,1,62,57,119,h,Sexton 1' Driving Layup (21 PTS) (Allen 2 AST),Made Shot,Driving Layup Shot,1,2,250
+0022001027,330,PT10M52.00S,3,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,h,Wade P.FOUL (P1.T1) (A.Nagy),Foul,Personal,1,0,251
+0022001027,332,PT10M52.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,SUB: Thomas FOR Sexton,Substitution,,0,0,252
+0022001027,334,PT10M40.00S,3,1610612754,IND,1628410,Sumner,E. Sumner,18,6,2,Missed,1,,,0,v,MISS Sumner 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,253
+0022001027,335,PT10M38.00S,3,1610612739,CLE,1630271,Thomas,B. Thomas,0,0,0,,0,,,0,h,Thomas REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,254
+0022001027,336,PT10M32.00S,3,1610612739,CLE,1630271,Thomas,B. Thomas,6,15,2,Missed,1,,,0,h,MISS Thomas 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,255
+0022001027,337,PT10M29.00S,3,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,,,0,v,LeVert REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,256
+0022001027,338,PT10M26.00S,3,1610612754,IND,1627747,LeVert,C. LeVert,2,12,1,Missed,1,,,0,v,MISS LeVert 1' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,257
+0022001027,339,PT10M23.00S,3,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,h,Okoro REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,258
+0022001027,340,PT10M22.00S,3,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,,,0,v,Sumner S.FOUL (P3.T1) (A.Nagy),Foul,Shooting,1,0,259
+0022001027,342,PT10M22.00S,3,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,h,MISS Wade Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,260
+0022001027,343,PT10M22.00S,3,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Rebound,Rebound,Normal Rebound,0,0,261
+0022001027,344,PT10M22.00S,3,1610612739,CLE,1630271,Thomas,B. Thomas,0,0,0,,0,,,0,h,SUB: Sexton FOR Thomas,Substitution,,0,0,262
+0022001027,346,PT10M22.00S,3,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,63,57,120,h,Wade Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,263
+0022001027,347,PT10M06.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen P.FOUL (P1.T2) (M.Ayotte),Foul,Personal,1,0,264
+0022001027,349,PT09M56.00S,3,1610612754,IND,1627747,LeVert,C. LeVert,-230,25,0,Missed,1,,,0,v,MISS LeVert 3PT Jump Shot,Missed Shot,Jump Shot,1,3,265
+0022001027,350,PT09M51.00S,3,1610612739,CLE,1628422,Dotson,D. Dotson,0,0,0,,0,,,0,h,Dotson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,266
+0022001027,351,PT09M43.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,-4,3,1,Missed,1,,,0,h,MISS Sexton 1' Cutting Dunk Shot,Missed Shot,Cutting Dunk Shot,1,2,267
+0022001027,351,PT09M43.00S,3,1610612754,IND,1629052,Brissett,O. Brissett,0,0,0,,0,,,0,v,Brissett BLOCK (1 BLK),,,1,2,268
+0022001027,353,PT09M39.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:3 Def:9),Rebound,Unknown,1,0,269
+0022001027,354,PT09M36.00S,3,1610612754,IND,1628410,Sumner,E. Sumner,-229,29,0,Missed,1,,,0,v,MISS Sumner 3PT Jump Shot,Missed Shot,Jump Shot,1,3,270
+0022001027,355,PT09M33.00S,3,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,h,Wade REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,271
+0022001027,356,PT09M28.00S,3,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,,,0,v,LeVert P.FOUL (P1.T2) (B.Forte),Foul,Personal,1,0,272
+0022001027,358,PT09M22.00S,3,1610612739,CLE,1630171,Okoro,I. Okoro,-73,289,30,Missed,1,,,0,h,MISS Okoro 30' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,273
+0022001027,359,PT09M19.00S,3,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,,,0,v,Sumner REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,274
+0022001027,360,PT09M06.00S,3,1610612754,IND,1628410,Sumner,E. Sumner,5,7,1,Missed,1,,,0,v,MISS Sumner 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,275
+0022001027,361,PT09M03.00S,3,1610612739,CLE,1628422,Dotson,D. Dotson,0,0,0,,0,,,0,h,Dotson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,276
+0022001027,362,PT09M00.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,Sexton Traveling Turnover (P3.T9),Turnover,Traveling,1,0,277
+0022001027,363,PT08M43.00S,3,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,,,0,v,Sumner Out of Bounds - Bad Pass Turnover Turnover (P3.T8),Turnover,Out of Bounds - Bad Pass Turnover,1,0,278
+0022001027,364,PT08M30.00S,3,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,,,0,v,Sumner P.FOUL (P4.T3) (M.Ayotte),Foul,Personal,1,0,279
+0022001027,366,PT08M30.00S,3,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,,,0,v,SUB: J. Holiday FOR Sumner,Substitution,,0,0,280
+0022001027,368,PT08M16.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,-13,250,25,Missed,1,,,0,h,MISS Sexton 25' 3PT Jump Bank Shot,Missed Shot,Jump Bank Shot,1,3,281
+0022001027,369,PT08M14.00S,3,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,McDermott REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,282
+0022001027,370,PT08M08.00S,3,1610612754,IND,203926,McDermott,D. McDermott,18,259,26,Made,1,63,60,123,v,McDermott 26' 3PT Jump Shot (11 PTS) (Sabonis 5 AST),Made Shot,Jump Shot,1,3,283
+0022001027,372,PT07M40.00S,3,1610612739,CLE,1630171,Okoro,I. Okoro,49,35,6,Missed,1,,,0,h,MISS Okoro 6' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,284
+0022001027,373,PT07M38.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:3 Def:10),Rebound,Unknown,1,0,285
+0022001027,374,PT07M25.00S,3,1610612754,IND,1627747,LeVert,C. LeVert,10,1,1,Made,1,63,62,125,v,LeVert 1' Driving Dunk (17 PTS) (McDermott 1 AST),Made Shot,Driving Dunk Shot,1,2,286
+0022001027,377,PT07M12.00S,3,1610612739,CLE,1628422,Dotson,D. Dotson,0,0,0,,0,,,0,h,SUB: Thomas FOR Dotson,Substitution,,0,0,287
+0022001027,379,PT07M05.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,-9,13,2,Missed,1,,,0,h,MISS Sexton 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,288
+0022001027,379,PT07M05.00S,3,1610612754,IND,1629052,Brissett,O. Brissett,0,0,0,,0,,,0,v,Brissett BLOCK (2 BLK),,,1,2,289
+0022001027,381,PT07M05.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,Sexton REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,290
+0022001027,382,PT07M05.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis S.FOUL (P2.T4) (A.Nagy),Foul,Shooting,1,0,291
+0022001027,384,PT07M05.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,64,62,126,h,Sexton Free Throw 1 of 2 (22 PTS),Free Throw,Free Throw 1 of 2,1,0,292
+0022001027,385,PT07M05.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,65,62,127,h,Sexton Free Throw 2 of 2 (23 PTS),Free Throw,Free Throw 2 of 2,1,0,293
+0022001027,387,PT06M41.00S,3,1610612754,IND,203926,McDermott,D. McDermott,-226,7,0,Missed,1,,,0,v,MISS McDermott 3PT Jump Shot,Missed Shot,Jump Shot,1,3,294
+0022001027,388,PT06M38.00S,3,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,h,Wade REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,295
+0022001027,389,PT06M32.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis S.FOUL (P3.PN) (M.Ayotte),Foul,Shooting,1,0,296
+0022001027,391,PT06M32.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,MISS Allen Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,297
+0022001027,392,PT06M32.00S,3,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Rebound,Rebound,Normal Rebound,0,0,298
+0022001027,393,PT06M32.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,66,62,128,h,Allen Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,299
+0022001027,394,PT06M21.00S,3,1610612754,IND,203926,McDermott,D. McDermott,2,13,1,Made,1,66,64,130,v,McDermott 1' Driving Layup (13 PTS) (LeVert 6 AST),Made Shot,Driving Layup Shot,1,2,300
+0022001027,396,PT05M51.00S,3,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Turnover: Shot Clock (T#10),Turnover,Shot Clock Turnover,0,0,301
+0022001027,397,PT05M43.00S,3,1610612754,IND,203926,McDermott,D. McDermott,6,17,2,Missed,1,,,0,v,MISS McDermott 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,302
+0022001027,397,PT05M43.00S,3,1610612739,CLE,1630271,Thomas,B. Thomas,0,0,0,,0,,,0,h,Thomas BLOCK (1 BLK),,,1,2,303
+0022001027,399,PT05M40.00S,3,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,h,Wade REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,304
+0022001027,401,PT05M22.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen Offensive Charge Foul (P2) (M.Ayotte),Foul,Offensive Charge,1,0,305
+0022001027,403,PT05M22.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen Offensive Foul Turnover (P2.T11),Turnover,Offensive Foul Turnover,1,0,306
+0022001027,404,PT05M10.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,-14,47,5,Made,1,66,66,132,v,Sabonis 5' Jump Shot (12 PTS) (LeVert 7 AST),Made Shot,Jump Shot,1,2,307
+0022001027,406,PT04M54.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,-18,83,8,Missed,1,,,0,h,MISS Sexton 8' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,308
+0022001027,407,PT04M53.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,309
+0022001027,408,PT04M50.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,-27,241,24,Missed,1,,,0,h,MISS Sexton 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,310
+0022001027,409,PT04M47.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:3 Def:11),Rebound,Unknown,1,0,311
+0022001027,410,PT04M37.00S,3,1610612754,IND,1627747,LeVert,C. LeVert,41,50,6,Missed,1,,,0,v,MISS LeVert 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,312
+0022001027,411,PT04M35.00S,3,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,h,Wade REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,313
+0022001027,412,PT04M26.00S,3,1610612739,CLE,1630171,Okoro,I. Okoro,9,15,2,Made,1,68,66,134,h,Okoro 2' Driving Dunk (11 PTS) (Sexton 4 AST),Made Shot,Driving Dunk Shot,1,2,314
+0022001027,414,PT04M13.00S,3,1610612754,IND,1629052,Brissett,O. Brissett,-3,2,0,Made,1,68,68,136,v,Brissett Cutting Dunk Shot (8 PTS) (Sabonis 6 AST),Made Shot,Cutting Dunk Shot,1,2,315
+0022001027,416,PT03M49.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,3,14,1,Missed,1,,,0,h,MISS Sexton 1' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,316
+0022001027,416,PT03M49.00S,3,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,J. Holiday BLOCK (1 BLK),,,1,2,317
+0022001027,418,PT03M49.00S,3,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Rebound,Rebound,Unknown,0,0,318
+0022001027,420,PT03M49.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,SUB: Martin FOR Sexton,Substitution,,0,0,319
+0022001027,421,PT03M49.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,SUB: Kabengele FOR Allen,Substitution,,0,0,320
+0022001027,424,PT03M43.00S,3,1610612739,CLE,1630271,Thomas,B. Thomas,148,162,22,Missed,1,,,0,h,MISS Thomas 22' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,321
+0022001027,425,PT03M39.00S,3,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,h,Okoro REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,322
+0022001027,426,PT03M30.00S,3,1610612739,CLE,1630171,Okoro,I. Okoro,65,38,8,Missed,1,,,0,h,MISS Okoro 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,323
+0022001027,426,PT03M30.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis BLOCK (2 BLK),,,1,2,324
+0022001027,428,PT03M27.00S,3,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,h,Wade REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,325
+0022001027,429,PT03M24.00S,3,1610612739,CLE,1629731,Wade,D. Wade,6,262,26,Made,1,71,68,139,h,Wade 26' 3PT Jump Shot (12 PTS),Made Shot,Jump Shot,1,3,326
+0022001027,430,PT03M16.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,-84,243,26,Missed,1,,,0,v,MISS Sabonis 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,327
+0022001027,431,PT03M13.00S,3,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,h,Okoro REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,328
+0022001027,432,PT03M09.00S,3,1610612739,CLE,1630171,Okoro,I. Okoro,6,4,1,Made,1,73,68,141,h,Okoro 1' Driving Layup (13 PTS),Made Shot,Driving Layup Shot,1,2,329
+0022001027,433,PT03M09.00S,3,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,330
+0022001027,434,PT03M09.00S,3,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,,,0,v,LeVert T.FOUL (P1.PN) (A.Nagy),Foul,Technical,1,0,331
+0022001027,435,PT03M09.00S,3,1610612754,IND,1629052,Brissett,O. Brissett,0,0,0,,0,,,0,v,SUB: McConnell FOR Brissett,Substitution,,0,0,332
+0022001027,436,PT03M09.00S,3,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,SUB: Martin FOR McDermott,Substitution,,0,0,333
+0022001027,439,PT03M09.00S,3,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,74,68,142,h,Wade Free Throw Technical (13 PTS),Free Throw,Free Throw Technical,1,0,334
+0022001027,440,PT02M56.00S,3,1610612754,IND,1627747,LeVert,C. LeVert,-203,164,26,Made,1,74,71,145,v,LeVert 26' 3PT Jump Shot (20 PTS) (McConnell 3 AST),Made Shot,Jump Shot,1,3,335
+0022001027,442,PT02M39.00S,3,1610612739,CLE,1630171,Okoro,I. Okoro,109,72,13,Missed,1,,,0,h,MISS Okoro 13' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,336
+0022001027,443,PT02M37.00S,3,1610612754,IND,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,Martin REBOUND (Off:4 Def:2),Rebound,Unknown,1,0,337
+0022001027,444,PT02M31.00S,3,1610612754,IND,1629103,Martin,K. Martin,125,223,26,Made,1,74,74,148,v,Martin 26' 3PT Jump Shot (13 PTS) (LeVert 8 AST),Made Shot,Jump Shot,1,3,338
+0022001027,446,PT02M02.00S,3,1610612739,CLE,1630171,Okoro,I. Okoro,29,272,27,Missed,1,,,0,h,MISS Okoro 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,339
+0022001027,447,PT02M02.00S,3,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,340
+0022001027,448,PT01M40.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,-36,63,7,Missed,1,,,0,v,MISS Sabonis 7' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,341
+0022001027,449,PT01M37.00S,3,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,h,Okoro REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,342
+0022001027,450,PT01M23.00S,3,1610612739,CLE,1629725,Martin,J. Martin,-33,26,4,Missed,1,,,0,h,MISS Martin 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,343
+0022001027,450,PT01M23.00S,3,1610612754,IND,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,Martin BLOCK (1 BLK),,,1,2,344
+0022001027,452,PT01M23.00S,3,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Rebound,Rebound,Unknown,0,0,345
+0022001027,454,PT01M17.00S,3,1610612739,CLE,1629662,Kabengele,M. Kabengele,43,69,8,Missed,1,,,0,h,MISS Kabengele 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,346
+0022001027,455,PT01M14.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:3 Def:12),Rebound,Unknown,1,0,347
+0022001027,456,PT00M56.10S,3,1610612754,IND,204456,McConnell,T. McConnell,-2,-1,0,Made,1,74,76,150,v,McConnell Driving Layup (4 PTS) (Sabonis 7 AST),Made Shot,Driving Layup Shot,1,2,348
+0022001027,458,PT00M47.50S,3,1610612739,CLE,1630171,Okoro,I. Okoro,13,11,2,Missed,1,,,0,h,MISS Okoro 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,349
+0022001027,458,PT00M47.50S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis BLOCK (3 BLK),,,1,2,350
+0022001027,460,PT00M44.20S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:3 Def:13),Rebound,Unknown,1,0,351
+0022001027,461,PT00M42.40S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis Lost Ball Turnover (P1.T9),Turnover,Lost Ball,1,0,352
+0022001027,461,PT00M42.40S,3,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,h,Wade STEAL (2 STL),,,1,0,353
+0022001027,463,PT00M36.50S,3,1610612739,CLE,1629725,Martin,J. Martin,-234,1,0,Made,1,77,76,153,h,Martin 3PT Jump Shot (3 PTS) (Thomas 3 AST),Made Shot,Jump Shot,1,3,354
+0022001027,465,PT00M28.70S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,-143,243,28,Made,1,77,79,156,v,Sabonis 28' 3PT Jump Shot (15 PTS) (McConnell 4 AST),Made Shot,Jump Shot,1,3,355
+0022001027,467,PT00M05.00S,3,1610612739,CLE,1630271,Thomas,B. Thomas,225,15,0,Missed,1,,,0,h,MISS Thomas 3PT Jump Shot,Missed Shot,Jump Shot,1,3,356
+0022001027,467,PT00M05.00S,3,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,J. Holiday BLOCK (2 BLK),,,1,3,357
+0022001027,469,PT00M05.00S,3,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Rebound,Rebound,Unknown,0,0,358
+0022001027,471,PT00M04.20S,3,1610612739,CLE,1629725,Martin,J. Martin,-9,26,3,Missed,1,,,0,h,MISS Martin 3' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,359
+0022001027,471,PT00M04.20S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis BLOCK (4 BLK),,,1,2,360
+0022001027,473,PT00M03.90S,3,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Rebound,Rebound,Unknown,0,0,361
+0022001027,474,PT00M03.90S,3,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Turnover: Shot Clock (T#12),Turnover,Shot Clock Turnover,0,0,362
+0022001027,475,PT00M00.00S,3,1610612754,IND,1629103,Martin,K. Martin,98,8,10,Missed,1,,,0,v,MISS Martin 10' Jump Shot,Missed Shot,Jump Shot,1,2,363
+0022001027,476,PT00M00.00S,3,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,364
+0022001027,477,PT00M00.00S,3,0,,0,,,0,0,0,,0,77,79,156,,End of 3rd Period (9:14 PM EST),period,end,1,0,365
+0022001027,488,PT12M00.00S,4,0,,0,,,0,0,0,,0,77,79,156,,Start of 4th Period (9:17 PM EST),period,start,0,0,366
+0022001027,489,PT11M38.00S,4,1610612739,CLE,1629012,Sexton,C. Sexton,-20,22,3,Missed,1,,,0,h,MISS Sexton 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,367
+0022001027,490,PT11M34.00S,4,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:4 Def:1),Rebound,Unknown,1,0,368
+0022001027,491,PT11M34.00S,4,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,Made,1,79,79,158,h,Allen Tip Layup Shot (10 PTS),Made Shot,Tip Layup Shot,1,2,369
+0022001027,492,PT11M22.00S,4,1610612754,IND,204456,McConnell,T. McConnell,128,-3,13,Made,1,79,81,160,v,McConnell 13' Pullup Jump Shot (6 PTS) (A. Holiday 3 AST),Made Shot,Pullup Jump shot,1,2,370
+0022001027,494,PT11M02.00S,4,1610612739,CLE,1629731,Wade,D. Wade,-29,19,3,Missed,1,,,0,h,MISS Wade 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,371
+0022001027,495,PT11M02.00S,4,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,h,Wade REBOUND (Off:3 Def:8),Rebound,Unknown,1,0,372
+0022001027,496,PT10M58.00S,4,1610612739,CLE,1629725,Martin,J. Martin,226,169,28,Missed,1,,,0,h,MISS Martin 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,373
+0022001027,497,PT10M58.00S,4,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,McConnell REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,374
+0022001027,500,PT10M44.00S,4,1610612754,IND,203200,Holiday,J. Holiday,232,37,0,Made,1,79,84,163,v,J. Holiday 3PT Jump Shot (6 PTS) (McConnell 5 AST),Made Shot,Jump Shot,1,3,375
+0022001027,502,PT10M22.00S,4,1610612754,IND,1629048,Bitadze,G. Bitadze,0,0,0,,0,,,0,v,Bitadze S.FOUL (P2.T1) (B.Forte),Foul,Shooting,1,0,376
+0022001027,504,PT10M22.00S,4,1610612739,CLE,1628422,Dotson,D. Dotson,0,0,0,,0,,,0,h,MISS Dotson Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,377
+0022001027,505,PT10M22.00S,4,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Rebound,Rebound,Normal Rebound,0,0,378
+0022001027,506,PT10M22.00S,4,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,h,SUB: Okoro FOR Wade,Substitution,,0,0,379
+0022001027,508,PT10M22.00S,4,1610612739,CLE,1628422,Dotson,D. Dotson,0,0,0,,0,80,84,164,h,Dotson Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,380
+0022001027,509,PT10M08.00S,4,1610612754,IND,1629048,Bitadze,G. Bitadze,151,211,26,Missed,1,,,0,v,MISS Bitadze 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,381
+0022001027,510,PT10M08.00S,4,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,h,Okoro REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,382
+0022001027,511,PT09M49.00S,4,1610612739,CLE,1630171,Okoro,I. Okoro,-244,-13,24,Made,1,83,84,167,h,Okoro 24' 3PT Jump Shot (16 PTS) (Sexton 5 AST),Made Shot,Jump Shot,1,3,383
+0022001027,513,PT09M33.00S,4,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,J. Holiday Out of Bounds - Bad Pass Turnover Turnover (P1.T10),Turnover,Out of Bounds - Bad Pass Turnover,1,0,384
+0022001027,514,PT09M33.00S,4,1610612739,CLE,1629725,Martin,J. Martin,0,0,0,,0,,,0,h,SUB: Thomas FOR Martin,Substitution,,0,0,385
+0022001027,516,PT09M19.00S,4,1610612739,CLE,1629012,Sexton,C. Sexton,3,17,2,Missed,1,,,0,h,MISS Sexton 2' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,386
+0022001027,516,PT09M19.00S,4,1610612754,IND,1629048,Bitadze,G. Bitadze,0,0,0,,0,,,0,v,Bitadze BLOCK (2 BLK),,,1,2,387
+0022001027,518,PT09M13.00S,4,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,J. Holiday REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,388
+0022001027,519,PT09M07.00S,4,1610612754,IND,1629103,Martin,K. Martin,52,67,8,Made,1,83,86,169,v,Martin 8' Driving Floating Jump Shot (15 PTS) (J. Holiday 1 AST),Made Shot,Driving Floating Jump Shot,1,2,389
+0022001027,521,PT08M45.00S,4,1610612739,CLE,1630271,Thomas,B. Thomas,-161,180,24,Missed,1,,,0,h,MISS Thomas 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,390
+0022001027,522,PT08M43.00S,4,1610612754,IND,1629048,Bitadze,G. Bitadze,0,0,0,,0,,,0,v,Bitadze REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,391
+0022001027,523,PT08M34.00S,4,1610612754,IND,1629103,Martin,K. Martin,169,191,26,Made,1,83,89,172,v,Martin 26' 3PT Jump Shot (18 PTS) (McConnell 6 AST),Made Shot,Jump Shot,1,3,392
+0022001027,525,PT08M04.00S,4,1610612739,CLE,1628422,Dotson,D. Dotson,-227,10,0,Made,1,86,89,175,h,Dotson 3PT Turnaround Jump Shot (7 PTS),Made Shot,Turnaround Jump Shot,1,3,393
+0022001027,526,PT07M51.00S,4,1610612754,IND,1629103,Martin,K. Martin,-43,44,6,Missed,1,,,0,v,MISS Martin 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,394
+0022001027,527,PT07M50.00S,4,1610612754,IND,1629048,Bitadze,G. Bitadze,0,0,0,,0,,,0,v,Bitadze REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,395
+0022001027,528,PT07M50.00S,4,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,h,Okoro P.FOUL (P3.T1) (B.Forte),Foul,Personal,1,0,396
+0022001027,530,PT07M50.00S,4,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,SUB: Sabonis FOR J. Holiday,Substitution,,0,0,397
+0022001027,531,PT07M50.00S,4,1610612754,IND,1629048,Bitadze,G. Bitadze,0,0,0,,0,,,0,v,SUB: LeVert FOR Bitadze,Substitution,,0,0,398
+0022001027,534,PT07M43.00S,4,1610612754,IND,1629103,Martin,K. Martin,2,-1,0,Made,1,86,91,177,v,Martin Cutting Dunk Shot (20 PTS) (McConnell 7 AST),Made Shot,Cutting Dunk Shot,1,2,399
+0022001027,536,PT07M13.00S,4,1610612739,CLE,1630271,Thomas,B. Thomas,-11,258,26,Missed,1,,,0,h,MISS Thomas 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,400
+0022001027,537,PT07M10.00S,4,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,,,0,v,LeVert REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,401
+0022001027,538,PT07M02.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,-241,122,27,Missed,1,,,0,v,MISS A. Holiday 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,402
+0022001027,539,PT07M00.00S,4,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:4 Def:2),Rebound,Unknown,1,0,403
+0022001027,540,PT06M43.00S,4,1610612739,CLE,1630171,Okoro,I. Okoro,109,248,27,Made,1,89,91,180,h,Okoro 27' 3PT Jump Shot (19 PTS) (Allen 3 AST),Made Shot,Jump Shot,1,3,404
+0022001027,542,PT06M31.00S,4,1610612754,IND,1627747,LeVert,C. LeVert,133,118,18,Missed,1,,,0,v,MISS LeVert 18' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,405
+0022001027,543,PT06M28.00S,4,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:4 Def:3),Rebound,Unknown,1,0,406
+0022001027,544,PT06M25.00S,4,1610612739,CLE,1630171,Okoro,I. Okoro,13,6,1,Made,1,91,91,182,h,Okoro 1' Running Layup (21 PTS) (Sexton 6 AST),Made Shot,Running Layup Shot,1,2,407
+0022001027,546,PT06M24.00S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,408
+0022001027,547,PT06M09.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,5,1,Made,1,91,93,184,v,Sabonis 1' Driving Layup (17 PTS),Made Shot,Driving Layup Shot,1,2,409
+0022001027,548,PT05M45.00S,4,1610612754,IND,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,Martin S.FOUL (P3.T2) (M.Ayotte),Foul,Shooting,1,0,410
+0022001027,550,PT05M45.00S,4,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,h,MISS Okoro Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,411
+0022001027,551,PT05M45.00S,4,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Rebound,Rebound,Normal Rebound,0,0,412
+0022001027,552,PT05M45.00S,4,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,92,93,185,h,Okoro Free Throw 2 of 2 (22 PTS),Free Throw,Free Throw 2 of 2,1,0,413
+0022001027,553,PT05M22.00S,4,1610612754,IND,204456,McConnell,T. McConnell,11,22,2,Missed,1,,,0,v,MISS McConnell 2' Running Reverse Layup,Missed Shot,Running Reverse Layup Shot,1,2,414
+0022001027,553,PT05M22.00S,4,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen BLOCK (1 BLK),,,1,2,415
+0022001027,554,PT05M19.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:4 Def:13),Rebound,Unknown,1,0,416
+0022001027,555,PT05M16.00S,4,1610612754,IND,1627747,LeVert,C. LeVert,5,257,26,Missed,1,,,0,v,MISS LeVert 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,417
+0022001027,556,PT05M14.00S,4,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:4 Def:4),Rebound,Unknown,1,0,418
+0022001027,557,PT05M06.00S,4,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,419
+0022001027,560,PT05M06.00S,4,1610612739,CLE,1628422,Dotson,D. Dotson,0,0,0,,0,,,0,h,SUB: Wade FOR Dotson,Substitution,,0,0,420
+0022001027,561,PT05M06.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,v,SUB: J. Holiday FOR A. Holiday,Substitution,,0,0,421
+0022001027,564,PT04M55.00S,4,1610612739,CLE,1629012,Sexton,C. Sexton,12,99,10,Missed,1,,,0,h,MISS Sexton 10' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,422
+0022001027,565,PT04M52.00S,4,1610612754,IND,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,Martin REBOUND (Off:4 Def:3),Rebound,Unknown,1,0,423
+0022001027,567,PT04M47.00S,4,1610612739,CLE,1630271,Thomas,B. Thomas,0,0,0,,0,,,0,h,Thomas S.FOUL (P3.T2) (B.Forte),Foul,Shooting,1,0,424
+0022001027,569,PT04M47.00S,4,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,92,94,186,v,McConnell Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,425
+0022001027,570,PT04M47.00S,4,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,92,95,187,v,McConnell Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,426
+0022001027,571,PT04M37.00S,4,1610612739,CLE,1629012,Sexton,C. Sexton,-4,9,1,Missed,1,,,0,h,MISS Sexton 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,427
+0022001027,572,PT04M35.00S,4,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,,,0,v,LeVert REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,428
+0022001027,573,PT04M30.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,4,7,1,Made,1,92,97,189,v,Sabonis 1' Cutting Layup Shot (19 PTS) (LeVert 9 AST),Made Shot,Cutting Layup Shot,1,2,429
+0022001027,575,PT04M15.00S,4,1610612739,CLE,1628386,Allen,J. Allen,6,30,3,Missed,1,,,0,h,MISS Allen 3' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,430
+0022001027,575,PT04M15.00S,4,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,,,0,v,LeVert BLOCK (1 BLK),,,1,2,431
+0022001027,577,PT04M11.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:4 Def:14),Rebound,Unknown,1,0,432
+0022001027,578,PT04M10.00S,4,1610612754,IND,1629103,Martin,K. Martin,220,139,26,Made,1,92,100,192,v,Martin 26' 3PT Jump Shot (23 PTS) (Sabonis 8 AST),Made Shot,Jump Shot,1,3,433
+0022001027,580,PT04M09.00S,4,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,434
+0022001027,582,PT03M47.00S,4,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,,,0,v,LeVert P.FOUL (P2.T3) (A.Nagy),Foul,Personal,1,0,435
+0022001027,584,PT03M34.00S,4,1610612739,CLE,1629731,Wade,D. Wade,-182,171,25,Made,1,95,100,195,h,Wade 25' 3PT Jump Shot (16 PTS) (Sexton 7 AST),Made Shot,Jump Shot,1,3,436
+0022001027,586,PT03M20.00S,4,1610612754,IND,1627747,LeVert,C. LeVert,9,5,1,Missed,1,,,0,v,MISS LeVert 1' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,437
+0022001027,587,PT03M19.00S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,438
+0022001027,589,PT03M14.00S,4,1610612754,IND,203200,Holiday,J. Holiday,-230,17,0,Made,1,95,103,198,v,J. Holiday 3PT Jump Shot (9 PTS) (Sabonis 9 AST),Made Shot,Jump Shot,1,3,439
+0022001027,591,PT02M48.00S,4,1610612739,CLE,1630171,Okoro,I. Okoro,-232,10,0,Missed,1,,,0,h,MISS Okoro 3PT Jump Shot,Missed Shot,Jump Shot,1,3,440
+0022001027,592,PT02M46.00S,4,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:5 Def:4),Rebound,Unknown,1,0,441
+0022001027,593,PT02M44.00S,4,1610612739,CLE,1629731,Wade,D. Wade,-174,173,25,Missed,1,,,0,h,MISS Wade 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,442
+0022001027,594,PT02M41.00S,4,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,McConnell REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,443
+0022001027,595,PT02M18.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,21,10,2,Missed,1,,,0,v,MISS Sabonis 2' Layup,Missed Shot,Layup Shot,1,2,444
+0022001027,596,PT02M16.00S,4,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,h,Wade REBOUND (Off:3 Def:9),Rebound,Unknown,1,0,445
+0022001027,597,PT02M02.00S,4,1610612739,CLE,1630171,Okoro,I. Okoro,51,43,7,Missed,1,,,0,h,MISS Okoro 7' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,446
+0022001027,598,PT01M59.00S,4,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,J. Holiday REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,447
+0022001027,599,PT01M44.00S,4,1610612754,IND,1629103,Martin,K. Martin,5,6,1,Made,1,95,105,200,v,Martin 1' Driving Layup (25 PTS) (LeVert 10 AST),Made Shot,Driving Layup Shot,1,2,448
+0022001027,601,PT01M29.00S,4,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,,,0,v,LeVert S.FOUL (P3.T4) (M.Ayotte),Foul,Shooting,1,0,449
+0022001027,604,PT01M29.00S,4,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,96,105,201,h,Allen Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,1,0,450
+0022001027,605,PT01M29.00S,4,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,97,105,202,h,Allen Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,451
+0022001027,606,PT01M07.00S,4,1610612754,IND,1627747,LeVert,C. LeVert,-12,105,11,Missed,1,,,0,v,MISS LeVert 11' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,452
+0022001027,607,PT01M03.00S,4,1610612739,CLE,1630271,Thomas,B. Thomas,0,0,0,,0,,,0,h,Thomas REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,453
+0022001027,608,PT00M59.40S,4,1610612739,CLE,1629731,Wade,D. Wade,234,9,0,Made,1,100,105,205,h,Wade 3PT Jump Shot (19 PTS) (Sexton 8 AST),Made Shot,Jump Shot,1,3,454
+0022001027,610,PT00M42.30S,4,1610612754,IND,204456,McConnell,T. McConnell,5,2,1,Made,1,100,107,207,v,McConnell 1' Driving Finger Roll Layup (10 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,455
+0022001027,611,PT00M33.70S,4,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,J. Holiday S.FOUL (P2.PN) (M.Ayotte),Foul,Shooting,1,0,456
+0022001027,614,PT00M33.70S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,457
+0022001027,613,PT00M33.70S,4,0,,611,,,0,0,0,,0,100,107,207,,Instant Replay4th Period (9:42 PM EST),Instant Replay,Coach Challenge Ruling Stands,1,0,458
+0022001027,616,PT00M33.70S,4,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,101,107,208,h,Sexton Free Throw 1 of 3 (24 PTS),Free Throw,Free Throw 1 of 3,1,0,459
+0022001027,617,PT00M33.70S,4,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,MISS Sexton Free Throw 2 of 3,Free Throw,Free Throw 2 of 3,1,0,460
+0022001027,618,PT00M33.70S,4,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Rebound,Rebound,Normal Rebound,0,0,461
+0022001027,619,PT00M33.70S,4,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,102,107,209,h,Sexton Free Throw 3 of 3 (25 PTS),Free Throw,Free Throw 3 of 3,1,0,462
+0022001027,620,PT00M32.60S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,463
+0022001027,621,PT00M25.10S,4,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,h,Sexton P.FOUL (P1.T3) (A.Nagy),Foul,Personal,1,0,464
+0022001027,623,PT00M24.10S,4,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,h,Okoro P.FOUL (P4.PN) (A.Nagy),Foul,Personal,1,0,465
+0022001027,625,PT00M24.10S,4,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,102,108,210,v,J. Holiday Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,466
+0022001027,626,PT00M24.10S,4,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,102,109,211,v,J. Holiday Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,467
+0022001027,627,PT00M24.10S,4,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,468
+0022001027,628,PT00M18.90S,4,1610612739,CLE,1629731,Wade,D. Wade,131,281,31,Missed,1,,,0,h,MISS Wade 31' 3PT Jump Bank Shot,Missed Shot,Jump Bank Shot,1,3,469
+0022001027,629,PT00M16.80S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:4 Def:15),Rebound,Unknown,1,0,470
+0022001027,630,PT00M14.40S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis Bad Pass Turnover (P2.T11),Turnover,Bad Pass,1,0,471
+0022001027,630,PT00M14.40S,4,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,h,Wade STEAL (3 STL),,,1,0,472
+0022001027,632,PT00M12.20S,4,1610612739,CLE,1629731,Wade,D. Wade,-63,234,24,Missed,1,,,0,h,MISS Wade 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,473
+0022001027,632,PT00M12.20S,4,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,J. Holiday BLOCK (3 BLK),,,1,3,474
+0022001027,634,PT00M12.20S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:4 Def:16),Rebound,Unknown,1,0,475
+0022001027,635,PT00M12.20S,4,1610612739,CLE,1630271,Thomas,B. Thomas,0,0,0,,0,,,0,h,Thomas P.FOUL (P4.PN) (A.Nagy),Foul,Personal,1,0,476
+0022001027,637,PT00M12.20S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,102,110,212,v,Sabonis Free Throw 1 of 2 (20 PTS),Free Throw,Free Throw 1 of 2,1,0,477
+0022001027,638,PT00M12.20S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,102,111,213,v,Sabonis Free Throw 2 of 2 (21 PTS),Free Throw,Free Throw 2 of 2,1,0,478
+0022001027,639,PT00M05.20S,4,1610612739,CLE,1629012,Sexton,C. Sexton,111,247,27,Missed,1,,,0,h,MISS Sexton 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,479
+0022001027,640,PT00M05.20S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,480
+0022001027,641,PT00M00.00S,4,0,,0,,,0,0,0,,0,102,111,213,,End of 4th Period (9:51 PM EST),period,end,1,0,481

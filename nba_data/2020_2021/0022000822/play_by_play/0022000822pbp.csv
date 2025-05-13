@@ -1,0 +1,481 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022000822,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (10:11 PM EST),period,start,0,0,1
+0022000822,4,PT12M00.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,Jump Ball Ayton vs. Wood: Tip to Crowder,Jump Ball,,1,0,2
+0022000822,7,PT11M37.00S,1,1610612756,PHX,203109,Crowder,J. Crowder,-134,221,26,Made,1,3,0,3,h,Crowder 26' 3PT Jump Shot (3 PTS) (Paul 1 AST),Made Shot,Jump Shot,1,3,3
+0022000822,9,PT11M21.00S,1,1610612745,HOU,1626174,Wood,C. Wood,-147,200,25,Made,1,3,3,6,v,Wood 25' 3PT Jump Shot (3 PTS) (Porter Jr. 1 AST),Made Shot,Jump Shot,1,3,4
+0022000822,11,PT11M05.00S,1,1610612756,PHX,1626164,Booker,D. Booker,-123,65,14,Made,1,5,3,8,h,Booker 14' Pullup Jump Shot (2 PTS) (Paul 2 AST),Made Shot,Pullup Jump shot,1,2,5
+0022000822,13,PT10M51.00S,1,1610612745,HOU,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,v,Olynyk Out of Bounds - Bad Pass Turnover Turnover (P1.T1),Turnover,Out of Bounds - Bad Pass Turnover,1,0,6
+0022000822,14,PT10M36.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,Ayton Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,7
+0022000822,14,PT10M36.00S,1,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,v,Tate STEAL (1 STL),,,1,0,8
+0022000822,16,PT10M22.00S,1,1610612745,HOU,1626174,Wood,C. Wood,19,1,2,Made,1,5,5,10,v,Wood 2' Cutting Layup Shot (5 PTS) (Wall 1 AST),Made Shot,Cutting Layup Shot,1,2,9
+0022000822,18,PT10M16.00S,1,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges Step Out of Bounds Turnover (P1.T2),Turnover,Step Out of Bounds Turnover,1,0,10
+0022000822,19,PT10M07.00S,1,1610612756,PHX,203109,Crowder,J. Crowder,0,0,0,,0,,,0,h,Crowder S.FOUL (P1.T1) (N.Buchert),Foul,Shooting,1,0,11
+0022000822,21,PT10M07.00S,1,1610612745,HOU,203482,Olynyk,K. Olynyk,0,0,0,,0,5,6,11,v,Olynyk Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,12
+0022000822,22,PT10M07.00S,1,1610612745,HOU,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,v,MISS Olynyk Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,13
+0022000822,23,PT10M04.00S,1,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,14
+0022000822,24,PT09M50.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,-6,18,2,Missed,1,,,0,h,MISS Ayton 2' Layup,Missed Shot,Layup Shot,1,2,15
+0022000822,25,PT09M47.00S,1,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,16
+0022000822,26,PT09M36.00S,1,1610612745,HOU,202322,Wall,J. Wall,141,210,25,Made,1,5,9,14,v,Wall 25' 3PT Jump Shot (3 PTS) (Tate 1 AST),Made Shot,Jump Shot,1,3,17
+0022000822,28,PT09M27.00S,1,1610612756,PHX,101108,Paul,C. Paul,-52,256,26,Made,1,8,9,17,h,Paul 26' 3PT Jump Shot (3 PTS) (Booker 1 AST),Made Shot,Jump Shot,1,3,18
+0022000822,30,PT09M13.00S,1,1610612745,HOU,202322,Wall,J. Wall,-166,179,24,Missed,1,,,0,v,MISS Wall 24' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,19
+0022000822,31,PT09M10.00S,1,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,v,Tate REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,20
+0022000822,32,PT09M09.00S,1,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,154,190,24,Made,1,8,12,20,v,Porter Jr. 24' 3PT Jump Shot (3 PTS) (Tate 2 AST),Made Shot,Jump Shot,1,3,21
+0022000822,34,PT08M54.00S,1,1610612756,PHX,203109,Crowder,J. Crowder,228,46,0,Missed,1,,,0,h,MISS Crowder 3PT Jump Shot,Missed Shot,Jump Shot,1,3,22
+0022000822,35,PT08M51.00S,1,1610612745,HOU,202322,Wall,J. Wall,0,0,0,,0,,,0,v,Wall REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,23
+0022000822,36,PT08M45.00S,1,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,12,257,26,Missed,1,,,0,v,MISS Porter Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,24
+0022000822,37,PT08M42.00S,1,1610612756,PHX,203109,Crowder,J. Crowder,0,0,0,,0,,,0,h,Crowder REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,25
+0022000822,38,PT08M38.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,-7,8,1,Made,1,10,12,22,h,Ayton 1' Running Layup (2 PTS) (Crowder 1 AST),Made Shot,Running Layup Shot,1,2,26
+0022000822,40,PT08M28.00S,1,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,6,27,3,Missed,1,,,0,v,MISS Porter Jr. 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,27
+0022000822,41,PT08M27.00S,1,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,28
+0022000822,42,PT08M19.00S,1,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker Lost Ball Turnover (P1.T3),Turnover,Lost Ball,1,0,29
+0022000822,42,PT08M19.00S,1,1610612745,HOU,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,v,Olynyk STEAL (1 STL),,,1,0,30
+0022000822,44,PT08M14.00S,1,1610612745,HOU,1626174,Wood,C. Wood,5,0,1,Made,1,10,14,24,v,Wood 1' Running Dunk (7 PTS) (Tate 3 AST),Made Shot,Running Dunk Shot,1,2,31
+0022000822,46,PT07M53.00S,1,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Jump Ball Booker vs. Wall: Tip to Paul,Jump Ball,,1,0,32
+0022000822,49,PT07M48.00S,1,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. S.FOUL (P1.T1) (N.Sago),Foul,Shooting,1,0,33
+0022000822,51,PT07M48.00S,1,1610612756,PHX,203109,Crowder,J. Crowder,0,0,0,,0,,,0,h,MISS Crowder Free Throw 1 of 3,Free Throw,Free Throw 1 of 3,1,0,34
+0022000822,52,PT07M48.00S,1,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Rebound,Rebound,Normal Rebound,0,0,35
+0022000822,53,PT07M48.00S,1,1610612756,PHX,203109,Crowder,J. Crowder,0,0,0,,0,11,14,25,h,Crowder Free Throw 2 of 3 (4 PTS),Free Throw,Free Throw 2 of 3,1,0,36
+0022000822,54,PT07M48.00S,1,1610612756,PHX,203109,Crowder,J. Crowder,0,0,0,,0,12,14,26,h,Crowder Free Throw 3 of 3 (5 PTS),Free Throw,Free Throw 3 of 3,1,0,37
+0022000822,55,PT07M34.00S,1,1610612745,HOU,202322,Wall,J. Wall,82,240,25,Missed,1,,,0,v,MISS Wall 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,38
+0022000822,56,PT07M29.00S,1,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,v,Tate REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,39
+0022000822,57,PT07M23.00S,1,1610612745,HOU,202322,Wall,J. Wall,93,231,25,Made,1,12,17,29,v,Wall 25' 3PT Pullup Jump Shot (6 PTS),Made Shot,Pullup Jump shot,1,3,40
+0022000822,59,PT07M01.00S,1,1610612756,PHX,203109,Crowder,J. Crowder,-204,143,25,Made,1,15,17,32,h,Crowder 25' 3PT Jump Shot (8 PTS) (Paul 3 AST),Made Shot,Jump Shot,1,3,41
+0022000822,61,PT06M50.00S,1,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. Lost Ball Turnover (P1.T2),Turnover,Lost Ball,1,0,42
+0022000822,61,PT06M50.00S,1,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul STEAL (1 STL),,,1,0,43
+0022000822,63,PT06M46.00S,1,1610612756,PHX,1626164,Booker,D. Booker,87,246,26,Missed,1,,,0,h,MISS Booker 26' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,44
+0022000822,64,PT06M42.00S,1,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,45
+0022000822,65,PT06M36.00S,1,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood Traveling Turnover (P1.T3),Turnover,Traveling,1,0,46
+0022000822,66,PT06M36.00S,1,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,47
+0022000822,67,PT06M36.00S,1,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,SUB: Payne FOR Paul,Substitution,,0,0,48
+0022000822,69,PT06M26.00S,1,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker Out of Bounds - Bad Pass Turnover Turnover (P2.T4),Turnover,Out of Bounds - Bad Pass Turnover,1,0,49
+0022000822,70,PT06M13.00S,1,1610612745,HOU,202322,Wall,J. Wall,232,113,26,Missed,1,,,0,v,MISS Wall 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,50
+0022000822,71,PT06M11.00S,1,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,51
+0022000822,72,PT06M04.00S,1,1610612756,PHX,203109,Crowder,J. Crowder,-65,251,26,Made,1,18,17,35,h,Crowder 26' 3PT Jump Shot (11 PTS) (Booker 2 AST),Made Shot,Jump Shot,1,3,52
+0022000822,74,PT05M59.00S,1,1610612745,HOU,202322,Wall,J. Wall,0,0,0,,0,,,0,v,Wall OFF.Foul (P1) (N.Buchert),Foul,Offensive,0,0,53
+0022000822,76,PT05M59.00S,1,1610612745,HOU,202322,Wall,J. Wall,0,0,0,,0,,,0,v,Wall Offensive Foul Turnover (P1.T4),Turnover,Offensive Foul Turnover,0,0,54
+0022000822,77,PT05M59.00S,1,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,v,SUB: Augustin FOR Porter Jr.,Substitution,,0,0,55
+0022000822,78,PT05M59.00S,1,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,v,SUB: Bradley FOR Tate,Substitution,,0,0,56
+0022000822,81,PT05M40.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,10,4,1,Made,1,20,17,37,h,Ayton 1' Driving Reverse Layup (4 PTS),Made Shot,Driving Reverse Layup Shot,1,2,57
+0022000822,82,PT05M30.00S,1,1610612745,HOU,202322,Wall,J. Wall,-13,19,2,Made,1,20,19,39,v,Wall 2' Driving Floating Bank Jump Shot (8 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,58
+0022000822,83,PT05M20.00S,1,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker Lost Ball Turnover (P3.T5),Turnover,Lost Ball,1,0,59
+0022000822,83,PT05M20.00S,1,1610612745,HOU,202322,Wall,J. Wall,0,0,0,,0,,,0,v,Wall STEAL (1 STL),,,1,0,60
+0022000822,85,PT05M15.00S,1,1610612745,HOU,202322,Wall,J. Wall,8,5,1,Made,1,20,21,41,v,Wall 1' Running Layup (10 PTS) (Wood 1 AST),Made Shot,Running Layup Shot,1,2,61
+0022000822,88,PT04M57.00S,1,1610612756,PHX,1626164,Booker,D. Booker,103,21,11,Made,1,22,21,43,h,Booker 11' Jump Shot (4 PTS) (Payne 1 AST),Made Shot,Jump Shot,0,2,62
+0022000822,90,PT04M40.00S,1,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood Lost Ball Turnover (P2.T5),Turnover,Lost Ball,1,0,63
+0022000822,90,PT04M40.00S,1,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges STEAL (1 STL),,,1,0,64
+0022000822,92,PT04M31.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,102,18,10,Missed,1,,,0,h,MISS Ayton 10' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,65
+0022000822,93,PT04M27.00S,1,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,66
+0022000822,94,PT04M22.00S,1,1610612745,HOU,203482,Olynyk,K. Olynyk,-4,10,1,Made,1,22,23,45,v,Olynyk 1' Cutting Layup Shot (3 PTS) (Augustin 1 AST),Made Shot,Cutting Layup Shot,1,2,67
+0022000822,96,PT04M12.00S,1,1610612756,PHX,1626164,Booker,D. Booker,9,10,1,Missed,1,,,0,h,MISS Booker 1' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,68
+0022000822,97,PT04M09.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,Ayton REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,69
+0022000822,98,PT04M09.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,Made,1,24,23,47,h,Ayton Putback Layup (6 PTS),Made Shot,Putback Layup Shot,1,2,70
+0022000822,99,PT03M55.00S,1,1610612745,HOU,202322,Wall,J. Wall,-46,14,5,Missed,1,,,0,v,MISS Wall 5' Layup,Missed Shot,Layup Shot,1,2,71
+0022000822,100,PT03M55.00S,1,1610612745,HOU,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,v,Olynyk REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,72
+0022000822,101,PT03M53.00S,1,1610612745,HOU,203482,Olynyk,K. Olynyk,0,0,0,Made,1,24,25,49,v,Olynyk Tip Layup Shot (5 PTS),Made Shot,Tip Layup Shot,1,2,73
+0022000822,102,PT03M42.00S,1,1610612756,PHX,1626164,Booker,D. Booker,55,126,14,Missed,1,,,0,h,MISS Booker 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,74
+0022000822,103,PT03M34.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,Ayton REBOUND (Off:3 Def:0),Rebound,Unknown,1,0,75
+0022000822,104,PT03M34.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,Missed,1,,,0,h,MISS Ayton Putback Layup,Missed Shot,Putback Layup Shot,1,2,76
+0022000822,105,PT03M34.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,Ayton REBOUND (Off:3 Def:0),Rebound,Unknown,1,0,77
+0022000822,106,PT03M31.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,Made,1,26,25,51,h,Ayton Tip Layup Shot (8 PTS),Made Shot,Tip Layup Shot,1,2,78
+0022000822,107,PT03M28.00S,1,1610612745,HOU,201571,Augustin,D. Augustin,1,13,1,Missed,1,,,0,v,MISS Augustin 1' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,79
+0022000822,108,PT03M26.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,Ayton REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,80
+0022000822,109,PT03M22.00S,1,1610612756,PHX,1626166,Payne,C. Payne,-46,71,8,Made,1,28,25,53,h,Payne 8' Driving Floating Jump Shot (2 PTS),Made Shot,Driving Floating Jump Shot,1,2,81
+0022000822,110,PT03M02.00S,1,1610612745,HOU,202322,Wall,J. Wall,0,0,0,,0,,,0,v,Wall Bad Pass Turnover (P2.T6),Turnover,Bad Pass,1,0,82
+0022000822,110,PT03M02.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,Ayton STEAL (1 STL),,,1,0,83
+0022000822,112,PT02M59.00S,1,1610612745,HOU,201571,Augustin,D. Augustin,0,0,0,,0,,,0,v,Augustin S.FOUL (P1.T2) (K.Fitzgerald),Foul,Shooting,1,0,84
+0022000822,114,PT02M59.00S,1,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,85
+0022000822,115,PT02M59.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,SUB: Saric FOR Ayton,Substitution,,0,0,86
+0022000822,116,PT02M59.00S,1,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,h,SUB: Craig FOR Bridges,Substitution,,0,0,87
+0022000822,117,PT02M59.00S,1,1610612756,PHX,203109,Crowder,J. Crowder,0,0,0,,0,,,0,h,SUB: Johnson FOR Crowder,Substitution,,0,0,88
+0022000822,121,PT02M59.00S,1,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,29,25,54,h,Booker Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,89
+0022000822,122,PT02M59.00S,1,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,30,25,55,h,Booker Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,90
+0022000822,123,PT02M35.00S,1,1610612745,HOU,201571,Augustin,D. Augustin,0,0,0,,0,,,0,v,Augustin Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,91
+0022000822,123,PT02M35.00S,1,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,Johnson STEAL (1 STL),,,1,0,92
+0022000822,125,PT02M30.00S,1,1610612756,PHX,1629661,Johnson,C. Johnson,9,10,1,Missed,1,,,0,h,MISS Johnson 1' Running Layup,Missed Shot,Running Layup Shot,1,2,93
+0022000822,126,PT02M30.00S,1,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Rebound,Rebound,Unknown,0,0,94
+0022000822,128,PT02M30.00S,1,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,95
+0022000822,129,PT02M30.00S,1,1610612745,HOU,201571,Augustin,D. Augustin,0,0,0,,0,,,0,v,SUB: Martin Jr. FOR Augustin,Substitution,,0,0,96
+0022000822,130,PT02M30.00S,1,1610612745,HOU,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,v,SUB: Porter Jr. FOR Olynyk,Substitution,,0,0,97
+0022000822,133,PT02M15.00S,1,1610612745,HOU,1626174,Wood,C. Wood,13,5,1,Made,1,30,27,57,v,Wood 1' Cutting Dunk Shot (9 PTS) (Wall 2 AST),Made Shot,Cutting Dunk Shot,1,2,98
+0022000822,135,PT01M52.00S,1,1610612756,PHX,1628470,Craig,T. Craig,-204,155,26,Made,1,33,27,60,h,Craig 26' 3PT Jump Shot (3 PTS) (Payne 2 AST),Made Shot,Jump Shot,1,3,99
+0022000822,137,PT01M39.00S,1,1610612745,HOU,1626174,Wood,C. Wood,-20,11,2,Missed,1,,,0,v,MISS Wood 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,100
+0022000822,138,PT01M37.00S,1,1610612756,PHX,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,101
+0022000822,139,PT01M30.00S,1,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood Violation:Kicked Ball (N.Buchert),Violation,Kicked Ball,0,0,102
+0022000822,140,PT01M30.00S,1,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,SUB: Carter FOR Booker,Substitution,,0,0,103
+0022000822,142,PT01M19.00S,1,1610612756,PHX,203967,Šarić,D. Šarić,3,5,1,Made,1,35,27,62,h,Saric 1' Layup (2 PTS),Made Shot,Layup Shot,1,2,104
+0022000822,144,PT01M06.00S,1,1610612745,HOU,202322,Wall,J. Wall,-15,11,2,Missed,1,,,0,v,MISS Wall 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,105
+0022000822,145,PT01M01.00S,1,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,106
+0022000822,146,PT01M01.00S,1,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,Made,1,35,29,64,v,Wood Tip Dunk Shot (11 PTS),Made Shot,Tip Dunk Shot,1,2,107
+0022000822,147,PT00M50.50S,1,1610612756,PHX,1629661,Johnson,C. Johnson,232,20,0,Made,1,38,29,67,h,Johnson 3PT Jump Shot (3 PTS) (Payne 3 AST),Made Shot,Jump Shot,1,3,108
+0022000822,149,PT00M31.30S,1,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,-146,200,25,Missed,1,,,0,v,MISS Porter Jr. 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,109
+0022000822,150,PT00M29.00S,1,1610612756,PHX,1628470,Craig,T. Craig,0,0,0,,0,,,0,h,Craig REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,110
+0022000822,151,PT00M10.10S,1,1610612756,PHX,203967,Šarić,D. Šarić,-2,38,4,Missed,1,,,0,h,MISS Saric 4' Hook Shot,Missed Shot,Hook Shot,1,2,111
+0022000822,151,PT00M10.10S,1,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,v,Martin Jr. BLOCK (1 BLK),,,1,2,112
+0022000822,153,PT00M09.70S,1,1610612756,PHX,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,113
+0022000822,154,PT00M09.00S,1,1610612756,PHX,203967,Šarić,D. Šarić,-5,25,3,Missed,1,,,0,h,MISS Saric 3' Putback Layup,Missed Shot,Putback Layup Shot,1,2,114
+0022000822,154,PT00M09.00S,1,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,v,Martin Jr. BLOCK (2 BLK),,,1,2,115
+0022000822,156,PT00M07.50S,1,1610612756,PHX,1628470,Craig,T. Craig,0,0,0,,0,,,0,h,Craig REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,116
+0022000822,170,PT00M06.10S,1,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Turnover: Shot Clock (T#6),Turnover,Shot Clock Turnover,0,0,117
+0022000822,158,PT00M01.30S,1,1610612756,PHX,1628975,Carter,J. Carter,0,0,0,,0,,,0,h,Carter P.FOUL (P1.T2) (N.Sago),Foul,Personal,1,0,118
+0022000822,160,PT00M00.20S,1,1610612745,HOU,1626174,Wood,C. Wood,25,271,27,Missed,1,,,0,v,MISS Wood 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,119
+0022000822,161,PT00M00.10S,1,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Rebound,Rebound,Unknown,0,0,120
+0022000822,163,PT00M00.00S,1,0,,157,Harper,D. Harper,0,0,0,,0,38,29,67,,Instant Replay1st Period (10:36 PM EST),Instant Replay,Overturn Ruling,0,0,121
+0022000822,162,PT00M00.00S,1,0,,0,,,0,0,0,,0,38,29,67,,End of 1st Period (10:36 PM EST),period,end,1,0,122
+0022000822,169,PT12M00.00S,2,0,,0,,,0,0,0,,0,38,29,67,,Start of 2nd Period (10:39 PM EST),period,start,0,0,123
+0022000822,171,PT11M43.00S,2,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,Johnson S.FOUL (P1.T1) (K.Fitzgerald),Foul,Shooting,1,0,124
+0022000822,173,PT11M43.00S,2,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,38,30,68,v,Martin Jr. Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,125
+0022000822,174,PT11M43.00S,2,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,38,31,69,v,Martin Jr. Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,126
+0022000822,175,PT11M27.00S,2,1610612756,PHX,1626166,Payne,C. Payne,-24,21,3,Missed,1,,,0,h,MISS Payne 3' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,127
+0022000822,176,PT11M22.00S,2,1610612756,PHX,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,128
+0022000822,177,PT11M22.00S,2,1610612756,PHX,203967,Šarić,D. Šarić,0,0,0,Missed,1,,,0,h,MISS Saric Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,129
+0022000822,178,PT11M21.00S,2,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,v,Tate REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,130
+0022000822,180,PT11M03.00S,2,1610612745,HOU,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,v,Wilson Lost Ball Turnover (P1.T8),Turnover,Lost Ball,1,0,131
+0022000822,180,PT11M03.00S,2,1610612756,PHX,1628470,Craig,T. Craig,0,0,0,,0,,,0,h,Craig STEAL (1 STL),,,1,0,132
+0022000822,182,PT10M54.00S,2,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,v,Martin Jr. P.FOUL (P1.T1) (K.Fitzgerald),Foul,Personal,1,0,133
+0022000822,184,PT10M46.00S,2,1610612756,PHX,1626166,Payne,C. Payne,125,231,26,Made,1,41,31,72,h,Payne 26' 3PT Jump Shot (5 PTS) (Carter 1 AST),Made Shot,Jump Shot,1,3,134
+0022000822,186,PT10M38.00S,2,1610612745,HOU,202340,Bradley,A. Bradley,-163,208,26,Missed,1,,,0,v,MISS Bradley 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,135
+0022000822,187,PT10M37.00S,2,1610612756,PHX,1628470,Craig,T. Craig,0,0,0,,0,,,0,h,Craig REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,136
+0022000822,188,PT10M29.00S,2,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,v,Martin Jr. S.FOUL (P2.T2) (N.Buchert),Foul,Shooting,1,0,137
+0022000822,190,PT10M29.00S,2,1610612756,PHX,203967,Šarić,D. Šarić,0,0,0,,0,42,31,73,h,Saric Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,138
+0022000822,191,PT10M29.00S,2,1610612756,PHX,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,MISS Saric Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,139
+0022000822,192,PT10M25.00S,2,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,v,Martin Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,140
+0022000822,193,PT10M07.00S,2,1610612745,HOU,1630231,Martin,K. Martin,-8,10,1,Made,1,42,33,75,v,Martin Jr. 1' Cutting Dunk Shot (4 PTS) (Porter Jr. 2 AST),Made Shot,Cutting Dunk Shot,1,2,141
+0022000822,195,PT09M49.00S,2,1610612756,PHX,1626166,Payne,C. Payne,135,233,27,Missed,1,,,0,h,MISS Payne 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,142
+0022000822,196,PT09M47.00S,2,1610612756,PHX,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,143
+0022000822,197,PT09M41.00S,2,1610612756,PHX,203967,Šarić,D. Šarić,11,12,2,Missed,1,,,0,h,MISS Saric 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,144
+0022000822,198,PT09M39.00S,2,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,v,Martin Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,145
+0022000822,199,PT09M27.00S,2,1610612745,HOU,202340,Bradley,A. Bradley,-236,15,24,Made,1,42,36,78,v,Bradley 24' 3PT Jump Shot (3 PTS) (Tate 4 AST),Made Shot,Jump Shot,1,3,146
+0022000822,202,PT09M12.00S,2,1610612756,PHX,1628975,Carter,J. Carter,-235,29,24,Made,1,45,36,81,h,Carter 24' 3PT Step Back Jump Shot (3 PTS),Made Shot,Step Back Jump shot,1,3,147
+0022000822,204,PT09M03.00S,2,1610612745,HOU,202340,Bradley,A. Bradley,-236,16,24,Missed,1,,,0,v,MISS Bradley 24' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,148
+0022000822,205,PT09M00.00S,2,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,149
+0022000822,206,PT08M51.00S,2,1610612756,PHX,1629661,Johnson,C. Johnson,-203,176,27,Missed,1,,,0,h,MISS Johnson 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,150
+0022000822,207,PT08M48.00S,2,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,v,Martin Jr. REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,151
+0022000822,208,PT08M45.00S,2,1610612756,PHX,1626166,Payne,C. Payne,0,0,0,,0,,,0,h,Payne P.FOUL (P1.T2) (N.Buchert),Foul,Personal,1,0,152
+0022000822,210,PT08M37.00S,2,1610612745,HOU,1628391,Wilson,D. Wilson,82,227,24,Missed,1,,,0,v,MISS Wilson 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,153
+0022000822,211,PT08M34.00S,2,1610612756,PHX,1628470,Craig,T. Craig,0,0,0,,0,,,0,h,Craig REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,154
+0022000822,212,PT08M26.00S,2,1610612756,PHX,1628975,Carter,J. Carter,182,190,26,Missed,1,,,0,h,MISS Carter 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,155
+0022000822,213,PT08M22.00S,2,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,v,Martin Jr. REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,156
+0022000822,214,PT08M20.00S,2,1610612745,HOU,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,v,Wilson OFF.Foul (P1) (N.Sago),Foul,Offensive,1,0,157
+0022000822,216,PT08M20.00S,2,1610612745,HOU,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,v,Wilson Offensive Foul Turnover (P2.T9),Turnover,Offensive Foul Turnover,1,0,158
+0022000822,217,PT08M20.00S,2,1610612756,PHX,1628470,Craig,T. Craig,0,0,0,,0,,,0,h,SUB: Bridges FOR Craig,Substitution,,0,0,159
+0022000822,232,PT08M05.00S,2,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,Johnson Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,160
+0022000822,232,PT08M05.00S,2,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. STEAL (1 STL),,,1,0,161
+0022000822,234,PT08M04.00S,2,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. Lost Ball Turnover (P2.T10),Turnover,Lost Ball,1,0,162
+0022000822,234,PT08M04.00S,2,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,Johnson STEAL (2 STL),,,1,0,163
+0022000822,219,PT07M58.00S,2,1610612756,PHX,1628975,Carter,J. Carter,-235,53,24,Made,1,48,36,84,h,Carter 24' 3PT Jump Shot (6 PTS) (Johnson 1 AST),Made Shot,Jump Shot,1,3,164
+0022000822,221,PT07M47.00S,2,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,-59,241,25,Missed,1,,,0,v,MISS Porter Jr. 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,165
+0022000822,222,PT07M44.00S,2,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,166
+0022000822,223,PT07M25.00S,2,1610612756,PHX,1628975,Carter,J. Carter,-112,259,28,Made,1,51,36,87,h,Carter 28' 3PT Jump Shot (9 PTS) (Bridges 1 AST),Made Shot,Jump Shot,1,3,167
+0022000822,225,PT07M04.00S,2,1610612745,HOU,1630256,Tate,J. Tate,-6,14,2,Made,1,51,38,89,v,Tate 2' Layup (2 PTS) (Porter Jr. 3 AST),Made Shot,Layup Shot,1,2,168
+0022000822,227,PT06M53.00S,2,1610612756,PHX,203967,Šarić,D. Šarić,-76,247,26,Made,1,54,38,92,h,Saric 26' 3PT Jump Shot (6 PTS) (Carter 2 AST),Made Shot,Jump Shot,1,3,169
+0022000822,229,PT06M43.00S,2,1610612756,PHX,1628975,Carter,J. Carter,0,0,0,,0,,,0,h,Carter P.FOUL (P2.T3) (N.Buchert),Foul,Personal,1,0,170
+0022000822,231,PT06M43.00S,2,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,171
+0022000822,236,PT06M43.00S,2,1610612756,PHX,1626166,Payne,C. Payne,0,0,0,,0,,,0,h,SUB: Paul FOR Payne,Substitution,,0,0,172
+0022000822,237,PT06M43.00S,2,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,v,SUB: Olynyk FOR Martin Jr.,Substitution,,0,0,173
+0022000822,240,PT06M37.00S,2,1610612756,PHX,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric S.FOUL (P1.T4) (K.Fitzgerald),Foul,Shooting,1,0,174
+0022000822,242,PT06M37.00S,2,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,54,39,93,v,Porter Jr. Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,175
+0022000822,243,PT06M37.00S,2,1610612745,HOU,202340,Bradley,A. Bradley,0,0,0,,0,,,0,v,SUB: Wall FOR Bradley,Substitution,,0,0,176
+0022000822,245,PT06M37.00S,2,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,54,40,94,v,Porter Jr. Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,177
+0022000822,246,PT06M13.00S,2,1610612756,PHX,1629661,Johnson,C. Johnson,166,186,25,Missed,1,,,0,h,MISS Johnson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,178
+0022000822,247,PT06M09.00S,2,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,179
+0022000822,248,PT05M55.00S,2,1610612745,HOU,203482,Olynyk,K. Olynyk,-5,245,25,Missed,1,,,0,v,MISS Olynyk 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,180
+0022000822,249,PT05M54.00S,2,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Rebound,Rebound,Unknown,0,0,181
+0022000822,250,PT05M54.00S,2,1610612745,HOU,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,v,Wilson L.B.FOUL (P2.T3) (N.Buchert),Foul,Loose Ball,1,0,182
+0022000822,252,PT05M54.00S,2,1610612756,PHX,1628975,Carter,J. Carter,0,0,0,,0,,,0,h,SUB: Booker FOR Carter,Substitution,,0,0,183
+0022000822,253,PT05M54.00S,2,1610612756,PHX,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,SUB: Ayton FOR Saric,Substitution,,0,0,184
+0022000822,254,PT05M54.00S,2,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,SUB: Crowder FOR Johnson,Substitution,,0,0,185
+0022000822,255,PT05M54.00S,2,1610612745,HOU,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,v,SUB: Wood FOR Wilson,Substitution,,0,0,186
+0022000822,260,PT05M47.00S,2,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker Bad Pass Turnover (P4.T8),Turnover,Bad Pass,1,0,187
+0022000822,260,PT05M47.00S,2,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. STEAL (2 STL),,,1,0,188
+0022000822,262,PT05M43.00S,2,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,1,1,0,Made,1,54,42,96,v,Porter Jr. Running Dunk (7 PTS) (Wall 3 AST),Made Shot,Running Dunk Shot,1,2,189
+0022000822,264,PT05M37.00S,2,1610612756,PHX,203109,Crowder,J. Crowder,-231,33,0,Made,1,57,42,99,h,Crowder 3PT Jump Shot (14 PTS) (Bridges 2 AST),Made Shot,Jump Shot,1,3,190
+0022000822,266,PT05M29.00S,2,1610612756,PHX,203109,Crowder,J. Crowder,0,0,0,,0,,,0,h,Crowder S.FOUL (P2.PN) (N.Buchert),Foul,Shooting,1,0,191
+0022000822,268,PT05M29.00S,2,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,57,43,100,v,Tate Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,192
+0022000822,269,PT05M29.00S,2,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,57,44,101,v,Tate Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,193
+0022000822,270,PT05M15.00S,2,1610612756,PHX,1629028,Ayton,D. Ayton,22,15,3,Missed,1,,,0,h,MISS Ayton 3' Hook Shot,Missed Shot,Hook Shot,1,2,194
+0022000822,271,PT05M13.00S,2,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,195
+0022000822,272,PT05M03.00S,2,1610612745,HOU,202322,Wall,J. Wall,-22,41,5,Missed,1,,,0,v,MISS Wall 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,196
+0022000822,272,PT05M03.00S,2,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,Ayton BLOCK (1 BLK),,,1,2,197
+0022000822,274,PT05M01.00S,2,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,198
+0022000822,275,PT04M59.00S,2,1610612745,HOU,1626174,Wood,C. Wood,3,13,1,Missed,1,,,0,v,MISS Wood 1' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,199
+0022000822,276,PT04M56.00S,2,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,v,Tate REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,200
+0022000822,277,PT04M54.00S,2,1610612745,HOU,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,v,Olynyk Bad Pass Turnover (P2.T11),Turnover,Bad Pass,1,0,201
+0022000822,277,PT04M54.00S,2,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges STEAL (2 STL),,,1,0,202
+0022000822,279,PT04M47.00S,2,1610612756,PHX,1628969,Bridges,M. Bridges,9,0,1,Missed,1,,,0,h,MISS Bridges 1' Running Layup,Missed Shot,Running Layup Shot,1,2,203
+0022000822,280,PT04M45.00S,2,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,204
+0022000822,281,PT04M45.00S,2,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,Made,1,59,44,103,h,Bridges Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,205
+0022000822,282,PT04M34.00S,2,1610612745,HOU,202322,Wall,J. Wall,27,4,3,Missed,1,,,0,v,MISS Wall 3' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,206
+0022000822,283,PT04M34.00S,2,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Rebound,Rebound,Unknown,0,0,207
+0022000822,285,PT04M34.00S,2,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,v,SUB: Martin Jr. FOR Tate,Substitution,,0,0,208
+0022000822,287,PT04M24.00S,2,1610612756,PHX,203109,Crowder,J. Crowder,222,58,0,Made,1,62,44,106,h,Crowder 3PT Jump Shot (17 PTS) (Paul 4 AST),Made Shot,Jump Shot,1,3,209
+0022000822,289,PT04M00.00S,2,1610612745,HOU,1626174,Wood,C. Wood,0,17,2,Made,1,62,46,108,v,Wood 2' Cutting Dunk Shot (13 PTS) (Olynyk 1 AST),Made Shot,Cutting Dunk Shot,1,2,210
+0022000822,291,PT03M48.00S,2,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,Ayton Out of Bounds - Bad Pass Turnover Turnover (P2.T9),Turnover,Out of Bounds - Bad Pass Turnover,1,0,211
+0022000822,292,PT03M40.00S,2,1610612745,HOU,202322,Wall,J. Wall,0,0,0,,0,,,0,v,Wall Lost Ball Turnover (P3.T12),Turnover,Lost Ball,1,0,212
+0022000822,292,PT03M40.00S,2,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,Ayton STEAL (2 STL),,,1,0,213
+0022000822,294,PT03M38.00S,2,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood P.FOUL (P1.T4) (N.Buchert),Foul,Personal,1,0,214
+0022000822,296,PT03M30.00S,2,1610612756,PHX,1628969,Bridges,M. Bridges,-234,70,24,Made,1,65,46,111,h,Bridges 24' 3PT Jump Shot (5 PTS) (Booker 3 AST),Made Shot,Jump Shot,1,3,215
+0022000822,298,PT03M17.00S,2,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. Bad Pass Turnover (P3.T13),Turnover,Bad Pass,1,0,216
+0022000822,298,PT03M17.00S,2,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,Ayton STEAL (3 STL),,,1,0,217
+0022000822,300,PT03M17.00S,2,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. P.FOUL (P2.PN) (N.Buchert),Foul,Personal,1,0,218
+0022000822,302,PT03M17.00S,2,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,66,46,112,h,Paul Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,219
+0022000822,303,PT03M17.00S,2,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,67,46,113,h,Paul Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,220
+0022000822,304,PT03M00.00S,2,1610612745,HOU,202322,Wall,J. Wall,-146,199,25,Missed,1,,,0,v,MISS Wall 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,221
+0022000822,305,PT02M57.00S,2,1610612756,PHX,203109,Crowder,J. Crowder,0,0,0,,0,,,0,h,Crowder REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,222
+0022000822,306,PT02M48.00S,2,1610612756,PHX,203109,Crowder,J. Crowder,-226,69,24,Made,1,70,46,116,h,Crowder 24' 3PT Step Back Jump Shot (20 PTS) (Paul 5 AST),Made Shot,Step Back Jump shot,1,3,223
+0022000822,308,PT02M41.00S,2,1610612745,HOU,1630231,Martin,K. Martin,197,158,25,Made,1,70,49,119,v,Martin Jr. 25' 3PT Jump Shot (7 PTS) (Porter Jr. 4 AST),Made Shot,Jump Shot,1,3,224
+0022000822,309,PT02M20.00S,2,1610612756,PHX,1626164,Booker,D. Booker,49,126,14,Made,1,72,49,121,h,Booker 14' Fadeaway Jumper (8 PTS) (Paul 6 AST),Made Shot,Fadeaway Jump Shot,1,2,225
+0022000822,311,PT02M11.00S,2,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,-225,47,0,Made,1,72,52,124,v,Porter Jr. 3PT Jump Shot (10 PTS) (Wall 4 AST),Made Shot,Jump Shot,1,3,226
+0022000822,313,PT01M55.00S,2,1610612756,PHX,101108,Paul,C. Paul,212,132,25,Made,1,75,52,127,h,Paul 25' 3PT Step Back Jump Shot (8 PTS),Made Shot,Step Back Jump shot,1,3,227
+0022000822,314,PT01M38.00S,2,1610612745,HOU,1626174,Wood,C. Wood,-91,234,25,Made,1,75,55,130,v,Wood 25' 3PT Jump Shot (16 PTS) (Porter Jr. 5 AST),Made Shot,Jump Shot,1,3,228
+0022000822,316,PT01M14.00S,2,1610612756,PHX,203109,Crowder,J. Crowder,131,212,25,Made,1,78,55,133,h,Crowder 25' 3PT Jump Shot (23 PTS) (Booker 4 AST),Made Shot,Jump Shot,1,3,229
+0022000822,318,PT00M56.50S,2,1610612745,HOU,1626174,Wood,C. Wood,207,142,25,Made,1,78,58,136,v,Wood 25' 3PT Step Back Jump Shot (19 PTS),Made Shot,Step Back Jump shot,1,3,230
+0022000822,319,PT00M36.30S,2,1610612756,PHX,101108,Paul,C. Paul,19,134,14,Missed,1,,,0,h,MISS Paul 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,231
+0022000822,320,PT00M34.30S,2,1610612745,HOU,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,v,Olynyk REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,232
+0022000822,321,PT00M26.30S,2,1610612745,HOU,202322,Wall,J. Wall,2,-5,1,Missed,1,,,0,v,MISS Wall 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,233
+0022000822,321,PT00M26.30S,2,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges BLOCK (1 BLK),,,1,2,234
+0022000822,323,PT00M24.10S,2,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,235
+0022000822,325,PT00M21.10S,2,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,236
+0022000822,326,PT00M02.50S,2,1610612756,PHX,203109,Crowder,J. Crowder,-231,83,25,Made,1,81,58,139,h,Crowder 25' 3PT Jump Shot (26 PTS) (Booker 5 AST),Made Shot,Jump Shot,1,3,237
+0022000822,328,PT00M00.30S,2,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. Out of Bounds Lost Ball Turnover (P4.T14),Turnover,Out of Bounds Lost Ball Turnover,1,0,238
+0022000822,329,PT00M00.30S,2,0,,328,Mahorn,R. Mahorn,0,0,0,,0,81,58,139,,Instant Replay2nd Period (11:04 PM EST),Instant Replay,Overturn Ruling,0,0,239
+0022000822,331,PT00M00.30S,2,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood S.FOUL (P2.PN) (K.Fitzgerald),Foul,Shooting,1,0,240
+0022000822,333,PT00M00.30S,2,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,MISS Ayton Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,241
+0022000822,334,PT00M00.30S,2,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Rebound,Rebound,Normal Rebound,0,0,242
+0022000822,335,PT00M00.30S,2,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,MISS Ayton Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,243
+0022000822,336,PT00M00.30S,2,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,v,Martin Jr. REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,244
+0022000822,337,PT00M00.00S,2,0,,0,,,0,0,0,,0,81,58,139,,End of 2nd Period (11:06 PM EST),period,end,1,0,245
+0022000822,341,PT12M00.00S,3,0,,0,,,0,0,0,,0,81,58,139,,Start of 3rd Period (11:22 PM EST),period,start,0,0,246
+0022000822,342,PT11M46.00S,3,1610612745,HOU,1630256,Tate,J. Tate,216,120,25,Missed,1,,,0,v,MISS Tate 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,247
+0022000822,343,PT11M41.00S,3,1610612745,HOU,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,v,Olynyk REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,248
+0022000822,344,PT11M35.00S,3,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,-231,100,25,Made,1,81,61,142,v,Porter Jr. 25' 3PT Step Back Jump Shot (13 PTS) (Wall 5 AST),Made Shot,Step Back Jump shot,1,3,249
+0022000822,346,PT11M10.00S,3,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,Ayton Bad Pass Turnover (P3.T10),Turnover,Bad Pass,1,0,250
+0022000822,346,PT11M10.00S,3,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,v,Tate STEAL (2 STL),,,1,0,251
+0022000822,348,PT11M06.00S,3,1610612745,HOU,1630256,Tate,J. Tate,-18,11,2,Made,1,81,63,144,v,Tate 2' Running Finger Roll Layup (6 PTS),Made Shot,Running Finger Roll Layup Shot,1,2,252
+0022000822,349,PT10M52.00S,3,1610612756,PHX,1626164,Booker,D. Booker,40,137,14,Missed,1,,,0,h,MISS Booker 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,253
+0022000822,350,PT10M50.00S,3,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,254
+0022000822,351,PT10M48.00S,3,1610612756,PHX,1626164,Booker,D. Booker,141,213,26,Made,1,84,63,147,h,Booker 26' 3PT Jump Shot (11 PTS),Made Shot,Jump Shot,1,3,255
+0022000822,352,PT10M28.00S,3,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,v,Tate Lost Ball Turnover (P1.T15),Turnover,Lost Ball,1,0,256
+0022000822,352,PT10M28.00S,3,1610612756,PHX,203109,Crowder,J. Crowder,0,0,0,,0,,,0,h,Crowder STEAL (1 STL),,,1,0,257
+0022000822,354,PT10M21.00S,3,1610612756,PHX,1626164,Booker,D. Booker,12,4,1,Missed,1,,,0,h,MISS Booker 1' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,258
+0022000822,355,PT10M20.00S,3,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,v,Tate REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,259
+0022000822,356,PT10M15.00S,3,1610612745,HOU,203482,Olynyk,K. Olynyk,212,138,25,Missed,1,,,0,v,MISS Olynyk 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,260
+0022000822,357,PT10M11.00S,3,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,261
+0022000822,358,PT10M05.00S,3,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker Bad Pass Turnover (P5.T11),Turnover,Bad Pass,1,0,262
+0022000822,358,PT10M05.00S,3,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,v,Tate STEAL (3 STL),,,1,0,263
+0022000822,360,PT09M59.00S,3,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,-20,275,28,Missed,1,,,0,v,MISS Porter Jr. 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,264
+0022000822,361,PT09M56.00S,3,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,265
+0022000822,362,PT09M53.00S,3,1610612745,HOU,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,v,Olynyk Lost Ball Turnover (P3.T16),Turnover,Lost Ball,1,0,266
+0022000822,362,PT09M53.00S,3,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul STEAL (2 STL),,,1,0,267
+0022000822,364,PT09M48.00S,3,1610612756,PHX,1626164,Booker,D. Booker,18,263,26,Missed,1,,,0,h,MISS Booker 26' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,268
+0022000822,365,PT09M48.00S,3,1610612745,HOU,202322,Wall,J. Wall,0,0,0,,0,,,0,v,Wall REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,269
+0022000822,366,PT09M43.00S,3,1610612745,HOU,203482,Olynyk,K. Olynyk,-14,1,1,Made,1,84,65,149,v,Olynyk 1' Alley Oop Layup (7 PTS) (Porter Jr. 6 AST),Made Shot,Alley Oop Layup shot,1,2,270
+0022000822,369,PT09M26.00S,3,1610612756,PHX,1629028,Ayton,D. Ayton,-2,-1,0,Made,1,86,65,151,h,Ayton Alley Oop Dunk (10 PTS) (Paul 7 AST),Made Shot,Alley Oop Dunk Shot,1,2,271
+0022000822,371,PT09M12.00S,3,1610612745,HOU,1626174,Wood,C. Wood,221,32,0,Missed,1,,,0,v,MISS Wood 3PT Jump Shot,Missed Shot,Jump Shot,1,3,272
+0022000822,372,PT09M09.00S,3,1610612745,HOU,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,v,Olynyk REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,273
+0022000822,373,PT09M09.00S,3,1610612745,HOU,203482,Olynyk,K. Olynyk,-5,25,3,Made,1,86,67,153,v,Olynyk 3' Putback Layup (9 PTS),Made Shot,Putback Layup Shot,1,2,274
+0022000822,374,PT09M09.00S,3,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges S.FOUL (P1.T1) (N.Buchert),Foul,Shooting,1,0,275
+0022000822,376,PT09M09.00S,3,1610612745,HOU,203482,Olynyk,K. Olynyk,0,0,0,,0,86,68,154,v,Olynyk Free Throw 1 of 1 (10 PTS),Free Throw,Free Throw 1 of 1,1,0,276
+0022000822,377,PT08M48.00S,3,1610612756,PHX,1626164,Booker,D. Booker,206,63,22,Made,1,88,68,156,h,Booker 22' Jump Shot (13 PTS),Made Shot,Jump Shot,1,2,277
+0022000822,398,PT08M40.00S,3,1610612745,HOU,1630256,Tate,J. Tate,2,1,0,Missed,1,,,0,v,MISS Tate Driving Layup,Missed Shot,Driving Layup Shot,1,2,278
+0022000822,398,PT08M40.00S,3,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker BLOCK (1 BLK),,,1,2,279
+0022000822,400,PT08M40.00S,3,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Rebound,Rebound,Unknown,1,0,280
+0022000822,379,PT08M35.00S,3,1610612756,PHX,1628969,Bridges,M. Bridges,192,168,26,Missed,1,,,0,h,MISS Bridges 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,281
+0022000822,380,PT08M31.00S,3,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,282
+0022000822,381,PT08M21.00S,3,1610612745,HOU,1626174,Wood,C. Wood,0,17,2,Made,1,88,70,158,v,Wood 2' Alley Oop Dunk (21 PTS) (Wall 6 AST),Made Shot,Alley Oop Dunk Shot,1,2,283
+0022000822,384,PT08M21.00S,3,1610612756,PHX,203109,Crowder,J. Crowder,0,0,0,,0,,,0,h,Crowder S.FOUL (P3.T2) (N.Sago),Foul,Shooting,1,0,284
+0022000822,386,PT08M21.00S,3,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,MISS Wood Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,285
+0022000822,387,PT08M19.00S,3,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,Ayton REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,286
+0022000822,388,PT08M14.00S,3,1610612756,PHX,1628969,Bridges,M. Bridges,0,24,2,Missed,1,,,0,h,MISS Bridges 2' Running Layup,Missed Shot,Running Layup Shot,1,2,287
+0022000822,389,PT08M12.00S,3,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,288
+0022000822,390,PT08M05.00S,3,1610612745,HOU,202322,Wall,J. Wall,-133,221,26,Missed,1,,,0,v,MISS Wall 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,289
+0022000822,391,PT08M01.00S,3,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,Ayton REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,290
+0022000822,393,PT07M53.00S,3,1610612756,PHX,1626164,Booker,D. Booker,-190,140,24,Missed,1,,,0,h,MISS Booker 24' Jump Shot,Missed Shot,Jump Shot,1,2,291
+0022000822,394,PT07M51.00S,3,1610612745,HOU,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,v,Olynyk REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,292
+0022000822,395,PT07M50.00S,3,1610612745,HOU,1630256,Tate,J. Tate,-1,5,1,Made,1,88,72,160,v,Tate 1' Cutting Layup Shot (8 PTS) (Porter Jr. 7 AST),Made Shot,Cutting Layup Shot,1,2,293
+0022000822,397,PT07M50.00S,3,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,294
+0022000822,402,PT07M28.00S,3,1610612756,PHX,1628969,Bridges,M. Bridges,-2,-1,0,Missed,1,,,0,h,MISS Bridges Finger Roll Layup,Missed Shot,Finger Roll Layup Shot,1,2,295
+0022000822,403,PT07M26.00S,3,1610612745,HOU,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,v,Olynyk REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,296
+0022000822,404,PT07M21.00S,3,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood Out of Bounds - Bad Pass Turnover Turnover (P3.T17),Turnover,Out of Bounds - Bad Pass Turnover,1,0,297
+0022000822,405,PT07M01.00S,3,1610612756,PHX,203109,Crowder,J. Crowder,58,266,27,Missed,1,,,0,h,MISS Crowder 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,298
+0022000822,406,PT06M58.00S,3,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,299
+0022000822,407,PT06M56.00S,3,1610612756,PHX,203109,Crowder,J. Crowder,0,0,0,,0,,,0,h,Crowder P.FOUL (P4.T3) (N.Buchert),Foul,Personal,1,0,300
+0022000822,409,PT06M56.00S,3,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,SUB: Payne FOR Paul,Substitution,,0,0,301
+0022000822,410,PT06M56.00S,3,1610612756,PHX,203109,Crowder,J. Crowder,0,0,0,,0,,,0,h,SUB: Johnson FOR Crowder,Substitution,,0,0,302
+0022000822,413,PT06M47.00S,3,1610612745,HOU,203482,Olynyk,K. Olynyk,76,252,26,Made,1,88,75,163,v,Olynyk 26' 3PT Jump Shot (13 PTS) (Porter Jr. 8 AST),Made Shot,Jump Shot,1,3,303
+0022000822,415,PT06M22.00S,3,1610612756,PHX,1626166,Payne,C. Payne,-160,203,26,Made,1,91,75,166,h,Payne 26' 3PT Jump Shot (8 PTS) (Johnson 2 AST),Made Shot,Jump Shot,1,3,304
+0022000822,417,PT06M07.00S,3,1610612745,HOU,1630256,Tate,J. Tate,-11,16,2,Made,1,91,77,168,v,Tate 2' Hook Shot (10 PTS) (Porter Jr. 9 AST),Made Shot,Hook Shot,1,2,305
+0022000822,419,PT05M43.00S,3,1610612756,PHX,1626166,Payne,C. Payne,134,216,25,Missed,1,,,0,h,MISS Payne 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,306
+0022000822,420,PT05M39.00S,3,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,307
+0022000822,421,PT05M29.00S,3,1610612745,HOU,202322,Wall,J. Wall,171,184,25,Made,1,91,80,171,v,Wall 25' 3PT Jump Shot (13 PTS) (Wood 2 AST),Made Shot,Jump Shot,1,3,308
+0022000822,423,PT05M15.00S,3,1610612756,PHX,1629661,Johnson,C. Johnson,228,-2,0,Made,1,94,80,174,h,Johnson 3PT Jump Shot (6 PTS) (Booker 6 AST),Made Shot,Jump Shot,1,3,309
+0022000822,425,PT05M04.00S,3,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker P.FOUL (P1.T4) (N.Sago),Foul,Personal,1,0,310
+0022000822,427,PT04M56.00S,3,1610612745,HOU,1630256,Tate,J. Tate,225,44,0,Missed,1,,,0,v,MISS Tate 3PT Jump Shot,Missed Shot,Jump Shot,1,3,311
+0022000822,428,PT04M54.00S,3,1610612756,PHX,1626166,Payne,C. Payne,0,0,0,,0,,,0,h,Payne REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,312
+0022000822,429,PT04M38.00S,3,1610612756,PHX,1626166,Payne,C. Payne,1,48,5,Missed,1,,,0,h,MISS Payne 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,313
+0022000822,429,PT04M38.00S,3,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,v,Tate BLOCK (1 BLK),,,1,2,314
+0022000822,431,PT04M36.00S,3,1610612745,HOU,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,v,Olynyk REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,315
+0022000822,432,PT04M29.00S,3,1610612745,HOU,203482,Olynyk,K. Olynyk,-161,227,28,Missed,1,,,0,v,MISS Olynyk 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,316
+0022000822,433,PT04M27.00S,3,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:4 Def:6),Rebound,Unknown,1,0,317
+0022000822,435,PT04M27.00S,3,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,Johnson P.FOUL (P2.PN) (N.Buchert),Foul,Personal,1,0,318
+0022000822,437,PT04M27.00S,3,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,94,81,175,v,Wood Free Throw 1 of 2 (22 PTS),Free Throw,Free Throw 1 of 2,1,0,319
+0022000822,438,PT04M27.00S,3,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,SUB: Saric FOR Ayton,Substitution,,0,0,320
+0022000822,439,PT04M27.00S,3,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,h,SUB: Carter FOR Bridges,Substitution,,0,0,321
+0022000822,440,PT04M27.00S,3,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,v,SUB: Martin Jr. FOR Porter Jr.,Substitution,,0,0,322
+0022000822,441,PT04M27.00S,3,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,v,SUB: Bradley FOR Tate,Substitution,,0,0,323
+0022000822,446,PT04M27.00S,3,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,94,82,176,v,Wood Free Throw 2 of 2 (23 PTS),Free Throw,Free Throw 2 of 2,1,0,324
+0022000822,447,PT04M02.00S,3,1610612756,PHX,1626166,Payne,C. Payne,234,37,24,Missed,1,,,0,h,MISS Payne 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,325
+0022000822,448,PT03M57.00S,3,1610612745,HOU,202340,Bradley,A. Bradley,0,0,0,,0,,,0,v,Bradley REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,326
+0022000822,449,PT03M40.00S,3,1610612745,HOU,202340,Bradley,A. Bradley,74,209,22,Missed,1,,,0,v,MISS Bradley 22' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,327
+0022000822,450,PT03M39.00S,3,1610612756,PHX,1628975,Carter,J. Carter,0,0,0,,0,,,0,h,Carter REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,328
+0022000822,451,PT03M33.00S,3,1610612756,PHX,1626164,Booker,D. Booker,231,46,24,Made,1,97,82,179,h,Booker 24' 3PT Step Back Jump Shot (16 PTS) (Carter 3 AST),Made Shot,Step Back Jump shot,1,3,329
+0022000822,453,PT03M19.00S,3,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker P.FOUL (P2.PN) (N.Sago),Foul,Personal,1,0,330
+0022000822,455,PT03M19.00S,3,1610612745,HOU,203482,Olynyk,K. Olynyk,0,0,0,,0,97,83,180,v,Olynyk Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,331
+0022000822,456,PT03M19.00S,3,1610612745,HOU,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,v,MISS Olynyk Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,332
+0022000822,457,PT03M17.00S,3,1610612756,PHX,1628975,Carter,J. Carter,0,0,0,,0,,,0,h,Carter REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,333
+0022000822,458,PT03M03.00S,3,1610612756,PHX,1629661,Johnson,C. Johnson,11,56,6,Made,1,99,83,182,h,Johnson 6' Floating Jump Shot (8 PTS),Made Shot,Floating Jump shot,1,2,334
+0022000822,459,PT03M03.00S,3,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,v,Martin Jr. S.FOUL (P3.T1) (N.Buchert),Foul,Shooting,1,0,335
+0022000822,461,PT03M03.00S,3,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,MISS Johnson Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,336
+0022000822,462,PT03M01.00S,3,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:4 Def:7),Rebound,Unknown,1,0,337
+0022000822,463,PT02M50.00S,3,1610612745,HOU,202322,Wall,J. Wall,54,173,18,Missed,1,,,0,v,MISS Wall 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,338
+0022000822,464,PT02M47.00S,3,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,339
+0022000822,465,PT02M31.00S,3,1610612756,PHX,203967,Šarić,D. Šarić,-92,242,26,Missed,1,,,0,h,MISS Saric 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,340
+0022000822,466,PT02M29.00S,3,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,v,Martin Jr. REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,341
+0022000822,467,PT02M26.00S,3,1610612745,HOU,202322,Wall,J. Wall,0,0,0,,0,,,0,v,Wall Out of Bounds - Bad Pass Turnover Turnover (P4.T18),Turnover,Out of Bounds - Bad Pass Turnover,1,0,342
+0022000822,468,PT02M26.00S,3,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,343
+0022000822,469,PT02M26.00S,3,1610612745,HOU,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,v,SUB: Brooks FOR Olynyk,Substitution,,0,0,344
+0022000822,471,PT02M13.00S,3,1610612756,PHX,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric Lost Ball Turnover (P1.T12),Turnover,Lost Ball,1,0,345
+0022000822,471,PT02M13.00S,3,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood STEAL (1 STL),,,1,0,346
+0022000822,473,PT02M09.00S,3,1610612745,HOU,1629717,Brooks,A. Brooks,-207,165,26,Made,1,99,86,185,v,Brooks 26' 3PT Running Jump Shot (3 PTS) (Wall 7 AST),Made Shot,Running Jump Shot,1,3,347
+0022000822,475,PT01M50.00S,3,1610612756,PHX,1628975,Carter,J. Carter,145,208,25,Missed,1,,,0,h,MISS Carter 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,348
+0022000822,476,PT01M47.00S,3,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:4 Def:8),Rebound,Unknown,1,0,349
+0022000822,477,PT01M38.00S,3,1610612745,HOU,202322,Wall,J. Wall,0,0,0,,0,,,0,v,Wall Bad Pass Turnover (P5.T19),Turnover,Bad Pass,1,0,350
+0022000822,477,PT01M38.00S,3,1610612756,PHX,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric STEAL (1 STL),,,1,0,351
+0022000822,479,PT01M33.00S,3,1610612756,PHX,1626164,Booker,D. Booker,-5,0,1,Made,1,101,86,187,h,Booker 1' Running Dunk (18 PTS) (Johnson 3 AST),Made Shot,Running Dunk Shot,1,2,352
+0022000822,481,PT01M08.00S,3,1610612745,HOU,202340,Bradley,A. Bradley,0,0,0,,0,,,0,v,Bradley Bad Pass Turnover (P1.T20),Turnover,Bad Pass,1,0,353
+0022000822,481,PT01M08.00S,3,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,Johnson STEAL (3 STL),,,1,0,354
+0022000822,483,PT01M00.00S,3,1610612756,PHX,1626164,Booker,D. Booker,45,72,8,Made,1,103,86,189,h,Booker 8' Jump Bank Shot (20 PTS),Made Shot,Jump Bank Shot,1,2,355
+0022000822,484,PT00M36.50S,3,1610612745,HOU,1630231,Martin,K. Martin,13,23,3,Made,1,103,88,191,v,Martin Jr. 3' Driving Layup (9 PTS) (Wall 8 AST),Made Shot,Driving Layup Shot,1,2,356
+0022000822,486,PT00M32.90S,3,1610612756,PHX,1626164,Booker,D. Booker,-171,192,26,Missed,1,,,0,h,MISS Booker 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,357
+0022000822,487,PT00M30.30S,3,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Rebound,Rebound,Unknown,0,0,358
+0022000822,489,PT00M07.80S,3,1610612745,HOU,202322,Wall,J. Wall,-5,173,17,Missed,1,,,0,v,MISS Wall 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,359
+0022000822,490,PT00M04.20S,3,1610612756,PHX,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,360
+0022000822,492,PT00M00.20S,3,1610612756,PHX,1628975,Carter,J. Carter,20,52,6,Missed,1,,,0,h,MISS Carter 6' Layup,Missed Shot,Layup Shot,1,2,361
+0022000822,493,PT00M00.10S,3,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Rebound,Rebound,Unknown,0,0,362
+0022000822,494,PT00M00.00S,3,0,,0,,,0,0,0,,0,103,88,191,,End of 3rd Period (11:44 PM EST),period,end,1,0,363
+0022000822,501,PT12M00.00S,4,0,,0,,,0,0,0,,0,103,88,191,,Start of 4th Period (11:47 PM EST),period,start,0,0,364
+0022000822,502,PT11M45.00S,4,1610612756,PHX,1629661,Johnson,C. Johnson,213,120,24,Made,1,106,88,194,h,Johnson 24' 3PT Jump Shot (11 PTS) (Payne 4 AST),Made Shot,Jump Shot,1,3,365
+0022000822,504,PT11M21.00S,4,1610612745,HOU,1629717,Brooks,A. Brooks,-139,269,30,Missed,1,,,0,v,MISS Brooks 30' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,366
+0022000822,505,PT11M20.00S,4,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Rebound,Rebound,Unknown,0,0,367
+0022000822,507,PT11M08.00S,4,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,16,2,Made,1,106,90,196,v,Porter Jr. 2' Driving Layup (15 PTS),Made Shot,Driving Layup Shot,1,2,368
+0022000822,508,PT10M55.00S,4,1610612756,PHX,1626166,Payne,C. Payne,-91,99,13,Missed,1,,,0,h,MISS Payne 13' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,369
+0022000822,509,PT10M53.00S,4,1610612756,PHX,1626166,Payne,C. Payne,0,0,0,,0,,,0,h,Payne REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,370
+0022000822,510,PT10M52.00S,4,1610612756,PHX,1626166,Payne,C. Payne,-103,20,10,Missed,1,,,0,h,MISS Payne 10' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,371
+0022000822,511,PT10M49.00S,4,1610612756,PHX,1628975,Carter,J. Carter,0,0,0,,0,,,0,h,Carter REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,372
+0022000822,512,PT10M35.00S,4,1610612756,PHX,1626166,Payne,C. Payne,-144,199,25,Made,1,109,90,199,h,Payne 25' 3PT Jump Shot (11 PTS) (Johnson 4 AST),Made Shot,Jump Shot,1,3,373
+0022000822,514,PT10M19.00S,4,1610612745,HOU,1629717,Brooks,A. Brooks,227,39,0,Made,1,109,93,202,v,Brooks 3PT Jump Shot (6 PTS) (Porter Jr. 10 AST),Made Shot,Jump Shot,1,3,374
+0022000822,516,PT10M06.00S,4,1610612756,PHX,1626166,Payne,C. Payne,20,215,22,Missed,1,,,0,h,MISS Payne 22' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,375
+0022000822,517,PT10M04.00S,4,1610612745,HOU,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,v,Wilson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,376
+0022000822,518,PT09M54.00S,4,1610612745,HOU,1629717,Brooks,A. Brooks,183,169,25,Made,1,109,96,205,v,Brooks 25' 3PT Step Back Jump Shot (9 PTS),Made Shot,Step Back Jump shot,1,3,377
+0022000822,519,PT09M33.00S,4,1610612756,PHX,1628470,Craig,T. Craig,-193,159,25,Missed,1,,,0,h,MISS Craig 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,378
+0022000822,520,PT09M31.00S,4,1610612745,HOU,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,v,Wilson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,379
+0022000822,521,PT09M25.00S,4,1610612756,PHX,1626166,Payne,C. Payne,0,0,0,,0,,,0,h,Payne P.FOUL (P2.T1) (K.Fitzgerald),Foul,Personal,1,0,380
+0022000822,523,PT09M25.00S,4,1610612756,PHX,1626166,Payne,C. Payne,0,0,0,,0,,,0,h,SUB: Paul FOR Payne,Substitution,,0,0,381
+0022000822,525,PT09M18.00S,4,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,-22,4,2,Made,1,109,98,207,v,Porter Jr. 2' Driving Layup (17 PTS),Made Shot,Driving Layup Shot,1,2,382
+0022000822,526,PT09M03.00S,4,1610612756,PHX,203967,Šarić,D. Šarić,83,239,25,Made,1,112,98,210,h,Saric 25' 3PT Jump Shot (9 PTS) (Paul 8 AST),Made Shot,Jump Shot,1,3,383
+0022000822,528,PT08M50.00S,4,1610612745,HOU,1628391,Wilson,D. Wilson,93,254,27,Missed,1,,,0,v,MISS Wilson 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,384
+0022000822,529,PT08M47.00S,4,1610612756,PHX,1628470,Craig,T. Craig,0,0,0,,0,,,0,h,Craig REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,385
+0022000822,530,PT08M26.00S,4,1610612756,PHX,1628470,Craig,T. Craig,-173,169,24,Missed,1,,,0,h,MISS Craig 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,386
+0022000822,531,PT08M22.00S,4,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,v,Martin Jr. REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,387
+0022000822,532,PT08M08.00S,4,1610612745,HOU,1630231,Martin,K. Martin,-18,13,2,Missed,1,,,0,v,MISS Martin Jr. 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,388
+0022000822,533,PT08M06.00S,4,1610612745,HOU,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,v,Wilson REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,389
+0022000822,534,PT08M04.00S,4,1610612745,HOU,1628391,Wilson,D. Wilson,-2,15,2,Made,1,112,100,212,v,Wilson 2' Putback Dunk (2 PTS),Made Shot,Putback Dunk Shot,1,2,390
+0022000822,535,PT07M56.00S,4,1610612756,PHX,101108,Paul,C. Paul,90,114,15,Missed,1,,,0,h,MISS Paul 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,391
+0022000822,536,PT07M54.00S,4,1610612745,HOU,202340,Bradley,A. Bradley,0,0,0,,0,,,0,v,Bradley REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,392
+0022000822,537,PT07M42.00S,4,1610612745,HOU,1628391,Wilson,D. Wilson,174,191,26,Made,1,112,103,215,v,Wilson 26' 3PT Step Back Jump Shot (5 PTS) (Porter Jr. 11 AST),Made Shot,Step Back Jump shot,1,3,393
+0022000822,539,PT07M41.00S,4,0,,1610612756,,,0,0,0,,0,,,0,h,SUNS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,394
+0022000822,541,PT07M41.00S,4,1610612756,PHX,1628470,Craig,T. Craig,0,0,0,,0,,,0,h,SUB: Bridges FOR Craig,Substitution,,0,0,395
+0022000822,542,PT07M41.00S,4,1610612756,PHX,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,SUB: Ayton FOR Saric,Substitution,,0,0,396
+0022000822,546,PT07M19.00S,4,1610612756,PHX,101108,Paul,C. Paul,132,83,16,Missed,1,,,0,h,MISS Paul 16' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,397
+0022000822,547,PT07M15.00S,4,1610612745,HOU,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,v,Wilson REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,398
+0022000822,548,PT07M00.00S,4,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,102,154,18,Missed,1,,,0,v,MISS Porter Jr. 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,399
+0022000822,549,PT06M57.00S,4,1610612756,PHX,1628975,Carter,J. Carter,0,0,0,,0,,,0,h,Carter REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,400
+0022000822,550,PT06M40.00S,4,1610612756,PHX,1629028,Ayton,D. Ayton,3,-6,1,Made,1,114,103,217,h,Ayton 1' Alley Oop Layup (12 PTS) (Bridges 3 AST),Made Shot,Alley Oop Layup shot,1,2,401
+0022000822,552,PT06M18.00S,4,1610612745,HOU,1629717,Brooks,A. Brooks,-36,311,31,Made,1,114,106,220,v,Brooks 31' 3PT Jump Shot (12 PTS) (Porter Jr. 12 AST),Made Shot,Jump Shot,1,3,402
+0022000822,554,PT05M56.00S,4,1610612756,PHX,1628969,Bridges,M. Bridges,232,48,24,Missed,1,,,0,h,MISS Bridges 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,403
+0022000822,555,PT05M53.00S,4,1610612745,HOU,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,v,Wilson REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,404
+0022000822,556,PT05M45.00S,4,1610612745,HOU,1628391,Wilson,D. Wilson,-19,52,6,Made,1,114,108,222,v,Wilson 6' Driving Layup (7 PTS) (Bradley 1 AST),Made Shot,Driving Layup Shot,1,2,405
+0022000822,558,PT05M45.00S,4,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,Ayton S.FOUL (P1.T2) (K.Fitzgerald),Foul,Shooting,1,0,406
+0022000822,560,PT05M45.00S,4,1610612756,PHX,1628975,Carter,J. Carter,0,0,0,,0,,,0,h,SUB: Crowder FOR Carter,Substitution,,0,0,407
+0022000822,561,PT05M45.00S,4,1610612756,PHX,1629661,Johnson,C. Johnson,0,0,0,,0,,,0,h,SUB: Booker FOR Johnson,Substitution,,0,0,408
+0022000822,564,PT05M45.00S,4,1610612745,HOU,1628391,Wilson,D. Wilson,0,0,0,,0,114,109,223,v,Wilson Free Throw 1 of 1 (8 PTS),Free Throw,Free Throw 1 of 1,1,0,409
+0022000822,581,PT05M45.00S,4,1610612745,HOU,202340,Bradley,A. Bradley,0,0,0,,0,,,0,v,SUB: Wall FOR Bradley,Substitution,,0,0,410
+0022000822,565,PT05M33.00S,4,1610612756,PHX,1629028,Ayton,D. Ayton,-8,6,1,Made,1,116,109,225,h,Ayton 1' Driving Layup (14 PTS) (Paul 9 AST),Made Shot,Driving Layup Shot,1,2,411
+0022000822,567,PT05M14.00S,4,1610612745,HOU,1629717,Brooks,A. Brooks,0,0,0,,0,,,0,v,Brooks Bad Pass Turnover (P1.T21),Turnover,Bad Pass,1,0,412
+0022000822,567,PT05M14.00S,4,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges STEAL (3 STL),,,1,0,413
+0022000822,569,PT04M57.00S,4,1610612756,PHX,203109,Crowder,J. Crowder,-232,8,0,Missed,1,,,0,h,MISS Crowder 3PT Jump Shot,Missed Shot,Jump Shot,1,3,414
+0022000822,570,PT04M55.00S,4,1610612745,HOU,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,v,Wilson REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,415
+0022000822,571,PT04M45.00S,4,1610612745,HOU,202322,Wall,J. Wall,120,265,29,Missed,1,,,0,v,MISS Wall 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,416
+0022000822,572,PT04M40.00S,4,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,417
+0022000822,575,PT04M34.00S,4,1610612756,PHX,1629028,Ayton,D. Ayton,-8,8,1,Made,1,118,109,227,h,Ayton 1' Alley Oop Dunk (16 PTS) (Booker 7 AST),Made Shot,Alley Oop Dunk Shot,1,2,418
+0022000822,577,PT04M34.00S,4,1610612745,HOU,202322,Wall,J. Wall,0,0,0,,0,,,0,v,Wall S.FOUL (P2.T1) (K.Fitzgerald),Foul,Shooting,1,0,419
+0022000822,595,PT04M34.00S,4,1610612745,HOU,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,v,SUB: Olynyk FOR Wilson,Substitution,,0,0,420
+0022000822,596,PT04M34.00S,4,1610612745,HOU,1630231,Martin,K. Martin,0,0,0,,0,,,0,v,SUB: Wood FOR Martin Jr.,Substitution,,0,0,421
+0022000822,585,PT04M34.00S,4,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,MISS Ayton Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,422
+0022000822,586,PT04M30.00S,4,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:4 Def:9),Rebound,Unknown,1,0,423
+0022000822,587,PT04M26.00S,4,1610612745,HOU,202322,Wall,J. Wall,6,5,1,Missed,1,,,0,v,MISS Wall 1' Running Layup,Missed Shot,Running Layup Shot,1,2,424
+0022000822,588,PT04M26.00S,4,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,425
+0022000822,589,PT04M20.00S,4,1610612756,PHX,1626164,Booker,D. Booker,0,5,1,Made,1,120,109,229,h,Booker 1' Running Layup (22 PTS) (Crowder 2 AST),Made Shot,Running Layup Shot,1,2,426
+0022000822,591,PT04M00.00S,4,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,71,1,7,Missed,1,,,0,v,MISS Porter Jr. 7' Driving Layup,Missed Shot,Driving Layup Shot,1,2,427
+0022000822,592,PT03M58.00S,4,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,428
+0022000822,593,PT03M58.00S,4,1610612756,PHX,203109,Crowder,J. Crowder,0,0,0,,0,,,0,h,Crowder P.FOUL (P5.T3) (K.Fitzgerald),Foul,Personal,1,0,429
+0022000822,599,PT03M48.00S,4,1610612745,HOU,1626174,Wood,C. Wood,4,2,0,Made,1,120,111,231,v,Wood Alley Oop Dunk (25 PTS) (Porter Jr. 13 AST),Made Shot,Alley Oop Dunk Shot,1,2,430
+0022000822,601,PT03M26.00S,4,1610612756,PHX,1626164,Booker,D. Booker,-71,159,17,Missed,1,,,0,h,MISS Booker 17' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,431
+0022000822,602,PT03M23.00S,4,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:4 Def:10),Rebound,Unknown,1,0,432
+0022000822,603,PT03M13.00S,4,1610612745,HOU,1626174,Wood,C. Wood,179,50,19,Missed,1,,,0,v,MISS Wood 19' Jump Shot,Missed Shot,Jump Shot,1,2,433
+0022000822,604,PT03M10.00S,4,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,Ayton REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,434
+0022000822,605,PT03M04.00S,4,1610612756,PHX,1629028,Ayton,D. Ayton,8,4,1,Made,1,122,111,233,h,Ayton 1' Alley Oop Dunk (18 PTS) (Paul 10 AST),Made Shot,Alley Oop Dunk Shot,1,2,435
+0022000822,607,PT03M04.00S,4,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,436
+0022000822,608,PT02M52.00S,4,1610612745,HOU,203482,Olynyk,K. Olynyk,-22,7,2,Made,1,122,113,235,v,Olynyk 2' Hook Shot (16 PTS) (Porter Jr. 14 AST),Made Shot,Hook Shot,1,2,437
+0022000822,610,PT02M36.00S,4,1610612756,PHX,101108,Paul,C. Paul,-82,15,8,Missed,1,,,0,h,MISS Paul 8' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,438
+0022000822,611,PT02M33.00S,4,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,Ayton REBOUND (Off:4 Def:4),Rebound,Unknown,1,0,439
+0022000822,612,PT02M31.00S,4,1610612756,PHX,203109,Crowder,J. Crowder,-163,197,26,Missed,1,,,0,h,MISS Crowder 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,440
+0022000822,613,PT02M27.00S,4,1610612745,HOU,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,v,Olynyk REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,441
+0022000822,614,PT02M18.00S,4,1610612745,HOU,1629717,Brooks,A. Brooks,3,-4,1,Made,1,122,115,237,v,Brooks 1' Layup (14 PTS) (Wood 3 AST),Made Shot,Layup Shot,1,2,442
+0022000822,616,PT01M56.00S,4,1610612756,PHX,203109,Crowder,J. Crowder,0,0,0,,0,,,0,h,Crowder Out of Bounds - Bad Pass Turnover Turnover (P1.T13),Turnover,Out of Bounds - Bad Pass Turnover,1,0,443
+0022000822,617,PT01M42.00S,4,1610612745,HOU,203482,Olynyk,K. Olynyk,192,188,27,Missed,1,,,0,v,MISS Olynyk 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,444
+0022000822,618,PT01M39.00S,4,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,445
+0022000822,621,PT01M20.00S,4,1610612756,PHX,101108,Paul,C. Paul,-47,246,25,Missed,1,,,0,h,MISS Paul 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,446
+0022000822,622,PT01M17.00S,4,1610612745,HOU,1629717,Brooks,A. Brooks,0,0,0,,0,,,0,v,Brooks REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,447
+0022000822,623,PT01M11.00S,4,1610612745,HOU,202322,Wall,J. Wall,-169,209,27,Missed,1,,,0,v,MISS Wall 27' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,448
+0022000822,624,PT01M09.00S,4,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,449
+0022000822,625,PT01M00.00S,4,1610612745,HOU,202322,Wall,J. Wall,0,0,0,,0,,,0,v,Wall T.FOUL (P2.T1) (N.Sago),Foul,Technical,1,0,450
+0022000822,626,PT01M00.00S,4,1610612756,PHX,101108,Paul,C. Paul,0,0,0,,0,123,115,238,h,Paul Free Throw Technical (9 PTS),Free Throw,Free Throw Technical,1,0,451
+0022000822,627,PT00M49.70S,4,1610612756,PHX,101108,Paul,C. Paul,90,125,15,Missed,1,,,0,h,MISS Paul 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,452
+0022000822,628,PT00M47.20S,4,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,453
+0022000822,629,PT00M44.00S,4,1610612756,PHX,203109,Crowder,J. Crowder,0,0,0,,0,,,0,h,Crowder S.FOUL (P6.T4) (N.Buchert),Foul,Shooting,1,0,454
+0022000822,631,PT00M44.00S,4,1610612756,PHX,203109,Crowder,J. Crowder,0,0,0,,0,,,0,h,SUB: Johnson FOR Crowder,Substitution,,0,0,455
+0022000822,633,PT00M44.00S,4,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,123,116,239,v,Porter Jr. Free Throw 1 of 2 (18 PTS),Free Throw,Free Throw 1 of 2,1,0,456
+0022000822,634,PT00M44.00S,4,1610612745,HOU,1629717,Brooks,A. Brooks,0,0,0,,0,,,0,v,SUB: Bradley FOR Brooks,Substitution,,0,0,457
+0022000822,636,PT00M44.00S,4,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,,,0,v,MISS Porter Jr. Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,458
+0022000822,637,PT00M42.30S,4,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,459
+0022000822,638,PT00M32.10S,4,1610612745,HOU,202340,Bradley,A. Bradley,0,0,0,,0,,,0,v,Bradley Personal Take Foul (P1.T2) (N.Sago),Foul,Personal Take,1,0,460
+0022000822,640,PT00M32.10S,4,1610612745,HOU,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,v,SUB: Tate FOR Olynyk,Substitution,,0,0,461
+0022000822,642,PT00M28.50S,4,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,v,Tate Personal Take Foul (P1.PN) (K.Fitzgerald),Foul,Personal Take,1,0,462
+0022000822,644,PT00M28.50S,4,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,124,116,240,h,Bridges Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,463
+0022000822,645,PT00M28.50S,4,1610612745,HOU,202322,Wall,J. Wall,0,0,0,,0,,,0,v,SUB: Brooks FOR Wall,Substitution,,0,0,464
+0022000822,647,PT00M28.50S,4,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,h,MISS Bridges Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,465
+0022000822,648,PT00M26.50S,4,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:4 Def:11),Rebound,Unknown,1,0,466
+0022000822,649,PT00M22.20S,4,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,-7,5,1,Made,1,124,118,242,v,Porter Jr. 1' Driving Dunk (20 PTS),Made Shot,Driving Dunk Shot,1,2,467
+0022000822,650,PT00M18.00S,4,1610612745,HOU,1630256,Tate,J. Tate,0,0,0,,0,,,0,v,Tate P.FOUL (P2.PN) (K.Fitzgerald),Foul,Personal,1,0,468
+0022000822,652,PT00M18.00S,4,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,125,118,243,h,Booker Free Throw 1 of 2 (23 PTS),Free Throw,Free Throw 1 of 2,1,0,469
+0022000822,653,PT00M18.00S,4,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,126,118,244,h,Booker Free Throw 2 of 2 (24 PTS),Free Throw,Free Throw 2 of 2,1,0,470
+0022000822,654,PT00M18.00S,4,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,471
+0022000822,655,PT00M18.00S,4,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,h,SUB: Craig FOR Ayton,Substitution,,0,0,472
+0022000822,657,PT00M15.90S,4,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,-229,37,0,Missed,1,,,0,v,MISS Porter Jr. 3PT Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,3,473
+0022000822,658,PT00M13.30S,4,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,474
+0022000822,659,PT00M06.80S,4,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker Lost Ball Turnover (P6.T14),Turnover,Lost Ball,1,0,475
+0022000822,659,PT00M06.80S,4,1610612745,HOU,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood STEAL (2 STL),,,1,0,476
+0022000822,661,PT00M02.70S,4,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,h,Booker S.FOUL (P3.PN) (N.Sago),Foul,Shooting,1,0,477
+0022000822,663,PT00M02.70S,4,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,126,119,245,v,Porter Jr. Free Throw 1 of 2 (21 PTS),Free Throw,Free Throw 1 of 2,1,0,478
+0022000822,664,PT00M02.70S,4,1610612745,HOU,1629645,Porter Jr.,K. Porter Jr.,0,0,0,,0,126,120,246,v,Porter Jr. Free Throw 2 of 2 (22 PTS),Free Throw,Free Throw 2 of 2,1,0,479
+0022000822,665,PT00M00.00S,4,0,,0,,,0,0,0,,0,126,120,246,,End of 4th Period (12:14 AM EST),period,end,1,0,480

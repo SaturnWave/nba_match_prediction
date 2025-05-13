@@ -1,0 +1,502 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022101122,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:11 PM EST),period,start,0,0,1
+0022101122,4,PT12M00.00S,1,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Jump Ball Plumlee vs. Jokic: Tip to Washington,Jump Ball,,1,0,2
+0022101122,7,PT11M46.00S,1,1610612766,CHA,1630163,Ball,L. Ball,25,47,5,Missed,1,,,0,h,MISS Ball 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,3
+0022101122,8,PT11M44.00S,1,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,4
+0022101122,9,PT11M30.00S,1,1610612743,DEN,203932,Gordon,A. Gordon,5,15,2,Made,1,0,2,2,v,Gordon 2' Dunk (2 PTS) (Jokic 1 AST),Made Shot,Dunk Shot,1,2,5
+0022101122,11,PT11M15.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,203,158,26,Made,1,3,2,5,h,Bridges 26' 3PT Jump Shot (3 PTS) (Washington 1 AST),Made Shot,Jump Shot,1,3,6
+0022101122,13,PT10M59.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,Rozier S.FOUL (P1.T1) (M.Lindsay),Foul,Shooting,1,0,7
+0022101122,15,PT10M59.00S,1,1610612743,DEN,203932,Gordon,A. Gordon,0,0,0,,0,3,3,6,v,Gordon Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,8
+0022101122,16,PT10M59.00S,1,1610612743,DEN,203932,Gordon,A. Gordon,0,0,0,,0,3,4,7,v,Gordon Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,9
+0022101122,17,PT10M41.00S,1,1610612766,CHA,1630163,Ball,L. Ball,-240,-14,24,Missed,1,,,0,h,MISS Ball 24' 3PT Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,3,10
+0022101122,18,PT10M39.00S,1,1610612743,DEN,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,11
+0022101122,19,PT10M35.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges P.FOUL (P1.T2) (B.Kennedy),Foul,Personal,1,0,12
+0022101122,21,PT10M25.00S,1,1610612743,DEN,203115,Barton,W. Barton,-235,3,24,Missed,1,,,0,v,MISS Barton 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,13
+0022101122,22,PT10M22.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,14
+0022101122,23,PT10M16.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,237,-27,24,Missed,1,,,0,h,MISS Bridges 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,15
+0022101122,24,PT10M13.00S,1,1610612743,DEN,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,16
+0022101122,25,PT10M08.00S,1,1610612743,DEN,203932,Gordon,A. Gordon,-16,10,2,Made,1,3,6,9,v,Gordon 2' Dunk (6 PTS) (Morris 1 AST),Made Shot,Dunk Shot,1,2,17
+0022101122,27,PT09M49.00S,1,1610612766,CHA,1630163,Ball,L. Ball,2,5,1,Missed,1,,,0,h,MISS Ball 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,18
+0022101122,27,PT09M49.00S,1,1610612743,DEN,201145,Green,J. Green,0,0,0,,0,,,0,v,Green BLOCK (1 BLK),,,1,2,19
+0022101122,28,PT09M47.00S,1,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,20
+0022101122,29,PT09M44.00S,1,1610612743,DEN,203115,Barton,W. Barton,-5,-2,1,Missed,1,,,0,v,MISS Barton 1' Running Layup,Missed Shot,Running Layup Shot,1,2,21
+0022101122,30,PT09M42.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,Rozier REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,22
+0022101122,31,PT09M32.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,2,28,3,Made,1,5,6,11,h,Bridges 3' Driving Layup (5 PTS) (Rozier 1 AST),Made Shot,Driving Layup Shot,1,2,23
+0022101122,32,PT09M32.00S,1,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,,,0,v,Morris S.FOUL (P1.T1) (B.Kennedy),Foul,Shooting,1,0,24
+0022101122,34,PT09M32.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,6,6,12,h,Bridges Free Throw 1 of 1 (6 PTS),Free Throw,Free Throw 1 of 1,1,0,25
+0022101122,36,PT09M14.00S,1,1610612743,DEN,201145,Green,J. Green,235,-5,24,Made,1,6,9,15,v,Green 24' 3PT Jump Shot (3 PTS) (Gordon 1 AST),Made Shot,Jump Shot,1,3,26
+0022101122,38,PT09M03.00S,1,1610612766,CHA,203486,Plumlee,M. Plumlee,9,4,1,Made,1,8,9,17,h,Plumlee 1' Alley Oop Dunk (2 PTS) (Ball 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,27
+0022101122,40,PT08M50.00S,1,1610612743,DEN,203932,Gordon,A. Gordon,1,78,8,Made,1,8,11,19,v,Gordon 8' Fadeaway Jumper (8 PTS) (Jokic 2 AST),Made Shot,Fadeaway Jump Shot,1,2,28
+0022101122,43,PT08M40.00S,1,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,v,Barton P.FOUL (P1.T2) (B.Kennedy),Foul,Personal,1,0,29
+0022101122,45,PT08M33.00S,1,1610612766,CHA,1630163,Ball,L. Ball,235,-14,24,Made,1,11,11,22,h,Ball 24' 3PT Fadeaway Jumper (3 PTS) (Bridges 1 AST),Made Shot,Fadeaway Jump Shot,1,3,30
+0022101122,47,PT08M23.00S,1,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee S.FOUL (P1.T3) (L.Holtkamp),Foul,Shooting,1,0,31
+0022101122,49,PT08M23.00S,1,1610612743,DEN,201145,Green,J. Green,0,0,0,,0,11,12,23,v,Green Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,32
+0022101122,50,PT08M23.00S,1,1610612743,DEN,201145,Green,J. Green,0,0,0,,0,11,13,24,v,Green Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,33
+0022101122,51,PT08M10.00S,1,1610612766,CHA,1630163,Ball,L. Ball,-194,186,27,Missed,1,,,0,h,MISS Ball 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,34
+0022101122,52,PT08M07.00S,1,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,v,Barton REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,35
+0022101122,53,PT08M00.00S,1,1610612743,DEN,203115,Barton,W. Barton,-13,-6,1,Missed,1,,,0,v,MISS Barton 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,36
+0022101122,54,PT07M58.00S,1,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,37
+0022101122,55,PT07M55.00S,1,1610612766,CHA,1630163,Ball,L. Ball,-140,226,27,Made,1,14,13,27,h,Ball 27' 3PT Pullup Jump Shot (6 PTS) (Washington 2 AST),Made Shot,Pullup Jump shot,1,3,38
+0022101122,57,PT07M41.00S,1,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee P.FOUL (P2.T4) (M.Lindsay),Foul,Personal,1,0,39
+0022101122,59,PT07M34.00S,1,1610612743,DEN,203999,Jokić,N. Jokić,2,50,5,Missed,1,,,0,v,MISS Jokic 5' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,40
+0022101122,60,PT07M29.00S,1,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,v,Barton REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,41
+0022101122,61,PT07M29.00S,1,1610612743,DEN,203115,Barton,W. Barton,0,0,0,Made,1,14,15,29,v,Barton Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,42
+0022101122,62,PT07M25.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges Out of Bounds - Bad Pass Turnover Turnover (P1.T1),Turnover,Out of Bounds - Bad Pass Turnover,1,0,43
+0022101122,63,PT07M25.00S,1,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,SUB: Martin FOR Washington,Substitution,,0,0,44
+0022101122,65,PT07M25.00S,1,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Violation: Delay of game Violation,Violation,Delay Of Game,0,0,45
+0022101122,66,PT07M22.00S,1,1610612743,DEN,203932,Gordon,A. Gordon,9,-12,2,Missed,1,,,0,v,MISS Gordon 2' Layup,Missed Shot,Layup Shot,1,2,46
+0022101122,67,PT07M21.00S,1,1610612743,DEN,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,47
+0022101122,68,PT07M21.00S,1,1610612743,DEN,203932,Gordon,A. Gordon,0,0,0,Made,1,14,17,31,v,Gordon Tip Layup Shot (10 PTS),Made Shot,Tip Layup Shot,1,2,48
+0022101122,69,PT07M21.00S,1,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,49
+0022101122,70,PT07M11.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges Out of Bounds Lost Ball Turnover (P2.T2),Turnover,Out of Bounds Lost Ball Turnover,1,0,50
+0022101122,71,PT07M01.00S,1,1610612743,DEN,203115,Barton,W. Barton,-233,36,24,Missed,1,,,0,v,MISS Barton 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,51
+0022101122,72,PT06M57.00S,1,1610612743,DEN,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,52
+0022101122,73,PT06M54.00S,1,1610612743,DEN,1628420,Morris,M. Morris,164,193,25,Made,1,14,20,34,v,Morris 25' 3PT Jump Shot (3 PTS) (Jokic 3 AST),Made Shot,Jump Shot,1,3,53
+0022101122,75,PT06M32.00S,1,1610612766,CHA,1628998,Martin,C. Martin,6,64,6,Missed,1,,,0,h,MISS Martin 6' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,54
+0022101122,76,PT06M27.00S,1,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,v,Barton REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,55
+0022101122,77,PT06M18.00S,1,1610612743,DEN,203932,Gordon,A. Gordon,-150,203,25,Made,1,14,23,37,v,Gordon 25' 3PT Jump Shot (13 PTS) (Morris 2 AST),Made Shot,Jump Shot,1,3,56
+0022101122,79,PT06M08.00S,1,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,,,0,v,Morris P.FOUL (P2.T3) (M.Lindsay),Foul,Personal,1,0,57
+0022101122,81,PT06M08.00S,1,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,SUB: Harrell FOR Ball,Substitution,,0,0,58
+0022101122,82,PT06M08.00S,1,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,SUB: Oubre Jr. FOR Plumlee,Substitution,,0,0,59
+0022101122,83,PT06M08.00S,1,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,,,0,v,SUB: Hyland FOR Morris,Substitution,,0,0,60
+0022101122,87,PT06M08.00S,1,0,,1610612743,,,0,0,0,,0,,,0,v,Nuggets Violation: Delay of game Violation,Violation,Delay Of Game,0,0,61
+0022101122,88,PT05M52.00S,1,1610612766,CHA,1626149,Harrell,M. Harrell,55,25,6,Made,1,16,23,39,h,Harrell 6' Floating Jump Shot (2 PTS) (Rozier 2 AST),Made Shot,Floating Jump shot,1,2,62
+0022101122,90,PT05M45.00S,1,1610612743,DEN,203932,Gordon,A. Gordon,10,4,1,Made,1,16,25,41,v,Gordon 1' Reverse Dunk (15 PTS),Made Shot,Reverse Dunk Shot,1,2,63
+0022101122,91,PT05M31.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,18,10,2,Made,1,18,25,43,h,Bridges 2' Floating Jump Shot (8 PTS) (Rozier 3 AST),Made Shot,Floating Jump shot,1,2,64
+0022101122,93,PT05M17.00S,1,1610612743,DEN,203932,Gordon,A. Gordon,0,0,0,Missed,1,,,0,v,MISS Gordon Layup,Missed Shot,Layup Shot,1,2,65
+0022101122,94,PT05M13.00S,1,1610612743,DEN,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,66
+0022101122,95,PT05M13.00S,1,1610612743,DEN,203932,Gordon,A. Gordon,0,0,0,Missed,1,,,0,v,MISS Gordon Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,67
+0022101122,96,PT05M12.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,Rozier REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,68
+0022101122,97,PT05M07.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,168,199,26,Missed,1,,,0,h,MISS Rozier 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,69
+0022101122,98,PT05M03.00S,1,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,v,Barton REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,70
+0022101122,99,PT05M02.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,Rozier P.FOUL (P2.PN) (B.Kennedy),Foul,Personal,1,0,71
+0022101122,102,PT05M02.00S,1,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,MISS Jokic Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,72
+0022101122,103,PT05M02.00S,1,0,,1610612743,,,0,0,0,,0,,,0,v,Nuggets Rebound,Rebound,Normal Rebound,0,0,73
+0022101122,104,PT05M02.00S,1,1610612743,DEN,201145,Green,J. Green,0,0,0,,0,,,0,v,SUB: Rivers FOR Green,Substitution,,0,0,74
+0022101122,106,PT05M02.00S,1,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,MISS Jokic Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,75
+0022101122,107,PT05M00.00S,1,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,76
+0022101122,108,PT04M46.00S,1,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell Out of Bounds - Bad Pass Turnover Turnover (P1.T3),Turnover,Out of Bounds - Bad Pass Turnover,1,0,77
+0022101122,109,PT04M27.00S,1,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,78
+0022101122,109,PT04M27.00S,1,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,Martin STEAL (1 STL),,,1,0,79
+0022101122,111,PT04M23.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,-1,13,1,Made,1,20,25,45,h,Rozier 1' Running Layup (2 PTS),Made Shot,Running Layup Shot,1,2,80
+0022101122,112,PT04M05.00S,1,1610612743,DEN,1630538,Hyland,B. Hyland,0,0,0,,0,,,0,v,Hyland Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,81
+0022101122,112,PT04M05.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,Rozier STEAL (1 STL),,,1,0,82
+0022101122,114,PT04M02.00S,1,1610612743,DEN,203085,Rivers,A. Rivers,0,0,0,,0,,,0,v,Rivers P.FOUL (P1.T4) (L.Holtkamp),Foul,Personal,1,0,83
+0022101122,116,PT04M02.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,SUB: Washington FOR Bridges,Substitution,,0,0,84
+0022101122,117,PT04M02.00S,1,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,v,SUB: Forbes FOR Barton,Substitution,,0,0,85
+0022101122,120,PT03M47.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,-189,191,27,Missed,1,,,0,h,MISS Rozier 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,86
+0022101122,121,PT03M45.00S,1,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,87
+0022101122,122,PT03M43.00S,1,1610612743,DEN,203932,Gordon,A. Gordon,-4,-2,0,Made,1,20,27,47,v,Gordon Dunk (17 PTS) (Jokic 4 AST),Made Shot,Dunk Shot,1,2,88
+0022101122,124,PT03M19.00S,1,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,Martin Out of Bounds - Bad Pass Turnover Turnover (P1.T4),Turnover,Out of Bounds - Bad Pass Turnover,1,0,89
+0022101122,125,PT03M11.00S,1,1610612743,DEN,1627854,Forbes,B. Forbes,-4,252,25,Missed,1,,,0,v,MISS Forbes 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,90
+0022101122,126,PT03M08.00S,1,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,91
+0022101122,127,PT03M05.00S,1,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington Lost Ball Turnover (P1.T5),Turnover,Lost Ball,1,0,92
+0022101122,127,PT03M05.00S,1,1610612743,DEN,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon STEAL (1 STL),,,1,0,93
+0022101122,129,PT03M02.00S,1,1610612743,DEN,203999,Jokić,N. Jokić,-11,4,1,Made,1,20,29,49,v,Jokic 1' Layup (2 PTS) (Gordon 2 AST),Made Shot,Layup Shot,1,2,94
+0022101122,131,PT02M45.00S,1,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,161,204,26,Missed,1,,,0,h,MISS Oubre Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,95
+0022101122,132,PT02M41.00S,1,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,96
+0022101122,133,PT02M40.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,-126,115,17,Made,1,22,29,51,h,Rozier 17' Pullup Jump Shot (4 PTS) (Harrell 1 AST),Made Shot,Pullup Jump shot,1,2,97
+0022101122,135,PT02M39.00S,1,0,,1610612743,,,0,0,0,,0,,,0,v,Nuggets Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,98
+0022101122,136,PT02M39.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,SUB: Thomas FOR Rozier,Substitution,,0,0,99
+0022101122,137,PT02M39.00S,1,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,SUB: Ball FOR Martin,Substitution,,0,0,100
+0022101122,138,PT02M39.00S,1,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,SUB: Cousins FOR Jokic,Substitution,,0,0,101
+0022101122,142,PT02M26.00S,1,1610612743,DEN,203932,Gordon,A. Gordon,-10,8,1,Missed,1,,,0,v,MISS Gordon 1' Layup,Missed Shot,Layup Shot,1,2,102
+0022101122,143,PT02M23.00S,1,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,103
+0022101122,144,PT02M15.00S,1,1610612766,CHA,202738,Thomas,I. Thomas,170,-5,17,Made,1,24,29,53,h,Thomas 17' Jump Shot (2 PTS) (Ball 2 AST),Made Shot,Jump Shot,1,2,104
+0022101122,146,PT01M59.00S,1,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball S.FOUL (P1.PN) (M.Lindsay),Foul,Shooting,1,0,105
+0022101122,148,PT01M59.00S,1,1610612743,DEN,1630538,Hyland,B. Hyland,0,0,0,,0,,,0,v,MISS Hyland Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,106
+0022101122,149,PT01M59.00S,1,0,,1610612743,,,0,0,0,,0,,,0,v,Nuggets Rebound,Rebound,Normal Rebound,0,0,107
+0022101122,150,PT01M59.00S,1,1610612743,DEN,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,SUB: Reed FOR Gordon,Substitution,,0,0,108
+0022101122,152,PT01M59.00S,1,1610612743,DEN,1630538,Hyland,B. Hyland,0,0,0,,0,24,30,54,v,Hyland Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,109
+0022101122,153,PT01M48.00S,1,1610612766,CHA,1629023,Washington,P. Washington,7,22,2,Made,1,26,30,56,h,Washington 2' Cutting Layup Shot (2 PTS) (Ball 3 AST),Made Shot,Cutting Layup Shot,1,2,110
+0022101122,155,PT01M34.00S,1,1610612743,DEN,1630538,Hyland,B. Hyland,-136,215,25,Missed,1,,,0,v,MISS Hyland 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,111
+0022101122,156,PT01M32.00S,1,1610612743,DEN,1628432,Reed,D. Reed,0,0,0,,0,,,0,v,Reed REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,112
+0022101122,157,PT01M27.00S,1,1610612743,DEN,1630538,Hyland,B. Hyland,0,0,0,,0,,,0,v,Hyland Bad Pass Turnover (P2.T3),Turnover,Bad Pass,1,0,113
+0022101122,157,PT01M27.00S,1,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,Oubre Jr. STEAL (1 STL),,,1,0,114
+0022101122,159,PT01M22.00S,1,1610612766,CHA,1630163,Ball,L. Ball,168,199,26,Missed,1,,,0,h,MISS Ball 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,115
+0022101122,160,PT01M18.00S,1,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,116
+0022101122,167,PT01M18.00S,1,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell Lost Ball Turnover (P2.T6),Turnover,Lost Ball,1,0,117
+0022101122,167,PT01M18.00S,1,1610612743,DEN,1627854,Forbes,B. Forbes,0,0,0,,0,,,0,v,Forbes STEAL (1 STL),,,1,0,118
+0022101122,161,PT01M18.00S,1,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball P.FOUL (P2.PN) (L.Holtkamp),Foul,Personal,1,0,119
+0022101122,163,PT01M18.00S,1,1610612743,DEN,1630538,Hyland,B. Hyland,0,0,0,,0,26,31,57,v,Hyland Free Throw 1 of 2 (2 PTS),Free Throw,Free Throw 1 of 2,1,0,120
+0022101122,164,PT01M18.00S,1,1610612743,DEN,1630538,Hyland,B. Hyland,0,0,0,,0,26,32,58,v,Hyland Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,121
+0022101122,165,PT01M08.00S,1,1610612743,DEN,1630538,Hyland,B. Hyland,0,0,0,,0,,,0,v,Hyland S.FOUL (P1.PN) (M.Lindsay),Foul,Shooting,1,0,122
+0022101122,169,PT01M08.00S,1,1610612766,CHA,202738,Thomas,I. Thomas,0,0,0,,0,,,0,h,MISS Thomas Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,123
+0022101122,170,PT01M08.00S,1,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Normal Rebound,0,0,124
+0022101122,171,PT01M08.00S,1,1610612766,CHA,202738,Thomas,I. Thomas,0,0,0,,0,27,32,59,h,Thomas Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,125
+0022101122,172,PT00M54.30S,1,1610612743,DEN,1627854,Forbes,B. Forbes,0,0,0,,0,,,0,v,Forbes Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,126
+0022101122,172,PT00M54.30S,1,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell STEAL (1 STL),,,1,0,127
+0022101122,174,PT00M48.00S,1,1610612743,DEN,1628432,Reed,D. Reed,0,0,0,,0,,,0,v,Reed S.FOUL (P1.PN) (L.Holtkamp),Foul,Shooting,1,0,128
+0022101122,176,PT00M48.00S,1,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,28,32,60,h,Ball Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,129
+0022101122,177,PT00M48.00S,1,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,29,32,61,h,Ball Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,130
+0022101122,178,PT00M32.50S,1,1610612743,DEN,203085,Rivers,A. Rivers,0,0,0,,0,,,0,v,Rivers Out of Bounds - Bad Pass Turnover Turnover (P1.T5),Turnover,Out of Bounds - Bad Pass Turnover,1,0,131
+0022101122,179,PT00M21.20S,1,1610612766,CHA,202738,Thomas,I. Thomas,83,258,27,Missed,1,,,0,h,MISS Thomas 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,132
+0022101122,180,PT00M17.90S,1,1610612743,DEN,1627854,Forbes,B. Forbes,0,0,0,,0,,,0,v,Forbes REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,133
+0022101122,181,PT00M14.50S,1,1610612743,DEN,1627854,Forbes,B. Forbes,-191,164,25,Missed,1,,,0,v,MISS Forbes 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,134
+0022101122,182,PT00M11.80S,1,1610612766,CHA,202738,Thomas,I. Thomas,0,0,0,,0,,,0,h,Thomas REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,135
+0022101122,183,PT00M06.10S,1,1610612743,DEN,202326,Cousins,D. Cousins,0,0,0,,0,,,0,v,Cousins S.FOUL (P1.PN) (M.Lindsay),Foul,Shooting,1,0,136
+0022101122,185,PT00M06.10S,1,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,MISS Harrell Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,137
+0022101122,186,PT00M06.10S,1,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Normal Rebound,0,0,138
+0022101122,187,PT00M06.10S,1,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,SUB: Martin FOR Ball,Substitution,,0,0,139
+0022101122,189,PT00M06.10S,1,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,30,32,62,h,Harrell Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,140
+0022101122,190,PT00M00.00S,1,0,,0,,,0,0,0,,0,30,32,62,,End of 1st Period (7:40 PM EST),period,end,1,0,141
+0022101122,195,PT12M00.00S,2,0,,0,,,0,0,0,,0,30,32,62,,Start of 2nd Period (7:43 PM EST),period,start,0,0,142
+0022101122,196,PT11M47.00S,2,1610612743,DEN,1630538,Hyland,B. Hyland,207,151,26,Missed,1,,,0,v,MISS Hyland 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,143
+0022101122,197,PT11M44.00S,2,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,144
+0022101122,198,PT11M34.00S,2,1610612743,DEN,1627854,Forbes,B. Forbes,0,0,0,,0,,,0,v,Forbes P.FOUL (P1.T1) (M.Lindsay),Foul,Personal,1,0,145
+0022101122,200,PT11M27.00S,2,1610612766,CHA,1630163,Ball,L. Ball,20,18,3,Made,1,32,32,64,h,Ball 3' Driving Reverse Layup (10 PTS) (Harrell 2 AST),Made Shot,Driving Reverse Layup Shot,1,2,146
+0022101122,202,PT11M11.00S,2,1610612743,DEN,1628432,Reed,D. Reed,-189,169,25,Missed,1,,,0,v,MISS Reed 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,147
+0022101122,203,PT11M09.00S,2,1610612766,CHA,202738,Thomas,I. Thomas,0,0,0,,0,,,0,h,Thomas REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,148
+0022101122,204,PT10M59.00S,2,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,-232,-9,0,Made,1,35,32,67,h,Oubre Jr. 3PT Jump Shot (3 PTS) (Ball 4 AST),Made Shot,Jump Shot,1,3,149
+0022101122,206,PT10M59.00S,2,1610612743,DEN,1627854,Forbes,B. Forbes,0,0,0,,0,,,0,v,Forbes S.FOUL (P2.T2) (L.Holtkamp),Foul,Shooting,1,0,150
+0022101122,208,PT10M59.00S,2,1610612743,DEN,1627854,Forbes,B. Forbes,0,0,0,,0,,,0,v,SUB: Barton FOR Forbes,Substitution,,0,0,151
+0022101122,210,PT10M59.00S,2,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,MISS Oubre Jr. Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,152
+0022101122,211,PT10M57.00S,2,1610612743,DEN,1628432,Reed,D. Reed,0,0,0,,0,,,0,v,Reed REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,153
+0022101122,212,PT10M37.00S,2,1610612743,DEN,203115,Barton,W. Barton,-233,4,0,Missed,1,,,0,v,MISS Barton 3PT Jump Shot,Missed Shot,Jump Shot,1,3,154
+0022101122,213,PT10M34.00S,2,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,155
+0022101122,214,PT10M28.00S,2,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball Out of Bounds - Bad Pass Turnover Turnover (P1.T7),Turnover,Out of Bounds - Bad Pass Turnover,1,0,156
+0022101122,215,PT10M14.00S,2,1610612743,DEN,202326,Cousins,D. Cousins,0,0,0,,0,,,0,v,Cousins OFF.Foul (P2) (M.Lindsay),Foul,Offensive,1,0,157
+0022101122,217,PT10M14.00S,2,1610612743,DEN,202326,Cousins,D. Cousins,0,0,0,,0,,,0,v,Cousins Offensive Foul Turnover (P1.T6),Turnover,Offensive Foul Turnover,1,0,158
+0022101122,218,PT09M57.00S,2,1610612766,CHA,1630163,Ball,L. Ball,36,6,4,Missed,1,,,0,h,MISS Ball 4' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,159
+0022101122,219,PT09M57.00S,2,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,160
+0022101122,220,PT09M57.00S,2,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,Made,1,37,32,69,h,Harrell Tip Layup Shot (5 PTS),Made Shot,Tip Layup Shot,1,2,161
+0022101122,221,PT09M57.00S,2,0,,1610612743,,,0,0,0,,0,,,0,v,Nuggets Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,162
+0022101122,222,PT09M57.00S,2,1610612743,DEN,202326,Cousins,D. Cousins,0,0,0,,0,,,0,v,SUB: Jokic FOR Cousins,Substitution,,0,0,163
+0022101122,223,PT09M57.00S,2,1610612743,DEN,1628432,Reed,D. Reed,0,0,0,,0,,,0,v,SUB: Green FOR Reed,Substitution,,0,0,164
+0022101122,226,PT09M38.00S,2,1610612743,DEN,203999,Jokić,N. Jokić,-1,16,2,Missed,1,,,0,v,MISS Jokic 2' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,165
+0022101122,227,PT09M36.00S,2,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,166
+0022101122,228,PT09M36.00S,2,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell P.FOUL (P1.T1) (B.Kennedy),Foul,Personal,1,0,167
+0022101122,230,PT09M27.00S,2,1610612743,DEN,203085,Rivers,A. Rivers,-234,15,0,Made,1,37,35,72,v,Rivers 3PT Jump Shot (3 PTS) (Jokic 5 AST),Made Shot,Jump Shot,1,3,168
+0022101122,232,PT09M11.00S,2,1610612743,DEN,201145,Green,J. Green,0,0,0,,0,,,0,v,Green P.FOUL (P1.T3) (L.Holtkamp),Foul,Personal,1,0,169
+0022101122,234,PT09M01.00S,2,1610612766,CHA,1626149,Harrell,M. Harrell,12,31,3,Made,1,39,35,74,h,Harrell 3' Cutting Dunk Shot (7 PTS) (Ball 5 AST),Made Shot,Cutting Dunk Shot,1,2,170
+0022101122,236,PT08M36.00S,2,1610612743,DEN,203999,Jokić,N. Jokić,10,142,14,Missed,1,,,0,v,MISS Jokic 14' Jump Shot,Missed Shot,Jump Shot,1,2,171
+0022101122,237,PT08M34.00S,2,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,172
+0022101122,238,PT08M29.00S,2,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,26,263,26,Missed,1,,,0,h,MISS Oubre Jr. 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,173
+0022101122,239,PT08M25.00S,2,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,174
+0022101122,240,PT08M23.00S,2,1610612766,CHA,1630163,Ball,L. Ball,-235,-6,24,Missed,1,,,0,h,MISS Ball 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,175
+0022101122,241,PT08M15.00S,2,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,Oubre Jr. REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,176
+0022101122,242,PT08M15.00S,2,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,Made,1,41,35,76,h,Oubre Jr. Tip Layup Shot (5 PTS),Made Shot,Tip Layup Shot,1,2,177
+0022101122,243,PT08M09.00S,2,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell P.FOUL (P2.T2) (L.Holtkamp),Foul,Personal,1,0,178
+0022101122,245,PT08M09.00S,2,1610612743,DEN,1630538,Hyland,B. Hyland,0,0,0,,0,,,0,v,SUB: Gordon FOR Hyland,Substitution,,0,0,179
+0022101122,246,PT08M09.00S,2,1610612743,DEN,203085,Rivers,A. Rivers,0,0,0,,0,,,0,v,SUB: Morris FOR Rivers,Substitution,,0,0,180
+0022101122,249,PT08M04.00S,2,1610612743,DEN,1628420,Morris,M. Morris,-66,52,8,Made,1,41,37,78,v,Morris 8' Floating Jump Shot (5 PTS),Made Shot,Floating Jump shot,1,2,181
+0022101122,250,PT07M47.00S,2,1610612766,CHA,202738,Thomas,I. Thomas,-62,99,12,Missed,1,,,0,h,MISS Thomas 12' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,182
+0022101122,251,PT07M45.00S,2,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,183
+0022101122,252,PT07M33.00S,2,1610612743,DEN,203999,Jokić,N. Jokić,9,19,2,Missed,1,,,0,v,MISS Jokic 2' Hook Shot,Missed Shot,Hook Shot,1,2,184
+0022101122,253,PT07M31.00S,2,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,185
+0022101122,254,PT07M28.00S,2,1610612766,CHA,202738,Thomas,I. Thomas,-4,21,2,Made,1,43,37,80,h,Thomas 2' Running Layup (5 PTS),Made Shot,Running Layup Shot,1,2,186
+0022101122,255,PT07M17.00S,2,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,,,0,v,Morris Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,187
+0022101122,255,PT07M17.00S,2,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell STEAL (2 STL),,,1,0,188
+0022101122,257,PT07M06.00S,2,1610612766,CHA,202738,Thomas,I. Thomas,109,239,26,Missed,1,,,0,h,MISS Thomas 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,189
+0022101122,258,PT07M03.00S,2,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,190
+0022101122,259,PT07M00.00S,2,1610612743,DEN,201145,Green,J. Green,-9,26,3,Made,1,43,39,82,v,Green 3' Alley Oop Dunk (7 PTS) (Morris 3 AST),Made Shot,Alley Oop Dunk Shot,1,2,191
+0022101122,261,PT06M51.00S,2,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,192
+0022101122,262,PT06M51.00S,2,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,SUB: Bridges FOR Ball,Substitution,,0,0,193
+0022101122,263,PT06M51.00S,2,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,SUB: Rozier FOR Oubre Jr.,Substitution,,0,0,194
+0022101122,266,PT06M37.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges Bad Pass Turnover (P3.T8),Turnover,Bad Pass,1,0,195
+0022101122,266,PT06M37.00S,2,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic STEAL (1 STL),,,1,0,196
+0022101122,268,PT06M34.00S,2,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,Jump Ball McDaniels vs. Green: Tip to Gordon,Jump Ball,,1,0,197
+0022101122,271,PT06M13.00S,2,1610612743,DEN,203932,Gordon,A. Gordon,237,1,24,Missed,1,,,0,v,MISS Gordon 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,198
+0022101122,272,PT06M11.00S,2,1610612766,CHA,202738,Thomas,I. Thomas,0,0,0,,0,,,0,h,Thomas REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,199
+0022101122,273,PT06M01.00S,2,1610612766,CHA,1626179,Rozier,T. Rozier,25,265,27,Missed,1,,,0,h,MISS Rozier 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,200
+0022101122,274,PT05M59.00S,2,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,201
+0022101122,275,PT05M45.00S,2,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,Rozier S.FOUL (P3.T3) (B.Kennedy),Foul,Shooting,1,0,202
+0022101122,277,PT05M45.00S,2,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,43,40,83,v,Jokic Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,203
+0022101122,278,PT05M45.00S,2,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,SUB: Martin FOR Rozier,Substitution,,0,0,204
+0022101122,280,PT05M45.00S,2,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,43,41,84,v,Jokic Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,205
+0022101122,281,PT05M29.00S,2,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic S.FOUL (P1.T4) (M.Lindsay),Foul,Shooting,1,0,206
+0022101122,283,PT05M29.00S,2,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,44,41,85,h,Harrell Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,207
+0022101122,284,PT05M29.00S,2,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,45,41,86,h,Harrell Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,208
+0022101122,285,PT05M17.00S,2,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,v,Barton Lost Ball Turnover (P1.T8),Turnover,Lost Ball,1,0,209
+0022101122,285,PT05M17.00S,2,1610612766,CHA,202738,Thomas,I. Thomas,0,0,0,,0,,,0,h,Thomas STEAL (1 STL),,,1,0,210
+0022101122,287,PT05M12.00S,2,1610612766,CHA,202738,Thomas,I. Thomas,2,28,3,Missed,1,,,0,h,MISS Thomas 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,211
+0022101122,287,PT05M12.00S,2,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,v,Barton BLOCK (1 BLK),,,1,2,212
+0022101122,289,PT05M12.00S,2,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Unknown,0,0,213
+0022101122,291,PT05M12.00S,2,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,SUB: Plumlee FOR Harrell,Substitution,,0,0,214
+0022101122,293,PT05M04.00S,2,1610612766,CHA,202738,Thomas,I. Thomas,-58,132,14,Missed,1,,,0,h,MISS Thomas 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,215
+0022101122,294,PT05M02.00S,2,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,216
+0022101122,295,PT04M54.00S,2,1610612743,DEN,203115,Barton,W. Barton,138,113,18,Missed,1,,,0,v,MISS Barton 18' Jump Shot,Missed Shot,Jump Shot,1,2,217
+0022101122,296,PT04M51.00S,2,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,McDaniels REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,218
+0022101122,297,PT04M40.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,10,20,2,Made,1,47,41,88,h,Bridges 2' Driving Dunk (10 PTS) (Thomas 1 AST),Made Shot,Driving Dunk Shot,1,2,219
+0022101122,298,PT04M30.00S,2,1610612743,DEN,203999,Jokić,N. Jokić,6,56,6,Made,1,47,43,90,v,Jokic 6' Floating Jump Shot (6 PTS) (Morris 4 AST),Made Shot,Floating Jump shot,1,2,220
+0022101122,300,PT04M11.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges Bad Pass Turnover (P4.T9),Turnover,Bad Pass,1,0,221
+0022101122,300,PT04M11.00S,2,1610612743,DEN,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon STEAL (2 STL),,,1,0,222
+0022101122,302,PT04M07.00S,2,1610612743,DEN,203932,Gordon,A. Gordon,-6,8,1,Made,1,47,45,92,v,Gordon 1' Dunk (19 PTS) (Green 1 AST),Made Shot,Dunk Shot,1,2,223
+0022101122,305,PT03M45.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,21,252,25,Missed,1,,,0,h,MISS Bridges 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,224
+0022101122,306,PT03M42.00S,2,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,v,Barton REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,225
+0022101122,307,PT03M25.00S,2,1610612743,DEN,1628420,Morris,M. Morris,-62,242,25,Missed,1,,,0,v,MISS Morris 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,226
+0022101122,308,PT03M22.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,227
+0022101122,309,PT03M10.00S,2,1610612766,CHA,202738,Thomas,I. Thomas,-48,65,8,Made,1,49,45,94,h,Thomas 8' Fadeaway Jumper (7 PTS),Made Shot,Fadeaway Jump Shot,1,2,228
+0022101122,310,PT02M55.00S,2,1610612743,DEN,203115,Barton,W. Barton,132,221,26,Made,1,49,48,97,v,Barton 26' 3PT Jump Shot (5 PTS) (Jokic 6 AST),Made Shot,Jump Shot,1,3,229
+0022101122,312,PT02M26.00S,2,1610612766,CHA,202738,Thomas,I. Thomas,-43,54,7,Made,1,51,48,99,h,Thomas 7' Floating Jump Shot (9 PTS) (Martin 1 AST),Made Shot,Floating Jump shot,1,2,230
+0022101122,314,PT02M12.00S,2,1610612743,DEN,1628420,Morris,M. Morris,0,9,1,Made,1,51,50,101,v,Morris 1' Layup (7 PTS) (Gordon 3 AST),Made Shot,Layup Shot,1,2,231
+0022101122,316,PT01M48.00S,2,1610612766,CHA,1628998,Martin,C. Martin,26,17,3,Missed,1,,,0,h,MISS Martin 3' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,232
+0022101122,317,PT01M46.00S,2,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,233
+0022101122,318,PT01M44.00S,2,1610612743,DEN,201145,Green,J. Green,-2,8,1,Made,1,51,52,103,v,Green 1' Alley Oop Dunk (9 PTS) (Morris 5 AST),Made Shot,Alley Oop Dunk Shot,1,2,234
+0022101122,320,PT01M35.00S,2,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,McDaniels Traveling Turnover (P1.T10),Turnover,Traveling,1,0,235
+0022101122,321,PT01M35.00S,2,1610612766,CHA,202738,Thomas,I. Thomas,0,0,0,,0,,,0,h,SUB: Washington FOR Thomas,Substitution,,0,0,236
+0022101122,322,PT01M35.00S,2,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,SUB: Ball FOR McDaniels,Substitution,,0,0,237
+0022101122,325,PT01M33.00S,2,1610612743,DEN,203115,Barton,W. Barton,4,17,2,Made,1,51,54,105,v,Barton 2' Dunk (7 PTS) (Jokic 7 AST),Made Shot,Dunk Shot,0,2,238
+0022101122,327,PT01M18.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,20,0,2,Missed,1,,,0,h,MISS Bridges 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,239
+0022101122,328,PT01M17.00S,2,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,240
+0022101122,329,PT01M12.00S,2,1610612743,DEN,201145,Green,J. Green,0,0,0,,0,,,0,v,Green Step Out of Bounds Turnover (P1.T9),Turnover,Step Out of Bounds Turnover,1,0,241
+0022101122,330,PT01M12.00S,2,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,SUB: Oubre Jr. FOR Martin,Substitution,,0,0,242
+0022101122,332,PT00M59.60S,2,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,-234,-9,0,Missed,1,,,0,h,MISS Oubre Jr. 3PT Jump Shot,Missed Shot,Jump Shot,1,3,243
+0022101122,333,PT00M56.70S,2,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,v,Barton REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,244
+0022101122,334,PT00M50.20S,2,1610612743,DEN,203115,Barton,W. Barton,-112,158,19,Made,1,51,56,107,v,Barton 19' Fadeaway Jumper (9 PTS),Made Shot,Fadeaway Jump Shot,1,2,245
+0022101122,335,PT00M38.50S,2,1610612766,CHA,203486,Plumlee,M. Plumlee,-6,4,1,Made,1,53,56,109,h,Plumlee 1' Driving Layup (4 PTS) (Ball 6 AST),Made Shot,Driving Layup Shot,1,2,246
+0022101122,337,PT00M38.50S,2,1610612743,DEN,201145,Green,J. Green,0,0,0,,0,,,0,v,Green S.FOUL (P2.PN) (M.Lindsay),Foul,Shooting,1,0,247
+0022101122,339,PT00M38.50S,2,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,SUB: Martin FOR Oubre Jr.,Substitution,,0,0,248
+0022101122,341,PT00M38.50S,2,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,54,56,110,h,Plumlee Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,249
+0022101122,342,PT00M29.70S,2,1610612743,DEN,203115,Barton,W. Barton,-25,32,4,Missed,1,,,0,v,MISS Barton 4' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,250
+0022101122,342,PT00M29.70S,2,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee BLOCK (1 BLK),,,1,2,251
+0022101122,344,PT00M27.10S,2,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,252
+0022101122,345,PT00M07.50S,2,1610612766,CHA,1629023,Washington,P. Washington,-135,230,27,Made,1,57,56,113,h,Washington 27' 3PT Jump Shot (5 PTS) (Ball 7 AST),Made Shot,Jump Shot,1,3,253
+0022101122,347,PT00M00.90S,2,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,v,Barton Bad Pass Turnover (P2.T10),Turnover,Bad Pass,1,0,254
+0022101122,347,PT00M00.90S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges STEAL (1 STL),,,1,0,255
+0022101122,349,PT00M00.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,-94,435,45,Missed,1,,,0,h,MISS Bridges 45' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,256
+0022101122,350,PT00M00.00S,2,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Unknown,0,0,257
+0022101122,351,PT00M00.00S,2,0,,0,,,0,0,0,,0,57,56,113,,End of 2nd Period (8:09 PM EST),period,end,1,0,258
+0022101122,354,PT12M00.00S,3,0,,0,,,0,0,0,,0,57,56,113,,Start of 3rd Period (8:24 PM EST),period,start,0,0,259
+0022101122,355,PT11M47.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,-9,23,2,Made,1,57,58,115,v,Jokic 2' Cutting Layup Shot (8 PTS) (Morris 6 AST),Made Shot,Cutting Layup Shot,1,2,260
+0022101122,357,PT11M30.00S,3,1610612766,CHA,1630163,Ball,L. Ball,4,5,1,Made,1,59,58,117,h,Ball 1' Finger Roll Layup (12 PTS) (Rozier 4 AST),Made Shot,Finger Roll Layup Shot,1,2,261
+0022101122,359,PT11M09.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic Lost Ball Turnover (P2.T11),Turnover,Lost Ball,1,0,262
+0022101122,359,PT11M09.00S,3,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee STEAL (1 STL),,,1,0,263
+0022101122,361,PT11M06.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,-2,11,1,Made,1,61,58,119,h,Bridges 1' Alley Oop Dunk (12 PTS) (Rozier 5 AST),Made Shot,Alley Oop Dunk Shot,1,2,264
+0022101122,363,PT10M50.00S,3,1610612743,DEN,201145,Green,J. Green,-10,20,2,Missed,1,,,0,v,MISS Green 2' Jump Shot,Missed Shot,Jump Shot,1,2,265
+0022101122,363,PT10M50.00S,3,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington BLOCK (1 BLK),,,1,2,266
+0022101122,365,PT10M48.00S,3,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,267
+0022101122,366,PT10M45.00S,3,1610612766,CHA,1630163,Ball,L. Ball,-21,260,26,Missed,1,,,0,h,MISS Ball 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,268
+0022101122,367,PT10M42.00S,3,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,,,0,v,Morris REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,269
+0022101122,368,PT10M33.00S,3,1610612743,DEN,1628420,Morris,M. Morris,9,63,6,Missed,1,,,0,v,MISS Morris 6' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,270
+0022101122,369,PT10M32.00S,3,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,,,0,v,Morris REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,271
+0022101122,370,PT10M29.00S,3,1610612743,DEN,203115,Barton,W. Barton,238,-11,24,Made,1,61,61,122,v,Barton 24' 3PT Jump Shot (12 PTS) (Morris 7 AST),Made Shot,Jump Shot,1,3,272
+0022101122,372,PT10M09.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,-2,53,5,Made,1,63,61,124,h,Rozier 5' Floating Jump Shot (6 PTS) (Plumlee 1 AST),Made Shot,Floating Jump shot,1,2,273
+0022101122,374,PT10M01.00S,3,1610612743,DEN,1628420,Morris,M. Morris,5,12,1,Made,1,63,63,126,v,Morris 1' Cutting Layup Shot (9 PTS) (Jokic 8 AST),Made Shot,Cutting Layup Shot,1,2,274
+0022101122,376,PT09M46.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,233,14,0,Made,1,66,63,129,h,Rozier 3PT Jump Shot (9 PTS),Made Shot,Jump Shot,1,3,275
+0022101122,377,PT09M27.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,-4,69,7,Made,1,66,65,131,v,Jokic 7' Hook Shot (10 PTS) (Morris 8 AST),Made Shot,Hook Shot,1,2,276
+0022101122,379,PT09M00.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,195,163,25,Missed,1,,,0,h,MISS Bridges 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,277
+0022101122,380,PT08M58.00S,3,1610612743,DEN,201145,Green,J. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,278
+0022101122,381,PT08M41.00S,3,1610612743,DEN,203932,Gordon,A. Gordon,239,-8,24,Missed,1,,,0,v,MISS Gordon 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,279
+0022101122,382,PT08M37.00S,3,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,280
+0022101122,383,PT08M26.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,-1,1,0,Missed,1,,,0,h,MISS Bridges Alley Oop Dunk,Missed Shot,Alley Oop Dunk Shot,1,2,281
+0022101122,384,PT08M22.00S,3,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,282
+0022101122,385,PT08M22.00S,3,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,Made,1,68,65,133,h,Ball Putback Layup (14 PTS),Made Shot,Putback Layup Shot,1,2,283
+0022101122,386,PT08M18.00S,3,1610612743,DEN,201145,Green,J. Green,-239,-8,24,Missed,1,,,0,v,MISS Green 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,284
+0022101122,387,PT08M15.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,285
+0022101122,388,PT07M56.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,6,58,6,Missed,1,,,0,h,MISS Rozier 6' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,286
+0022101122,389,PT07M54.00S,3,1610612743,DEN,201145,Green,J. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,287
+0022101122,390,PT07M37.00S,3,1610612743,DEN,203932,Gordon,A. Gordon,0,1,0,Made,1,68,67,135,v,Gordon Alley Oop Dunk (21 PTS) (Jokic 9 AST),Made Shot,Alley Oop Dunk Shot,1,2,288
+0022101122,392,PT07M20.00S,3,1610612766,CHA,1629023,Washington,P. Washington,-186,168,25,Made,1,71,67,138,h,Washington 25' 3PT Jump Shot (8 PTS) (Rozier 6 AST),Made Shot,Jump Shot,1,3,289
+0022101122,394,PT07M02.00S,3,1610612743,DEN,201145,Green,J. Green,235,-10,24,Missed,1,,,0,v,MISS Green 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,290
+0022101122,395,PT06M57.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,291
+0022101122,396,PT06M53.00S,3,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball Lost Ball Turnover (P2.T11),Turnover,Lost Ball,1,0,292
+0022101122,396,PT06M53.00S,3,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,,,0,v,Morris STEAL (1 STL),,,1,0,293
+0022101122,398,PT06M49.00S,3,1610612743,DEN,1628420,Morris,M. Morris,-1,29,3,Missed,1,,,0,v,MISS Morris 3' Layup,Missed Shot,Layup Shot,1,2,294
+0022101122,399,PT06M46.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic REBOUND (Off:2 Def:9),Rebound,Unknown,1,0,295
+0022101122,400,PT06M46.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,Made,1,71,69,140,v,Jokic Tip Layup Shot (12 PTS),Made Shot,Tip Layup Shot,1,2,296
+0022101122,401,PT06M43.00S,3,1610612766,CHA,1630163,Ball,L. Ball,25,4,3,Missed,1,,,0,h,MISS Ball 3' Layup,Missed Shot,Layup Shot,1,2,297
+0022101122,402,PT06M38.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic REBOUND (Off:2 Def:10),Rebound,Unknown,1,0,298
+0022101122,403,PT06M35.00S,3,1610612743,DEN,1628420,Morris,M. Morris,241,-21,24,Made,1,71,72,143,v,Morris 24' 3PT Jump Shot (12 PTS) (Barton 1 AST),Made Shot,Jump Shot,1,3,299
+0022101122,405,PT06M34.00S,3,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,300
+0022101122,406,PT06M34.00S,3,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,SUB: Martin FOR Washington,Substitution,,0,0,301
+0022101122,408,PT06M19.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,129,220,26,Missed,1,,,0,h,MISS Rozier 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,302
+0022101122,409,PT06M18.00S,3,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Unknown,0,0,303
+0022101122,411,PT06M12.00S,3,1610612766,CHA,1630163,Ball,L. Ball,-140,213,25,Missed,1,,,0,h,MISS Ball 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,304
+0022101122,412,PT06M10.00S,3,1610612743,DEN,201145,Green,J. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,305
+0022101122,413,PT05M50.00S,3,1610612743,DEN,203932,Gordon,A. Gordon,21,17,3,Missed,1,,,0,v,MISS Gordon 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,306
+0022101122,414,PT05M47.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic REBOUND (Off:3 Def:10),Rebound,Unknown,1,0,307
+0022101122,415,PT05M47.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,1,8,1,Made,1,71,74,145,v,Jokic 1' Layup (14 PTS),Made Shot,Layup Shot,1,2,308
+0022101122,416,PT05M33.00S,3,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,Martin Out of Bounds - Bad Pass Turnover Turnover (P2.T12),Turnover,Out of Bounds - Bad Pass Turnover,1,0,309
+0022101122,417,PT05M33.00S,3,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,SUB: Oubre Jr. FOR Ball,Substitution,,0,0,310
+0022101122,418,PT05M33.00S,3,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,SUB: Harrell FOR Plumlee,Substitution,,0,0,311
+0022101122,419,PT05M33.00S,3,1610612743,DEN,201145,Green,J. Green,0,0,0,,0,,,0,v,SUB: Rivers FOR Green,Substitution,,0,0,312
+0022101122,424,PT05M16.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,SUB: Washington FOR Bridges,Substitution,,0,0,313
+0022101122,426,PT05M11.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,-13,70,7,Made,1,71,76,147,v,Jokic 7' Floating Jump Shot (16 PTS) (Morris 9 AST),Made Shot,Floating Jump shot,1,2,314
+0022101122,428,PT04M42.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,21,63,7,Missed,1,,,0,h,MISS Rozier 7' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,315
+0022101122,429,PT04M39.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic REBOUND (Off:3 Def:11),Rebound,Unknown,1,0,316
+0022101122,430,PT04M35.00S,3,1610612743,DEN,203115,Barton,W. Barton,-142,228,27,Made,1,71,79,150,v,Barton 27' 3PT Jump Shot (15 PTS) (Jokic 10 AST),Made Shot,Jump Shot,1,3,317
+0022101122,432,PT04M15.00S,3,1610612766,CHA,1628998,Martin,C. Martin,1,10,1,Missed,1,,,0,h,MISS Martin 1' Finger Roll Layup,Missed Shot,Finger Roll Layup Shot,1,2,318
+0022101122,432,PT04M15.00S,3,1610612743,DEN,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon BLOCK (1 BLK),,,1,2,319
+0022101122,434,PT04M12.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic REBOUND (Off:3 Def:12),Rebound,Unknown,1,0,320
+0022101122,435,PT04M10.00S,3,1610612743,DEN,203085,Rivers,A. Rivers,234,-22,24,Missed,1,,,0,v,MISS Rivers 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,321
+0022101122,436,PT04M06.00S,3,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,Oubre Jr. REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,322
+0022101122,437,PT04M00.00S,3,1610612766,CHA,1629023,Washington,P. Washington,-12,256,26,Missed,1,,,0,h,MISS Washington 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,323
+0022101122,438,PT03M59.00S,3,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Unknown,0,0,324
+0022101122,441,PT03M59.00S,3,0,,0,,,0,0,0,,0,71,79,150,,Instant Replay3rd Period (8:39 PM EST),Instant Replay,Altercation Ruling,0,0,325
+0022101122,442,PT03M59.00S,3,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell T.FOUL (P2.T0) (B.Kennedy),Foul,Technical,1,0,326
+0022101122,503,PT03M59.00S,3,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,,,0,v,SUB: Hyland FOR Morris,Substitution,,0,0,327
+0022101122,505,PT03M59.00S,3,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,SUB: Plumlee FOR Harrell,Substitution,,0,0,328
+0022101122,507,PT03M59.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,SUB: Ball FOR Rozier,Substitution,,0,0,329
+0022101122,443,PT03M59.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,71,80,151,v,Jokic Free Throw Technical (17 PTS),Free Throw,Free Throw Technical,0,0,330
+0022101122,444,PT03M59.00S,3,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,,"Double Technical - Harrell, Gordon (B.Kennedy)",Foul,Double Technical,0,0,331
+0022101122,462,PT03M59.00S,3,1610612766,CHA,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell Ejection:Other,Ejection,Other,0,0,332
+0022101122,446,PT03M45.00S,3,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,-225,22,0,Missed,1,,,0,h,MISS Oubre Jr. 3PT Jump Shot,Missed Shot,Jump Shot,1,3,333
+0022101122,447,PT03M39.00S,3,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,334
+0022101122,448,PT03M36.00S,3,1610612766,CHA,1630163,Ball,L. Ball,-234,14,0,Made,1,74,80,154,h,Ball 3PT Jump Shot (17 PTS),Made Shot,Jump Shot,1,3,335
+0022101122,460,PT03M23.00S,3,1610612743,DEN,1630538,Hyland,B. Hyland,-13,142,14,Missed,1,,,0,v,MISS Hyland 14' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,336
+0022101122,461,PT03M22.00S,3,1610612743,DEN,1630538,Hyland,B. Hyland,0,0,0,,0,,,0,v,Hyland REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,337
+0022101122,455,PT03M11.00S,3,1610612743,DEN,1630538,Hyland,B. Hyland,194,194,27,Made,1,74,83,157,v,Hyland 27' 3PT Jump Shot (6 PTS) (Barton 2 AST),Made Shot,Jump Shot,1,3,338
+0022101122,456,PT03M04.00S,3,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,12,1,1,Made,1,76,83,159,h,Oubre Jr. 1' Layup (7 PTS) (Plumlee 2 AST),Made Shot,Layup Shot,1,2,339
+0022101122,457,PT02M55.00S,3,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington P.FOUL (P1.T1) (L.Holtkamp),Foul,Personal,1,0,340
+0022101122,459,PT02M55.00S,3,0,,1610612743,,,0,0,0,,0,,,0,v,Nuggets Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,341
+0022101122,466,PT02M55.00S,3,1610612743,DEN,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,SUB: Green FOR Gordon,Substitution,,0,0,342
+0022101122,468,PT02M44.00S,3,1610612743,DEN,203115,Barton,W. Barton,-123,239,27,Made,1,76,86,162,v,Barton 27' 3PT Jump Shot (18 PTS) (Jokic 11 AST),Made Shot,Jump Shot,1,3,343
+0022101122,470,PT02M29.00S,3,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,6,45,5,Made,1,78,86,164,h,Oubre Jr. 5' Layup (9 PTS) (Ball 8 AST),Made Shot,Layup Shot,1,2,344
+0022101122,472,PT02M29.00S,3,1610612743,DEN,203085,Rivers,A. Rivers,0,0,0,,0,,,0,v,Rivers S.FOUL (P2.T1) (L.Holtkamp),Foul,Shooting,1,0,345
+0022101122,474,PT02M29.00S,3,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,SUB: Bridges FOR Plumlee,Substitution,,0,0,346
+0022101122,475,PT02M29.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,SUB: Cousins FOR Jokic,Substitution,,0,0,347
+0022101122,478,PT02M29.00S,3,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,MISS Oubre Jr. Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,348
+0022101122,479,PT02M27.00S,3,1610612743,DEN,201145,Green,J. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,349
+0022101122,480,PT02M09.00S,3,1610612743,DEN,202326,Cousins,D. Cousins,0,0,0,,0,,,0,v,Cousins Lost Ball Turnover (P2.T12),Turnover,Lost Ball,1,0,350
+0022101122,480,PT02M09.00S,3,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball STEAL (1 STL),,,1,0,351
+0022101122,482,PT01M59.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,75,256,27,Missed,1,,,0,h,MISS Bridges 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,352
+0022101122,483,PT01M57.00S,3,1610612743,DEN,202326,Cousins,D. Cousins,0,0,0,,0,,,0,v,Cousins REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,353
+0022101122,484,PT01M42.00S,3,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,v,Barton Out of Bounds Lost Ball Turnover (P3.T13),Turnover,Out of Bounds Lost Ball Turnover,1,0,354
+0022101122,486,PT01M19.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,11,11,2,Made,1,80,86,166,h,Bridges 2' Alley Oop Dunk (14 PTS) (Ball 9 AST),Made Shot,Alley Oop Dunk Shot,1,2,355
+0022101122,488,PT01M01.00S,3,1610612743,DEN,201145,Green,J. Green,4,26,3,Missed,1,,,0,v,MISS Green 3' Layup,Missed Shot,Layup Shot,1,2,356
+0022101122,489,PT00M59.10S,3,1610612743,DEN,202326,Cousins,D. Cousins,0,0,0,,0,,,0,v,Cousins REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,357
+0022101122,490,PT00M59.10S,3,1610612743,DEN,202326,Cousins,D. Cousins,0,0,0,Made,1,80,88,168,v,Cousins Putback Dunk (2 PTS),Made Shot,Putback Dunk Shot,1,2,358
+0022101122,491,PT00M49.30S,3,1610612766,CHA,1628970,Bridges,M. Bridges,5,4,1,Made,1,82,88,170,h,Bridges 1' Driving Layup (16 PTS),Made Shot,Driving Layup Shot,1,2,359
+0022101122,492,PT00M34.70S,3,1610612743,DEN,203115,Barton,W. Barton,-65,262,27,Missed,1,,,0,v,MISS Barton 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,360
+0022101122,493,PT00M30.30S,3,1610612743,DEN,202326,Cousins,D. Cousins,0,0,0,,0,,,0,v,Cousins REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,361
+0022101122,494,PT00M30.30S,3,1610612743,DEN,202326,Cousins,D. Cousins,0,0,0,Made,1,82,90,172,v,Cousins Tip Layup Shot (4 PTS),Made Shot,Tip Layup Shot,1,2,362
+0022101122,495,PT00M23.50S,3,1610612766,CHA,1628970,Bridges,M. Bridges,10,22,2,Made,1,84,90,174,h,Bridges 2' Floating Jump Shot (18 PTS) (Ball 10 AST),Made Shot,Floating Jump shot,1,2,363
+0022101122,497,PT00M04.20S,3,1610612743,DEN,1630538,Hyland,B. Hyland,-178,212,28,Made,1,84,93,177,v,Hyland 28' 3PT Jump Shot (9 PTS) (Barton 3 AST),Made Shot,Jump Shot,1,3,364
+0022101122,499,PT00M00.00S,3,1610612766,CHA,1630163,Ball,L. Ball,2,22,2,Missed,1,,,0,h,MISS Ball 2' Layup,Missed Shot,Layup Shot,1,2,365
+0022101122,500,PT00M00.00S,3,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Unknown,0,0,366
+0022101122,501,PT00M00.00S,3,0,,0,,,0,0,0,,0,84,93,177,,End of 3rd Period (8:51 PM EST),period,end,1,0,367
+0022101122,513,PT12M00.00S,4,0,,0,,,0,0,0,,0,84,93,177,,Start of 4th Period (8:53 PM EST),period,start,0,0,368
+0022101122,514,PT11M51.00S,4,1610612743,DEN,201145,Green,J. Green,0,0,0,,0,,,0,v,Green P.FOUL (P3.T1) (M.Lindsay),Foul,Personal,1,0,369
+0022101122,516,PT11M48.00S,4,1610612743,DEN,201145,Green,J. Green,0,0,0,,0,,,0,v,Green P.FOUL (P4.T2) (M.Lindsay),Foul,Personal,1,0,370
+0022101122,518,PT11M35.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,239,0,24,Missed,1,,,0,h,MISS Bridges 24' 3PT Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,3,371
+0022101122,519,PT11M33.00S,4,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Unknown,0,0,372
+0022101122,520,PT11M33.00S,4,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Turnover: Shot Clock (T#13),Turnover,Shot Clock Turnover,0,0,373
+0022101122,521,PT11M13.00S,4,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball S.FOUL (P3.T1) (M.Lindsay),Foul,Shooting,1,0,374
+0022101122,523,PT11M13.00S,4,1610612743,DEN,203085,Rivers,A. Rivers,0,0,0,,0,84,94,178,v,Rivers Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,375
+0022101122,524,PT11M13.00S,4,1610612743,DEN,203085,Rivers,A. Rivers,0,0,0,,0,84,95,179,v,Rivers Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,376
+0022101122,525,PT11M00.00S,4,1610612766,CHA,1629023,Washington,P. Washington,-11,11,2,Missed,1,,,0,h,MISS Washington 2' Hook Shot,Missed Shot,Hook Shot,1,2,377
+0022101122,526,PT10M59.00S,4,1610612743,DEN,1630538,Hyland,B. Hyland,0,0,0,,0,,,0,v,Hyland REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,378
+0022101122,527,PT10M45.00S,4,1610612743,DEN,201145,Green,J. Green,65,137,15,Made,1,84,97,181,v,Green 15' Fadeaway Jumper (11 PTS) (Hyland 1 AST),Made Shot,Fadeaway Jump Shot,1,2,379
+0022101122,529,PT10M30.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,6,9,1,Made,1,86,97,183,h,Bridges 1' Driving Layup (20 PTS),Made Shot,Driving Layup Shot,1,2,380
+0022101122,530,PT10M20.00S,4,1610612743,DEN,202326,Cousins,D. Cousins,0,0,0,,0,,,0,v,Cousins OFF.Foul (P3) (M.Lindsay),Foul,Offensive,1,0,381
+0022101122,532,PT10M20.00S,4,1610612743,DEN,202326,Cousins,D. Cousins,0,0,0,,0,,,0,v,Cousins Offensive Foul Turnover (P3.T14),Turnover,Offensive Foul Turnover,1,0,382
+0022101122,533,PT10M09.00S,4,1610612766,CHA,1629023,Washington,P. Washington,4,22,2,Made,1,88,97,185,h,Washington 2' Driving Dunk (10 PTS) (Ball 11 AST),Made Shot,Driving Dunk Shot,1,2,383
+0022101122,535,PT10M09.00S,4,0,,1610612743,,,0,0,0,,0,,,0,v,Nuggets Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,384
+0022101122,536,PT09M53.00S,4,1610612743,DEN,1630538,Hyland,B. Hyland,-119,264,29,Missed,1,,,0,v,MISS Hyland 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,385
+0022101122,537,PT09M50.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,386
+0022101122,538,PT09M38.00S,4,1610612766,CHA,202738,Thomas,I. Thomas,-230,-5,0,Missed,1,,,0,h,MISS Thomas 3PT Jump Shot,Missed Shot,Jump Shot,1,3,387
+0022101122,539,PT09M35.00S,4,1610612743,DEN,203085,Rivers,A. Rivers,0,0,0,,0,,,0,v,Rivers REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,388
+0022101122,540,PT09M14.00S,4,1610612743,DEN,203085,Rivers,A. Rivers,159,202,26,Missed,1,,,0,v,MISS Rivers 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,389
+0022101122,541,PT09M12.00S,4,1610612743,DEN,202326,Cousins,D. Cousins,0,0,0,,0,,,0,v,Cousins REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,390
+0022101122,542,PT09M12.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges S.FOUL (P2.T2) (B.Kennedy),Foul,Shooting,1,0,391
+0022101122,544,PT09M12.00S,4,1610612743,DEN,202326,Cousins,D. Cousins,0,0,0,,0,88,98,186,v,Cousins Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,392
+0022101122,545,PT09M12.00S,4,1610612743,DEN,202326,Cousins,D. Cousins,0,0,0,,0,88,99,187,v,Cousins Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,393
+0022101122,546,PT09M03.00S,4,1610612743,DEN,202326,Cousins,D. Cousins,0,0,0,,0,,,0,v,Cousins Violation:Kicked Ball (M.Lindsay),Violation,Kicked Ball,0,0,394
+0022101122,547,PT08M55.00S,4,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,-188,169,25,Made,1,91,99,190,h,Oubre Jr. 25' 3PT Jump Shot (12 PTS) (Washington 3 AST),Made Shot,Jump Shot,1,3,395
+0022101122,549,PT08M31.00S,4,1610612743,DEN,201145,Green,J. Green,240,-13,24,Made,1,91,102,193,v,Green 24' 3PT Fadeaway Jumper (14 PTS) (Hyland 2 AST),Made Shot,Fadeaway Jump Shot,1,3,396
+0022101122,551,PT08M21.00S,4,1610612766,CHA,1629023,Washington,P. Washington,93,247,26,Missed,1,,,0,h,MISS Washington 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,397
+0022101122,552,PT08M18.00S,4,1610612743,DEN,203085,Rivers,A. Rivers,0,0,0,,0,,,0,v,Rivers REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,398
+0022101122,553,PT08M04.00S,4,1610612743,DEN,1628420,Morris,M. Morris,69,-5,7,Missed,1,,,0,v,MISS Morris 7' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,399
+0022101122,554,PT08M01.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,400
+0022101122,555,PT07M57.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges Lost Ball Turnover (P5.T14),Turnover,Lost Ball,1,0,401
+0022101122,555,PT07M57.00S,4,1610612743,DEN,203085,Rivers,A. Rivers,0,0,0,,0,,,0,v,Rivers STEAL (1 STL),,,1,0,402
+0022101122,557,PT07M50.00S,4,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington P.FOUL (P2.T3) (L.Holtkamp),Foul,Personal,1,0,403
+0022101122,559,PT07M50.00S,4,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,SUB: Rozier FOR Ball,Substitution,,0,0,404
+0022101122,561,PT07M42.00S,4,1610612743,DEN,202326,Cousins,D. Cousins,-69,264,27,Missed,1,,,0,v,MISS Cousins 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,405
+0022101122,562,PT07M38.00S,4,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,Oubre Jr. REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,406
+0022101122,563,PT07M27.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,9,9,1,Made,1,93,102,195,h,Bridges 1' Cutting Layup Shot (22 PTS) (Oubre Jr. 1 AST),Made Shot,Cutting Layup Shot,1,2,407
+0022101122,565,PT07M12.00S,4,1610612743,DEN,201145,Green,J. Green,-17,31,4,Missed,1,,,0,v,MISS Green 4' Layup,Missed Shot,Layup Shot,1,2,408
+0022101122,565,PT07M12.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges BLOCK (1 BLK),,,1,2,409
+0022101122,567,PT07M09.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,410
+0022101122,568,PT07M06.00S,4,1610612766,CHA,202738,Thomas,I. Thomas,233,8,0,Made,1,96,102,198,h,Thomas 3PT Jump Shot (12 PTS) (Oubre Jr. 2 AST),Made Shot,Jump Shot,1,3,411
+0022101122,570,PT06M48.00S,4,1610612766,CHA,202738,Thomas,I. Thomas,0,0,0,,0,,,0,h,Thomas P.FOUL (P1.T4) (B.Kennedy),Foul,Personal,1,0,412
+0022101122,572,PT06M48.00S,4,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,SUB: Plumlee FOR Washington,Substitution,,0,0,413
+0022101122,573,PT06M48.00S,4,1610612743,DEN,1630538,Hyland,B. Hyland,0,0,0,,0,,,0,v,SUB: Barton FOR Hyland,Substitution,,0,0,414
+0022101122,574,PT06M48.00S,4,1610612743,DEN,202326,Cousins,D. Cousins,0,0,0,,0,,,0,v,SUB: Jokic FOR Cousins,Substitution,,0,0,415
+0022101122,578,PT06M39.00S,4,1610612743,DEN,203115,Barton,W. Barton,239,-9,24,Missed,1,,,0,v,MISS Barton 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,416
+0022101122,579,PT06M36.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,417
+0022101122,580,PT06M14.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,235,-1,24,Made,1,99,102,201,h,Bridges 24' 3PT Jump Shot (25 PTS) (Rozier 7 AST),Made Shot,Jump Shot,1,3,418
+0022101122,582,PT06M14.00S,4,0,,1610612743,,,0,0,0,,0,,,0,v,Nuggets Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,419
+0022101122,583,PT06M14.00S,4,1610612743,DEN,201145,Green,J. Green,0,0,0,,0,,,0,v,SUB: Gordon FOR Green,Substitution,,0,0,420
+0022101122,585,PT05M57.00S,4,1610612743,DEN,203999,Jokić,N. Jokić,1,34,3,Missed,1,,,0,v,MISS Jokic 3' Hook Shot,Missed Shot,Hook Shot,1,2,421
+0022101122,586,PT05M55.00S,4,1610612766,CHA,202738,Thomas,I. Thomas,0,0,0,,0,,,0,h,Thomas REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,422
+0022101122,587,PT05M34.00S,4,1610612766,CHA,1626179,Rozier,T. Rozier,152,58,16,Missed,1,,,0,h,MISS Rozier 16' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,423
+0022101122,588,PT05M32.00S,4,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,,,0,v,Morris REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,424
+0022101122,589,PT05M10.00S,4,1610612743,DEN,203999,Jokić,N. Jokić,-2,49,5,Missed,1,,,0,v,MISS Jokic 5' Hook Shot,Missed Shot,Hook Shot,1,2,425
+0022101122,590,PT05M06.00S,4,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic REBOUND (Off:4 Def:12),Rebound,Unknown,1,0,426
+0022101122,591,PT05M06.00S,4,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,Made,1,99,104,203,v,Jokic Putback Layup (19 PTS),Made Shot,Putback Layup Shot,1,2,427
+0022101122,592,PT04M49.00S,4,1610612766,CHA,202738,Thomas,I. Thomas,48,47,7,Missed,1,,,0,h,MISS Thomas 7' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,428
+0022101122,593,PT04M47.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,429
+0022101122,594,PT04M41.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,5,1,1,Made,1,101,104,205,h,Bridges 1' Finger Roll Layup (27 PTS),Made Shot,Finger Roll Layup Shot,1,2,430
+0022101122,595,PT04M28.00S,4,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee S.FOUL (P3.PN) (M.Lindsay),Foul,Shooting,1,0,431
+0022101122,597,PT04M28.00S,4,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,MISS Jokic Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,432
+0022101122,598,PT04M28.00S,4,0,,1610612743,,,0,0,0,,0,,,0,v,Nuggets Rebound,Rebound,Normal Rebound,0,0,433
+0022101122,599,PT04M28.00S,4,1610612766,CHA,202738,Thomas,I. Thomas,0,0,0,,0,,,0,h,SUB: Ball FOR Thomas,Substitution,,0,0,434
+0022101122,601,PT04M28.00S,4,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,435
+0022101122,602,PT04M28.00S,4,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,101,105,206,v,Jokic Free Throw 2 of 2 (20 PTS),Free Throw,Free Throw 2 of 2,1,0,436
+0022101122,603,PT04M16.00S,4,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball Bad Pass Turnover (P3.T15),Turnover,Bad Pass,1,0,437
+0022101122,603,PT04M16.00S,4,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic STEAL (2 STL),,,1,0,438
+0022101122,605,PT04M11.00S,4,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Jump Ball Plumlee vs. Jokic: Tip to Ball,Jump Ball,,1,0,439
+0022101122,608,PT04M11.00S,4,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic Lost Ball Turnover (P3.T15),Turnover,Lost Ball,1,0,440
+0022101122,608,PT04M11.00S,4,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee STEAL (2 STL),,,1,0,441
+0022101122,610,PT04M07.00S,4,1610612766,CHA,1630163,Ball,L. Ball,-74,251,26,Made,1,104,105,209,h,Ball 26' 3PT Jump Shot (20 PTS) (Rozier 8 AST),Made Shot,Jump Shot,1,3,442
+0022101122,612,PT03M49.00S,4,1610612743,DEN,203115,Barton,W. Barton,151,206,26,Missed,1,,,0,v,MISS Barton 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,443
+0022101122,613,PT03M46.00S,4,1610612743,DEN,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon REBOUND (Off:4 Def:2),Rebound,Unknown,1,0,444
+0022101122,614,PT03M36.00S,4,1610612743,DEN,203999,Jokić,N. Jokić,-15,31,3,Missed,1,,,0,v,MISS Jokic 3' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,445
+0022101122,615,PT03M36.00S,4,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic REBOUND (Off:5 Def:12),Rebound,Unknown,1,0,446
+0022101122,616,PT03M36.00S,4,1610612743,DEN,203999,Jokić,N. Jokić,2,6,1,Made,1,104,107,211,v,Jokic 1' Layup (22 PTS),Made Shot,Layup Shot,1,2,447
+0022101122,617,PT03M36.00S,4,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee S.FOUL (P4.PN) (B.Kennedy),Foul,Shooting,1,0,448
+0022101122,619,PT03M36.00S,4,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,MISS Jokic Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,449
+0022101122,620,PT03M34.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,450
+0022101122,621,PT03M22.00S,4,1610612766,CHA,1626179,Rozier,T. Rozier,232,1,0,Missed,1,,,0,h,MISS Rozier 3PT Jump Shot,Missed Shot,Jump Shot,1,3,451
+0022101122,622,PT03M20.00S,4,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic REBOUND (Off:5 Def:13),Rebound,Unknown,1,0,452
+0022101122,623,PT03M17.00S,4,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball P.FOUL (P4.PN) (M.Lindsay),Foul,Personal,1,0,453
+0022101122,625,PT03M17.00S,4,1610612743,DEN,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,MISS Gordon Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,454
+0022101122,626,PT03M17.00S,4,0,,1610612743,,,0,0,0,,0,,,0,v,Nuggets Rebound,Rebound,Normal Rebound,0,0,455
+0022101122,627,PT03M17.00S,4,1610612766,CHA,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,SUB: Washington FOR Oubre Jr.,Substitution,,0,0,456
+0022101122,629,PT03M17.00S,4,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,457
+0022101122,630,PT03M17.00S,4,1610612743,DEN,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,MISS Gordon Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,458
+0022101122,631,PT03M15.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:1 Def:10),Rebound,Unknown,1,0,459
+0022101122,632,PT02M52.00S,4,1610612766,CHA,1626179,Rozier,T. Rozier,10,57,6,Missed,1,,,0,h,MISS Rozier 6' Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,2,460
+0022101122,633,PT02M52.00S,4,0,,1610612743,,,0,0,0,,0,,,0,v,Nuggets Rebound,Rebound,Unknown,0,0,461
+0022101122,635,PT02M30.00S,4,1610612743,DEN,203085,Rivers,A. Rivers,2,131,13,Missed,1,,,0,v,MISS Rivers 13' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,462
+0022101122,636,PT02M29.00S,4,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,463
+0022101122,637,PT02M19.00S,4,1610612766,CHA,1630163,Ball,L. Ball,43,117,12,Missed,1,,,0,h,MISS Ball 12' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,464
+0022101122,638,PT02M18.00S,4,1610612743,DEN,203085,Rivers,A. Rivers,0,0,0,,0,,,0,v,Rivers REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,465
+0022101122,640,PT01M58.00S,4,1610612743,DEN,1628420,Morris,M. Morris,138,222,26,Missed,1,,,0,v,MISS Morris 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,466
+0022101122,641,PT01M54.00S,4,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,467
+0022101122,642,PT01M43.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,-145,208,25,Missed,1,,,0,h,MISS Bridges 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,468
+0022101122,643,PT01M41.00S,4,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic REBOUND (Off:5 Def:14),Rebound,Unknown,1,0,469
+0022101122,644,PT01M25.00S,4,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee S.FOUL (P5.PN) (L.Holtkamp),Foul,Shooting,1,0,470
+0022101122,646,PT01M25.00S,4,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,104,108,212,v,Jokic Free Throw 1 of 2 (23 PTS),Free Throw,Free Throw 1 of 2,1,0,471
+0022101122,647,PT01M25.00S,4,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,SUB: Thomas FOR Plumlee,Substitution,,0,0,472
+0022101122,649,PT01M25.00S,4,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,104,109,213,v,Jokic Free Throw 2 of 2 (24 PTS),Free Throw,Free Throw 2 of 2,1,0,473
+0022101122,650,PT01M12.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,-208,148,26,Missed,1,,,0,h,MISS Bridges 26' 3PT Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,3,474
+0022101122,651,PT01M10.00S,4,0,,1610612743,,,0,0,0,,0,,,0,v,Nuggets Rebound,Rebound,Unknown,0,0,475
+0022101122,653,PT01M02.00S,4,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,Jokic Bad Pass Turnover (P4.T16),Turnover,Bad Pass,1,0,476
+0022101122,653,PT01M02.00S,4,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,h,Ball STEAL (2 STL),,,1,0,477
+0022101122,655,PT01M00.00S,4,1610612766,CHA,1630163,Ball,L. Ball,1,32,3,Made,1,106,109,215,h,Ball 3' Layup (22 PTS) (Washington 4 AST),Made Shot,Layup Shot,1,2,478
+0022101122,657,PT00M38.80S,4,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington S.FOUL (P3.PN) (M.Lindsay),Foul,Shooting,1,0,479
+0022101122,659,PT00M38.80S,4,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,480
+0022101122,660,PT00M38.80S,4,0,,657,,,0,0,0,,0,106,109,215,,Instant Replay4th Period (9:24 PM EST),Instant Replay,Coach Challenge Support Ruling,1,0,481
+0022101122,661,PT00M38.80S,4,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,106,110,216,v,Morris Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,1,0,482
+0022101122,662,PT00M38.80S,4,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,SUB: Green FOR Jokic,Substitution,,0,0,483
+0022101122,664,PT00M38.80S,4,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,106,111,217,v,Morris Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,1,0,484
+0022101122,665,PT00M32.90S,4,1610612766,CHA,1626179,Rozier,T. Rozier,-186,169,25,Made,1,109,111,220,h,Rozier 25' 3PT Fadeaway Jumper (12 PTS) (Thomas 2 AST),Made Shot,Fadeaway Jump Shot,1,3,485
+0022101122,667,PT00M32.10S,4,0,,1610612743,,,0,0,0,,0,,,0,v,Nuggets Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,486
+0022101122,668,PT00M32.10S,4,0,,665,,,0,0,0,,0,109,111,220,,Instant Replay4th Period (9:28 PM EST),Instant Replay,Support Ruling,0,0,487
+0022101122,669,PT00M32.10S,4,1610612766,CHA,202738,Thomas,I. Thomas,0,0,0,,0,,,0,h,SUB: Plumlee FOR Thomas,Substitution,,0,0,488
+0022101122,670,PT00M32.10S,4,1610612743,DEN,201145,Green,J. Green,0,0,0,,0,,,0,v,SUB: Jokic FOR Green,Substitution,,0,0,489
+0022101122,673,PT00M11.20S,4,1610612743,DEN,203999,Jokić,N. Jokić,2,53,5,Missed,1,,,0,v,MISS Jokic 5' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,490
+0022101122,674,PT00M08.70S,4,1610612743,DEN,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon REBOUND (Off:5 Def:2),Rebound,Unknown,1,0,491
+0022101122,675,PT00M08.60S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges Personal Take Foul (P3.PN) (M.Lindsay),Foul,Personal Take,1,0,492
+0022101122,677,PT00M08.60S,4,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,109,112,221,v,Jokic Free Throw 1 of 2 (25 PTS),Free Throw,Free Throw 1 of 2,1,0,493
+0022101122,678,PT00M08.60S,4,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,109,113,222,v,Jokic Free Throw 2 of 2 (26 PTS),Free Throw,Free Throw 2 of 2,1,0,494
+0022101122,679,PT00M08.60S,4,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 7 Short 0),Timeout,Regular,0,0,495
+0022101122,680,PT00M08.60S,4,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,v,SUB: Green FOR Jokic,Substitution,,0,0,496
+0022101122,682,PT00M05.40S,4,1610612766,CHA,1630163,Ball,L. Ball,-146,234,28,Missed,1,,,0,h,MISS Ball 28' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,497
+0022101122,683,PT00M03.00S,4,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Unknown,0,0,498
+0022101122,684,PT00M03.00S,4,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,,,0,v,SUB: Jokic FOR Morris,Substitution,,0,0,499
+0022101122,686,PT00M00.00S,4,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Jump Ball Plumlee vs. Green: Tip to Rozier,Jump Ball,,1,0,500
+0022101122,689,PT00M00.00S,4,0,,0,,,0,0,0,,0,109,113,222,,End of 4th Period (9:34 PM EST),period,end,1,0,501

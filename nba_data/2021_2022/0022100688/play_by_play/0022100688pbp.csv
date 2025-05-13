@@ -1,0 +1,478 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022100688,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:41 PM EST),period,start,0,0,1
+0022100688,4,PT12M00.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Jump Ball Williams III vs. Nurkic: Tip to Simons,Jump Ball,,1,0,2
+0022100688,7,PT11M40.00S,1,1610612757,POR,203468,McCollum,C. McCollum,94,260,28,Missed,1,,,0,v,MISS McCollum 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,3
+0022100688,8,PT11M37.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,4
+0022100688,9,PT11M21.00S,1,1610612738,BOS,201143,Horford,A. Horford,-200,173,26,Missed,1,,,0,h,MISS Horford 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,5
+0022100688,10,PT11M18.00S,1,1610612757,POR,1629642,Little,N. Little,0,0,0,,0,,,0,v,Little REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,6
+0022100688,11,PT11M01.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III S.FOUL (P1.T1) (B.Kennedy),Foul,Shooting,1,0,7
+0022100688,13,PT11M01.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,MISS Nurkic Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,8
+0022100688,14,PT11M01.00S,1,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Rebound,Rebound,Normal Rebound,0,0,9
+0022100688,15,PT11M01.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,0,1,1,v,Nurkic Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,10
+0022100688,16,PT10M42.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum Out of Bounds - Bad Pass Turnover Turnover (P1.T1),Turnover,Out of Bounds - Bad Pass Turnover,1,0,11
+0022100688,17,PT10M27.00S,1,1610612757,POR,1629642,Little,N. Little,-138,211,25,Made,1,0,4,4,v,Little 25' 3PT Jump Shot (3 PTS) (Simons 1 AST),Made Shot,Jump Shot,1,3,12
+0022100688,20,PT10M08.00S,1,1610612738,BOS,201143,Horford,A. Horford,-64,38,7,Made,1,2,4,6,h,Horford 7' Driving Floating Bank Jump Shot (2 PTS) (Tatum 1 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,13
+0022100688,22,PT09M55.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,14
+0022100688,22,PT09M55.00S,1,1610612738,BOS,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,Schroder STEAL (1 STL),,,1,0,15
+0022100688,24,PT09M52.00S,1,1610612757,POR,203496,Covington,R. Covington,0,0,0,,0,,,0,v,Covington P.FOUL (P1.T1) (B.Nansel),Foul,Personal,1,0,16
+0022100688,26,PT09M48.00S,1,1610612738,BOS,1627759,Brown,J. Brown,104,190,22,Made,1,4,4,8,h,Brown 22' Jump Shot (2 PTS) (Schroder 1 AST),Made Shot,Jump Shot,1,2,17
+0022100688,28,PT09M30.00S,1,1610612757,POR,203468,McCollum,C. McCollum,238,80,25,Made,1,4,7,11,v,McCollum 25' 3PT Jump Shot (3 PTS) (Nurkic 1 AST),Made Shot,Jump Shot,1,3,18
+0022100688,31,PT09M11.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,-2,27,3,Made,1,6,7,13,h,Tatum 3' Driving Finger Roll Layup (2 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,19
+0022100688,33,PT08M50.00S,1,1610612757,POR,1629014,Simons,A. Simons,-202,158,26,Made,1,6,10,16,v,Simons 26' 3PT Jump Shot (3 PTS) (Little 1 AST),Made Shot,Jump Shot,1,3,20
+0022100688,35,PT08M25.00S,1,1610612738,BOS,203471,Schröder,D. Schröder,-51,43,7,Made,1,8,10,18,h,Schroder 7' Driving Floating Bank Jump Shot (2 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,21
+0022100688,36,PT08M05.00S,1,1610612757,POR,1629014,Simons,A. Simons,195,31,20,Made,1,8,12,20,v,Simons 20' Step Back Jump Shot (5 PTS),Made Shot,Step Back Jump shot,1,2,22
+0022100688,37,PT07M54.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,-224,139,26,Missed,1,,,0,h,MISS Tatum 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,23
+0022100688,38,PT07M51.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,24
+0022100688,39,PT07M49.00S,1,1610612738,BOS,203471,Schröder,D. Schröder,115,232,26,Missed,1,,,0,h,MISS Schroder 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,25
+0022100688,40,PT07M47.00S,1,1610612757,POR,1629642,Little,N. Little,0,0,0,,0,,,0,v,Little REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,26
+0022100688,41,PT07M34.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic Lost Ball Turnover (P2.T2),Turnover,Lost Ball,1,0,27
+0022100688,41,PT07M34.00S,1,1610612738,BOS,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,Schroder STEAL (2 STL),,,1,0,28
+0022100688,43,PT07M17.00S,1,1610612738,BOS,201143,Horford,A. Horford,-80,258,27,Missed,1,,,0,h,MISS Horford 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,29
+0022100688,44,PT07M14.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,30
+0022100688,45,PT07M01.00S,1,1610612757,POR,1629642,Little,N. Little,0,0,0,,0,,,0,v,Little Lost Ball Turnover (P1.T3),Turnover,Lost Ball,1,0,31
+0022100688,45,PT07M01.00S,1,1610612738,BOS,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,Schroder STEAL (3 STL),,,1,0,32
+0022100688,47,PT06M50.00S,1,1610612738,BOS,1627759,Brown,J. Brown,229,16,0,Made,1,11,12,23,h,Brown 3PT Jump Shot (5 PTS) (Tatum 2 AST),Made Shot,Jump Shot,1,3,33
+0022100688,49,PT06M28.00S,1,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,Horford S.FOUL (P1.T2) (B.Kennedy),Foul,Shooting,1,0,34
+0022100688,51,PT06M28.00S,1,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,35
+0022100688,52,PT06M28.00S,1,1610612757,POR,1629642,Little,N. Little,0,0,0,,0,,,0,v,SUB: Elleby FOR Little,Substitution,,0,0,36
+0022100688,54,PT06M28.00S,1,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,11,13,24,v,McCollum Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,37
+0022100688,55,PT06M28.00S,1,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,11,14,25,v,McCollum Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,38
+0022100688,56,PT06M11.00S,1,1610612738,BOS,1627759,Brown,J. Brown,22,15,3,Missed,1,,,0,h,MISS Brown 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,39
+0022100688,57,PT06M08.00S,1,1610612757,POR,1629604,Elleby,C. Elleby,0,0,0,,0,,,0,v,Elleby REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,40
+0022100688,58,PT05M57.00S,1,1610612757,POR,203468,McCollum,C. McCollum,-157,184,24,Made,1,11,17,28,v,McCollum 24' 3PT Turnaround Jump Shot (8 PTS),Made Shot,Turnaround Jump Shot,1,3,41
+0022100688,59,PT05M36.00S,1,1610612738,BOS,201143,Horford,A. Horford,50,92,10,Made,1,13,17,30,h,Horford 10' Jump Shot (4 PTS) (Williams III 1 AST),Made Shot,Jump Shot,1,2,42
+0022100688,61,PT05M18.00S,1,1610612738,BOS,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,Schroder P.FOUL (P1.T3) (B.Nansel),Foul,Personal,1,0,43
+0022100688,63,PT05M18.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,SUB: Richardson FOR Tatum,Substitution,,0,0,44
+0022100688,64,PT05M18.00S,1,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,SUB: McLemore FOR McCollum,Substitution,,0,0,45
+0022100688,67,PT05M06.00S,1,1610612757,POR,203496,Covington,R. Covington,-53,20,6,Missed,1,,,0,v,MISS Covington 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,46
+0022100688,67,PT05M06.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III BLOCK (1 BLK),,,1,2,47
+0022100688,69,PT05M04.00S,1,1610612738,BOS,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,Schroder REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,48
+0022100688,70,PT04M55.00S,1,1610612738,BOS,203471,Schröder,D. Schröder,-58,47,7,Missed,1,,,0,h,MISS Schroder 7' Driving Layup,Missed Shot,Driving Layup Shot,1,2,49
+0022100688,71,PT04M53.00S,1,1610612757,POR,203496,Covington,R. Covington,0,0,0,,0,,,0,v,Covington REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,50
+0022100688,72,PT04M41.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic Bad Pass Turnover (P3.T4),Turnover,Bad Pass,1,0,51
+0022100688,72,PT04M41.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III STEAL (1 STL),,,1,0,52
+0022100688,74,PT04M37.00S,1,1610612738,BOS,1626196,Richardson,J. Richardson,154,212,26,Made,1,16,17,33,h,Richardson 26' 3PT Running Pull-Up Jump Shot (3 PTS) (Schroder 2 AST),Made Shot,Running Pull-Up Jump Shot,1,3,53
+0022100688,75,PT04M21.00S,1,1610612757,POR,203463,McLemore,B. McLemore,229,4,0,Missed,1,,,0,v,MISS McLemore 3PT Jump Shot,Missed Shot,Jump Shot,1,3,54
+0022100688,76,PT04M19.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,55
+0022100688,77,PT04M12.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,56
+0022100688,77,PT04M12.00S,1,1610612757,POR,1629604,Elleby,C. Elleby,0,0,0,,0,,,0,v,Elleby STEAL (1 STL),,,1,0,57
+0022100688,79,PT04M09.00S,1,1610612757,POR,1629604,Elleby,C. Elleby,21,11,2,Made,1,16,19,35,v,Elleby 2' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,58
+0022100688,81,PT03M48.00S,1,1610612738,BOS,1626196,Richardson,J. Richardson,39,54,7,Made,1,18,19,37,h,Richardson 7' Driving Floating Jump Shot (5 PTS) (Schroder 3 AST),Made Shot,Driving Floating Jump Shot,1,2,59
+0022100688,83,PT03M30.00S,1,1610612757,POR,203463,McLemore,B. McLemore,234,75,25,Made,1,18,22,40,v,McLemore 25' 3PT Jump Shot (3 PTS) (Nurkic 2 AST),Made Shot,Jump Shot,1,3,60
+0022100688,85,PT03M13.00S,1,1610612738,BOS,201143,Horford,A. Horford,-234,29,24,Missed,1,,,0,h,MISS Horford 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,61
+0022100688,86,PT03M10.00S,1,1610612757,POR,203463,McLemore,B. McLemore,0,0,0,,0,,,0,v,McLemore REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,62
+0022100688,87,PT02M55.00S,1,1610612738,BOS,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,h,Richardson S.FOUL (P1.T4) (B.Kennedy),Foul,Shooting,1,0,63
+0022100688,89,PT02M55.00S,1,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,64
+0022100688,90,PT02M55.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,SUB: Williams FOR Williams III,Substitution,,0,0,65
+0022100688,91,PT02M55.00S,1,1610612757,POR,1629014,Simons,A. Simons,0,0,0,,0,,,0,v,SUB: Little FOR Simons,Substitution,,0,0,66
+0022100688,92,PT02M55.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,SUB: Smith Jr. FOR Nurkic,Substitution,,0,0,67
+0022100688,93,PT02M55.00S,1,1610612757,POR,203496,Covington,R. Covington,0,0,0,,0,,,0,v,SUB: Watford FOR Covington,Substitution,,0,0,68
+0022100688,98,PT02M55.00S,1,1610612757,POR,1629604,Elleby,C. Elleby,0,0,0,,0,,,0,v,MISS Elleby Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,69
+0022100688,99,PT02M55.00S,1,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Rebound,Rebound,Normal Rebound,0,0,70
+0022100688,100,PT02M55.00S,1,1610612757,POR,1629604,Elleby,C. Elleby,0,0,0,,0,18,23,41,v,Elleby Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,71
+0022100688,101,PT02M37.00S,1,1610612738,BOS,1626196,Richardson,J. Richardson,-189,195,27,Missed,1,,,0,h,MISS Richardson 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,72
+0022100688,102,PT02M35.00S,1,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,73
+0022100688,103,PT02M30.00S,1,1610612738,BOS,203471,Schröder,D. Schröder,135,226,26,Missed,1,,,0,h,MISS Schroder 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,74
+0022100688,104,PT02M27.00S,1,1610612757,POR,1629642,Little,N. Little,0,0,0,,0,,,0,v,Little REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,75
+0022100688,105,PT02M13.00S,1,1610612757,POR,203463,McLemore,B. McLemore,132,208,25,Made,1,18,26,44,v,McLemore 25' 3PT Jump Shot (6 PTS) (Little 2 AST),Made Shot,Jump Shot,1,3,76
+0022100688,107,PT01M55.00S,1,1610612738,BOS,201143,Horford,A. Horford,50,104,12,Made,1,20,26,46,h,Horford 12' Jump Shot (6 PTS) (Brown 1 AST),Made Shot,Jump Shot,1,2,77
+0022100688,109,PT01M30.00S,1,1610612757,POR,1628372,Smith Jr.,D. Smith Jr.,-120,119,17,Made,1,20,28,48,v,Smith Jr. 17' Fadeaway Jumper (2 PTS),Made Shot,Fadeaway Jump Shot,1,2,78
+0022100688,110,PT01M18.00S,1,1610612757,POR,1629604,Elleby,C. Elleby,0,0,0,,0,,,0,v,Elleby S.FOUL (P1.T2) (J.Goble),Foul,Shooting,1,0,79
+0022100688,112,PT01M18.00S,1,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,21,28,49,h,Brown Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,80
+0022100688,113,PT01M18.00S,1,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,SUB: Tatum FOR Horford,Substitution,,0,0,81
+0022100688,115,PT01M18.00S,1,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,22,28,50,h,Brown Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,82
+0022100688,116,PT01M05.00S,1,1610612757,POR,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. Out of Bounds Lost Ball Turnover (P1.T5),Turnover,Out of Bounds Lost Ball Turnover,1,0,83
+0022100688,117,PT01M05.00S,1,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,SUB: Freedom FOR Brown,Substitution,,0,0,84
+0022100688,119,PT00M40.70S,1,1610612738,BOS,203471,Schröder,D. Schröder,-145,312,34,Missed,1,,,0,h,MISS Schroder 34' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,85
+0022100688,120,PT00M37.90S,1,1610612757,POR,1629642,Little,N. Little,0,0,0,,0,,,0,v,Little REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,86
+0022100688,121,PT00M22.10S,1,1610612757,POR,1629604,Elleby,C. Elleby,40,67,8,Made,1,22,30,52,v,Elleby 8' Driving Floating Jump Shot (5 PTS) (Watford 1 AST),Made Shot,Driving Floating Jump Shot,1,2,87
+0022100688,123,PT00M01.40S,1,1610612738,BOS,1628369,Tatum,J. Tatum,15,15,2,Made,1,24,30,54,h,Tatum 2' Driving Finger Roll Layup (4 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,88
+0022100688,124,PT00M01.40S,1,1610612757,POR,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. S.FOUL (P1.PN) (B.Nansel),Foul,Shooting,1,0,89
+0022100688,126,PT00M01.40S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,25,30,55,h,Tatum Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,90
+0022100688,127,PT00M00.20S,1,1610612757,POR,203463,McLemore,B. McLemore,0,0,0,,0,,,0,v,McLemore Step Out of Bounds Turnover (P1.T6),Turnover,Step Out of Bounds Turnover,1,0,91
+0022100688,128,PT00M00.00S,1,0,,0,,,0,0,0,,0,25,30,55,,End of 1st Period (8:05 PM EST),period,end,1,0,92
+0022100688,135,PT12M00.00S,2,0,,0,,,0,0,0,,0,25,30,55,,Start of 2nd Period (8:08 PM EST),period,start,0,0,93
+0022100688,136,PT11M44.00S,2,1610612738,BOS,1626196,Richardson,J. Richardson,93,242,26,Missed,1,,,0,h,MISS Richardson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,94
+0022100688,137,PT11M41.00S,2,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Rebound,Rebound,Unknown,0,0,95
+0022100688,139,PT11M28.00S,2,1610612757,POR,203994,Nurkić,J. Nurkić,-36,52,6,Made,1,25,32,57,v,Nurkic 6' Hook Shot (3 PTS),Made Shot,Hook Shot,1,2,96
+0022100688,140,PT11M28.00S,2,1610612738,BOS,202683,Freedom,E. Freedom,0,0,0,,0,,,0,h,Freedom S.FOUL (P1.T1) (B.Nansel),Foul,Shooting,1,0,97
+0022100688,142,PT11M28.00S,2,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,25,33,58,v,Nurkic Free Throw 1 of 1 (4 PTS),Free Throw,Free Throw 1 of 1,1,0,98
+0022100688,143,PT11M09.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,-164,202,26,Missed,1,,,0,h,MISS Tatum 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,99
+0022100688,144,PT11M05.00S,2,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,100
+0022100688,146,PT10M59.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum S.FOUL (P1.T2) (J.Goble),Foul,Shooting,1,0,101
+0022100688,148,PT10M59.00S,2,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,MISS McCollum Free Throw 1 of 3,Free Throw,Free Throw 1 of 3,1,0,102
+0022100688,149,PT10M59.00S,2,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Rebound,Rebound,Normal Rebound,0,0,103
+0022100688,150,PT10M59.00S,2,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,25,34,59,v,McCollum Free Throw 2 of 3 (9 PTS),Free Throw,Free Throw 2 of 3,1,0,104
+0022100688,151,PT10M59.00S,2,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,25,35,60,v,McCollum Free Throw 3 of 3 (10 PTS),Free Throw,Free Throw 3 of 3,1,0,105
+0022100688,152,PT10M41.00S,2,1610612738,BOS,202683,Freedom,E. Freedom,15,8,2,Missed,1,,,0,h,MISS Freedom 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,106
+0022100688,153,PT10M39.00S,2,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,107
+0022100688,154,PT10M32.00S,2,1610612757,POR,203994,Nurkić,J. Nurkić,34,24,4,Made,1,25,37,62,v,Nurkic 4' Hook Bank Shot (6 PTS) (Smith Jr. 1 AST),Made Shot,Hook Bank Shot,1,2,108
+0022100688,156,PT10M32.00S,2,1610612738,BOS,202683,Freedom,E. Freedom,0,0,0,,0,,,0,h,Freedom S.FOUL (P2.T3) (B.Nansel),Foul,Shooting,1,0,109
+0022100688,158,PT10M32.00S,2,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,110
+0022100688,159,PT10M32.00S,2,1610612738,BOS,202683,Freedom,E. Freedom,0,0,0,,0,,,0,h,SUB: Williams III FOR Freedom,Substitution,,0,0,111
+0022100688,161,PT10M32.00S,2,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,25,38,63,v,Nurkic Free Throw 1 of 1 (7 PTS),Free Throw,Free Throw 1 of 1,1,0,112
+0022100688,162,PT10M17.00S,2,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,Williams Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,113
+0022100688,162,PT10M17.00S,2,1610612757,POR,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. STEAL (1 STL),,,1,0,114
+0022100688,164,PT10M13.00S,2,1610612757,POR,203468,McCollum,C. McCollum,26,31,4,Missed,1,,,0,v,MISS McCollum 4' Running Layup,Missed Shot,Running Layup Shot,1,2,115
+0022100688,165,PT10M10.00S,2,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,116
+0022100688,166,PT10M09.00S,2,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,Missed,1,,,0,v,MISS Nurkic Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,117
+0022100688,167,PT10M08.00S,2,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,118
+0022100688,168,PT09M59.00S,2,1610612738,BOS,1626196,Richardson,J. Richardson,-178,214,28,Missed,1,,,0,h,MISS Richardson 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,119
+0022100688,169,PT09M55.00S,2,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,120
+0022100688,170,PT09M51.00S,2,1610612757,POR,1629642,Little,N. Little,-2,-1,0,Made,1,25,40,65,v,Little Running Dunk (5 PTS) (Smith Jr. 2 AST),Made Shot,Running Dunk Shot,1,2,121
+0022100688,172,PT09M32.00S,2,1610612738,BOS,1629684,Williams,G. Williams,-13,267,27,Made,1,28,40,68,h,Williams 27' 3PT Jump Shot (3 PTS) (Richardson 1 AST),Made Shot,Jump Shot,1,3,122
+0022100688,174,PT09M30.00S,2,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Violation: Delay of game Violation,Violation,Delay Of Game,0,0,123
+0022100688,175,PT09M15.00S,2,1610612757,POR,1629604,Elleby,C. Elleby,196,168,26,Missed,1,,,0,v,MISS Elleby 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,124
+0022100688,176,PT09M12.00S,2,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,125
+0022100688,177,PT09M05.00S,2,1610612757,POR,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. P.FOUL (P2.T1) (J.Goble),Foul,Personal,1,0,126
+0022100688,179,PT09M05.00S,2,1610612738,BOS,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,h,SUB: Brown FOR Richardson,Substitution,,0,0,127
+0022100688,180,PT09M05.00S,2,1610612738,BOS,1630202,Pritchard,P. Pritchard,0,0,0,,0,,,0,h,SUB: Langford FOR Pritchard,Substitution,,0,0,128
+0022100688,181,PT09M05.00S,2,1610612757,POR,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,SUB: Simons FOR Smith Jr.,Substitution,,0,0,129
+0022100688,185,PT08M56.00S,2,1610612738,BOS,1629641,Langford,R. Langford,5,120,12,Made,1,30,40,70,h,Langford 12' Turnaround Fadeaway (2 PTS) (Brown 2 AST),Made Shot,Turnaround Fadeaway shot,1,2,130
+0022100688,187,PT08M45.00S,2,1610612757,POR,203468,McCollum,C. McCollum,-21,5,2,Missed,1,,,0,v,MISS McCollum 2' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,131
+0022100688,188,PT08M44.00S,2,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,132
+0022100688,189,PT08M36.00S,2,1610612738,BOS,1629641,Langford,R. Langford,-232,36,0,Missed,1,,,0,h,MISS Langford 3PT Jump Shot,Missed Shot,Jump Shot,1,3,133
+0022100688,190,PT08M32.00S,2,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,134
+0022100688,191,PT08M26.00S,2,1610612757,POR,1629014,Simons,A. Simons,196,230,30,Made,1,30,43,73,v,Simons 30' 3PT Jump Shot (8 PTS) (McCollum 1 AST),Made Shot,Jump Shot,1,3,135
+0022100688,193,PT08M06.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,-30,23,4,Missed,1,,,0,h,MISS Tatum 4' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,136
+0022100688,194,PT08M03.00S,2,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,137
+0022100688,195,PT07M54.00S,2,1610612757,POR,1629014,Simons,A. Simons,168,194,26,Missed,1,,,0,v,MISS Simons 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,138
+0022100688,196,PT07M52.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,139
+0022100688,197,PT07M49.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,-5,17,2,Made,1,32,43,75,h,Tatum 2' Running Layup (7 PTS),Made Shot,Running Layup Shot,1,2,140
+0022100688,198,PT07M49.00S,2,1610612757,POR,1629642,Little,N. Little,0,0,0,,0,,,0,v,Little S.FOUL (P1.T2) (B.Nansel),Foul,Shooting,1,0,141
+0022100688,200,PT07M49.00S,2,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,SUB: McLemore FOR McCollum,Substitution,,0,0,142
+0022100688,201,PT07M49.00S,2,1610612757,POR,1629604,Elleby,C. Elleby,0,0,0,,0,,,0,v,SUB: Covington FOR Elleby,Substitution,,0,0,143
+0022100688,204,PT07M49.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,33,43,76,h,Tatum Free Throw 1 of 1 (8 PTS),Free Throw,Free Throw 1 of 1,1,0,144
+0022100688,205,PT07M38.00S,2,1610612757,POR,1629642,Little,N. Little,-107,227,25,Missed,1,,,0,v,MISS Little 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,145
+0022100688,206,PT07M35.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,146
+0022100688,207,PT07M29.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,-165,204,26,Missed,1,,,0,h,MISS Tatum 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,147
+0022100688,208,PT07M26.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,148
+0022100688,209,PT07M24.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,-6,11,1,Made,1,35,43,78,h,Tatum 1' Driving Dunk (10 PTS),Made Shot,Driving Dunk Shot,1,2,149
+0022100688,210,PT07M10.00S,2,1610612757,POR,203994,Nurkić,J. Nurkić,-58,22,6,Missed,1,,,0,v,MISS Nurkic 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,150
+0022100688,210,PT07M10.00S,2,1610612738,BOS,1629641,Langford,R. Langford,0,0,0,,0,,,0,h,Langford BLOCK (1 BLK),,,1,2,151
+0022100688,212,PT07M07.00S,2,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,152
+0022100688,213,PT07M06.00S,2,1610612757,POR,203463,McLemore,B. McLemore,0,0,0,,0,,,0,v,McLemore S.FOUL (P1.T3) (J.Goble),Foul,Shooting,1,0,153
+0022100688,215,PT07M06.00S,2,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,36,43,79,h,Williams Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,154
+0022100688,216,PT07M06.00S,2,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,37,43,80,h,Williams Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,155
+0022100688,217,PT06M51.00S,2,1610612757,POR,1629014,Simons,A. Simons,54,19,6,Made,1,37,45,82,v,Simons 6' Driving Floating Jump Shot (10 PTS),Made Shot,Driving Floating Jump Shot,1,2,156
+0022100688,218,PT06M36.00S,2,1610612757,POR,203496,Covington,R. Covington,0,0,0,,0,,,0,v,Covington P.FOUL (P2.T4) (B.Kennedy),Foul,Personal,1,0,157
+0022100688,220,PT06M29.00S,2,1610612738,BOS,1629641,Langford,R. Langford,65,54,8,Made,1,39,45,84,h,Langford 8' Driving Floating Bank Jump Shot (4 PTS) (Tatum 3 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,158
+0022100688,222,PT06M14.00S,2,1610612757,POR,203463,McLemore,B. McLemore,237,67,25,Missed,1,,,0,v,MISS McLemore 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,159
+0022100688,223,PT06M12.00S,2,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,160
+0022100688,224,PT06M07.00S,2,1610612738,BOS,1627759,Brown,J. Brown,135,228,26,Missed,1,,,0,h,MISS Brown 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,161
+0022100688,225,PT06M05.00S,2,1610612757,POR,1629014,Simons,A. Simons,0,0,0,,0,,,0,v,Simons REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,162
+0022100688,226,PT05M47.00S,2,1610612757,POR,1629642,Little,N. Little,-118,104,16,Missed,1,,,0,v,MISS Little 16' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,163
+0022100688,227,PT05M40.00S,2,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,164
+0022100688,228,PT05M40.00S,2,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,Missed,1,,,0,v,MISS Nurkic Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,165
+0022100688,229,PT05M39.00S,2,1610612738,BOS,1629641,Langford,R. Langford,0,0,0,,0,,,0,h,Langford REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,166
+0022100688,230,PT05M35.00S,2,1610612738,BOS,1629684,Williams,G. Williams,230,36,0,Made,1,42,45,87,h,Williams 3PT Pullup Jump Shot (8 PTS) (Brown 3 AST),Made Shot,Pullup Jump shot,1,3,167
+0022100688,232,PT05M33.00S,2,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,168
+0022100688,233,PT05M33.00S,2,1610612757,POR,1629642,Little,N. Little,0,0,0,,0,,,0,v,SUB: McCollum FOR Little,Substitution,,0,0,169
+0022100688,234,PT05M33.00S,2,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,SUB: Watford FOR Nurkic,Substitution,,0,0,170
+0022100688,237,PT05M18.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III P.FOUL (P2.T4) (J.Goble),Foul,Personal,1,0,171
+0022100688,239,PT05M06.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum S.FOUL (P2.PN) (J.Goble),Foul,Shooting,1,0,172
+0022100688,241,PT05M06.00S,2,1610612757,POR,203496,Covington,R. Covington,0,0,0,,0,,,0,v,MISS Covington Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,173
+0022100688,242,PT05M06.00S,2,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Rebound,Rebound,Normal Rebound,0,0,174
+0022100688,243,PT05M06.00S,2,1610612757,POR,203496,Covington,R. Covington,0,0,0,,0,,,0,v,MISS Covington Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,175
+0022100688,244,PT05M06.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,176
+0022100688,245,PT04M50.00S,2,1610612738,BOS,1627759,Brown,J. Brown,-40,49,6,Missed,1,,,0,h,MISS Brown 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,177
+0022100688,246,PT04M47.00S,2,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,178
+0022100688,247,PT04M41.00S,2,1610612757,POR,203468,McCollum,C. McCollum,5,250,25,Missed,1,,,0,v,MISS McCollum 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,179
+0022100688,248,PT04M39.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,180
+0022100688,249,PT04M35.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,56,28,6,Missed,1,,,0,h,MISS Tatum 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,181
+0022100688,249,PT04M35.00S,2,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum BLOCK (1 BLK),,,1,2,182
+0022100688,251,PT04M33.00S,2,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Rebound,Rebound,Unknown,0,0,183
+0022100688,253,PT04M29.00S,2,1610612738,BOS,1627759,Brown,J. Brown,22,141,14,Made,1,44,45,89,h,Brown 14' Pullup Jump Shot (9 PTS),Made Shot,Pullup Jump shot,1,2,184
+0022100688,254,PT04M06.00S,2,1610612757,POR,1629014,Simons,A. Simons,86,231,25,Missed,1,,,0,v,MISS Simons 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,185
+0022100688,255,PT04M03.00S,2,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,186
+0022100688,256,PT03M56.00S,2,1610612738,BOS,1629684,Williams,G. Williams,229,6,0,Made,1,47,45,92,h,Williams 3PT Jump Shot (11 PTS) (Brown 4 AST),Made Shot,Jump Shot,1,3,187
+0022100688,258,PT03M28.00S,2,1610612757,POR,203468,McCollum,C. McCollum,44,8,4,Missed,1,,,0,v,MISS McCollum 4' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,188
+0022100688,258,PT03M28.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III BLOCK (2 BLK),,,1,2,189
+0022100688,260,PT03M26.00S,2,1610612757,POR,1630570,Watford,T. Watford,0,0,0,,0,,,0,v,Watford REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,190
+0022100688,261,PT03M25.00S,2,1610612757,POR,1630570,Watford,T. Watford,20,9,2,Made,1,47,47,94,v,Watford 2' Jump Shot (2 PTS),Made Shot,Jump Shot,1,2,191
+0022100688,262,PT03M07.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,-6,10,1,Made,1,49,47,96,h,Williams III 1' Alley Oop Dunk (2 PTS) (Tatum 4 AST),Made Shot,Alley Oop Dunk Shot,1,2,192
+0022100688,264,PT02M49.00S,2,1610612757,POR,1629014,Simons,A. Simons,-15,248,25,Missed,1,,,0,v,MISS Simons 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,193
+0022100688,265,PT02M46.00S,2,1610612738,BOS,1629641,Langford,R. Langford,0,0,0,,0,,,0,h,Langford REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,194
+0022100688,266,PT02M38.00S,2,1610612738,BOS,1627759,Brown,J. Brown,15,22,3,Missed,1,,,0,h,MISS Brown 3' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,195
+0022100688,267,PT02M36.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,196
+0022100688,268,PT02M35.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,Missed,1,,,0,h,MISS Williams III Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,197
+0022100688,269,PT02M34.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,198
+0022100688,272,PT02M32.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,-2,94,9,Made,1,51,47,98,h,Williams III 9' Turnaround Fadeaway (4 PTS),Made Shot,Turnaround Fadeaway shot,1,2,199
+0022100688,273,PT02M32.00S,2,1610612757,POR,203496,Covington,R. Covington,0,0,0,,0,,,0,v,Covington S.FOUL (P3.PN) (J.Goble),Foul,Shooting,1,0,200
+0022100688,275,PT02M32.00S,2,1610612757,POR,1630570,Watford,T. Watford,0,0,0,,0,,,0,v,SUB: Nurkic FOR Watford,Substitution,,0,0,201
+0022100688,279,PT02M32.00S,2,1610612757,POR,203463,McLemore,B. McLemore,0,0,0,,0,,,0,v,SUB: Little FOR McLemore,Substitution,,0,0,202
+0022100688,281,PT02M32.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,52,47,99,h,Williams III Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,203
+0022100688,282,PT02M23.00S,2,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown P.FOUL (P1.PN) (J.Goble),Foul,Personal,1,0,204
+0022100688,284,PT02M23.00S,2,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,52,48,100,v,Nurkic Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,205
+0022100688,285,PT02M23.00S,2,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,52,49,101,v,Nurkic Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,206
+0022100688,286,PT02M04.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum Lost Ball Turnover (P2.T4),Turnover,Lost Ball,1,0,207
+0022100688,286,PT02M04.00S,2,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic STEAL (1 STL),,,1,0,208
+0022100688,288,PT01M57.00S,2,1610612757,POR,203468,McCollum,C. McCollum,-163,185,25,Made,1,52,52,104,v,McCollum 25' 3PT Running Pull-Up Jump Shot (13 PTS),Made Shot,Running Pull-Up Jump Shot,1,3,209
+0022100688,289,PT01M38.00S,2,1610612738,BOS,1627759,Brown,J. Brown,-32,31,4,Missed,1,,,0,h,MISS Brown 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,210
+0022100688,290,PT01M35.00S,2,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,211
+0022100688,291,PT01M35.00S,2,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum Out of Bounds - Bad Pass Turnover Turnover (P1.T7),Turnover,Out of Bounds - Bad Pass Turnover,1,0,212
+0022100688,292,PT01M35.00S,2,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown T.FOUL (P1.PN) (J.Goble),Foul,Technical,1,0,213
+0022100688,293,PT01M35.00S,2,1610612757,POR,1629014,Simons,A. Simons,0,0,0,,0,52,53,105,v,Simons Free Throw Technical (11 PTS),Free Throw,Free Throw Technical,1,0,214
+0022100688,294,PT01M35.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,SUB: Horford FOR Williams III,Substitution,,0,0,215
+0022100688,296,PT01M24.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,4,12,1,Made,1,54,53,107,h,Tatum 1' Driving Layup (12 PTS),Made Shot,Driving Layup Shot,1,2,216
+0022100688,297,PT01M04.00S,2,1610612757,POR,203994,Nurkić,J. Nurkić,60,11,6,Missed,1,,,0,v,MISS Nurkic 6' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,217
+0022100688,298,PT01M01.00S,2,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,Horford REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,218
+0022100688,299,PT00M58.40S,2,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum P.FOUL (P1.PN) (B.Kennedy),Foul,Personal,1,0,219
+0022100688,301,PT00M58.40S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,55,53,108,h,Tatum Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,1,0,220
+0022100688,302,PT00M58.40S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,MISS Tatum Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,221
+0022100688,303,PT00M58.40S,2,1610612757,POR,203496,Covington,R. Covington,0,0,0,,0,,,0,v,Covington REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,222
+0022100688,304,PT00M40.40S,2,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,Horford P.FOUL (P2.PN) (B.Kennedy),Foul,Personal,1,0,223
+0022100688,306,PT00M40.40S,2,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,MISS McCollum Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,224
+0022100688,307,PT00M40.40S,2,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Rebound,Rebound,Normal Rebound,0,0,225
+0022100688,308,PT00M40.40S,2,1610612757,POR,203496,Covington,R. Covington,0,0,0,,0,,,0,v,SUB: Elleby FOR Covington,Substitution,,0,0,226
+0022100688,310,PT00M40.40S,2,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,55,54,109,v,McCollum Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,1,0,227
+0022100688,311,PT00M31.10S,2,1610612738,BOS,1627759,Brown,J. Brown,112,244,27,Missed,1,,,0,h,MISS Brown 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,228
+0022100688,312,PT00M28.90S,2,1610612757,POR,1629604,Elleby,C. Elleby,0,0,0,,0,,,0,v,Elleby REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,229
+0022100688,313,PT00M12.20S,2,1610612757,POR,203468,McCollum,C. McCollum,102,225,25,Missed,1,,,0,v,MISS McCollum 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,230
+0022100688,314,PT00M10.20S,2,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,Horford REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,231
+0022100688,315,PT00M01.20S,2,1610612738,BOS,1627759,Brown,J. Brown,222,44,0,Made,1,58,54,112,h,Brown 3PT Step Back Jump Shot (12 PTS) (Horford 1 AST),Made Shot,Step Back Jump shot,1,3,232
+0022100688,317,PT00M00.00S,2,0,,0,,,0,0,0,,0,58,54,112,,End of 2nd Period (8:36 PM EST),period,end,1,0,233
+0022100688,324,PT12M00.00S,3,0,,0,,,0,0,0,,0,58,54,112,,Start of 3rd Period (8:52 PM EST),period,start,0,0,234
+0022100688,325,PT11M37.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,45,211,22,Made,1,60,54,114,h,Tatum 22' Pullup Jump Shot (15 PTS),Made Shot,Pullup Jump shot,1,2,235
+0022100688,326,PT11M16.00S,3,1610612757,POR,1629642,Little,N. Little,92,241,26,Missed,1,,,0,v,MISS Little 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,236
+0022100688,327,PT11M13.00S,3,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,Horford REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,237
+0022100688,328,PT11M06.00S,3,1610612738,BOS,203471,Schröder,D. Schröder,89,95,13,Made,1,62,54,116,h,Schroder 13' Pullup Jump Shot (4 PTS) (Brown 5 AST),Made Shot,Pullup Jump shot,1,2,238
+0022100688,330,PT10M48.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,-38,74,8,Missed,1,,,0,v,MISS Nurkic 8' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,239
+0022100688,331,PT10M45.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,240
+0022100688,332,PT10M40.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,49,220,23,Missed,1,,,0,h,MISS Tatum 23' Jump Shot,Missed Shot,Jump Shot,1,2,241
+0022100688,333,PT10M38.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,242
+0022100688,334,PT10M30.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,10,6,1,Made,1,62,56,118,v,Nurkic 1' Cutting Layup Shot (11 PTS) (McCollum 2 AST),Made Shot,Cutting Layup Shot,1,2,243
+0022100688,336,PT10M21.00S,3,1610612738,BOS,203471,Schröder,D. Schröder,-13,1,1,Made,1,64,56,120,h,Schroder 1' Driving Layup (6 PTS) (Horford 2 AST),Made Shot,Driving Layup Shot,1,2,244
+0022100688,338,PT10M21.00S,3,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,245
+0022100688,340,PT10M05.00S,3,1610612757,POR,1629014,Simons,A. Simons,62,132,15,Made,1,64,58,122,v,Simons 15' Pullup Jump Shot (13 PTS),Made Shot,Pullup Jump shot,1,2,246
+0022100688,341,PT09M46.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic S.FOUL (P1.T1) (J.Goble),Foul,Shooting,1,0,247
+0022100688,343,PT09M46.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,65,58,123,h,Tatum Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,1,0,248
+0022100688,344,PT09M46.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,66,58,124,h,Tatum Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,1,0,249
+0022100688,345,PT09M32.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,20,-1,2,Missed,1,,,0,v,MISS Nurkic 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,250
+0022100688,346,PT09M30.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,251
+0022100688,347,PT09M30.00S,3,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown S.FOUL (P2.T1) (J.Goble),Foul,Shooting,1,0,252
+0022100688,349,PT09M30.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,MISS Nurkic Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,253
+0022100688,350,PT09M30.00S,3,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Rebound,Rebound,Normal Rebound,0,0,254
+0022100688,351,PT09M30.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,MISS Nurkic Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,255
+0022100688,352,PT09M30.00S,3,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,256
+0022100688,353,PT09M09.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,-199,150,25,Missed,1,,,0,h,MISS Tatum 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,257
+0022100688,354,PT09M06.00S,3,1610612757,POR,1629642,Little,N. Little,0,0,0,,0,,,0,v,Little REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,258
+0022100688,355,PT08M51.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,-25,17,3,Made,1,66,60,126,v,Nurkic 3' Driving Layup (13 PTS),Made Shot,Driving Layup Shot,1,2,259
+0022100688,356,PT08M34.00S,3,1610612738,BOS,1627759,Brown,J. Brown,-10,199,20,Made,1,68,60,128,h,Brown 20' Pullup Jump Shot (14 PTS) (Schroder 4 AST),Made Shot,Pullup Jump shot,1,2,260
+0022100688,358,PT08M23.00S,3,1610612757,POR,203468,McCollum,C. McCollum,123,239,27,Made,1,68,63,131,v,McCollum 27' 3PT Step Back Jump Shot (17 PTS),Made Shot,Step Back Jump shot,1,3,261
+0022100688,359,PT08M10.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic P.FOUL (P2.T2) (J.Goble),Foul,Personal,1,0,262
+0022100688,361,PT08M00.00S,3,1610612738,BOS,1627759,Brown,J. Brown,39,27,5,Missed,1,,,0,h,MISS Brown 5' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,263
+0022100688,362,PT07M58.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,264
+0022100688,363,PT07M51.00S,3,1610612757,POR,203468,McCollum,C. McCollum,-6,44,4,Missed,1,,,0,v,MISS McCollum 4' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,265
+0022100688,364,PT07M48.00S,3,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,266
+0022100688,365,PT07M43.00S,3,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum P.FOUL (P2.T3) (B.Nansel),Foul,Personal,1,0,267
+0022100688,367,PT07M36.00S,3,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III OFF.Foul (P3) (J.Goble),Foul,Offensive,1,0,268
+0022100688,369,PT07M36.00S,3,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III Offensive Foul Turnover (P2.T5),Turnover,Offensive Foul Turnover,1,0,269
+0022100688,370,PT07M36.00S,3,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III T.FOUL (P3.T1) (J.Goble),Foul,Technical,0,0,270
+0022100688,371,PT07M36.00S,3,1610612757,POR,1629014,Simons,A. Simons,0,0,0,,0,,,0,v,MISS Simons Free Throw Technical,Free Throw,Free Throw Technical,1,0,271
+0022100688,372,PT07M36.00S,3,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Rebound,Rebound,Normal Rebound,0,0,272
+0022100688,373,PT07M22.00S,3,1610612757,POR,203468,McCollum,C. McCollum,-116,151,19,Made,1,68,65,133,v,McCollum 19' Pullup Jump Shot (19 PTS),Made Shot,Pullup Jump shot,1,2,273
+0022100688,374,PT07M03.00S,3,1610612738,BOS,203471,Schröder,D. Schröder,140,229,27,Missed,1,,,0,h,MISS Schroder 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,274
+0022100688,375,PT07M01.00S,3,1610612757,POR,1629642,Little,N. Little,0,0,0,,0,,,0,v,Little REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,275
+0022100688,376,PT06M48.00S,3,1610612757,POR,203468,McCollum,C. McCollum,-151,252,29,Missed,1,,,0,v,MISS McCollum 29' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,276
+0022100688,377,PT06M45.00S,3,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,277
+0022100688,378,PT06M36.00S,3,1610612738,BOS,1627759,Brown,J. Brown,-10,-7,1,Made,1,70,65,135,h,Brown 1' Driving Finger Roll Layup (16 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,278
+0022100688,379,PT06M12.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,-4,17,2,Made,1,70,67,137,v,Nurkic 2' Cutting Layup Shot (15 PTS) (Simons 2 AST),Made Shot,Cutting Layup Shot,1,2,279
+0022100688,381,PT06M12.00S,3,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,Horford S.FOUL (P3.T2) (J.Goble),Foul,Shooting,1,0,280
+0022100688,383,PT06M12.00S,3,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,SUB: Williams FOR Horford,Substitution,,0,0,281
+0022100688,386,PT06M12.00S,3,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,SUB: Elleby FOR McCollum,Substitution,,0,0,282
+0022100688,388,PT06M12.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,70,68,138,v,Nurkic Free Throw 1 of 1 (16 PTS),Free Throw,Free Throw 1 of 1,1,0,283
+0022100688,389,PT05M51.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,228,100,25,Missed,1,,,0,h,MISS Tatum 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,284
+0022100688,390,PT05M48.00S,3,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III REBOUND (Off:4 Def:3),Rebound,Unknown,1,0,285
+0022100688,391,PT05M47.00S,3,1610612738,BOS,1627759,Brown,J. Brown,-118,219,25,Missed,1,,,0,h,MISS Brown 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,286
+0022100688,392,PT05M45.00S,3,1610612757,POR,1629642,Little,N. Little,0,0,0,,0,,,0,v,Little REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,287
+0022100688,393,PT05M31.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum S.FOUL (P3.T3) (B.Nansel),Foul,Shooting,1,0,288
+0022100688,395,PT05M31.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,70,69,139,v,Nurkic Free Throw 1 of 2 (17 PTS),Free Throw,Free Throw 1 of 2,1,0,289
+0022100688,398,PT05M31.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,70,70,140,v,Nurkic Free Throw 2 of 2 (18 PTS),Free Throw,Free Throw 2 of 2,1,0,290
+0022100688,396,PT05M31.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,SUB: Richardson FOR Tatum,Substitution,,0,0,291
+0022100688,399,PT05M09.00S,3,1610612738,BOS,1626196,Richardson,J. Richardson,-4,69,7,Missed,1,,,0,h,MISS Richardson 7' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,292
+0022100688,399,PT05M09.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic BLOCK (1 BLK),,,1,2,293
+0022100688,401,PT05M07.00S,3,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Rebound,Rebound,Unknown,0,0,294
+0022100688,402,PT05M07.00S,3,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Turnover: Shot Clock (T#6),Turnover,Shot Clock Turnover,0,0,295
+0022100688,403,PT05M07.00S,3,1610612757,POR,1629642,Little,N. Little,0,0,0,,0,,,0,v,SUB: McLemore FOR Little,Substitution,,0,0,296
+0022100688,405,PT05M00.00S,3,1610612757,POR,1629014,Simons,A. Simons,-183,185,26,Made,1,70,73,143,v,Simons 26' 3PT Jump Shot (16 PTS) (Nurkic 3 AST),Made Shot,Jump Shot,1,3,297
+0022100688,407,PT04M59.00S,3,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,298
+0022100688,408,PT04M34.00S,3,1610612738,BOS,1627759,Brown,J. Brown,-70,46,8,Missed,1,,,0,h,MISS Brown 8' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,299
+0022100688,409,PT04M29.00S,3,1610612757,POR,203463,McLemore,B. McLemore,0,0,0,,0,,,0,v,McLemore REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,300
+0022100688,412,PT04M19.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,-36,76,8,Made,1,70,75,145,v,Nurkic 8' Driving Hook Shot (20 PTS),Made Shot,Driving Hook Shot,1,2,301
+0022100688,413,PT04M10.00S,3,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown Out of Bounds - Bad Pass Turnover Turnover (P1.T7),Turnover,Out of Bounds - Bad Pass Turnover,1,0,302
+0022100688,414,PT03M56.00S,3,1610612757,POR,203463,McLemore,B. McLemore,-25,274,28,Missed,1,,,0,v,MISS McLemore 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,303
+0022100688,415,PT03M53.00S,3,1610612738,BOS,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,Schroder REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,304
+0022100688,416,PT03M46.00S,3,1610612757,POR,203463,McLemore,B. McLemore,0,0,0,,0,,,0,v,McLemore S.FOUL (P2.T4) (J.Goble),Foul,Shooting,1,0,305
+0022100688,418,PT03M46.00S,3,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,71,75,146,h,Brown Free Throw 1 of 2 (17 PTS),Free Throw,Free Throw 1 of 2,1,0,306
+0022100688,419,PT03M46.00S,3,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,72,75,147,h,Brown Free Throw 2 of 2 (18 PTS),Free Throw,Free Throw 2 of 2,1,0,307
+0022100688,420,PT03M33.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic Lost Ball Turnover (P4.T8),Turnover,Lost Ball,1,0,308
+0022100688,420,PT03M33.00S,3,1610612738,BOS,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,Schroder STEAL (4 STL),,,1,0,309
+0022100688,422,PT03M26.00S,3,1610612738,BOS,1627759,Brown,J. Brown,1,0,0,Made,1,74,75,149,h,Brown Running Alley Oop Layup Shot (20 PTS) (Williams 1 AST),Made Shot,Running Alley Oop Layup Shot,1,2,310
+0022100688,424,PT03M13.00S,3,1610612757,POR,203463,McLemore,B. McLemore,224,109,25,Made,1,74,78,152,v,McLemore 25' 3PT Jump Shot (9 PTS) (Nurkic 4 AST),Made Shot,Jump Shot,1,3,311
+0022100688,426,PT02M51.00S,3,1610612738,BOS,203471,Schröder,D. Schröder,158,194,25,Made,1,77,78,155,h,Schroder 25' 3PT Jump Shot (9 PTS) (Williams 2 AST),Made Shot,Jump Shot,1,3,312
+0022100688,428,PT02M40.00S,3,1610612738,BOS,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,Schroder P.FOUL (P2.T4) (J.Goble),Foul,Personal,1,0,313
+0022100688,430,PT02M40.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,SUB: Watford FOR Nurkic,Substitution,,0,0,314
+0022100688,432,PT02M36.00S,3,1610612757,POR,203463,McLemore,B. McLemore,-148,215,26,Made,1,77,81,158,v,McLemore 26' 3PT Jump Shot (12 PTS) (Watford 2 AST),Made Shot,Jump Shot,1,3,315
+0022100688,435,PT02M15.00S,3,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,SUB: Tatum FOR Brown,Substitution,,0,0,316
+0022100688,436,PT02M15.00S,3,1610612738,BOS,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,h,SUB: Langford FOR Richardson,Substitution,,0,0,317
+0022100688,437,PT02M15.00S,3,1610612738,BOS,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,SUB: Pritchard FOR Schroder,Substitution,,0,0,318
+0022100688,438,PT02M15.00S,3,1610612757,POR,1629014,Simons,A. Simons,0,0,0,,0,,,0,v,SUB: Smith Jr. FOR Simons,Substitution,,0,0,319
+0022100688,443,PT02M08.00S,3,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,Williams Bad Pass Turnover (P2.T8),Turnover,Bad Pass,1,0,320
+0022100688,443,PT02M08.00S,3,1610612757,POR,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. STEAL (2 STL),,,1,0,321
+0022100688,445,PT02M03.00S,3,1610612757,POR,1630570,Watford,T. Watford,0,0,0,,0,,,0,v,Watford Traveling Turnover (P1.T9),Turnover,Traveling,1,0,322
+0022100688,446,PT02M03.00S,3,1610612757,POR,1629604,Elleby,C. Elleby,0,0,0,,0,,,0,v,SUB: McCollum FOR Elleby,Substitution,,0,0,323
+0022100688,448,PT01M42.00S,3,1610612738,BOS,1629684,Williams,G. Williams,-107,42,11,Missed,1,,,0,h,MISS Williams 11' Driving Layup,Missed Shot,Driving Layup Shot,1,2,324
+0022100688,449,PT01M40.00S,3,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,325
+0022100688,450,PT01M28.00S,3,1610612757,POR,203463,McLemore,B. McLemore,0,0,0,,0,,,0,v,McLemore Bad Pass Turnover (P2.T10),Turnover,Bad Pass,1,0,326
+0022100688,450,PT01M28.00S,3,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III STEAL (2 STL),,,1,0,327
+0022100688,452,PT01M23.00S,3,1610612738,BOS,1629641,Langford,R. Langford,31,51,6,Made,1,79,81,160,h,Langford 6' Running Finger Roll Layup (6 PTS) (Williams III 2 AST),Made Shot,Running Finger Roll Layup Shot,1,2,328
+0022100688,454,PT01M04.00S,3,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,Williams S.FOUL (P1.PN) (B.Nansel),Foul,Shooting,1,0,329
+0022100688,456,PT01M04.00S,3,1610612757,POR,1630570,Watford,T. Watford,0,0,0,,0,79,82,161,v,Watford Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,330
+0022100688,457,PT01M04.00S,3,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,SUB: Horford FOR Williams III,Substitution,,0,0,331
+0022100688,459,PT01M04.00S,3,1610612757,POR,1630570,Watford,T. Watford,0,0,0,,0,79,83,162,v,Watford Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,332
+0022100688,460,PT00M41.20S,3,1610612738,BOS,1630202,Pritchard,P. Pritchard,-27,243,24,Missed,1,,,0,h,MISS Pritchard 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,333
+0022100688,461,PT00M38.80S,3,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Rebound,Rebound,Unknown,0,0,334
+0022100688,463,PT00M33.70S,3,1610612757,POR,203468,McCollum,C. McCollum,55,83,10,Missed,1,,,0,v,MISS McCollum 10' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,335
+0022100688,464,PT00M30.50S,3,1610612738,BOS,1630202,Pritchard,P. Pritchard,0,0,0,,0,,,0,h,Pritchard REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,336
+0022100688,465,PT00M12.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,38,64,7,Made,1,81,83,164,h,Tatum 7' Driving Layup (19 PTS),Made Shot,Driving Layup Shot,1,2,337
+0022100688,466,PT00M12.00S,3,1610612757,POR,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. S.FOUL (P3.PN) (B.Nansel),Foul,Shooting,1,0,338
+0022100688,468,PT00M12.00S,3,1610612738,BOS,1630202,Pritchard,P. Pritchard,0,0,0,,0,,,0,h,SUB: Richardson FOR Pritchard,Substitution,,0,0,339
+0022100688,469,PT00M12.00S,3,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,SUB: Brown FOR Horford,Substitution,,0,0,340
+0022100688,472,PT00M12.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,82,83,165,h,Tatum Free Throw 1 of 1 (20 PTS),Free Throw,Free Throw 1 of 1,1,0,341
+0022100688,473,PT00M01.30S,3,1610612757,POR,1628372,Smith Jr.,D. Smith Jr.,-7,37,4,Missed,1,,,0,v,MISS Smith Jr. 4' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,342
+0022100688,474,PT00M01.30S,3,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,343
+0022100688,475,PT00M00.00S,3,0,,0,,,0,0,0,,0,82,83,165,,End of 3rd Period (9:19 PM EST),period,end,1,0,344
+0022100688,482,PT12M00.00S,4,0,,0,,,0,0,0,,0,82,83,165,,Start of 4th Period (9:21 PM EST),period,start,0,0,345
+0022100688,483,PT11M46.00S,4,1610612757,POR,1628372,Smith Jr.,D. Smith Jr.,21,22,3,Missed,1,,,0,v,MISS Smith Jr. 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,346
+0022100688,484,PT11M43.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,347
+0022100688,485,PT11M25.00S,4,1610612738,BOS,1629641,Langford,R. Langford,229,50,0,Made,1,85,83,168,h,Langford 3PT Jump Shot (9 PTS) (Williams 3 AST),Made Shot,Jump Shot,1,3,348
+0022100688,487,PT11M05.00S,4,1610612757,POR,203468,McCollum,C. McCollum,64,201,21,Missed,1,,,0,v,MISS McCollum 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,349
+0022100688,488,PT11M02.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,350
+0022100688,490,PT10M53.00S,4,1610612757,POR,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. S.FOUL (P4.T1) (J.Goble),Foul,Shooting,1,0,351
+0022100688,495,PT10M53.00S,4,0,,490,,,0,0,0,,0,85,83,168,,Instant Replay4th Period (9:24 PM EST),Instant Replay,Support Ruling,0,0,352
+0022100688,496,PT10M53.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,86,83,169,h,Tatum Free Throw 1 of 3 (21 PTS),Free Throw,Free Throw 1 of 3,1,0,353
+0022100688,497,PT10M53.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,87,83,170,h,Tatum Free Throw 2 of 3 (22 PTS),Free Throw,Free Throw 2 of 3,1,0,354
+0022100688,498,PT10M53.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,MISS Tatum Free Throw 3 of 3,Free Throw,Free Throw 3 of 3,1,0,355
+0022100688,499,PT10M53.00S,4,1610612757,POR,203463,McLemore,B. McLemore,0,0,0,,0,,,0,v,McLemore REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,356
+0022100688,500,PT10M39.00S,4,1610612757,POR,203468,McCollum,C. McCollum,-54,134,14,Missed,1,,,0,v,MISS McCollum 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,357
+0022100688,500,PT10M39.00S,4,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,Horford BLOCK (1 BLK),,,1,2,358
+0022100688,502,PT10M36.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,359
+0022100688,503,PT10M30.00S,4,1610612738,BOS,1630202,Pritchard,P. Pritchard,-235,-11,24,Made,1,90,83,173,h,Pritchard 24' 3PT Jump Shot (3 PTS) (Tatum 5 AST),Made Shot,Jump Shot,1,3,360
+0022100688,505,PT10M27.00S,4,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,361
+0022100688,506,PT10M27.00S,4,1610612757,POR,1630570,Watford,T. Watford,0,0,0,,0,,,0,v,SUB: Simons FOR Watford,Substitution,,0,0,362
+0022100688,507,PT10M27.00S,4,1610612757,POR,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,SUB: Nurkic FOR Smith Jr.,Substitution,,0,0,363
+0022100688,508,PT10M27.00S,4,1610612757,POR,1629642,Little,N. Little,0,0,0,,0,,,0,v,SUB: Covington FOR Little,Substitution,,0,0,364
+0022100688,512,PT10M10.00S,4,1610612757,POR,1629014,Simons,A. Simons,-135,239,27,Made,1,90,86,176,v,Simons 27' 3PT Jump Shot (19 PTS) (Nurkic 5 AST),Made Shot,Jump Shot,1,3,365
+0022100688,514,PT09M51.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,20,2,Made,1,92,86,178,h,Tatum 2' Driving Finger Roll Layup (24 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,366
+0022100688,517,PT09M30.00S,4,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,Horford P.FOUL (P4.T1) (B.Nansel),Foul,Personal,1,0,367
+0022100688,519,PT09M21.00S,4,1610612757,POR,1629014,Simons,A. Simons,76,-4,8,Missed,1,,,0,v,MISS Simons 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,368
+0022100688,519,PT09M21.00S,4,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,Horford BLOCK (2 BLK),,,1,2,369
+0022100688,521,PT09M19.00S,4,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Rebound,Rebound,Unknown,0,0,370
+0022100688,523,PT09M17.00S,4,1610612757,POR,203994,Nurkić,J. Nurkić,145,221,26,Made,1,92,89,181,v,Nurkic 26' 3PT Jump Shot (23 PTS) (Simons 3 AST),Made Shot,Jump Shot,1,3,371
+0022100688,525,PT09M01.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,5,87,9,Missed,1,,,0,h,MISS Tatum 9' Driving Layup,Missed Shot,Driving Layup Shot,1,2,372
+0022100688,525,PT09M01.00S,4,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum BLOCK (2 BLK),,,1,2,373
+0022100688,527,PT08M59.00S,4,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Rebound,Rebound,Unknown,0,0,374
+0022100688,529,PT08M53.00S,4,1610612738,BOS,1629641,Langford,R. Langford,230,98,25,Made,1,95,89,184,h,Langford 25' 3PT Pullup Jump Shot (12 PTS) (Tatum 6 AST),Made Shot,Pullup Jump shot,1,3,375
+0022100688,532,PT08M26.00S,4,1610612757,POR,203994,Nurkić,J. Nurkić,-76,75,11,Missed,1,,,0,v,MISS Nurkic 11' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,376
+0022100688,533,PT08M23.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,377
+0022100688,534,PT08M08.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum Lost Ball Turnover (P3.T9),Turnover,Lost Ball,1,0,378
+0022100688,534,PT08M08.00S,4,1610612757,POR,1629014,Simons,A. Simons,0,0,0,,0,,,0,v,Simons STEAL (1 STL),,,1,0,379
+0022100688,536,PT08M06.00S,4,1610612757,POR,203463,McLemore,B. McLemore,0,0,0,,0,,,0,v,McLemore Lost Ball Turnover (P3.T11),Turnover,Lost Ball,1,0,380
+0022100688,536,PT08M06.00S,4,1610612738,BOS,1630202,Pritchard,P. Pritchard,0,0,0,,0,,,0,h,Pritchard STEAL (1 STL),,,1,0,381
+0022100688,539,PT07M58.00S,4,1610612738,BOS,1630202,Pritchard,P. Pritchard,-228,104,25,Made,1,98,89,187,h,Pritchard 25' 3PT Jump Shot (6 PTS) (Horford 3 AST),Made Shot,Jump Shot,1,3,382
+0022100688,541,PT07M38.00S,4,1610612757,POR,203468,McCollum,C. McCollum,134,236,27,Missed,1,,,0,v,MISS McCollum 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,383
+0022100688,542,PT07M34.00S,4,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic REBOUND (Off:4 Def:7),Rebound,Unknown,1,0,384
+0022100688,543,PT07M31.00S,4,1610612757,POR,203496,Covington,R. Covington,-126,236,27,Missed,1,,,0,v,MISS Covington 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,385
+0022100688,544,PT07M28.00S,4,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,386
+0022100688,545,PT07M19.00S,4,1610612738,BOS,1629684,Williams,G. Williams,27,9,3,Made,1,100,89,189,h,Williams 3' Layup (13 PTS) (Tatum 7 AST),Made Shot,Layup Shot,1,2,387
+0022100688,547,PT07M19.00S,4,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,388
+0022100688,548,PT07M19.00S,4,1610612757,POR,203463,McLemore,B. McLemore,0,0,0,,0,,,0,v,SUB: Little FOR McLemore,Substitution,,0,0,389
+0022100688,550,PT07M07.00S,4,1610612757,POR,1629014,Simons,A. Simons,-2,62,6,Missed,1,,,0,v,MISS Simons 6' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,390
+0022100688,551,PT07M05.00S,4,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,Horford REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,391
+0022100688,552,PT06M51.00S,4,1610612738,BOS,1629641,Langford,R. Langford,-131,222,26,Missed,1,,,0,h,MISS Langford 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,392
+0022100688,553,PT06M48.00S,4,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,393
+0022100688,554,PT06M42.00S,4,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum Out of Bounds - Bad Pass Turnover Turnover (P2.T12),Turnover,Out of Bounds - Bad Pass Turnover,1,0,394
+0022100688,557,PT06M25.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum OFF.Foul (P4) (B.Kennedy),Foul,Offensive,1,0,395
+0022100688,559,PT06M25.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum Offensive Foul Turnover (P4.T10),Turnover,Offensive Foul Turnover,1,0,396
+0022100688,560,PT06M12.00S,4,1610612757,POR,1629014,Simons,A. Simons,-65,20,7,Missed,1,,,0,v,MISS Simons 7' Driving Layup,Missed Shot,Driving Layup Shot,1,2,397
+0022100688,560,PT06M12.00S,4,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,Horford BLOCK (3 BLK),,,1,2,398
+0022100688,562,PT06M09.00S,4,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,399
+0022100688,563,PT06M05.00S,4,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,Jump Ball Williams vs. Covington: Tip to Pritchard,Jump Ball,,1,0,400
+0022100688,566,PT05M52.00S,4,1610612738,BOS,1629641,Langford,R. Langford,0,0,0,,0,,,0,h,Langford Step Out of Bounds Turnover (P1.T11),Turnover,Step Out of Bounds Turnover,1,0,401
+0022100688,567,PT05M32.00S,4,1610612757,POR,203468,McCollum,C. McCollum,227,105,25,Made,1,100,92,192,v,McCollum 25' 3PT Jump Shot (22 PTS) (Nurkic 6 AST),Made Shot,Jump Shot,1,3,402
+0022100688,569,PT05M12.00S,4,1610612738,BOS,1629684,Williams,G. Williams,-234,-13,0,Missed,1,,,0,h,MISS Williams 3PT Jump Shot,Missed Shot,Jump Shot,1,3,403
+0022100688,570,PT05M09.00S,4,1610612757,POR,1629014,Simons,A. Simons,0,0,0,,0,,,0,v,Simons REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,404
+0022100688,571,PT05M00.00S,4,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,Williams P.FOUL (P2.T2) (B.Nansel),Foul,Personal,1,0,405
+0022100688,573,PT05M00.00S,4,1610612738,BOS,1630202,Pritchard,P. Pritchard,0,0,0,,0,,,0,h,SUB: Brown FOR Pritchard,Substitution,,0,0,406
+0022100688,575,PT05M00.00S,4,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,407
+0022100688,576,PT04M54.00S,4,1610612757,POR,203468,McCollum,C. McCollum,-2,176,18,Made,1,100,94,194,v,McCollum 18' Pullup Jump Shot (24 PTS),Made Shot,Pullup Jump shot,1,2,408
+0022100688,578,PT04M37.00S,4,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum P.FOUL (P3.T2) (B.Kennedy),Foul,Personal,1,0,409
+0022100688,581,PT04M27.00S,4,1610612738,BOS,1627759,Brown,J. Brown,205,224,30,Missed,1,,,0,h,MISS Brown 30' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,410
+0022100688,582,PT04M24.00S,4,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic REBOUND (Off:4 Def:8),Rebound,Unknown,1,0,411
+0022100688,583,PT04M10.00S,4,1610612738,BOS,1629641,Langford,R. Langford,0,0,0,,0,,,0,h,Langford P.FOUL (P1.T3) (B.Nansel),Foul,Personal,1,0,412
+0022100688,585,PT04M10.00S,4,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,SUB: Williams III FOR Horford,Substitution,,0,0,413
+0022100688,587,PT03M59.00S,4,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic Offensive Charge Foul (P3) (B.Nansel),Foul,Offensive Charge,1,0,414
+0022100688,589,PT03M59.00S,4,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic Offensive Foul Turnover (P5.T13),Turnover,Offensive Foul Turnover,1,0,415
+0022100688,590,PT03M36.00S,4,1610612738,BOS,1627759,Brown,J. Brown,-202,168,26,Missed,1,,,0,h,MISS Brown 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,416
+0022100688,591,PT03M34.00S,4,1610612757,POR,1629642,Little,N. Little,0,0,0,,0,,,0,v,Little REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,417
+0022100688,592,PT03M29.00S,4,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III P.FOUL (P4.T4) (J.Goble),Foul,Personal,1,0,418
+0022100688,594,PT03M29.00S,4,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,419
+0022100688,595,PT03M29.00S,4,0,,592,,,0,0,0,,0,100,94,194,,Instant Replay4th Period (9:46 PM EST),Instant Replay,Coach Challenge Ruling Stands,1,0,420
+0022100688,596,PT03M14.00S,4,1610612757,POR,1629014,Simons,A. Simons,-20,28,3,Made,1,100,96,196,v,Simons 3' Driving Finger Roll Layup (21 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,421
+0022100688,597,PT02M48.00S,4,1610612738,BOS,1627759,Brown,J. Brown,55,126,14,Missed,1,,,0,h,MISS Brown 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,422
+0022100688,597,PT02M48.00S,4,1610612757,POR,203496,Covington,R. Covington,0,0,0,,0,,,0,v,Covington BLOCK (1 BLK),,,1,2,423
+0022100688,599,PT02M45.00S,4,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic REBOUND (Off:4 Def:9),Rebound,Unknown,1,0,424
+0022100688,600,PT02M40.00S,4,1610612757,POR,1629642,Little,N. Little,112,248,27,Missed,1,,,0,v,MISS Little 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,425
+0022100688,601,PT02M37.00S,4,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic REBOUND (Off:5 Def:9),Rebound,Unknown,1,0,426
+0022100688,602,PT02M29.00S,4,1610612757,POR,203994,Nurkić,J. Nurkić,-22,13,3,Made,1,100,98,198,v,Nurkic 3' Reverse Layup (25 PTS) (McCollum 3 AST),Made Shot,Reverse Layup Shot,1,2,427
+0022100688,604,PT02M06.00S,4,1610612738,BOS,1627759,Brown,J. Brown,31,45,5,Missed,1,,,0,h,MISS Brown 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,428
+0022100688,605,PT02M03.00S,4,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic REBOUND (Off:5 Def:10),Rebound,Unknown,1,0,429
+0022100688,606,PT02M01.00S,4,1610612757,POR,1629014,Simons,A. Simons,43,4,4,Missed,1,,,0,v,MISS Simons 4' Running Layup,Missed Shot,Running Layup Shot,1,2,430
+0022100688,606,PT02M01.00S,4,1610612738,BOS,1629641,Langford,R. Langford,0,0,0,,0,,,0,h,Langford BLOCK (2 BLK),,,1,2,431
+0022100688,608,PT01M59.00S,4,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,432
+0022100688,609,PT01M59.00S,4,1610612757,POR,1629642,Little,N. Little,0,0,0,,0,,,0,v,Little P.FOUL (P2.T3) (B.Kennedy),Foul,Personal,1,0,433
+0022100688,611,PT01M45.00S,4,1610612738,BOS,1629684,Williams,G. Williams,234,34,24,Missed,1,,,0,h,MISS Williams 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,434
+0022100688,612,PT01M42.00S,4,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III REBOUND (Off:5 Def:3),Rebound,Unknown,1,0,435
+0022100688,613,PT01M42.00S,4,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III Bad Pass Turnover (P3.T12),Turnover,Bad Pass,1,0,436
+0022100688,613,PT01M42.00S,4,1610612757,POR,1629014,Simons,A. Simons,0,0,0,,0,,,0,v,Simons STEAL (2 STL),,,1,0,437
+0022100688,615,PT01M37.00S,4,1610612757,POR,1629642,Little,N. Little,6,15,2,Made,1,100,100,200,v,Little 2' Running Dunk (7 PTS) (Simons 4 AST),Made Shot,Running Dunk Shot,1,2,438
+0022100688,617,PT01M18.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,-42,98,11,Missed,1,,,0,h,MISS Tatum 11' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,439
+0022100688,618,PT01M14.00S,4,1610612757,POR,203496,Covington,R. Covington,0,0,0,,0,,,0,v,Covington REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,440
+0022100688,619,PT00M55.70S,4,1610612757,POR,1629014,Simons,A. Simons,132,236,27,Missed,1,,,0,v,MISS Simons 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,441
+0022100688,620,PT00M53.30S,4,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III REBOUND (Off:5 Def:4),Rebound,Unknown,1,0,442
+0022100688,621,PT00M41.50S,4,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,v,McCollum P.FOUL (P4.PN) (B.Nansel),Foul,Personal,1,0,443
+0022100688,623,PT00M41.50S,4,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,101,100,201,h,Brown Free Throw 1 of 2 (21 PTS),Free Throw,Free Throw 1 of 2,1,0,444
+0022100688,624,PT00M41.50S,4,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,102,100,202,h,Brown Free Throw 2 of 2 (22 PTS),Free Throw,Free Throw 2 of 2,1,0,445
+0022100688,625,PT00M41.50S,4,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,446
+0022100688,627,PT00M32.10S,4,1610612757,POR,203496,Covington,R. Covington,-240,34,24,Made,1,102,103,205,v,Covington 24' 3PT Jump Shot (3 PTS) (McCollum 4 AST),Made Shot,Jump Shot,1,3,447
+0022100688,629,PT00M28.00S,4,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,448
+0022100688,630,PT00M28.00S,4,1610612738,BOS,1629641,Langford,R. Langford,0,0,0,,0,,,0,h,SUB: Schroder FOR Langford,Substitution,,0,0,449
+0022100688,632,PT00M26.80S,4,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic P.FOUL (P4.PN) (B.Kennedy),Foul,Personal,1,0,450
+0022100688,634,PT00M26.80S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,103,103,206,h,Tatum Free Throw 1 of 2 (25 PTS),Free Throw,Free Throw 1 of 2,1,0,451
+0022100688,635,PT00M26.80S,4,1610612738,BOS,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,SUB: Langford FOR Schroder,Substitution,,0,0,452
+0022100688,637,PT00M26.80S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,104,103,207,h,Tatum Free Throw 2 of 2 (26 PTS),Free Throw,Free Throw 2 of 2,1,0,453
+0022100688,638,PT00M26.80S,4,0,,1610612757,,,0,0,0,,0,,,0,v,Trail Blazers Timeout: Regular (Reg.7 Short 0),Timeout,Regular,0,0,454
+0022100688,639,PT00M16.60S,4,1610612757,POR,1629014,Simons,A. Simons,34,167,17,Missed,1,,,0,v,MISS Simons 17' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,455
+0022100688,640,PT00M13.80S,4,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic REBOUND (Off:6 Def:10),Rebound,Unknown,1,0,456
+0022100688,641,PT00M13.10S,4,1610612757,POR,203994,Nurkić,J. Nurkić,-4,70,7,Made,1,104,105,209,v,Nurkic 7' Hook Shot (27 PTS),Made Shot,Hook Shot,1,2,457
+0022100688,642,PT00M13.10S,4,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Timeout: Regular (Full 7 Short 0),Timeout,Regular,0,0,458
+0022100688,643,PT00M13.10S,4,1610612738,BOS,1629641,Langford,R. Langford,0,0,0,,0,,,0,h,SUB: Schroder FOR Langford,Substitution,,0,0,459
+0022100688,645,PT00M06.70S,4,1610612738,BOS,1628369,Tatum,J. Tatum,217,145,26,Missed,1,,,0,h,MISS Tatum 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,460
+0022100688,646,PT00M04.50S,4,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III REBOUND (Off:6 Def:4),Rebound,Unknown,1,0,461
+0022100688,647,PT00M04.50S,4,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,Missed,1,,,0,h,MISS Williams III Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,462
+0022100688,648,PT00M03.60S,4,1610612757,POR,203496,Covington,R. Covington,0,0,0,,0,,,0,v,Covington REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,463
+0022100688,650,PT00M03.50S,4,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,Williams Personal Take Foul (P3.PN) (B.Kennedy),Foul,Personal Take,1,0,464
+0022100688,652,PT00M03.50S,4,1610612757,POR,203496,Covington,R. Covington,0,0,0,,0,104,106,210,v,Covington Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,465
+0022100688,653,PT00M03.50S,4,1610612757,POR,203496,Covington,R. Covington,0,0,0,,0,104,107,211,v,Covington Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,466
+0022100688,654,PT00M02.60S,4,1610612757,POR,203496,Covington,R. Covington,0,0,0,,0,,,0,v,Covington Personal Take Foul (P4.PN) (J.Goble),Foul,Personal Take,1,0,467
+0022100688,656,PT00M02.60S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,105,107,212,h,Tatum Free Throw 1 of 2 (27 PTS),Free Throw,Free Throw 1 of 2,1,0,468
+0022100688,657,PT00M02.60S,4,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,SUB: Freedom FOR Williams,Substitution,,0,0,469
+0022100688,658,PT00M02.60S,4,1610612738,BOS,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,SUB: Horford FOR Schroder,Substitution,,0,0,470
+0022100688,661,PT00M02.60S,4,1610612757,POR,1629642,Little,N. Little,0,0,0,,0,,,0,v,SUB: Watford FOR Little,Substitution,,0,0,471
+0022100688,663,PT00M02.60S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,MISS Tatum Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,472
+0022100688,664,PT00M00.80S,4,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,v,Nurkic REBOUND (Off:6 Def:11),Rebound,Unknown,1,0,473
+0022100688,665,PT00M00.80S,4,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III Personal Take Foul (P5.PN) (B.Kennedy),Foul,Personal Take,1,0,474
+0022100688,667,PT00M00.80S,4,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,105,108,213,v,Nurkic Free Throw 1 of 2 (28 PTS),Free Throw,Free Throw 1 of 2,1,0,475
+0022100688,668,PT00M00.80S,4,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,105,109,214,v,Nurkic Free Throw 2 of 2 (29 PTS),Free Throw,Free Throw 2 of 2,1,0,476
+0022100688,669,PT00M00.00S,4,0,,0,,,0,0,0,,0,105,109,214,,End of 4th Period (10:06 PM EST),period,end,1,0,477

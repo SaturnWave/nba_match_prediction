@@ -1,0 +1,495 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022000697,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (8:41 PM EST),period,start,0,0,1
+0022000697,4,PT12M00.00S,1,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Jump Ball Poeltl vs. Vucevic: Tip to Murray,Jump Ball,,1,0,2
+0022000697,7,PT11M42.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,-101,25,10,Missed,1,,,0,h,MISS DeRozan 10' Jump Shot,Missed Shot,Jump Shot,1,2,3
+0022000697,8,PT11M39.00S,1,1610612741,CHI,1630172,Williams,P. Williams,0,0,0,,0,,,0,v,Williams REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,4
+0022000697,9,PT11M26.00S,1,1610612741,CHI,202696,Vučević,N. Vučević,81,20,8,Made,1,0,2,2,v,Vucevic 8' Turnaround Hook Shot (2 PTS),Made Shot,Turnaround Hook Shot,1,2,5
+0022000697,10,PT11M08.00S,1,1610612759,SAS,1627749,Murray,D. Murray,9,122,12,Made,1,2,2,4,h,Murray 12' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,6
+0022000697,11,PT10M46.00S,1,1610612741,CHI,203107,Satoransky,T. Satoransky,149,210,26,Made,1,2,5,7,v,Satoransky 26' 3PT Jump Shot (3 PTS) (Vucevic 1 AST),Made Shot,Jump Shot,1,3,7
+0022000697,13,PT10M32.00S,1,1610612759,SAS,1628401,White,D. White,126,240,27,Made,1,5,5,10,h,White 27' 3PT Jump Shot (3 PTS) (Murray 1 AST),Made Shot,Jump Shot,1,3,8
+0022000697,15,PT10M13.00S,1,1610612741,CHI,1630172,Williams,P. Williams,-22,4,2,Made,1,5,7,12,v,Williams 2' Driving Finger Roll Layup (2 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,9
+0022000697,16,PT10M00.00S,1,1610612759,SAS,1629640,Johnson,K. Johnson,65,31,7,Made,1,7,7,14,h,Johnson 7' Driving Floating Bank Jump Shot (2 PTS) (DeRozan 1 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,10
+0022000697,17,PT09M50.00S,1,1610612741,CHI,202696,Vučević,N. Vučević,-131,236,27,Missed,1,,,0,v,MISS Vucevic 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,11
+0022000697,18,PT09M50.00S,1,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,12
+0022000697,19,PT09M35.00S,1,1610612759,SAS,1627749,Murray,D. Murray,-135,47,14,Made,1,9,7,16,h,Murray 14' Pullup Jump Shot (4 PTS),Made Shot,Pullup Jump shot,1,2,13
+0022000697,20,PT09M20.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,147,211,26,Missed,1,,,0,v,MISS LaVine 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,14
+0022000697,21,PT09M17.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,DeRozan REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,15
+0022000697,22,PT09M10.00S,1,1610612759,SAS,1628401,White,D. White,-9,14,2,Made,1,11,7,18,h,White 2' Driving Finger Roll Layup (5 PTS) (DeRozan 2 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,16
+0022000697,24,PT09M10.00S,1,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,17
+0022000697,26,PT08M54.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,-93,47,10,Missed,1,,,0,v,MISS LaVine 10' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,18
+0022000697,27,PT08M51.00S,1,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,h,Murray REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,19
+0022000697,28,PT08M43.00S,1,1610612759,SAS,1627751,Poeltl,J. Poeltl,58,47,7,Made,1,13,7,20,h,Poeltl 7' Jump Bank Shot (2 PTS) (Murray 2 AST),Made Shot,Jump Bank Shot,1,2,20
+0022000697,30,PT08M27.00S,1,1610612741,CHI,202696,Vučević,N. Vučević,-24,8,3,Made,1,13,9,22,v,Vucevic 3' Cutting Layup Shot (4 PTS) (Satoransky 1 AST),Made Shot,Cutting Layup Shot,1,2,21
+0022000697,32,PT08M13.00S,1,1610612759,SAS,1628401,White,D. White,68,248,26,Missed,1,,,0,h,MISS White 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,22
+0022000697,33,PT08M08.00S,1,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,v,Markkanen REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,23
+0022000697,34,PT08M01.00S,1,1610612741,CHI,1630172,Williams,P. Williams,0,0,0,,0,,,0,v,Williams Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,24
+0022000697,34,PT08M01.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,DeRozan STEAL (1 STL),,,1,0,25
+0022000697,36,PT07M55.00S,1,1610612759,SAS,1629640,Johnson,K. Johnson,18,11,2,Missed,1,,,0,h,MISS Johnson 2' Cutting Finger Roll Layup Shot,Missed Shot,Cutting Finger Roll Layup Shot,1,2,26
+0022000697,37,PT07M53.00S,1,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,27
+0022000697,38,PT07M50.00S,1,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,Satoransky OFF.Foul (P1) (B.Forte),Foul,Offensive,1,0,28
+0022000697,40,PT07M50.00S,1,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,Satoransky Offensive Foul Turnover (P1.T2),Turnover,Offensive Foul Turnover,1,0,29
+0022000697,41,PT07M39.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,-105,146,18,Missed,1,,,0,h,MISS DeRozan 18' Jump Shot,Missed Shot,Jump Shot,1,2,30
+0022000697,42,PT07M35.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,v,LaVine REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,31
+0022000697,43,PT07M28.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,v,LaVine Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,32
+0022000697,43,PT07M28.00S,1,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,h,Murray STEAL (1 STL),,,1,0,33
+0022000697,45,PT07M23.00S,1,1610612759,SAS,1627751,Poeltl,J. Poeltl,18,3,2,Made,1,15,9,24,h,Poeltl 2' Cutting Finger Roll Layup Shot (4 PTS) (Murray 3 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,34
+0022000697,47,PT06M54.00S,1,1610612741,CHI,203107,Satoransky,T. Satoransky,-206,15,21,Missed,1,,,0,v,MISS Satoransky 21' Jump Shot,Missed Shot,Jump Shot,1,2,35
+0022000697,48,PT06M52.00S,1,1610612759,SAS,1628401,White,D. White,0,0,0,,0,,,0,h,White REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,36
+0022000697,49,PT06M52.00S,1,1610612759,SAS,1628401,White,D. White,0,0,0,,0,,,0,h,White Out of Bounds - Bad Pass Turnover Turnover (P1.T1),Turnover,Out of Bounds - Bad Pass Turnover,1,0,37
+0022000697,50,PT06M44.00S,1,1610612741,CHI,1628374,Markkanen,L. Markkanen,231,25,0,Missed,1,,,0,v,MISS Markkanen 3PT Jump Shot,Missed Shot,Jump Shot,1,3,38
+0022000697,51,PT06M42.00S,1,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Rebound,Rebound,Unknown,0,0,39
+0022000697,53,PT06M36.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,-34,206,21,Missed,1,,,0,v,MISS LaVine 21' Jump Shot,Missed Shot,Jump Shot,1,2,40
+0022000697,54,PT06M31.00S,1,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,h,Murray REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,41
+0022000697,55,PT06M24.00S,1,1610612759,SAS,1627749,Murray,D. Murray,-9,89,9,Made,1,17,9,26,h,Murray 9' Turnaround Jump Shot (6 PTS),Made Shot,Turnaround Jump Shot,1,2,42
+0022000697,56,PT06M08.00S,1,1610612741,CHI,1630172,Williams,P. Williams,199,167,26,Missed,1,,,0,v,MISS Williams 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,43
+0022000697,57,PT06M08.00S,1,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,44
+0022000697,58,PT05M45.00S,1,1610612759,SAS,1629640,Johnson,K. Johnson,-10,1,1,Missed,1,,,0,h,MISS Johnson 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,45
+0022000697,59,PT05M43.00S,1,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Unknown,0,0,46
+0022000697,61,PT05M43.00S,1,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,h,SUB: Mills FOR Murray,Substitution,,0,0,47
+0022000697,62,PT05M43.00S,1,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,v,SUB: Aminu FOR Markkanen,Substitution,,0,0,48
+0022000697,63,PT05M43.00S,1,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,SUB: White FOR Satoransky,Substitution,,0,0,49
+0022000697,67,PT05M35.00S,1,1610612759,SAS,1627751,Poeltl,J. Poeltl,20,21,3,Made,1,19,9,28,h,Poeltl 3' Finger Roll Layup (6 PTS) (White 1 AST),Made Shot,Finger Roll Layup Shot,1,2,50
+0022000697,69,PT05M14.00S,1,1610612759,SAS,201988,Mills,P. Mills,0,0,0,,0,,,0,h,Mills P.FOUL (P1.T1) (B.Forte),Foul,Personal,1,0,51
+0022000697,71,PT05M03.00S,1,1610612741,CHI,1629632,White,C. White,-25,17,3,Made,1,19,11,30,v,White 3' Driving Finger Roll Layup (2 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,52
+0022000697,72,PT04M42.00S,1,1610612759,SAS,1629640,Johnson,K. Johnson,-233,69,24,Missed,1,,,0,h,MISS Johnson 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,53
+0022000697,73,PT04M38.00S,1,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,54
+0022000697,74,PT04M35.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,v,LaVine Bad Pass Turnover (P2.T4),Turnover,Bad Pass,1,0,55
+0022000697,74,PT04M35.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,DeRozan STEAL (2 STL),,,1,0,56
+0022000697,76,PT04M22.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,-68,62,9,Made,1,21,11,32,h,DeRozan 9' Turnaround Fadeaway Bank Jump Shot (2 PTS),Made Shot,Turnaround Fadeaway Bank Jump Shot,1,2,57
+0022000697,77,PT04M05.00S,1,1610612741,CHI,1630172,Williams,P. Williams,21,112,11,Missed,1,,,0,v,MISS Williams 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,58
+0022000697,78,PT04M05.00S,1,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,59
+0022000697,79,PT03M57.00S,1,1610612759,SAS,1629640,Johnson,K. Johnson,-21,5,2,Made,1,23,11,34,h,Johnson 2' Running Finger Roll Layup (4 PTS),Made Shot,Running Finger Roll Layup Shot,1,2,60
+0022000697,80,PT03M41.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,16,6,2,Made,1,23,13,36,v,LaVine 2' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,61
+0022000697,81,PT03M40.00S,1,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,62
+0022000697,82,PT03M40.00S,1,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,SUB: Eubanks FOR Johnson,Substitution,,0,0,63
+0022000697,83,PT03M40.00S,1,1610612759,SAS,1628401,White,D. White,0,0,0,,0,,,0,h,SUB: Gay FOR White,Substitution,,0,0,64
+0022000697,84,PT03M40.00S,1,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,SUB: Vassell FOR Poeltl,Substitution,,0,0,65
+0022000697,85,PT03M40.00S,1,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,SUB: Young FOR Vucevic,Substitution,,0,0,66
+0022000697,86,PT03M40.00S,1,1610612741,CHI,1630172,Williams,P. Williams,0,0,0,,0,,,0,v,SUB: Temple FOR Williams,Substitution,,0,0,67
+0022000697,92,PT03M27.00S,1,1610612759,SAS,201988,Mills,P. Mills,-147,211,26,Made,1,26,13,39,h,Mills 26' 3PT Jump Shot (3 PTS) (DeRozan 3 AST),Made Shot,Jump Shot,1,3,68
+0022000697,94,PT03M06.00S,1,1610612741,CHI,202329,Aminu,A. Aminu,0,0,0,,0,,,0,v,Aminu Lost Ball Turnover (P1.T5),Turnover,Lost Ball,1,0,69
+0022000697,94,PT03M06.00S,1,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,,,0,h,Eubanks STEAL (1 STL),,,1,0,70
+0022000697,96,PT03M01.00S,1,1610612759,SAS,201988,Mills,P. Mills,141,226,27,Missed,1,,,0,h,MISS Mills 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,71
+0022000697,97,PT02M57.00S,1,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,v,White REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,72
+0022000697,98,PT02M52.00S,1,1610612741,CHI,1629632,White,C. White,96,252,27,Made,1,26,16,42,v,White 27' 3PT Step Back Jump Shot (5 PTS) (LaVine 1 AST),Made Shot,Step Back Jump shot,1,3,73
+0022000697,100,PT02M35.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,67,84,11,Made,1,28,16,44,h,DeRozan 11' Driving Floating Jump Shot (4 PTS),Made Shot,Driving Floating Jump Shot,1,2,74
+0022000697,101,PT02M18.00S,1,1610612741,CHI,201152,Young,T. Young,-19,22,3,Made,1,28,18,46,v,Young 3' Layup (2 PTS) (White 1 AST),Made Shot,Layup Shot,1,2,75
+0022000697,103,PT02M00.00S,1,1610612759,SAS,200752,Gay,R. Gay,-237,4,24,Missed,1,,,0,h,MISS Gay 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,76
+0022000697,104,PT01M58.00S,1,1610612741,CHI,202066,Temple,G. Temple,0,0,0,,0,,,0,v,Temple REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,77
+0022000697,105,PT01M53.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,-20,16,3,Made,1,28,20,48,v,LaVine 3' Driving Layup (4 PTS) (Temple 1 AST),Made Shot,Driving Layup Shot,1,2,78
+0022000697,107,PT01M35.00S,1,1610612741,CHI,202066,Temple,G. Temple,0,0,0,,0,,,0,v,Temple P.FOUL (P1.T1) (J.Tiven),Foul,Personal,1,0,79
+0022000697,109,PT01M35.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,v,SUB: Valentine FOR LaVine,Substitution,,0,0,80
+0022000697,111,PT01M27.00S,1,1610612759,SAS,201988,Mills,P. Mills,-147,-8,15,Made,1,30,20,50,h,Mills 15' Pullup Jump Shot (5 PTS),Made Shot,Pullup Jump shot,1,2,81
+0022000697,112,PT01M14.00S,1,1610612741,CHI,202066,Temple,G. Temple,140,218,26,Missed,1,,,0,v,MISS Temple 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,82
+0022000697,113,PT01M10.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,DeRozan REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,83
+0022000697,114,PT01M03.00S,1,1610612741,CHI,1627756,Valentine,D. Valentine,0,0,0,,0,,,0,v,Valentine S.FOUL (P1.PN) (B.Forte),Foul,Shooting,1,0,84
+0022000697,116,PT01M03.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,MISS DeRozan Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,85
+0022000697,117,PT01M03.00S,1,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Normal Rebound,0,0,86
+0022000697,118,PT01M03.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,31,20,51,h,DeRozan Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,87
+0022000697,119,PT00M52.40S,1,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,v,White Lost Ball Turnover (P1.T6),Turnover,Lost Ball,1,0,88
+0022000697,119,PT00M52.40S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,DeRozan STEAL (3 STL),,,1,0,89
+0022000697,121,PT00M40.90S,1,1610612759,SAS,1629234,Eubanks,D. Eubanks,-13,16,2,Made,1,33,20,53,h,Eubanks 2' Finger Roll Layup (2 PTS) (DeRozan 4 AST),Made Shot,Finger Roll Layup Shot,1,2,90
+0022000697,123,PT00M32.00S,1,1610612741,CHI,1627756,Valentine,D. Valentine,-235,16,24,Missed,1,,,0,v,MISS Valentine 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,91
+0022000697,124,PT00M32.00S,1,1610612741,CHI,201152,Young,T. Young,0,0,0,,0,,,0,v,Young REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,92
+0022000697,125,PT00M27.40S,1,1610612741,CHI,201152,Young,T. Young,-24,37,4,Missed,1,,,0,v,MISS Young 4' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,93
+0022000697,126,PT00M25.30S,1,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,h,Gay REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,94
+0022000697,127,PT00M04.70S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,-90,64,11,Missed,1,,,0,h,MISS DeRozan 11' Jump Shot,Missed Shot,Jump Shot,1,2,95
+0022000697,128,PT00M01.80S,1,1610612741,CHI,201152,Young,T. Young,0,0,0,,0,,,0,v,Young REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,96
+0022000697,129,PT00M00.00S,1,1610612741,CHI,1629632,White,C. White,172,291,34,Missed,1,,,0,v,MISS White 34' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,97
+0022000697,130,PT00M00.00S,1,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Rebound,Rebound,Unknown,0,0,98
+0022000697,131,PT00M00.00S,1,0,,0,,,0,0,0,,0,33,20,53,,End of 1st Period (9:02 PM EST),period,end,1,0,99
+0022000697,136,PT12M00.00S,2,0,,0,,,0,0,0,,0,33,20,53,,Start of 2nd Period (9:04 PM EST),period,start,0,0,100
+0022000697,137,PT11M42.00S,2,1610612741,CHI,1627756,Valentine,D. Valentine,-30,13,3,Made,1,33,22,55,v,Valentine 3' Cutting Finger Roll Layup Shot (2 PTS) (Young 1 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,101
+0022000697,139,PT11M29.00S,2,1610612759,SAS,200752,Gay,R. Gay,131,96,16,Made,1,35,22,57,h,Gay 16' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,102
+0022000697,140,PT11M12.00S,2,1610612741,CHI,1629632,White,C. White,-95,80,12,Missed,1,,,0,v,MISS White 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,103
+0022000697,140,PT11M12.00S,2,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,h,Vassell BLOCK (1 BLK),,,1,2,104
+0022000697,142,PT11M07.00S,2,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,h,Gay REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,105
+0022000697,143,PT11M01.00S,2,1610612759,SAS,200752,Gay,R. Gay,-15,158,16,Missed,1,,,0,h,MISS Gay 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,106
+0022000697,144,PT10M57.00S,2,1610612741,CHI,201152,Young,T. Young,0,0,0,,0,,,0,v,Young REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,107
+0022000697,145,PT10M53.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,-182,193,27,Missed,1,,,0,v,MISS Markkanen 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,108
+0022000697,146,PT10M50.00S,2,1610612741,CHI,202066,Temple,G. Temple,0,0,0,,0,,,0,v,Temple REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,109
+0022000697,147,PT10M40.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,-8,22,2,Missed,1,,,0,v,MISS Markkanen 2' Driving Dunk,Missed Shot,Driving Dunk Shot,1,2,110
+0022000697,148,PT10M37.00S,2,1610612741,CHI,1627756,Valentine,D. Valentine,0,0,0,,0,,,0,v,Valentine REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,111
+0022000697,149,PT10M36.00S,2,1610612741,CHI,1627756,Valentine,D. Valentine,47,3,5,Missed,1,,,0,v,MISS Valentine 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,112
+0022000697,150,PT10M32.00S,2,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,,,0,h,Eubanks REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,113
+0022000697,151,PT10M27.00S,2,1610612759,SAS,201988,Mills,P. Mills,231,31,0,Made,1,38,22,60,h,Mills 3PT Jump Shot (8 PTS) (Gay 1 AST),Made Shot,Jump Shot,1,3,114
+0022000697,153,PT10M26.00S,2,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,115
+0022000697,154,PT10M26.00S,2,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,v,SUB: Satoransky FOR White,Substitution,,0,0,116
+0022000697,156,PT10M13.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,-18,265,27,Missed,1,,,0,v,MISS Markkanen 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,117
+0022000697,157,PT10M09.00S,2,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,Satoransky REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,118
+0022000697,158,PT10M03.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,-7,25,3,Made,1,38,24,62,v,Markkanen 3' Cutting Dunk Shot (2 PTS) (Young 2 AST),Made Shot,Cutting Dunk Shot,1,2,119
+0022000697,160,PT09M50.00S,2,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,h,Gay Lost Ball Turnover (P1.T2),Turnover,Lost Ball,1,0,120
+0022000697,160,PT09M50.00S,2,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,Satoransky STEAL (1 STL),,,1,0,121
+0022000697,162,PT09M45.00S,2,1610612741,CHI,201152,Young,T. Young,13,14,2,Missed,1,,,0,v,MISS Young 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,122
+0022000697,163,PT09M43.00S,2,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,,,0,h,Eubanks REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,123
+0022000697,164,PT09M35.00S,2,1610612759,SAS,1630170,Vassell,D. Vassell,16,109,11,Made,1,40,24,64,h,Vassell 11' Turnaround Jump Shot (2 PTS) (Gay 2 AST),Made Shot,Turnaround Jump Shot,1,2,124
+0022000697,166,PT09M23.00S,2,1610612741,CHI,203107,Satoransky,T. Satoransky,15,20,3,Made,1,40,26,66,v,Satoransky 3' Driving Finger Roll Layup (5 PTS) (Young 3 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,125
+0022000697,168,PT09M23.00S,2,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,h,Gay S.FOUL (P1.T1) (D.Richardson),Foul,Shooting,1,0,126
+0022000697,170,PT09M23.00S,2,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,40,27,67,v,Satoransky Free Throw 1 of 1 (6 PTS),Free Throw,Free Throw 1 of 1,1,0,127
+0022000697,171,PT09M11.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,v,Markkanen S.FOUL (P1.T1) (D.Richardson),Foul,Shooting,1,0,128
+0022000697,173,PT09M11.00S,2,1610612759,SAS,201988,Mills,P. Mills,0,0,0,,0,41,27,68,h,Mills Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,129
+0022000697,174,PT09M11.00S,2,1610612759,SAS,201988,Mills,P. Mills,0,0,0,,0,42,27,69,h,Mills Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,130
+0022000697,179,PT09M11.00S,2,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,h,SUB: White FOR Vassell,Substitution,,0,0,131
+0022000697,175,PT09M04.00S,2,1610612741,CHI,1627756,Valentine,D. Valentine,192,197,28,Missed,1,,,0,v,MISS Valentine 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,132
+0022000697,176,PT09M00.00S,2,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,h,Gay REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,133
+0022000697,177,PT08M50.00S,2,1610612759,SAS,1628401,White,D. White,-38,48,6,Missed,1,,,0,h,MISS White 6' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,134
+0022000697,178,PT08M46.00S,2,1610612741,CHI,1627756,Valentine,D. Valentine,0,0,0,,0,,,0,v,Valentine REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,135
+0022000697,181,PT08M31.00S,2,1610612741,CHI,203107,Satoransky,T. Satoransky,-17,23,3,Missed,1,,,0,v,MISS Satoransky 3' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,136
+0022000697,182,PT08M28.00S,2,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,,,0,h,Eubanks REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,137
+0022000697,183,PT08M12.00S,2,1610612759,SAS,1627749,Murray,D. Murray,111,117,16,Made,1,44,27,71,h,Murray 16' Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,2,138
+0022000697,232,PT07M47.00S,2,1610612741,CHI,1627756,Valentine,D. Valentine,-33,47,6,Missed,1,,,0,v,MISS Valentine 6' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,139
+0022000697,232,PT07M47.00S,2,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,h,Gay BLOCK (1 BLK),,,1,2,140
+0022000697,234,PT07M47.00S,2,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Unknown,0,0,141
+0022000697,186,PT07M47.00S,2,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,142
+0022000697,187,PT07M47.00S,2,0,,184,Phills,B. Phills,0,0,0,,0,44,27,71,,Instant Replay2nd Period (9:13 PM EST),Instant Replay,Coach Challenge Overturn Ruling,1,0,143
+0022000697,188,PT07M47.00S,2,1610612741,CHI,201152,Young,T. Young,0,0,0,,0,,,0,v,SUB: Vucevic FOR Young,Substitution,,0,0,144
+0022000697,190,PT07M47.00S,2,1610612741,CHI,1627756,Valentine,D. Valentine,0,0,0,,0,,,0,v,SUB: Williams FOR Valentine,Substitution,,0,0,145
+0022000697,192,PT07M35.00S,2,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,,,0,h,Jump Ball Eubanks vs. Markkanen: Tip to Murray,Jump Ball,,1,0,146
+0022000697,197,PT07M33.00S,2,1610612759,SAS,1628401,White,D. White,-114,234,26,Missed,1,,,0,h,MISS White 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,147
+0022000697,198,PT07M32.00S,2,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,,,0,h,Eubanks REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,148
+0022000697,199,PT07M26.00S,2,1610612759,SAS,1629234,Eubanks,D. Eubanks,5,20,2,Made,1,46,27,73,h,Eubanks 2' Dunk (4 PTS) (White 2 AST),Made Shot,Dunk Shot,1,2,149
+0022000697,202,PT07M13.00S,2,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,,,0,h,SUB: Poeltl FOR Eubanks,Substitution,,0,0,150
+0022000697,203,PT07M13.00S,2,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,SUB: LaVine FOR Satoransky,Substitution,,0,0,151
+0022000697,206,PT07M08.00S,2,1610612741,CHI,1630172,Williams,P. Williams,-235,54,24,Missed,1,,,0,v,MISS Williams 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,152
+0022000697,207,PT07M05.00S,2,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,153
+0022000697,208,PT06M59.00S,2,1610612759,SAS,200752,Gay,R. Gay,-4,268,27,Missed,1,,,0,h,MISS Gay 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,154
+0022000697,209,PT06M55.00S,2,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,v,LaVine REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,155
+0022000697,210,PT06M42.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,v,Markkanen Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,156
+0022000697,210,PT06M42.00S,2,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,h,Gay STEAL (1 STL),,,1,0,157
+0022000697,212,PT06M35.00S,2,1610612759,SAS,200752,Gay,R. Gay,-154,208,26,Made,1,49,27,76,h,Gay 26' 3PT Jump Shot (5 PTS) (White 3 AST),Made Shot,Jump Shot,1,3,158
+0022000697,214,PT06M15.00S,2,1610612741,CHI,202066,Temple,G. Temple,-202,194,28,Missed,1,,,0,v,MISS Temple 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,159
+0022000697,215,PT06M15.00S,2,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,h,Gay REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,160
+0022000697,216,PT06M05.00S,2,1610612759,SAS,200752,Gay,R. Gay,-82,56,10,Made,1,51,27,78,h,Gay 10' Turnaround Jump Shot (7 PTS),Made Shot,Turnaround Jump Shot,1,2,161
+0022000697,217,PT05M35.00S,2,1610612741,CHI,202066,Temple,G. Temple,230,5,0,Missed,1,,,0,v,MISS Temple 3PT Jump Shot,Missed Shot,Jump Shot,1,3,162
+0022000697,218,PT05M32.00S,2,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,h,Murray REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,163
+0022000697,219,PT05M27.00S,2,1610612759,SAS,1628401,White,D. White,180,201,27,Made,1,54,27,81,h,White 27' 3PT Jump Shot (8 PTS) (Murray 4 AST),Made Shot,Jump Shot,1,3,164
+0022000697,221,PT05M27.00S,2,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,165
+0022000697,222,PT05M27.00S,2,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,h,SUB: DeRozan FOR Murray,Substitution,,0,0,166
+0022000697,223,PT05M27.00S,2,1610612759,SAS,201988,Mills,P. Mills,0,0,0,,0,,,0,h,SUB: Johnson FOR Mills,Substitution,,0,0,167
+0022000697,224,PT05M27.00S,2,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,h,SUB: Samanic FOR Gay,Substitution,,0,0,168
+0022000697,228,PT05M09.00S,2,1610612741,CHI,1630172,Williams,P. Williams,-56,69,9,Missed,1,,,0,v,MISS Williams 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,169
+0022000697,229,PT05M07.00S,2,1610612741,CHI,1630172,Williams,P. Williams,0,0,0,,0,,,0,v,Williams REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,170
+0022000697,230,PT05M04.00S,2,1610612741,CHI,1630172,Williams,P. Williams,0,0,0,,0,,,0,v,Williams Bad Pass Turnover (P2.T8),Turnover,Bad Pass,1,0,171
+0022000697,230,PT05M04.00S,2,1610612759,SAS,1628401,White,D. White,0,0,0,,0,,,0,h,White STEAL (1 STL),,,1,0,172
+0022000697,235,PT04M56.00S,2,1610612759,SAS,1627751,Poeltl,J. Poeltl,18,24,3,Made,1,56,27,83,h,Poeltl 3' Cutting Finger Roll Layup Shot (8 PTS) (White 4 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,173
+0022000697,237,PT04M42.00S,2,1610612741,CHI,203897,LaVine,Z. LaVine,-46,262,27,Missed,1,,,0,v,MISS LaVine 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,174
+0022000697,238,PT04M42.00S,2,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,DeRozan REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,175
+0022000697,239,PT04M32.00S,2,1610612759,SAS,1627751,Poeltl,J. Poeltl,11,27,3,Made,1,58,27,85,h,Poeltl 3' Cutting Finger Roll Layup Shot (10 PTS) (DeRozan 5 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,176
+0022000697,241,PT04M08.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,-181,236,30,Made,1,58,30,88,v,Markkanen 30' 3PT Jump Shot (5 PTS) (Williams 1 AST),Made Shot,Jump Shot,1,3,177
+0022000697,243,PT03M54.00S,2,1610612759,SAS,201942,DeRozan,D. DeRozan,-107,78,13,Missed,1,,,0,h,MISS DeRozan 13' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,178
+0022000697,244,PT03M54.00S,2,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,v,LaVine REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,179
+0022000697,245,PT03M49.00S,2,1610612759,SAS,1629677,Samanic,L. Samanic,0,0,0,,0,,,0,h,Samanic S.FOUL (P1.T2) (B.Forte),Foul,Shooting,1,0,180
+0022000697,247,PT03M49.00S,2,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,v,MISS LaVine Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,181
+0022000697,248,PT03M49.00S,2,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Rebound,Rebound,Normal Rebound,0,0,182
+0022000697,249,PT03M49.00S,2,1610612741,CHI,202066,Temple,G. Temple,0,0,0,,0,,,0,v,SUB: Young FOR Temple,Substitution,,0,0,183
+0022000697,250,PT03M49.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,v,SUB: Satoransky FOR Markkanen,Substitution,,0,0,184
+0022000697,253,PT03M49.00S,2,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,58,31,89,v,LaVine Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,185
+0022000697,254,PT03M34.00S,2,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,DeRozan Traveling Turnover (P1.T3),Turnover,Traveling,1,0,186
+0022000697,255,PT03M20.00S,2,1610612741,CHI,201152,Young,T. Young,-20,73,8,Missed,1,,,0,v,MISS Young 8' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,187
+0022000697,255,PT03M20.00S,2,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl BLOCK (1 BLK),,,1,2,188
+0022000697,257,PT03M17.00S,2,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,Satoransky REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,189
+0022000697,258,PT03M14.00S,2,1610612741,CHI,1630172,Williams,P. Williams,38,95,10,Made,1,58,33,91,v,Williams 10' Floating Jump Shot (4 PTS) (Young 4 AST),Made Shot,Floating Jump shot,1,2,190
+0022000697,260,PT03M12.00S,2,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,191
+0022000697,261,PT02M59.00S,2,1610612759,SAS,1628401,White,D. White,-154,216,27,Missed,1,,,0,h,MISS White 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,192
+0022000697,262,PT02M55.00S,2,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,193
+0022000697,263,PT02M55.00S,2,1610612759,SAS,1629677,Samanic,L. Samanic,0,0,0,,0,,,0,h,Samanic Out of Bounds - Bad Pass Turnover Turnover (P1.T4),Turnover,Out of Bounds - Bad Pass Turnover,1,0,194
+0022000697,264,PT02M40.00S,2,1610612741,CHI,203897,LaVine,Z. LaVine,-76,216,23,Missed,1,,,0,v,MISS LaVine 23' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,195
+0022000697,265,PT02M37.00S,2,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,196
+0022000697,266,PT02M31.00S,2,1610612759,SAS,201942,DeRozan,D. DeRozan,88,40,10,Made,1,60,33,93,h,DeRozan 10' Turnaround Fadeaway Bank Jump Shot (7 PTS),Made Shot,Turnaround Fadeaway Bank Jump Shot,1,2,197
+0022000697,267,PT02M31.00S,2,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,Satoransky S.FOUL (P2.T2) (D.Richardson),Foul,Shooting,1,0,198
+0022000697,269,PT02M31.00S,2,1610612759,SAS,1628401,White,D. White,0,0,0,,0,,,0,h,SUB: Murray FOR White,Substitution,,0,0,199
+0022000697,270,PT02M31.00S,2,1610612759,SAS,1629677,Samanic,L. Samanic,0,0,0,,0,,,0,h,SUB: Mills FOR Samanic,Substitution,,0,0,200
+0022000697,273,PT02M31.00S,2,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,61,33,94,h,DeRozan Free Throw 1 of 1 (8 PTS),Free Throw,Free Throw 1 of 1,1,0,201
+0022000697,274,PT02M15.00S,2,1610612741,CHI,203897,LaVine,Z. LaVine,-32,16,4,Missed,1,,,0,v,MISS LaVine 4' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,202
+0022000697,275,PT02M11.00S,2,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,203
+0022000697,276,PT02M11.00S,2,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,Missed,1,,,0,v,MISS Vucevic Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,204
+0022000697,277,PT02M08.00S,2,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,205
+0022000697,278,PT02M06.00S,2,1610612759,SAS,201988,Mills,P. Mills,0,0,0,,0,,,0,h,Mills Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,206
+0022000697,278,PT02M06.00S,2,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,Satoransky STEAL (2 STL),,,1,0,207
+0022000697,280,PT02M02.00S,2,1610612741,CHI,203107,Satoransky,T. Satoransky,-1,22,2,Made,1,61,35,96,v,Satoransky 2' Running Dunk (8 PTS) (Vucevic 2 AST),Made Shot,Running Dunk Shot,1,2,208
+0022000697,281,PT01M39.00S,2,1610612759,SAS,1629640,Johnson,K. Johnson,-22,13,3,Made,1,63,35,98,h,Johnson 3' Driving Floating Bank Jump Shot (6 PTS) (Murray 5 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,209
+0022000697,283,PT01M22.00S,2,1610612741,CHI,1630172,Williams,P. Williams,8,26,3,Made,1,63,37,100,v,Williams 3' Cutting Dunk Shot (6 PTS) (Young 5 AST),Made Shot,Cutting Dunk Shot,1,2,210
+0022000697,285,PT01M07.00S,2,1610612759,SAS,201988,Mills,P. Mills,230,8,0,Missed,1,,,0,h,MISS Mills 3PT Jump Shot,Missed Shot,Jump Shot,1,3,211
+0022000697,286,PT01M07.00S,2,1610612741,CHI,1630172,Williams,P. Williams,0,0,0,,0,,,0,v,Williams REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,212
+0022000697,287,PT00M57.60S,2,1610612741,CHI,201152,Young,T. Young,10,22,2,Made,1,63,39,102,v,Young 2' Layup (4 PTS) (Satoransky 2 AST),Made Shot,Layup Shot,1,2,213
+0022000697,289,PT00M42.50S,2,1610612759,SAS,1627749,Murray,D. Murray,-37,117,12,Missed,1,,,0,h,MISS Murray 12' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,214
+0022000697,290,PT00M42.50S,2,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,215
+0022000697,291,PT00M24.20S,2,1610612741,CHI,203107,Satoransky,T. Satoransky,234,42,24,Missed,1,,,0,v,MISS Satoransky 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,216
+0022000697,292,PT00M21.80S,2,1610612741,CHI,201152,Young,T. Young,0,0,0,,0,,,0,v,Young REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,217
+0022000697,293,PT00M20.30S,2,1610612741,CHI,201152,Young,T. Young,0,0,0,,0,,,0,v,Young Lost Ball Turnover (P1.T9),Turnover,Lost Ball,1,0,218
+0022000697,293,PT00M20.30S,2,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,DeRozan STEAL (4 STL),,,1,0,219
+0022000697,295,PT00M02.70S,2,1610612741,CHI,201152,Young,T. Young,0,0,0,,0,,,0,v,Young P.FOUL (P1.T3) (J.Tiven),Foul,Personal,1,0,220
+0022000697,297,PT00M02.70S,2,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,SUB: Gay FOR Poeltl,Substitution,,0,0,221
+0022000697,299,PT00M01.10S,2,1610612759,SAS,201942,DeRozan,D. DeRozan,-5,151,15,Made,1,65,39,104,h,DeRozan 15' Turnaround Jump Shot (10 PTS) (Mills 1 AST),Made Shot,Turnaround Jump Shot,1,2,222
+0022000697,301,PT00M00.00S,2,1610612741,CHI,203107,Satoransky,T. Satoransky,178,515,54,Missed,1,,,0,v,MISS Satoransky 54' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,223
+0022000697,302,PT00M00.00S,2,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Rebound,Rebound,Unknown,0,0,224
+0022000697,303,PT00M00.00S,2,0,,0,,,0,0,0,,0,65,39,104,,End of 2nd Period (9:31 PM EST),period,end,1,0,225
+0022000697,311,PT12M00.00S,3,0,,0,,,0,0,0,,0,65,39,104,,Start of 3rd Period (9:46 PM EST),period,start,0,0,226
+0022000697,312,PT11M47.00S,3,1610612741,CHI,202696,Vučević,N. Vučević,150,26,15,Missed,1,,,0,v,MISS Vucevic 15' Jump Shot,Missed Shot,Jump Shot,1,2,227
+0022000697,313,PT11M42.00S,3,1610612759,SAS,1628401,White,D. White,0,0,0,,0,,,0,h,White REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,228
+0022000697,314,PT11M29.00S,3,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,h,Murray Out of Bounds - Bad Pass Turnover Turnover (P1.T6),Turnover,Out of Bounds - Bad Pass Turnover,1,0,229
+0022000697,315,PT11M22.00S,3,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,Satoransky Out of Bounds - Bad Pass Turnover Turnover (P2.T10),Turnover,Out of Bounds - Bad Pass Turnover,1,0,230
+0022000697,316,PT11M13.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,-41,109,12,Made,1,67,39,106,h,DeRozan 12' Pullup Jump Shot (12 PTS) (White 5 AST),Made Shot,Pullup Jump shot,1,2,231
+0022000697,318,PT10M59.00S,3,1610612741,CHI,202696,Vučević,N. Vučević,-31,85,9,Missed,1,,,0,v,MISS Vucevic 9' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,232
+0022000697,319,PT10M57.00S,3,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,233
+0022000697,320,PT10M43.00S,3,1610612759,SAS,1629640,Johnson,K. Johnson,10,17,2,Made,1,69,39,108,h,Johnson 2' Layup (8 PTS) (White 6 AST),Made Shot,Layup Shot,1,2,234
+0022000697,322,PT10M33.00S,3,1610612759,SAS,1628401,White,D. White,0,0,0,,0,,,0,h,White S.FOUL (P1.T1) (J.Tiven),Foul,Shooting,1,0,235
+0022000697,324,PT10M33.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,69,40,109,v,LaVine Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,236
+0022000697,325,PT10M33.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,69,41,110,v,LaVine Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,237
+0022000697,326,PT10M20.00S,3,1610612759,SAS,1628401,White,D. White,8,287,29,Missed,1,,,0,h,MISS White 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,238
+0022000697,327,PT10M15.00S,3,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,239
+0022000697,328,PT10M09.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,-223,122,25,Missed,1,,,0,v,MISS LaVine 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,240
+0022000697,329,PT10M07.00S,3,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,h,Murray REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,241
+0022000697,330,PT09M54.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,8,18,2,Made,1,71,41,112,h,DeRozan 2' Driving Dunk (14 PTS) (Murray 6 AST),Made Shot,Driving Dunk Shot,1,2,242
+0022000697,332,PT09M35.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,-15,22,3,Made,1,71,43,114,v,LaVine 3' Driving Layup (9 PTS),Made Shot,Driving Layup Shot,1,2,243
+0022000697,333,PT09M21.00S,3,1610612759,SAS,1629640,Johnson,K. Johnson,2,22,2,Made,1,73,43,116,h,Johnson 2' Driving Finger Roll Layup (10 PTS) (Murray 7 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,244
+0022000697,335,PT09M04.00S,3,1610612741,CHI,202696,Vučević,N. Vučević,9,22,2,Missed,1,,,0,v,MISS Vucevic 2' Cutting Finger Roll Layup Shot,Missed Shot,Cutting Finger Roll Layup Shot,1,2,245
+0022000697,337,PT09M04.00S,3,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Rebound,Rebound,Unknown,0,0,246
+0022000697,339,PT09M04.00S,3,1610612741,CHI,1630172,Williams,P. Williams,0,0,0,,0,,,0,v,SUB: Young FOR Williams,Substitution,,0,0,247
+0022000697,340,PT09M04.00S,3,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,v,SUB: Temple FOR Markkanen,Substitution,,0,0,248
+0022000697,343,PT09M02.00S,3,1610612741,CHI,202696,Vučević,N. Vučević,-168,219,28,Made,1,73,46,119,v,Vucevic 28' 3PT Jump Bank Shot (7 PTS) (Satoransky 3 AST),Made Shot,Jump Bank Shot,1,3,249
+0022000697,345,PT08M48.00S,3,1610612759,SAS,1627749,Murray,D. Murray,10,16,2,Made,1,75,46,121,h,Murray 2' Driving Layup (10 PTS),Made Shot,Driving Layup Shot,1,2,250
+0022000697,346,PT08M30.00S,3,1610612741,CHI,202696,Vučević,N. Vučević,-11,4,1,Made,1,75,48,123,v,Vucevic 1' Layup (9 PTS) (Temple 2 AST),Made Shot,Layup Shot,1,2,251
+0022000697,348,PT08M16.00S,3,1610612759,SAS,1627749,Murray,D. Murray,-46,79,9,Missed,1,,,0,h,MISS Murray 9' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,252
+0022000697,349,PT08M16.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,253
+0022000697,350,PT08M16.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,Made,1,77,48,125,h,Poeltl Putback Layup (12 PTS),Made Shot,Putback Layup Shot,1,2,254
+0022000697,351,PT08M16.00S,3,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,Satoransky S.FOUL (P3.T1) (J.Tiven),Foul,Shooting,1,0,255
+0022000697,353,PT08M16.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,78,48,126,h,Poeltl Free Throw 1 of 1 (13 PTS),Free Throw,Free Throw 1 of 1,1,0,256
+0022000697,354,PT08M07.00S,3,1610612741,CHI,202696,Vučević,N. Vučević,-118,231,26,Missed,1,,,0,v,MISS Vucevic 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,257
+0022000697,355,PT08M04.00S,3,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,Satoransky REBOUND (Off:3 Def:0),Rebound,Unknown,1,0,258
+0022000697,356,PT08M04.00S,3,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,Johnson P.FOUL (P1.T2) (D.Richardson),Foul,Personal,1,0,259
+0022000697,358,PT08M04.00S,3,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,SUB: White FOR Satoransky,Substitution,,0,0,260
+0022000697,360,PT07M55.00S,3,1610612741,CHI,201152,Young,T. Young,-51,10,5,Missed,1,,,0,v,MISS Young 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,261
+0022000697,360,PT07M55.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl BLOCK (2 BLK),,,1,2,262
+0022000697,362,PT07M55.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,263
+0022000697,363,PT07M50.00S,3,1610612759,SAS,1627749,Murray,D. Murray,46,26,5,Missed,1,,,0,h,MISS Murray 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,264
+0022000697,363,PT07M50.00S,3,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,v,White BLOCK (1 BLK),,,1,2,265
+0022000697,365,PT07M47.00S,3,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,v,White REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,266
+0022000697,366,PT07M42.00S,3,1610612741,CHI,201152,Young,T. Young,0,0,0,,0,,,0,v,Young Lost Ball Turnover (P2.T11),Turnover,Lost Ball,1,0,267
+0022000697,366,PT07M42.00S,3,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,h,Murray STEAL (2 STL),,,1,0,268
+0022000697,368,PT07M37.00S,3,1610612759,SAS,1628401,White,D. White,233,0,0,Made,1,81,48,129,h,White 3PT Jump Shot (11 PTS) (Murray 8 AST),Made Shot,Jump Shot,1,3,269
+0022000697,370,PT07M10.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,232,15,0,Missed,1,,,0,v,MISS LaVine 3PT Jump Shot,Missed Shot,Jump Shot,1,3,270
+0022000697,371,PT07M10.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,DeRozan REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,271
+0022000697,372,PT07M03.00S,3,1610612759,SAS,1629640,Johnson,K. Johnson,-22,22,3,Made,1,83,48,131,h,Johnson 3' Driving Finger Roll Layup (12 PTS) (DeRozan 6 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,272
+0022000697,374,PT06M46.00S,3,1610612741,CHI,201152,Young,T. Young,9,22,2,Made,1,83,50,133,v,Young 2' Driving Layup (6 PTS) (Vucevic 3 AST),Made Shot,Driving Layup Shot,1,2,273
+0022000697,376,PT06M20.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,-35,181,18,Missed,1,,,0,h,MISS DeRozan 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,274
+0022000697,377,PT06M20.00S,3,1610612741,CHI,201152,Young,T. Young,0,0,0,,0,,,0,v,Young REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,275
+0022000697,378,PT06M13.00S,3,1610612741,CHI,1629632,White,C. White,177,195,26,Missed,1,,,0,v,MISS White 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,276
+0022000697,379,PT06M09.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,277
+0022000697,380,PT06M03.00S,3,1610612759,SAS,1627749,Murray,D. Murray,-89,118,15,Made,1,85,50,135,h,Murray 15' Pullup Jump Shot (12 PTS),Made Shot,Pullup Jump shot,1,2,278
+0022000697,381,PT05M49.00S,3,1610612741,CHI,202696,Vučević,N. Vučević,-90,-1,9,Made,1,85,52,137,v,Vucevic 9' Turnaround Hook Shot (11 PTS),Made Shot,Turnaround Hook Shot,1,2,279
+0022000697,382,PT05M49.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl S.FOUL (P1.T3) (J.Tiven),Foul,Shooting,1,0,280
+0022000697,384,PT05M49.00S,3,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,281
+0022000697,385,PT05M49.00S,3,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,SUB: Gay FOR Johnson,Substitution,,0,0,282
+0022000697,386,PT05M49.00S,3,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,h,SUB: Mills FOR Murray,Substitution,,0,0,283
+0022000697,389,PT05M49.00S,3,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,85,53,138,v,Vucevic Free Throw 1 of 1 (12 PTS),Free Throw,Free Throw 1 of 1,1,0,284
+0022000697,390,PT05M30.00S,3,1610612759,SAS,1628401,White,D. White,-142,252,29,Missed,1,,,0,h,MISS White 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,285
+0022000697,391,PT05M27.00S,3,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,286
+0022000697,392,PT05M14.00S,3,1610612741,CHI,202066,Temple,G. Temple,-30,1,3,Made,1,85,55,140,v,Temple 3' Cutting Layup Shot (2 PTS) (Young 6 AST),Made Shot,Cutting Layup Shot,1,2,287
+0022000697,394,PT04M57.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,53,8,5,Made,1,87,55,142,h,Poeltl 5' Floating Jump Shot (15 PTS) (Mills 2 AST),Made Shot,Floating Jump shot,1,2,288
+0022000697,396,PT04M40.00S,3,1610612741,CHI,201152,Young,T. Young,-4,29,3,Missed,1,,,0,v,MISS Young 3' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,289
+0022000697,396,PT04M40.00S,3,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,h,Gay BLOCK (2 BLK),,,1,2,290
+0022000697,398,PT04M40.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,291
+0022000697,399,PT04M31.00S,3,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,v,White P.FOUL (P1.T2) (D.Richardson),Foul,Personal,1,0,292
+0022000697,401,PT04M31.00S,3,1610612759,SAS,1628401,White,D. White,0,0,0,,0,,,0,h,SUB: Samanic FOR White,Substitution,,0,0,293
+0022000697,403,PT04M27.00S,3,1610612759,SAS,200752,Gay,R. Gay,-187,197,27,Made,1,90,55,145,h,Gay 27' 3PT Jump Shot (10 PTS) (DeRozan 7 AST),Made Shot,Jump Shot,1,3,294
+0022000697,405,PT04M03.00S,3,1610612741,CHI,201152,Young,T. Young,-228,12,0,Missed,1,,,0,v,MISS Young 3PT Jump Shot,Missed Shot,Jump Shot,1,3,295
+0022000697,406,PT04M03.00S,3,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,h,Gay REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,296
+0022000697,407,PT03M56.00S,3,1610612741,CHI,202066,Temple,G. Temple,0,0,0,,0,,,0,v,Temple S.FOUL (P2.T3) (J.Tiven),Foul,Shooting,1,0,297
+0022000697,409,PT03M56.00S,3,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,91,55,146,h,Gay Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,1,0,298
+0022000697,410,PT03M56.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,SUB: Eubanks FOR Poeltl,Substitution,,0,0,299
+0022000697,411,PT03M56.00S,3,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,SUB: Aminu FOR Vucevic,Substitution,,0,0,300
+0022000697,414,PT03M56.00S,3,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,h,MISS Gay Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,301
+0022000697,415,PT03M52.00S,3,1610612759,SAS,1629677,Samanic,L. Samanic,0,0,0,,0,,,0,h,Samanic REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,302
+0022000697,416,PT03M51.00S,3,1610612759,SAS,201988,Mills,P. Mills,-104,270,29,Missed,1,,,0,h,MISS Mills 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,303
+0022000697,417,PT03M51.00S,3,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Unknown,0,0,304
+0022000697,418,PT03M51.00S,3,1610612741,CHI,201152,Young,T. Young,0,0,0,,0,,,0,v,Young P.FOUL (P2.T4) (B.Forte),Foul,Personal,1,0,305
+0022000697,420,PT03M45.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,DeRozan Lost Ball Turnover (P2.T7),Turnover,Lost Ball,1,0,306
+0022000697,420,PT03M45.00S,3,1610612741,CHI,202066,Temple,G. Temple,0,0,0,,0,,,0,v,Temple STEAL (1 STL),,,1,0,307
+0022000697,422,PT03M37.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,-13,14,2,Made,1,91,57,148,v,LaVine 2' Alley Oop Dunk (11 PTS) (Temple 3 AST),Made Shot,Alley Oop Dunk Shot,1,2,308
+0022000697,424,PT03M25.00S,3,1610612759,SAS,200752,Gay,R. Gay,-127,241,27,Missed,1,,,0,h,MISS Gay 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,309
+0022000697,425,PT03M21.00S,3,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,v,White REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,310
+0022000697,426,PT03M18.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,231,17,0,Made,1,91,60,151,v,LaVine 3PT Jump Shot (14 PTS) (Young 7 AST),Made Shot,Jump Shot,1,3,311
+0022000697,428,PT03M01.00S,3,1610612759,SAS,201988,Mills,P. Mills,141,212,25,Made,1,94,60,154,h,Mills 25' 3PT Pullup Jump Shot (13 PTS),Made Shot,Pullup Jump shot,1,3,312
+0022000697,429,PT02M46.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,-158,1,16,Made,1,94,62,156,v,LaVine 16' Jump Shot (16 PTS),Made Shot,Jump Shot,1,2,313
+0022000697,430,PT02M29.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,-24,167,17,Missed,1,,,0,h,MISS DeRozan 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,314
+0022000697,431,PT02M29.00S,3,1610612741,CHI,201152,Young,T. Young,0,0,0,,0,,,0,v,Young REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,315
+0022000697,432,PT02M19.00S,3,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,,,0,h,Eubanks S.FOUL (P1.T4) (B.Forte),Foul,Shooting,1,0,316
+0022000697,434,PT02M19.00S,3,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,317
+0022000697,435,PT02M19.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,SUB: Murray FOR DeRozan,Substitution,,0,0,318
+0022000697,437,PT02M19.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,94,63,157,v,LaVine Free Throw 1 of 2 (17 PTS),Free Throw,Free Throw 1 of 2,1,0,319
+0022000697,438,PT02M19.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,94,64,158,v,LaVine Free Throw 2 of 2 (18 PTS),Free Throw,Free Throw 2 of 2,1,0,320
+0022000697,439,PT02M06.00S,3,1610612759,SAS,1629234,Eubanks,D. Eubanks,-2,64,6,Missed,1,,,0,h,MISS Eubanks 6' Hook Shot,Missed Shot,Hook Shot,1,2,321
+0022000697,440,PT02M03.00S,3,1610612741,CHI,202329,Aminu,A. Aminu,0,0,0,,0,,,0,v,Aminu REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,322
+0022000697,441,PT01M55.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,13,189,19,Missed,1,,,0,v,MISS LaVine 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,323
+0022000697,442,PT01M51.00S,3,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,h,Murray REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,324
+0022000697,443,PT01M41.00S,3,1610612759,SAS,201988,Mills,P. Mills,93,242,26,Missed,1,,,0,h,MISS Mills 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,325
+0022000697,444,PT01M39.00S,3,1610612741,CHI,202329,Aminu,A. Aminu,0,0,0,,0,,,0,v,Aminu REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,326
+0022000697,445,PT01M33.00S,3,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,h,Gay P.FOUL (P2.PN) (J.Tiven),Foul,Personal,1,0,327
+0022000697,447,PT01M33.00S,3,1610612741,CHI,202329,Aminu,A. Aminu,0,0,0,,0,94,65,159,v,Aminu Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,328
+0022000697,468,PT01M33.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,v,SUB: Brown Jr. FOR LaVine,Substitution,,0,0,329
+0022000697,448,PT01M33.00S,3,1610612741,CHI,202329,Aminu,A. Aminu,0,0,0,,0,94,66,160,v,Aminu Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,330
+0022000697,449,PT01M13.00S,3,1610612759,SAS,1627749,Murray,D. Murray,29,27,4,Missed,1,,,0,h,MISS Murray 4' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,331
+0022000697,450,PT01M10.00S,3,1610612741,CHI,202329,Aminu,A. Aminu,0,0,0,,0,,,0,v,Aminu REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,332
+0022000697,451,PT01M06.00S,3,1610612741,CHI,1628972,Brown Jr.,T. Brown Jr.,-173,197,26,Made,1,94,69,163,v,Brown Jr. 26' 3PT Jump Shot (3 PTS) (Young 8 AST),Made Shot,Jump Shot,1,3,333
+0022000697,453,PT00M51.00S,3,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,v,White P.FOUL (P2.PN) (J.Tiven),Foul,Personal,1,0,334
+0022000697,455,PT00M51.00S,3,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,95,69,164,h,Eubanks Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,335
+0022000697,456,PT00M51.00S,3,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,96,69,165,h,Eubanks Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,336
+0022000697,457,PT00M33.70S,3,1610612741,CHI,201152,Young,T. Young,-9,100,10,Made,1,96,71,167,v,Young 10' Floating Jump Shot (8 PTS) (White 2 AST),Made Shot,Floating Jump shot,1,2,337
+0022000697,459,PT00M14.00S,3,1610612759,SAS,1627749,Murray,D. Murray,-117,67,13,Missed,1,,,0,h,MISS Murray 13' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,338
+0022000697,460,PT00M14.00S,3,1610612741,CHI,202329,Aminu,A. Aminu,0,0,0,,0,,,0,v,Aminu REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,339
+0022000697,461,PT00M00.70S,3,1610612741,CHI,1629632,White,C. White,82,50,10,Made,1,96,73,169,v,White 10' Driving Floating Bank Jump Shot (7 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,340
+0022000697,462,PT00M00.00S,3,0,,0,,,0,0,0,,0,96,73,169,,End of 3rd Period (10:11 PM EST),period,end,1,0,341
+0022000697,467,PT12M00.00S,4,0,,0,,,0,0,0,,0,96,73,169,,Start of 4th Period (10:14 PM EST),period,start,0,0,342
+0022000697,470,PT11M44.00S,4,1610612759,SAS,201988,Mills,P. Mills,-27,106,11,Missed,1,,,0,h,MISS Mills 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,343
+0022000697,471,PT11M40.00S,4,1610612741,CHI,202066,Temple,G. Temple,0,0,0,,0,,,0,v,Temple REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,344
+0022000697,472,PT11M39.00S,4,1610612741,CHI,201152,Young,T. Young,-5,25,3,Made,1,96,75,171,v,Young 3' Driving Finger Roll Layup (10 PTS) (Temple 4 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,345
+0022000697,474,PT11M39.00S,4,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,h,Gay S.FOUL (P3.T1) (D.Richardson),Foul,Shooting,1,0,346
+0022000697,476,PT11M39.00S,4,1610612741,CHI,201152,Young,T. Young,0,0,0,,0,,,0,v,MISS Young Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,347
+0022000697,477,PT11M37.00S,4,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,,,0,h,Eubanks REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,348
+0022000697,478,PT11M26.00S,4,1610612741,CHI,201152,Young,T. Young,0,0,0,,0,,,0,v,Young S.FOUL (P3.T1) (D.Richardson),Foul,Shooting,1,0,349
+0022000697,480,PT11M26.00S,4,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,,,0,h,MISS Eubanks Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,350
+0022000697,481,PT11M26.00S,4,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Normal Rebound,0,0,351
+0022000697,482,PT11M26.00S,4,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,97,75,172,h,Eubanks Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,352
+0022000697,483,PT11M21.00S,4,1610612741,CHI,1629632,White,C. White,-154,222,27,Missed,1,,,0,v,MISS White 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,353
+0022000697,484,PT11M17.00S,4,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,h,Murray REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,354
+0022000697,485,PT11M10.00S,4,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,h,Gay Bad Pass Turnover (P2.T8),Turnover,Bad Pass,1,0,355
+0022000697,485,PT11M10.00S,4,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,v,White STEAL (1 STL),,,1,0,356
+0022000697,487,PT11M07.00S,4,1610612759,SAS,1628401,White,D. White,0,0,0,,0,,,0,h,White Personal Take Foul (P2.T2) (J.Tiven),Foul,Personal Take,1,0,357
+0022000697,489,PT11M07.00S,4,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,h,SUB: Johnson FOR Gay,Substitution,,0,0,358
+0022000697,491,PT11M02.00S,4,1610612741,CHI,202329,Aminu,A. Aminu,0,0,0,,0,,,0,v,Aminu Out of Bounds Lost Ball Turnover (P2.T12),Turnover,Out of Bounds Lost Ball Turnover,1,0,359
+0022000697,492,PT10M53.00S,4,1610612741,CHI,202329,Aminu,A. Aminu,0,0,0,,0,,,0,v,Aminu S.FOUL (P1.T2) (D.Richardson),Foul,Shooting,1,0,360
+0022000697,494,PT10M53.00S,4,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,,,0,h,MISS Eubanks Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,361
+0022000697,495,PT10M53.00S,4,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Normal Rebound,0,0,362
+0022000697,496,PT10M53.00S,4,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,98,75,173,h,Eubanks Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,363
+0022000697,497,PT10M39.00S,4,1610612741,CHI,202066,Temple,G. Temple,1,8,1,Made,1,98,77,175,v,Temple 1' Cutting Finger Roll Layup Shot (4 PTS) (Young 9 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,364
+0022000697,499,PT10M28.00S,4,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,v,White P.FOUL (P3.T3) (B.Forte),Foul,Personal,1,0,365
+0022000697,501,PT10M28.00S,4,1610612741,CHI,202066,Temple,G. Temple,0,0,0,,0,,,0,v,SUB: Markkanen FOR Temple,Substitution,,0,0,366
+0022000697,502,PT10M28.00S,4,1610612741,CHI,201152,Young,T. Young,0,0,0,,0,,,0,v,SUB: Green FOR Young,Substitution,,0,0,367
+0022000697,505,PT10M21.00S,4,1610612759,SAS,1627749,Murray,D. Murray,10,20,2,Missed,1,,,0,h,MISS Murray 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,368
+0022000697,506,PT10M19.00S,4,1610612741,CHI,202329,Aminu,A. Aminu,0,0,0,,0,,,0,v,Aminu REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,369
+0022000697,611,PT10M18.00S,4,1610612741,CHI,1629750,Green,J. Green,-15,22,3,Missed,1,,,0,v,MISS Green 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,370
+0022000697,611,PT10M18.00S,4,1610612759,SAS,1628401,White,D. White,0,0,0,,0,,,0,h,White BLOCK (1 BLK),,,1,2,371
+0022000697,613,PT10M18.00S,4,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Unknown,0,0,372
+0022000697,508,PT10M15.00S,4,1610612741,CHI,202329,Aminu,A. Aminu,0,0,0,,0,,,0,v,Aminu P.FOUL (P2.T4) (B.Forte),Foul,Personal,1,0,373
+0022000697,510,PT09M56.00S,4,1610612759,SAS,201988,Mills,P. Mills,-147,233,28,Made,1,101,77,178,h,Mills 28' 3PT Pullup Jump Shot (16 PTS) (Eubanks 1 AST),Made Shot,Pullup Jump shot,1,3,374
+0022000697,512,PT09M36.00S,4,1610612741,CHI,202329,Aminu,A. Aminu,228,21,0,Missed,1,,,0,v,MISS Aminu 3PT Jump Shot,Missed Shot,Jump Shot,1,3,375
+0022000697,513,PT09M36.00S,4,1610612759,SAS,1628401,White,D. White,0,0,0,,0,,,0,h,White REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,376
+0022000697,514,PT09M24.00S,4,1610612759,SAS,201988,Mills,P. Mills,46,262,27,Missed,1,,,0,h,MISS Mills 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,377
+0022000697,514,PT09M24.00S,4,1610612741,CHI,1629750,Green,J. Green,0,0,0,,0,,,0,v,Green BLOCK (1 BLK),,,1,3,378
+0022000697,516,PT09M21.00S,4,1610612741,CHI,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,v,Brown Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,379
+0022000697,517,PT09M21.00S,4,1610612741,CHI,1628972,Brown Jr.,T. Brown Jr.,-20,3,2,Made,1,101,79,180,v,Brown Jr. 2' Driving Finger Roll Layup (5 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,380
+0022000697,518,PT09M21.00S,4,1610612759,SAS,1628401,White,D. White,0,0,0,,0,,,0,h,White S.FOUL (P3.T3) (B.Forte),Foul,Shooting,1,0,381
+0022000697,520,PT09M21.00S,4,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,,,0,h,SUB: Poeltl FOR Eubanks,Substitution,,0,0,382
+0022000697,522,PT09M21.00S,4,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,383
+0022000697,523,PT09M21.00S,4,1610612741,CHI,202329,Aminu,A. Aminu,0,0,0,,0,,,0,v,SUB: Vucevic FOR Aminu,Substitution,,0,0,384
+0022000697,525,PT09M21.00S,4,1610612741,CHI,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,101,80,181,v,Brown Jr. Free Throw 1 of 1 (6 PTS),Free Throw,Free Throw 1 of 1,1,0,385
+0022000697,526,PT09M01.00S,4,1610612759,SAS,1627751,Poeltl,J. Poeltl,-24,67,7,Missed,1,,,0,h,MISS Poeltl 7' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,386
+0022000697,527,PT08M57.00S,4,1610612741,CHI,1629750,Green,J. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,387
+0022000697,528,PT08M49.00S,4,1610612741,CHI,1629632,White,C. White,19,27,3,Missed,1,,,0,v,MISS White 3' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,388
+0022000697,529,PT08M49.00S,4,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,389
+0022000697,573,PT08M45.00S,4,1610612741,CHI,202696,Vučević,N. Vučević,1,13,1,Made,1,101,82,183,v,Vucevic 1' Tip Layup Shot (14 PTS),Made Shot,Tip Layup Shot,1,2,390
+0022000697,530,PT08M34.00S,4,1610612759,SAS,1628401,White,D. White,75,81,11,Missed,1,,,0,h,MISS White 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,391
+0022000697,531,PT08M34.00S,4,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,v,White REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,392
+0022000697,532,PT08M25.00S,4,1610612741,CHI,1629632,White,C. White,-30,22,4,Made,1,101,84,185,v,White 4' Driving Finger Roll Layup (9 PTS) (Brown Jr. 1 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,393
+0022000697,534,PT08M25.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,Johnson S.FOUL (P2.T4) (D.Richardson),Foul,Shooting,1,0,394
+0022000697,536,PT08M25.00S,4,1610612741,CHI,1629632,White,C. White,0,0,0,,0,101,85,186,v,White Free Throw 1 of 1 (10 PTS),Free Throw,Free Throw 1 of 1,1,0,395
+0022000697,537,PT08M11.00S,4,1610612759,SAS,1627749,Murray,D. Murray,-27,107,11,Missed,1,,,0,h,MISS Murray 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,396
+0022000697,538,PT08M08.00S,4,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,v,White REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,397
+0022000697,539,PT08M01.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,141,224,26,Missed,1,,,0,v,MISS Markkanen 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,398
+0022000697,540,PT07M58.00S,4,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,h,Murray REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,399
+0022000697,541,PT07M53.00S,4,1610612741,CHI,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,v,Brown Jr. S.FOUL (P1.PN) (J.Tiven),Foul,Shooting,1,0,400
+0022000697,543,PT07M53.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,102,85,187,h,Johnson Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,1,0,401
+0022000697,544,PT07M53.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,103,85,188,h,Johnson Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,1,0,402
+0022000697,545,PT07M38.00S,4,1610612741,CHI,1629632,White,C. White,-234,16,0,Made,1,103,88,191,v,White 3PT Jump Shot (13 PTS) (Brown Jr. 2 AST),Made Shot,Jump Shot,1,3,403
+0022000697,547,PT07M25.00S,4,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,v,White P.FOUL (P4.PN) (B.Forte),Foul,Personal,1,0,404
+0022000697,549,PT07M25.00S,4,1610612759,SAS,1628401,White,D. White,0,0,0,,0,104,88,192,h,White Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,1,0,405
+0022000697,550,PT07M25.00S,4,1610612759,SAS,1628401,White,D. White,0,0,0,,0,105,88,193,h,White Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,406
+0022000697,551,PT07M11.00S,4,1610612741,CHI,1629632,White,C. White,-27,13,3,Missed,1,,,0,v,MISS White 3' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,407
+0022000697,552,PT07M11.00S,4,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,h,Murray REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,408
+0022000697,553,PT07M01.00S,4,1610612759,SAS,1628401,White,D. White,-104,251,27,Missed,1,,,0,h,MISS White 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,409
+0022000697,554,PT06M57.00S,4,1610612741,CHI,1629750,Green,J. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,410
+0022000697,555,PT06M50.00S,4,1610612741,CHI,202696,Vučević,N. Vučević,-15,6,2,Made,1,105,90,195,v,Vucevic 2' Cutting Layup Shot (16 PTS) (White 3 AST),Made Shot,Cutting Layup Shot,1,2,411
+0022000697,558,PT06M25.00S,4,1610612759,SAS,1628401,White,D. White,-36,47,6,Missed,1,,,0,h,MISS White 6' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,412
+0022000697,559,PT06M20.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,v,Markkanen REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,413
+0022000697,560,PT06M15.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,-64,25,7,Made,1,105,92,197,v,Markkanen 7' Pullup Jump Shot (7 PTS) (Brown Jr. 3 AST),Made Shot,Pullup Jump shot,1,2,414
+0022000697,562,PT06M15.00S,4,1610612759,SAS,1628401,White,D. White,0,0,0,,0,,,0,h,White S.FOUL (P4.PN) (B.Forte),Foul,Shooting,1,0,415
+0022000697,564,PT06M15.00S,4,1610612759,SAS,201988,Mills,P. Mills,0,0,0,,0,,,0,h,SUB: DeRozan FOR Mills,Substitution,,0,0,416
+0022000697,566,PT06M15.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,105,93,198,v,Markkanen Free Throw 1 of 1 (8 PTS),Free Throw,Free Throw 1 of 1,1,0,417
+0022000697,567,PT05M57.00S,4,1610612759,SAS,1627749,Murray,D. Murray,-17,6,2,Made,1,107,93,200,h,Murray 2' Driving Layup (14 PTS),Made Shot,Driving Layup Shot,1,2,418
+0022000697,568,PT05M42.00S,4,1610612741,CHI,1628972,Brown Jr.,T. Brown Jr.,-29,19,3,Made,1,107,95,202,v,Brown Jr. 3' Driving Reverse Layup (8 PTS),Made Shot,Driving Reverse Layup Shot,1,2,419
+0022000697,569,PT05M26.00S,4,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic S.FOUL (P1.PN) (B.Forte),Foul,Shooting,1,0,420
+0022000697,571,PT05M26.00S,4,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,MISS Poeltl Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,421
+0022000697,572,PT05M26.00S,4,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Normal Rebound,0,0,422
+0022000697,574,PT05M26.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,h,SUB: Gay FOR Johnson,Substitution,,0,0,423
+0022000697,576,PT05M26.00S,4,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,MISS Poeltl Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,424
+0022000697,577,PT05M21.00S,4,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,425
+0022000697,578,PT05M13.00S,4,1610612741,CHI,202696,Vučević,N. Vučević,-131,225,26,Made,1,107,98,205,v,Vucevic 26' 3PT Jump Shot (19 PTS) (White 4 AST),Made Shot,Jump Shot,1,3,426
+0022000697,580,PT04M59.00S,4,1610612759,SAS,201942,DeRozan,D. DeRozan,-24,25,3,Missed,1,,,0,h,MISS DeRozan 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,427
+0022000697,580,PT04M59.00S,4,1610612741,CHI,1629750,Green,J. Green,0,0,0,,0,,,0,v,Green BLOCK (2 BLK),,,1,2,428
+0022000697,582,PT04M59.00S,4,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Unknown,0,0,429
+0022000697,584,PT04M51.00S,4,1610612759,SAS,201942,DeRozan,D. DeRozan,-94,105,14,Made,1,109,98,207,h,DeRozan 14' Jump Shot (16 PTS),Made Shot,Jump Shot,1,2,430
+0022000697,585,PT04M51.00S,4,1610612741,CHI,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,v,Brown Jr. S.FOUL (P2.PN) (J.Tiven),Foul,Shooting,1,0,431
+0022000697,587,PT04M51.00S,4,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,h,SUB: Mills FOR Murray,Substitution,,0,0,432
+0022000697,589,PT04M51.00S,4,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,110,98,208,h,DeRozan Free Throw 1 of 1 (17 PTS),Free Throw,Free Throw 1 of 1,1,0,433
+0022000697,590,PT04M29.00S,4,1610612741,CHI,1629632,White,C. White,-11,19,2,Missed,1,,,0,v,MISS White 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,434
+0022000697,591,PT04M29.00S,4,1610612759,SAS,1628401,White,D. White,0,0,0,,0,,,0,h,White REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,435
+0022000697,592,PT04M19.00S,4,1610612759,SAS,1627751,Poeltl,J. Poeltl,-23,20,3,Made,1,112,98,210,h,Poeltl 3' Driving Reverse Layup (17 PTS) (White 7 AST),Made Shot,Driving Reverse Layup Shot,1,2,436
+0022000697,594,PT04M19.00S,4,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic S.FOUL (P2.PN) (B.Forte),Foul,Shooting,1,0,437
+0022000697,596,PT04M19.00S,4,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,438
+0022000697,597,PT04M19.00S,4,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,MISS Poeltl Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,439
+0022000697,598,PT04M15.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,v,Markkanen REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,440
+0022000697,599,PT03M53.00S,4,1610612741,CHI,202696,Vučević,N. Vučević,138,56,15,Missed,1,,,0,v,MISS Vucevic 15' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,441
+0022000697,599,PT03M53.00S,4,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl BLOCK (3 BLK),,,1,2,442
+0022000697,601,PT03M49.00S,4,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,Poeltl REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,443
+0022000697,602,PT03M43.00S,4,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic Personal Take Foul (P3.PN) (J.Tiven),Foul,Personal Take,1,0,444
+0022000697,604,PT03M43.00S,4,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,113,98,211,h,Poeltl Free Throw 1 of 2 (18 PTS),Free Throw,Free Throw 1 of 2,1,0,445
+0022000697,606,PT03M43.00S,4,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,MISS Poeltl Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,446
+0022000697,607,PT03M41.00S,4,1610612741,CHI,1629750,Green,J. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,447
+0022000697,608,PT03M31.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,-143,237,28,Missed,1,,,0,v,MISS Markkanen 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,448
+0022000697,609,PT03M28.00S,4,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,h,Gay REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,449
+0022000697,610,PT03M23.00S,4,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic Personal Take Foul (P4.PN) (J.Tiven),Foul,Personal Take,1,0,450
+0022000697,615,PT03M23.00S,4,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,MISS Poeltl Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,451
+0022000697,616,PT03M23.00S,4,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Normal Rebound,0,0,452
+0022000697,617,PT03M23.00S,4,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,114,98,212,h,Poeltl Free Throw 2 of 2 (19 PTS),Free Throw,Free Throw 2 of 2,1,0,453
+0022000697,618,PT03M06.00S,4,1610612741,CHI,202696,Vučević,N. Vučević,-6,30,3,Made,1,114,100,214,v,Vucevic 3' Layup (21 PTS),Made Shot,Layup Shot,1,2,454
+0022000697,619,PT02M57.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,v,Markkanen Personal Take Foul (P2.PN) (D.Richardson),Foul,Personal Take,1,0,455
+0022000697,621,PT02M57.00S,4,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,115,100,215,h,Poeltl Free Throw 1 of 2 (20 PTS),Free Throw,Free Throw 1 of 2,1,0,456
+0022000697,622,PT02M57.00S,4,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,MISS Poeltl Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,457
+0022000697,623,PT02M55.00S,4,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,458
+0022000697,624,PT02M42.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,103,14,10,Made,1,115,102,217,v,Markkanen 10' Pullup Jump Shot (10 PTS),Made Shot,Pullup Jump shot,1,2,459
+0022000697,626,PT02M19.00S,4,1610612759,SAS,200752,Gay,R. Gay,58,80,10,Missed,1,,,0,h,MISS Gay 10' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,460
+0022000697,627,PT02M19.00S,4,1610612741,CHI,1629750,Green,J. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,461
+0022000697,628,PT02M16.00S,4,1610612741,CHI,1629750,Green,J. Green,0,0,0,,0,,,0,v,Green Offensive Charge Foul (P1.PN) (D.Richardson),Foul,Offensive Charge,1,0,462
+0022000697,630,PT02M16.00S,4,1610612741,CHI,1629750,Green,J. Green,0,0,0,,0,,,0,v,Green Offensive Foul Turnover (P1.T13),Turnover,Offensive Foul Turnover,1,0,463
+0022000697,631,PT02M03.00S,4,1610612759,SAS,1628401,White,D. White,232,37,0,Made,1,118,102,220,h,White 3PT Jump Shot (16 PTS) (Poeltl 1 AST),Made Shot,Jump Shot,1,3,464
+0022000697,634,PT01M46.00S,4,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,SUB: Samanic FOR DeRozan,Substitution,,0,0,465
+0022000697,636,PT01M46.00S,4,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,466
+0022000697,637,PT01M46.00S,4,1610612759,SAS,201988,Mills,P. Mills,0,0,0,,0,,,0,h,SUB: Jones FOR Mills,Substitution,,0,0,467
+0022000697,638,PT01M46.00S,4,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,h,SUB: Eubanks FOR Gay,Substitution,,0,0,468
+0022000697,639,PT01M46.00S,4,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,h,SUB: Weatherspoon FOR Poeltl,Substitution,,0,0,469
+0022000697,640,PT01M46.00S,4,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,v,SUB: Arcidiacono FOR White,Substitution,,0,0,470
+0022000697,641,PT01M46.00S,4,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,SUB: Dotson FOR Vucevic,Substitution,,0,0,471
+0022000697,642,PT01M46.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,v,SUB: Felicio FOR Markkanen,Substitution,,0,0,472
+0022000697,649,PT01M44.00S,4,1610612741,CHI,1628972,Brown Jr.,T. Brown Jr.,188,48,19,Missed,1,,,0,v,MISS Brown Jr. 19' Jump Shot,Missed Shot,Jump Shot,1,2,473
+0022000697,650,PT01M42.00S,4,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Rebound,Rebound,Unknown,0,0,474
+0022000697,652,PT01M42.00S,4,1610612759,SAS,1628401,White,D. White,0,0,0,,0,,,0,h,SUB: Reynolds FOR White,Substitution,,0,0,475
+0022000697,654,PT01M23.00S,4,1610612759,SAS,1629244,Reynolds,C. Reynolds,-25,76,8,Made,1,120,102,222,h,Reynolds 8' Driving Floating Jump Shot (2 PTS) (Jones 1 AST),Made Shot,Driving Floating Jump Shot,1,2,476
+0022000697,656,PT01M07.00S,4,1610612741,CHI,1629750,Green,J. Green,-173,226,28,Missed,1,,,0,v,MISS Green 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,477
+0022000697,657,PT01M07.00S,4,1610612741,CHI,1629653,Dotson,D. Dotson,0,0,0,,0,,,0,v,Dotson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,478
+0022000697,658,PT01M03.00S,4,1610612759,SAS,1629683,Weatherspoon,Q. Weatherspoon,0,0,0,,0,,,0,h,Weatherspoon P.FOUL (P1.PN) (J.Tiven),Foul,Personal,1,0,479
+0022000697,660,PT01M03.00S,4,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,0,0,0,,0,,,0,v,MISS Arcidiacono Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,480
+0022000697,661,PT01M03.00S,4,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Rebound,Rebound,Normal Rebound,0,0,481
+0022000697,662,PT01M03.00S,4,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,0,0,0,,0,120,103,223,v,Arcidiacono Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,482
+0022000697,663,PT00M46.70S,4,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,,,0,h,Eubanks Lost Ball Turnover (P1.T9),Turnover,Lost Ball,1,0,483
+0022000697,663,PT00M46.70S,4,1610612741,CHI,1629653,Dotson,D. Dotson,0,0,0,,0,,,0,v,Dotson STEAL (1 STL),,,1,0,484
+0022000697,666,PT00M41.80S,4,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,,,0,h,Eubanks P.FOUL (P2.PN) (B.Forte),Foul,Personal,1,0,485
+0022000697,668,PT00M41.80S,4,1610612741,CHI,1626245,Felicio,C. Felicio,0,0,0,,0,,,0,v,MISS Felicio Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,486
+0022000697,669,PT00M41.80S,4,0,,1610612741,,,0,0,0,,0,,,0,v,Bulls Rebound,Rebound,Normal Rebound,0,0,487
+0022000697,670,PT00M41.80S,4,1610612741,CHI,1626245,Felicio,C. Felicio,0,0,0,,0,120,104,224,v,Felicio Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,488
+0022000697,671,PT00M30.40S,4,1610612759,SAS,1629683,Weatherspoon,Q. Weatherspoon,0,0,0,,0,,,0,h,Weatherspoon Bad Pass Turnover (P1.T10),Turnover,Bad Pass,1,0,489
+0022000697,671,PT00M30.40S,4,1610612741,CHI,1629750,Green,J. Green,0,0,0,,0,,,0,v,Green STEAL (1 STL),,,1,0,490
+0022000697,673,PT00M27.20S,4,1610612741,CHI,1629750,Green,J. Green,0,0,0,,0,,,0,v,Green Offensive Charge Foul (P2.PN) (D.Richardson),Foul,Offensive Charge,1,0,491
+0022000697,675,PT00M27.20S,4,1610612741,CHI,1629750,Green,J. Green,0,0,0,,0,,,0,v,Green Offensive Foul Turnover (P2.T14),Turnover,Offensive Foul Turnover,1,0,492
+0022000697,676,PT00M02.20S,4,0,,1610612759,,,0,0,0,,0,,,0,h,SPURS Turnover: Shot Clock (T#11),Turnover,Shot Clock Turnover,0,0,493
+0022000697,677,PT00M00.00S,4,0,,0,,,0,0,0,,0,120,104,224,,End of 4th Period (10:48 PM EST),period,end,1,0,494

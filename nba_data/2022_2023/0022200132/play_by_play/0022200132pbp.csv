@@ -1,0 +1,515 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022200132,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (5:11 PM EST),period,start,0,0,1
+0022200132,4,PT12M00.00S,1,1610612753,ORL,1629626,Bol,B. Bol,0,0,0,,0,,,0,h,Jump Ball Bol vs. Sabonis: Tip to Suggs,Jump Ball,,1,0,2
+0022200132,7,PT11M37.00S,1,1610612753,ORL,1631094,Banchero,P. Banchero,-27,116,12,Missed,1,,,0,h,MISS Banchero 12' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,3
+0022200132,8,PT11M36.00S,1,1610612753,ORL,1629626,Bol,B. Bol,0,0,0,,0,,,0,h,Bol REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,4
+0022200132,9,PT11M33.00S,1,1610612753,ORL,1629626,Bol,B. Bol,-11,14,2,Made,1,2,0,2,h,Bol 2' Finger Roll Layup (2 PTS),Made Shot,Finger Roll Layup Shot,1,2,5
+0022200132,11,PT11M11.00S,1,1610612758,SAC,1628368,Fox,D. Fox,17,264,26,Made,1,2,3,5,v,Fox 26' 3PT Pullup Jump Shot (3 PTS),Made Shot,Pullup Jump shot,1,3,6
+0022200132,12,PT10M47.00S,1,1610612753,ORL,1630591,Suggs,J. Suggs,0,0,0,,0,,,0,h,Suggs Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,7
+0022200132,12,PT10M47.00S,1,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes STEAL (1 STL),,,1,0,8
+0022200132,14,PT10M41.00S,1,1610612758,SAC,1631099,Murray,K. Murray,74,258,27,Missed,1,,,0,v,MISS Murray 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,9
+0022200132,15,PT10M36.00S,1,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,,,0,h,Banchero REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,10
+0022200132,16,PT10M25.00S,1,1610612753,ORL,1631094,Banchero,P. Banchero,-42,16,4,Made,1,4,3,7,h,Banchero 4' Driving Layup (2 PTS) (Suggs 1 AST),Made Shot,Driving Layup Shot,1,2,11
+0022200132,18,PT10M18.00S,1,1610612758,SAC,203084,Barnes,H. Barnes,29,33,4,Missed,1,,,0,v,MISS Barnes 4' Running Layup,Missed Shot,Running Layup Shot,1,2,12
+0022200132,19,PT10M15.00S,1,1610612753,ORL,1629626,Bol,B. Bol,0,0,0,,0,,,0,h,Bol REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,13
+0022200132,20,PT10M12.00S,1,1610612753,ORL,1629626,Bol,B. Bol,-10,5,1,Made,1,6,3,9,h,Bol 1' Running Dunk (4 PTS),Made Shot,Running Dunk Shot,1,2,14
+0022200132,21,PT09M54.00S,1,1610612758,SAC,1628368,Fox,D. Fox,-16,29,3,Made,1,6,5,11,v,Fox 3' Cutting Layup Shot (5 PTS) (Sabonis 1 AST),Made Shot,Cutting Layup Shot,1,2,15
+0022200132,23,PT09M33.00S,1,1610612753,ORL,1630532,Wagner,F. Wagner,-109,1,11,Made,1,8,5,13,h,Wagner 11' Jump Shot (2 PTS),Made Shot,Jump Shot,1,2,16
+0022200132,24,PT09M32.00S,1,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,17
+0022200132,26,PT09M23.00S,1,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,18
+0022200132,26,PT09M23.00S,1,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,Carter Jr. STEAL (1 STL),,,1,0,19
+0022200132,28,PT09M16.00S,1,1610612753,ORL,1630532,Wagner,F. Wagner,-233,0,0,Made,1,11,5,16,h,Wagner 3PT Jump Shot (5 PTS) (Banchero 1 AST),Made Shot,Jump Shot,1,3,20
+0022200132,30,PT08M58.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,9,32,3,Missed,1,,,0,v,MISS Sabonis 3' Jump Shot,Missed Shot,Jump Shot,1,2,21
+0022200132,31,PT08M56.00S,1,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,Carter Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,22
+0022200132,32,PT08M34.00S,1,1610612753,ORL,1630532,Wagner,F. Wagner,-37,3,4,Made,1,13,5,18,h,Wagner 4' Reverse Layup (7 PTS) (Bol 1 AST),Made Shot,Reverse Layup Shot,1,2,23
+0022200132,34,PT08M27.00S,1,1610612758,SAC,203084,Barnes,H. Barnes,-137,220,26,Missed,1,,,0,v,MISS Barnes 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,24
+0022200132,35,PT08M24.00S,1,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,Carter Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,25
+0022200132,36,PT08M16.00S,1,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,,,0,h,Banchero Lost Ball Turnover (P1.T2),Turnover,Lost Ball,1,0,26
+0022200132,36,PT08M16.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis STEAL (1 STL),,,1,0,27
+0022200132,38,PT08M13.00S,1,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,Carter Jr. S.FOUL (P1.T1) (L.Wood),Foul,Shooting,1,0,28
+0022200132,40,PT08M13.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,13,6,19,v,Sabonis Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,29
+0022200132,41,PT08M13.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,MISS Sabonis Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,30
+0022200132,42,PT08M11.00S,1,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,Carter Jr. REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,31
+0022200132,43,PT08M02.00S,1,1610612753,ORL,1630591,Suggs,J. Suggs,0,0,0,,0,,,0,h,Suggs Discontinue Dribble Turnover (P2.T3),Turnover,Discontinue Dribble,1,0,32
+0022200132,44,PT07M57.00S,1,1610612758,SAC,1628368,Fox,D. Fox,-44,89,10,Missed,1,,,0,v,MISS Fox 10' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,33
+0022200132,45,PT07M53.00S,1,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,,,0,h,Banchero REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,34
+0022200132,46,PT07M42.00S,1,1610612753,ORL,1629626,Bol,B. Bol,-31,5,3,Made,1,15,6,21,h,Bol 3' Driving Finger Roll Layup (6 PTS) (Carter Jr. 1 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,35
+0022200132,48,PT07M27.00S,1,1610612758,SAC,203084,Barnes,H. Barnes,121,168,21,Missed,1,,,0,v,MISS Barnes 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,36
+0022200132,49,PT07M24.00S,1,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,Carter Jr. REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,37
+0022200132,50,PT07M19.00S,1,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,-10,195,20,Made,1,17,6,23,h,Carter Jr. 20' Pullup Jump Shot (2 PTS) (Wagner 1 AST),Made Shot,Pullup Jump shot,1,2,38
+0022200132,52,PT07M05.00S,1,1610612758,SAC,203084,Barnes,H. Barnes,34,29,4,Made,1,17,8,25,v,Barnes 4' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,39
+0022200132,53,PT06M50.00S,1,1610612753,ORL,1631094,Banchero,P. Banchero,11,27,3,Made,1,19,8,27,h,Banchero 3' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,40
+0022200132,54,PT06M50.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis S.FOUL (P1.T1) (D.Guthrie),Foul,Shooting,1,0,41
+0022200132,56,PT06M50.00S,1,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,SUB: Okeke FOR Carter Jr.,Substitution,,0,0,42
+0022200132,57,PT06M50.00S,1,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,SUB: Mitchell FOR Fox,Substitution,,0,0,43
+0022200132,58,PT06M50.00S,1,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,SUB: Lyles FOR Murray,Substitution,,0,0,44
+0022200132,62,PT06M50.00S,1,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,20,8,28,h,Banchero Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,45
+0022200132,63,PT06M39.00S,1,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,Huerter Traveling Turnover (P1.T2),Turnover,Traveling,1,0,46
+0022200132,64,PT06M24.00S,1,1610612758,SAC,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,Lyles S.FOUL (P1.T2) (L.Holtkamp),Foul,Shooting,1,0,47
+0022200132,66,PT06M24.00S,1,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,21,8,29,h,Wagner Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,48
+0022200132,67,PT06M24.00S,1,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,SUB: Monk FOR Huerter,Substitution,,0,0,49
+0022200132,69,PT06M24.00S,1,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,22,8,30,h,Wagner Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,50
+0022200132,70,PT06M01.00S,1,1610612758,SAC,1626168,Lyles,T. Lyles,-15,12,2,Made,1,22,10,32,v,Lyles 2' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,51
+0022200132,71,PT06M01.00S,1,1610612753,ORL,1629643,Okeke,C. Okeke,0,0,0,,0,,,0,h,Okeke S.FOUL (P1.T2) (D.Guthrie),Foul,Shooting,1,0,52
+0022200132,73,PT06M01.00S,1,1610612758,SAC,1626168,Lyles,T. Lyles,0,0,0,,0,22,11,33,v,Lyles Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,1,0,53
+0022200132,74,PT05M44.00S,1,1610612753,ORL,1630591,Suggs,J. Suggs,-94,120,15,Made,1,24,11,35,h,Suggs 15' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,54
+0022200132,75,PT05M35.00S,1,1610612753,ORL,1629626,Bol,B. Bol,0,0,0,,0,,,0,h,Bol P.FOUL (P1.T3) (L.Wood),Foul,Personal,1,0,55
+0022200132,77,PT05M35.00S,1,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,h,SUB: Ross FOR Wagner,Substitution,,0,0,56
+0022200132,79,PT05M26.00S,1,1610612758,SAC,1626168,Lyles,T. Lyles,-28,265,27,Made,1,24,14,38,v,Lyles 27' 3PT Jump Shot (6 PTS) (Monk 1 AST),Made Shot,Jump Shot,1,3,57
+0022200132,81,PT05M06.00S,1,1610612753,ORL,1629626,Bol,B. Bol,16,71,7,Made,1,26,14,40,h,Bol 7' Turnaround Jump Shot (8 PTS),Made Shot,Turnaround Jump Shot,1,2,58
+0022200132,82,PT04M55.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,-16,26,3,Made,1,26,16,42,v,Sabonis 3' Turnaround Hook Shot (3 PTS),Made Shot,Turnaround Hook Shot,1,2,59
+0022200132,83,PT04M43.00S,1,1610612753,ORL,1631094,Banchero,P. Banchero,16,15,2,Missed,1,,,0,h,MISS Banchero 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,60
+0022200132,84,PT04M40.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,61
+0022200132,85,PT04M37.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,-21,18,3,Made,1,26,18,44,v,Sabonis 3' Running Layup (5 PTS),Made Shot,Running Layup Shot,1,2,62
+0022200132,86,PT04M35.00S,1,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,63
+0022200132,87,PT04M35.00S,1,1610612753,ORL,1629626,Bol,B. Bol,0,0,0,,0,,,0,h,SUB: Harris FOR Bol,Substitution,,0,0,64
+0022200132,88,PT04M35.00S,1,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,SUB: Murray FOR Barnes,Substitution,,0,0,65
+0022200132,91,PT04M18.00S,1,1610612753,ORL,1629643,Okeke,C. Okeke,-228,15,0,Missed,1,,,0,h,MISS Okeke 3PT Jump Shot,Missed Shot,Jump Shot,1,3,66
+0022200132,92,PT04M14.00S,1,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,67
+0022200132,93,PT04M09.00S,1,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell Traveling Turnover (P1.T3),Turnover,Traveling,1,0,68
+0022200132,94,PT04M03.00S,1,1610612753,ORL,1630591,Suggs,J. Suggs,0,0,0,,0,,,0,h,Suggs OFF.Foul (P1) (L.Holtkamp),Foul,Offensive,1,0,69
+0022200132,96,PT04M03.00S,1,1610612753,ORL,1630591,Suggs,J. Suggs,0,0,0,,0,,,0,h,Suggs Offensive Foul Turnover (P3.T4),Turnover,Offensive Foul Turnover,1,0,70
+0022200132,97,PT03M50.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,-13,27,3,Made,1,26,20,46,v,Sabonis 3' Driving Layup (7 PTS) (Mitchell 1 AST),Made Shot,Driving Layup Shot,1,2,71
+0022200132,99,PT03M32.00S,1,1610612753,ORL,1631094,Banchero,P. Banchero,-94,66,11,Missed,1,,,0,h,MISS Banchero 11' Jump Shot,Missed Shot,Jump Shot,1,2,72
+0022200132,100,PT03M29.00S,1,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,Murray REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,73
+0022200132,101,PT03M24.00S,1,1610612758,SAC,1631099,Murray,K. Murray,-138,212,25,Made,1,26,23,49,v,Murray 25' 3PT Running Jump Shot (3 PTS) (Monk 2 AST),Made Shot,Running Jump Shot,1,3,74
+0022200132,103,PT03M05.00S,1,1610612753,ORL,1631094,Banchero,P. Banchero,38,151,16,Missed,1,,,0,h,MISS Banchero 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,75
+0022200132,104,PT03M04.00S,1,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,Murray REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,76
+0022200132,107,PT03M04.00S,1,1610612753,ORL,1630591,Suggs,J. Suggs,0,0,0,,0,,,0,h,SUB: Carter Jr. FOR Suggs,Substitution,,0,0,77
+0022200132,108,PT03M04.00S,1,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,,,0,h,SUB: Wagner FOR Banchero,Substitution,,0,0,78
+0022200132,113,PT02M46.00S,1,1610612758,SAC,1631099,Murray,K. Murray,120,241,27,Missed,1,,,0,v,MISS Murray 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,79
+0022200132,114,PT02M42.00S,1,1610612753,ORL,1630284,Harris,K. Harris,0,0,0,,0,,,0,h,Harris REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,80
+0022200132,116,PT02M29.00S,1,1610612753,ORL,1630284,Harris,K. Harris,234,27,24,Missed,1,,,0,h,MISS Harris 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,81
+0022200132,117,PT02M28.00S,1,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Unknown,0,0,82
+0022200132,118,PT02M28.00S,1,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,h,Wagner L.B.FOUL (P1.T4) (L.Wood),Foul,Loose Ball,1,0,83
+0022200132,120,PT02M28.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: Holmes FOR Sabonis,Substitution,,0,0,84
+0022200132,122,PT02M19.00S,1,1610612758,SAC,1630558,Mitchell,D. Mitchell,4,268,27,Missed,1,,,0,v,MISS Mitchell 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,85
+0022200132,123,PT02M19.00S,1,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Rebound,Rebound,Unknown,1,0,86
+0022200132,125,PT02M06.00S,1,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,-7,3,1,Made,1,28,23,51,h,Carter Jr. 1' Alley Oop Dunk (4 PTS) (Wagner 2 AST),Made Shot,Alley Oop Dunk Shot,1,2,87
+0022200132,127,PT01M49.00S,1,1610612758,SAC,1628370,Monk,M. Monk,29,75,8,Missed,1,,,0,v,MISS Monk 8' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,88
+0022200132,128,PT01M47.00S,1,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,Carter Jr. REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,89
+0022200132,129,PT01M40.00S,1,1610612753,ORL,1629643,Okeke,C. Okeke,4,21,2,Made,1,30,23,53,h,Okeke 2' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,90
+0022200132,130,PT01M22.00S,1,1610612758,SAC,1630558,Mitchell,D. Mitchell,-39,90,10,Missed,1,,,0,v,MISS Mitchell 10' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,91
+0022200132,131,PT01M22.00S,1,1610612753,ORL,1629643,Okeke,C. Okeke,0,0,0,,0,,,0,h,Okeke REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,92
+0022200132,132,PT01M01.00S,1,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,223,27,0,Made,1,33,23,56,h,Carter Jr. 3PT Jump Shot (7 PTS) (Ross 1 AST),Made Shot,Jump Shot,1,3,93
+0022200132,134,PT00M45.80S,1,1610612758,SAC,1628370,Monk,M. Monk,-140,217,26,Missed,1,,,0,v,MISS Monk 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,94
+0022200132,135,PT00M43.10S,1,1610612753,ORL,1629643,Okeke,C. Okeke,0,0,0,,0,,,0,h,Okeke REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,95
+0022200132,136,PT00M30.40S,1,1610612753,ORL,1630532,Wagner,F. Wagner,-23,34,4,Missed,1,,,0,h,MISS Wagner 4' Layup,Missed Shot,Layup Shot,1,2,96
+0022200132,137,PT00M27.70S,1,1610612758,SAC,1626158,Holmes,R. Holmes,0,0,0,,0,,,0,v,Holmes REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,97
+0022200132,140,PT00M10.20S,1,1610612758,SAC,1628370,Monk,M. Monk,-42,298,30,Missed,1,,,0,v,MISS Monk 30' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,98
+0022200132,141,PT00M08.00S,1,1610612758,SAC,1626158,Holmes,R. Holmes,0,0,0,,0,,,0,v,Holmes REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,99
+0022200132,142,PT00M01.70S,1,1610612758,SAC,1628370,Monk,M. Monk,6,26,3,Made,1,33,25,58,v,Monk 3' Driving Finger Roll Layup (2 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,100
+0022200132,143,PT00M00.00S,1,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,Carter Jr. Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,101
+0022200132,143,PT00M00.00S,1,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,Murray STEAL (1 STL),,,1,0,102
+0022200132,145,PT00M00.00S,1,1610612758,SAC,1631099,Murray,K. Murray,112,393,41,Missed,1,,,0,v,MISS Murray 41' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,103
+0022200132,146,PT00M00.00S,1,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Unknown,1,0,104
+0022200132,147,PT00M00.00S,1,0,,0,,,0,0,0,,0,33,25,58,,End of 1st Period (5:35 PM EST),period,end,1,0,105
+0022200132,151,PT12M00.00S,2,0,,0,,,0,0,0,,0,33,25,58,,Start of 2nd Period (5:37 PM EST),period,start,0,0,106
+0022200132,152,PT11M51.00S,2,1610612758,SAC,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,Lyles Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,107
+0022200132,152,PT11M51.00S,2,1610612753,ORL,203082,Ross,T. Ross,0,0,0,,0,,,0,h,Ross STEAL (1 STL),,,1,0,108
+0022200132,155,PT11M49.00S,2,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox Violation:Kicked Ball (D.Guthrie),Violation,Kicked Ball,0,0,109
+0022200132,156,PT11M34.00S,2,1610612758,SAC,1626158,Holmes,R. Holmes,0,0,0,,0,,,0,v,Holmes P.FOUL (P1.T1) (L.Wood),Foul,Personal,1,0,110
+0022200132,158,PT11M34.00S,2,1610612758,SAC,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,SUB: Davis FOR Lyles,Substitution,,0,0,111
+0022200132,160,PT11M28.00S,2,1610612753,ORL,1630532,Wagner,F. Wagner,17,14,2,Made,1,35,25,60,h,Wagner 2' Driving Finger Roll Layup (11 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,112
+0022200132,161,PT11M10.00S,2,1610612758,SAC,1631099,Murray,K. Murray,31,20,4,Missed,1,,,0,v,MISS Murray 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,113
+0022200132,161,PT11M10.00S,2,1610612753,ORL,1629643,Okeke,C. Okeke,0,0,0,,0,,,0,h,Okeke BLOCK (1 BLK),,,1,2,114
+0022200132,163,PT11M07.00S,2,1610612753,ORL,1630284,Harris,K. Harris,0,0,0,,0,,,0,h,Harris REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,115
+0022200132,164,PT11M05.00S,2,1610612753,ORL,1630284,Harris,K. Harris,-20,19,3,Missed,1,,,0,h,MISS Harris 3' Running Layup,Missed Shot,Running Layup Shot,1,2,116
+0022200132,165,PT11M05.00S,2,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,117
+0022200132,166,PT10M58.00S,2,1610612758,SAC,1626158,Holmes,R. Holmes,7,7,1,Made,1,35,27,62,v,Holmes 1' Cutting Dunk Shot (2 PTS) (Davis 1 AST),Made Shot,Cutting Dunk Shot,1,2,118
+0022200132,168,PT10M41.00S,2,1610612753,ORL,1630532,Wagner,F. Wagner,12,29,3,Made,1,37,27,64,h,Wagner 3' Driving Finger Roll Layup (13 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,119
+0022200132,169,PT10M17.00S,2,1610612758,SAC,1628368,Fox,D. Fox,29,257,26,Missed,1,,,0,v,MISS Fox 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,120
+0022200132,170,PT10M13.00S,2,1610612758,SAC,1626158,Holmes,R. Holmes,0,0,0,,0,,,0,v,Holmes REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,121
+0022200132,171,PT10M11.00S,2,1610612758,SAC,1626158,Holmes,R. Holmes,-22,22,3,Missed,1,,,0,v,MISS Holmes 3' Hook Shot,Missed Shot,Hook Shot,1,2,122
+0022200132,172,PT10M11.00S,2,1610612753,ORL,1629643,Okeke,C. Okeke,0,0,0,,0,,,0,h,Okeke REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,123
+0022200132,173,PT10M04.00S,2,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,4,262,26,Missed,1,,,0,h,MISS Carter Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,124
+0022200132,174,PT10M02.00S,2,1610612753,ORL,1630284,Harris,K. Harris,0,0,0,,0,,,0,h,Harris REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,125
+0022200132,175,PT10M02.00S,2,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk S.FOUL (P1.T2) (L.Holtkamp),Foul,Shooting,1,0,126
+0022200132,177,PT10M02.00S,2,1610612753,ORL,1630284,Harris,K. Harris,0,0,0,,0,38,27,65,h,Harris Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,127
+0022200132,178,PT10M02.00S,2,1610612753,ORL,1630284,Harris,K. Harris,0,0,0,,0,39,27,66,h,Harris Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,128
+0022200132,180,PT09M53.00S,2,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,Murray OFF.Foul (P1) (L.Wood),Foul,Offensive,1,0,129
+0022200132,182,PT09M53.00S,2,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,Murray Offensive Foul Turnover (P1.T5),Turnover,Offensive Foul Turnover,1,0,130
+0022200132,183,PT09M44.00S,2,1610612753,ORL,203082,Ross,T. Ross,0,0,0,,0,,,0,h,Ross OFF.Foul (P1) (D.Guthrie),Foul,Offensive,1,0,131
+0022200132,185,PT09M44.00S,2,1610612753,ORL,203082,Ross,T. Ross,0,0,0,,0,,,0,h,Ross Offensive Foul Turnover (P1.T6),Turnover,Offensive Foul Turnover,1,0,132
+0022200132,186,PT09M29.00S,2,1610612758,SAC,1628370,Monk,M. Monk,74,254,26,Made,1,39,30,69,v,Monk 26' 3PT Jump Shot (5 PTS) (Fox 1 AST),Made Shot,Jump Shot,1,3,133
+0022200132,188,PT09M17.00S,2,1610612753,ORL,1630284,Harris,K. Harris,-32,19,4,Made,1,41,30,71,h,Harris 4' Alley Oop Layup (4 PTS) (Wagner 3 AST),Made Shot,Alley Oop Layup shot,1,2,134
+0022200132,190,PT09M17.00S,2,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,135
+0022200132,191,PT09M17.00S,2,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,SUB: Huerter FOR Murray,Substitution,,0,0,136
+0022200132,192,PT09M17.00S,2,1610612758,SAC,1626158,Holmes,R. Holmes,0,0,0,,0,,,0,v,SUB: Sabonis FOR Holmes,Substitution,,0,0,137
+0022200132,195,PT09M07.00S,2,1610612758,SAC,1629056,Davis,T. Davis,25,20,3,Made,1,41,32,73,v,Davis 3' Cutting Layup Shot (2 PTS) (Fox 2 AST),Made Shot,Cutting Layup Shot,1,2,138
+0022200132,197,PT08M48.00S,2,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,-4,5,1,Made,1,43,32,75,h,Carter Jr. 1' Alley Oop Dunk (9 PTS) (Wagner 4 AST),Made Shot,Alley Oop Dunk Shot,1,2,139
+0022200132,199,PT08M38.00S,2,1610612758,SAC,1629056,Davis,T. Davis,-97,232,25,Missed,1,,,0,v,MISS Davis 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,140
+0022200132,200,PT08M34.00S,2,1610612753,ORL,203082,Ross,T. Ross,0,0,0,,0,,,0,h,Ross REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,141
+0022200132,201,PT08M23.00S,2,1610612753,ORL,1630532,Wagner,F. Wagner,17,10,2,Made,1,45,32,77,h,Wagner 2' Driving Finger Roll Layup (15 PTS) (Carter Jr. 2 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,142
+0022200132,202,PT08M04.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,-44,34,6,Made,1,45,34,79,v,Sabonis 6' Turnaround Hook Shot (9 PTS),Made Shot,Turnaround Hook Shot,1,2,143
+0022200132,203,PT07M50.00S,2,1610612753,ORL,1629643,Okeke,C. Okeke,-100,26,10,Missed,1,,,0,h,MISS Okeke 10' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,144
+0022200132,205,PT07M50.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,145
+0022200132,206,PT07M40.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,4,31,3,Made,1,45,36,81,v,Sabonis 3' Cutting Finger Roll Layup Shot (11 PTS) (Davis 2 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,146
+0022200132,208,PT07M24.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis S.FOUL (P2.T3) (D.Guthrie),Foul,Shooting,1,0,147
+0022200132,210,PT07M24.00S,2,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,46,36,82,h,Carter Jr. Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,148
+0022200132,211,PT07M24.00S,2,1610612753,ORL,203082,Ross,T. Ross,0,0,0,,0,,,0,h,SUB: Hampton FOR Ross,Substitution,,0,0,149
+0022200132,212,PT07M24.00S,2,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,SUB: Barnes FOR Davis,Substitution,,0,0,150
+0022200132,215,PT07M24.00S,2,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,47,36,83,h,Carter Jr. Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,151
+0022200132,216,PT07M11.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,51,76,9,Missed,1,,,0,v,MISS Sabonis 9' Hook Shot,Missed Shot,Hook Shot,1,2,152
+0022200132,217,PT07M09.00S,2,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,h,Wagner REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,153
+0022200132,218,PT06M55.00S,2,1610612753,ORL,1629643,Okeke,C. Okeke,-230,11,0,Missed,1,,,0,h,MISS Okeke 3PT Jump Shot,Missed Shot,Jump Shot,1,3,154
+0022200132,219,PT06M51.00S,2,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,Huerter REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,155
+0022200132,220,PT06M46.00S,2,1610612758,SAC,1628989,Huerter,K. Huerter,71,256,27,Made,1,47,39,86,v,Huerter 27' 3PT Jump Shot (3 PTS) (Sabonis 2 AST),Made Shot,Jump Shot,1,3,156
+0022200132,222,PT06M29.00S,2,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,Huerter P.FOUL (P1.T4) (D.Guthrie),Foul,Personal,1,0,157
+0022200132,224,PT06M29.00S,2,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,h,SUB: Suggs FOR Wagner,Substitution,,0,0,158
+0022200132,225,PT06M29.00S,2,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,SUB: Banchero FOR Carter Jr.,Substitution,,0,0,159
+0022200132,228,PT06M14.00S,2,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Turnover: Shot Clock (T#7),Turnover,Shot Clock Turnover,0,0,160
+0022200132,229,PT06M00.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,-1,49,5,Made,1,47,41,88,v,Sabonis 5' Driving Hook Shot (13 PTS),Made Shot,Driving Hook Shot,1,2,161
+0022200132,230,PT06M00.00S,2,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,,,0,h,Banchero S.FOUL (P1.T1) (L.Holtkamp),Foul,Shooting,1,0,162
+0022200132,232,PT06M00.00S,2,1610612753,ORL,1630284,Harris,K. Harris,0,0,0,,0,,,0,h,SUB: Bol FOR Harris,Substitution,,0,0,163
+0022200132,234,PT06M00.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,MISS Sabonis Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,164
+0022200132,235,PT05M55.00S,2,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,,,0,h,Banchero REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,165
+0022200132,236,PT05M42.00S,2,1610612753,ORL,1630591,Suggs,J. Suggs,-233,9,0,Missed,1,,,0,h,MISS Suggs 3PT Jump Shot,Missed Shot,Jump Shot,1,3,166
+0022200132,237,PT05M39.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,167
+0022200132,238,PT05M35.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis Lost Ball Turnover (P1.T6),Turnover,Lost Ball,1,0,168
+0022200132,238,PT05M35.00S,2,1610612753,ORL,1629643,Okeke,C. Okeke,0,0,0,,0,,,0,h,Okeke STEAL (1 STL),,,1,0,169
+0022200132,240,PT05M31.00S,2,1610612753,ORL,1631094,Banchero,P. Banchero,-4,0,0,Made,1,49,41,90,h,Banchero Running Alley Oop Dunk Shot (7 PTS) (Suggs 2 AST),Made Shot,Running Alley Oop Dunk Shot,1,2,170
+0022200132,242,PT05M19.00S,2,1610612758,SAC,203084,Barnes,H. Barnes,230,48,0,Missed,1,,,0,v,MISS Barnes 3PT Jump Shot,Missed Shot,Jump Shot,1,3,171
+0022200132,243,PT05M17.00S,2,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,,,0,h,Banchero REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,172
+0022200132,245,PT05M13.00S,2,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,SUB: Murray FOR Monk,Substitution,,0,0,173
+0022200132,247,PT05M10.00S,2,1610612753,ORL,1631094,Banchero,P. Banchero,-5,8,1,Made,1,51,41,92,h,Banchero 1' Alley Oop Dunk (9 PTS) (Suggs 3 AST),Made Shot,Alley Oop Dunk Shot,1,2,174
+0022200132,249,PT04M43.00S,2,1610612758,SAC,1628368,Fox,D. Fox,66,130,15,Missed,1,,,0,v,MISS Fox 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,175
+0022200132,250,PT04M40.00S,2,1610612753,ORL,1629626,Bol,B. Bol,0,0,0,,0,,,0,h,Bol REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,176
+0022200132,251,PT04M28.00S,2,1610612753,ORL,1631094,Banchero,P. Banchero,5,263,26,Missed,1,,,0,h,MISS Banchero 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,177
+0022200132,252,PT04M26.00S,2,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Unknown,0,0,178
+0022200132,254,PT04M26.00S,2,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,SUB: Lyles FOR Barnes,Substitution,,0,0,179
+0022200132,256,PT04M26.00S,2,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,180
+0022200132,259,PT04M07.00S,2,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,,,0,h,Banchero Violation:Kicked Ball (D.Guthrie),Violation,Kicked Ball,0,0,181
+0022200132,260,PT04M02.00S,2,1610612758,SAC,1628368,Fox,D. Fox,158,206,26,Missed,1,,,0,v,MISS Fox 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,182
+0022200132,261,PT03M58.00S,2,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,,,0,h,Banchero REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,183
+0022200132,262,PT03M43.00S,2,1610612753,ORL,1631094,Banchero,P. Banchero,11,80,8,Made,1,53,41,94,h,Banchero 8' Driving Floating Jump Shot (11 PTS),Made Shot,Driving Floating Jump Shot,1,2,184
+0022200132,263,PT03M36.00S,2,1610612758,SAC,1628368,Fox,D. Fox,6,70,7,Missed,1,,,0,v,MISS Fox 7' Layup,Missed Shot,Layup Shot,1,2,185
+0022200132,264,PT03M32.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,186
+0022200132,265,PT03M31.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,-2,31,3,Made,1,53,43,96,v,Sabonis 3' Putback Layup (15 PTS),Made Shot,Putback Layup Shot,1,2,187
+0022200132,266,PT03M14.00S,2,1610612753,ORL,1631094,Banchero,P. Banchero,-45,98,11,Made,1,55,43,98,h,Banchero 11' Pullup Jump Shot (13 PTS),Made Shot,Pullup Jump shot,1,2,188
+0022200132,267,PT02M58.00S,2,1610612753,ORL,1630181,Hampton,R. Hampton,0,0,0,,0,,,0,h,Hampton S.FOUL (P1.T2) (D.Guthrie),Foul,Shooting,1,0,189
+0022200132,269,PT02M58.00S,2,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,MISS Huerter Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,190
+0022200132,270,PT02M58.00S,2,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Normal Rebound,0,0,191
+0022200132,271,PT02M58.00S,2,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,MISS Huerter Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,192
+0022200132,272,PT02M55.00S,2,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,,,0,h,Banchero REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,193
+0022200132,273,PT02M44.00S,2,1610612753,ORL,1631094,Banchero,P. Banchero,-132,210,25,Missed,1,,,0,h,MISS Banchero 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,194
+0022200132,274,PT02M42.00S,2,1610612753,ORL,1629643,Okeke,C. Okeke,0,0,0,,0,,,0,h,Okeke REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,195
+0022200132,275,PT02M36.00S,2,1610612753,ORL,1630181,Hampton,R. Hampton,-33,255,26,Missed,1,,,0,h,MISS Hampton 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,196
+0022200132,276,PT02M31.00S,2,1610612753,ORL,1629643,Okeke,C. Okeke,0,0,0,,0,,,0,h,Okeke REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,197
+0022200132,277,PT02M28.00S,2,1610612753,ORL,1630181,Hampton,R. Hampton,13,21,2,Missed,1,,,0,h,MISS Hampton 2' Layup,Missed Shot,Layup Shot,1,2,198
+0022200132,277,PT02M28.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis BLOCK (1 BLK),,,1,2,199
+0022200132,279,PT02M23.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,200
+0022200132,284,PT02M23.00S,2,1610612753,ORL,1629643,Okeke,C. Okeke,0,0,0,,0,,,0,h,SUB: Carter Jr. FOR Okeke,Substitution,,0,0,201
+0022200132,286,PT02M16.00S,2,1610612758,SAC,1628989,Huerter,K. Huerter,38,169,17,Missed,1,,,0,v,MISS Huerter 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,202
+0022200132,287,PT02M15.00S,2,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Rebound,Rebound,Unknown,1,0,203
+0022200132,289,PT01M59.00S,2,1610612753,ORL,1631094,Banchero,P. Banchero,-1,6,1,Made,1,57,43,100,h,Banchero 1' Driving Dunk (15 PTS),Made Shot,Driving Dunk Shot,1,2,204
+0022200132,290,PT01M47.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,54,254,26,Missed,1,,,0,v,MISS Sabonis 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,205
+0022200132,291,PT01M47.00S,2,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,,,0,h,Banchero REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,206
+0022200132,292,PT01M37.00S,2,1610612753,ORL,1629626,Bol,B. Bol,-32,252,25,Made,1,60,43,103,h,Bol 25' 3PT Pullup Jump Shot (11 PTS) (Carter Jr. 3 AST),Made Shot,Pullup Jump shot,1,3,207
+0022200132,294,PT01M37.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis S.FOUL (P3.PN) (L.Holtkamp),Foul,Shooting,1,0,208
+0022200132,296,PT01M37.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: Metu FOR Sabonis,Substitution,,0,0,209
+0022200132,298,PT01M37.00S,2,1610612753,ORL,1629626,Bol,B. Bol,0,0,0,,0,61,43,104,h,Bol Free Throw 1 of 1 (12 PTS),Free Throw,Free Throw 1 of 1,1,0,210
+0022200132,299,PT01M21.00S,2,1610612758,SAC,1628368,Fox,D. Fox,9,64,6,Made,1,61,45,106,v,Fox 6' Driving Floating Jump Shot (7 PTS),Made Shot,Driving Floating Jump Shot,1,2,211
+0022200132,301,PT01M10.00S,2,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox P.FOUL (P1.PN) (L.Wood),Foul,Personal,1,0,212
+0022200132,303,PT01M10.00S,2,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,62,45,107,h,Carter Jr. Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,1,0,213
+0022200132,304,PT01M10.00S,2,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,63,45,108,h,Carter Jr. Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,214
+0022200132,305,PT00M54.90S,2,1610612758,SAC,1626168,Lyles,T. Lyles,234,65,24,Missed,1,,,0,v,MISS Lyles 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,215
+0022200132,306,PT00M49.10S,2,1610612753,ORL,1630181,Hampton,R. Hampton,0,0,0,,0,,,0,h,Hampton REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,216
+0022200132,307,PT00M39.10S,2,1610612753,ORL,1630181,Hampton,R. Hampton,38,68,8,Missed,1,,,0,h,MISS Hampton 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,217
+0022200132,307,PT00M39.10S,2,1610612758,SAC,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,Lyles BLOCK (1 BLK),,,1,2,218
+0022200132,309,PT00M34.70S,2,1610612758,SAC,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,Lyles REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,219
+0022200132,310,PT00M33.70S,2,1610612758,SAC,1628368,Fox,D. Fox,-15,22,3,Made,1,63,47,110,v,Fox 3' Running Layup (9 PTS),Made Shot,Running Layup Shot,1,2,220
+0022200132,311,PT00M15.30S,2,1610612753,ORL,1630591,Suggs,J. Suggs,-86,164,19,Made,1,65,47,112,h,Suggs 19' Pullup Jump Shot (4 PTS),Made Shot,Pullup Jump shot,1,2,221
+0022200132,313,PT00M04.80S,2,1610612753,ORL,1630591,Suggs,J. Suggs,0,0,0,,0,,,0,h,Suggs Personal Take Foul (P2.T3) (L.Holtkamp),Foul,Personal Take,1,0,222
+0022200132,315,PT00M04.80S,2,1610612753,ORL,1630591,Suggs,J. Suggs,0,0,0,,0,,,0,h,SUB: Harris FOR Suggs,Substitution,,0,0,223
+0022200132,317,PT00M00.00S,2,1610612758,SAC,1629002,Metu,C. Metu,-29,27,4,Missed,1,,,0,v,MISS Metu 4' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,224
+0022200132,318,PT00M00.00S,2,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,Carter Jr. REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,225
+0022200132,319,PT00M00.00S,2,0,,0,,,0,0,0,,0,65,47,112,,End of 2nd Period (6:05 PM EST),period,end,1,0,226
+0022200132,328,PT12M00.00S,3,0,,0,,,0,0,0,,0,65,47,112,,Start of 3rd Period (6:21 PM EST),period,start,0,0,227
+0022200132,329,PT11M51.00S,3,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,h,Wagner P.FOUL (P2.T1) (L.Holtkamp),Foul,Personal,1,0,228
+0022200132,331,PT11M36.00S,3,1610612758,SAC,203084,Barnes,H. Barnes,-29,15,3,Missed,1,,,0,v,MISS Barnes 3' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,229
+0022200132,332,PT11M33.00S,3,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,,,0,h,Banchero REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,230
+0022200132,333,PT11M31.00S,3,1610612753,ORL,1630591,Suggs,J. Suggs,0,0,0,,0,,,0,h,Suggs Out of Bounds - Bad Pass Turnover Turnover (P4.T8),Turnover,Out of Bounds - Bad Pass Turnover,1,0,231
+0022200132,334,PT11M17.00S,3,1610612758,SAC,1628989,Huerter,K. Huerter,-104,229,25,Missed,1,,,0,v,MISS Huerter 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,232
+0022200132,335,PT11M14.00S,3,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,h,Wagner REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,233
+0022200132,336,PT11M00.00S,3,1610612753,ORL,1631094,Banchero,P. Banchero,78,6,8,Made,1,67,47,114,h,Banchero 8' Driving Floating Jump Shot (17 PTS) (Suggs 4 AST),Made Shot,Driving Floating Jump Shot,1,2,234
+0022200132,338,PT10M52.00S,3,1610612753,ORL,1629626,Bol,B. Bol,0,0,0,,0,,,0,h,Bol S.FOUL (P2.T2) (D.Guthrie),Foul,Shooting,1,0,235
+0022200132,340,PT10M52.00S,3,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,67,48,115,v,Fox Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,236
+0022200132,341,PT10M52.00S,3,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,67,49,116,v,Fox Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,237
+0022200132,342,PT10M31.00S,3,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,140,28,14,Missed,1,,,0,h,MISS Carter Jr. 14' Jump Shot,Missed Shot,Jump Shot,1,2,238
+0022200132,343,PT10M28.00S,3,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,239
+0022200132,344,PT10M24.00S,3,1610612758,SAC,1628368,Fox,D. Fox,-129,229,26,Missed,1,,,0,v,MISS Fox 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,240
+0022200132,345,PT10M21.00S,3,1610612753,ORL,1629626,Bol,B. Bol,0,0,0,,0,,,0,h,Bol REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,241
+0022200132,346,PT10M13.00S,3,1610612753,ORL,1630591,Suggs,J. Suggs,0,0,0,,0,,,0,h,Suggs Out of Bounds - Bad Pass Turnover Turnover (P5.T9),Turnover,Out of Bounds - Bad Pass Turnover,1,0,242
+0022200132,347,PT09M56.00S,3,1610612758,SAC,1628989,Huerter,K. Huerter,27,250,25,Made,1,67,52,119,v,Huerter 25' 3PT Pullup Jump Shot (6 PTS) (Sabonis 3 AST),Made Shot,Pullup Jump shot,1,3,243
+0022200132,348,PT09M55.00S,3,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,244
+0022200132,350,PT09M37.00S,3,1610612753,ORL,1630532,Wagner,F. Wagner,-16,29,3,Missed,1,,,0,h,MISS Wagner 3' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,245
+0022200132,351,PT09M35.00S,3,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,246
+0022200132,352,PT09M30.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,-11,-2,1,Made,1,67,54,121,v,Sabonis 1' Running Dunk (17 PTS) (Huerter 1 AST),Made Shot,Running Dunk Shot,1,2,247
+0022200132,354,PT09M13.00S,3,1610612753,ORL,1630591,Suggs,J. Suggs,0,0,0,,0,,,0,h,Suggs OFF.Foul (P3) (L.Wood),Foul,Offensive,1,0,248
+0022200132,356,PT09M13.00S,3,1610612753,ORL,1630591,Suggs,J. Suggs,0,0,0,,0,,,0,h,Suggs Offensive Foul Turnover (P6.T10),Turnover,Offensive Foul Turnover,1,0,249
+0022200132,357,PT08M57.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,2,40,4,Made,1,67,56,123,v,Sabonis 4' Cutting Finger Roll Layup Shot (19 PTS) (Huerter 2 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,250
+0022200132,359,PT08M38.00S,3,1610612753,ORL,1631094,Banchero,P. Banchero,12,41,4,Made,1,69,56,125,h,Banchero 4' Turnaround Hook Shot (19 PTS),Made Shot,Turnaround Hook Shot,1,2,251
+0022200132,360,PT08M19.00S,3,1610612758,SAC,1628989,Huerter,K. Huerter,222,24,0,Made,1,69,59,128,v,Huerter 3PT Jump Shot (9 PTS) (Sabonis 4 AST),Made Shot,Jump Shot,1,3,252
+0022200132,362,PT07M59.00S,3,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,-102,241,26,Missed,1,,,0,h,MISS Carter Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,253
+0022200132,363,PT07M56.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,254
+0022200132,364,PT07M45.00S,3,1610612753,ORL,1629626,Bol,B. Bol,0,0,0,,0,,,0,h,Bol P.FOUL (P3.T3) (D.Guthrie),Foul,Personal,1,0,255
+0022200132,366,PT07M32.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,102,26,11,Missed,1,,,0,v,MISS Sabonis 11' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,256
+0022200132,366,PT07M32.00S,3,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,,,0,h,Banchero BLOCK (1 BLK),,,1,2,257
+0022200132,367,PT07M29.00S,3,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,258
+0022200132,369,PT07M27.00S,3,1610612758,SAC,203084,Barnes,H. Barnes,15,24,3,Made,1,69,61,130,v,Barnes 3' Putback Layup (4 PTS),Made Shot,Putback Layup Shot,1,2,259
+0022200132,370,PT07M12.00S,3,1610612753,ORL,1630532,Wagner,F. Wagner,27,22,3,Made,1,71,61,132,h,Wagner 3' Driving Layup (17 PTS) (Carter Jr. 4 AST),Made Shot,Driving Layup Shot,1,2,260
+0022200132,372,PT07M05.00S,3,1610612753,ORL,1630591,Suggs,J. Suggs,0,0,0,,0,,,0,h,Suggs S.FOUL (P4.T4) (L.Holtkamp),Foul,Shooting,1,0,261
+0022200132,374,PT07M05.00S,3,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,71,62,133,v,Fox Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,1,0,262
+0022200132,375,PT07M05.00S,3,1610612753,ORL,1630591,Suggs,J. Suggs,0,0,0,,0,,,0,h,SUB: Hampton FOR Suggs,Substitution,,0,0,263
+0022200132,377,PT07M05.00S,3,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,71,63,134,v,Fox Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,264
+0022200132,379,PT06M53.00S,3,1610612753,ORL,1631094,Banchero,P. Banchero,-27,31,4,Missed,1,,,0,h,MISS Banchero 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,265
+0022200132,380,PT06M50.00S,3,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,266
+0022200132,381,PT06M45.00S,3,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox Lost Ball Turnover (P1.T7),Turnover,Lost Ball,1,0,267
+0022200132,381,PT06M45.00S,3,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,h,Wagner STEAL (1 STL),,,1,0,268
+0022200132,383,PT06M33.00S,3,1610612753,ORL,1630181,Hampton,R. Hampton,-38,69,8,Missed,1,,,0,h,MISS Hampton 8' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,269
+0022200132,384,PT06M31.00S,3,1610612753,ORL,1630181,Hampton,R. Hampton,0,0,0,,0,,,0,h,Hampton REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,270
+0022200132,385,PT06M28.00S,3,1610612753,ORL,1630181,Hampton,R. Hampton,27,25,4,Made,1,73,63,136,h,Hampton 4' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,271
+0022200132,386,PT06M15.00S,3,1610612758,SAC,1631099,Murray,K. Murray,-76,103,13,Missed,1,,,0,v,MISS Murray 13' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,272
+0022200132,387,PT06M12.00S,3,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,Carter Jr. REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,273
+0022200132,388,PT06M03.00S,3,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,Carter Jr. Bad Pass Turnover (P2.T11),Turnover,Bad Pass,1,0,274
+0022200132,388,PT06M03.00S,3,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox STEAL (1 STL),,,1,0,275
+0022200132,390,PT05M58.00S,3,1610612758,SAC,1628368,Fox,D. Fox,-2,110,11,Made,1,73,65,138,v,Fox 11' Driving Floating Jump Shot (15 PTS),Made Shot,Driving Floating Jump Shot,1,2,276
+0022200132,391,PT05M41.00S,3,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,Carter Jr. Offensive Charge Foul (P2) (L.Holtkamp),Foul,Offensive Charge,1,0,277
+0022200132,393,PT05M41.00S,3,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,Carter Jr. Offensive Foul Turnover (P3.T12),Turnover,Offensive Foul Turnover,1,0,278
+0022200132,394,PT05M41.00S,3,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,Carter Jr. T.FOUL (P2.T4) (L.Holtkamp),Foul,Technical,0,0,279
+0022200132,395,PT05M41.00S,3,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,73,66,139,v,Fox Free Throw Technical (16 PTS),Free Throw,Free Throw Technical,1,0,280
+0022200132,396,PT05M25.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,27,35,4,Made,1,73,68,141,v,Sabonis 4' Hook Shot (21 PTS),Made Shot,Hook Shot,1,2,281
+0022200132,397,PT05M25.00S,3,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,282
+0022200132,398,PT05M25.00S,3,1610612753,ORL,1629626,Bol,B. Bol,0,0,0,,0,,,0,h,SUB: Harris FOR Bol,Substitution,,0,0,283
+0022200132,399,PT05M25.00S,3,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,h,SUB: Ross FOR Wagner,Substitution,,0,0,284
+0022200132,400,PT05M25.00S,3,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,SUB: Lyles FOR Murray,Substitution,,0,0,285
+0022200132,405,PT05M11.00S,3,1610612753,ORL,203082,Ross,T. Ross,0,0,0,,0,,,0,h,Ross Step Out of Bounds Turnover (P2.T13),Turnover,Step Out of Bounds Turnover,1,0,286
+0022200132,406,PT05M01.00S,3,1610612758,SAC,1628368,Fox,D. Fox,-64,93,11,Made,1,73,70,143,v,Fox 11' Pullup Jump Shot (18 PTS),Made Shot,Pullup Jump shot,1,2,287
+0022200132,407,PT04M42.00S,3,1610612753,ORL,1631094,Banchero,P. Banchero,-23,67,7,Made,1,75,70,145,h,Banchero 7' Pullup Jump Shot (21 PTS) (Hampton 1 AST),Made Shot,Pullup Jump shot,1,2,288
+0022200132,409,PT04M32.00S,3,1610612758,SAC,1628368,Fox,D. Fox,-29,14,3,Made,1,75,72,147,v,Fox 3' Driving Layup (20 PTS),Made Shot,Driving Layup Shot,1,2,289
+0022200132,410,PT04M15.00S,3,1610612753,ORL,1630284,Harris,K. Harris,86,254,27,Missed,1,,,0,h,MISS Harris 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,290
+0022200132,411,PT04M13.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,291
+0022200132,412,PT04M04.00S,3,1610612758,SAC,1626168,Lyles,T. Lyles,85,245,26,Missed,1,,,0,v,MISS Lyles 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,292
+0022200132,413,PT04M00.00S,3,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,Carter Jr. REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,293
+0022200132,414,PT03M44.00S,3,1610612753,ORL,1631094,Banchero,P. Banchero,74,138,16,Missed,1,,,0,h,MISS Banchero 16' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,294
+0022200132,415,PT03M42.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,295
+0022200132,416,PT03M37.00S,3,1610612758,SAC,1626168,Lyles,T. Lyles,11,24,3,Missed,1,,,0,v,MISS Lyles 3' Running Layup,Missed Shot,Running Layup Shot,1,2,296
+0022200132,417,PT03M34.00S,3,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,,,0,h,Banchero REBOUND (Off:0 Def:9),Rebound,Unknown,1,0,297
+0022200132,418,PT03M25.00S,3,1610612753,ORL,203082,Ross,T. Ross,42,26,5,Missed,1,,,0,h,MISS Ross 5' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,298
+0022200132,419,PT03M22.00S,3,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,299
+0022200132,420,PT03M18.00S,3,1610612758,SAC,1628989,Huerter,K. Huerter,-29,260,26,Missed,1,,,0,v,MISS Huerter 26' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,300
+0022200132,421,PT03M15.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,301
+0022200132,422,PT03M15.00S,3,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,,,0,h,Banchero S.FOUL (P2.PN) (L.Wood),Foul,Shooting,1,0,302
+0022200132,424,PT03M15.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,MISS Sabonis Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,303
+0022200132,425,PT03M15.00S,3,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Normal Rebound,0,0,304
+0022200132,426,PT03M15.00S,3,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,SUB: Okeke FOR Carter Jr.,Substitution,,0,0,305
+0022200132,427,PT03M15.00S,3,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,SUB: Monk FOR Huerter,Substitution,,0,0,306
+0022200132,430,PT03M15.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,MISS Sabonis Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,307
+0022200132,431,PT03M12.00S,3,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,,,0,h,Banchero REBOUND (Off:0 Def:10),Rebound,Unknown,1,0,308
+0022200132,432,PT02M59.00S,3,1610612753,ORL,1631094,Banchero,P. Banchero,15,263,26,Missed,1,,,0,h,MISS Banchero 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,309
+0022200132,433,PT02M56.00S,3,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,310
+0022200132,434,PT02M50.00S,3,1610612758,SAC,1628368,Fox,D. Fox,15,22,3,Made,1,75,74,149,v,Fox 3' Driving Finger Roll Layup (22 PTS) (Monk 3 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,311
+0022200132,436,PT02M33.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis S.FOUL (P4.T1) (L.Holtkamp),Foul,Shooting,1,0,312
+0022200132,438,PT02M33.00S,3,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,313
+0022200132,439,PT02M33.00S,3,0,,436,Howard,J. Howard,0,0,0,,0,75,74,149,,Instant Replay3rd Period (6:42 PM EST),Instant Replay,Coach Challenge Ruling Stands,1,0,314
+0022200132,440,PT02M33.00S,3,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,SUB: Mitchell FOR Fox,Substitution,,0,0,315
+0022200132,441,PT02M33.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: Metu FOR Sabonis,Substitution,,0,0,316
+0022200132,444,PT02M33.00S,3,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,76,74,150,h,Banchero Free Throw 1 of 2 (22 PTS),Free Throw,Free Throw 1 of 2,1,0,317
+0022200132,445,PT02M33.00S,3,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,77,74,151,h,Banchero Free Throw 2 of 2 (23 PTS),Free Throw,Free Throw 2 of 2,1,0,318
+0022200132,446,PT02M19.00S,3,1610612758,SAC,1628370,Monk,M. Monk,134,205,24,Missed,1,,,0,v,MISS Monk 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,319
+0022200132,447,PT02M12.00S,3,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,320
+0022200132,448,PT02M12.00S,3,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,Made,1,77,76,153,v,Barnes Tip Layup Shot (6 PTS),Made Shot,Tip Layup Shot,1,2,321
+0022200132,449,PT02M03.00S,3,1610612753,ORL,1630181,Hampton,R. Hampton,0,0,0,,0,,,0,h,Hampton Traveling Turnover (P1.T14),Turnover,Traveling,1,0,322
+0022200132,450,PT01M54.00S,3,1610612753,ORL,1630284,Harris,K. Harris,0,0,0,,0,,,0,h,Harris P.FOUL (P1.PN) (D.Guthrie),Foul,Personal,1,0,323
+0022200132,452,PT01M54.00S,3,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,77,77,154,v,Metu Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,324
+0022200132,453,PT01M54.00S,3,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,,,0,h,SUB: Wagner FOR Banchero,Substitution,,0,0,325
+0022200132,455,PT01M54.00S,3,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,77,78,155,v,Metu Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,326
+0022200132,456,PT01M39.00S,3,1610612753,ORL,1629643,Okeke,C. Okeke,0,0,0,,0,,,0,h,Okeke Step Out of Bounds Turnover (P1.T15),Turnover,Step Out of Bounds Turnover,1,0,327
+0022200132,457,PT01M39.00S,3,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,SUB: Davis FOR Barnes,Substitution,,0,0,328
+0022200132,459,PT01M28.00S,3,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell OFF.Foul (P1) (L.Wood),Foul,Offensive,1,0,329
+0022200132,461,PT01M28.00S,3,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell Offensive Foul Turnover (P2.T8),Turnover,Offensive Foul Turnover,1,0,330
+0022200132,462,PT01M11.00S,3,1610612753,ORL,203082,Ross,T. Ross,23,31,4,Missed,1,,,0,h,MISS Ross 4' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,331
+0022200132,463,PT01M09.00S,3,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,Davis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,332
+0022200132,464,PT00M57.90S,3,1610612758,SAC,1629056,Davis,T. Davis,-23,29,4,Missed,1,,,0,v,MISS Davis 4' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,333
+0022200132,464,PT00M57.90S,3,1610612753,ORL,1629643,Okeke,C. Okeke,0,0,0,,0,,,0,h,Okeke BLOCK (2 BLK),,,1,2,334
+0022200132,466,PT00M54.50S,3,1610612753,ORL,1629643,Okeke,C. Okeke,0,0,0,,0,,,0,h,Okeke REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,335
+0022200132,467,PT00M51.00S,3,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell P.FOUL (P2.T2) (D.Guthrie),Foul,Personal,1,0,336
+0022200132,469,PT00M42.00S,3,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,h,Wagner Bad Pass Turnover (P1.T16),Turnover,Bad Pass,1,0,337
+0022200132,469,PT00M42.00S,3,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,Davis STEAL (1 STL),,,1,0,338
+0022200132,471,PT00M38.10S,3,1610612758,SAC,1629002,Metu,C. Metu,-5,10,1,Made,1,77,80,157,v,Metu 1' Running Alley Oop Dunk Shot (4 PTS) (Davis 3 AST),Made Shot,Running Alley Oop Dunk Shot,1,2,339
+0022200132,473,PT00M25.90S,3,1610612753,ORL,1629643,Okeke,C. Okeke,-37,249,25,Missed,1,,,0,h,MISS Okeke 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,340
+0022200132,474,PT00M22.70S,3,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,341
+0022200132,475,PT00M01.50S,3,1610612758,SAC,1626168,Lyles,T. Lyles,96,245,26,Made,1,77,83,160,v,Lyles 26' 3PT Jump Shot (9 PTS) (Monk 4 AST),Made Shot,Jump Shot,1,3,342
+0022200132,477,PT00M00.00S,3,1610612753,ORL,1630532,Wagner,F. Wagner,161,621,64,Missed,1,,,0,h,MISS Wagner 64' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,343
+0022200132,478,PT00M00.00S,3,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Rebound,Rebound,Unknown,0,0,344
+0022200132,479,PT00M00.00S,3,0,,0,,,0,0,0,,0,77,83,160,,End of 3rd Period (6:49 PM EST),period,end,1,0,345
+0022200132,484,PT12M00.00S,4,0,,0,,,0,0,0,,0,77,83,160,,Start of 4th Period (6:52 PM EST),period,start,0,0,346
+0022200132,486,PT11M40.00S,4,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,h,Wagner OFF.Foul (P3) (L.Holtkamp),Foul,Offensive,1,0,347
+0022200132,488,PT11M40.00S,4,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,h,Wagner Offensive Foul Turnover (P2.T17),Turnover,Offensive Foul Turnover,1,0,348
+0022200132,489,PT11M27.00S,4,1610612758,SAC,1629056,Davis,T. Davis,-131,220,26,Made,1,77,86,163,v,Davis 26' 3PT Jump Shot (5 PTS) (Lyles 1 AST),Made Shot,Jump Shot,1,3,349
+0022200132,492,PT11M04.00S,4,1610612753,ORL,1630181,Hampton,R. Hampton,26,34,4,Made,1,79,86,165,h,Hampton 4' Turnaround Jump Shot (4 PTS),Made Shot,Turnaround Jump Shot,1,2,350
+0022200132,493,PT11M04.00S,4,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk S.FOUL (P2.T1) (L.Holtkamp),Foul,Shooting,1,0,351
+0022200132,495,PT11M04.00S,4,1610612753,ORL,1630181,Hampton,R. Hampton,0,0,0,,0,80,86,166,h,Hampton Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,352
+0022200132,496,PT10M55.00S,4,1610612753,ORL,1629678,Schofield,A. Schofield,0,0,0,,0,,,0,h,Schofield Violation:Kicked Ball (L.Wood),Violation,Kicked Ball,0,0,353
+0022200132,497,PT10M44.00S,4,1610612758,SAC,1626168,Lyles,T. Lyles,224,26,0,Made,1,80,89,169,v,Lyles 3PT Jump Shot (12 PTS) (Monk 5 AST),Made Shot,Jump Shot,1,3,354
+0022200132,499,PT10M24.00S,4,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk P.FOUL (P3.T2) (D.Guthrie),Foul,Personal,1,0,355
+0022200132,501,PT10M12.00S,4,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,Davis S.FOUL (P1.T3) (D.Guthrie),Foul,Shooting,1,0,356
+0022200132,503,PT10M12.00S,4,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,Davis T.FOUL (P1.T3) (D.Guthrie),Foul,Technical,1,0,357
+0022200132,504,PT10M12.00S,4,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,81,89,170,h,Wagner Free Throw Technical (18 PTS),Free Throw,Free Throw Technical,1,0,358
+0022200132,505,PT10M12.00S,4,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,h,MISS Wagner Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,359
+0022200132,506,PT10M12.00S,4,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Rebound,Rebound,Normal Rebound,0,0,360
+0022200132,507,PT10M12.00S,4,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,82,89,171,h,Wagner Free Throw 2 of 2 (19 PTS),Free Throw,Free Throw 2 of 2,1,0,361
+0022200132,508,PT09M55.00S,4,1610612758,SAC,1628370,Monk,M. Monk,-32,253,26,Made,1,82,92,174,v,Monk 26' 3PT Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,3,362
+0022200132,509,PT09M39.00S,4,1610612753,ORL,1630532,Wagner,F. Wagner,21,46,5,Missed,1,,,0,h,MISS Wagner 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,363
+0022200132,509,PT09M39.00S,4,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,Davis BLOCK (1 BLK),,,1,2,364
+0022200132,511,PT09M35.00S,4,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,365
+0022200132,512,PT09M33.00S,4,1610612758,SAC,1629056,Davis,T. Davis,-29,255,26,Missed,1,,,0,v,MISS Davis 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,366
+0022200132,513,PT09M28.00S,4,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,h,Wagner REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,367
+0022200132,514,PT09M20.00S,4,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu Violation:Kicked Ball (D.Guthrie),Violation,Kicked Ball,0,0,368
+0022200132,515,PT09M20.00S,4,1610612753,ORL,1629643,Okeke,C. Okeke,0,0,0,,0,,,0,h,SUB: Banchero FOR Okeke,Substitution,,0,0,369
+0022200132,516,PT09M20.00S,4,1610612753,ORL,1630181,Hampton,R. Hampton,0,0,0,,0,,,0,h,SUB: Suggs FOR Hampton,Substitution,,0,0,370
+0022200132,517,PT09M20.00S,4,1610612753,ORL,1629678,Schofield,A. Schofield,0,0,0,,0,,,0,h,SUB: Carter Jr. FOR Schofield,Substitution,,0,0,371
+0022200132,518,PT09M20.00S,4,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,SUB: Huerter FOR Davis,Substitution,,0,0,372
+0022200132,519,PT09M20.00S,4,1610612758,SAC,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,SUB: Barnes FOR Lyles,Substitution,,0,0,373
+0022200132,525,PT09M13.00S,4,1610612753,ORL,1630532,Wagner,F. Wagner,22,48,5,Missed,1,,,0,h,MISS Wagner 5' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,374
+0022200132,526,PT09M11.00S,4,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,,,0,h,Banchero REBOUND (Off:1 Def:10),Rebound,Unknown,1,0,375
+0022200132,527,PT09M10.00S,4,1610612753,ORL,1631094,Banchero,P. Banchero,13,29,3,Made,1,84,92,176,h,Banchero 3' Putback Layup (25 PTS),Made Shot,Putback Layup Shot,1,2,376
+0022200132,528,PT08M52.00S,4,1610612758,SAC,1628370,Monk,M. Monk,104,237,26,Missed,1,,,0,v,MISS Monk 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,377
+0022200132,529,PT08M52.00S,4,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,,,0,h,Banchero REBOUND (Off:1 Def:11),Rebound,Unknown,1,0,378
+0022200132,531,PT08M40.00S,4,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,SUB: Fox FOR Metu,Substitution,,0,0,379
+0022200132,532,PT08M40.00S,4,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,SUB: Sabonis FOR Mitchell,Substitution,,0,0,380
+0022200132,535,PT08M24.00S,4,1610612753,ORL,1629626,Bol,B. Bol,45,117,13,Made,1,86,92,178,h,Bol 13' Floating Jump Shot (14 PTS) (Wagner 5 AST),Made Shot,Floating Jump shot,1,2,381
+0022200132,537,PT08M10.00S,4,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox Lost Ball Turnover (P2.T9),Turnover,Lost Ball,1,0,382
+0022200132,537,PT08M10.00S,4,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,h,Wagner STEAL (2 STL),,,1,0,383
+0022200132,539,PT08M03.00S,4,1610612753,ORL,1629626,Bol,B. Bol,4,34,3,Made,1,88,92,180,h,Bol 3' Driving Layup (16 PTS) (Suggs 5 AST),Made Shot,Driving Layup Shot,1,2,384
+0022200132,541,PT08M03.00S,4,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,385
+0022200132,542,PT08M03.00S,4,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,SUB: Lyles FOR Monk,Substitution,,0,0,386
+0022200132,544,PT07M48.00S,4,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis Bad Pass Turnover (P2.T10),Turnover,Bad Pass,1,0,387
+0022200132,544,PT07M48.00S,4,1610612753,ORL,1630591,Suggs,J. Suggs,0,0,0,,0,,,0,h,Suggs STEAL (1 STL),,,1,0,388
+0022200132,546,PT07M44.00S,4,1610612753,ORL,1631094,Banchero,P. Banchero,4,12,1,Made,1,90,92,182,h,Banchero 1' Running Dunk (27 PTS) (Suggs 6 AST),Made Shot,Running Dunk Shot,1,2,389
+0022200132,548,PT07M43.00S,4,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Violation: Delay of game Violation,Violation,Delay Of Game,0,0,390
+0022200132,549,PT07M32.00S,4,1610612753,ORL,1630591,Suggs,J. Suggs,0,0,0,,0,,,0,h,Suggs S.FOUL (P5.T1) (L.Wood),Foul,Shooting,1,0,391
+0022200132,551,PT07M32.00S,4,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,MISS Sabonis Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,392
+0022200132,552,PT07M32.00S,4,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Normal Rebound,0,0,393
+0022200132,553,PT07M32.00S,4,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,MISS Sabonis Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,394
+0022200132,554,PT07M28.00S,4,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,,,0,h,Banchero REBOUND (Off:1 Def:12),Rebound,Unknown,1,0,395
+0022200132,555,PT07M17.00S,4,1610612753,ORL,1630532,Wagner,F. Wagner,26,17,3,Missed,1,,,0,h,MISS Wagner 3' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,396
+0022200132,556,PT07M14.00S,4,1610612758,SAC,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,Lyles REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,397
+0022200132,557,PT07M03.00S,4,1610612758,SAC,1626168,Lyles,T. Lyles,-22,47,5,Missed,1,,,0,v,MISS Lyles 5' Layup,Missed Shot,Layup Shot,1,2,398
+0022200132,557,PT07M03.00S,4,1610612753,ORL,1630591,Suggs,J. Suggs,0,0,0,,0,,,0,h,Suggs BLOCK (1 BLK),,,1,2,399
+0022200132,558,PT07M01.00S,4,1610612753,ORL,1629626,Bol,B. Bol,0,0,0,,0,,,0,h,Bol REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,400
+0022200132,559,PT06M40.00S,4,1610612753,ORL,1631094,Banchero,P. Banchero,-143,68,16,Made,1,92,92,184,h,Banchero 16' Turnaround Jump Shot (29 PTS) (Wagner 6 AST),Made Shot,Turnaround Jump Shot,1,2,401
+0022200132,561,PT06M22.00S,4,1610612758,SAC,1628368,Fox,D. Fox,9,267,27,Missed,1,,,0,v,MISS Fox 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,402
+0022200132,562,PT06M17.00S,4,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,,,0,h,Banchero REBOUND (Off:1 Def:13),Rebound,Unknown,1,0,403
+0022200132,563,PT06M09.00S,4,1610612753,ORL,1629626,Bol,B. Bol,105,2,11,Made,1,94,92,186,h,Bol 11' Turnaround Jump Shot (18 PTS),Made Shot,Turnaround Jump Shot,1,2,404
+0022200132,565,PT05M49.00S,4,1610612758,SAC,1626168,Lyles,T. Lyles,-233,1,0,Made,1,94,95,189,v,Lyles 3PT Jump Shot (15 PTS) (Sabonis 5 AST),Made Shot,Jump Shot,1,3,405
+0022200132,567,PT05M23.00S,4,1610612753,ORL,1630532,Wagner,F. Wagner,31,17,4,Made,1,96,95,191,h,Wagner 4' Driving Finger Roll Layup (21 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,406
+0022200132,568,PT05M07.00S,4,1610612758,SAC,203084,Barnes,H. Barnes,-205,142,25,Missed,1,,,0,v,MISS Barnes 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,407
+0022200132,569,PT05M05.00S,4,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,Carter Jr. REBOUND (Off:0 Def:9),Rebound,Unknown,1,0,408
+0022200132,570,PT04M46.00S,4,1610612753,ORL,1630532,Wagner,F. Wagner,109,238,26,Missed,1,,,0,h,MISS Wagner 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,409
+0022200132,571,PT04M41.00S,4,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,410
+0022200132,572,PT04M35.00S,4,1610612758,SAC,1628368,Fox,D. Fox,-33,110,11,Missed,1,,,0,v,MISS Fox 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,411
+0022200132,573,PT04M31.00S,4,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,,,0,h,Banchero REBOUND (Off:1 Def:14),Rebound,Unknown,1,0,412
+0022200132,574,PT04M14.00S,4,1610612753,ORL,1630532,Wagner,F. Wagner,190,179,26,Missed,1,,,0,h,MISS Wagner 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,413
+0022200132,575,PT04M10.00S,4,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,414
+0022200132,577,PT04M02.00S,4,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,Carter Jr. S.FOUL (P3.T2) (D.Guthrie),Foul,Shooting,1,0,415
+0022200132,579,PT04M02.00S,4,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,MISS Sabonis Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,416
+0022200132,580,PT04M02.00S,4,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Normal Rebound,0,0,417
+0022200132,581,PT04M02.00S,4,1610612758,SAC,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,SUB: Monk FOR Lyles,Substitution,,0,0,418
+0022200132,584,PT04M02.00S,4,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,96,96,192,v,Sabonis Free Throw 2 of 2 (22 PTS),Free Throw,Free Throw 2 of 2,1,0,419
+0022200132,585,PT03M50.00S,4,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,Huerter P.FOUL (P2.T4) (L.Wood),Foul,Personal,1,0,420
+0022200132,587,PT03M50.00S,4,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: Metu FOR Sabonis,Substitution,,0,0,421
+0022200132,598,PT03M39.00S,4,1610612753,ORL,1631094,Banchero,P. Banchero,-11,49,5,Missed,1,,,0,h,MISS Banchero 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,422
+0022200132,598,PT03M39.00S,4,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,Huerter BLOCK (1 BLK),,,1,2,423
+0022200132,600,PT03M39.00S,4,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Unknown,0,0,424
+0022200132,591,PT03M26.00S,4,1610612758,SAC,1628370,Monk,M. Monk,-12,24,3,Made,1,96,98,194,v,Monk 3' Cutting Layup Shot (10 PTS) (Metu 1 AST),Made Shot,Cutting Layup Shot,1,2,425
+0022200132,593,PT03M08.00S,4,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox P.FOUL (P2.PN) (D.Guthrie),Foul,Personal,1,0,426
+0022200132,595,PT03M08.00S,4,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,97,98,195,h,Banchero Free Throw 1 of 2 (30 PTS),Free Throw,Free Throw 1 of 2,1,0,427
+0022200132,596,PT03M08.00S,4,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,428
+0022200132,601,PT03M08.00S,4,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,429
+0022200132,602,PT03M08.00S,4,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,98,98,196,h,Banchero Free Throw 2 of 2 (31 PTS),Free Throw,Free Throw 2 of 2,1,0,430
+0022200132,604,PT02M55.00S,4,1610612758,SAC,1628368,Fox,D. Fox,97,152,18,Missed,1,,,0,v,MISS Fox 18' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,431
+0022200132,605,PT02M51.00S,4,1610612753,ORL,1629626,Bol,B. Bol,0,0,0,,0,,,0,h,Bol REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,432
+0022200132,606,PT02M35.00S,4,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,2,10,1,Made,1,100,98,198,h,Carter Jr. 1' Cutting Dunk Shot (15 PTS) (Banchero 2 AST),Made Shot,Cutting Dunk Shot,1,2,433
+0022200132,608,PT02M21.00S,4,1610612758,SAC,1628989,Huerter,K. Huerter,105,261,28,Missed,1,,,0,v,MISS Huerter 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,434
+0022200132,609,PT02M17.00S,4,1610612753,ORL,1631094,Banchero,P. Banchero,0,0,0,,0,,,0,h,Banchero REBOUND (Off:1 Def:15),Rebound,Unknown,1,0,435
+0022200132,610,PT01M57.00S,4,1610612753,ORL,1629626,Bol,B. Bol,-146,105,18,Made,1,102,98,200,h,Bol 18' Jump Shot (20 PTS) (Banchero 3 AST),Made Shot,Jump Shot,1,2,436
+0022200132,612,PT01M41.00S,4,1610612758,SAC,1629002,Metu,C. Metu,0,3,0,Made,1,102,100,202,v,Metu Cutting Dunk Shot (6 PTS) (Barnes 1 AST),Made Shot,Cutting Dunk Shot,1,2,437
+0022200132,614,PT01M21.00S,4,1610612753,ORL,1631094,Banchero,P. Banchero,5,48,5,Made,1,104,100,204,h,Banchero 5' Driving Floating Bank Jump Shot (33 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,438
+0022200132,615,PT01M20.00S,4,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,439
+0022200132,617,PT01M20.00S,4,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,SUB: Sabonis FOR Metu,Substitution,,0,0,440
+0022200132,619,PT01M15.00S,4,1610612758,SAC,1628368,Fox,D. Fox,-2,73,7,Made,1,104,102,206,v,Fox 7' Turnaround Fadeaway (24 PTS),Made Shot,Turnaround Fadeaway shot,1,2,441
+0022200132,620,PT00M59.50S,4,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,9,11,1,Made,1,106,102,208,h,Carter Jr. 1' Dunk (17 PTS) (Bol 2 AST),Made Shot,Dunk Shot,1,2,442
+0022200132,622,PT00M51.90S,4,1610612753,ORL,1629626,Bol,B. Bol,0,0,0,,0,,,0,h,Bol S.FOUL (P4.T3) (D.Guthrie),Foul,Shooting,1,0,443
+0022200132,624,PT00M51.90S,4,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,106,103,209,v,Fox Free Throw 1 of 2 (25 PTS),Free Throw,Free Throw 1 of 2,1,0,444
+0022200132,625,PT00M51.90S,4,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,SUB: Metu FOR Monk,Substitution,,0,0,445
+0022200132,626,PT00M51.90S,4,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,SUB: Lyles FOR Huerter,Substitution,,0,0,446
+0022200132,629,PT00M51.90S,4,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,106,104,210,v,Fox Free Throw 2 of 2 (26 PTS),Free Throw,Free Throw 2 of 2,1,0,447
+0022200132,630,PT00M36.10S,4,1610612753,ORL,1631094,Banchero,P. Banchero,-105,130,17,Missed,1,,,0,h,MISS Banchero 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,448
+0022200132,631,PT00M32.70S,4,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,449
+0022200132,632,PT00M25.40S,4,1610612758,SAC,1628368,Fox,D. Fox,-102,59,12,Made,1,106,106,212,v,Fox 12' Pullup Jump Shot (28 PTS) (Sabonis 6 AST),Made Shot,Pullup Jump shot,1,2,450
+0022200132,634,PT00M06.90S,4,1610612753,ORL,1630532,Wagner,F. Wagner,145,209,25,Missed,1,,,0,h,MISS Wagner 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,451
+0022200132,635,PT00M03.00S,4,1610612753,ORL,1630591,Suggs,J. Suggs,0,0,0,,0,,,0,h,Suggs REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,452
+0022200132,636,PT00M00.60S,4,1610612753,ORL,1630591,Suggs,J. Suggs,194,173,26,Missed,1,,,0,h,MISS Suggs 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,453
+0022200132,637,PT00M00.60S,4,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,454
+0022200132,638,PT00M00.00S,4,0,,0,,,0,0,0,,0,106,106,212,,End of 4th Period (7:23 PM EST),period,end,1,0,455
+0022200132,641,PT05M00.00S,5,0,,0,,,0,0,0,,0,106,106,212,,Start of 1st OT (7:26 PM EST),period,start,0,0,456
+0022200132,668,PT05M00.00S,5,1610612753,ORL,1629626,Bol,B. Bol,0,0,0,,0,,,0,h,Jump Ball Bol vs. Sabonis: Tip to Lyles,Jump Ball,,0,0,457
+0022200132,642,PT04M46.00S,5,1610612758,SAC,1628368,Fox,D. Fox,-12,26,3,Made,1,106,108,214,v,Fox 3' Driving Layup (30 PTS),Made Shot,Driving Layup Shot,1,2,458
+0022200132,643,PT04M23.00S,5,1610612753,ORL,1630532,Wagner,F. Wagner,28,79,8,Made,1,108,108,216,h,Wagner 8' Driving Floating Jump Shot (23 PTS) (Carter Jr. 5 AST),Made Shot,Driving Floating Jump Shot,1,2,459
+0022200132,645,PT04M09.00S,5,1610612758,SAC,1628368,Fox,D. Fox,-27,4,3,Made,1,108,110,218,v,Fox 3' Driving Layup (32 PTS),Made Shot,Driving Layup Shot,1,2,460
+0022200132,646,PT03M51.00S,5,1610612753,ORL,1629626,Bol,B. Bol,-227,37,0,Made,1,111,110,221,h,Bol 3PT Jump Shot (23 PTS) (Banchero 4 AST),Made Shot,Jump Shot,1,3,461
+0022200132,648,PT03M38.00S,5,1610612758,SAC,1628368,Fox,D. Fox,-27,145,15,Made,1,111,112,223,v,Fox 15' Fadeaway Jumper (34 PTS),Made Shot,Fadeaway Jump Shot,1,2,462
+0022200132,649,PT03M16.00S,5,1610612753,ORL,1630591,Suggs,J. Suggs,42,64,8,Missed,1,,,0,h,MISS Suggs 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,463
+0022200132,650,PT03M13.00S,5,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,464
+0022200132,651,PT03M03.00S,5,1610612758,SAC,203084,Barnes,H. Barnes,225,92,24,Made,1,111,115,226,v,Barnes 24' 3PT Jump Shot (9 PTS) (Fox 3 AST),Made Shot,Jump Shot,1,3,465
+0022200132,653,PT03M03.00S,5,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,Carter Jr. AWAY.FROM.PLAY.FOUL (P4.T1) (L.Wood),Foul,Away From Play,1,0,466
+0022200132,697,PT03M03.00S,5,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,111,116,227,v,Sabonis Free Throw 1 of 1 (23 PTS),Free Throw,Free Throw 1 of 1,0,0,467
+0022200132,657,PT02M47.00S,5,1610612753,ORL,1629626,Bol,B. Bol,145,238,28,Missed,1,,,0,h,MISS Bol 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,468
+0022200132,658,PT02M44.00S,5,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:2 Def:9),Rebound,Unknown,1,0,469
+0022200132,660,PT02M38.00S,5,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox Out of Bounds Lost Ball Turnover (P3.T11),Turnover,Out of Bounds Lost Ball Turnover,1,0,470
+0022200132,661,PT02M27.00S,5,1610612753,ORL,1630591,Suggs,J. Suggs,-148,211,26,Missed,1,,,0,h,MISS Suggs 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,471
+0022200132,662,PT02M25.00S,5,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Rebound,Rebound,Unknown,0,0,472
+0022200132,664,PT02M23.00S,5,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,Carter Jr. OFF.Foul (P5) (L.Holtkamp),Foul,Offensive,1,0,473
+0022200132,666,PT02M23.00S,5,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,Carter Jr. Offensive Foul Turnover (P4.T18),Turnover,Offensive Foul Turnover,1,0,474
+0022200132,671,PT02M11.00S,5,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox Bad Pass Turnover (P4.T12),Turnover,Bad Pass,1,0,475
+0022200132,671,PT02M11.00S,5,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,h,Wagner STEAL (3 STL),,,1,0,476
+0022200132,673,PT02M05.00S,5,1610612753,ORL,1630532,Wagner,F. Wagner,17,13,2,Made,1,113,116,229,h,Wagner 2' Driving Hook Shot (25 PTS),Made Shot,Driving Hook Shot,1,2,477
+0022200132,674,PT01M40.00S,5,1610612758,SAC,1626168,Lyles,T. Lyles,-237,16,24,Missed,1,,,0,v,MISS Lyles 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,478
+0022200132,675,PT01M38.00S,5,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Unknown,1,0,479
+0022200132,677,PT01M26.00S,5,1610612758,SAC,1628368,Fox,D. Fox,62,260,27,Missed,1,,,0,v,MISS Fox 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,480
+0022200132,678,PT01M23.00S,5,1610612753,ORL,1629626,Bol,B. Bol,0,0,0,,0,,,0,h,Bol REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,481
+0022200132,679,PT01M14.00S,5,1610612753,ORL,1631094,Banchero,P. Banchero,9,62,6,Missed,1,,,0,h,MISS Banchero 6' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,482
+0022200132,680,PT01M14.00S,5,1610612758,SAC,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,Lyles REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,483
+0022200132,681,PT01M06.00S,5,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Timeout: Regular (Reg.7 Short 0),Timeout,Regular,0,0,484
+0022200132,683,PT00M54.80S,5,1610612758,SAC,1628370,Monk,M. Monk,75,240,25,Made,1,113,119,232,v,Monk 25' 3PT Jump Shot (13 PTS) (Lyles 2 AST),Made Shot,Jump Shot,1,3,485
+0022200132,685,PT00M46.40S,5,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes P.FOUL (P1.T1) (D.Guthrie),Foul,Personal,1,0,486
+0022200132,687,PT00M41.30S,5,1610612753,ORL,1630532,Wagner,F. Wagner,26,27,4,Made,1,115,119,234,h,Wagner 4' Driving Finger Roll Layup (27 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,487
+0022200132,688,PT00M28.30S,5,1610612758,SAC,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,Lyles OFF.Foul (P2) (L.Wood),Foul,Offensive,1,0,488
+0022200132,690,PT00M28.30S,5,1610612758,SAC,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,Lyles Offensive Foul Turnover (P2.T13),Turnover,Offensive Foul Turnover,1,0,489
+0022200132,691,PT00M28.30S,5,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,490
+0022200132,692,PT00M28.30S,5,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,SUB: Metu FOR Monk,Substitution,,0,0,491
+0022200132,694,PT00M25.00S,5,1610612753,ORL,1630532,Wagner,F. Wagner,20,18,3,Made,1,117,119,236,h,Wagner 3' Driving Layup (29 PTS) (Carter Jr. 6 AST),Made Shot,Driving Layup Shot,1,2,492
+0022200132,696,PT00M25.00S,5,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Timeout: Regular (Reg.8 Short 0),Timeout,Regular,0,0,493
+0022200132,698,PT00M25.00S,5,1610612758,SAC,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,SUB: Monk FOR Lyles,Substitution,,0,0,494
+0022200132,699,PT00M25.00S,5,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,SUB: Huerter FOR Metu,Substitution,,0,0,495
+0022200132,702,PT00M21.50S,5,1610612753,ORL,1629626,Bol,B. Bol,0,0,0,,0,,,0,h,Bol P.FOUL (P5.T2) (D.Guthrie),Foul,Personal,1,0,496
+0022200132,704,PT00M20.50S,5,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,Carter Jr. P.FOUL (P6.PN) (D.Guthrie),Foul,Personal,1,0,497
+0022200132,706,PT00M20.50S,5,1610612753,ORL,1628976,Carter Jr.,W. Carter Jr.,0,0,0,,0,,,0,h,SUB: Okeke FOR Carter Jr.,Substitution,,0,0,498
+0022200132,708,PT00M20.50S,5,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,117,120,237,v,Sabonis Free Throw 1 of 2 (24 PTS),Free Throw,Free Throw 1 of 2,1,0,499
+0022200132,709,PT00M20.50S,5,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,SUB: Lyles FOR Huerter,Substitution,,0,0,500
+0022200132,711,PT00M20.50S,5,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,117,121,238,v,Sabonis Free Throw 2 of 2 (25 PTS),Free Throw,Free Throw 2 of 2,1,0,501
+0022200132,712,PT00M14.70S,5,1610612753,ORL,1630532,Wagner,F. Wagner,-12,26,3,Made,1,119,121,240,h,Wagner 3' Cutting Finger Roll Layup Shot (31 PTS) (Suggs 7 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,502
+0022200132,714,PT00M14.10S,5,1610612753,ORL,1630532,Wagner,F. Wagner,0,0,0,,0,,,0,h,Wagner Personal Take Foul (P4.PN) (L.Wood),Foul,Personal Take,1,0,503
+0022200132,716,PT00M14.10S,5,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,119,122,241,v,Monk Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,504
+0022200132,717,PT00M14.10S,5,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,119,123,242,v,Monk Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,505
+0022200132,718,PT00M11.70S,5,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox P.FOUL (P3.PN) (L.Wood),Foul,Personal,1,0,506
+0022200132,721,PT00M11.70S,5,1610612753,ORL,1630591,Suggs,J. Suggs,0,0,0,,0,120,123,243,h,Suggs Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,507
+0022200132,722,PT00M11.70S,5,1610612753,ORL,1630591,Suggs,J. Suggs,0,0,0,,0,121,123,244,h,Suggs Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,508
+0022200132,724,PT00M06.60S,5,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk Bad Pass Turnover (P1.T14),Turnover,Bad Pass,1,0,509
+0022200132,724,PT00M06.60S,5,1610612753,ORL,1629643,Okeke,C. Okeke,0,0,0,,0,,,0,h,Okeke STEAL (2 STL),,,1,0,510
+0022200132,727,PT00M02.50S,5,1610612753,ORL,1629643,Okeke,C. Okeke,-16,8,2,Made,1,123,123,246,h,Okeke 2' Driving Dunk (4 PTS),Made Shot,Driving Dunk Shot,1,2,511
+0022200132,728,PT00M00.00S,5,1610612758,SAC,1628368,Fox,D. Fox,7,314,31,Made,1,123,126,249,v,Fox 31' 3PT Jump Shot (37 PTS),Made Shot,Jump Shot,1,3,512
+0022200132,729,PT00M00.00S,5,0,,0,,,0,0,0,,0,123,126,249,,End of 1st OT (7:46 PM EST),period,end,1,0,513
+0022200132,730,PT00M00.00S,5,0,,728,King,J. King,0,0,0,,0,123,126,249,,Instant Replay1st OT (7:46 PM EST),Instant Replay,Support Ruling,0,0,514

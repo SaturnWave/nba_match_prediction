@@ -1,0 +1,3639 @@
+Logging output to: C:\Users\arcan\Desktop\Python\nba_new\impact_scores\output\model_training_log_20250512_180556.txt
+Creating NBA Predictor instance...
+
+Loading NBA data...
+Loading and preprocessing NBA data for 2022-2023 and 2023-2024 seasons...
+Found game IDs file at: C:\Users\arcan\Desktop\Python\nba_new\impact_scores\game_ids\game_id_2022_2023.csv
+Loading game IDs from: C:\Users\arcan\Desktop\Python\nba_new\impact_scores\game_ids\game_id_2022_2023.csv
+Loaded 1230 game IDs for season 2022_2023
+Successfully processed game ID 0022201228
+Successfully processed game ID 0022201226
+Successfully processed game ID 0022201227
+Successfully processed game ID 0022201220
+Successfully processed game ID 0022201221
+Successfully processed game ID 0022201219
+Successfully processed game ID 0022201225
+Successfully processed game ID 0022201229
+Successfully processed game ID 0022201223
+Successfully processed game ID 0022201224
+Successfully processed game ID 0022201218
+Successfully processed game ID 0022201230
+Successfully processed game ID 0022201216
+Successfully processed game ID 0022201222
+Successfully processed game ID 0022201217
+Successfully processed game ID 0022201215
+Successfully processed game ID 0022201214
+Successfully processed game ID 0022201213
+Successfully processed game ID 0022201203
+Successfully processed game ID 0022201204
+Successfully processed game ID 0022201209
+Successfully processed game ID 0022201206
+Successfully processed game ID 0022201211
+Successfully processed game ID 0022201205
+Successfully processed game ID 0022201202
+Successfully processed game ID 0022201212
+Successfully processed game ID 0022201210
+Successfully processed game ID 0022201208
+Successfully processed game ID 0022201207
+Successfully processed game ID 0022201197
+Successfully processed game ID 0022201198
+Successfully processed game ID 0022201199
+Successfully processed game ID 0022201201
+Successfully processed game ID 0022201200
+Successfully processed game ID 0022201191
+Successfully processed game ID 0022201196
+Successfully processed game ID 0022201193
+Successfully processed game ID 0022201195
+Successfully processed game ID 0022201192
+Successfully processed game ID 0022201190
+Successfully processed game ID 0022201189
+Successfully processed game ID 0022201194
+Successfully processed game ID 0022201184
+Successfully processed game ID 0022201176
+Successfully processed game ID 0022201180
+Successfully processed game ID 0022201188
+Successfully processed game ID 0022201178
+Successfully processed game ID 0022201183
+Successfully processed game ID 0022201187
+Successfully processed game ID 0022201181
+Successfully processed game ID 0022201186
+Successfully processed game ID 0022201182
+Successfully processed game ID 0022201179
+Successfully processed game ID 0022201177
+Successfully processed game ID 0022201185
+Successfully processed game ID 0022201172
+Successfully processed game ID 0022201169
+Successfully processed game ID 0022201167
+Successfully processed game ID 0022201173
+Successfully processed game ID 0022201164
+Successfully processed game ID 0022201165
+Successfully processed game ID 0022201174
+Successfully processed game ID 0022201175
+Successfully processed game ID 0022201171
+Successfully processed game ID 0022201170
+Successfully processed game ID 0022201163
+Successfully processed game ID 0022201168
+Successfully processed game ID 0022201166
+Successfully processed game ID 0022201162
+Successfully processed game ID 0022201161
+Successfully processed game ID 0022201158
+Successfully processed game ID 0022201151
+Successfully processed game ID 0022201156
+Successfully processed game ID 0022201160
+Successfully processed game ID 0022201153
+Successfully processed game ID 0022201148
+Successfully processed game ID 0022201154
+Successfully processed game ID 0022201157
+Successfully processed game ID 0022201159
+Successfully processed game ID 0022201149
+Successfully processed game ID 0022201150
+Successfully processed game ID 0022201155
+Successfully processed game ID 0022201152
+Successfully processed game ID 0022201147
+Successfully processed game ID 0022201146
+Successfully processed game ID 0022201144
+Successfully processed game ID 0022201139
+Successfully processed game ID 0022201138
+Successfully processed game ID 0022201140
+Successfully processed game ID 0022201143
+Successfully processed game ID 0022201145
+Successfully processed game ID 0022201141
+Successfully processed game ID 0022201136
+Successfully processed game ID 0022201137
+Successfully processed game ID 0022201142
+Successfully processed game ID 0022201133
+Successfully processed game ID 0022201134
+Successfully processed game ID 0022201135
+Successfully processed game ID 0022201131
+Successfully processed game ID 0022201130
+Successfully processed game ID 0022201132
+Successfully processed game ID 0022201128
+Successfully processed game ID 0022201126
+Successfully processed game ID 0022201127
+Successfully processed game ID 0022201129
+Successfully processed game ID 0022201124
+Successfully processed game ID 0022201123
+Successfully processed game ID 0022201125
+Successfully processed game ID 0022201122
+Successfully processed game ID 0022201116
+Successfully processed game ID 0022201119
+Successfully processed game ID 0022201114
+Successfully processed game ID 0022201120
+Successfully processed game ID 0022201113
+Successfully processed game ID 0022201118
+Successfully processed game ID 0022201115
+Successfully processed game ID 0022201121
+Successfully processed game ID 0022201117
+Successfully processed game ID 0022201111
+Successfully processed game ID 0022201108
+Successfully processed game ID 0022201107
+Successfully processed game ID 0022201109
+Successfully processed game ID 0022201110
+Successfully processed game ID 0022201112
+Successfully processed game ID 0022201097
+Successfully processed game ID 0022201103
+Successfully processed game ID 0022201101
+Successfully processed game ID 0022201100
+Successfully processed game ID 0022201106
+Successfully processed game ID 0022201098
+Successfully processed game ID 0022201105
+Successfully processed game ID 0022201104
+Successfully processed game ID 0022201099
+Successfully processed game ID 0022201102
+Successfully processed game ID 0022201095
+Successfully processed game ID 0022201096
+Successfully processed game ID 0022201094
+Successfully processed game ID 0022201093
+Successfully processed game ID 0022201086
+Successfully processed game ID 0022201083
+Successfully processed game ID 0022201090
+Successfully processed game ID 0022201089
+Successfully processed game ID 0022201092
+Successfully processed game ID 0022201085
+Successfully processed game ID 0022201088
+Successfully processed game ID 0022201091
+Successfully processed game ID 0022201084
+Successfully processed game ID 0022201087
+Successfully processed game ID 0022201077
+Successfully processed game ID 0022201081
+Successfully processed game ID 0022201082
+Successfully processed game ID 0022201078
+Successfully processed game ID 0022201080
+Successfully processed game ID 0022201079
+Successfully processed game ID 0022201076
+Successfully processed game ID 0022201073
+Successfully processed game ID 0022201075
+Successfully processed game ID 0022201074
+Successfully processed game ID 0022201072
+Successfully processed game ID 0022201071
+Successfully processed game ID 0022201070
+Successfully processed game ID 0022201069
+Successfully processed game ID 0022201067
+Successfully processed game ID 0022201064
+Successfully processed game ID 0022201063
+Successfully processed game ID 0022201066
+Successfully processed game ID 0022201065
+Successfully processed game ID 0022201068
+Successfully processed game ID 0022201055
+Successfully processed game ID 0022201061
+Successfully processed game ID 0022201058
+Successfully processed game ID 0022201057
+Successfully processed game ID 0022201056
+Successfully processed game ID 0022201062
+Successfully processed game ID 0022201059
+Successfully processed game ID 0022201060
+Successfully processed game ID 0022201047
+Successfully processed game ID 0022201051
+Successfully processed game ID 0022201054
+Successfully processed game ID 0022201050
+Successfully processed game ID 0022201049
+Successfully processed game ID 0022201052
+Successfully processed game ID 0022201053
+Successfully processed game ID 0022201048
+Successfully processed game ID 0022201046
+Successfully processed game ID 0022201042
+Successfully processed game ID 0022201045
+Successfully processed game ID 0022201044
+Successfully processed game ID 0022201043
+Successfully processed game ID 0022201039
+Successfully processed game ID 0022201036
+Successfully processed game ID 0022201035
+Successfully processed game ID 0022201038
+Successfully processed game ID 0022201040
+Successfully processed game ID 0022201041
+Successfully processed game ID 0022201037
+Successfully processed game ID 0022201028
+Successfully processed game ID 0022201034
+Successfully processed game ID 0022201033
+Successfully processed game ID 0022201030
+Successfully processed game ID 0022201027
+Successfully processed game ID 0022201032
+Successfully processed game ID 0022201031
+Successfully processed game ID 0022201029
+Successfully processed game ID 0022201024
+Successfully processed game ID 0022201026
+Successfully processed game ID 0022201020
+Successfully processed game ID 0022201021
+Successfully processed game ID 0022201025
+Successfully processed game ID 0022201022
+Successfully processed game ID 0022201023
+Successfully processed game ID 0022201017
+Successfully processed game ID 0022201018
+Successfully processed game ID 0022201019
+Successfully processed game ID 0022201015
+Successfully processed game ID 0022201016
+Successfully processed game ID 0022201014
+Successfully processed game ID 0022201011
+Successfully processed game ID 0022201012
+Successfully processed game ID 0022201010
+Successfully processed game ID 0022201004
+Successfully processed game ID 0022201009
+Successfully processed game ID 0022201007
+Successfully processed game ID 0022201013
+Successfully processed game ID 0022201005
+Successfully processed game ID 0022201008
+Successfully processed game ID 0022201006
+Successfully processed game ID 0022201002
+Successfully processed game ID 0022201003
+Successfully processed game ID 0022200998
+Successfully processed game ID 0022201000
+Successfully processed game ID 0022200999
+Successfully processed game ID 0022201001
+Successfully processed game ID 0022200994
+Successfully processed game ID 0022200997
+Successfully processed game ID 0022200992
+Successfully processed game ID 0022200993
+Successfully processed game ID 0022200996
+Successfully processed game ID 0022200995
+Successfully processed game ID 0022200991
+Successfully processed game ID 0022200986
+Successfully processed game ID 0022200985
+Successfully processed game ID 0022200987
+Successfully processed game ID 0022200988
+Successfully processed game ID 0022200990
+Successfully processed game ID 0022200989
+Successfully processed game ID 0022200769
+Successfully processed game ID 0022200980
+Successfully processed game ID 0022200981
+Successfully processed game ID 0022200978
+Successfully processed game ID 0022200979
+Successfully processed game ID 0022200983
+Successfully processed game ID 0022200984
+Successfully processed game ID 0022200982
+Successfully processed game ID 0022200972
+Successfully processed game ID 0022200971
+Successfully processed game ID 0022200977
+Successfully processed game ID 0022200974
+Successfully processed game ID 0022200976
+Successfully processed game ID 0022200975
+Successfully processed game ID 0022200966
+Successfully processed game ID 0022200969
+Successfully processed game ID 0022200970
+Successfully processed game ID 0022200964
+Successfully processed game ID 0022200968
+Successfully processed game ID 0022200973
+Successfully processed game ID 0022200962
+Successfully processed game ID 0022200963
+Successfully processed game ID 0022200965
+Successfully processed game ID 0022200967
+Successfully processed game ID 0022200957
+Successfully processed game ID 0022200961
+Successfully processed game ID 0022200956
+Successfully processed game ID 0022200958
+Successfully processed game ID 0022200959
+Successfully processed game ID 0022200960
+Successfully processed game ID 0022200953
+Successfully processed game ID 0022200954
+Successfully processed game ID 0022200946
+Successfully processed game ID 0022200950
+Successfully processed game ID 0022200948
+Successfully processed game ID 0022200955
+Successfully processed game ID 0022200952
+Successfully processed game ID 0022200951
+Successfully processed game ID 0022200947
+Successfully processed game ID 0022200949
+Successfully processed game ID 0022200945
+Successfully processed game ID 0022200943
+Successfully processed game ID 0022200942
+Successfully processed game ID 0022200944
+Successfully processed game ID 0022200934
+Successfully processed game ID 0022200939
+Successfully processed game ID 0022200935
+Successfully processed game ID 0022200941
+Successfully processed game ID 0022200938
+Successfully processed game ID 0022200940
+Successfully processed game ID 0022200933
+Successfully processed game ID 0022200936
+Successfully processed game ID 0022200937
+Successfully processed game ID 0022200930
+Successfully processed game ID 0022200924
+Successfully processed game ID 0022200927
+Successfully processed game ID 0022200932
+Successfully processed game ID 0022200926
+Successfully processed game ID 0022200923
+Successfully processed game ID 0022200928
+Successfully processed game ID 0022200925
+Successfully processed game ID 0022200931
+Successfully processed game ID 0022200929
+Successfully processed game ID 0022200920
+Successfully processed game ID 0022200921
+Successfully processed game ID 0022200919
+Successfully processed game ID 0022200922
+Successfully processed game ID 0022200916
+Successfully processed game ID 0022200911
+Successfully processed game ID 0022200917
+Successfully processed game ID 0022200912
+Successfully processed game ID 0022200918
+Successfully processed game ID 0022200913
+Successfully processed game ID 0022200910
+Successfully processed game ID 0022200914
+Successfully processed game ID 0022200915
+Successfully processed game ID 0022200904
+Successfully processed game ID 0022200905
+Successfully processed game ID 0022200906
+Successfully processed game ID 0022200909
+Successfully processed game ID 0022200908
+Successfully processed game ID 0022200907
+Successfully processed game ID 0022200903
+Successfully processed game ID 0022200895
+Successfully processed game ID 0022200896
+Successfully processed game ID 0022200902
+Successfully processed game ID 0022200897
+Successfully processed game ID 0022200901
+Successfully processed game ID 0022200899
+Successfully processed game ID 0022200900
+Successfully processed game ID 0022200898
+Successfully processed game ID 0022200892
+Successfully processed game ID 0022200890
+Successfully processed game ID 0022200894
+Successfully processed game ID 0022200886
+Successfully processed game ID 0022200893
+Successfully processed game ID 0022200887
+Successfully processed game ID 0022200888
+Successfully processed game ID 0022200889
+Successfully processed game ID 0022200891
+Successfully processed game ID 0022200884
+Successfully processed game ID 0022200885
+Successfully processed game ID 0022200883
+Successfully processed game ID 0022200879
+Successfully processed game ID 0022200878
+Successfully processed game ID 0022200877
+Successfully processed game ID 0022200873
+Successfully processed game ID 0022200881
+Successfully processed game ID 0022200875
+Successfully processed game ID 0022200880
+Successfully processed game ID 0022200882
+Successfully processed game ID 0022200876
+Successfully processed game ID 0022200874
+Successfully processed game ID 0022200869
+Successfully processed game ID 0022200868
+Successfully processed game ID 0022200871
+Successfully processed game ID 0022200870
+Successfully processed game ID 0022200872
+Successfully processed game ID 0022200866
+Successfully processed game ID 0022200858
+Successfully processed game ID 0022200865
+Successfully processed game ID 0022200862
+Successfully processed game ID 0022200863
+Successfully processed game ID 0022200867
+Successfully processed game ID 0022200860
+Successfully processed game ID 0022200857
+Successfully processed game ID 0022200861
+Successfully processed game ID 0022200864
+Successfully processed game ID 0022200859
+Successfully processed game ID 0022200856
+Successfully processed game ID 0022200855
+Successfully processed game ID 0022200847
+Successfully processed game ID 0022200851
+Successfully processed game ID 0022200853
+Successfully processed game ID 0022200848
+Successfully processed game ID 0022200854
+Successfully processed game ID 0022200849
+Successfully processed game ID 0022200850
+Successfully processed game ID 0022200852
+Successfully processed game ID 0022200846
+Successfully processed game ID 0022200837
+Successfully processed game ID 0022200841
+Successfully processed game ID 0022200835
+Successfully processed game ID 0022200836
+Successfully processed game ID 0022200842
+Successfully processed game ID 0022200845
+Successfully processed game ID 0022200840
+Successfully processed game ID 0022200844
+Successfully processed game ID 0022200843
+Successfully processed game ID 0022200839
+Successfully processed game ID 0022200838
+Successfully processed game ID 0022200831
+Successfully processed game ID 0022200834
+Successfully processed game ID 0022200832
+Successfully processed game ID 0022200833
+Successfully processed game ID 0022200826
+Successfully processed game ID 0022200824
+Successfully processed game ID 0022200828
+Successfully processed game ID 0022200829
+Successfully processed game ID 0022200823
+Successfully processed game ID 0022200830
+Successfully processed game ID 0022200825
+Successfully processed game ID 0022200822
+Successfully processed game ID 0022200827
+Successfully processed game ID 0022200819
+Successfully processed game ID 0022200820
+Successfully processed game ID 0022200818
+Successfully processed game ID 0022200817
+Successfully processed game ID 0022200821
+Successfully processed game ID 0022200816
+Successfully processed game ID 0022200809
+Successfully processed game ID 0022200813
+Successfully processed game ID 0022200814
+Successfully processed game ID 0022200808
+Successfully processed game ID 0022200812
+Successfully processed game ID 0022200811
+Successfully processed game ID 0022200810
+Successfully processed game ID 0022200815
+Successfully processed game ID 0022200802
+Successfully processed game ID 0022200806
+Successfully processed game ID 0022200807
+Successfully processed game ID 0022200803
+Successfully processed game ID 0022200805
+Successfully processed game ID 0022200804
+Successfully processed game ID 0022200799
+Successfully processed game ID 0022200798
+Successfully processed game ID 0022200801
+Successfully processed game ID 0022200793
+Successfully processed game ID 0022200795
+Successfully processed game ID 0022200800
+Successfully processed game ID 0022200797
+Successfully processed game ID 0022200794
+Successfully processed game ID 0022200796
+Successfully processed game ID 0022200786
+Successfully processed game ID 0022200790
+Successfully processed game ID 0022200788
+Successfully processed game ID 0022200789
+Successfully processed game ID 0022200785
+Successfully processed game ID 0022200792
+Successfully processed game ID 0022200791
+Successfully processed game ID 0022200787
+Successfully processed game ID 0022200782
+Successfully processed game ID 0022200784
+Successfully processed game ID 0022200779
+Successfully processed game ID 0022200781
+Successfully processed game ID 0022200783
+Successfully processed game ID 0022200778
+Successfully processed game ID 0022200780
+Successfully processed game ID 0022200777
+Successfully processed game ID 0022200773
+Successfully processed game ID 0022200774
+Successfully processed game ID 0022200775
+Successfully processed game ID 0022200776
+Successfully processed game ID 0022200771
+Successfully processed game ID 0022200772
+Successfully processed game ID 0022200770
+Successfully processed game ID 0022200764
+Successfully processed game ID 0022200765
+Successfully processed game ID 0022200768
+Successfully processed game ID 0022200766
+Successfully processed game ID 0022200767
+Successfully processed game ID 0022200757
+Successfully processed game ID 0022200760
+Successfully processed game ID 0022200756
+Successfully processed game ID 0022200759
+Successfully processed game ID 0022200763
+Successfully processed game ID 0022200762
+Successfully processed game ID 0022200758
+Successfully processed game ID 0022200761
+Successfully processed game ID 0022200754
+Successfully processed game ID 0022200755
+Successfully processed game ID 0022200753
+Successfully processed game ID 0022200752
+Successfully processed game ID 0022200748
+Successfully processed game ID 0022200746
+Successfully processed game ID 0022200749
+Successfully processed game ID 0022200744
+Successfully processed game ID 0022200751
+Successfully processed game ID 0022200743
+Successfully processed game ID 0022200745
+Successfully processed game ID 0022200741
+Successfully processed game ID 0022200750
+Successfully processed game ID 0022200742
+Successfully processed game ID 0022200747
+Successfully processed game ID 0022200739
+Successfully processed game ID 0022200736
+Successfully processed game ID 0022200738
+Successfully processed game ID 0022200737
+Successfully processed game ID 0022200740
+Successfully processed game ID 0022200731
+Successfully processed game ID 0022200733
+Successfully processed game ID 0022200734
+Successfully processed game ID 0022200730
+Successfully processed game ID 0022200732
+Successfully processed game ID 0022200735
+Successfully processed game ID 0022200726
+Successfully processed game ID 0022200722
+Successfully processed game ID 0022200727
+Successfully processed game ID 0022200728
+Successfully processed game ID 0022200729
+Successfully processed game ID 0022200725
+Successfully processed game ID 0022200721
+Successfully processed game ID 0022200720
+Successfully processed game ID 0022200723
+Successfully processed game ID 0022200724
+Successfully processed game ID 0022200717
+Successfully processed game ID 0022200718
+Successfully processed game ID 0022200715
+Successfully processed game ID 0022200713
+Successfully processed game ID 0022200716
+Successfully processed game ID 0022200719
+Successfully processed game ID 0022200714
+Successfully processed game ID 0022200710
+Successfully processed game ID 0022200708
+Successfully processed game ID 0022200707
+Successfully processed game ID 0022200706
+Successfully processed game ID 0022200711
+Successfully processed game ID 0022200709
+Successfully processed game ID 0022200712
+Successfully processed game ID 0022200699
+Successfully processed game ID 0022200700
+Successfully processed game ID 0022200702
+Successfully processed game ID 0022200701
+Successfully processed game ID 0022200705
+Successfully processed game ID 0022200703
+Successfully processed game ID 0022200704
+Successfully processed game ID 0022200697
+Successfully processed game ID 0022200693
+Successfully processed game ID 0022200692
+Successfully processed game ID 0022200698
+Successfully processed game ID 0022200696
+Successfully processed game ID 0022200695
+Successfully processed game ID 0022200694
+Successfully processed game ID 0022200685
+Successfully processed game ID 0022200689
+Successfully processed game ID 0022200686
+Successfully processed game ID 0022200690
+Successfully processed game ID 0022200687
+Successfully processed game ID 0022200688
+Successfully processed game ID 0022200691
+Successfully processed game ID 0022200684
+Successfully processed game ID 0022200683
+Successfully processed game ID 0022200679
+Successfully processed game ID 0022200680
+Successfully processed game ID 0022200681
+Successfully processed game ID 0022200678
+Successfully processed game ID 0022200682
+Successfully processed game ID 0022200677
+Successfully processed game ID 0022200674
+Successfully processed game ID 0022200671
+Successfully processed game ID 0022200669
+Successfully processed game ID 0022200670
+Successfully processed game ID 0022200673
+Successfully processed game ID 0022200675
+Successfully processed game ID 0022200676
+Successfully processed game ID 0022200672
+Successfully processed game ID 0022200667
+Successfully processed game ID 0022200665
+Successfully processed game ID 0022200668
+Successfully processed game ID 0022200666
+Successfully processed game ID 0022200662
+Successfully processed game ID 0022200660
+Successfully processed game ID 0022200661
+Successfully processed game ID 0022200659
+Successfully processed game ID 0022200658
+Successfully processed game ID 0022200656
+Successfully processed game ID 0022200663
+Successfully processed game ID 0022200664
+Successfully processed game ID 0022200657
+Successfully processed game ID 0022200654
+Successfully processed game ID 0022200648
+Successfully processed game ID 0022200655
+Successfully processed game ID 0022200653
+Successfully processed game ID 0022200651
+Successfully processed game ID 0022200652
+Successfully processed game ID 0022200649
+Successfully processed game ID 0022200650
+Successfully processed game ID 0022200643
+Successfully processed game ID 0022200641
+Successfully processed game ID 0022200645
+Successfully processed game ID 0022200642
+Successfully processed game ID 0022200647
+Successfully processed game ID 0022200644
+Successfully processed game ID 0022200646
+Successfully processed game ID 0022200634
+Successfully processed game ID 0022200638
+Successfully processed game ID 0022200635
+Successfully processed game ID 0022200640
+Successfully processed game ID 0022200633
+Successfully processed game ID 0022200636
+Successfully processed game ID 0022200637
+Successfully processed game ID 0022200632
+Successfully processed game ID 0022200639
+Successfully processed game ID 0022200628
+Successfully processed game ID 0022200629
+Successfully processed game ID 0022200626
+Successfully processed game ID 0022200631
+Successfully processed game ID 0022200630
+Successfully processed game ID 0022200627
+Successfully processed game ID 0022200618
+Successfully processed game ID 0022200620
+Successfully processed game ID 0022200622
+Successfully processed game ID 0022200621
+Successfully processed game ID 0022200623
+Successfully processed game ID 0022200619
+Successfully processed game ID 0022200625
+Successfully processed game ID 0022200624
+Successfully processed game ID 0022200617
+Successfully processed game ID 0022200613
+Successfully processed game ID 0022200616
+Successfully processed game ID 0022200612
+Successfully processed game ID 0022200611
+Successfully processed game ID 0022200614
+Successfully processed game ID 0022200615
+Successfully processed game ID 0022200606
+Successfully processed game ID 0022200608
+Successfully processed game ID 0022200605
+Successfully processed game ID 0022200607
+Successfully processed game ID 0022200610
+Successfully processed game ID 0022200609
+Successfully processed game ID 0022200597
+Successfully processed game ID 0022200604
+Successfully processed game ID 0022200598
+Successfully processed game ID 0022200601
+Successfully processed game ID 0022200600
+Successfully processed game ID 0022200602
+Successfully processed game ID 0022200603
+Successfully processed game ID 0022200596
+Successfully processed game ID 0022200599
+Successfully processed game ID 0022200594
+Successfully processed game ID 0022200593
+Successfully processed game ID 0022200595
+Successfully processed game ID 0022200591
+Successfully processed game ID 0022200592
+Successfully processed game ID 0022200580
+Successfully processed game ID 0022200588
+Successfully processed game ID 0022200585
+Successfully processed game ID 0022200590
+Successfully processed game ID 0022200582
+Successfully processed game ID 0022200589
+Successfully processed game ID 0022200583
+Successfully processed game ID 0022200584
+Successfully processed game ID 0022200581
+Successfully processed game ID 0022200586
+Successfully processed game ID 0022200587
+Successfully processed game ID 0022200576
+Successfully processed game ID 0022200578
+Successfully processed game ID 0022200577
+Successfully processed game ID 0022200579
+Successfully processed game ID 0022200568
+Successfully processed game ID 0022200569
+Successfully processed game ID 0022200574
+Successfully processed game ID 0022200566
+Successfully processed game ID 0022200570
+Successfully processed game ID 0022200572
+Successfully processed game ID 0022200565
+Successfully processed game ID 0022200573
+Successfully processed game ID 0022200571
+Successfully processed game ID 0022200575
+Successfully processed game ID 0022200567
+Successfully processed game ID 0022200564
+Successfully processed game ID 0022200563
+Successfully processed game ID 0022200561
+Successfully processed game ID 0022200562
+Successfully processed game ID 0022200554
+Successfully processed game ID 0022200550
+Successfully processed game ID 0022200555
+Successfully processed game ID 0022200560
+Successfully processed game ID 0022200553
+Successfully processed game ID 0022200552
+Successfully processed game ID 0022200557
+Successfully processed game ID 0022200559
+Successfully processed game ID 0022200558
+Successfully processed game ID 0022200556
+Successfully processed game ID 0022200551
+Successfully processed game ID 0022200547
+Successfully processed game ID 0022200548
+Successfully processed game ID 0022200549
+Successfully processed game ID 0022200542
+Successfully processed game ID 0022200540
+Successfully processed game ID 0022200539
+Successfully processed game ID 0022200546
+Successfully processed game ID 0022200544
+Successfully processed game ID 0022200543
+Successfully processed game ID 0022200545
+Successfully processed game ID 0022200538
+Successfully processed game ID 0022200541
+Successfully processed game ID 0022200536
+Successfully processed game ID 0022200533
+Successfully processed game ID 0022200535
+Successfully processed game ID 0022200532
+Successfully processed game ID 0022200537
+Successfully processed game ID 0022200529
+Successfully processed game ID 0022200531
+Successfully processed game ID 0022200534
+Successfully processed game ID 0022200530
+Successfully processed game ID 0022200526
+Successfully processed game ID 0022200524
+Successfully processed game ID 0022200525
+Successfully processed game ID 0022200528
+Successfully processed game ID 0022200523
+Successfully processed game ID 0022200527
+Successfully processed game ID 0022200517
+Successfully processed game ID 0022200515
+Successfully processed game ID 0022200522
+Successfully processed game ID 0022200520
+Successfully processed game ID 0022200516
+Successfully processed game ID 0022200518
+Successfully processed game ID 0022200521
+Successfully processed game ID 0022200519
+Successfully processed game ID 0022200507
+Successfully processed game ID 0022200511
+Successfully processed game ID 0022200513
+Successfully processed game ID 0022200508
+Successfully processed game ID 0022200510
+Successfully processed game ID 0022200509
+Successfully processed game ID 0022200505
+Successfully processed game ID 0022200506
+Successfully processed game ID 0022200512
+Successfully processed game ID 0022200514
+Successfully processed game ID 0022200503
+Successfully processed game ID 0022200500
+Successfully processed game ID 0022200504
+Successfully processed game ID 0022200502
+Successfully processed game ID 0022200498
+Successfully processed game ID 0022200499
+Successfully processed game ID 0022200501
+Successfully processed game ID 0022200497
+Successfully processed game ID 0022200493
+Successfully processed game ID 0022200494
+Successfully processed game ID 0022200496
+Successfully processed game ID 0022200495
+Successfully processed game ID 0022200479
+Successfully processed game ID 0022200489
+Successfully processed game ID 0022200492
+Successfully processed game ID 0022200482
+Successfully processed game ID 0022200488
+Successfully processed game ID 0022200490
+Successfully processed game ID 0022200481
+Successfully processed game ID 0022200485
+Successfully processed game ID 0022200486
+Successfully processed game ID 0022200483
+Successfully processed game ID 0022200491
+Successfully processed game ID 0022200480
+Successfully processed game ID 0022200484
+Successfully processed game ID 0022200487
+Successfully processed game ID 0022200478
+Successfully processed game ID 0022200477
+Successfully processed game ID 0022200468
+Successfully processed game ID 0022200467
+Successfully processed game ID 0022200466
+Successfully processed game ID 0022200475
+Successfully processed game ID 0022200470
+Successfully processed game ID 0022200476
+Successfully processed game ID 0022200471
+Successfully processed game ID 0022200469
+Successfully processed game ID 0022200474
+Successfully processed game ID 0022200473
+Successfully processed game ID 0022200472
+Successfully processed game ID 0022200461
+Successfully processed game ID 0022200465
+Successfully processed game ID 0022200462
+Successfully processed game ID 0022200463
+Successfully processed game ID 0022200464
+Successfully processed game ID 0022200458
+Successfully processed game ID 0022200453
+Successfully processed game ID 0022200456
+Successfully processed game ID 0022200460
+Successfully processed game ID 0022200457
+Successfully processed game ID 0022200452
+Successfully processed game ID 0022200455
+Successfully processed game ID 0022200454
+Successfully processed game ID 0022200459
+Successfully processed game ID 0022200449
+Successfully processed game ID 0022200450
+Successfully processed game ID 0022200448
+Successfully processed game ID 0022200446
+Successfully processed game ID 0022200445
+Successfully processed game ID 0022200451
+Successfully processed game ID 0022200447
+Successfully processed game ID 0022200443
+Successfully processed game ID 0022200442
+Successfully processed game ID 0022200440
+Successfully processed game ID 0022200441
+Successfully processed game ID 0022200438
+Successfully processed game ID 0022200444
+Successfully processed game ID 0022200439
+Successfully processed game ID 0022200432
+Successfully processed game ID 0022200431
+Successfully processed game ID 0022200429
+Successfully processed game ID 0022200428
+Successfully processed game ID 0022200436
+Successfully processed game ID 0022200430
+Successfully processed game ID 0022200434
+Successfully processed game ID 0022200433
+Successfully processed game ID 0022200435
+Successfully processed game ID 0022200437
+Successfully processed game ID 0022200425
+Successfully processed game ID 0022200424
+Successfully processed game ID 0022200426
+Successfully processed game ID 0022200427
+Successfully processed game ID 0022200414
+Successfully processed game ID 0022200419
+Successfully processed game ID 0022200423
+Successfully processed game ID 0022200415
+Successfully processed game ID 0022200418
+Successfully processed game ID 0022200420
+Successfully processed game ID 0022200417
+Successfully processed game ID 0022200422
+Successfully processed game ID 0022200416
+Successfully processed game ID 0022200421
+Successfully processed game ID 0022200410
+Successfully processed game ID 0022200411
+Successfully processed game ID 0022200409
+Successfully processed game ID 0022200413
+Successfully processed game ID 0022200412
+Successfully processed game ID 0022200403
+Successfully processed game ID 0022200402
+Successfully processed game ID 0022200405
+Successfully processed game ID 0022200406
+Successfully processed game ID 0022200404
+Successfully processed game ID 0022200407
+Successfully processed game ID 0022200408
+Successfully processed game ID 0022200400
+Successfully processed game ID 0022200395
+Successfully processed game ID 0022200396
+Successfully processed game ID 0022200401
+Successfully processed game ID 0022200399
+Successfully processed game ID 0022200397
+Successfully processed game ID 0022200398
+Successfully processed game ID 0022200391
+Successfully processed game ID 0022200392
+Successfully processed game ID 0022200393
+Successfully processed game ID 0022200389
+Successfully processed game ID 0022200387
+Successfully processed game ID 0022200390
+Successfully processed game ID 0022200388
+Successfully processed game ID 0022200394
+Successfully processed game ID 0022200386
+Successfully processed game ID 0022200383
+Successfully processed game ID 0022200381
+Successfully processed game ID 0022200378
+Successfully processed game ID 0022200384
+Successfully processed game ID 0022200380
+Successfully processed game ID 0022200382
+Successfully processed game ID 0022200377
+Successfully processed game ID 0022200385
+Successfully processed game ID 0022200379
+Successfully processed game ID 0022200374
+Successfully processed game ID 0022200376
+Successfully processed game ID 0022200375
+Successfully processed game ID 0022200372
+Successfully processed game ID 0022200366
+Successfully processed game ID 0022200367
+Successfully processed game ID 0022200371
+Successfully processed game ID 0022200370
+Successfully processed game ID 0022200369
+Successfully processed game ID 0022200365
+Successfully processed game ID 0022200363
+Successfully processed game ID 0022200364
+Successfully processed game ID 0022200373
+Successfully processed game ID 0022200368
+Successfully processed game ID 0022200361
+Successfully processed game ID 0022200360
+Successfully processed game ID 0022200362
+Successfully processed game ID 0022200355
+Successfully processed game ID 0022200359
+Successfully processed game ID 0022200357
+Successfully processed game ID 0022200353
+Successfully processed game ID 0022200352
+Successfully processed game ID 0022200358
+Successfully processed game ID 0022200354
+Successfully processed game ID 0022200356
+Successfully processed game ID 0022200344
+Successfully processed game ID 0022200346
+Successfully processed game ID 0022200347
+Successfully processed game ID 0022200351
+Successfully processed game ID 0022200348
+Successfully processed game ID 0022200345
+Successfully processed game ID 0022200349
+Successfully processed game ID 0022200350
+Successfully processed game ID 0022200341
+Successfully processed game ID 0022200339
+Successfully processed game ID 0022200337
+Successfully processed game ID 0022200338
+Successfully processed game ID 0022200343
+Successfully processed game ID 0022200340
+Successfully processed game ID 0022200342
+Successfully processed game ID 0022200327
+Successfully processed game ID 0022200329
+Successfully processed game ID 0022200333
+Successfully processed game ID 0022200328
+Successfully processed game ID 0022200335
+Successfully processed game ID 0022200330
+Successfully processed game ID 0022200334
+Successfully processed game ID 0022200331
+Successfully processed game ID 0022200326
+Successfully processed game ID 0022200336
+Successfully processed game ID 0022200332
+Successfully processed game ID 0022200325
+Successfully processed game ID 0022200314
+Successfully processed game ID 0022200324
+Successfully processed game ID 0022200316
+Successfully processed game ID 0022200323
+Successfully processed game ID 0022200318
+Successfully processed game ID 0022200312
+Successfully processed game ID 0022200313
+Successfully processed game ID 0022200315
+Successfully processed game ID 0022200320
+Successfully processed game ID 0022200321
+Successfully processed game ID 0022200317
+Successfully processed game ID 0022200319
+Successfully processed game ID 0022200322
+Successfully processed game ID 0022200311
+Successfully processed game ID 0022200310
+Successfully processed game ID 0022200309
+Successfully processed game ID 0022200308
+Successfully processed game ID 0022200299
+Successfully processed game ID 0022200306
+Successfully processed game ID 0022200301
+Successfully processed game ID 0022200300
+Successfully processed game ID 0022200307
+Successfully processed game ID 0022200304
+Successfully processed game ID 0022200303
+Successfully processed game ID 0022200302
+Successfully processed game ID 0022200305
+Successfully processed game ID 0022200296
+Successfully processed game ID 0022200290
+Successfully processed game ID 0022200293
+Successfully processed game ID 0022200291
+Successfully processed game ID 0022200295
+Successfully processed game ID 0022200298
+Successfully processed game ID 0022200297
+Successfully processed game ID 0022200294
+Successfully processed game ID 0022200292
+Successfully processed game ID 0022200289
+Successfully processed game ID 0022200287
+Successfully processed game ID 0022200288
+Successfully processed game ID 0022200286
+Successfully processed game ID 0022200285
+Successfully processed game ID 0022200283
+Successfully processed game ID 0022200284
+Successfully processed game ID 0022200279
+Successfully processed game ID 0022200278
+Successfully processed game ID 0022200276
+Successfully processed game ID 0022200281
+Successfully processed game ID 0022200277
+Successfully processed game ID 0022200282
+Successfully processed game ID 0022200273
+Successfully processed game ID 0022200275
+Successfully processed game ID 0022200272
+Successfully processed game ID 0022200274
+Successfully processed game ID 0022200280
+Successfully processed game ID 0022200262
+Successfully processed game ID 0022200261
+Successfully processed game ID 0022200260
+Successfully processed game ID 0022200266
+Successfully processed game ID 0022200268
+Successfully processed game ID 0022200269
+Successfully processed game ID 0022200264
+Successfully processed game ID 0022200271
+Successfully processed game ID 0022200270
+Successfully processed game ID 0022200263
+Successfully processed game ID 0022200267
+Successfully processed game ID 0022200265
+Successfully processed game ID 0022200258
+Successfully processed game ID 0022200257
+Successfully processed game ID 0022200259
+Successfully processed game ID 0022200256
+Successfully processed game ID 0022200250
+Successfully processed game ID 0022200249
+Successfully processed game ID 0022200253
+Successfully processed game ID 0022200254
+Successfully processed game ID 0022200248
+Successfully processed game ID 0022200252
+Successfully processed game ID 0022200251
+Successfully processed game ID 0022200255
+Successfully processed game ID 0022200245
+Successfully processed game ID 0022200242
+Successfully processed game ID 0022200247
+Successfully processed game ID 0022200243
+Successfully processed game ID 0022200241
+Successfully processed game ID 0022200244
+Successfully processed game ID 0022200246
+Successfully processed game ID 0022200240
+Successfully processed game ID 0022200237
+Successfully processed game ID 0022200238
+Successfully processed game ID 0022200236
+Successfully processed game ID 0022200239
+Successfully processed game ID 0022200235
+Successfully processed game ID 0022200230
+Successfully processed game ID 0022200227
+Successfully processed game ID 0022200232
+Successfully processed game ID 0022200228
+Successfully processed game ID 0022200234
+Successfully processed game ID 0022200233
+Successfully processed game ID 0022200225
+Successfully processed game ID 0022200224
+Successfully processed game ID 0022200231
+Successfully processed game ID 0022200229
+Successfully processed game ID 0022200226
+Successfully processed game ID 0022200222
+Successfully processed game ID 0022200221
+Successfully processed game ID 0022200223
+Successfully processed game ID 0022200215
+Successfully processed game ID 0022200218
+Successfully processed game ID 0022200212
+Successfully processed game ID 0022200219
+Successfully processed game ID 0022200216
+Successfully processed game ID 0022200220
+Successfully processed game ID 0022200214
+Successfully processed game ID 0022200211
+Successfully processed game ID 0022200217
+Successfully processed game ID 0022200213
+Successfully processed game ID 0022200206
+Successfully processed game ID 0022200207
+Successfully processed game ID 0022200209
+Successfully processed game ID 0022200208
+Successfully processed game ID 0022200210
+Successfully processed game ID 0022200205
+Successfully processed game ID 0022200202
+Successfully processed game ID 0022200200
+Successfully processed game ID 0022200204
+Successfully processed game ID 0022200199
+Successfully processed game ID 0022200201
+Successfully processed game ID 0022200203
+Successfully processed game ID 0022200194
+Successfully processed game ID 0022200195
+Successfully processed game ID 0022200193
+Successfully processed game ID 0022200192
+Successfully processed game ID 0022200198
+Successfully processed game ID 0022200196
+Successfully processed game ID 0022200197
+Successfully processed game ID 0022200184
+Successfully processed game ID 0022200190
+Successfully processed game ID 0022200186
+Successfully processed game ID 0022200185
+Successfully processed game ID 0022200187
+Successfully processed game ID 0022200191
+Successfully processed game ID 0022200189
+Successfully processed game ID 0022200188
+Successfully processed game ID 0022200182
+Successfully processed game ID 0022200180
+Successfully processed game ID 0022200181
+Successfully processed game ID 0022200177
+Successfully processed game ID 0022200183
+Successfully processed game ID 0022200176
+Successfully processed game ID 0022200178
+Successfully processed game ID 0022200179
+Successfully processed game ID 0022200174
+Successfully processed game ID 0022200173
+Successfully processed game ID 0022200175
+Successfully processed game ID 0022200172
+Successfully processed game ID 0022200169
+Successfully processed game ID 0022200171
+Successfully processed game ID 0022200167
+Successfully processed game ID 0022200160
+Successfully processed game ID 0022200163
+Successfully processed game ID 0022200165
+Successfully processed game ID 0022200162
+Successfully processed game ID 0022200168
+Successfully processed game ID 0022200170
+Successfully processed game ID 0022200161
+Successfully processed game ID 0022200164
+Successfully processed game ID 0022200166
+Successfully processed game ID 0022200159
+Successfully processed game ID 0022200146
+Successfully processed game ID 0022200147
+Successfully processed game ID 0022200149
+Successfully processed game ID 0022200157
+Successfully processed game ID 0022200151
+Successfully processed game ID 0022200145
+Successfully processed game ID 0022200150
+Successfully processed game ID 0022200144
+Successfully processed game ID 0022200156
+Successfully processed game ID 0022200148
+Successfully processed game ID 0022200153
+Successfully processed game ID 0022200154
+Successfully processed game ID 0022200158
+Successfully processed game ID 0022200152
+Successfully processed game ID 0022200155
+Successfully processed game ID 0022200142
+Successfully processed game ID 0022200141
+Successfully processed game ID 0022200143
+Successfully processed game ID 0022200140
+Successfully processed game ID 0022200139
+Successfully processed game ID 0022200133
+Successfully processed game ID 0022200135
+Successfully processed game ID 0022200138
+Successfully processed game ID 0022200137
+Successfully processed game ID 0022200136
+Successfully processed game ID 0022200132
+Successfully processed game ID 0022200134
+Successfully processed game ID 0022200121
+Successfully processed game ID 0022200122
+Successfully processed game ID 0022200128
+Successfully processed game ID 0022200130
+Successfully processed game ID 0022200129
+Successfully processed game ID 0022200127
+Successfully processed game ID 0022200123
+Successfully processed game ID 0022200125
+Successfully processed game ID 0022200120
+Successfully processed game ID 0022200124
+Successfully processed game ID 0022200126
+Successfully processed game ID 0022200131
+Successfully processed game ID 0022200119
+Successfully processed game ID 0022200118
+Successfully processed game ID 0022200114
+Successfully processed game ID 0022200115
+Successfully processed game ID 0022200117
+Successfully processed game ID 0022200109
+Successfully processed game ID 0022200107
+Successfully processed game ID 0022200116
+Successfully processed game ID 0022200113
+Successfully processed game ID 0022200112
+Successfully processed game ID 0022200111
+Successfully processed game ID 0022200108
+Successfully processed game ID 0022200110
+Successfully processed game ID 0022200105
+Successfully processed game ID 0022200106
+Successfully processed game ID 0022200104
+Successfully processed game ID 0022200103
+Successfully processed game ID 0022200099
+Successfully processed game ID 0022200097
+Successfully processed game ID 0022200102
+Successfully processed game ID 0022200101
+Successfully processed game ID 0022200100
+Successfully processed game ID 0022200096
+Successfully processed game ID 0022200098
+Successfully processed game ID 0022200095
+Successfully processed game ID 0022200093
+Successfully processed game ID 0022200088
+Successfully processed game ID 0022200091
+Successfully processed game ID 0022200090
+Successfully processed game ID 0022200089
+Successfully processed game ID 0022200092
+Successfully processed game ID 0022200094
+Successfully processed game ID 0022200083
+Successfully processed game ID 0022200085
+Successfully processed game ID 0022200084
+Successfully processed game ID 0022200082
+Successfully processed game ID 0022200086
+Successfully processed game ID 0022200087
+Successfully processed game ID 0022200081
+Successfully processed game ID 0022200076
+Successfully processed game ID 0022200077
+Successfully processed game ID 0022200072
+Successfully processed game ID 0022200074
+Successfully processed game ID 0022200073
+Successfully processed game ID 0022200079
+Successfully processed game ID 0022200075
+Successfully processed game ID 0022200080
+Successfully processed game ID 0022200078
+Successfully processed game ID 0022200071
+Successfully processed game ID 0022200070
+Successfully processed game ID 0022200066
+Successfully processed game ID 0022200069
+Successfully processed game ID 0022200068
+Successfully processed game ID 0022200067
+Successfully processed game ID 0022200060
+Successfully processed game ID 0022200057
+Successfully processed game ID 0022200059
+Successfully processed game ID 0022200063
+Successfully processed game ID 0022200061
+Successfully processed game ID 0022200064
+Successfully processed game ID 0022200065
+Successfully processed game ID 0022200058
+Successfully processed game ID 0022200062
+Successfully processed game ID 0022200056
+Successfully processed game ID 0022200055
+Successfully processed game ID 0022200052
+Successfully processed game ID 0022200054
+Successfully processed game ID 0022200053
+Successfully processed game ID 0022200049
+Successfully processed game ID 0022200044
+Successfully processed game ID 0022200050
+Successfully processed game ID 0022200046
+Successfully processed game ID 0022200047
+Successfully processed game ID 0022200045
+Successfully processed game ID 0022200048
+Successfully processed game ID 0022200051
+Successfully processed game ID 0022200040
+Successfully processed game ID 0022200041
+Successfully processed game ID 0022200037
+Successfully processed game ID 0022200043
+Successfully processed game ID 0022200042
+Successfully processed game ID 0022200038
+Successfully processed game ID 0022200039
+Successfully processed game ID 0022200036
+Successfully processed game ID 0022200032
+Successfully processed game ID 0022200034
+Successfully processed game ID 0022200028
+Successfully processed game ID 0022200029
+Successfully processed game ID 0022200035
+Successfully processed game ID 0022200030
+Successfully processed game ID 0022200033
+Successfully processed game ID 0022200031
+Successfully processed game ID 0022200020
+Successfully processed game ID 0022200026
+Successfully processed game ID 0022200025
+Successfully processed game ID 0022200022
+Successfully processed game ID 0022200017
+Successfully processed game ID 0022200027
+Successfully processed game ID 0022200024
+Successfully processed game ID 0022200023
+Successfully processed game ID 0022200019
+Successfully processed game ID 0022200021
+Successfully processed game ID 0022200018
+Successfully processed game ID 0022200016
+Successfully processed game ID 0022200015
+Successfully processed game ID 0022200004
+Successfully processed game ID 0022200012
+Successfully processed game ID 0022200005
+Successfully processed game ID 0022200011
+Successfully processed game ID 0022200013
+Successfully processed game ID 0022200008
+Successfully processed game ID 0022200010
+Successfully processed game ID 0022200014
+Successfully processed game ID 0022200003
+Successfully processed game ID 0022200009
+Successfully processed game ID 0022200006
+Successfully processed game ID 0022200007
+Successfully processed game ID 0022200001
+Successfully processed game ID 0022200002
+Successfully processed 1230 games for season 2022_2023
+Loaded 1230 games from 2022-2023 season
+Found game IDs file at: C:\Users\arcan\Desktop\Python\nba_new\impact_scores\game_ids\game_id_2023_2024.csv
+Loading game IDs from: C:\Users\arcan\Desktop\Python\nba_new\impact_scores\game_ids\game_id_2023_2024.csv
+Loaded 1230 game IDs for season 2023_2024
+Successfully processed game ID 0022301198
+Successfully processed game ID 0022301194
+Successfully processed game ID 0022301196
+Successfully processed game ID 0022301189
+Successfully processed game ID 0022301191
+Successfully processed game ID 0022301193
+Successfully processed game ID 0022301190
+Successfully processed game ID 0022301187
+Successfully processed game ID 0022301192
+Successfully processed game ID 0022301200
+Successfully processed game ID 0022301186
+Successfully processed game ID 0022301188
+Successfully processed game ID 0022301197
+Successfully processed game ID 0022301199
+Successfully processed game ID 0022301195
+Successfully processed game ID 0022301181
+Successfully processed game ID 0022301177
+Successfully processed game ID 0022301184
+Successfully processed game ID 0022301180
+Successfully processed game ID 0022301178
+Successfully processed game ID 0022301174
+Successfully processed game ID 0022301172
+Successfully processed game ID 0022301182
+Successfully processed game ID 0022301185
+Successfully processed game ID 0022301175
+Successfully processed game ID 0022301183
+Successfully processed game ID 0022301171
+Successfully processed game ID 0022301173
+Successfully processed game ID 0022301179
+Successfully processed game ID 0022301176
+Successfully processed game ID 0022301168
+Successfully processed game ID 0022301166
+Successfully processed game ID 0022301167
+Successfully processed game ID 0022301170
+Successfully processed game ID 0022301169
+Successfully processed game ID 0022301158
+Successfully processed game ID 0022301161
+Successfully processed game ID 0022301164
+Successfully processed game ID 0022301163
+Successfully processed game ID 0022301159
+Successfully processed game ID 0022301165
+Successfully processed game ID 0022301162
+Successfully processed game ID 0022301160
+Successfully processed game ID 0022301145
+Successfully processed game ID 0022301151
+Successfully processed game ID 0022301147
+Successfully processed game ID 0022301144
+Successfully processed game ID 0022301157
+Successfully processed game ID 0022301152
+Successfully processed game ID 0022301156
+Successfully processed game ID 0022301148
+Successfully processed game ID 0022301153
+Successfully processed game ID 0022301150
+Successfully processed game ID 0022301146
+Successfully processed game ID 0022301155
+Successfully processed game ID 0022301149
+Successfully processed game ID 0022301154
+Successfully processed game ID 0022301139
+Successfully processed game ID 0022301142
+Successfully processed game ID 0022301143
+Successfully processed game ID 0022301131
+Successfully processed game ID 0022301135
+Successfully processed game ID 0022301134
+Successfully processed game ID 0022301133
+Successfully processed game ID 0022301132
+Successfully processed game ID 0022301137
+Successfully processed game ID 0022301141
+Successfully processed game ID 0022301138
+Successfully processed game ID 0022301136
+Successfully processed game ID 0022301140
+Successfully processed game ID 0022301127
+Successfully processed game ID 0022301128
+Successfully processed game ID 0022301130
+Successfully processed game ID 0022301129
+Successfully processed game ID 0022301097
+Successfully processed game ID 0022301121
+Successfully processed game ID 0022301117
+Successfully processed game ID 0022301115
+Successfully processed game ID 0022301119
+Successfully processed game ID 0022301123
+Successfully processed game ID 0022301126
+Successfully processed game ID 0022301116
+Successfully processed game ID 0022301125
+Successfully processed game ID 0022301120
+Successfully processed game ID 0022301122
+Successfully processed game ID 0022301118
+Successfully processed game ID 0022301113
+Successfully processed game ID 0022301112
+Successfully processed game ID 0022301124
+Successfully processed game ID 0022301111
+Successfully processed game ID 0022301114
+Successfully processed game ID 0022301105
+Successfully processed game ID 0022301106
+Successfully processed game ID 0022301107
+Successfully processed game ID 0022301102
+Successfully processed game ID 0022301103
+Successfully processed game ID 0022301104
+Successfully processed game ID 0022301109
+Successfully processed game ID 0022301108
+Successfully processed game ID 0022301110
+Successfully processed game ID 0022301100
+Successfully processed game ID 0022301095
+Successfully processed game ID 0022301094
+Successfully processed game ID 0022301099
+Successfully processed game ID 0022301096
+Successfully processed game ID 0022301098
+Successfully processed game ID 0022301093
+Successfully processed game ID 0022301101
+Successfully processed game ID 0022300589
+Successfully processed game ID 0022301092
+Successfully processed game ID 0022301088
+Successfully processed game ID 0022301087
+Successfully processed game ID 0022301090
+Successfully processed game ID 0022301089
+Successfully processed game ID 0022301091
+Successfully processed game ID 0022301082
+Successfully processed game ID 0022301080
+Successfully processed game ID 0022301079
+Successfully processed game ID 0022301078
+Successfully processed game ID 0022301077
+Successfully processed game ID 0022301084
+Successfully processed game ID 0022301081
+Successfully processed game ID 0022301085
+Successfully processed game ID 0022301086
+Successfully processed game ID 0022301083
+Successfully processed game ID 0022301076
+Successfully processed game ID 0022301074
+Successfully processed game ID 0022301075
+Successfully processed game ID 0022301063
+Successfully processed game ID 0022301064
+Successfully processed game ID 0022301072
+Successfully processed game ID 0022301069
+Successfully processed game ID 0022301070
+Successfully processed game ID 0022301071
+Successfully processed game ID 0022301068
+Successfully processed game ID 0022301073
+Successfully processed game ID 0022301067
+Successfully processed game ID 0022301062
+Successfully processed game ID 0022301065
+Successfully processed game ID 0022301066
+Successfully processed game ID 0022301061
+Successfully processed game ID 0022301060
+Successfully processed game ID 0022301052
+Successfully processed game ID 0022301058
+Successfully processed game ID 0022301050
+Successfully processed game ID 0022301055
+Successfully processed game ID 0022301049
+Successfully processed game ID 0022301048
+Successfully processed game ID 0022301054
+Successfully processed game ID 0022301057
+Successfully processed game ID 0022301051
+Successfully processed game ID 0022301056
+Successfully processed game ID 0022301053
+Successfully processed game ID 0022301059
+Successfully processed game ID 0022301045
+Successfully processed game ID 0022301044
+Successfully processed game ID 0022301047
+Successfully processed game ID 0022301046
+Successfully processed game ID 0022301042
+Successfully processed game ID 0022301043
+Successfully processed game ID 0022301039
+Successfully processed game ID 0022301033
+Successfully processed game ID 0022301034
+Successfully processed game ID 0022301035
+Successfully processed game ID 0022301040
+Successfully processed game ID 0022301041
+Successfully processed game ID 0022301036
+Successfully processed game ID 0022301038
+Successfully processed game ID 0022301037
+Successfully processed game ID 0022301030
+Successfully processed game ID 0022301028
+Successfully processed game ID 0022301032
+Successfully processed game ID 0022301031
+Successfully processed game ID 0022301029
+Successfully processed game ID 0022301027
+Successfully processed game ID 0022301024
+Successfully processed game ID 0022301025
+Successfully processed game ID 0022301020
+Successfully processed game ID 0022301021
+Successfully processed game ID 0022301019
+Successfully processed game ID 0022301022
+Successfully processed game ID 0022301026
+Successfully processed game ID 0022301023
+Successfully processed game ID 0022301014
+Successfully processed game ID 0022301011
+Successfully processed game ID 0022301017
+Successfully processed game ID 0022301018
+Successfully processed game ID 0022301015
+Successfully processed game ID 0022301012
+Successfully processed game ID 0022301013
+Successfully processed game ID 0022301016
+Successfully processed game ID 0022301010
+Successfully processed game ID 0022301004
+Successfully processed game ID 0022301008
+Successfully processed game ID 0022301005
+Successfully processed game ID 0022301009
+Successfully processed game ID 0022301006
+Successfully processed game ID 0022301007
+Successfully processed game ID 0022301000
+Successfully processed game ID 0022300998
+Successfully processed game ID 0022301003
+Successfully processed game ID 0022301002
+Successfully processed game ID 0022300996
+Successfully processed game ID 0022300997
+Successfully processed game ID 0022301001
+Successfully processed game ID 0022300999
+Successfully processed game ID 0022300992
+Successfully processed game ID 0022300995
+Successfully processed game ID 0022300993
+Successfully processed game ID 0022300994
+Successfully processed game ID 0022300991
+Successfully processed game ID 0022300983
+Successfully processed game ID 0022300986
+Successfully processed game ID 0022300989
+Successfully processed game ID 0022300988
+Successfully processed game ID 0022300990
+Successfully processed game ID 0022300985
+Successfully processed game ID 0022300984
+Successfully processed game ID 0022300987
+Successfully processed game ID 0022300978
+Successfully processed game ID 0022300976
+Successfully processed game ID 0022300982
+Successfully processed game ID 0022300980
+Successfully processed game ID 0022300977
+Successfully processed game ID 0022300981
+Successfully processed game ID 0022300979
+Successfully processed game ID 0022300972
+Successfully processed game ID 0022300975
+Successfully processed game ID 0022300973
+Successfully processed game ID 0022300970
+Successfully processed game ID 0022300968
+Successfully processed game ID 0022300971
+Successfully processed game ID 0022300974
+Successfully processed game ID 0022300969
+Successfully processed game ID 0022300967
+Successfully processed game ID 0022300965
+Successfully processed game ID 0022300964
+Successfully processed game ID 0022300962
+Successfully processed game ID 0022300966
+Successfully processed game ID 0022300961
+Successfully processed game ID 0022300963
+Successfully processed game ID 0022300955
+Successfully processed game ID 0022300956
+Successfully processed game ID 0022300960
+Successfully processed game ID 0022300958
+Successfully processed game ID 0022300959
+Successfully processed game ID 0022300957
+Successfully processed game ID 0022300948
+Successfully processed game ID 0022300953
+Successfully processed game ID 0022300946
+Successfully processed game ID 0022300949
+Successfully processed game ID 0022300951
+Successfully processed game ID 0022300954
+Successfully processed game ID 0022300950
+Successfully processed game ID 0022300947
+Successfully processed game ID 0022300952
+Successfully processed game ID 0022300939
+Successfully processed game ID 0022300945
+Successfully processed game ID 0022300941
+Successfully processed game ID 0022300942
+Successfully processed game ID 0022300940
+Successfully processed game ID 0022300944
+Successfully processed game ID 0022300943
+Successfully processed game ID 0022300937
+Successfully processed game ID 0022300934
+Successfully processed game ID 0022300938
+Successfully processed game ID 0022300933
+Successfully processed game ID 0022300935
+Successfully processed game ID 0022300936
+Successfully processed game ID 0022300926
+Successfully processed game ID 0022300928
+Successfully processed game ID 0022300932
+Successfully processed game ID 0022300925
+Successfully processed game ID 0022300927
+Successfully processed game ID 0022300924
+Successfully processed game ID 0022300931
+Successfully processed game ID 0022300929
+Successfully processed game ID 0022300930
+Successfully processed game ID 0022300917
+Successfully processed game ID 0022300919
+Successfully processed game ID 0022300921
+Successfully processed game ID 0022300922
+Successfully processed game ID 0022300918
+Successfully processed game ID 0022300923
+Successfully processed game ID 0022300920
+Successfully processed game ID 0022300913
+Successfully processed game ID 0022300914
+Successfully processed game ID 0022300910
+Successfully processed game ID 0022300909
+Successfully processed game ID 0022300912
+Successfully processed game ID 0022300911
+Successfully processed game ID 0022300915
+Successfully processed game ID 0022300916
+Successfully processed game ID 0022300903
+Successfully processed game ID 0022300908
+Successfully processed game ID 0022300906
+Successfully processed game ID 0022300904
+Successfully processed game ID 0022300902
+Successfully processed game ID 0022300907
+Successfully processed game ID 0022300905
+Successfully processed game ID 0022300895
+Successfully processed game ID 0022300901
+Successfully processed game ID 0022300897
+Successfully processed game ID 0022300898
+Successfully processed game ID 0022300899
+Successfully processed game ID 0022300900
+Successfully processed game ID 0022300896
+Successfully processed game ID 0022300894
+Successfully processed game ID 0022300892
+Successfully processed game ID 0022300887
+Successfully processed game ID 0022300888
+Successfully processed game ID 0022300886
+Successfully processed game ID 0022300891
+Successfully processed game ID 0022300885
+Successfully processed game ID 0022300889
+Successfully processed game ID 0022300893
+Successfully processed game ID 0022300890
+Successfully processed game ID 0022300879
+Successfully processed game ID 0022300883
+Successfully processed game ID 0022300884
+Successfully processed game ID 0022300881
+Successfully processed game ID 0022300882
+Successfully processed game ID 0022300880
+Successfully processed game ID 0022300876
+Successfully processed game ID 0022300871
+Successfully processed game ID 0022300872
+Successfully processed game ID 0022300874
+Successfully processed game ID 0022300875
+Successfully processed game ID 0022300878
+Successfully processed game ID 0022300873
+Successfully processed game ID 0022300877
+Successfully processed game ID 0022300869
+Successfully processed game ID 0022300870
+Successfully processed game ID 0022300868
+Successfully processed game ID 0022300866
+Successfully processed game ID 0022300867
+Successfully processed game ID 0022300858
+Successfully processed game ID 0022300860
+Successfully processed game ID 0022300859
+Successfully processed game ID 0022300863
+Successfully processed game ID 0022300865
+Successfully processed game ID 0022300861
+Successfully processed game ID 0022300857
+Successfully processed game ID 0022300862
+Successfully processed game ID 0022300864
+Successfully processed game ID 0022300854
+Successfully processed game ID 0022300853
+Successfully processed game ID 0022300856
+Successfully processed game ID 0022300849
+Successfully processed game ID 0022300850
+Successfully processed game ID 0022300852
+Successfully processed game ID 0022300855
+Successfully processed game ID 0022300851
+Successfully processed game ID 0022300848
+Successfully processed game ID 0022300846
+Successfully processed game ID 0022300845
+Successfully processed game ID 0022300847
+Successfully processed game ID 0022300844
+Successfully processed game ID 0022300843
+Successfully processed game ID 0022300833
+Successfully processed game ID 0022300836
+Successfully processed game ID 0022300835
+Successfully processed game ID 0022300840
+Successfully processed game ID 0022300832
+Successfully processed game ID 0022300838
+Successfully processed game ID 0022300842
+Successfully processed game ID 0022300837
+Successfully processed game ID 0022300834
+Successfully processed game ID 0022300841
+Successfully processed game ID 0022300839
+Successfully processed game ID 0022300831
+Successfully processed game ID 0022300830
+Successfully processed game ID 0022300828
+Successfully processed game ID 0022300829
+Successfully processed game ID 0022300827
+Successfully processed game ID 0022300818
+Successfully processed game ID 0022300822
+Successfully processed game ID 0022300820
+Successfully processed game ID 0022300817
+Successfully processed game ID 0022300821
+Successfully processed game ID 0022300819
+Successfully processed game ID 0022300823
+Successfully processed game ID 0022300826
+Successfully processed game ID 0022300825
+Successfully processed game ID 0022300824
+Successfully processed game ID 0022300814
+Successfully processed game ID 0022300816
+Successfully processed game ID 0022300815
+Successfully processed game ID 0022300812
+Successfully processed game ID 0022300805
+Successfully processed game ID 0022300813
+Successfully processed game ID 0022300809
+Successfully processed game ID 0022300811
+Successfully processed game ID 0022300804
+Successfully processed game ID 0022300808
+Successfully processed game ID 0022300806
+Successfully processed game ID 0022300807
+Successfully processed game ID 0022300810
+Successfully processed game ID 0022300794
+Successfully processed game ID 0022300795
+Successfully processed game ID 0022300802
+Successfully processed game ID 0022300801
+Successfully processed game ID 0022300800
+Successfully processed game ID 0022300796
+Successfully processed game ID 0022300803
+Successfully processed game ID 0022300798
+Successfully processed game ID 0022300793
+Successfully processed game ID 0022300792
+Successfully processed game ID 0022300797
+Successfully processed game ID 0022300799
+Successfully processed game ID 0022300791
+Successfully processed game ID 0022300790
+Successfully processed game ID 0022300576
+Successfully processed game ID 0022300778
+Successfully processed game ID 0022300781
+Successfully processed game ID 0022300784
+Successfully processed game ID 0022300780
+Successfully processed game ID 0022300789
+Successfully processed game ID 0022300785
+Successfully processed game ID 0022300777
+Successfully processed game ID 0022300786
+Successfully processed game ID 0022300779
+Successfully processed game ID 0022300788
+Successfully processed game ID 0022300783
+Successfully processed game ID 0022300782
+Successfully processed game ID 0022300787
+Successfully processed game ID 0022300775
+Successfully processed game ID 0022300772
+Successfully processed game ID 0022300776
+Successfully processed game ID 0022300771
+Successfully processed game ID 0022300773
+Successfully processed game ID 0022300774
+Successfully processed game ID 0022300767
+Successfully processed game ID 0022300766
+Successfully processed game ID 0022300762
+Successfully processed game ID 0022300769
+Successfully processed game ID 0022300768
+Successfully processed game ID 0022300761
+Successfully processed game ID 0022300764
+Successfully processed game ID 0022300765
+Successfully processed game ID 0022300770
+Successfully processed game ID 0022300763
+Successfully processed game ID 0022300759
+Successfully processed game ID 0022300760
+Successfully processed game ID 0022300758
+Successfully processed game ID 0022300756
+Successfully processed game ID 0022300754
+Successfully processed game ID 0022300751
+Successfully processed game ID 0022300753
+Successfully processed game ID 0022300748
+Successfully processed game ID 0022300752
+Successfully processed game ID 0022300750
+Successfully processed game ID 0022300749
+Successfully processed game ID 0022300757
+Successfully processed game ID 0022300755
+Successfully processed game ID 0022300747
+Successfully processed game ID 0022300742
+Successfully processed game ID 0022300746
+Successfully processed game ID 0022300743
+Successfully processed game ID 0022300745
+Successfully processed game ID 0022300744
+Successfully processed game ID 0022300736
+Successfully processed game ID 0022300737
+Successfully processed game ID 0022300735
+Successfully processed game ID 0022300739
+Successfully processed game ID 0022300733
+Successfully processed game ID 0022300738
+Successfully processed game ID 0022300734
+Successfully processed game ID 0022300740
+Successfully processed game ID 0022300741
+Successfully processed game ID 0022300730
+Successfully processed game ID 0022300729
+Successfully processed game ID 0022300731
+Successfully processed game ID 0022300728
+Successfully processed game ID 0022300732
+Successfully processed game ID 0022300727
+Successfully processed game ID 0022300726
+Successfully processed game ID 0022300719
+Successfully processed game ID 0022300724
+Successfully processed game ID 0022300720
+Successfully processed game ID 0022300721
+Successfully processed game ID 0022300723
+Successfully processed game ID 0022300725
+Successfully processed game ID 0022300722
+Successfully processed game ID 0022300714
+Successfully processed game ID 0022300715
+Successfully processed game ID 0022300717
+Successfully processed game ID 0022300713
+Successfully processed game ID 0022300716
+Successfully processed game ID 0022300718
+Successfully processed game ID 0022300712
+Successfully processed game ID 0022300708
+Successfully processed game ID 0022300710
+Successfully processed game ID 0022300706
+Successfully processed game ID 0022300705
+Successfully processed game ID 0022300711
+Successfully processed game ID 0022300704
+Successfully processed game ID 0022300707
+Successfully processed game ID 0022300709
+Successfully processed game ID 0022300703
+Successfully processed game ID 0022300700
+Successfully processed game ID 0022300701
+Successfully processed game ID 0022300698
+Successfully processed game ID 0022300702
+Successfully processed game ID 0022300699
+Successfully processed game ID 0022300689
+Successfully processed game ID 0022300690
+Successfully processed game ID 0022300692
+Successfully processed game ID 0022300696
+Successfully processed game ID 0022300694
+Successfully processed game ID 0022300693
+Successfully processed game ID 0022300691
+Successfully processed game ID 0022300695
+Successfully processed game ID 0022300697
+Successfully processed game ID 0022300688
+Successfully processed game ID 0022300686
+Successfully processed game ID 0022300687
+Successfully processed game ID 0022300685
+Successfully processed game ID 0022300684
+Successfully processed game ID 0022300681
+Successfully processed game ID 0022300683
+Successfully processed game ID 0022300675
+Successfully processed game ID 0022300678
+Successfully processed game ID 0022300677
+Successfully processed game ID 0022300679
+Successfully processed game ID 0022300676
+Successfully processed game ID 0022300680
+Successfully processed game ID 0022300682
+Successfully processed game ID 0022300674
+Successfully processed game ID 0022300673
+Successfully processed game ID 0022300669
+Successfully processed game ID 0022300672
+Successfully processed game ID 0022300670
+Successfully processed game ID 0022300671
+Successfully processed game ID 0022300663
+Successfully processed game ID 0022300666
+Successfully processed game ID 0022300661
+Successfully processed game ID 0022300664
+Successfully processed game ID 0022300667
+Successfully processed game ID 0022300659
+Successfully processed game ID 0022300657
+Successfully processed game ID 0022300658
+Successfully processed game ID 0022300665
+Successfully processed game ID 0022300660
+Successfully processed game ID 0022300668
+Successfully processed game ID 0022300662
+Successfully processed game ID 0022300652
+Successfully processed game ID 0022300653
+Successfully processed game ID 0022300655
+Successfully processed game ID 0022300654
+Successfully processed game ID 0022300656
+Successfully processed game ID 0022300651
+Successfully processed game ID 0022300647
+Successfully processed game ID 0022300643
+Successfully processed game ID 0022300645
+Successfully processed game ID 0022300650
+Successfully processed game ID 0022300649
+Successfully processed game ID 0022300646
+Successfully processed game ID 0022300644
+Successfully processed game ID 0022300648
+Successfully processed game ID 0022300642
+Successfully processed game ID 0022300634
+Successfully processed game ID 0022300636
+Successfully processed game ID 0022300638
+Successfully processed game ID 0022300639
+Successfully processed game ID 0022300637
+Successfully processed game ID 0022300641
+Successfully processed game ID 0022300635
+Successfully processed game ID 0022300640
+Successfully processed game ID 0022300631
+Successfully processed game ID 0022300633
+Successfully processed game ID 0022300632
+Successfully processed game ID 0022300627
+Successfully processed game ID 0022300629
+Successfully processed game ID 0022300628
+Successfully processed game ID 0022300630
+Successfully processed game ID 0022300625
+Successfully processed game ID 0022300620
+Successfully processed game ID 0022300626
+Successfully processed game ID 0022300622
+Successfully processed game ID 0022300621
+Successfully processed game ID 0022300619
+Successfully processed game ID 0022300624
+Successfully processed game ID 0022300623
+Successfully processed game ID 0022300617
+Successfully processed game ID 0022300614
+Successfully processed game ID 0022300616
+Successfully processed game ID 0022300618
+Successfully processed game ID 0022300615
+Successfully processed game ID 0022300612
+Successfully processed game ID 0022300611
+Successfully processed game ID 0022300610
+Successfully processed game ID 0022300613
+Successfully processed game ID 0022300607
+Successfully processed game ID 0022300609
+Successfully processed game ID 0022300608
+Successfully processed game ID 0022300606
+Successfully processed game ID 0022300601
+Successfully processed game ID 0022300602
+Successfully processed game ID 0022300604
+Successfully processed game ID 0022300600
+Successfully processed game ID 0022300605
+Successfully processed game ID 0022300603
+Successfully processed game ID 0022300599
+Successfully processed game ID 0022300595
+Successfully processed game ID 0022300592
+Successfully processed game ID 0022300597
+Successfully processed game ID 0022300598
+Successfully processed game ID 0022300596
+Successfully processed game ID 0022300594
+Successfully processed game ID 0022300593
+Successfully processed game ID 0022300590
+Successfully processed game ID 0022300587
+Successfully processed game ID 0022300591
+Successfully processed game ID 0022300585
+Successfully processed game ID 0022300586
+Successfully processed game ID 0022300588
+Successfully processed game ID 0022300584
+Successfully processed game ID 0022300582
+Successfully processed game ID 0022300580
+Successfully processed game ID 0022300581
+Successfully processed game ID 0022300579
+Successfully processed game ID 0022300583
+Successfully processed game ID 0022300575
+Successfully processed game ID 0022300572
+Successfully processed game ID 0022300574
+Successfully processed game ID 0022300578
+Successfully processed game ID 0022300569
+Successfully processed game ID 0022300577
+Successfully processed game ID 0022300571
+Successfully processed game ID 0022300573
+Successfully processed game ID 0022300570
+Successfully processed game ID 0022300567
+Successfully processed game ID 0022300568
+Successfully processed game ID 0022300566
+Successfully processed game ID 0022300556
+Successfully processed game ID 0022300560
+Successfully processed game ID 0022300562
+Successfully processed game ID 0022300563
+Successfully processed game ID 0022300557
+Successfully processed game ID 0022300555
+Successfully processed game ID 0022300565
+Successfully processed game ID 0022300558
+Successfully processed game ID 0022300564
+Successfully processed game ID 0022300559
+Successfully processed game ID 0022300561
+Successfully processed game ID 0022300552
+Successfully processed game ID 0022300550
+Successfully processed game ID 0022300553
+Successfully processed game ID 0022300554
+Successfully processed game ID 0022300551
+Successfully processed game ID 0022300548
+Successfully processed game ID 0022300549
+Successfully processed game ID 0022300545
+Successfully processed game ID 0022300542
+Successfully processed game ID 0022300543
+Successfully processed game ID 0022300547
+Successfully processed game ID 0022300544
+Successfully processed game ID 0022300546
+Successfully processed game ID 0022300534
+Successfully processed game ID 0022300535
+Successfully processed game ID 0022300541
+Successfully processed game ID 0022300538
+Successfully processed game ID 0022300537
+Successfully processed game ID 0022300533
+Successfully processed game ID 0022300539
+Successfully processed game ID 0022300532
+Successfully processed game ID 0022300536
+Successfully processed game ID 0022300540
+Successfully processed game ID 0022300528
+Successfully processed game ID 0022300530
+Successfully processed game ID 0022300527
+Successfully processed game ID 0022300529
+Successfully processed game ID 0022300531
+Successfully processed game ID 0022300521
+Successfully processed game ID 0022300525
+Successfully processed game ID 0022300517
+Successfully processed game ID 0022300524
+Successfully processed game ID 0022300526
+Successfully processed game ID 0022300522
+Successfully processed game ID 0022300520
+Successfully processed game ID 0022300519
+Successfully processed game ID 0022300518
+Successfully processed game ID 0022300523
+Successfully processed game ID 0022300514
+Successfully processed game ID 0022300516
+Successfully processed game ID 0022300515
+Successfully processed game ID 0022300512
+Successfully processed game ID 0022300513
+Successfully processed game ID 0022300508
+Successfully processed game ID 0022300506
+Successfully processed game ID 0022300511
+Successfully processed game ID 0022300510
+Successfully processed game ID 0022300507
+Successfully processed game ID 0022300509
+Successfully processed game ID 0022300500
+Successfully processed game ID 0022300503
+Successfully processed game ID 0022300499
+Successfully processed game ID 0022300498
+Successfully processed game ID 0022300501
+Successfully processed game ID 0022300505
+Successfully processed game ID 0022300497
+Successfully processed game ID 0022300504
+Successfully processed game ID 0022300502
+Successfully processed game ID 0022300496
+Successfully processed game ID 0022300495
+Successfully processed game ID 0022300493
+Successfully processed game ID 0022300494
+Successfully processed game ID 0022300484
+Successfully processed game ID 0022300488
+Successfully processed game ID 0022300483
+Successfully processed game ID 0022300482
+Successfully processed game ID 0022300492
+Successfully processed game ID 0022300486
+Successfully processed game ID 0022300481
+Successfully processed game ID 0022300491
+Successfully processed game ID 0022300490
+Successfully processed game ID 0022300479
+Successfully processed game ID 0022300485
+Successfully processed game ID 0022300489
+Successfully processed game ID 0022300480
+Successfully processed game ID 0022300487
+Successfully processed game ID 0022300478
+Successfully processed game ID 0022300477
+Successfully processed game ID 0022300472
+Successfully processed game ID 0022300471
+Successfully processed game ID 0022300473
+Successfully processed game ID 0022300475
+Successfully processed game ID 0022300465
+Successfully processed game ID 0022300469
+Successfully processed game ID 0022300468
+Successfully processed game ID 0022300466
+Successfully processed game ID 0022300467
+Successfully processed game ID 0022300470
+Successfully processed game ID 0022300474
+Successfully processed game ID 0022300476
+Successfully processed game ID 0022300460
+Successfully processed game ID 0022300459
+Successfully processed game ID 0022300462
+Successfully processed game ID 0022300463
+Successfully processed game ID 0022300461
+Successfully processed game ID 0022300464
+Successfully processed game ID 0022300451
+Successfully processed game ID 0022300458
+Successfully processed game ID 0022300453
+Successfully processed game ID 0022300455
+Successfully processed game ID 0022300456
+Successfully processed game ID 0022300452
+Successfully processed game ID 0022300454
+Successfully processed game ID 0022300457
+Successfully processed game ID 0022300447
+Successfully processed game ID 0022300445
+Successfully processed game ID 0022300446
+Successfully processed game ID 0022300450
+Successfully processed game ID 0022300449
+Successfully processed game ID 0022300448
+Successfully processed game ID 0022300443
+Successfully processed game ID 0022300442
+Successfully processed game ID 0022300440
+Successfully processed game ID 0022300439
+Successfully processed game ID 0022300444
+Successfully processed game ID 0022300441
+Successfully processed game ID 0022300436
+Successfully processed game ID 0022300431
+Successfully processed game ID 0022300432
+Successfully processed game ID 0022300433
+Successfully processed game ID 0022300437
+Successfully processed game ID 0022300434
+Successfully processed game ID 0022300435
+Successfully processed game ID 0022300430
+Successfully processed game ID 0022300438
+Successfully processed game ID 0022300429
+Successfully processed game ID 0022300427
+Successfully processed game ID 0022300424
+Successfully processed game ID 0022300423
+Successfully processed game ID 0022300425
+Successfully processed game ID 0022300422
+Successfully processed game ID 0022300426
+Successfully processed game ID 0022300428
+Successfully processed game ID 0022300421
+Successfully processed game ID 0022300420
+Successfully processed game ID 0022300417
+Successfully processed game ID 0022300416
+Successfully processed game ID 0022300418
+Successfully processed game ID 0022300419
+Successfully processed game ID 0022300415
+Successfully processed game ID 0022300413
+Successfully processed game ID 0022300406
+Successfully processed game ID 0022300409
+Successfully processed game ID 0022300407
+Successfully processed game ID 0022300412
+Successfully processed game ID 0022300410
+Successfully processed game ID 0022300408
+Successfully processed game ID 0022300414
+Successfully processed game ID 0022300411
+Successfully processed game ID 0022300402
+Successfully processed game ID 0022300403
+Successfully processed game ID 0022300405
+Successfully processed game ID 0022300404
+Successfully processed game ID 0022300401
+Successfully processed game ID 0022300395
+Successfully processed game ID 0022300394
+Successfully processed game ID 0022300399
+Successfully processed game ID 0022300393
+Successfully processed game ID 0022300391
+Successfully processed game ID 0022300400
+Successfully processed game ID 0022300396
+Successfully processed game ID 0022300392
+Successfully processed game ID 0022300390
+Successfully processed game ID 0022300389
+Successfully processed game ID 0022300397
+Successfully processed game ID 0022300398
+Successfully processed game ID 0022300388
+Successfully processed game ID 0022300383
+Successfully processed game ID 0022300384
+Successfully processed game ID 0022300386
+Successfully processed game ID 0022300385
+Successfully processed game ID 0022300382
+Successfully processed game ID 0022300387
+Successfully processed game ID 0022300379
+Successfully processed game ID 0022300375
+Successfully processed game ID 0022300378
+Successfully processed game ID 0022300376
+Successfully processed game ID 0022300380
+Successfully processed game ID 0022300377
+Successfully processed game ID 0022300374
+Successfully processed game ID 0022300381
+Successfully processed game ID 0022300372
+Successfully processed game ID 0022300371
+Successfully processed game ID 0022300364
+Successfully processed game ID 0022300367
+Successfully processed game ID 0022300365
+Successfully processed game ID 0022300370
+Successfully processed game ID 0022300369
+Successfully processed game ID 0022300373
+Successfully processed game ID 0022300368
+Successfully processed game ID 0022300366
+Successfully processed game ID 0022300363
+Successfully processed game ID 0022300360
+Successfully processed game ID 0022300361
+Successfully processed game ID 0022300362
+Successfully processed game ID 0022300357
+Successfully processed game ID 0022300352
+Successfully processed game ID 0022300356
+Successfully processed game ID 0022300355
+Successfully processed game ID 0022300354
+Successfully processed game ID 0022300351
+Successfully processed game ID 0022300358
+Successfully processed game ID 0022300349
+Successfully processed game ID 0022300350
+Successfully processed game ID 0022300353
+Successfully processed game ID 0022300359
+Successfully processed game ID 0022300346
+Successfully processed game ID 0022300344
+Successfully processed game ID 0022300348
+Successfully processed game ID 0022300345
+Successfully processed game ID 0022300347
+Successfully processed game ID 0022300340
+Successfully processed game ID 0022300343
+Successfully processed game ID 0022300338
+Successfully processed game ID 0022300337
+Successfully processed game ID 0022300339
+Successfully processed game ID 0022300342
+Successfully processed game ID 0022300336
+Successfully processed game ID 0022300335
+Successfully processed game ID 0022300341
+Successfully processed game ID 0022300334
+Successfully processed game ID 0022300329
+Successfully processed game ID 0022300330
+Successfully processed game ID 0022300327
+Successfully processed game ID 0022300333
+Successfully processed game ID 0022300332
+Successfully processed game ID 0022300328
+Successfully processed game ID 0022300326
+Successfully processed game ID 0022300331
+Successfully processed game ID 0022300325
+Successfully processed game ID 0022300320
+Successfully processed game ID 0022300324
+Successfully processed game ID 0022300319
+Successfully processed game ID 0022300323
+Successfully processed game ID 0022300321
+Successfully processed game ID 0022300322
+Successfully processed game ID 0022300312
+Successfully processed game ID 0022300311
+Successfully processed game ID 0022300313
+Successfully processed game ID 0022300310
+Successfully processed game ID 0022300317
+Successfully processed game ID 0022300314
+Successfully processed game ID 0022300316
+Successfully processed game ID 0022300318
+Successfully processed game ID 0022300315
+Successfully processed game ID 0022300306
+Successfully processed game ID 0022300309
+Successfully processed game ID 0022300305
+Successfully processed game ID 0022300308
+Successfully processed game ID 0022300307
+Successfully processed game ID 0022300302
+Successfully processed game ID 0022300298
+Successfully processed game ID 0022300300
+Successfully processed game ID 0022300303
+Successfully processed game ID 0022300294
+Successfully processed game ID 0022300301
+Successfully processed game ID 0022300295
+Successfully processed game ID 0022300304
+Successfully processed game ID 0022300292
+Successfully processed game ID 0022300296
+Successfully processed game ID 0022300297
+Successfully processed game ID 0022300299
+Successfully processed game ID 0022300293
+Successfully processed game ID 0022301216
+Successfully processed game ID 0022301227
+Successfully processed game ID 0022301228
+Successfully processed game ID 0022301219
+Successfully processed game ID 0022301225
+Successfully processed game ID 0022301226
+Successfully processed game ID 0022301220
+Successfully processed game ID 0022301224
+Successfully processed game ID 0022301221
+Successfully processed game ID 0022301223
+Successfully processed game ID 0022301222
+Successfully processed game ID 0022301217
+Successfully processed game ID 0022301218
+Successfully processed game ID 0022301230
+Successfully processed game ID 0022301229
+Successfully processed game ID 0022301211
+Successfully processed game ID 0022301207
+Successfully processed game ID 0022301214
+Successfully processed game ID 0022301213
+Successfully processed game ID 0022301209
+Successfully processed game ID 0022301206
+Successfully processed game ID 0022301212
+Successfully processed game ID 0022301208
+Successfully processed game ID 0022301210
+Successfully processed game ID 0022301215
+Successfully processed game ID 0022301205
+Successfully processed game ID 0022301203
+Successfully processed game ID 0022301201
+Successfully processed game ID 0022301202
+Successfully processed game ID 0022301204
+Successfully processed game ID 0022300280
+Successfully processed game ID 0022300284
+Successfully processed game ID 0022300287
+Successfully processed game ID 0022300281
+Successfully processed game ID 0022300290
+Successfully processed game ID 0022300289
+Successfully processed game ID 0022300291
+Successfully processed game ID 0022300282
+Successfully processed game ID 0022300283
+Successfully processed game ID 0022300286
+Successfully processed game ID 0022300288
+Successfully processed game ID 0022300285
+Successfully processed game ID 0022300275
+Successfully processed game ID 0022300276
+Successfully processed game ID 0022300278
+Successfully processed game ID 0022300274
+Successfully processed game ID 0022300277
+Successfully processed game ID 0022300279
+Successfully processed game ID 0022300273
+Successfully processed game ID 0022300266
+Successfully processed game ID 0022300265
+Successfully processed game ID 0022300268
+Successfully processed game ID 0022300267
+Successfully processed game ID 0022300271
+Successfully processed game ID 0022300270
+Successfully processed game ID 0022300272
+Successfully processed game ID 0022300269
+Successfully processed game ID 0022300263
+Successfully processed game ID 0022300261
+Successfully processed game ID 0022300264
+Successfully processed game ID 0022300259
+Successfully processed game ID 0022300260
+Successfully processed game ID 0022300258
+Successfully processed game ID 0022300262
+Successfully processed game ID 0022300057
+Successfully processed game ID 0022300054
+Successfully processed game ID 0022300055
+Successfully processed game ID 0022300059
+Successfully processed game ID 0022300058
+Successfully processed game ID 0022300056
+Successfully processed game ID 0022300060
+Successfully processed game ID 0022300053
+Successfully processed game ID 0022300256
+Successfully processed game ID 0022300253
+Successfully processed game ID 0022300254
+Successfully processed game ID 0022300255
+Successfully processed game ID 0022300257
+Successfully processed game ID 0022300245
+Successfully processed game ID 0022300247
+Successfully processed game ID 0022300249
+Successfully processed game ID 0022300248
+Successfully processed game ID 0022300246
+Successfully processed game ID 0022300251
+Successfully processed game ID 0022300252
+Successfully processed game ID 0022300250
+Successfully processed game ID 0022300241
+Successfully processed game ID 0022300242
+Successfully processed game ID 0022300244
+Successfully processed game ID 0022300240
+Successfully processed game ID 0022300239
+Successfully processed game ID 0022300243
+Successfully processed game ID 0022300047
+Successfully processed game ID 0022300046
+Successfully processed game ID 0022300044
+Successfully processed game ID 0022300043
+Successfully processed game ID 0022300051
+Successfully processed game ID 0022300052
+Successfully processed game ID 0022300049
+Successfully processed game ID 0022300045
+Successfully processed game ID 0022300050
+Successfully processed game ID 0022300048
+Successfully processed game ID 0022300233
+Successfully processed game ID 0022300236
+Successfully processed game ID 0022300231
+Successfully processed game ID 0022300228
+Successfully processed game ID 0022300237
+Successfully processed game ID 0022300234
+Successfully processed game ID 0022300229
+Successfully processed game ID 0022300232
+Successfully processed game ID 0022300235
+Successfully processed game ID 0022300225
+Successfully processed game ID 0022300230
+Successfully processed game ID 0022300238
+Successfully processed game ID 0022300227
+Successfully processed game ID 0022300226
+Successfully processed game ID 0022300040
+Successfully processed game ID 0022300042
+Successfully processed game ID 0022300038
+Successfully processed game ID 0022300039
+Successfully processed game ID 0022300041
+Successfully processed game ID 0022300221
+Successfully processed game ID 0022300224
+Successfully processed game ID 0022300218
+Successfully processed game ID 0022300220
+Successfully processed game ID 0022300217
+Successfully processed game ID 0022300223
+Successfully processed game ID 0022300222
+Successfully processed game ID 0022300219
+Successfully processed game ID 0022300213
+Successfully processed game ID 0022300210
+Successfully processed game ID 0022300212
+Successfully processed game ID 0022300211
+Successfully processed game ID 0022300209
+Successfully processed game ID 0022300215
+Successfully processed game ID 0022300208
+Successfully processed game ID 0022300216
+Successfully processed game ID 0022300214
+Successfully processed game ID 0022300202
+Successfully processed game ID 0022300207
+Successfully processed game ID 0022300206
+Successfully processed game ID 0022300205
+Successfully processed game ID 0022300203
+Successfully processed game ID 0022300204
+Successfully processed game ID 0022300036
+Successfully processed game ID 0022300032
+Successfully processed game ID 0022300034
+Successfully processed game ID 0022300037
+Successfully processed game ID 0022300035
+Successfully processed game ID 0022300030
+Successfully processed game ID 0022300033
+Successfully processed game ID 0022300031
+Successfully processed game ID 0022300029
+Successfully processed game ID 0022300027
+Successfully processed game ID 0022300028
+Successfully processed game ID 0022300200
+Successfully processed game ID 0022300201
+Successfully processed game ID 0022300197
+Successfully processed game ID 0022300193
+Successfully processed game ID 0022300199
+Successfully processed game ID 0022300196
+Successfully processed game ID 0022300194
+Successfully processed game ID 0022300192
+Successfully processed game ID 0022300198
+Successfully processed game ID 0022300195
+Successfully processed game ID 0022300018
+Successfully processed game ID 0022300020
+Successfully processed game ID 0022300019
+Successfully processed game ID 0022300026
+Successfully processed game ID 0022300021
+Successfully processed game ID 0022300024
+Successfully processed game ID 0022300022
+Successfully processed game ID 0022300025
+Successfully processed game ID 0022300017
+Successfully processed game ID 0022300023
+Successfully processed game ID 0022300190
+Successfully processed game ID 0022300189
+Successfully processed game ID 0022300191
+Successfully processed game ID 0022300188
+Successfully processed game ID 0022300178
+Successfully processed game ID 0022300184
+Successfully processed game ID 0022300179
+Successfully processed game ID 0022300187
+Successfully processed game ID 0022300180
+Successfully processed game ID 0022300186
+Successfully processed game ID 0022300181
+Successfully processed game ID 0022300185
+Successfully processed game ID 0022300182
+Successfully processed game ID 0022300183
+Successfully processed game ID 0022300177
+Successfully processed game ID 0022300173
+Successfully processed game ID 0022300174
+Successfully processed game ID 0022300175
+Successfully processed game ID 0022300176
+Successfully processed game ID 0022300012
+Successfully processed game ID 0022300011
+Successfully processed game ID 0022300016
+Successfully processed game ID 0022300009
+Successfully processed game ID 0022300008
+Successfully processed game ID 0022300015
+Successfully processed game ID 0022300010
+Successfully processed game ID 0022300014
+Successfully processed game ID 0022300013
+Successfully processed game ID 0022300172
+Successfully processed game ID 0022300171
+Successfully processed game ID 0022300158
+Successfully processed game ID 0022300163
+Successfully processed game ID 0022300165
+Successfully processed game ID 0022300160
+Successfully processed game ID 0022300166
+Successfully processed game ID 0022300162
+Successfully processed game ID 0022300168
+Successfully processed game ID 0022300164
+Successfully processed game ID 0022300169
+Successfully processed game ID 0022300170
+Successfully processed game ID 0022300161
+Successfully processed game ID 0022300159
+Successfully processed game ID 0022300157
+Successfully processed game ID 0022300167
+Successfully processed game ID 0022300153
+Successfully processed game ID 0022300156
+Successfully processed game ID 0022300148
+Successfully processed game ID 0022300155
+Successfully processed game ID 0022300152
+Successfully processed game ID 0022300147
+Successfully processed game ID 0022300154
+Successfully processed game ID 0022300150
+Successfully processed game ID 0022300145
+Successfully processed game ID 0022300151
+Successfully processed game ID 0022300146
+Successfully processed game ID 0022300149
+Successfully processed game ID 0022300140
+Successfully processed game ID 0022300142
+Successfully processed game ID 0022300144
+Successfully processed game ID 0022300141
+Successfully processed game ID 0022300143
+Successfully processed game ID 0022300139
+Successfully processed game ID 0022300134
+Successfully processed game ID 0022300137
+Successfully processed game ID 0022300135
+Successfully processed game ID 0022300132
+Successfully processed game ID 0022300133
+Successfully processed game ID 0022300138
+Successfully processed game ID 0022300136
+Successfully processed game ID 0022300007
+Successfully processed game ID 0022300006
+Successfully processed game ID 0022300002
+Successfully processed game ID 0022300001
+Successfully processed game ID 0022300005
+Successfully processed game ID 0022300003
+Successfully processed game ID 0022300004
+Successfully processed game ID 0022300130
+Successfully processed game ID 0022300131
+Successfully processed game ID 0022300128
+Successfully processed game ID 0022300129
+Successfully processed game ID 0022300126
+Successfully processed game ID 0022300116
+Successfully processed game ID 0022300119
+Successfully processed game ID 0022300121
+Successfully processed game ID 0022300122
+Successfully processed game ID 0022300120
+Successfully processed game ID 0022300127
+Successfully processed game ID 0022300124
+Successfully processed game ID 0022300118
+Successfully processed game ID 0022300115
+Successfully processed game ID 0022300123
+Successfully processed game ID 0022300125
+Successfully processed game ID 0022300117
+Successfully processed game ID 0022300114
+Successfully processed game ID 0022300113
+Successfully processed game ID 0022300112
+Successfully processed game ID 0022300101
+Successfully processed game ID 0022300109
+Successfully processed game ID 0022300108
+Successfully processed game ID 0022300111
+Successfully processed game ID 0022300110
+Successfully processed game ID 0022300104
+Successfully processed game ID 0022300102
+Successfully processed game ID 0022300107
+Successfully processed game ID 0022300103
+Successfully processed game ID 0022300105
+Successfully processed game ID 0022300106
+Successfully processed game ID 0022300097
+Successfully processed game ID 0022300096
+Successfully processed game ID 0022300099
+Successfully processed game ID 0022300098
+Successfully processed game ID 0022300100
+Successfully processed game ID 0022300095
+Successfully processed game ID 0022300094
+Successfully processed game ID 0022300093
+Successfully processed game ID 0022300090
+Successfully processed game ID 0022300088
+Successfully processed game ID 0022300091
+Successfully processed game ID 0022300092
+Successfully processed game ID 0022300089
+Successfully processed game ID 0022300080
+Successfully processed game ID 0022300082
+Successfully processed game ID 0022300079
+Successfully processed game ID 0022300085
+Successfully processed game ID 0022300078
+Successfully processed game ID 0022300077
+Successfully processed game ID 0022300086
+Successfully processed game ID 0022300087
+Successfully processed game ID 0022300081
+Successfully processed game ID 0022300083
+Successfully processed game ID 0022300084
+Successfully processed game ID 0022300075
+Successfully processed game ID 0022300076
+Successfully processed game ID 0022300072
+Successfully processed game ID 0022300065
+Successfully processed game ID 0022300066
+Successfully processed game ID 0022300071
+Successfully processed game ID 0022300067
+Successfully processed game ID 0022300073
+Successfully processed game ID 0022300070
+Successfully processed game ID 0022300069
+Successfully processed game ID 0022300063
+Successfully processed game ID 0022300074
+Successfully processed game ID 0022300064
+Successfully processed game ID 0022300068
+Successfully processed game ID 0022300061
+Successfully processed game ID 0022300062
+Successfully processed 1230 games for season 2023_2024
+Loaded 1230 games from 2023-2024 season
+Processed 3704 team performances
+Processed 0 player performances
+
+Preparing data for prediction...
+Added historical context to 1230 games for 2023-2024 season
+
+Training prediction models...
+Training prediction models using 90 features...
+
+Training model for home_win...
+[LightGBM] [Info] Number of positive: 395, number of negative: 527
+[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.001065 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
+[LightGBM] [Info] Total Bins 5265
+[LightGBM] [Info] Number of data points in the train set: 922, number of used features: 90
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.428416 -> initscore=-0.288315
+[LightGBM] [Info] Start training from score -0.288315
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+Test accuracy: 0.9318
+Test AUC: 0.9699
+
+Top 10 Features:
+        Feature  Importance
+10      home_q4         523
+11      away_q4         422
+40  impact_diff         219
+8       home_q3         152
+3   clutch_diff         130
+9       away_q3         122
+6       home_q2         107
+4       home_q1         101
+38  home_impact          99
+39  away_impact          94
+
+Training model for point_diff...
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001521 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 5265
+[LightGBM] [Info] Number of data points in the train set: 922, number of used features: 90
+[LightGBM] [Info] Start training from score 1.581345
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+Test MAE: 2.8620
+Test RMSE: 4.4793
+
+Top 10 Features:
+         Feature  Importance
+11       away_q4         475
+10       home_q4         440
+40   impact_diff         194
+39   away_impact          80
+9        away_q3          69
+8        home_q3          65
+38   home_impact          65
+26   away_FG_PCT          56
+29      away_eFG          54
+27  away_FG3_PCT          49
+
+Training model for total_score...
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001643 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 5265
+[LightGBM] [Info] Number of data points in the train set: 922, number of used features: 90
+[LightGBM] [Info] Start training from score 178.208243
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+Test MAE: 25.6181
+Test RMSE: 49.6955
+
+Top 10 Features:
+         Feature  Importance
+10       home_q4         166
+11       away_q4         143
+4        home_q1         119
+6        home_q2         113
+39   away_impact         106
+9        away_q3          86
+29      away_eFG          83
+8        home_q3          81
+28   away_FT_PCT          68
+30  away_TOV_PCT          67
+
+Training model for home_score...
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000970 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 5265
+[LightGBM] [Info] Number of data points in the train set: 922, number of used features: 90
+[LightGBM] [Info] Start training from score 89.894794
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+Test MAE: 12.9523
+Test RMSE: 24.8910
+
+Top 10 Features:
+        Feature  Importance
+10      home_q4         240
+4       home_q1         117
+6       home_q2         104
+39  away_impact          92
+8       home_q3          88
+28  away_FT_PCT          87
+11      away_q4          84
+29     away_eFG          78
+38  home_impact          74
+9       away_q3          72
+
+Training model for away_score...
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001031 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 5265
+[LightGBM] [Info] Number of data points in the train set: 922, number of used features: 90
+[LightGBM] [Info] Start training from score 88.313449
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
+Test MAE: 12.9262
+Test RMSE: 25.0055
+
+Top 10 Features:
+         Feature  Importance
+11       away_q4         189
+39   away_impact         138
+10       home_q4         114
+9        away_q3         109
+4        home_q1         106
+29      away_eFG          92
+28   away_FT_PCT          85
+40   impact_diff          80
+30  away_TOV_PCT          75
+7        away_q2          73
+
+Training complete. All models saved.
+
+Evaluating model performance...
+
+Model Performance Summary:
+
+total:
+  score_mae: 25.6181
+  score_rmse: 49.6955
+
+home:
+  win_accuracy: 0.9318
+  win_auc: 0.9699
+  score_mae: 12.9523
+  score_rmse: 24.8910
+
+point:
+  diff_mae: 2.8620
+  diff_rmse: 4.4793
+
+away:
+  score_mae: 12.9262
+  score_rmse: 25.0055
+
+Making a sample prediction...
+
+Sample Prediction:
+  home_team: BOS
+  away_team: LAL
+  game_date: None
+  home_win_prob: 0.03
+  home_win: 0
+  point_diff: -0.20
+  total_score: 7.31
+  home_score: 6.63
+  away_score: 7.88
+  projected_winner: LAL
+  win_margin: 0.20
+  total_score_calc: 14.51
+
+Script execution complete.
+Full output log saved to: C:\Users\arcan\Desktop\Python\nba_new\impact_scores\output\model_training_log_20250512_180556.txt

@@ -1,0 +1,546 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021900027,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:12 PM EST),period,start,0,0,1
+0021900027,4,PT12M00.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Jump Ball Drummond vs. Horford: Tip to Frazier,Jump Ball,,1,0,2
+0021900027,7,PT11M53.00S,1,1610612755,PHI,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,v,Richardson P.FOUL (P1.T1) (N.Buchert),Foul,Personal,1,0,3
+0021900027,9,PT11M38.00S,1,1610612765,DET,203503,Snell,T. Snell,-15,276,28,Missed,1,,,0,h,MISS Snell 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,4
+0021900027,10,PT11M35.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,5
+0021900027,11,PT11M34.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,37,50,6,Made,1,0,2,2,v,Simmons 6' Driving Floating Bank Jump Shot (2 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,6
+0021900027,12,PT11M34.00S,1,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,Brown S.FOUL (P1.T1) (J.Goldenberg),Foul,Shooting,1,0,7
+0021900027,14,PT11M34.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,MISS Simmons Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,8
+0021900027,15,PT11M31.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,9
+0021900027,16,PT11M19.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond Out of Bounds - Bad Pass Turnover Turnover (P1.T1),Turnover,Out of Bounds - Bad Pass Turnover,1,0,10
+0021900027,17,PT11M06.00S,1,1610612755,PHI,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,v,Richardson Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,11
+0021900027,17,PT11M06.00S,1,1610612765,DET,203503,Snell,T. Snell,0,0,0,,0,,,0,h,Snell STEAL (1 STL),,,1,0,12
+0021900027,19,PT10M52.00S,1,1610612765,DET,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier Lost Ball Turnover (P1.T2),Turnover,Lost Ball,1,0,13
+0021900027,19,PT10M52.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons STEAL (1 STL),,,1,0,14
+0021900027,22,PT10M44.00S,1,1610612755,PHI,1626196,Richardson,J. Richardson,-14,0,1,Made,1,0,4,4,v,Richardson 1' Driving Layup (2 PTS) (Simmons 1 AST),Made Shot,Driving Layup Shot,1,2,15
+0021900027,24,PT10M35.00S,1,1610612765,DET,203083,Drummond,A. Drummond,-35,15,4,Missed,1,,,0,h,MISS Drummond 4' Layup,Missed Shot,Layup Shot,1,2,16
+0021900027,25,PT10M33.00S,1,1610612755,PHI,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,17
+0021900027,26,PT10M30.00S,1,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris P.FOUL (P1.T2) (N.Buchert),Foul,Personal,1,0,18
+0021900027,29,PT10M25.00S,1,1610612755,PHI,1626196,Richardson,J. Richardson,-151,62,16,Missed,1,,,0,v,MISS Richardson 16' Jump Shot,Missed Shot,Jump Shot,1,2,19
+0021900027,30,PT10M22.00S,1,1610612765,DET,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,20
+0021900027,31,PT10M17.00S,1,1610612765,DET,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier Lost Ball Turnover (P2.T3),Turnover,Lost Ball,1,0,21
+0021900027,31,PT10M17.00S,1,1610612755,PHI,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,v,Thybulle STEAL (1 STL),,,1,0,22
+0021900027,33,PT10M14.00S,1,1610612755,PHI,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,v,Thybulle Out of Bounds Lost Ball Turnover (P1.T2),Turnover,Out of Bounds Lost Ball Turnover,1,0,23
+0021900027,34,PT09M54.00S,1,1610612765,DET,202693,Morris,M. Morris,-25,6,3,Made,1,2,4,6,h,Morris 3' Driving Layup (2 PTS) (Frazier 1 AST),Made Shot,Driving Layup Shot,1,2,24
+0021900027,36,PT09M53.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons OFF.Foul (P1) (K.Scott),Foul,Offensive,1,0,25
+0021900027,38,PT09M53.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons Offensive Foul Turnover (P1.T3),Turnover,Offensive Foul Turnover,1,0,26
+0021900027,39,PT09M45.00S,1,1610612765,DET,203503,Snell,T. Snell,-7,263,26,Missed,1,,,0,h,MISS Snell 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,27
+0021900027,40,PT09M42.00S,1,1610612755,PHI,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,v,Richardson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,28
+0021900027,41,PT09M35.00S,1,1610612755,PHI,201143,Horford,A. Horford,23,256,26,Missed,1,,,0,v,MISS Horford 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,29
+0021900027,42,PT09M33.00S,1,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,30
+0021900027,43,PT09M30.00S,1,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,31
+0021900027,43,PT09M30.00S,1,1610612755,PHI,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,v,Richardson STEAL (1 STL),,,1,0,32
+0021900027,45,PT09M25.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,-9,11,1,Made,1,2,6,8,v,Simmons 1' Alley Oop Dunk (4 PTS) (Richardson 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,33
+0021900027,47,PT09M10.00S,1,1610612765,DET,203083,Drummond,A. Drummond,36,47,6,Missed,1,,,0,h,MISS Drummond 6' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,34
+0021900027,48,PT09M08.00S,1,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,35
+0021900027,49,PT09M08.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond P.FOUL (P1.T3) (K.Scott),Foul,Personal,1,0,36
+0021900027,51,PT08M50.00S,1,1610612755,PHI,202699,Harris,T. Harris,115,142,18,Made,1,2,8,10,v,Harris 18' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,37
+0021900027,52,PT08M43.00S,1,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,38
+0021900027,53,PT08M32.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond Palming Turnover (P2.T5),Turnover,Palming Turnover,1,0,39
+0021900027,54,PT08M18.00S,1,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,PISTONS T.Foul (Def. 3 Sec Morris ) (N.Buchert),Foul,Defense 3 Second,1,0,40
+0021900027,55,PT08M18.00S,1,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,,,0,v,MISS Harris Free Throw Technical,Free Throw,Free Throw Technical,1,0,41
+0021900027,56,PT08M18.00S,1,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Normal Rebound,0,0,42
+0021900027,57,PT08M15.00S,1,1610612755,PHI,1626196,Richardson,J. Richardson,-13,0,1,Made,1,2,10,12,v,Richardson 1' Alley Oop Layup (4 PTS) (Simmons 2 AST),Made Shot,Alley Oop Layup shot,1,2,43
+0021900027,59,PT08M04.00S,1,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,Brown OFF.Foul (P2) (K.Scott),Foul,Offensive,1,0,44
+0021900027,61,PT08M04.00S,1,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,Brown Offensive Foul Turnover (P1.T6),Turnover,Offensive Foul Turnover,1,0,45
+0021900027,62,PT07M56.00S,1,1610612755,PHI,202699,Harris,T. Harris,-14,90,9,Made,1,2,12,14,v,Harris 9' Running Pull-Up Jump Shot (4 PTS),Made Shot,Running Pull-Up Jump Shot,1,2,46
+0021900027,63,PT07M56.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond S.FOUL (P2.T4) (N.Buchert),Foul,Shooting,1,0,47
+0021900027,65,PT07M56.00S,1,1610612765,DET,203503,Snell,T. Snell,0,0,0,,0,,,0,h,SUB: Kennard FOR Snell,Substitution,,0,0,48
+0021900027,66,PT07M56.00S,1,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,SUB: Galloway FOR Brown,Substitution,,0,0,49
+0021900027,69,PT07M56.00S,1,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,2,13,15,v,Harris Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,50
+0021900027,70,PT07M38.00S,1,1610612765,DET,1628379,Kennard,L. Kennard,-40,186,19,Made,1,4,13,17,h,Kennard 19' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,51
+0021900027,71,PT07M29.00S,1,1610612755,PHI,201143,Horford,A. Horford,-27,253,25,Missed,1,,,0,v,MISS Horford 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,52
+0021900027,72,PT07M26.00S,1,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,53
+0021900027,73,PT07M21.00S,1,1610612765,DET,202693,Morris,M. Morris,13,-1,1,Made,1,6,13,19,h,Morris 1' Cutting Layup Shot (4 PTS) (Frazier 2 AST),Made Shot,Cutting Layup Shot,1,2,54
+0021900027,75,PT07M13.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,58,69,9,Missed,1,,,0,v,MISS Simmons 9' Hook Shot,Missed Shot,Hook Shot,1,2,55
+0021900027,76,PT07M11.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,56
+0021900027,77,PT06M52.00S,1,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris S.FOUL (P1.T2) (N.Buchert),Foul,Shooting,1,0,57
+0021900027,79,PT06M52.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,7,13,20,h,Drummond Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,58
+0021900027,80,PT06M52.00S,1,1610612755,PHI,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,v,SUB: Korkmaz FOR Richardson,Substitution,,0,0,59
+0021900027,81,PT06M52.00S,1,1610612755,PHI,201143,Horford,A. Horford,0,0,0,,0,,,0,v,SUB: O'Quinn FOR Horford,Substitution,,0,0,60
+0021900027,84,PT06M52.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,8,13,21,h,Drummond Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,61
+0021900027,85,PT06M36.00S,1,1610612755,PHI,202699,Harris,T. Harris,4,80,8,Missed,1,,,0,v,MISS Harris 8' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,62
+0021900027,86,PT06M36.00S,1,1610612755,PHI,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,63
+0021900027,87,PT06M36.00S,1,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,Kennard P.FOUL (P1.PN) (K.Scott),Foul,Personal,1,0,64
+0021900027,89,PT06M36.00S,1,1610612755,PHI,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,MISS O'Quinn Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,65
+0021900027,90,PT06M36.00S,1,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Normal Rebound,0,0,66
+0021900027,91,PT06M36.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,SUB: Maker FOR Drummond,Substitution,,0,0,67
+0021900027,92,PT06M36.00S,1,1610612765,DET,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,SUB: Rose FOR Frazier,Substitution,,0,0,68
+0021900027,95,PT06M36.00S,1,1610612755,PHI,203124,O'Quinn,K. O'Quinn,0,0,0,,0,8,14,22,v,O'Quinn Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,69
+0021900027,96,PT06M30.00S,1,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris Lost Ball Turnover (P2.T7),Turnover,Lost Ball,1,0,70
+0021900027,96,PT06M30.00S,1,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris STEAL (1 STL),,,1,0,71
+0021900027,98,PT06M27.00S,1,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris S.FOUL (P2.PN) (J.Goldenberg),Foul,Shooting,1,0,72
+0021900027,100,PT06M27.00S,1,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,8,15,23,v,Harris Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,73
+0021900027,101,PT06M27.00S,1,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,SUB: Wood FOR Morris,Substitution,,0,0,74
+0021900027,103,PT06M27.00S,1,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,8,16,24,v,Harris Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,75
+0021900027,104,PT06M25.00S,1,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris T.FOUL (P2.PN) (J.Goldenberg),Foul,Technical,1,0,76
+0021900027,105,PT06M25.00S,1,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,8,17,25,v,Harris Free Throw Technical (8 PTS),Free Throw,Free Throw Technical,1,0,77
+0021900027,106,PT06M06.00S,1,1610612765,DET,201565,Rose,D. Rose,35,57,7,Made,1,10,17,27,h,Rose 7' Driving Floating Jump Shot (2 PTS),Made Shot,Driving Floating Jump Shot,1,2,78
+0021900027,108,PT06M00.00S,1,1610612755,PHI,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,v,Thybulle Traveling Turnover (P2.T4),Turnover,Traveling,1,0,79
+0021900027,109,PT05M43.00S,1,1610612765,DET,201565,Rose,D. Rose,-81,84,12,Made,1,12,17,29,h,Rose 12' Driving Floating Jump Shot (4 PTS) (Kennard 1 AST),Made Shot,Driving Floating Jump Shot,1,2,80
+0021900027,111,PT05M33.00S,1,1610612755,PHI,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn Out of Bounds - Bad Pass Turnover Turnover (P1.T5),Turnover,Out of Bounds - Bad Pass Turnover,1,0,81
+0021900027,112,PT05M20.00S,1,1610612765,DET,1626174,Wood,C. Wood,-131,228,26,Missed,1,,,0,h,MISS Wood 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,82
+0021900027,113,PT05M18.00S,1,1610612755,PHI,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,83
+0021900027,114,PT05M11.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,-47,6,5,Missed,1,,,0,v,MISS Simmons 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,84
+0021900027,114,PT05M11.00S,1,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker BLOCK (1 BLK),,,1,2,85
+0021900027,116,PT05M11.00S,1,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Unknown,0,0,86
+0021900027,118,PT05M09.00S,1,1610612755,PHI,1629680,Thybulle,M. Thybulle,-199,151,25,Missed,1,,,0,v,MISS Thybulle 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,87
+0021900027,118,PT05M09.00S,1,1610612765,DET,201565,Rose,D. Rose,0,0,0,,0,,,0,h,Rose BLOCK (1 BLK),,,1,3,88
+0021900027,120,PT05M09.00S,1,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Unknown,0,0,89
+0021900027,122,PT04M57.00S,1,1610612755,PHI,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,v,Thybulle Bad Pass Turnover (P3.T6),Turnover,Bad Pass,1,0,90
+0021900027,122,PT04M57.00S,1,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker STEAL (1 STL),,,1,0,91
+0021900027,124,PT04M49.00S,1,1610612765,DET,1628379,Kennard,L. Kennard,-240,41,24,Missed,1,,,0,h,MISS Kennard 24' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,92
+0021900027,125,PT04M49.00S,1,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,93
+0021900027,127,PT04M49.00S,1,1610612755,PHI,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,v,SUB: Ennis III FOR Thybulle,Substitution,,0,0,94
+0021900027,129,PT04M48.00S,1,1610612755,PHI,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,Ennis III S.FOUL (P1.T3) (K.Scott),Foul,Shooting,1,0,95
+0021900027,131,PT04M48.00S,1,0,,129,Radja,D. Radja,0,0,0,,0,12,17,29,,Instant Replay1st Period (7:32 PM EST),Instant Replay,Ruling Stands,0,0,96
+0021900027,132,PT04M48.00S,1,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,13,17,30,h,Kennard Free Throw 1 of 3 (3 PTS),Free Throw,Free Throw 1 of 3,1,0,97
+0021900027,133,PT04M48.00S,1,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,14,17,31,h,Kennard Free Throw 2 of 3 (4 PTS),Free Throw,Free Throw 2 of 3,1,0,98
+0021900027,134,PT04M48.00S,1,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,15,17,32,h,Kennard Free Throw 3 of 3 (5 PTS),Free Throw,Free Throw 3 of 3,1,0,99
+0021900027,135,PT04M39.00S,1,1610612755,PHI,1627788,Korkmaz,F. Korkmaz,165,227,28,Missed,1,,,0,v,MISS Korkmaz 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,100
+0021900027,136,PT04M34.00S,1,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,Kennard REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,101
+0021900027,137,PT04M26.00S,1,1610612765,DET,201565,Rose,D. Rose,-142,29,14,Made,1,17,17,34,h,Rose 14' Pullup Jump Shot (6 PTS),Made Shot,Pullup Jump shot,1,2,102
+0021900027,138,PT04M06.00S,1,1610612755,PHI,203516,Ennis III,J. Ennis III,-14,-4,1,Made,1,17,19,36,v,Ennis III 1' Layup (2 PTS) (Simmons 3 AST),Made Shot,Layup Shot,1,2,103
+0021900027,140,PT04M06.00S,1,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood S.FOUL (P1.PN) (N.Buchert),Foul,Shooting,1,0,104
+0021900027,142,PT04M06.00S,1,1610612755,PHI,203516,Ennis III,J. Ennis III,0,0,0,,0,17,20,37,v,Ennis III Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,1,0,105
+0021900027,143,PT04M00.00S,1,1610612755,PHI,1627788,Korkmaz,F. Korkmaz,0,0,0,,0,,,0,v,Korkmaz P.FOUL (P1.T4) (K.Scott),Foul,Personal,1,0,106
+0021900027,145,PT03M44.00S,1,1610612765,DET,1626174,Wood,C. Wood,5,41,4,Made,1,19,20,39,h,Wood 4' Driving Layup (2 PTS) (Kennard 2 AST),Made Shot,Driving Layup Shot,1,2,107
+0021900027,147,PT03M32.00S,1,1610612755,PHI,1627788,Korkmaz,F. Korkmaz,0,0,0,,0,,,0,v,Korkmaz Traveling Turnover (P1.T7),Turnover,Traveling,1,0,108
+0021900027,149,PT03M16.00S,1,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,,,0,v,SUB: Horford FOR Harris,Substitution,,0,0,109
+0021900027,150,PT03M16.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,SUB: Richardson FOR Simmons,Substitution,,0,0,110
+0021900027,153,PT03M16.00S,1,0,,1610612755,,,0,0,0,,0,,,0,,Delay Of Game,Violation,Delay Of Game,0,0,111
+0021900027,154,PT03M13.00S,1,1610612755,PHI,1627788,Korkmaz,F. Korkmaz,0,0,0,,0,,,0,v,Korkmaz S.FOUL (P2.PN) (N.Buchert),Foul,Shooting,1,0,112
+0021900027,156,PT03M13.00S,1,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,20,20,40,h,Galloway Free Throw 1 of 3 (1 PTS),Free Throw,Free Throw 1 of 3,1,0,113
+0021900027,157,PT03M13.00S,1,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,21,20,41,h,Galloway Free Throw 2 of 3 (2 PTS),Free Throw,Free Throw 2 of 3,1,0,114
+0021900027,158,PT03M13.00S,1,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,22,20,42,h,Galloway Free Throw 3 of 3 (3 PTS),Free Throw,Free Throw 3 of 3,1,0,115
+0021900027,159,PT03M03.00S,1,1610612755,PHI,201143,Horford,A. Horford,27,15,3,Missed,1,,,0,v,MISS Horford 3' Alley Oop Dunk,Missed Shot,Alley Oop Dunk Shot,1,2,116
+0021900027,160,PT03M00.00S,1,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,h,Galloway REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,117
+0021900027,161,PT02M58.00S,1,1610612755,PHI,1627788,Korkmaz,F. Korkmaz,0,0,0,,0,,,0,v,Korkmaz S.FOUL (P3.PN) (J.Goldenberg),Foul,Shooting,1,0,118
+0021900027,163,PT02M58.00S,1,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,119
+0021900027,164,PT02M58.00S,1,1610612755,PHI,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,SUB: Scott FOR O'Quinn,Substitution,,0,0,120
+0021900027,165,PT02M58.00S,1,1610612755,PHI,1627788,Korkmaz,F. Korkmaz,0,0,0,,0,,,0,v,SUB: Milton FOR Korkmaz,Substitution,,0,0,121
+0021900027,168,PT02M58.00S,1,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,23,20,43,h,Wood Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,122
+0021900027,169,PT02M58.00S,1,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,MISS Wood Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,123
+0021900027,170,PT02M55.00S,1,1610612755,PHI,203118,Scott,M. Scott,0,0,0,,0,,,0,v,Scott REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,124
+0021900027,171,PT02M37.00S,1,1610612755,PHI,1626196,Richardson,J. Richardson,-146,208,25,Missed,1,,,0,v,MISS Richardson 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,125
+0021900027,172,PT02M35.00S,1,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,126
+0021900027,173,PT02M30.00S,1,1610612765,DET,201565,Rose,D. Rose,26,17,3,Missed,1,,,0,h,MISS Rose 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,127
+0021900027,174,PT02M28.00S,1,1610612755,PHI,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,128
+0021900027,175,PT02M21.00S,1,1610612755,PHI,1629003,Milton,S. Milton,-18,51,5,Made,1,23,22,45,v,Milton 5' Floating Jump Shot (2 PTS),Made Shot,Floating Jump shot,1,2,129
+0021900027,176,PT02M04.00S,1,1610612765,DET,201565,Rose,D. Rose,10,23,3,Made,1,25,22,47,h,Rose 3' Driving Layup (8 PTS),Made Shot,Driving Layup Shot,1,2,130
+0021900027,177,PT01M45.00S,1,1610612755,PHI,201143,Horford,A. Horford,-38,135,14,Made,1,25,24,49,v,Horford 14' Pullup Jump Shot (2 PTS) (Ennis III 1 AST),Made Shot,Pullup Jump shot,1,2,131
+0021900027,179,PT01M31.00S,1,1610612765,DET,1626174,Wood,C. Wood,-18,13,2,Made,1,27,24,51,h,Wood 2' Alley Oop Layup (5 PTS) (Galloway 1 AST),Made Shot,Alley Oop Layup shot,1,2,132
+0021900027,181,PT01M19.00S,1,1610612755,PHI,203118,Scott,M. Scott,150,214,26,Made,1,27,27,54,v,Scott 26' 3PT Jump Shot (3 PTS) (Richardson 2 AST),Made Shot,Jump Shot,1,3,133
+0021900027,183,PT00M57.10S,1,1610612765,DET,1628379,Kennard,L. Kennard,13,8,2,Made,1,29,27,56,h,Kennard 2' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,134
+0021900027,184,PT00M43.60S,1,1610612755,PHI,201143,Horford,A. Horford,73,29,8,Missed,1,,,0,v,MISS Horford 8' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,135
+0021900027,185,PT00M42.60S,1,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Unknown,0,0,136
+0021900027,186,PT00M42.30S,1,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,Kennard P.FOUL (P2.PN) (K.Scott),Foul,Personal,1,0,137
+0021900027,188,PT00M42.30S,1,1610612755,PHI,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,MISS Ennis III Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,138
+0021900027,189,PT00M42.30S,1,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Normal Rebound,0,0,139
+0021900027,190,PT00M42.30S,1,1610612755,PHI,203516,Ennis III,J. Ennis III,0,0,0,,0,29,28,57,v,Ennis III Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,140
+0021900027,191,PT00M27.60S,1,1610612765,DET,1627748,Maker,T. Maker,-27,21,3,Missed,1,,,0,h,MISS Maker 3' Layup,Missed Shot,Layup Shot,1,2,141
+0021900027,192,PT00M25.50S,1,1610612755,PHI,203118,Scott,M. Scott,0,0,0,,0,,,0,v,Scott REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,142
+0021900027,193,PT00M07.40S,1,1610612755,PHI,201143,Horford,A. Horford,-59,161,17,Missed,1,,,0,v,MISS Horford 17' Jump Shot,Missed Shot,Jump Shot,1,2,143
+0021900027,194,PT00M03.20S,1,1610612765,DET,201565,Rose,D. Rose,0,0,0,,0,,,0,h,Rose REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,144
+0021900027,195,PT00M03.20S,1,1610612765,DET,201565,Rose,D. Rose,0,0,0,,0,,,0,h,Rose Out of Bounds Lost Ball Turnover (P1.T8),Turnover,Out of Bounds Lost Ball Turnover,1,0,145
+0021900027,196,PT00M00.00S,1,1610612755,PHI,1626196,Richardson,J. Richardson,-124,221,25,Missed,1,,,0,v,MISS Richardson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,146
+0021900027,196,PT00M00.00S,1,1610612765,DET,201565,Rose,D. Rose,0,0,0,,0,,,0,h,Rose BLOCK (2 BLK),,,1,3,147
+0021900027,198,PT00M00.00S,1,1610612755,PHI,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,Ennis III REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,148
+0021900027,199,PT00M00.00S,1,0,,0,,,0,0,0,,0,29,28,57,,End of 1st Period (7:47 PM EST),period,end,1,0,149
+0021900027,208,PT12M00.00S,2,0,,0,,,0,0,0,,0,29,28,57,,Start of 2nd Period (7:49 PM EST),period,start,0,0,150
+0021900027,209,PT11M42.00S,2,1610612755,PHI,203118,Scott,M. Scott,107,240,26,Made,1,29,31,60,v,Scott 26' 3PT Jump Shot (6 PTS) (Milton 1 AST),Made Shot,Jump Shot,1,3,151
+0021900027,211,PT11M30.00S,2,1610612755,PHI,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford S.FOUL (P1.T1) (K.Scott),Foul,Shooting,1,0,152
+0021900027,213,PT11M30.00S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,MISS Drummond Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,153
+0021900027,214,PT11M30.00S,2,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Normal Rebound,0,0,154
+0021900027,215,PT11M30.00S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,MISS Drummond Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,155
+0021900027,216,PT11M26.00S,2,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,156
+0021900027,217,PT11M22.00S,2,1610612765,DET,1628379,Kennard,L. Kennard,125,97,16,Made,1,31,31,62,h,Kennard 16' Pullup Jump Shot (9 PTS),Made Shot,Pullup Jump shot,1,2,157
+0021900027,218,PT11M05.00S,2,1610612755,PHI,1629003,Milton,S. Milton,190,188,27,Made,1,31,34,65,v,Milton 27' 3PT Jump Shot (5 PTS) (Horford 1 AST),Made Shot,Jump Shot,1,3,158
+0021900027,220,PT10M55.00S,2,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris S.FOUL (P2.T2) (J.Goldenberg),Foul,Shooting,1,0,159
+0021900027,222,PT10M55.00S,2,1610612765,DET,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,MISS Frazier Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,160
+0021900027,223,PT10M55.00S,2,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Normal Rebound,0,0,161
+0021900027,224,PT10M55.00S,2,1610612765,DET,204025,Frazier,T. Frazier,0,0,0,,0,32,34,66,h,Frazier Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,162
+0021900027,225,PT10M45.00S,2,1610612755,PHI,1629003,Milton,S. Milton,204,150,25,Missed,1,,,0,v,MISS Milton 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,163
+0021900027,226,PT10M41.00S,2,1610612765,DET,203503,Snell,T. Snell,0,0,0,,0,,,0,h,Snell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,164
+0021900027,227,PT10M33.00S,2,1610612765,DET,204025,Frazier,T. Frazier,17,192,19,Made,1,34,34,68,h,Frazier 19' Pullup Jump Shot (3 PTS),Made Shot,Pullup Jump shot,1,2,165
+0021900027,228,PT10M21.00S,2,1610612755,PHI,202699,Harris,T. Harris,-93,235,25,Missed,1,,,0,v,MISS Harris 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,166
+0021900027,229,PT10M20.00S,2,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Unknown,0,0,167
+0021900027,231,PT10M20.00S,2,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,SUB: Brown FOR Kennard,Substitution,,0,0,168
+0021900027,233,PT10M10.00S,2,1610612755,PHI,203118,Scott,M. Scott,131,-17,13,Missed,1,,,0,v,MISS Scott 13' Jump Shot,Missed Shot,Jump Shot,1,2,169
+0021900027,234,PT10M08.00S,2,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,170
+0021900027,235,PT09M56.00S,2,1610612765,DET,1626174,Wood,C. Wood,15,7,2,Made,1,36,34,70,h,Wood 2' Reverse Layup (7 PTS) (Frazier 3 AST),Made Shot,Reverse Layup Shot,1,2,171
+0021900027,237,PT09M42.00S,2,1610612755,PHI,1629003,Milton,S. Milton,-25,6,3,Missed,1,,,0,v,MISS Milton 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,172
+0021900027,238,PT09M41.00S,2,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,173
+0021900027,240,PT09M23.00S,2,1610612765,DET,203083,Drummond,A. Drummond,4,18,2,Made,1,38,34,72,h,Drummond 2' Dunk (4 PTS) (Snell 1 AST),Made Shot,Dunk Shot,1,2,174
+0021900027,242,PT09M03.00S,2,1610612755,PHI,202699,Harris,T. Harris,-10,9,1,Made,1,38,36,74,v,Harris 1' Dunk (10 PTS) (Horford 2 AST),Made Shot,Dunk Shot,1,2,175
+0021900027,244,PT08M47.00S,2,1610612765,DET,1628971,Brown,B. Brown,-107,267,29,Missed,1,,,0,h,MISS Brown 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,176
+0021900027,245,PT08M44.00S,2,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,177
+0021900027,246,PT08M41.00S,2,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris Bad Pass Turnover (P1.T8),Turnover,Bad Pass,1,0,178
+0021900027,246,PT08M41.00S,2,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,Brown STEAL (1 STL),,,1,0,179
+0021900027,248,PT08M38.00S,2,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,Brown Discontinue Dribble Turnover (P2.T9),Turnover,Discontinue Dribble,1,0,180
+0021900027,249,PT08M38.00S,2,1610612755,PHI,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,v,SUB: Simmons FOR Richardson,Substitution,,0,0,181
+0021900027,250,PT08M38.00S,2,1610612755,PHI,203118,Scott,M. Scott,0,0,0,,0,,,0,v,SUB: Thybulle FOR Scott,Substitution,,0,0,182
+0021900027,251,PT08M38.00S,2,1610612755,PHI,201143,Horford,A. Horford,0,0,0,,0,,,0,v,SUB: O'Quinn FOR Horford,Substitution,,0,0,183
+0021900027,255,PT08M28.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,74,40,8,Missed,1,,,0,v,MISS Simmons 8' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,184
+0021900027,256,PT08M27.00S,2,1610612755,PHI,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,185
+0021900027,257,PT08M26.00S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond P.FOUL (P3.T1) (J.Goldenberg),Foul,Personal,1,0,186
+0021900027,259,PT08M26.00S,2,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,187
+0021900027,260,PT08M26.00S,2,0,,257,,,0,0,0,,0,38,36,74,,Instant Replay2nd Period (7:56 PM EST),Instant Replay,Coach Challenge Support Ruling,0,0,188
+0021900027,261,PT08M26.00S,2,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,SUB: Morris FOR Wood,Substitution,,0,0,189
+0021900027,262,PT08M26.00S,2,1610612755,PHI,1629003,Milton,S. Milton,0,0,0,,0,,,0,v,SUB: Korkmaz FOR Milton,Substitution,,0,0,190
+0021900027,265,PT08M11.00S,2,1610612755,PHI,202699,Harris,T. Harris,202,192,28,Missed,1,,,0,v,MISS Harris 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,191
+0021900027,266,PT08M08.00S,2,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,192
+0021900027,267,PT07M54.00S,2,1610612765,DET,204025,Frazier,T. Frazier,-107,243,27,Missed,1,,,0,h,MISS Frazier 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,193
+0021900027,268,PT07M54.00S,2,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,194
+0021900027,269,PT07M54.00S,2,1610612755,PHI,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn P.FOUL (P1.T3) (N.Buchert),Foul,Personal,1,0,195
+0021900027,271,PT07M54.00S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,SUB: Maker FOR Drummond,Substitution,,0,0,196
+0021900027,273,PT07M49.00S,2,1610612765,DET,1628971,Brown,B. Brown,38,7,4,Missed,1,,,0,h,MISS Brown 4' Layup,Missed Shot,Layup Shot,1,2,197
+0021900027,273,PT07M49.00S,2,1610612755,PHI,1627788,Korkmaz,F. Korkmaz,0,0,0,,0,,,0,v,Korkmaz BLOCK (1 BLK),,,1,2,198
+0021900027,275,PT07M49.00S,2,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Unknown,0,0,199
+0021900027,277,PT07M37.00S,2,1610612755,PHI,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,v,Thybulle Lost Ball Turnover (P4.T9),Turnover,Lost Ball,1,0,200
+0021900027,277,PT07M37.00S,2,1610612765,DET,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier STEAL (1 STL),,,1,0,201
+0021900027,279,PT07M32.00S,2,1610612765,DET,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier Lost Ball Turnover (P3.T10),Turnover,Lost Ball,1,0,202
+0021900027,279,PT07M32.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons STEAL (2 STL),,,1,0,203
+0021900027,281,PT07M26.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,22,2,Made,1,38,38,76,v,Simmons 2' Driving Dunk (6 PTS),Made Shot,Driving Dunk Shot,1,2,204
+0021900027,283,PT07M25.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons AWAY.FROM.PLAY.FOUL (P2.T4) (K.Scott),Foul,Away From Play,1,0,205
+0021900027,285,PT07M25.00S,2,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,39,38,77,h,Morris Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,206
+0021900027,287,PT07M15.00S,2,1610612765,DET,204025,Frazier,T. Frazier,-116,50,13,Missed,1,,,0,h,MISS Frazier 13' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,207
+0021900027,288,PT07M12.00S,2,1610612755,PHI,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,208
+0021900027,289,PT07M08.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,-30,48,6,Missed,1,,,0,v,MISS Simmons 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,209
+0021900027,290,PT07M06.00S,2,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,210
+0021900027,291,PT06M57.00S,2,1610612765,DET,202693,Morris,M. Morris,109,233,26,Missed,1,,,0,h,MISS Morris 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,211
+0021900027,292,PT06M57.00S,2,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Unknown,0,0,212
+0021900027,294,PT06M44.00S,2,1610612755,PHI,203124,O'Quinn,K. O'Quinn,-31,13,3,Missed,1,,,0,v,MISS O'Quinn 3' Layup,Missed Shot,Layup Shot,1,2,213
+0021900027,295,PT06M41.00S,2,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,214
+0021900027,296,PT06M21.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons S.FOUL (P3.PN) (K.Scott),Foul,Shooting,1,0,215
+0021900027,298,PT06M21.00S,2,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,MISS Morris Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,216
+0021900027,299,PT06M21.00S,2,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Normal Rebound,0,0,217
+0021900027,300,PT06M21.00S,2,1610612765,DET,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,SUB: Rose FOR Frazier,Substitution,,0,0,218
+0021900027,302,PT06M21.00S,2,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,40,38,78,h,Morris Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,219
+0021900027,303,PT06M07.00S,2,1610612755,PHI,1627788,Korkmaz,F. Korkmaz,0,0,0,,0,,,0,v,Korkmaz Bad Pass Turnover (P2.T10),Turnover,Bad Pass,1,0,220
+0021900027,303,PT06M07.00S,2,1610612765,DET,203503,Snell,T. Snell,0,0,0,,0,,,0,h,Snell STEAL (2 STL),,,1,0,221
+0021900027,305,PT06M02.00S,2,1610612765,DET,1628971,Brown,B. Brown,-19,7,2,Made,1,42,38,80,h,Brown 2' Running Layup (2 PTS) (Snell 2 AST),Made Shot,Running Layup Shot,1,2,222
+0021900027,307,PT06M02.00S,2,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,223
+0021900027,308,PT06M02.00S,2,1610612765,DET,203503,Snell,T. Snell,0,0,0,,0,,,0,h,SUB: Kennard FOR Snell,Substitution,,0,0,224
+0021900027,310,PT05M45.00S,2,1610612755,PHI,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn Traveling Turnover (P2.T11),Turnover,Traveling,1,0,225
+0021900027,311,PT05M29.00S,2,1610612765,DET,1627748,Maker,T. Maker,-187,6,19,Missed,1,,,0,h,MISS Maker 19' Jump Shot,Missed Shot,Jump Shot,1,2,226
+0021900027,312,PT05M27.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,227
+0021900027,313,PT05M18.00S,2,1610612755,PHI,1627788,Korkmaz,F. Korkmaz,-158,209,26,Missed,1,,,0,v,MISS Korkmaz 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,228
+0021900027,314,PT05M16.00S,2,1610612765,DET,201565,Rose,D. Rose,0,0,0,,0,,,0,h,Rose REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,229
+0021900027,315,PT05M09.00S,2,1610612765,DET,202693,Morris,M. Morris,-125,241,27,Made,1,45,38,83,h,Morris 27' 3PT Jump Shot (9 PTS) (Rose 1 AST),Made Shot,Jump Shot,1,3,230
+0021900027,317,PT04M46.00S,2,1610612755,PHI,1627788,Korkmaz,F. Korkmaz,161,210,26,Missed,1,,,0,v,MISS Korkmaz 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,231
+0021900027,318,PT04M44.00S,2,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,232
+0021900027,319,PT04M34.00S,2,1610612765,DET,201565,Rose,D. Rose,0,0,0,,0,,,0,h,Rose Out of Bounds - Bad Pass Turnover Turnover (P2.T11),Turnover,Out of Bounds - Bad Pass Turnover,1,0,233
+0021900027,320,PT04M34.00S,2,1610612755,PHI,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,SUB: Scott FOR O'Quinn,Substitution,,0,0,234
+0021900027,321,PT04M34.00S,2,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,,,0,v,SUB: Richardson FOR Harris,Substitution,,0,0,235
+0021900027,322,PT04M34.00S,2,1610612755,PHI,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,v,SUB: Horford FOR Thybulle,Substitution,,0,0,236
+0021900027,323,PT04M34.00S,2,1610612755,PHI,1627788,Korkmaz,F. Korkmaz,0,0,0,,0,,,0,v,SUB: Ennis III FOR Korkmaz,Substitution,,0,0,237
+0021900027,329,PT04M14.00S,2,1610612755,PHI,201143,Horford,A. Horford,6,62,6,Made,1,45,40,85,v,Horford 6' Hook Shot (4 PTS),Made Shot,Hook Shot,1,2,238
+0021900027,330,PT04M02.00S,2,1610612765,DET,201565,Rose,D. Rose,43,112,12,Missed,1,,,0,h,MISS Rose 12' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,239
+0021900027,331,PT04M00.00S,2,1610612755,PHI,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,240
+0021900027,332,PT03M57.00S,2,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker S.FOUL (P1.T2) (K.Scott),Foul,Shooting,1,0,241
+0021900027,334,PT03M57.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,MISS Simmons Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,242
+0021900027,335,PT03M57.00S,2,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Normal Rebound,0,0,243
+0021900027,336,PT03M57.00S,2,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,SUB: Galloway FOR Brown,Substitution,,0,0,244
+0021900027,338,PT03M57.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,MISS Simmons Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,245
+0021900027,339,PT03M55.00S,2,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,246
+0021900027,381,PT03M53.00S,2,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris Bad Pass Turnover (P3.T12),Turnover,Bad Pass,1,0,247
+0021900027,381,PT03M53.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons STEAL (3 STL),,,1,0,248
+0021900027,340,PT03M52.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons Bad Pass Turnover (P2.T12),Turnover,Bad Pass,1,0,249
+0021900027,340,PT03M52.00S,2,1610612765,DET,201565,Rose,D. Rose,0,0,0,,0,,,0,h,Rose STEAL (1 STL),,,1,0,250
+0021900027,342,PT03M46.00S,2,1610612765,DET,204038,Galloway,L. Galloway,-16,12,2,Missed,1,,,0,h,MISS Galloway 2' Layup,Missed Shot,Layup Shot,1,2,251
+0021900027,343,PT03M42.00S,2,1610612755,PHI,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,252
+0021900027,344,PT03M42.00S,2,1610612755,PHI,203516,Ennis III,J. Ennis III,-13,22,3,Made,1,45,42,87,v,Ennis III 3' Running Layup (6 PTS) (Simmons 4 AST),Made Shot,Running Layup Shot,1,2,253
+0021900027,346,PT03M42.00S,2,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris S.FOUL (P3.T3) (J.Goldenberg),Foul,Shooting,1,0,254
+0021900027,348,PT03M42.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,SUB: Neto FOR Simmons,Substitution,,0,0,255
+0021900027,350,PT03M42.00S,2,1610612755,PHI,203516,Ennis III,J. Ennis III,0,0,0,,0,45,43,88,v,Ennis III Free Throw 1 of 1 (7 PTS),Free Throw,Free Throw 1 of 1,1,0,256
+0021900027,351,PT03M22.00S,2,1610612765,DET,1628379,Kennard,L. Kennard,55,244,25,Made,1,48,43,91,h,Kennard 25' 3PT Jump Shot (12 PTS),Made Shot,Jump Shot,1,3,257
+0021900027,766,PT03M22.00S,2,0,,351,King,S. King,0,0,0,,0,48,43,91,,Instant Replay2nd Period (8:12 PM EST),Instant Replay,Overturn Ruling,0,0,258
+0021900027,352,PT03M11.00S,2,1610612755,PHI,203118,Scott,M. Scott,176,185,26,Made,1,48,46,94,v,Scott 26' 3PT Jump Shot (9 PTS) (Neto 1 AST),Made Shot,Jump Shot,1,3,259
+0021900027,354,PT02M56.00S,2,1610612755,PHI,203118,Scott,M. Scott,0,0,0,,0,,,0,v,Scott P.FOUL (P1.PN) (N.Buchert),Foul,Personal,1,0,260
+0021900027,356,PT02M56.00S,2,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,49,46,95,h,Morris Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,261
+0021900027,357,PT02M56.00S,2,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,MISS Morris Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,262
+0021900027,358,PT02M53.00S,2,1610612755,PHI,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,263
+0021900027,359,PT02M37.00S,2,1610612755,PHI,1626196,Richardson,J. Richardson,174,189,26,Missed,1,,,0,v,MISS Richardson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,264
+0021900027,360,PT02M34.00S,2,1610612755,PHI,203118,Scott,M. Scott,0,0,0,,0,,,0,v,Scott REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,265
+0021900027,361,PT02M26.00S,2,1610612755,PHI,1626196,Richardson,J. Richardson,-22,6,2,Made,1,49,48,97,v,Richardson 2' Driving Layup (6 PTS),Made Shot,Driving Layup Shot,1,2,266
+0021900027,362,PT02M08.00S,2,1610612765,DET,201565,Rose,D. Rose,-71,104,13,Made,1,51,48,99,h,Rose 13' Driving Floating Jump Shot (10 PTS) (Maker 1 AST),Made Shot,Driving Floating Jump Shot,1,2,267
+0021900027,364,PT01M42.00S,2,1610612755,PHI,201143,Horford,A. Horford,-105,17,11,Made,1,51,50,101,v,Horford 11' Step Back Jump Shot (6 PTS),Made Shot,Step Back Jump shot,1,2,268
+0021900027,365,PT01M21.00S,2,1610612765,DET,201565,Rose,D. Rose,105,162,19,Missed,1,,,0,h,MISS Rose 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,269
+0021900027,366,PT01M19.00S,2,1610612755,PHI,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,Ennis III REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,270
+0021900027,367,PT01M06.00S,2,1610612755,PHI,203526,Neto,R. Neto,27,4,3,Made,1,51,52,103,v,Neto 3' Driving Layup (2 PTS) (Horford 3 AST),Made Shot,Driving Layup Shot,1,2,271
+0021900027,369,PT00M50.90S,2,1610612755,PHI,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,v,Richardson S.FOUL (P2.PN) (J.Goldenberg),Foul,Shooting,1,0,272
+0021900027,371,PT00M50.90S,2,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,52,52,104,h,Morris Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,1,0,273
+0021900027,372,PT00M50.90S,2,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,53,52,105,h,Morris Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,274
+0021900027,373,PT00M30.00S,2,1610612755,PHI,203526,Neto,R. Neto,0,0,0,,0,,,0,v,Neto Bad Pass Turnover (P1.T13),Turnover,Bad Pass,1,0,275
+0021900027,373,PT00M30.00S,2,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris STEAL (1 STL),,,1,0,276
+0021900027,375,PT00M29.20S,2,1610612765,DET,202693,Morris,M. Morris,-16,20,3,Made,1,55,52,107,h,Morris 3' Driving Dunk (14 PTS),Made Shot,Driving Dunk Shot,1,2,277
+0021900027,376,PT00M09.90S,2,1610612755,PHI,1626196,Richardson,J. Richardson,23,14,3,Made,1,55,54,109,v,Richardson 3' Driving Layup (8 PTS),Made Shot,Driving Layup Shot,1,2,278
+0021900027,377,PT00M04.00S,2,1610612765,DET,201565,Rose,D. Rose,-24,12,3,Made,1,57,54,111,h,Rose 3' Driving Reverse Layup (12 PTS),Made Shot,Driving Reverse Layup Shot,1,2,279
+0021900027,378,PT00M00.80S,2,1610612755,PHI,203118,Scott,M. Scott,203,306,37,Missed,1,,,0,v,MISS Scott 37' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,280
+0021900027,379,PT00M00.10S,2,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Unknown,0,0,281
+0021900027,380,PT00M00.00S,2,0,,0,,,0,0,0,,0,57,54,111,,End of 2nd Period (8:17 PM EST),period,end,1,0,282
+0021900027,397,PT12M00.00S,3,0,,0,,,0,0,0,,0,57,54,111,,Start of 3rd Period (8:33 PM EST),period,start,0,0,283
+0021900027,398,PT11M47.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons OFF.Foul (P4) (N.Buchert),Foul,Offensive,1,0,284
+0021900027,400,PT11M47.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons Offensive Foul Turnover (P3.T14),Turnover,Offensive Foul Turnover,1,0,285
+0021900027,401,PT11M28.00S,3,1610612755,PHI,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford S.FOUL (P2.T1) (J.Goldenberg),Foul,Shooting,1,0,286
+0021900027,403,PT11M28.00S,3,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,58,54,112,h,Brown Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,287
+0021900027,404,PT11M28.00S,3,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,MISS Brown Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,288
+0021900027,405,PT11M27.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,289
+0021900027,406,PT11M27.00S,3,1610612755,PHI,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford S.FOUL (P3.T2) (K.Scott),Foul,Shooting,1,0,290
+0021900027,408,PT11M27.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,MISS Drummond Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,291
+0021900027,409,PT11M27.00S,3,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Normal Rebound,0,0,292
+0021900027,410,PT11M27.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,59,54,113,h,Drummond Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,293
+0021900027,411,PT11M15.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,31,90,10,Missed,1,,,0,v,MISS Simmons 10' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,294
+0021900027,412,PT11M12.00S,3,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,295
+0021900027,413,PT11M05.00S,3,1610612765,DET,204025,Frazier,T. Frazier,123,239,27,Made,1,62,54,116,h,Frazier 27' 3PT Pullup Jump Shot (6 PTS),Made Shot,Pullup Jump shot,1,3,296
+0021900027,414,PT10M39.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,78,21,8,Missed,1,,,0,v,MISS Simmons 8' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,297
+0021900027,415,PT10M37.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,298
+0021900027,416,PT10M30.00S,3,1610612765,DET,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier Bad Pass Turnover (P4.T13),Turnover,Bad Pass,1,0,299
+0021900027,416,PT10M30.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons STEAL (4 STL),,,1,0,300
+0021900027,418,PT10M21.00S,3,1610612755,PHI,202699,Harris,T. Harris,-123,244,27,Made,1,62,57,119,v,Harris 27' 3PT Jump Shot (13 PTS) (Richardson 3 AST),Made Shot,Jump Shot,1,3,301
+0021900027,420,PT09M56.00S,3,1610612765,DET,203503,Snell,T. Snell,-107,232,26,Made,1,65,57,122,h,Snell 26' 3PT Jump Shot (3 PTS) (Frazier 4 AST),Made Shot,Jump Shot,1,3,302
+0021900027,422,PT09M49.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond P.FOUL (P4.T1) (N.Buchert),Foul,Personal,1,0,303
+0021900027,424,PT09M31.00S,3,1610612755,PHI,201143,Horford,A. Horford,134,226,26,Missed,1,,,0,v,MISS Horford 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,304
+0021900027,425,PT09M30.00S,3,1610612755,PHI,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,v,Thybulle REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,305
+0021900027,426,PT09M26.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons Out of Bounds - Bad Pass Turnover Turnover (P4.T15),Turnover,Out of Bounds - Bad Pass Turnover,1,0,306
+0021900027,427,PT09M12.00S,3,1610612765,DET,1628971,Brown,B. Brown,19,9,2,Missed,1,,,0,h,MISS Brown 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,307
+0021900027,428,PT09M07.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,308
+0021900027,429,PT09M07.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,-6,1,Made,1,67,57,124,h,Drummond 1' Tip Dunk Shot (7 PTS),Made Shot,Tip Dunk Shot,1,2,309
+0021900027,430,PT09M01.00S,3,1610612755,PHI,202699,Harris,T. Harris,6,27,3,Missed,1,,,0,v,MISS Harris 3' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,310
+0021900027,430,PT09M01.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond BLOCK (1 BLK),,,1,2,311
+0021900027,432,PT09M01.00S,3,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Unknown,0,0,312
+0021900027,434,PT08M59.00S,3,1610612755,PHI,1629680,Thybulle,M. Thybulle,194,163,25,Missed,1,,,0,v,MISS Thybulle 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,313
+0021900027,435,PT08M56.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,314
+0021900027,436,PT08M47.00S,3,1610612765,DET,202693,Morris,M. Morris,-146,206,25,Made,1,70,57,127,h,Morris 25' 3PT Jump Shot (17 PTS) (Drummond 1 AST),Made Shot,Jump Shot,1,3,315
+0021900027,438,PT08M47.00S,3,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,316
+0021900027,439,PT08M47.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,SUB: Maker FOR Drummond,Substitution,,0,0,317
+0021900027,441,PT08M32.00S,3,1610612755,PHI,1626196,Richardson,J. Richardson,-87,257,27,Missed,1,,,0,v,MISS Richardson 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,318
+0021900027,442,PT08M27.00S,3,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,319
+0021900027,443,PT08M10.00S,3,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker Bad Pass Turnover (P1.T14),Turnover,Bad Pass,1,0,320
+0021900027,443,PT08M10.00S,3,1610612755,PHI,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,v,Thybulle STEAL (2 STL),,,1,0,321
+0021900027,445,PT08M08.00S,3,1610612755,PHI,1629680,Thybulle,M. Thybulle,14,15,2,Missed,1,,,0,v,MISS Thybulle 2' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,322
+0021900027,446,PT08M08.00S,3,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,323
+0021900027,448,PT07M54.00S,3,1610612765,DET,204025,Frazier,T. Frazier,106,148,18,Missed,1,,,0,h,MISS Frazier 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,324
+0021900027,449,PT07M51.00S,3,1610612755,PHI,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,v,Thybulle REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,325
+0021900027,450,PT07M37.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,16,12,2,Made,1,70,59,129,v,Simmons 2' Dunk (8 PTS) (Horford 4 AST),Made Shot,Dunk Shot,1,2,326
+0021900027,452,PT07M22.00S,3,1610612765,DET,1628971,Brown,B. Brown,133,221,26,Missed,1,,,0,h,MISS Brown 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,327
+0021900027,453,PT07M19.00S,3,1610612755,PHI,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,328
+0021900027,454,PT07M09.00S,3,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris Bad Pass Turnover (P2.T16),Turnover,Bad Pass,1,0,329
+0021900027,454,PT07M09.00S,3,1610612765,DET,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier STEAL (2 STL),,,1,0,330
+0021900027,456,PT07M04.00S,3,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,Brown Lost Ball Turnover (P3.T15),Turnover,Lost Ball,1,0,331
+0021900027,456,PT07M04.00S,3,1610612755,PHI,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,v,Richardson STEAL (2 STL),,,1,0,332
+0021900027,458,PT06M55.00S,3,1610612755,PHI,202699,Harris,T. Harris,-60,270,28,Made,1,70,62,132,v,Harris 28' 3PT Jump Shot (16 PTS) (Horford 5 AST),Made Shot,Jump Shot,1,3,333
+0021900027,460,PT06M42.00S,3,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,334
+0021900027,461,PT06M42.00S,3,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,SUB: Kennard FOR Brown,Substitution,,0,0,335
+0021900027,462,PT06M42.00S,3,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,SUB: Wood FOR Morris,Substitution,,0,0,336
+0021900027,465,PT06M26.00S,3,1610612765,DET,203503,Snell,T. Snell,-3,50,5,Missed,1,,,0,h,MISS Snell 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,337
+0021900027,466,PT06M26.00S,3,1610612755,PHI,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,338
+0021900027,467,PT06M26.00S,3,1610612765,DET,203503,Snell,T. Snell,0,0,0,,0,,,0,h,Snell P.FOUL (P1.T2) (N.Buchert),Foul,Personal,1,0,339
+0021900027,469,PT06M17.00S,3,1610612755,PHI,202699,Harris,T. Harris,-25,15,3,Made,1,70,64,134,v,Harris 3' Alley Oop Dunk (18 PTS) (Simmons 5 AST),Made Shot,Alley Oop Dunk Shot,1,2,340
+0021900027,471,PT05M52.00S,3,1610612765,DET,1628379,Kennard,L. Kennard,-16,151,15,Missed,1,,,0,h,MISS Kennard 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,341
+0021900027,472,PT05M48.00S,3,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,342
+0021900027,473,PT05M46.00S,3,1610612755,PHI,201143,Horford,A. Horford,-241,11,24,Missed,1,,,0,v,MISS Horford 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,343
+0021900027,474,PT05M42.00S,3,1610612765,DET,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,344
+0021900027,475,PT05M26.00S,3,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker Out of Bounds - Bad Pass Turnover Turnover (P2.T16),Turnover,Out of Bounds - Bad Pass Turnover,1,0,345
+0021900027,476,PT05M26.00S,3,1610612765,DET,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,SUB: Rose FOR Frazier,Substitution,,0,0,346
+0021900027,478,PT05M26.00S,3,1610612765,DET,203503,Snell,T. Snell,0,0,0,,0,,,0,h,SUB: Galloway FOR Snell,Substitution,,0,0,347
+0021900027,480,PT05M19.00S,3,1610612755,PHI,202699,Harris,T. Harris,-19,11,2,Made,1,70,66,136,v,Harris 2' Alley Oop Layup (20 PTS) (Simmons 6 AST),Made Shot,Alley Oop Layup shot,1,2,348
+0021900027,482,PT05M19.00S,3,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,h,Galloway S.FOUL (P1.T3) (K.Scott),Foul,Shooting,1,0,349
+0021900027,484,PT05M19.00S,3,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,70,67,137,v,Harris Free Throw 1 of 1 (21 PTS),Free Throw,Free Throw 1 of 1,1,0,350
+0021900027,485,PT05M01.00S,3,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris P.FOUL (P3.T3) (N.Buchert),Foul,Personal,1,0,351
+0021900027,487,PT04M52.00S,3,1610612765,DET,201565,Rose,D. Rose,0,0,0,,0,,,0,h,Rose Bad Pass Turnover (P3.T17),Turnover,Bad Pass,1,0,352
+0021900027,487,PT04M52.00S,3,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris STEAL (2 STL),,,1,0,353
+0021900027,489,PT04M48.00S,3,1610612755,PHI,202699,Harris,T. Harris,11,4,1,Made,1,70,69,139,v,Harris 1' Driving Layup (23 PTS),Made Shot,Driving Layup Shot,1,2,354
+0021900027,490,PT04M28.00S,3,1610612765,DET,1628379,Kennard,L. Kennard,-11,220,22,Missed,1,,,0,h,MISS Kennard 22' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,355
+0021900027,491,PT04M27.00S,3,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,356
+0021900027,492,PT04M24.00S,3,1610612765,DET,1628379,Kennard,L. Kennard,14,8,2,Made,1,72,69,141,h,Kennard 2' Cutting Layup Shot (14 PTS) (Galloway 2 AST),Made Shot,Cutting Layup Shot,1,2,357
+0021900027,494,PT04M11.00S,3,1610612755,PHI,1626196,Richardson,J. Richardson,-106,104,15,Missed,1,,,0,v,MISS Richardson 15' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,358
+0021900027,495,PT04M07.00S,3,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,359
+0021900027,496,PT04M00.00S,3,1610612765,DET,201565,Rose,D. Rose,57,17,6,Made,1,74,69,143,h,Rose 6' Driving Floating Bank Jump Shot (14 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,360
+0021900027,497,PT03M41.00S,3,1610612755,PHI,202699,Harris,T. Harris,230,32,0,Made,1,74,72,146,v,Harris 3PT Jump Shot (26 PTS) (Thybulle 1 AST),Made Shot,Jump Shot,1,3,361
+0021900027,499,PT03M26.00S,3,1610612765,DET,1626174,Wood,C. Wood,-91,234,25,Made,1,77,72,149,h,Wood 25' 3PT Jump Shot (10 PTS) (Rose 2 AST),Made Shot,Jump Shot,1,3,362
+0021900027,501,PT03M09.00S,3,1610612755,PHI,201143,Horford,A. Horford,26,4,3,Made,1,77,74,151,v,Horford 3' Driving Finger Roll Layup (8 PTS) (Richardson 4 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,363
+0021900027,503,PT02M55.00S,3,1610612765,DET,201565,Rose,D. Rose,0,0,0,,0,,,0,h,Rose Lost Ball Turnover (P4.T18),Turnover,Lost Ball,1,0,364
+0021900027,503,PT02M55.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons STEAL (5 STL),,,1,0,365
+0021900027,505,PT02M37.00S,3,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris Bad Pass Turnover (P3.T17),Turnover,Bad Pass,1,0,366
+0021900027,505,PT02M37.00S,3,1610612765,DET,201565,Rose,D. Rose,0,0,0,,0,,,0,h,Rose STEAL (2 STL),,,1,0,367
+0021900027,507,PT02M33.00S,3,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood Traveling Turnover (P1.T19),Turnover,Traveling,1,0,368
+0021900027,508,PT02M33.00S,3,1610612755,PHI,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,v,SUB: Ennis III FOR Richardson,Substitution,,0,0,369
+0021900027,509,PT02M33.00S,3,1610612755,PHI,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,v,SUB: Milton FOR Thybulle,Substitution,,0,0,370
+0021900027,510,PT02M33.00S,3,1610612755,PHI,201143,Horford,A. Horford,0,0,0,,0,,,0,v,SUB: O'Quinn FOR Horford,Substitution,,0,0,371
+0021900027,514,PT02M26.00S,3,1610612755,PHI,1629003,Milton,S. Milton,0,0,0,,0,,,0,v,Milton OFF.Foul (P1) (J.Goldenberg),Foul,Offensive,1,0,372
+0021900027,516,PT02M26.00S,3,1610612755,PHI,1629003,Milton,S. Milton,0,0,0,,0,,,0,v,Milton Offensive Foul Turnover (P1.T18),Turnover,Offensive Foul Turnover,1,0,373
+0021900027,517,PT02M26.00S,3,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,,,0,v,SUB: Scott FOR Harris,Substitution,,0,0,374
+0021900027,518,PT02M26.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,SUB: Neto FOR Simmons,Substitution,,0,0,375
+0021900027,521,PT02M07.00S,3,1610612765,DET,1627748,Maker,T. Maker,46,60,8,Made,1,79,74,153,h,Maker 8' Turnaround Hook Shot (2 PTS),Made Shot,Turnaround Hook Shot,1,2,376
+0021900027,522,PT01M56.00S,3,1610612755,PHI,1629003,Milton,S. Milton,15,7,2,Made,1,79,76,155,v,Milton 2' Driving Layup (7 PTS) (Scott 1 AST),Made Shot,Driving Layup Shot,1,2,377
+0021900027,524,PT01M41.00S,3,1610612765,DET,201565,Rose,D. Rose,36,42,6,Made,1,81,76,157,h,Rose 6' Driving Floating Jump Shot (16 PTS),Made Shot,Driving Floating Jump Shot,1,2,378
+0021900027,525,PT01M16.00S,3,1610612755,PHI,203516,Ennis III,J. Ennis III,-93,139,17,Made,1,81,78,159,v,Ennis III 17' Pullup Jump Shot (9 PTS) (Milton 2 AST),Made Shot,Pullup Jump shot,1,2,379
+0021900027,527,PT01M07.00S,3,1610612755,PHI,1629003,Milton,S. Milton,0,0,0,,0,,,0,v,Milton S.FOUL (P2.T4) (N.Buchert),Foul,Shooting,1,0,380
+0021900027,529,PT01M07.00S,3,1610612765,DET,201565,Rose,D. Rose,0,0,0,,0,82,78,160,h,Rose Free Throw 1 of 2 (17 PTS),Free Throw,Free Throw 1 of 2,1,0,381
+0021900027,530,PT01M07.00S,3,1610612765,DET,201565,Rose,D. Rose,0,0,0,,0,83,78,161,h,Rose Free Throw 2 of 2 (18 PTS),Free Throw,Free Throw 2 of 2,1,0,382
+0021900027,531,PT01M01.00S,3,1610612765,DET,201565,Rose,D. Rose,0,0,0,,0,,,0,h,Rose P.FOUL (P1.T4) (K.Scott),Foul,Personal,1,0,383
+0021900027,533,PT00M55.10S,3,1610612755,PHI,203526,Neto,R. Neto,-58,43,7,Missed,1,,,0,v,MISS Neto 7' Driving Layup,Missed Shot,Driving Layup Shot,1,2,384
+0021900027,533,PT00M55.10S,3,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker BLOCK (2 BLK),,,1,2,385
+0021900027,535,PT00M55.10S,3,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Unknown,0,0,386
+0021900027,537,PT00M54.70S,3,1610612755,PHI,1629003,Milton,S. Milton,-237,17,24,Missed,1,,,0,v,MISS Milton 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,387
+0021900027,538,PT00M51.70S,3,1610612755,PHI,203526,Neto,R. Neto,0,0,0,,0,,,0,v,Neto REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,388
+0021900027,539,PT00M47.00S,3,1610612755,PHI,203526,Neto,R. Neto,-36,17,4,Made,1,83,80,163,v,Neto 4' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,389
+0021900027,540,PT00M34.80S,3,1610612765,DET,1626174,Wood,C. Wood,-127,221,25,Missed,1,,,0,h,MISS Wood 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,390
+0021900027,541,PT00M34.80S,3,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Unknown,0,0,391
+0021900027,543,PT00M19.40S,3,1610612755,PHI,203118,Scott,M. Scott,73,258,27,Made,1,83,83,166,v,Scott 27' 3PT Jump Shot (12 PTS) (Neto 2 AST),Made Shot,Jump Shot,1,3,392
+0021900027,545,PT00M02.50S,3,1610612765,DET,201565,Rose,D. Rose,-53,162,17,Missed,1,,,0,h,MISS Rose 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,393
+0021900027,546,PT00M02.50S,3,1610612755,PHI,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,Ennis III REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,394
+0021900027,547,PT00M01.50S,3,1610612755,PHI,203516,Ennis III,J. Ennis III,152,668,69,Missed,1,,,0,v,MISS Ennis III 69' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,395
+0021900027,548,PT00M01.00S,3,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Unknown,0,0,396
+0021900027,549,PT00M00.00S,3,0,,0,,,0,0,0,,0,83,83,166,,End of 3rd Period (8:57 PM EST),period,end,1,0,397
+0021900027,566,PT12M00.00S,4,0,,0,,,0,0,0,,0,83,83,166,,Start of 4th Period (9:00 PM EST),period,start,0,0,398
+0021900027,567,PT11M42.00S,4,1610612765,DET,203083,Drummond,A. Drummond,-26,0,3,Missed,1,,,0,h,MISS Drummond 3' Layup,Missed Shot,Layup Shot,1,2,399
+0021900027,568,PT11M40.00S,4,1610612755,PHI,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,400
+0021900027,569,PT11M36.00S,4,1610612765,DET,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier S.FOUL (P1.T1) (N.Buchert),Foul,Shooting,1,0,401
+0021900027,571,PT11M36.00S,4,1610612755,PHI,201143,Horford,A. Horford,0,0,0,,0,83,84,167,v,Horford Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,402
+0021900027,572,PT11M36.00S,4,1610612755,PHI,201143,Horford,A. Horford,0,0,0,,0,83,85,168,v,Horford Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,403
+0021900027,573,PT11M21.00S,4,1610612765,DET,204025,Frazier,T. Frazier,-25,52,6,Missed,1,,,0,h,MISS Frazier 6' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,404
+0021900027,574,PT11M17.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,405
+0021900027,575,PT11M17.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,-6,1,Made,1,85,85,170,h,Drummond 1' Tip Layup Shot (9 PTS),Made Shot,Tip Layup Shot,1,2,406
+0021900027,576,PT11M04.00S,4,1610612755,PHI,202699,Harris,T. Harris,16,265,27,Made,1,85,88,173,v,Harris 27' 3PT Jump Shot (29 PTS) (Thybulle 2 AST),Made Shot,Jump Shot,1,3,407
+0021900027,578,PT10M39.00S,4,1610612765,DET,1628379,Kennard,L. Kennard,3,29,3,Made,1,87,88,175,h,Kennard 3' Driving Floating Jump Shot (16 PTS),Made Shot,Driving Floating Jump Shot,1,2,408
+0021900027,579,PT10M31.00S,4,1610612765,DET,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier P.FOUL (P2.T2) (J.Goldenberg),Foul,Personal,1,0,409
+0021900027,581,PT10M16.00S,4,1610612755,PHI,202699,Harris,T. Harris,62,39,7,Missed,1,,,0,v,MISS Harris 7' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,410
+0021900027,582,PT10M13.00S,4,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,h,Galloway REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,411
+0021900027,583,PT10M06.00S,4,1610612755,PHI,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford P.FOUL (P4.T1) (J.Goldenberg),Foul,Personal,1,0,412
+0021900027,585,PT09M58.00S,4,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris S.FOUL (P4.T2) (N.Buchert),Foul,Shooting,1,0,413
+0021900027,587,PT09M58.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,MISS Drummond Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,414
+0021900027,588,PT09M58.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Normal Rebound,0,0,415
+0021900027,589,PT09M58.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,MISS Drummond Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,416
+0021900027,590,PT09M54.00S,4,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,417
+0021900027,591,PT09M45.00S,4,1610612765,DET,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier P.FOUL (P3.T3) (N.Buchert),Foul,Personal,1,0,418
+0021900027,593,PT09M34.00S,4,1610612755,PHI,201143,Horford,A. Horford,103,111,15,Made,1,87,90,177,v,Horford 15' Jump Shot (12 PTS) (Richardson 5 AST),Made Shot,Jump Shot,1,2,419
+0021900027,595,PT09M31.00S,4,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris OFF.Foul (P4) (K.Scott),Foul,Offensive,1,0,420
+0021900027,597,PT09M31.00S,4,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris Offensive Foul Turnover (P4.T20),Turnover,Offensive Foul Turnover,1,0,421
+0021900027,598,PT09M27.00S,4,1610612755,PHI,201143,Horford,A. Horford,228,28,0,Missed,1,,,0,v,MISS Horford 3PT Jump Shot,Missed Shot,Jump Shot,1,3,422
+0021900027,599,PT09M27.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,423
+0021900027,601,PT09M12.00S,4,1610612765,DET,202693,Morris,M. Morris,114,235,26,Missed,1,,,0,h,MISS Morris 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,424
+0021900027,602,PT09M09.00S,4,1610612755,PHI,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:0 Def:9),Rebound,Unknown,1,0,425
+0021900027,603,PT09M04.00S,4,1610612765,DET,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier P.FOUL (P4.T4) (K.Scott),Foul,Personal,1,0,426
+0021900027,605,PT09M04.00S,4,1610612755,PHI,1629680,Thybulle,M. Thybulle,0,0,0,,0,,,0,v,SUB: Scott FOR Thybulle,Substitution,,0,0,427
+0021900027,607,PT08M50.00S,4,1610612755,PHI,1626196,Richardson,J. Richardson,113,0,11,Missed,1,,,0,v,MISS Richardson 11' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,428
+0021900027,607,PT08M50.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond BLOCK (2 BLK),,,1,2,429
+0021900027,609,PT08M50.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,430
+0021900027,611,PT08M29.00S,4,1610612765,DET,203083,Drummond,A. Drummond,-22,-6,2,Made,1,89,90,179,h,Drummond 2' Layup (11 PTS),Made Shot,Layup Shot,1,2,431
+0021900027,612,PT08M21.00S,4,1610612755,PHI,201143,Horford,A. Horford,-19,31,4,Missed,1,,,0,v,MISS Horford 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,432
+0021900027,612,PT08M21.00S,4,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris BLOCK (1 BLK),,,1,2,433
+0021900027,614,PT08M21.00S,4,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Unknown,0,0,434
+0021900027,616,PT08M21.00S,4,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,435
+0021900027,617,PT08M21.00S,4,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,SUB: Rose FOR Kennard,Substitution,,0,0,436
+0021900027,618,PT08M21.00S,4,1610612765,DET,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,SUB: Snell FOR Frazier,Substitution,,0,0,437
+0021900027,619,PT08M21.00S,4,1610612755,PHI,201143,Horford,A. Horford,0,0,0,,0,,,0,v,SUB: O'Quinn FOR Horford,Substitution,,0,0,438
+0021900027,624,PT08M11.00S,4,1610612755,PHI,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,v,Richardson Bad Pass Turnover (P2.T19),Turnover,Bad Pass,1,0,439
+0021900027,624,PT08M11.00S,4,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris STEAL (2 STL),,,1,0,440
+0021900027,626,PT08M07.00S,4,1610612765,DET,204038,Galloway,L. Galloway,13,-5,1,Made,1,91,90,181,h,Galloway 1' Running Layup (5 PTS) (Snell 3 AST),Made Shot,Running Layup Shot,1,2,441
+0021900027,627,PT08M07.00S,4,1610612755,PHI,203118,Scott,M. Scott,0,0,0,,0,,,0,v,Scott S.FOUL (P2.T3) (J.Goldenberg),Foul,Shooting,1,0,442
+0021900027,629,PT08M07.00S,4,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,h,MISS Galloway Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,443
+0021900027,630,PT08M04.00S,4,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,444
+0021900027,631,PT07M49.00S,4,1610612755,PHI,203124,O'Quinn,K. O'Quinn,86,251,27,Missed,1,,,0,v,MISS O'Quinn 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,445
+0021900027,633,PT07M45.00S,4,1610612765,DET,201565,Rose,D. Rose,0,0,0,,0,,,0,h,Rose REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,446
+0021900027,634,PT07M41.00S,4,1610612765,DET,201565,Rose,D. Rose,83,6,8,Missed,1,,,0,h,MISS Rose 8' Driving Layup,Missed Shot,Driving Layup Shot,1,2,447
+0021900027,634,PT07M41.00S,4,1610612755,PHI,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn BLOCK (1 BLK),,,1,2,448
+0021900027,636,PT07M41.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,449
+0021900027,638,PT07M41.00S,4,1610612755,PHI,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,v,SUB: Milton FOR Richardson,Substitution,,0,0,450
+0021900027,640,PT07M28.00S,4,1610612765,DET,201565,Rose,D. Rose,-57,116,13,Missed,1,,,0,h,MISS Rose 13' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,451
+0021900027,641,PT07M26.00S,4,1610612755,PHI,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,452
+0021900027,642,PT07M17.00S,4,1610612755,PHI,203118,Scott,M. Scott,57,257,26,Made,1,91,93,184,v,Scott 26' 3PT Jump Shot (15 PTS) (Harris 1 AST),Made Shot,Jump Shot,1,3,453
+0021900027,644,PT06M57.00S,4,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris S.FOUL (P5.T4) (N.Buchert),Foul,Shooting,1,0,454
+0021900027,646,PT06M57.00S,4,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,92,93,185,h,Galloway Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,455
+0021900027,647,PT06M57.00S,4,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,SUB: Wood FOR Morris,Substitution,,0,0,456
+0021900027,648,PT06M57.00S,4,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,,,0,v,SUB: Richardson FOR Harris,Substitution,,0,0,457
+0021900027,651,PT06M57.00S,4,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,h,MISS Galloway Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,458
+0021900027,652,PT06M54.00S,4,1610612755,PHI,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,459
+0021900027,653,PT06M38.00S,4,1610612755,PHI,1629003,Milton,S. Milton,0,0,0,,0,,,0,v,Milton Bad Pass Turnover (P2.T20),Turnover,Bad Pass,1,0,460
+0021900027,653,PT06M38.00S,4,1610612765,DET,201565,Rose,D. Rose,0,0,0,,0,,,0,h,Rose STEAL (3 STL),,,1,0,461
+0021900027,655,PT06M34.00S,4,1610612755,PHI,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn S.FOUL (P2.PN) (K.Scott),Foul,Shooting,1,0,462
+0021900027,657,PT06M34.00S,4,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,MISS Wood Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,463
+0021900027,658,PT06M34.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Normal Rebound,0,0,464
+0021900027,659,PT06M34.00S,4,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,93,93,186,h,Wood Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,465
+0021900027,660,PT06M16.00S,4,1610612755,PHI,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,v,Richardson Traveling Turnover (P3.T21),Turnover,Traveling,1,0,466
+0021900027,661,PT06M02.00S,4,1610612765,DET,203083,Drummond,A. Drummond,-10,38,4,Missed,1,,,0,h,MISS Drummond 4' Layup,Missed Shot,Layup Shot,1,2,467
+0021900027,661,PT06M02.00S,4,1610612755,PHI,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn BLOCK (2 BLK),,,1,2,468
+0021900027,663,PT06M01.00S,4,1610612755,PHI,1629003,Milton,S. Milton,0,0,0,,0,,,0,v,Milton REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,469
+0021900027,664,PT06M01.00S,4,1610612765,DET,203503,Snell,T. Snell,0,0,0,,0,,,0,h,Snell Personal Take Foul (P2.PN) (K.Scott),Foul,Personal Take,1,0,470
+0021900027,666,PT06M01.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,93,94,187,v,Simmons Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,471
+0021900027,667,PT06M01.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,93,95,188,v,Simmons Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,472
+0021900027,668,PT06M01.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,473
+0021900027,669,PT06M01.00S,4,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,h,SUB: Kennard FOR Galloway,Substitution,,0,0,474
+0021900027,671,PT05M49.00S,4,1610612765,DET,201565,Rose,D. Rose,-123,34,13,Made,1,95,95,190,h,Rose 13' Pullup Jump Shot (20 PTS),Made Shot,Pullup Jump shot,1,2,475
+0021900027,672,PT05M36.00S,4,1610612765,DET,203503,Snell,T. Snell,0,0,0,,0,,,0,h,Snell S.FOUL (P3.PN) (J.Goldenberg),Foul,Shooting,1,0,476
+0021900027,674,PT05M36.00S,4,1610612755,PHI,203124,O'Quinn,K. O'Quinn,0,0,0,,0,95,96,191,v,O'Quinn Free Throw 1 of 2 (2 PTS),Free Throw,Free Throw 1 of 2,1,0,477
+0021900027,675,PT05M36.00S,4,1610612755,PHI,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,MISS O'Quinn Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,478
+0021900027,676,PT05M32.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,479
+0021900027,677,PT05M32.00S,4,1610612755,PHI,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn P.FOUL (P3.PN) (N.Buchert),Foul,Personal,1,0,480
+0021900027,679,PT05M32.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,MISS Drummond Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,481
+0021900027,680,PT05M32.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Normal Rebound,0,0,482
+0021900027,681,PT05M32.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,MISS Drummond Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,483
+0021900027,682,PT05M28.00S,4,1610612755,PHI,1629003,Milton,S. Milton,0,0,0,,0,,,0,v,Milton REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,484
+0021900027,683,PT05M16.00S,4,1610612755,PHI,1629003,Milton,S. Milton,-241,23,24,Made,1,95,99,194,v,Milton 24' 3PT Jump Shot (10 PTS) (Simmons 7 AST),Made Shot,Jump Shot,1,3,485
+0021900027,685,PT05M10.00S,4,1610612765,DET,201565,Rose,D. Rose,-25,-1,3,Made,1,97,99,196,h,Rose 3' Running Layup (22 PTS),Made Shot,Running Layup Shot,1,2,486
+0021900027,686,PT04M50.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,41,32,5,Missed,1,,,0,v,MISS Simmons 5' Turnaround Bank Hook Shot,Missed Shot,Turnaround Bank Hook Shot,1,2,487
+0021900027,687,PT04M48.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,488
+0021900027,688,PT04M40.00S,4,1610612765,DET,203083,Drummond,A. Drummond,-26,8,3,Missed,1,,,0,h,MISS Drummond 3' Running Reverse Layup,Missed Shot,Running Reverse Layup Shot,1,2,489
+0021900027,689,PT04M38.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,490
+0021900027,690,PT04M37.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,3,26,3,Made,1,97,101,198,v,Simmons 3' Running Finger Roll Layup (12 PTS),Made Shot,Running Finger Roll Layup Shot,1,2,491
+0021900027,691,PT04M37.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,492
+0021900027,692,PT04M37.00S,4,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,SUB: Galloway FOR Wood,Substitution,,0,0,493
+0021900027,693,PT04M37.00S,4,1610612755,PHI,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,SUB: Horford FOR O'Quinn,Substitution,,0,0,494
+0021900027,694,PT04M37.00S,4,1610612755,PHI,1629003,Milton,S. Milton,0,0,0,,0,,,0,v,SUB: Harris FOR Milton,Substitution,,0,0,495
+0021900027,698,PT04M26.00S,4,1610612765,DET,201565,Rose,D. Rose,95,153,18,Missed,1,,,0,h,MISS Rose 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,496
+0021900027,699,PT04M24.00S,4,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,497
+0021900027,700,PT04M13.00S,4,1610612755,PHI,201143,Horford,A. Horford,125,238,27,Made,1,97,104,201,v,Horford 27' 3PT Jump Shot (15 PTS) (Simmons 8 AST),Made Shot,Jump Shot,1,3,498
+0021900027,702,PT03M56.00S,4,1610612765,DET,1628379,Kennard,L. Kennard,152,134,20,Missed,1,,,0,h,MISS Kennard 20' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,499
+0021900027,703,PT03M52.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,500
+0021900027,704,PT03M51.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons Traveling Turnover (P5.T22),Turnover,Traveling,1,0,501
+0021900027,705,PT03M46.00S,4,1610612765,DET,201565,Rose,D. Rose,0,0,0,,0,,,0,h,Rose Bad Pass Turnover (P5.T21),Turnover,Bad Pass,1,0,502
+0021900027,705,PT03M46.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons STEAL (6 STL),,,1,0,503
+0021900027,707,PT03M46.00S,4,1610612755,PHI,201143,Horford,A. Horford,-25,22,3,Made,1,97,106,203,v,Horford 3' Cutting Layup Shot (17 PTS) (Simmons 9 AST),Made Shot,Cutting Layup Shot,1,2,504
+0021900027,709,PT03M46.00S,4,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,Kennard S.FOUL (P3.PN) (N.Buchert),Foul,Shooting,1,0,505
+0021900027,711,PT03M46.00S,4,1610612755,PHI,201143,Horford,A. Horford,0,0,0,,0,97,107,204,v,Horford Free Throw 1 of 1 (18 PTS),Free Throw,Free Throw 1 of 1,1,0,506
+0021900027,712,PT03M34.00S,4,1610612765,DET,201565,Rose,D. Rose,28,5,3,Made,1,99,107,206,h,Rose 3' Driving Layup (24 PTS),Made Shot,Driving Layup Shot,1,2,507
+0021900027,713,PT03M13.00S,4,1610612755,PHI,201143,Horford,A. Horford,13,17,2,Made,1,99,109,208,v,Horford 2' Driving Dunk (20 PTS) (Simmons 10 AST),Made Shot,Driving Dunk Shot,1,2,508
+0021900027,715,PT02M57.00S,4,1610612765,DET,204038,Galloway,L. Galloway,122,246,27,Made,1,102,109,211,h,Galloway 27' 3PT Jump Shot (9 PTS) (Rose 3 AST),Made Shot,Jump Shot,1,3,509
+0021900027,717,PT02M28.00S,4,1610612755,PHI,201143,Horford,A. Horford,73,259,27,Made,1,102,112,214,v,Horford 27' 3PT Jump Shot (23 PTS) (Richardson 6 AST),Made Shot,Jump Shot,1,3,510
+0021900027,719,PT02M14.00S,4,1610612765,DET,201565,Rose,D. Rose,0,0,0,,0,,,0,h,Rose Lost Ball Turnover (P6.T22),Turnover,Lost Ball,1,0,511
+0021900027,719,PT02M14.00S,4,1610612755,PHI,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford STEAL (1 STL),,,1,0,512
+0021900027,721,PT02M08.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond P.FOUL (P5.PN) (K.Scott),Foul,Personal,1,0,513
+0021900027,723,PT02M08.00S,4,1610612755,PHI,1626196,Richardson,J. Richardson,0,0,0,,0,102,113,215,v,Richardson Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,514
+0021900027,724,PT02M08.00S,4,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,h,SUB: Morris FOR Galloway,Substitution,,0,0,515
+0021900027,726,PT02M08.00S,4,1610612755,PHI,1626196,Richardson,J. Richardson,0,0,0,,0,102,114,216,v,Richardson Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,516
+0021900027,727,PT02M00.00S,4,1610612765,DET,201565,Rose,D. Rose,-14,3,1,Made,1,104,114,218,h,Rose 1' Driving Finger Roll Layup (26 PTS) (Snell 4 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,517
+0021900027,728,PT01M41.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,65,131,15,Missed,1,,,0,v,MISS Simmons 15' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,518
+0021900027,729,PT01M38.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,519
+0021900027,731,PT01M26.00S,4,1610612765,DET,1628379,Kennard,L. Kennard,166,283,33,Missed,1,,,0,h,MISS Kennard 33' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,520
+0021900027,732,PT01M24.00S,4,1610612755,PHI,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,521
+0021900027,733,PT01M02.00S,4,1610612755,PHI,1626196,Richardson,J. Richardson,53,37,6,Missed,1,,,0,v,MISS Richardson 6' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,522
+0021900027,734,PT00M59.90S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:3 Def:8),Rebound,Unknown,1,0,523
+0021900027,735,PT00M52.90S,4,1610612765,DET,201565,Rose,D. Rose,19,24,3,Made,1,106,114,220,h,Rose 3' Driving Finger Roll Layup (28 PTS) (Snell 5 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,524
+0021900027,737,PT00M41.30S,4,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,Kennard Personal Take Foul (P4.PN) (J.Goldenberg),Foul,Personal Take,1,0,525
+0021900027,739,PT00M41.30S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,MISS Simmons Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,526
+0021900027,740,PT00M41.30S,4,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Normal Rebound,0,0,527
+0021900027,741,PT00M41.30S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,106,115,221,v,Simmons Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,528
+0021900027,742,PT00M41.30S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,529
+0021900027,743,PT00M38.20S,4,1610612765,DET,201565,Rose,D. Rose,-114,234,26,Made,1,109,115,224,h,Rose 26' 3PT Pullup Jump Shot (31 PTS) (Snell 6 AST),Made Shot,Pullup Jump shot,1,3,530
+0021900027,745,PT00M32.30S,4,1610612765,DET,201565,Rose,D. Rose,0,0,0,,0,,,0,h,Rose P.FOUL (P2.PN) (N.Buchert),Foul,Personal,1,0,531
+0021900027,747,PT00M32.30S,4,1610612755,PHI,201143,Horford,A. Horford,0,0,0,,0,,,0,v,MISS Horford Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,532
+0021900027,748,PT00M32.30S,4,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Normal Rebound,0,0,533
+0021900027,749,PT00M32.30S,4,1610612755,PHI,201143,Horford,A. Horford,0,0,0,,0,,,0,v,MISS Horford Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,534
+0021900027,750,PT00M30.30S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:3 Def:9),Rebound,Unknown,1,0,535
+0021900027,751,PT00M18.00S,4,1610612765,DET,203083,Drummond,A. Drummond,-19,4,2,Made,1,111,115,226,h,Drummond 2' Driving Finger Roll Layup (13 PTS) (Morris 1 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,536
+0021900027,753,PT00M05.40S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond Personal Take Foul (P6.PN) (J.Goldenberg),Foul,Personal Take,1,0,537
+0021900027,755,PT00M05.40S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,SUB: Maker FOR Drummond,Substitution,,0,0,538
+0021900027,757,PT00M05.40S,4,1610612755,PHI,203118,Scott,M. Scott,0,0,0,,0,111,116,227,v,Scott Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,1,0,539
+0021900027,758,PT00M05.40S,4,1610612755,PHI,203118,Scott,M. Scott,0,0,0,,0,111,117,228,v,Scott Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,1,0,540
+0021900027,759,PT00M05.40S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 7 Short 0),Timeout,Regular,0,0,541
+0021900027,760,PT00M05.40S,4,1610612755,PHI,203118,Scott,M. Scott,0,0,0,,0,,,0,v,SUB: Thybulle FOR Scott,Substitution,,0,0,542
+0021900027,762,PT00M02.10S,4,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker Bad Pass Turnover (P3.T23),Turnover,Bad Pass,1,0,543
+0021900027,762,PT00M02.10S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons STEAL (7 STL),,,1,0,544
+0021900027,764,PT00M00.00S,4,0,,0,,,0,0,0,,0,111,117,228,,End of 4th Period (9:37 PM EST),period,end,1,0,545

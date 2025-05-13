@@ -1,0 +1,440 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022200264,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:46 PM EST),period,start,0,0,1
+0022200264,4,PT12M00.00S,1,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,Jump Ball Horford vs. Powell: Tip to Dinwiddie,Jump Ball,,1,0,2
+0022200264,7,PT11M40.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,-153,52,16,Made,1,0,2,2,v,Doncic 16' Turnaround Fadeaway (2 PTS),Made Shot,Turnaround Fadeaway shot,1,2,3
+0022200264,8,PT11M25.00S,1,1610612738,BOS,201143,Horford,A. Horford,132,215,25,Made,1,3,2,5,h,Horford 25' 3PT Jump Shot (3 PTS) (Smart 1 AST),Made Shot,Jump Shot,1,3,4
+0022200264,10,PT11M10.00S,1,1610612742,DAL,203493,Bullock Jr.,R. Bullock Jr.,-136,235,27,Made,1,3,5,8,v,Bullock 27' 3PT Jump Shot (3 PTS) (Doncic 1 AST),Made Shot,Jump Shot,1,3,5
+0022200264,12,PT10M53.00S,1,1610612738,BOS,1627759,Brown,J. Brown,-7,52,5,Made,1,5,5,10,h,Brown 5' Driving Layup (2 PTS) (White 1 AST),Made Shot,Driving Layup Shot,1,2,6
+0022200264,14,PT10M34.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic Traveling Turnover (P1.T1),Turnover,Traveling,1,0,7
+0022200264,15,PT10M27.00S,1,1610612738,BOS,1628401,White,D. White,93,241,26,Made,1,8,5,13,h,White 26' 3PT Step Back Jump Shot (3 PTS) (Horford 1 AST),Made Shot,Step Back Jump shot,1,3,8
+0022200264,16,PT10M13.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,-205,168,27,Made,1,8,8,16,v,Doncic 27' 3PT Jump Shot (5 PTS) (Dinwiddie 1 AST),Made Shot,Jump Shot,1,3,9
+0022200264,18,PT09M55.00S,1,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,White Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,10
+0022200264,18,PT09M55.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith STEAL (1 STL),,,1,0,11
+0022200264,20,PT09M45.00S,1,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,White P.FOUL (P1.T1) (M.Smith),Foul,Personal,1,0,12
+0022200264,22,PT09M41.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell OFF.Foul (P1) (M.Myers),Foul,Offensive,1,0,13
+0022200264,24,PT09M41.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell Offensive Foul Turnover (P1.T2),Turnover,Offensive Foul Turnover,1,0,14
+0022200264,25,PT09M30.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell S.FOUL (P2.T1) (M.Smith),Foul,Shooting,1,0,15
+0022200264,28,PT09M30.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,MISS Tatum Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,16
+0022200264,29,PT09M30.00S,1,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Rebound,Rebound,Normal Rebound,0,0,17
+0022200264,30,PT09M30.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,9,8,17,h,Tatum Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,0,0,18
+0022200264,31,PT09M15.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,113,98,15,Made,1,9,10,19,v,Doncic 15' Turnaround Fadeaway (7 PTS),Made Shot,Turnaround Fadeaway shot,1,2,19
+0022200264,32,PT08M59.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic S.FOUL (P1.T2) (J.Tiven),Foul,Shooting,1,0,20
+0022200264,34,PT08M59.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,10,10,20,h,Tatum Free Throw 1 of 2 (2 PTS),Free Throw,Free Throw 1 of 2,1,0,21
+0022200264,35,PT08M59.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,11,10,21,h,Tatum Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,22
+0022200264,36,PT08M40.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,86,278,29,Missed,1,,,0,v,MISS Doncic 29' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,23
+0022200264,37,PT08M37.00S,1,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,Horford REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,24
+0022200264,38,PT08M27.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,-21,21,3,Made,1,13,10,23,h,Tatum 3' Driving Layup (5 PTS),Made Shot,Driving Layup Shot,1,2,25
+0022200264,39,PT08M08.00S,1,1610612742,DAL,203915,Dinwiddie,S. Dinwiddie,59,261,27,Missed,1,,,0,v,MISS Dinwiddie 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,26
+0022200264,40,PT08M05.00S,1,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,h,Smart REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,27
+0022200264,41,PT08M03.00S,1,1610612738,BOS,1627759,Brown,J. Brown,1,-1,0,Made,1,15,10,25,h,Brown Running Dunk (4 PTS) (Smart 2 AST),Made Shot,Running Dunk Shot,1,2,28
+0022200264,43,PT07M42.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,12,85,9,Missed,1,,,0,v,MISS Doncic 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,29
+0022200264,44,PT07M42.00S,1,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,White REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,30
+0022200264,45,PT07M26.00S,1,1610612738,BOS,203935,Smart,M. Smart,-40,81,9,Missed,1,,,0,h,MISS Smart 9' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,31
+0022200264,46,PT07M25.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,32
+0022200264,48,PT07M06.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,26,41,5,Made,1,15,12,27,v,Doncic 5' Driving Layup (9 PTS),Made Shot,Driving Layup Shot,1,2,33
+0022200264,49,PT07M06.00S,1,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,Horford S.FOUL (P1.T2) (J.Tiven),Foul,Shooting,1,0,34
+0022200264,51,PT07M06.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,15,13,28,v,Doncic Free Throw 1 of 1 (10 PTS),Free Throw,Free Throw 1 of 1,1,0,35
+0022200264,52,PT06M54.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,-22,42,5,Missed,1,,,0,h,MISS Tatum 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,36
+0022200264,52,PT06M54.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell BLOCK (1 BLK),,,1,2,37
+0022200264,53,PT06M52.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,38
+0022200264,54,PT06M44.00S,1,1610612742,DAL,203493,Bullock Jr.,R. Bullock Jr.,151,221,27,Missed,1,,,0,v,MISS Bullock 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,39
+0022200264,55,PT06M41.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,40
+0022200264,56,PT06M28.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,-29,20,4,Missed,1,,,0,h,MISS Tatum 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,41
+0022200264,57,PT06M25.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,42
+0022200264,58,PT06M25.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,Made,1,17,13,30,h,Tatum Tip Layup Shot (7 PTS),Made Shot,Tip Layup Shot,1,2,43
+0022200264,59,PT06M10.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,-183,194,27,Missed,1,,,0,v,MISS Doncic 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,44
+0022200264,60,PT06M07.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,45
+0022200264,61,PT06M01.00S,1,1610612738,BOS,1627759,Brown,J. Brown,25,44,5,Missed,1,,,0,h,MISS Brown 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,46
+0022200264,62,PT05M58.00S,1,1610612742,DAL,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,,,0,v,Dinwiddie REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,47
+0022200264,63,PT05M54.00S,1,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown S.FOUL (P1.T3) (J.Tiven),Foul,Shooting,1,0,48
+0022200264,65,PT05M54.00S,1,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,49
+0022200264,67,PT05M54.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,SUB: Brogdon FOR Tatum,Substitution,,0,0,50
+0022200264,68,PT05M54.00S,1,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,SUB: Hauser FOR White,Substitution,,0,0,51
+0022200264,71,PT05M54.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,MISS Powell Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,52
+0022200264,72,PT05M54.00S,1,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Normal Rebound,0,0,53
+0022200264,73,PT05M54.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,17,14,31,v,Powell Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,54
+0022200264,74,PT05M42.00S,1,1610612738,BOS,1627759,Brown,J. Brown,22,11,2,Made,1,19,14,33,h,Brown 2' Driving Layup (6 PTS) (Horford 2 AST),Made Shot,Driving Layup Shot,1,2,55
+0022200264,75,PT05M18.00S,1,1610612742,DAL,203493,Bullock Jr.,R. Bullock Jr.,212,141,25,Missed,1,,,0,v,MISS Bullock 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,56
+0022200264,76,PT05M17.00S,1,1610612738,BOS,1630573,Hauser,S. Hauser,0,0,0,,0,,,0,h,Hauser REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,57
+0022200264,78,PT05M00.00S,1,1610612738,BOS,1627759,Brown,J. Brown,13,7,1,Made,1,21,14,35,h,Brown 1' Driving Layup (8 PTS) (Horford 3 AST),Made Shot,Driving Layup Shot,1,2,58
+0022200264,80,PT05M00.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell S.FOUL (P3.T3) (M.Smith),Foul,Shooting,1,0,59
+0022200264,82,PT05M00.00S,1,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,SUB: Williams FOR Horford,Substitution,,0,0,60
+0022200264,83,PT05M00.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,SUB: Hardaway Jr. FOR Powell,Substitution,,0,0,61
+0022200264,84,PT05M00.00S,1,1610612742,DAL,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,,,0,v,SUB: Wood FOR Dinwiddie,Substitution,,0,0,62
+0022200264,88,PT05M00.00S,1,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,22,14,36,h,Brown Free Throw 1 of 1 (9 PTS),Free Throw,Free Throw 1 of 1,1,0,63
+0022200264,89,PT04M47.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,-52,109,12,Missed,1,,,0,v,MISS Doncic 12' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,64
+0022200264,90,PT04M45.00S,1,1610612738,BOS,1630573,Hauser,S. Hauser,0,0,0,,0,,,0,h,Hauser REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,65
+0022200264,91,PT04M37.00S,1,1610612738,BOS,203935,Smart,M. Smart,-10,36,4,Made,1,24,14,38,h,Smart 4' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,66
+0022200264,93,PT04M32.00S,1,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Violation: Delay of game Violation,Violation,Delay Of Game,0,0,67
+0022200264,94,PT04M23.00S,1,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood Lost Ball Turnover (P1.T3),Turnover,Lost Ball,1,0,68
+0022200264,94,PT04M23.00S,1,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,h,Smart STEAL (1 STL),,,1,0,69
+0022200264,96,PT04M15.00S,1,1610612738,BOS,1630573,Hauser,S. Hauser,157,197,25,Missed,1,,,0,h,MISS Hauser 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,70
+0022200264,97,PT04M15.00S,1,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,71
+0022200264,98,PT03M58.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,72
+0022200264,98,PT03M58.00S,1,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown STEAL (1 STL),,,1,0,73
+0022200264,100,PT03M49.00S,1,1610612738,BOS,1627759,Brown,J. Brown,-22,15,3,Made,1,26,14,40,h,Brown 3' Driving Layup (11 PTS),Made Shot,Driving Layup Shot,1,2,74
+0022200264,101,PT03M49.00S,1,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,75
+0022200264,102,PT03M49.00S,1,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,h,SUB: White FOR Smart,Substitution,,0,0,76
+0022200264,103,PT03M49.00S,1,1610612742,DAL,203493,Bullock Jr.,R. Bullock Jr.,0,0,0,,0,,,0,v,SUB: Green FOR Bullock,Substitution,,0,0,77
+0022200264,106,PT03M33.00S,1,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,130,230,26,Missed,1,,,0,v,MISS Hardaway Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,78
+0022200264,107,PT03M29.00S,1,1610612742,DAL,1630182,Green,J. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,79
+0022200264,108,PT03M28.00S,1,1610612738,BOS,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon S.FOUL (P1.T4) (M.Smith),Foul,Shooting,1,0,80
+0022200264,110,PT03M28.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,MISS Doncic Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,81
+0022200264,111,PT03M28.00S,1,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Normal Rebound,0,0,82
+0022200264,112,PT03M28.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,26,15,41,v,Doncic Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,83
+0022200264,113,PT03M11.00S,1,1610612738,BOS,1627763,Brogdon,M. Brogdon,234,59,24,Made,1,29,15,44,h,Brogdon 24' 3PT Jump Shot (3 PTS) (Brown 1 AST),Made Shot,Jump Shot,1,3,84
+0022200264,115,PT02M54.00S,1,1610612742,DAL,1626174,Wood,C. Wood,28,53,6,Made,1,29,17,46,v,Wood 6' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,85
+0022200264,116,PT02M48.00S,1,1610612738,BOS,1630573,Hauser,S. Hauser,148,216,26,Missed,1,,,0,h,MISS Hauser 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,86
+0022200264,117,PT02M45.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,87
+0022200264,118,PT02M28.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,83,85,12,Made,1,29,19,48,v,Doncic 12' Turnaround Fadeaway Bank Jump Shot (13 PTS),Made Shot,Turnaround Fadeaway Bank Jump Shot,1,2,88
+0022200264,119,PT02M10.00S,1,1610612738,BOS,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,89
+0022200264,119,PT02M10.00S,1,1610612742,DAL,1630182,Green,J. Green,0,0,0,,0,,,0,v,Green STEAL (1 STL),,,1,0,90
+0022200264,121,PT02M05.00S,1,1610612742,DAL,1630182,Green,J. Green,36,38,5,Missed,1,,,0,v,MISS Green 5' Running Layup,Missed Shot,Running Layup Shot,1,2,91
+0022200264,122,PT02M04.00S,1,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,92
+0022200264,123,PT01M59.00S,1,1610612738,BOS,1629684,Williams,G. Williams,237,17,24,Missed,1,,,0,h,MISS Williams 24' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,93
+0022200264,124,PT01M56.00S,1,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,v,Hardaway Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,94
+0022200264,125,PT01M47.00S,1,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,0,45,5,Made,1,29,21,50,v,Hardaway Jr. 5' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,95
+0022200264,126,PT01M33.00S,1,1610612738,BOS,1627763,Brogdon,M. Brogdon,71,254,26,Made,1,32,21,53,h,Brogdon 26' 3PT Pullup Jump Shot (6 PTS),Made Shot,Pullup Jump shot,1,3,96
+0022200264,127,PT01M14.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,102,274,29,Missed,1,,,0,v,MISS Finney-Smith 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,97
+0022200264,128,PT01M11.00S,1,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,98
+0022200264,129,PT00M54.20S,1,1610612738,BOS,1627759,Brown,J. Brown,158,204,26,Missed,1,,,0,h,MISS Brown 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,99
+0022200264,130,PT00M51.50S,1,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,100
+0022200264,131,PT00M34.50S,1,1610612742,DAL,1629029,Dončić,L. Dončić,37,134,14,Made,1,32,23,55,v,Doncic 14' Fadeaway Jumper (15 PTS),Made Shot,Fadeaway Jump Shot,1,2,101
+0022200264,132,PT00M14.10S,1,1610612738,BOS,1627763,Brogdon,M. Brogdon,13,26,3,Missed,1,,,0,h,MISS Brogdon 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,102
+0022200264,133,PT00M12.00S,1,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,103
+0022200264,134,PT00M10.10S,1,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood Bad Pass Turnover (P2.T5),Turnover,Bad Pass,1,0,104
+0022200264,134,PT00M10.10S,1,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,Williams STEAL (1 STL),,,1,0,105
+0022200264,136,PT00M07.50S,1,1610612738,BOS,1629684,Williams,G. Williams,156,202,26,Missed,1,,,0,h,MISS Williams 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,106
+0022200264,137,PT00M05.80S,1,1610612738,BOS,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,107
+0022200264,138,PT00M00.60S,1,1610612738,BOS,1627759,Brown,J. Brown,-2,8,1,Made,1,34,23,57,h,Brown 1' Cutting Layup Shot (13 PTS) (Brogdon 1 AST),Made Shot,Cutting Layup Shot,1,2,108
+0022200264,140,PT00M00.00S,1,0,,0,,,0,0,0,,0,34,23,57,,End of 1st Period (8:11 PM EST),period,end,1,0,109
+0022200264,147,PT12M00.00S,2,0,,0,,,0,0,0,,0,34,23,57,,Start of 2nd Period (8:14 PM EST),period,start,0,0,110
+0022200264,148,PT11M48.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,22,268,27,Made,1,37,23,60,h,Tatum 27' 3PT Step Back Jump Shot (10 PTS) (Williams 1 AST),Made Shot,Step Back Jump shot,1,3,111
+0022200264,149,PT11M25.00S,2,1610612742,DAL,1626174,Wood,C. Wood,23,38,4,Made,1,37,25,62,v,Wood 4' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,112
+0022200264,150,PT11M13.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum Lost Ball Turnover (P1.T3),Turnover,Lost Ball,1,0,113
+0022200264,150,PT11M13.00S,2,1610612742,DAL,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,,,0,v,Dinwiddie STEAL (1 STL),,,1,0,114
+0022200264,152,PT11M10.00S,2,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,White P.FOUL (P2.T1) (M.Smith),Foul,Personal,1,0,115
+0022200264,155,PT10M51.00S,2,1610612742,DAL,1626174,Wood,C. Wood,67,96,12,Missed,1,,,0,v,MISS Wood 12' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,116
+0022200264,156,PT10M48.00S,2,1610612738,BOS,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,117
+0022200264,157,PT10M43.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,100,225,25,Missed,1,,,0,h,MISS Tatum 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,118
+0022200264,158,PT10M41.00S,2,1610612742,DAL,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,,,0,v,Dinwiddie REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,119
+0022200264,159,PT10M28.00S,2,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood OFF.Foul (P1) (J.Tiven),Foul,Offensive,1,0,120
+0022200264,161,PT10M28.00S,2,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood Offensive Foul Turnover (P3.T6),Turnover,Offensive Foul Turnover,1,0,121
+0022200264,162,PT10M17.00S,2,1610612738,BOS,1629684,Williams,G. Williams,-18,95,10,Missed,1,,,0,h,MISS Williams 10' Hook Shot,Missed Shot,Hook Shot,1,2,122
+0022200264,163,PT10M16.00S,2,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,123
+0022200264,164,PT10M07.00S,2,1610612742,DAL,202722,Bertans,D. Bertans,75,287,30,Missed,1,,,0,v,MISS Bertans 30' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,124
+0022200264,165,PT10M05.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,125
+0022200264,166,PT09M57.00S,2,1610612738,BOS,1628401,White,D. White,-178,190,26,Made,1,40,25,65,h,White 26' 3PT Pullup Jump Shot (6 PTS) (Tatum 1 AST),Made Shot,Pullup Jump shot,1,3,126
+0022200264,168,PT09M44.00S,2,1610612742,DAL,1626174,Wood,C. Wood,20,268,27,Made,1,40,28,68,v,Wood 27' 3PT Jump Shot (7 PTS) (Dinwiddie 2 AST),Made Shot,Jump Shot,1,3,127
+0022200264,170,PT09M27.00S,2,1610612738,BOS,1628401,White,D. White,38,46,6,Made,1,42,28,70,h,White 6' Driving Floating Jump Shot (8 PTS) (Tatum 2 AST),Made Shot,Driving Floating Jump Shot,1,2,128
+0022200264,172,PT09M27.00S,2,1610612742,DAL,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,,,0,v,Dinwiddie S.FOUL (P1.T1) (M.Smith),Foul,Shooting,1,0,129
+0022200264,174,PT09M27.00S,2,1610612738,BOS,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,SUB: Horford FOR Brogdon,Substitution,,0,0,130
+0022200264,176,PT09M27.00S,2,1610612738,BOS,1628401,White,D. White,0,0,0,,0,43,28,71,h,White Free Throw 1 of 1 (9 PTS),Free Throw,Free Throw 1 of 1,1,0,131
+0022200264,177,PT09M17.00S,2,1610612742,DAL,1630182,Green,J. Green,237,52,24,Missed,1,,,0,v,MISS Green 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,132
+0022200264,178,PT09M14.00S,2,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,Horford REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,133
+0022200264,179,PT09M05.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,-23,21,3,Missed,1,,,0,h,MISS Tatum 3' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,134
+0022200264,180,PT09M05.00S,2,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Rebound,Rebound,Unknown,0,0,135
+0022200264,182,PT09M02.00S,2,1610612738,BOS,1630573,Hauser,S. Hauser,-230,55,24,Made,1,46,28,74,h,Hauser 24' 3PT Jump Shot (3 PTS) (Williams 2 AST),Made Shot,Jump Shot,1,3,136
+0022200264,184,PT08M42.00S,2,1610612742,DAL,1626174,Wood,C. Wood,159,206,26,Missed,1,,,0,v,MISS Wood 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,137
+0022200264,185,PT08M40.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,138
+0022200264,186,PT08M37.00S,2,1610612742,DAL,1630182,Green,J. Green,0,0,0,,0,,,0,v,Green S.FOUL (P1.T2) (M.Myers),Foul,Shooting,1,0,139
+0022200264,188,PT08M37.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,MISS Tatum Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,140
+0022200264,189,PT08M37.00S,2,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Rebound,Rebound,Normal Rebound,0,0,141
+0022200264,190,PT08M37.00S,2,1610612742,DAL,202722,Bertans,D. Bertans,0,0,0,,0,,,0,v,SUB: McGee FOR Bertans,Substitution,,0,0,142
+0022200264,192,PT08M37.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,47,28,75,h,Tatum Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,143
+0022200264,193,PT08M35.00S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,144
+0022200264,194,PT08M31.00S,2,1610612742,DAL,203915,Dinwiddie,S. Dinwiddie,-13,134,13,Made,1,47,30,77,v,Dinwiddie 13' Driving Floating Jump Shot (2 PTS),Made Shot,Driving Floating Jump Shot,1,2,145
+0022200264,195,PT08M31.00S,2,1610612738,BOS,1630573,Hauser,S. Hauser,0,0,0,,0,,,0,h,Hauser S.FOUL (P1.T2) (M.Myers),Foul,Shooting,1,0,146
+0022200264,197,PT08M31.00S,2,1610612742,DAL,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,,,0,v,MISS Dinwiddie Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,147
+0022200264,198,PT08M31.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,148
+0022200264,199,PT08M19.00S,2,1610612738,BOS,1628401,White,D. White,232,83,25,Made,1,50,30,80,h,White 25' 3PT Pullup Jump Shot (12 PTS) (Williams 3 AST),Made Shot,Pullup Jump shot,1,3,149
+0022200264,201,PT08M04.00S,2,1610612742,DAL,1630182,Green,J. Green,-59,74,9,Missed,1,,,0,v,MISS Green 9' Driving Layup,Missed Shot,Driving Layup Shot,1,2,150
+0022200264,201,PT08M04.00S,2,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,Horford BLOCK (1 BLK),,,1,2,151
+0022200264,203,PT08M03.00S,2,1610612738,BOS,1630573,Hauser,S. Hauser,0,0,0,,0,,,0,h,Hauser REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,152
+0022200264,204,PT07M53.00S,2,1610612738,BOS,1628401,White,D. White,135,231,27,Missed,1,,,0,h,MISS White 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,153
+0022200264,205,PT07M49.00S,2,1610612742,DAL,201580,McGee,J. McGee,0,0,0,,0,,,0,v,McGee REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,154
+0022200264,206,PT07M35.00S,2,1610612742,DAL,201580,McGee,J. McGee,-36,38,5,Made,1,50,32,82,v,McGee 5' Cutting Layup Shot (2 PTS) (Wood 1 AST),Made Shot,Cutting Layup Shot,1,2,155
+0022200264,208,PT07M35.00S,2,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,Williams S.FOUL (P1.T3) (J.Tiven),Foul,Shooting,1,0,156
+0022200264,210,PT07M35.00S,2,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,SUB: Smart FOR Williams,Substitution,,0,0,157
+0022200264,211,PT07M35.00S,2,1610612738,BOS,1630573,Hauser,S. Hauser,0,0,0,,0,,,0,h,SUB: Brown FOR Hauser,Substitution,,0,0,158
+0022200264,212,PT07M35.00S,2,1610612742,DAL,1630182,Green,J. Green,0,0,0,,0,,,0,v,SUB: Bullock FOR Green,Substitution,,0,0,159
+0022200264,216,PT07M35.00S,2,1610612742,DAL,201580,McGee,J. McGee,0,0,0,,0,50,33,83,v,McGee Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,1,0,160
+0022200264,217,PT07M23.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,48,8,5,Missed,1,,,0,h,MISS Tatum 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,161
+0022200264,218,PT07M20.00S,2,1610612742,DAL,203493,Bullock Jr.,R. Bullock Jr.,0,0,0,,0,,,0,v,Bullock REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,162
+0022200264,219,PT07M14.00S,2,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,-188,193,27,Missed,1,,,0,v,MISS Hardaway Jr. 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,163
+0022200264,220,PT07M11.00S,2,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,164
+0022200264,221,PT07M04.00S,2,1610612738,BOS,1627759,Brown,J. Brown,86,128,15,Missed,1,,,0,h,MISS Brown 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,165
+0022200264,222,PT07M02.00S,2,1610612742,DAL,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,,,0,v,Dinwiddie REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,166
+0022200264,223,PT06M52.00S,2,1610612742,DAL,203915,Dinwiddie,S. Dinwiddie,-36,25,4,Made,1,50,35,85,v,Dinwiddie 4' Driving Reverse Layup (4 PTS),Made Shot,Driving Reverse Layup Shot,1,2,167
+0022200264,224,PT06M30.00S,2,1610612738,BOS,203935,Smart,M. Smart,105,248,27,Missed,1,,,0,h,MISS Smart 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,168
+0022200264,225,PT06M27.00S,2,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,169
+0022200264,226,PT06M06.00S,2,1610612742,DAL,203915,Dinwiddie,S. Dinwiddie,138,232,27,Made,1,50,38,88,v,Dinwiddie 27' 3PT Step Back Bank Jump Shot (7 PTS),Made Shot,Step Back Bank Jump Shot,1,3,170
+0022200264,227,PT05M52.00S,2,1610612738,BOS,201143,Horford,A. Horford,-145,225,27,Made,1,53,38,91,h,Horford 27' 3PT Jump Shot (6 PTS) (Smart 3 AST),Made Shot,Jump Shot,1,3,171
+0022200264,229,PT05M33.00S,2,1610612742,DAL,201580,McGee,J. McGee,56,101,12,Made,1,53,40,93,v,McGee 12' Turnaround Hook Shot (5 PTS) (Dinwiddie 3 AST),Made Shot,Turnaround Hook Shot,1,2,172
+0022200264,231,PT05M21.00S,2,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,h,Smart OFF.Foul (P1) (M.Myers),Foul,Offensive,1,0,173
+0022200264,233,PT05M21.00S,2,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,h,Smart Offensive Foul Turnover (P1.T4),Turnover,Offensive Foul Turnover,1,0,174
+0022200264,234,PT05M21.00S,2,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,SUB: Brogdon FOR White,Substitution,,0,0,175
+0022200264,235,PT05M21.00S,2,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,v,SUB: Doncic FOR Hardaway Jr.,Substitution,,0,0,176
+0022200264,236,PT05M21.00S,2,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,SUB: Finney-Smith FOR Wood,Substitution,,0,0,177
+0022200264,240,PT05M07.00S,2,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown P.FOUL (P2.T4) (M.Myers),Foul,Personal,0,0,178
+0022200264,242,PT04M55.00S,2,1610612742,DAL,203493,Bullock Jr.,R. Bullock Jr.,-23,32,4,Missed,1,,,0,v,MISS Bullock 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,179
+0022200264,243,PT04M53.00S,2,1610612738,BOS,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,180
+0022200264,244,PT04M43.00S,2,1610612738,BOS,201143,Horford,A. Horford,-15,26,3,Made,1,55,40,95,h,Horford 3' Turnaround Hook Shot (8 PTS) (Smart 4 AST),Made Shot,Turnaround Hook Shot,1,2,181
+0022200264,246,PT04M22.00S,2,1610612742,DAL,203915,Dinwiddie,S. Dinwiddie,-13,22,3,Made,1,55,42,97,v,Dinwiddie 3' Driving Layup (9 PTS),Made Shot,Driving Layup Shot,1,2,182
+0022200264,247,PT04M01.00S,2,1610612742,DAL,201580,McGee,J. McGee,0,0,0,,0,,,0,v,McGee S.FOUL (P1.T3) (M.Myers),Foul,Shooting,1,0,183
+0022200264,249,PT04M01.00S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,184
+0022200264,250,PT04M01.00S,2,0,,247,Dumars,J. Dumars,0,0,0,,0,55,42,97,,Instant Replay2nd Period (8:30 PM EST),Instant Replay,Coach Challenge Ruling Stands,1,0,185
+0022200264,251,PT04M01.00S,2,1610612742,DAL,201580,McGee,J. McGee,0,0,0,,0,,,0,v,SUB: Wood FOR McGee,Substitution,,0,0,186
+0022200264,253,PT04M01.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,56,42,98,h,Tatum Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,1,0,187
+0022200264,254,PT04M01.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,57,42,99,h,Tatum Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,188
+0022200264,255,PT03M41.00S,2,1610612742,DAL,203915,Dinwiddie,S. Dinwiddie,150,246,29,Missed,1,,,0,v,MISS Dinwiddie 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,189
+0022200264,256,PT03M38.00S,2,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,Horford REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,190
+0022200264,257,PT03M33.00S,2,1610612738,BOS,203935,Smart,M. Smart,-216,144,26,Made,1,60,42,102,h,Smart 26' 3PT Running Jump Shot (5 PTS) (Brogdon 2 AST),Made Shot,Running Jump Shot,1,3,191
+0022200264,259,PT03M17.00S,2,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic Lost Ball Turnover (P2.T7),Turnover,Lost Ball,1,0,192
+0022200264,259,PT03M17.00S,2,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown STEAL (2 STL),,,1,0,193
+0022200264,261,PT03M13.00S,2,1610612738,BOS,1627759,Brown,J. Brown,-7,22,2,Missed,1,,,0,h,MISS Brown 2' Running Layup,Missed Shot,Running Layup Shot,1,2,194
+0022200264,262,PT03M10.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,195
+0022200264,263,PT03M09.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,-10,7,1,Made,1,62,42,104,h,Tatum 1' Putback Layup (15 PTS),Made Shot,Putback Layup Shot,1,2,196
+0022200264,264,PT02M55.00S,2,1610612738,BOS,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon S.FOUL (P2.PN) (M.Myers),Foul,Shooting,1,0,197
+0022200264,266,PT02M55.00S,2,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,62,43,105,v,Doncic Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,1,0,198
+0022200264,267,PT02M55.00S,2,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,MISS Doncic Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,199
+0022200264,268,PT02M54.00S,2,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,200
+0022200264,269,PT02M45.00S,2,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,h,Smart Out of Bounds - Bad Pass Turnover Turnover (P2.T5),Turnover,Out of Bounds - Bad Pass Turnover,1,0,201
+0022200264,270,PT02M39.00S,2,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith OFF.Foul (P1) (M.Myers),Foul,Offensive,1,0,202
+0022200264,272,PT02M39.00S,2,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith Offensive Foul Turnover (P2.T8),Turnover,Offensive Foul Turnover,1,0,203
+0022200264,273,PT02M26.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,130,215,25,Made,1,65,43,108,h,Tatum 25' 3PT Jump Shot (18 PTS) (Smart 5 AST),Made Shot,Jump Shot,1,3,204
+0022200264,275,PT02M06.00S,2,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,29,45,5,Missed,1,,,0,v,MISS Finney-Smith 5' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,205
+0022200264,275,PT02M06.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum BLOCK (1 BLK),,,1,2,206
+0022200264,277,PT02M04.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,207
+0022200264,278,PT02M02.00S,2,1610612742,DAL,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,,,0,v,Dinwiddie S.FOUL (P2.T4) (J.Tiven),Foul,Shooting,1,0,208
+0022200264,280,PT02M02.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,66,43,109,h,Tatum Free Throw 1 of 3 (19 PTS),Free Throw,Free Throw 1 of 3,1,0,209
+0022200264,281,PT02M02.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,67,43,110,h,Tatum Free Throw 2 of 3 (20 PTS),Free Throw,Free Throw 2 of 3,1,0,210
+0022200264,282,PT02M02.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,68,43,111,h,Tatum Free Throw 3 of 3 (21 PTS),Free Throw,Free Throw 3 of 3,1,0,211
+0022200264,283,PT01M49.00S,2,1610612742,DAL,1629029,Dončić,L. Dončić,-118,167,20,Made,1,68,45,113,v,Doncic 20' Turnaround Fadeaway (18 PTS),Made Shot,Turnaround Fadeaway shot,1,2,212
+0022200264,284,PT01M27.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,-17,17,2,Made,1,70,45,115,h,Tatum 2' Cutting Layup Shot (23 PTS) (Smart 6 AST),Made Shot,Cutting Layup Shot,1,2,213
+0022200264,286,PT01M14.00S,2,1610612742,DAL,1629029,Dončić,L. Dončić,26,146,15,Made,1,70,47,117,v,Doncic 15' Pullup Jump Shot (20 PTS),Made Shot,Pullup Jump shot,1,2,214
+0022200264,287,PT01M05.00S,2,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,h,Smart Out of Bounds - Bad Pass Turnover Turnover (P3.T6),Turnover,Out of Bounds - Bad Pass Turnover,1,0,215
+0022200264,288,PT01M05.00S,2,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,SUB: Williams FOR Brown,Substitution,,0,0,216
+0022200264,290,PT00M48.10S,2,1610612742,DAL,1629029,Dončić,L. Dončić,-112,96,15,Made,1,70,49,119,v,Doncic 15' Fadeaway Jumper (22 PTS),Made Shot,Fadeaway Jump Shot,1,2,217
+0022200264,291,PT00M31.70S,2,1610612738,BOS,1627763,Brogdon,M. Brogdon,-169,218,28,Missed,1,,,0,h,MISS Brogdon 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,218
+0022200264,292,PT00M26.80S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,219
+0022200264,294,PT00M07.20S,2,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,45,272,28,Missed,1,,,0,v,MISS Finney-Smith 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,220
+0022200264,295,PT00M04.30S,2,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,Horford REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,221
+0022200264,296,PT00M00.60S,2,1610612738,BOS,1628369,Tatum,J. Tatum,-99,258,28,Missed,1,,,0,h,MISS Tatum 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,222
+0022200264,297,PT00M00.60S,2,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Rebound,Rebound,Unknown,0,0,223
+0022200264,298,PT00M00.00S,2,0,,0,,,0,0,0,,0,70,49,119,,End of 2nd Period (8:42 PM EST),period,end,1,0,224
+0022200264,305,PT12M00.00S,3,0,,0,,,0,0,0,,0,70,49,119,,Start of 3rd Period (8:57 PM EST),period,start,0,0,225
+0022200264,306,PT11M49.00S,3,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown Traveling Turnover (P1.T7),Turnover,Traveling,1,0,226
+0022200264,307,PT11M40.00S,3,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,White P.FOUL (P3.T1) (M.Myers),Foul,Personal,1,0,227
+0022200264,309,PT11M28.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,-72,168,18,Made,1,70,51,121,v,Doncic 18' Turnaround Fadeaway (24 PTS),Made Shot,Turnaround Fadeaway shot,1,2,228
+0022200264,310,PT11M15.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,25,38,5,Missed,1,,,0,h,MISS Tatum 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,229
+0022200264,311,PT11M14.00S,3,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,230
+0022200264,312,PT11M09.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic Bad Pass Turnover (P3.T9),Turnover,Bad Pass,1,0,231
+0022200264,313,PT10M55.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith Violation:Kicked Ball (M.Smith),Violation,Kicked Ball,0,0,232
+0022200264,314,PT10M51.00S,3,1610612738,BOS,203935,Smart,M. Smart,21,73,8,Missed,1,,,0,h,MISS Smart 8' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,233
+0022200264,315,PT10M48.00S,3,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,h,Smart REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,234
+0022200264,316,PT10M47.00S,3,1610612738,BOS,203935,Smart,M. Smart,21,55,6,Made,1,72,51,123,h,Smart 6' Putback Layup (7 PTS),Made Shot,Putback Layup Shot,1,2,235
+0022200264,317,PT10M37.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,-173,191,26,Made,1,72,54,126,v,Doncic 26' 3PT Pullup Jump Shot (27 PTS),Made Shot,Pullup Jump shot,1,3,236
+0022200264,318,PT10M20.00S,3,1610612738,BOS,201143,Horford,A. Horford,233,77,25,Made,1,75,54,129,h,Horford 25' 3PT Jump Shot (11 PTS) (Brown 2 AST),Made Shot,Jump Shot,1,3,237
+0022200264,320,PT10M01.00S,3,1610612742,DAL,203915,Dinwiddie,S. Dinwiddie,234,79,25,Made,1,75,57,132,v,Dinwiddie 25' 3PT Jump Shot (12 PTS) (Finney-Smith 1 AST),Made Shot,Jump Shot,1,3,238
+0022200264,322,PT09M36.00S,3,1610612738,BOS,203935,Smart,M. Smart,-200,177,27,Made,1,78,57,135,h,Smart 27' 3PT Jump Shot (10 PTS) (Tatum 3 AST),Made Shot,Jump Shot,1,3,239
+0022200264,324,PT09M19.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum P.FOUL (P1.T2) (M.Smith),Foul,Personal,1,0,240
+0022200264,326,PT09M17.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,-129,236,27,Made,1,78,60,138,v,Finney-Smith 27' 3PT Jump Shot (3 PTS) (Bullock 1 AST),Made Shot,Jump Shot,1,3,241
+0022200264,328,PT08M59.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith S.FOUL (P2.T1) (M.Myers),Foul,Shooting,1,0,242
+0022200264,330,PT08M59.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,79,60,139,h,Tatum Free Throw 1 of 2 (24 PTS),Free Throw,Free Throw 1 of 2,1,0,243
+0022200264,331,PT08M59.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,80,60,140,h,Tatum Free Throw 2 of 2 (25 PTS),Free Throw,Free Throw 2 of 2,1,0,244
+0022200264,332,PT08M55.00S,3,1610612742,DAL,203493,Bullock Jr.,R. Bullock Jr.,0,0,0,,0,,,0,v,Bullock OFF.Foul (P1) (M.Smith),Foul,Offensive,1,0,245
+0022200264,334,PT08M55.00S,3,1610612742,DAL,203493,Bullock Jr.,R. Bullock Jr.,0,0,0,,0,,,0,v,Bullock Offensive Foul Turnover (P1.T10),Turnover,Offensive Foul Turnover,1,0,246
+0022200264,335,PT08M41.00S,3,1610612738,BOS,1627759,Brown,J. Brown,-16,147,15,Made,1,82,60,142,h,Brown 15' Pullup Jump Shot (15 PTS),Made Shot,Pullup Jump shot,1,2,247
+0022200264,336,PT08M28.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,70,31,8,Made,1,82,62,144,v,Doncic 8' Floating Jump Shot (29 PTS),Made Shot,Floating Jump shot,1,2,248
+0022200264,337,PT08M20.00S,3,1610612738,BOS,1627759,Brown,J. Brown,4,24,2,Made,1,84,62,146,h,Brown 2' Driving Dunk (17 PTS),Made Shot,Driving Dunk Shot,1,2,249
+0022200264,338,PT08M08.00S,3,1610612742,DAL,203915,Dinwiddie,S. Dinwiddie,26,18,3,Made,1,84,64,148,v,Dinwiddie 3' Driving Layup (14 PTS),Made Shot,Driving Layup Shot,1,2,250
+0022200264,339,PT08M08.00S,3,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,Horford S.FOUL (P2.T3) (M.Myers),Foul,Shooting,1,0,251
+0022200264,341,PT08M08.00S,3,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,SUB: Wood FOR Powell,Substitution,,0,0,252
+0022200264,343,PT08M08.00S,3,1610612742,DAL,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,84,65,149,v,Dinwiddie Free Throw 1 of 1 (15 PTS),Free Throw,Free Throw 1 of 1,1,0,253
+0022200264,344,PT07M53.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,85,146,17,Made,1,86,65,151,h,Tatum 17' Pullup Jump Shot (27 PTS) (Smart 7 AST),Made Shot,Pullup Jump shot,1,2,254
+0022200264,346,PT07M41.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,76,252,26,Missed,1,,,0,v,MISS Doncic 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,255
+0022200264,347,PT07M39.00S,3,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,White REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,256
+0022200264,348,PT07M32.00S,3,1610612738,BOS,203935,Smart,M. Smart,-232,50,24,Made,1,89,65,154,h,Smart 24' 3PT Jump Shot (13 PTS) (Brown 3 AST),Made Shot,Jump Shot,1,3,257
+0022200264,350,PT07M31.00S,3,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,258
+0022200264,351,PT07M18.00S,3,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,h,Smart P.FOUL (P2.T4) (M.Smith),Foul,Personal,1,0,259
+0022200264,353,PT07M05.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,-61,116,13,Missed,1,,,0,v,MISS Finney-Smith 13' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,260
+0022200264,354,PT07M02.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,261
+0022200264,355,PT06M53.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,-20,74,8,Made,1,91,65,156,h,Tatum 8' Driving Floating Jump Shot (29 PTS),Made Shot,Driving Floating Jump Shot,1,2,262
+0022200264,356,PT06M37.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic Out of Bounds - Bad Pass Turnover Turnover (P4.T11),Turnover,Out of Bounds - Bad Pass Turnover,1,0,263
+0022200264,357,PT06M24.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum Traveling Turnover (P2.T8),Turnover,Traveling,1,0,264
+0022200264,358,PT06M11.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,-27,48,6,Made,1,91,67,158,v,Doncic 6' Driving Hook Shot (31 PTS),Made Shot,Driving Hook Shot,1,2,265
+0022200264,359,PT05M49.00S,3,1610612738,BOS,1627759,Brown,J. Brown,-78,146,17,Missed,1,,,0,h,MISS Brown 17' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,266
+0022200264,360,PT05M46.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,267
+0022200264,361,PT05M39.00S,3,1610612738,BOS,1628401,White,D. White,-175,208,27,Missed,1,,,0,h,MISS White 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,268
+0022200264,362,PT05M37.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,269
+0022200264,363,PT05M23.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,137,74,16,Missed,1,,,0,v,MISS Doncic 16' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,270
+0022200264,364,PT05M21.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:3 Def:8),Rebound,Unknown,1,0,271
+0022200264,365,PT05M21.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith P.FOUL (P3.T2) (M.Smith),Foul,Personal,1,0,272
+0022200264,367,PT05M21.00S,3,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,SUB: Hauser FOR White,Substitution,,0,0,273
+0022200264,368,PT05M21.00S,3,1610612742,DAL,203493,Bullock Jr.,R. Bullock Jr.,0,0,0,,0,,,0,v,SUB: Hardaway Jr. FOR Bullock,Substitution,,0,0,274
+0022200264,371,PT05M11.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,-164,222,28,Missed,1,,,0,h,MISS Tatum 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,275
+0022200264,372,PT05M08.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,276
+0022200264,373,PT05M06.00S,3,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,65,29,7,Missed,1,,,0,v,MISS Hardaway Jr. 7' Running Layup,Missed Shot,Running Layup Shot,1,2,277
+0022200264,373,PT05M06.00S,3,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,h,Smart BLOCK (1 BLK),,,1,2,278
+0022200264,375,PT05M06.00S,3,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Rebound,Rebound,Unknown,0,0,279
+0022200264,377,PT04M54.00S,3,1610612738,BOS,1627759,Brown,J. Brown,37,59,7,Made,1,93,67,160,h,Brown 7' Driving Layup (19 PTS),Made Shot,Driving Layup Shot,1,2,280
+0022200264,378,PT04M35.00S,3,1610612738,BOS,1630573,Hauser,S. Hauser,0,0,0,,0,,,0,h,Hauser P.FOUL (P2.PN) (J.Tiven),Foul,Personal,1,0,281
+0022200264,380,PT04M35.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,MISS Doncic Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,282
+0022200264,381,PT04M35.00S,3,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Normal Rebound,0,0,283
+0022200264,382,PT04M35.00S,3,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,h,SUB: Brogdon FOR Smart,Substitution,,0,0,284
+0022200264,384,PT04M35.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,MISS Doncic Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,285
+0022200264,385,PT04M32.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,286
+0022200264,386,PT04M27.00S,3,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,-97,238,26,Missed,1,,,0,v,MISS Hardaway Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,287
+0022200264,387,PT04M25.00S,3,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,1,0,288
+0022200264,388,PT04M25.00S,3,1610612738,BOS,1630573,Hauser,S. Hauser,0,0,0,,0,,,0,h,Hauser P.FOUL (P3.PN) (J.Tiven),Foul,Personal,1,0,289
+0022200264,390,PT04M25.00S,3,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,93,68,161,v,Wood Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,290
+0022200264,391,PT04M25.00S,3,1610612742,DAL,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,,,0,v,SUB: Green FOR Dinwiddie,Substitution,,0,0,291
+0022200264,393,PT04M25.00S,3,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,93,69,162,v,Wood Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,292
+0022200264,394,PT04M14.00S,3,1610612738,BOS,1627759,Brown,J. Brown,96,262,28,Made,1,96,69,165,h,Brown 28' 3PT Pullup Jump Shot (22 PTS),Made Shot,Pullup Jump shot,1,3,293
+0022200264,395,PT03M57.00S,3,1610612742,DAL,1626174,Wood,C. Wood,-2,7,1,Made,1,96,71,167,v,Wood 1' Driving Dunk (11 PTS) (Doncic 2 AST),Made Shot,Driving Dunk Shot,1,2,294
+0022200264,397,PT03M37.00S,3,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown Bad Pass Turnover (P2.T9),Turnover,Bad Pass,1,0,295
+0022200264,397,PT03M37.00S,3,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,v,Hardaway Jr. STEAL (1 STL),,,1,0,296
+0022200264,399,PT03M32.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,-5,1,1,Made,1,96,73,169,v,Doncic 1' Running Finger Roll Layup (33 PTS) (Hardaway Jr. 1 AST),Made Shot,Running Finger Roll Layup Shot,1,2,297
+0022200264,401,PT03M32.00S,3,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,298
+0022200264,402,PT03M32.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,SUB: White FOR Tatum,Substitution,,0,0,299
+0022200264,403,PT03M32.00S,3,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,SUB: Williams FOR Horford,Substitution,,0,0,300
+0022200264,406,PT03M15.00S,3,1610612738,BOS,1627763,Brogdon,M. Brogdon,-56,50,8,Made,1,98,73,171,h,Brogdon 8' Driving Layup (8 PTS) (Hauser 1 AST),Made Shot,Driving Layup Shot,1,2,301
+0022200264,408,PT02M53.00S,3,1610612742,DAL,1630182,Green,J. Green,-227,59,0,Made,1,98,76,174,v,Green 3PT Jump Shot (3 PTS) (Doncic 3 AST),Made Shot,Jump Shot,1,3,302
+0022200264,410,PT02M38.00S,3,1610612738,BOS,1627763,Brogdon,M. Brogdon,-22,31,4,Missed,1,,,0,h,MISS Brogdon 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,303
+0022200264,410,PT02M38.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith BLOCK (1 BLK),,,1,2,304
+0022200264,412,PT02M35.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,305
+0022200264,413,PT02M29.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,-27,4,3,Made,1,98,78,176,v,Finney-Smith 3' Driving Layup (5 PTS) (Doncic 4 AST),Made Shot,Driving Layup Shot,1,2,306
+0022200264,414,PT02M12.00S,3,1610612738,BOS,1628401,White,D. White,0,0,0,,0,,,0,h,White Out of Bounds Lost Ball Turnover (P2.T10),Turnover,Out of Bounds Lost Ball Turnover,1,0,307
+0022200264,415,PT01M58.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,4,49,5,Missed,1,,,0,v,MISS Doncic 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,308
+0022200264,416,PT01M58.00S,3,1610612738,BOS,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,309
+0022200264,417,PT01M53.00S,3,1610612738,BOS,1628401,White,D. White,-43,43,6,Missed,1,,,0,h,MISS White 6' Running Layup,Missed Shot,Running Layup Shot,1,2,310
+0022200264,418,PT01M49.00S,3,1610612738,BOS,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,311
+0022200264,419,PT01M49.00S,3,1610612738,BOS,1627763,Brogdon,M. Brogdon,0,0,0,Missed,1,,,0,h,MISS Brogdon Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,312
+0022200264,420,PT01M49.00S,3,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,313
+0022200264,421,PT01M42.00S,3,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,-65,256,26,Missed,1,,,0,v,MISS Hardaway Jr. 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,314
+0022200264,422,PT01M41.00S,3,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,315
+0022200264,425,PT01M35.00S,3,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood Offensive Charge Foul (P2) (M.Myers),Foul,Offensive Charge,1,0,316
+0022200264,427,PT01M35.00S,3,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood Offensive Foul Turnover (P4.T12),Turnover,Offensive Foul Turnover,1,0,317
+0022200264,428,PT01M23.00S,3,1610612738,BOS,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon OFF.Foul (P3) (J.Tiven),Foul,Offensive,1,0,318
+0022200264,430,PT01M23.00S,3,1610612738,BOS,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon Offensive Foul Turnover (P2.T11),Turnover,Offensive Foul Turnover,1,0,319
+0022200264,431,PT01M11.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,69,125,14,Made,1,98,80,178,v,Doncic 14' Turnaround Fadeaway (35 PTS),Made Shot,Turnaround Fadeaway shot,1,2,320
+0022200264,432,PT00M54.30S,3,1610612738,BOS,1628401,White,D. White,11,26,3,Missed,1,,,0,h,MISS White 3' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,321
+0022200264,432,PT00M54.30S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith BLOCK (2 BLK),,,1,2,322
+0022200264,434,PT00M52.80S,3,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,323
+0022200264,435,PT00M48.20S,3,1610612742,DAL,1626174,Wood,C. Wood,-12,11,2,Made,1,98,82,180,v,Wood 2' Running Layup (13 PTS) (Doncic 5 AST),Made Shot,Running Layup Shot,1,2,324
+0022200264,437,PT00M37.10S,3,1610612738,BOS,1627763,Brogdon,M. Brogdon,66,66,9,Made,1,100,82,182,h,Brogdon 9' Driving Floating Bank Jump Shot (10 PTS) (Brown 4 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,325
+0022200264,439,PT00M37.10S,3,1610612742,DAL,1630182,Green,J. Green,0,0,0,,0,,,0,v,Green S.FOUL (P2.T3) (J.Tiven),Foul,Shooting,1,0,326
+0022200264,441,PT00M37.10S,3,1610612738,BOS,1627763,Brogdon,M. Brogdon,0,0,0,,0,101,82,183,h,Brogdon Free Throw 1 of 1 (11 PTS),Free Throw,Free Throw 1 of 1,1,0,327
+0022200264,442,PT00M32.70S,3,1610612742,DAL,1629029,Dončić,L. Dončić,-123,264,29,Missed,1,,,0,v,MISS Doncic 29' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,328
+0022200264,443,PT00M29.70S,3,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,329
+0022200264,444,PT00M27.10S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,-17,268,27,Made,1,101,85,186,v,Finney-Smith 27' 3PT Jump Shot (8 PTS) (Wood 2 AST),Made Shot,Jump Shot,1,3,330
+0022200264,446,PT00M04.90S,3,1610612738,BOS,1627763,Brogdon,M. Brogdon,-176,190,26,Missed,1,,,0,h,MISS Brogdon 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,331
+0022200264,447,PT00M01.90S,3,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,332
+0022200264,448,PT00M00.20S,3,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,165,209,27,Missed,1,,,0,v,MISS Hardaway Jr. 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,333
+0022200264,449,PT00M00.20S,3,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,1,0,334
+0022200264,450,PT00M00.00S,3,0,,0,,,0,0,0,,0,101,85,186,,End of 3rd Period (9:25 PM EST),period,end,1,0,335
+0022200264,457,PT12M00.00S,4,0,,0,,,0,0,0,,0,101,85,186,,Start of 4th Period (9:28 PM EST),period,start,0,0,336
+0022200264,458,PT11M44.00S,4,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,238,33,24,Missed,1,,,0,v,MISS Finney-Smith 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,337
+0022200264,459,PT11M41.00S,4,1610612738,BOS,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,338
+0022200264,460,PT11M26.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,-43,109,12,Missed,1,,,0,h,MISS Tatum 12' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,339
+0022200264,461,PT11M23.00S,4,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,340
+0022200264,462,PT11M14.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,-4,128,13,Made,1,101,87,188,v,Doncic 13' Floating Jump Shot (37 PTS),Made Shot,Floating Jump shot,1,2,341
+0022200264,463,PT10M51.00S,4,1610612738,BOS,203935,Smart,M. Smart,-16,143,14,Missed,1,,,0,h,MISS Smart 14' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,342
+0022200264,464,PT10M49.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,343
+0022200264,465,PT10M44.00S,4,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood OFF.Foul (P3) (M.Smith),Foul,Offensive,1,0,344
+0022200264,467,PT10M44.00S,4,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood Offensive Foul Turnover (P5.T13),Turnover,Offensive Foul Turnover,1,0,345
+0022200264,468,PT10M27.00S,4,1610612738,BOS,1627763,Brogdon,M. Brogdon,-32,16,4,Made,1,103,87,190,h,Brogdon 4' Driving Layup (13 PTS) (Smart 8 AST),Made Shot,Driving Layup Shot,1,2,346
+0022200264,469,PT10M10.00S,4,1610612742,DAL,1626174,Wood,C. Wood,-47,151,16,Missed,1,,,0,v,MISS Wood 16' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,347
+0022200264,470,PT10M09.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:3 Def:9),Rebound,Unknown,1,0,348
+0022200264,471,PT09M59.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,-27,29,4,Missed,1,,,0,h,MISS Tatum 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,349
+0022200264,472,PT09M57.00S,4,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:1 Def:10),Rebound,Unknown,1,0,350
+0022200264,473,PT09M50.00S,4,1610612742,DAL,1626174,Wood,C. Wood,-49,267,27,Made,1,103,90,193,v,Wood 27' 3PT Jump Shot (16 PTS) (Hardaway Jr. 2 AST),Made Shot,Jump Shot,1,3,351
+0022200264,475,PT09M30.00S,4,1610612742,DAL,1630182,Green,J. Green,0,0,0,,0,,,0,v,Green P.FOUL (P3.T1) (M.Smith),Foul,Personal,1,0,352
+0022200264,477,PT09M22.00S,4,1610612742,DAL,1630182,Green,J. Green,0,0,0,,0,,,0,v,Green P.FOUL (P4.T2) (J.Tiven),Foul,Personal,1,0,353
+0022200264,480,PT09M11.00S,4,1610612738,BOS,1629684,Williams,G. Williams,-21,43,5,Made,1,105,90,195,h,Williams 5' Driving Layup (2 PTS) (Horford 4 AST),Made Shot,Driving Layup Shot,1,2,354
+0022200264,481,PT08M58.00S,4,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,17,7,2,Made,1,105,92,197,v,Finney-Smith 2' Alley Oop Dunk (10 PTS) (Doncic 6 AST),Made Shot,Alley Oop Dunk Shot,1,2,355
+0022200264,484,PT08M32.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,-124,105,16,Made,1,107,92,199,h,Tatum 16' Turnaround Fadeaway (31 PTS),Made Shot,Turnaround Fadeaway shot,1,2,356
+0022200264,485,PT08M11.00S,4,1610612742,DAL,1626174,Wood,C. Wood,-58,120,13,Made,1,107,94,201,v,Wood 13' Driving Floating Jump Shot (18 PTS),Made Shot,Driving Floating Jump Shot,1,2,357
+0022200264,486,PT07M42.00S,4,1610612738,BOS,1629684,Williams,G. Williams,214,143,26,Missed,1,,,0,h,MISS Williams 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,358
+0022200264,487,PT07M38.00S,4,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,359
+0022200264,488,PT07M24.00S,4,1610612742,DAL,1626174,Wood,C. Wood,-70,120,14,Missed,1,,,0,v,MISS Wood 14' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,360
+0022200264,489,PT07M21.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:3 Def:10),Rebound,Unknown,1,0,361
+0022200264,490,PT07M13.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,12,30,3,Made,1,109,94,203,h,Tatum 3' Driving Layup (33 PTS),Made Shot,Driving Layup Shot,1,2,362
+0022200264,491,PT06M47.00S,4,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,Williams S.FOUL (P2.T1) (M.Smith),Foul,Shooting,1,0,363
+0022200264,493,PT06M47.00S,4,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,364
+0022200264,494,PT06M47.00S,4,1610612738,BOS,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,SUB: Brown FOR Brogdon,Substitution,,0,0,365
+0022200264,495,PT06M47.00S,4,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,SUB: Dinwiddie FOR Finney-Smith,Substitution,,0,0,366
+0022200264,496,PT06M47.00S,4,1610612742,DAL,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,v,SUB: Bullock FOR Hardaway Jr.,Substitution,,0,0,367
+0022200264,500,PT06M47.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,109,95,204,v,Doncic Free Throw 1 of 2 (38 PTS),Free Throw,Free Throw 1 of 2,1,0,368
+0022200264,501,PT06M47.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,109,96,205,v,Doncic Free Throw 2 of 2 (39 PTS),Free Throw,Free Throw 2 of 2,1,0,369
+0022200264,502,PT06M23.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,70,134,15,Missed,1,,,0,h,MISS Tatum 15' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,370
+0022200264,503,PT06M20.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,371
+0022200264,504,PT06M00.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,121,237,27,Made,1,109,99,208,v,Doncic 27' 3PT Step Back Jump Shot (42 PTS),Made Shot,Step Back Jump shot,1,3,372
+0022200264,505,PT05M38.00S,4,1610612738,BOS,1627759,Brown,J. Brown,60,176,19,Made,1,111,99,210,h,Brown 19' Pullup Jump Shot (24 PTS) (Tatum 4 AST),Made Shot,Pullup Jump shot,1,2,373
+0022200264,507,PT05M17.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,-113,121,17,Missed,1,,,0,v,MISS Doncic 17' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,374
+0022200264,508,PT05M15.00S,4,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,375
+0022200264,509,PT05M09.00S,4,1610612738,BOS,1627759,Brown,J. Brown,9,27,3,Made,1,113,99,212,h,Brown 3' Driving Layup (26 PTS),Made Shot,Driving Layup Shot,1,2,376
+0022200264,510,PT05M09.00S,4,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood P.FOUL (P4.T3) (M.Smith),Foul,Personal,1,0,377
+0022200264,512,PT05M09.00S,4,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,114,99,213,h,Brown Free Throw 1 of 1 (27 PTS),Free Throw,Free Throw 1 of 1,1,0,378
+0022200264,513,PT05M03.00S,4,1610612742,DAL,203493,Bullock Jr.,R. Bullock Jr.,-21,13,2,Missed,1,,,0,v,MISS Bullock 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,379
+0022200264,514,PT05M02.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,1,0,380
+0022200264,516,PT05M00.00S,4,1610612742,DAL,1626174,Wood,C. Wood,-50,53,7,Made,1,114,101,215,v,Wood 7' Cutting Layup Shot (20 PTS) (Doncic 7 AST),Made Shot,Cutting Layup Shot,1,2,381
+0022200264,518,PT04M33.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,147,227,27,Missed,1,,,0,h,MISS Tatum 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,382
+0022200264,519,PT04M29.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,383
+0022200264,520,PT04M26.00S,4,1610612742,DAL,203493,Bullock Jr.,R. Bullock Jr.,13,6,1,Made,1,114,103,217,v,Bullock 1' Running Layup (5 PTS) (Doncic 8 AST),Made Shot,Running Layup Shot,1,2,384
+0022200264,522,PT04M07.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic P.FOUL (P2.T4) (J.Tiven),Foul,Personal,1,0,385
+0022200264,524,PT04M07.00S,4,1610612742,DAL,1630182,Green,J. Green,0,0,0,,0,,,0,v,SUB: Finney-Smith FOR Green,Substitution,,0,0,386
+0022200264,526,PT03M55.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,96,263,28,Missed,1,,,0,h,MISS Tatum 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,387
+0022200264,527,PT03M52.00S,4,1610612742,DAL,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,,,0,v,Dinwiddie REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,388
+0022200264,528,PT03M43.00S,4,1610612742,DAL,1626174,Wood,C. Wood,0,-9,1,Made,1,114,105,219,v,Wood 1' Cutting Dunk Shot (22 PTS) (Dinwiddie 4 AST),Made Shot,Cutting Dunk Shot,1,2,389
+0022200264,530,PT03M24.00S,4,1610612738,BOS,201143,Horford,A. Horford,-237,43,24,Made,1,117,105,222,h,Horford 24' 3PT Jump Shot (14 PTS) (Tatum 5 AST),Made Shot,Jump Shot,1,3,390
+0022200264,532,PT03M23.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,391
+0022200264,533,PT03M02.00S,4,1610612742,DAL,1626174,Wood,C. Wood,4,4,1,Made,1,117,107,224,v,Wood 1' Cutting Dunk Shot (24 PTS) (Doncic 9 AST),Made Shot,Cutting Dunk Shot,1,2,392
+0022200264,535,PT03M02.00S,4,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,h,Smart S.FOUL (P3.T2) (J.Tiven),Foul,Shooting,1,0,393
+0022200264,537,PT03M02.00S,4,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,MISS Wood Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,394
+0022200264,538,PT03M02.00S,4,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,395
+0022200264,539,PT02M46.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,-4,22,2,Made,1,119,107,226,h,Tatum 2' Driving Dunk (35 PTS),Made Shot,Driving Dunk Shot,1,2,396
+0022200264,540,PT02M32.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic OFF.Foul (P3) (M.Smith),Foul,Offensive,1,0,397
+0022200264,542,PT02M32.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic Offensive Foul Turnover (P5.T14),Turnover,Offensive Foul Turnover,1,0,398
+0022200264,543,PT02M22.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic P.FOUL (P4.PN) (J.Tiven),Foul,Personal,1,0,399
+0022200264,545,PT02M22.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,120,107,227,h,Tatum Free Throw 1 of 2 (36 PTS),Free Throw,Free Throw 1 of 2,1,0,400
+0022200264,546,PT02M22.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,121,107,228,h,Tatum Free Throw 2 of 2 (37 PTS),Free Throw,Free Throw 2 of 2,1,0,401
+0022200264,547,PT02M17.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,4,15,2,Missed,1,,,0,v,MISS Doncic 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,402
+0022200264,547,PT02M17.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum BLOCK (2 BLK),,,1,2,403
+0022200264,549,PT02M13.00S,4,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,Horford REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,404
+0022200264,550,PT02M11.00S,4,1610612738,BOS,1627759,Brown,J. Brown,151,246,29,Made,1,124,107,231,h,Brown 29' 3PT Running Jump Shot (30 PTS) (Smart 9 AST),Made Shot,Running Jump Shot,1,3,405
+0022200264,552,PT01M55.00S,4,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,h,Smart P.FOUL (P4.T3) (J.Tiven),Foul,Personal,1,0,406
+0022200264,554,PT01M55.00S,4,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,h,SUB: White FOR Horford,Substitution,,0,0,407
+0022200264,556,PT01M48.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,86,251,27,Missed,1,,,0,v,MISS Doncic 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,408
+0022200264,557,PT01M45.00S,4,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,Wood REBOUND (Off:2 Def:10),Rebound,Unknown,1,0,409
+0022200264,558,PT01M45.00S,4,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,Williams P.FOUL (P3.PN) (M.Myers),Foul,Personal,1,0,410
+0022200264,560,PT01M45.00S,4,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,124,108,232,v,Wood Free Throw 1 of 2 (25 PTS),Free Throw,Free Throw 1 of 2,1,0,411
+0022200264,561,PT01M45.00S,4,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,SUB: Pinson FOR Finney-Smith,Substitution,,0,0,412
+0022200264,562,PT01M45.00S,4,1610612742,DAL,203493,Bullock Jr.,R. Bullock Jr.,0,0,0,,0,,,0,v,SUB: Ntilikina FOR Bullock,Substitution,,0,0,413
+0022200264,563,PT01M45.00S,4,1610612742,DAL,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,,,0,v,SUB: Bertans FOR Dinwiddie,Substitution,,0,0,414
+0022200264,564,PT01M45.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,SUB: Campazzo FOR Doncic,Substitution,,0,0,415
+0022200264,569,PT01M45.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,SUB: Hauser FOR Tatum,Substitution,,0,0,416
+0022200264,571,PT01M45.00S,4,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,124,109,233,v,Wood Free Throw 2 of 2 (26 PTS),Free Throw,Free Throw 2 of 2,1,0,417
+0022200264,572,PT01M38.00S,4,1610612742,DAL,1629033,Pinson,T. Pinson,0,0,0,,0,,,0,v,Pinson P.FOUL (P1.PN) (M.Myers),Foul,Personal,1,0,418
+0022200264,574,PT01M38.00S,4,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,MISS Brown Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,419
+0022200264,575,PT01M38.00S,4,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Rebound,Rebound,Normal Rebound,1,0,420
+0022200264,576,PT01M38.00S,4,1610612738,BOS,203935,Smart,M. Smart,0,0,0,,0,,,0,h,SUB: Pritchard FOR Smart,Substitution,,0,0,421
+0022200264,577,PT01M38.00S,4,1610612742,DAL,1626174,Wood,C. Wood,0,0,0,,0,,,0,v,SUB: Green FOR Wood,Substitution,,0,0,422
+0022200264,580,PT01M38.00S,4,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,125,109,234,h,Brown Free Throw 2 of 2 (31 PTS),Free Throw,Free Throw 2 of 2,1,0,423
+0022200264,581,PT01M36.00S,4,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,Williams Personal Take Foul (P4.PN) (J.Tiven),Foul,Personal Take,1,0,424
+0022200264,583,PT01M36.00S,4,1610612742,DAL,1630267,Campazzo,F. Campazzo,0,0,0,,0,,,0,v,MISS Campazzo Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,425
+0022200264,584,PT01M36.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Normal Rebound,0,0,426
+0022200264,585,PT01M36.00S,4,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,SUB: Jackson FOR Brown,Substitution,,0,0,427
+0022200264,587,PT01M36.00S,4,1610612742,DAL,1630267,Campazzo,F. Campazzo,0,0,0,,0,125,110,235,v,Campazzo Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,428
+0022200264,588,PT01M26.00S,4,1610612738,BOS,1630202,Pritchard,P. Pritchard,93,211,23,Missed,1,,,0,h,MISS Pritchard 23' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,429
+0022200264,589,PT01M23.00S,4,1610612742,DAL,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,430
+0022200264,590,PT01M04.00S,4,1610612742,DAL,1629033,Pinson,T. Pinson,-50,71,9,Made,1,125,112,237,v,Pinson 9' Driving Layup (2 PTS) (Bertans 1 AST),Made Shot,Driving Layup Shot,1,2,431
+0022200264,592,PT00M44.60S,4,1610612738,BOS,1628401,White,D. White,-25,321,32,Missed,1,,,0,h,MISS White 32' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,432
+0022200264,593,PT00M42.30S,4,1610612742,DAL,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,433
+0022200264,594,PT00M34.60S,4,1610612742,DAL,202722,Bertans,D. Bertans,-15,16,2,Missed,1,,,0,v,MISS Bertans 2' Reverse Dunk,Missed Shot,Reverse Dunk Shot,1,2,434
+0022200264,595,PT00M33.20S,4,1610612742,DAL,202722,Bertans,D. Bertans,0,0,0,,0,,,0,v,Bertans REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,435
+0022200264,596,PT00M31.90S,4,1610612742,DAL,202722,Bertans,D. Bertans,-23,20,3,Missed,1,,,0,v,MISS Bertans 3' Putback Layup,Missed Shot,Putback Layup Shot,1,2,436
+0022200264,597,PT00M30.70S,4,1610612738,BOS,1629684,Williams,G. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,437
+0022200264,598,PT00M07.20S,4,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Turnover: Shot Clock (T#12),Turnover,Shot Clock Turnover,1,0,438
+0022200264,599,PT00M00.00S,4,0,,0,,,0,0,0,,0,125,112,237,,End of 4th Period (9:56 PM EST),period,end,1,0,439

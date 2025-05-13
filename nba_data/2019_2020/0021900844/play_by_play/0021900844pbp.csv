@@ -1,0 +1,508 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021900844,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (6:11 PM EST),period,start,0,0,1
+0021900844,4,PT12M00.00S,1,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,h,Jump Ball Jokic vs. Reid: Tip to Murray,Jump Ball,,1,0,2
+0021900844,7,PT11M48.00S,1,1610612743,DEN,1627750,Murray,J. Murray,29,25,4,Made,1,2,0,2,h,Murray 4' Driving Finger Roll Layup (2 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,3
+0021900844,8,PT11M30.00S,1,1610612750,MIN,1629006,Okogie,J. Okogie,107,229,25,Missed,1,,,0,v,MISS Okogie 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,4
+0021900844,9,PT11M23.00S,1,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,5
+0021900844,10,PT11M23.00S,1,1610612750,MIN,1629675,Reid,N. Reid,0,-6,1,Made,1,2,2,4,v,Reid 1' Tip Dunk Shot (2 PTS),Made Shot,Tip Dunk Shot,1,2,6
+0021900844,11,PT11M12.00S,1,1610612743,DEN,200794,Millsap,P. Millsap,-51,257,26,Made,1,5,2,7,h,Millsap 26' 3PT Jump Shot (3 PTS) (Murray 1 AST),Made Shot,Jump Shot,1,3,7
+0021900844,13,PT11M01.00S,1,1610612750,MIN,1627823,Hernangomez,J. Hernangomez,0,0,0,,0,,,0,v,Hernangomez OFF.Foul (P1) (N.Buchert),Foul,Offensive,1,0,8
+0021900844,15,PT11M01.00S,1,1610612750,MIN,1627823,Hernangomez,J. Hernangomez,0,0,0,,0,,,0,v,Hernangomez Offensive Foul Turnover (P1.T1),Turnover,Offensive Foul Turnover,1,0,9
+0021900844,16,PT10M46.00S,1,1610612743,DEN,200794,Millsap,P. Millsap,-7,258,26,Made,1,8,2,10,h,Millsap 26' 3PT Jump Shot (6 PTS) (Harris 1 AST),Made Shot,Jump Shot,1,3,10
+0021900844,18,PT10M24.00S,1,1610612750,MIN,1629675,Reid,N. Reid,22,34,4,Missed,1,,,0,v,MISS Reid 4' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,11
+0021900844,19,PT10M21.00S,1,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,h,Barton REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,12
+0021900844,20,PT10M11.00S,1,1610612743,DEN,203999,Jokić,N. Jokić,6,8,1,Made,1,10,2,12,h,Jokic 1' Dunk (2 PTS) (Barton 1 AST),Made Shot,Dunk Shot,1,2,13
+0021900844,22,PT09M45.00S,1,1610612750,MIN,1629006,Okogie,J. Okogie,12,30,3,Missed,1,,,0,v,MISS Okogie 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,14
+0021900844,22,PT09M45.00S,1,1610612743,DEN,200794,Millsap,P. Millsap,0,0,0,,0,,,0,h,Millsap BLOCK (1 BLK),,,1,2,15
+0021900844,23,PT09M43.00S,1,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,Okogie REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,16
+0021900844,24,PT09M40.00S,1,1610612750,MIN,1629006,Okogie,J. Okogie,3,11,1,Made,1,10,4,14,v,Okogie 1' Driving Dunk (2 PTS),Made Shot,Driving Dunk Shot,1,2,17
+0021900844,25,PT09M31.00S,1,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,h,Barton Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,18
+0021900844,25,PT09M31.00S,1,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,Okogie STEAL (1 STL),,,1,0,19
+0021900844,27,PT09M27.00S,1,1610612750,MIN,1629675,Reid,N. Reid,1,14,1,Made,1,10,6,16,v,Reid 1' Running Dunk (4 PTS) (Okogie 1 AST),Made Shot,Running Dunk Shot,1,2,20
+0021900844,29,PT09M27.00S,1,1610612743,DEN,200794,Millsap,P. Millsap,0,0,0,,0,,,0,h,Millsap S.FOUL (P1.T1) (K.Mauer),Foul,Shooting,1,0,21
+0021900844,31,PT09M27.00S,1,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,10,7,17,v,Reid Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,22
+0021900844,33,PT09M16.00S,1,1610612750,MIN,1627823,Hernangomez,J. Hernangomez,0,0,0,,0,,,0,v,Hernangomez P.FOUL (P2.T1) (K.Mauer),Foul,Personal,1,0,23
+0021900844,35,PT09M16.00S,1,1610612750,MIN,1627823,Hernangomez,J. Hernangomez,0,0,0,,0,,,0,v,SUB: Johnson FOR Hernangomez,Substitution,,0,0,24
+0021900844,37,PT09M05.00S,1,1610612743,DEN,203999,Jokić,N. Jokić,4,25,3,Made,1,12,7,19,h,Jokic 3' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,25
+0021900844,39,PT09M05.00S,1,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid S.FOUL (P1.T2) (K.Mauer),Foul,Shooting,1,0,26
+0021900844,41,PT09M05.00S,1,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,13,7,20,h,Jokic Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,27
+0021900844,42,PT08M45.00S,1,1610612750,MIN,1629675,Reid,N. Reid,-230,-1,0,Made,1,13,10,23,v,Reid 3PT Jump Shot (8 PTS) (McLaughlin 1 AST),Made Shot,Jump Shot,1,3,28
+0021900844,44,PT08M30.00S,1,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid S.FOUL (P2.T3) (C.Washington),Foul,Shooting,1,0,29
+0021900844,46,PT08M30.00S,1,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,14,10,24,h,Barton Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,30
+0021900844,47,PT08M30.00S,1,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,SUB: Martin FOR Reid,Substitution,,0,0,31
+0021900844,49,PT08M30.00S,1,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,15,10,25,h,Barton Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,32
+0021900844,50,PT08M21.00S,1,1610612750,MIN,201949,Johnson,J. Johnson,6,11,1,Made,1,15,12,27,v,Johnson 1' Driving Finger Roll Layup (2 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,33
+0021900844,52,PT08M06.00S,1,1610612743,DEN,1627750,Murray,J. Murray,-121,23,12,Made,1,17,12,29,h,Murray 12' Turnaround Jump Shot (4 PTS),Made Shot,Turnaround Jump Shot,1,2,34
+0021900844,53,PT07M56.00S,1,1610612750,MIN,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,Martin Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,35
+0021900844,53,PT07M56.00S,1,1610612743,DEN,203914,Harris,G. Harris,0,0,0,,0,,,0,h,Harris STEAL (1 STL),,,1,0,36
+0021900844,55,PT07M52.00S,1,1610612743,DEN,203914,Harris,G. Harris,10,21,2,Made,1,19,12,31,h,Harris 2' Running Dunk (2 PTS),Made Shot,Running Dunk Shot,1,2,37
+0021900844,56,PT07M41.00S,1,1610612750,MIN,201949,Johnson,J. Johnson,0,0,0,,0,,,0,v,Johnson Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,38
+0021900844,56,PT07M41.00S,1,1610612743,DEN,1627750,Murray,J. Murray,0,0,0,,0,,,0,h,Murray STEAL (1 STL),,,1,0,39
+0021900844,58,PT07M40.00S,1,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,Okogie P.FOUL (P1.T4) (C.Washington),Foul,Personal,1,0,40
+0021900844,60,PT07M33.00S,1,1610612743,DEN,200794,Millsap,P. Millsap,20,20,3,Made,1,21,12,33,h,Millsap 3' Layup (8 PTS),Made Shot,Layup Shot,1,2,41
+0021900844,61,PT07M32.00S,1,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,42
+0021900844,62,PT07M23.00S,1,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,h,Barton P.FOUL (P1.T2) (N.Buchert),Foul,Personal,1,0,43
+0021900844,64,PT07M20.00S,1,1610612750,MIN,1629103,Martin,K. Martin,95,253,27,Made,1,21,15,36,v,Martin 27' 3PT Jump Shot (3 PTS) (Johnson 1 AST),Made Shot,Jump Shot,1,3,44
+0021900844,66,PT07M05.00S,1,1610612743,DEN,200794,Millsap,P. Millsap,0,0,0,,0,,,0,h,Millsap Out of Bounds Lost Ball Turnover (P1.T2),Turnover,Out of Bounds Lost Ball Turnover,1,0,45
+0021900844,67,PT06M54.00S,1,1610612750,MIN,1629103,Martin,K. Martin,-37,78,9,Made,1,21,17,38,v,Martin 9' Driving Floating Jump Shot (5 PTS) (McLaughlin 2 AST),Made Shot,Driving Floating Jump Shot,1,2,46
+0021900844,69,PT06M35.00S,1,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,h,Jokic Lost Ball Turnover (P1.T3),Turnover,Lost Ball,1,0,47
+0021900844,69,PT06M35.00S,1,1610612750,MIN,201949,Johnson,J. Johnson,0,0,0,,0,,,0,v,Johnson STEAL (1 STL),,,1,0,48
+0021900844,71,PT06M32.00S,1,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,27,43,5,Missed,1,,,0,v,MISS McLaughlin 5' Running Layup,Missed Shot,Running Layup Shot,1,2,49
+0021900844,71,PT06M32.00S,1,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,h,Barton BLOCK (1 BLK),,,1,2,50
+0021900844,73,PT06M32.00S,1,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Unknown,0,0,51
+0021900844,74,PT06M32.00S,1,0,,1610612743,,,0,0,0,,0,,,0,h,NUGGETS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,52
+0021900844,76,PT06M28.00S,1,1610612750,MIN,201949,Johnson,J. Johnson,-140,59,15,Missed,1,,,0,v,MISS Johnson 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,53
+0021900844,77,PT06M26.00S,1,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,h,Jokic REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,54
+0021900844,78,PT06M13.00S,1,1610612743,DEN,1627750,Murray,J. Murray,-121,118,17,Made,1,23,17,40,h,Murray 17' Step Back Jump Shot (6 PTS),Made Shot,Step Back Jump shot,1,2,55
+0021900844,79,PT06M00.00S,1,1610612750,MIN,1629103,Martin,K. Martin,-119,226,26,Made,1,23,20,43,v,Martin 26' 3PT Pullup Jump Shot (8 PTS) (McLaughlin 3 AST),Made Shot,Pullup Jump shot,1,3,56
+0021900844,81,PT05M45.00S,1,1610612750,MIN,201949,Johnson,J. Johnson,0,0,0,,0,,,0,v,Johnson S.FOUL (P1.PN) (K.Mauer),Foul,Shooting,1,0,57
+0021900844,83,PT05M45.00S,1,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,h,MISS Jokic Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,58
+0021900844,84,PT05M45.00S,1,0,,1610612743,,,0,0,0,,0,,,0,h,NUGGETS Rebound,Rebound,Normal Rebound,0,0,59
+0021900844,85,PT05M45.00S,1,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,h,SUB: Morris FOR Barton,Substitution,,0,0,60
+0021900844,86,PT05M45.00S,1,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,SUB: Culver FOR Okogie,Substitution,,0,0,61
+0021900844,89,PT05M45.00S,1,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,24,20,44,h,Jokic Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,62
+0021900844,90,PT05M36.00S,1,1610612750,MIN,1629103,Martin,K. Martin,-58,256,26,Missed,1,,,0,v,MISS Martin 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,63
+0021900844,91,PT05M33.00S,1,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,h,Jokic REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,64
+0021900844,92,PT05M22.00S,1,1610612743,DEN,200794,Millsap,P. Millsap,109,8,11,Made,1,26,20,46,h,Millsap 11' Step Back Jump Shot (10 PTS) (Jokic 1 AST),Made Shot,Step Back Jump shot,1,2,65
+0021900844,94,PT05M11.00S,1,1610612750,MIN,1629633,Culver,J. Culver,-163,193,25,Missed,1,,,0,v,MISS Culver 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,66
+0021900844,95,PT05M08.00S,1,1610612743,DEN,203914,Harris,G. Harris,0,0,0,,0,,,0,h,Harris REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,67
+0021900844,96,PT04M59.00S,1,1610612743,DEN,1627750,Murray,J. Murray,-74,125,15,Made,1,28,20,48,h,Murray 15' Turnaround Fadeaway (8 PTS),Made Shot,Turnaround Fadeaway shot,1,2,68
+0021900844,97,PT04M41.00S,1,1610612750,MIN,1629103,Martin,K. Martin,-30,13,3,Made,1,28,22,50,v,Martin 3' Driving Layup (10 PTS),Made Shot,Driving Layup Shot,1,2,69
+0021900844,98,PT04M32.00S,1,1610612750,MIN,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,Martin S.FOUL (P1.PN) (N.Buchert),Foul,Shooting,1,0,70
+0021900844,100,PT04M32.00S,1,1610612743,DEN,200794,Millsap,P. Millsap,0,0,0,,0,29,22,51,h,Millsap Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,1,0,71
+0021900844,101,PT04M32.00S,1,1610612743,DEN,203914,Harris,G. Harris,0,0,0,,0,,,0,h,SUB: Porter Jr. FOR Harris,Substitution,,0,0,72
+0021900844,102,PT04M32.00S,1,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,v,SUB: Nowell FOR McLaughlin,Substitution,,0,0,73
+0021900844,105,PT04M32.00S,1,1610612743,DEN,200794,Millsap,P. Millsap,0,0,0,,0,30,22,52,h,Millsap Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,74
+0021900844,106,PT04M17.00S,1,1610612750,MIN,1629103,Martin,K. Martin,229,24,0,Missed,1,,,0,v,MISS Martin 3PT Jump Shot,Missed Shot,Jump Shot,1,3,75
+0021900844,107,PT04M12.00S,1,1610612750,MIN,1629669,Nowell,J. Nowell,0,0,0,,0,,,0,v,Nowell REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,76
+0021900844,108,PT04M07.00S,1,1610612750,MIN,201949,Johnson,J. Johnson,-18,14,2,Missed,1,,,0,v,MISS Johnson 2' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,77
+0021900844,109,PT04M04.00S,1,1610612750,MIN,1629633,Culver,J. Culver,0,0,0,,0,,,0,v,Culver REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,78
+0021900844,110,PT04M01.00S,1,1610612750,MIN,201949,Johnson,J. Johnson,-223,17,0,Made,1,30,25,55,v,Johnson 3PT Jump Shot (5 PTS) (Nowell 1 AST),Made Shot,Jump Shot,1,3,79
+0021900844,112,PT03M41.00S,1,1610612743,DEN,1629008,Porter Jr.,M. Porter Jr.,-176,13,18,Missed,1,,,0,h,MISS Porter Jr. 18' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,80
+0021900844,113,PT03M37.00S,1,1610612750,MIN,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,Martin REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,81
+0021900844,114,PT03M34.00S,1,1610612743,DEN,200794,Millsap,P. Millsap,0,0,0,,0,,,0,h,Millsap S.FOUL (P2.T3) (N.Buchert),Foul,Shooting,1,0,82
+0021900844,116,PT03M34.00S,1,1610612750,MIN,1629103,Martin,K. Martin,0,0,0,,0,30,26,56,v,Martin Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,1,0,83
+0021900844,117,PT03M34.00S,1,1610612743,DEN,200794,Millsap,P. Millsap,0,0,0,,0,,,0,h,SUB: Grant FOR Millsap,Substitution,,0,0,84
+0021900844,119,PT03M34.00S,1,1610612750,MIN,1629103,Martin,K. Martin,0,0,0,,0,30,27,57,v,Martin Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,85
+0021900844,120,PT03M21.00S,1,1610612743,DEN,1628420,Morris,M. Morris,-174,191,26,Missed,1,,,0,h,MISS Morris 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,86
+0021900844,121,PT03M18.00S,1,1610612750,MIN,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,Martin REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,87
+0021900844,122,PT03M07.00S,1,1610612750,MIN,1629103,Martin,K. Martin,107,257,28,Missed,1,,,0,v,MISS Martin 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,88
+0021900844,123,PT03M04.00S,1,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,89
+0021900844,124,PT02M47.00S,1,1610612743,DEN,203999,Jokić,N. Jokić,-18,12,2,Made,1,32,27,59,h,Jokic 2' Layup (8 PTS),Made Shot,Layup Shot,1,2,90
+0021900844,125,PT02M34.00S,1,1610612750,MIN,1627736,Beasley,M. Beasley,-2,15,2,Made,1,32,29,61,v,Beasley 2' Driving Dunk (2 PTS) (Culver 1 AST),Made Shot,Driving Dunk Shot,1,2,91
+0021900844,127,PT02M19.00S,1,1610612743,DEN,1627750,Murray,J. Murray,0,0,0,,0,,,0,h,Murray Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,92
+0021900844,127,PT02M19.00S,1,1610612750,MIN,1629633,Culver,J. Culver,0,0,0,,0,,,0,v,Culver STEAL (1 STL),,,1,0,93
+0021900844,129,PT02M19.00S,1,1610612743,DEN,1627750,Murray,J. Murray,0,0,0,,0,,,0,h,Murray P.FOUL (P1.T4) (K.Mauer),Foul,Personal,1,0,94
+0021900844,131,PT02M19.00S,1,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,h,SUB: Barton FOR Jokic,Substitution,,0,0,95
+0021900844,132,PT02M19.00S,1,1610612743,DEN,1627750,Murray,J. Murray,0,0,0,,0,,,0,h,SUB: Plumlee FOR Murray,Substitution,,0,0,96
+0021900844,133,PT02M19.00S,1,1610612750,MIN,201949,Johnson,J. Johnson,0,0,0,,0,,,0,v,SUB: Hernangomez FOR Johnson,Substitution,,0,0,97
+0021900844,137,PT02M08.00S,1,1610612750,MIN,1627736,Beasley,M. Beasley,-22,85,9,Missed,1,,,0,v,MISS Beasley 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,98
+0021900844,138,PT02M06.00S,1,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,99
+0021900844,139,PT02M03.00S,1,1610612750,MIN,1627736,Beasley,M. Beasley,-46,41,6,Made,1,32,31,63,v,Beasley 6' Pullup Jump Shot (4 PTS),Made Shot,Pullup Jump shot,1,2,100
+0021900844,140,PT01M44.00S,1,1610612743,DEN,203924,Grant,J. Grant,19,4,2,Made,1,34,31,65,h,Grant 2' Driving Reverse Layup (2 PTS),Made Shot,Driving Reverse Layup Shot,1,2,101
+0021900844,142,PT01M36.00S,1,1610612750,MIN,1627736,Beasley,M. Beasley,14,257,26,Made,1,34,34,68,v,Beasley 26' 3PT Pullup Jump Shot (7 PTS) (Culver 2 AST),Made Shot,Pullup Jump shot,1,3,102
+0021900844,145,PT01M22.00S,1,1610612743,DEN,203486,Plumlee,M. Plumlee,3,21,2,Made,1,36,34,70,h,Plumlee 2' Layup (2 PTS),Made Shot,Layup Shot,1,2,103
+0021900844,146,PT01M14.00S,1,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,h,Barton P.FOUL (P2.PN) (K.Mauer),Foul,Personal,1,0,104
+0021900844,148,PT01M14.00S,1,1610612750,MIN,1627823,Hernangomez,J. Hernangomez,0,0,0,,0,36,35,71,v,Hernangomez Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,105
+0021900844,149,PT01M14.00S,1,1610612750,MIN,1627823,Hernangomez,J. Hernangomez,0,0,0,,0,36,36,72,v,Hernangomez Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,106
+0021900844,150,PT01M04.00S,1,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,h,Barton Out of Bounds Lost Ball Turnover (P2.T5),Turnover,Out of Bounds Lost Ball Turnover,1,0,107
+0021900844,151,PT00M55.60S,1,1610612750,MIN,1629633,Culver,J. Culver,14,64,7,Made,1,36,38,74,v,Culver 7' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,108
+0021900844,152,PT00M49.40S,1,1610612743,DEN,203115,Barton,W. Barton,195,157,25,Made,1,39,38,77,h,Barton 25' 3PT Pullup Jump Shot (5 PTS),Made Shot,Pullup Jump shot,1,3,109
+0021900844,153,PT00M41.60S,1,1610612750,MIN,1629669,Nowell,J. Nowell,-227,17,0,Missed,1,,,0,v,MISS Nowell 3PT Jump Shot,Missed Shot,Jump Shot,1,3,110
+0021900844,154,PT00M39.40S,1,0,,1610612743,,,0,0,0,,0,,,0,h,NUGGETS Rebound,Rebound,Unknown,0,0,111
+0021900844,156,PT00M30.40S,1,1610612743,DEN,203924,Grant,J. Grant,67,37,8,Missed,1,,,0,h,MISS Grant 8' Driving Layup,Missed Shot,Driving Layup Shot,1,2,112
+0021900844,157,PT00M27.20S,1,1610612750,MIN,1627823,Hernangomez,J. Hernangomez,0,0,0,,0,,,0,v,Hernangomez REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,113
+0021900844,158,PT00M24.00S,1,1610612750,MIN,1627823,Hernangomez,J. Hernangomez,0,0,0,,0,,,0,v,Hernangomez Offensive Charge Foul (P3.PN) (C.Washington),Foul,Offensive Charge,1,0,114
+0021900844,173,PT00M24.00S,1,1610612750,MIN,1627823,Hernangomez,J. Hernangomez,0,0,0,,0,,,0,v,Hernangomez Offensive Foul Turnover (P2.T4),Turnover,Offensive Foul Turnover,1,0,115
+0021900844,161,PT00M24.00S,1,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,,,0,v,SUB: Johnson FOR Beasley,Substitution,,0,0,116
+0021900844,162,PT00M24.00S,1,1610612750,MIN,1627823,Hernangomez,J. Hernangomez,0,0,0,,0,,,0,v,SUB: Okogie FOR Hernangomez,Substitution,,0,0,117
+0021900844,165,PT00M03.40S,1,1610612743,DEN,203486,Plumlee,M. Plumlee,0,25,3,Made,1,41,38,79,h,Plumlee 3' Dunk (4 PTS) (Morris 1 AST),Made Shot,Dunk Shot,1,2,118
+0021900844,167,PT00M00.00S,1,1610612750,MIN,1629633,Culver,J. Culver,0,0,0,,0,,,0,v,Culver Lost Ball Turnover (P1.T5),Turnover,Lost Ball,1,0,119
+0021900844,167,PT00M00.00S,1,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,,,0,h,Morris STEAL (1 STL),,,1,0,120
+0021900844,169,PT00M00.00S,1,1610612743,DEN,1628420,Morris,M. Morris,20,64,7,Made,1,43,38,81,h,Morris 7' Driving Floating Bank Jump Shot (2 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,121
+0021900844,171,PT00M00.00S,1,0,,169,,,0,0,0,,0,43,38,81,,Instant Replay1st Period (6:38 PM EST),Instant Replay,Support Ruling,0,0,122
+0021900844,172,PT00M00.00S,1,0,,0,,,0,0,0,,0,43,38,81,,End of 1st Period (6:38 PM EST),period,end,1,0,123
+0021900844,180,PT12M00.00S,2,0,,0,,,0,0,0,,0,43,38,81,,Start of 2nd Period (6:40 PM EST),period,start,0,0,124
+0021900844,181,PT11M45.00S,2,1610612750,MIN,1629675,Reid,N. Reid,-55,52,8,Missed,1,,,0,v,MISS Reid 8' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,125
+0021900844,182,PT11M42.00S,2,1610612743,DEN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,126
+0021900844,183,PT11M33.00S,2,1610612743,DEN,203924,Grant,J. Grant,232,99,25,Missed,1,,,0,h,MISS Grant 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,127
+0021900844,184,PT11M30.00S,2,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,v,McLaughlin REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,128
+0021900844,185,PT11M28.00S,2,1610612750,MIN,1629669,Nowell,J. Nowell,-3,10,1,Made,1,43,40,83,v,Nowell 1' Running Dunk (2 PTS) (McLaughlin 4 AST),Made Shot,Running Dunk Shot,1,2,129
+0021900844,187,PT11M07.00S,2,1610612743,DEN,1627750,Murray,J. Murray,226,86,24,Missed,1,,,0,h,MISS Murray 24' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,130
+0021900844,188,PT11M04.00S,2,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,Okogie REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,131
+0021900844,189,PT10M59.00S,2,1610612750,MIN,1629006,Okogie,J. Okogie,25,253,25,Missed,1,,,0,v,MISS Okogie 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,132
+0021900844,190,PT10M55.00S,2,1610612743,DEN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,133
+0021900844,191,PT10M38.00S,2,1610612743,DEN,203486,Plumlee,M. Plumlee,-6,16,2,Made,1,45,40,85,h,Plumlee 2' Reverse Layup (6 PTS) (Murray 2 AST),Made Shot,Reverse Layup Shot,1,2,134
+0021900844,193,PT10M28.00S,2,1610612743,DEN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. S.FOUL (P1.T1) (N.Buchert),Foul,Shooting,1,0,135
+0021900844,195,PT10M28.00S,2,1610612750,MIN,1629669,Nowell,J. Nowell,0,0,0,,0,45,41,86,v,Nowell Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,136
+0021900844,196,PT10M28.00S,2,1610612750,MIN,1629669,Nowell,J. Nowell,0,0,0,,0,45,42,87,v,Nowell Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,137
+0021900844,197,PT10M10.00S,2,1610612743,DEN,1629008,Porter Jr.,M. Porter Jr.,-25,31,4,Made,1,47,42,89,h,Porter Jr. 4' Driving Floating Bank Jump Shot (2 PTS) (Grant 1 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,138
+0021900844,200,PT09M47.00S,2,1610612750,MIN,1629633,Culver,J. Culver,0,0,0,,0,,,0,v,Culver Traveling Turnover (P2.T6),Turnover,Traveling,1,0,139
+0021900844,201,PT09M36.00S,2,1610612743,DEN,1628420,Morris,M. Morris,60,137,15,Made,1,49,42,91,h,Morris 15' Pullup Jump Shot (4 PTS),Made Shot,Pullup Jump shot,1,2,140
+0021900844,202,PT09M34.00S,2,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,141
+0021900844,203,PT09M34.00S,2,1610612750,MIN,1629669,Nowell,J. Nowell,0,0,0,,0,,,0,v,SUB: Martin FOR Nowell,Substitution,,0,0,142
+0021900844,204,PT09M34.00S,2,1610612750,MIN,1629633,Culver,J. Culver,0,0,0,,0,,,0,v,SUB: Beasley FOR Culver,Substitution,,0,0,143
+0021900844,207,PT09M19.00S,2,1610612743,DEN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. P.FOUL (P2.T2) (K.Mauer),Foul,Personal,1,0,144
+0021900844,209,PT09M13.00S,2,1610612743,DEN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. S.FOUL (P3.T3) (K.Mauer),Foul,Shooting,1,0,145
+0021900844,211,PT09M13.00S,2,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,MISS Reid Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,146
+0021900844,212,PT09M13.00S,2,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Normal Rebound,0,0,147
+0021900844,215,PT09M13.00S,2,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,49,43,92,v,Reid Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,148
+0021900844,213,PT09M13.00S,2,1610612743,DEN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,h,SUB: Craig FOR Porter Jr.,Substitution,,0,0,149
+0021900844,216,PT08M52.00S,2,1610612743,DEN,203924,Grant,J. Grant,-70,254,26,Missed,1,,,0,h,MISS Grant 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,150
+0021900844,217,PT08M48.00S,2,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,151
+0021900844,218,PT08M43.00S,2,1610612750,MIN,1627736,Beasley,M. Beasley,-92,239,26,Made,1,49,46,95,v,Beasley 26' 3PT Pullup Jump Shot (10 PTS),Made Shot,Pullup Jump shot,1,3,152
+0021900844,219,PT08M25.00S,2,1610612743,DEN,1628420,Morris,M. Morris,18,52,6,Missed,1,,,0,h,MISS Morris 6' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,153
+0021900844,220,PT08M22.00S,2,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,v,McLaughlin REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,154
+0021900844,221,PT08M20.00S,2,1610612750,MIN,1627736,Beasley,M. Beasley,150,209,26,Missed,1,,,0,v,MISS Beasley 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,155
+0021900844,222,PT08M17.00S,2,1610612743,DEN,1628470,Craig,T. Craig,0,0,0,,0,,,0,h,Craig REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,156
+0021900844,223,PT08M13.00S,2,1610612743,DEN,1628470,Craig,T. Craig,0,0,0,,0,,,0,h,Craig Offensive Charge Foul (P1.T4) (K.Mauer),Foul,Offensive Charge,1,0,157
+0021900844,225,PT08M13.00S,2,1610612743,DEN,1628470,Craig,T. Craig,0,0,0,,0,,,0,h,Craig Offensive Foul Turnover (P1.T6),Turnover,Offensive Foul Turnover,1,0,158
+0021900844,226,PT08M13.00S,2,1610612743,DEN,1627750,Murray,J. Murray,0,0,0,,0,,,0,h,SUB: Harris FOR Murray,Substitution,,0,0,159
+0021900844,228,PT08M01.00S,2,1610612750,MIN,1629675,Reid,N. Reid,-29,57,6,Missed,1,,,0,v,MISS Reid 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,160
+0021900844,228,PT08M01.00S,2,1610612743,DEN,1628470,Craig,T. Craig,0,0,0,,0,,,0,h,Craig BLOCK (1 BLK),,,1,2,161
+0021900844,230,PT08M01.00S,2,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Unknown,0,0,162
+0021900844,231,PT07M57.00S,2,1610612743,DEN,1628470,Craig,T. Craig,0,0,0,,0,,,0,h,Jump Ball Craig vs. Reid: Tip to Okogie,Jump Ball,,1,0,163
+0021900844,234,PT07M56.00S,2,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,-190,164,25,Made,1,49,49,98,v,McLaughlin 25' 3PT Jump Shot (3 PTS) (Beasley 1 AST),Made Shot,Jump Shot,1,3,164
+0021900844,236,PT07M32.00S,2,1610612743,DEN,203924,Grant,J. Grant,-22,26,3,Made,1,51,49,100,h,Grant 3' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,165
+0021900844,237,PT07M17.00S,2,1610612750,MIN,1629675,Reid,N. Reid,-8,252,25,Missed,1,,,0,v,MISS Reid 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,166
+0021900844,238,PT07M08.00S,2,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,Okogie REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,167
+0021900844,239,PT07M08.00S,2,1610612750,MIN,1629006,Okogie,J. Okogie,0,-6,1,Made,1,51,51,102,v,Okogie 1' Tip Dunk Shot (4 PTS),Made Shot,Tip Dunk Shot,1,2,168
+0021900844,240,PT06M54.00S,2,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid S.FOUL (P3.T1) (K.Mauer),Foul,Shooting,1,0,169
+0021900844,242,PT06M54.00S,2,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,170
+0021900844,243,PT06M54.00S,2,0,,240,Thompson,B. Thompson,0,0,0,,0,51,51,102,,Instant Replay2nd Period (6:53 PM EST),Instant Replay,Coach Challenge Support Ruling,1,0,171
+0021900844,244,PT06M54.00S,2,1610612743,DEN,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,SUB: Jokic FOR Plumlee,Substitution,,0,0,172
+0021900844,245,PT06M54.00S,2,1610612743,DEN,203924,Grant,J. Grant,0,0,0,,0,,,0,h,SUB: Millsap FOR Grant,Substitution,,0,0,173
+0021900844,246,PT06M54.00S,2,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,SUB: Johnson FOR Reid,Substitution,,0,0,174
+0021900844,250,PT06M54.00S,2,1610612743,DEN,203914,Harris,G. Harris,0,0,0,,0,,,0,h,MISS Harris Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,175
+0021900844,251,PT06M54.00S,2,0,,1610612743,,,0,0,0,,0,,,0,h,NUGGETS Rebound,Rebound,Normal Rebound,0,0,176
+0021900844,252,PT06M54.00S,2,1610612743,DEN,203914,Harris,G. Harris,0,0,0,,0,52,51,103,h,Harris Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,177
+0021900844,253,PT06M46.00S,2,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,,,0,h,Morris S.FOUL (P1.PN) (C.Washington),Foul,Shooting,1,0,178
+0021900844,255,PT06M46.00S,2,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,52,52,104,v,McLaughlin Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,179
+0021900844,256,PT06M46.00S,2,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,52,53,105,v,McLaughlin Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,180
+0021900844,257,PT06M29.00S,2,1610612743,DEN,203914,Harris,G. Harris,-55,186,19,Missed,1,,,0,h,MISS Harris 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,181
+0021900844,258,PT06M24.00S,2,1610612750,MIN,201949,Johnson,J. Johnson,0,0,0,,0,,,0,v,Johnson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,182
+0021900844,259,PT06M18.00S,2,1610612750,MIN,1629006,Okogie,J. Okogie,29,52,6,Missed,1,,,0,v,MISS Okogie 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,183
+0021900844,260,PT06M15.00S,2,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,h,Jokic REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,184
+0021900844,261,PT06M13.00S,2,1610612743,DEN,1628420,Morris,M. Morris,-1,46,5,Made,1,54,53,107,h,Morris 5' Running Layup (6 PTS) (Jokic 2 AST),Made Shot,Running Layup Shot,1,2,185
+0021900844,263,PT06M01.00S,2,1610612750,MIN,1629103,Martin,K. Martin,-230,8,0,Made,1,54,56,110,v,Martin 3PT Jump Shot (15 PTS) (Okogie 2 AST),Made Shot,Jump Shot,1,3,186
+0021900844,265,PT05M58.00S,2,0,,1610612743,,,0,0,0,,0,,,0,h,NUGGETS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,187
+0021900844,266,PT05M58.00S,2,1610612743,DEN,1628470,Craig,T. Craig,0,0,0,,0,,,0,h,SUB: Murray FOR Craig,Substitution,,0,0,188
+0021900844,267,PT05M58.00S,2,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,,,0,h,SUB: Barton FOR Morris,Substitution,,0,0,189
+0021900844,270,PT05M39.00S,2,1610612743,DEN,203914,Harris,G. Harris,-24,10,3,Missed,1,,,0,h,MISS Harris 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,190
+0021900844,271,PT05M34.00S,2,1610612750,MIN,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,Martin REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,191
+0021900844,272,PT05M31.00S,2,1610612750,MIN,1629103,Martin,K. Martin,-25,15,3,Made,1,54,58,112,v,Martin 3' Running Layup (17 PTS),Made Shot,Running Layup Shot,1,2,192
+0021900844,273,PT05M13.00S,2,1610612743,DEN,203999,Jokić,N. Jokić,25,22,3,Made,1,56,58,114,h,Jokic 3' Driving Layup (10 PTS) (Murray 3 AST),Made Shot,Driving Layup Shot,1,2,193
+0021900844,275,PT04M55.00S,2,1610612750,MIN,1629103,Martin,K. Martin,-14,0,1,Made,1,56,60,116,v,Martin 1' Driving Dunk (19 PTS) (McLaughlin 5 AST),Made Shot,Driving Dunk Shot,1,2,194
+0021900844,278,PT04M54.00S,2,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Violation: Delay of game Violation,Violation,Delay Of Game,0,0,195
+0021900844,279,PT04M43.00S,2,1610612743,DEN,1627750,Murray,J. Murray,-7,251,25,Missed,1,,,0,h,MISS Murray 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,196
+0021900844,280,PT04M37.00S,2,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,h,Jokic REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,197
+0021900844,281,PT04M37.00S,2,1610612743,DEN,203999,Jokić,N. Jokić,0,-6,1,Made,1,58,60,118,h,Jokic 1' Tip Layup Shot (12 PTS),Made Shot,Tip Layup Shot,1,2,198
+0021900844,282,PT04M32.00S,2,1610612750,MIN,201949,Johnson,J. Johnson,-174,176,25,Missed,1,,,0,v,MISS Johnson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,199
+0021900844,283,PT04M28.00S,2,1610612743,DEN,1627750,Murray,J. Murray,0,0,0,,0,,,0,h,Murray REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,200
+0021900844,284,PT04M25.00S,2,1610612743,DEN,200794,Millsap,P. Millsap,192,172,26,Made,1,61,60,121,h,Millsap 26' 3PT Jump Shot (15 PTS) (Murray 4 AST),Made Shot,Jump Shot,1,3,201
+0021900844,286,PT04M06.00S,2,1610612750,MIN,1627736,Beasley,M. Beasley,-231,-10,0,Missed,1,,,0,v,MISS Beasley 3PT Jump Shot,Missed Shot,Jump Shot,1,3,202
+0021900844,287,PT04M03.00S,2,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,h,Barton REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,203
+0021900844,288,PT03M45.00S,2,1610612743,DEN,203115,Barton,W. Barton,69,246,26,Missed,1,,,0,h,MISS Barton 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,204
+0021900844,289,PT03M42.00S,2,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,205
+0021900844,290,PT03M39.00S,2,1610612750,MIN,1627736,Beasley,M. Beasley,-36,32,5,Missed,1,,,0,v,MISS Beasley 5' Running Reverse Layup,Missed Shot,Running Reverse Layup Shot,1,2,206
+0021900844,290,PT03M39.00S,2,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,h,Barton BLOCK (2 BLK),,,1,2,207
+0021900844,292,PT03M39.00S,2,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Unknown,0,0,208
+0021900844,294,PT03M36.00S,2,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,h,Barton S.FOUL (P3.PN) (C.Washington),Foul,Shooting,1,0,209
+0021900844,296,PT03M36.00S,2,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,61,61,122,v,Okogie Free Throw 1 of 3 (5 PTS),Free Throw,Free Throw 1 of 3,1,0,210
+0021900844,297,PT03M36.00S,2,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,MISS Okogie Free Throw 2 of 3,Free Throw,Free Throw 2 of 3,1,0,211
+0021900844,298,PT03M36.00S,2,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Normal Rebound,0,0,212
+0021900844,301,PT03M36.00S,2,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,MISS Okogie Free Throw 3 of 3,Free Throw,Free Throw 3 of 3,1,0,213
+0021900844,302,PT03M36.00S,2,1610612743,DEN,200794,Millsap,P. Millsap,0,0,0,,0,,,0,h,Millsap REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,214
+0021900844,299,PT03M36.00S,2,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,h,SUB: Morris FOR Barton,Substitution,,0,0,215
+0021900844,303,PT03M22.00S,2,1610612750,MIN,201949,Johnson,J. Johnson,0,0,0,,0,,,0,v,Johnson P.FOUL (P2.T2) (N.Buchert),Foul,Personal,1,0,216
+0021900844,305,PT03M22.00S,2,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,SUB: Culver FOR Okogie,Substitution,,0,0,217
+0021900844,307,PT03M17.00S,2,1610612743,DEN,203914,Harris,G. Harris,44,26,5,Missed,1,,,0,h,MISS Harris 5' Layup,Missed Shot,Layup Shot,1,2,218
+0021900844,308,PT03M15.00S,2,1610612743,DEN,200794,Millsap,P. Millsap,0,0,0,,0,,,0,h,Millsap REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,219
+0021900844,309,PT03M12.00S,2,1610612743,DEN,1627750,Murray,J. Murray,127,231,26,Missed,1,,,0,h,MISS Murray 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,220
+0021900844,310,PT03M09.00S,2,1610612743,DEN,200794,Millsap,P. Millsap,0,0,0,,0,,,0,h,Millsap REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,221
+0021900844,311,PT03M08.00S,2,1610612743,DEN,200794,Millsap,P. Millsap,18,10,2,Made,1,63,61,124,h,Millsap 2' Putback Layup (17 PTS),Made Shot,Putback Layup Shot,1,2,222
+0021900844,312,PT02M52.00S,2,1610612750,MIN,201949,Johnson,J. Johnson,-228,30,0,Missed,1,,,0,v,MISS Johnson 3PT Jump Shot,Missed Shot,Jump Shot,1,3,223
+0021900844,313,PT02M49.00S,2,1610612743,DEN,200794,Millsap,P. Millsap,0,0,0,,0,,,0,h,Millsap REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,224
+0021900844,314,PT02M41.00S,2,1610612743,DEN,200794,Millsap,P. Millsap,-17,23,3,Made,1,65,61,126,h,Millsap 3' Cutting Layup Shot (19 PTS) (Jokic 3 AST),Made Shot,Cutting Layup Shot,1,2,225
+0021900844,316,PT02M28.00S,2,1610612750,MIN,1629103,Martin,K. Martin,-3,75,8,Missed,1,,,0,v,MISS Martin 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,226
+0021900844,317,PT02M26.00S,2,1610612743,DEN,200794,Millsap,P. Millsap,0,0,0,,0,,,0,h,Millsap REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,227
+0021900844,318,PT02M18.00S,2,1610612743,DEN,1627750,Murray,J. Murray,0,0,0,,0,,,0,h,Murray Bad Pass Turnover (P2.T7),Turnover,Bad Pass,1,0,228
+0021900844,318,PT02M18.00S,2,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley STEAL (1 STL),,,1,0,229
+0021900844,320,PT02M14.00S,2,1610612750,MIN,1627736,Beasley,M. Beasley,18,11,2,Made,1,65,63,128,v,Beasley 2' Driving Layup (12 PTS) (Culver 3 AST),Made Shot,Driving Layup Shot,1,2,230
+0021900844,322,PT01M59.00S,2,1610612743,DEN,1627750,Murray,J. Murray,-226,42,0,Made,1,68,63,131,h,Murray 3PT Step Back Jump Shot (11 PTS),Made Shot,Step Back Jump shot,1,3,231
+0021900844,323,PT01M39.00S,2,1610612750,MIN,1629103,Martin,K. Martin,-53,138,15,Missed,1,,,0,v,MISS Martin 15' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,232
+0021900844,324,PT01M36.00S,2,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,h,Jokic REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,233
+0021900844,325,PT01M29.00S,2,1610612743,DEN,203914,Harris,G. Harris,-235,32,24,Made,1,71,63,134,h,Harris 24' 3PT Jump Shot (6 PTS) (Morris 2 AST),Made Shot,Jump Shot,1,3,234
+0021900844,327,PT01M10.00S,2,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,v,McLaughlin Out of Bounds - Bad Pass Turnover Turnover (P1.T7),Turnover,Out of Bounds - Bad Pass Turnover,1,0,235
+0021900844,328,PT01M10.00S,2,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,,,0,v,SUB: Hernangomez FOR Beasley,Substitution,,0,0,236
+0021900844,329,PT01M10.00S,2,1610612750,MIN,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,SUB: Nowell FOR Martin,Substitution,,0,0,237
+0021900844,332,PT00M54.80S,2,1610612743,DEN,200794,Millsap,P. Millsap,207,142,25,Missed,1,,,0,h,MISS Millsap 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,238
+0021900844,333,PT00M52.60S,2,1610612750,MIN,201949,Johnson,J. Johnson,0,0,0,,0,,,0,v,Johnson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,239
+0021900844,334,PT00M44.90S,2,1610612750,MIN,201949,Johnson,J. Johnson,-27,4,3,Made,1,71,65,136,v,Johnson 3' Layup (7 PTS) (McLaughlin 6 AST),Made Shot,Layup Shot,1,2,240
+0021900844,336,PT00M31.90S,2,1610612743,DEN,1627750,Murray,J. Murray,0,0,0,,0,,,0,h,Murray Bad Pass Turnover (P3.T8),Turnover,Bad Pass,1,0,241
+0021900844,336,PT00M31.90S,2,1610612750,MIN,201949,Johnson,J. Johnson,0,0,0,,0,,,0,v,Johnson STEAL (2 STL),,,1,0,242
+0021900844,338,PT00M24.50S,2,1610612750,MIN,1629669,Nowell,J. Nowell,-234,19,0,Missed,1,,,0,v,MISS Nowell 3PT Jump Shot,Missed Shot,Jump Shot,1,3,243
+0021900844,339,PT00M21.70S,2,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,244
+0021900844,340,PT00M03.00S,2,1610612743,DEN,203999,Jokić,N. Jokić,5,21,2,Made,1,73,65,138,h,Jokic 2' Dunk (14 PTS) (Morris 3 AST),Made Shot,Dunk Shot,1,2,245
+0021900844,342,PT00M00.20S,2,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,-136,458,48,Missed,1,,,0,v,MISS McLaughlin 48' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,246
+0021900844,343,PT00M00.20S,2,0,,1610612743,,,0,0,0,,0,,,0,h,NUGGETS Rebound,Rebound,Unknown,0,0,247
+0021900844,344,PT00M00.00S,2,0,,0,,,0,0,0,,0,73,65,138,,End of 2nd Period (7:08 PM EST),period,end,1,0,248
+0021900844,353,PT12M00.00S,3,0,,0,,,0,0,0,,0,73,65,138,,Start of 3rd Period (7:25 PM EST),period,start,0,0,249
+0021900844,354,PT11M39.00S,3,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,v,McLaughlin Bad Pass Turnover (P2.T8),Turnover,Bad Pass,1,0,250
+0021900844,354,PT11M39.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,h,Jokic STEAL (1 STL),,,1,0,251
+0021900844,356,PT11M35.00S,3,1610612743,DEN,203115,Barton,W. Barton,-214,135,25,Missed,1,,,0,h,MISS Barton 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,252
+0021900844,357,PT11M31.00S,3,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,Okogie REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,253
+0021900844,358,PT11M23.00S,3,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,-187,176,26,Missed,1,,,0,v,MISS McLaughlin 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,254
+0021900844,359,PT11M21.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,h,Jokic REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,255
+0021900844,361,PT11M06.00S,3,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley S.FOUL (P1.T1) (C.Washington),Foul,Shooting,1,0,256
+0021900844,363,PT11M06.00S,3,1610612743,DEN,200794,Millsap,P. Millsap,0,0,0,,0,,,0,h,MISS Millsap Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,257
+0021900844,364,PT11M06.00S,3,0,,1610612743,,,0,0,0,,0,,,0,h,NUGGETS Rebound,Rebound,Normal Rebound,0,0,258
+0021900844,365,PT11M06.00S,3,1610612743,DEN,200794,Millsap,P. Millsap,0,0,0,,0,74,65,139,h,Millsap Free Throw 2 of 2 (20 PTS),Free Throw,Free Throw 2 of 2,1,0,259
+0021900844,366,PT10M53.00S,3,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,200,142,25,Made,1,74,68,142,v,McLaughlin 25' 3PT Jump Shot (8 PTS) (Okogie 3 AST),Made Shot,Jump Shot,1,3,260
+0021900844,368,PT10M32.00S,3,1610612743,DEN,203115,Barton,W. Barton,60,100,12,Missed,1,,,0,h,MISS Barton 12' Jump Shot,Missed Shot,Jump Shot,1,2,261
+0021900844,369,PT10M30.00S,3,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,262
+0021900844,370,PT10M16.00S,3,1610612750,MIN,1627823,Hernangomez,J. Hernangomez,-29,29,4,Missed,1,,,0,v,MISS Hernangomez 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,263
+0021900844,370,PT10M16.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,h,Jokic BLOCK (1 BLK),,,1,2,264
+0021900844,372,PT10M16.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Unknown,0,0,265
+0021900844,374,PT10M06.00S,3,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,37,176,18,Missed,1,,,0,v,MISS McLaughlin 18' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,266
+0021900844,375,PT10M04.00S,3,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,v,McLaughlin REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,267
+0021900844,376,PT09M59.00S,3,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,Okogie Lost Ball Turnover (P1.T9),Turnover,Lost Ball,1,0,268
+0021900844,376,PT09M59.00S,3,1610612743,DEN,200794,Millsap,P. Millsap,0,0,0,,0,,,0,h,Millsap STEAL (1 STL),,,1,0,269
+0021900844,378,PT09M53.00S,3,1610612743,DEN,203914,Harris,G. Harris,-35,10,4,Made,1,76,68,144,h,Harris 4' Running Reverse Layup (8 PTS) (Barton 2 AST),Made Shot,Running Reverse Layup Shot,1,2,270
+0021900844,380,PT09M38.00S,3,1610612750,MIN,1627823,Hernangomez,J. Hernangomez,42,29,5,Missed,1,,,0,v,MISS Hernangomez 5' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,271
+0021900844,380,PT09M38.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,h,Jokic BLOCK (2 BLK),,,1,2,272
+0021900844,382,PT09M35.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,h,Jokic REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,273
+0021900844,383,PT09M22.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,-33,8,3,Missed,1,,,0,h,MISS Jokic 3' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,274
+0021900844,384,PT09M20.00S,3,1610612750,MIN,1627823,Hernangomez,J. Hernangomez,0,0,0,,0,,,0,v,Hernangomez REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,275
+0021900844,385,PT09M17.00S,3,1610612743,DEN,200794,Millsap,P. Millsap,0,0,0,,0,,,0,h,Millsap S.FOUL (P3.T1) (C.Washington),Foul,Shooting,1,0,276
+0021900844,387,PT09M17.00S,3,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,76,69,145,v,Okogie Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,277
+0021900844,388,PT09M17.00S,3,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,76,70,146,v,Okogie Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,278
+0021900844,389,PT09M08.00S,3,1610612743,DEN,200794,Millsap,P. Millsap,186,167,25,Missed,1,,,0,h,MISS Millsap 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,279
+0021900844,390,PT09M05.00S,3,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,280
+0021900844,391,PT08M49.00S,3,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,v,McLaughlin Bad Pass Turnover (P3.T10),Turnover,Bad Pass,1,0,281
+0021900844,391,PT08M49.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,h,Jokic STEAL (2 STL),,,1,0,282
+0021900844,393,PT08M32.00S,3,1610612743,DEN,1627750,Murray,J. Murray,19,27,3,Made,1,78,70,148,h,Murray 3' Driving Layup (13 PTS),Made Shot,Driving Layup Shot,1,2,283
+0021900844,394,PT08M17.00S,3,1610612750,MIN,1627823,Hernangomez,J. Hernangomez,69,260,27,Missed,1,,,0,v,MISS Hernangomez 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,284
+0021900844,395,PT08M15.00S,3,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,h,Barton REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,285
+0021900844,396,PT08M07.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,120,222,25,Missed,1,,,0,h,MISS Jokic 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,286
+0021900844,397,PT08M04.00S,3,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,v,McLaughlin REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,287
+0021900844,398,PT07M55.00S,3,1610612750,MIN,1629675,Reid,N. Reid,-230,5,0,Missed,1,,,0,v,MISS Reid 3PT Jump Shot,Missed Shot,Jump Shot,1,3,288
+0021900844,399,PT07M51.00S,3,1610612743,DEN,200794,Millsap,P. Millsap,0,0,0,,0,,,0,h,Millsap REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,289
+0021900844,400,PT07M40.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,h,Jokic Lost Ball Turnover (P2.T9),Turnover,Lost Ball,1,0,290
+0021900844,400,PT07M40.00S,3,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid STEAL (1 STL),,,1,0,291
+0021900844,402,PT07M40.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,h,Jokic Personal Take Foul (P1.T2) (K.Mauer),Foul,Personal Take,1,0,292
+0021900844,404,PT07M40.00S,3,0,,402,Koncak,J. Koncak,0,0,0,,0,78,70,148,,Instant Replay3rd Period (7:31 PM EST),Instant Replay,Support Ruling,0,0,293
+0021900844,405,PT07M31.00S,3,1610612750,MIN,1629675,Reid,N. Reid,3,20,2,Made,1,78,72,150,v,Reid 2' Cutting Dunk Shot (11 PTS) (McLaughlin 7 AST),Made Shot,Cutting Dunk Shot,1,2,294
+0021900844,407,PT07M11.00S,3,1610612743,DEN,203115,Barton,W. Barton,41,36,5,Missed,1,,,0,h,MISS Barton 5' Turnaround Fadeaway Bank Jump Shot,Missed Shot,Turnaround Fadeaway Bank Jump Shot,1,2,295
+0021900844,408,PT07M08.00S,3,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,296
+0021900844,409,PT06M59.00S,3,1610612750,MIN,1629006,Okogie,J. Okogie,-181,168,25,Made,1,78,75,153,v,Okogie 25' 3PT Jump Shot (10 PTS) (McLaughlin 8 AST),Made Shot,Jump Shot,1,3,297
+0021900844,411,PT06M57.00S,3,0,,1610612743,,,0,0,0,,0,,,0,h,NUGGETS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,298
+0021900844,412,PT06M50.00S,3,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid P.FOUL (P4.T2) (K.Mauer),Foul,Personal,1,0,299
+0021900844,414,PT06M44.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,-27,155,16,Missed,1,,,0,h,MISS Jokic 16' Jump Shot,Missed Shot,Jump Shot,1,2,300
+0021900844,415,PT06M41.00S,3,1610612750,MIN,1627823,Hernangomez,J. Hernangomez,0,0,0,,0,,,0,v,Hernangomez REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,301
+0021900844,416,PT06M28.00S,3,1610612750,MIN,1629675,Reid,N. Reid,-32,36,5,Missed,1,,,0,v,MISS Reid 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,302
+0021900844,416,PT06M28.00S,3,1610612743,DEN,200794,Millsap,P. Millsap,0,0,0,,0,,,0,h,Millsap BLOCK (2 BLK),,,1,2,303
+0021900844,418,PT06M28.00S,3,0,,1610612743,,,0,0,0,,0,,,0,h,NUGGETS Rebound,Rebound,Unknown,0,0,304
+0021900844,419,PT06M27.00S,3,1610612743,DEN,200794,Millsap,P. Millsap,0,0,0,,0,,,0,h, ,Jump Ball,,1,0,305
+0021900844,424,PT06M27.00S,3,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,SUB: Johnson FOR Reid,Substitution,,0,0,306
+0021900844,426,PT06M10.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,63,99,12,Made,1,80,75,155,h,Jokic 12' Step Back Jump Shot (16 PTS),Made Shot,Step Back Jump shot,1,2,307
+0021900844,427,PT05M59.00S,3,1610612750,MIN,1629006,Okogie,J. Okogie,-150,211,26,Missed,1,,,0,v,MISS Okogie 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,308
+0021900844,428,PT05M56.00S,3,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,309
+0021900844,429,PT05M46.00S,3,1610612743,DEN,200794,Millsap,P. Millsap,0,0,0,,0,,,0,h,Millsap P.FOUL (P4.T3) (C.Washington),Foul,Personal,1,0,310
+0021900844,431,PT05M46.00S,3,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,h,SUB: Morris FOR Barton,Substitution,,0,0,311
+0021900844,432,PT05M46.00S,3,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,SUB: Culver FOR Okogie,Substitution,,0,0,312
+0021900844,435,PT05M36.00S,3,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,27,15,3,Made,1,80,77,157,v,McLaughlin 3' Driving Layup (10 PTS),Made Shot,Driving Layup Shot,1,2,313
+0021900844,436,PT05M21.00S,3,1610612743,DEN,200794,Millsap,P. Millsap,138,216,26,Made,1,83,77,160,h,Millsap 26' 3PT Jump Shot (23 PTS) (Murray 5 AST),Made Shot,Jump Shot,1,3,314
+0021900844,438,PT05M14.00S,3,1610612750,MIN,201949,Johnson,J. Johnson,0,0,0,,0,,,0,v,Johnson OFF.Foul (P3) (C.Washington),Foul,Offensive,1,0,315
+0021900844,440,PT05M14.00S,3,1610612750,MIN,201949,Johnson,J. Johnson,0,0,0,,0,,,0,v,Johnson Offensive Foul Turnover (P2.T11),Turnover,Offensive Foul Turnover,1,0,316
+0021900844,441,PT05M14.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Violation: Delay of game Violation,Violation,Delay Of Game,0,0,317
+0021900844,442,PT05M14.00S,3,0,,0,,,0,0,0,,0,,,0,,Delay Technical,Foul,Delay Technical,0,0,318
+0021900844,443,PT05M14.00S,3,1610612743,DEN,1627750,Murray,J. Murray,0,0,0,,0,84,77,161,h,Murray Free Throw Technical (14 PTS),Free Throw,Free Throw Technical,1,0,319
+0021900844,444,PT05M14.00S,3,1610612743,DEN,200794,Millsap,P. Millsap,0,0,0,,0,,,0,h,SUB: Grant FOR Millsap,Substitution,,0,0,320
+0021900844,446,PT05M03.00S,3,1610612743,DEN,1627750,Murray,J. Murray,133,226,26,Missed,1,,,0,h,MISS Murray 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,321
+0021900844,447,PT05M01.00S,3,1610612750,MIN,201949,Johnson,J. Johnson,0,0,0,,0,,,0,v,Johnson REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,322
+0021900844,448,PT04M54.00S,3,1610612750,MIN,201949,Johnson,J. Johnson,-13,20,2,Made,1,84,79,163,v,Johnson 2' Alley Oop Layup (9 PTS) (Culver 4 AST),Made Shot,Alley Oop Layup shot,1,2,323
+0021900844,450,PT04M38.00S,3,1610612743,DEN,1628420,Morris,M. Morris,24,14,3,Made,1,86,79,165,h,Morris 3' Cutting Layup Shot (8 PTS) (Jokic 4 AST),Made Shot,Cutting Layup Shot,1,2,324
+0021900844,452,PT04M20.00S,3,1610612750,MIN,1627736,Beasley,M. Beasley,-3,47,5,Missed,1,,,0,v,MISS Beasley 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,325
+0021900844,453,PT04M19.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Unknown,0,0,326
+0021900844,454,PT04M19.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,h,Jokic L.B.FOUL (P2.T4) (N.Buchert),Foul,Loose Ball,1,0,327
+0021900844,456,PT04M19.00S,3,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley T.FOUL (P1.T2) (N.Buchert),Foul,Technical,1,0,328
+0021900844,457,PT04M19.00S,3,1610612743,DEN,1627750,Murray,J. Murray,0,0,0,,0,,,0,h,MISS Murray Free Throw Technical,Free Throw,Free Throw Technical,1,0,329
+0021900844,458,PT04M19.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Normal Rebound,0,0,330
+0021900844,459,PT04M19.00S,3,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,,,0,v,SUB: Martin FOR Beasley,Substitution,,0,0,331
+0021900844,461,PT04M12.00S,3,1610612750,MIN,1629633,Culver,J. Culver,0,0,0,,0,,,0,v,Culver Out of Bounds - Bad Pass Turnover Turnover (P3.T12),Turnover,Out of Bounds - Bad Pass Turnover,1,0,332
+0021900844,462,PT04M06.00S,3,1610612743,DEN,203914,Harris,G. Harris,223,126,26,Made,1,89,79,168,h,Harris 26' 3PT Jump Shot (11 PTS) (Morris 4 AST),Made Shot,Jump Shot,1,3,333
+0021900844,464,PT03M44.00S,3,1610612750,MIN,201949,Johnson,J. Johnson,-7,17,2,Made,1,89,81,170,v,Johnson 2' Cutting Layup Shot (11 PTS) (McLaughlin 9 AST),Made Shot,Cutting Layup Shot,1,2,334
+0021900844,466,PT03M32.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,8,83,8,Made,1,91,81,172,h,Jokic 8' Floating Jump Shot (18 PTS) (Murray 6 AST),Made Shot,Floating Jump shot,1,2,335
+0021900844,468,PT03M25.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,336
+0021900844,469,PT03M25.00S,3,1610612743,DEN,1627750,Murray,J. Murray,0,0,0,,0,,,0,h,SUB: Craig FOR Murray,Substitution,,0,0,337
+0021900844,470,PT03M25.00S,3,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,v,SUB: Nowell FOR McLaughlin,Substitution,,0,0,338
+0021900844,473,PT03M15.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,h,Jokic P.FOUL (P3.PN) (C.Washington),Foul,Personal,1,0,339
+0021900844,475,PT03M15.00S,3,1610612750,MIN,1629633,Culver,J. Culver,0,0,0,,0,,,0,v,MISS Culver Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,340
+0021900844,476,PT03M15.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Normal Rebound,0,0,341
+0021900844,477,PT03M15.00S,3,1610612750,MIN,1629633,Culver,J. Culver,0,0,0,,0,91,82,173,v,Culver Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,342
+0021900844,478,PT02M55.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,h,Jokic Out of Bounds Lost Ball Turnover (P3.T10),Turnover,Out of Bounds Lost Ball Turnover,1,0,343
+0021900844,479,PT02M55.00S,3,1610612750,MIN,1627823,Hernangomez,J. Hernangomez,0,0,0,,0,,,0,v,SUB: Beasley FOR Hernangomez,Substitution,,0,0,344
+0021900844,481,PT02M46.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,h,Jokic S.FOUL (P4.PN) (N.Buchert),Foul,Shooting,1,0,345
+0021900844,483,PT02M46.00S,3,1610612750,MIN,201949,Johnson,J. Johnson,0,0,0,,0,91,83,174,v,Johnson Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,0,0,346
+0021900844,484,PT02M46.00S,3,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,h,SUB: Plumlee FOR Jokic,Substitution,,0,0,347
+0021900844,486,PT02M46.00S,3,1610612750,MIN,201949,Johnson,J. Johnson,0,0,0,,0,91,84,175,v,Johnson Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,348
+0021900844,487,PT02M27.00S,3,1610612743,DEN,203924,Grant,J. Grant,9,174,17,Missed,1,,,0,h,MISS Grant 17' Jump Shot,Missed Shot,Jump Shot,1,2,349
+0021900844,488,PT02M27.00S,3,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,350
+0021900844,489,PT02M23.00S,3,1610612743,DEN,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee S.FOUL (P1.PN) (K.Mauer),Foul,Shooting,1,0,351
+0021900844,491,PT02M23.00S,3,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,,,0,v,MISS Beasley Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,352
+0021900844,492,PT02M23.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Normal Rebound,0,0,353
+0021900844,493,PT02M23.00S,3,1610612743,DEN,203914,Harris,G. Harris,0,0,0,,0,,,0,h,SUB: Barton FOR Harris,Substitution,,0,0,354
+0021900844,495,PT02M23.00S,3,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,91,85,176,v,Beasley Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,355
+0021900844,496,PT02M02.00S,3,1610612743,DEN,203115,Barton,W. Barton,-91,246,26,Missed,1,,,0,h,MISS Barton 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,356
+0021900844,497,PT01M59.00S,3,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,357
+0021900844,498,PT01M47.00S,3,1610612750,MIN,201949,Johnson,J. Johnson,26,16,3,Missed,1,,,0,v,MISS Johnson 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,358
+0021900844,499,PT01M45.00S,3,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,359
+0021900844,500,PT01M28.00S,3,1610612743,DEN,203924,Grant,J. Grant,90,64,11,Made,1,93,85,178,h,Grant 11' Turnaround Fadeaway (6 PTS),Made Shot,Turnaround Fadeaway shot,1,2,360
+0021900844,503,PT01M09.00S,3,1610612750,MIN,201949,Johnson,J. Johnson,-79,254,27,Missed,1,,,0,v,MISS Johnson 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,361
+0021900844,504,PT01M07.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Unknown,0,0,362
+0021900844,505,PT01M07.00S,3,1610612743,DEN,1628470,Craig,T. Craig,0,0,0,,0,,,0,h,Craig L.B.FOUL (P2.PN) (K.Mauer),Foul,Loose Ball,1,0,363
+0021900844,507,PT01M07.00S,3,1610612750,MIN,1629633,Culver,J. Culver,0,0,0,,0,,,0,v,MISS Culver Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,364
+0021900844,508,PT01M07.00S,3,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Rebound,Rebound,Normal Rebound,0,0,365
+0021900844,509,PT01M07.00S,3,1610612750,MIN,1629633,Culver,J. Culver,0,0,0,,0,,,0,v,MISS Culver Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,366
+0021900844,510,PT01M03.00S,3,1610612743,DEN,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,367
+0021900844,511,PT00M43.00S,3,1610612743,DEN,1628420,Morris,M. Morris,-18,120,12,Missed,1,,,0,h,MISS Morris 12' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,368
+0021900844,511,PT00M43.00S,3,1610612750,MIN,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,Martin BLOCK (1 BLK),,,1,2,369
+0021900844,513,PT00M43.00S,3,0,,1610612743,,,0,0,0,,0,,,0,h,NUGGETS Rebound,Rebound,Unknown,0,0,370
+0021900844,514,PT00M43.00S,3,0,,1610612743,,,0,0,0,,0,,,0,h,NUGGETS Turnover: Shot Clock (T#11),Turnover,Shot Clock Turnover,0,0,371
+0021900844,515,PT00M35.80S,3,1610612750,MIN,1629103,Martin,K. Martin,233,29,0,Missed,1,,,0,v,MISS Martin 3PT Jump Shot,Missed Shot,Jump Shot,1,3,372
+0021900844,516,PT00M32.10S,3,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,373
+0021900844,517,PT00M14.80S,3,1610612743,DEN,203115,Barton,W. Barton,35,41,5,Missed,1,,,0,h,MISS Barton 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,374
+0021900844,517,PT00M14.80S,3,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley BLOCK (1 BLK),,,1,2,375
+0021900844,519,PT00M14.80S,3,0,,1610612743,,,0,0,0,,0,,,0,h,NUGGETS Rebound,Rebound,Unknown,0,0,376
+0021900844,521,PT00M09.90S,3,1610612743,DEN,203486,Plumlee,M. Plumlee,17,61,6,Missed,1,,,0,h,MISS Plumlee 6' Layup,Missed Shot,Layup Shot,1,2,377
+0021900844,522,PT00M08.00S,3,1610612743,DEN,1628470,Craig,T. Craig,0,0,0,,0,,,0,h,Craig REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,378
+0021900844,523,PT00M08.00S,3,1610612743,DEN,1628470,Craig,T. Craig,0,-6,1,Made,1,95,85,180,h,Craig 1' Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,379
+0021900844,524,PT00M05.70S,3,1610612743,DEN,1628470,Craig,T. Craig,0,0,0,,0,,,0,h,Craig P.FOUL (P3.PN) (K.Mauer),Foul,Personal,1,0,380
+0021900844,526,PT00M05.70S,3,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,95,86,181,v,Beasley Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,381
+0021900844,527,PT00M05.70S,3,1610612750,MIN,201949,Johnson,J. Johnson,0,0,0,,0,,,0,v,SUB: Okogie FOR Johnson,Substitution,,0,0,382
+0021900844,529,PT00M05.70S,3,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,95,87,182,v,Beasley Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,383
+0021900844,530,PT00M03.60S,3,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,Okogie Personal Take Foul (P2.T3) (C.Washington),Foul,Personal Take,1,0,384
+0021900844,532,PT00M00.00S,3,1610612743,DEN,203486,Plumlee,M. Plumlee,0,31,3,Made,1,97,87,184,h,Plumlee 3' Alley Oop Layup (8 PTS) (Barton 3 AST),Made Shot,Alley Oop Layup shot,1,2,385
+0021900844,534,PT00M00.00S,3,0,,532,,,0,0,0,,0,97,87,184,,Instant Replay3rd Period (7:57 PM EST),Instant Replay,Support Ruling,0,0,386
+0021900844,535,PT00M00.00S,3,0,,0,,,0,0,0,,0,97,87,184,,End of 3rd Period (7:57 PM EST),period,end,1,0,387
+0021900844,544,PT12M00.00S,4,0,,0,,,0,0,0,,0,97,87,184,,Start of 4th Period (7:59 PM EST),period,start,0,0,388
+0021900844,545,PT11M49.00S,4,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid S.FOUL (P5.T1) (C.Washington),Foul,Shooting,1,0,389
+0021900844,547,PT11M49.00S,4,1610612743,DEN,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,MISS Plumlee Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,390
+0021900844,548,PT11M49.00S,4,0,,1610612743,,,0,0,0,,0,,,0,h,NUGGETS Rebound,Rebound,Normal Rebound,0,0,391
+0021900844,549,PT11M49.00S,4,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,SUB: Johnson FOR Reid,Substitution,,0,0,392
+0021900844,551,PT11M49.00S,4,1610612743,DEN,203486,Plumlee,M. Plumlee,0,0,0,,0,98,87,185,h,Plumlee Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,393
+0021900844,552,PT11M33.00S,4,1610612743,DEN,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee Violation:Kicked Ball (K.Mauer),Violation,Kicked Ball,0,0,394
+0021900844,553,PT11M28.00S,4,1610612750,MIN,1629633,Culver,J. Culver,5,10,1,Made,1,98,89,187,v,Culver 1' Cutting Dunk Shot (5 PTS) (Johnson 2 AST),Made Shot,Cutting Dunk Shot,1,2,395
+0021900844,555,PT11M11.00S,4,1610612743,DEN,1627750,Murray,J. Murray,239,31,24,Made,1,101,89,190,h,Murray 24' 3PT Jump Shot (17 PTS) (Plumlee 1 AST),Made Shot,Jump Shot,1,3,396
+0021900844,557,PT10M56.00S,4,1610612750,MIN,1629633,Culver,J. Culver,31,15,3,Missed,1,,,0,v,MISS Culver 3' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,397
+0021900844,558,PT10M54.00S,4,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,h,Barton REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,398
+0021900844,559,PT10M48.00S,4,1610612743,DEN,203924,Grant,J. Grant,-18,4,2,Made,1,103,89,192,h,Grant 2' Driving Reverse Layup (8 PTS) (Barton 4 AST),Made Shot,Driving Reverse Layup Shot,1,2,399
+0021900844,561,PT10M31.00S,4,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,-24,68,7,Made,1,103,91,194,v,McLaughlin 7' Driving Floating Jump Shot (12 PTS),Made Shot,Driving Floating Jump Shot,1,2,400
+0021900844,562,PT10M14.00S,4,1610612743,DEN,1627750,Murray,J. Murray,-35,251,25,Missed,1,,,0,h,MISS Murray 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,401
+0021900844,563,PT10M11.00S,4,1610612743,DEN,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,402
+0021900844,564,PT10M09.00S,4,1610612743,DEN,1628420,Morris,M. Morris,-233,25,0,Made,1,106,91,197,h,Morris 3PT Jump Shot (11 PTS) (Plumlee 2 AST),Made Shot,Jump Shot,1,3,403
+0021900844,566,PT09M52.00S,4,1610612750,MIN,1629633,Culver,J. Culver,-226,63,0,Made,1,106,94,200,v,Culver 3PT Jump Shot (8 PTS) (McLaughlin 10 AST),Made Shot,Jump Shot,1,3,404
+0021900844,568,PT09M39.00S,4,1610612743,DEN,203924,Grant,J. Grant,-81,242,26,Missed,1,,,0,h,MISS Grant 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,405
+0021900844,569,PT09M39.00S,4,1610612750,MIN,1629633,Culver,J. Culver,0,0,0,,0,,,0,v,Culver REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,406
+0021900844,570,PT09M39.00S,4,1610612750,MIN,1627823,Hernangomez,J. Hernangomez,-191,185,27,Missed,1,,,0,v,MISS Hernangomez 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,407
+0021900844,571,PT09M39.00S,4,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,408
+0021900844,572,PT09M36.00S,4,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,,,0,h,Morris Bad Pass Turnover (P1.T12),Turnover,Bad Pass,1,0,409
+0021900844,572,PT09M36.00S,4,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,v,McLaughlin STEAL (1 STL),,,1,0,410
+0021900844,574,PT09M36.00S,4,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,,,0,h,Morris P.FOUL (P2.T1) (C.Washington),Foul,Personal,1,0,411
+0021900844,576,PT09M26.00S,4,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,30,11,3,Made,1,106,96,202,v,McLaughlin 3' Driving Layup (14 PTS),Made Shot,Driving Layup Shot,1,2,412
+0021900844,577,PT09M26.00S,4,1610612743,DEN,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee S.FOUL (P2.T2) (C.Washington),Foul,Shooting,1,0,413
+0021900844,579,PT09M26.00S,4,0,,1610612743,,,0,0,0,,0,,,0,h,NUGGETS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,414
+0021900844,580,PT09M26.00S,4,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,106,97,203,v,McLaughlin Free Throw 1 of 1 (15 PTS),Free Throw,Free Throw 1 of 1,1,0,415
+0021900844,581,PT09M08.00S,4,1610612743,DEN,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee 3 Second Violation Turnover (P1.T13),Turnover,3 Second Violation,1,0,416
+0021900844,582,PT08M56.00S,4,1610612750,MIN,1627823,Hernangomez,J. Hernangomez,209,151,26,Made,1,106,100,206,v,Hernangomez 26' 3PT Jump Shot (5 PTS) (Johnson 3 AST),Made Shot,Jump Shot,1,3,417
+0021900844,584,PT08M39.00S,4,1610612743,DEN,1627750,Murray,J. Murray,-209,130,25,Missed,1,,,0,h,MISS Murray 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,418
+0021900844,585,PT08M34.00S,4,1610612750,MIN,201949,Johnson,J. Johnson,0,0,0,,0,,,0,v,Johnson REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,419
+0021900844,586,PT08M27.00S,4,1610612750,MIN,1627823,Hernangomez,J. Hernangomez,30,31,4,Missed,1,,,0,v,MISS Hernangomez 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,420
+0021900844,587,PT08M25.00S,4,1610612743,DEN,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,421
+0021900844,588,PT08M12.00S,4,1610612743,DEN,203115,Barton,W. Barton,-24,0,2,Made,1,108,100,208,h,Barton 2' Cutting Layup Shot (7 PTS) (Plumlee 3 AST),Made Shot,Cutting Layup Shot,1,2,422
+0021900844,590,PT07M51.00S,4,1610612750,MIN,1629633,Culver,J. Culver,2,139,14,Missed,1,,,0,v,MISS Culver 14' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,423
+0021900844,591,PT07M49.00S,4,1610612743,DEN,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,424
+0021900844,592,PT07M31.00S,4,1610612743,DEN,203924,Grant,J. Grant,30,250,25,Made,1,111,100,211,h,Grant 25' 3PT Jump Shot (11 PTS) (Barton 5 AST),Made Shot,Jump Shot,1,3,425
+0021900844,594,PT07M31.00S,4,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,426
+0021900844,595,PT07M31.00S,4,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,h,SUB: Jokic FOR Barton,Substitution,,0,0,427
+0021900844,596,PT07M31.00S,4,1610612743,DEN,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,SUB: Harris FOR Plumlee,Substitution,,0,0,428
+0021900844,597,PT07M31.00S,4,1610612750,MIN,1629633,Culver,J. Culver,0,0,0,,0,,,0,v,SUB: Okogie FOR Culver,Substitution,,0,0,429
+0021900844,598,PT07M31.00S,4,1610612750,MIN,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,SUB: Reid FOR Martin,Substitution,,0,0,430
+0021900844,599,PT07M31.00S,4,1610612750,MIN,201949,Johnson,J. Johnson,0,0,0,,0,,,0,v,SUB: Beasley FOR Johnson,Substitution,,0,0,431
+0021900844,605,PT07M19.00S,4,1610612750,MIN,1627736,Beasley,M. Beasley,49,29,6,Missed,1,,,0,v,MISS Beasley 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,432
+0021900844,606,PT07M16.00S,4,1610612743,DEN,203914,Harris,G. Harris,0,0,0,,0,,,0,h,Harris REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,433
+0021900844,607,PT07M14.00S,4,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,Okogie S.FOUL (P3.T2) (K.Mauer),Foul,Shooting,1,0,434
+0021900844,609,PT07M14.00S,4,1610612743,DEN,203924,Grant,J. Grant,0,0,0,,0,,,0,h,MISS Grant Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,435
+0021900844,610,PT07M14.00S,4,0,,1610612743,,,0,0,0,,0,,,0,h,NUGGETS Rebound,Rebound,Normal Rebound,0,0,436
+0021900844,611,PT07M14.00S,4,1610612743,DEN,203924,Grant,J. Grant,0,0,0,,0,112,100,212,h,Grant Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,437
+0021900844,612,PT06M57.00S,4,1610612750,MIN,1627823,Hernangomez,J. Hernangomez,-126,84,15,Missed,1,,,0,v,MISS Hernangomez 15' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,438
+0021900844,613,PT06M54.00S,4,1610612743,DEN,203914,Harris,G. Harris,0,0,0,,0,,,0,h,Harris REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,439
+0021900844,614,PT06M43.00S,4,1610612743,DEN,203999,Jokić,N. Jokić,29,10,3,Made,1,114,100,214,h,Jokic 3' Finger Roll Layup (20 PTS),Made Shot,Finger Roll Layup Shot,1,2,440
+0021900844,615,PT06M17.00S,4,1610612743,DEN,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Jump Ball Grant vs. Reid: Tip to Jokic,Jump Ball,,1,0,441
+0021900844,618,PT06M17.00S,4,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid Lost Ball Turnover (P1.T13),Turnover,Lost Ball,1,0,442
+0021900844,618,PT06M17.00S,4,1610612743,DEN,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant STEAL (1 STL),,,1,0,443
+0021900844,621,PT06M16.00S,4,1610612743,DEN,203924,Grant,J. Grant,0,0,0,,0,,,0,h,SUB: Millsap FOR Grant,Substitution,,0,0,444
+0021900844,623,PT06M16.00S,4,1610612750,MIN,1629162,McLaughlin,J. McLaughlin,0,0,0,,0,,,0,v,SUB: Johnson FOR McLaughlin,Substitution,,0,0,445
+0021900844,625,PT06M02.00S,4,1610612743,DEN,1627750,Murray,J. Murray,2,96,10,Made,1,116,100,216,h,Murray 10' Pullup Jump Shot (19 PTS) (Jokic 5 AST),Made Shot,Pullup Jump shot,1,2,446
+0021900844,627,PT05M44.00S,4,1610612750,MIN,1627736,Beasley,M. Beasley,135,172,22,Made,1,116,102,218,v,Beasley 22' Jump Shot (17 PTS) (Johnson 4 AST),Made Shot,Jump Shot,1,2,447
+0021900844,629,PT05M27.00S,4,1610612743,DEN,1628420,Morris,M. Morris,-140,218,26,Missed,1,,,0,h,MISS Morris 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,448
+0021900844,630,PT05M24.00S,4,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,449
+0021900844,631,PT05M19.00S,4,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley Bad Pass Turnover (P1.T14),Turnover,Bad Pass,1,0,450
+0021900844,631,PT05M19.00S,4,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,,,0,h,Morris STEAL (2 STL),,,1,0,451
+0021900844,633,PT05M15.00S,4,1610612743,DEN,1628420,Morris,M. Morris,23,14,3,Made,1,118,102,220,h,Morris 3' Running Layup (13 PTS),Made Shot,Running Layup Shot,1,2,452
+0021900844,634,PT04M59.00S,4,1610612750,MIN,1629675,Reid,N. Reid,112,225,25,Missed,1,,,0,v,MISS Reid 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,453
+0021900844,635,PT04M56.00S,4,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,454
+0021900844,636,PT04M53.00S,4,1610612743,DEN,203999,Jokić,N. Jokić,5,13,1,Made,1,120,102,222,h,Jokic 1' Running Finger Roll Layup (22 PTS) (Morris 5 AST),Made Shot,Running Finger Roll Layup Shot,1,2,455
+0021900844,638,PT04M53.00S,4,0,,1610612750,,,0,0,0,,0,,,0,v,Timberwolves Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,456
+0021900844,639,PT04M53.00S,4,1610612743,DEN,1627750,Murray,J. Murray,0,0,0,,0,,,0,h,SUB: Barton FOR Murray,Substitution,,0,0,457
+0021900844,641,PT04M45.00S,4,1610612750,MIN,1627736,Beasley,M. Beasley,4,260,26,Missed,1,,,0,v,MISS Beasley 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,458
+0021900844,642,PT04M44.00S,4,0,,1610612743,,,0,0,0,,0,,,0,h,NUGGETS Rebound,Rebound,Unknown,0,0,459
+0021900844,644,PT04M29.00S,4,1610612743,DEN,203914,Harris,G. Harris,23,13,3,Made,1,122,102,224,h,Harris 3' Cutting Layup Shot (13 PTS) (Jokic 6 AST),Made Shot,Cutting Layup Shot,1,2,460
+0021900844,646,PT04M24.00S,4,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid Bad Pass Turnover (P2.T15),Turnover,Bad Pass,1,0,461
+0021900844,646,PT04M24.00S,4,1610612743,DEN,203914,Harris,G. Harris,0,0,0,,0,,,0,h,Harris STEAL (2 STL),,,1,0,462
+0021900844,648,PT04M18.00S,4,1610612743,DEN,203914,Harris,G. Harris,229,4,0,Missed,1,,,0,h,MISS Harris 3PT Jump Shot,Missed Shot,Jump Shot,1,3,463
+0021900844,649,PT04M12.00S,4,1610612750,MIN,201949,Johnson,J. Johnson,0,0,0,,0,,,0,v,Johnson REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,464
+0021900844,650,PT04M09.00S,4,1610612750,MIN,1627823,Hernangomez,J. Hernangomez,206,147,25,Missed,1,,,0,v,MISS Hernangomez 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,465
+0021900844,651,PT04M06.00S,4,1610612743,DEN,200794,Millsap,P. Millsap,0,0,0,,0,,,0,h,Millsap REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,466
+0021900844,653,PT04M01.00S,4,1610612750,MIN,1627736,Beasley,M. Beasley,0,0,0,,0,,,0,v,SUB: Martin FOR Beasley,Substitution,,0,0,467
+0021900844,654,PT04M01.00S,4,1610612750,MIN,201949,Johnson,J. Johnson,0,0,0,,0,,,0,v,SUB: Nowell FOR Johnson,Substitution,,0,0,468
+0021900844,655,PT04M01.00S,4,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,v,SUB: Culver FOR Okogie,Substitution,,0,0,469
+0021900844,659,PT03M53.00S,4,1610612743,DEN,200794,Millsap,P. Millsap,-25,14,3,Made,1,124,102,226,h,Millsap 3' Driving Layup (25 PTS) (Barton 6 AST),Made Shot,Driving Layup Shot,1,2,470
+0021900844,661,PT03M36.00S,4,1610612750,MIN,1629669,Nowell,J. Nowell,3,23,2,Made,1,124,104,228,v,Nowell 2' Driving Dunk (6 PTS) (Reid 1 AST),Made Shot,Driving Dunk Shot,1,2,471
+0021900844,663,PT03M29.00S,4,0,,1610612743,,,0,0,0,,0,,,0,h,NUGGETS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,472
+0021900844,664,PT03M06.00S,4,1610612743,DEN,203999,Jokić,N. Jokić,24,25,3,Made,1,126,104,230,h,Jokic 3' Driving Layup (24 PTS) (Morris 6 AST),Made Shot,Driving Layup Shot,1,2,473
+0021900844,666,PT02M47.00S,4,1610612750,MIN,1629675,Reid,N. Reid,2,22,2,Made,1,126,106,232,v,Reid 2' Cutting Layup Shot (13 PTS) (Culver 5 AST),Made Shot,Cutting Layup Shot,1,2,474
+0021900844,668,PT02M27.00S,4,1610612743,DEN,203914,Harris,G. Harris,28,21,4,Missed,1,,,0,h,MISS Harris 4' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,475
+0021900844,669,PT02M24.00S,4,1610612750,MIN,1629633,Culver,J. Culver,0,0,0,,0,,,0,v,Culver REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,476
+0021900844,670,PT02M23.00S,4,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,h,Barton Personal Take Foul (P4.T3) (N.Buchert),Foul,Personal Take,1,0,477
+0021900844,672,PT02M23.00S,4,1610612743,DEN,200794,Millsap,P. Millsap,0,0,0,,0,,,0,h,SUB: McRae FOR Millsap,Substitution,,0,0,478
+0021900844,673,PT02M23.00S,4,1610612743,DEN,203115,Barton,W. Barton,0,0,0,,0,,,0,h,SUB: Craig FOR Barton,Substitution,,0,0,479
+0021900844,674,PT02M23.00S,4,1610612743,DEN,1628420,Morris,M. Morris,0,0,0,,0,,,0,h,SUB: Dozier FOR Morris,Substitution,,0,0,480
+0021900844,675,PT02M23.00S,4,1610612743,DEN,203914,Harris,G. Harris,0,0,0,,0,,,0,h,SUB: Porter Jr. FOR Harris,Substitution,,0,0,481
+0021900844,676,PT02M23.00S,4,1610612743,DEN,203999,Jokić,N. Jokić,0,0,0,,0,,,0,h,SUB: Vonleh FOR Jokic,Substitution,,0,0,482
+0021900844,682,PT02M15.00S,4,1610612750,MIN,1629633,Culver,J. Culver,85,272,28,Made,1,126,109,235,v,Culver 28' 3PT Jump Shot (11 PTS) (Nowell 2 AST),Made Shot,Jump Shot,0,3,483
+0021900844,684,PT02M01.00S,4,1610612743,DEN,203943,Vonleh,N. Vonleh,-10,13,2,Made,1,128,109,237,h,Vonleh 2' Driving Reverse Layup (2 PTS),Made Shot,Driving Reverse Layup Shot,1,2,484
+0021900844,685,PT01M47.00S,4,1610612750,MIN,1629669,Nowell,J. Nowell,157,221,27,Missed,1,,,0,v,MISS Nowell 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,485
+0021900844,686,PT01M44.00S,4,1610612750,MIN,1627823,Hernangomez,J. Hernangomez,0,0,0,,0,,,0,v,Hernangomez REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,486
+0021900844,687,PT01M44.00S,4,1610612750,MIN,1627823,Hernangomez,J. Hernangomez,0,-6,1,Made,1,128,111,239,v,Hernangomez 1' Tip Layup Shot (7 PTS),Made Shot,Tip Layup Shot,1,2,487
+0021900844,688,PT01M33.00S,4,1610612743,DEN,1629008,Porter Jr.,M. Porter Jr.,-29,25,4,Missed,1,,,0,h,MISS Porter Jr. 4' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,488
+0021900844,689,PT01M31.00S,4,1610612750,MIN,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,Martin REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,489
+0021900844,690,PT01M24.00S,4,1610612750,MIN,1629103,Martin,K. Martin,41,21,5,Missed,1,,,0,v,MISS Martin 5' Running Layup,Missed Shot,Running Layup Shot,1,2,490
+0021900844,691,PT01M22.00S,4,1610612743,DEN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,491
+0021900844,692,PT01M03.00S,4,1610612743,DEN,1628408,Dozier,P. Dozier,130,152,20,Missed,1,,,0,h,MISS Dozier 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,492
+0021900844,693,PT01M00.00S,4,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,493
+0021900844,694,PT00M47.20S,4,1610612750,MIN,1629103,Martin,K. Martin,-98,252,27,Missed,1,,,0,v,MISS Martin 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,494
+0021900844,695,PT00M43.10S,4,1610612743,DEN,203943,Vonleh,N. Vonleh,0,0,0,,0,,,0,h,Vonleh REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,495
+0021900844,696,PT00M37.10S,4,1610612743,DEN,203943,Vonleh,N. Vonleh,0,0,0,,0,,,0,h,Vonleh Step Out of Bounds Turnover (P1.T14),Turnover,Step Out of Bounds Turnover,1,0,496
+0021900844,697,PT00M30.30S,4,1610612750,MIN,1629633,Culver,J. Culver,123,226,26,Made,1,128,114,242,v,Culver 26' 3PT Step Back Jump Shot (14 PTS),Made Shot,Step Back Jump shot,1,3,497
+0021900844,698,PT00M22.50S,4,1610612743,DEN,1629008,Porter Jr.,M. Porter Jr.,-160,194,25,Missed,1,,,0,h,MISS Porter Jr. 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,498
+0021900844,699,PT00M18.70S,4,0,,1610612743,,,0,0,0,,0,,,0,h,NUGGETS Rebound,Rebound,Unknown,0,0,499
+0021900844,701,PT00M18.70S,4,1610612743,DEN,203895,McRae,J. McRae,0,0,0,,0,,,0,h,SUB: Morris FOR McRae,Substitution,,0,0,500
+0021900844,703,PT00M09.70S,4,1610612743,DEN,1628470,Craig,T. Craig,145,68,16,Missed,1,,,0,h,MISS Craig 16' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,501
+0021900844,704,PT00M06.20S,4,1610612750,MIN,1629675,Reid,N. Reid,0,0,0,,0,,,0,v,Reid REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,502
+0021900844,708,PT00M03.20S,4,1610612743,DEN,1628470,Craig,T. Craig,0,0,0,,0,,,0,h,Craig S.FOUL (P4.T4) (K.Mauer),Foul,Shooting,1,0,503
+0021900844,710,PT00M03.20S,4,0,,707,Davis,M. Davis,0,0,0,,0,128,114,242,,Instant Replay4th Period (8:27 PM EST),Instant Replay,Overturn Ruling,0,0,504
+0021900844,711,PT00M03.20S,4,1610612750,MIN,1629103,Martin,K. Martin,0,0,0,,0,128,115,243,v,Martin Free Throw 1 of 2 (20 PTS),Free Throw,Free Throw 1 of 2,1,0,505
+0021900844,712,PT00M03.20S,4,1610612750,MIN,1629103,Martin,K. Martin,0,0,0,,0,128,116,244,v,Martin Free Throw 2 of 2 (21 PTS),Free Throw,Free Throw 2 of 2,1,0,506
+0021900844,713,PT00M00.00S,4,0,,0,,,0,0,0,,0,128,116,244,,End of 4th Period (8:28 PM EST),period,end,1,0,507

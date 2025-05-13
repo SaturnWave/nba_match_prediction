@@ -1,0 +1,484 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021900631,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (8:12 PM EST),period,start,0,0,1
+0021900631,4,PT12M00.00S,1,1610612741,CHI,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Jump Ball Kornet vs. Thompson: Tip to Satoransky,Jump Ball,,1,0,2
+0021900631,7,PT11M45.00S,1,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen Out of Bounds Lost Ball Turnover (P1.T1),Turnover,Out of Bounds Lost Ball Turnover,1,0,3
+0021900631,8,PT11M36.00S,1,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland Out of Bounds - Bad Pass Turnover Turnover (P1.T1),Turnover,Out of Bounds - Bad Pass Turnover,1,0,4
+0021900631,9,PT11M24.00S,1,1610612741,CHI,203107,Satoransky,T. Satoransky,10,2,1,Missed,1,,,0,h,MISS Satoransky 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,5
+0021900631,10,PT11M20.00S,1,1610612741,CHI,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,6
+0021900631,11,PT11M20.00S,1,1610612741,CHI,1628436,Kornet,L. Kornet,0,-6,1,Made,1,2,0,2,h,Kornet 1' Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,7
+0021900631,12,PT11M11.00S,1,1610612739,CLE,201567,Love,K. Love,-231,14,0,Made,1,2,3,5,v,Love 3PT Jump Shot (3 PTS) (Garland 1 AST),Made Shot,Jump Shot,1,3,8
+0021900631,14,PT10M49.00S,1,1610612741,CHI,1628436,Kornet,L. Kornet,-19,252,25,Made,1,5,3,8,h,Kornet 25' 3PT Jump Shot (5 PTS) (Satoransky 1 AST),Made Shot,Jump Shot,1,3,9
+0021900631,16,PT10M36.00S,1,1610612739,CLE,1626224,Osman,C. Osman,-236,13,24,Made,1,5,6,11,v,Osman 24' 3PT Jump Shot (3 PTS) (Sexton 1 AST),Made Shot,Jump Shot,1,3,10
+0021900631,18,PT10M21.00S,1,1610612741,CHI,1628436,Kornet,L. Kornet,-23,10,3,Missed,1,,,0,h,MISS Kornet 3' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,11
+0021900631,19,PT10M18.00S,1,1610612739,CLE,1626224,Osman,C. Osman,0,0,0,,0,,,0,v,Osman REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,12
+0021900631,20,PT10M14.00S,1,1610612739,CLE,201567,Love,K. Love,30,262,26,Missed,1,,,0,v,MISS Love 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,13
+0021900631,21,PT10M10.00S,1,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,14
+0021900631,22,PT10M03.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,60,211,22,Made,1,7,6,13,h,LaVine 22' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,15
+0021900631,23,PT09M47.00S,1,1610612739,CLE,201567,Love,K. Love,153,157,22,Made,1,7,8,15,v,Love 22' Pullup Jump Shot (5 PTS) (Thompson 1 AST),Made Shot,Pullup Jump shot,1,2,16
+0021900631,115,PT09M35.00S,1,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn Lost Ball Turnover (P1.T2),Turnover,Lost Ball,1,0,17
+0021900631,115,PT09M35.00S,1,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,Love STEAL (1 STL),,,1,0,18
+0021900631,27,PT09M27.00S,1,1610612739,CLE,1629636,Garland,D. Garland,18,247,25,Missed,1,,,0,v,MISS Garland 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,19
+0021900631,28,PT09M23.00S,1,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,20
+0021900631,29,PT09M20.00S,1,1610612739,CLE,1626224,Osman,C. Osman,0,0,0,,0,,,0,v,Osman P.FOUL (P1.T1) (M.Lindsay),Foul,Personal,1,0,21
+0021900631,31,PT09M10.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,-12,154,15,Missed,1,,,0,h,MISS LaVine 15' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,22
+0021900631,32,PT09M07.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,23
+0021900631,33,PT08M58.00S,1,1610612739,CLE,201567,Love,K. Love,43,116,12,Made,1,7,10,17,v,Love 12' Jump Shot (7 PTS) (Sexton 2 AST),Made Shot,Jump Shot,1,2,24
+0021900631,35,PT08M40.00S,1,1610612741,CHI,203107,Satoransky,T. Satoransky,-2,4,0,Made,1,9,10,19,h,Satoransky Cutting Layup Shot (2 PTS) (Kornet 1 AST),Made Shot,Cutting Layup Shot,1,2,25
+0021900631,37,PT08M28.00S,1,1610612739,CLE,201567,Love,K. Love,147,219,26,Made,1,9,13,22,v,Love 26' 3PT Jump Shot (10 PTS) (Garland 2 AST),Made Shot,Jump Shot,1,3,26
+0021900631,39,PT08M18.00S,1,1610612741,CHI,1627739,Dunn,K. Dunn,13,-3,1,Made,1,11,13,24,h,Dunn 1' Driving Layup (2 PTS) (Kornet 2 AST),Made Shot,Driving Layup Shot,1,2,27
+0021900631,41,PT07M57.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,9,13,2,Missed,1,,,0,v,MISS Sexton 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,28
+0021900631,42,PT07M53.00S,1,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,29
+0021900631,43,PT07M53.00S,1,1610612739,CLE,202684,Thompson,T. Thompson,0,-6,1,Made,1,11,15,26,v,Thompson 1' Putback Dunk (2 PTS),Made Shot,Putback Dunk Shot,1,2,30
+0021900631,44,PT07M44.00S,1,1610612741,CHI,1628436,Kornet,L. Kornet,162,193,25,Made,1,14,15,29,h,Kornet 25' 3PT Jump Shot (8 PTS) (Satoransky 2 AST),Made Shot,Jump Shot,1,3,31
+0021900631,46,PT07M31.00S,1,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,32
+0021900631,46,PT07M31.00S,1,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen STEAL (1 STL),,,1,0,33
+0021900631,48,PT07M27.00S,1,1610612741,CHI,1628436,Kornet,L. Kornet,182,170,25,Missed,1,,,0,h,MISS Kornet 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,34
+0021900631,49,PT07M23.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,35
+0021900631,50,PT07M23.00S,1,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,Satoransky P.FOUL (P1.T1) (M.Lindsay),Foul,Personal,1,0,36
+0021900631,52,PT07M07.00S,1,1610612739,CLE,201567,Love,K. Love,-166,199,26,Missed,1,,,0,v,MISS Love 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,37
+0021900631,52,PT07M07.00S,1,1610612741,CHI,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet BLOCK (1 BLK),,,1,3,38
+0021900631,54,PT07M06.00S,1,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Rebound,Rebound,Unknown,0,0,39
+0021900631,55,PT07M06.00S,1,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen L.B.FOUL (P1.T2) (B.Taylor),Foul,Loose Ball,1,0,40
+0021900631,57,PT06M59.00S,1,1610612739,CLE,201567,Love,K. Love,-26,263,26,Made,1,14,18,32,v,Love 26' 3PT Jump Shot (13 PTS) (Osman 1 AST),Made Shot,Jump Shot,1,3,41
+0021900631,59,PT06M46.00S,1,1610612741,CHI,1628374,Markkanen,L. Markkanen,196,155,25,Missed,1,,,0,h,MISS Markkanen 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,42
+0021900631,60,PT06M44.00S,1,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,Love REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,43
+0021900631,61,PT06M32.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,-27,10,3,Missed,1,,,0,v,MISS Sexton 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,44
+0021900631,61,PT06M32.00S,1,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn BLOCK (1 BLK),,,1,2,45
+0021900631,63,PT06M26.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,46
+0021900631,64,PT06M26.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,0,-6,1,Made,1,14,20,34,v,Sexton 1' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,47
+0021900631,65,PT06M17.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,13,5,1,Made,1,16,20,36,h,LaVine 1' Driving Reverse Layup (4 PTS),Made Shot,Driving Reverse Layup Shot,1,2,48
+0021900631,66,PT06M00.00S,1,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland Bad Pass Turnover (P2.T3),Turnover,Bad Pass,1,0,49
+0021900631,66,PT06M00.00S,1,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn STEAL (1 STL),,,1,0,50
+0021900631,69,PT05M59.00S,1,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,51
+0021900631,71,PT05M59.00S,1,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,SUB: White FOR Satoransky,Substitution,,0,0,52
+0021900631,72,PT05M59.00S,1,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,SUB: Exum FOR Garland,Substitution,,0,0,53
+0021900631,73,PT05M59.00S,1,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,SUB: Nance Jr. FOR Thompson,Substitution,,0,0,54
+0021900631,78,PT05M59.00S,1,1610612741,CHI,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,SUB: Felicio FOR Kornet,Substitution,,0,0,55
+0021900631,79,PT05M48.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,-122,272,30,Missed,1,,,0,h,MISS LaVine 30' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,56
+0021900631,80,PT05M45.00S,1,1610612739,CLE,1626224,Osman,C. Osman,0,0,0,,0,,,0,v,Osman REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,57
+0021900631,81,PT05M29.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,-4,31,3,Missed,1,,,0,v,MISS Sexton 3' Jump Shot,Missed Shot,Jump Shot,1,2,58
+0021900631,82,PT05M29.00S,1,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Rebound,Rebound,Unknown,0,0,59
+0021900631,83,PT05M29.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton Traveling Turnover (P1.T4),Turnover,Traveling,1,0,60
+0021900631,84,PT05M14.00S,1,1610612741,CHI,1626245,Felicio,C. Felicio,0,0,0,,0,,,0,h,Felicio OFF.Foul (P1) (B.Taylor),Foul,Offensive,1,0,61
+0021900631,86,PT05M14.00S,1,1610612741,CHI,1626245,Felicio,C. Felicio,0,0,0,,0,,,0,h,Felicio Offensive Foul Turnover (P1.T3),Turnover,Offensive Foul Turnover,1,0,62
+0021900631,87,PT05M03.00S,1,1610612739,CLE,203957,Exum,D. Exum,0,0,0,,0,,,0,v,Exum Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,63
+0021900631,87,PT05M03.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine STEAL (1 STL),,,1,0,64
+0021900631,89,PT04M56.00S,1,1610612741,CHI,1628374,Markkanen,L. Markkanen,-78,249,26,Missed,1,,,0,h,MISS Markkanen 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,65
+0021900631,90,PT04M49.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,66
+0021900631,91,PT04M49.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,-6,1,Missed,1,,,0,h,MISS LaVine 1' Putback Layup,Missed Shot,Putback Layup Shot,1,2,67
+0021900631,92,PT04M49.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,68
+0021900631,93,PT04M47.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,-6,1,Made,1,18,20,38,h,LaVine 1' Tip Layup Shot (6 PTS),Made Shot,Tip Layup Shot,1,2,69
+0021900631,94,PT04M30.00S,1,1610612739,CLE,1626224,Osman,C. Osman,226,17,0,Made,1,18,23,41,v,Osman 3PT Jump Shot (6 PTS) (Nance Jr. 1 AST),Made Shot,Jump Shot,1,3,70
+0021900631,96,PT04M15.00S,1,1610612741,CHI,1627739,Dunn,K. Dunn,-217,125,25,Made,1,21,23,44,h,Dunn 25' 3PT Jump Shot (5 PTS) (Felicio 1 AST),Made Shot,Jump Shot,1,3,71
+0021900631,98,PT04M01.00S,1,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,Love Bad Pass Turnover (P1.T6),Turnover,Bad Pass,1,0,72
+0021900631,98,PT04M01.00S,1,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,h,White STEAL (1 STL),,,1,0,73
+0021900631,100,PT03M58.00S,1,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,h,White Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,74
+0021900631,100,PT03M58.00S,1,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. STEAL (1 STL),,,1,0,75
+0021900631,102,PT03M57.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine S.FOUL (P1.T3) (B.Taylor),Foul,Shooting,1,0,76
+0021900631,104,PT03M57.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,21,24,45,v,Sexton Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,77
+0021900631,105,PT03M57.00S,1,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,SUB: Young FOR Markkanen,Substitution,,0,0,78
+0021900631,106,PT03M57.00S,1,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,SUB: Thompson FOR Love,Substitution,,0,0,79
+0021900631,107,PT03M57.00S,1,1610612739,CLE,1626224,Osman,C. Osman,0,0,0,,0,,,0,v,SUB: McKinnie FOR Osman,Substitution,,0,0,80
+0021900631,111,PT03M57.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,21,25,46,v,Sexton Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,81
+0021900631,112,PT03M47.00S,1,1610612741,CHI,1627739,Dunn,K. Dunn,-5,6,1,Made,1,23,25,48,h,Dunn 1' Running Dunk (7 PTS),Made Shot,Running Dunk Shot,1,2,82
+0021900631,113,PT03M25.00S,1,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,h,White S.FOUL (P1.T4) (B.Taylor),Foul,Shooting,1,0,83
+0021900631,117,PT03M25.00S,1,1610612739,CLE,203957,Exum,D. Exum,0,0,0,,0,23,26,49,v,Exum Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,84
+0021900631,118,PT03M25.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,SUB: Garland FOR Sexton,Substitution,,0,0,85
+0021900631,120,PT03M25.00S,1,1610612739,CLE,203957,Exum,D. Exum,0,0,0,,0,,,0,v,MISS Exum Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,86
+0021900631,121,PT03M23.00S,1,1610612741,CHI,201152,Young,T. Young,0,0,0,,0,,,0,h,Young REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,87
+0021900631,122,PT03M17.00S,1,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland P.FOUL (P1.T2) (M.Lindsay),Foul,Personal,1,0,88
+0021900631,124,PT03M10.00S,1,1610612741,CHI,1627739,Dunn,K. Dunn,21,5,2,Made,1,25,26,51,h,Dunn 2' Driving Finger Roll Layup (9 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,89
+0021900631,125,PT02M51.00S,1,1610612739,CLE,1629636,Garland,D. Garland,-9,11,1,Missed,1,,,0,v,MISS Garland 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,90
+0021900631,126,PT02M49.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,91
+0021900631,127,PT02M37.00S,1,1610612739,CLE,203957,Exum,D. Exum,0,0,0,,0,,,0,v,Exum P.FOUL (P1.T3) (B.Taylor),Foul,Personal,1,0,92
+0021900631,129,PT02M37.00S,1,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,93
+0021900631,130,PT02M37.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,SUB: Arcidiacono FOR LaVine,Substitution,,0,0,94
+0021900631,131,PT02M37.00S,1,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,SUB: Hutchison FOR Dunn,Substitution,,0,0,95
+0021900631,134,PT02M29.00S,1,1610612741,CHI,1629632,White,C. White,4,62,6,Made,1,27,26,53,h,White 6' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,96
+0021900631,135,PT02M06.00S,1,1610612739,CLE,202684,Thompson,T. Thompson,2,16,2,Made,1,27,28,55,v,Thompson 2' Layup (4 PTS) (Garland 3 AST),Made Shot,Layup Shot,1,2,97
+0021900631,137,PT01M50.00S,1,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,h,White Traveling Turnover (P2.T5),Turnover,Traveling,1,0,98
+0021900631,138,PT01M36.00S,1,1610612739,CLE,1628035,McKinnie,A. McKinnie,3,66,7,Made,1,27,30,57,v,McKinnie 7' Pullup Jump Shot (2 PTS) (Exum 1 AST),Made Shot,Pullup Jump shot,1,2,99
+0021900631,140,PT01M36.00S,1,1610612741,CHI,1626245,Felicio,C. Felicio,0,0,0,,0,,,0,h,Felicio S.FOUL (P2.PN) (M.Lindsay),Foul,Shooting,1,0,100
+0021900631,142,PT01M36.00S,1,1610612741,CHI,1626245,Felicio,C. Felicio,0,0,0,,0,,,0,h,SUB: Kornet FOR Felicio,Substitution,,0,0,101
+0021900631,144,PT01M36.00S,1,1610612739,CLE,1628035,McKinnie,A. McKinnie,0,0,0,,0,27,31,58,v,McKinnie Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,1,0,102
+0021900631,146,PT01M13.00S,1,1610612741,CHI,1629632,White,C. White,16,0,2,Made,1,29,31,60,h,White 2' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,103
+0021900631,147,PT00M58.70S,1,1610612739,CLE,1629636,Garland,D. Garland,17,108,11,Made,1,29,33,62,v,Garland 11' Floating Jump Shot (2 PTS),Made Shot,Floating Jump shot,1,2,104
+0021900631,148,PT00M46.60S,1,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,4,85,9,Made,1,31,33,64,h,Arcidiacono 9' Driving Floating Jump Shot (2 PTS) (Kornet 3 AST),Made Shot,Driving Floating Jump Shot,1,2,105
+0021900631,149,PT00M37.90S,1,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland Lost Ball Turnover (P3.T7),Turnover,Lost Ball,1,0,106
+0021900631,149,PT00M37.90S,1,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,0,0,0,,0,,,0,h,Arcidiacono STEAL (1 STL),,,1,0,107
+0021900631,151,PT00M34.20S,1,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,0,5,1,Missed,1,,,0,h,MISS Arcidiacono 1' Running Layup,Missed Shot,Running Layup Shot,1,2,108
+0021900631,152,PT00M31.80S,1,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,109
+0021900631,153,PT00M25.20S,1,1610612739,CLE,1628035,McKinnie,A. McKinnie,1,47,5,Missed,1,,,0,v,MISS McKinnie 5' Jump Shot,Missed Shot,Jump Shot,1,2,110
+0021900631,154,PT00M20.80S,1,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,111
+0021900631,155,PT00M20.80S,1,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,-6,1,Missed,1,,,0,v,MISS Nance Jr. 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,112
+0021900631,156,PT00M20.30S,1,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,h,White REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,113
+0021900631,157,PT00M00.00S,1,1610612741,CHI,1629632,White,C. White,98,169,20,Missed,1,,,0,h,MISS White 20' Jump Shot,Missed Shot,Jump Shot,1,2,114
+0021900631,158,PT00M00.00S,1,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Rebound,Rebound,Unknown,0,0,115
+0021900631,159,PT00M00.00S,1,0,,0,,,0,0,0,,0,31,33,64,,End of 1st Period (8:35 PM EST),period,end,1,0,116
+0021900631,162,PT12M00.00S,2,0,,0,,,0,0,0,,0,31,33,64,,Start of 2nd Period (8:38 PM EST),period,start,0,0,117
+0021900631,164,PT11M47.00S,2,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland Out of Bounds Lost Ball Turnover (P4.T8),Turnover,Out of Bounds Lost Ball Turnover,1,0,118
+0021900631,165,PT11M30.00S,2,1610612741,CHI,201152,Young,T. Young,-9,7,1,Made,1,33,33,66,h,Young 1' Cutting Layup Shot (2 PTS) (Hutchison 1 AST),Made Shot,Cutting Layup Shot,1,2,119
+0021900631,167,PT11M04.00S,2,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. Bad Pass Turnover (P1.T9),Turnover,Bad Pass,1,0,120
+0021900631,167,PT11M04.00S,2,1610612741,CHI,1628990,Hutchison,C. Hutchison,0,0,0,,0,,,0,h,Hutchison STEAL (1 STL),,,1,0,121
+0021900631,169,PT10M58.00S,2,1610612741,CHI,1628436,Kornet,L. Kornet,147,202,25,Missed,1,,,0,h,MISS Kornet 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,122
+0021900631,170,PT10M55.00S,2,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,123
+0021900631,171,PT10M45.00S,2,1610612739,CLE,1628035,McKinnie,A. McKinnie,-232,20,0,Missed,1,,,0,v,MISS McKinnie 3PT Jump Shot,Missed Shot,Jump Shot,1,3,124
+0021900631,172,PT10M42.00S,2,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,0,0,0,,0,,,0,h,Arcidiacono REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,125
+0021900631,173,PT10M33.00S,2,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,-228,-3,0,Missed,1,,,0,h,MISS Arcidiacono 3PT Jump Shot,Missed Shot,Jump Shot,1,3,126
+0021900631,174,PT10M30.00S,2,1610612739,CLE,1628035,McKinnie,A. McKinnie,0,0,0,,0,,,0,v,McKinnie REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,127
+0021900631,175,PT10M18.00S,2,1610612739,CLE,1629636,Garland,D. Garland,-11,16,2,Missed,1,,,0,v,MISS Garland 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,128
+0021900631,176,PT10M15.00S,2,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,129
+0021900631,177,PT10M15.00S,2,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,-6,1,Made,1,33,35,68,v,Nance Jr. 1' Putback Dunk (2 PTS),Made Shot,Putback Dunk Shot,1,2,130
+0021900631,178,PT09M56.00S,2,1610612741,CHI,1628990,Hutchison,C. Hutchison,-33,29,4,Made,1,35,35,70,h,Hutchison 4' Driving Floating Bank Jump Shot (2 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,131
+0021900631,179,PT09M47.00S,2,1610612741,CHI,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet S.FOUL (P1.T1) (A.Moyer-Gleich),Foul,Shooting,1,0,132
+0021900631,181,PT09M47.00S,2,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,35,36,71,v,Thompson Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,133
+0021900631,182,PT09M47.00S,2,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,0,0,0,,0,,,0,h,SUB: Dunn FOR Arcidiacono,Substitution,,0,0,134
+0021900631,183,PT09M47.00S,2,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,SUB: Love FOR Nance Jr.,Substitution,,0,0,135
+0021900631,186,PT09M47.00S,2,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,35,37,72,v,Thompson Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,136
+0021900631,187,PT09M34.00S,2,1610612741,CHI,201152,Young,T. Young,192,163,25,Made,1,38,37,75,h,Young 25' 3PT Jump Shot (5 PTS) (White 1 AST),Made Shot,Jump Shot,1,3,137
+0021900631,189,PT09M21.00S,2,1610612739,CLE,201567,Love,K. Love,-162,138,21,Made,1,38,39,77,v,Love 21' Jump Shot (15 PTS) (Dellavedova 1 AST),Made Shot,Jump Shot,1,2,138
+0021900631,229,PT09M21.00S,2,0,,189,Tyler,B. Tyler,0,0,0,,0,38,39,77,,Instant Replay2nd Period (8:42 PM EST),Instant Replay,Overturn Ruling,0,0,139
+0021900631,191,PT09M04.00S,2,1610612739,CLE,1628035,McKinnie,A. McKinnie,0,0,0,,0,,,0,v,McKinnie S.FOUL (P1.T1) (A.Moyer-Gleich),Foul,Shooting,1,0,140
+0021900631,193,PT09M04.00S,2,1610612741,CHI,1628990,Hutchison,C. Hutchison,0,0,0,,0,39,39,78,h,Hutchison Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,141
+0021900631,194,PT09M04.00S,2,1610612741,CHI,1628990,Hutchison,C. Hutchison,0,0,0,,0,40,39,79,h,Hutchison Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,142
+0021900631,195,PT08M50.00S,2,1610612739,CLE,202684,Thompson,T. Thompson,-9,59,6,Made,1,40,41,81,v,Thompson 6' Turnaround Hook Shot (8 PTS) (Dellavedova 2 AST),Made Shot,Turnaround Hook Shot,1,2,143
+0021900631,197,PT08M41.00S,2,1610612741,CHI,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet OFF.Foul (P2) (A.Moyer-Gleich),Foul,Offensive,1,0,144
+0021900631,199,PT08M41.00S,2,1610612741,CHI,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet Offensive Foul Turnover (P1.T6),Turnover,Offensive Foul Turnover,1,0,145
+0021900631,200,PT08M41.00S,2,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,h,SUB: Felicio FOR White,Substitution,,0,0,146
+0021900631,201,PT08M41.00S,2,1610612741,CHI,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,SUB: LaVine FOR Kornet,Substitution,,0,0,147
+0021900631,202,PT08M41.00S,2,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,SUB: Sexton FOR Garland,Substitution,,0,0,148
+0021900631,206,PT08M32.00S,2,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson Traveling Turnover (P2.T10),Turnover,Traveling,1,0,149
+0021900631,207,PT08M12.00S,2,1610612741,CHI,201152,Young,T. Young,-25,49,6,Missed,1,,,0,h,MISS Young 6' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,150
+0021900631,207,PT08M12.00S,2,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson BLOCK (1 BLK),,,1,2,151
+0021900631,209,PT08M10.00S,2,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,152
+0021900631,210,PT08M10.00S,2,1610612741,CHI,201152,Young,T. Young,0,0,0,,0,,,0,h,Young P.FOUL (P1.T2) (M.Lindsay),Foul,Personal,1,0,153
+0021900631,212,PT08M10.00S,2,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,SUB: Nance Jr. FOR Thompson,Substitution,,0,0,154
+0021900631,214,PT07M54.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,74,236,25,Made,1,40,44,84,v,Sexton 25' 3PT Jump Shot (7 PTS) (Dellavedova 3 AST),Made Shot,Jump Shot,1,3,155
+0021900631,216,PT07M30.00S,2,1610612741,CHI,1627739,Dunn,K. Dunn,93,83,12,Missed,1,,,0,h,MISS Dunn 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,156
+0021900631,217,PT07M28.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,157
+0021900631,218,PT07M28.00S,2,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn P.FOUL (P1.T3) (M.Lindsay),Foul,Personal,1,0,158
+0021900631,220,PT07M16.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,1,22,2,Made,1,40,46,86,v,Sexton 2' Driving Layup (9 PTS),Made Shot,Driving Layup Shot,1,2,159
+0021900631,221,PT07M02.00S,2,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn Out of Bounds - Bad Pass Turnover Turnover (P2.T7),Turnover,Out of Bounds - Bad Pass Turnover,1,0,160
+0021900631,222,PT07M02.00S,2,1610612741,CHI,1628990,Hutchison,C. Hutchison,0,0,0,,0,,,0,h,SUB: Satoransky FOR Hutchison,Substitution,,0,0,161
+0021900631,223,PT07M02.00S,2,1610612741,CHI,201152,Young,T. Young,0,0,0,,0,,,0,h,SUB: Markkanen FOR Young,Substitution,,0,0,162
+0021900631,226,PT06M52.00S,2,1610612739,CLE,201567,Love,K. Love,-106,216,24,Made,1,40,49,89,v,Love 24' 3PT Jump Shot (18 PTS) (Dellavedova 4 AST),Made Shot,Jump Shot,1,3,163
+0021900631,228,PT06M49.00S,2,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,164
+0021900631,230,PT06M26.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,2,55,6,Missed,1,,,0,h,MISS Markkanen 6' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,165
+0021900631,231,PT06M24.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,166
+0021900631,232,PT06M22.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,9,23,2,Made,1,42,49,91,h,Markkanen 2' Layup (2 PTS),Made Shot,Layup Shot,1,2,167
+0021900631,233,PT06M09.00S,2,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,Satoransky P.FOUL (P2.T4) (A.Moyer-Gleich),Foul,Personal,1,0,168
+0021900631,235,PT06M09.00S,2,1610612739,CLE,203521,Dellavedova,M. Dellavedova,0,0,0,,0,,,0,v,SUB: Garland FOR Dellavedova,Substitution,,0,0,169
+0021900631,237,PT06M00.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,-54,247,25,Made,1,42,52,94,v,Sexton 25' 3PT Jump Shot (12 PTS),Made Shot,Jump Shot,1,3,170
+0021900631,238,PT05M35.00S,2,1610612741,CHI,203107,Satoransky,T. Satoransky,135,6,14,Missed,1,,,0,h,MISS Satoransky 14' Jump Shot,Missed Shot,Jump Shot,1,2,171
+0021900631,239,PT05M31.00S,2,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,Love REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,172
+0021900631,240,PT05M13.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton Bad Pass Turnover (P2.T11),Turnover,Bad Pass,1,0,173
+0021900631,240,PT05M13.00S,2,1610612741,CHI,1626245,Felicio,C. Felicio,0,0,0,,0,,,0,h,Felicio STEAL (1 STL),,,1,0,174
+0021900631,242,PT05M12.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton P.FOUL (P1.T2) (A.Moyer-Gleich),Foul,Personal,1,0,175
+0021900631,245,PT05M12.00S,2,1610612741,CHI,1626245,Felicio,C. Felicio,0,0,0,,0,,,0,h,SUB: Kornet FOR Felicio,Substitution,,0,0,176
+0021900631,246,PT05M12.00S,2,1610612739,CLE,1628035,McKinnie,A. McKinnie,0,0,0,,0,,,0,v,SUB: Osman FOR McKinnie,Substitution,,0,0,177
+0021900631,244,PT05M01.00S,2,1610612741,CHI,203897,LaVine,Z. LaVine,-16,2,2,Made,1,44,52,96,h,LaVine 2' Driving Layup (8 PTS),Made Shot,Driving Layup Shot,1,2,178
+0021900631,249,PT04M41.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,131,218,25,Made,1,44,55,99,v,Sexton 25' 3PT Jump Shot (15 PTS) (Nance Jr. 2 AST),Made Shot,Jump Shot,1,3,179
+0021900631,253,PT04M26.00S,2,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,SUB: Thompson FOR Nance Jr.,Substitution,,0,0,180
+0021900631,255,PT04M23.00S,2,1610612741,CHI,203107,Satoransky,T. Satoransky,20,152,15,Made,1,46,55,101,h,Satoransky 15' Pullup Jump Shot (4 PTS) (LaVine 1 AST),Made Shot,Pullup Jump shot,1,2,181
+0021900631,257,PT04M00.00S,2,1610612739,CLE,1629636,Garland,D. Garland,-75,237,25,Made,1,46,58,104,v,Garland 25' 3PT Jump Shot (5 PTS) (Love 1 AST),Made Shot,Jump Shot,1,3,182
+0021900631,259,PT03M41.00S,2,1610612741,CHI,203897,LaVine,Z. LaVine,3,4,1,Made,1,48,58,106,h,LaVine 1' Cutting Dunk Shot (10 PTS) (Satoransky 3 AST),Made Shot,Cutting Dunk Shot,1,2,183
+0021900631,261,PT03M39.00S,2,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Violation: Delay of game Violation,Violation,Delay Of Game,0,0,184
+0021900631,262,PT03M28.00S,2,1610612739,CLE,1629636,Garland,D. Garland,47,256,26,Made,1,48,61,109,v,Garland 26' 3PT Jump Shot (8 PTS) (Love 2 AST),Made Shot,Jump Shot,1,3,185
+0021900631,264,PT03M13.00S,2,1610612741,CHI,203897,LaVine,Z. LaVine,116,2,12,Missed,1,,,0,h,MISS LaVine 12' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,186
+0021900631,264,PT03M13.00S,2,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,Love BLOCK (1 BLK),,,1,2,187
+0021900631,266,PT03M10.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,188
+0021900631,267,PT03M09.00S,2,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn P.FOUL (P2.PN) (M.Lindsay),Foul,Personal,1,0,189
+0021900631,269,PT03M09.00S,2,1610612739,CLE,1626224,Osman,C. Osman,0,0,0,,0,48,62,110,v,Osman Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,190
+0021900631,270,PT03M09.00S,2,1610612739,CLE,1626224,Osman,C. Osman,0,0,0,,0,48,63,111,v,Osman Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,191
+0021900631,271,PT03M00.00S,2,1610612741,CHI,203897,LaVine,Z. LaVine,0,10,1,Made,1,50,63,113,h,LaVine 1' Driving Layup (12 PTS) (Satoransky 4 AST),Made Shot,Driving Layup Shot,1,2,192
+0021900631,273,PT03M00.00S,2,1610612739,CLE,1626224,Osman,C. Osman,0,0,0,,0,,,0,v,Osman S.FOUL (P2.T3) (A.Moyer-Gleich),Foul,Shooting,1,0,193
+0021900631,276,PT03M00.00S,2,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,51,63,114,h,LaVine Free Throw 1 of 1 (13 PTS),Free Throw,Free Throw 1 of 1,1,0,194
+0021900631,277,PT02M41.00S,2,1610612739,CLE,201567,Love,K. Love,38,24,4,Made,1,51,65,116,v,Love 4' Hook Shot (20 PTS) (Thompson 2 AST),Made Shot,Hook Shot,1,2,195
+0021900631,279,PT02M25.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,111,220,25,Missed,1,,,0,h,MISS Markkanen 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,196
+0021900631,280,PT02M24.00S,2,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Rebound,Rebound,Unknown,0,0,197
+0021900631,282,PT02M24.00S,2,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,198
+0021900631,283,PT02M17.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,-161,191,25,Missed,1,,,0,h,MISS Markkanen 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,199
+0021900631,284,PT02M13.00S,2,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,200
+0021900631,285,PT01M56.00S,2,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland Out of Bounds Lost Ball Turnover (P5.T12),Turnover,Out of Bounds Lost Ball Turnover,1,0,201
+0021900631,286,PT01M56.00S,2,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,SUB: White FOR Dunn,Substitution,,0,0,202
+0021900631,288,PT01M46.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,15,7,2,Made,1,53,65,118,h,Markkanen 2' Driving Layup (4 PTS) (LaVine 2 AST),Made Shot,Driving Layup Shot,1,2,203
+0021900631,290,PT01M46.00S,2,1610612739,CLE,1626224,Osman,C. Osman,0,0,0,,0,,,0,v,Osman S.FOUL (P3.T4) (M.Lindsay),Foul,Shooting,1,0,204
+0021900631,292,PT01M46.00S,2,1610612739,CLE,1626224,Osman,C. Osman,0,0,0,,0,,,0,v,SUB: McKinnie FOR Osman,Substitution,,0,0,205
+0021900631,294,PT01M46.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,54,65,119,h,Markkanen Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,206
+0021900631,295,PT01M29.00S,2,1610612739,CLE,201567,Love,K. Love,-111,172,20,Made,1,54,67,121,v,Love 20' Step Back Jump Shot (22 PTS),Made Shot,Step Back Jump shot,1,2,207
+0021900631,296,PT01M10.00S,2,1610612741,CHI,203897,LaVine,Z. LaVine,-172,-6,17,Made,1,56,67,123,h,LaVine 17' Pullup Jump Shot (15 PTS),Made Shot,Pullup Jump shot,1,2,208
+0021900631,298,PT00M57.50S,2,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,BULLS T.Foul (Def. 3 Sec LaVine ) (M.Lindsay),Foul,Defense 3 Second,1,0,209
+0021900631,299,PT00M57.50S,2,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,56,68,124,v,Love Free Throw Technical (23 PTS),Free Throw,Free Throw Technical,1,0,210
+0021900631,300,PT00M52.30S,2,1610612739,CLE,1629012,Sexton,C. Sexton,11,153,15,Made,1,56,70,126,v,Sexton 15' Fadeaway Jumper (17 PTS) (Love 3 AST),Made Shot,Fadeaway Jump Shot,1,2,211
+0021900631,302,PT00M40.20S,2,1610612741,CHI,203897,LaVine,Z. LaVine,-8,205,21,Missed,1,,,0,h,MISS LaVine 21' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,212
+0021900631,303,PT00M36.50S,2,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,213
+0021900631,304,PT00M13.70S,2,1610612739,CLE,1629636,Garland,D. Garland,-225,11,0,Made,1,56,73,129,v,Garland 3PT Jump Shot (11 PTS),Made Shot,Jump Shot,1,3,214
+0021900631,305,PT00M03.30S,2,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,Love S.FOUL (P1.PN) (A.Moyer-Gleich),Foul,Shooting,1,0,215
+0021900631,307,PT00M03.30S,2,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,MISS LaVine Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,216
+0021900631,308,PT00M03.30S,2,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Rebound,Rebound,Normal Rebound,0,0,217
+0021900631,309,PT00M03.30S,2,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,MISS LaVine Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,218
+0021900631,310,PT00M00.50S,2,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,219
+0021900631,311,PT00M00.00S,2,1610612739,CLE,1629636,Garland,D. Garland,210,344,40,Missed,1,,,0,v,MISS Garland 40' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,220
+0021900631,312,PT00M00.00S,2,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Rebound,Rebound,Unknown,0,0,221
+0021900631,313,PT00M00.00S,2,0,,0,,,0,0,0,,0,56,73,129,,End of 2nd Period (9:05 PM EST),period,end,1,0,222
+0021900631,318,PT12M00.00S,3,0,,0,,,0,0,0,,0,56,73,129,,Start of 3rd Period (9:20 PM EST),period,start,0,0,223
+0021900631,319,PT11M43.00S,3,1610612739,CLE,201567,Love,K. Love,-198,4,20,Missed,1,,,0,v,MISS Love 20' Jump Shot,Missed Shot,Jump Shot,1,2,224
+0021900631,320,PT11M42.00S,3,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Rebound,Rebound,Unknown,0,0,225
+0021900631,321,PT11M42.00S,3,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson L.B.FOUL (P1.T1) (A.Moyer-Gleich),Foul,Loose Ball,1,0,226
+0021900631,323,PT11M30.00S,3,1610612741,CHI,1628374,Markkanen,L. Markkanen,52,253,26,Made,1,59,73,132,h,Markkanen 26' 3PT Jump Shot (8 PTS) (Satoransky 5 AST),Made Shot,Jump Shot,1,3,227
+0021900631,325,PT11M05.00S,3,1610612739,CLE,201567,Love,K. Love,-106,239,26,Missed,1,,,0,v,MISS Love 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,228
+0021900631,326,PT11M00.00S,3,1610612741,CHI,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,229
+0021900631,327,PT10M54.00S,3,1610612741,CHI,203107,Satoransky,T. Satoransky,160,51,17,Missed,1,,,0,h,MISS Satoransky 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,230
+0021900631,328,PT10M50.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,231
+0021900631,329,PT10M45.00S,3,1610612739,CLE,201567,Love,K. Love,-128,184,22,Missed,1,,,0,v,MISS Love 22' Jump Shot,Missed Shot,Jump Shot,1,2,232
+0021900631,330,PT10M42.00S,3,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,Satoransky REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,233
+0021900631,331,PT10M37.00S,3,1610612741,CHI,1628374,Markkanen,L. Markkanen,-10,4,1,Made,1,61,73,134,h,Markkanen 1' Running Layup (10 PTS) (Satoransky 6 AST),Made Shot,Running Layup Shot,1,2,234
+0021900631,333,PT10M22.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,0,-1,0,Made,1,61,75,136,v,Sexton Driving Layup (19 PTS),Made Shot,Driving Layup Shot,1,2,235
+0021900631,334,PT10M12.00S,3,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,Satoransky Bad Pass Turnover (P1.T8),Turnover,Bad Pass,1,0,236
+0021900631,334,PT10M12.00S,3,1610612739,CLE,1626224,Osman,C. Osman,0,0,0,,0,,,0,v,Osman STEAL (1 STL),,,1,0,237
+0021900631,336,PT10M08.00S,3,1610612739,CLE,1629636,Garland,D. Garland,5,2,1,Missed,1,,,0,v,MISS Garland 1' Running Layup,Missed Shot,Running Layup Shot,1,2,238
+0021900631,337,PT10M06.00S,3,1610612741,CHI,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,239
+0021900631,338,PT10M03.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,226,16,0,Missed,1,,,0,h,MISS LaVine 3PT Jump Shot,Missed Shot,Jump Shot,1,3,240
+0021900631,339,PT10M01.00S,3,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Rebound,Rebound,Unknown,0,0,241
+0021900631,341,PT09M39.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,228,63,24,Made,1,61,78,139,v,Sexton 24' 3PT Jump Shot (22 PTS) (Love 4 AST),Made Shot,Jump Shot,1,3,242
+0021900631,343,PT09M28.00S,3,1610612741,CHI,1628436,Kornet,L. Kornet,-31,260,26,Made,1,64,78,142,h,Kornet 26' 3PT Jump Shot (11 PTS) (Dunn 1 AST),Made Shot,Jump Shot,1,3,243
+0021900631,345,PT09M15.00S,3,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn P.FOUL (P3.T1) (M.Lindsay),Foul,Personal,1,0,244
+0021900631,347,PT09M06.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,-7,15,2,Made,1,64,80,144,v,Sexton 2' Driving Layup (24 PTS) (Love 5 AST),Made Shot,Driving Layup Shot,1,2,245
+0021900631,349,PT08M46.00S,3,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn Lost Ball Turnover (P3.T9),Turnover,Lost Ball,1,0,246
+0021900631,349,PT08M46.00S,3,1610612739,CLE,1626224,Osman,C. Osman,0,0,0,,0,,,0,v,Osman STEAL (2 STL),,,1,0,247
+0021900631,351,PT08M43.00S,3,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,Satoransky S.FOUL (P3.T2) (B.Taylor),Foul,Shooting,1,0,248
+0021900631,353,PT08M43.00S,3,1610612739,CLE,1626224,Osman,C. Osman,0,0,0,,0,64,81,145,v,Osman Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,249
+0021900631,354,PT08M43.00S,3,1610612739,CLE,1626224,Osman,C. Osman,0,0,0,,0,64,82,146,v,Osman Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,250
+0021900631,355,PT08M33.00S,3,1610612741,CHI,203107,Satoransky,T. Satoransky,17,17,2,Missed,1,,,0,h,MISS Satoransky 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,251
+0021900631,356,PT08M32.00S,3,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,252
+0021900631,357,PT08M23.00S,3,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson OFF.Foul (P2) (A.Moyer-Gleich),Foul,Offensive,1,0,253
+0021900631,359,PT08M23.00S,3,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson Offensive Foul Turnover (P3.T13),Turnover,Offensive Foul Turnover,1,0,254
+0021900631,360,PT08M23.00S,3,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,SUB: White FOR Satoransky,Substitution,,0,0,255
+0021900631,361,PT08M23.00S,3,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,SUB: Harrison FOR Dunn,Substitution,,0,0,256
+0021900631,364,PT08M08.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,9,111,11,Made,1,66,82,148,h,LaVine 11' Fadeaway Jumper (17 PTS),Made Shot,Fadeaway Jump Shot,1,2,257
+0021900631,365,PT07M53.00S,3,1610612739,CLE,202684,Thompson,T. Thompson,4,50,5,Made,1,66,84,150,v,Thompson 5' Hook Shot (10 PTS),Made Shot,Hook Shot,1,2,258
+0021900631,366,PT07M36.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,-8,-5,1,Made,1,68,84,152,h,LaVine 1' Driving Layup (19 PTS),Made Shot,Driving Layup Shot,1,2,259
+0021900631,684,PT07M18.00S,3,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson Lost Ball Turnover (P4.T14),Turnover,Lost Ball,0,0,260
+0021900631,684,PT07M18.00S,3,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,h,White STEAL (2 STL),,,0,0,261
+0021900631,370,PT07M13.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,7,9,1,Made,1,70,84,154,h,LaVine 1' Running Dunk (21 PTS) (White 2 AST),Made Shot,Running Dunk Shot,1,2,262
+0021900631,372,PT07M00.00S,3,1610612739,CLE,1626224,Osman,C. Osman,-190,158,25,Made,1,70,87,157,v,Osman 25' 3PT Jump Shot (13 PTS) (Garland 4 AST),Made Shot,Jump Shot,1,3,263
+0021900631,374,PT06M41.00S,3,1610612741,CHI,1629632,White,C. White,-19,-1,2,Made,1,72,87,159,h,White 2' Driving Layup (6 PTS),Made Shot,Driving Layup Shot,1,2,264
+0021900631,375,PT06M25.00S,3,1610612739,CLE,201567,Love,K. Love,-7,257,26,Missed,1,,,0,v,MISS Love 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,265
+0021900631,376,PT06M22.00S,3,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,h,White REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,266
+0021900631,377,PT06M19.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine Out of Bounds Lost Ball Turnover (P1.T10),Turnover,Out of Bounds Lost Ball Turnover,1,0,267
+0021900631,378,PT06M19.00S,3,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,268
+0021900631,379,PT06M19.00S,3,1610612741,CHI,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,SUB: Young FOR Kornet,Substitution,,0,0,269
+0021900631,380,PT06M19.00S,3,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,SUB: Felicio FOR Markkanen,Substitution,,0,0,270
+0021900631,381,PT06M19.00S,3,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,SUB: Exum FOR Garland,Substitution,,0,0,271
+0021900631,382,PT06M19.00S,3,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,SUB: Nance Jr. FOR Thompson,Substitution,,0,0,272
+0021900631,387,PT06M03.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,11,54,6,Missed,1,,,0,v,MISS Sexton 6' Jump Shot,Missed Shot,Jump Shot,1,2,273
+0021900631,387,PT06M03.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine BLOCK (1 BLK),,,1,2,274
+0021900631,389,PT05M59.00S,3,1610612741,CHI,201152,Young,T. Young,0,0,0,,0,,,0,h,Young REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,275
+0021900631,390,PT05M56.00S,3,1610612741,CHI,1626245,Felicio,C. Felicio,-20,9,2,Made,1,74,87,161,h,Felicio 2' Layup (2 PTS) (LaVine 3 AST),Made Shot,Layup Shot,1,2,276
+0021900631,392,PT05M47.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton Lost Ball Turnover (P3.T15),Turnover,Lost Ball,1,0,277
+0021900631,392,PT05M47.00S,3,1610612741,CHI,1627885,Harrison,S. Harrison,0,0,0,,0,,,0,h,Harrison STEAL (1 STL),,,1,0,278
+0021900631,394,PT05M44.00S,3,1610612741,CHI,1627885,Harrison,S. Harrison,-3,3,0,Made,1,76,87,163,h,Harrison Layup (2 PTS),Made Shot,Layup Shot,1,2,279
+0021900631,395,PT05M21.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,4,5,1,Made,1,76,89,165,v,Sexton 1' Running Layup (26 PTS),Made Shot,Running Layup Shot,1,2,280
+0021900631,396,PT05M08.00S,3,1610612741,CHI,201152,Young,T. Young,8,153,15,Missed,1,,,0,h,MISS Young 15' Jump Shot,Missed Shot,Jump Shot,1,2,281
+0021900631,397,PT05M08.00S,3,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,282
+0021900631,398,PT05M02.00S,3,1610612741,CHI,201152,Young,T. Young,0,0,0,,0,,,0,h,Young S.FOUL (P2.T3) (B.Taylor),Foul,Shooting,1,0,283
+0021900631,400,PT05M02.00S,3,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,76,90,166,v,Love Free Throw 1 of 2 (24 PTS),Free Throw,Free Throw 1 of 2,1,0,284
+0021900631,401,PT05M02.00S,3,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,76,91,167,v,Love Free Throw 2 of 2 (25 PTS),Free Throw,Free Throw 2 of 2,1,0,285
+0021900631,402,PT04M46.00S,3,1610612739,CLE,203957,Exum,D. Exum,0,0,0,,0,,,0,v,Exum S.FOUL (P2.T2) (B.Taylor),Foul,Shooting,1,0,286
+0021900631,404,PT04M46.00S,3,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,h,MISS White Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,287
+0021900631,405,PT04M46.00S,3,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Rebound,Rebound,Normal Rebound,0,0,288
+0021900631,406,PT04M46.00S,3,1610612741,CHI,1629632,White,C. White,0,0,0,,0,77,91,168,h,White Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,289
+0021900631,407,PT04M37.00S,3,1610612741,CHI,1626245,Felicio,C. Felicio,0,0,0,,0,,,0,h,Felicio P.FOUL (P3.T4) (A.Moyer-Gleich),Foul,Personal,1,0,290
+0021900631,409,PT04M28.00S,3,1610612739,CLE,201567,Love,K. Love,43,-9,4,Missed,1,,,0,v,MISS Love 4' Hook Shot,Missed Shot,Hook Shot,1,2,291
+0021900631,410,PT04M26.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,292
+0021900631,411,PT04M16.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,-3,17,2,Missed,1,,,0,h,MISS LaVine 2' Layup,Missed Shot,Layup Shot,1,2,293
+0021900631,412,PT04M14.00S,3,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,Love REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,294
+0021900631,413,PT04M09.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton Bad Pass Turnover (P4.T16),Turnover,Bad Pass,1,0,295
+0021900631,413,PT04M09.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine STEAL (2 STL),,,1,0,296
+0021900631,415,PT04M09.00S,3,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,Love Personal Take Foul (P2.T3) (B.Taylor),Foul,Personal Take,1,0,297
+0021900631,417,PT04M09.00S,3,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,SUB: Thompson FOR Love,Substitution,,0,0,298
+0021900631,418,PT04M09.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,SUB: Garland FOR Sexton,Substitution,,0,0,299
+0021900631,419,PT04M09.00S,3,1610612739,CLE,1626224,Osman,C. Osman,0,0,0,,0,,,0,v,SUB: McKinnie FOR Osman,Substitution,,0,0,300
+0021900631,423,PT03M50.00S,3,1610612741,CHI,1629632,White,C. White,8,11,1,Missed,1,,,0,h,MISS White 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,301
+0021900631,424,PT03M47.00S,3,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,302
+0021900631,425,PT03M37.00S,3,1610612739,CLE,203957,Exum,D. Exum,-6,55,6,Missed,1,,,0,v,MISS Exum 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,303
+0021900631,426,PT03M36.00S,3,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,h,White REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,304
+0021900631,427,PT03M31.00S,3,1610612741,CHI,1627885,Harrison,S. Harrison,230,17,0,Missed,1,,,0,h,MISS Harrison 3PT Jump Shot,Missed Shot,Jump Shot,1,3,305
+0021900631,428,PT03M29.00S,3,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Rebound,Rebound,Unknown,0,0,306
+0021900631,430,PT03M08.00S,3,1610612739,CLE,203957,Exum,D. Exum,79,242,25,Missed,1,,,0,v,MISS Exum 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,307
+0021900631,431,PT03M00.00S,3,1610612739,CLE,1628035,McKinnie,A. McKinnie,0,0,0,,0,,,0,v,McKinnie REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,308
+0021900631,432,PT03M00.00S,3,1610612739,CLE,1628035,McKinnie,A. McKinnie,0,-6,1,Made,1,77,93,170,v,McKinnie 1' Putback Layup (5 PTS),Made Shot,Putback Layup Shot,1,2,309
+0021900631,433,PT02M51.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,12,25,3,Missed,1,,,0,h,MISS LaVine 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,310
+0021900631,434,PT02M49.00S,3,1610612739,CLE,1628035,McKinnie,A. McKinnie,0,0,0,,0,,,0,v,McKinnie REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,311
+0021900631,435,PT02M49.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine P.FOUL (P2.PN) (B.Taylor),Foul,Personal,1,0,312
+0021900631,437,PT02M49.00S,3,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,313
+0021900631,438,PT02M49.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,SUB: Hutchison FOR LaVine,Substitution,,0,0,314
+0021900631,478,PT02M49.00S,3,0,,435,Rogers,C. Rogers,0,0,0,,0,77,93,170,,Instant Replay3rd Period (9:40 PM EST),Instant Replay,Support Ruling,0,0,315
+0021900631,440,PT02M49.00S,3,1610612739,CLE,1628035,McKinnie,A. McKinnie,0,0,0,,0,77,94,171,v,McKinnie Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,316
+0021900631,441,PT02M49.00S,3,1610612739,CLE,1628035,McKinnie,A. McKinnie,0,0,0,,0,77,95,172,v,McKinnie Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,317
+0021900631,442,PT02M31.00S,3,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson S.FOUL (P3.T4) (B.Taylor),Foul,Shooting,1,0,318
+0021900631,444,PT02M31.00S,3,1610612741,CHI,1629632,White,C. White,0,0,0,,0,78,95,173,h,White Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,319
+0021900631,445,PT02M31.00S,3,1610612741,CHI,1629632,White,C. White,0,0,0,,0,79,95,174,h,White Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,320
+0021900631,446,PT02M16.00S,3,1610612739,CLE,1628035,McKinnie,A. McKinnie,168,180,25,Missed,1,,,0,v,MISS McKinnie 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,321
+0021900631,447,PT02M12.00S,3,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,322
+0021900631,448,PT02M09.00S,3,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,-3,0,0,Made,1,79,97,176,v,Nance Jr. Alley Oop Dunk (4 PTS) (Garland 5 AST),Made Shot,Alley Oop Dunk Shot,1,2,323
+0021900631,451,PT01M48.00S,3,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland S.FOUL (P2.PN) (A.Moyer-Gleich),Foul,Shooting,1,0,324
+0021900631,453,PT01M48.00S,3,1610612741,CHI,1627885,Harrison,S. Harrison,0,0,0,,0,80,97,177,h,Harrison Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,325
+0021900631,454,PT01M48.00S,3,1610612741,CHI,1627885,Harrison,S. Harrison,0,0,0,,0,81,97,178,h,Harrison Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,326
+0021900631,455,PT01M37.00S,3,1610612741,CHI,1627885,Harrison,S. Harrison,0,0,0,,0,,,0,h,Harrison Violation:Kicked Ball (B.Taylor),Violation,Kicked Ball,0,0,327
+0021900631,456,PT01M29.00S,3,1610612739,CLE,1628035,McKinnie,A. McKinnie,-13,2,1,Made,1,81,99,180,v,McKinnie 1' Cutting Layup Shot (9 PTS) (Nance Jr. 3 AST),Made Shot,Cutting Layup Shot,1,2,328
+0021900631,458,PT01M18.00S,3,1610612741,CHI,1629632,White,C. White,-18,11,2,Missed,1,,,0,h,MISS White 2' Layup,Missed Shot,Layup Shot,1,2,329
+0021900631,458,PT01M18.00S,3,1610612739,CLE,203957,Exum,D. Exum,0,0,0,,0,,,0,v,Exum BLOCK (1 BLK),,,1,2,330
+0021900631,460,PT01M16.00S,3,1610612739,CLE,1628035,McKinnie,A. McKinnie,0,0,0,,0,,,0,v,McKinnie REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,331
+0021900631,461,PT01M14.00S,3,1610612741,CHI,1627885,Harrison,S. Harrison,0,0,0,,0,,,0,h,Harrison S.FOUL (P1.PN) (M.Lindsay),Foul,Shooting,1,0,332
+0021900631,463,PT01M14.00S,3,1610612739,CLE,203957,Exum,D. Exum,0,0,0,,0,,,0,v,MISS Exum Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,333
+0021900631,464,PT01M14.00S,3,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Rebound,Rebound,Normal Rebound,0,0,334
+0021900631,465,PT01M14.00S,3,1610612739,CLE,203957,Exum,D. Exum,0,0,0,,0,81,100,181,v,Exum Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,335
+0021900631,466,PT01M00.00S,3,1610612741,CHI,201152,Young,T. Young,3,21,2,Made,1,83,100,183,h,Young 2' Driving Layup (7 PTS) (White 3 AST),Made Shot,Driving Layup Shot,1,2,336
+0021900631,467,PT00M51.20S,3,1610612739,CLE,202684,Thompson,T. Thompson,20,53,6,Made,1,83,102,185,v,Thompson 6' Driving Floating Jump Shot (12 PTS) (Nance Jr. 4 AST),Made Shot,Driving Floating Jump Shot,1,2,337
+0021900631,469,PT00M34.30S,3,1610612741,CHI,1627885,Harrison,S. Harrison,-10,11,1,Made,1,85,102,187,h,Harrison 1' Driving Layup (6 PTS),Made Shot,Driving Layup Shot,1,2,338
+0021900631,470,PT00M12.60S,3,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland Traveling Turnover (P6.T17),Turnover,Traveling,1,0,339
+0021900631,471,PT00M12.60S,3,1610612741,CHI,1626245,Felicio,C. Felicio,0,0,0,,0,,,0,h,SUB: Markkanen FOR Felicio,Substitution,,0,0,340
+0021900631,473,PT00M00.10S,3,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. S.FOUL (P1.PN) (A.Moyer-Gleich),Foul,Shooting,1,0,341
+0021900631,475,PT00M00.10S,3,1610612741,CHI,1629632,White,C. White,0,0,0,,0,86,102,188,h,White Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,342
+0021900631,476,PT00M00.10S,3,1610612741,CHI,1629632,White,C. White,0,0,0,,0,87,102,189,h,White Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,343
+0021900631,477,PT00M00.00S,3,0,,0,,,0,0,0,,0,87,102,189,,End of 3rd Period (9:47 PM EST),period,end,1,0,344
+0021900631,488,PT12M00.00S,4,0,,0,,,0,0,0,,0,87,102,189,,Start of 4th Period (9:50 PM EST),period,start,0,0,345
+0021900631,489,PT11M46.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,-21,253,25,Missed,1,,,0,h,MISS Markkanen 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,346
+0021900631,490,PT11M43.00S,4,1610612739,CLE,1628035,McKinnie,A. McKinnie,0,0,0,,0,,,0,v,McKinnie REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,347
+0021900631,491,PT11M27.00S,4,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson Lost Ball Turnover (P5.T18),Turnover,Lost Ball,1,0,348
+0021900631,491,PT11M27.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine STEAL (3 STL),,,1,0,349
+0021900631,493,PT11M20.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,115,237,26,Made,1,90,102,192,h,Markkanen 26' 3PT Jump Shot (13 PTS) (Dunn 2 AST),Made Shot,Jump Shot,1,3,350
+0021900631,495,PT10M58.00S,4,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,Satoransky P.FOUL (P4.T1) (A.Moyer-Gleich),Foul,Personal,1,0,351
+0021900631,497,PT10M43.00S,4,1610612739,CLE,1629636,Garland,D. Garland,117,2,12,Made,1,90,104,194,v,Garland 12' Driving Floating Jump Shot (13 PTS),Made Shot,Driving Floating Jump Shot,1,2,352
+0021900631,498,PT10M33.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,11,8,1,Made,1,92,104,196,h,LaVine 1' Driving Finger Roll Layup (23 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,353
+0021900631,499,PT10M18.00S,4,1610612739,CLE,203521,Dellavedova,M. Dellavedova,0,0,0,,0,,,0,v,Dellavedova Bad Pass Turnover (P1.T19),Turnover,Bad Pass,1,0,354
+0021900631,499,PT10M18.00S,4,1610612741,CHI,1628990,Hutchison,C. Hutchison,0,0,0,,0,,,0,h,Hutchison STEAL (2 STL),,,1,0,355
+0021900631,501,PT10M13.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,6,8,1,Made,1,94,104,198,h,LaVine 1' Running Dunk (25 PTS) (Satoransky 7 AST),Made Shot,Running Dunk Shot,1,2,356
+0021900631,503,PT10M13.00S,4,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,357
+0021900631,504,PT09M56.00S,4,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland Lost Ball Turnover (P7.T20),Turnover,Lost Ball,1,0,358
+0021900631,504,PT09M56.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen STEAL (2 STL),,,1,0,359
+0021900631,506,PT09M51.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,-74,15,8,Made,1,96,104,200,h,LaVine 8' Turnaround Fadeaway Bank Jump Shot (27 PTS),Made Shot,Turnaround Fadeaway Bank Jump Shot,1,2,360
+0021900631,507,PT09M31.00S,4,1610612739,CLE,1628035,McKinnie,A. McKinnie,0,0,0,,0,,,0,v,McKinnie Bad Pass Turnover (P1.T21),Turnover,Bad Pass,1,0,361
+0021900631,507,PT09M31.00S,4,1610612741,CHI,1628990,Hutchison,C. Hutchison,0,0,0,,0,,,0,h,Hutchison STEAL (3 STL),,,1,0,362
+0021900631,509,PT09M17.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,-16,3,2,Made,1,98,104,202,h,LaVine 2' Driving Layup (29 PTS),Made Shot,Driving Layup Shot,1,2,363
+0021900631,511,PT08M55.00S,4,1610612739,CLE,203521,Dellavedova,M. Dellavedova,0,0,0,,0,,,0,v,Dellavedova Bad Pass Turnover (P2.T22),Turnover,Bad Pass,1,0,364
+0021900631,511,PT08M55.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine STEAL (4 STL),,,1,0,365
+0021900631,518,PT08M49.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,-10,31,3,Missed,1,,,0,h,MISS LaVine 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,366
+0021900631,519,PT08M49.00S,4,1610612739,CLE,1628035,McKinnie,A. McKinnie,0,0,0,,0,,,0,v,McKinnie REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,367
+0021900631,516,PT08M32.00S,4,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland Out of Bounds Lost Ball Turnover (P8.T23),Turnover,Out of Bounds Lost Ball Turnover,1,0,368
+0021900631,517,PT08M32.00S,4,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,369
+0021900631,520,PT08M32.00S,4,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,SUB: Exum FOR Garland,Substitution,,0,0,370
+0021900631,521,PT08M32.00S,4,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,SUB: Sexton FOR Thompson,Substitution,,0,0,371
+0021900631,522,PT08M32.00S,4,1610612739,CLE,1628035,McKinnie,A. McKinnie,0,0,0,,0,,,0,v,SUB: Osman FOR McKinnie,Substitution,,0,0,372
+0021900631,523,PT08M32.00S,4,1610612739,CLE,203521,Dellavedova,M. Dellavedova,0,0,0,,0,,,0,v,SUB: Love FOR Dellavedova,Substitution,,0,0,373
+0021900631,528,PT08M09.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,-183,183,26,Missed,1,,,0,h,MISS LaVine 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,374
+0021900631,529,PT08M06.00S,4,1610612739,CLE,1626224,Osman,C. Osman,0,0,0,,0,,,0,v,Osman REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,375
+0021900631,530,PT07M54.00S,4,1610612739,CLE,1626224,Osman,C. Osman,151,210,26,Missed,1,,,0,v,MISS Osman 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,376
+0021900631,531,PT07M47.00S,4,1610612741,CHI,1628990,Hutchison,C. Hutchison,0,0,0,,0,,,0,h,Hutchison REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,377
+0021900631,532,PT07M32.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,-136,59,15,Made,1,100,104,204,h,Markkanen 15' Jump Shot (15 PTS),Made Shot,Jump Shot,1,2,378
+0021900631,533,PT07M11.00S,4,1610612739,CLE,201567,Love,K. Love,-70,194,21,Missed,1,,,0,v,MISS Love 21' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,379
+0021900631,534,PT07M08.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,380
+0021900631,535,PT06M46.00S,4,1610612741,CHI,203107,Satoransky,T. Satoransky,60,96,11,Missed,1,,,0,h,MISS Satoransky 11' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,381
+0021900631,536,PT06M46.00S,4,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Rebound,Rebound,Unknown,0,0,382
+0021900631,537,PT06M46.00S,4,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn L.B.FOUL (P4.T2) (B.Taylor),Foul,Loose Ball,1,0,383
+0021900631,539,PT06M35.00S,4,1610612739,CLE,1629012,Sexton,C. Sexton,-100,242,26,Missed,1,,,0,v,MISS Sexton 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,384
+0021900631,540,PT06M32.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,385
+0021900631,541,PT06M15.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen Lost Ball Turnover (P2.T11),Turnover,Lost Ball,1,0,386
+0021900631,541,PT06M15.00S,4,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. STEAL (2 STL),,,1,0,387
+0021900631,544,PT06M12.00S,4,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. Bad Pass Turnover (P2.T24),Turnover,Bad Pass,1,0,388
+0021900631,544,PT06M12.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine STEAL (5 STL),,,1,0,389
+0021900631,546,PT06M12.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,-197,151,25,Made,1,103,104,207,h,LaVine 25' 3PT Jump Shot (32 PTS),Made Shot,Jump Shot,1,3,390
+0021900631,581,PT06M12.00S,4,0,,546,,,0,0,0,,0,103,104,207,,Instant Replay4th Period (10:03 PM EST),Instant Replay,Overturn Ruling,0,0,391
+0021900631,547,PT06M12.00S,4,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,392
+0021900631,548,PT05M55.00S,4,1610612739,CLE,201567,Love,K. Love,14,27,3,Missed,1,,,0,v,MISS Love 3' Hook Shot,Missed Shot,Hook Shot,1,2,393
+0021900631,549,PT05M52.00S,4,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,394
+0021900631,550,PT05M43.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,39,251,25,Missed,1,,,0,h,MISS Markkanen 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,395
+0021900631,551,PT05M43.00S,4,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,Love REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,396
+0021900631,552,PT05M31.00S,4,1610612741,CHI,1628990,Hutchison,C. Hutchison,0,0,0,,0,,,0,h,Hutchison P.FOUL (P1.T3) (B.Taylor),Foul,Personal,1,0,397
+0021900631,554,PT05M31.00S,4,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,SUB: Garland FOR Nance Jr.,Substitution,,0,0,398
+0021900631,555,PT05M31.00S,4,1610612739,CLE,203957,Exum,D. Exum,0,0,0,,0,,,0,v,SUB: Thompson FOR Exum,Substitution,,0,0,399
+0021900631,558,PT05M28.00S,4,1610612739,CLE,1629636,Garland,D. Garland,3,16,2,Made,1,103,106,209,v,Garland 2' Cutting Layup Shot (15 PTS) (Love 6 AST),Made Shot,Cutting Layup Shot,1,2,400
+0021900631,559,PT05M28.00S,4,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,Satoransky S.FOUL (P5.T4) (M.Lindsay),Foul,Shooting,1,0,401
+0021900631,561,PT05M28.00S,4,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,103,107,210,v,Garland Free Throw 1 of 1 (16 PTS),Free Throw,Free Throw 1 of 1,1,0,402
+0021900631,563,PT05M10.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,25,282,28,Made,1,106,107,213,h,LaVine 28' 3PT Jump Shot (35 PTS) (Markkanen 1 AST),Made Shot,Jump Shot,1,3,403
+0021900631,565,PT04M51.00S,4,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,Love OFF.Foul (P3) (B.Taylor),Foul,Offensive,1,0,404
+0021900631,567,PT04M51.00S,4,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,Love Offensive Foul Turnover (P2.T25),Turnover,Offensive Foul Turnover,1,0,405
+0021900631,568,PT04M38.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,-105,68,13,Made,1,108,107,215,h,LaVine 13' Pullup Jump Shot (37 PTS),Made Shot,Pullup Jump shot,1,2,406
+0021900631,569,PT04M16.00S,4,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Jump Ball Dunn vs. Sexton: Tip to Garland,Jump Ball,,1,0,407
+0021900631,572,PT04M13.00S,4,1610612739,CLE,1629636,Garland,D. Garland,160,202,26,Missed,1,,,0,v,MISS Garland 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,408
+0021900631,573,PT04M13.00S,4,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Rebound,Rebound,Unknown,0,0,409
+0021900631,574,PT04M13.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen L.B.FOUL (P2.PN) (B.Taylor),Foul,Loose Ball,1,0,410
+0021900631,576,PT04M13.00S,4,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,108,108,216,v,Thompson Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,1,0,411
+0021900631,577,PT04M13.00S,4,1610612741,CHI,1628990,Hutchison,C. Hutchison,0,0,0,,0,,,0,h,SUB: Kornet FOR Hutchison,Substitution,,0,0,412
+0021900631,579,PT04M13.00S,4,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,108,109,217,v,Thompson Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,1,0,413
+0021900631,580,PT04M13.00S,4,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,414
+0021900631,582,PT04M13.00S,4,1610612741,CHI,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,SUB: Hutchison FOR Kornet,Substitution,,0,0,415
+0021900631,584,PT03M59.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,130,226,26,Missed,1,,,0,h,MISS LaVine 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,416
+0021900631,585,PT03M58.00S,4,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Rebound,Rebound,Unknown,0,0,417
+0021900631,587,PT03M43.00S,4,1610612739,CLE,1626224,Osman,C. Osman,0,0,0,,0,,,0,v,Osman Bad Pass Turnover (P1.T26),Turnover,Bad Pass,1,0,418
+0021900631,587,PT03M43.00S,4,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn STEAL (2 STL),,,1,0,419
+0021900631,589,PT03M39.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,19,15,2,Made,1,110,109,219,h,LaVine 2' Cutting Dunk Shot (39 PTS) (Dunn 3 AST),Made Shot,Cutting Dunk Shot,1,2,420
+0021900631,591,PT03M28.00S,4,1610612741,CHI,1628990,Hutchison,C. Hutchison,0,0,0,,0,,,0,h,Hutchison S.FOUL (P2.PN) (M.Lindsay),Foul,Shooting,1,0,421
+0021900631,593,PT03M28.00S,4,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,110,110,220,v,Love Free Throw 1 of 2 (26 PTS),Free Throw,Free Throw 1 of 2,1,0,422
+0021900631,594,PT03M28.00S,4,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,110,111,221,v,Love Free Throw 2 of 2 (27 PTS),Free Throw,Free Throw 2 of 2,1,0,423
+0021900631,595,PT03M13.00S,4,1610612741,CHI,203107,Satoransky,T. Satoransky,131,227,26,Missed,1,,,0,h,MISS Satoransky 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,424
+0021900631,596,PT03M09.00S,4,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,Love REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,425
+0021900631,597,PT02M59.00S,4,1610612739,CLE,1629012,Sexton,C. Sexton,9,33,3,Missed,1,,,0,v,MISS Sexton 3' Layup,Missed Shot,Layup Shot,1,2,426
+0021900631,597,PT02M59.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine BLOCK (2 BLK),,,1,2,427
+0021900631,599,PT02M55.00S,4,1610612741,CHI,1628990,Hutchison,C. Hutchison,0,0,0,,0,,,0,h,Hutchison REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,428
+0021900631,600,PT02M52.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,-14,14,2,Made,1,112,111,223,h,Markkanen 2' Cutting Layup Shot (17 PTS) (Satoransky 8 AST),Made Shot,Cutting Layup Shot,1,2,429
+0021900631,602,PT02M30.00S,4,1610612739,CLE,202684,Thompson,T. Thompson,18,43,5,Missed,1,,,0,v,MISS Thompson 5' Hook Shot,Missed Shot,Hook Shot,1,2,430
+0021900631,603,PT02M28.00S,4,1610612741,CHI,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,Satoransky REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,431
+0021900631,604,PT02M12.00S,4,1610612741,CHI,1627739,Dunn,K. Dunn,-234,-15,0,Missed,1,,,0,h,MISS Dunn 3PT Jump Shot,Missed Shot,Jump Shot,1,3,432
+0021900631,605,PT02M11.00S,4,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Rebound,Rebound,Unknown,0,0,433
+0021900631,607,PT02M08.00S,4,1610612741,CHI,203107,Satoransky,T. Satoransky,12,110,11,Made,1,114,111,225,h,Satoransky 11' Hook Shot (6 PTS) (Dunn 4 AST),Made Shot,Hook Shot,1,2,434
+0021900631,609,PT01M40.00S,4,1610612739,CLE,1629012,Sexton,C. Sexton,-16,257,26,Missed,1,,,0,v,MISS Sexton 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,435
+0021900631,610,PT01M36.00S,4,1610612741,CHI,1628990,Hutchison,C. Hutchison,0,0,0,,0,,,0,h,Hutchison REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,436
+0021900631,611,PT01M14.00S,4,1610612741,CHI,1628990,Hutchison,C. Hutchison,-14,11,2,Missed,1,,,0,h,MISS Hutchison 2' Dunk,Missed Shot,Dunk Shot,1,2,437
+0021900631,611,PT01M14.00S,4,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson BLOCK (2 BLK),,,1,2,438
+0021900631,613,PT01M11.00S,4,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,439
+0021900631,614,PT01M07.00S,4,1610612739,CLE,1629636,Garland,D. Garland,-109,290,31,Missed,1,,,0,v,MISS Garland 31' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,440
+0021900631,615,PT00M58.80S,4,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,441
+0021900631,616,PT00M54.40S,4,1610612739,CLE,1629636,Garland,D. Garland,100,50,11,Missed,1,,,0,v,MISS Garland 11' Layup,Missed Shot,Layup Shot,1,2,442
+0021900631,617,PT00M52.10S,4,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,443
+0021900631,618,PT00M32.50S,4,1610612741,CHI,203897,LaVine,Z. LaVine,-33,15,4,Missed,1,,,0,h,MISS LaVine 4' Layup,Missed Shot,Layup Shot,1,2,444
+0021900631,618,PT00M32.50S,4,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson BLOCK (3 BLK),,,1,2,445
+0021900631,620,PT00M29.40S,4,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,Thompson REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,446
+0021900631,621,PT00M20.10S,4,1610612739,CLE,201567,Love,K. Love,-7,0,1,Made,1,114,113,227,v,Love 1' Driving Dunk (29 PTS) (Osman 2 AST),Made Shot,Driving Dunk Shot,1,2,447
+0021900631,645,PT00M20.10S,4,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Timeout: Coach Challenge (Full 5 Short 0),Timeout,Coach Challenge,0,0,448
+0021900631,626,PT00M20.10S,4,0,,623,,,0,0,0,,0,114,113,227,,Instant Replay4th Period (10:17 PM EST),Instant Replay,Coach Challenge Overturn Ruling,1,0,449
+0021900631,627,PT00M20.10S,4,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,450
+0021900631,628,PT00M20.10S,4,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,SUB: Kornet FOR Dunn,Substitution,,0,0,451
+0021900631,629,PT00M20.10S,4,1610612741,CHI,1628990,Hutchison,C. Hutchison,0,0,0,,0,,,0,h,SUB: Arcidiacono FOR Hutchison,Substitution,,0,0,452
+0021900631,630,PT00M20.10S,4,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,SUB: McKinnie FOR Love,Substitution,,0,0,453
+0021900631,631,PT00M20.10S,4,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,SUB: Nance Jr. FOR Garland,Substitution,,0,0,454
+0021900631,636,PT00M16.50S,4,1610612741,CHI,203897,LaVine,Z. LaVine,-10,4,1,Made,1,116,113,229,h,LaVine 1' Driving Layup (41 PTS) (Kornet 4 AST),Made Shot,Driving Layup Shot,1,2,455
+0021900631,638,PT00M16.50S,4,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton S.FOUL (P2.T1) (A.Moyer-Gleich),Foul,Shooting,1,0,456
+0021900631,640,PT00M16.50S,4,1610612741,CHI,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,SUB: Dunn FOR Kornet,Substitution,,0,0,457
+0021900631,641,PT00M16.50S,4,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,0,0,0,,0,,,0,h,SUB: Hutchison FOR Arcidiacono,Substitution,,0,0,458
+0021900631,644,PT00M16.50S,4,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,117,113,230,h,LaVine Free Throw 1 of 1 (42 PTS),Free Throw,Free Throw 1 of 1,1,0,459
+0021900631,646,PT00M16.50S,4,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,460
+0021900631,647,PT00M16.50S,4,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,SUB: Love FOR Thompson,Substitution,,0,0,461
+0021900631,648,PT00M16.50S,4,1610612739,CLE,1628035,McKinnie,A. McKinnie,0,0,0,,0,,,0,v,SUB: Garland FOR McKinnie,Substitution,,0,0,462
+0021900631,651,PT00M11.90S,4,1610612739,CLE,1626224,Osman,C. Osman,198,136,24,Made,1,117,116,233,v,Osman 24' 3PT Jump Shot (16 PTS) (Nance Jr. 5 AST),Made Shot,Jump Shot,1,3,463
+0021900631,653,PT00M11.40S,4,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Timeout: Regular (Full 7 Short 0),Timeout,Regular,0,0,464
+0021900631,654,PT00M11.40S,4,1610612741,CHI,1628990,Hutchison,C. Hutchison,0,0,0,,0,,,0,h,SUB: Arcidiacono FOR Hutchison,Substitution,,0,0,465
+0021900631,655,PT00M11.40S,4,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,SUB: Kornet FOR Dunn,Substitution,,0,0,466
+0021900631,656,PT00M11.40S,4,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,SUB: Thompson FOR Love,Substitution,,0,0,467
+0021900631,657,PT00M11.40S,4,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,SUB: McKinnie FOR Garland,Substitution,,0,0,468
+0021900631,662,PT00M08.60S,4,1610612741,CHI,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet Out of Bounds - Bad Pass Turnover Turnover (P2.T12),Turnover,Out of Bounds - Bad Pass Turnover,1,0,469
+0021900631,663,PT00M08.60S,4,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Timeout: Regular (Reg.7 Short 0),Timeout,Regular,0,0,470
+0021900631,664,PT00M08.60S,4,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,0,0,0,,0,,,0,h,SUB: Hutchison FOR Arcidiacono,Substitution,,0,0,471
+0021900631,665,PT00M08.60S,4,1610612741,CHI,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,SUB: Dunn FOR Kornet,Substitution,,0,0,472
+0021900631,666,PT00M08.60S,4,1610612739,CLE,202684,Thompson,T. Thompson,0,0,0,,0,,,0,v,SUB: Love FOR Thompson,Substitution,,0,0,473
+0021900631,667,PT00M08.60S,4,1610612739,CLE,1628035,McKinnie,A. McKinnie,0,0,0,,0,,,0,v,SUB: Garland FOR McKinnie,Substitution,,0,0,474
+0021900631,672,PT00M02.70S,4,1610612739,CLE,201567,Love,K. Love,33,10,3,Missed,1,,,0,v,MISS Love 3' Jump Bank Shot,Missed Shot,Jump Bank Shot,1,2,475
+0021900631,673,PT00M02.70S,4,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,476
+0021900631,674,PT00M02.70S,4,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. P.FOUL (P2.PN) (A.Moyer-Gleich),Foul,Personal,1,0,477
+0021900631,676,PT00M02.70S,4,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,MISS Dunn Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,478
+0021900631,677,PT00M02.70S,4,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Rebound,Rebound,Normal Rebound,0,0,479
+0021900631,678,PT00M02.70S,4,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,118,116,234,h,Dunn Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,480
+0021900631,680,PT00M00.30S,4,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. Bad Pass Turnover (P3.T27),Turnover,Bad Pass,1,0,481
+0021900631,680,PT00M00.30S,4,1610612741,CHI,1628990,Hutchison,C. Hutchison,0,0,0,,0,,,0,h,Hutchison STEAL (4 STL),,,1,0,482
+0021900631,682,PT00M00.00S,4,0,,0,,,0,0,0,,0,118,116,234,,End of 4th Period (10:28 PM EST),period,end,1,0,483

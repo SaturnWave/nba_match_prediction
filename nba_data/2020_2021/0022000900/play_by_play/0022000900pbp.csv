@@ -1,0 +1,455 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022000900,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (8:11 PM EST),period,start,0,0,1
+0022000900,4,PT12M00.00S,1,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Jump Ball Washington vs. Allen: Tip to Allen,Jump Ball,,1,0,2
+0022000900,8,PT11M42.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,20,15,3,Missed,1,,,0,v,MISS Sexton 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,3
+0022000900,9,PT11M41.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,v,Allen REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,4
+0022000900,10,PT11M41.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,Made,1,0,2,2,v,Allen Putback Dunk (2 PTS),Made Shot,Putback Dunk Shot,1,2,5
+0022000900,11,PT11M21.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,-229,-11,0,Missed,1,,,0,h,MISS Bridges 3PT Jump Shot,Missed Shot,Jump Shot,1,3,6
+0022000900,12,PT11M21.00S,1,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Rebound,Rebound,Unknown,0,0,7
+0022000900,14,PT10M59.00S,1,1610612739,CLE,1629636,Garland,D. Garland,-3,17,2,Missed,1,,,0,v,MISS Garland 2' Finger Roll Layup,Missed Shot,Finger Roll Layup Shot,1,2,8
+0022000900,15,PT10M59.00S,1,1610612766,CHA,1628984,Graham,D. Graham,0,0,0,,0,,,0,h,Graham REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,9
+0022000900,16,PT10M44.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,203,158,26,Missed,1,,,0,h,MISS Rozier 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,10
+0022000900,17,PT10M41.00S,1,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,Love REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,11
+0022000900,18,PT10M26.00S,1,1610612739,CLE,1628386,Allen,J. Allen,14,6,2,Made,1,0,4,4,v,Allen 2' Layup (4 PTS) (Love 1 AST),Made Shot,Layup Shot,1,2,12
+0022000900,20,PT10M15.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,v,Allen S.FOUL (P1.T1) (T.Brown),Foul,Shooting,1,0,13
+0022000900,22,PT10M15.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,1,4,5,h,Bridges Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,14
+0022000900,23,PT10M15.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,2,4,6,h,Bridges Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,15
+0022000900,25,PT09M54.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,v,Allen Out of Bounds - Bad Pass Turnover Turnover (P1.T1),Turnover,Out of Bounds - Bad Pass Turnover,1,0,16
+0022000900,26,PT09M41.00S,1,1610612766,CHA,1629023,Washington,P. Washington,4,49,5,Missed,1,,,0,h,MISS Washington 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,17
+0022000900,27,PT09M41.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,v,Allen REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,18
+0022000900,28,PT09M41.00S,1,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,Co. Martin P.FOUL (P1.T1) (M.Myers),Foul,Personal,1,0,19
+0022000900,30,PT09M17.00S,1,1610612739,CLE,1629636,Garland,D. Garland,-18,4,2,Made,1,2,6,8,v,Garland 2' Driving Layup (2 PTS) (Okoro 1 AST),Made Shot,Driving Layup Shot,1,2,20
+0022000900,31,PT09M09.00S,1,1610612766,CHA,1628984,Graham,D. Graham,-32,265,27,Made,1,5,6,11,h,Graham 27' 3PT Pullup Jump Shot (3 PTS),Made Shot,Pullup Jump shot,1,3,21
+0022000900,32,PT08M57.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,148,216,26,Made,1,5,9,14,v,Sexton 26' 3PT Step Back Jump Shot (3 PTS),Made Shot,Step Back Jump shot,1,3,22
+0022000900,33,PT08M46.00S,1,1610612766,CHA,1628984,Graham,D. Graham,-79,275,29,Missed,1,,,0,h,MISS Graham 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,23
+0022000900,34,PT08M42.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,24
+0022000900,36,PT08M20.00S,1,1610612739,CLE,1629636,Garland,D. Garland,143,-1,14,Missed,1,,,0,v,MISS Garland 14' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,25
+0022000900,37,PT08M17.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,26
+0022000900,38,PT08M12.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,14,2,1,Made,1,7,9,16,h,Bridges 1' Running Finger Roll Layup (4 PTS),Made Shot,Running Finger Roll Layup Shot,1,2,27
+0022000900,39,PT08M01.00S,1,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,Co. Martin P.FOUL (P2.T2) (M.Myers),Foul,Personal,1,0,28
+0022000900,41,PT07M53.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,109,237,26,Made,1,7,12,19,v,Sexton 26' 3PT Pullup Jump Shot (6 PTS) (Allen 1 AST),Made Shot,Pullup Jump shot,1,3,29
+0022000900,43,PT07M44.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton P.FOUL (P1.T2) (T.Brown),Foul,Personal,1,0,30
+0022000900,45,PT07M32.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,-3,15,2,Made,1,9,12,21,h,Bridges 2' Cutting Dunk Shot (6 PTS) (Graham 1 AST),Made Shot,Cutting Dunk Shot,1,2,31
+0022000900,47,PT07M10.00S,1,1610612739,CLE,201567,Love,K. Love,-31,13,3,Missed,1,,,0,v,MISS Love 3' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,32
+0022000900,47,PT07M10.00S,1,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington BLOCK (1 BLK),,,1,2,33
+0022000900,49,PT07M08.00S,1,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,v,Okoro REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,34
+0022000900,160,PT07M06.00S,1,1610612739,CLE,1630171,Okoro,I. Okoro,-76,142,16,Missed,1,,,0,v,MISS Okoro 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,35
+0022000900,161,PT07M05.00S,1,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Rebound,Rebound,Unknown,0,0,36
+0022000900,50,PT07M05.00S,1,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Turnover: Shot Clock (T#2),Turnover,Shot Clock Turnover,0,0,37
+0022000900,51,PT06M45.00S,1,1610612766,CHA,1628984,Graham,D. Graham,-226,39,0,Missed,1,,,0,h,MISS Graham 3PT Jump Shot,Missed Shot,Jump Shot,1,3,38
+0022000900,52,PT06M43.00S,1,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,Love REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,39
+0022000900,53,PT06M32.00S,1,1610612739,CLE,201567,Love,K. Love,142,85,17,Missed,1,,,0,v,MISS Love 17' Jump Shot,Missed Shot,Jump Shot,1,2,40
+0022000900,54,PT06M28.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,41
+0022000900,55,PT06M19.00S,1,1610612766,CHA,1629023,Washington,P. Washington,97,238,26,Missed,1,,,0,h,MISS Washington 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,42
+0022000900,56,PT06M18.00S,1,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Unknown,0,0,43
+0022000900,58,PT06M18.00S,1,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,44
+0022000900,60,PT06M18.00S,1,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,SUB: Biyombo FOR Co. Martin,Substitution,,0,0,45
+0022000900,61,PT06M18.00S,1,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,SUB: McDaniels FOR Washington,Substitution,,0,0,46
+0022000900,62,PT06M18.00S,1,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,SUB: Nance Jr. FOR Love,Substitution,,0,0,47
+0022000900,66,PT06M08.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,73,70,10,Missed,1,,,0,h,MISS Rozier 10' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,48
+0022000900,67,PT06M03.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,49
+0022000900,68,PT06M00.00S,1,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,50
+0022000900,68,PT06M00.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges STEAL (1 STL),,,1,0,51
+0022000900,70,PT05M47.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,38,10,4,Made,1,11,12,23,h,Bridges 4' Driving Floating Bank Jump Shot (8 PTS) (Rozier 1 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,52
+0022000900,72,PT05M35.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,85,239,25,Missed,1,,,0,v,MISS Sexton 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,53
+0022000900,73,PT05M33.00S,1,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,54
+0022000900,74,PT05M19.00S,1,1610612766,CHA,1629667,McDaniels,J. McDaniels,2,2,0,Made,1,13,12,25,h,McDaniels Cutting Dunk Shot (2 PTS) (Graham 2 AST),Made Shot,Cutting Dunk Shot,1,2,55
+0022000900,76,PT05M02.00S,1,1610612739,CLE,1628386,Allen,J. Allen,1,9,1,Made,1,13,14,27,v,Allen 1' Dunk (6 PTS) (Garland 1 AST),Made Shot,Dunk Shot,1,2,56
+0022000900,78,PT04M44.00S,1,1610612766,CHA,1628984,Graham,D. Graham,-25,257,26,Missed,1,,,0,h,MISS Graham 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,57
+0022000900,79,PT04M41.00S,1,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,58
+0022000900,80,PT04M35.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,-228,32,0,Missed,1,,,0,h,MISS Rozier 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,59
+0022000900,81,PT04M33.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,v,Allen REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,60
+0022000900,82,PT04M19.00S,1,1610612739,CLE,1628386,Allen,J. Allen,2,6,1,Made,1,13,16,29,v,Allen 1' Alley Oop Dunk (8 PTS) (Sexton 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,61
+0022000900,84,PT04M06.00S,1,1610612766,CHA,1629667,McDaniels,J. McDaniels,234,37,24,Made,1,16,16,32,h,McDaniels 24' 3PT Jump Shot (5 PTS) (Rozier 2 AST),Made Shot,Jump Shot,1,3,62
+0022000900,86,PT03M53.00S,1,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,-117,222,25,Missed,1,,,0,v,MISS Nance Jr. 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,63
+0022000900,87,PT03M50.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,64
+0022000900,88,PT03M42.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,3,27,3,Missed,1,,,0,h,MISS Rozier 3' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,65
+0022000900,89,PT03M40.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,v,Allen REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,66
+0022000900,90,PT03M28.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,125,6,13,Missed,1,,,0,v,MISS Sexton 13' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,67
+0022000900,91,PT03M28.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,v,Allen REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,68
+0022000900,92,PT03M28.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,Rozier S.FOUL (P1.T3) (E.Dalen),Foul,Shooting,1,0,69
+0022000900,94,PT03M28.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,16,17,33,v,Allen Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,70
+0022000900,95,PT03M28.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,SUB: Wanamaker FOR Bridges,Substitution,,0,0,71
+0022000900,96,PT03M28.00S,1,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,SUB: Wade FOR Sexton,Substitution,,0,0,72
+0022000900,105,PT03M28.00S,1,1610612766,CHA,1628984,Graham,D. Graham,0,0,0,,0,,,0,h,SUB: Washington FOR Graham,Substitution,,0,0,73
+0022000900,99,PT03M28.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,v,MISS Allen Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,74
+0022000900,100,PT03M10.00S,1,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,75
+0022000900,101,PT03M06.00S,1,1610612766,CHA,1629023,Washington,P. Washington,62,144,16,Missed,1,,,0,h,MISS Washington 16' Jump Shot,Missed Shot,Jump Shot,1,2,76
+0022000900,102,PT03M03.00S,1,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,77
+0022000900,103,PT03M02.00S,1,1610612766,CHA,202687,Biyombo,B. Biyombo,3,15,2,Missed,1,,,0,h,MISS Biyombo 2' Putback Layup,Missed Shot,Putback Layup Shot,1,2,78
+0022000900,104,PT02M58.00S,1,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,79
+0022000900,107,PT02M44.00S,1,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. Out of Bounds - Bad Pass Turnover Turnover (P1.T4),Turnover,Out of Bounds - Bad Pass Turnover,1,0,80
+0022000900,108,PT02M44.00S,1,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,81
+0022000900,109,PT02M44.00S,1,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,SUB: Hartenstein FOR Garland,Substitution,,0,0,82
+0022000900,110,PT02M44.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,v,SUB: Love FOR Allen,Substitution,,0,0,83
+0022000900,111,PT02M44.00S,1,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,v,SUB: Sexton FOR Okoro,Substitution,,0,0,84
+0022000900,112,PT02M44.00S,1,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,v,SUB: Dellavedova FOR Wade,Substitution,,0,0,85
+0022000900,117,PT02M19.00S,1,1610612766,CHA,202687,Biyombo,B. Biyombo,124,97,16,Missed,1,,,0,h,MISS Biyombo 16' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,86
+0022000900,118,PT02M17.00S,1,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,87
+0022000900,119,PT02M00.00S,1,1610612739,CLE,201567,Love,K. Love,230,36,0,Missed,1,,,0,v,MISS Love 3PT Jump Shot,Missed Shot,Jump Shot,1,3,88
+0022000900,120,PT01M57.00S,1,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,McDaniels REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,89
+0022000900,121,PT01M52.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,-2,5,1,Made,1,18,17,35,h,Rozier 1' Running Jump Shot (2 PTS),Made Shot,Running Jump Shot,1,2,90
+0022000900,122,PT01M33.00S,1,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,Love Lost Ball Turnover (P1.T5),Turnover,Lost Ball,1,0,91
+0022000900,122,PT01M33.00S,1,1610612766,CHA,202954,Wanamaker,B. Wanamaker,0,0,0,,0,,,0,h,Wanamaker STEAL (1 STL),,,1,0,92
+0022000900,124,PT01M30.00S,1,1610612739,CLE,203521,Dellavedova,M. Dellavedova,0,0,0,,0,,,0,v,Dellavedova P.FOUL (P1.T3) (E.Dalen),Foul,Personal,1,0,93
+0022000900,126,PT01M30.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,SUB: Graham FOR Rozier,Substitution,,0,0,94
+0022000900,128,PT01M21.00S,1,1610612766,CHA,202954,Wanamaker,B. Wanamaker,-35,21,4,Made,1,20,17,37,h,Wanamaker 4' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,95
+0022000900,129,PT01M10.00S,1,1610612739,CLE,203521,Dellavedova,M. Dellavedova,0,0,0,,0,,,0,v,Dellavedova Out of Bounds - Bad Pass Turnover Turnover (P1.T6),Turnover,Out of Bounds - Bad Pass Turnover,1,0,96
+0022000900,130,PT00M58.50S,1,1610612766,CHA,202687,Biyombo,B. Biyombo,6,39,4,Missed,1,,,0,h,MISS Biyombo 4' Layup,Missed Shot,Layup Shot,1,2,97
+0022000900,130,PT00M58.50S,1,1610612739,CLE,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein BLOCK (1 BLK),,,1,2,98
+0022000900,132,PT00M58.50S,1,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Unknown,0,0,99
+0022000900,134,PT00M46.50S,1,1610612766,CHA,1629023,Washington,P. Washington,-116,46,12,Made,1,22,17,39,h,Washington 12' Turnaround Fadeaway (2 PTS) (McDaniels 1 AST),Made Shot,Turnaround Fadeaway shot,1,2,100
+0022000900,137,PT00M33.00S,1,1610612739,CLE,201567,Love,K. Love,120,231,26,Made,1,22,20,42,v,Love 26' 3PT Jump Shot (3 PTS) (Dellavedova 1 AST),Made Shot,Jump Shot,1,3,101
+0022000900,139,PT00M17.00S,1,1610612766,CHA,202954,Wanamaker,B. Wanamaker,55,132,14,Missed,1,,,0,h,MISS Wanamaker 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,102
+0022000900,140,PT00M15.00S,1,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,103
+0022000900,141,PT00M12.70S,1,1610612766,CHA,1628984,Graham,D. Graham,150,202,25,Missed,1,,,0,h,MISS Graham 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,104
+0022000900,142,PT00M10.30S,1,1610612739,CLE,203521,Dellavedova,M. Dellavedova,0,0,0,,0,,,0,v,Dellavedova REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,105
+0022000900,143,PT00M02.50S,1,1610612739,CLE,203521,Dellavedova,M. Dellavedova,-65,257,27,Missed,1,,,0,v,MISS Dellavedova 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,106
+0022000900,144,PT00M02.50S,1,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Rebound,Rebound,Unknown,0,0,107
+0022000900,145,PT00M00.00S,1,0,,0,,,0,0,0,,0,22,20,42,,End of 1st Period (8:34 PM EST),period,end,1,0,108
+0022000900,152,PT12M00.00S,2,0,,0,,,0,0,0,,0,22,20,42,,Start of 2nd Period (8:37 PM EST),period,start,0,0,109
+0022000900,153,PT11M43.00S,2,1610612766,CHA,1629023,Washington,P. Washington,-3,59,6,Missed,1,,,0,h,MISS Washington 6' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,110
+0022000900,154,PT11M41.00S,2,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,v,Wade REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,111
+0022000900,155,PT11M33.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,-15,-6,2,Made,1,22,22,44,v,Sexton 2' Reverse Layup (8 PTS) (Dellavedova 2 AST),Made Shot,Reverse Layup Shot,1,2,112
+0022000900,157,PT11M16.00S,2,1610612766,CHA,1629667,McDaniels,J. McDaniels,119,226,26,Missed,1,,,0,h,MISS McDaniels 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,113
+0022000900,158,PT11M12.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,114
+0022000900,159,PT11M12.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton Double Dribble Turnover (P1.T7),Turnover,Double Dribble,1,0,115
+0022000900,162,PT11M03.00S,2,1610612766,CHA,1628984,Graham,D. Graham,-171,193,26,Missed,1,,,0,h,MISS Graham 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,116
+0022000900,163,PT11M00.00S,2,1610612739,CLE,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,117
+0022000900,164,PT10M53.00S,2,1610612739,CLE,1628392,Hartenstein,I. Hartenstein,-4,6,1,Made,1,22,24,46,v,Hartenstein 1' Alley Oop Layup (2 PTS) (Dellavedova 3 AST),Made Shot,Alley Oop Layup shot,1,2,118
+0022000900,166,PT10M47.00S,2,1610612739,CLE,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein P.FOUL (P1.T1) (E.Dalen),Foul,Personal,1,0,119
+0022000900,169,PT10M47.00S,2,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,120
+0022000900,170,PT10M47.00S,2,0,,166,Harper,R. Harper,0,0,0,,0,22,24,46,,Instant Replay2nd Period (8:39 PM EST),Instant Replay,Coach Challenge Overturn Ruling,1,0,121
+0022000900,171,PT10M28.00S,2,1610612766,CHA,1629023,Washington,P. Washington,5,0,1,Made,1,24,24,48,h,Washington 1' Dunk (4 PTS) (Bridges 1 AST),Made Shot,Dunk Shot,1,2,122
+0022000900,173,PT10M13.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,19,16,2,Made,1,24,26,50,v,Sexton 2' Alley Oop Layup (10 PTS) (Dellavedova 4 AST),Made Shot,Alley Oop Layup shot,1,2,123
+0022000900,175,PT09M54.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,22,4,2,Missed,1,,,0,h,MISS Bridges 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,124
+0022000900,176,PT09M51.00S,2,1610612739,CLE,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,125
+0022000900,177,PT09M41.00S,2,1610612739,CLE,1628392,Hartenstein,I. Hartenstein,6,0,1,Made,1,24,28,52,v,Hartenstein 1' Alley Oop Dunk (4 PTS) (Dellavedova 5 AST),Made Shot,Alley Oop Dunk Shot,1,2,126
+0022000900,179,PT09M27.00S,2,1610612766,CHA,1629023,Washington,P. Washington,32,253,26,Made,1,27,28,55,h,Washington 26' 3PT Jump Shot (7 PTS) (Graham 3 AST),Made Shot,Jump Shot,1,3,127
+0022000900,181,PT09M13.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,132,236,27,Missed,1,,,0,v,MISS Sexton 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,128
+0022000900,182,PT09M09.00S,2,1610612766,CHA,1628984,Graham,D. Graham,0,0,0,,0,,,0,h,Graham REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,129
+0022000900,183,PT09M08.00S,2,1610612739,CLE,203521,Dellavedova,M. Dellavedova,0,0,0,,0,,,0,v,Dellavedova S.FOUL (P2.T2) (T.Brown),Foul,Shooting,1,0,130
+0022000900,185,PT09M08.00S,2,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,28,28,56,h,Co. Martin Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,131
+0022000900,186,PT09M08.00S,2,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,SUB: Wanamaker FOR McDaniels,Substitution,,0,0,132
+0022000900,188,PT09M08.00S,2,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,29,28,57,h,Co. Martin Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,133
+0022000900,189,PT08M58.00S,2,1610612739,CLE,203521,Dellavedova,M. Dellavedova,19,16,2,Missed,1,,,0,v,MISS Dellavedova 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,134
+0022000900,191,PT08M55.00S,2,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,135
+0022000900,192,PT08M46.00S,2,1610612766,CHA,1628984,Graham,D. Graham,-122,236,27,Made,1,32,28,60,h,Graham 27' 3PT Jump Shot (6 PTS) (Wanamaker 1 AST),Made Shot,Jump Shot,1,3,136
+0022000900,194,PT08M43.00S,2,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,137
+0022000900,195,PT08M43.00S,2,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,SUB: Nance Jr. FOR Love,Substitution,,0,0,138
+0022000900,197,PT08M20.00S,2,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,-26,256,26,Made,1,32,31,63,v,Nance Jr. 26' 3PT Jump Shot (3 PTS) (Dellavedova 6 AST),Made Shot,Jump Shot,1,3,139
+0022000900,199,PT07M59.00S,2,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,Co. Martin Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,140
+0022000900,199,PT07M59.00S,2,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. STEAL (1 STL),,,1,0,141
+0022000900,201,PT07M52.00S,2,1610612739,CLE,1628392,Hartenstein,I. Hartenstein,-16,3,2,Made,1,32,33,65,v,Hartenstein 2' Reverse Layup (6 PTS) (Wade 1 AST),Made Shot,Reverse Layup Shot,1,2,142
+0022000900,203,PT07M37.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,67,243,25,Made,1,35,33,68,h,Bridges 25' 3PT Pullup Jump Shot (11 PTS),Made Shot,Pullup Jump shot,1,3,143
+0022000900,204,PT07M20.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,-10,6,1,Made,1,35,35,70,v,Sexton 1' Reverse Layup (12 PTS) (Hartenstein 1 AST),Made Shot,Reverse Layup Shot,1,2,144
+0022000900,206,PT07M06.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,204,22,21,Missed,1,,,0,h,MISS Bridges 21' Jump Shot,Missed Shot,Jump Shot,1,2,145
+0022000900,211,PT07M06.00S,2,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,v,Wade REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,146
+0022000900,207,PT06M50.00S,2,1610612739,CLE,203521,Dellavedova,M. Dellavedova,179,189,26,Missed,1,,,0,v,MISS Dellavedova 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,147
+0022000900,208,PT06M50.00S,2,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Rebound,Rebound,Unknown,0,0,148
+0022000900,209,PT06M50.00S,2,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington L.B.FOUL (P1.T1) (M.Myers),Foul,Loose Ball,1,0,149
+0022000900,212,PT06M50.00S,2,0,,209,Curry,D. Curry,0,0,0,,0,35,35,70,,Instant Replay2nd Period (8:51 PM EST),Instant Replay,Ruling Stands,0,0,150
+0022000900,213,PT06M50.00S,2,1610612766,CHA,1628984,Graham,D. Graham,0,0,0,,0,,,0,h,SUB: Rozier FOR Graham,Substitution,,0,0,151
+0022000900,214,PT06M50.00S,2,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,SUB: Biyombo FOR Washington,Substitution,,0,0,152
+0022000900,215,PT06M50.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,SUB: Allen FOR Sexton,Substitution,,0,0,153
+0022000900,216,PT06M50.00S,2,1610612739,CLE,203521,Dellavedova,M. Dellavedova,0,0,0,,0,,,0,v,SUB: Okoro FOR Dellavedova,Substitution,,0,0,154
+0022000900,217,PT06M50.00S,2,1610612739,CLE,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,SUB: Garland FOR Hartenstein,Substitution,,0,0,155
+0022000900,223,PT06M41.00S,2,1610612739,CLE,1630171,Okoro,I. Okoro,7,17,2,Missed,1,,,0,v,MISS Okoro 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,156
+0022000900,224,PT06M39.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,157
+0022000900,225,PT06M27.00S,2,1610612766,CHA,202954,Wanamaker,B. Wanamaker,37,6,4,Missed,1,,,0,h,MISS Wanamaker 4' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,158
+0022000900,226,PT06M26.00S,2,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,v,Okoro REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,159
+0022000900,227,PT06M21.00S,2,1610612739,CLE,1629731,Wade,D. Wade,-2,8,1,Made,1,35,37,72,v,Wade 1' Running Dunk (2 PTS) (Garland 2 AST),Made Shot,Running Dunk Shot,1,2,160
+0022000900,229,PT06M05.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,-94,238,26,Made,1,38,37,75,h,Bridges 26' 3PT Pullup Jump Shot (14 PTS),Made Shot,Pullup Jump shot,1,3,161
+0022000900,230,PT05M37.00S,2,1610612739,CLE,1630171,Okoro,I. Okoro,-131,252,28,Made,1,38,40,78,v,Okoro 28' 3PT Jump Shot (3 PTS) (Garland 3 AST),Made Shot,Jump Shot,1,3,162
+0022000900,232,PT05M21.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,143,222,26,Missed,1,,,0,h,MISS Bridges 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,163
+0022000900,233,PT05M18.00S,2,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,v,Allen REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,164
+0022000900,234,PT05M10.00S,2,1610612739,CLE,1628386,Allen,J. Allen,12,3,1,Made,1,38,42,80,v,Allen 1' Dunk (11 PTS) (Garland 4 AST),Made Shot,Dunk Shot,1,2,165
+0022000900,236,PT05M10.00S,2,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,166
+0022000900,237,PT05M10.00S,2,1610612766,CHA,202954,Wanamaker,B. Wanamaker,0,0,0,,0,,,0,h,SUB: Graham FOR Wanamaker,Substitution,,0,0,167
+0022000900,238,PT05M10.00S,2,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,SUB: McDaniels FOR Co. Martin,Substitution,,0,0,168
+0022000900,241,PT04M48.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,169
+0022000900,241,PT04M48.00S,2,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland STEAL (1 STL),,,1,0,170
+0022000900,243,PT04M44.00S,2,1610612739,CLE,1629636,Garland,D. Garland,-5,11,1,Missed,1,,,0,v,MISS Garland 1' Running Reverse Layup,Missed Shot,Running Reverse Layup Shot,1,2,171
+0022000900,244,PT04M39.00S,2,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,v,Okoro REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,172
+0022000900,245,PT04M38.00S,2,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,-14,19,2,Missed,1,,,0,v,MISS Nance Jr. 2' Dunk,Missed Shot,Dunk Shot,1,2,173
+0022000900,246,PT04M36.00S,2,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,McDaniels REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,174
+0022000900,247,PT04M36.00S,2,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. P.FOUL (P1.T3) (E.Dalen),Foul,Personal,1,0,175
+0022000900,249,PT04M36.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,SUB: Washington FOR Bridges,Substitution,,0,0,176
+0022000900,251,PT04M30.00S,2,1610612766,CHA,1628984,Graham,D. Graham,78,247,26,Missed,1,,,0,h,MISS Graham 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,177
+0022000900,252,PT04M26.00S,2,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,178
+0022000900,253,PT04M10.00S,2,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,v,Okoro Out of Bounds - Bad Pass Turnover Turnover (P1.T8),Turnover,Out of Bounds - Bad Pass Turnover,1,0,179
+0022000900,254,PT03M47.00S,2,1610612766,CHA,1629023,Washington,P. Washington,231,86,25,Missed,1,,,0,h,MISS Washington 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,180
+0022000900,255,PT03M47.00S,2,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Rebound,Rebound,Unknown,0,0,181
+0022000900,256,PT03M47.00S,2,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo L.B.FOUL (P1.T2) (T.Brown),Foul,Loose Ball,1,0,182
+0022000900,258,PT03M47.00S,2,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,v,SUB: Sexton FOR Wade,Substitution,,0,0,183
+0022000900,260,PT03M33.00S,2,1610612739,CLE,1629636,Garland,D. Garland,-117,239,27,Made,1,38,45,83,v,Garland 27' 3PT Step Back Jump Shot (5 PTS),Made Shot,Step Back Jump shot,1,3,184
+0022000900,261,PT03M14.00S,2,1610612766,CHA,1626179,Rozier,T. Rozier,-228,8,0,Missed,1,,,0,h,MISS Rozier 3PT Jump Shot,Missed Shot,Jump Shot,1,3,185
+0022000900,262,PT03M12.00S,2,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:4 Def:1),Rebound,Unknown,1,0,186
+0022000900,263,PT03M11.00S,2,1610612766,CHA,1629667,McDaniels,J. McDaniels,-29,254,26,Missed,1,,,0,h,MISS McDaniels 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,187
+0022000900,264,PT03M09.00S,2,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Rebound,Rebound,Unknown,0,0,188
+0022000900,266,PT02M44.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,-71,243,25,Made,1,38,48,86,v,Sexton 25' 3PT Jump Shot (15 PTS) (Okoro 2 AST),Made Shot,Jump Shot,1,3,189
+0022000900,268,PT02M30.00S,2,1610612766,CHA,1629667,McDaniels,J. McDaniels,27,50,6,Made,1,40,48,88,h,McDaniels 6' Turnaround Fadeaway (7 PTS) (Graham 4 AST),Made Shot,Turnaround Fadeaway shot,1,2,190
+0022000900,270,PT02M22.00S,2,1610612739,CLE,1629636,Garland,D. Garland,112,269,29,Missed,1,,,0,v,MISS Garland 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,191
+0022000900,271,PT02M17.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,192
+0022000900,272,PT02M15.00S,2,1610612739,CLE,1629012,Sexton,C. Sexton,-8,6,1,Made,1,40,50,90,v,Sexton 1' Driving Layup (17 PTS),Made Shot,Driving Layup Shot,1,2,193
+0022000900,273,PT01M56.00S,2,1610612766,CHA,1629667,McDaniels,J. McDaniels,233,49,24,Missed,1,,,0,h,MISS McDaniels 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,194
+0022000900,274,PT01M51.00S,2,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:5 Def:1),Rebound,Unknown,1,0,195
+0022000900,275,PT01M45.00S,2,1610612766,CHA,1628984,Graham,D. Graham,180,176,25,Missed,1,,,0,h,MISS Graham 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,196
+0022000900,276,PT01M42.00S,2,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:6 Def:1),Rebound,Unknown,1,0,197
+0022000900,277,PT01M37.00S,2,1610612766,CHA,1629023,Washington,P. Washington,-229,12,0,Made,1,43,50,93,h,Washington 3PT Jump Shot (10 PTS) (Graham 5 AST),Made Shot,Jump Shot,1,3,198
+0022000900,279,PT01M17.00S,2,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,7,164,16,Missed,1,,,0,v,MISS Nance Jr. 16' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,199
+0022000900,280,PT01M15.00S,2,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:6 Def:2),Rebound,Unknown,1,0,200
+0022000900,305,PT00M55.90S,2,1610612766,CHA,1628984,Graham,D. Graham,189,195,27,Missed,1,,,0,h,MISS Graham 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,201
+0022000900,306,PT00M55.90S,2,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,McDaniels REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,202
+0022000900,281,PT00M55.90S,2,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton P.FOUL (P2.T4) (E.Dalen),Foul,Personal,1,0,203
+0022000900,283,PT00M55.90S,2,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,SUB: Bridges FOR McDaniels,Substitution,,0,0,204
+0022000900,284,PT00M55.90S,2,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,SUB: Love FOR Nance Jr.,Substitution,,0,0,205
+0022000900,287,PT00M55.90S,2,1610612766,CHA,1628984,Graham,D. Graham,0,0,0,,0,,,0,h,Graham T.FOUL (P0.T2) (T.Brown),Foul,Technical,1,0,206
+0022000900,288,PT00M55.90S,2,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,43,51,94,v,Love Free Throw Technical (4 PTS),Free Throw,Free Throw Technical,1,0,207
+0022000900,289,PT00M45.60S,2,1610612766,CHA,1626179,Rozier,T. Rozier,55,65,9,Made,1,45,51,96,h,Rozier 9' Driving Floating Jump Shot (4 PTS) (Biyombo 1 AST),Made Shot,Driving Floating Jump Shot,1,2,208
+0022000900,290,PT00M45.60S,2,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton L.B.FOUL (P3.PN) (M.Myers),Foul,Loose Ball,1,0,209
+0022000900,293,PT00M45.60S,2,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,SUB: Nance Jr. FOR Sexton,Substitution,,0,0,210
+0022000900,295,PT00M45.60S,2,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,MISS Biyombo Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,211
+0022000900,296,PT00M42.00S,2,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,Love REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,212
+0022000900,297,PT00M35.50S,2,1610612739,CLE,1629636,Garland,D. Garland,96,42,10,Made,1,45,53,98,v,Garland 10' Driving Floating Bank Jump Shot (7 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,213
+0022000900,298,PT00M27.90S,2,1610612766,CHA,1628970,Bridges,M. Bridges,233,20,0,Made,1,48,53,101,h,Bridges 3PT Jump Shot (17 PTS) (Graham 6 AST),Made Shot,Jump Shot,1,3,214
+0022000900,300,PT00M09.90S,2,1610612739,CLE,1628386,Allen,J. Allen,1,13,1,Made,1,48,55,103,v,Allen 1' Cutting Dunk Shot (13 PTS) (Garland 5 AST),Made Shot,Cutting Dunk Shot,1,2,215
+0022000900,302,PT00M00.60S,2,1610612766,CHA,1628984,Graham,D. Graham,-111,189,22,Missed,1,,,0,h,MISS Graham 22' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,216
+0022000900,303,PT00M00.60S,2,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,217
+0022000900,304,PT00M00.00S,2,0,,0,,,0,0,0,,0,48,55,103,,End of 2nd Period (9:04 PM EST),period,end,1,0,218
+0022000900,311,PT12M00.00S,3,0,,0,,,0,0,0,,0,48,55,103,,Start of 3rd Period (9:19 PM EST),period,start,0,0,219
+0022000900,312,PT11M43.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,20,24,3,Missed,1,,,0,h,MISS Bridges 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,220
+0022000900,313,PT11M40.00S,3,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,Love REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,221
+0022000900,314,PT11M35.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,-7,10,1,Made,1,48,57,105,v,Sexton 1' Running Layup (19 PTS),Made Shot,Running Layup Shot,1,2,222
+0022000900,315,PT11M28.00S,3,1610612766,CHA,1629023,Washington,P. Washington,7,267,27,Made,1,51,57,108,h,Washington 27' 3PT Jump Shot (13 PTS) (Rozier 3 AST),Made Shot,Jump Shot,1,3,223
+0022000900,381,PT11M28.00S,3,0,,315,,,0,0,0,,0,51,57,108,,Instant Replay3rd Period (9:20 PM EST),Instant Replay,Overturn Ruling,0,0,224
+0022000900,317,PT11M06.00S,3,1610612739,CLE,1629636,Garland,D. Garland,8,13,2,Missed,1,,,0,v,MISS Garland 2' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,225
+0022000900,318,PT11M00.00S,3,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,226
+0022000900,319,PT11M00.00S,3,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,Made,1,51,59,110,v,Garland Tip Layup Shot (9 PTS),Made Shot,Tip Layup Shot,1,2,227
+0022000900,320,PT10M54.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,-231,3,0,Made,1,54,59,113,h,Rozier 3PT Jump Shot (7 PTS) (Graham 7 AST),Made Shot,Jump Shot,1,3,228
+0022000900,322,PT10M41.00S,3,1610612739,CLE,1629636,Garland,D. Garland,9,1,1,Made,1,54,61,115,v,Garland 1' Driving Layup (11 PTS),Made Shot,Driving Layup Shot,1,2,229
+0022000900,323,PT10M29.00S,3,1610612766,CHA,1629023,Washington,P. Washington,38,260,26,Made,1,57,61,118,h,Washington 26' 3PT Jump Shot (16 PTS) (Graham 8 AST),Made Shot,Jump Shot,1,3,230
+0022000900,325,PT10M17.00S,3,1610612739,CLE,201567,Love,K. Love,-138,220,26,Made,1,57,64,121,v,Love 26' 3PT Jump Shot (7 PTS) (Sexton 2 AST),Made Shot,Jump Shot,1,3,231
+0022000900,326,PT10M03.00S,3,1610612766,CHA,1629023,Washington,P. Washington,-108,225,25,Missed,1,,,0,h,MISS Washington 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,232
+0022000900,327,PT10M00.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,v,Allen REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,233
+0022000900,328,PT09M52.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,v,Allen Bad Pass Turnover (P2.T9),Turnover,Bad Pass,1,0,234
+0022000900,328,PT09M52.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges STEAL (2 STL),,,1,0,235
+0022000900,330,PT09M51.00S,3,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland S.FOUL (P1.T1) (T.Brown),Foul,Shooting,1,0,236
+0022000900,332,PT09M51.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,MISS Bridges Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,237
+0022000900,333,PT09M51.00S,3,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Normal Rebound,0,0,238
+0022000900,334,PT09M51.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,58,64,122,h,Bridges Free Throw 2 of 2 (18 PTS),Free Throw,Free Throw 2 of 2,1,0,239
+0022000900,335,PT09M40.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,-6,64,6,Missed,1,,,0,v,MISS Sexton 6' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,240
+0022000900,336,PT09M38.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,241
+0022000900,337,PT09M35.00S,3,1610612766,CHA,1628984,Graham,D. Graham,171,268,32,Missed,1,,,0,h,MISS Graham 32' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,242
+0022000900,338,PT09M32.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,v,Allen REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,243
+0022000900,339,PT09M24.00S,3,1610612739,CLE,201567,Love,K. Love,120,227,26,Missed,1,,,0,v,MISS Love 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,244
+0022000900,340,PT09M21.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,245
+0022000900,341,PT09M11.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,228,1,0,Missed,1,,,0,h,MISS Rozier 3PT Jump Shot,Missed Shot,Jump Shot,1,3,246
+0022000900,342,PT09M09.00S,3,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,Co. Martin REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,247
+0022000900,343,PT09M06.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,228,57,24,Missed,1,,,0,h,MISS Rozier 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,248
+0022000900,344,PT09M04.00S,3,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,Co. Martin REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,249
+0022000900,345,PT09M02.00S,3,1610612766,CHA,1628998,Martin,C. Martin,8,3,1,Made,1,60,64,124,h,Co. Martin 1' Putback Layup (4 PTS),Made Shot,Putback Layup Shot,1,2,250
+0022000900,346,PT09M02.00S,3,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,251
+0022000900,348,PT08M44.00S,3,1610612739,CLE,1629636,Garland,D. Garland,96,21,10,Made,1,60,66,126,v,Garland 10' Driving Floating Bank Jump Shot (13 PTS) (Okoro 3 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,252
+0022000900,350,PT08M21.00S,3,1610612766,CHA,1629023,Washington,P. Washington,1,68,7,Missed,1,,,0,h,MISS Washington 7' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,253
+0022000900,351,PT08M21.00S,3,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Rebound,Rebound,Unknown,0,0,254
+0022000900,353,PT08M05.00S,3,1610612739,CLE,1630171,Okoro,I. Okoro,201,154,25,Missed,1,,,0,v,MISS Okoro 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,255
+0022000900,354,PT08M02.00S,3,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,256
+0022000900,355,PT07M53.00S,3,1610612766,CHA,1628998,Martin,C. Martin,-21,9,2,Missed,1,,,0,h,MISS Co. Martin 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,257
+0022000900,356,PT07M50.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,258
+0022000900,357,PT07M48.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton Lost Ball Turnover (P2.T10),Turnover,Lost Ball,1,0,259
+0022000900,357,PT07M48.00S,3,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,Co. Martin STEAL (1 STL),,,1,0,260
+0022000900,359,PT07M41.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,1,8,1,Made,1,62,66,128,h,Rozier 1' Running Layup (9 PTS) (Graham 9 AST),Made Shot,Running Layup Shot,1,2,261
+0022000900,361,PT07M26.00S,3,1610612766,CHA,1628984,Graham,D. Graham,0,0,0,,0,,,0,h,Graham P.FOUL (P1.T1) (E.Dalen),Foul,Personal,1,0,262
+0022000900,363,PT07M17.00S,3,1610612739,CLE,1629636,Garland,D. Garland,8,16,2,Made,1,62,68,130,v,Garland 2' Driving Finger Roll Layup (15 PTS) (Okoro 4 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,263
+0022000900,365,PT07M17.00S,3,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington Violation:Defensive Goaltending (T.Brown),Violation,Defensive Goaltending,1,0,264
+0022000900,366,PT06M54.00S,3,1610612766,CHA,1628984,Graham,D. Graham,-31,199,20,Missed,1,,,0,h,MISS Graham 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,265
+0022000900,367,PT06M50.00S,3,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,266
+0022000900,368,PT06M42.00S,3,1610612766,CHA,1628998,Martin,C. Martin,-9,15,2,Made,1,64,68,132,h,Co. Martin 2' Cutting Layup Shot (6 PTS) (Rozier 4 AST),Made Shot,Cutting Layup Shot,1,2,267
+0022000900,370,PT06M19.00S,3,1610612739,CLE,1629636,Garland,D. Garland,-11,4,1,Made,1,64,70,134,v,Garland 1' Driving Layup (17 PTS) (Love 2 AST),Made Shot,Driving Layup Shot,1,2,268
+0022000900,372,PT06M00.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,13,5,1,Made,1,66,70,136,h,Rozier 1' Driving Layup (11 PTS),Made Shot,Driving Layup Shot,1,2,269
+0022000900,373,PT06M00.00S,3,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland S.FOUL (P2.T2) (E.Dalen),Foul,Shooting,1,0,270
+0022000900,375,PT06M00.00S,3,1610612766,CHA,1628984,Graham,D. Graham,0,0,0,,0,,,0,h,SUB: Wanamaker FOR Graham,Substitution,,0,0,271
+0022000900,376,PT06M00.00S,3,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,SUB: Biyombo FOR Washington,Substitution,,0,0,272
+0022000900,379,PT06M00.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,67,70,137,h,Rozier Free Throw 1 of 1 (12 PTS),Free Throw,Free Throw 1 of 1,1,0,273
+0022000900,380,PT05M39.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton Out of Bounds Lost Ball Turnover (P3.T11),Turnover,Out of Bounds Lost Ball Turnover,1,0,274
+0022000900,382,PT05M39.00S,3,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,SUB: McDaniels FOR Co. Martin,Substitution,,0,0,275
+0022000900,384,PT05M22.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,-26,285,29,Missed,1,,,0,h,MISS Rozier 29' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,276
+0022000900,385,PT05M20.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,277
+0022000900,386,PT05M16.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,87,243,26,Missed,1,,,0,v,MISS Sexton 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,278
+0022000900,387,PT05M16.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,v,Allen REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,279
+0022000900,388,PT05M16.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges S.FOUL (P1.T2) (E.Dalen),Foul,Shooting,1,0,280
+0022000900,390,PT05M16.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,67,71,138,v,Allen Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,281
+0022000900,391,PT05M16.00S,3,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,SUB: Nance Jr. FOR Love,Substitution,,0,0,282
+0022000900,392,PT05M16.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,SUB: Wade FOR Sexton,Substitution,,0,0,283
+0022000900,395,PT05M16.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,67,72,139,v,Allen Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,284
+0022000900,396,PT05M01.00S,3,1610612766,CHA,202954,Wanamaker,B. Wanamaker,-26,62,7,Missed,1,,,0,h,MISS Wanamaker 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,285
+0022000900,397,PT04M57.00S,3,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,286
+0022000900,398,PT04M47.00S,3,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,-158,207,26,Missed,1,,,0,v,MISS Nance Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,287
+0022000900,399,PT04M43.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,288
+0022000900,400,PT04M34.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,22,88,9,Missed,1,,,0,h,MISS Rozier 9' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,289
+0022000900,401,PT04M31.00S,3,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,290
+0022000900,402,PT04M13.00S,3,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland Out of Bounds - Bad Pass Turnover Turnover (P2.T12),Turnover,Out of Bounds - Bad Pass Turnover,1,0,291
+0022000900,403,PT03M51.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,-21,5,2,Made,1,69,72,141,h,Rozier 2' Driving Layup (14 PTS),Made Shot,Driving Layup Shot,1,2,292
+0022000900,404,PT03M23.00S,3,1610612739,CLE,1629636,Garland,D. Garland,14,1,1,Made,1,69,74,143,v,Garland 1' Driving Finger Roll Layup (19 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,293
+0022000900,405,PT03M15.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,-24,9,3,Missed,1,,,0,h,MISS Rozier 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,294
+0022000900,406,PT03M14.00S,3,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:7 Def:2),Rebound,Unknown,1,0,295
+0022000900,407,PT03M10.00S,3,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,v,Okoro S.FOUL (P1.T3) (T.Brown),Foul,Shooting,1,0,296
+0022000900,409,PT03M10.00S,3,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,70,74,144,h,McDaniels Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,297
+0022000900,410,PT03M10.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,SUB: Washington FOR Bridges,Substitution,,0,0,298
+0022000900,412,PT03M10.00S,3,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,MISS McDaniels Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,299
+0022000900,413,PT03M06.00S,3,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,300
+0022000900,414,PT02M52.00S,3,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,v,Wade Bad Pass Turnover (P1.T13),Turnover,Bad Pass,1,0,301
+0022000900,414,PT02M52.00S,3,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington STEAL (1 STL),,,1,0,302
+0022000900,416,PT02M41.00S,3,1610612766,CHA,1629667,McDaniels,J. McDaniels,7,52,5,Missed,1,,,0,h,MISS McDaniels 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,303
+0022000900,417,PT02M35.00S,3,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,McDaniels REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,304
+0022000900,418,PT02M35.00S,3,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,Missed,1,,,0,h,MISS McDaniels Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,305
+0022000900,419,PT02M33.00S,3,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:8 Def:2),Rebound,Unknown,1,0,306
+0022000900,420,PT02M33.00S,3,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,Made,1,72,74,146,h,Biyombo Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,307
+0022000900,421,PT02M21.00S,3,1610612766,CHA,202954,Wanamaker,B. Wanamaker,0,0,0,,0,,,0,h,Wanamaker P.FOUL (P1.T3) (E.Dalen),Foul,Personal,1,0,308
+0022000900,423,PT02M21.00S,3,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,309
+0022000900,424,PT02M21.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,SUB: Graham FOR Rozier,Substitution,,0,0,310
+0022000900,425,PT02M21.00S,3,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,SUB: Dellavedova FOR Garland,Substitution,,0,0,311
+0022000900,426,PT02M21.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,v,SUB: Sexton FOR Allen,Substitution,,0,0,312
+0022000900,427,PT02M21.00S,3,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,v,SUB: Hartenstein FOR Okoro,Substitution,,0,0,313
+0022000900,435,PT02M12.00S,3,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,Made,1,72,76,148,v,Sexton Layup (21 PTS),Made Shot,Layup Shot,1,2,314
+0022000900,436,PT01M58.00S,3,1610612766,CHA,202687,Biyombo,B. Biyombo,13,8,2,Made,1,74,76,150,h,Biyombo 2' Cutting Layup Shot (4 PTS) (Wanamaker 2 AST),Made Shot,Cutting Layup Shot,1,2,315
+0022000900,438,PT01M46.00S,3,1610612739,CLE,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein Traveling Turnover (P1.T14),Turnover,Traveling,1,0,316
+0022000900,440,PT01M25.00S,3,1610612766,CHA,1629023,Washington,P. Washington,33,257,26,Missed,1,,,0,h,MISS Washington 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,317
+0022000900,441,PT01M22.00S,3,1610612739,CLE,203521,Dellavedova,M. Dellavedova,0,0,0,,0,,,0,v,Dellavedova REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,318
+0022000900,442,PT01M07.00S,3,1610612739,CLE,1628392,Hartenstein,I. Hartenstein,-7,5,1,Made,1,74,78,152,v,Hartenstein 1' Layup (8 PTS) (Nance Jr. 1 AST),Made Shot,Layup Shot,1,2,319
+0022000900,444,PT00M55.60S,3,1610612766,CHA,1628984,Graham,D. Graham,11,45,5,Made,1,76,78,154,h,Graham 5' Floating Jump Shot (8 PTS),Made Shot,Floating Jump shot,1,2,320
+0022000900,445,PT00M42.40S,3,1610612739,CLE,203521,Dellavedova,M. Dellavedova,5,262,26,Missed,1,,,0,v,MISS Dellavedova 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,321
+0022000900,446,PT00M39.80S,3,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Unknown,0,0,322
+0022000900,448,PT00M30.70S,3,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton P.FOUL (P4.T4) (T.Brown),Foul,Personal,1,0,323
+0022000900,450,PT00M15.50S,3,1610612766,CHA,1629023,Washington,P. Washington,153,95,18,Made,1,78,78,156,h,Washington 18' Turnaround Fadeaway (18 PTS) (McDaniels 2 AST),Made Shot,Turnaround Fadeaway shot,1,2,324
+0022000900,452,PT00M01.40S,3,1610612739,CLE,1629012,Sexton,C. Sexton,-103,246,27,Missed,1,,,0,v,MISS Sexton 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,325
+0022000900,453,PT00M01.40S,3,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Rebound,Rebound,Unknown,0,0,326
+0022000900,454,PT00M00.00S,3,0,,0,,,0,0,0,,0,78,78,156,,End of 3rd Period (9:43 PM EST),period,end,1,0,327
+0022000900,459,PT12M00.00S,4,0,,0,,,0,0,0,,0,78,78,156,,Start of 4th Period (9:46 PM EST),period,start,0,0,328
+0022000900,460,PT11M41.00S,4,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton Offensive Charge Foul (P5) (E.Dalen),Foul,Offensive Charge,1,0,329
+0022000900,462,PT11M41.00S,4,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton Offensive Foul Turnover (P4.T15),Turnover,Offensive Foul Turnover,1,0,330
+0022000900,463,PT11M41.00S,4,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,SUB: Garland FOR Sexton,Substitution,,0,0,331
+0022000900,465,PT11M18.00S,4,1610612766,CHA,1629023,Washington,P. Washington,230,21,0,Made,1,81,78,159,h,Washington 3PT Jump Shot (21 PTS) (Graham 10 AST),Made Shot,Jump Shot,1,3,332
+0022000900,467,PT11M03.00S,4,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,-6,0,1,Made,1,81,80,161,v,Nance Jr. 1' Cutting Dunk Shot (5 PTS) (Hartenstein 2 AST),Made Shot,Cutting Dunk Shot,1,2,333
+0022000900,469,PT10M44.00S,4,1610612766,CHA,1629023,Washington,P. Washington,13,8,2,Made,1,83,80,163,h,Washington 2' Driving Layup (23 PTS) (Bridges 2 AST),Made Shot,Driving Layup Shot,1,2,334
+0022000900,471,PT10M44.00S,4,1610612739,CLE,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein S.FOUL (P2.T1) (T.Brown),Foul,Shooting,1,0,335
+0022000900,473,PT10M44.00S,4,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,MISS Washington Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,336
+0022000900,474,PT10M42.00S,4,1610612739,CLE,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,337
+0022000900,475,PT10M21.00S,4,1610612739,CLE,1629636,Garland,D. Garland,-46,83,9,Missed,1,,,0,v,MISS Garland 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,338
+0022000900,476,PT10M17.00S,4,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,339
+0022000900,477,PT10M05.00S,4,1610612766,CHA,1628984,Graham,D. Graham,-2,267,27,Missed,1,,,0,h,MISS Graham 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,340
+0022000900,478,PT10M02.00S,4,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,341
+0022000900,479,PT09M55.00S,4,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington Violation:Kicked Ball (M.Myers),Violation,Kicked Ball,0,0,342
+0022000900,480,PT09M40.00S,4,1610612739,CLE,1629636,Garland,D. Garland,-12,6,1,Made,1,83,82,165,v,Garland 1' Finger Roll Layup (21 PTS),Made Shot,Finger Roll Layup Shot,1,2,343
+0022000900,481,PT09M37.00S,4,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,v,Wade P.FOUL (P1.T2) (M.Myers),Foul,Personal,1,0,344
+0022000900,483,PT09M37.00S,4,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,345
+0022000900,484,PT09M37.00S,4,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,SUB: Rozier FOR McDaniels,Substitution,,0,0,346
+0022000900,486,PT09M27.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,68,31,7,Missed,1,,,0,h,MISS Bridges 7' Hook Shot,Missed Shot,Hook Shot,1,2,347
+0022000900,487,PT09M25.00S,4,1610612739,CLE,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,348
+0022000900,488,PT09M18.00S,4,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,-226,21,0,Missed,1,,,0,v,MISS Nance Jr. 3PT Jump Shot,Missed Shot,Jump Shot,1,3,349
+0022000900,489,PT09M15.00S,4,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,Co. Martin REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,350
+0022000900,491,PT08M52.00S,4,1610612766,CHA,1626179,Rozier,T. Rozier,133,119,18,Missed,1,,,0,h,MISS Rozier 18' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,351
+0022000900,492,PT08M50.00S,4,1610612739,CLE,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,352
+0022000900,493,PT08M39.00S,4,1610612739,CLE,1628392,Hartenstein,I. Hartenstein,13,67,7,Made,1,83,84,167,v,Hartenstein 7' Floating Jump Shot (10 PTS) (Dellavedova 7 AST),Made Shot,Floating Jump shot,1,2,353
+0022000900,495,PT08M24.00S,4,1610612766,CHA,1628998,Martin,C. Martin,20,16,3,Missed,1,,,0,h,MISS Co. Martin 3' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,354
+0022000900,496,PT08M23.00S,4,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,355
+0022000900,497,PT08M23.00S,4,1610612766,CHA,1628984,Graham,D. Graham,0,0,0,,0,,,0,h,Graham Personal Take Foul (P2.T1) (M.Myers),Foul,Personal Take,1,0,356
+0022000900,514,PT08M23.00S,4,1610612766,CHA,1628984,Graham,D. Graham,0,0,0,,0,,,0,h,SUB: Wanamaker FOR Graham,Substitution,,0,0,357
+0022000900,515,PT08M23.00S,4,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,SUB: Biyombo FOR Washington,Substitution,,0,0,358
+0022000900,531,PT08M23.00S,4,1610612739,CLE,203521,Dellavedova,M. Dellavedova,0,0,0,,0,,,0,v,SUB: Love FOR Dellavedova,Substitution,,0,0,359
+0022000900,532,PT08M23.00S,4,1610612739,CLE,1629731,Wade,D. Wade,0,0,0,,0,,,0,v,SUB: Okoro FOR Wade,Substitution,,0,0,360
+0022000900,503,PT08M07.00S,4,1610612739,CLE,201567,Love,K. Love,141,221,26,Missed,1,,,0,v,MISS Love 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,361
+0022000900,504,PT08M04.00S,4,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,v,Okoro REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,362
+0022000900,505,PT07M59.00S,4,1610612739,CLE,1630171,Okoro,I. Okoro,-19,27,3,Missed,1,,,0,v,MISS Okoro 3' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,363
+0022000900,506,PT07M56.00S,4,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,364
+0022000900,507,PT07M56.00S,4,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,Missed,1,,,0,v,MISS Nance Jr. Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,365
+0022000900,508,PT07M55.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,366
+0022000900,509,PT07M52.00S,4,1610612766,CHA,202954,Wanamaker,B. Wanamaker,9,57,6,Missed,1,,,0,h,MISS Wanamaker 6' Running Layup,Missed Shot,Running Layup Shot,1,2,367
+0022000900,511,PT07M46.00S,4,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,368
+0022000900,512,PT07M44.00S,4,1610612739,CLE,1629636,Garland,D. Garland,3,265,27,Made,1,83,87,170,v,Garland 27' 3PT Pullup Jump Shot (24 PTS) (Nance Jr. 2 AST),Made Shot,Pullup Jump shot,1,3,369
+0022000900,518,PT07M26.00S,4,1610612766,CHA,202954,Wanamaker,B. Wanamaker,0,0,0,,0,,,0,h,Wanamaker Offensive Charge Foul (P2) (E.Dalen),Foul,Offensive Charge,1,0,370
+0022000900,520,PT07M26.00S,4,1610612766,CHA,202954,Wanamaker,B. Wanamaker,0,0,0,,0,,,0,h,Wanamaker Offensive Foul Turnover (P1.T3),Turnover,Offensive Foul Turnover,1,0,371
+0022000900,521,PT07M26.00S,4,1610612739,CLE,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,SUB: Allen FOR Hartenstein,Substitution,,0,0,372
+0022000900,523,PT07M04.00S,4,1610612739,CLE,1629636,Garland,D. Garland,-66,253,26,Missed,1,,,0,v,MISS Garland 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,373
+0022000900,524,PT07M02.00S,4,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Rebound,Rebound,Unknown,0,0,374
+0022000900,526,PT07M02.00S,4,1610612766,CHA,1628998,Martin,C. Martin,0,0,0,,0,,,0,h,SUB: McDaniels FOR Co. Martin,Substitution,,0,0,375
+0022000900,528,PT06M54.00S,4,1610612739,CLE,1630171,Okoro,I. Okoro,223,117,25,Missed,1,,,0,v,MISS Okoro 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,376
+0022000900,529,PT06M53.00S,4,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Unknown,0,0,377
+0022000900,535,PT06M29.00S,4,1610612766,CHA,1626179,Rozier,T. Rozier,-5,8,1,Made,1,85,87,172,h,Rozier 1' Driving Layup (16 PTS) (McDaniels 3 AST),Made Shot,Driving Layup Shot,1,2,378
+0022000900,537,PT06M29.00S,4,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,v,Okoro S.FOUL (P2.T3) (T.Brown),Foul,Shooting,1,0,379
+0022000900,539,PT06M29.00S,4,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,86,87,173,h,Rozier Free Throw 1 of 1 (17 PTS),Free Throw,Free Throw 1 of 1,1,0,380
+0022000900,540,PT06M15.00S,4,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. Lost Ball Turnover (P2.T16),Turnover,Lost Ball,1,0,381
+0022000900,540,PT06M15.00S,4,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,Rozier STEAL (1 STL),,,1,0,382
+0022000900,542,PT06M11.00S,4,1610612766,CHA,202687,Biyombo,B. Biyombo,20,9,2,Missed,1,,,0,h,MISS Biyombo 2' Running Alley Oop Layup Shot,Missed Shot,Running Alley Oop Layup Shot,1,2,383
+0022000900,543,PT06M09.00S,4,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,McDaniels REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,384
+0022000900,544,PT06M09.00S,4,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,Made,1,88,87,175,h,McDaniels Tip Dunk Shot (10 PTS),Made Shot,Tip Dunk Shot,1,2,385
+0022000900,545,PT05M48.00S,4,1610612739,CLE,201567,Love,K. Love,-58,39,7,Missed,1,,,0,v,MISS Love 7' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,386
+0022000900,546,PT05M46.00S,4,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,McDaniels REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,387
+0022000900,547,PT05M28.00S,4,1610612766,CHA,202954,Wanamaker,B. Wanamaker,-65,50,8,Made,1,90,87,177,h,Wanamaker 8' Fadeaway Jumper (4 PTS) (Rozier 5 AST),Made Shot,Fadeaway Jump Shot,1,2,388
+0022000900,549,PT05M28.00S,4,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland S.FOUL (P3.T4) (M.Myers),Foul,Shooting,1,0,389
+0022000900,551,PT05M28.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,SUB: Washington FOR Bridges,Substitution,,0,0,390
+0022000900,552,PT05M28.00S,4,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,SUB: Sexton FOR Nance Jr.,Substitution,,0,0,391
+0022000900,555,PT05M28.00S,4,1610612766,CHA,202954,Wanamaker,B. Wanamaker,0,0,0,,0,91,87,178,h,Wanamaker Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,392
+0022000900,556,PT05M16.00S,4,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,McDaniels P.FOUL (P1.T2) (M.Myers),Foul,Personal,1,0,393
+0022000900,558,PT05M07.00S,4,1610612766,CHA,202954,Wanamaker,B. Wanamaker,0,0,0,,0,,,0,h,Wanamaker S.FOUL (P3.T3) (T.Brown),Foul,Shooting,1,0,394
+0022000900,560,PT05M07.00S,4,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,MISS Garland Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,395
+0022000900,561,PT05M07.00S,4,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Rebound,Rebound,Normal Rebound,0,0,396
+0022000900,562,PT05M07.00S,4,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,91,88,179,v,Garland Free Throw 2 of 2 (25 PTS),Free Throw,Free Throw 2 of 2,1,0,397
+0022000900,563,PT04M51.00S,4,1610612766,CHA,1626179,Rozier,T. Rozier,51,100,11,Made,1,93,88,181,h,Rozier 11' Pullup Jump Shot (19 PTS),Made Shot,Pullup Jump shot,1,2,398
+0022000900,564,PT04M31.00S,4,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo P.FOUL (P2.T4) (E.Dalen),Foul,Personal,1,0,399
+0022000900,566,PT04M16.00S,4,1610612739,CLE,1629012,Sexton,C. Sexton,79,176,19,Made,1,93,90,183,v,Sexton 19' Step Back Jump Shot (23 PTS),Made Shot,Step Back Jump shot,1,2,400
+0022000900,567,PT04M02.00S,4,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,Love S.FOUL (P1.PN) (T.Brown),Foul,Shooting,1,0,401
+0022000900,569,PT04M02.00S,4,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,94,90,184,h,Washington Free Throw 1 of 2 (24 PTS),Free Throw,Free Throw 1 of 2,1,0,402
+0022000900,570,PT04M02.00S,4,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,95,90,185,h,Washington Free Throw 2 of 2 (25 PTS),Free Throw,Free Throw 2 of 2,1,0,403
+0022000900,571,PT03M48.00S,4,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,h,Washington P.FOUL (P2.PN) (M.Myers),Foul,Personal,1,0,404
+0022000900,573,PT03M48.00S,4,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,95,91,186,v,Love Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,405
+0022000900,574,PT03M48.00S,4,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,h,SUB: Bridges FOR McDaniels,Substitution,,0,0,406
+0022000900,575,PT03M48.00S,4,1610612766,CHA,202954,Wanamaker,B. Wanamaker,0,0,0,,0,,,0,h,SUB: Graham FOR Wanamaker,Substitution,,0,0,407
+0022000900,578,PT03M48.00S,4,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,95,92,187,v,Love Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,408
+0022000900,579,PT03M30.00S,4,1610612766,CHA,1626179,Rozier,T. Rozier,-26,246,25,Made,1,98,92,190,h,Rozier 25' 3PT Pullup Jump Shot (22 PTS) (Washington 1 AST),Made Shot,Pullup Jump shot,1,3,409
+0022000900,581,PT03M21.00S,4,1610612739,CLE,201567,Love,K. Love,-18,257,26,Made,1,98,95,193,v,Love 26' 3PT Jump Shot (12 PTS) (Garland 6 AST),Made Shot,Jump Shot,1,3,410
+0022000900,583,PT02M57.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,-2,22,2,Made,1,100,95,195,h,Bridges 2' Driving Layup (20 PTS),Made Shot,Driving Layup Shot,1,2,411
+0022000900,584,PT02M46.00S,4,1610612739,CLE,201567,Love,K. Love,234,64,24,Missed,1,,,0,v,MISS Love 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,412
+0022000900,585,PT02M44.00S,4,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,Rozier REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,413
+0022000900,586,PT02M24.00S,4,1610612766,CHA,1628984,Graham,D. Graham,-166,192,25,Missed,1,,,0,h,MISS Graham 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,414
+0022000900,587,PT02M22.00S,4,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:9 Def:2),Rebound,Unknown,1,0,415
+0022000900,588,PT02M19.00S,4,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,416
+0022000900,589,PT02M09.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,195,75,21,Made,1,102,95,197,h,Bridges 21' Pullup Jump Shot (22 PTS) (Washington 2 AST),Made Shot,Pullup Jump shot,1,2,417
+0022000900,591,PT01M52.00S,4,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo S.FOUL (P3.PN) (E.Dalen),Foul,Shooting,1,0,418
+0022000900,593,PT01M52.00S,4,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,MISS Sexton Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,419
+0022000900,594,PT01M52.00S,4,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Rebound,Rebound,Normal Rebound,0,0,420
+0022000900,595,PT01M52.00S,4,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,MISS Sexton Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,421
+0022000900,596,PT01M49.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:9),Rebound,Unknown,1,0,422
+0022000900,597,PT01M31.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,228,10,0,Made,1,105,95,200,h,Bridges 3PT Jump Shot (25 PTS) (Rozier 6 AST),Made Shot,Jump Shot,1,3,423
+0022000900,599,PT01M31.00S,4,0,,1610612739,,,0,0,0,,0,,,0,v,Cavaliers Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,424
+0022000900,600,PT01M24.00S,4,1610612739,CLE,1629636,Garland,D. Garland,51,278,28,Missed,1,,,0,v,MISS Garland 28' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,425
+0022000900,601,PT01M22.00S,4,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,v,Okoro REBOUND (Off:4 Def:1),Rebound,Unknown,1,0,426
+0022000900,602,PT01M19.00S,4,1610612739,CLE,201567,Love,K. Love,-209,20,21,Missed,1,,,0,v,MISS Love 21' Jump Shot,Missed Shot,Jump Shot,1,2,427
+0022000900,603,PT01M17.00S,4,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,Love REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,428
+0022000900,604,PT01M14.00S,4,1610612739,CLE,1629012,Sexton,C. Sexton,232,-1,0,Missed,1,,,0,v,MISS Sexton 3PT Jump Shot,Missed Shot,Jump Shot,1,3,429
+0022000900,605,PT01M12.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:10),Rebound,Unknown,1,0,430
+0022000900,606,PT01M00.00S,4,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,Rozier Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,431
+0022000900,606,PT01M00.00S,4,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton STEAL (1 STL),,,1,0,432
+0022000900,608,PT00M59.40S,4,1610612739,CLE,1629012,Sexton,C. Sexton,-11,4,1,Made,1,105,97,202,v,Sexton 1' Running Layup (25 PTS),Made Shot,Running Layup Shot,1,2,433
+0022000900,609,PT00M59.30S,4,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,v,Okoro AWAY.FROM.PLAY.FOUL (P3.PN) (T.Brown),Foul,Away From Play,1,0,434
+0022000900,611,PT00M59.30S,4,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,106,97,203,h,Rozier Free Throw 1 of 1 (23 PTS),Free Throw,Free Throw 1 of 1,1,0,435
+0022000900,612,PT00M38.30S,4,1610612766,CHA,1629023,Washington,P. Washington,137,173,22,Missed,1,,,0,h,MISS Washington 22' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,436
+0022000900,613,PT00M34.30S,4,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,,,0,v,Sexton REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,437
+0022000900,614,PT00M26.20S,4,1610612766,CHA,1628984,Graham,D. Graham,0,0,0,,0,,,0,h,Graham S.FOUL (P3.PN) (E.Dalen),Foul,Shooting,1,0,438
+0022000900,616,PT00M26.20S,4,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,106,98,204,v,Sexton Free Throw 1 of 3 (26 PTS),Free Throw,Free Throw 1 of 3,1,0,439
+0022000900,617,PT00M26.20S,4,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,106,99,205,v,Sexton Free Throw 2 of 3 (27 PTS),Free Throw,Free Throw 2 of 3,1,0,440
+0022000900,618,PT00M26.20S,4,1610612739,CLE,201567,Love,K. Love,0,0,0,,0,,,0,v,SUB: Nance Jr. FOR Love,Substitution,,0,0,441
+0022000900,620,PT00M26.20S,4,1610612739,CLE,1629012,Sexton,C. Sexton,0,0,0,,0,106,100,206,v,Sexton Free Throw 3 of 3 (28 PTS),Free Throw,Free Throw 3 of 3,1,0,442
+0022000900,621,PT00M26.20S,4,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,443
+0022000900,622,PT00M26.20S,4,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,SUB: Wanamaker FOR Biyombo,Substitution,,0,0,444
+0022000900,624,PT00M22.60S,4,1610612739,CLE,1630171,Okoro,I. Okoro,0,0,0,,0,,,0,v,Okoro Personal Take Foul (P4.PN) (E.Dalen),Foul,Personal Take,1,0,445
+0022000900,626,PT00M22.60S,4,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,107,100,207,h,Rozier Free Throw 1 of 2 (24 PTS),Free Throw,Free Throw 1 of 2,1,0,446
+0022000900,627,PT00M22.60S,4,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,108,100,208,h,Rozier Free Throw 2 of 2 (25 PTS),Free Throw,Free Throw 2 of 2,1,0,447
+0022000900,628,PT00M17.00S,4,1610612739,CLE,1629636,Garland,D. Garland,0,16,2,Made,1,108,102,210,v,Garland 2' Driving Layup (27 PTS),Made Shot,Driving Layup Shot,1,2,448
+0022000900,629,PT00M17.00S,4,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 7 Short 0),Timeout,Regular,0,0,449
+0022000900,630,PT00M12.90S,4,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,h,Rozier Lost Ball Turnover (P2.T5),Turnover,Lost Ball,1,0,450
+0022000900,630,PT00M12.90S,4,1610612739,CLE,1629636,Garland,D. Garland,0,0,0,,0,,,0,v,Garland STEAL (2 STL),,,1,0,451
+0022000900,632,PT00M07.70S,4,1610612739,CLE,1626204,Nance Jr.,L. Nance Jr.,0,0,0,,0,,,0,v,Nance Jr. Bad Pass Turnover (P3.T17),Turnover,Bad Pass,1,0,452
+0022000900,632,PT00M07.70S,4,1610612766,CHA,202954,Wanamaker,B. Wanamaker,0,0,0,,0,,,0,h,Wanamaker STEAL (2 STL),,,1,0,453
+0022000900,634,PT00M00.00S,4,0,,0,,,0,0,0,,0,108,102,210,,End of 4th Period (10:21 PM EST),period,end,1,0,454

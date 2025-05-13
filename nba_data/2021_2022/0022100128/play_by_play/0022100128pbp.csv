@@ -1,0 +1,517 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022100128,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:46 PM EST),period,start,0,0,1
+0022100128,4,PT12M00.00S,1,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Jump Ball G. Antetokounmpo vs. Robinson: Tip to Walker,Jump Ball,,1,0,2
+0022100128,7,PT11M45.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,3
+0022100128,7,PT11M45.00S,1,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,G. Antetokounmpo STEAL (1 STL),,,1,0,4
+0022100128,9,PT11M30.00S,1,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,-129,218,25,Missed,1,,,0,h,MISS G. Antetokounmpo 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,5
+0022100128,10,PT11M28.00S,1,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,6
+0022100128,11,PT11M28.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett Out of Bounds - Bad Pass Turnover Turnover (P2.T2),Turnover,Out of Bounds - Bad Pass Turnover,1,0,7
+0022100128,12,PT11M13.00S,1,1610612749,MIL,1628960,Allen,G. Allen,6,271,27,Made,1,3,0,3,h,Allen 27' 3PT Jump Shot (3 PTS) (G. Antetokounmpo 1 AST),Made Shot,Jump Shot,1,3,8
+0022100128,14,PT10M52.00S,1,1610612752,NYK,202689,Walker,K. Walker,-89,115,15,Missed,1,,,0,v,MISS Walker 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,9
+0022100128,15,PT10M49.00S,1,1610612749,MIL,203648,Antetokounmpo,T. Antetokounmpo,0,0,0,,0,,,0,h,T. Antetokounmpo REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,10
+0022100128,16,PT10M41.00S,1,1610612749,MIL,203648,Antetokounmpo,T. Antetokounmpo,89,78,12,Missed,1,,,0,h,MISS T. Antetokounmpo 12' Layup,Missed Shot,Layup Shot,1,2,11
+0022100128,17,PT10M38.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,12
+0022100128,18,PT10M25.00S,1,1610612752,NYK,203944,Randle,J. Randle,-130,239,27,Missed,1,,,0,v,MISS Randle 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,13
+0022100128,19,PT10M22.00S,1,1610612749,MIL,1628960,Allen,G. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,14
+0022100128,20,PT10M16.00S,1,1610612749,MIL,201588,Hill,G. Hill,154,227,27,Made,1,6,0,6,h,Hill 27' 3PT Running Jump Shot (3 PTS) (Allen 1 AST),Made Shot,Running Jump Shot,1,3,15
+0022100128,22,PT10M05.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,65,270,28,Missed,1,,,0,v,MISS Barrett 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,16
+0022100128,23,PT10M02.00S,1,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,G. Antetokounmpo REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,17
+0022100128,24,PT09M58.00S,1,1610612749,MIL,1628960,Allen,G. Allen,-217,132,25,Missed,1,,,0,h,MISS Allen 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,18
+0022100128,25,PT09M55.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,19
+0022100128,26,PT09M40.00S,1,1610612752,NYK,203944,Randle,J. Randle,-121,237,27,Made,1,6,3,9,v,Randle 27' 3PT Pullup Jump Shot (3 PTS) (Walker 1 AST),Made Shot,Pullup Jump shot,1,3,20
+0022100128,28,PT09M16.00S,1,1610612749,MIL,1626192,Connaughton,P. Connaughton,-118,224,25,Missed,1,,,0,h,MISS Connaughton 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,21
+0022100128,29,PT09M13.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,22
+0022100128,30,PT09M06.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,107,264,28,Made,1,6,6,12,v,Barrett 28' 3PT Jump Shot (3 PTS) (Randle 1 AST),Made Shot,Jump Shot,1,3,23
+0022100128,32,PT08M50.00S,1,1610612749,MIL,1628960,Allen,G. Allen,-125,230,26,Made,1,9,6,15,h,Allen 26' 3PT Jump Shot (6 PTS) (G. Antetokounmpo 2 AST),Made Shot,Jump Shot,1,3,24
+0022100128,35,PT08M36.00S,1,1610612752,NYK,202689,Walker,K. Walker,0,0,0,,0,,,0,v,Walker Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,25
+0022100128,35,PT08M36.00S,1,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,G. Antetokounmpo STEAL (2 STL),,,1,0,26
+0022100128,37,PT08M33.00S,1,1610612749,MIL,1626192,Connaughton,P. Connaughton,-232,20,0,Missed,1,,,0,h,MISS Connaughton 3PT Jump Shot,Missed Shot,Jump Shot,1,3,27
+0022100128,38,PT08M32.00S,1,1610612749,MIL,1628960,Allen,G. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,28
+0022100128,39,PT08M30.00S,1,1610612749,MIL,1626192,Connaughton,P. Connaughton,-241,15,24,Missed,1,,,0,h,MISS Connaughton 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,29
+0022100128,40,PT08M29.00S,1,1610612749,MIL,203648,Antetokounmpo,T. Antetokounmpo,0,0,0,,0,,,0,h,T. Antetokounmpo REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,30
+0022100128,41,PT08M26.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett S.FOUL (P1.T1) (E.Malloy),Foul,Shooting,1,0,31
+0022100128,43,PT08M26.00S,1,1610612749,MIL,203648,Antetokounmpo,T. Antetokounmpo,0,0,0,,0,,,0,h,MISS T. Antetokounmpo Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,32
+0022100128,44,PT08M26.00S,1,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Rebound,Rebound,Normal Rebound,0,0,33
+0022100128,45,PT08M26.00S,1,1610612749,MIL,203648,Antetokounmpo,T. Antetokounmpo,0,0,0,,0,10,6,16,h,T. Antetokounmpo Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,34
+0022100128,46,PT08M08.00S,1,1610612752,NYK,203095,Fournier,E. Fournier,-126,247,28,Missed,1,,,0,v,MISS Fournier 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,35
+0022100128,47,PT08M05.00S,1,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,36
+0022100128,48,PT08M03.00S,1,1610612752,NYK,203944,Randle,J. Randle,-234,-4,0,Made,1,10,9,19,v,Randle 3PT Jump Shot (6 PTS) (Robinson 1 AST),Made Shot,Jump Shot,1,3,37
+0022100128,51,PT07M42.00S,1,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,G. Antetokounmpo Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,38
+0022100128,51,PT07M42.00S,1,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson STEAL (1 STL),,,1,0,39
+0022100128,53,PT07M38.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,27,43,5,Missed,1,,,0,v,MISS Barrett 5' Running Layup,Missed Shot,Running Layup Shot,1,2,40
+0022100128,53,PT07M38.00S,1,1610612749,MIL,1628960,Allen,G. Allen,0,0,0,,0,,,0,h,Allen BLOCK (1 BLK),,,1,2,41
+0022100128,54,PT07M38.00S,1,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,1,0,42
+0022100128,55,PT07M38.00S,1,1610612752,NYK,202689,Walker,K. Walker,0,0,0,,0,,,0,v,Walker Backcourt Turnover (P2.T4),Turnover,Backcourt Turnover,1,0,43
+0022100128,57,PT07M38.00S,1,1610612749,MIL,203648,Antetokounmpo,T. Antetokounmpo,0,0,0,,0,,,0,h,SUB: Portis FOR T. Antetokounmpo,Substitution,,0,0,44
+0022100128,59,PT07M26.00S,1,1610612749,MIL,201588,Hill,G. Hill,232,25,0,Made,1,13,9,22,h,Hill 3PT Jump Shot (6 PTS) (Allen 2 AST),Made Shot,Jump Shot,1,3,45
+0022100128,61,PT07M10.00S,1,1610612752,NYK,203944,Randle,J. Randle,-37,191,19,Missed,1,,,0,v,MISS Randle 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,46
+0022100128,62,PT07M07.00S,1,1610612749,MIL,1628960,Allen,G. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,47
+0022100128,63,PT06M54.00S,1,1610612749,MIL,1626171,Portis,B. Portis,240,9,24,Missed,1,,,0,h,MISS Portis 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,48
+0022100128,64,PT06M50.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,49
+0022100128,65,PT06M42.00S,1,1610612752,NYK,203095,Fournier,E. Fournier,232,-17,0,Missed,1,,,0,v,MISS Fournier 3PT Jump Shot,Missed Shot,Jump Shot,1,3,50
+0022100128,66,PT06M40.00S,1,1610612749,MIL,1628960,Allen,G. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,51
+0022100128,67,PT06M36.00S,1,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,11,24,3,Made,1,15,9,24,h,G. Antetokounmpo 3' Running Layup (2 PTS),Made Shot,Running Layup Shot,1,2,52
+0022100128,68,PT06M29.00S,1,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,53
+0022100128,69,PT06M29.00S,1,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,SUB: Holiday FOR Connaughton,Substitution,,0,0,54
+0022100128,71,PT06M20.00S,1,1610612752,NYK,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,Fournier Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,55
+0022100128,71,PT06M20.00S,1,1610612749,MIL,1628960,Allen,G. Allen,0,0,0,,0,,,0,h,Allen STEAL (1 STL),,,1,0,56
+0022100128,73,PT06M15.00S,1,1610612749,MIL,1628960,Allen,G. Allen,0,35,4,Made,1,17,9,26,h,Allen 4' Running Dunk (8 PTS),Made Shot,Running Dunk Shot,1,2,57
+0022100128,75,PT05M56.00S,1,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,SUB: Nwora FOR Hill,Substitution,,0,0,58
+0022100128,77,PT05M50.00S,1,1610612752,NYK,202689,Walker,K. Walker,-120,242,27,Missed,1,,,0,v,MISS Walker 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,59
+0022100128,78,PT05M47.00S,1,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,G. Antetokounmpo REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,60
+0022100128,79,PT05M38.00S,1,1610612749,MIL,201950,Holiday,J. Holiday,2,26,3,Made,1,19,9,28,h,Holiday 3' Driving Floating Jump Shot (2 PTS) (G. Antetokounmpo 3 AST),Made Shot,Driving Floating Jump Shot,1,2,61
+0022100128,81,PT05M15.00S,1,1610612752,NYK,202689,Walker,K. Walker,77,267,28,Missed,1,,,0,v,MISS Walker 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,62
+0022100128,82,PT05M12.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,63
+0022100128,83,PT05M10.00S,1,1610612752,NYK,203944,Randle,J. Randle,-201,173,27,Missed,1,,,0,v,MISS Randle 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,64
+0022100128,84,PT05M10.00S,1,1610612749,MIL,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,Portis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,65
+0022100128,85,PT04M51.00S,1,1610612749,MIL,1628960,Allen,G. Allen,-194,166,26,Made,1,22,9,31,h,Allen 26' 3PT Jump Shot (11 PTS) (Holiday 1 AST),Made Shot,Jump Shot,1,3,66
+0022100128,87,PT04M44.00S,1,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,67
+0022100128,88,PT04M44.00S,1,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,SUB: Ojeleye FOR G. Antetokounmpo,Substitution,,0,0,68
+0022100128,89,PT04M44.00S,1,1610612752,NYK,202689,Walker,K. Walker,0,0,0,,0,,,0,v,SUB: Rose FOR Walker,Substitution,,0,0,69
+0022100128,90,PT04M44.00S,1,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,SUB: Noel FOR Robinson,Substitution,,0,0,70
+0022100128,94,PT04M35.00S,1,1610612752,NYK,203095,Fournier,E. Fournier,-42,278,28,Missed,1,,,0,v,MISS Fournier 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,71
+0022100128,95,PT04M32.00S,1,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,72
+0022100128,96,PT04M28.00S,1,1610612752,NYK,201565,Rose,D. Rose,-233,15,0,Missed,1,,,0,v,MISS Rose 3PT Jump Shot,Missed Shot,Jump Shot,1,3,73
+0022100128,97,PT04M24.00S,1,1610612749,MIL,1628400,Ojeleye,S. Ojeleye,0,0,0,,0,,,0,h,Ojeleye REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,74
+0022100128,98,PT04M16.00S,1,1610612749,MIL,201950,Holiday,J. Holiday,-229,120,26,Missed,1,,,0,h,MISS Holiday 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,75
+0022100128,99,PT04M12.00S,1,1610612749,MIL,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,Portis REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,76
+0022100128,100,PT04M12.00S,1,1610612749,MIL,1626171,Portis,B. Portis,-4,11,1,Made,1,24,9,33,h,Portis 1' Putback Dunk (2 PTS),Made Shot,Putback Dunk Shot,1,2,77
+0022100128,101,PT04M00.00S,1,1610612752,NYK,201565,Rose,D. Rose,10,11,1,Made,1,24,11,35,v,Rose 1' Driving Finger Roll Layup (2 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,78
+0022100128,102,PT03M46.00S,1,1610612749,MIL,1629670,Nwora,J. Nwora,175,192,26,Made,1,27,11,38,h,Nwora 26' 3PT Jump Shot (3 PTS),Made Shot,Jump Shot,1,3,79
+0022100128,103,PT03M21.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,-47,269,27,Missed,1,,,0,v,MISS Barrett 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,80
+0022100128,104,PT03M18.00S,1,1610612749,MIL,1629670,Nwora,J. Nwora,0,0,0,,0,,,0,h,Nwora REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,81
+0022100128,105,PT03M08.00S,1,1610612749,MIL,1629670,Nwora,J. Nwora,12,41,4,Missed,1,,,0,h,MISS Nwora 4' Finger Roll Layup,Missed Shot,Finger Roll Layup Shot,1,2,82
+0022100128,106,PT03M05.00S,1,1610612752,NYK,201565,Rose,D. Rose,0,0,0,,0,,,0,v,Rose REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,83
+0022100128,107,PT03M02.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,6,12,1,Missed,1,,,0,v,MISS Barrett 1' Running Layup,Missed Shot,Running Layup Shot,1,2,84
+0022100128,107,PT03M02.00S,1,1610612749,MIL,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,Portis BLOCK (1 BLK),,,1,2,85
+0022100128,109,PT02M57.00S,1,1610612749,MIL,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,86
+0022100128,110,PT02M52.00S,1,1610612749,MIL,1629670,Nwora,J. Nwora,-230,19,0,Missed,1,,,0,h,MISS Nwora 3PT Jump Shot,Missed Shot,Jump Shot,1,3,87
+0022100128,111,PT02M49.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,88
+0022100128,112,PT02M44.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,12,5,1,Made,1,27,13,40,v,Barrett 1' Driving Reverse Layup (5 PTS),Made Shot,Driving Reverse Layup Shot,1,2,89
+0022100128,113,PT02M24.00S,1,1610612749,MIL,1628960,Allen,G. Allen,-230,58,24,Made,1,30,13,43,h,Allen 24' 3PT Jump Shot (14 PTS) (Holiday 2 AST),Made Shot,Jump Shot,1,3,90
+0022100128,115,PT02M10.00S,1,1610612752,NYK,203944,Randle,J. Randle,-124,256,28,Missed,1,,,0,v,MISS Randle 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,91
+0022100128,116,PT02M10.00S,1,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Rebound,Rebound,Unknown,0,0,92
+0022100128,118,PT02M10.00S,1,1610612749,MIL,1628960,Allen,G. Allen,0,0,0,,0,,,0,h,SUB: Hood FOR Allen,Substitution,,0,0,93
+0022100128,119,PT02M10.00S,1,1610612752,NYK,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,SUB: Toppin FOR Fournier,Substitution,,0,0,94
+0022100128,120,PT02M10.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,SUB: Burks FOR Randle,Substitution,,0,0,95
+0022100128,124,PT02M10.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,SUB: Quickley FOR Barrett,Substitution,,0,0,96
+0022100128,126,PT01M51.00S,1,1610612749,MIL,201950,Holiday,J. Holiday,-129,17,13,Missed,1,,,0,h,MISS Holiday 13' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,97
+0022100128,127,PT01M49.00S,1,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,98
+0022100128,128,PT01M38.00S,1,1610612752,NYK,201565,Rose,D. Rose,-218,164,27,Missed,1,,,0,v,MISS Rose 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,99
+0022100128,129,PT01M35.00S,1,1610612749,MIL,1628400,Ojeleye,S. Ojeleye,0,0,0,,0,,,0,h,Ojeleye REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,100
+0022100128,130,PT01M24.00S,1,1610612749,MIL,1626171,Portis,B. Portis,54,168,18,Missed,1,,,0,h,MISS Portis 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,101
+0022100128,131,PT01M22.00S,1,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,102
+0022100128,132,PT01M15.00S,1,1610612752,NYK,1630193,Quickley,I. Quickley,76,29,8,Made,1,30,15,45,v,Quickley 8' Driving Floating Bank Jump Shot (2 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,103
+0022100128,133,PT01M05.00S,1,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,Toppin S.FOUL (P1.T2) (S.Twardoski),Foul,Shooting,1,0,104
+0022100128,135,PT01M05.00S,1,1610612749,MIL,201950,Holiday,J. Holiday,0,0,0,,0,31,15,46,h,Holiday Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,105
+0022100128,136,PT01M05.00S,1,1610612749,MIL,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,SUB: Connaughton FOR Portis,Substitution,,0,0,106
+0022100128,137,PT01M05.00S,1,1610612749,MIL,1629670,Nwora,J. Nwora,0,0,0,,0,,,0,h,SUB: G. Antetokounmpo FOR Nwora,Substitution,,0,0,107
+0022100128,140,PT01M05.00S,1,1610612749,MIL,201950,Holiday,J. Holiday,0,0,0,,0,32,15,47,h,Holiday Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,108
+0022100128,141,PT00M55.30S,1,1610612752,NYK,203457,Noel,N. Noel,-16,21,3,Made,1,32,17,49,v,Noel 3' Alley Oop Dunk (2 PTS) (Rose 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,109
+0022100128,144,PT00M50.10S,1,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,5,25,3,Made,1,34,17,51,h,G. Antetokounmpo 3' Running Layup (4 PTS),Made Shot,Running Layup Shot,1,2,110
+0022100128,145,PT00M50.10S,1,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel S.FOUL (P1.PN) (E.Malloy),Foul,Shooting,1,0,111
+0022100128,147,PT00M50.10S,1,1610612749,MIL,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,SUB: Hill FOR Holiday,Substitution,,0,0,112
+0022100128,149,PT00M50.10S,1,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,35,17,52,h,G. Antetokounmpo Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,113
+0022100128,150,PT00M37.30S,1,1610612752,NYK,1630193,Quickley,I. Quickley,-143,243,28,Missed,1,,,0,v,MISS Quickley 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,114
+0022100128,151,PT00M34.40S,1,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,Hill REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,115
+0022100128,152,PT00M29.90S,1,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,-96,148,18,Missed,1,,,0,h,MISS G. Antetokounmpo 18' Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,2,116
+0022100128,153,PT00M27.00S,1,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,117
+0022100128,681,PT00M11.00S,1,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks Bad Pass Turnover (P1.T6),Turnover,Bad Pass,0,0,118
+0022100128,681,PT00M11.00S,1,1610612749,MIL,1628400,Ojeleye,S. Ojeleye,0,0,0,,0,,,0,h,Ojeleye STEAL (1 STL),,,0,0,119
+0022100128,683,PT00M09.00S,1,1610612749,MIL,1628400,Ojeleye,S. Ojeleye,0,0,0,,0,,,0,h,Ojeleye Bad Pass Turnover (P1.T2),Turnover,Bad Pass,0,0,120
+0022100128,683,PT00M09.00S,1,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel STEAL (1 STL),,,0,0,121
+0022100128,154,PT00M07.60S,1,1610612752,NYK,1630167,Toppin,O. Toppin,7,16,2,Made,1,35,19,54,v,Toppin 2' Alley Oop Dunk (2 PTS) (Rose 2 AST),Made Shot,Alley Oop Dunk Shot,1,2,122
+0022100128,156,PT00M00.40S,1,1610612749,MIL,1626192,Connaughton,P. Connaughton,-109,224,25,Made,1,38,19,57,h,Connaughton 25' 3PT Jump Shot (3 PTS) (Hood 1 AST),Made Shot,Jump Shot,1,3,123
+0022100128,158,PT00M00.00S,1,0,,0,,,0,0,0,,0,38,19,57,,End of 1st Period (8:11 PM EST),period,end,1,0,124
+0022100128,159,PT12M00.00S,2,0,,0,,,0,0,0,,0,38,19,57,,Start of 2nd Period (8:14 PM EST),period,start,0,0,125
+0022100128,160,PT11M54.00S,2,1610612752,NYK,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,v,Quickley P.FOUL (P1.T1) (T.Washington),Foul,Personal,0,0,126
+0022100128,162,PT11M44.00S,2,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,Connaughton Lost Ball Turnover (P1.T3),Turnover,Lost Ball,1,0,127
+0022100128,162,PT11M44.00S,2,1610612752,NYK,201565,Rose,D. Rose,0,0,0,,0,,,0,v,Rose STEAL (1 STL),,,1,0,128
+0022100128,164,PT11M42.00S,2,1610612752,NYK,1630193,Quickley,I. Quickley,21,29,4,Missed,1,,,0,v,MISS Quickley 4' Running Layup,Missed Shot,Running Layup Shot,1,2,129
+0022100128,164,PT11M42.00S,2,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,Connaughton BLOCK (1 BLK),,,1,2,130
+0022100128,166,PT11M42.00S,2,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,131
+0022100128,168,PT11M42.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel OFF.Foul (P2) (S.Twardoski),Foul,Offensive,1,0,132
+0022100128,170,PT11M42.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel Offensive Foul Turnover (P1.T7),Turnover,Offensive Foul Turnover,1,0,133
+0022100128,171,PT11M24.00S,2,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,99,246,27,Missed,1,,,0,h,MISS G. Antetokounmpo 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,134
+0022100128,172,PT11M22.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,135
+0022100128,173,PT11M12.00S,2,1610612752,NYK,1630193,Quickley,I. Quickley,-34,267,27,Missed,1,,,0,v,MISS Quickley 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,136
+0022100128,174,PT11M09.00S,2,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,Connaughton REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,137
+0022100128,175,PT11M02.00S,2,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks S.FOUL (P1.T2) (S.Twardoski),Foul,Shooting,1,0,138
+0022100128,177,PT11M02.00S,2,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,39,19,58,h,G. Antetokounmpo Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,139
+0022100128,178,PT11M02.00S,2,1610612749,MIL,1628400,Ojeleye,S. Ojeleye,0,0,0,,0,,,0,h,SUB: T. Antetokounmpo FOR Ojeleye,Substitution,,0,0,140
+0022100128,180,PT11M02.00S,2,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,40,19,59,h,G. Antetokounmpo Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,141
+0022100128,183,PT10M51.00S,2,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,G. Antetokounmpo S.FOUL (P1.T1) (S.Twardoski),Foul,Shooting,1,0,142
+0022100128,185,PT10M51.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,40,20,60,v,Noel Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,143
+0022100128,186,PT10M51.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,40,21,61,v,Noel Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,144
+0022100128,187,PT10M35.00S,2,1610612749,MIL,203918,Hood,R. Hood,237,26,24,Missed,1,,,0,h,MISS Hood 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,145
+0022100128,188,PT10M32.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,146
+0022100128,189,PT10M27.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,15,22,3,Missed,1,,,0,v,MISS Toppin 3' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,147
+0022100128,190,PT10M25.00S,2,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,G. Antetokounmpo REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,148
+0022100128,191,PT10M24.00S,2,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks Personal Take Foul (P2.T3) (E.Malloy),Foul,Personal Take,1,0,149
+0022100128,193,PT10M16.00S,2,1610612749,MIL,203648,Antetokounmpo,T. Antetokounmpo,4,30,3,Missed,1,,,0,h,MISS T. Antetokounmpo 3' Dunk,Missed Shot,Dunk Shot,1,2,150
+0022100128,193,PT10M16.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,Toppin BLOCK (1 BLK),,,1,2,151
+0022100128,195,PT10M15.00S,2,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,Hill REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,152
+0022100128,196,PT10M15.00S,2,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks P.FOUL (P3.T4) (T.Washington),Foul,Personal,1,0,153
+0022100128,198,PT10M04.00S,2,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,Connaughton Bad Pass Turnover (P2.T4),Turnover,Bad Pass,1,0,154
+0022100128,198,PT10M04.00S,2,1610612752,NYK,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,v,Quickley STEAL (1 STL),,,1,0,155
+0022100128,200,PT10M03.00S,2,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,Hill S.FOUL (P1.T2) (T.Washington),Foul,Shooting,1,0,156
+0022100128,202,PT10M03.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,40,22,62,v,Toppin Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,157
+0022100128,203,PT10M03.00S,2,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,SUB: Barrett FOR Burks,Substitution,,0,0,158
+0022100128,205,PT10M03.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,40,23,63,v,Toppin Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,159
+0022100128,206,PT09M39.00S,2,1610612749,MIL,203648,Antetokounmpo,T. Antetokounmpo,78,-7,8,Made,1,42,23,65,h,T. Antetokounmpo 8' Layup (3 PTS) (Connaughton 1 AST),Made Shot,Layup Shot,1,2,160
+0022100128,208,PT09M24.00S,2,1610612752,NYK,201565,Rose,D. Rose,22,44,5,Made,1,42,25,67,v,Rose 5' Driving Floating Jump Shot (4 PTS),Made Shot,Driving Floating Jump Shot,1,2,161
+0022100128,209,PT09M05.00S,2,1610612749,MIL,203918,Hood,R. Hood,232,16,0,Missed,1,,,0,h,MISS Hood 3PT Jump Shot,Missed Shot,Jump Shot,1,3,162
+0022100128,210,PT09M02.00S,2,1610612752,NYK,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,v,Quickley REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,163
+0022100128,211,PT09M00.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,23,38,4,Missed,1,,,0,v,MISS Barrett 4' Running Layup,Missed Shot,Running Layup Shot,1,2,164
+0022100128,212,PT09M00.00S,2,1610612749,MIL,203918,Hood,R. Hood,0,0,0,,0,,,0,h,Hood REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,165
+0022100128,213,PT08M42.00S,2,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,-6,21,2,Made,1,44,25,69,h,G. Antetokounmpo 2' Cutting Layup Shot (9 PTS) (T. Antetokounmpo 1 AST),Made Shot,Cutting Layup Shot,1,2,166
+0022100128,215,PT08M31.00S,2,1610612752,NYK,201565,Rose,D. Rose,10,35,4,Made,1,44,27,71,v,Rose 4' Driving Floating Jump Shot (6 PTS),Made Shot,Driving Floating Jump Shot,1,2,167
+0022100128,216,PT08M08.00S,2,1610612749,MIL,203648,Antetokounmpo,T. Antetokounmpo,10,15,2,Missed,1,,,0,h,MISS T. Antetokounmpo 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,168
+0022100128,217,PT08M05.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,Toppin REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,169
+0022100128,218,PT08M05.00S,2,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,Hill S.FOUL (P2.T3) (S.Twardoski),Foul,Shooting,1,0,170
+0022100128,220,PT08M05.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,44,28,72,v,Toppin Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,171
+0022100128,221,PT08M05.00S,2,1610612749,MIL,203918,Hood,R. Hood,0,0,0,,0,,,0,h,SUB: Holiday FOR Hood,Substitution,,0,0,172
+0022100128,222,PT08M05.00S,2,1610612749,MIL,203648,Antetokounmpo,T. Antetokounmpo,0,0,0,,0,,,0,h,SUB: Portis FOR T. Antetokounmpo,Substitution,,0,0,173
+0022100128,225,PT08M05.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,44,29,73,v,Toppin Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,174
+0022100128,226,PT07M50.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,Toppin S.FOUL (P2.PN) (S.Twardoski),Foul,Shooting,1,0,175
+0022100128,228,PT07M50.00S,2,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,45,29,74,h,G. Antetokounmpo Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,176
+0022100128,229,PT07M50.00S,2,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,SUB: Allen FOR Hill,Substitution,,0,0,177
+0022100128,230,PT07M50.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,SUB: Randle FOR Toppin,Substitution,,0,0,178
+0022100128,231,PT07M50.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,SUB: Robinson FOR Noel,Substitution,,0,0,179
+0022100128,235,PT07M50.00S,2,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,46,29,75,h,G. Antetokounmpo Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,180
+0022100128,236,PT07M40.00S,2,1610612752,NYK,201565,Rose,D. Rose,2,6,1,Made,1,46,31,77,v,Rose 1' Driving Layup (8 PTS),Made Shot,Driving Layup Shot,1,2,181
+0022100128,237,PT07M33.00S,2,1610612749,MIL,1626192,Connaughton,P. Connaughton,-67,242,25,Missed,1,,,0,h,MISS Connaughton 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,182
+0022100128,238,PT07M33.00S,2,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,183
+0022100128,240,PT07M20.00S,2,1610612752,NYK,1629011,Robinson,M. Robinson,2,13,1,Made,1,46,33,79,v,Robinson 1' Cutting Layup Shot (2 PTS) (Rose 3 AST),Made Shot,Cutting Layup Shot,1,2,184
+0022100128,242,PT07M20.00S,2,1610612749,MIL,1628960,Allen,G. Allen,0,0,0,,0,,,0,h,Allen S.FOUL (P1.T4) (S.Twardoski),Foul,Shooting,1,0,185
+0022100128,244,PT07M20.00S,2,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,SUB: Ojeleye FOR G. Antetokounmpo,Substitution,,0,0,186
+0022100128,246,PT07M20.00S,2,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,46,34,80,v,Robinson Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,1,0,187
+0022100128,247,PT07M07.00S,2,1610612749,MIL,1626171,Portis,B. Portis,180,77,20,Missed,1,,,0,h,MISS Portis 20' Jump Shot,Missed Shot,Jump Shot,1,2,188
+0022100128,248,PT07M04.00S,2,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,189
+0022100128,249,PT06M51.00S,2,1610612752,NYK,203944,Randle,J. Randle,-22,83,9,Made,1,46,36,82,v,Randle 9' Turnaround Fadeaway (8 PTS),Made Shot,Turnaround Fadeaway shot,1,2,190
+0022100128,250,PT06M48.00S,2,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,191
+0022100128,251,PT06M48.00S,2,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,SUB: Nwora FOR Connaughton,Substitution,,0,0,192
+0022100128,253,PT06M39.00S,2,1610612749,MIL,1628960,Allen,G. Allen,-15,273,27,Missed,1,,,0,h,MISS Allen 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,193
+0022100128,254,PT06M36.00S,2,1610612752,NYK,201565,Rose,D. Rose,0,0,0,,0,,,0,v,Rose REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,194
+0022100128,255,PT06M33.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,174,201,27,Missed,1,,,0,v,MISS Barrett 27' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,195
+0022100128,256,PT06M31.00S,2,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,196
+0022100128,257,PT06M30.00S,2,1610612752,NYK,203944,Randle,J. Randle,-1,15,2,Made,1,46,38,84,v,Randle 2' Putback Layup (10 PTS),Made Shot,Putback Layup Shot,1,2,197
+0022100128,258,PT06M08.00S,2,1610612749,MIL,1628400,Ojeleye,S. Ojeleye,16,110,11,Missed,1,,,0,h,MISS Ojeleye 11' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,198
+0022100128,258,PT06M08.00S,2,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle BLOCK (1 BLK),,,1,2,199
+0022100128,259,PT06M05.00S,2,1610612749,MIL,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,Portis REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,200
+0022100128,260,PT06M05.00S,2,1610612749,MIL,1626171,Portis,B. Portis,-13,1,1,Made,1,48,38,86,h,Portis 1' Putback Layup (4 PTS),Made Shot,Putback Layup Shot,1,2,201
+0022100128,261,PT05M53.00S,2,1610612752,NYK,201565,Rose,D. Rose,2,116,12,Missed,1,,,0,v,MISS Rose 12' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,202
+0022100128,262,PT05M53.00S,2,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,203
+0022100128,263,PT05M53.00S,2,1610612752,NYK,1629011,Robinson,M. Robinson,15,23,3,Missed,1,,,0,v,MISS Robinson 3' Putback Layup,Missed Shot,Putback Layup Shot,1,2,204
+0022100128,263,PT05M53.00S,2,1610612749,MIL,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,Portis BLOCK (2 BLK),,,1,2,205
+0022100128,265,PT05M53.00S,2,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,206
+0022100128,267,PT05M48.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,56,23,6,Missed,1,,,0,v,MISS Barrett 6' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,207
+0022100128,268,PT05M45.00S,2,1610612749,MIL,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,Portis REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,208
+0022100128,269,PT05M41.00S,2,1610612749,MIL,1629670,Nwora,J. Nwora,130,234,27,Missed,1,,,0,h,MISS Nwora 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,209
+0022100128,270,PT05M41.00S,2,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,210
+0022100128,271,PT05M41.00S,2,1610612749,MIL,1628960,Allen,G. Allen,0,0,0,,0,,,0,h,Allen L.B.FOUL (P2.PN) (T.Washington),Foul,Loose Ball,1,0,211
+0022100128,273,PT05M41.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,48,39,87,v,Barrett Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,212
+0022100128,274,PT05M41.00S,2,1610612752,NYK,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,v,SUB: Fournier FOR Quickley,Substitution,,0,0,213
+0022100128,276,PT05M41.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,48,40,88,v,Barrett Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,214
+0022100128,277,PT05M25.00S,2,1610612749,MIL,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,215
+0022100128,277,PT05M25.00S,2,1610612752,NYK,201565,Rose,D. Rose,0,0,0,,0,,,0,v,Rose STEAL (2 STL),,,1,0,216
+0022100128,280,PT05M14.00S,2,1610612752,NYK,203944,Randle,J. Randle,159,205,26,Made,1,48,43,91,v,Randle 26' 3PT Jump Shot (13 PTS) (Barrett 1 AST),Made Shot,Jump Shot,1,3,217
+0022100128,282,PT05M00.00S,2,1610612749,MIL,201950,Holiday,J. Holiday,-29,99,10,Made,1,50,43,93,h,Holiday 10' Fadeaway Jumper (6 PTS),Made Shot,Fadeaway Jump Shot,1,2,218
+0022100128,283,PT04M35.00S,2,1610612752,NYK,203944,Randle,J. Randle,-152,116,19,Missed,1,,,0,v,MISS Randle 19' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,219
+0022100128,284,PT04M33.00S,2,1610612749,MIL,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,220
+0022100128,285,PT04M22.00S,2,1610612749,MIL,1628960,Allen,G. Allen,-125,221,25,Made,1,53,43,96,h,Allen 25' 3PT Jump Shot (17 PTS) (Portis 1 AST),Made Shot,Jump Shot,1,3,221
+0022100128,287,PT04M13.00S,2,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,222
+0022100128,288,PT04M05.00S,2,1610612752,NYK,203944,Randle,J. Randle,229,48,0,Missed,1,,,0,v,MISS Randle 3PT Jump Shot,Missed Shot,Jump Shot,1,3,223
+0022100128,289,PT04M02.00S,2,1610612749,MIL,1628960,Allen,G. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,224
+0022100128,290,PT03M57.00S,2,1610612749,MIL,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday Out of Bounds Lost Ball Turnover (P2.T6),Turnover,Out of Bounds Lost Ball Turnover,1,0,225
+0022100128,291,PT03M43.00S,2,1610612752,NYK,201565,Rose,D. Rose,39,90,10,Missed,1,,,0,v,MISS Rose 10' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,226
+0022100128,292,PT03M40.00S,2,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,227
+0022100128,293,PT03M40.00S,2,1610612752,NYK,203944,Randle,J. Randle,0,0,0,Missed,1,,,0,v,MISS Randle Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,228
+0022100128,294,PT03M39.00S,2,1610612752,NYK,201565,Rose,D. Rose,0,0,0,,0,,,0,v,Rose REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,229
+0022100128,295,PT03M37.00S,2,1610612752,NYK,201565,Rose,D. Rose,96,43,11,Missed,1,,,0,v,MISS Rose 11' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,230
+0022100128,296,PT03M34.00S,2,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:4 Def:3),Rebound,Unknown,1,0,231
+0022100128,297,PT03M34.00S,2,1610612752,NYK,203944,Randle,J. Randle,0,0,0,Made,1,53,45,98,v,Randle Tip Layup Shot (15 PTS),Made Shot,Tip Layup Shot,1,2,232
+0022100128,298,PT03M26.00S,2,1610612749,MIL,1626171,Portis,B. Portis,7,6,1,Missed,1,,,0,h,MISS Portis 1' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,233
+0022100128,299,PT03M24.00S,2,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,234
+0022100128,300,PT03M16.00S,2,1610612752,NYK,201565,Rose,D. Rose,-126,237,27,Missed,1,,,0,v,MISS Rose 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,235
+0022100128,301,PT03M12.00S,2,1610612749,MIL,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,236
+0022100128,302,PT03M09.00S,2,1610612749,MIL,201950,Holiday,J. Holiday,-58,246,25,Made,1,56,45,101,h,Holiday 25' 3PT Running Jump Shot (9 PTS),Made Shot,Running Jump Shot,1,3,237
+0022100128,303,PT02M51.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,229,27,0,Made,1,56,48,104,v,Barrett 3PT Jump Shot (10 PTS) (Randle 2 AST),Made Shot,Jump Shot,1,3,238
+0022100128,305,PT02M36.00S,2,1610612749,MIL,1629670,Nwora,J. Nwora,118,162,20,Made,1,58,48,106,h,Nwora 20' Step Back Jump Shot (5 PTS),Made Shot,Step Back Jump shot,1,2,239
+0022100128,306,PT02M22.00S,2,1610612752,NYK,203095,Fournier,E. Fournier,-216,165,27,Made,1,58,51,109,v,Fournier 27' 3PT Jump Shot (3 PTS) (Randle 3 AST),Made Shot,Jump Shot,1,3,240
+0022100128,308,PT02M08.00S,2,1610612749,MIL,1629670,Nwora,J. Nwora,11,216,22,Made,1,60,51,111,h,Nwora 22' Pullup Jump Shot (7 PTS),Made Shot,Pullup Jump shot,1,2,241
+0022100128,309,PT01M54.00S,2,1610612749,MIL,1628400,Ojeleye,S. Ojeleye,0,0,0,,0,,,0,h,Ojeleye P.FOUL (P1.PN) (E.Malloy),Foul,Personal,1,0,242
+0022100128,311,PT01M54.00S,2,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,MISS Randle Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,243
+0022100128,312,PT01M54.00S,2,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Normal Rebound,0,0,244
+0022100128,313,PT01M54.00S,2,1610612749,MIL,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,SUB: G. Antetokounmpo FOR Portis,Substitution,,0,0,245
+0022100128,314,PT01M54.00S,2,1610612749,MIL,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,SUB: Connaughton FOR Holiday,Substitution,,0,0,246
+0022100128,315,PT01M54.00S,2,1610612749,MIL,1628400,Ojeleye,S. Ojeleye,0,0,0,,0,,,0,h,SUB: Hill FOR Ojeleye,Substitution,,0,0,247
+0022100128,319,PT01M54.00S,2,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,SUB: Noel FOR Robinson,Substitution,,0,0,248
+0022100128,321,PT01M54.00S,2,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,60,52,112,v,Randle Free Throw 2 of 2 (16 PTS),Free Throw,Free Throw 2 of 2,1,0,249
+0022100128,322,PT01M42.00S,2,1610612749,MIL,1629670,Nwora,J. Nwora,-135,87,16,Missed,1,,,0,h,MISS Nwora 16' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,250
+0022100128,324,PT01M38.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,251
+0022100128,325,PT01M35.00S,2,1610612752,NYK,201565,Rose,D. Rose,2,23,2,Made,1,60,54,114,v,Rose 2' Running Reverse Layup (10 PTS) (Barrett 2 AST),Made Shot,Running Reverse Layup Shot,1,2,252
+0022100128,327,PT01M09.00S,2,1610612749,MIL,1629670,Nwora,J. Nwora,212,171,27,Made,1,63,54,117,h,Nwora 27' 3PT Jump Shot (10 PTS) (Hill 1 AST),Made Shot,Jump Shot,1,3,253
+0022100128,329,PT00M54.70S,2,1610612752,NYK,203095,Fournier,E. Fournier,-165,231,28,Missed,1,,,0,v,MISS Fournier 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,254
+0022100128,330,PT00M52.60S,2,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,G. Antetokounmpo REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,255
+0022100128,331,PT00M36.60S,2,1610612749,MIL,1626192,Connaughton,P. Connaughton,235,43,24,Missed,1,,,0,h,MISS Connaughton 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,256
+0022100128,332,PT00M33.50S,2,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:4 Def:4),Rebound,Unknown,1,0,257
+0022100128,333,PT00M30.20S,2,1610612752,NYK,203944,Randle,J. Randle,-104,280,30,Missed,1,,,0,v,MISS Randle 30' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,258
+0022100128,334,PT00M27.10S,2,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,259
+0022100128,335,PT00M15.10S,2,1610612752,NYK,1629628,Barrett,R. Barrett,232,8,0,Missed,1,,,0,v,MISS Barrett 3PT Jump Shot,Missed Shot,Jump Shot,1,3,260
+0022100128,336,PT00M12.80S,2,1610612752,NYK,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,Fournier REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,261
+0022100128,337,PT00M12.80S,2,1610612752,NYK,203095,Fournier,E. Fournier,6,22,2,Made,1,63,56,119,v,Fournier 2' Putback Layup (5 PTS),Made Shot,Putback Layup Shot,1,2,262
+0022100128,338,PT00M12.80S,2,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Violation: Delay of game Violation,Violation,Delay Of Game,0,0,263
+0022100128,339,PT00M00.00S,2,1610612749,MIL,1629670,Nwora,J. Nwora,-235,-1,24,Missed,1,,,0,h,MISS Nwora 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,264
+0022100128,340,PT00M00.00S,2,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Rebound,Rebound,Unknown,0,0,265
+0022100128,341,PT00M00.00S,2,0,,0,,,0,0,0,,0,63,56,119,,End of 2nd Period (8:42 PM EST),period,end,1,0,266
+0022100128,348,PT12M00.00S,3,0,,0,,,0,0,0,,0,63,56,119,,Start of 3rd Period (8:58 PM EST),period,start,0,0,267
+0022100128,349,PT11M48.00S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle S.FOUL (P1.T1) (T.Washington),Foul,Shooting,1,0,268
+0022100128,351,PT11M48.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,MISS G. Antetokounmpo Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,269
+0022100128,352,PT11M48.00S,3,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Rebound,Rebound,Normal Rebound,0,0,270
+0022100128,353,PT11M48.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,64,56,120,h,G. Antetokounmpo Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,271
+0022100128,354,PT11M27.00S,3,1610612752,NYK,202689,Walker,K. Walker,-36,261,26,Made,1,64,59,123,v,Walker 26' 3PT Pullup Jump Shot (3 PTS) (Barrett 3 AST),Made Shot,Pullup Jump shot,1,3,272
+0022100128,356,PT11M15.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,50,136,14,Made,1,66,59,125,h,G. Antetokounmpo 14' Jump Shot (14 PTS) (Hill 2 AST),Made Shot,Jump Shot,1,2,273
+0022100128,358,PT10M47.00S,3,1610612752,NYK,203944,Randle,J. Randle,5,21,2,Made,1,66,61,127,v,Randle 2' Driving Reverse Layup (18 PTS),Made Shot,Driving Reverse Layup Shot,1,2,274
+0022100128,359,PT10M35.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,-131,233,27,Made,1,69,61,130,h,G. Antetokounmpo 27' 3PT Pullup Jump Shot (17 PTS) (Hill 3 AST),Made Shot,Pullup Jump shot,1,3,275
+0022100128,361,PT10M21.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,2,104,10,Made,1,69,63,132,v,Barrett 10' Driving Floating Jump Shot (12 PTS),Made Shot,Driving Floating Jump Shot,1,2,276
+0022100128,362,PT10M07.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,-118,256,28,Missed,1,,,0,h,MISS G. Antetokounmpo 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,277
+0022100128,363,PT10M04.00S,3,1610612752,NYK,202689,Walker,K. Walker,0,0,0,,0,,,0,v,Walker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,278
+0022100128,364,PT10M02.00S,3,1610612749,MIL,203648,Antetokounmpo,T. Antetokounmpo,0,0,0,,0,,,0,h,T. Antetokounmpo P.FOUL (P1.T1) (E.Malloy),Foul,Personal,1,0,279
+0022100128,366,PT09M52.00S,3,1610612752,NYK,203944,Randle,J. Randle,-37,105,11,Made,1,69,65,134,v,Randle 11' Turnaround Fadeaway (20 PTS),Made Shot,Turnaround Fadeaway shot,1,2,280
+0022100128,367,PT09M29.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,-147,-4,15,Missed,1,,,0,h,MISS G. Antetokounmpo 15' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,281
+0022100128,368,PT09M26.00S,3,1610612752,NYK,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,Fournier REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,282
+0022100128,369,PT09M20.00S,3,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson OFF.Foul (P1) (E.Malloy),Foul,Offensive,1,0,283
+0022100128,371,PT09M20.00S,3,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson Offensive Foul Turnover (P1.T8),Turnover,Offensive Foul Turnover,1,0,284
+0022100128,372,PT09M07.00S,3,1610612749,MIL,1628960,Allen,G. Allen,-195,186,27,Missed,1,,,0,h,MISS Allen 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,285
+0022100128,373,PT09M04.00S,3,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,286
+0022100128,374,PT08M55.00S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle Out of Bounds Lost Ball Turnover (P1.T9),Turnover,Out of Bounds Lost Ball Turnover,1,0,287
+0022100128,375,PT08M34.00S,3,1610612749,MIL,1628960,Allen,G. Allen,-164,210,27,Made,1,72,65,137,h,Allen 27' 3PT Jump Shot (20 PTS) (G. Antetokounmpo 4 AST),Made Shot,Jump Shot,1,3,288
+0022100128,377,PT08M08.00S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle Lost Ball Turnover (P2.T10),Turnover,Lost Ball,1,0,289
+0022100128,377,PT08M08.00S,3,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,Hill STEAL (1 STL),,,1,0,290
+0022100128,379,PT08M08.00S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle Personal Take Foul (P2.T2) (S.Twardoski),Foul,Personal Take,1,0,291
+0022100128,381,PT07M54.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,G. Antetokounmpo Out of Bounds - Bad Pass Turnover Turnover (P2.T7),Turnover,Out of Bounds - Bad Pass Turnover,1,0,292
+0022100128,382,PT07M42.00S,3,1610612752,NYK,202689,Walker,K. Walker,-31,66,7,Made,1,72,67,139,v,Walker 7' Driving Floating Jump Shot (5 PTS),Made Shot,Driving Floating Jump Shot,1,2,293
+0022100128,383,PT07M24.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,-76,262,27,Made,1,75,67,142,h,G. Antetokounmpo 27' 3PT Jump Shot (20 PTS) (Hill 4 AST),Made Shot,Jump Shot,1,3,294
+0022100128,385,PT07M09.00S,3,1610612752,NYK,202689,Walker,K. Walker,38,13,4,Missed,1,,,0,v,MISS Walker 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,295
+0022100128,386,PT07M09.00S,3,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,296
+0022100128,387,PT07M09.00S,3,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,Hill L.B.FOUL (P3.T2) (S.Twardoski),Foul,Loose Ball,1,0,297
+0022100128,389,PT07M09.00S,3,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,SUB: Portis FOR Hill,Substitution,,0,0,298
+0022100128,390,PT07M09.00S,3,1610612749,MIL,203648,Antetokounmpo,T. Antetokounmpo,0,0,0,,0,,,0,h,SUB: Holiday FOR T. Antetokounmpo,Substitution,,0,0,299
+0022100128,393,PT06M55.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,81,127,15,Made,1,75,69,144,v,Barrett 15' Fadeaway Jumper (14 PTS),Made Shot,Fadeaway Jump Shot,1,2,300
+0022100128,394,PT06M46.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,-167,223,28,Missed,1,,,0,h,MISS G. Antetokounmpo 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,301
+0022100128,395,PT06M44.00S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:4 Def:5),Rebound,Unknown,1,0,302
+0022100128,396,PT06M35.00S,3,1610612752,NYK,202689,Walker,K. Walker,186,187,26,Missed,1,,,0,v,MISS Walker 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,303
+0022100128,397,PT06M32.00S,3,1610612749,MIL,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,304
+0022100128,398,PT06M26.00S,3,1610612749,MIL,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday Bad Pass Turnover (P3.T8),Turnover,Bad Pass,1,0,305
+0022100128,398,PT06M26.00S,3,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson STEAL (2 STL),,,1,0,306
+0022100128,400,PT06M21.00S,3,1610612752,NYK,203944,Randle,J. Randle,9,16,2,Made,1,75,71,146,v,Randle 2' Running Layup (22 PTS),Made Shot,Running Layup Shot,1,2,307
+0022100128,401,PT06M11.00S,3,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,308
+0022100128,402,PT06M11.00S,3,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,SUB: Nwora FOR Connaughton,Substitution,,0,0,309
+0022100128,404,PT06M00.00S,3,1610612749,MIL,1628960,Allen,G. Allen,4,23,2,Made,1,77,71,148,h,Allen 2' Driving Layup (22 PTS),Made Shot,Driving Layup Shot,1,2,310
+0022100128,405,PT05M45.00S,3,1610612752,NYK,202689,Walker,K. Walker,134,243,28,Missed,1,,,0,v,MISS Walker 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,311
+0022100128,406,PT05M42.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,G. Antetokounmpo REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,312
+0022100128,407,PT05M35.00S,3,1610612749,MIL,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,Portis Out of Bounds - Bad Pass Turnover Turnover (P1.T9),Turnover,Out of Bounds - Bad Pass Turnover,1,0,313
+0022100128,408,PT05M23.00S,3,1610612749,MIL,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday P.FOUL (P1.T3) (E.Malloy),Foul,Personal,1,0,314
+0022100128,410,PT05M23.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,SUB: Ojeleye FOR G. Antetokounmpo,Substitution,,0,0,315
+0022100128,412,PT05M16.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,-7,5,1,Made,1,77,73,150,v,Barrett 1' Driving Reverse Layup (16 PTS),Made Shot,Driving Reverse Layup Shot,1,2,316
+0022100128,413,PT04M57.00S,3,1610612749,MIL,1628400,Ojeleye,S. Ojeleye,-49,125,13,Missed,1,,,0,h,MISS Ojeleye 13' Jump Shot,Missed Shot,Jump Shot,1,2,317
+0022100128,414,PT04M57.00S,3,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,318
+0022100128,416,PT04M43.00S,3,1610612749,MIL,1628400,Ojeleye,S. Ojeleye,0,0,0,,0,,,0,h,Ojeleye P.FOUL (P2.T4) (T.Washington),Foul,Personal,1,0,319
+0022100128,418,PT04M33.00S,3,1610612752,NYK,203944,Randle,J. Randle,98,1,10,Missed,1,,,0,v,MISS Randle 10' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,320
+0022100128,419,PT04M32.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,321
+0022100128,420,PT04M32.00S,3,1610612749,MIL,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,Portis S.FOUL (P1.PN) (S.Twardoski),Foul,Shooting,1,0,322
+0022100128,422,PT04M32.00S,3,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,77,74,151,v,Robinson Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,323
+0022100128,423,PT04M32.00S,3,1610612749,MIL,1628960,Allen,G. Allen,0,0,0,,0,,,0,h,SUB: Hood FOR Allen,Substitution,,0,0,324
+0022100128,425,PT04M32.00S,3,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,MISS Robinson Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,325
+0022100128,426,PT04M29.00S,3,1610612749,MIL,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,Portis REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,326
+0022100128,427,PT04M18.00S,3,1610612749,MIL,1629670,Nwora,J. Nwora,-235,-8,24,Made,1,80,74,154,h,Nwora 24' 3PT Jump Shot (13 PTS) (Holiday 3 AST),Made Shot,Jump Shot,1,3,327
+0022100128,429,PT04M03.00S,3,1610612749,MIL,1629670,Nwora,J. Nwora,0,0,0,,0,,,0,h,Nwora S.FOUL (P1.PN) (S.Twardoski),Foul,Shooting,1,0,328
+0022100128,431,PT04M03.00S,3,1610612752,NYK,203095,Fournier,E. Fournier,0,0,0,,0,80,75,155,v,Fournier Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,329
+0022100128,432,PT04M03.00S,3,1610612752,NYK,202689,Walker,K. Walker,0,0,0,,0,,,0,v,SUB: Toppin FOR Walker,Substitution,,0,0,330
+0022100128,433,PT04M03.00S,3,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,SUB: Rose FOR Robinson,Substitution,,0,0,331
+0022100128,434,PT04M03.00S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,SUB: Noel FOR Randle,Substitution,,0,0,332
+0022100128,438,PT04M03.00S,3,1610612752,NYK,203095,Fournier,E. Fournier,0,0,0,,0,80,76,156,v,Fournier Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,333
+0022100128,439,PT03M51.00S,3,1610612749,MIL,201950,Holiday,J. Holiday,-22,64,7,Missed,1,,,0,h,MISS Holiday 7' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,334
+0022100128,440,PT03M48.00S,3,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,335
+0022100128,441,PT03M37.00S,3,1610612752,NYK,1630167,Toppin,O. Toppin,-47,82,9,Missed,1,,,0,v,MISS Toppin 9' Jump Shot,Missed Shot,Jump Shot,1,2,336
+0022100128,442,PT03M34.00S,3,1610612749,MIL,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,Portis REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,337
+0022100128,443,PT03M29.00S,3,1610612749,MIL,1629670,Nwora,J. Nwora,-38,34,5,Missed,1,,,0,h,MISS Nwora 5' Running Layup,Missed Shot,Running Layup Shot,1,2,338
+0022100128,443,PT03M29.00S,3,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel BLOCK (1 BLK),,,1,2,339
+0022100128,444,PT03M25.00S,3,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,Toppin REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,340
+0022100128,446,PT03M10.00S,3,1610612752,NYK,203095,Fournier,E. Fournier,-213,142,26,Missed,1,,,0,v,MISS Fournier 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,341
+0022100128,447,PT03M07.00S,3,1610612749,MIL,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,Portis REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,342
+0022100128,448,PT02M55.00S,3,1610612749,MIL,1626171,Portis,B. Portis,-130,97,16,Missed,1,,,0,h,MISS Portis 16' Jump Shot,Missed Shot,Jump Shot,1,2,343
+0022100128,449,PT02M52.00S,3,1610612752,NYK,201565,Rose,D. Rose,0,0,0,,0,,,0,v,Rose REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,344
+0022100128,450,PT02M47.00S,3,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel Out of Bounds Lost Ball Turnover (P2.T11),Turnover,Out of Bounds Lost Ball Turnover,1,0,345
+0022100128,451,PT02M47.00S,3,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,346
+0022100128,452,PT02M47.00S,3,1610612752,NYK,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,SUB: Quickley FOR Fournier,Substitution,,0,0,347
+0022100128,454,PT02M34.00S,3,1610612749,MIL,1628400,Ojeleye,S. Ojeleye,-232,-4,0,Missed,1,,,0,h,MISS Ojeleye 3PT Jump Shot,Missed Shot,Jump Shot,1,3,348
+0022100128,455,PT02M31.00S,3,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,349
+0022100128,456,PT02M25.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,12,15,2,Made,1,80,78,158,v,Barrett 2' Running Layup (18 PTS) (Rose 4 AST),Made Shot,Running Layup Shot,1,2,350
+0022100128,458,PT02M17.00S,3,1610612749,MIL,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday Lost Ball Turnover (P4.T10),Turnover,Lost Ball,1,0,351
+0022100128,458,PT02M17.00S,3,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel STEAL (2 STL),,,1,0,352
+0022100128,460,PT02M14.00S,3,1610612752,NYK,1630193,Quickley,I. Quickley,-1,10,1,Made,1,80,80,160,v,Quickley 1' Running Dunk (4 PTS),Made Shot,Running Dunk Shot,1,2,353
+0022100128,461,PT02M14.00S,3,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,354
+0022100128,462,PT02M14.00S,3,1610612749,MIL,1629670,Nwora,J. Nwora,0,0,0,,0,,,0,h,SUB: G. Antetokounmpo FOR Nwora,Substitution,,0,0,355
+0022100128,463,PT02M14.00S,3,1610612749,MIL,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,SUB: Connaughton FOR Holiday,Substitution,,0,0,356
+0022100128,464,PT02M14.00S,3,1610612749,MIL,1628400,Ojeleye,S. Ojeleye,0,0,0,,0,,,0,h,SUB: Hill FOR Ojeleye,Substitution,,0,0,357
+0022100128,468,PT01M58.00S,3,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel S.FOUL (P3.T3) (E.Malloy),Foul,Shooting,1,0,358
+0022100128,470,PT01M58.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,81,80,161,h,G. Antetokounmpo Free Throw 1 of 2 (21 PTS),Free Throw,Free Throw 1 of 2,1,0,359
+0022100128,471,PT01M58.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,MISS G. Antetokounmpo Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,360
+0022100128,472,PT01M56.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,G. Antetokounmpo REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,361
+0022100128,473,PT01M52.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,-2,68,7,Missed,1,,,0,h,MISS G. Antetokounmpo 7' Jump Shot,Missed Shot,Jump Shot,1,2,362
+0022100128,474,PT01M49.00S,3,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,363
+0022100128,475,PT01M40.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,2,26,3,Made,1,81,82,163,v,Barrett 3' Cutting Layup Shot (20 PTS) (Quickley 1 AST),Made Shot,Cutting Layup Shot,1,2,364
+0022100128,477,PT01M21.00S,3,1610612749,MIL,203918,Hood,R. Hood,-232,11,0,Missed,1,,,0,h,MISS Hood 3PT Jump Shot,Missed Shot,Jump Shot,1,3,365
+0022100128,478,PT01M18.00S,3,1610612752,NYK,201565,Rose,D. Rose,0,0,0,,0,,,0,v,Rose REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,366
+0022100128,479,PT01M16.00S,3,1610612752,NYK,201565,Rose,D. Rose,-83,241,25,Made,1,81,85,166,v,Rose 25' 3PT Running Pull-Up Jump Shot (13 PTS),Made Shot,Running Pull-Up Jump Shot,1,3,367
+0022100128,480,PT01M03.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,G. Antetokounmpo Lost Ball Turnover (P3.T11),Turnover,Lost Ball,1,0,368
+0022100128,480,PT01M03.00S,3,1610612752,NYK,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,v,Quickley STEAL (2 STL),,,1,0,369
+0022100128,482,PT00M45.60S,3,1610612752,NYK,1629628,Barrett,R. Barrett,4,127,13,Missed,1,,,0,v,MISS Barrett 13' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,370
+0022100128,483,PT00M44.10S,3,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Rebound,Rebound,Unknown,0,0,371
+0022100128,485,PT00M44.10S,3,1610612749,MIL,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,SUB: T. Antetokounmpo FOR Portis,Substitution,,0,0,372
+0022100128,487,PT00M32.70S,3,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel P.FOUL (P4.PN) (S.Twardoski),Foul,Personal,1,0,373
+0022100128,489,PT00M32.70S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,82,85,167,h,G. Antetokounmpo Free Throw 1 of 2 (22 PTS),Free Throw,Free Throw 1 of 2,1,0,374
+0022100128,490,PT00M32.70S,3,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,SUB: Ojeleye FOR Hill,Substitution,,0,0,375
+0022100128,492,PT00M32.70S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,83,85,168,h,G. Antetokounmpo Free Throw 2 of 2 (23 PTS),Free Throw,Free Throw 2 of 2,1,0,376
+0022100128,493,PT00M20.30S,3,1610612752,NYK,1630167,Toppin,O. Toppin,240,42,24,Missed,1,,,0,v,MISS Toppin 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,377
+0022100128,494,PT00M15.90S,3,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,378
+0022100128,495,PT00M05.90S,3,1610612752,NYK,1630193,Quickley,I. Quickley,-78,242,25,Made,1,83,88,171,v,Quickley 25' 3PT Step Back Jump Shot (7 PTS),Made Shot,Step Back Jump shot,1,3,379
+0022100128,496,PT00M00.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,-60,26,7,Missed,1,,,0,h,MISS G. Antetokounmpo 7' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,380
+0022100128,497,PT00M00.00S,3,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Rebound,Rebound,Unknown,0,0,381
+0022100128,498,PT00M00.00S,3,0,,0,,,0,0,0,,0,83,88,171,,End of 3rd Period (9:26 PM EST),period,end,1,0,382
+0022100128,501,PT12M00.00S,4,0,,0,,,0,0,0,,0,83,88,171,,Start of 4th Period (9:30 PM EST),period,start,0,0,383
+0022100128,502,PT11M48.00S,4,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,Connaughton P.FOUL (P1.T1) (T.Washington),Foul,Personal,1,0,384
+0022100128,504,PT11M39.00S,4,1610612752,NYK,201565,Rose,D. Rose,-86,245,26,Made,1,83,91,174,v,Rose 26' 3PT Pullup Jump Shot (16 PTS),Made Shot,Pullup Jump shot,1,3,385
+0022100128,506,PT11M16.00S,4,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,-102,32,11,Made,1,85,91,176,h,G. Antetokounmpo 11' Turnaround Fadeaway (25 PTS),Made Shot,Turnaround Fadeaway shot,1,2,386
+0022100128,507,PT10M52.00S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Turnover: Shot Clock (T#12),Turnover,Shot Clock Turnover,0,0,387
+0022100128,508,PT10M52.00S,4,1610612749,MIL,203648,Antetokounmpo,T. Antetokounmpo,0,0,0,,0,,,0,h,SUB: Portis FOR T. Antetokounmpo,Substitution,,0,0,388
+0022100128,510,PT10M41.00S,4,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,Hill Bad Pass Turnover (P1.T12),Turnover,Bad Pass,1,0,389
+0022100128,510,PT10M41.00S,4,1610612752,NYK,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,v,Quickley STEAL (3 STL),,,1,0,390
+0022100128,512,PT10M37.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,10,25,3,Missed,1,,,0,v,MISS Barrett 3' Running Layup,Missed Shot,Running Layup Shot,1,2,391
+0022100128,514,PT10M33.00S,4,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,392
+0022100128,515,PT10M25.00S,4,1610612752,NYK,1630193,Quickley,I. Quickley,42,116,12,Missed,1,,,0,v,MISS Quickley 12' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,393
+0022100128,516,PT10M23.00S,4,1610612752,NYK,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,v,Quickley REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,394
+0022100128,517,PT10M20.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,143,226,27,Missed,1,,,0,v,MISS Barrett 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,395
+0022100128,518,PT10M17.00S,4,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,Connaughton REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,396
+0022100128,519,PT10M02.00S,4,1610612749,MIL,1626192,Connaughton,P. Connaughton,-4,12,1,Made,1,87,91,178,h,Connaughton 1' Driving Finger Roll Layup (5 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,397
+0022100128,520,PT10M02.00S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,398
+0022100128,521,PT10M02.00S,4,1610612749,MIL,203918,Hood,R. Hood,0,0,0,,0,,,0,h,SUB: Allen FOR Hood,Substitution,,0,0,399
+0022100128,522,PT10M02.00S,4,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,SUB: Burks FOR Toppin,Substitution,,0,0,400
+0022100128,523,PT10M02.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,SUB: Randle FOR Barrett,Substitution,,0,0,401
+0022100128,527,PT09M43.00S,4,1610612752,NYK,1630193,Quickley,I. Quickley,100,50,11,Made,1,87,93,180,v,Quickley 11' Driving Floating Bank Jump Shot (9 PTS) (Burks 1 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,402
+0022100128,529,PT09M17.00S,4,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,-148,231,27,Missed,1,,,0,h,MISS G. Antetokounmpo 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,403
+0022100128,530,PT09M16.00S,4,1610612749,MIL,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,Portis REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,404
+0022100128,531,PT09M15.00S,4,1610612749,MIL,1626171,Portis,B. Portis,7,18,2,Missed,1,,,0,h,MISS Portis 2' Putback Layup,Missed Shot,Putback Layup Shot,1,2,405
+0022100128,532,PT09M14.00S,4,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,406
+0022100128,533,PT09M14.00S,4,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,Connaughton P.FOUL (P2.T2) (E.Malloy),Foul,Personal,1,0,407
+0022100128,535,PT09M14.00S,4,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,SUB: Holiday FOR Connaughton,Substitution,,0,0,408
+0022100128,537,PT09M03.00S,4,1610612752,NYK,201565,Rose,D. Rose,9,22,2,Made,1,87,95,182,v,Rose 2' Driving Finger Roll Layup (18 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,409
+0022100128,538,PT08M52.00S,4,1610612749,MIL,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday Lost Ball Turnover (P5.T13),Turnover,Lost Ball,1,0,410
+0022100128,538,PT08M52.00S,4,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel STEAL (3 STL),,,1,0,411
+0022100128,540,PT08M51.00S,4,1610612749,MIL,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,Portis S.FOUL (P2.T3) (E.Malloy),Foul,Shooting,1,0,412
+0022100128,542,PT08M51.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,87,96,183,v,Randle Free Throw 1 of 2 (23 PTS),Free Throw,Free Throw 1 of 2,1,0,413
+0022100128,543,PT08M51.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,MISS Randle Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,414
+0022100128,544,PT08M49.00S,4,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,G. Antetokounmpo REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,415
+0022100128,545,PT08M27.00S,4,1610612749,MIL,201950,Holiday,J. Holiday,224,1,0,Missed,1,,,0,h,MISS Holiday 3PT Jump Shot,Missed Shot,Jump Shot,1,3,416
+0022100128,546,PT08M25.00S,4,1610612752,NYK,201565,Rose,D. Rose,0,0,0,,0,,,0,v,Rose REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,417
+0022100128,547,PT08M08.00S,4,1610612752,NYK,201565,Rose,D. Rose,162,80,18,Made,1,87,98,185,v,Rose 18' Pullup Jump Shot (20 PTS),Made Shot,Pullup Jump shot,1,2,418
+0022100128,548,PT08M08.00S,4,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,419
+0022100128,549,PT08M08.00S,4,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,SUB: Connaughton FOR Hill,Substitution,,0,0,420
+0022100128,551,PT07M56.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle S.FOUL (P3.T1) (E.Malloy),Foul,Shooting,1,0,421
+0022100128,553,PT07M56.00S,4,1610612749,MIL,201950,Holiday,J. Holiday,0,0,0,,0,88,98,186,h,Holiday Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,422
+0022100128,554,PT07M56.00S,4,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,SUB: Nwora FOR Connaughton,Substitution,,0,0,423
+0022100128,556,PT07M56.00S,4,1610612749,MIL,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,MISS Holiday Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,424
+0022100128,557,PT07M55.00S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,425
+0022100128,559,PT07M34.00S,4,1610612752,NYK,203944,Randle,J. Randle,112,247,27,Missed,1,,,0,v,MISS Randle 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,426
+0022100128,560,PT07M30.00S,4,1610612749,MIL,1629670,Nwora,J. Nwora,0,0,0,,0,,,0,h,Nwora REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,427
+0022100128,561,PT07M16.00S,4,1610612749,MIL,1626171,Portis,B. Portis,0,7,1,Made,1,90,98,188,h,Portis 1' Finger Roll Layup (6 PTS),Made Shot,Finger Roll Layup Shot,1,2,428
+0022100128,562,PT06M55.00S,4,1610612749,MIL,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday P.FOUL (P2.T4) (T.Washington),Foul,Personal,1,0,429
+0022100128,564,PT06M55.00S,4,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,SUB: Connaughton FOR G. Antetokounmpo,Substitution,,0,0,430
+0022100128,565,PT06M55.00S,4,1610612752,NYK,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,v,SUB: Barrett FOR Quickley,Substitution,,0,0,431
+0022100128,568,PT06M49.00S,4,1610612752,NYK,201565,Rose,D. Rose,40,48,6,Made,1,90,100,190,v,Rose 6' Pullup Jump Shot (22 PTS) (Burks 2 AST),Made Shot,Pullup Jump shot,1,2,432
+0022100128,570,PT06M40.00S,4,1610612749,MIL,201950,Holiday,J. Holiday,7,26,3,Missed,1,,,0,h,MISS Holiday 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,433
+0022100128,571,PT06M38.00S,4,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:3 Def:8),Rebound,Unknown,1,0,434
+0022100128,572,PT06M24.00S,4,1610612752,NYK,203944,Randle,J. Randle,34,147,15,Missed,1,,,0,v,MISS Randle 15' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,435
+0022100128,573,PT06M21.00S,4,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:4 Def:8),Rebound,Unknown,1,0,436
+0022100128,574,PT06M14.00S,4,1610612752,NYK,201565,Rose,D. Rose,-29,256,26,Missed,1,,,0,v,MISS Rose 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,437
+0022100128,575,PT06M08.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:5 Def:5),Rebound,Unknown,1,0,438
+0022100128,576,PT06M08.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,Made,1,90,102,192,v,Randle Tip Layup Shot (25 PTS),Made Shot,Tip Layup Shot,1,2,439
+0022100128,577,PT05M53.00S,4,1610612749,MIL,1629670,Nwora,J. Nwora,229,6,0,Missed,1,,,0,h,MISS Nwora 3PT Jump Shot,Missed Shot,Jump Shot,1,3,440
+0022100128,578,PT05M50.00S,4,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,441
+0022100128,579,PT05M39.00S,4,1610612752,NYK,203457,Noel,N. Noel,34,1,3,Made,1,90,104,194,v,Noel 3' Hook Shot (6 PTS) (Randle 4 AST),Made Shot,Hook Shot,1,2,442
+0022100128,581,PT05M39.00S,4,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,443
+0022100128,582,PT05M39.00S,4,0,,1371,,,0,0,0,,0,,,0,,Mike Budenholzer Foul:T.FOUL (E.Malloy),Foul,Technical,1,0,444
+0022100128,583,PT05M39.00S,4,1610612749,MIL,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,SUB: G. Antetokounmpo FOR Portis,Substitution,,0,0,445
+0022100128,584,PT05M39.00S,4,1610612749,MIL,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,SUB: Hill FOR Holiday,Substitution,,0,0,446
+0022100128,587,PT05M39.00S,4,1610612752,NYK,201565,Rose,D. Rose,0,0,0,,0,90,105,195,v,Rose Free Throw Technical (23 PTS),Free Throw,Free Throw Technical,1,0,447
+0022100128,588,PT05M24.00S,4,1610612749,MIL,1626192,Connaughton,P. Connaughton,-129,241,27,Missed,1,,,0,h,MISS Connaughton 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,448
+0022100128,589,PT05M21.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:5 Def:6),Rebound,Unknown,1,0,449
+0022100128,590,PT05M19.00S,4,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,G. Antetokounmpo P.FOUL (P2.PN) (S.Twardoski),Foul,Personal,1,0,450
+0022100128,592,PT05M19.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,90,106,196,v,Randle Free Throw 1 of 2 (26 PTS),Free Throw,Free Throw 1 of 2,1,0,451
+0022100128,593,PT05M19.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,90,107,197,v,Randle Free Throw 2 of 2 (27 PTS),Free Throw,Free Throw 2 of 2,1,0,452
+0022100128,594,PT05M06.00S,4,1610612749,MIL,1629670,Nwora,J. Nwora,0,0,0,,0,,,0,h,Nwora Bad Pass Turnover (P1.T14),Turnover,Bad Pass,1,0,453
+0022100128,594,PT05M06.00S,4,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks STEAL (1 STL),,,1,0,454
+0022100128,596,PT05M01.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,27,47,5,Missed,1,,,0,v,MISS Barrett 5' Running Layup,Missed Shot,Running Layup Shot,1,2,455
+0022100128,597,PT04M59.00S,4,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:5 Def:8),Rebound,Unknown,1,0,456
+0022100128,598,PT04M54.00S,4,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Jump Ball G. Antetokounmpo vs. Noel: Tip to Allen,Jump Ball,,1,0,457
+0022100128,601,PT04M54.00S,4,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel Lost Ball Turnover (P3.T13),Turnover,Lost Ball,1,0,458
+0022100128,603,PT04M51.00S,4,1610612749,MIL,1628960,Allen,G. Allen,12,10,2,Missed,1,,,0,h,MISS Allen 2' Running Reverse Layup,Missed Shot,Running Reverse Layup Shot,1,2,459
+0022100128,603,PT04M51.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle BLOCK (2 BLK),,,1,2,460
+0022100128,604,PT04M47.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:5 Def:7),Rebound,Unknown,1,0,461
+0022100128,605,PT04M38.00S,4,1610612752,NYK,202692,Burks,A. Burks,-148,220,27,Missed,1,,,0,v,MISS Burks 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,462
+0022100128,606,PT04M37.00S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,463
+0022100128,608,PT04M27.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle Out of Bounds - Bad Pass Turnover Turnover (P3.T14),Turnover,Out of Bounds - Bad Pass Turnover,1,0,464
+0022100128,609,PT04M19.00S,4,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,-10,21,2,Missed,1,,,0,h,MISS G. Antetokounmpo 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,465
+0022100128,610,PT04M16.00S,4,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,466
+0022100128,611,PT04M00.00S,4,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,G. Antetokounmpo S.FOUL (P3.PN) (S.Twardoski),Foul,Shooting,1,0,467
+0022100128,613,PT04M00.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,MISS Randle Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,468
+0022100128,614,PT04M00.00S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Normal Rebound,0,0,469
+0022100128,615,PT04M00.00S,4,1610612749,MIL,1628960,Allen,G. Allen,0,0,0,,0,,,0,h,SUB: Hood FOR Allen,Substitution,,0,0,470
+0022100128,616,PT04M00.00S,4,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,SUB: Robinson FOR Connaughton,Substitution,,0,0,471
+0022100128,617,PT04M00.00S,4,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,SUB: Ojeleye FOR G. Antetokounmpo,Substitution,,0,0,472
+0022100128,618,PT04M00.00S,4,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,SUB: T. Antetokounmpo FOR Hill,Substitution,,0,0,473
+0022100128,623,PT04M00.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,90,108,198,v,Randle Free Throw 2 of 2 (28 PTS),Free Throw,Free Throw 2 of 2,1,0,474
+0022100128,624,PT03M41.00S,4,1610612749,MIL,203918,Hood,R. Hood,230,-1,0,Missed,1,,,0,h,MISS Hood 3PT Jump Shot,Missed Shot,Jump Shot,1,3,475
+0022100128,625,PT03M38.00S,4,1610612752,NYK,201565,Rose,D. Rose,0,0,0,,0,,,0,v,Rose REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,476
+0022100128,626,PT03M20.00S,4,1610612752,NYK,201565,Rose,D. Rose,-17,173,17,Missed,1,,,0,v,MISS Rose 17' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,477
+0022100128,627,PT03M18.00S,4,1610612752,NYK,201565,Rose,D. Rose,0,0,0,,0,,,0,v,Rose REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,478
+0022100128,628,PT03M11.00S,4,1610612749,MIL,1629620,Robinson,J. Robinson,0,0,0,,0,,,0,h,Robinson S.FOUL (P1.PN) (T.Washington),Foul,Shooting,1,0,479
+0022100128,630,PT03M11.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,90,109,199,v,Randle Free Throw 1 of 2 (29 PTS),Free Throw,Free Throw 1 of 2,1,0,480
+0022100128,631,PT03M11.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,90,110,200,v,Randle Free Throw 2 of 2 (30 PTS),Free Throw,Free Throw 2 of 2,1,0,481
+0022100128,632,PT02M52.00S,4,1610612749,MIL,1629670,Nwora,J. Nwora,0,0,0,,0,,,0,h,Nwora Bad Pass Turnover (P2.T15),Turnover,Bad Pass,1,0,482
+0022100128,632,PT02M52.00S,4,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel STEAL (4 STL),,,1,0,483
+0022100128,634,PT02M33.00S,4,1610612752,NYK,203944,Randle,J. Randle,127,9,13,Made,1,90,112,202,v,Randle 13' Step Back Jump Shot (32 PTS),Made Shot,Step Back Jump shot,1,2,484
+0022100128,635,PT02M22.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle S.FOUL (P4.T2) (T.Washington),Foul,Shooting,1,0,485
+0022100128,637,PT02M22.00S,4,1610612749,MIL,203648,Antetokounmpo,T. Antetokounmpo,0,0,0,,0,91,112,203,h,T. Antetokounmpo Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,486
+0022100128,638,PT02M22.00S,4,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,SUB: Toppin FOR Noel,Substitution,,0,0,487
+0022100128,639,PT02M22.00S,4,1610612752,NYK,201565,Rose,D. Rose,0,0,0,,0,,,0,v,SUB: Quickley FOR Rose,Substitution,,0,0,488
+0022100128,640,PT02M22.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,SUB: Sims FOR Randle,Substitution,,0,0,489
+0022100128,645,PT02M22.00S,4,1610612749,MIL,203648,Antetokounmpo,T. Antetokounmpo,0,0,0,,0,,,0,h,MISS T. Antetokounmpo Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,490
+0022100128,646,PT02M18.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,491
+0022100128,647,PT02M02.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,62,78,10,Missed,1,,,0,v,MISS Barrett 10' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,492
+0022100128,647,PT02M02.00S,4,1610612749,MIL,1629670,Nwora,J. Nwora,0,0,0,,0,,,0,h,Nwora BLOCK (1 BLK),,,1,2,493
+0022100128,649,PT01M56.00S,4,1610612749,MIL,1629670,Nwora,J. Nwora,0,0,0,,0,,,0,h,Nwora REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,494
+0022100128,650,PT01M50.00S,4,1610612749,MIL,1629670,Nwora,J. Nwora,60,256,26,Missed,1,,,0,h,MISS Nwora 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,495
+0022100128,651,PT01M47.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,496
+0022100128,652,PT01M37.00S,4,1610612752,NYK,1630167,Toppin,O. Toppin,-227,37,0,Missed,1,,,0,v,MISS Toppin 3PT Jump Shot,Missed Shot,Jump Shot,1,3,497
+0022100128,653,PT01M34.00S,4,1610612749,MIL,203648,Antetokounmpo,T. Antetokounmpo,0,0,0,,0,,,0,h,T. Antetokounmpo REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,498
+0022100128,654,PT01M23.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett S.FOUL (P2.T3) (E.Malloy),Foul,Shooting,1,0,499
+0022100128,656,PT01M23.00S,4,1610612749,MIL,203918,Hood,R. Hood,0,0,0,,0,92,112,204,h,Hood Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,500
+0022100128,657,PT01M23.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,SUB: Knox II FOR Barrett,Substitution,,0,0,501
+0022100128,658,PT01M23.00S,4,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,SUB: Grimes FOR Burks,Substitution,,0,0,502
+0022100128,661,PT01M23.00S,4,1610612749,MIL,203918,Hood,R. Hood,0,0,0,,0,93,112,205,h,Hood Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,503
+0022100128,662,PT00M58.80S,4,1610612752,NYK,1630193,Quickley,I. Quickley,39,177,18,Missed,1,,,0,v,MISS Quickley 18' Jump Shot,Missed Shot,Jump Shot,1,2,504
+0022100128,663,PT00M56.20S,4,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,,,0,v,Knox II REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,505
+0022100128,664,PT00M54.20S,4,1610612752,NYK,1629656,Grimes,Q. Grimes,190,190,27,Missed,1,,,0,v,MISS Grimes 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,506
+0022100128,665,PT00M54.20S,4,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,,,0,v,Knox II REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,507
+0022100128,666,PT00M50.40S,4,1610612749,MIL,1629620,Robinson,J. Robinson,0,0,0,,0,,,0,h,Robinson S.FOUL (P2.PN) (E.Malloy),Foul,Shooting,1,0,508
+0022100128,668,PT00M50.40S,4,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,,,0,v,MISS Knox II Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,509
+0022100128,669,PT00M50.40S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Normal Rebound,0,0,510
+0022100128,670,PT00M50.40S,4,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,93,113,206,v,Knox II Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,511
+0022100128,671,PT00M38.60S,4,1610612749,MIL,1628400,Ojeleye,S. Ojeleye,0,22,2,Made,1,95,113,208,h,Ojeleye 2' Cutting Dunk Shot (2 PTS) (T. Antetokounmpo 2 AST),Made Shot,Cutting Dunk Shot,1,2,512
+0022100128,673,PT00M27.20S,4,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,,,0,v,Knox II Step Out of Bounds Turnover (P1.T15),Turnover,Step Out of Bounds Turnover,1,0,513
+0022100128,674,PT00M27.20S,4,1610612752,NYK,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,v,SUB: McBride FOR Quickley,Substitution,,0,0,514
+0022100128,677,PT00M14.30S,4,1610612749,MIL,203918,Hood,R. Hood,45,259,26,Made,1,98,113,211,h,Hood 26' 3PT Jump Shot (5 PTS) (Nwora 1 AST),Made Shot,Jump Shot,1,3,515
+0022100128,679,PT00M00.00S,4,0,,0,,,0,0,0,,0,98,113,211,,End of 4th Period (10:02 PM EST),period,end,1,0,516

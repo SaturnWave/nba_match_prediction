@@ -1,0 +1,468 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022100499,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (8:11 PM EST),period,start,0,0,1
+0022100499,4,PT12M00.00S,1,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Jump Ball Vucevic vs. Turner: Tip to White,Jump Ball,,1,0,2
+0022100499,7,PT11M37.00S,1,1610612741,CHI,201942,DeRozan,D. DeRozan,15,133,13,Made,1,2,0,2,h,DeRozan 13' Turnaround Jump Shot (2 PTS),Made Shot,Turnaround Jump Shot,1,2,3
+0022100499,8,PT11M10.00S,1,1610612754,IND,203200,Holiday,J. Holiday,168,201,26,Made,1,2,3,5,v,Holiday 26' 3PT Jump Shot (3 PTS) (LeVert 1 AST),Made Shot,Jump Shot,1,3,4
+0022100499,10,PT10M57.00S,1,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,5
+0022100499,10,PT10M57.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis STEAL (1 STL),,,1,0,6
+0022100499,16,PT10M49.00S,1,1610612754,IND,1627747,LeVert,C. LeVert,17,7,2,Missed,1,,,0,v,MISS LeVert 2' Layup,Missed Shot,Layup Shot,1,2,7
+0022100499,17,PT10M45.00S,1,1610612741,CHI,1629750,Green,J. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,8
+0022100499,18,PT10M38.00S,1,1610612741,CHI,1629632,White,C. White,-25,-1,3,Missed,1,,,0,h,MISS White 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,9
+0022100499,19,PT10M36.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,10
+0022100499,20,PT10M29.00S,1,1610612754,IND,1630537,Duarte,C. Duarte,87,1,9,Missed,1,,,0,v,MISS Duarte 9' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,11
+0022100499,21,PT10M25.00S,1,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,h,White REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,12
+0022100499,22,PT10M14.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,-169,190,25,Missed,1,,,0,h,MISS LaVine 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,13
+0022100499,23,PT10M11.00S,1,1610612741,CHI,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,DeRozan REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,14
+0022100499,24,PT10M03.00S,1,1610612741,CHI,202696,Vučević,N. Vučević,93,24,10,Missed,1,,,0,h,MISS Vucevic 10' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,15
+0022100499,25,PT10M02.00S,1,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,Holiday REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,16
+0022100499,26,PT09M44.00S,1,1610612754,IND,1630537,Duarte,C. Duarte,0,0,0,,0,,,0,v,Duarte Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,17
+0022100499,26,PT09M44.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine STEAL (1 STL),,,1,0,18
+0022100499,28,PT09M42.00S,1,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,,,0,v,LeVert S.FOUL (P1.T1) (S.Mehta),Foul,Shooting,1,0,19
+0022100499,30,PT09M42.00S,1,1610612741,CHI,1629750,Green,J. Green,0,0,0,,0,3,3,6,h,Green Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,20
+0022100499,31,PT09M42.00S,1,1610612741,CHI,1629750,Green,J. Green,0,0,0,,0,4,3,7,h,Green Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,21
+0022100499,32,PT09M30.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,15,2,2,Made,1,4,5,9,v,Sabonis 2' Driving Layup (2 PTS) (Holiday 1 AST),Made Shot,Driving Layup Shot,1,2,22
+0022100499,34,PT09M15.00S,1,1610612741,CHI,202696,Vučević,N. Vučević,7,-1,1,Made,1,6,5,11,h,Vucevic 1' Cutting Layup Shot (2 PTS) (LaVine 1 AST),Made Shot,Cutting Layup Shot,1,2,23
+0022100499,36,PT09M02.00S,1,1610612754,IND,203200,Holiday,J. Holiday,-48,194,20,Missed,1,,,0,v,MISS Holiday 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,24
+0022100499,37,PT09M00.00S,1,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,25
+0022100499,38,PT08M37.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,-42,103,11,Missed,1,,,0,h,MISS LaVine 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,26
+0022100499,39,PT08M35.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,27
+0022100499,40,PT08M22.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,-27,90,9,Missed,1,,,0,v,MISS Sabonis 9' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,28
+0022100499,41,PT08M19.00S,1,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,29
+0022100499,42,PT08M03.00S,1,1610612741,CHI,202696,Vučević,N. Vučević,-56,158,17,Made,1,8,5,13,h,Vucevic 17' Jump Shot (4 PTS) (LaVine 2 AST),Made Shot,Jump Shot,1,2,30
+0022100499,44,PT07M47.00S,1,1610612754,IND,1627747,LeVert,C. LeVert,-28,131,13,Made,1,8,7,15,v,LeVert 13' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,31
+0022100499,47,PT07M34.00S,1,1610612741,CHI,1629632,White,C. White,232,1,0,Missed,1,,,0,h,MISS White 3PT Jump Shot,Missed Shot,Jump Shot,1,3,32
+0022100499,48,PT07M30.00S,1,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,33
+0022100499,49,PT07M27.00S,1,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,Made,1,10,7,17,h,Vucevic Tip Layup Shot (6 PTS),Made Shot,Tip Layup Shot,1,2,34
+0022100499,50,PT07M22.00S,1,1610612754,IND,1626167,Turner,M. Turner,-2,1,0,Made,1,10,9,19,v,Turner Dunk (2 PTS) (LeVert 2 AST),Made Shot,Dunk Shot,1,2,35
+0022100499,52,PT07M09.00S,1,1610612741,CHI,1629750,Green,J. Green,-228,20,0,Made,1,13,9,22,h,Green 3PT Jump Shot (5 PTS) (DeRozan 1 AST),Made Shot,Jump Shot,1,3,36
+0022100499,54,PT06M48.00S,1,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic S.FOUL (P1.T1) (T.Maddox),Foul,Shooting,1,0,37
+0022100499,56,PT06M48.00S,1,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,38
+0022100499,57,PT06M48.00S,1,1610612754,IND,1630537,Duarte,C. Duarte,0,0,0,,0,,,0,v,SUB: Brissett FOR Duarte,Substitution,,0,0,39
+0022100499,58,PT06M48.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,SUB: Craig FOR Turner,Substitution,,0,0,40
+0022100499,61,PT06M48.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,13,10,23,v,Sabonis Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,41
+0022100499,62,PT06M48.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,MISS Sabonis Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,42
+0022100499,63,PT06M46.00S,1,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,43
+0022100499,64,PT06M21.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,213,-7,21,Made,1,15,10,25,h,LaVine 21' Step Back Jump Shot (2 PTS),Made Shot,Step Back Jump shot,1,2,44
+0022100499,65,PT06M07.00S,1,1610612754,IND,1627747,LeVert,C. LeVert,119,62,13,Made,1,15,12,27,v,LeVert 13' Pullup Jump Shot (4 PTS) (Holiday 2 AST),Made Shot,Pullup Jump shot,1,2,45
+0022100499,66,PT05M43.00S,1,1610612741,CHI,1629632,White,C. White,13,57,6,Missed,1,,,0,h,MISS White 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,46
+0022100499,66,PT05M43.00S,1,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,,,0,v,LeVert BLOCK (1 BLK),,,1,2,47
+0022100499,68,PT05M40.00S,1,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,,,0,v,LeVert REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,48
+0022100499,69,PT05M38.00S,1,1610612754,IND,1627747,LeVert,C. LeVert,-1,4,0,Missed,1,,,0,v,MISS LeVert Running Layup,Missed Shot,Running Layup Shot,1,2,49
+0022100499,70,PT05M38.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,50
+0022100499,71,PT05M37.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,Missed,1,,,0,v,MISS Sabonis Putback Layup,Missed Shot,Putback Layup Shot,1,2,51
+0022100499,72,PT05M37.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,52
+0022100499,73,PT05M37.00S,1,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,h,White S.FOUL (P1.T2) (S.Mehta),Foul,Shooting,1,0,53
+0022100499,76,PT05M37.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,15,13,28,v,Sabonis Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,54
+0022100499,77,PT05M37.00S,1,1610612741,CHI,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,SUB: Dosunmu FOR DeRozan,Substitution,,0,0,55
+0022100499,79,PT05M37.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,15,14,29,v,Sabonis Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,56
+0022100499,80,PT05M24.00S,1,1610612741,CHI,202696,Vučević,N. Vučević,22,96,10,Made,1,17,14,31,h,Vucevic 10' Jump Shot (8 PTS) (LaVine 3 AST),Made Shot,Jump Shot,1,2,57
+0022100499,82,PT05M13.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,-2,2,0,Made,1,17,16,33,v,Sabonis Cutting Dunk Shot (7 PTS) (LeVert 3 AST),Made Shot,Cutting Dunk Shot,1,2,58
+0022100499,84,PT05M00.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,162,213,27,Made,1,20,16,36,h,LaVine 27' 3PT Pullup Jump Shot (5 PTS),Made Shot,Pullup Jump shot,1,3,59
+0022100499,85,PT04M46.00S,1,1610612754,IND,1627747,LeVert,C. LeVert,5,0,1,Made,1,20,18,38,v,LeVert 1' Driving Layup (6 PTS),Made Shot,Driving Layup Shot,1,2,60
+0022100499,86,PT04M33.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,-6,-6,1,Made,1,22,18,40,h,LaVine 1' Driving Dunk (7 PTS),Made Shot,Driving Dunk Shot,1,2,61
+0022100499,87,PT04M33.00S,1,1610612754,IND,1628470,Craig,T. Craig,0,0,0,,0,,,0,v,Craig S.FOUL (P1.T2) (T.Maddox),Foul,Shooting,1,0,62
+0022100499,89,PT04M33.00S,1,1610612741,CHI,1629750,Green,J. Green,0,0,0,,0,,,0,h,SUB: Brown Jr. FOR Green,Substitution,,0,0,63
+0022100499,90,PT04M33.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: Turner FOR Sabonis,Substitution,,0,0,64
+0022100499,93,PT04M33.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,MISS LaVine Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,65
+0022100499,94,PT04M31.00S,1,1610612754,IND,1629052,Brissett,O. Brissett,0,0,0,,0,,,0,v,Brissett REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,66
+0022100499,95,PT04M18.00S,1,1610612754,IND,1626167,Turner,M. Turner,52,143,15,Missed,1,,,0,v,MISS Turner 15' Jump Shot,Missed Shot,Jump Shot,1,2,67
+0022100499,96,PT04M16.00S,1,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,68
+0022100499,98,PT04M07.00S,1,1610612754,IND,1626167,Turner,M. Turner,77,222,23,Missed,1,,,0,v,MISS Turner 23' Jump Shot,Missed Shot,Jump Shot,1,2,69
+0022100499,99,PT04M03.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,70
+0022100499,100,PT03M55.00S,1,1610612741,CHI,1628972,Brown Jr.,T. Brown Jr.,-191,150,24,Made,1,25,18,43,h,Brown Jr. 24' 3PT Jump Shot (3 PTS) (Vucevic 1 AST),Made Shot,Jump Shot,1,3,71
+0022100499,102,PT03M54.00S,1,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,72
+0022100499,103,PT03M54.00S,1,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,SUB: Duarte FOR Holiday,Substitution,,0,0,73
+0022100499,105,PT03M37.00S,1,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,h,White P.FOUL (P2.T3) (N.Buchert),Foul,Personal,1,0,74
+0022100499,107,PT03M27.00S,1,1610612754,IND,1630537,Duarte,C. Duarte,8,35,4,Missed,1,,,0,v,MISS Duarte 4' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,75
+0022100499,108,PT03M24.00S,1,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,76
+0022100499,109,PT03M16.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,77
+0022100499,109,PT03M16.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner STEAL (1 STL),,,1,0,78
+0022100499,111,PT03M13.00S,1,1610612754,IND,1630537,Duarte,C. Duarte,0,0,0,,0,,,0,v,Duarte Out of Bounds - Bad Pass Turnover Turnover (P2.T2),Turnover,Out of Bounds - Bad Pass Turnover,1,0,79
+0022100499,112,PT03M13.00S,1,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,h,SUB: DeRozan FOR White,Substitution,,0,0,80
+0022100499,113,PT03M13.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,SUB: Thomas FOR LaVine,Substitution,,0,0,81
+0022100499,114,PT03M13.00S,1,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,SUB: Cook FOR Vucevic,Substitution,,0,0,82
+0022100499,118,PT03M04.00S,1,1610612741,CHI,1629076,Cook,T. Cook,0,0,0,,0,,,0,h,Cook OFF.Foul (P1) (T.Maddox),Foul,Offensive,1,0,83
+0022100499,120,PT03M04.00S,1,1610612741,CHI,1629076,Cook,T. Cook,0,0,0,,0,,,0,h,Cook Offensive Foul Turnover (P1.T3),Turnover,Offensive Foul Turnover,1,0,84
+0022100499,121,PT02M49.00S,1,1610612754,IND,1628470,Craig,T. Craig,-233,75,24,Made,1,25,21,46,v,Craig 24' 3PT Jump Shot (3 PTS) (Brissett 1 AST),Made Shot,Jump Shot,1,3,85
+0022100499,123,PT02M35.00S,1,1610612741,CHI,1628972,Brown Jr.,T. Brown Jr.,17,10,2,Missed,1,,,0,h,MISS Brown Jr. 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,86
+0022100499,124,PT02M33.00S,1,1610612754,IND,1629052,Brissett,O. Brissett,0,0,0,,0,,,0,v,Brissett REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,87
+0022100499,125,PT02M25.00S,1,1610612754,IND,1628470,Craig,T. Craig,-51,274,28,Missed,1,,,0,v,MISS Craig 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,88
+0022100499,126,PT02M21.00S,1,1610612741,CHI,1629744,Thomas,M. Thomas,0,0,0,,0,,,0,h,Thomas REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,89
+0022100499,127,PT02M11.00S,1,1610612741,CHI,201942,DeRozan,D. DeRozan,-108,10,11,Missed,1,,,0,h,MISS DeRozan 11' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,90
+0022100499,128,PT02M09.00S,1,1610612754,IND,1630537,Duarte,C. Duarte,0,0,0,,0,,,0,v,Duarte REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,91
+0022100499,129,PT02M05.00S,1,1610612754,IND,1629052,Brissett,O. Brissett,-18,5,2,Made,1,25,23,48,v,Brissett 2' Cutting Layup Shot (2 PTS) (LeVert 4 AST),Made Shot,Cutting Layup Shot,1,2,92
+0022100499,131,PT01M51.00S,1,1610612741,CHI,1630245,Dosunmu,A. Dosunmu,5,78,8,Made,1,27,23,50,h,Dosunmu 8' Driving Floating Jump Shot (2 PTS),Made Shot,Driving Floating Jump Shot,1,2,93
+0022100499,132,PT01M37.00S,1,1610612754,IND,1630537,Duarte,C. Duarte,2,-1,0,Made,1,27,25,52,v,Duarte Cutting Dunk Shot (2 PTS) (Turner 1 AST),Made Shot,Cutting Dunk Shot,1,2,94
+0022100499,134,PT01M20.00S,1,1610612741,CHI,1630245,Dosunmu,A. Dosunmu,6,6,1,Made,1,29,25,54,h,Dosunmu 1' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,95
+0022100499,135,PT01M07.00S,1,1610612754,IND,1626167,Turner,M. Turner,-6,-1,1,Made,1,29,27,56,v,Turner 1' Reverse Layup (4 PTS) (LeVert 5 AST),Made Shot,Reverse Layup Shot,1,2,96
+0022100499,137,PT00M51.80S,1,1610612741,CHI,1629076,Cook,T. Cook,-72,8,7,Made,1,31,27,58,h,Cook 7' Turnaround Hook Shot (2 PTS),Made Shot,Turnaround Hook Shot,1,2,97
+0022100499,138,PT00M38.00S,1,1610612754,IND,1630537,Duarte,C. Duarte,0,0,0,,0,,,0,v,Duarte Lost Ball Turnover (P3.T3),Turnover,Lost Ball,1,0,98
+0022100499,138,PT00M38.00S,1,1610612741,CHI,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,DeRozan STEAL (1 STL),,,1,0,99
+0022100499,140,PT00M36.20S,1,1610612741,CHI,1628972,Brown Jr.,T. Brown Jr.,-4,-7,1,Made,1,33,27,60,h,Brown Jr. 1' Running Dunk (5 PTS) (DeRozan 2 AST),Made Shot,Running Dunk Shot,1,2,100
+0022100499,142,PT00M21.70S,1,1610612754,IND,1627747,LeVert,C. LeVert,47,258,26,Missed,1,,,0,v,MISS LeVert 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,101
+0022100499,143,PT00M17.80S,1,1610612741,CHI,1629076,Cook,T. Cook,0,0,0,,0,,,0,h,Cook REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,102
+0022100499,144,PT00M00.00S,1,1610612741,CHI,201942,DeRozan,D. DeRozan,96,167,19,Missed,1,,,0,h,MISS DeRozan 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,103
+0022100499,145,PT00M00.00S,1,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Rebound,Rebound,Unknown,0,0,104
+0022100499,146,PT00M00.00S,1,0,,0,,,0,0,0,,0,33,27,60,,End of 1st Period (8:33 PM EST),period,end,1,0,105
+0022100499,155,PT12M00.00S,2,0,,0,,,0,0,0,,0,33,27,60,,Start of 2nd Period (8:36 PM EST),period,start,0,0,106
+0022100499,156,PT11M34.00S,2,1610612754,IND,1630537,Duarte,C. Duarte,-135,173,22,Missed,1,,,0,v,MISS Duarte 22' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,107
+0022100499,157,PT11M32.00S,2,1610612741,CHI,1629076,Cook,T. Cook,0,0,0,,0,,,0,h,Cook REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,108
+0022100499,158,PT11M13.00S,2,1610612754,IND,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,Martin S.FOUL (P1.T1) (N.Buchert),Foul,Shooting,1,0,109
+0022100499,160,PT11M13.00S,2,1610612741,CHI,1629744,Thomas,M. Thomas,0,0,0,,0,34,27,61,h,Thomas Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,110
+0022100499,161,PT11M13.00S,2,1610612741,CHI,1629744,Thomas,M. Thomas,0,0,0,,0,35,27,62,h,Thomas Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,111
+0022100499,162,PT11M00.00S,2,1610612754,IND,1629103,Martin,K. Martin,-230,-11,0,Missed,1,,,0,v,MISS Martin 3PT Jump Shot,Missed Shot,Jump Shot,1,3,112
+0022100499,163,PT10M56.00S,2,1610612741,CHI,1629076,Cook,T. Cook,0,0,0,,0,,,0,h,Cook REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,113
+0022100499,164,PT10M52.00S,2,1610612741,CHI,1629632,White,C. White,-4,252,25,Missed,1,,,0,h,MISS White 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,114
+0022100499,165,PT10M49.00S,2,1610612754,IND,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,Martin REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,115
+0022100499,166,PT10M34.00S,2,1610612754,IND,1626167,Turner,M. Turner,29,256,26,Missed,1,,,0,v,MISS Turner 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,116
+0022100499,167,PT10M30.00S,2,1610612754,IND,1628470,Craig,T. Craig,0,0,0,,0,,,0,v,Craig REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,117
+0022100499,168,PT10M29.00S,2,1610612754,IND,1628470,Craig,T. Craig,1,12,1,Made,1,35,29,64,v,Craig 1' Putback Layup (5 PTS),Made Shot,Putback Layup Shot,1,2,118
+0022100499,169,PT10M13.00S,2,1610612741,CHI,201942,DeRozan,D. DeRozan,103,83,13,Made,1,37,29,66,h,DeRozan 13' Pullup Jump Shot (4 PTS),Made Shot,Pullup Jump shot,1,2,119
+0022100499,170,PT10M03.00S,2,1610612754,IND,1628470,Craig,T. Craig,192,163,25,Missed,1,,,0,v,MISS Craig 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,120
+0022100499,171,PT09M59.00S,2,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,h,White REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,121
+0022100499,172,PT09M50.00S,2,1610612741,CHI,1629632,White,C. White,-16,0,2,Made,1,39,29,68,h,White 2' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,122
+0022100499,173,PT09M50.00S,2,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,123
+0022100499,174,PT09M50.00S,2,1610612754,IND,1630537,Duarte,C. Duarte,0,0,0,,0,,,0,v,SUB: Brissett FOR Duarte,Substitution,,0,0,124
+0022100499,175,PT09M50.00S,2,1610612754,IND,1628470,Craig,T. Craig,0,0,0,,0,,,0,v,SUB: Holiday FOR Craig,Substitution,,0,0,125
+0022100499,176,PT09M50.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,SUB: Sabonis FOR Turner,Substitution,,0,0,126
+0022100499,180,PT09M35.00S,2,1610612754,IND,1629103,Martin,K. Martin,11,2,1,Made,1,39,31,70,v,Martin 1' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,127
+0022100499,181,PT09M15.00S,2,1610612741,CHI,201942,DeRozan,D. DeRozan,70,137,15,Made,1,41,31,72,h,DeRozan 15' Pullup Jump Shot (6 PTS),Made Shot,Pullup Jump shot,1,2,128
+0022100499,182,PT09M05.00S,2,1610612741,CHI,1629076,Cook,T. Cook,0,0,0,,0,,,0,h,Cook P.FOUL (P2.T1) (N.Buchert),Foul,Personal,1,0,129
+0022100499,184,PT09M01.00S,2,1610612754,IND,202954,Wanamaker,B. Wanamaker,0,0,0,,0,,,0,v,Wanamaker Out of Bounds Lost Ball Turnover (P1.T4),Turnover,Out of Bounds Lost Ball Turnover,1,0,130
+0022100499,185,PT08M46.00S,2,1610612741,CHI,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,DeRozan Out of Bounds - Bad Pass Turnover Turnover (P1.T4),Turnover,Out of Bounds - Bad Pass Turnover,1,0,131
+0022100499,186,PT08M37.00S,2,1610612754,IND,202954,Wanamaker,B. Wanamaker,0,0,0,,0,,,0,v,Wanamaker Traveling Turnover (P2.T5),Turnover,Traveling,1,0,132
+0022100499,187,PT08M21.00S,2,1610612741,CHI,1629744,Thomas,M. Thomas,163,173,24,Missed,1,,,0,h,MISS Thomas 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,133
+0022100499,188,PT08M15.00S,2,1610612754,IND,202954,Wanamaker,B. Wanamaker,0,0,0,,0,,,0,v,Wanamaker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,134
+0022100499,189,PT08M09.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,23,6,2,Missed,1,,,0,v,MISS Sabonis 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,135
+0022100499,189,PT08M09.00S,2,1610612741,CHI,1629076,Cook,T. Cook,0,0,0,,0,,,0,h,Cook BLOCK (1 BLK),,,1,2,136
+0022100499,191,PT08M08.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,137
+0022100499,192,PT08M07.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,Made,1,41,33,74,v,Sabonis Putback Layup (9 PTS),Made Shot,Putback Layup Shot,1,2,138
+0022100499,193,PT07M41.00S,2,1610612741,CHI,1629632,White,C. White,11,10,1,Made,1,43,33,76,h,White 1' Driving Finger Roll Layup (4 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,139
+0022100499,194,PT07M29.00S,2,1610612741,CHI,1629076,Cook,T. Cook,0,0,0,,0,,,0,h,Cook S.FOUL (P3.T2) (T.Maddox),Foul,Shooting,1,0,140
+0022100499,196,PT07M29.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,43,34,77,v,Sabonis Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,141
+0022100499,197,PT07M29.00S,2,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,h,SUB: LaVine FOR White,Substitution,,0,0,142
+0022100499,198,PT07M29.00S,2,1610612741,CHI,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,SUB: Vucevic FOR DeRozan,Substitution,,0,0,143
+0022100499,199,PT07M29.00S,2,1610612741,CHI,1629076,Cook,T. Cook,0,0,0,,0,,,0,h,SUB: Dosunmu FOR Cook,Substitution,,0,0,144
+0022100499,203,PT07M29.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,MISS Sabonis Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,145
+0022100499,204,PT07M25.00S,2,1610612741,CHI,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,h,Brown Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,146
+0022100499,205,PT07M02.00S,2,1610612741,CHI,1628972,Brown Jr.,T. Brown Jr.,-136,206,25,Missed,1,,,0,h,MISS Brown Jr. 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,147
+0022100499,206,PT07M00.00S,2,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,Holiday REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,148
+0022100499,207,PT06M56.00S,2,1610612741,CHI,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,h,Brown Jr. P.FOUL (P1.T3) (T.Maddox),Foul,Personal,1,0,149
+0022100499,209,PT06M56.00S,2,1610612741,CHI,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,h,SUB: Green FOR Brown Jr.,Substitution,,0,0,150
+0022100499,211,PT06M47.00S,2,1610612754,IND,203200,Holiday,J. Holiday,151,207,26,Missed,1,,,0,v,MISS Holiday 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,151
+0022100499,212,PT06M44.00S,2,1610612741,CHI,1629750,Green,J. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,152
+0022100499,213,PT06M36.00S,2,1610612741,CHI,1629750,Green,J. Green,-4,9,1,Made,1,45,34,79,h,Green 1' Driving Dunk (7 PTS) (LaVine 4 AST),Made Shot,Driving Dunk Shot,1,2,153
+0022100499,215,PT06M22.00S,2,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,Holiday Bad Pass Turnover (P1.T6),Turnover,Bad Pass,1,0,154
+0022100499,215,PT06M22.00S,2,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic STEAL (1 STL),,,1,0,155
+0022100499,217,PT06M11.00S,2,1610612741,CHI,1629744,Thomas,M. Thomas,-10,242,24,Made,1,48,34,82,h,Thomas 24' 3PT Pullup Jump Shot (5 PTS),Made Shot,Pullup Jump shot,1,3,156
+0022100499,218,PT06M11.00S,2,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,157
+0022100499,219,PT06M11.00S,2,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,SUB: LeVert FOR Holiday,Substitution,,0,0,158
+0022100499,220,PT06M11.00S,2,1610612754,IND,202954,Wanamaker,B. Wanamaker,0,0,0,,0,,,0,v,SUB: Duarte FOR Wanamaker,Substitution,,0,0,159
+0022100499,221,PT06M11.00S,2,1610612754,IND,1629052,Brissett,O. Brissett,0,0,0,,0,,,0,v,SUB: Turner FOR Brissett,Substitution,,0,0,160
+0022100499,225,PT05M55.00S,2,1610612754,IND,1627747,LeVert,C. LeVert,-23,15,3,Missed,1,,,0,v,MISS LeVert 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,161
+0022100499,226,PT05M54.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:4 Def:1),Rebound,Unknown,1,0,162
+0022100499,270,PT05M53.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,1,12,1,Missed,1,,,0,v,MISS Sabonis 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,163
+0022100499,271,PT05M52.00S,2,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,164
+0022100499,227,PT05M46.00S,2,1610612741,CHI,202696,Vučević,N. Vučević,92,230,25,Made,1,51,34,85,h,Vucevic 25' 3PT Jump Shot (11 PTS) (Thomas 1 AST),Made Shot,Jump Shot,1,3,165
+0022100499,229,PT05M28.00S,2,1610612754,IND,1627747,LeVert,C. LeVert,168,191,25,Missed,1,,,0,v,MISS LeVert 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,166
+0022100499,230,PT05M26.00S,2,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,167
+0022100499,231,PT05M20.00S,2,1610612741,CHI,202696,Vučević,N. Vučević,134,100,17,Missed,1,,,0,h,MISS Vucevic 17' Jump Shot,Missed Shot,Jump Shot,1,2,168
+0022100499,232,PT05M16.00S,2,1610612754,IND,1630537,Duarte,C. Duarte,0,0,0,,0,,,0,v,Duarte REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,169
+0022100499,233,PT05M09.00S,2,1610612754,IND,1626167,Turner,M. Turner,-5,11,1,Made,1,51,36,87,v,Turner 1' Driving Layup (6 PTS) (LeVert 6 AST),Made Shot,Driving Layup Shot,1,2,170
+0022100499,235,PT04M57.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner S.FOUL (P1.T2) (T.Maddox),Foul,Shooting,1,0,171
+0022100499,237,PT04M57.00S,2,1610612741,CHI,1630245,Dosunmu,A. Dosunmu,0,0,0,,0,,,0,h,MISS Dosunmu Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,172
+0022100499,238,PT04M57.00S,2,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Rebound,Rebound,Normal Rebound,0,0,173
+0022100499,239,PT04M57.00S,2,1610612754,IND,1629103,Martin,K. Martin,0,0,0,,0,,,0,v,SUB: Holiday FOR Martin,Substitution,,0,0,174
+0022100499,241,PT04M57.00S,2,1610612741,CHI,1630245,Dosunmu,A. Dosunmu,0,0,0,,0,,,0,h,MISS Dosunmu Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,175
+0022100499,242,PT04M55.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:4 Def:2),Rebound,Unknown,1,0,176
+0022100499,243,PT04M47.00S,2,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic Violation:Kicked Ball (N.Buchert),Violation,Kicked Ball,0,0,177
+0022100499,244,PT04M39.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,17,-1,2,Missed,1,,,0,v,MISS Sabonis 2' Layup,Missed Shot,Layup Shot,1,2,178
+0022100499,244,PT04M39.00S,2,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic BLOCK (1 BLK),,,1,2,179
+0022100499,246,PT04M35.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:5 Def:2),Rebound,Unknown,1,0,180
+0022100499,247,PT04M34.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis Lost Ball Turnover (P1.T7),Turnover,Lost Ball,1,0,181
+0022100499,247,PT04M34.00S,2,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic STEAL (2 STL),,,1,0,182
+0022100499,249,PT04M22.00S,2,1610612741,CHI,203897,LaVine,Z. LaVine,-148,208,26,Made,1,54,36,90,h,LaVine 26' 3PT Pullup Jump Shot (10 PTS),Made Shot,Pullup Jump shot,1,3,183
+0022100499,250,PT04M09.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,5,-8,1,Missed,1,,,0,v,MISS Sabonis 1' Hook Shot,Missed Shot,Hook Shot,1,2,184
+0022100499,251,PT04M07.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:6 Def:2),Rebound,Unknown,1,0,185
+0022100499,252,PT04M06.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,Missed,1,,,0,v,MISS Sabonis Putback Layup,Missed Shot,Putback Layup Shot,1,2,186
+0022100499,253,PT04M05.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:7 Def:2),Rebound,Unknown,1,0,187
+0022100499,254,PT03M59.00S,2,1610612754,IND,1626167,Turner,M. Turner,-67,248,26,Missed,1,,,0,v,MISS Turner 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,188
+0022100499,255,PT03M56.00S,2,1610612741,CHI,1629744,Thomas,M. Thomas,0,0,0,,0,,,0,h,Thomas REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,189
+0022100499,256,PT03M46.00S,2,1610612741,CHI,1629744,Thomas,M. Thomas,-48,106,12,Missed,1,,,0,h,MISS Thomas 12' Jump Shot,Missed Shot,Jump Shot,1,2,190
+0022100499,257,PT03M45.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:7 Def:3),Rebound,Unknown,1,0,191
+0022100499,258,PT03M36.00S,2,1610612754,IND,203200,Holiday,J. Holiday,92,237,25,Made,1,54,39,93,v,Holiday 25' 3PT Pullup Jump Shot (6 PTS) (Sabonis 1 AST),Made Shot,Pullup Jump shot,1,3,192
+0022100499,260,PT03M19.00S,2,1610612741,CHI,202696,Vučević,N. Vučević,-22,169,17,Made,1,56,39,95,h,Vucevic 17' Jump Shot (13 PTS) (Thomas 2 AST),Made Shot,Jump Shot,1,2,193
+0022100499,262,PT03M04.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,33,11,3,Missed,1,,,0,v,MISS Sabonis 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,194
+0022100499,262,PT03M04.00S,2,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic BLOCK (2 BLK),,,1,2,195
+0022100499,264,PT03M04.00S,2,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,196
+0022100499,266,PT03M04.00S,2,1610612741,CHI,1630245,Dosunmu,A. Dosunmu,0,0,0,,0,,,0,h,SUB: White FOR Dosunmu,Substitution,,0,0,197
+0022100499,267,PT03M04.00S,2,1610612741,CHI,1629744,Thomas,M. Thomas,0,0,0,,0,,,0,h,SUB: DeRozan FOR Thomas,Substitution,,0,0,198
+0022100499,272,PT02M57.00S,2,1610612754,IND,1630537,Duarte,C. Duarte,131,-17,13,Missed,1,,,0,v,MISS Duarte 13' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,199
+0022100499,273,PT02M53.00S,2,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,200
+0022100499,274,PT02M32.00S,2,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine Lost Ball Turnover (P2.T5),Turnover,Lost Ball,1,0,201
+0022100499,274,PT02M32.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis STEAL (2 STL),,,1,0,202
+0022100499,276,PT02M27.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,-18,2,2,Made,1,56,41,97,v,Sabonis 2' Running Layup (12 PTS),Made Shot,Running Layup Shot,1,2,203
+0022100499,277,PT02M19.00S,2,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,204
+0022100499,278,PT02M14.00S,2,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic Bad Pass Turnover (P2.T6),Turnover,Bad Pass,1,0,205
+0022100499,278,PT02M14.00S,2,1610612754,IND,1630537,Duarte,C. Duarte,0,0,0,,0,,,0,v,Duarte STEAL (1 STL),,,1,0,206
+0022100499,280,PT02M11.00S,2,1610612754,IND,1630537,Duarte,C. Duarte,0,8,1,Made,1,56,43,99,v,Duarte 1' Running Dunk (4 PTS),Made Shot,Running Dunk Shot,1,2,207
+0022100499,281,PT01M56.00S,2,1610612741,CHI,203897,LaVine,Z. LaVine,137,93,17,Made,1,58,43,101,h,LaVine 17' Fadeaway Jumper (12 PTS),Made Shot,Fadeaway Jump Shot,1,2,208
+0022100499,282,PT01M40.00S,2,1610612754,IND,1626167,Turner,M. Turner,18,1,2,Made,1,58,45,103,v,Turner 2' Driving Layup (8 PTS) (Sabonis 2 AST),Made Shot,Driving Layup Shot,1,2,209
+0022100499,284,PT01M21.00S,2,1610612741,CHI,1629632,White,C. White,-11,5,1,Made,1,60,45,105,h,White 1' Driving Finger Roll Layup (6 PTS) (Green 1 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,210
+0022100499,286,PT01M11.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,89,241,26,Missed,1,,,0,v,MISS Sabonis 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,211
+0022100499,287,PT01M07.00S,2,1610612741,CHI,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,DeRozan REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,212
+0022100499,288,PT00M53.00S,2,1610612741,CHI,202696,Vučević,N. Vučević,-110,220,25,Missed,1,,,0,h,MISS Vucevic 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,213
+0022100499,289,PT00M51.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:7 Def:4),Rebound,Unknown,1,0,214
+0022100499,290,PT00M32.90S,2,1610612754,IND,1627747,LeVert,C. LeVert,2,57,6,Made,1,60,47,107,v,LeVert 6' Driving Floating Jump Shot (8 PTS),Made Shot,Driving Floating Jump Shot,1,2,215
+0022100499,291,PT00M19.90S,2,1610612741,CHI,201942,DeRozan,D. DeRozan,-12,0,1,Made,1,62,47,109,h,DeRozan 1' Driving Layup (8 PTS),Made Shot,Driving Layup Shot,1,2,216
+0022100499,292,PT00M19.90S,2,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,Holiday S.FOUL (P1.T3) (N.Buchert),Foul,Shooting,1,0,217
+0022100499,294,PT00M19.90S,2,1610612741,CHI,201942,DeRozan,D. DeRozan,0,0,0,,0,63,47,110,h,DeRozan Free Throw 1 of 1 (9 PTS),Free Throw,Free Throw 1 of 1,1,0,218
+0022100499,295,PT00M09.60S,2,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine Personal Take Foul (P1.T4) (T.Maddox),Foul,Personal Take,1,0,219
+0022100499,297,PT00M02.50S,2,1610612741,CHI,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,DeRozan S.FOUL (P1.PN) (S.Mehta),Foul,Shooting,1,0,220
+0022100499,299,PT00M02.50S,2,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,,,0,v,MISS LeVert Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,221
+0022100499,300,PT00M02.50S,2,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Normal Rebound,0,0,222
+0022100499,301,PT00M02.50S,2,1610612754,IND,1630537,Duarte,C. Duarte,0,0,0,,0,,,0,v,SUB: Brissett FOR Duarte,Substitution,,0,0,223
+0022100499,302,PT00M02.50S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: Craig FOR Sabonis,Substitution,,0,0,224
+0022100499,305,PT00M02.50S,2,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,63,48,111,v,LeVert Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,225
+0022100499,306,PT00M00.00S,2,0,,0,,,0,0,0,,0,63,48,111,,End of 2nd Period (9:03 PM EST),period,end,1,0,226
+0022100499,311,PT12M00.00S,3,0,,0,,,0,0,0,,0,63,48,111,,Start of 3rd Period (9:18 PM EST),period,start,0,0,227
+0022100499,312,PT11M42.00S,3,1610612754,IND,1626167,Turner,M. Turner,-27,43,5,Missed,1,,,0,v,MISS Turner 5' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,228
+0022100499,313,PT11M40.00S,3,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,229
+0022100499,314,PT11M23.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,113,236,26,Made,1,66,48,114,h,LaVine 26' 3PT Jump Shot (15 PTS),Made Shot,Jump Shot,1,3,230
+0022100499,315,PT11M11.00S,3,1610612754,IND,1630537,Duarte,C. Duarte,-2,63,6,Made,1,66,50,116,v,Duarte 6' Driving Floating Jump Shot (6 PTS) (Sabonis 3 AST),Made Shot,Driving Floating Jump Shot,1,2,231
+0022100499,316,PT10M58.00S,3,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,h,White Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,232
+0022100499,316,PT10M58.00S,3,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,Holiday STEAL (1 STL),,,1,0,233
+0022100499,318,PT10M55.00S,3,1610612754,IND,203200,Holiday,J. Holiday,4,5,1,Made,1,66,52,118,v,Holiday 1' Running Dunk (8 PTS),Made Shot,Running Dunk Shot,1,2,234
+0022100499,319,PT10M33.00S,3,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,Holiday S.FOUL (P2.T1) (N.Buchert),Foul,Shooting,1,0,235
+0022100499,321,PT10M33.00S,3,1610612741,CHI,201942,DeRozan,D. DeRozan,0,0,0,,0,67,52,119,h,DeRozan Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,236
+0022100499,323,PT10M33.00S,3,1610612741,CHI,201942,DeRozan,D. DeRozan,0,0,0,,0,68,52,120,h,DeRozan Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,0,0,237
+0022100499,324,PT10M08.00S,3,1610612754,IND,1627747,LeVert,C. LeVert,47,85,10,Missed,1,,,0,v,MISS LeVert 10' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,238
+0022100499,325,PT10M06.00S,3,1610612741,CHI,1629750,Green,J. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,239
+0022100499,326,PT09M59.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,-153,207,26,Missed,1,,,0,h,MISS LaVine 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,240
+0022100499,327,PT09M56.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,241
+0022100499,328,PT09M48.00S,3,1610612754,IND,1630537,Duarte,C. Duarte,-99,120,16,Made,1,68,54,122,v,Duarte 16' Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,2,242
+0022100499,329,PT09M27.00S,3,1610612741,CHI,201942,DeRozan,D. DeRozan,2,216,22,Missed,1,,,0,h,MISS DeRozan 22' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,243
+0022100499,330,PT09M24.00S,3,1610612754,IND,1630537,Duarte,C. Duarte,0,0,0,,0,,,0,v,Duarte REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,244
+0022100499,331,PT09M19.00S,3,1610612754,IND,1630537,Duarte,C. Duarte,15,4,2,Made,1,68,56,124,v,Duarte 2' Cutting Layup Shot (10 PTS) (Sabonis 4 AST),Made Shot,Cutting Layup Shot,1,2,245
+0022100499,333,PT09M05.00S,3,1610612741,CHI,202696,Vučević,N. Vučević,-26,262,26,Made,1,71,56,127,h,Vucevic 26' 3PT Jump Shot (16 PTS) (DeRozan 3 AST),Made Shot,Jump Shot,1,3,246
+0022100499,335,PT08M53.00S,3,1610612754,IND,1630537,Duarte,C. Duarte,-124,205,24,Missed,1,,,0,v,MISS Duarte 24' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,247
+0022100499,336,PT08M50.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:8 Def:4),Rebound,Unknown,1,0,248
+0022100499,337,PT08M44.00S,3,1610612754,IND,1630537,Duarte,C. Duarte,-183,171,25,Made,1,71,59,130,v,Duarte 25' 3PT Pullup Jump Shot (13 PTS) (Sabonis 5 AST),Made Shot,Pullup Jump shot,1,3,249
+0022100499,338,PT08M42.00S,3,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,250
+0022100499,340,PT08M37.00S,3,1610612754,IND,1630537,Duarte,C. Duarte,0,0,0,,0,,,0,v,Duarte P.FOUL (P1.T2) (N.Buchert),Foul,Personal,1,0,251
+0022100499,342,PT08M31.00S,3,1610612754,IND,1630537,Duarte,C. Duarte,0,0,0,,0,,,0,v,Duarte Violation:Kicked Ball (N.Buchert),Violation,Kicked Ball,0,0,252
+0022100499,343,PT08M18.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine Lost Ball Turnover (P3.T8),Turnover,Lost Ball,1,0,253
+0022100499,343,PT08M18.00S,3,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,Holiday STEAL (2 STL),,,1,0,254
+0022100499,345,PT08M07.00S,3,1610612754,IND,203200,Holiday,J. Holiday,-2,4,0,Made,1,71,61,132,v,Holiday Driving Finger Roll Layup (10 PTS) (LeVert 7 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,255
+0022100499,347,PT07M50.00S,3,1610612741,CHI,1629632,White,C. White,-70,238,25,Missed,1,,,0,h,MISS White 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,256
+0022100499,348,PT07M49.00S,3,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Rebound,Rebound,Unknown,0,0,257
+0022100499,350,PT07M34.00S,3,1610612741,CHI,201942,DeRozan,D. DeRozan,-164,16,16,Made,1,73,61,134,h,DeRozan 16' Pullup Jump Shot (13 PTS) (White 1 AST),Made Shot,Pullup Jump shot,1,2,258
+0022100499,352,PT07M22.00S,3,1610612754,IND,1627747,LeVert,C. LeVert,93,240,26,Missed,1,,,0,v,MISS LeVert 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,259
+0022100499,353,PT07M18.00S,3,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,260
+0022100499,354,PT07M11.00S,3,1610612741,CHI,201942,DeRozan,D. DeRozan,-233,16,0,Made,1,76,61,137,h,DeRozan 3PT Jump Shot (16 PTS) (LaVine 5 AST),Made Shot,Jump Shot,1,3,261
+0022100499,356,PT06M58.00S,3,1610612741,CHI,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,DeRozan S.FOUL (P2.T1) (S.Mehta),Foul,Shooting,1,0,262
+0022100499,358,PT06M58.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,76,62,138,v,Turner Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,263
+0022100499,359,PT06M58.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,MISS Turner Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,264
+0022100499,360,PT06M55.00S,3,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,265
+0022100499,361,PT06M32.00S,3,1610612741,CHI,1629632,White,C. White,-66,238,25,Missed,1,,,0,h,MISS White 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,266
+0022100499,362,PT06M30.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:8 Def:5),Rebound,Unknown,1,0,267
+0022100499,363,PT06M21.00S,3,1610612754,IND,1626167,Turner,M. Turner,110,241,26,Missed,1,,,0,v,MISS Turner 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,268
+0022100499,364,PT06M16.00S,3,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic REBOUND (Off:1 Def:10),Rebound,Unknown,1,0,269
+0022100499,365,PT06M11.00S,3,1610612741,CHI,201942,DeRozan,D. DeRozan,11,5,1,Missed,1,,,0,h,MISS DeRozan 1' Running Finger Roll Layup,Missed Shot,Running Finger Roll Layup Shot,1,2,270
+0022100499,366,PT06M10.00S,3,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,,,0,v,LeVert REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,271
+0022100499,367,PT06M03.00S,3,1610612754,IND,1630537,Duarte,C. Duarte,154,214,26,Made,1,76,65,141,v,Duarte 26' 3PT Jump Shot (16 PTS),Made Shot,Jump Shot,1,3,272
+0022100499,368,PT05M48.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,-22,256,26,Missed,1,,,0,h,MISS LaVine 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,273
+0022100499,369,PT05M46.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:8 Def:6),Rebound,Unknown,1,0,274
+0022100499,370,PT05M36.00S,3,1610612754,IND,1626167,Turner,M. Turner,-176,179,25,Missed,1,,,0,v,MISS Turner 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,275
+0022100499,371,PT05M33.00S,3,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Rebound,Rebound,Unknown,0,0,276
+0022100499,373,PT05M33.00S,3,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,h,SUB: Dosunmu FOR White,Substitution,,0,0,277
+0022100499,374,PT05M33.00S,3,1610612741,CHI,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,SUB: Brown Jr. FOR DeRozan,Substitution,,0,0,278
+0022100499,375,PT05M33.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,SUB: Craig FOR Turner,Substitution,,0,0,279
+0022100499,379,PT05M19.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine Bad Pass Turnover (P4.T9),Turnover,Bad Pass,1,0,280
+0022100499,379,PT05M19.00S,3,1610612754,IND,1630537,Duarte,C. Duarte,0,0,0,,0,,,0,v,Duarte STEAL (2 STL),,,1,0,281
+0022100499,381,PT05M17.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine S.FOUL (P2.T2) (T.Maddox),Foul,Shooting,1,0,282
+0022100499,383,PT05M17.00S,3,1610612754,IND,1630537,Duarte,C. Duarte,0,0,0,,0,,,0,v,MISS Duarte Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,283
+0022100499,384,PT05M17.00S,3,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Normal Rebound,0,0,284
+0022100499,385,PT05M17.00S,3,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,SUB: Brissett FOR Holiday,Substitution,,0,0,285
+0022100499,387,PT05M17.00S,3,1610612754,IND,1630537,Duarte,C. Duarte,0,0,0,,0,,,0,v,MISS Duarte Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,286
+0022100499,388,PT05M14.00S,3,1610612741,CHI,1629750,Green,J. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,287
+0022100499,389,PT04M49.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,-224,81,24,Made,1,79,65,144,h,LaVine 24' 3PT Step Back Jump Shot (18 PTS),Made Shot,Step Back Jump shot,1,3,288
+0022100499,390,PT04M28.00S,3,1610612741,CHI,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,h,Brown Jr. S.FOUL (P2.T3) (T.Maddox),Foul,Shooting,1,0,289
+0022100499,392,PT04M28.00S,3,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,79,66,145,v,LeVert Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,290
+0022100499,393,PT04M28.00S,3,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,79,67,146,v,LeVert Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,291
+0022100499,394,PT04M13.00S,3,1610612741,CHI,1630245,Dosunmu,A. Dosunmu,0,67,7,Made,1,81,67,148,h,Dosunmu 7' Driving Floating Jump Shot (6 PTS) (Brown Jr. 1 AST),Made Shot,Driving Floating Jump Shot,1,2,292
+0022100499,396,PT03M57.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,-11,10,1,Missed,1,,,0,v,MISS Sabonis 1' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,293
+0022100499,397,PT03M55.00S,3,1610612741,CHI,1630245,Dosunmu,A. Dosunmu,0,0,0,,0,,,0,h,Dosunmu REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,294
+0022100499,398,PT03M50.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,-15,13,2,Missed,1,,,0,h,MISS LaVine 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,295
+0022100499,398,PT03M50.00S,3,1610612754,IND,1628470,Craig,T. Craig,0,0,0,,0,,,0,v,Craig BLOCK (1 BLK),,,1,2,296
+0022100499,400,PT03M45.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:8 Def:7),Rebound,Unknown,1,0,297
+0022100499,401,PT03M43.00S,3,1610612754,IND,1627747,LeVert,C. LeVert,-113,229,26,Missed,1,,,0,v,MISS LeVert 26' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,298
+0022100499,402,PT03M40.00S,3,1610612741,CHI,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,h,Brown Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,299
+0022100499,405,PT03M35.00S,3,1610612741,CHI,1630245,Dosunmu,A. Dosunmu,0,0,0,,0,,,0,h,Dosunmu Lost Ball Turnover (P1.T10),Turnover,Lost Ball,1,0,300
+0022100499,405,PT03M35.00S,3,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,,,0,v,LeVert STEAL (1 STL),,,1,0,301
+0022100499,407,PT03M21.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,150,58,16,Missed,1,,,0,v,MISS Sabonis 16' Jump Shot,Missed Shot,Jump Shot,1,2,302
+0022100499,408,PT03M18.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,303
+0022100499,409,PT03M17.00S,3,1610612754,IND,1630537,Duarte,C. Duarte,0,0,0,,0,,,0,v,Duarte C.P.FOUL (P2.T3) (T.Maddox),Foul,Clear Path,1,0,304
+0022100499,411,PT03M17.00S,3,0,,409,,,0,0,0,,0,81,67,148,,Instant Replay3rd Period (9:34 PM EST),Instant Replay,Overturn Ruling,0,0,305
+0022100499,412,PT03M17.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,82,67,149,h,LaVine Free Throw Clear Path 1 of 2 (19 PTS),Free Throw,Free Throw Clear Path 1 of 2,1,0,306
+0022100499,413,PT03M17.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,83,67,150,h,LaVine Free Throw Clear Path 2 of 2 (20 PTS),Free Throw,Free Throw Clear Path 2 of 2,1,0,307
+0022100499,414,PT03M17.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,SUB: DeRozan FOR LaVine,Substitution,,0,0,308
+0022100499,415,PT03M17.00S,3,1610612754,IND,1630537,Duarte,C. Duarte,0,0,0,,0,,,0,v,SUB: Washington Jr. FOR Duarte,Substitution,,0,0,309
+0022100499,416,PT03M17.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: Turner FOR Sabonis,Substitution,,0,0,310
+0022100499,425,PT03M17.00S,3,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,SUB: Cook FOR Vucevic,Substitution,,0,0,311
+0022100499,420,PT03M06.00S,3,1610612741,CHI,201942,DeRozan,D. DeRozan,-10,20,2,Missed,1,,,0,h,MISS DeRozan 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,312
+0022100499,420,PT03M06.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner BLOCK (1 BLK),,,1,2,313
+0022100499,422,PT03M06.00S,3,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,,,0,v,LeVert REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,314
+0022100499,423,PT03M04.00S,3,1610612754,IND,1626167,Turner,M. Turner,7,6,1,Made,1,83,69,152,v,Turner 1' Running Layup (11 PTS) (LeVert 8 AST),Made Shot,Running Layup Shot,1,2,315
+0022100499,427,PT02M58.00S,3,1610612741,CHI,1630245,Dosunmu,A. Dosunmu,0,0,0,,0,,,0,h,Dosunmu Out of Bounds - Bad Pass Turnover Turnover (P2.T11),Turnover,Out of Bounds - Bad Pass Turnover,1,0,316
+0022100499,428,PT02M58.00S,3,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,317
+0022100499,429,PT02M58.00S,3,1610612741,CHI,1629750,Green,J. Green,0,0,0,,0,,,0,h,SUB: White FOR Green,Substitution,,0,0,318
+0022100499,431,PT02M39.00S,3,1610612754,IND,1627747,LeVert,C. LeVert,18,15,2,Missed,1,,,0,v,MISS LeVert 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,319
+0022100499,432,PT02M37.00S,3,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,,,0,v,LeVert REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,320
+0022100499,433,PT02M31.00S,3,1610612754,IND,1630613,Washington Jr.,D. Washington Jr.,-16,-1,2,Made,1,83,71,154,v,Washington Jr. 2' Driving Layup (2 PTS) (LeVert 9 AST),Made Shot,Driving Layup Shot,1,2,321
+0022100499,435,PT02M13.00S,3,1610612741,CHI,1630245,Dosunmu,A. Dosunmu,237,75,25,Missed,1,,,0,h,MISS Dosunmu 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,322
+0022100499,436,PT02M10.00S,3,1610612754,IND,1628470,Craig,T. Craig,0,0,0,,0,,,0,v,Craig REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,323
+0022100499,437,PT01M59.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,Made,1,83,73,156,v,Turner Cutting Layup Shot (13 PTS) (Washington Jr. 1 AST),Made Shot,Cutting Layup Shot,1,2,324
+0022100499,439,PT01M50.00S,3,1610612741,CHI,201942,DeRozan,D. DeRozan,28,8,3,Missed,1,,,0,h,MISS DeRozan 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,325
+0022100499,439,PT01M50.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner BLOCK (2 BLK),,,1,2,326
+0022100499,441,PT01M48.00S,3,1610612754,IND,1630613,Washington Jr.,D. Washington Jr.,0,0,0,,0,,,0,v,Washington Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,327
+0022100499,442,PT01M44.00S,3,1610612754,IND,1627747,LeVert,C. LeVert,-6,3,1,Missed,1,,,0,v,MISS LeVert 1' Running Layup,Missed Shot,Running Layup Shot,1,2,328
+0022100499,442,PT01M44.00S,3,1610612741,CHI,1630245,Dosunmu,A. Dosunmu,0,0,0,,0,,,0,h,Dosunmu BLOCK (1 BLK),,,1,2,329
+0022100499,444,PT01M43.00S,3,1610612754,IND,1629052,Brissett,O. Brissett,0,0,0,,0,,,0,v,Brissett REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,330
+0022100499,445,PT01M42.00S,3,1610612754,IND,1629052,Brissett,O. Brissett,0,0,0,Made,1,83,75,158,v,Brissett Putback Layup (4 PTS),Made Shot,Putback Layup Shot,1,2,331
+0022100499,446,PT01M16.00S,3,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,,,0,v,LeVert S.FOUL (P2.T4) (S.Mehta),Foul,Shooting,1,0,332
+0022100499,448,PT01M16.00S,3,1610612741,CHI,1629632,White,C. White,0,0,0,,0,84,75,159,h,White Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,333
+0022100499,449,PT01M16.00S,3,1610612741,CHI,1629632,White,C. White,0,0,0,,0,85,75,160,h,White Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,334
+0022100499,450,PT01M07.00S,3,1610612754,IND,1630613,Washington Jr.,D. Washington Jr.,0,0,0,,0,,,0,v,Washington Jr. Out of Bounds - Bad Pass Turnover Turnover (P1.T8),Turnover,Out of Bounds - Bad Pass Turnover,1,0,335
+0022100499,451,PT00M51.90S,3,1610612741,CHI,201942,DeRozan,D. DeRozan,77,155,17,Made,1,87,75,162,h,DeRozan 17' Step Back Jump Shot (18 PTS),Made Shot,Step Back Jump shot,1,2,336
+0022100499,452,PT00M44.50S,3,1610612741,CHI,1630245,Dosunmu,A. Dosunmu,0,0,0,,0,,,0,h,Dosunmu P.FOUL (P1.T4) (N.Buchert),Foul,Personal,1,0,337
+0022100499,454,PT00M30.60S,3,1610612754,IND,1626167,Turner,M. Turner,-1,25,3,Made,1,87,77,164,v,Turner 3' Cutting Layup Shot (15 PTS) (Craig 1 AST),Made Shot,Cutting Layup Shot,1,2,338
+0022100499,456,PT00M14.20S,3,1610612741,CHI,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,DeRozan Lost Ball Turnover (P2.T12),Turnover,Lost Ball,1,0,339
+0022100499,456,PT00M14.20S,3,1610612754,IND,1629052,Brissett,O. Brissett,0,0,0,,0,,,0,v,Brissett STEAL (1 STL),,,1,0,340
+0022100499,458,PT00M14.20S,3,1610612741,CHI,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,DeRozan Personal Take Foul (P3.PN) (S.Mehta),Foul,Personal Take,1,0,341
+0022100499,460,PT00M14.20S,3,1610612754,IND,1629052,Brissett,O. Brissett,0,0,0,,0,87,78,165,v,Brissett Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,342
+0022100499,461,PT00M14.20S,3,1610612754,IND,1629052,Brissett,O. Brissett,0,0,0,,0,87,79,166,v,Brissett Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,343
+0022100499,462,PT00M00.00S,3,0,,0,,,0,0,0,,0,87,79,166,,End of 3rd Period (9:45 PM EST),period,end,1,0,344
+0022100499,467,PT12M00.00S,4,0,,0,,,0,0,0,,0,87,79,166,,Start of 4th Period (9:48 PM EST),period,start,0,0,345
+0022100499,468,PT11M44.00S,4,1610612741,CHI,201942,DeRozan,D. DeRozan,-74,159,18,Missed,1,,,0,h,MISS DeRozan 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,346
+0022100499,469,PT11M43.00S,4,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Rebound,Rebound,Unknown,0,0,347
+0022100499,470,PT11M43.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner L.B.FOUL (P2.T1) (T.Maddox),Foul,Loose Ball,1,0,348
+0022100499,472,PT11M35.00S,4,1610612741,CHI,1629076,Cook,T. Cook,1,4,0,Made,1,89,79,168,h,Cook Cutting Dunk Shot (4 PTS) (Brown Jr. 2 AST),Made Shot,Cutting Dunk Shot,1,2,349
+0022100499,474,PT11M15.00S,4,1610612754,IND,1626167,Turner,M. Turner,1,13,1,Missed,1,,,0,v,MISS Turner 1' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,350
+0022100499,475,PT11M13.00S,4,1610612741,CHI,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,DeRozan REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,351
+0022100499,476,PT11M07.00S,4,1610612741,CHI,1628972,Brown Jr.,T. Brown Jr.,0,41,4,Missed,1,,,0,h,MISS Brown Jr. 4' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,352
+0022100499,477,PT11M05.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,353
+0022100499,478,PT10M58.00S,4,1610612754,IND,1630613,Washington Jr.,D. Washington Jr.,1,9,1,Missed,1,,,0,v,MISS Washington Jr. 1' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,354
+0022100499,479,PT10M56.00S,4,1610612754,IND,1629052,Brissett,O. Brissett,0,0,0,,0,,,0,v,Brissett REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,355
+0022100499,488,PT10M55.00S,4,1610612754,IND,1629052,Brissett,O. Brissett,4,-1,0,Missed,1,,,0,v,MISS Brissett Tip Dunk Shot,Missed Shot,Tip Dunk Shot,1,2,356
+0022100499,488,PT10M55.00S,4,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,h,White BLOCK (1 BLK),,,1,2,357
+0022100499,489,PT10M55.00S,4,1610612741,CHI,1629076,Cook,T. Cook,0,0,0,,0,,,0,h,Cook REBOUND (Off:0 Def:4),Rebound,Unknown,0,0,358
+0022100499,480,PT10M47.00S,4,1610612754,IND,1629052,Brissett,O. Brissett,0,0,0,,0,,,0,v,Brissett S.FOUL (P1.T2) (T.Maddox),Foul,Shooting,1,0,359
+0022100499,482,PT10M47.00S,4,1610612741,CHI,201942,DeRozan,D. DeRozan,0,0,0,,0,90,79,169,h,DeRozan Free Throw 1 of 2 (19 PTS),Free Throw,Free Throw 1 of 2,1,0,360
+0022100499,483,PT10M47.00S,4,1610612741,CHI,201942,DeRozan,D. DeRozan,0,0,0,,0,91,79,170,h,DeRozan Free Throw 2 of 2 (20 PTS),Free Throw,Free Throw 2 of 2,1,0,361
+0022100499,484,PT10M29.00S,4,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,h,White S.FOUL (P3.T1) (S.Mehta),Foul,Shooting,1,0,362
+0022100499,486,PT10M29.00S,4,1610612754,IND,202954,Wanamaker,B. Wanamaker,0,0,0,,0,91,80,171,v,Wanamaker Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,363
+0022100499,487,PT10M29.00S,4,1610612754,IND,202954,Wanamaker,B. Wanamaker,0,0,0,,0,91,81,172,v,Wanamaker Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,364
+0022100499,490,PT10M10.00S,4,1610612741,CHI,201942,DeRozan,D. DeRozan,-10,195,20,Missed,1,,,0,h,MISS DeRozan 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,365
+0022100499,491,PT10M07.00S,4,1610612754,IND,1630613,Washington Jr.,D. Washington Jr.,0,0,0,,0,,,0,v,Washington Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,366
+0022100499,492,PT09M54.00S,4,1610612754,IND,1628470,Craig,T. Craig,189,171,25,Missed,1,,,0,v,MISS Craig 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,367
+0022100499,493,PT09M52.00S,4,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Rebound,Rebound,Unknown,0,0,368
+0022100499,494,PT09M52.00S,4,1610612754,IND,1628470,Craig,T. Craig,0,0,0,,0,,,0,v,Craig L.B.FOUL (P2.T3) (T.Maddox),Foul,Loose Ball,1,0,369
+0022100499,496,PT09M29.00S,4,1610612741,CHI,201942,DeRozan,D. DeRozan,-6,95,10,Made,1,93,81,174,h,DeRozan 10' Step Back Jump Shot (22 PTS),Made Shot,Step Back Jump shot,1,2,370
+0022100499,497,PT09M17.00S,4,1610612754,IND,1629052,Brissett,O. Brissett,-119,211,24,Missed,1,,,0,v,MISS Brissett 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,371
+0022100499,498,PT09M14.00S,4,1610612741,CHI,1629076,Cook,T. Cook,0,0,0,,0,,,0,h,Cook REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,372
+0022100499,499,PT09M07.00S,4,1610612741,CHI,201942,DeRozan,D. DeRozan,45,201,21,Made,1,95,81,176,h,DeRozan 21' Pullup Jump Shot (24 PTS),Made Shot,Pullup Jump shot,1,2,373
+0022100499,500,PT09M06.00S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,374
+0022100499,501,PT09M06.00S,4,1610612754,IND,1629052,Brissett,O. Brissett,0,0,0,,0,,,0,v,SUB: LeVert FOR Brissett,Substitution,,0,0,375
+0022100499,502,PT09M06.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,SUB: Sabonis FOR Turner,Substitution,,0,0,376
+0022100499,503,PT09M06.00S,4,1610612754,IND,202954,Wanamaker,B. Wanamaker,0,0,0,,0,,,0,v,SUB: Duarte FOR Wanamaker,Substitution,,0,0,377
+0022100499,507,PT08M42.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,-58,0,6,Missed,1,,,0,v,MISS Sabonis 6' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,378
+0022100499,508,PT08M40.00S,4,1610612741,CHI,1629744,Thomas,M. Thomas,0,0,0,,0,,,0,h,Thomas REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,379
+0022100499,509,PT08M22.00S,4,1610612741,CHI,201942,DeRozan,D. DeRozan,-71,15,7,Missed,1,,,0,h,MISS DeRozan 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,380
+0022100499,510,PT08M20.00S,4,1610612754,IND,1630537,Duarte,C. Duarte,0,0,0,,0,,,0,v,Duarte REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,381
+0022100499,511,PT08M18.00S,4,1610612754,IND,1628470,Craig,T. Craig,11,1,1,Made,1,95,83,178,v,Craig 1' Running Layup (7 PTS) (Duarte 1 AST),Made Shot,Running Layup Shot,1,2,382
+0022100499,513,PT08M06.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis P.FOUL (P1.T4) (N.Buchert),Foul,Personal,1,0,383
+0022100499,515,PT08M06.00S,4,1610612741,CHI,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,h,SUB: Vucevic FOR Brown Jr.,Substitution,,0,0,384
+0022100499,516,PT08M06.00S,4,1610612741,CHI,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,SUB: LaVine FOR DeRozan,Substitution,,0,0,385
+0022100499,517,PT08M06.00S,4,1610612741,CHI,1629076,Cook,T. Cook,0,0,0,,0,,,0,h,SUB: Green FOR Cook,Substitution,,0,0,386
+0022100499,522,PT08M02.00S,4,1610612741,CHI,1629632,White,C. White,16,-1,2,Missed,1,,,0,h,MISS White 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,387
+0022100499,523,PT08M01.00S,4,1610612754,IND,1628470,Craig,T. Craig,0,0,0,,0,,,0,v,Craig REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,388
+0022100499,524,PT07M49.00S,4,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,h,White P.FOUL (P4.T2) (N.Buchert),Foul,Personal,1,0,389
+0022100499,526,PT07M49.00S,4,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,h,SUB: Dosunmu FOR White,Substitution,,0,0,390
+0022100499,529,PT07M35.00S,4,1610612754,IND,1627747,LeVert,C. LeVert,-161,195,25,Missed,1,,,0,v,MISS LeVert 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,391
+0022100499,530,PT07M31.00S,4,1610612754,IND,1630537,Duarte,C. Duarte,0,0,0,,0,,,0,v,Duarte REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,392
+0022100499,531,PT07M28.00S,4,1610612754,IND,1630537,Duarte,C. Duarte,6,16,2,Missed,1,,,0,v,MISS Duarte 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,393
+0022100499,532,PT07M26.00S,4,1610612741,CHI,1630245,Dosunmu,A. Dosunmu,0,0,0,,0,,,0,h,Dosunmu REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,394
+0022100499,535,PT07M12.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,-143,48,15,Made,1,97,83,180,h,LaVine 15' Turnaround Fadeaway (22 PTS),Made Shot,Turnaround Fadeaway shot,1,2,395
+0022100499,536,PT07M02.00S,4,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic S.FOUL (P2.T3) (T.Maddox),Foul,Shooting,1,0,396
+0022100499,538,PT07M02.00S,4,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,97,84,181,v,LeVert Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,1,0,397
+0022100499,539,PT07M02.00S,4,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,97,85,182,v,LeVert Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,398
+0022100499,540,PT06M51.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,-156,212,26,Made,1,100,85,185,h,LaVine 26' 3PT Pullup Jump Shot (25 PTS),Made Shot,Pullup Jump shot,1,3,399
+0022100499,541,PT06M35.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine P.FOUL (P3.T4) (T.Maddox),Foul,Personal,1,0,400
+0022100499,543,PT06M35.00S,4,1610612754,IND,1628470,Craig,T. Craig,0,0,0,,0,,,0,v,SUB: Turner FOR Craig,Substitution,,0,0,401
+0022100499,545,PT06M35.00S,4,1610612754,IND,1630613,Washington Jr.,D. Washington Jr.,0,0,0,,0,,,0,v,SUB: Holiday FOR Washington Jr.,Substitution,,0,0,402
+0022100499,548,PT06M26.00S,4,1610612754,IND,1627747,LeVert,C. LeVert,-67,-2,7,Made,1,100,87,187,v,LeVert 7' Turnaround Jump Shot (15 PTS),Made Shot,Turnaround Jump Shot,1,2,403
+0022100499,549,PT06M08.00S,4,1610612741,CHI,1629750,Green,J. Green,10,-1,1,Made,1,102,87,189,h,Green 1' Reverse Layup (9 PTS) (Vucevic 2 AST),Made Shot,Reverse Layup Shot,1,2,404
+0022100499,551,PT05M53.00S,4,1610612754,IND,1626167,Turner,M. Turner,-18,72,7,Made,1,102,89,191,v,Turner 7' Turnaround Jump Shot (17 PTS),Made Shot,Turnaround Jump Shot,1,2,405
+0022100499,552,PT05M38.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,-4,106,11,Made,1,104,89,193,h,LaVine 11' Fadeaway Jumper (27 PTS),Made Shot,Fadeaway Jump Shot,1,2,406
+0022100499,553,PT05M29.00S,4,1610612754,IND,1627747,LeVert,C. LeVert,-173,187,25,Made,1,104,92,196,v,LeVert 25' 3PT Step Back Jump Shot (18 PTS),Made Shot,Step Back Jump shot,1,3,407
+0022100499,554,PT05M08.00S,4,1610612741,CHI,1629750,Green,J. Green,5,7,1,Made,1,106,92,198,h,Green 1' Cutting Dunk Shot (11 PTS) (Vucevic 3 AST),Made Shot,Cutting Dunk Shot,1,2,408
+0022100499,556,PT05M07.00S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,409
+0022100499,557,PT05M07.00S,4,1610612741,CHI,1629744,Thomas,M. Thomas,0,0,0,,0,,,0,h,SUB: DeRozan FOR Thomas,Substitution,,0,0,410
+0022100499,559,PT04M44.00S,4,1610612754,IND,1626167,Turner,M. Turner,31,10,3,Made,1,106,94,200,v,Turner 3' Layup (19 PTS),Made Shot,Layup Shot,1,2,411
+0022100499,560,PT04M19.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner S.FOUL (P3.PN) (T.Maddox),Foul,Shooting,1,0,412
+0022100499,562,PT04M19.00S,4,1610612741,CHI,1629750,Green,J. Green,0,0,0,,0,107,94,201,h,Green Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,1,0,413
+0022100499,563,PT04M19.00S,4,1610612741,CHI,1629750,Green,J. Green,0,0,0,,0,108,94,202,h,Green Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,414
+0022100499,564,PT04M10.00S,4,1610612754,IND,1627747,LeVert,C. LeVert,7,8,1,Made,1,108,96,204,v,LeVert 1' Driving Layup (20 PTS),Made Shot,Driving Layup Shot,1,2,415
+0022100499,565,PT04M10.00S,4,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic S.FOUL (P3.PN) (T.Maddox),Foul,Shooting,1,0,416
+0022100499,567,PT04M10.00S,4,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,108,97,205,v,LeVert Free Throw 1 of 1 (21 PTS),Free Throw,Free Throw 1 of 1,0,0,417
+0022100499,568,PT03M54.00S,4,1610612741,CHI,1629750,Green,J. Green,0,0,0,,0,,,0,h,Green Out of Bounds Lost Ball Turnover (P1.T13),Turnover,Out of Bounds Lost Ball Turnover,1,0,418
+0022100499,569,PT03M41.00S,4,1610612754,IND,203200,Holiday,J. Holiday,43,260,26,Missed,1,,,0,v,MISS Holiday 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,419
+0022100499,570,PT03M39.00S,4,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic REBOUND (Off:1 Def:11),Rebound,Unknown,1,0,420
+0022100499,571,PT03M28.00S,4,1610612741,CHI,201942,DeRozan,D. DeRozan,-69,12,7,Missed,1,,,0,h,MISS DeRozan 7' Hook Bank Shot,Missed Shot,Hook Bank Shot,1,2,421
+0022100499,572,PT03M27.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,422
+0022100499,573,PT03M22.00S,4,1610612754,IND,1627747,LeVert,C. LeVert,-124,229,26,Made,1,108,100,208,v,LeVert 26' 3PT Running Pull-Up Jump Shot (24 PTS) (Turner 2 AST),Made Shot,Running Pull-Up Jump Shot,1,3,423
+0022100499,575,PT03M19.00S,4,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,424
+0022100499,578,PT03M19.00S,4,1610612741,CHI,1629750,Green,J. Green,0,0,0,,0,,,0,h,SUB: White FOR Green,Substitution,,0,0,425
+0022100499,580,PT03M01.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,-100,179,21,Made,1,110,100,210,h,LaVine 21' Pullup Jump Shot (29 PTS),Made Shot,Pullup Jump shot,1,2,426
+0022100499,581,PT02M49.00S,4,1610612754,IND,1627747,LeVert,C. LeVert,127,206,24,Missed,1,,,0,v,MISS LeVert 24' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,427
+0022100499,582,PT02M46.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,428
+0022100499,583,PT02M45.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,Missed,1,,,0,v,MISS Turner Putback Layup,Missed Shot,Putback Layup Shot,1,2,429
+0022100499,583,PT02M45.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine BLOCK (1 BLK),,,1,2,430
+0022100499,585,PT02M44.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,431
+0022100499,586,PT02M32.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,7,1,1,Made,1,112,100,212,h,LaVine 1' Driving Finger Roll Layup (31 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,432
+0022100499,587,PT02M32.00S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.7 Short 0),Timeout,Regular,0,0,433
+0022100499,588,PT02M11.00S,4,1610612754,IND,1630537,Duarte,C. Duarte,230,25,0,Missed,1,,,0,v,MISS Duarte 3PT Jump Shot,Missed Shot,Jump Shot,1,3,434
+0022100499,589,PT02M11.00S,4,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic REBOUND (Off:1 Def:12),Rebound,Unknown,1,0,435
+0022100499,590,PT02M01.00S,4,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic OFF.Foul (P4) (N.Buchert),Foul,Offensive,1,0,436
+0022100499,592,PT02M01.00S,4,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic Offensive Foul Turnover (P3.T14),Turnover,Offensive Foul Turnover,1,0,437
+0022100499,593,PT02M01.00S,4,1610612754,IND,1630537,Duarte,C. Duarte,0,0,0,,0,,,0,v,SUB: Washington Jr. FOR Duarte,Substitution,,0,0,438
+0022100499,595,PT01M51.00S,4,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,,,0,v,LeVert Lost Ball Turnover (P1.T9),Turnover,Lost Ball,1,0,439
+0022100499,595,PT01M51.00S,4,1610612741,CHI,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,DeRozan STEAL (2 STL),,,1,0,440
+0022100499,597,PT01M48.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner S.FOUL (P4.PN) (S.Mehta),Foul,Shooting,1,0,441
+0022100499,599,PT01M48.00S,4,1610612741,CHI,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,MISS DeRozan Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,442
+0022100499,600,PT01M48.00S,4,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Rebound,Rebound,Normal Rebound,0,0,443
+0022100499,601,PT01M48.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,SUB: Jackson FOR Turner,Substitution,,0,0,444
+0022100499,603,PT01M48.00S,4,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,SUB: Craig FOR Holiday,Substitution,,0,0,445
+0022100499,605,PT01M48.00S,4,1610612741,CHI,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,h,MISS DeRozan Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,446
+0022100499,606,PT01M45.00S,4,1610612754,IND,1628470,Craig,T. Craig,0,0,0,,0,,,0,v,Craig REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,447
+0022100499,607,PT01M37.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,-12,8,1,Made,1,112,102,214,v,Sabonis 1' Cutting Layup Shot (14 PTS) (Washington Jr. 2 AST),Made Shot,Cutting Layup Shot,1,2,448
+0022100499,609,PT01M18.00S,4,1610612741,CHI,201942,DeRozan,D. DeRozan,-7,12,1,Missed,1,,,0,h,MISS DeRozan 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,449
+0022100499,609,PT01M18.00S,4,1610612754,IND,1630543,Jackson,I. Jackson,0,0,0,,0,,,0,v,Jackson BLOCK (1 BLK),,,1,2,450
+0022100499,611,PT01M12.00S,4,1610612754,IND,1628470,Craig,T. Craig,0,0,0,,0,,,0,v,Craig REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,451
+0022100499,612,PT01M08.00S,4,1610612754,IND,1628470,Craig,T. Craig,-51,8,5,Missed,1,,,0,v,MISS Craig 5' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,452
+0022100499,613,PT01M07.00S,4,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic REBOUND (Off:1 Def:13),Rebound,Unknown,1,0,453
+0022100499,614,PT00M47.60S,4,1610612741,CHI,203897,LaVine,Z. LaVine,-48,265,27,Missed,1,,,0,h,MISS LaVine 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,454
+0022100499,615,PT00M45.30S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:8 Def:8),Rebound,Unknown,1,0,455
+0022100499,616,PT00M39.80S,4,1610612754,IND,1627747,LeVert,C. LeVert,-154,209,26,Made,1,112,105,217,v,LeVert 26' 3PT Step Back Jump Shot (27 PTS),Made Shot,Step Back Jump shot,1,3,456
+0022100499,617,PT00M22.80S,4,1610612741,CHI,1629632,White,C. White,0,0,0,,0,,,0,h,White Out of Bounds Lost Ball Turnover (P2.T15),Turnover,Out of Bounds Lost Ball Turnover,1,0,457
+0022100499,618,PT00M17.10S,4,1610612754,IND,1627747,LeVert,C. LeVert,-39,255,26,Missed,1,,,0,v,MISS LeVert 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,458
+0022100499,619,PT00M13.20S,4,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic REBOUND (Off:1 Def:14),Rebound,Unknown,1,0,459
+0022100499,620,PT00M10.00S,4,1610612741,CHI,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Jump Ball Vucevic vs. Craig: Tip to LaVine,Jump Ball,,1,0,460
+0022100499,623,PT00M09.90S,4,1610612754,IND,1627747,LeVert,C. LeVert,0,0,0,,0,,,0,v,LeVert Personal Take Foul (P3.PN) (N.Buchert),Foul,Personal Take,1,0,461
+0022100499,625,PT00M09.90S,4,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,MISS LaVine Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,462
+0022100499,626,PT00M09.90S,4,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Rebound,Rebound,Normal Rebound,0,0,463
+0022100499,627,PT00M09.90S,4,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,113,105,218,h,LaVine Free Throw 2 of 2 (32 PTS),Free Throw,Free Throw 2 of 2,1,0,464
+0022100499,628,PT00M05.50S,4,1610612754,IND,1630613,Washington Jr.,D. Washington Jr.,191,209,28,Missed,1,,,0,v,MISS Washington Jr. 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,465
+0022100499,629,PT00M03.40S,4,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Rebound,Rebound,Unknown,0,0,466
+0022100499,631,PT00M00.00S,4,0,,0,,,0,0,0,,0,113,105,218,,End of 4th Period (10:20 PM EST),period,end,1,0,467

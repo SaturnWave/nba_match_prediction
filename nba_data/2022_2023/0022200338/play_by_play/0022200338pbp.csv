@@ -1,0 +1,534 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022200338,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (4:11 PM EST),period,start,0,0,1
+0022200338,4,PT12M00.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Jump Ball Zubac vs. Sabonis: Tip to Barnes,Jump Ball,,1,0,2
+0022200338,7,PT11M43.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,3
+0022200338,7,PT11M43.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac STEAL (1 STL),,,1,0,4
+0022200338,9,PT11M38.00S,1,1610612746,LAC,1629611,Mann,T. Mann,-6,19,2,Made,1,2,0,2,h,Mann 2' Running Layup (2 PTS),Made Shot,Running Layup Shot,1,2,5
+0022200338,10,PT11M27.00S,1,1610612746,LAC,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,h,Morris Sr. S.FOUL (P1.T1) (R.Acosta),Foul,Shooting,1,0,6
+0022200338,12,PT11M27.00S,1,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,MISS Barnes Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,7
+0022200338,13,PT11M27.00S,1,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Normal Rebound,1,0,8
+0022200338,14,PT11M27.00S,1,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,2,1,3,v,Barnes Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,9
+0022200338,15,PT11M11.00S,1,1610612746,LAC,202704,Jackson,R. Jackson,-32,261,26,Missed,1,,,0,h,MISS Jackson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,10
+0022200338,16,PT11M08.00S,1,1610612746,LAC,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,h,Morris Sr. REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,11
+0022200338,17,PT11M06.00S,1,1610612746,LAC,202694,Morris Sr.,M. Morris Sr.,39,103,11,Missed,1,,,0,h,MISS Morris Sr. 11' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,12
+0022200338,18,PT11M05.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,13
+0022200338,19,PT11M05.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac Traveling Turnover (P1.T1),Turnover,Traveling,1,0,14
+0022200338,20,PT10M45.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,-22,38,4,Made,1,2,3,5,v,Sabonis 4' Layup (2 PTS),Made Shot,Layup Shot,1,2,15
+0022200338,21,PT10M25.00S,1,1610612746,LAC,1629611,Mann,T. Mann,-18,11,2,Made,1,4,3,7,h,Mann 2' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,16
+0022200338,22,PT10M13.00S,1,1610612746,LAC,1629611,Mann,T. Mann,0,0,0,,0,,,0,h,Mann S.FOUL (P1.T2) (R.Acosta),Foul,Shooting,1,0,17
+0022200338,24,PT10M13.00S,1,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,4,4,8,v,Fox Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,18
+0022200338,25,PT10M13.00S,1,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,MISS Fox Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,19
+0022200338,26,PT10M11.00S,1,1610612746,LAC,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,h,Morris Sr. REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,20
+0022200338,27,PT10M04.00S,1,1610612746,LAC,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,Jackson Out of Bounds - Bad Pass Turnover Turnover (P1.T2),Turnover,Out of Bounds - Bad Pass Turnover,1,0,21
+0022200338,28,PT09M50.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,-1,26,3,Made,1,4,6,10,v,Sabonis 3' Driving Hook Shot (4 PTS) (Barnes 1 AST),Made Shot,Driving Hook Shot,1,2,22
+0022200338,30,PT09M37.00S,1,1610612746,LAC,202704,Jackson,R. Jackson,2,122,12,Missed,1,,,0,h,MISS Jackson 12' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,23
+0022200338,31,PT09M35.00S,1,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,0,0,24
+0022200338,33,PT09M29.00S,1,1610612746,LAC,202694,Morris Sr.,M. Morris Sr.,-124,30,13,Missed,1,,,0,h,MISS Morris Sr. 13' Jump Shot,Missed Shot,Jump Shot,1,2,25
+0022200338,34,PT09M26.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,26
+0022200338,35,PT09M22.00S,1,1610612746,LAC,1629611,Mann,T. Mann,29,43,5,Missed,1,,,0,h,MISS Mann 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,27
+0022200338,35,PT09M22.00S,1,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox BLOCK (1 BLK),,,1,2,28
+0022200338,37,PT09M22.00S,1,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,1,0,29
+0022200338,39,PT09M21.00S,1,1610612746,LAC,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,Jackson Traveling Turnover (P2.T3),Turnover,Traveling,1,0,30
+0022200338,40,PT09M02.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,-161,221,27,Made,1,4,9,13,v,Sabonis 27' 3PT Jump Shot (7 PTS) (Murray 1 AST),Made Shot,Jump Shot,1,3,31
+0022200338,42,PT08M50.00S,1,1610612746,LAC,202704,Jackson,R. Jackson,61,119,13,Missed,1,,,0,h,MISS Jackson 13' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,32
+0022200338,43,PT08M47.00S,1,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,33
+0022200338,44,PT08M43.00S,1,1610612758,SAC,1631099,Murray,K. Murray,-184,223,29,Missed,1,,,0,v,MISS Murray 29' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,34
+0022200338,45,PT08M40.00S,1,1610612746,LAC,1629599,Coffey,A. Coffey,0,0,0,,0,,,0,h,Coffey REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,35
+0022200338,46,PT08M34.00S,1,1610612746,LAC,1629599,Coffey,A. Coffey,-15,15,2,Missed,1,,,0,h,MISS Coffey 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,36
+0022200338,47,PT08M34.00S,1,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,37
+0022200338,48,PT08M19.00S,1,1610612758,SAC,1628989,Huerter,K. Huerter,-74,56,9,Made,1,4,11,15,v,Huerter 9' Jump Shot (2 PTS) (Sabonis 1 AST),Made Shot,Jump Shot,1,2,38
+0022200338,50,PT08M19.00S,1,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,39
+0022200338,52,PT07M58.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,26,82,9,Made,1,6,11,17,h,Zubac 9' Hook Shot (2 PTS),Made Shot,Hook Shot,1,2,40
+0022200338,53,PT07M41.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,-17,260,26,Made,1,6,14,20,v,Sabonis 26' 3PT Jump Shot (10 PTS) (Huerter 1 AST),Made Shot,Jump Shot,1,3,41
+0022200338,55,PT07M25.00S,1,1610612746,LAC,202694,Morris Sr.,M. Morris Sr.,8,107,11,Missed,1,,,0,h,MISS Morris Sr. 11' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,42
+0022200338,56,PT07M22.00S,1,1610612746,LAC,1629611,Mann,T. Mann,0,0,0,,0,,,0,h,Mann REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,43
+0022200338,57,PT07M20.00S,1,1610612746,LAC,1629611,Mann,T. Mann,-1,8,1,Made,1,8,14,22,h,Mann 1' Putback Layup (6 PTS),Made Shot,Putback Layup Shot,1,2,44
+0022200338,58,PT07M07.00S,1,1610612758,SAC,1628989,Huerter,K. Huerter,22,39,4,Missed,1,,,0,v,MISS Huerter 4' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,45
+0022200338,59,PT07M05.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,46
+0022200338,60,PT06M46.00S,1,1610612746,LAC,202704,Jackson,R. Jackson,-26,27,4,Missed,1,,,0,h,MISS Jackson 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,47
+0022200338,61,PT06M39.00S,1,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,Murray REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,48
+0022200338,62,PT06M34.00S,1,1610612758,SAC,1628368,Fox,D. Fox,-21,137,14,Missed,1,,,0,v,MISS Fox 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,49
+0022200338,63,PT06M31.00S,1,1610612746,LAC,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,h,Morris Sr. REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,50
+0022200338,64,PT06M27.00S,1,1610612746,LAC,1629611,Mann,T. Mann,-15,32,4,Missed,1,,,0,h,MISS Mann 4' Running Layup,Missed Shot,Running Layup Shot,1,2,51
+0022200338,65,PT06M25.00S,1,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,Murray REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,52
+0022200338,66,PT06M19.00S,1,1610612758,SAC,1628989,Huerter,K. Huerter,-243,27,24,Missed,1,,,0,v,MISS Huerter 24' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,53
+0022200338,67,PT06M16.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,54
+0022200338,68,PT06M11.00S,1,1610612746,LAC,1629611,Mann,T. Mann,203,177,27,Missed,1,,,0,h,MISS Mann 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,55
+0022200338,69,PT06M07.00S,1,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,56
+0022200338,70,PT05M53.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,-152,126,20,Made,1,8,16,24,v,Sabonis 20' Pullup Jump Shot (12 PTS),Made Shot,Pullup Jump shot,1,2,57
+0022200338,71,PT05M39.00S,1,1610612746,LAC,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,h,Morris Sr. Traveling Turnover (P1.T4),Turnover,Traveling,1,0,58
+0022200338,72,PT05M39.00S,1,1610612746,LAC,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,SUB: Wall FOR Jackson,Substitution,,0,0,59
+0022200338,74,PT05M39.00S,1,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Violation: Delay of game Violation,Violation,Delay Of Game,0,0,60
+0022200338,75,PT05M25.00S,1,1610612758,SAC,1631099,Murray,K. Murray,-114,176,21,Made,1,8,18,26,v,Murray 21' Jump Shot (2 PTS) (Sabonis 2 AST),Made Shot,Jump Shot,1,2,61
+0022200338,77,PT05M11.00S,1,1610612746,LAC,202322,Wall,J. Wall,0,0,0,,0,,,0,h,Wall Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,62
+0022200338,77,PT05M11.00S,1,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,Murray STEAL (1 STL),,,1,0,63
+0022200338,78,PT05M06.00S,1,1610612758,SAC,1631099,Murray,K. Murray,-11,25,3,Made,1,8,20,28,v,Murray 3' Running Dunk (4 PTS) (Huerter 2 AST),Made Shot,Running Dunk Shot,1,2,64
+0022200338,81,PT05M06.00S,1,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,65
+0022200338,82,PT05M06.00S,1,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,SUB: Mitchell FOR Fox,Substitution,,0,0,66
+0022200338,83,PT05M06.00S,1,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,SUB: Okpala FOR Murray,Substitution,,0,0,67
+0022200338,86,PT04M49.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,-21,9,2,Made,1,10,20,30,h,Zubac 2' Layup (4 PTS),Made Shot,Layup Shot,1,2,68
+0022200338,88,PT04M34.00S,1,1610612758,SAC,203084,Barnes,H. Barnes,10,26,3,Made,1,10,22,32,v,Barnes 3' Layup (3 PTS) (Sabonis 3 AST),Made Shot,Layup Shot,1,2,69
+0022200338,90,PT04M18.00S,1,1610612746,LAC,202694,Morris Sr.,M. Morris Sr.,-237,-7,24,Missed,1,,,0,h,MISS Morris Sr. 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,70
+0022200338,91,PT04M16.00S,1,1610612746,LAC,1629611,Mann,T. Mann,0,0,0,,0,,,0,h,Mann REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,71
+0022200338,92,PT04M06.00S,1,1610612746,LAC,1629599,Coffey,A. Coffey,180,213,28,Missed,1,,,0,h,MISS Coffey 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,72
+0022200338,93,PT04M01.00S,1,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,73
+0022200338,94,PT03M54.00S,1,1610612758,SAC,1628989,Huerter,K. Huerter,-6,29,3,Made,1,10,24,34,v,Huerter 3' Cutting Finger Roll Layup Shot (4 PTS) (Sabonis 4 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,74
+0022200338,96,PT03M54.00S,1,1610612746,LAC,1629611,Mann,T. Mann,0,0,0,,0,,,0,h,Mann S.FOUL (P2.T3) (C.Washington),Foul,Shooting,1,0,75
+0022200338,98,PT03M54.00S,1,1610612746,LAC,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,h,SUB: Batum FOR Morris Sr.,Substitution,,0,0,76
+0022200338,99,PT03M54.00S,1,1610612746,LAC,1629611,Mann,T. Mann,0,0,0,,0,,,0,h,SUB: Covington FOR Mann,Substitution,,0,0,77
+0022200338,100,PT03M54.00S,1,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,SUB: Monk FOR Barnes,Substitution,,0,0,78
+0022200338,104,PT03M54.00S,1,1610612746,LAC,1629599,Coffey,A. Coffey,0,0,0,,0,,,0,h,SUB: Boston Jr. FOR Coffey,Substitution,,0,0,79
+0022200338,106,PT03M54.00S,1,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,10,25,35,v,Huerter Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,80
+0022200338,162,PT03M45.00S,1,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell P.FOUL (P1.T1) (R.Acosta),Foul,Personal,0,0,81
+0022200338,111,PT03M42.00S,1,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell P.FOUL (P2.T2) (R.Acosta),Foul,Personal,1,0,82
+0022200338,113,PT03M42.00S,1,1610612746,LAC,202322,Wall,J. Wall,0,0,0,,0,11,25,36,h,Wall Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,83
+0022200338,114,PT03M42.00S,1,1610612746,LAC,202322,Wall,J. Wall,0,0,0,,0,12,25,37,h,Wall Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,84
+0022200338,115,PT03M21.00S,1,1610612758,SAC,1630558,Mitchell,D. Mitchell,234,38,24,Missed,1,,,0,v,MISS Mitchell 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,85
+0022200338,116,PT03M18.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,86
+0022200338,117,PT03M13.00S,1,1610612746,LAC,1630527,Boston,B. Boston,-140,116,18,Made,1,14,25,39,h,Boston Jr. 18' Step Back Jump Shot (2 PTS) (Covington 1 AST),Made Shot,Step Back Jump shot,1,2,87
+0022200338,119,PT02M52.00S,1,1610612758,SAC,1628370,Monk,M. Monk,-42,34,5,Missed,1,,,0,v,MISS Monk 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,88
+0022200338,120,PT02M50.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,89
+0022200338,121,PT02M33.00S,1,1610612746,LAC,203496,Covington,R. Covington,-4,36,4,Made,1,16,25,41,h,Covington 4' Floating Jump Shot (2 PTS),Made Shot,Floating Jump shot,1,2,90
+0022200338,122,PT02M12.00S,1,1610612758,SAC,1628370,Monk,M. Monk,110,155,19,Made,1,16,27,43,v,Monk 19' Pullup Jump Shot (2 PTS) (Sabonis 5 AST),Made Shot,Pullup Jump shot,1,2,91
+0022200338,124,PT02M01.00S,1,1610612746,LAC,202322,Wall,J. Wall,-26,55,6,Missed,1,,,0,h,MISS Wall 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,92
+0022200338,124,PT02M01.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis BLOCK (1 BLK),,,1,2,93
+0022200338,126,PT01M59.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,94
+0022200338,127,PT01M58.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,Made,1,18,27,45,h,Zubac Putback Dunk (6 PTS),Made Shot,Putback Dunk Shot,1,2,95
+0022200338,128,PT01M40.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,4,23,2,Made,1,18,29,47,v,Sabonis 2' Layup (14 PTS),Made Shot,Layup Shot,1,2,96
+0022200338,129,PT01M40.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac S.FOUL (P1.T4) (C.Washington),Foul,Shooting,1,0,97
+0022200338,131,PT01M40.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,SUB: Diabate FOR Zubac,Substitution,,0,0,98
+0022200338,132,PT01M40.00S,1,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,SUB: Davis FOR Huerter,Substitution,,0,0,99
+0022200338,135,PT01M40.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,18,30,48,v,Sabonis Free Throw 1 of 1 (15 PTS),Free Throw,Free Throw 1 of 1,1,0,100
+0022200338,136,PT01M30.00S,1,1610612746,LAC,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,h,Diabate OFF.Foul (P1) (B.Kennedy),Foul,Offensive,1,0,101
+0022200338,138,PT01M30.00S,1,1610612746,LAC,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,h,Diabate Offensive Foul Turnover (P1.T6),Turnover,Offensive Foul Turnover,1,0,102
+0022200338,139,PT01M30.00S,1,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: Metu FOR Sabonis,Substitution,,0,0,103
+0022200338,141,PT01M22.00S,1,1610612758,SAC,1629056,Davis,T. Davis,18,16,2,Missed,1,,,0,v,MISS Davis 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,104
+0022200338,142,PT01M20.00S,1,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,105
+0022200338,143,PT01M18.00S,1,1610612758,SAC,1628370,Monk,M. Monk,-219,121,25,Made,1,18,33,51,v,Monk 25' 3PT Jump Shot (5 PTS) (Mitchell 1 AST),Made Shot,Jump Shot,1,3,106
+0022200338,145,PT01M00.00S,1,1610612746,LAC,202322,Wall,J. Wall,135,247,28,Made,1,21,33,54,h,Wall 28' 3PT Jump Shot (5 PTS) (Covington 2 AST),Made Shot,Jump Shot,1,3,107
+0022200338,147,PT00M50.60S,1,1610612758,SAC,1628370,Monk,M. Monk,-178,226,29,Made,1,21,36,57,v,Monk 29' 3PT Jump Shot (8 PTS) (Mitchell 2 AST),Made Shot,Jump Shot,1,3,108
+0022200338,149,PT00M37.60S,1,1610612746,LAC,203496,Covington,R. Covington,12,46,5,Missed,1,,,0,h,MISS Covington 5' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,109
+0022200338,150,PT00M37.60S,1,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,Davis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,110
+0022200338,152,PT00M30.80S,1,1610612758,SAC,1629002,Metu,C. Metu,-7,36,4,Made,1,21,38,59,v,Metu 4' Running Alley Oop Dunk Shot (2 PTS) (Davis 1 AST),Made Shot,Running Alley Oop Dunk Shot,1,2,111
+0022200338,154,PT00M19.00S,1,1610612746,LAC,202322,Wall,J. Wall,-17,21,3,Made,1,23,38,61,h,Wall 3' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,112
+0022200338,155,PT00M19.00S,1,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu S.FOUL (P1.T3) (C.Washington),Foul,Shooting,1,0,113
+0022200338,246,PT00M19.00S,1,0,,143,Dehere,T. Dehere,0,0,0,,0,23,38,61,,Instant Replay1st Period (4:35 PM EST),Instant Replay,Replay Center,0,0,114
+0022200338,157,PT00M19.00S,1,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,SUB: Huerter FOR Mitchell,Substitution,,0,0,115
+0022200338,158,PT00M19.00S,1,1610612758,SAC,1629644,Okpala,K. Okpala,0,0,0,,0,,,0,v,SUB: Fox FOR Okpala,Substitution,,0,0,116
+0022200338,161,PT00M19.00S,1,1610612746,LAC,202322,Wall,J. Wall,0,0,0,,0,24,38,62,h,Wall Free Throw 1 of 1 (8 PTS),Free Throw,Free Throw 1 of 1,1,0,117
+0022200338,165,PT00M03.30S,1,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox Out of Bounds - Bad Pass Turnover Turnover (P1.T2),Turnover,Out of Bounds - Bad Pass Turnover,1,0,118
+0022200338,166,PT00M03.30S,1,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,SUB: Mitchell FOR Huerter,Substitution,,0,0,119
+0022200338,167,PT00M03.30S,1,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,SUB: Okpala FOR Fox,Substitution,,0,0,120
+0022200338,171,PT00M00.70S,1,1610612746,LAC,201587,Batum,N. Batum,-185,184,26,Missed,1,,,0,h,MISS Batum 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,121
+0022200338,172,PT00M00.10S,1,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,0,0,122
+0022200338,173,PT00M00.00S,1,0,,0,,,0,0,0,,0,24,38,62,,End of 1st Period (4:38 PM EST),period,end,1,0,123
+0022200338,174,PT12M00.00S,2,0,,0,,,0,0,0,,0,24,38,62,,Start of 2nd Period (4:40 PM EST),period,start,0,0,124
+0022200338,175,PT11M46.00S,2,1610612746,LAC,1630527,Boston,B. Boston,0,0,0,,0,,,0,h,Boston Jr. Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,125
+0022200338,175,PT11M46.00S,2,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,Davis STEAL (1 STL),,,1,0,126
+0022200338,177,PT11M43.00S,2,1610612758,SAC,1629056,Davis,T. Davis,10,11,1,Made,1,24,40,64,v,Davis 1' Running Dunk (2 PTS),Made Shot,Running Dunk Shot,1,2,127
+0022200338,178,PT11M29.00S,2,1610612746,LAC,1630527,Boston,B. Boston,-28,45,5,Missed,1,,,0,h,MISS Boston Jr. 5' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,128
+0022200338,179,PT11M26.00S,2,1610612746,LAC,1630527,Boston,B. Boston,0,0,0,,0,,,0,h,Boston Jr. REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,129
+0022200338,180,PT11M24.00S,2,1610612746,LAC,1630527,Boston,B. Boston,0,0,0,Missed,1,,,0,h,MISS Boston Jr. Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,130
+0022200338,181,PT11M24.00S,2,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,131
+0022200338,182,PT11M21.00S,2,1610612758,SAC,1629644,Okpala,K. Okpala,5,44,4,Made,1,24,42,66,v,Okpala 4' Alley Oop Layup (2 PTS) (Davis 2 AST),Made Shot,Alley Oop Layup shot,1,2,132
+0022200338,184,PT11M09.00S,2,1610612746,LAC,1630527,Boston,B. Boston,-34,75,8,Missed,1,,,0,h,MISS Boston Jr. 8' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,133
+0022200338,184,PT11M09.00S,2,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu BLOCK (1 BLK),,,1,2,134
+0022200338,186,PT11M06.00S,2,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,Davis REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,135
+0022200338,187,PT11M01.00S,2,1610612758,SAC,1629002,Metu,C. Metu,-15,23,3,Made,1,24,44,68,v,Metu 3' Layup (4 PTS) (Davis 3 AST),Made Shot,Layup Shot,1,2,136
+0022200338,189,PT11M01.00S,2,1610612746,LAC,202322,Wall,J. Wall,0,0,0,,0,,,0,h,Wall S.FOUL (P1.T1) (R.Acosta),Foul,Shooting,1,0,137
+0022200338,191,PT11M01.00S,2,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,24,45,69,v,Metu Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,0,0,138
+0022200338,192,PT10M40.00S,2,1610612746,LAC,201587,Batum,N. Batum,131,246,28,Missed,1,,,0,h,MISS Batum 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,139
+0022200338,193,PT10M38.00S,2,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,140
+0022200338,194,PT10M34.00S,2,1610612758,SAC,1630558,Mitchell,D. Mitchell,43,265,27,Missed,1,,,0,v,MISS Mitchell 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,141
+0022200338,195,PT10M31.00S,2,1610612746,LAC,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,142
+0022200338,196,PT10M24.00S,2,1610612746,LAC,202322,Wall,J. Wall,-26,-4,3,Missed,1,,,0,h,MISS Wall 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,143
+0022200338,197,PT10M24.00S,2,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,144
+0022200338,198,PT10M19.00S,2,1610612758,SAC,1628370,Monk,M. Monk,-17,44,5,Missed,1,,,0,v,MISS Monk 5' Running Reverse Layup,Missed Shot,Running Reverse Layup Shot,1,2,145
+0022200338,198,PT10M19.00S,2,1610612746,LAC,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington BLOCK (1 BLK),,,1,2,146
+0022200338,200,PT10M19.00S,2,1610612758,SAC,1629644,Okpala,K. Okpala,0,0,0,,0,,,0,v,Okpala REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,147
+0022200338,201,PT10M19.00S,2,1610612758,SAC,1629644,Okpala,K. Okpala,0,0,0,Made,1,24,47,71,v,Okpala Tip Layup Shot (4 PTS),Made Shot,Tip Layup Shot,1,2,148
+0022200338,202,PT10M19.00S,2,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,149
+0022200338,203,PT10M19.00S,2,1610612746,LAC,1630527,Boston,B. Boston,0,0,0,,0,,,0,h,SUB: Jackson FOR Boston Jr.,Substitution,,0,0,150
+0022200338,204,PT10M19.00S,2,1610612746,LAC,202322,Wall,J. Wall,0,0,0,,0,,,0,h,SUB: Mann FOR Wall,Substitution,,0,0,151
+0022200338,207,PT10M00.00S,2,1610612746,LAC,202704,Jackson,R. Jackson,-83,3,8,Missed,1,,,0,h,MISS Jackson 8' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,152
+0022200338,208,PT09M57.00S,2,1610612758,SAC,1629644,Okpala,K. Okpala,0,0,0,,0,,,0,v,Okpala REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,153
+0022200338,209,PT09M56.00S,2,1610612746,LAC,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,Jackson Violation:Kicked Ball (C.Washington),Violation,Kicked Ball,0,0,154
+0022200338,210,PT09M56.00S,2,1610612746,LAC,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,h,SUB: Morris Sr. FOR Diabate,Substitution,,0,0,155
+0022200338,212,PT09M44.00S,2,1610612758,SAC,1629644,Okpala,K. Okpala,-13,139,14,Missed,1,,,0,v,MISS Okpala 14' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,156
+0022200338,213,PT09M40.00S,2,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,Davis REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,157
+0022200338,214,PT09M40.00S,2,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,Missed,1,,,0,v,MISS Davis Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,158
+0022200338,215,PT09M39.00S,2,1610612746,LAC,1629611,Mann,T. Mann,0,0,0,,0,,,0,h,Mann REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,159
+0022200338,216,PT09M22.00S,2,1610612746,LAC,201587,Batum,N. Batum,-17,29,3,Missed,1,,,0,h,MISS Batum 3' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,160
+0022200338,217,PT09M20.00S,2,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,161
+0022200338,218,PT09M16.00S,2,1610612758,SAC,1629056,Davis,T. Davis,138,254,29,Missed,1,,,0,v,MISS Davis 29' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,162
+0022200338,219,PT09M12.00S,2,1610612746,LAC,201587,Batum,N. Batum,0,0,0,,0,,,0,h,Batum REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,163
+0022200338,220,PT09M05.00S,2,1610612746,LAC,203496,Covington,R. Covington,-232,114,26,Missed,1,,,0,h,MISS Covington 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,164
+0022200338,221,PT09M02.00S,2,1610612746,LAC,201587,Batum,N. Batum,0,0,0,,0,,,0,h,Batum REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,165
+0022200338,222,PT08M49.00S,2,1610612746,LAC,1629611,Mann,T. Mann,-21,27,3,Missed,1,,,0,h,MISS Mann 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,166
+0022200338,223,PT08M47.00S,2,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,167
+0022200338,225,PT08M44.00S,2,1610612758,SAC,1628370,Monk,M. Monk,-4,20,2,Missed,1,,,0,v,MISS Monk 2' Running Alley Oop Dunk Shot,Missed Shot,Running Alley Oop Dunk Shot,1,2,168
+0022200338,226,PT08M40.00S,2,1610612746,LAC,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,169
+0022200338,227,PT08M34.00S,2,1610612746,LAC,202694,Morris Sr.,M. Morris Sr.,-169,197,26,Missed,1,,,0,h,MISS Morris Sr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,170
+0022200338,228,PT08M31.00S,2,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,171
+0022200338,229,PT08M22.00S,2,1610612758,SAC,1628370,Monk,M. Monk,-6,52,5,Made,1,24,49,73,v,Monk 5' Driving Floating Jump Shot (10 PTS) (Mitchell 3 AST),Made Shot,Driving Floating Jump Shot,1,2,172
+0022200338,231,PT07M56.00S,2,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk S.FOUL (P1.T1) (R.Acosta),Foul,Shooting,1,0,173
+0022200338,233,PT07M56.00S,2,1610612746,LAC,1629611,Mann,T. Mann,0,0,0,,0,,,0,h,MISS Mann Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,174
+0022200338,241,PT07M56.00S,2,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Normal Rebound,0,0,175
+0022200338,242,PT07M56.00S,2,1610612746,LAC,1629611,Mann,T. Mann,0,0,0,,0,25,49,74,h,Mann Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,176
+0022200338,235,PT07M56.00S,2,1610612746,LAC,201587,Batum,N. Batum,0,0,0,,0,,,0,h,SUB: Zubac FOR Batum,Substitution,,0,0,177
+0022200338,236,PT07M56.00S,2,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,SUB: Fox FOR Metu,Substitution,,0,0,178
+0022200338,237,PT07M56.00S,2,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,SUB: Sabonis FOR Mitchell,Substitution,,0,0,179
+0022200338,243,PT07M34.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,-43,110,12,Made,1,25,51,76,v,Sabonis 12' Fadeaway Jumper (17 PTS) (Okpala 1 AST),Made Shot,Fadeaway Jump Shot,1,2,180
+0022200338,245,PT07M24.00S,2,1610612746,LAC,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,Jackson Traveling Turnover (P3.T8),Turnover,Traveling,1,0,181
+0022200338,247,PT07M24.00S,2,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,SUB: Huerter FOR Davis,Substitution,,0,0,182
+0022200338,249,PT07M12.00S,2,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox Lost Ball Turnover (P2.T3),Turnover,Lost Ball,1,0,183
+0022200338,249,PT07M12.00S,2,1610612746,LAC,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington STEAL (1 STL),,,1,0,184
+0022200338,251,PT07M07.00S,2,1610612746,LAC,202704,Jackson,R. Jackson,-235,58,24,Missed,1,,,0,h,MISS Jackson 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,185
+0022200338,252,PT07M02.00S,2,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:4 Def:4),Rebound,Unknown,1,0,186
+0022200338,253,PT06M59.00S,2,1610612746,LAC,203496,Covington,R. Covington,165,214,27,Missed,1,,,0,h,MISS Covington 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,187
+0022200338,254,PT06M57.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,188
+0022200338,255,PT06M43.00S,2,1610612758,SAC,1628368,Fox,D. Fox,168,207,27,Missed,1,,,0,v,MISS Fox 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,189
+0022200338,256,PT06M41.00S,2,1610612746,LAC,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,190
+0022200338,257,PT06M33.00S,2,1610612746,LAC,202694,Morris Sr.,M. Morris Sr.,-238,27,24,Made,1,28,51,79,h,Morris Sr. 24' 3PT Jump Shot (3 PTS) (Covington 3 AST),Made Shot,Jump Shot,1,3,191
+0022200338,259,PT06M33.00S,2,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,192
+0022200338,260,PT06M33.00S,2,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,SUB: Murray FOR Monk,Substitution,,0,0,193
+0022200338,261,PT06M33.00S,2,1610612758,SAC,1629644,Okpala,K. Okpala,0,0,0,,0,,,0,v,SUB: Barnes FOR Okpala,Substitution,,0,0,194
+0022200338,264,PT06M20.00S,2,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac S.FOUL (P2.T2) (C.Washington),Foul,Shooting,1,0,195
+0022200338,266,PT06M20.00S,2,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,MISS Fox Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,196
+0022200338,267,PT06M20.00S,2,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Normal Rebound,0,0,197
+0022200338,268,PT06M20.00S,2,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,28,52,80,v,Fox Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,198
+0022200338,269,PT05M58.00S,2,1610612746,LAC,202694,Morris Sr.,M. Morris Sr.,-85,251,27,Missed,1,,,0,h,MISS Morris Sr. 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,199
+0022200338,270,PT05M53.00S,2,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:5 Def:4),Rebound,Unknown,1,0,200
+0022200338,271,PT05M53.00S,2,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,Missed,1,,,0,h,MISS Zubac Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,201
+0022200338,272,PT05M52.00S,2,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,202
+0022200338,273,PT05M37.00S,2,1610612758,SAC,1628368,Fox,D. Fox,-130,215,25,Made,1,28,55,83,v,Fox 25' 3PT Jump Shot (5 PTS) (Huerter 3 AST),Made Shot,Jump Shot,1,3,203
+0022200338,275,PT05M10.00S,2,1610612746,LAC,203496,Covington,R. Covington,-157,200,25,Missed,1,,,0,h,MISS Covington 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,204
+0022200338,276,PT05M08.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,205
+0022200338,277,PT05M05.00S,2,1610612758,SAC,1628989,Huerter,K. Huerter,-119,237,27,Missed,1,,,0,v,MISS Huerter 27' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,206
+0022200338,278,PT05M01.00S,2,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,Murray REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,207
+0022200338,279,PT04M59.00S,2,1610612746,LAC,1629611,Mann,T. Mann,0,0,0,,0,,,0,h,Mann Violation:Kicked Ball (R.Acosta),Violation,Kicked Ball,0,0,208
+0022200338,280,PT04M59.00S,2,1610612746,LAC,203496,Covington,R. Covington,0,0,0,,0,,,0,h,SUB: Wall FOR Covington,Substitution,,0,0,209
+0022200338,282,PT04M53.00S,2,1610612746,LAC,202322,Wall,J. Wall,0,0,0,,0,,,0,h,Wall S.FOUL (P2.T3) (B.Kennedy),Foul,Shooting,1,0,210
+0022200338,284,PT04M53.00S,2,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,MISS Murray Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,211
+0022200338,285,PT04M53.00S,2,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Normal Rebound,0,0,212
+0022200338,286,PT04M53.00S,2,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,28,56,84,v,Murray Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,213
+0022200338,287,PT04M40.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis S.FOUL (P1.T2) (B.Kennedy),Foul,Shooting,1,0,214
+0022200338,289,PT04M40.00S,2,1610612746,LAC,202704,Jackson,R. Jackson,0,0,0,,0,29,56,85,h,Jackson Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,215
+0022200338,290,PT04M40.00S,2,1610612746,LAC,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,MISS Jackson Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,216
+0022200338,291,PT04M35.00S,2,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,217
+0022200338,292,PT04M24.00S,2,1610612758,SAC,203084,Barnes,H. Barnes,137,200,24,Missed,1,,,0,v,MISS Barnes 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,218
+0022200338,293,PT04M23.00S,2,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,0,0,219
+0022200338,295,PT04M02.00S,2,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,Huerter P.FOUL (P1.T3) (C.Washington),Foul,Personal,1,0,220
+0022200338,298,PT03M48.00S,2,1610612746,LAC,202694,Morris Sr.,M. Morris Sr.,-6,43,4,Missed,1,,,0,h,MISS Morris Sr. 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,221
+0022200338,299,PT03M45.00S,2,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,Murray REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,222
+0022200338,300,PT03M37.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,12,36,4,Missed,1,,,0,v,MISS Sabonis 4' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,223
+0022200338,301,PT03M37.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,224
+0022200338,302,PT03M37.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis OFF.Foul (P2) (C.Washington),Foul,Offensive,1,0,225
+0022200338,304,PT03M37.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis Offensive Foul Turnover (P2.T4),Turnover,Offensive Foul Turnover,1,0,226
+0022200338,305,PT03M23.00S,2,1610612746,LAC,202322,Wall,J. Wall,54,116,13,Missed,1,,,0,h,MISS Wall 13' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,227
+0022200338,306,PT03M21.00S,2,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,228
+0022200338,307,PT03M16.00S,2,1610612758,SAC,1628368,Fox,D. Fox,-23,143,14,Missed,1,,,0,v,MISS Fox 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,229
+0022200338,308,PT03M15.00S,2,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,0,0,230
+0022200338,309,PT03M15.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis L.B.FOUL (P3.T4) (R.Acosta),Foul,Loose Ball,1,0,231
+0022200338,311,PT03M15.00S,2,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: Metu FOR Sabonis,Substitution,,0,0,232
+0022200338,313,PT03M15.00S,2,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,233
+0022200338,314,PT03M15.00S,2,0,,309,,,0,0,0,,0,29,56,85,,Instant Replay2nd Period (5:02 PM EST),Instant Replay,Coach Challenge Ruling Stands,1,0,234
+0022200338,315,PT03M15.00S,2,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Violation: Delay of game Violation,Violation,Delay Of Game,0,0,235
+0022200338,316,PT02M56.00S,2,1610612746,LAC,202704,Jackson,R. Jackson,-191,169,26,Missed,1,,,0,h,MISS Jackson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,236
+0022200338,317,PT02M53.00S,2,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,237
+0022200338,318,PT02M49.00S,2,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes Out of Bounds Lost Ball Turnover (P1.T5),Turnover,Out of Bounds Lost Ball Turnover,1,0,238
+0022200338,319,PT02M38.00S,2,1610612746,LAC,1627826,Zubac,I. Zubac,10,19,2,Made,1,31,56,87,h,Zubac 2' Hook Bank Shot (8 PTS) (Wall 1 AST),Made Shot,Hook Bank Shot,1,2,239
+0022200338,321,PT02M23.00S,2,1610612758,SAC,1628368,Fox,D. Fox,-53,120,13,Missed,1,,,0,v,MISS Fox 13' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,240
+0022200338,322,PT02M19.00S,2,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:5 Def:5),Rebound,Unknown,1,0,241
+0022200338,323,PT02M14.00S,2,1610612746,LAC,202322,Wall,J. Wall,6,19,2,Made,1,33,56,89,h,Wall 2' Running Layup (10 PTS),Made Shot,Running Layup Shot,1,2,242
+0022200338,324,PT01M51.00S,2,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu Lost Ball Turnover (P1.T6),Turnover,Lost Ball,1,0,243
+0022200338,324,PT01M51.00S,2,1610612746,LAC,1629611,Mann,T. Mann,0,0,0,,0,,,0,h,Mann STEAL (1 STL),,,1,0,244
+0022200338,326,PT01M32.00S,2,1610612746,LAC,202704,Jackson,R. Jackson,-17,31,4,Missed,1,,,0,h,MISS Jackson 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,245
+0022200338,326,PT01M32.00S,2,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu BLOCK (2 BLK),,,1,2,246
+0022200338,327,PT01M29.00S,2,1610612746,LAC,1629611,Mann,T. Mann,0,0,0,,0,,,0,h,Mann REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,247
+0022200338,328,PT01M29.00S,2,1610612746,LAC,1629611,Mann,T. Mann,0,0,0,Made,1,35,56,91,h,Mann Tip Layup Shot (9 PTS),Made Shot,Tip Layup Shot,1,2,248
+0022200338,329,PT01M17.00S,2,1610612758,SAC,1631099,Murray,K. Murray,12,25,3,Made,1,35,58,93,v,Murray 3' Cutting Dunk Shot (7 PTS) (Metu 1 AST),Made Shot,Cutting Dunk Shot,1,2,249
+0022200338,331,PT01M01.00S,2,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes P.FOUL (P1.PN) (C.Washington),Foul,Personal,1,0,250
+0022200338,333,PT01M01.00S,2,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,36,58,94,h,Zubac Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,251
+0022200338,334,PT01M01.00S,2,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,SUB: Monk FOR Murray,Substitution,,0,0,252
+0022200338,336,PT01M01.00S,2,1610612746,LAC,1629611,Mann,T. Mann,0,0,0,,0,,,0,h,SUB: Coffey FOR Mann,Substitution,,0,0,253
+0022200338,338,PT01M01.00S,2,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,MISS Zubac Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,254
+0022200338,339,PT00M58.50S,2,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,255
+0022200338,340,PT00M40.00S,2,1610612746,LAC,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,h,Morris Sr. S.FOUL (P2.T4) (R.Acosta),Foul,Shooting,1,0,256
+0022200338,342,PT00M40.00S,2,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,MISS Barnes Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,257
+0022200338,343,PT00M40.00S,2,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Normal Rebound,0,0,258
+0022200338,344,PT00M40.00S,2,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,MISS Barnes Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,259
+0022200338,345,PT00M37.60S,2,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:5 Def:6),Rebound,Unknown,0,0,260
+0022200338,346,PT00M31.40S,2,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk S.FOUL (P2.PN) (R.Acosta),Foul,Shooting,1,0,261
+0022200338,348,PT00M31.40S,2,1610612746,LAC,202322,Wall,J. Wall,0,0,0,,0,37,58,95,h,Wall Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,1,0,262
+0022200338,349,PT00M31.40S,2,1610612746,LAC,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,h,SUB: Batum FOR Morris Sr.,Substitution,,0,0,263
+0022200338,352,PT00M31.40S,2,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,SUB: Diabate FOR Zubac,Substitution,,0,0,264
+0022200338,354,PT00M31.40S,2,1610612746,LAC,202322,Wall,J. Wall,0,0,0,,0,38,58,96,h,Wall Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,265
+0022200338,355,PT00M18.20S,2,1610612758,SAC,1628368,Fox,D. Fox,-5,32,3,Made,1,38,60,98,v,Fox 3' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,266
+0022200338,356,PT00M17.80S,2,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox T.FOUL (P0.PN) (R.Acosta),Foul,Technical,1,0,267
+0022200338,357,PT00M17.80S,2,1610612746,LAC,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,MISS Jackson Free Throw Technical,Free Throw,Free Throw Technical,1,0,268
+0022200338,358,PT00M17.80S,2,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Normal Rebound,0,0,269
+0022200338,359,PT00M17.80S,2,1610612746,LAC,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,h,SUB: Morris Sr. FOR Diabate,Substitution,,0,0,270
+0022200338,360,PT00M17.80S,2,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,SUB: Mitchell FOR Monk,Substitution,,0,0,271
+0022200338,361,PT00M17.80S,2,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,SUB: Okpala FOR Huerter,Substitution,,0,0,272
+0022200338,365,PT00M05.80S,2,1610612746,LAC,202322,Wall,J. Wall,0,0,0,,0,,,0,h,Wall Offensive Charge Foul (P3) (C.Washington),Foul,Offensive Charge,1,0,273
+0022200338,367,PT00M05.80S,2,1610612746,LAC,202322,Wall,J. Wall,0,0,0,,0,,,0,h,Wall Offensive Foul Turnover (P2.T9),Turnover,Offensive Foul Turnover,1,0,274
+0022200338,368,PT00M05.80S,2,1610612746,LAC,202322,Wall,J. Wall,0,0,0,,0,,,0,h,SUB: Diabate FOR Wall,Substitution,,0,0,275
+0022200338,369,PT00M05.80S,2,1610612746,LAC,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,h,SUB: Boston Jr. FOR Morris Sr.,Substitution,,0,0,276
+0022200338,370,PT00M05.80S,2,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,SUB: Monk FOR Mitchell,Substitution,,0,0,277
+0022200338,371,PT00M05.80S,2,1610612758,SAC,1629644,Okpala,K. Okpala,0,0,0,,0,,,0,v,SUB: Huerter FOR Okpala,Substitution,,0,0,278
+0022200338,376,PT00M00.50S,2,1610612758,SAC,1628368,Fox,D. Fox,-5,71,7,Missed,1,,,0,v,MISS Fox 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,279
+0022200338,377,PT00M00.10S,2,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Unknown,0,0,280
+0022200338,378,PT00M00.00S,2,0,,0,,,0,0,0,,0,38,60,98,,End of 2nd Period (5:13 PM EST),period,end,1,0,281
+0022200338,389,PT12M00.00S,3,0,,0,,,0,0,0,,0,38,60,98,,Start of 3rd Period (5:29 PM EST),period,start,0,0,282
+0022200338,390,PT11M34.00S,3,1610612746,LAC,1629611,Mann,T. Mann,233,63,24,Missed,1,,,0,h,MISS Mann 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,283
+0022200338,391,PT11M31.00S,3,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,284
+0022200338,392,PT11M22.00S,3,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac P.FOUL (P3.T1) (R.Acosta),Foul,Personal,1,0,285
+0022200338,394,PT11M12.00S,3,1610612758,SAC,1628368,Fox,D. Fox,181,190,26,Missed,1,,,0,v,MISS Fox 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,286
+0022200338,395,PT11M11.00S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,0,0,287
+0022200338,397,PT11M03.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis S.FOUL (P4.T1) (R.Acosta),Foul,Shooting,1,0,288
+0022200338,399,PT11M03.00S,3,1610612746,LAC,202704,Jackson,R. Jackson,0,0,0,,0,39,60,99,h,Jackson Free Throw 1 of 2 (2 PTS),Free Throw,Free Throw 1 of 2,1,0,289
+0022200338,400,PT11M03.00S,3,1610612746,LAC,202704,Jackson,R. Jackson,0,0,0,,0,40,60,100,h,Jackson Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,290
+0022200338,401,PT10M44.00S,3,1610612758,SAC,1631099,Murray,K. Murray,228,74,24,Missed,1,,,0,v,MISS Murray 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,291
+0022200338,402,PT10M42.00S,3,1610612746,LAC,1629599,Coffey,A. Coffey,0,0,0,,0,,,0,h,Coffey REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,292
+0022200338,404,PT10M34.00S,3,1610612746,LAC,202704,Jackson,R. Jackson,-51,274,28,Made,1,43,60,103,h,Jackson 28' 3PT Jump Shot (6 PTS) (Coffey 1 AST),Made Shot,Jump Shot,1,3,293
+0022200338,406,PT10M24.00S,3,1610612758,SAC,1628989,Huerter,K. Huerter,-38,13,4,Missed,1,,,0,v,MISS Huerter 4' Alley Oop Layup,Missed Shot,Alley Oop Layup shot,1,2,294
+0022200338,407,PT10M22.00S,3,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:5 Def:7),Rebound,Unknown,1,0,295
+0022200338,408,PT10M17.00S,3,1610612746,LAC,202694,Morris Sr.,M. Morris Sr.,124,227,26,Missed,1,,,0,h,MISS Morris Sr. 26' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,296
+0022200338,409,PT10M15.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,297
+0022200338,410,PT10M01.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,-13,31,3,Made,1,43,62,105,v,Sabonis 3' Turnaround Hook Shot (19 PTS) (Fox 1 AST),Made Shot,Turnaround Hook Shot,1,2,298
+0022200338,412,PT09M46.00S,3,1610612746,LAC,1627826,Zubac,I. Zubac,0,22,2,Made,1,45,62,107,h,Zubac 2' Dunk (11 PTS) (Mann 1 AST),Made Shot,Dunk Shot,1,2,299
+0022200338,414,PT09M27.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,-9,10,1,Made,1,45,64,109,v,Sabonis 1' Cutting Layup Shot (21 PTS) (Huerter 4 AST),Made Shot,Cutting Layup Shot,1,2,300
+0022200338,416,PT09M27.00S,3,1610612746,LAC,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,Jackson S.FOUL (P1.T2) (R.Acosta),Foul,Shooting,1,0,301
+0022200338,418,PT09M27.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,45,65,110,v,Sabonis Free Throw 1 of 1 (22 PTS),Free Throw,Free Throw 1 of 1,1,0,302
+0022200338,419,PT09M16.00S,3,1610612746,LAC,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,Jackson Bad Pass Turnover (P4.T10),Turnover,Bad Pass,1,0,303
+0022200338,419,PT09M16.00S,3,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,Murray STEAL (2 STL),,,1,0,304
+0022200338,421,PT09M11.00S,3,1610612758,SAC,1631099,Murray,K. Murray,5,26,3,Missed,1,,,0,v,MISS Murray 3' Running Finger Roll Layup,Missed Shot,Running Finger Roll Layup Shot,1,2,305
+0022200338,422,PT09M08.00S,3,1610612746,LAC,1629611,Mann,T. Mann,0,0,0,,0,,,0,h,Mann REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,306
+0022200338,423,PT09M05.00S,3,1610612746,LAC,1629611,Mann,T. Mann,13,29,3,Missed,1,,,0,h,MISS Mann 3' Running Layup,Missed Shot,Running Layup Shot,1,2,307
+0022200338,423,PT09M05.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis BLOCK (2 BLK),,,1,2,308
+0022200338,425,PT09M02.00S,3,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,309
+0022200338,426,PT08M58.00S,3,1610612758,SAC,203084,Barnes,H. Barnes,-175,177,25,Made,1,45,68,113,v,Barnes 25' 3PT Running Jump Shot (6 PTS) (Fox 2 AST),Made Shot,Running Jump Shot,1,3,310
+0022200338,428,PT08M35.00S,3,1610612746,LAC,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,Jackson Bad Pass Turnover (P5.T11),Turnover,Bad Pass,1,0,311
+0022200338,428,PT08M35.00S,3,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,Huerter STEAL (1 STL),,,1,0,312
+0022200338,430,PT08M28.00S,3,1610612758,SAC,1628368,Fox,D. Fox,-225,-6,0,Missed,1,,,0,v,MISS Fox 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,313
+0022200338,431,PT08M27.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,314
+0022200338,432,PT08M24.00S,3,1610612758,SAC,1631099,Murray,K. Murray,-127,224,26,Missed,1,,,0,v,MISS Murray 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,315
+0022200338,433,PT08M24.00S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,0,0,316
+0022200338,435,PT08M09.00S,3,1610612746,LAC,202694,Morris Sr.,M. Morris Sr.,-138,120,18,Missed,1,,,0,h,MISS Morris Sr. 18' Jump Shot,Missed Shot,Jump Shot,1,2,317
+0022200338,436,PT08M09.00S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,1,0,318
+0022200338,437,PT08M09.00S,3,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,Murray L.B.FOUL (P1.T2) (C.Washington),Foul,Loose Ball,1,0,319
+0022200338,439,PT07M57.00S,3,1610612746,LAC,1629599,Coffey,A. Coffey,-29,33,4,Missed,1,,,0,h,MISS Coffey 4' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,320
+0022200338,440,PT07M55.00S,3,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,Huerter REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,321
+0022200338,441,PT07M53.00S,3,1610612746,LAC,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,h,Morris Sr. S.FOUL (P3.T3) (C.Washington),Foul,Shooting,1,0,322
+0022200338,443,PT07M53.00S,3,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,45,69,114,v,Murray Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,323
+0022200338,444,PT07M53.00S,3,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,45,70,115,v,Murray Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,324
+0022200338,445,PT07M29.00S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Turnover: Shot Clock (T#12),Turnover,Shot Clock Turnover,0,0,325
+0022200338,446,PT07M12.00S,3,1610612758,SAC,1631099,Murray,K. Murray,237,51,24,Missed,1,,,0,v,MISS Murray 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,326
+0022200338,447,PT07M08.00S,3,1610612746,LAC,1629611,Mann,T. Mann,0,0,0,,0,,,0,h,Mann REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,327
+0022200338,448,PT07M02.00S,3,1610612746,LAC,202704,Jackson,R. Jackson,-15,47,5,Missed,1,,,0,h,MISS Jackson 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,328
+0022200338,449,PT07M00.00S,3,1610612746,LAC,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,Jackson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,329
+0022200338,450,PT07M00.00S,3,1610612746,LAC,202704,Jackson,R. Jackson,0,0,0,Missed,1,,,0,h,MISS Jackson Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,330
+0022200338,451,PT07M00.00S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,0,0,331
+0022200338,453,PT07M00.00S,3,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,SUB: Mitchell FOR Fox,Substitution,,0,0,332
+0022200338,454,PT07M00.00S,3,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,SUB: Okpala FOR Murray,Substitution,,0,0,333
+0022200338,457,PT06M46.00S,3,1610612746,LAC,1629599,Coffey,A. Coffey,-27,29,4,Missed,1,,,0,h,MISS Coffey 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,334
+0022200338,458,PT06M44.00S,3,1610612758,SAC,1629644,Okpala,K. Okpala,0,0,0,,0,,,0,v,Okpala REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,335
+0022200338,459,PT06M40.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,-10,11,1,Made,1,45,72,117,v,Sabonis 1' Driving Layup (24 PTS),Made Shot,Driving Layup Shot,1,2,336
+0022200338,460,PT06M40.00S,3,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac S.FOUL (P4.T4) (R.Acosta),Foul,Shooting,1,0,337
+0022200338,681,PT06M40.00S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,338
+0022200338,462,PT06M40.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,MISS Sabonis Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,339
+0022200338,463,PT06M37.00S,3,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:5 Def:8),Rebound,Unknown,1,0,340
+0022200338,464,PT06M29.00S,3,1610612758,SAC,1629644,Okpala,K. Okpala,0,0,0,,0,,,0,v,Okpala P.FOUL (P1.T3) (R.Acosta),Foul,Personal,1,0,341
+0022200338,466,PT06M23.00S,3,1610612746,LAC,202704,Jackson,R. Jackson,-48,175,18,Missed,1,,,0,h,MISS Jackson 18' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,342
+0022200338,467,PT06M22.00S,3,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Unknown,0,0,343
+0022200338,469,PT06M05.00S,3,1610612758,SAC,1630558,Mitchell,D. Mitchell,-2,11,1,Made,1,45,74,119,v,Mitchell 1' Cutting Layup Shot (2 PTS) (Barnes 2 AST),Made Shot,Cutting Layup Shot,1,2,344
+0022200338,471,PT05M39.00S,3,1610612746,LAC,202694,Morris Sr.,M. Morris Sr.,81,272,28,Made,1,48,74,122,h,Morris Sr. 28' 3PT Jump Shot (6 PTS) (Mann 2 AST),Made Shot,Jump Shot,1,3,345
+0022200338,473,PT05M29.00S,3,1610612758,SAC,203084,Barnes,H. Barnes,-22,31,4,Made,1,48,76,124,v,Barnes 4' Driving Floating Bank Jump Shot (8 PTS) (Mitchell 4 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,346
+0022200338,475,PT05M29.00S,3,1610612746,LAC,1629599,Coffey,A. Coffey,0,0,0,,0,,,0,h,Coffey S.FOUL (P1.PN) (C.Washington),Foul,Shooting,1,0,347
+0022200338,477,PT05M29.00S,3,1610612746,LAC,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,SUB: Batum FOR Jackson,Substitution,,0,0,348
+0022200338,478,PT05M29.00S,3,1610612746,LAC,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,h,SUB: Covington FOR Morris Sr.,Substitution,,0,0,349
+0022200338,481,PT05M29.00S,3,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,MISS Barnes Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,350
+0022200338,482,PT05M26.00S,3,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:5 Def:9),Rebound,Unknown,1,0,351
+0022200338,483,PT05M07.00S,3,1610612746,LAC,1629611,Mann,T. Mann,127,112,17,Made,1,50,76,126,h,Mann 17' Pullup Jump Shot (11 PTS) (Zubac 1 AST),Made Shot,Pullup Jump shot,1,2,352
+0022200338,485,PT04M47.00S,3,1610612758,SAC,203084,Barnes,H. Barnes,224,56,0,Missed,1,,,0,v,MISS Barnes 3PT Jump Shot,Missed Shot,Jump Shot,1,3,353
+0022200338,486,PT04M43.00S,3,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,Huerter REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,354
+0022200338,487,PT04M41.00S,3,1610612758,SAC,1629644,Okpala,K. Okpala,183,194,27,Missed,1,,,0,v,MISS Okpala 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,355
+0022200338,488,PT04M40.00S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,0,0,356
+0022200338,489,PT04M40.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis L.B.FOUL (P5.T4) (B.Kennedy),Foul,Loose Ball,1,0,357
+0022200338,491,PT04M40.00S,3,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: Metu FOR Sabonis,Substitution,,0,0,358
+0022200338,492,PT04M40.00S,3,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,SUB: Monk FOR Barnes,Substitution,,0,0,359
+0022200338,495,PT04M34.00S,3,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu P.FOUL (P2.PN) (C.Washington),Foul,Personal,1,0,360
+0022200338,497,PT04M34.00S,3,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,51,76,127,h,Zubac Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,1,0,361
+0022200338,498,PT04M34.00S,3,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,52,76,128,h,Zubac Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,362
+0022200338,499,PT04M14.00S,3,1610612758,SAC,1628989,Huerter,K. Huerter,55,77,9,Made,1,52,78,130,v,Huerter 9' Floating Jump Shot (7 PTS) (Monk 1 AST),Made Shot,Floating Jump shot,1,2,363
+0022200338,501,PT03M55.00S,3,1610612746,LAC,1629611,Mann,T. Mann,-13,31,3,Made,1,54,78,132,h,Mann 3' Driving Dunk (13 PTS),Made Shot,Driving Dunk Shot,1,2,364
+0022200338,502,PT03M44.00S,3,1610612758,SAC,1630558,Mitchell,D. Mitchell,-1,42,4,Made,1,54,80,134,v,Mitchell 4' Driving Reverse Layup (4 PTS),Made Shot,Driving Reverse Layup Shot,1,2,365
+0022200338,503,PT03M24.00S,3,1610612746,LAC,1629599,Coffey,A. Coffey,-20,29,4,Made,1,56,80,136,h,Coffey 4' Driving Finger Roll Layup (2 PTS) (Mann 3 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,366
+0022200338,505,PT03M24.00S,3,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu S.FOUL (P3.PN) (C.Washington),Foul,Shooting,1,0,367
+0022200338,507,PT03M24.00S,3,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,SUB: Davis FOR Huerter,Substitution,,0,0,368
+0022200338,509,PT03M24.00S,3,1610612746,LAC,1629599,Coffey,A. Coffey,0,0,0,,0,57,80,137,h,Coffey Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,1,0,369
+0022200338,510,PT03M12.00S,3,1610612758,SAC,1628370,Monk,M. Monk,132,231,27,Missed,1,,,0,v,MISS Monk 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,370
+0022200338,511,PT03M07.00S,3,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:5 Def:10),Rebound,Unknown,1,0,371
+0022200338,512,PT03M02.00S,3,1610612746,LAC,1629611,Mann,T. Mann,2,41,4,Missed,1,,,0,h,MISS Mann 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,372
+0022200338,513,PT03M00.00S,3,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,373
+0022200338,514,PT02M55.00S,3,1610612758,SAC,1629644,Okpala,K. Okpala,-39,21,4,Missed,1,,,0,v,MISS Okpala 4' Running Reverse Layup,Missed Shot,Running Reverse Layup Shot,1,2,374
+0022200338,515,PT02M53.00S,3,1610612746,LAC,201587,Batum,N. Batum,0,0,0,,0,,,0,h,Batum REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,375
+0022200338,516,PT02M47.00S,3,1610612746,LAC,203496,Covington,R. Covington,141,231,27,Missed,1,,,0,h,MISS Covington 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,376
+0022200338,517,PT02M43.00S,3,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,377
+0022200338,519,PT02M40.00S,3,1610612746,LAC,201587,Batum,N. Batum,0,0,0,,0,,,0,h,Batum P.FOUL (P1.PN) (B.Kennedy),Foul,Personal,1,0,378
+0022200338,521,PT02M40.00S,3,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,379
+0022200338,522,PT02M40.00S,3,1610612746,LAC,1629611,Mann,T. Mann,0,0,0,,0,,,0,h,SUB: Preston FOR Mann,Substitution,,0,0,380
+0022200338,523,PT02M40.00S,3,1610612746,LAC,201587,Batum,N. Batum,0,0,0,,0,,,0,h,SUB: Boston Jr. FOR Batum,Substitution,,0,0,381
+0022200338,524,PT02M40.00S,3,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,SUB: Diabate FOR Zubac,Substitution,,0,0,382
+0022200338,525,PT02M40.00S,3,1610612758,SAC,1629644,Okpala,K. Okpala,0,0,0,,0,,,0,v,SUB: Fox FOR Okpala,Substitution,,0,0,383
+0022200338,530,PT02M40.00S,3,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,57,81,138,v,Metu Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,0,0,384
+0022200338,531,PT02M40.00S,3,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,57,82,139,v,Metu Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,385
+0022200338,532,PT02M24.00S,3,1610612746,LAC,1630554,Preston,J. Preston,15,21,3,Made,1,59,82,141,h,Preston 3' Driving Floating Jump Shot (2 PTS),Made Shot,Driving Floating Jump Shot,1,2,386
+0022200338,533,PT02M06.00S,3,1610612746,LAC,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington P.FOUL (P1.PN) (R.Acosta),Foul,Personal,1,0,387
+0022200338,535,PT02M06.00S,3,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,59,83,142,v,Metu Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,388
+0022200338,536,PT02M06.00S,3,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,MISS Metu Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,389
+0022200338,537,PT02M04.00S,3,1610612746,LAC,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,h,Diabate REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,390
+0022200338,538,PT01M54.00S,3,1610612746,LAC,203496,Covington,R. Covington,28,53,6,Made,1,61,83,144,h,Covington 6' Driving Floating Bank Jump Shot (4 PTS) (Boston Jr. 1 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,391
+0022200338,540,PT01M54.00S,3,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell S.FOUL (P3.PN) (C.Washington),Foul,Shooting,1,0,392
+0022200338,542,PT01M54.00S,3,1610612746,LAC,203496,Covington,R. Covington,0,0,0,,0,62,83,145,h,Covington Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,393
+0022200338,544,PT01M32.00S,3,1610612758,SAC,1630558,Mitchell,D. Mitchell,-11,13,2,Missed,1,,,0,v,MISS Mitchell 2' Running Layup,Missed Shot,Running Layup Shot,1,2,394
+0022200338,545,PT01M30.00S,3,1610612746,LAC,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,h,Diabate REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,395
+0022200338,546,PT01M28.00S,3,1610612746,LAC,203496,Covington,R. Covington,125,249,28,Missed,1,,,0,h,MISS Covington 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,396
+0022200338,547,PT01M27.00S,3,1610612746,LAC,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,h,Diabate REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,397
+0022200338,555,PT01M23.00S,3,1610612746,LAC,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,h,Diabate Bad Pass Turnover (P2.T13),Turnover,Bad Pass,1,0,398
+0022200338,555,PT01M23.00S,3,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,Davis STEAL (2 STL),,,1,0,399
+0022200338,548,PT01M15.00S,3,1610612758,SAC,1629002,Metu,C. Metu,-1,25,3,Made,1,62,85,147,v,Metu 3' Layup (10 PTS) (Monk 2 AST),Made Shot,Layup Shot,1,2,400
+0022200338,549,PT01M03.00S,3,1610612746,LAC,203496,Covington,R. Covington,-11,29,3,Missed,1,,,0,h,MISS Covington 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,401
+0022200338,550,PT00M57.00S,3,1610612746,LAC,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,h,Diabate REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,402
+0022200338,551,PT00M57.00S,3,1610612746,LAC,1631217,Diabaté,M. Diabaté,0,0,0,Made,1,64,85,149,h,Diabate Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,403
+0022200338,552,PT00M49.20S,3,1610612758,SAC,1628370,Monk,M. Monk,196,179,27,Made,1,64,88,152,v,Monk 27' 3PT Jump Shot (13 PTS) (Metu 2 AST),Made Shot,Jump Shot,1,3,404
+0022200338,554,PT00M40.40S,3,1610612746,LAC,1630554,Preston,J. Preston,11,37,4,Made,1,66,88,154,h,Preston 4' Driving Finger Roll Layup (4 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,405
+0022200338,557,PT00M40.40S,3,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu Violation:Defensive Goaltending (B.Kennedy),Violation,Defensive Goaltending,1,0,406
+0022200338,558,PT00M24.10S,3,1610612758,SAC,1630558,Mitchell,D. Mitchell,235,31,24,Missed,1,,,0,v,MISS Mitchell 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,407
+0022200338,559,PT00M21.50S,3,1610612746,LAC,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,h,Diabate REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,408
+0022200338,560,PT00M15.90S,3,1610612746,LAC,1630527,Boston,B. Boston,-173,201,27,Made,1,69,88,157,h,Boston Jr. 27' 3PT Jump Shot (5 PTS) (Covington 4 AST),Made Shot,Jump Shot,1,3,409
+0022200338,562,PT00M00.70S,3,1610612758,SAC,1628368,Fox,D. Fox,-17,40,4,Made,1,69,90,159,v,Fox 4' Driving Floating Jump Shot (9 PTS),Made Shot,Driving Floating Jump Shot,1,2,410
+0022200338,563,PT00M00.20S,3,1610612746,LAC,1630554,Preston,J. Preston,137,785,80,Missed,1,,,0,h,MISS Preston 80' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,411
+0022200338,564,PT00M00.10S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,1,0,412
+0022200338,565,PT00M00.00S,3,0,,0,,,0,0,0,,0,69,90,159,,End of 3rd Period (5:57 PM EST),period,end,1,0,413
+0022200338,567,PT12M00.00S,4,0,,0,,,0,0,0,,0,69,90,159,,Start of 4th Period (5:59 PM EST),period,start,0,0,414
+0022200338,568,PT11M38.00S,4,1610612758,SAC,1629056,Davis,T. Davis,-229,115,26,Missed,1,,,0,v,MISS Davis 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,415
+0022200338,569,PT11M36.00S,4,1610612746,LAC,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,416
+0022200338,570,PT11M34.00S,4,1610612746,LAC,1630554,Preston,J. Preston,0,0,0,,0,,,0,h,Preston Backcourt Turnover (P1.T14),Turnover,Backcourt Turnover,1,0,417
+0022200338,571,PT11M34.00S,4,1610612758,SAC,1630558,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,SUB: Barnes FOR Mitchell,Substitution,,0,0,418
+0022200338,573,PT11M23.00S,4,1610612758,SAC,1628370,Monk,M. Monk,143,216,26,Missed,1,,,0,v,MISS Monk 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,419
+0022200338,574,PT11M20.00S,4,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,420
+0022200338,575,PT11M18.00S,4,1610612746,LAC,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington P.FOUL (P2.T1) (B.Kennedy),Foul,Personal,1,0,421
+0022200338,577,PT11M15.00S,4,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,Davis Out of Bounds Lost Ball Turnover (P1.T7),Turnover,Out of Bounds Lost Ball Turnover,1,0,422
+0022200338,578,PT10M59.00S,4,1610612746,LAC,1630527,Boston,B. Boston,-37,253,26,Made,1,72,90,162,h,Boston Jr. 26' 3PT Step Back Jump Shot (8 PTS),Made Shot,Step Back Jump shot,1,3,423
+0022200338,579,PT10M41.00S,4,1610612758,SAC,1628370,Monk,M. Monk,13,58,6,Missed,1,,,0,v,MISS Monk 6' Jump Shot,Missed Shot,Jump Shot,1,2,424
+0022200338,579,PT10M41.00S,4,1610612746,LAC,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington BLOCK (2 BLK),,,1,2,425
+0022200338,581,PT10M38.00S,4,1610612746,LAC,1630554,Preston,J. Preston,0,0,0,,0,,,0,h,Preston REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,426
+0022200338,582,PT10M36.00S,4,1610612746,LAC,1630527,Boston,B. Boston,1,60,6,Made,1,74,90,164,h,Boston Jr. 6' Running Reverse Layup (10 PTS) (Preston 1 AST),Made Shot,Running Reverse Layup Shot,1,2,427
+0022200338,584,PT10M36.00S,4,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,428
+0022200338,585,PT10M36.00S,4,1610612758,SAC,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,SUB: Sabonis FOR Monk,Substitution,,0,0,429
+0022200338,586,PT10M36.00S,4,1610612758,SAC,1629056,Davis,T. Davis,0,0,0,,0,,,0,v,SUB: Murray FOR Davis,Substitution,,0,0,430
+0022200338,587,PT10M36.00S,4,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,SUB: Huerter FOR Metu,Substitution,,0,0,431
+0022200338,591,PT10M17.00S,4,1610612746,LAC,1629599,Coffey,A. Coffey,0,0,0,,0,,,0,h,Coffey S.FOUL (P2.T2) (R.Acosta),Foul,Shooting,1,0,432
+0022200338,593,PT10M17.00S,4,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,74,91,165,v,Huerter Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,433
+0022200338,594,PT10M17.00S,4,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,74,92,166,v,Huerter Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,434
+0022200338,595,PT10M07.00S,4,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,Murray P.FOUL (P2.T1) (R.Acosta),Foul,Personal,1,0,435
+0022200338,597,PT09M57.00S,4,1610612746,LAC,1630527,Boston,B. Boston,-115,248,27,Missed,1,,,0,h,MISS Boston Jr. 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,436
+0022200338,598,PT09M53.00S,4,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,Fox REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,437
+0022200338,599,PT09M42.00S,4,1610612758,SAC,1631099,Murray,K. Murray,21,24,3,Made,1,74,94,168,v,Murray 3' Reverse Layup (11 PTS) (Sabonis 6 AST),Made Shot,Reverse Layup Shot,1,2,438
+0022200338,601,PT09M31.00S,4,1610612746,LAC,1630527,Boston,B. Boston,0,0,0,,0,,,0,h,Boston Jr. Traveling Turnover (P2.T15),Turnover,Traveling,1,0,439
+0022200338,603,PT09M18.00S,4,1610612758,SAC,1628989,Huerter,K. Huerter,-227,29,0,Made,1,74,97,171,v,Huerter 3PT Jump Shot (12 PTS) (Fox 3 AST),Made Shot,Jump Shot,1,3,440
+0022200338,605,PT09M00.00S,4,1610612746,LAC,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington Bad Pass Turnover (P1.T16),Turnover,Bad Pass,1,0,441
+0022200338,605,PT09M00.00S,4,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes STEAL (1 STL),,,1,0,442
+0022200338,607,PT08M51.00S,4,1610612758,SAC,203084,Barnes,H. Barnes,12,73,7,Made,1,74,99,173,v,Barnes 7' Driving Floating Jump Shot (10 PTS),Made Shot,Driving Floating Jump Shot,1,2,443
+0022200338,608,PT08M51.00S,4,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,444
+0022200338,609,PT08M36.00S,4,1610612746,LAC,203496,Covington,R. Covington,120,227,26,Missed,1,,,0,h,MISS Covington 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,445
+0022200338,610,PT08M34.00S,4,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,Murray REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,446
+0022200338,611,PT08M16.00S,4,1610612746,LAC,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Jump Ball Covington vs. Sabonis: Tip to Fox,Jump Ball,,0,0,447
+0022200338,614,PT08M13.00S,4,1610612758,SAC,1631099,Murray,K. Murray,-163,194,25,Made,1,74,102,176,v,Murray 25' 3PT Jump Shot (14 PTS) (Fox 4 AST),Made Shot,Jump Shot,1,3,448
+0022200338,616,PT07M45.00S,4,1610612746,LAC,203496,Covington,R. Covington,-5,42,4,Made,1,76,102,178,h,Covington 4' Driving Layup (7 PTS) (Preston 2 AST),Made Shot,Driving Layup Shot,1,2,449
+0022200338,618,PT07M39.00S,4,1610612758,SAC,1628368,Fox,D. Fox,37,52,6,Made,1,76,104,180,v,Fox 6' Turnaround Jump Shot (11 PTS),Made Shot,Turnaround Jump Shot,1,2,450
+0022200338,619,PT07M39.00S,4,1610612746,LAC,1629599,Coffey,A. Coffey,0,0,0,,0,,,0,h,Coffey S.FOUL (P3.T3) (R.Acosta),Foul,Shooting,1,0,451
+0022200338,621,PT07M39.00S,4,1610612746,LAC,203496,Covington,R. Covington,0,0,0,,0,,,0,h,SUB: Brown FOR Covington,Substitution,,0,0,452
+0022200338,623,PT07M39.00S,4,1610612758,SAC,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,SUB: Lyles FOR Barnes,Substitution,,0,0,453
+0022200338,625,PT07M39.00S,4,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,76,105,181,v,Fox Free Throw 1 of 1 (12 PTS),Free Throw,Free Throw 1 of 1,1,0,454
+0022200338,626,PT07M23.00S,4,1610612746,LAC,1630527,Boston,B. Boston,-141,225,27,Missed,1,,,0,h,MISS Boston Jr. 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,455
+0022200338,627,PT07M20.00S,4,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,Murray REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,456
+0022200338,628,PT07M11.00S,4,1610612758,SAC,1628368,Fox,D. Fox,4,121,12,Made,1,76,107,183,v,Fox 12' Pullup Jump Shot (14 PTS),Made Shot,Pullup Jump shot,1,2,457
+0022200338,629,PT06M56.00S,4,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,Huerter S.FOUL (P2.T2) (B.Kennedy),Foul,Shooting,1,0,458
+0022200338,631,PT06M56.00S,4,1610612746,LAC,1630527,Boston,B. Boston,0,0,0,,0,77,107,184,h,Boston Jr. Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,1,0,459
+0022200338,632,PT06M56.00S,4,1610612758,SAC,1628368,Fox,D. Fox,0,0,0,,0,,,0,v,SUB: Metu FOR Fox,Substitution,,0,0,460
+0022200338,633,PT06M56.00S,4,1610612758,SAC,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,SUB: Dellavedova FOR Huerter,Substitution,,0,0,461
+0022200338,634,PT06M56.00S,4,1610612758,SAC,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: Okpala FOR Sabonis,Substitution,,0,0,462
+0022200338,638,PT06M56.00S,4,1610612746,LAC,1630527,Boston,B. Boston,0,0,0,,0,78,107,185,h,Boston Jr. Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,463
+0022200338,639,PT06M33.00S,4,1610612758,SAC,1631099,Murray,K. Murray,-5,10,1,Missed,1,,,0,v,MISS Murray 1' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,464
+0022200338,639,PT06M33.00S,4,1610612746,LAC,1629650,Brown,M. Brown,0,0,0,,0,,,0,h,Brown BLOCK (1 BLK),,,1,2,465
+0022200338,641,PT06M33.00S,4,0,,1610612758,,,0,0,0,,0,,,0,v,Kings Rebound,Rebound,Unknown,0,0,466
+0022200338,643,PT06M33.00S,4,1610612758,SAC,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,SUB: Holmes FOR Metu,Substitution,,0,0,467
+0022200338,645,PT06M23.00S,4,1610612758,SAC,203521,Dellavedova,M. Dellavedova,34,29,4,Missed,1,,,0,v,MISS Dellavedova 4' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,468
+0022200338,646,PT06M20.00S,4,1610612746,LAC,1629650,Brown,M. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,469
+0022200338,647,PT06M18.00S,4,1610612758,SAC,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,Lyles S.FOUL (P1.T3) (C.Washington),Foul,Shooting,1,0,470
+0022200338,649,PT06M18.00S,4,1610612746,LAC,1631217,Diabaté,M. Diabaté,0,0,0,,0,79,107,186,h,Diabate Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,471
+0022200338,650,PT06M18.00S,4,1610612746,LAC,1631217,Diabaté,M. Diabaté,0,0,0,,0,80,107,187,h,Diabate Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,472
+0022200338,651,PT05M59.00S,4,1610612758,SAC,1631099,Murray,K. Murray,-121,242,27,Made,1,80,110,190,v,Murray 27' 3PT Pullup Jump Shot (17 PTS),Made Shot,Pullup Jump shot,1,3,473
+0022200338,652,PT05M40.00S,4,1610612746,LAC,1630527,Boston,B. Boston,6,46,5,Missed,1,,,0,h,MISS Boston Jr. 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,474
+0022200338,653,PT05M38.00S,4,1610612746,LAC,1629650,Brown,M. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,475
+0022200338,654,PT05M38.00S,4,1610612746,LAC,1629650,Brown,M. Brown,0,0,0,Made,1,82,110,192,h,Brown Tip Dunk Shot (2 PTS),Made Shot,Tip Dunk Shot,1,2,476
+0022200338,655,PT05M17.00S,4,1610612758,SAC,1631099,Murray,K. Murray,-4,14,1,Made,1,82,112,194,v,Murray 1' Driving Layup (19 PTS),Made Shot,Driving Layup Shot,1,2,477
+0022200338,656,PT05M17.00S,4,1610612746,LAC,1629599,Coffey,A. Coffey,0,0,0,,0,,,0,h,Coffey S.FOUL (P4.T4) (C.Washington),Foul,Shooting,1,0,478
+0022200338,658,PT05M17.00S,4,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,82,113,195,v,Murray Free Throw 1 of 1 (20 PTS),Free Throw,Free Throw 1 of 1,1,0,479
+0022200338,659,PT05M05.00S,4,1610612758,SAC,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,Lyles S.FOUL (P2.T4) (R.Acosta),Foul,Shooting,1,0,480
+0022200338,661,PT05M05.00S,4,1610612746,LAC,1629650,Brown,M. Brown,0,0,0,,0,,,0,h,MISS Brown Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,481
+0022200338,662,PT05M05.00S,4,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Normal Rebound,0,0,482
+0022200338,663,PT05M05.00S,4,1610612746,LAC,1629650,Brown,M. Brown,0,0,0,,0,83,113,196,h,Brown Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,483
+0022200338,664,PT04M56.00S,4,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,Murray Traveling Turnover (P1.T8),Turnover,Traveling,1,0,484
+0022200338,665,PT04M42.00S,4,1610612746,LAC,1630554,Preston,J. Preston,0,0,0,,0,,,0,h,Preston Lost Ball Turnover (P2.T17),Turnover,Lost Ball,1,0,485
+0022200338,665,PT04M42.00S,4,1610612758,SAC,1629644,Okpala,K. Okpala,0,0,0,,0,,,0,v,Okpala STEAL (1 STL),,,1,0,486
+0022200338,667,PT04M39.00S,4,1610612758,SAC,1629644,Okpala,K. Okpala,0,0,0,,0,,,0,v,Okpala Bad Pass Turnover (P1.T9),Turnover,Bad Pass,1,0,487
+0022200338,667,PT04M39.00S,4,1610612746,LAC,1630527,Boston,B. Boston,0,0,0,,0,,,0,h,Boston Jr. STEAL (1 STL),,,1,0,488
+0022200338,669,PT04M27.00S,4,1610612746,LAC,1630554,Preston,J. Preston,31,42,5,Made,1,85,113,198,h,Preston 5' Driving Floating Jump Shot (6 PTS) (Boston Jr. 2 AST),Made Shot,Driving Floating Jump Shot,1,2,489
+0022200338,671,PT04M07.00S,4,1610612758,SAC,1629644,Okpala,K. Okpala,62,37,7,Missed,1,,,0,v,MISS Okpala 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,490
+0022200338,672,PT04M05.00S,4,1610612746,LAC,1630527,Boston,B. Boston,0,0,0,,0,,,0,h,Boston Jr. REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,491
+0022200338,673,PT03M49.00S,4,1610612746,LAC,1630527,Boston,B. Boston,0,44,4,Missed,1,,,0,h,MISS Boston Jr. 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,492
+0022200338,673,PT03M49.00S,4,1610612758,SAC,1629644,Okpala,K. Okpala,0,0,0,,0,,,0,v,Okpala BLOCK (1 BLK),,,1,2,493
+0022200338,675,PT03M47.00S,4,1610612758,SAC,203521,Dellavedova,M. Dellavedova,0,0,0,,0,,,0,v,Dellavedova REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,494
+0022200338,678,PT03M47.00S,4,1610612746,LAC,1630554,Preston,J. Preston,0,0,0,,0,,,0,h,Preston S.FOUL (P1.PN) (R.Acosta),Foul,Shooting,1,0,495
+0022200338,680,PT03M47.00S,4,1610612758,SAC,1629644,Okpala,K. Okpala,0,0,0,,0,85,114,199,v,Okpala Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,496
+0022200338,682,PT03M47.00S,4,1610612758,SAC,1629644,Okpala,K. Okpala,0,0,0,,0,85,115,200,v,Okpala Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,497
+0022200338,683,PT03M34.00S,4,1610612746,LAC,1629650,Brown,M. Brown,4,20,2,Missed,1,,,0,h,MISS Brown 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,498
+0022200338,684,PT03M33.00S,4,1610612746,LAC,1629650,Brown,M. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,499
+0022200338,685,PT03M31.00S,4,1610612746,LAC,1629650,Brown,M. Brown,0,0,0,Missed,1,,,0,h,MISS Brown Tip Dunk Shot,Missed Shot,Tip Dunk Shot,1,2,500
+0022200338,686,PT03M31.00S,4,1610612746,LAC,1629650,Brown,M. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,501
+0022200338,687,PT03M31.00S,4,1610612758,SAC,1626158,Holmes,R. Holmes,0,0,0,,0,,,0,v,Holmes S.FOUL (P1.PN) (R.Acosta),Foul,Shooting,1,0,502
+0022200338,689,PT03M31.00S,4,1610612746,LAC,1629650,Brown,M. Brown,0,0,0,,0,86,115,201,h,Brown Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,503
+0022200338,690,PT03M31.00S,4,1610612758,SAC,1629644,Okpala,K. Okpala,0,0,0,,0,,,0,v,SUB: Len FOR Okpala,Substitution,,0,0,504
+0022200338,692,PT03M31.00S,4,1610612746,LAC,1629650,Brown,M. Brown,0,0,0,,0,87,115,202,h,Brown Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,505
+0022200338,693,PT03M26.00S,4,1610612746,LAC,1630527,Boston,B. Boston,0,0,0,,0,,,0,h,Boston Jr. P.FOUL (P1.PN) (C.Washington),Foul,Personal,1,0,506
+0022200338,695,PT03M26.00S,4,1610612758,SAC,203521,Dellavedova,M. Dellavedova,0,0,0,,0,87,116,203,v,Dellavedova Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,507
+0022200338,696,PT03M26.00S,4,1610612758,SAC,203521,Dellavedova,M. Dellavedova,0,0,0,,0,,,0,v,MISS Dellavedova Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,508
+0022200338,697,PT03M24.00S,4,1610612746,LAC,1630554,Preston,J. Preston,0,0,0,,0,,,0,h,Preston REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,509
+0022200338,698,PT03M15.00S,4,1610612746,LAC,1631217,Diabaté,M. Diabaté,0,0,0,,0,,,0,h,Diabate Traveling Turnover (P3.T18),Turnover,Traveling,1,0,510
+0022200338,699,PT02M56.00S,4,1610612758,SAC,1626168,Lyles,T. Lyles,-143,222,26,Missed,1,,,0,v,MISS Lyles 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,511
+0022200338,700,PT02M54.00S,4,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,0,0,512
+0022200338,702,PT02M43.00S,4,1610612746,LAC,1630554,Preston,J. Preston,-227,30,0,Made,1,90,116,206,h,Preston 3PT Jump Shot (9 PTS),Made Shot,Jump Shot,1,3,513
+0022200338,703,PT02M27.00S,4,1610612758,SAC,203458,Len,A. Len,-5,80,8,Missed,1,,,0,v,MISS Len 8' Hook Shot,Missed Shot,Hook Shot,1,2,514
+0022200338,704,PT02M23.00S,4,1610612746,LAC,1629650,Brown,M. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,515
+0022200338,705,PT02M18.00S,4,1610612746,LAC,1630554,Preston,J. Preston,70,288,30,Missed,1,,,0,h,MISS Preston 30' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,516
+0022200338,706,PT02M16.00S,4,1610612758,SAC,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,Lyles REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,517
+0022200338,707,PT02M04.00S,4,1610612758,SAC,203458,Len,A. Len,31,103,11,Made,1,90,118,208,v,Len 11' Floating Jump Shot (2 PTS) (Dellavedova 1 AST),Made Shot,Floating Jump shot,1,2,518
+0022200338,709,PT01M46.00S,4,1610612746,LAC,1630527,Boston,B. Boston,-233,55,24,Made,1,93,118,211,h,Boston Jr. 24' 3PT Jump Shot (15 PTS) (Preston 3 AST),Made Shot,Jump Shot,1,3,519
+0022200338,711,PT01M35.00S,4,1610612758,SAC,1631099,Murray,K. Murray,185,194,27,Made,1,93,121,214,v,Murray 27' 3PT Jump Shot (23 PTS) (Lyles 1 AST),Made Shot,Jump Shot,1,3,520
+0022200338,713,PT01M24.00S,4,1610612746,LAC,1630554,Preston,J. Preston,-157,249,29,Missed,1,,,0,h,MISS Preston 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,521
+0022200338,714,PT01M21.00S,4,1610612758,SAC,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,Lyles REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,522
+0022200338,715,PT01M14.00S,4,1610612758,SAC,203521,Dellavedova,M. Dellavedova,108,166,20,Made,1,93,123,216,v,Dellavedova 20' Driving Floating Jump Shot (3 PTS),Made Shot,Driving Floating Jump Shot,1,2,523
+0022200338,716,PT00M59.90S,4,1610612746,LAC,1630554,Preston,J. Preston,29,15,3,Missed,1,,,0,h,MISS Preston 3' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,524
+0022200338,717,PT00M57.40S,4,1610612758,SAC,1631099,Murray,K. Murray,0,0,0,,0,,,0,v,Murray REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,525
+0022200338,718,PT00M48.90S,4,1610612758,SAC,1631099,Murray,K. Murray,91,255,27,Missed,1,,,0,v,MISS Murray 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,526
+0022200338,719,PT00M45.40S,4,1610612746,LAC,1630527,Boston,B. Boston,0,0,0,,0,,,0,h,Boston Jr. REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,527
+0022200338,720,PT00M38.20S,4,1610612746,LAC,1630554,Preston,J. Preston,94,244,26,Missed,1,,,0,h,MISS Preston 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,528
+0022200338,721,PT00M35.90S,4,1610612758,SAC,1626168,Lyles,T. Lyles,0,0,0,,0,,,0,v,Lyles REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,529
+0022200338,722,PT00M19.20S,4,1610612758,SAC,203521,Dellavedova,M. Dellavedova,1,108,11,Missed,1,,,0,v,MISS Dellavedova 11' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,530
+0022200338,723,PT00M17.20S,4,1610612746,LAC,1629650,Brown,M. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,531
+0022200338,724,PT00M10.70S,4,1610612746,LAC,1630527,Boston,B. Boston,-192,214,29,Made,1,96,123,219,h,Boston Jr. 29' 3PT Pullup Jump Shot (18 PTS),Made Shot,Pullup Jump shot,1,3,532
+0022200338,725,PT00M00.00S,4,0,,0,,,0,0,0,,0,96,123,219,,End of 4th Period (6:28 PM EST),period,end,1,0,533

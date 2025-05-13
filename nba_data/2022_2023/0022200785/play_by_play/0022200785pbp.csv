@@ -1,0 +1,506 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022200785,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:11 PM EST),period,start,0,0,1
+0022200785,4,PT12M00.00S,1,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h, ,Jump Ball,,1,0,2
+0022200785,8,PT11M52.00S,1,1610612766,CHA,1630163,Ball,L. Ball,164,239,29,Missed,1,,,0,v,MISS Ball 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,3
+0022200785,9,PT11M49.00S,1,1610612765,DET,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,Bogdanovic REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,4
+0022200785,10,PT11M35.00S,1,1610612765,DET,202692,Burks,A. Burks,-6,181,18,Missed,1,,,0,h,MISS Burks 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,5
+0022200785,11,PT11M33.00S,1,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,v,Plumlee REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,6
+0022200785,12,PT11M17.00S,1,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,7
+0022200785,12,PT11M17.00S,1,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart STEAL (1 STL),,,1,0,8
+0022200785,14,PT11M12.00S,1,1610612765,DET,202711,Bogdanović,B. Bogdanović,18,7,2,Made,1,2,0,2,h,Bogdanovic 2' Running Layup (2 PTS) (Ivey 1 AST),Made Shot,Running Layup Shot,1,2,9
+0022200785,16,PT10M54.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,234,-10,0,Missed,1,,,0,v,MISS Rozier 3PT Jump Shot,Missed Shot,Jump Shot,1,3,10
+0022200785,17,PT10M52.00S,1,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,11
+0022200785,18,PT10M44.00S,1,1610612765,DET,202711,Bogdanović,B. Bogdanović,-238,8,24,Made,1,5,0,5,h,Bogdanovic 24' 3PT Jump Shot (5 PTS) (Ivey 2 AST),Made Shot,Jump Shot,1,3,12
+0022200785,20,PT10M34.00S,1,1610612766,CHA,1630163,Ball,L. Ball,20,-5,2,Made,1,5,2,7,v,Ball 2' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,13
+0022200785,21,PT10M19.00S,1,1610612765,DET,1631093,Ivey,J. Ivey,102,257,28,Made,1,8,2,10,h,Ivey 28' 3PT Jump Shot (3 PTS) (Stewart 1 AST),Made Shot,Jump Shot,1,3,14
+0022200785,23,PT10M02.00S,1,1610612766,CHA,1629023,Washington,P. Washington,-10,21,2,Missed,1,,,0,v,MISS Washington 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,15
+0022200785,24,PT10M00.00S,1,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,16
+0022200785,25,PT09M51.00S,1,1610612765,DET,1631105,Duren,J. Duren,-92,32,10,Missed,1,,,0,h,MISS Duren 10' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,17
+0022200785,26,PT09M49.00S,1,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,18
+0022200785,27,PT09M35.00S,1,1610612766,CHA,1629023,Washington,P. Washington,-174,200,27,Missed,1,,,0,v,MISS Washington 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,19
+0022200785,28,PT09M32.00S,1,1610612765,DET,202692,Burks,A. Burks,0,0,0,,0,,,0,h,Burks REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,20
+0022200785,29,PT09M27.00S,1,1610612765,DET,202692,Burks,A. Burks,-173,205,27,Missed,1,,,0,h,MISS Burks 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,21
+0022200785,30,PT09M24.00S,1,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,22
+0022200785,31,PT09M19.00S,1,1610612766,CHA,202330,Hayward,G. Hayward,-211,152,26,Made,1,8,5,13,v,Hayward 26' 3PT Jump Shot (3 PTS) (Plumlee 1 AST),Made Shot,Jump Shot,1,3,23
+0022200785,33,PT09M00.00S,1,1610612765,DET,202711,Bogdanović,B. Bogdanović,7,58,6,Made,1,10,5,15,h,Bogdanovic 6' Driving Floating Jump Shot (7 PTS) (Duren 1 AST),Made Shot,Driving Floating Jump Shot,1,2,24
+0022200785,35,PT08M51.00S,1,1610612766,CHA,1630163,Ball,L. Ball,-38,-21,4,Missed,1,,,0,v,MISS Ball 4' Layup,Missed Shot,Layup Shot,1,2,25
+0022200785,35,PT08M51.00S,1,1610612765,DET,1631093,Ivey,J. Ivey,0,0,0,,0,,,0,h,Ivey BLOCK (1 BLK),,,1,2,26
+0022200785,37,PT08M51.00S,1,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Rebound,Rebound,Unknown,0,0,27
+0022200785,39,PT08M43.00S,1,1610612766,CHA,1630163,Ball,L. Ball,-229,-7,0,Missed,1,,,0,v,MISS Ball 3PT Jump Shot,Missed Shot,Jump Shot,1,3,28
+0022200785,40,PT08M41.00S,1,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,29
+0022200785,41,PT08M34.00S,1,1610612765,DET,1631093,Ivey,J. Ivey,-190,188,27,Made,1,13,5,18,h,Ivey 27' 3PT Pullup Jump Shot (6 PTS),Made Shot,Pullup Jump shot,1,3,30
+0022200785,42,PT08M24.00S,1,1610612766,CHA,1629023,Washington,P. Washington,-164,204,26,Missed,1,,,0,v,MISS Washington 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,31
+0022200785,43,PT08M21.00S,1,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,32
+0022200785,44,PT08M15.00S,1,1610612765,DET,1631105,Duren,J. Duren,21,15,3,Made,1,15,5,20,h,Duren 3' Layup (2 PTS) (Stewart 2 AST),Made Shot,Layup Shot,1,2,33
+0022200785,46,PT08M15.00S,1,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,34
+0022200785,47,PT07M58.00S,1,1610612766,CHA,203486,Plumlee,M. Plumlee,-23,5,2,Missed,1,,,0,v,MISS Plumlee 2' Dunk,Missed Shot,Dunk Shot,1,2,35
+0022200785,47,PT07M58.00S,1,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren BLOCK (1 BLK),,,1,2,36
+0022200785,49,PT07M56.00S,1,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Rebound,Rebound,Unknown,0,0,37
+0022200785,51,PT07M53.00S,1,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren S.FOUL (P1.T1) (J.Van Duyne),Foul,Shooting,1,0,38
+0022200785,53,PT07M53.00S,1,1610612766,CHA,202330,Hayward,G. Hayward,0,0,0,,0,15,6,21,v,Hayward Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,0,0,39
+0022200785,54,PT07M53.00S,1,1610612766,CHA,202330,Hayward,G. Hayward,0,0,0,,0,,,0,v,MISS Hayward Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,40
+0022200785,55,PT07M51.00S,1,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,41
+0022200785,56,PT07M48.00S,1,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,42
+0022200785,56,PT07M48.00S,1,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,v,Plumlee STEAL (1 STL),,,1,0,43
+0022200785,58,PT07M36.00S,1,1610612766,CHA,203486,Plumlee,M. Plumlee,42,24,5,Missed,1,,,0,v,MISS Plumlee 5' Hook Shot,Missed Shot,Hook Shot,1,2,44
+0022200785,59,PT07M34.00S,1,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,45
+0022200785,60,PT07M25.00S,1,1610612765,DET,1630191,Stewart,I. Stewart,22,13,3,Missed,1,,,0,h,MISS Stewart 3' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,46
+0022200785,61,PT07M22.00S,1,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,47
+0022200785,63,PT07M06.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,-26,31,4,Made,1,15,8,23,v,Rozier 4' Driving Floating Jump Shot (2 PTS),Made Shot,Driving Floating Jump Shot,1,2,48
+0022200785,64,PT06M52.00S,1,1610612765,DET,202692,Burks,A. Burks,55,95,11,Missed,1,,,0,h,MISS Burks 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,49
+0022200785,65,PT06M48.00S,1,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,50
+0022200785,66,PT06M43.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,-15,5,2,Made,1,15,10,25,v,Rozier 2' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,51
+0022200785,67,PT06M32.00S,1,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren Out of Bounds - Bad Pass Turnover Turnover (P2.T2),Turnover,Out of Bounds - Bad Pass Turnover,1,0,52
+0022200785,68,PT06M22.00S,1,1610612766,CHA,1630163,Ball,L. Ball,-22,10,2,Missed,1,,,0,v,MISS Ball 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,53
+0022200785,69,PT06M21.00S,1,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,54
+0022200785,70,PT06M19.00S,1,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren Out of Bounds - Bad Pass Turnover Turnover (P3.T3),Turnover,Out of Bounds - Bad Pass Turnover,1,0,55
+0022200785,71,PT06M08.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,-72,29,8,Missed,1,,,0,v,MISS Rozier 8' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,56
+0022200785,72,PT06M05.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,Rozier REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,57
+0022200785,73,PT06M04.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,-23,-1,2,Made,1,15,12,27,v,Rozier 2' Layup (6 PTS),Made Shot,Layup Shot,1,2,58
+0022200785,74,PT05M56.00S,1,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,v,Plumlee P.FOUL (P1.T1) (J.Van Duyne),Foul,Personal,1,0,59
+0022200785,76,PT05M56.00S,1,1610612765,DET,202692,Burks,A. Burks,0,0,0,,0,,,0,h,SUB: Bey FOR Burks,Substitution,,0,0,60
+0022200785,77,PT05M56.00S,1,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,SUB: Hayes FOR Stewart,Substitution,,0,0,61
+0022200785,78,PT05M56.00S,1,1610612766,CHA,202330,Hayward,G. Hayward,0,0,0,,0,,,0,v,SUB: McDaniels FOR Hayward,Substitution,,0,0,62
+0022200785,82,PT05M43.00S,1,1610612765,DET,1630180,Bey,S. Bey,-235,29,24,Missed,1,,,0,h,MISS Bey 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,63
+0022200785,83,PT05M43.00S,1,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,64
+0022200785,85,PT05M33.00S,1,1610612765,DET,202711,Bogdanović,B. Bogdanović,17,8,2,Made,1,17,12,29,h,Bogdanovic 2' Driving Layup (9 PTS),Made Shot,Driving Layup Shot,1,2,65
+0022200785,86,PT05M22.00S,1,1610612765,DET,1631093,Ivey,J. Ivey,0,0,0,,0,,,0,h,Ivey S.FOUL (P1.T2) (M.Lindsay),Foul,Shooting,1,0,66
+0022200785,88,PT05M22.00S,1,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,17,13,30,v,Plumlee Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,67
+0022200785,89,PT05M22.00S,1,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,17,14,31,v,Plumlee Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,68
+0022200785,90,PT05M06.00S,1,1610612765,DET,202711,Bogdanović,B. Bogdanović,-190,206,28,Missed,1,,,0,h,MISS Bogdanovic 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,69
+0022200785,91,PT05M04.00S,1,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,70
+0022200785,92,PT05M02.00S,1,1610612766,CHA,1630163,Ball,L. Ball,-163,216,27,Missed,1,,,0,v,MISS Ball 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,71
+0022200785,93,PT05M00.00S,1,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,72
+0022200785,94,PT04M47.00S,1,1610612765,DET,1630180,Bey,S. Bey,235,26,24,Missed,1,,,0,h,MISS Bey 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,73
+0022200785,95,PT04M44.00S,1,1610612765,DET,1631093,Ivey,J. Ivey,0,0,0,,0,,,0,h,Ivey REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,74
+0022200785,96,PT04M33.00S,1,1610612765,DET,202711,Bogdanović,B. Bogdanović,5,26,3,Made,1,19,14,33,h,Bogdanovic 3' Driving Floating Jump Shot (11 PTS) (Hayes 1 AST),Made Shot,Driving Floating Jump Shot,1,2,75
+0022200785,98,PT04M11.00S,1,1610612766,CHA,1629667,McDaniels,J. McDaniels,-55,-1,6,Made,1,19,16,35,v,McDaniels 6' Floating Jump Shot (2 PTS) (Plumlee 2 AST),Made Shot,Floating Jump shot,1,2,76
+0022200785,99,PT03M55.00S,1,1610612765,DET,1630165,Hayes,K. Hayes,-94,89,13,Missed,1,,,0,h,MISS Hayes 13' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,77
+0022200785,100,PT03M53.00S,1,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,78
+0022200785,101,PT03M42.00S,1,1610612766,CHA,1630163,Ball,L. Ball,-161,214,27,Made,1,19,19,38,v,Ball 27' 3PT Jump Shot (5 PTS) (Plumlee 3 AST),Made Shot,Jump Shot,1,3,79
+0022200785,103,PT03M42.00S,1,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,80
+0022200785,105,PT03M42.00S,1,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,SUB: Livers FOR Duren,Substitution,,0,0,81
+0022200785,106,PT03M42.00S,1,1610612765,DET,1631093,Ivey,J. Ivey,0,0,0,,0,,,0,h,SUB: Stewart FOR Ivey,Substitution,,0,0,82
+0022200785,107,PT03M42.00S,1,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,SUB: Richards FOR Ball,Substitution,,0,0,83
+0022200785,108,PT03M42.00S,1,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,v,SUB: Thor FOR Plumlee,Substitution,,0,0,84
+0022200785,109,PT03M42.00S,1,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,v,SUB: Smith Jr. FOR Washington,Substitution,,0,0,85
+0022200785,115,PT03M27.00S,1,1610612765,DET,202711,Bogdanović,B. Bogdanović,16,4,2,Missed,1,,,0,h,MISS Bogdanovic 2' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,86
+0022200785,116,PT03M21.00S,1,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,87
+0022200785,117,PT03M21.00S,1,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,Missed,1,,,0,h,MISS Stewart Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,88
+0022200785,118,PT03M21.00S,1,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,,,0,h,Bey REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,89
+0022200785,119,PT03M19.00S,1,1610612765,DET,1630180,Bey,S. Bey,-12,5,1,Made,1,21,19,40,h,Bey 1' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,90
+0022200785,120,PT03M04.00S,1,1610612766,CHA,1630550,Thor,J. Thor,-55,9,6,Made,1,21,21,42,v,Thor 6' Jump Bank Shot (2 PTS) (Rozier 1 AST),Made Shot,Jump Bank Shot,1,2,91
+0022200785,121,PT02M57.00S,1,1610612765,DET,1630180,Bey,S. Bey,-239,-10,24,Missed,1,,,0,h,MISS Bey 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,92
+0022200785,122,PT02M55.00S,1,1610612766,CHA,1630208,Richards,N. Richards,0,0,0,,0,,,0,v,Richards REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,93
+0022200785,123,PT02M38.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,212,150,26,Made,1,21,24,45,v,Rozier 26' 3PT Pullup Jump Shot (9 PTS),Made Shot,Pullup Jump shot,1,3,94
+0022200785,124,PT02M21.00S,1,1610612765,DET,1630165,Hayes,K. Hayes,0,0,0,,0,,,0,h,Hayes Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,95
+0022200785,124,PT02M21.00S,1,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels STEAL (1 STL),,,1,0,96
+0022200785,126,PT02M19.00S,1,1610612765,DET,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,Bogdanovic S.FOUL (P1.T3) (J.Van Duyne),Foul,Shooting,1,0,97
+0022200785,128,PT02M19.00S,1,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,21,25,46,v,McDaniels Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,98
+0022200785,129,PT02M19.00S,1,1610612765,DET,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,SUB: Diallo FOR Bogdanovic,Substitution,,0,0,99
+0022200785,131,PT02M19.00S,1,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,21,26,47,v,McDaniels Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,100
+0022200785,132,PT02M04.00S,1,1610612765,DET,1630587,Livers,I. Livers,134,227,26,Missed,1,,,0,h,MISS Livers 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,101
+0022200785,133,PT01M57.00S,1,1610612765,DET,1628977,Diallo,H. Diallo,0,0,0,,0,,,0,h,Diallo REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,102
+0022200785,134,PT01M56.00S,1,1610612765,DET,1628977,Diallo,H. Diallo,0,0,0,,0,,,0,h,Diallo Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,103
+0022200785,134,PT01M56.00S,1,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels STEAL (2 STL),,,1,0,104
+0022200785,136,PT01M51.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,235,42,24,Missed,1,,,0,v,MISS Rozier 24' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,105
+0022200785,137,PT01M48.00S,1,1610612765,DET,1630587,Livers,I. Livers,0,0,0,,0,,,0,h,Livers REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,106
+0022200785,138,PT01M47.00S,1,1610612766,CHA,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. S.FOUL (P1.T2) (J.Van Duyne),Foul,Shooting,1,0,107
+0022200785,140,PT01M47.00S,1,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,22,26,48,h,Bey Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,108
+0022200785,141,PT01M47.00S,1,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,SUB: Ball FOR Rozier,Substitution,,0,0,109
+0022200785,143,PT01M47.00S,1,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,23,26,49,h,Bey Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,110
+0022200785,144,PT01M30.00S,1,1610612766,CHA,1629667,McDaniels,J. McDaniels,43,83,9,Missed,1,,,0,v,MISS McDaniels 9' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,111
+0022200785,145,PT01M28.00S,1,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,112
+0022200785,146,PT01M23.00S,1,1610612765,DET,1630587,Livers,I. Livers,0,0,0,,0,,,0,h,Livers Out of Bounds - Bad Pass Turnover Turnover (P1.T6),Turnover,Out of Bounds - Bad Pass Turnover,1,0,113
+0022200785,147,PT01M10.00S,1,1610612766,CHA,1630208,Richards,N. Richards,-5,32,3,Made,1,23,28,51,v,Richards 3' Cutting Dunk Shot (2 PTS) (Ball 1 AST),Made Shot,Cutting Dunk Shot,1,2,114
+0022200785,149,PT00M49.30S,1,1610612765,DET,1630165,Hayes,K. Hayes,47,43,6,Made,1,25,28,53,h,Hayes 6' Fadeaway Jumper (2 PTS),Made Shot,Fadeaway Jump Shot,1,2,115
+0022200785,150,PT00M44.40S,1,1610612766,CHA,1630550,Thor,J. Thor,-42,9,4,Made,1,25,30,55,v,Thor 4' Running Dunk (4 PTS) (Ball 2 AST),Made Shot,Running Dunk Shot,1,2,116
+0022200785,152,PT00M30.10S,1,1610612765,DET,1630587,Livers,I. Livers,237,22,24,Made,1,28,30,58,h,Livers 24' 3PT Jump Shot (3 PTS) (Stewart 3 AST),Made Shot,Jump Shot,1,3,117
+0022200785,154,PT00M10.20S,1,1610612766,CHA,1630163,Ball,L. Ball,2,47,5,Missed,1,,,0,v,MISS Ball 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,118
+0022200785,155,PT00M08.10S,1,1610612766,CHA,1630208,Richards,N. Richards,0,0,0,,0,,,0,v,Richards REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,119
+0022200785,156,PT00M07.40S,1,1610612766,CHA,1630208,Richards,N. Richards,-20,30,4,Missed,1,,,0,v,MISS Richards 4' Hook Shot,Missed Shot,Hook Shot,1,2,120
+0022200785,157,PT00M07.40S,1,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,,,0,h,Bey REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,121
+0022200785,158,PT00M02.40S,1,1610612766,CHA,1630208,Richards,N. Richards,0,0,0,,0,,,0,v,Richards S.FOUL (P1.PN) (M.Lindsay),Foul,Shooting,1,0,122
+0022200785,160,PT00M02.40S,1,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,29,30,59,h,Bey Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,123
+0022200785,161,PT00M02.40S,1,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,,,0,h,MISS Bey Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,124
+0022200785,162,PT00M00.40S,1,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,125
+0022200785,163,PT00M00.00S,1,1610612765,DET,1630191,Stewart,I. Stewart,23,18,3,Missed,1,,,0,h,MISS Stewart 3' Layup,Missed Shot,Layup Shot,1,2,126
+0022200785,163,PT00M00.00S,1,1610612766,CHA,1630208,Richards,N. Richards,0,0,0,,0,,,0,v,Richards BLOCK (1 BLK),,,1,2,127
+0022200785,165,PT00M00.00S,1,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,,,0,h,Bey REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,128
+0022200785,166,PT00M00.00S,1,1610612765,DET,1630180,Bey,S. Bey,7,21,2,Missed,1,,,0,h,MISS Bey 2' Layup,Missed Shot,Layup Shot,1,2,129
+0022200785,167,PT00M00.00S,1,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,130
+0022200785,168,PT00M00.00S,1,0,,0,,,0,0,0,,0,29,30,59,,End of 1st Period (7:36 PM EST),period,end,1,0,131
+0022200785,174,PT12M00.00S,2,0,,0,,,0,0,0,,0,29,30,59,,Start of 2nd Period (7:39 PM EST),period,start,0,0,132
+0022200785,175,PT11M46.00S,2,1610612765,DET,1630587,Livers,I. Livers,0,0,0,,0,,,0,h,Livers Bad Pass Turnover (P2.T7),Turnover,Bad Pass,1,0,133
+0022200785,175,PT11M46.00S,2,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball STEAL (1 STL),,,1,0,134
+0022200785,177,PT11M42.00S,2,1610612766,CHA,202330,Hayward,G. Hayward,-20,5,2,Made,1,29,32,61,v,Hayward 2' Running Alley Oop Layup Shot (6 PTS) (Ball 3 AST),Made Shot,Running Alley Oop Layup Shot,1,2,135
+0022200785,179,PT11M28.00S,2,1610612765,DET,1630165,Hayes,K. Hayes,-15,63,6,Made,1,31,32,63,h,Hayes 6' Driving Hook Shot (4 PTS),Made Shot,Driving Hook Shot,1,2,136
+0022200785,180,PT11M10.00S,2,1610612766,CHA,1629023,Washington,P. Washington,-12,62,6,Made,1,31,34,65,v,Washington 6' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,137
+0022200785,202,PT10M59.00S,2,1610612765,DET,1628977,Diallo,H. Diallo,0,0,0,,0,,,0,h,Diallo Bad Pass Turnover (P2.T8),Turnover,Bad Pass,1,0,138
+0022200785,202,PT10M59.00S,2,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball STEAL (2 STL),,,1,0,139
+0022200785,184,PT10M56.00S,2,1610612766,CHA,1630208,Richards,N. Richards,-21,-7,2,Made,1,31,36,67,v,Richards 2' Running Layup (4 PTS) (Smith Jr. 1 AST),Made Shot,Running Layup Shot,1,2,140
+0022200785,186,PT10M56.00S,2,1610612765,DET,1630165,Hayes,K. Hayes,0,0,0,,0,,,0,h,Hayes S.FOUL (P1.T1) (J.Van Duyne),Foul,Shooting,1,0,141
+0022200785,188,PT10M56.00S,2,1610612766,CHA,1630208,Richards,N. Richards,0,0,0,,0,31,37,68,v,Richards Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,142
+0022200785,189,PT10M41.00S,2,1610612765,DET,1630191,Stewart,I. Stewart,-10,26,3,Made,1,33,37,70,h,Stewart 3' Cutting Layup Shot (2 PTS) (Bey 1 AST),Made Shot,Cutting Layup Shot,1,2,143
+0022200785,191,PT10M22.00S,2,1610612766,CHA,1628372,Smith Jr.,D. Smith Jr.,-27,6,3,Missed,1,,,0,v,MISS Smith Jr. 3' Layup,Missed Shot,Layup Shot,1,2,144
+0022200785,192,PT10M20.00S,2,1610612766,CHA,1630208,Richards,N. Richards,0,0,0,,0,,,0,v,Richards REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,145
+0022200785,193,PT10M20.00S,2,1610612766,CHA,1630208,Richards,N. Richards,-13,9,2,Missed,1,,,0,v,MISS Richards 2' Layup,Missed Shot,Layup Shot,1,2,146
+0022200785,193,PT10M20.00S,2,1610612765,DET,1630587,Livers,I. Livers,0,0,0,,0,,,0,h,Livers BLOCK (1 BLK),,,1,2,147
+0022200785,195,PT10M20.00S,2,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,148
+0022200785,196,PT10M03.00S,2,1610612765,DET,1630180,Bey,S. Bey,-29,-1,3,Made,1,35,37,72,h,Bey 3' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,149
+0022200785,197,PT09M56.00S,2,1610612766,CHA,1630163,Ball,L. Ball,192,201,28,Missed,1,,,0,v,MISS Ball 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,150
+0022200785,198,PT09M53.00S,2,1610612765,DET,1630587,Livers,I. Livers,0,0,0,,0,,,0,h,Livers REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,151
+0022200785,199,PT09M48.00S,2,1610612765,DET,1628977,Diallo,H. Diallo,5,21,2,Made,1,37,37,74,h,Diallo 2' Driving Layup (2 PTS) (Hayes 2 AST),Made Shot,Driving Layup Shot,1,2,152
+0022200785,201,PT09M48.00S,2,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,153
+0022200785,204,PT09M33.00S,2,1610612766,CHA,202330,Hayward,G. Hayward,0,0,0,,0,,,0,v,Hayward Lost Ball Turnover (P1.T2),Turnover,Lost Ball,1,0,154
+0022200785,204,PT09M33.00S,2,1610612765,DET,1630165,Hayes,K. Hayes,0,0,0,,0,,,0,h,Hayes STEAL (1 STL),,,1,0,155
+0022200785,206,PT09M29.00S,2,1610612765,DET,1630165,Hayes,K. Hayes,0,0,0,,0,,,0,h,Hayes Lost Ball Turnover (P2.T9),Turnover,Lost Ball,1,0,156
+0022200785,206,PT09M29.00S,2,1610612766,CHA,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. STEAL (1 STL),,,1,0,157
+0022200785,208,PT09M24.00S,2,1610612766,CHA,202330,Hayward,G. Hayward,13,6,1,Made,1,37,39,76,v,Hayward 1' Layup (8 PTS) (Ball 4 AST),Made Shot,Layup Shot,1,2,158
+0022200785,212,PT09M09.00S,2,1610612765,DET,1630191,Stewart,I. Stewart,25,11,3,Missed,1,,,0,h,MISS Stewart 3' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,159
+0022200785,213,PT09M09.00S,2,1610612766,CHA,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,160
+0022200785,214,PT09M03.00S,2,1610612766,CHA,1629023,Washington,P. Washington,-23,5,2,Made,1,37,41,78,v,Washington 2' Running Layup (4 PTS) (Smith Jr. 2 AST),Made Shot,Running Layup Shot,1,2,161
+0022200785,216,PT08M47.00S,2,1610612765,DET,1630180,Bey,S. Bey,20,8,2,Made,1,39,41,80,h,Bey 2' Layup (9 PTS),Made Shot,Layup Shot,1,2,162
+0022200785,217,PT08M23.00S,2,1610612766,CHA,1630163,Ball,L. Ball,-31,3,3,Missed,1,,,0,v,MISS Ball 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,163
+0022200785,218,PT08M23.00S,2,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,164
+0022200785,219,PT08M23.00S,2,1610612766,CHA,1630208,Richards,N. Richards,0,0,0,,0,,,0,v,Richards L.B.FOUL (P2.T1) (M.Lindsay),Foul,Loose Ball,1,0,165
+0022200785,221,PT08M23.00S,2,1610612765,DET,1630165,Hayes,K. Hayes,0,0,0,,0,,,0,h,SUB: Bogdanovic FOR Hayes,Substitution,,0,0,166
+0022200785,222,PT08M23.00S,2,1610612765,DET,1630587,Livers,I. Livers,0,0,0,,0,,,0,h,SUB: Ivey FOR Livers,Substitution,,0,0,167
+0022200785,223,PT08M23.00S,2,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,SUB: Duren FOR Stewart,Substitution,,0,0,168
+0022200785,227,PT08M10.00S,2,1610612765,DET,1631093,Ivey,J. Ivey,-83,176,19,Made,1,41,41,82,h,Ivey 19' Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,2,169
+0022200785,228,PT07M53.00S,2,1610612766,CHA,1630208,Richards,N. Richards,-2,36,4,Made,1,41,43,84,v,Richards 4' Hook Shot (7 PTS) (Washington 1 AST),Made Shot,Hook Shot,1,2,170
+0022200785,230,PT07M37.00S,2,1610612765,DET,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,Bogdanovic Bad Pass Turnover (P1.T10),Turnover,Bad Pass,1,0,171
+0022200785,230,PT07M37.00S,2,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball STEAL (3 STL),,,1,0,172
+0022200785,232,PT07M30.00S,2,1610612766,CHA,1630163,Ball,L. Ball,-17,11,2,Made,1,41,45,86,v,Ball 2' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,173
+0022200785,233,PT07M19.00S,2,1610612765,DET,1631105,Duren,J. Duren,-23,7,2,Made,1,43,45,88,h,Duren 2' Cutting Layup Shot (4 PTS) (Ivey 3 AST),Made Shot,Cutting Layup Shot,1,2,174
+0022200785,235,PT07M11.00S,2,1610612766,CHA,1630163,Ball,L. Ball,-188,190,27,Missed,1,,,0,v,MISS Ball 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,175
+0022200785,236,PT07M08.00S,2,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,176
+0022200785,237,PT06M53.00S,2,1610612765,DET,1628977,Diallo,H. Diallo,-5,26,3,Made,1,45,45,90,h,Diallo 3' Layup (4 PTS) (Ivey 4 AST),Made Shot,Layup Shot,1,2,177
+0022200785,239,PT06M53.00S,2,1610612766,CHA,1630208,Richards,N. Richards,0,0,0,,0,,,0,v,Richards S.FOUL (P3.T2) (M.Boland),Foul,Shooting,1,0,178
+0022200785,241,PT06M53.00S,2,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,,,0,h,SUB: Burks FOR Bey,Substitution,,0,0,179
+0022200785,242,PT06M53.00S,2,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,SUB: Plumlee FOR Ball,Substitution,,0,0,180
+0022200785,243,PT06M53.00S,2,1610612766,CHA,1630208,Richards,N. Richards,0,0,0,,0,,,0,v,SUB: Rozier FOR Richards,Substitution,,0,0,181
+0022200785,244,PT06M53.00S,2,1610612766,CHA,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,SUB: McDaniels FOR Smith Jr.,Substitution,,0,0,182
+0022200785,249,PT06M53.00S,2,1610612765,DET,1628977,Diallo,H. Diallo,0,0,0,,0,46,45,91,h,Diallo Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,183
+0022200785,250,PT06M34.00S,2,1610612766,CHA,202330,Hayward,G. Hayward,39,20,4,Made,1,46,47,93,v,Hayward 4' Driving Floating Jump Shot (10 PTS),Made Shot,Driving Floating Jump Shot,1,2,184
+0022200785,251,PT06M20.00S,2,1610612765,DET,1631093,Ivey,J. Ivey,22,13,3,Missed,1,,,0,h,MISS Ivey 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,185
+0022200785,252,PT06M18.00S,2,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,186
+0022200785,253,PT06M14.00S,2,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,Rozier Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,187
+0022200785,253,PT06M14.00S,2,1610612765,DET,1628977,Diallo,H. Diallo,0,0,0,,0,,,0,h,Diallo STEAL (1 STL),,,1,0,188
+0022200785,255,PT06M05.00S,2,1610612765,DET,1631093,Ivey,J. Ivey,-2,180,18,Made,1,48,47,95,h,Ivey 18' Pullup Jump Shot (10 PTS) (Burks 1 AST),Made Shot,Pullup Jump shot,1,2,189
+0022200785,257,PT05M51.00S,2,1610612765,DET,1628977,Diallo,H. Diallo,0,0,0,,0,,,0,h,Diallo S.FOUL (P1.T2) (M.Boland),Foul,Shooting,1,0,190
+0022200785,259,PT05M51.00S,2,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,48,48,96,v,Plumlee Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,191
+0022200785,260,PT05M51.00S,2,1610612766,CHA,202330,Hayward,G. Hayward,0,0,0,,0,,,0,v,SUB: Thor FOR Hayward,Substitution,,0,0,192
+0022200785,261,PT05M51.00S,2,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,v,SUB: Ball FOR Washington,Substitution,,0,0,193
+0022200785,264,PT05M51.00S,2,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,48,49,97,v,Plumlee Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,194
+0022200785,265,PT05M32.00S,2,1610612765,DET,202692,Burks,A. Burks,-239,27,24,Made,1,51,49,100,h,Burks 24' 3PT Jump Shot (3 PTS) (Bogdanovic 1 AST),Made Shot,Jump Shot,1,3,195
+0022200785,267,PT05M20.00S,2,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren P.FOUL (P2.T3) (M.Lindsay),Foul,Personal,1,0,196
+0022200785,269,PT05M19.00S,2,1610612765,DET,1631093,Ivey,J. Ivey,0,0,0,,0,,,0,h,Ivey P.FOUL (P2.T4) (M.Boland),Foul,Personal,1,0,197
+0022200785,271,PT05M13.00S,2,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball Traveling Turnover (P2.T4),Turnover,Traveling,1,0,198
+0022200785,272,PT05M02.00S,2,1610612765,DET,202692,Burks,A. Burks,87,259,27,Missed,1,,,0,h,MISS Burks 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,199
+0022200785,273,PT04M59.00S,2,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,Rozier REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,200
+0022200785,274,PT04M59.00S,2,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,v,Plumlee Offensive Charge Foul (P2) (J.Van Duyne),Foul,Offensive Charge,1,0,201
+0022200785,276,PT04M59.00S,2,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,v,Plumlee Offensive Foul Turnover (P1.T5),Turnover,Offensive Foul Turnover,1,0,202
+0022200785,277,PT04M41.00S,2,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball P.FOUL (P1.T3) (J.Van Duyne),Foul,Personal,1,0,203
+0022200785,279,PT04M33.00S,2,1610612765,DET,202692,Burks,A. Burks,-237,-6,24,Missed,1,,,0,h,MISS Burks 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,204
+0022200785,280,PT04M30.00S,2,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,205
+0022200785,281,PT04M21.00S,2,1610612766,CHA,1626179,Rozier,T. Rozier,-208,152,26,Missed,1,,,0,v,MISS Rozier 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,206
+0022200785,282,PT04M18.00S,2,1610612765,DET,202692,Burks,A. Burks,0,0,0,,0,,,0,h,Burks REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,207
+0022200785,283,PT04M11.00S,2,1610612765,DET,202711,Bogdanović,B. Bogdanović,234,74,25,Made,1,54,49,103,h,Bogdanovic 25' 3PT Jump Shot (14 PTS) (Diallo 1 AST),Made Shot,Jump Shot,1,3,208
+0022200785,285,PT03M58.00S,2,1610612766,CHA,1629667,McDaniels,J. McDaniels,-91,-27,9,Made,1,54,51,105,v,McDaniels 9' Fadeaway Jumper (6 PTS),Made Shot,Fadeaway Jump Shot,1,2,209
+0022200785,286,PT03M44.00S,2,1610612765,DET,1631093,Ivey,J. Ivey,0,0,0,,0,,,0,h,Ivey Bad Pass Turnover (P1.T11),Turnover,Bad Pass,1,0,210
+0022200785,286,PT03M44.00S,2,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels STEAL (3 STL),,,1,0,211
+0022200785,288,PT03M37.00S,2,1610612766,CHA,1630163,Ball,L. Ball,-234,99,25,Made,1,54,54,108,v,Ball 25' 3PT Jump Shot (10 PTS) (Plumlee 4 AST),Made Shot,Jump Shot,1,3,212
+0022200785,290,PT03M31.00S,2,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,213
+0022200785,291,PT03M31.00S,2,1610612765,DET,1628977,Diallo,H. Diallo,0,0,0,,0,,,0,h,SUB: Hayes FOR Diallo,Substitution,,0,0,214
+0022200785,293,PT03M18.00S,2,1610612765,DET,1631105,Duren,J. Duren,21,16,3,Made,1,56,54,110,h,Duren 3' Layup (6 PTS),Made Shot,Layup Shot,1,2,215
+0022200785,294,PT03M04.00S,2,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren S.FOUL (P3.PN) (M.Boland),Foul,Shooting,1,0,216
+0022200785,296,PT03M04.00S,2,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,56,55,111,v,Rozier Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,217
+0022200785,297,PT03M04.00S,2,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,SUB: Stewart FOR Duren,Substitution,,0,0,218
+0022200785,299,PT03M04.00S,2,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,56,56,112,v,Rozier Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,219
+0022200785,300,PT02M49.00S,2,1610612765,DET,1630191,Stewart,I. Stewart,25,26,4,Made,1,58,56,114,h,Stewart 4' Driving Dunk (4 PTS) (Hayes 3 AST),Made Shot,Driving Dunk Shot,1,2,220
+0022200785,302,PT02M36.00S,2,1610612766,CHA,1630163,Ball,L. Ball,225,203,30,Made,1,58,59,117,v,Ball 30' 3PT Pullup Jump Shot (13 PTS),Made Shot,Pullup Jump shot,1,3,221
+0022200785,303,PT02M13.00S,2,1610612765,DET,1631093,Ivey,J. Ivey,-241,34,24,Made,1,61,59,120,h,Ivey 24' 3PT Jump Shot (13 PTS) (Bogdanovic 2 AST),Made Shot,Jump Shot,1,3,222
+0022200785,305,PT02M03.00S,2,1610612765,DET,1631093,Ivey,J. Ivey,0,0,0,,0,,,0,h,Ivey P.FOUL (P3.PN) (J.Van Duyne),Foul,Personal,1,0,223
+0022200785,307,PT02M03.00S,2,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,61,60,121,v,Ball Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,0,0,224
+0022200785,308,PT02M03.00S,2,1610612765,DET,1631093,Ivey,J. Ivey,0,0,0,,0,,,0,h,SUB: Bey FOR Ivey,Substitution,,0,0,225
+0022200785,309,PT02M03.00S,2,1610612766,CHA,1630550,Thor,J. Thor,0,0,0,,0,,,0,v,SUB: Washington FOR Thor,Substitution,,0,0,226
+0022200785,312,PT02M03.00S,2,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,61,61,122,v,Ball Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,227
+0022200785,313,PT01M50.00S,2,1610612765,DET,202711,Bogdanović,B. Bogdanović,-94,257,27,Made,1,64,61,125,h,Bogdanovic 27' 3PT Jump Shot (17 PTS) (Hayes 4 AST),Made Shot,Jump Shot,1,3,228
+0022200785,315,PT01M37.00S,2,1610612766,CHA,1630163,Ball,L. Ball,165,271,32,Missed,1,,,0,v,MISS Ball 32' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,229
+0022200785,316,PT01M36.00S,2,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,v,Plumlee REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,230
+0022200785,317,PT01M31.00S,2,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart S.FOUL (P1.PN) (M.Boland),Foul,Shooting,1,0,231
+0022200785,319,PT01M31.00S,2,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,64,62,126,v,Plumlee Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,232
+0022200785,320,PT01M31.00S,2,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,64,63,127,v,Plumlee Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,233
+0022200785,321,PT01M21.00S,2,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,v,Washington S.FOUL (P1.T4) (M.Lindsay),Foul,Shooting,1,0,234
+0022200785,323,PT01M21.00S,2,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,65,63,128,h,Stewart Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,235
+0022200785,324,PT01M21.00S,2,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,v,SUB: Williams FOR Plumlee,Substitution,,0,0,236
+0022200785,326,PT01M21.00S,2,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,66,63,129,h,Stewart Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,237
+0022200785,327,PT01M08.00S,2,1610612766,CHA,1629667,McDaniels,J. McDaniels,-4,32,3,Made,1,66,65,131,v,McDaniels 3' Floating Jump Shot (8 PTS) (Washington 2 AST),Made Shot,Floating Jump shot,1,2,238
+0022200785,329,PT01M08.00S,2,1610612765,DET,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,Bogdanovic S.FOUL (P2.PN) (M.Lindsay),Foul,Shooting,1,0,239
+0022200785,331,PT01M08.00S,2,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,66,66,132,v,McDaniels Free Throw 1 of 1 (9 PTS),Free Throw,Free Throw 1 of 1,1,0,240
+0022200785,332,PT00M53.50S,2,1610612765,DET,202692,Burks,A. Burks,27,8,3,Made,1,68,66,134,h,Burks 3' Driving Layup (5 PTS),Made Shot,Driving Layup Shot,1,2,241
+0022200785,333,PT00M53.50S,2,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,Rozier S.FOUL (P1.PN) (M.Lindsay),Foul,Shooting,1,0,242
+0022200785,335,PT00M53.50S,2,1610612765,DET,202692,Burks,A. Burks,0,0,0,,0,69,66,135,h,Burks Free Throw 1 of 1 (6 PTS),Free Throw,Free Throw 1 of 1,1,0,243
+0022200785,336,PT00M33.60S,2,1610612766,CHA,1626179,Rozier,T. Rozier,12,3,1,Made,1,69,68,137,v,Rozier 1' Driving Layup (13 PTS),Made Shot,Driving Layup Shot,1,2,244
+0022200785,347,PT00M30.10S,2,1610612765,DET,1630165,Hayes,K. Hayes,0,0,0,,0,,,0,h,Hayes Lost Ball Turnover (P3.T12),Turnover,Lost Ball,1,0,245
+0022200785,347,PT00M30.10S,2,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,Rozier STEAL (1 STL),,,1,0,246
+0022200785,337,PT00M29.60S,2,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Jump Ball Stewart vs. Rozier: Tip to Rozier,Jump Ball,,0,0,247
+0022200785,342,PT00M08.90S,2,1610612766,CHA,1630163,Ball,L. Ball,69,125,14,Missed,1,,,0,v,MISS Ball 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,248
+0022200785,343,PT00M06.50S,2,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,,,0,h,Bey REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,249
+0022200785,344,PT00M00.00S,2,1610612765,DET,1630191,Stewart,I. Stewart,23,12,3,Missed,1,,,0,h,MISS Stewart 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,250
+0022200785,345,PT00M00.00S,2,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,251
+0022200785,346,PT00M00.00S,2,0,,0,,,0,0,0,,0,69,68,137,,End of 2nd Period (8:08 PM EST),period,end,1,0,252
+0022200785,357,PT12M00.00S,3,0,,0,,,0,0,0,,0,69,68,137,,Start of 3rd Period (8:24 PM EST),period,start,0,0,253
+0022200785,358,PT11M46.00S,3,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren Double Dribble Turnover (P4.T13),Turnover,Double Dribble,1,0,254
+0022200785,359,PT11M29.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,44,48,7,Made,1,69,70,139,v,Rozier 7' Driving Floating Jump Shot (15 PTS) (Washington 3 AST),Made Shot,Driving Floating Jump Shot,1,2,255
+0022200785,361,PT11M11.00S,3,1610612765,DET,1630191,Stewart,I. Stewart,-235,11,24,Missed,1,,,0,h,MISS Stewart 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,256
+0022200785,362,PT11M09.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,Rozier REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,257
+0022200785,363,PT11M00.00S,3,1610612766,CHA,1630163,Ball,L. Ball,-190,238,30,Missed,1,,,0,v,MISS Ball 30' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,258
+0022200785,364,PT10M55.00S,3,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,259
+0022200785,365,PT10M47.00S,3,1610612765,DET,1631093,Ivey,J. Ivey,138,237,27,Made,1,72,70,142,h,Ivey 27' 3PT Pullup Jump Shot (16 PTS),Made Shot,Pullup Jump shot,1,3,260
+0022200785,366,PT10M31.00S,3,1610612766,CHA,202330,Hayward,G. Hayward,0,0,0,,0,,,0,v,Hayward Traveling Turnover (P2.T6),Turnover,Traveling,1,0,261
+0022200785,367,PT10M12.00S,3,1610612765,DET,202711,Bogdanović,B. Bogdanović,4,53,5,Missed,1,,,0,h,MISS Bogdanovic 5' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,262
+0022200785,368,PT10M12.00S,3,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,263
+0022200785,369,PT10M04.00S,3,1610612765,DET,202692,Burks,A. Burks,17,-7,2,Made,1,74,70,144,h,Burks 2' Driving Layup (8 PTS) (Ivey 5 AST),Made Shot,Driving Layup Shot,1,2,264
+0022200785,371,PT09M51.00S,3,1610612766,CHA,1629023,Washington,P. Washington,-235,23,24,Missed,1,,,0,v,MISS Washington 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,265
+0022200785,372,PT09M48.00S,3,1610612765,DET,202692,Burks,A. Burks,0,0,0,,0,,,0,h,Burks REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,266
+0022200785,373,PT09M48.00S,3,1610612765,DET,202692,Burks,A. Burks,0,0,0,,0,,,0,h,Burks Out of Bounds Lost Ball Turnover (P1.T14),Turnover,Out of Bounds Lost Ball Turnover,1,0,267
+0022200785,374,PT09M41.00S,3,1610612765,DET,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,Bogdanovic S.FOUL (P3.T1) (M.Boland),Foul,Shooting,1,0,268
+0022200785,376,PT09M41.00S,3,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,74,71,145,v,Ball Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,1,0,269
+0022200785,377,PT09M41.00S,3,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,74,72,146,v,Ball Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,1,0,270
+0022200785,378,PT09M30.00S,3,1610612765,DET,1631093,Ivey,J. Ivey,17,6,2,Made,1,76,72,148,h,Ivey 2' Driving Layup (18 PTS),Made Shot,Driving Layup Shot,1,2,271
+0022200785,379,PT09M21.00S,3,1610612766,CHA,1630163,Ball,L. Ball,-183,262,32,Made,1,76,75,151,v,Ball 32' 3PT Jump Shot (20 PTS) (Hayward 1 AST),Made Shot,Jump Shot,1,3,272
+0022200785,381,PT09M00.00S,3,1610612765,DET,202692,Burks,A. Burks,131,235,27,Missed,1,,,0,h,MISS Burks 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,273
+0022200785,382,PT08M58.00S,3,1610612766,CHA,202330,Hayward,G. Hayward,0,0,0,,0,,,0,v,Hayward REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,274
+0022200785,383,PT08M50.00S,3,1610612766,CHA,202330,Hayward,G. Hayward,-13,65,7,Made,1,76,77,153,v,Hayward 7' Driving Floating Jump Shot (12 PTS) (Ball 5 AST),Made Shot,Driving Floating Jump Shot,1,2,275
+0022200785,385,PT08M33.00S,3,1610612765,DET,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,Bogdanovic Lost Ball Turnover (P2.T15),Turnover,Lost Ball,1,0,276
+0022200785,385,PT08M33.00S,3,1610612766,CHA,202330,Hayward,G. Hayward,0,0,0,,0,,,0,v,Hayward STEAL (1 STL),,,1,0,277
+0022200785,387,PT08M29.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,20,7,2,Made,1,76,79,155,v,Rozier 2' Layup (17 PTS) (Ball 6 AST),Made Shot,Layup Shot,1,2,278
+0022200785,389,PT08M29.00S,3,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,279
+0022200785,390,PT08M15.00S,3,1610612765,DET,202692,Burks,A. Burks,156,231,28,Missed,1,,,0,h,MISS Burks 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,280
+0022200785,391,PT08M13.00S,3,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,v,Plumlee REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,281
+0022200785,392,PT07M58.00S,3,1610612766,CHA,1629023,Washington,P. Washington,85,252,27,Missed,1,,,0,v,MISS Washington 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,282
+0022200785,393,PT07M56.00S,3,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,283
+0022200785,394,PT07M44.00S,3,1610612765,DET,1631105,Duren,J. Duren,-6,29,3,Made,1,78,79,157,h,Duren 3' Hook Shot (8 PTS) (Stewart 4 AST),Made Shot,Hook Shot,1,2,284
+0022200785,396,PT07M24.00S,3,1610612766,CHA,1629023,Washington,P. Washington,17,58,6,Missed,1,,,0,v,MISS Washington 6' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,285
+0022200785,397,PT07M22.00S,3,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,286
+0022200785,398,PT07M20.00S,3,1610612765,DET,1631093,Ivey,J. Ivey,22,8,2,Missed,1,,,0,h,MISS Ivey 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,287
+0022200785,399,PT07M17.00S,3,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,288
+0022200785,400,PT07M17.00S,3,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,Missed,1,,,0,h,MISS Stewart Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,289
+0022200785,401,PT07M15.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,Rozier REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,290
+0022200785,402,PT07M08.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,21,46,5,Made,1,78,81,159,v,Rozier 5' Floating Jump Shot (19 PTS),Made Shot,Floating Jump shot,1,2,291
+0022200785,403,PT06M44.00S,3,1610612765,DET,202711,Bogdanović,B. Bogdanović,148,248,29,Missed,1,,,0,h,MISS Bogdanovic 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,292
+0022200785,404,PT06M42.00S,3,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,293
+0022200785,405,PT06M36.00S,3,1610612766,CHA,203486,Plumlee,M. Plumlee,17,16,2,Missed,1,,,0,v,MISS Plumlee 2' Layup,Missed Shot,Layup Shot,1,2,294
+0022200785,407,PT06M33.00S,3,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,v,Washington REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,295
+0022200785,408,PT06M33.00S,3,1610612766,CHA,1629023,Washington,P. Washington,-1,47,5,Missed,1,,,0,v,MISS Washington 5' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,296
+0022200785,409,PT06M32.00S,3,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Rebound,Rebound,Unknown,0,0,297
+0022200785,411,PT06M30.00S,3,1610612766,CHA,202330,Hayward,G. Hayward,0,0,0,,0,,,0,v,Hayward Bad Pass Turnover (P3.T7),Turnover,Bad Pass,1,0,298
+0022200785,411,PT06M30.00S,3,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren STEAL (1 STL),,,1,0,299
+0022200785,413,PT06M25.00S,3,1610612765,DET,1630191,Stewart,I. Stewart,12,20,2,Missed,1,,,0,h,MISS Stewart 2' Layup,Missed Shot,Layup Shot,1,2,300
+0022200785,414,PT06M22.00S,3,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:4 Def:7),Rebound,Unknown,1,0,301
+0022200785,415,PT06M20.00S,3,1610612765,DET,202692,Burks,A. Burks,156,208,26,Made,1,81,81,162,h,Burks 26' 3PT Jump Shot (11 PTS) (Stewart 5 AST),Made Shot,Jump Shot,1,3,302
+0022200785,417,PT05M59.00S,3,1610612766,CHA,1629023,Washington,P. Washington,17,37,4,Missed,1,,,0,v,MISS Washington 4' Layup,Missed Shot,Layup Shot,1,2,303
+0022200785,418,PT05M57.00S,3,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,304
+0022200785,419,PT05M53.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,-237,-5,24,Made,1,81,84,165,v,Rozier 24' 3PT Jump Shot (22 PTS) (Ball 7 AST),Made Shot,Jump Shot,1,3,305
+0022200785,421,PT05M33.00S,3,1610612765,DET,1630191,Stewart,I. Stewart,181,195,27,Missed,1,,,0,h,MISS Stewart 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,306
+0022200785,422,PT05M31.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,Rozier REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,307
+0022200785,423,PT05M27.00S,3,1610612766,CHA,1630163,Ball,L. Ball,-163,272,32,Missed,1,,,0,v,MISS Ball 32' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,308
+0022200785,424,PT05M23.00S,3,1610612765,DET,202692,Burks,A. Burks,0,0,0,,0,,,0,h,Burks REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,309
+0022200785,425,PT05M10.00S,3,1610612765,DET,202692,Burks,A. Burks,23,5,2,Made,1,83,84,167,h,Burks 2' Driving Layup (13 PTS),Made Shot,Driving Layup Shot,1,2,310
+0022200785,426,PT04M56.00S,3,1610612766,CHA,202330,Hayward,G. Hayward,0,0,0,,0,,,0,v,Hayward Traveling Turnover (P4.T8),Turnover,Traveling,1,0,311
+0022200785,427,PT04M56.00S,3,1610612765,DET,202692,Burks,A. Burks,0,0,0,,0,,,0,h,SUB: Hayes FOR Burks,Substitution,,0,0,312
+0022200785,428,PT04M56.00S,3,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,SUB: Bey FOR Stewart,Substitution,,0,0,313
+0022200785,429,PT04M56.00S,3,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,SUB: McDaniels FOR Ball,Substitution,,0,0,314
+0022200785,430,PT04M56.00S,3,1610612766,CHA,202330,Hayward,G. Hayward,0,0,0,,0,,,0,v,SUB: Smith Jr. FOR Hayward,Substitution,,0,0,315
+0022200785,435,PT04M41.00S,3,1610612765,DET,202711,Bogdanović,B. Bogdanović,92,132,16,Missed,1,,,0,h,MISS Bogdanovic 16' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,316
+0022200785,436,PT04M38.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,Rozier REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,317
+0022200785,437,PT04M32.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,-36,12,4,Missed,1,,,0,v,MISS Rozier 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,318
+0022200785,439,PT04M32.00S,3,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,v,Plumlee REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,319
+0022200785,440,PT04M32.00S,3,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,,,0,h,Bey P.FOUL (P1.T2) (M.Boland),Foul,Personal,1,0,320
+0022200785,442,PT04M24.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,-202,186,27,Missed,1,,,0,v,MISS Rozier 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,321
+0022200785,443,PT04M21.00S,3,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,322
+0022200785,444,PT04M10.00S,3,1610612765,DET,1631105,Duren,J. Duren,39,11,4,Made,1,85,84,169,h,Duren 4' Hook Shot (10 PTS) (Ivey 6 AST),Made Shot,Hook Shot,1,2,323
+0022200785,446,PT03M53.00S,3,1610612766,CHA,203486,Plumlee,M. Plumlee,-1,26,3,Made,1,85,86,171,v,Plumlee 3' Driving Dunk (8 PTS),Made Shot,Driving Dunk Shot,1,2,324
+0022200785,447,PT03M48.00S,3,1610612765,DET,1631093,Ivey,J. Ivey,-2,25,3,Missed,1,,,0,h,MISS Ivey 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,325
+0022200785,447,PT03M48.00S,3,1610612766,CHA,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. BLOCK (1 BLK),,,1,2,326
+0022200785,449,PT03M48.00S,3,1610612766,CHA,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,327
+0022200785,450,PT03M38.00S,3,1610612766,CHA,203486,Plumlee,M. Plumlee,18,12,2,Missed,1,,,0,v,MISS Plumlee 2' Layup,Missed Shot,Layup Shot,1,2,328
+0022200785,451,PT03M32.00S,3,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,,,0,h,Bey REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,329
+0022200785,452,PT03M32.00S,3,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,,,0,h,Bey Bad Pass Turnover (P1.T16),Turnover,Bad Pass,1,0,330
+0022200785,452,PT03M32.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,Rozier STEAL (2 STL),,,1,0,331
+0022200785,454,PT03M28.00S,3,1610612766,CHA,1629667,McDaniels,J. McDaniels,-238,7,24,Missed,1,,,0,v,MISS McDaniels 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,332
+0022200785,455,PT03M25.00S,3,1610612765,DET,1631093,Ivey,J. Ivey,0,0,0,,0,,,0,h,Ivey REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,333
+0022200785,456,PT03M20.00S,3,1610612765,DET,202711,Bogdanović,B. Bogdanović,239,30,24,Missed,1,,,0,h,MISS Bogdanovic 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,334
+0022200785,457,PT03M20.00S,3,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,1,0,335
+0022200785,459,PT03M20.00S,3,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,SUB: Livers FOR Duren,Substitution,,0,0,336
+0022200785,460,PT03M20.00S,3,1610612765,DET,1631093,Ivey,J. Ivey,0,0,0,,0,,,0,h,SUB: Stewart FOR Ivey,Substitution,,0,0,337
+0022200785,461,PT03M20.00S,3,1610612765,DET,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,SUB: Diallo FOR Bogdanovic,Substitution,,0,0,338
+0022200785,462,PT03M20.00S,3,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,v,SUB: Richards FOR Plumlee,Substitution,,0,0,339
+0022200785,463,PT03M20.00S,3,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,v,SUB: Thor FOR Washington,Substitution,,0,0,340
+0022200785,469,PT03M16.00S,3,1610612765,DET,1630180,Bey,S. Bey,235,29,24,Made,1,88,86,174,h,Bey 24' 3PT Jump Shot (12 PTS) (Hayes 5 AST),Made Shot,Jump Shot,1,3,341
+0022200785,471,PT02M58.00S,3,1610612765,DET,1628977,Diallo,H. Diallo,0,0,0,,0,,,0,h,Diallo P.FOUL (P2.T3) (M.Boland),Foul,Personal,1,0,342
+0022200785,473,PT02M58.00S,3,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,343
+0022200785,474,PT02M55.00S,3,1610612766,CHA,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. Bad Pass Turnover (P1.T9),Turnover,Bad Pass,1,0,344
+0022200785,474,PT02M55.00S,3,1610612765,DET,1628977,Diallo,H. Diallo,0,0,0,,0,,,0,h,Diallo STEAL (2 STL),,,1,0,345
+0022200785,476,PT02M34.00S,3,1610612765,DET,1630165,Hayes,K. Hayes,-7,127,13,Missed,1,,,0,h,MISS Hayes 13' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,346
+0022200785,477,PT02M32.00S,3,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:5 Def:7),Rebound,Unknown,1,0,347
+0022200785,478,PT02M25.00S,3,1610612765,DET,1630165,Hayes,K. Hayes,26,256,26,Missed,1,,,0,h,MISS Hayes 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,348
+0022200785,479,PT02M22.00S,3,1610612766,CHA,1630208,Richards,N. Richards,0,0,0,,0,,,0,v,Richards REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,349
+0022200785,480,PT02M14.00S,3,1610612766,CHA,1628372,Smith Jr.,D. Smith Jr.,-16,169,17,Made,1,88,88,176,v,Smith Jr. 17' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,350
+0022200785,481,PT01M52.00S,3,1610612765,DET,1630587,Livers,I. Livers,0,0,0,,0,,,0,h,Livers Bad Pass Turnover (P3.T17),Turnover,Bad Pass,1,0,351
+0022200785,481,PT01M52.00S,3,1610612766,CHA,1630550,Thor,J. Thor,0,0,0,,0,,,0,v,Thor STEAL (1 STL),,,1,0,352
+0022200785,483,PT01M43.00S,3,1610612766,CHA,1629667,McDaniels,J. McDaniels,20,36,4,Made,1,88,90,178,v,McDaniels 4' Driving Layup (11 PTS),Made Shot,Driving Layup Shot,1,2,353
+0022200785,484,PT01M25.00S,3,1610612765,DET,1630191,Stewart,I. Stewart,-17,17,2,Made,1,90,90,180,h,Stewart 2' Driving Layup (8 PTS),Made Shot,Driving Layup Shot,1,2,354
+0022200785,485,PT01M05.00S,3,1610612765,DET,1630165,Hayes,K. Hayes,0,0,0,,0,,,0,h,Hayes S.FOUL (P2.T4) (J.Van Duyne),Foul,Shooting,1,0,355
+0022200785,487,PT01M05.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,90,91,181,v,Rozier Free Throw 1 of 2 (23 PTS),Free Throw,Free Throw 1 of 2,1,0,356
+0022200785,488,PT01M05.00S,3,1610612766,CHA,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,MISS Rozier Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,357
+0022200785,489,PT01M02.00S,3,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:5 Def:8),Rebound,Unknown,1,0,358
+0022200785,490,PT00M45.60S,3,1610612765,DET,1630180,Bey,S. Bey,-66,53,8,Made,1,92,91,183,h,Bey 8' Fadeaway Jumper (14 PTS),Made Shot,Fadeaway Jump Shot,1,2,359
+0022200785,491,PT00M36.80S,3,1610612766,CHA,1626179,Rozier,T. Rozier,219,160,27,Missed,1,,,0,v,MISS Rozier 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,360
+0022200785,492,PT00M34.00S,3,1610612766,CHA,1630208,Richards,N. Richards,0,0,0,,0,,,0,v,Richards REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,361
+0022200785,493,PT00M29.80S,3,1610612766,CHA,1629667,McDaniels,J. McDaniels,-91,265,28,Made,1,92,94,186,v,McDaniels 28' 3PT Jump Shot (14 PTS) (Smith Jr. 3 AST),Made Shot,Jump Shot,1,3,362
+0022200785,495,PT00M03.90S,3,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Turnover: Shot Clock (T#18),Turnover,Shot Clock Turnover,1,0,363
+0022200785,496,PT00M02.40S,3,1610612766,CHA,1630550,Thor,J. Thor,-197,217,29,Missed,1,,,0,v,MISS Thor 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,364
+0022200785,497,PT00M00.30S,3,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:5 Def:9),Rebound,Unknown,1,0,365
+0022200785,498,PT00M00.00S,3,0,,0,,,0,0,0,,0,92,94,186,,End of 3rd Period (8:47 PM EST),period,end,1,0,366
+0022200785,505,PT12M00.00S,4,0,,0,,,0,0,0,,0,92,94,186,,Start of 4th Period (8:49 PM EST),period,start,0,0,367
+0022200785,506,PT11M38.00S,4,1610612766,CHA,1630163,Ball,L. Ball,-103,201,23,Missed,1,,,0,v,MISS Ball 23' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,368
+0022200785,507,PT11M34.00S,4,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:5 Def:10),Rebound,Unknown,1,0,369
+0022200785,508,PT11M17.00S,4,1610612765,DET,1630180,Bey,S. Bey,-235,6,24,Made,1,95,94,189,h,Bey 24' 3PT Jump Shot (17 PTS) (Stewart 6 AST),Made Shot,Jump Shot,1,3,370
+0022200785,510,PT11M05.00S,4,1610612766,CHA,1628372,Smith Jr.,D. Smith Jr.,-1,31,3,Made,1,95,96,191,v,Smith Jr. 3' Driving Floating Jump Shot (4 PTS) (Ball 8 AST),Made Shot,Driving Floating Jump Shot,1,2,371
+0022200785,512,PT10M55.00S,4,1610612765,DET,1630165,Hayes,K. Hayes,-44,10,5,Missed,1,,,0,h,MISS Hayes 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,372
+0022200785,513,PT10M52.00S,4,1610612766,CHA,1630208,Richards,N. Richards,0,0,0,,0,,,0,v,Richards REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,373
+0022200785,514,PT10M49.00S,4,1610612766,CHA,1629023,Washington,P. Washington,-25,12,3,Missed,1,,,0,v,MISS Washington 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,374
+0022200785,515,PT10M48.00S,4,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:5 Def:11),Rebound,Unknown,1,0,375
+0022200785,518,PT10M38.00S,4,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball S.FOUL (P2.T1) (M.Lindsay),Foul,Shooting,1,0,376
+0022200785,520,PT10M38.00S,4,1610612765,DET,1628977,Diallo,H. Diallo,0,0,0,,0,,,0,h,MISS Diallo Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,377
+0022200785,521,PT10M38.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Normal Rebound,0,0,378
+0022200785,522,PT10M38.00S,4,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,SUB: Duren FOR Stewart,Substitution,,0,0,379
+0022200785,524,PT10M38.00S,4,1610612765,DET,1628977,Diallo,H. Diallo,0,0,0,,0,,,0,h,MISS Diallo Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,380
+0022200785,525,PT10M38.00S,4,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Rebound,Rebound,Unknown,0,0,381
+0022200785,526,PT10M25.00S,4,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball Bad Pass Turnover (P3.T10),Turnover,Bad Pass,1,0,382
+0022200785,526,PT10M25.00S,4,1610612765,DET,1630587,Livers,I. Livers,0,0,0,,0,,,0,h,Livers STEAL (1 STL),,,1,0,383
+0022200785,528,PT10M11.00S,4,1610612765,DET,1628977,Diallo,H. Diallo,-1,21,2,Made,1,97,96,193,h,Diallo 2' Finger Roll Layup (7 PTS) (Bey 2 AST),Made Shot,Finger Roll Layup Shot,1,2,384
+0022200785,530,PT10M11.00S,4,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball S.FOUL (P3.T2) (J.Van Duyne),Foul,Shooting,1,0,385
+0022200785,532,PT10M11.00S,4,1610612765,DET,1628977,Diallo,H. Diallo,0,0,0,,0,,,0,h,MISS Diallo Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,386
+0022200785,533,PT10M08.00S,4,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,v,Washington REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,387
+0022200785,534,PT09M50.00S,4,1610612766,CHA,1628372,Smith Jr.,D. Smith Jr.,-21,5,2,Made,1,97,98,195,v,Smith Jr. 2' Driving Dunk (6 PTS),Made Shot,Driving Dunk Shot,1,2,388
+0022200785,535,PT09M45.00S,4,1610612765,DET,1630587,Livers,I. Livers,0,0,0,,0,,,0,h,Livers Bad Pass Turnover (P4.T19),Turnover,Bad Pass,0,0,389
+0022200785,535,PT09M45.00S,4,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball STEAL (4 STL),,,0,0,390
+0022200785,537,PT09M42.00S,4,1610612766,CHA,1628372,Smith Jr.,D. Smith Jr.,-9,12,2,Missed,1,,,0,v,MISS Smith Jr. 2' Layup,Missed Shot,Layup Shot,1,2,391
+0022200785,538,PT09M40.00S,4,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,392
+0022200785,539,PT09M24.00S,4,1610612765,DET,1630587,Livers,I. Livers,235,82,25,Missed,1,,,0,h,MISS Livers 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,393
+0022200785,540,PT09M24.00S,4,1610612766,CHA,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,394
+0022200785,541,PT09M08.00S,4,1610612766,CHA,1630163,Ball,L. Ball,10,71,7,Missed,1,,,0,v,MISS Ball 7' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,395
+0022200785,542,PT09M08.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,396
+0022200785,543,PT09M08.00S,4,1610612766,CHA,1630208,Richards,N. Richards,0,0,0,,0,,,0,v,Richards L.B.FOUL (P4.T3) (J.Van Duyne),Foul,Loose Ball,1,0,397
+0022200785,545,PT08M59.00S,4,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren OFF.Foul (P4) (J.Van Duyne),Foul,Offensive,1,0,398
+0022200785,547,PT08M59.00S,4,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren Offensive Foul Turnover (P5.T20),Turnover,Offensive Foul Turnover,1,0,399
+0022200785,548,PT08M53.00S,4,1610612766,CHA,1630208,Richards,N. Richards,0,0,0,,0,,,0,v,Richards OFF.Foul (P5) (M.Boland),Foul,Offensive,1,0,400
+0022200785,550,PT08M53.00S,4,1610612766,CHA,1630208,Richards,N. Richards,0,0,0,,0,,,0,v,Richards Offensive Foul Turnover (P1.T11),Turnover,Offensive Foul Turnover,1,0,401
+0022200785,551,PT08M53.00S,4,1610612766,CHA,1630208,Richards,N. Richards,0,0,0,,0,,,0,v,SUB: Plumlee FOR Richards,Substitution,,0,0,402
+0022200785,553,PT08M34.00S,4,1610612765,DET,1630587,Livers,I. Livers,0,0,0,,0,,,0,h,Livers Bad Pass Turnover (P5.T21),Turnover,Bad Pass,1,0,403
+0022200785,553,PT08M34.00S,4,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball STEAL (5 STL),,,1,0,404
+0022200785,555,PT08M31.00S,4,1610612766,CHA,1628372,Smith Jr.,D. Smith Jr.,25,10,3,Made,1,97,100,197,v,Smith Jr. 3' Running Layup (8 PTS) (Hayward 2 AST),Made Shot,Running Layup Shot,1,2,405
+0022200785,557,PT08M31.00S,4,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,,,0,h,Bey S.FOUL (P2.T1) (M.Lindsay),Foul,Shooting,1,0,406
+0022200785,559,PT08M31.00S,4,1610612766,CHA,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,97,101,198,v,Smith Jr. Free Throw 1 of 1 (9 PTS),Free Throw,Free Throw 1 of 1,1,0,407
+0022200785,560,PT08M31.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,408
+0022200785,562,PT08M31.00S,4,1610612765,DET,1630587,Livers,I. Livers,0,0,0,,0,,,0,h,SUB: Bogdanovic FOR Livers,Substitution,,0,0,409
+0022200785,564,PT08M07.00S,4,1610612765,DET,1630180,Bey,S. Bey,169,241,29,Missed,1,,,0,h,MISS Bey 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,410
+0022200785,565,PT08M04.00S,4,1610612766,CHA,202330,Hayward,G. Hayward,0,0,0,,0,,,0,v,Hayward REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,411
+0022200785,566,PT07M50.00S,4,1610612766,CHA,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. Bad Pass Turnover (P2.T12),Turnover,Bad Pass,1,0,412
+0022200785,566,PT07M50.00S,4,1610612765,DET,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,Bogdanovic STEAL (1 STL),,,1,0,413
+0022200785,568,PT07M44.00S,4,1610612765,DET,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,Bogdanovic Lost Ball Turnover (P3.T22),Turnover,Lost Ball,1,0,414
+0022200785,568,PT07M44.00S,4,1610612766,CHA,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. STEAL (2 STL),,,1,0,415
+0022200785,571,PT07M44.00S,4,1610612766,CHA,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. Out of Bounds - Bad Pass Turnover Turnover (P3.T13),Turnover,Out of Bounds - Bad Pass Turnover,1,0,416
+0022200785,572,PT07M32.00S,4,1610612765,DET,1628977,Diallo,H. Diallo,-28,-5,3,Missed,1,,,0,h,MISS Diallo 3' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,417
+0022200785,573,PT07M32.00S,4,1610612766,CHA,202330,Hayward,G. Hayward,0,0,0,,0,,,0,v,Hayward REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,418
+0022200785,575,PT07M12.00S,4,1610612766,CHA,1629023,Washington,P. Washington,-28,267,27,Made,1,97,104,201,v,Washington 27' 3PT Jump Shot (7 PTS) (Plumlee 5 AST),Made Shot,Jump Shot,1,3,419
+0022200785,577,PT06M55.00S,4,1610612765,DET,1630180,Bey,S. Bey,-237,16,24,Missed,1,,,0,h,MISS Bey 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,420
+0022200785,578,PT06M52.00S,4,1610612766,CHA,202330,Hayward,G. Hayward,0,0,0,,0,,,0,v,Hayward REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,421
+0022200785,579,PT06M33.00S,4,1610612766,CHA,1629023,Washington,P. Washington,-202,176,27,Missed,1,,,0,v,MISS Washington 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,422
+0022200785,580,PT06M29.00S,4,1610612765,DET,1630165,Hayes,K. Hayes,0,0,0,,0,,,0,h,Hayes REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,423
+0022200785,581,PT06M19.00S,4,1610612765,DET,1630180,Bey,S. Bey,-12,31,3,Missed,1,,,0,h,MISS Bey 3' Layup,Missed Shot,Layup Shot,1,2,424
+0022200785,582,PT06M16.00S,4,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,,,0,h,Bey REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,425
+0022200785,583,PT06M16.00S,4,1610612765,DET,1630180,Bey,S. Bey,-11,24,3,Made,1,99,104,203,h,Bey 3' Putback Layup (19 PTS),Made Shot,Putback Layup Shot,1,2,426
+0022200785,584,PT06M04.00S,4,1610612765,DET,1630165,Hayes,K. Hayes,0,0,0,,0,,,0,h,Hayes S.FOUL (P3.T2) (J.Van Duyne),Foul,Shooting,1,0,427
+0022200785,586,PT06M04.00S,4,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,v,MISS Plumlee Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,428
+0022200785,587,PT06M04.00S,4,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Rebound,Rebound,Normal Rebound,0,0,429
+0022200785,588,PT06M04.00S,4,1610612765,DET,1628977,Diallo,H. Diallo,0,0,0,,0,,,0,h,SUB: Ivey FOR Diallo,Substitution,,0,0,430
+0022200785,589,PT06M04.00S,4,1610612765,DET,1630165,Hayes,K. Hayes,0,0,0,,0,,,0,h,SUB: Burks FOR Hayes,Substitution,,0,0,431
+0022200785,590,PT06M04.00S,4,1610612766,CHA,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,SUB: Rozier FOR Smith Jr.,Substitution,,0,0,432
+0022200785,594,PT06M04.00S,4,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,99,105,204,v,Plumlee Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,433
+0022200785,595,PT05M51.00S,4,1610612766,CHA,202330,Hayward,G. Hayward,0,0,0,,0,,,0,v,Hayward P.FOUL (P1.T4) (M.Lindsay),Foul,Personal,1,0,434
+0022200785,597,PT05M44.00S,4,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,v,Plumlee P.FOUL (P3.PN) (J.Van Duyne),Foul,Personal,1,0,435
+0022200785,599,PT05M44.00S,4,1610612765,DET,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,MISS Bogdanovic Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,436
+0022200785,600,PT05M44.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Normal Rebound,0,0,437
+0022200785,601,PT05M44.00S,4,1610612765,DET,202711,Bogdanović,B. Bogdanović,0,0,0,,0,100,105,205,h,Bogdanovic Free Throw 2 of 2 (18 PTS),Free Throw,Free Throw 2 of 2,1,0,438
+0022200785,603,PT05M22.00S,4,1610612766,CHA,202330,Hayward,G. Hayward,-78,53,9,Missed,1,,,0,v,MISS Hayward 9' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,439
+0022200785,604,PT05M20.00S,4,1610612765,DET,1631093,Ivey,J. Ivey,0,0,0,,0,,,0,h,Ivey REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,440
+0022200785,605,PT05M16.00S,4,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball S.FOUL (P4.PN) (M.Boland),Foul,Shooting,1,0,441
+0022200785,607,PT05M16.00S,4,1610612765,DET,1631093,Ivey,J. Ivey,0,0,0,,0,101,105,206,h,Ivey Free Throw 1 of 2 (19 PTS),Free Throw,Free Throw 1 of 2,1,0,442
+0022200785,608,PT05M16.00S,4,1610612766,CHA,202330,Hayward,G. Hayward,0,0,0,,0,,,0,v,SUB: McDaniels FOR Hayward,Substitution,,0,0,443
+0022200785,610,PT05M16.00S,4,1610612765,DET,1631093,Ivey,J. Ivey,0,0,0,,0,102,105,207,h,Ivey Free Throw 2 of 2 (20 PTS),Free Throw,Free Throw 2 of 2,1,0,444
+0022200785,611,PT04M57.00S,4,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,,,0,h,Bey S.FOUL (P3.T3) (M.Boland),Foul,Shooting,1,0,445
+0022200785,613,PT04M57.00S,4,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,v,MISS Plumlee Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,446
+0022200785,614,PT04M57.00S,4,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Rebound,Rebound,Normal Rebound,0,0,447
+0022200785,615,PT04M57.00S,4,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,v,MISS Plumlee Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,448
+0022200785,616,PT04M54.00S,4,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,,,0,h,Bey REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,449
+0022200785,617,PT04M38.00S,4,1610612765,DET,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,Bogdanovic Lost Ball Turnover (P4.T23),Turnover,Lost Ball,1,0,450
+0022200785,617,PT04M38.00S,4,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels STEAL (4 STL),,,1,0,451
+0022200785,619,PT04M31.00S,4,1610612765,DET,202692,Burks,A. Burks,0,0,0,,0,,,0,h,Burks S.FOUL (P1.T4) (J.Van Duyne),Foul,Shooting,1,0,452
+0022200785,621,PT04M31.00S,4,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,102,106,208,v,Plumlee Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,453
+0022200785,622,PT04M31.00S,4,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,v,MISS Plumlee Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,454
+0022200785,623,PT04M29.00S,4,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren REBOUND (Off:1 Def:10),Rebound,Unknown,1,0,455
+0022200785,624,PT04M04.00S,4,1610612765,DET,1631093,Ivey,J. Ivey,37,43,6,Made,1,104,106,210,h,Ivey 6' Driving Floating Jump Shot (22 PTS),Made Shot,Driving Floating Jump Shot,1,2,456
+0022200785,625,PT03M45.00S,4,1610612766,CHA,1629023,Washington,P. Washington,156,204,26,Missed,1,,,0,v,MISS Washington 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,457
+0022200785,626,PT03M43.00S,4,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren REBOUND (Off:1 Def:11),Rebound,Unknown,1,0,458
+0022200785,627,PT03M22.00S,4,1610612765,DET,1630180,Bey,S. Bey,-48,27,6,Missed,1,,,0,h,MISS Bey 6' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,459
+0022200785,628,PT03M20.00S,4,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,Duren REBOUND (Off:2 Def:11),Rebound,Unknown,1,0,460
+0022200785,629,PT03M18.00S,4,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,v,Plumlee S.FOUL (P4.PN) (M.Boland),Foul,Shooting,1,0,461
+0022200785,631,PT03M18.00S,4,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,462
+0022200785,632,PT03M18.00S,4,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,,,0,h,MISS Duren Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,463
+0022200785,633,PT03M18.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Normal Rebound,0,0,464
+0022200785,634,PT03M18.00S,4,1610612765,DET,1631105,Duren,J. Duren,0,0,0,,0,105,106,211,h,Duren Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,465
+0022200785,635,PT02M56.00S,4,1610612766,CHA,1626179,Rozier,T. Rozier,-241,41,24,Missed,1,,,0,v,MISS Rozier 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,466
+0022200785,636,PT02M53.00S,4,1610612765,DET,202692,Burks,A. Burks,0,0,0,,0,,,0,h,Burks REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,467
+0022200785,638,PT02M34.00S,4,1610612765,DET,202711,Bogdanović,B. Bogdanović,-238,34,24,Made,1,108,106,214,h,Bogdanovic 24' 3PT Step Back Jump Shot (21 PTS) (Burks 2 AST),Made Shot,Step Back Jump shot,1,3,468
+0022200785,640,PT02M16.00S,4,1610612766,CHA,203486,Plumlee,M. Plumlee,-62,21,7,Made,1,108,108,216,v,Plumlee 7' Jump Bank Shot (12 PTS),Made Shot,Jump Bank Shot,1,2,469
+0022200785,641,PT02M02.00S,4,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball L.B.FOUL (P5.PN) (M.Boland),Foul,Loose Ball,1,0,470
+0022200785,643,PT02M02.00S,4,1610612765,DET,1631093,Ivey,J. Ivey,0,0,0,,0,109,108,217,h,Ivey Free Throw 1 of 2 (23 PTS),Free Throw,Free Throw 1 of 2,1,0,471
+0022200785,644,PT02M02.00S,4,1610612765,DET,1631093,Ivey,J. Ivey,0,0,0,,0,110,108,218,h,Ivey Free Throw 2 of 2 (24 PTS),Free Throw,Free Throw 2 of 2,1,0,472
+0022200785,645,PT01M47.00S,4,1610612766,CHA,1626179,Rozier,T. Rozier,-221,157,27,Missed,1,,,0,v,MISS Rozier 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,473
+0022200785,646,PT01M47.00S,4,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Rebound,Rebound,Unknown,1,0,474
+0022200785,647,PT01M47.00S,4,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,,,0,h,Bey L.B.FOUL (P4.PN) (J.Van Duyne),Foul,Loose Ball,1,0,475
+0022200785,649,PT01M47.00S,4,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,v,MISS Plumlee Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,476
+0022200785,650,PT01M47.00S,4,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Rebound,Rebound,Normal Rebound,0,0,477
+0022200785,651,PT01M47.00S,4,1610612766,CHA,203486,Plumlee,M. Plumlee,0,0,0,,0,110,109,219,v,Plumlee Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,478
+0022200785,652,PT01M32.00S,4,1610612765,DET,1631105,Duren,J. Duren,-32,1,3,Made,1,112,109,221,h,Duren 3' Cutting Layup Shot (13 PTS) (Ivey 7 AST),Made Shot,Cutting Layup Shot,1,2,479
+0022200785,654,PT01M24.00S,4,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,480
+0022200785,655,PT01M20.00S,4,1610612766,CHA,1630163,Ball,L. Ball,23,13,3,Made,1,112,111,223,v,Ball 3' Driving Finger Roll Layup (22 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,481
+0022200785,656,PT01M20.00S,4,1610612765,DET,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,Bogdanovic S.FOUL (P4.PN) (M.Lindsay),Foul,Shooting,1,0,482
+0022200785,658,PT01M20.00S,4,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,112,112,224,v,Ball Free Throw 1 of 1 (23 PTS),Free Throw,Free Throw 1 of 1,1,0,483
+0022200785,659,PT01M04.00S,4,1610612765,DET,1631105,Duren,J. Duren,-9,13,2,Missed,1,,,0,h,MISS Duren 2' Layup,Missed Shot,Layup Shot,1,2,484
+0022200785,660,PT01M04.00S,4,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Rebound,Rebound,Unknown,0,0,485
+0022200785,662,PT00M48.30S,4,1610612766,CHA,1629023,Washington,P. Washington,26,4,3,Missed,1,,,0,v,MISS Washington 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,486
+0022200785,663,PT00M44.40S,4,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,,,0,h,Bey REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,487
+0022200785,664,PT00M32.10S,4,1610612765,DET,1630180,Bey,S. Bey,234,15,0,Made,1,115,112,227,h,Bey 3PT Jump Shot (22 PTS) (Duren 2 AST),Made Shot,Jump Shot,1,3,488
+0022200785,666,PT00M32.10S,4,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,489
+0022200785,667,PT00M32.10S,4,1610612765,DET,1631093,Ivey,J. Ivey,0,0,0,,0,,,0,h,SUB: Livers FOR Ivey,Substitution,,0,0,490
+0022200785,669,PT00M32.10S,4,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Turnover: 5 Second Violation (T#14),Turnover,5 Second Violation,1,0,491
+0022200785,670,PT00M32.10S,4,1610612765,DET,1630587,Livers,I. Livers,0,0,0,,0,,,0,h,SUB: Ivey FOR Livers,Substitution,,0,0,492
+0022200785,672,PT00M26.40S,4,1610612766,CHA,1629023,Washington,P. Washington,0,0,0,,0,,,0,v,Washington Personal Take Foul (P2.PN) (M.Lindsay),Foul,Personal Take,1,0,493
+0022200785,674,PT00M26.40S,4,1610612765,DET,202692,Burks,A. Burks,0,0,0,,0,116,112,228,h,Burks Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,494
+0022200785,675,PT00M26.40S,4,1610612765,DET,202692,Burks,A. Burks,0,0,0,,0,117,112,229,h,Burks Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,495
+0022200785,676,PT00M23.40S,4,1610612766,CHA,1630163,Ball,L. Ball,114,291,31,Missed,1,,,0,v,MISS Ball 31' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,496
+0022200785,677,PT00M20.90S,4,1610612765,DET,202692,Burks,A. Burks,0,0,0,,0,,,0,h,Burks REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,497
+0022200785,678,PT00M15.20S,4,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,Ball Personal Take Foul (P6.PN) (M.Boland),Foul,Personal Take,1,0,498
+0022200785,680,PT00M15.20S,4,1610612766,CHA,1630163,Ball,L. Ball,0,0,0,,0,,,0,v,SUB: Smith Jr. FOR Ball,Substitution,,0,0,499
+0022200785,682,PT00M15.20S,4,1610612765,DET,202692,Burks,A. Burks,0,0,0,,0,118,112,230,h,Burks Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,1,0,500
+0022200785,683,PT00M15.20S,4,1610612765,DET,202692,Burks,A. Burks,0,0,0,,0,,,0,h,MISS Burks Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,501
+0022200785,684,PT00M13.00S,4,1610612766,CHA,1629667,McDaniels,J. McDaniels,0,0,0,,0,,,0,v,McDaniels REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,502
+0022200785,685,PT00M06.10S,4,1610612766,CHA,1626179,Rozier,T. Rozier,148,226,27,Missed,1,,,0,v,MISS Rozier 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,503
+0022200785,686,PT00M05.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,504
+0022200785,688,PT00M00.00S,4,0,,0,,,0,0,0,,0,118,112,230,,End of 4th Period (9:28 PM EST),period,end,1,0,505

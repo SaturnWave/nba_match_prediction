@@ -1,0 +1,577 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022100799,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (8:41 PM EST),period,start,0,0,1
+0022100799,4,PT12M00.00S,1,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Jump Ball Davis vs. Robinson: Tip to James,Jump Ball,,1,0,2
+0022100799,7,PT11M37.00S,1,1610612747,LAL,201566,Westbrook,R. Westbrook,0,0,0,,0,,,0,h,Westbrook Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,3
+0022100799,7,PT11M37.00S,1,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson STEAL (1 STL),,,1,0,4
+0022100799,9,PT11M30.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,224,2,0,Made,1,0,3,3,v,Barrett 3PT Running Jump Shot (3 PTS) (Walker 1 AST),Made Shot,Running Jump Shot,1,3,5
+0022100799,11,PT11M10.00S,1,1610612747,LAL,1628370,Monk,M. Monk,0,0,0,,0,,,0,h,Monk Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,6
+0022100799,11,PT11M10.00S,1,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson STEAL (2 STL),,,1,0,7
+0022100799,13,PT11M04.00S,1,1610612752,NYK,203095,Fournier,E. Fournier,185,158,24,Made,1,0,6,6,v,Fournier 24' 3PT Running Jump Shot (3 PTS) (Barrett 1 AST),Made Shot,Running Jump Shot,1,3,8
+0022100799,15,PT10M47.00S,1,1610612747,LAL,203076,Davis,A. Davis,-127,159,20,Missed,1,,,0,h,MISS Davis 20' Jump Shot,Missed Shot,Jump Shot,1,2,9
+0022100799,16,PT10M45.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,10
+0022100799,17,PT10M40.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,-6,256,26,Made,1,0,9,9,v,Barrett 26' 3PT Running Pull-Up Jump Shot (6 PTS) (Randle 1 AST),Made Shot,Running Pull-Up Jump Shot,1,3,11
+0022100799,19,PT10M39.00S,1,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,12
+0022100799,20,PT10M23.00S,1,1610612747,LAL,2544,James,L. James,-16,9,2,Missed,1,,,0,h,MISS James 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,13
+0022100799,21,PT10M21.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,14
+0022100799,22,PT10M18.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,-6,4,1,Made,1,0,11,11,v,Barrett 1' Running Layup (8 PTS) (Randle 2 AST),Made Shot,Running Layup Shot,1,2,15
+0022100799,24,PT10M06.00S,1,1610612747,LAL,1626169,Johnson,S. Johnson,16,14,2,Missed,1,,,0,h,MISS Johnson 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,16
+0022100799,25,PT10M01.00S,1,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,17
+0022100799,26,PT10M01.00S,1,1610612747,LAL,203076,Davis,A. Davis,0,0,0,Made,1,2,11,13,h,Davis Tip Dunk Shot (2 PTS),Made Shot,Tip Dunk Shot,1,2,18
+0022100799,27,PT09M53.00S,1,1610612752,NYK,202689,Walker,K. Walker,0,0,0,,0,,,0,v,Walker Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,19
+0022100799,27,PT09M53.00S,1,1610612747,LAL,1626169,Johnson,S. Johnson,0,0,0,,0,,,0,h,Johnson STEAL (1 STL),,,1,0,20
+0022100799,29,PT09M48.00S,1,1610612747,LAL,1626169,Johnson,S. Johnson,-224,9,0,Missed,1,,,0,h,MISS Johnson 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,21
+0022100799,30,PT09M44.00S,1,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,22
+0022100799,31,PT09M36.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,23
+0022100799,32,PT09M36.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle L.B.FOUL (P1.T1) (J.Van Duyne),Foul,Loose Ball,1,0,24
+0022100799,34,PT09M24.00S,1,1610612747,LAL,2544,James,L. James,-16,10,2,Made,1,4,11,15,h,James 2' Cutting Layup Shot (2 PTS) (Westbrook 1 AST),Made Shot,Cutting Layup Shot,1,2,25
+0022100799,36,PT09M07.00S,1,1610612752,NYK,203095,Fournier,E. Fournier,-143,221,26,Made,1,4,14,18,v,Fournier 26' 3PT Jump Bank Shot (6 PTS) (Walker 2 AST),Made Shot,Jump Bank Shot,1,3,26
+0022100799,38,PT08M57.00S,1,1610612747,LAL,1628370,Monk,M. Monk,25,17,3,Made,1,6,14,20,h,Monk 3' Cutting Layup Shot (2 PTS) (Westbrook 2 AST),Made Shot,Cutting Layup Shot,1,2,27
+0022100799,40,PT08M37.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,169,184,25,Missed,1,,,0,v,MISS Barrett 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,28
+0022100799,41,PT08M34.00S,1,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,29
+0022100799,42,PT08M32.00S,1,1610612747,LAL,201566,Westbrook,R. Westbrook,-13,8,2,Missed,1,,,0,h,MISS Westbrook 2' Running Layup,Missed Shot,Running Layup Shot,1,2,30
+0022100799,42,PT08M32.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle BLOCK (1 BLK),,,1,2,31
+0022100799,44,PT08M32.00S,1,1610612752,NYK,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,Fournier REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,32
+0022100799,45,PT08M24.00S,1,1610612752,NYK,203944,Randle,J. Randle,-17,6,2,Made,1,6,16,22,v,Randle 2' Cutting Layup Shot (2 PTS) (Barrett 2 AST),Made Shot,Cutting Layup Shot,1,2,33
+0022100799,48,PT08M14.00S,1,1610612747,LAL,1628370,Monk,M. Monk,-97,235,25,Missed,1,,,0,h,MISS Monk 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,34
+0022100799,49,PT08M10.00S,1,1610612752,NYK,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,Fournier REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,35
+0022100799,50,PT08M02.00S,1,1610612752,NYK,202689,Walker,K. Walker,221,49,0,Made,1,6,19,25,v,Walker 3PT Jump Shot (3 PTS) (Fournier 1 AST),Made Shot,Jump Shot,1,3,36
+0022100799,52,PT07M41.00S,1,1610612747,LAL,203076,Davis,A. Davis,104,29,11,Missed,1,,,0,h,MISS Davis 11' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,37
+0022100799,53,PT07M38.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,38
+0022100799,54,PT07M36.00S,1,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James S.FOUL (P1.T1) (D.Guthrie),Foul,Shooting,1,0,39
+0022100799,56,PT07M36.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,MISS Barrett Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,40
+0022100799,57,PT07M36.00S,1,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Normal Rebound,0,0,41
+0022100799,58,PT07M36.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,MISS Barrett Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,42
+0022100799,59,PT07M33.00S,1,1610612747,LAL,201566,Westbrook,R. Westbrook,0,0,0,,0,,,0,h,Westbrook REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,43
+0022100799,60,PT07M20.00S,1,1610612747,LAL,2544,James,L. James,233,17,0,Missed,1,,,0,h,MISS James 3PT Jump Shot,Missed Shot,Jump Shot,1,3,44
+0022100799,61,PT07M17.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,45
+0022100799,62,PT07M09.00S,1,1610612752,NYK,1629011,Robinson,M. Robinson,5,5,1,Made,1,6,21,27,v,Robinson 1' Dunk (2 PTS) (Randle 3 AST),Made Shot,Dunk Shot,1,2,46
+0022100799,64,PT07M09.00S,1,1610612747,LAL,201566,Westbrook,R. Westbrook,0,0,0,,0,,,0,h,Westbrook S.FOUL (P1.T2) (J.Van Duyne),Foul,Shooting,1,0,47
+0022100799,66,PT07M09.00S,1,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,MISS Robinson Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,48
+0022100799,67,PT07M06.00S,1,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,49
+0022100799,68,PT07M03.00S,1,1610612752,NYK,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,Fournier Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,50
+0022100799,68,PT07M03.00S,1,1610612747,LAL,201566,Westbrook,R. Westbrook,0,0,0,,0,,,0,h,Westbrook STEAL (1 STL),,,1,0,51
+0022100799,70,PT06M59.00S,1,1610612747,LAL,1628370,Monk,M. Monk,21,19,3,Made,1,8,21,29,h,Monk 3' Running Layup (4 PTS) (Westbrook 3 AST),Made Shot,Running Layup Shot,1,2,52
+0022100799,72,PT06M46.00S,1,1610612752,NYK,203095,Fournier,E. Fournier,37,10,4,Made,1,8,23,31,v,Fournier 4' Driving Layup (8 PTS),Made Shot,Driving Layup Shot,1,2,53
+0022100799,73,PT06M44.00S,1,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,54
+0022100799,74,PT06M35.00S,1,1610612747,LAL,201566,Westbrook,R. Westbrook,-10,10,1,Made,1,10,23,33,h,Westbrook 1' Cutting Layup Shot (2 PTS) (Monk 1 AST),Made Shot,Cutting Layup Shot,1,2,55
+0022100799,76,PT06M15.00S,1,1610612752,NYK,1629011,Robinson,M. Robinson,-16,18,2,Missed,1,,,0,v,MISS Robinson 2' Cutting Dunk Shot,Missed Shot,Cutting Dunk Shot,1,2,56
+0022100799,76,PT06M15.00S,1,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis BLOCK (1 BLK),,,1,2,57
+0022100799,78,PT06M15.00S,1,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,58
+0022100799,81,PT06M10.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle Offensive Goaltending Turnover (P2.T4),Turnover,Offensive Goaltending,1,0,59
+0022100799,82,PT05M56.00S,1,1610612747,LAL,203076,Davis,A. Davis,-5,16,2,Made,1,12,23,35,h,Davis 2' Alley Oop Dunk (4 PTS) (James 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,60
+0022100799,84,PT05M41.00S,1,1610612747,LAL,201566,Westbrook,R. Westbrook,0,0,0,,0,,,0,h,Westbrook S.FOUL (P2.T3) (D.Taylor),Foul,Shooting,1,0,61
+0022100799,86,PT05M41.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,12,24,36,v,Barrett Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,0,0,62
+0022100799,87,PT05M41.00S,1,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,SUB: Ariza FOR James,Substitution,,0,0,63
+0022100799,89,PT05M41.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,12,25,37,v,Barrett Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,64
+0022100799,90,PT05M34.00S,1,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson S.FOUL (P1.T2) (D.Taylor),Foul,Shooting,1,0,65
+0022100799,92,PT05M34.00S,1,1610612747,LAL,201566,Westbrook,R. Westbrook,0,0,0,,0,,,0,h,MISS Westbrook Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,66
+0022100799,93,PT05M34.00S,1,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Normal Rebound,0,0,67
+0022100799,94,PT05M34.00S,1,1610612747,LAL,201566,Westbrook,R. Westbrook,0,0,0,,0,13,25,38,h,Westbrook Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,68
+0022100799,95,PT05M25.00S,1,1610612752,NYK,203944,Randle,J. Randle,-163,201,26,Missed,1,,,0,v,MISS Randle 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,69
+0022100799,96,PT05M21.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,70
+0022100799,97,PT05M21.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,-22,4,2,Made,1,13,27,40,v,Barrett 2' Driving Layup (12 PTS),Made Shot,Driving Layup Shot,1,2,71
+0022100799,98,PT05M10.00S,1,1610612752,NYK,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,Fournier P.FOUL (P1.T3) (D.Taylor),Foul,Personal,1,0,72
+0022100799,100,PT05M10.00S,1,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,SUB: Noel FOR Robinson,Substitution,,0,0,73
+0022100799,102,PT04M58.00S,1,1610612747,LAL,2772,Ariza,T. Ariza,157,189,25,Made,1,16,27,43,h,Ariza 25' 3PT Jump Shot (3 PTS) (Johnson 1 AST),Made Shot,Jump Shot,1,3,74
+0022100799,104,PT04M40.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,29,52,6,Made,1,16,29,45,v,Barrett 6' Turnaround Hook Shot (14 PTS),Made Shot,Turnaround Hook Shot,1,2,75
+0022100799,105,PT04M26.00S,1,1610612747,LAL,2772,Ariza,T. Ariza,230,53,24,Missed,1,,,0,h,MISS Ariza 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,76
+0022100799,106,PT04M24.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,77
+0022100799,107,PT04M19.00S,1,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis S.FOUL (P1.T4) (J.Van Duyne),Foul,Shooting,1,0,78
+0022100799,109,PT04M19.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,16,30,46,v,Randle Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,79
+0022100799,110,PT04M19.00S,1,1610612747,LAL,201566,Westbrook,R. Westbrook,0,0,0,,0,,,0,h,SUB: Horton-Tucker FOR Westbrook,Substitution,,0,0,80
+0022100799,112,PT04M19.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,16,31,47,v,Randle Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,81
+0022100799,113,PT04M07.00S,1,1610612747,LAL,1626169,Johnson,S. Johnson,-1,167,17,Missed,1,,,0,h,MISS Johnson 17' Jump Shot,Missed Shot,Jump Shot,1,2,82
+0022100799,114,PT04M03.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,83
+0022100799,115,PT04M00.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett Out of Bounds Lost Ball Turnover (P1.T5),Turnover,Out of Bounds Lost Ball Turnover,1,0,84
+0022100799,116,PT03M43.00S,1,1610612747,LAL,1629659,Horton-Tucker,T. Horton-Tucker,-148,224,27,Missed,1,,,0,h,MISS Horton-Tucker 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,85
+0022100799,117,PT03M39.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,86
+0022100799,118,PT03M30.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,-1,252,25,Made,1,16,34,50,v,Barrett 25' 3PT Jump Shot (17 PTS) (Randle 4 AST),Made Shot,Jump Shot,1,3,87
+0022100799,120,PT03M16.00S,1,1610612747,LAL,203076,Davis,A. Davis,-4,8,1,Made,1,18,34,52,h,Davis 1' Cutting Finger Roll Layup Shot (6 PTS) (Horton-Tucker 1 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,88
+0022100799,122,PT03M08.00S,1,1610612747,LAL,1626169,Johnson,S. Johnson,0,0,0,,0,,,0,h,Johnson S.FOUL (P1.PN) (D.Guthrie),Foul,Shooting,1,0,89
+0022100799,124,PT03M08.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,18,35,53,v,Randle Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,90
+0022100799,125,PT03M08.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,SUB: Grimes FOR Barrett,Substitution,,0,0,91
+0022100799,127,PT03M08.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,18,36,54,v,Randle Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,92
+0022100799,128,PT02M52.00S,1,1610612747,LAL,1628370,Monk,M. Monk,-77,242,25,Missed,1,,,0,h,MISS Monk 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,93
+0022100799,129,PT02M48.00S,1,1610612752,NYK,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,v,Grimes REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,94
+0022100799,130,PT02M40.00S,1,1610612752,NYK,202689,Walker,K. Walker,-9,270,27,Missed,1,,,0,v,MISS Walker 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,95
+0022100799,131,PT02M36.00S,1,1610612747,LAL,1629659,Horton-Tucker,T. Horton-Tucker,0,0,0,,0,,,0,h,Horton-Tucker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,96
+0022100799,132,PT02M32.00S,1,1610612747,LAL,203076,Davis,A. Davis,-6,15,2,Made,1,20,36,56,h,Davis 2' Layup (8 PTS) (Horton-Tucker 2 AST),Made Shot,Layup Shot,1,2,97
+0022100799,134,PT02M32.00S,1,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel S.FOUL (P1.T4) (D.Guthrie),Foul,Shooting,1,0,98
+0022100799,136,PT02M32.00S,1,1610612747,LAL,1628370,Monk,M. Monk,0,0,0,,0,,,0,h,SUB: James FOR Monk,Substitution,,0,0,99
+0022100799,137,PT02M32.00S,1,1610612747,LAL,1626169,Johnson,S. Johnson,0,0,0,,0,,,0,h,SUB: Reaves FOR Johnson,Substitution,,0,0,100
+0022100799,138,PT02M32.00S,1,1610612752,NYK,202689,Walker,K. Walker,0,0,0,,0,,,0,v,SUB: Quickley FOR Walker,Substitution,,0,0,101
+0022100799,139,PT02M32.00S,1,1610612752,NYK,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,SUB: Burks FOR Fournier,Substitution,,0,0,102
+0022100799,144,PT02M32.00S,1,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,21,36,57,h,Davis Free Throw 1 of 1 (9 PTS),Free Throw,Free Throw 1 of 1,1,0,103
+0022100799,145,PT02M19.00S,1,1610612752,NYK,203944,Randle,J. Randle,-11,91,9,Made,1,21,38,59,v,Randle 9' Fadeaway Jumper (8 PTS),Made Shot,Fadeaway Jump Shot,1,2,104
+0022100799,146,PT02M07.00S,1,1610612747,LAL,1630559,Reaves,A. Reaves,26,10,3,Made,1,23,38,61,h,Reaves 3' Cutting Layup Shot (2 PTS) (James 2 AST),Made Shot,Cutting Layup Shot,1,2,105
+0022100799,148,PT01M54.00S,1,1610612752,NYK,1630193,Quickley,I. Quickley,-62,80,10,Missed,1,,,0,v,MISS Quickley 10' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,106
+0022100799,149,PT01M52.00S,1,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,107
+0022100799,150,PT01M46.00S,1,1610612747,LAL,2544,James,L. James,-16,8,2,Made,1,25,38,63,h,James 2' Turnaround Fadeaway Bank Jump Shot (4 PTS),Made Shot,Turnaround Fadeaway Bank Jump Shot,1,2,108
+0022100799,151,PT01M36.00S,1,1610612752,NYK,1629656,Grimes,Q. Grimes,-148,218,26,Missed,1,,,0,v,MISS Grimes 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,109
+0022100799,152,PT01M33.00S,1,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,110
+0022100799,153,PT01M27.00S,1,1610612747,LAL,2544,James,L. James,10,6,1,Made,1,27,38,65,h,James 1' Cutting Layup Shot (6 PTS) (Davis 1 AST),Made Shot,Cutting Layup Shot,1,2,111
+0022100799,155,PT01M19.00S,1,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,112
+0022100799,156,PT01M10.00S,1,1610612752,NYK,203944,Randle,J. Randle,-146,80,17,Made,1,27,40,67,v,Randle 17' Step Back Jump Shot (10 PTS) (Quickley 1 AST),Made Shot,Step Back Jump shot,1,2,113
+0022100799,158,PT00M54.20S,1,1610612752,NYK,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,v,Quickley S.FOUL (P1.PN) (D.Taylor),Foul,Shooting,1,0,114
+0022100799,160,PT00M54.20S,1,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,28,40,68,h,Reaves Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,115
+0022100799,161,PT00M54.20S,1,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,29,40,69,h,Reaves Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,116
+0022100799,162,PT00M38.20S,1,1610612752,NYK,203944,Randle,J. Randle,-15,183,18,Made,1,29,42,71,v,Randle 18' Step Back Jump Shot (12 PTS),Made Shot,Step Back Jump shot,1,2,117
+0022100799,163,PT00M27.10S,1,1610612747,LAL,203076,Davis,A. Davis,-16,82,8,Missed,1,,,0,h,MISS Davis 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,118
+0022100799,164,PT00M25.20S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,119
+0022100799,165,PT00M07.30S,1,1610612752,NYK,203944,Randle,J. Randle,-158,36,16,Missed,1,,,0,v,MISS Randle 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,120
+0022100799,166,PT00M04.20S,1,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,121
+0022100799,167,PT00M02.20S,1,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James Traveling Turnover (P1.T3),Turnover,Traveling,1,0,122
+0022100799,168,PT00M00.00S,1,0,,0,,,0,0,0,,0,29,42,71,,End of 1st Period (9:10 PM EST),period,end,1,0,123
+0022100799,175,PT12M00.00S,2,0,,0,,,0,0,0,,0,29,42,71,,Start of 2nd Period (9:14 PM EST),period,start,0,0,124
+0022100799,176,PT11M48.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,-203,164,26,Missed,1,,,0,v,MISS Toppin 26' 3PT Jump Shot,Missed Shot,Jump Shot,0,3,125
+0022100799,177,PT11M43.00S,2,1610612747,LAL,1629659,Horton-Tucker,T. Horton-Tucker,0,0,0,,0,,,0,h,Horton-Tucker REBOUND (Off:0 Def:2),Rebound,Unknown,0,0,126
+0022100799,178,PT11M29.00S,2,1610612747,LAL,2544,James,L. James,-83,236,25,Made,1,32,42,74,h,James 25' 3PT Jump Shot (9 PTS) (Ariza 1 AST),Made Shot,Jump Shot,1,3,127
+0022100799,180,PT11M09.00S,2,1610612747,LAL,2772,Ariza,T. Ariza,0,0,0,,0,,,0,h,Ariza S.FOUL (P1.T1) (J.Van Duyne),Foul,Shooting,1,0,128
+0022100799,182,PT11M09.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,MISS Toppin Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,129
+0022100799,183,PT11M09.00S,2,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Normal Rebound,0,0,130
+0022100799,184,PT11M09.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,MISS Toppin Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,131
+0022100799,185,PT10M54.00S,2,1610612747,LAL,1629659,Horton-Tucker,T. Horton-Tucker,0,0,0,,0,,,0,h,Horton-Tucker REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,132
+0022100799,186,PT10M53.00S,2,1610612747,LAL,202340,Bradley,A. Bradley,-228,17,0,Missed,1,,,0,h,MISS Bradley 3PT Jump Shot,Missed Shot,Jump Shot,1,3,133
+0022100799,187,PT10M50.00S,2,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,134
+0022100799,188,PT10M46.00S,2,1610612752,NYK,202692,Burks,A. Burks,-191,185,27,Made,1,32,45,77,v,Burks 27' 3PT Jump Shot (3 PTS) (Barrett 3 AST),Made Shot,Jump Shot,1,3,135
+0022100799,190,PT10M26.00S,2,1610612752,NYK,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,v,Quickley P.FOUL (P2.T1) (J.Van Duyne),Foul,Personal,1,0,136
+0022100799,192,PT10M21.00S,2,1610612747,LAL,1630559,Reaves,A. Reaves,76,38,8,Made,1,34,45,79,h,Reaves 8' Driving Floating Bank Jump Shot (6 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,137
+0022100799,193,PT10M21.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel S.FOUL (P2.T2) (D.Guthrie),Foul,Shooting,1,0,138
+0022100799,195,PT10M21.00S,2,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,35,45,80,h,Reaves Free Throw 1 of 1 (7 PTS),Free Throw,Free Throw 1 of 1,1,0,139
+0022100799,197,PT10M03.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,89,86,12,Missed,1,,,0,v,MISS Barrett 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,140
+0022100799,198,PT09M58.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,141
+0022100799,199,PT09M58.00S,2,1610612752,NYK,203457,Noel,N. Noel,-2,21,2,Missed,1,,,0,v,MISS Noel 2' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,142
+0022100799,200,PT09M55.00S,2,1610612747,LAL,2772,Ariza,T. Ariza,0,0,0,,0,,,0,h,Ariza REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,143
+0022100799,201,PT09M41.00S,2,1610612752,NYK,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,v,Quickley P.FOUL (P3.T3) (J.Van Duyne),Foul,Personal,1,0,144
+0022100799,203,PT09M41.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,SUB: Robinson FOR Noel,Substitution,,0,0,145
+0022100799,204,PT09M41.00S,2,1610612752,NYK,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,v,SUB: Grimes FOR Quickley,Substitution,,0,0,146
+0022100799,207,PT09M36.00S,2,1610612752,NYK,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,v,Grimes P.FOUL (P1.T4) (D.Taylor),Foul,Personal,1,0,147
+0022100799,209,PT09M24.00S,2,1610612747,LAL,1629659,Horton-Tucker,T. Horton-Tucker,132,34,14,Missed,1,,,0,h,MISS Horton-Tucker 14' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,148
+0022100799,210,PT09M23.00S,2,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,149
+0022100799,220,PT09M23.00S,2,1610612747,LAL,2544,James,L. James,0,10,1,Missed,1,,,0,h,MISS James 1' Putback Layup,Missed Shot,Putback Layup Shot,1,2,150
+0022100799,220,PT09M23.00S,2,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks BLOCK (1 BLK),,,1,2,151
+0022100799,222,PT09M22.00S,2,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,152
+0022100799,212,PT09M11.00S,2,1610612747,LAL,202340,Bradley,A. Bradley,0,0,0,,0,,,0,h,Bradley S.FOUL (P1.T2) (D.Taylor),Foul,Shooting,1,0,153
+0022100799,214,PT09M11.00S,2,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,35,46,81,v,Burks Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,154
+0022100799,215,PT09M11.00S,2,1610612747,LAL,1629659,Horton-Tucker,T. Horton-Tucker,0,0,0,,0,,,0,h,SUB: Westbrook FOR Horton-Tucker,Substitution,,0,0,155
+0022100799,216,PT09M11.00S,2,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,SUB: Jordan FOR James,Substitution,,0,0,156
+0022100799,219,PT09M11.00S,2,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,35,47,82,v,Burks Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,157
+0022100799,223,PT08M53.00S,2,1610612747,LAL,2772,Ariza,T. Ariza,-88,240,26,Missed,1,,,0,h,MISS Ariza 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,158
+0022100799,224,PT08M48.00S,2,1610612747,LAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,h,Jordan REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,159
+0022100799,225,PT08M44.00S,2,1610612752,NYK,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,v,Grimes S.FOUL (P2.PN) (J.Van Duyne),Foul,Shooting,1,0,160
+0022100799,227,PT08M44.00S,2,1610612747,LAL,201566,Westbrook,R. Westbrook,0,0,0,,0,36,47,83,h,Westbrook Free Throw 1 of 3 (4 PTS),Free Throw,Free Throw 1 of 3,1,0,161
+0022100799,228,PT08M44.00S,2,1610612747,LAL,201566,Westbrook,R. Westbrook,0,0,0,,0,37,47,84,h,Westbrook Free Throw 2 of 3 (5 PTS),Free Throw,Free Throw 2 of 3,1,0,162
+0022100799,229,PT08M44.00S,2,1610612747,LAL,201566,Westbrook,R. Westbrook,0,0,0,,0,,,0,h,MISS Westbrook Free Throw 3 of 3,Free Throw,Free Throw 3 of 3,1,0,163
+0022100799,230,PT08M42.00S,2,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,164
+0022100799,232,PT08M35.00S,2,1610612747,LAL,202340,Bradley,A. Bradley,0,0,0,,0,,,0,h,Bradley S.FOUL (P2.T3) (J.Van Duyne),Foul,Shooting,1,0,165
+0022100799,234,PT08M35.00S,2,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,37,48,85,v,Burks Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,166
+0022100799,235,PT08M35.00S,2,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,37,49,86,v,Burks Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,167
+0022100799,236,PT08M17.00S,2,1610612747,LAL,201566,Westbrook,R. Westbrook,0,0,0,,0,,,0,h,Westbrook Lost Ball Turnover (P2.T4),Turnover,Lost Ball,1,0,168
+0022100799,236,PT08M17.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett STEAL (1 STL),,,1,0,169
+0022100799,238,PT08M13.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,-18,10,2,Missed,1,,,0,v,MISS Toppin 2' Cutting Finger Roll Layup Shot,Missed Shot,Cutting Finger Roll Layup Shot,1,2,170
+0022100799,239,PT08M13.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,Toppin REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,171
+0022100799,240,PT08M09.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,Missed,1,,,0,v,MISS Toppin Putback Layup,Missed Shot,Putback Layup Shot,1,2,172
+0022100799,241,PT08M09.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,Toppin REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,173
+0022100799,242,PT08M09.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,Made,1,37,51,88,v,Toppin Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,174
+0022100799,243,PT08M09.00S,2,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,175
+0022100799,244,PT07M58.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,Toppin P.FOUL (P1.PN) (D.Taylor),Foul,Personal,1,0,176
+0022100799,246,PT07M58.00S,2,1610612747,LAL,2772,Ariza,T. Ariza,0,0,0,,0,38,51,89,h,Ariza Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,177
+0022100799,247,PT07M58.00S,2,1610612747,LAL,2772,Ariza,T. Ariza,0,0,0,,0,39,51,90,h,Ariza Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,178
+0022100799,248,PT07M47.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,4,7,1,Missed,1,,,0,v,MISS Toppin 1' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,179
+0022100799,249,PT07M44.00S,2,1610612747,LAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,h,Jordan REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,180
+0022100799,250,PT07M37.00S,2,1610612747,LAL,201566,Westbrook,R. Westbrook,138,73,16,Missed,1,,,0,h,MISS Westbrook 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,181
+0022100799,251,PT07M34.00S,2,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,182
+0022100799,252,PT07M24.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,-164,191,25,Missed,1,,,0,v,MISS Barrett 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,183
+0022100799,253,PT07M21.00S,2,1610612747,LAL,2772,Ariza,T. Ariza,0,0,0,,0,,,0,h,Ariza REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,184
+0022100799,254,PT07M13.00S,2,1610612747,LAL,201566,Westbrook,R. Westbrook,0,0,0,,0,,,0,h,Westbrook Bad Pass Turnover (P3.T5),Turnover,Bad Pass,1,0,185
+0022100799,254,PT07M13.00S,2,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson STEAL (3 STL),,,1,0,186
+0022100799,256,PT07M07.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,9,-1,1,Made,1,39,53,92,v,Toppin 1' Running Layup (4 PTS) (Burks 1 AST),Made Shot,Running Layup Shot,1,2,187
+0022100799,258,PT06M47.00S,2,1610612747,LAL,201566,Westbrook,R. Westbrook,-18,9,2,Missed,1,,,0,h,MISS Westbrook 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,188
+0022100799,259,PT06M45.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,Toppin REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,189
+0022100799,260,PT06M38.00S,2,1610612752,NYK,1629656,Grimes,Q. Grimes,-230,32,0,Missed,1,,,0,v,MISS Grimes 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,190
+0022100799,261,PT06M33.00S,2,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,Reaves REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,191
+0022100799,262,PT06M20.00S,2,1610612747,LAL,1630559,Reaves,A. Reaves,-15,8,2,Missed,1,,,0,h,MISS Reaves 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,192
+0022100799,263,PT06M18.00S,2,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,193
+0022100799,264,PT06M04.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,-22,7,2,Made,1,39,55,94,v,Barrett 2' Driving Layup (19 PTS),Made Shot,Driving Layup Shot,1,2,194
+0022100799,265,PT06M04.00S,2,1610612747,LAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,h,Jordan S.FOUL (P1.T4) (J.Van Duyne),Foul,Shooting,1,0,195
+0022100799,267,PT06M04.00S,2,1610612747,LAL,2772,Ariza,T. Ariza,0,0,0,,0,,,0,h,SUB: Johnson FOR Ariza,Substitution,,0,0,196
+0022100799,268,PT06M04.00S,2,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,SUB: Davis FOR Reaves,Substitution,,0,0,197
+0022100799,269,PT06M04.00S,2,1610612747,LAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,h,SUB: Monk FOR Jordan,Substitution,,0,0,198
+0022100799,270,PT06M04.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,SUB: Randle FOR Toppin,Substitution,,0,0,199
+0022100799,271,PT06M04.00S,2,1610612752,NYK,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,v,SUB: Fournier FOR Grimes,Substitution,,0,0,200
+0022100799,272,PT06M04.00S,2,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,SUB: Walker FOR Burks,Substitution,,0,0,201
+0022100799,279,PT06M04.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,MISS Barrett Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,202
+0022100799,280,PT06M01.00S,2,1610612747,LAL,1626169,Johnson,S. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,203
+0022100799,281,PT05M50.00S,2,1610612747,LAL,202340,Bradley,A. Bradley,230,20,0,Missed,1,,,0,h,MISS Bradley 3PT Jump Shot,Missed Shot,Jump Shot,1,3,204
+0022100799,282,PT05M47.00S,2,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,205
+0022100799,283,PT05M41.00S,2,1610612752,NYK,203944,Randle,J. Randle,-169,190,25,Made,1,39,58,97,v,Randle 25' 3PT Jump Shot (15 PTS) (Fournier 2 AST),Made Shot,Jump Shot,1,3,206
+0022100799,285,PT05M22.00S,2,1610612747,LAL,201566,Westbrook,R. Westbrook,-124,67,14,Missed,1,,,0,h,MISS Westbrook 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,207
+0022100799,286,PT05M18.00S,2,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,208
+0022100799,287,PT05M13.00S,2,1610612752,NYK,203944,Randle,J. Randle,38,254,26,Missed,1,,,0,v,MISS Randle 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,209
+0022100799,288,PT05M09.00S,2,1610612747,LAL,1626169,Johnson,S. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,210
+0022100799,289,PT05M04.00S,2,1610612747,LAL,203076,Davis,A. Davis,-17,11,2,Made,1,41,58,99,h,Davis 2' Layup (11 PTS) (Westbrook 4 AST),Made Shot,Layup Shot,1,2,211
+0022100799,291,PT04M39.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,-21,12,2,Made,1,41,60,101,v,Barrett 2' Driving Layup (21 PTS) (Randle 5 AST),Made Shot,Driving Layup Shot,1,2,212
+0022100799,293,PT04M26.00S,2,1610612747,LAL,1628370,Monk,M. Monk,-190,192,27,Missed,1,,,0,h,MISS Monk 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,213
+0022100799,294,PT04M23.00S,2,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,214
+0022100799,295,PT04M18.00S,2,1610612747,LAL,202340,Bradley,A. Bradley,0,0,0,,0,,,0,h,Bradley S.FOUL (P3.PN) (D.Taylor),Foul,Shooting,1,0,215
+0022100799,297,PT04M18.00S,2,1610612752,NYK,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,MISS Fournier Free Throw 1 of 3,Free Throw,Free Throw 1 of 3,0,0,216
+0022100799,298,PT04M18.00S,2,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Normal Rebound,0,0,217
+0022100799,299,PT04M18.00S,2,1610612752,NYK,203095,Fournier,E. Fournier,0,0,0,,0,41,61,102,v,Fournier Free Throw 2 of 3 (9 PTS),Free Throw,Free Throw 2 of 3,0,0,218
+0022100799,300,PT04M18.00S,2,1610612747,LAL,202340,Bradley,A. Bradley,0,0,0,,0,,,0,h,SUB: James FOR Bradley,Substitution,,0,0,219
+0022100799,302,PT04M18.00S,2,1610612752,NYK,203095,Fournier,E. Fournier,0,0,0,,0,41,62,103,v,Fournier Free Throw 3 of 3 (10 PTS),Free Throw,Free Throw 3 of 3,1,0,220
+0022100799,303,PT04M06.00S,2,1610612747,LAL,1626169,Johnson,S. Johnson,21,8,2,Made,1,43,62,105,h,Johnson 2' Cutting Layup Shot (2 PTS) (Davis 2 AST),Made Shot,Cutting Layup Shot,1,2,221
+0022100799,305,PT03M57.00S,2,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle Offensive Charge Foul (P2) (D.Guthrie),Foul,Offensive Charge,1,0,222
+0022100799,307,PT03M57.00S,2,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle Offensive Foul Turnover (P3.T6),Turnover,Offensive Foul Turnover,1,0,223
+0022100799,308,PT03M48.00S,2,1610612747,LAL,201566,Westbrook,R. Westbrook,151,201,25,Missed,1,,,0,h,MISS Westbrook 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,224
+0022100799,309,PT03M43.00S,2,1610612747,LAL,201566,Westbrook,R. Westbrook,0,0,0,,0,,,0,h,Westbrook REBOUND (Off:1 Def:1),Rebound,Unknown,0,0,225
+0022100799,310,PT03M42.00S,2,1610612747,LAL,201566,Westbrook,R. Westbrook,228,48,0,Missed,1,,,0,h,MISS Westbrook 3PT Jump Shot,Missed Shot,Jump Shot,0,3,226
+0022100799,311,PT03M37.00S,2,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,227
+0022100799,312,PT03M37.00S,2,1610612747,LAL,203076,Davis,A. Davis,0,0,0,Made,1,45,62,107,h,Davis Tip Dunk Shot (13 PTS),Made Shot,Tip Dunk Shot,1,2,228
+0022100799,313,PT03M19.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,-45,18,5,Missed,1,,,0,v,MISS Barrett 5' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,229
+0022100799,314,PT03M19.00S,2,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,230
+0022100799,316,PT03M19.00S,2,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,SUB: Noel FOR Robinson,Substitution,,0,0,231
+0022100799,318,PT03M09.00S,2,1610612752,NYK,203944,Randle,J. Randle,-140,20,14,Missed,1,,,0,v,MISS Randle 14' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,232
+0022100799,319,PT03M04.00S,2,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,233
+0022100799,320,PT02M59.00S,2,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James Traveling Turnover (P2.T6),Turnover,Traveling,1,0,234
+0022100799,321,PT02M59.00S,2,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,235
+0022100799,322,PT02M50.00S,2,1610612747,LAL,1626169,Johnson,S. Johnson,0,0,0,,0,,,0,h,Johnson P.FOUL (P2.PN) (D.Guthrie),Foul,Personal,1,0,236
+0022100799,324,PT02M50.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,45,63,108,v,Noel Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,237
+0022100799,325,PT02M50.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,45,64,109,v,Noel Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,238
+0022100799,326,PT02M39.00S,2,1610612747,LAL,1626169,Johnson,S. Johnson,0,0,0,,0,,,0,h,Johnson Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,239
+0022100799,326,PT02M39.00S,2,1610612752,NYK,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,Fournier STEAL (1 STL),,,1,0,240
+0022100799,328,PT02M35.00S,2,1610612752,NYK,202689,Walker,K. Walker,196,114,23,Made,1,45,66,111,v,Walker 23' Running Pull-Up Jump Shot (5 PTS) (Randle 6 AST),Made Shot,Running Pull-Up Jump Shot,1,2,241
+0022100799,330,PT02M16.00S,2,1610612747,LAL,1626169,Johnson,S. Johnson,-17,34,4,Made,1,47,66,113,h,Johnson 4' Driving Layup (4 PTS) (James 3 AST),Made Shot,Driving Layup Shot,1,2,242
+0022100799,332,PT02M09.00S,2,1610612752,NYK,203095,Fournier,E. Fournier,-201,178,27,Missed,1,,,0,v,MISS Fournier 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,243
+0022100799,333,PT02M05.00S,2,1610612747,LAL,201566,Westbrook,R. Westbrook,0,0,0,,0,,,0,h,Westbrook REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,244
+0022100799,334,PT02M01.00S,2,1610612747,LAL,201566,Westbrook,R. Westbrook,0,0,0,,0,,,0,h,Westbrook Lost Ball Turnover (P4.T8),Turnover,Lost Ball,1,0,245
+0022100799,334,PT02M01.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel STEAL (1 STL),,,1,0,246
+0022100799,336,PT01M57.00S,2,1610612752,NYK,203944,Randle,J. Randle,-9,0,1,Made,1,47,68,115,v,Randle 1' Running Dunk (17 PTS) (Barrett 4 AST),Made Shot,Running Dunk Shot,1,2,247
+0022100799,338,PT01M51.00S,2,1610612747,LAL,1628370,Monk,M. Monk,-13,8,2,Missed,1,,,0,h,MISS Monk 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,248
+0022100799,338,PT01M51.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel BLOCK (1 BLK),,,1,2,249
+0022100799,340,PT01M51.00S,2,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Unknown,0,0,250
+0022100799,342,PT01M51.00S,2,1610612747,LAL,201566,Westbrook,R. Westbrook,0,0,0,,0,,,0,h,SUB: Ariza FOR Westbrook,Substitution,,0,0,251
+0022100799,343,PT01M51.00S,2,1610612747,LAL,1626169,Johnson,S. Johnson,0,0,0,,0,,,0,h,SUB: Horton-Tucker FOR Johnson,Substitution,,0,0,252
+0022100799,346,PT01M42.00S,2,1610612747,LAL,2544,James,L. James,-12,6,1,Made,1,49,68,117,h,James 1' Driving Layup (11 PTS),Made Shot,Driving Layup Shot,1,2,253
+0022100799,348,PT01M27.00S,2,1610612752,NYK,203095,Fournier,E. Fournier,-232,31,0,Missed,1,,,0,v,MISS Fournier 3PT Jump Shot,Missed Shot,Jump Shot,1,3,254
+0022100799,349,PT01M24.00S,2,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,255
+0022100799,350,PT01M20.00S,2,1610612747,LAL,2544,James,L. James,5,11,1,Made,1,51,68,119,h,James 1' Running Finger Roll Layup (13 PTS),Made Shot,Running Finger Roll Layup Shot,1,2,256
+0022100799,351,PT01M09.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,60,2,6,Missed,1,,,0,v,MISS Barrett 6' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,257
+0022100799,352,PT01M07.00S,2,1610612747,LAL,1629659,Horton-Tucker,T. Horton-Tucker,0,0,0,,0,,,0,h,Horton-Tucker REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,258
+0022100799,353,PT01M05.00S,2,1610612747,LAL,1628370,Monk,M. Monk,-18,8,2,Missed,1,,,0,h,MISS Monk 2' Running Layup,Missed Shot,Running Layup Shot,1,2,259
+0022100799,354,PT01M05.00S,2,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Unknown,0,0,260
+0022100799,356,PT01M04.00S,2,1610612752,NYK,202689,Walker,K. Walker,0,0,0,,0,,,0,v,Walker S.FOUL (P1.PN) (D.Taylor),Foul,Shooting,1,0,261
+0022100799,358,PT01M04.00S,2,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,MISS Davis Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,262
+0022100799,359,PT01M04.00S,2,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Normal Rebound,0,0,263
+0022100799,360,PT01M04.00S,2,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,52,68,120,h,Davis Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,1,0,264
+0022100799,361,PT00M56.60S,2,1610612752,NYK,1629628,Barrett,R. Barrett,27,13,3,Missed,1,,,0,v,MISS Barrett 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,265
+0022100799,361,PT00M56.60S,2,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis BLOCK (2 BLK),,,1,2,266
+0022100799,363,PT00M56.60S,2,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,267
+0022100799,365,PT00M47.50S,2,1610612752,NYK,203944,Randle,J. Randle,-33,54,6,Missed,1,,,0,v,MISS Randle 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,268
+0022100799,365,PT00M47.50S,2,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis BLOCK (3 BLK),,,1,2,269
+0022100799,367,PT00M44.80S,2,1610612747,LAL,2772,Ariza,T. Ariza,0,0,0,,0,,,0,h,Ariza REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,270
+0022100799,368,PT00M43.30S,2,1610612747,LAL,203076,Davis,A. Davis,-1,15,2,Made,1,54,68,122,h,Davis 2' Running Alley Oop Dunk Shot (16 PTS) (Monk 2 AST),Made Shot,Running Alley Oop Dunk Shot,1,2,271
+0022100799,370,PT00M27.60S,2,1610612752,NYK,203944,Randle,J. Randle,-157,251,30,Made,1,54,71,125,v,Randle 30' 3PT Jump Shot (20 PTS) (Walker 3 AST),Made Shot,Jump Shot,1,3,272
+0022100799,372,PT00M04.20S,2,1610612747,LAL,203076,Davis,A. Davis,-16,11,2,Missed,1,,,0,h,MISS Davis 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,273
+0022100799,373,PT00M03.50S,2,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,274
+0022100799,374,PT00M03.50S,2,1610612747,LAL,2544,James,L. James,0,0,0,Made,1,56,71,127,h,James Tip Layup Shot (15 PTS),Made Shot,Tip Layup Shot,1,2,275
+0022100799,375,PT00M00.40S,2,1610612752,NYK,202689,Walker,K. Walker,169,211,27,Missed,1,,,0,v,MISS Walker 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,276
+0022100799,376,PT00M00.10S,2,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,277
+0022100799,377,PT00M00.00S,2,0,,0,,,0,0,0,,0,56,71,127,,End of 2nd Period (9:45 PM EST),period,end,1,0,278
+0022100799,384,PT12M00.00S,3,0,,0,,,0,0,0,,0,56,71,127,,Start of 3rd Period (10:01 PM EST),period,start,0,0,279
+0022100799,385,PT11M41.00S,3,1610612752,NYK,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,Fournier Lost Ball Turnover (P2.T7),Turnover,Lost Ball,1,0,280
+0022100799,385,PT11M41.00S,3,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James STEAL (1 STL),,,1,0,281
+0022100799,387,PT11M34.00S,3,1610612747,LAL,1628370,Monk,M. Monk,89,92,13,Made,1,58,71,129,h,Monk 13' Pullup Jump Shot (6 PTS),Made Shot,Pullup Jump shot,1,2,282
+0022100799,388,PT11M08.00S,3,1610612752,NYK,202689,Walker,K. Walker,45,20,5,Missed,1,,,0,v,MISS Walker 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,283
+0022100799,389,PT11M06.00S,3,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,284
+0022100799,390,PT11M00.00S,3,1610612747,LAL,1628370,Monk,M. Monk,131,217,25,Made,1,61,71,132,h,Monk 25' 3PT Jump Shot (9 PTS) (Westbrook 5 AST),Made Shot,Jump Shot,1,3,285
+0022100799,392,PT10M59.00S,3,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,286
+0022100799,393,PT10M39.00S,3,1610612752,NYK,203944,Randle,J. Randle,-69,164,18,Made,1,61,73,134,v,Randle 18' Jump Shot (22 PTS),Made Shot,Jump Shot,1,2,287
+0022100799,394,PT10M21.00S,3,1610612747,LAL,2544,James,L. James,121,214,25,Missed,1,,,0,h,MISS James 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,288
+0022100799,395,PT10M18.00S,3,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,289
+0022100799,396,PT10M09.00S,3,1610612752,NYK,203944,Randle,J. Randle,-40,148,15,Missed,1,,,0,v,MISS Randle 15' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,290
+0022100799,397,PT10M06.00S,3,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,291
+0022100799,398,PT09M53.00S,3,1610612747,LAL,203076,Davis,A. Davis,-150,21,15,Missed,1,,,0,h,MISS Davis 15' Jump Shot,Missed Shot,Jump Shot,1,2,292
+0022100799,399,PT09M50.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,293
+0022100799,400,PT09M43.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,-4,101,10,Made,1,61,75,136,v,Barrett 10' Turnaround Fadeaway (23 PTS),Made Shot,Turnaround Fadeaway shot,1,2,294
+0022100799,401,PT09M34.00S,3,1610612747,LAL,1626169,Johnson,S. Johnson,11,2,1,Made,1,63,75,138,h,Johnson 1' Driving Layup (6 PTS) (James 4 AST),Made Shot,Driving Layup Shot,1,2,295
+0022100799,403,PT09M11.00S,3,1610612747,LAL,1626169,Johnson,S. Johnson,0,0,0,,0,,,0,h,Johnson P.FOUL (P3.T1) (D.Guthrie),Foul,Personal,1,0,296
+0022100799,405,PT08M56.00S,3,1610612752,NYK,203095,Fournier,E. Fournier,229,6,0,Missed,1,,,0,v,MISS Fournier 3PT Jump Shot,Missed Shot,Jump Shot,1,3,297
+0022100799,406,PT08M51.00S,3,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,298
+0022100799,407,PT08M46.00S,3,1610612747,LAL,2544,James,L. James,-21,10,2,Made,1,65,75,140,h,James 2' Driving Reverse Layup (17 PTS),Made Shot,Driving Reverse Layup Shot,1,2,299
+0022100799,408,PT08M24.00S,3,1610612752,NYK,203944,Randle,J. Randle,20,127,13,Missed,1,,,0,v,MISS Randle 13' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,300
+0022100799,409,PT08M21.00S,3,1610612747,LAL,1626169,Johnson,S. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,301
+0022100799,410,PT08M15.00S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle S.FOUL (P3.T1) (D.Guthrie),Foul,Shooting,1,0,302
+0022100799,412,PT08M15.00S,3,1610612747,LAL,1628370,Monk,M. Monk,0,0,0,,0,66,75,141,h,Monk Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,303
+0022100799,413,PT08M15.00S,3,1610612747,LAL,1628370,Monk,M. Monk,0,0,0,,0,67,75,142,h,Monk Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,304
+0022100799,414,PT08M05.00S,3,1610612752,NYK,202689,Walker,K. Walker,-107,229,25,Missed,1,,,0,v,MISS Walker 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,305
+0022100799,415,PT08M02.00S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,306
+0022100799,416,PT08M00.00S,3,1610612752,NYK,203944,Randle,J. Randle,-15,5,2,Missed,1,,,0,v,MISS Randle 2' Layup,Missed Shot,Layup Shot,1,2,307
+0022100799,416,PT08M00.00S,3,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis BLOCK (4 BLK),,,1,2,308
+0022100799,418,PT08M00.00S,3,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,309
+0022100799,419,PT08M00.00S,3,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson P.FOUL (P2.T2) (D.Guthrie),Foul,Personal,1,0,310
+0022100799,421,PT07M42.00S,3,1610612747,LAL,1626169,Johnson,S. Johnson,-208,155,26,Made,1,70,75,145,h,Johnson 26' 3PT Jump Shot (9 PTS) (James 5 AST),Made Shot,Jump Shot,1,3,311
+0022100799,423,PT07M26.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,157,185,24,Missed,1,,,0,v,MISS Barrett 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,312
+0022100799,424,PT07M22.00S,3,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,313
+0022100799,425,PT07M16.00S,3,1610612747,LAL,201566,Westbrook,R. Westbrook,10,6,1,Missed,1,,,0,h,MISS Westbrook 1' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,314
+0022100799,426,PT07M14.00S,3,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,315
+0022100799,427,PT07M05.00S,3,1610612752,NYK,203095,Fournier,E. Fournier,33,119,12,Missed,1,,,0,v,MISS Fournier 12' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,316
+0022100799,428,PT06M59.00S,3,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,317
+0022100799,429,PT06M59.00S,3,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,Made,1,70,77,147,v,Robinson Tip Layup Shot (4 PTS),Made Shot,Tip Layup Shot,1,2,318
+0022100799,430,PT06M48.00S,3,1610612747,LAL,1628370,Monk,M. Monk,1,16,2,Made,1,72,77,149,h,Monk 2' Cutting Finger Roll Layup Shot (13 PTS) (James 6 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,319
+0022100799,432,PT06M25.00S,3,1610612752,NYK,202689,Walker,K. Walker,15,11,2,Made,1,72,79,151,v,Walker 2' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,320
+0022100799,433,PT06M13.00S,3,1610612747,LAL,1628370,Monk,M. Monk,163,225,28,Made,1,75,79,154,h,Monk 28' 3PT Jump Shot (16 PTS) (Johnson 2 AST),Made Shot,Jump Shot,1,3,321
+0022100799,435,PT05M51.00S,3,1610612752,NYK,203944,Randle,J. Randle,137,14,14,Missed,1,,,0,v,MISS Randle 14' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,322
+0022100799,436,PT05M47.00S,3,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,323
+0022100799,437,PT05M43.00S,3,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis Bad Pass Turnover (P1.T9),Turnover,Bad Pass,1,0,324
+0022100799,437,PT05M43.00S,3,1610612752,NYK,202689,Walker,K. Walker,0,0,0,,0,,,0,v,Walker STEAL (1 STL),,,1,0,325
+0022100799,439,PT05M39.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,6,38,4,Missed,1,,,0,v,MISS Barrett 4' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,326
+0022100799,439,PT05M39.00S,3,1610612747,LAL,201566,Westbrook,R. Westbrook,0,0,0,,0,,,0,h,Westbrook BLOCK (1 BLK),,,1,2,327
+0022100799,441,PT05M35.00S,3,1610612747,LAL,1626169,Johnson,S. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,328
+0022100799,442,PT05M34.00S,3,1610612747,LAL,1628370,Monk,M. Monk,-232,29,0,Made,1,78,79,157,h,Monk 3PT Running Jump Shot (19 PTS) (Westbrook 6 AST),Made Shot,Running Jump Shot,1,3,329
+0022100799,444,PT05M34.00S,3,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,330
+0022100799,445,PT05M20.00S,3,1610612752,NYK,203095,Fournier,E. Fournier,2,255,26,Missed,1,,,0,v,MISS Fournier 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,331
+0022100799,446,PT05M15.00S,3,1610612747,LAL,201566,Westbrook,R. Westbrook,0,0,0,,0,,,0,h,Westbrook REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,332
+0022100799,447,PT04M59.00S,3,1610612747,LAL,1628370,Monk,M. Monk,21,253,25,Missed,1,,,0,h,MISS Monk 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,333
+0022100799,448,PT04M56.00S,3,1610612747,LAL,1626169,Johnson,S. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,334
+0022100799,449,PT04M49.00S,3,1610612747,LAL,2544,James,L. James,118,89,15,Missed,1,,,0,h,MISS James 15' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,335
+0022100799,450,PT04M42.00S,3,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,336
+0022100799,451,PT04M42.00S,3,1610612747,LAL,203076,Davis,A. Davis,0,0,0,Made,1,80,79,159,h,Davis Putback Dunk (18 PTS),Made Shot,Putback Dunk Shot,1,2,337
+0022100799,452,PT04M20.00S,3,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James S.FOUL (P2.T2) (D.Taylor),Foul,Shooting,1,0,338
+0022100799,454,PT04M20.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,80,80,160,v,Barrett Free Throw 1 of 2 (24 PTS),Free Throw,Free Throw 1 of 2,1,0,339
+0022100799,455,PT04M20.00S,3,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,SUB: Ariza FOR James,Substitution,,0,0,340
+0022100799,456,PT04M20.00S,3,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,SUB: Noel FOR Robinson,Substitution,,0,0,341
+0022100799,459,PT04M20.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,80,81,161,v,Barrett Free Throw 2 of 2 (25 PTS),Free Throw,Free Throw 2 of 2,0,0,342
+0022100799,460,PT04M11.00S,3,1610612747,LAL,201566,Westbrook,R. Westbrook,16,13,2,Missed,1,,,0,h,MISS Westbrook 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,343
+0022100799,461,PT04M08.00S,3,1610612752,NYK,202689,Walker,K. Walker,0,0,0,,0,,,0,v,Walker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,344
+0022100799,462,PT04M02.00S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle 3 Second Violation Turnover (P4.T8),Turnover,3 Second Violation,1,0,345
+0022100799,463,PT04M02.00S,3,1610612752,NYK,202689,Walker,K. Walker,0,0,0,,0,,,0,v,SUB: Burks FOR Walker,Substitution,,0,0,346
+0022100799,465,PT03M49.00S,3,1610612747,LAL,203076,Davis,A. Davis,12,2,1,Made,1,82,81,163,h,Davis 1' Driving Layup (20 PTS),Made Shot,Driving Layup Shot,1,2,347
+0022100799,466,PT03M49.00S,3,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel S.FOUL (P3.T3) (D.Guthrie),Foul,Shooting,1,0,348
+0022100799,468,PT03M49.00S,3,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,MISS Davis Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,349
+0022100799,469,PT03M47.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,350
+0022100799,470,PT03M30.00S,3,1610612747,LAL,1626169,Johnson,S. Johnson,0,0,0,,0,,,0,h,Johnson S.FOUL (P4.T3) (D.Taylor),Foul,Shooting,1,0,351
+0022100799,472,PT03M30.00S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,82,82,164,v,Randle Free Throw 1 of 2 (23 PTS),Free Throw,Free Throw 1 of 2,1,0,352
+0022100799,473,PT03M30.00S,3,1610612747,LAL,201566,Westbrook,R. Westbrook,0,0,0,,0,,,0,h,SUB: Horton-Tucker FOR Westbrook,Substitution,,0,0,353
+0022100799,474,PT03M30.00S,3,1610612747,LAL,1626169,Johnson,S. Johnson,0,0,0,,0,,,0,h,SUB: Reaves FOR Johnson,Substitution,,0,0,354
+0022100799,477,PT03M30.00S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,MISS Randle Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,355
+0022100799,478,PT03M27.00S,3,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,Reaves REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,356
+0022100799,479,PT03M13.00S,3,1610612747,LAL,2772,Ariza,T. Ariza,-151,212,26,Missed,1,,,0,h,MISS Ariza 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,357
+0022100799,480,PT03M09.00S,3,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,358
+0022100799,481,PT03M01.00S,3,1610612752,NYK,203095,Fournier,E. Fournier,-12,9,2,Made,1,82,84,166,v,Fournier 2' Driving Layup (12 PTS) (Burks 2 AST),Made Shot,Driving Layup Shot,1,2,359
+0022100799,483,PT02M47.00S,3,1610612747,LAL,1628370,Monk,M. Monk,12,7,1,Missed,1,,,0,h,MISS Monk 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,360
+0022100799,484,PT02M43.00S,3,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:4 Def:5),Rebound,Unknown,1,0,361
+0022100799,485,PT02M43.00S,3,1610612747,LAL,203076,Davis,A. Davis,0,0,0,Made,1,84,84,168,h,Davis Tip Dunk Shot (22 PTS),Made Shot,Tip Dunk Shot,1,2,362
+0022100799,486,PT02M28.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,-23,9,2,Missed,1,,,0,v,MISS Barrett 2' Driving Bank Hook Shot,Missed Shot,Driving Bank Hook Shot,1,2,363
+0022100799,487,PT02M25.00S,3,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,Reaves REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,364
+0022100799,488,PT02M18.00S,3,1610612747,LAL,1630559,Reaves,A. Reaves,-6,263,26,Missed,1,,,0,h,MISS Reaves 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,365
+0022100799,489,PT02M14.00S,3,1610612747,LAL,2772,Ariza,T. Ariza,0,0,0,,0,,,0,h,Ariza REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,366
+0022100799,490,PT02M11.00S,3,1610612747,LAL,1628370,Monk,M. Monk,10,10,1,Made,1,86,84,170,h,Monk 1' Driving Layup (21 PTS) (Ariza 2 AST),Made Shot,Driving Layup Shot,1,2,367
+0022100799,492,PT01M52.00S,3,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel Lost Ball Turnover (P1.T9),Turnover,Lost Ball,1,0,368
+0022100799,492,PT01M52.00S,3,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis STEAL (1 STL),,,1,0,369
+0022100799,494,PT01M29.00S,3,1610612747,LAL,1629659,Horton-Tucker,T. Horton-Tucker,-218,142,26,Missed,1,,,0,h,MISS Horton-Tucker 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,370
+0022100799,495,PT01M26.00S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,371
+0022100799,496,PT01M19.00S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle Lost Ball Turnover (P5.T10),Turnover,Lost Ball,1,0,372
+0022100799,496,PT01M19.00S,3,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis STEAL (2 STL),,,1,0,373
+0022100799,498,PT01M06.00S,3,1610612747,LAL,2772,Ariza,T. Ariza,222,15,0,Missed,1,,,0,h,MISS Ariza 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,374
+0022100799,499,PT01M03.00S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,375
+0022100799,500,PT00M48.20S,3,1610612752,NYK,203095,Fournier,E. Fournier,60,247,25,Missed,1,,,0,v,MISS Fournier 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,376
+0022100799,501,PT00M46.70S,3,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Unknown,0,0,377
+0022100799,503,PT00M46.70S,3,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,SUB: James FOR Davis,Substitution,,0,0,378
+0022100799,504,PT00M46.70S,3,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,SUB: Toppin FOR Barrett,Substitution,,0,0,379
+0022100799,505,PT00M46.70S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,SUB: Grimes FOR Randle,Substitution,,0,0,380
+0022100799,509,PT00M31.90S,3,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks P.FOUL (P1.T4) (D.Taylor),Foul,Personal,1,0,381
+0022100799,511,PT00M31.90S,3,1610612752,NYK,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,SUB: Barrett FOR Fournier,Substitution,,0,0,382
+0022100799,513,PT00M28.90S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle T.FOUL (P3.T4) (J.Van Duyne),Foul,Technical,1,0,383
+0022100799,514,PT00M28.90S,3,1610612747,LAL,1628370,Monk,M. Monk,0,0,0,,0,87,84,171,h,Monk Free Throw Technical (22 PTS),Free Throw,Free Throw Technical,1,0,384
+0022100799,515,PT00M24.40S,3,1610612747,LAL,1628370,Monk,M. Monk,-15,15,2,Missed,1,,,0,h,MISS Monk 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,385
+0022100799,516,PT00M22.00S,3,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,Toppin REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,386
+0022100799,517,PT00M07.70S,3,1610612747,LAL,1628370,Monk,M. Monk,0,0,0,,0,,,0,h,Monk Personal Take Foul (P1.T4) (D.Taylor),Foul,Personal Take,1,0,387
+0022100799,519,PT00M07.70S,3,1610612747,LAL,1628370,Monk,M. Monk,0,0,0,,0,,,0,h,SUB: Bradley FOR Monk,Substitution,,0,0,388
+0022100799,521,PT00M00.60S,3,1610612752,NYK,203457,Noel,N. Noel,97,103,14,Missed,1,,,0,v,MISS Noel 14' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,389
+0022100799,522,PT00M00.10S,3,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,390
+0022100799,523,PT00M00.00S,3,0,,0,,,0,0,0,,0,87,84,171,,End of 3rd Period (10:27 PM EST),period,end,1,0,391
+0022100799,524,PT12M00.00S,4,0,,0,,,0,0,0,,0,87,84,171,,Start of 4th Period (10:31 PM EST),period,start,0,0,392
+0022100799,525,PT11M39.00S,4,1610612747,LAL,2544,James,L. James,-146,246,29,Missed,1,,,0,h,MISS James 29' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,393
+0022100799,526,PT11M34.00S,4,1610612752,NYK,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,v,Grimes REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,394
+0022100799,527,PT11M19.00S,4,1610612752,NYK,203457,Noel,N. Noel,-17,17,2,Made,1,87,86,173,v,Noel 2' Jump Bank Shot (4 PTS) (Burks 3 AST),Made Shot,Jump Bank Shot,1,2,395
+0022100799,529,PT11M19.00S,4,1610612747,LAL,1629659,Horton-Tucker,T. Horton-Tucker,0,0,0,,0,,,0,h,Horton-Tucker S.FOUL (P1.T1) (D.Guthrie),Foul,Shooting,1,0,396
+0022100799,531,PT11M19.00S,4,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,87,87,174,v,Noel Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,1,0,397
+0022100799,532,PT10M57.00S,4,1610612747,LAL,2544,James,L. James,22,285,29,Made,1,90,87,177,h,James 29' 3PT Jump Shot (20 PTS),Made Shot,Jump Shot,1,3,398
+0022100799,533,PT10M48.00S,4,1610612747,LAL,1629659,Horton-Tucker,T. Horton-Tucker,0,0,0,,0,,,0,h,Horton-Tucker S.FOUL (P2.T2) (J.Van Duyne),Foul,Shooting,1,0,399
+0022100799,535,PT10M48.00S,4,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,90,88,178,v,Burks Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,0,0,400
+0022100799,536,PT10M48.00S,4,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,90,89,179,v,Burks Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,401
+0022100799,537,PT10M25.00S,4,1610612747,LAL,1629659,Horton-Tucker,T. Horton-Tucker,5,120,12,Missed,1,,,0,h,MISS Horton-Tucker 12' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,402
+0022100799,538,PT10M22.00S,4,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,Toppin REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,403
+0022100799,539,PT10M13.00S,4,1610612752,NYK,1629656,Grimes,Q. Grimes,-225,30,0,Missed,1,,,0,v,MISS Grimes 3PT Jump Shot,Missed Shot,Jump Shot,1,3,404
+0022100799,540,PT10M09.00S,4,1610612747,LAL,202340,Bradley,A. Bradley,0,0,0,,0,,,0,h,Bradley REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,405
+0022100799,541,PT10M04.00S,4,1610612747,LAL,1629659,Horton-Tucker,T. Horton-Tucker,-172,189,26,Missed,1,,,0,h,MISS Horton-Tucker 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,406
+0022100799,542,PT09M56.00S,4,1610612752,NYK,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,v,Grimes REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,407
+0022100799,543,PT09M43.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett Bad Pass Turnover (P2.T11),Turnover,Bad Pass,1,0,408
+0022100799,543,PT09M43.00S,4,1610612747,LAL,1629659,Horton-Tucker,T. Horton-Tucker,0,0,0,,0,,,0,h,Horton-Tucker STEAL (1 STL),,,1,0,409
+0022100799,545,PT09M42.00S,4,1610612752,NYK,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,v,Grimes Personal Take Foul (P3.T1) (D.Guthrie),Foul,Personal Take,1,0,410
+0022100799,547,PT09M28.00S,4,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,Toppin S.FOUL (P2.T2) (D.Taylor),Foul,Shooting,1,0,411
+0022100799,549,PT09M28.00S,4,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,91,89,180,h,Reaves Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,412
+0022100799,550,PT09M28.00S,4,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,92,89,181,h,Reaves Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,413
+0022100799,551,PT09M12.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,-36,17,4,Missed,1,,,0,v,MISS Barrett 4' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,414
+0022100799,551,PT09M12.00S,4,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,Reaves BLOCK (1 BLK),,,1,2,415
+0022100799,553,PT09M10.00S,4,1610612747,LAL,2772,Ariza,T. Ariza,0,0,0,,0,,,0,h,Ariza REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,416
+0022100799,554,PT09M10.00S,4,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks Personal Take Foul (P2.T3) (J.Van Duyne),Foul,Personal Take,1,0,417
+0022100799,556,PT09M10.00S,4,0,,554,,,0,0,0,,0,92,89,181,,Instant Replay4th Period (10:37 PM EST),Instant Replay,Support Ruling,0,0,418
+0022100799,557,PT08M55.00S,4,1610612747,LAL,2544,James,L. James,-167,2,17,Made,1,94,89,183,h,James 17' Turnaround Fadeaway (22 PTS),Made Shot,Turnaround Fadeaway shot,1,2,419
+0022100799,558,PT08M33.00S,4,1610612752,NYK,202692,Burks,A. Burks,-7,15,2,Made,1,94,91,185,v,Burks 2' Driving Layup (11 PTS) (Barrett 5 AST),Made Shot,Driving Layup Shot,1,2,420
+0022100799,560,PT08M11.00S,4,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks P.FOUL (P3.T4) (D.Guthrie),Foul,Personal,1,0,421
+0022100799,563,PT08M09.00S,4,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,Reaves Offensive Goaltending Turnover (P1.T10),Turnover,Offensive Goaltending,1,0,422
+0022100799,564,PT07M57.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,17,6,2,Made,1,94,93,187,v,Barrett 2' Driving Reverse Layup (27 PTS) (Noel 1 AST),Made Shot,Driving Reverse Layup Shot,1,2,423
+0022100799,566,PT07M31.00S,4,1610612747,LAL,2772,Ariza,T. Ariza,13,-3,1,Missed,1,,,0,h,MISS Ariza 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,424
+0022100799,567,PT07M31.00S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,425
+0022100799,569,PT07M18.00S,4,1610612752,NYK,1630167,Toppin,O. Toppin,232,16,0,Missed,1,,,0,v,MISS Toppin 3PT Jump Shot,Missed Shot,Jump Shot,1,3,426
+0022100799,570,PT07M12.00S,4,1610612752,NYK,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,v,Grimes REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,427
+0022100799,571,PT07M12.00S,4,1610612752,NYK,1629656,Grimes,Q. Grimes,0,0,0,Missed,1,,,0,v,MISS Grimes Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,428
+0022100799,572,PT07M11.00S,4,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,429
+0022100799,573,PT07M07.00S,4,1610612747,LAL,2544,James,L. James,-22,13,3,Made,1,96,93,189,h,James 3' Running Layup (24 PTS),Made Shot,Running Layup Shot,1,2,430
+0022100799,574,PT06M59.00S,4,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks Out of Bounds Lost Ball Turnover (P1.T12),Turnover,Out of Bounds Lost Ball Turnover,1,0,431
+0022100799,575,PT06M59.00S,4,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,432
+0022100799,576,PT06M59.00S,4,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,SUB: Davis FOR James,Substitution,,0,0,433
+0022100799,577,PT06M59.00S,4,1610612747,LAL,202340,Bradley,A. Bradley,0,0,0,,0,,,0,h,SUB: Monk FOR Bradley,Substitution,,0,0,434
+0022100799,578,PT06M59.00S,4,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,SUB: Randle FOR Toppin,Substitution,,0,0,435
+0022100799,582,PT06M41.00S,4,1610612747,LAL,1630559,Reaves,A. Reaves,-229,29,0,Missed,1,,,0,h,MISS Reaves 3PT Jump Shot,Missed Shot,Jump Shot,1,3,436
+0022100799,583,PT06M37.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,437
+0022100799,584,PT06M24.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,-66,34,7,Made,1,96,95,191,v,Barrett 7' Driving Floating Bank Jump Shot (29 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,438
+0022100799,585,PT06M00.00S,4,1610612747,LAL,203076,Davis,A. Davis,1,68,7,Made,1,98,95,193,h,Davis 7' Floating Jump Shot (24 PTS) (Horton-Tucker 3 AST),Made Shot,Floating Jump shot,1,2,439
+0022100799,587,PT05M48.00S,4,1610612752,NYK,202692,Burks,A. Burks,-6,256,26,Missed,1,,,0,v,MISS Burks 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,440
+0022100799,588,PT05M45.00S,4,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:4 Def:6),Rebound,Unknown,1,0,441
+0022100799,589,PT05M31.00S,4,1610612747,LAL,1628370,Monk,M. Monk,-141,268,30,Made,1,101,95,196,h,Monk 30' 3PT Jump Shot (25 PTS) (Davis 3 AST),Made Shot,Jump Shot,1,3,442
+0022100799,591,PT05M30.00S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,443
+0022100799,592,PT05M30.00S,4,1610612747,LAL,1629659,Horton-Tucker,T. Horton-Tucker,0,0,0,,0,,,0,h,SUB: Westbrook FOR Horton-Tucker,Substitution,,0,0,444
+0022100799,593,PT05M30.00S,4,1610612747,LAL,1630559,Reaves,A. Reaves,0,0,0,,0,,,0,h,SUB: James FOR Reaves,Substitution,,0,0,445
+0022100799,594,PT05M30.00S,4,1610612752,NYK,1629656,Grimes,Q. Grimes,0,0,0,,0,,,0,v,SUB: Fournier FOR Grimes,Substitution,,0,0,446
+0022100799,598,PT05M15.00S,4,1610612752,NYK,202692,Burks,A. Burks,227,77,24,Missed,1,,,0,v,MISS Burks 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,447
+0022100799,599,PT05M11.00S,4,1610612747,LAL,2772,Ariza,T. Ariza,0,0,0,,0,,,0,h,Ariza REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,448
+0022100799,600,PT04M53.00S,4,1610612747,LAL,1628370,Monk,M. Monk,-2,181,18,Made,1,103,95,198,h,Monk 18' Pullup Jump Shot (27 PTS) (James 7 AST),Made Shot,Pullup Jump shot,1,2,449
+0022100799,602,PT04M30.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,158,199,25,Missed,1,,,0,v,MISS Barrett 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,450
+0022100799,603,PT04M26.00S,4,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:4 Def:7),Rebound,Unknown,1,0,451
+0022100799,604,PT04M12.00S,4,1610612747,LAL,2544,James,L. James,-31,280,28,Missed,1,,,0,h,MISS James 28' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,452
+0022100799,605,PT04M10.00S,4,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,453
+0022100799,606,PT04M02.00S,4,1610612747,LAL,2772,Ariza,T. Ariza,0,0,0,,0,,,0,h,Ariza P.FOUL (P2.T3) (J.Van Duyne),Foul,Personal,1,0,454
+0022100799,608,PT04M02.00S,4,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,SUB: Robinson FOR Noel,Substitution,,0,0,455
+0022100799,610,PT03M47.00S,4,1610612752,NYK,203095,Fournier,E. Fournier,-228,20,0,Missed,1,,,0,v,MISS Fournier 3PT Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,3,456
+0022100799,611,PT03M43.00S,4,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,457
+0022100799,612,PT03M43.00S,4,1610612752,NYK,1629011,Robinson,M. Robinson,4,29,3,Missed,1,,,0,v,MISS Robinson 3' Putback Layup,Missed Shot,Putback Layup Shot,1,2,458
+0022100799,613,PT03M43.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:2 Def:9),Rebound,Unknown,1,0,459
+0022100799,614,PT03M40.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,Made,1,103,97,200,v,Randle Tip Layup Shot (25 PTS),Made Shot,Tip Layup Shot,1,2,460
+0022100799,615,PT03M19.00S,4,1610612747,LAL,201566,Westbrook,R. Westbrook,-232,38,24,Missed,1,,,0,h,MISS Westbrook 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,461
+0022100799,616,PT03M18.00S,4,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:5 Def:7),Rebound,Unknown,1,0,462
+0022100799,617,PT03M18.00S,4,1610612747,LAL,203076,Davis,A. Davis,2,8,1,Made,1,105,97,202,h,Davis 1' Putback Layup (26 PTS),Made Shot,Putback Layup Shot,1,2,463
+0022100799,618,PT03M18.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle S.FOUL (P4.PN) (D.Taylor),Foul,Shooting,1,0,464
+0022100799,620,PT03M18.00S,4,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,MISS Davis Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,465
+0022100799,621,PT03M14.00S,4,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,466
+0022100799,622,PT03M04.00S,4,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis S.FOUL (P2.T4) (D.Taylor),Foul,Shooting,1,0,467
+0022100799,624,PT03M04.00S,4,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,MISS Burks Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,468
+0022100799,625,PT03M04.00S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Normal Rebound,0,0,469
+0022100799,626,PT03M04.00S,4,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,105,98,203,v,Burks Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,470
+0022100799,627,PT02M52.00S,4,1610612752,NYK,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,Fournier S.FOUL (P2.PN) (D.Taylor),Foul,Shooting,1,0,471
+0022100799,629,PT02M52.00S,4,1610612747,LAL,2544,James,L. James,0,0,0,,0,106,98,204,h,James Free Throw 1 of 2 (25 PTS),Free Throw,Free Throw 1 of 2,1,0,472
+0022100799,630,PT02M52.00S,4,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,MISS James Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,473
+0022100799,631,PT02M47.00S,4,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:6 Def:7),Rebound,Unknown,1,0,474
+0022100799,632,PT02M46.00S,4,1610612747,LAL,2544,James,L. James,-147,62,16,Missed,1,,,0,h,MISS James 16' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,475
+0022100799,633,PT02M44.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:2 Def:10),Rebound,Unknown,1,0,476
+0022100799,634,PT02M43.00S,4,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James S.FOUL (P3.PN) (D.Taylor),Foul,Shooting,1,0,477
+0022100799,636,PT02M43.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,MISS Randle Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,478
+0022100799,637,PT02M43.00S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Normal Rebound,0,0,479
+0022100799,638,PT02M43.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,106,99,205,v,Randle Free Throw 2 of 2 (26 PTS),Free Throw,Free Throw 2 of 2,1,0,480
+0022100799,639,PT02M27.00S,4,1610612747,LAL,2544,James,L. James,16,1,2,Missed,1,,,0,h,MISS James 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,481
+0022100799,639,PT02M27.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle BLOCK (2 BLK),,,1,2,482
+0022100799,641,PT02M22.00S,4,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:3 Def:8),Rebound,Unknown,1,0,483
+0022100799,642,PT02M22.00S,4,1610612747,LAL,2544,James,L. James,0,0,0,Made,1,108,99,207,h,James Putback Layup (27 PTS),Made Shot,Putback Layup Shot,1,2,484
+0022100799,643,PT02M08.00S,4,1610612747,LAL,2772,Ariza,T. Ariza,0,0,0,,0,,,0,h,Ariza S.FOUL (P3.PN) (D.Guthrie),Foul,Shooting,1,0,485
+0022100799,645,PT02M08.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,108,100,208,v,Barrett Free Throw 1 of 2 (30 PTS),Free Throw,Free Throw 1 of 2,1,0,486
+0022100799,646,PT02M08.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,108,101,209,v,Barrett Free Throw 2 of 2 (31 PTS),Free Throw,Free Throw 2 of 2,1,0,487
+0022100799,647,PT01M52.00S,4,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis Bad Pass Turnover (P2.T11),Turnover,Bad Pass,1,0,488
+0022100799,647,PT01M52.00S,4,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks STEAL (1 STL),,,1,0,489
+0022100799,649,PT01M47.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,-150,199,25,Missed,1,,,0,v,MISS Barrett 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,490
+0022100799,650,PT01M44.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:3 Def:10),Rebound,Unknown,1,0,491
+0022100799,651,PT01M42.00S,4,1610612752,NYK,203944,Randle,J. Randle,7,46,5,Missed,1,,,0,v,MISS Randle 5' Putback Layup,Missed Shot,Putback Layup Shot,1,2,492
+0022100799,651,PT01M42.00S,4,1610612747,LAL,2772,Ariza,T. Ariza,0,0,0,,0,,,0,h,Ariza BLOCK (1 BLK),,,1,2,493
+0022100799,653,PT01M42.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:4 Def:10),Rebound,Unknown,1,0,494
+0022100799,654,PT01M41.00S,4,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis S.FOUL (P3.PN) (J.Van Duyne),Foul,Shooting,1,0,495
+0022100799,656,PT01M41.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,108,102,210,v,Randle Free Throw 1 of 2 (27 PTS),Free Throw,Free Throw 1 of 2,1,0,496
+0022100799,657,PT01M41.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,108,103,211,v,Randle Free Throw 2 of 2 (28 PTS),Free Throw,Free Throw 2 of 2,1,0,497
+0022100799,658,PT01M41.00S,4,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,498
+0022100799,660,PT01M26.00S,4,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks Violation:Kicked Ball (D.Taylor),Violation,Kicked Ball,0,0,499
+0022100799,661,PT01M17.00S,4,1610612747,LAL,2772,Ariza,T. Ariza,-25,12,3,Made,1,110,103,213,h,Ariza 3' Cutting Layup Shot (7 PTS) (James 8 AST),Made Shot,Cutting Layup Shot,1,2,500
+0022100799,663,PT01M17.00S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,501
+0022100799,664,PT01M05.00S,4,1610612752,NYK,203095,Fournier,E. Fournier,235,6,24,Made,1,110,106,216,v,Fournier 24' 3PT Jump Shot (15 PTS) (Randle 7 AST),Made Shot,Jump Shot,1,3,502
+0022100799,666,PT00M57.90S,4,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson P.FOUL (P3.PN) (D.Taylor),Foul,Personal,1,0,503
+0022100799,668,PT00M57.90S,4,1610612747,LAL,201566,Westbrook,R. Westbrook,0,0,0,,0,,,0,h,MISS Westbrook Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,504
+0022100799,669,PT00M57.90S,4,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Normal Rebound,0,0,505
+0022100799,670,PT00M57.90S,4,1610612747,LAL,201566,Westbrook,R. Westbrook,0,0,0,,0,,,0,h,MISS Westbrook Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,506
+0022100799,671,PT00M55.50S,4,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,507
+0022100799,672,PT00M52.10S,4,1610612752,NYK,202692,Burks,A. Burks,232,13,0,Missed,1,,,0,v,MISS Burks 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,508
+0022100799,673,PT00M47.10S,4,1610612747,LAL,2772,Ariza,T. Ariza,0,0,0,,0,,,0,h,Ariza REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,509
+0022100799,674,PT00M46.00S,4,1610612752,NYK,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,Fournier Personal Take Foul (P3.PN) (D.Taylor),Foul,Personal Take,1,0,510
+0022100799,676,PT00M46.00S,4,1610612747,LAL,2772,Ariza,T. Ariza,0,0,0,,0,111,106,217,h,Ariza Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,511
+0022100799,677,PT00M46.00S,4,1610612747,LAL,2772,Ariza,T. Ariza,0,0,0,,0,,,0,h,MISS Ariza Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,512
+0022100799,678,PT00M43.90S,4,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,513
+0022100799,679,PT00M40.10S,4,1610612752,NYK,1629628,Barrett,R. Barrett,-5,15,2,Made,1,111,108,219,v,Barrett 2' Running Dunk (33 PTS),Made Shot,Running Dunk Shot,1,2,514
+0022100799,705,PT00M40.10S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Delay,Foul,Delay Technical,0,0,515
+0022100799,683,PT00M40.10S,4,1610612747,LAL,1628370,Monk,M. Monk,0,0,0,,0,,,0,h,MISS Monk Free Throw Technical,Free Throw,Free Throw Technical,0,0,516
+0022100799,684,PT00M40.10S,4,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Rebound,Rebound,Normal Rebound,0,0,517
+0022100799,685,PT00M16.80S,4,1610612747,LAL,1628370,Monk,M. Monk,69,217,23,Missed,1,,,0,h,MISS Monk 23' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,518
+0022100799,686,PT00M12.10S,4,1610612752,NYK,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,Fournier REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,519
+0022100799,687,PT00M08.70S,4,1610612752,NYK,1629628,Barrett,R. Barrett,163,199,26,Made,1,111,111,222,v,Barrett 26' 3PT Jump Shot (36 PTS) (Fournier 3 AST),Made Shot,Jump Shot,1,3,520
+0022100799,689,PT00M08.10S,4,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,521
+0022100799,690,PT00M08.10S,4,1610612752,NYK,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,SUB: Grimes FOR Fournier,Substitution,,0,0,522
+0022100799,692,PT00M02.30S,4,1610612747,LAL,2544,James,L. James,-87,244,26,Missed,1,,,0,h,MISS James 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,523
+0022100799,693,PT00M02.30S,4,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,524
+0022100799,694,PT00M00.00S,4,0,,0,,,0,0,0,,0,111,111,222,,End of 4th Period (11:11 PM EST),period,end,1,0,525
+0022100799,700,PT05M00.00S,5,0,,0,,,0,0,0,,0,111,111,222,,Start of 1st OT (11:14 PM EST),period,start,0,0,526
+0022100799,702,PT05M00.00S,5,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Jump Ball Davis vs. Robinson: Tip to Burks,Jump Ball,,1,0,527
+0022100799,706,PT04M44.00S,5,1610612752,NYK,203944,Randle,J. Randle,5,80,8,Missed,1,,,0,v,MISS Randle 8' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,528
+0022100799,707,PT04M40.00S,5,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson REBOUND (Off:4 Def:7),Rebound,Unknown,1,0,529
+0022100799,708,PT04M32.00S,5,1610612752,NYK,203095,Fournier,E. Fournier,27,184,19,Missed,1,,,0,v,MISS Fournier 19' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,530
+0022100799,709,PT04M26.00S,5,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:6 Def:8),Rebound,Unknown,1,0,531
+0022100799,710,PT04M10.00S,5,1610612747,LAL,1629659,Horton-Tucker,T. Horton-Tucker,0,0,0,,0,,,0,h,Horton-Tucker Out of Bounds Lost Ball Turnover (P1.T12),Turnover,Out of Bounds Lost Ball Turnover,1,0,532
+0022100799,711,PT03M46.00S,5,1610612752,NYK,202692,Burks,A. Burks,74,171,19,Missed,1,,,0,v,MISS Burks 19' Jump Shot,Missed Shot,Jump Shot,1,2,533
+0022100799,712,PT03M43.00S,5,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:3 Def:9),Rebound,Unknown,1,0,534
+0022100799,713,PT03M38.00S,5,1610612747,LAL,2772,Ariza,T. Ariza,-233,31,24,Missed,1,,,0,h,MISS Ariza 24' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,535
+0022100799,714,PT03M33.00S,5,1610612752,NYK,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,Fournier REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,536
+0022100799,715,PT03M24.00S,5,1610612747,LAL,1629659,Horton-Tucker,T. Horton-Tucker,0,0,0,,0,,,0,h,Jump Ball Horton-Tucker vs. Barrett: Tip to James,Jump Ball,,1,0,537
+0022100799,718,PT03M24.00S,5,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett Lost Ball Turnover (P3.T13),Turnover,Lost Ball,1,0,538
+0022100799,718,PT03M24.00S,5,1610612747,LAL,1629659,Horton-Tucker,T. Horton-Tucker,0,0,0,,0,,,0,h,Horton-Tucker STEAL (2 STL),,,1,0,539
+0022100799,720,PT03M23.00S,5,1610612747,LAL,2544,James,L. James,4,20,2,Made,1,113,111,224,h,James 2' Running Dunk (29 PTS),Made Shot,Running Dunk Shot,1,2,540
+0022100799,721,PT03M01.00S,5,1610612752,NYK,1629628,Barrett,R. Barrett,-86,237,25,Missed,1,,,0,v,MISS Barrett 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,541
+0022100799,722,PT02M59.00S,5,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James REBOUND (Off:3 Def:10),Rebound,Unknown,1,0,542
+0022100799,724,PT02M51.00S,5,1610612747,LAL,1629659,Horton-Tucker,T. Horton-Tucker,-21,44,5,Made,1,115,111,226,h,Horton-Tucker 5' Cutting Finger Roll Layup Shot (2 PTS) (James 9 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,543
+0022100799,726,PT02M51.00S,5,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson S.FOUL (P4.T1) (D.Taylor),Foul,Shooting,1,0,544
+0022100799,728,PT02M51.00S,5,1610612747,LAL,1629659,Horton-Tucker,T. Horton-Tucker,0,0,0,,0,,,0,h,MISS Horton-Tucker Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,545
+0022100799,729,PT02M48.00S,5,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,546
+0022100799,731,PT02M40.00S,5,1610612752,NYK,203944,Randle,J. Randle,-16,11,2,Made,1,115,113,228,v,Randle 2' Cutting Layup Shot (30 PTS) (Burks 4 AST),Made Shot,Cutting Layup Shot,1,2,547
+0022100799,735,PT02M40.00S,5,0,,1610612747,,,0,0,0,,0,,,0,h,LAKERS Timeout: Coach Challenge (Full 6 Short 0),Timeout,Coach Challenge,0,0,548
+0022100799,736,PT02M40.00S,5,0,,733,Martin,C. Martin,0,0,0,,0,115,113,228,,Instant Replay1st OT (11:18 PM EST),Instant Replay,Coach Challenge Overturn Ruling,1,0,549
+0022100799,737,PT02M24.00S,5,1610612747,LAL,1628370,Monk,M. Monk,18,4,2,Made,1,117,113,230,h,Monk 2' Driving Layup (29 PTS),Made Shot,Driving Layup Shot,1,2,550
+0022100799,738,PT02M05.00S,5,1610612752,NYK,1629628,Barrett,R. Barrett,-21,99,10,Missed,1,,,0,v,MISS Barrett 10' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,551
+0022100799,739,PT02M01.00S,5,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:6 Def:9),Rebound,Unknown,1,0,552
+0022100799,740,PT01M44.00S,5,1610612747,LAL,2544,James,L. James,9,107,11,Missed,1,,,0,h,MISS James 11' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,553
+0022100799,741,PT01M38.00S,5,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:7 Def:9),Rebound,Unknown,1,0,554
+0022100799,742,PT01M38.00S,5,1610612747,LAL,203076,Davis,A. Davis,0,0,0,Missed,1,,,0,h,MISS Davis Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,555
+0022100799,743,PT01M38.00S,5,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:4 Def:11),Rebound,Unknown,1,0,556
+0022100799,744,PT01M36.00S,5,1610612752,NYK,203095,Fournier,E. Fournier,123,225,26,Missed,1,,,0,v,MISS Fournier 26' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,557
+0022100799,745,PT01M36.00S,5,1610612747,LAL,2772,Ariza,T. Ariza,0,0,0,,0,,,0,h,Ariza REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,558
+0022100799,746,PT01M12.00S,5,1610612747,LAL,2772,Ariza,T. Ariza,224,47,0,Made,1,120,113,233,h,Ariza 3PT Jump Shot (11 PTS) (James 10 AST),Made Shot,Jump Shot,1,3,559
+0022100799,748,PT01M12.00S,5,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.7 Short 0),Timeout,Regular,0,0,560
+0022100799,749,PT01M00.00S,5,1610612752,NYK,1629628,Barrett,R. Barrett,179,46,18,Missed,1,,,0,v,MISS Barrett 18' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,561
+0022100799,750,PT00M58.50S,5,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:5 Def:11),Rebound,Unknown,1,0,562
+0022100799,751,PT00M58.50S,5,1610612752,NYK,203944,Randle,J. Randle,0,0,0,Made,1,120,115,235,v,Randle Tip Layup Shot (32 PTS),Made Shot,Tip Layup Shot,1,2,563
+0022100799,757,PT00M33.10S,5,1610612747,LAL,2544,James,L. James,0,0,0,,0,,,0,h,James Offensive Goaltending Turnover (P3.T13),Turnover,Offensive Goaltending,1,0,564
+0022100799,755,PT00M33.10S,5,0,,757,Stoudamire,D. Stoudamire,0,0,0,,0,120,115,235,,Instant Replay1st OT (11:25 PM EST),Instant Replay,Ruling Stands,0,0,565
+0022100799,758,PT00M28.90S,5,1610612747,LAL,1629659,Horton-Tucker,T. Horton-Tucker,0,0,0,,0,,,0,h,Horton-Tucker P.FOUL (P3.T1) (D.Guthrie),Foul,Personal,1,0,566
+0022100799,760,PT00M26.20S,5,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks Bad Pass Turnover (P2.T14),Turnover,Bad Pass,1,0,567
+0022100799,760,PT00M26.20S,5,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis STEAL (3 STL),,,1,0,568
+0022100799,762,PT00M23.70S,5,1610612747,LAL,203076,Davis,A. Davis,7,7,1,Made,1,122,115,237,h,Davis 1' Running Dunk (28 PTS) (Ariza 3 AST),Made Shot,Running Dunk Shot,1,2,569
+0022100799,764,PT00M23.70S,5,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.8 Short 0),Timeout,Regular,0,0,570
+0022100799,765,PT00M23.70S,5,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,SUB: Grimes FOR Robinson,Substitution,,0,0,571
+0022100799,767,PT00M17.30S,5,1610612752,NYK,1629656,Grimes,Q. Grimes,-224,25,0,Missed,1,,,0,v,MISS Grimes 3PT Jump Shot,Missed Shot,Jump Shot,1,3,572
+0022100799,768,PT00M12.90S,5,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,573
+0022100799,769,PT00M12.90S,5,1610612752,NYK,202692,Burks,A. Burks,0,0,0,Missed,1,,,0,v,MISS Burks Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,574
+0022100799,770,PT00M12.20S,5,1610612747,LAL,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:7 Def:10),Rebound,Unknown,1,0,575
+0022100799,771,PT00M00.00S,5,0,,0,,,0,0,0,,0,122,115,237,,End of 1st OT (11:30 PM EST),period,end,1,0,576

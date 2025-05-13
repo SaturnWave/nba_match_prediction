@@ -1,0 +1,455 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021900103,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:12 PM EST),period,start,0,0,1
+0021900103,4,PT12M00.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Jump Ball Drummond vs. Robinson: Tip to Brown,Jump Ball,,1,0,2
+0021900103,7,PT11M45.00S,1,1610612765,DET,203503,Snell,T. Snell,-191,186,27,Made,1,3,0,3,h,Snell 27' 3PT Jump Shot (3 PTS) (Kennard 1 AST),Made Shot,Jump Shot,1,3,3
+0021900103,9,PT11M28.00S,1,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. OFF.Foul (P1) (B.Barnaky),Foul,Offensive,1,0,4
+0021900103,11,PT11M28.00S,1,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. Offensive Foul Turnover (P1.T1),Turnover,Offensive Foul Turnover,1,0,5
+0021900103,12,PT11M18.00S,1,1610612765,DET,203503,Snell,T. Snell,-20,11,2,Made,1,5,0,5,h,Snell 2' Layup (5 PTS) (Drummond 1 AST),Made Shot,Layup Shot,1,2,6
+0021900103,14,PT11M01.00S,1,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina Lost Ball Turnover (P1.T2),Turnover,Lost Ball,1,0,7
+0021900103,14,PT11M01.00S,1,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,Brown STEAL (1 STL),,,1,0,8
+0021900103,16,PT10M52.00S,1,1610612765,DET,202693,Morris,M. Morris,228,27,0,Missed,1,,,0,h,MISS Morris 3PT Jump Shot,Missed Shot,Jump Shot,1,3,9
+0021900103,17,PT10M48.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,10
+0021900103,18,PT10M45.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,188,185,26,Made,1,5,3,8,v,Barrett 26' 3PT Step Back Jump Shot (3 PTS) (Randle 1 AST),Made Shot,Step Back Jump shot,1,3,11
+0021900103,20,PT10M20.00S,1,1610612765,DET,202693,Morris,M. Morris,-90,74,12,Made,1,7,3,10,h,Morris 12' Fadeaway Jumper (2 PTS),Made Shot,Fadeaway Jump Shot,1,2,12
+0021900103,21,PT10M01.00S,1,1610612752,NYK,1629011,Robinson,M. Robinson,-16,3,2,Made,1,7,5,12,v,Robinson 2' Dunk (2 PTS) (Morris Sr. 1 AST),Made Shot,Dunk Shot,1,2,13
+0021900103,23,PT09M41.00S,1,1610612765,DET,203083,Drummond,A. Drummond,-24,10,3,Missed,1,,,0,h,MISS Drummond 3' Layup,Missed Shot,Layup Shot,1,2,14
+0021900103,24,PT09M39.00S,1,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,15
+0021900103,25,PT09M35.00S,1,1610612752,NYK,203944,Randle,J. Randle,-19,0,2,Missed,1,,,0,v,MISS Randle 2' Layup,Missed Shot,Layup Shot,1,2,16
+0021900103,26,PT09M30.00S,1,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,17
+0021900103,27,PT09M19.00S,1,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris L.B.FOUL (P1.T1) (B.Taylor),Foul,Loose Ball,1,0,18
+0021900103,29,PT09M19.00S,1,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris No Turnover (P1.T1),Turnover,,1,0,19
+0021900103,30,PT09M07.00S,1,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,214,159,27,Missed,1,,,0,v,MISS Morris Sr. 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,20
+0021900103,31,PT09M04.00S,1,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,Kennard REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,21
+0021900103,32,PT09M01.00S,1,1610612765,DET,203503,Snell,T. Snell,-12,27,3,Made,1,9,5,14,h,Snell 3' Running Dunk (7 PTS) (Kennard 2 AST),Made Shot,Running Dunk Shot,1,2,22
+0021900103,34,PT08M46.00S,1,1610612752,NYK,1629011,Robinson,M. Robinson,-5,9,1,Made,1,9,7,16,v,Robinson 1' Dunk (4 PTS) (Barrett 1 AST),Made Shot,Dunk Shot,1,2,23
+0021900103,36,PT08M20.00S,1,1610612765,DET,202693,Morris,M. Morris,-107,186,21,Missed,1,,,0,h,MISS Morris 21' Jump Shot,Missed Shot,Jump Shot,1,2,24
+0021900103,37,PT08M17.00S,1,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,25
+0021900103,38,PT07M57.00S,1,1610612752,NYK,203944,Randle,J. Randle,67,36,8,Made,1,9,9,18,v,Randle 8' Driving Floating Bank Jump Shot (2 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,26
+0021900103,39,PT07M45.00S,1,1610612765,DET,1628971,Brown,B. Brown,-16,42,4,Missed,1,,,0,h,MISS Brown 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,27
+0021900103,39,PT07M45.00S,1,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina BLOCK (1 BLK),,,1,2,28
+0021900103,41,PT07M42.00S,1,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,29
+0021900103,42,PT07M38.00S,1,1610612765,DET,203503,Snell,T. Snell,0,0,0,,0,,,0,h,Snell S.FOUL (P1.T2) (B.Taylor),Foul,Shooting,1,0,30
+0021900103,44,PT07M38.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,9,10,19,v,Randle Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,31
+0021900103,45,PT07M38.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,MISS Randle Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,32
+0021900103,46,PT07M35.00S,1,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,33
+0021900103,47,PT07M33.00S,1,1610612752,NYK,1629011,Robinson,M. Robinson,-9,13,2,Made,1,9,12,21,v,Robinson 2' Layup (6 PTS),Made Shot,Layup Shot,1,2,34
+0021900103,48,PT07M17.00S,1,1610612765,DET,1628971,Brown,B. Brown,11,10,1,Missed,1,,,0,h,MISS Brown 1' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,35
+0021900103,48,PT07M17.00S,1,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina BLOCK (2 BLK),,,1,2,36
+0021900103,50,PT07M14.00S,1,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,37
+0021900103,51,PT07M10.00S,1,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,-8,25,3,Missed,1,,,0,v,MISS Ntilikina 3' Running Layup,Missed Shot,Running Layup Shot,1,2,38
+0021900103,52,PT07M06.00S,1,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,39
+0021900103,53,PT07M06.00S,1,1610612752,NYK,1629011,Robinson,M. Robinson,0,-6,1,Missed,1,,,0,v,MISS Robinson 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,40
+0021900103,54,PT07M04.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,41
+0021900103,55,PT07M02.00S,1,1610612765,DET,203503,Snell,T. Snell,-196,179,27,Made,1,12,12,24,h,Snell 27' 3PT Jump Shot (10 PTS) (Drummond 2 AST),Made Shot,Jump Shot,1,3,42
+0021900103,56,PT06M44.00S,1,1610612752,NYK,203944,Randle,J. Randle,-231,34,0,Missed,1,,,0,v,MISS Randle 3PT Jump Shot,Missed Shot,Jump Shot,1,3,43
+0021900103,57,PT06M42.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,44
+0021900103,58,PT06M37.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,45
+0021900103,58,PT06M37.00S,1,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. STEAL (1 STL),,,1,0,46
+0021900103,61,PT06M27.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,47
+0021900103,61,PT06M27.00S,1,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris STEAL (1 STL),,,1,0,48
+0021900103,63,PT06M26.00S,1,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson P.FOUL (P1.T1) (A.Moyer-Gleich),Foul,Personal,1,0,49
+0021900103,65,PT06M26.00S,1,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,50
+0021900103,66,PT06M16.00S,1,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. P.FOUL (P2.T2) (B.Barnaky),Foul,Personal,1,0,51
+0021900103,68,PT06M16.00S,1,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,SUB: Knox II FOR Morris Sr.,Substitution,,0,0,52
+0021900103,70,PT06M10.00S,1,1610612765,DET,1628379,Kennard,L. Kennard,10,76,8,Missed,1,,,0,h,MISS Kennard 8' Hook Shot,Missed Shot,Hook Shot,1,2,53
+0021900103,71,PT06M08.00S,1,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,Robinson REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,54
+0021900103,72,PT05M50.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,-67,24,7,Missed,1,,,0,v,MISS Barrett 7' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,55
+0021900103,73,PT05M48.00S,1,1610612765,DET,203503,Snell,T. Snell,0,0,0,,0,,,0,h,Snell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,56
+0021900103,74,PT05M40.00S,1,1610612765,DET,203083,Drummond,A. Drummond,-32,17,4,Made,1,14,12,26,h,Drummond 4' Alley Oop Dunk (2 PTS) (Snell 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,57
+0021900103,76,PT05M26.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,38,55,7,Missed,1,,,0,v,MISS Barrett 7' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,58
+0021900103,77,PT05M24.00S,1,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,Kennard REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,59
+0021900103,78,PT05M09.00S,1,1610612765,DET,1628379,Kennard,L. Kennard,231,36,0,Missed,1,,,0,h,MISS Kennard 3PT Jump Shot,Missed Shot,Jump Shot,1,3,60
+0021900103,79,PT05M07.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,61
+0021900103,80,PT04M58.00S,1,1610612752,NYK,203944,Randle,J. Randle,19,10,2,Made,1,14,14,28,v,Randle 2' Driving Layup (5 PTS) (Barrett 2 AST),Made Shot,Driving Layup Shot,1,2,62
+0021900103,82,PT04M47.00S,1,1610612765,DET,202693,Morris,M. Morris,16,7,2,Made,1,16,14,30,h,Morris 2' Cutting Layup Shot (4 PTS) (Kennard 3 AST),Made Shot,Cutting Layup Shot,1,2,63
+0021900103,84,PT04M30.00S,1,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,-184,106,21,Made,1,16,16,32,v,Ntilikina 21' Jump Shot (2 PTS) (Robinson 1 AST),Made Shot,Jump Shot,1,2,64
+0021900103,86,PT04M14.00S,1,1610612765,DET,1628379,Kennard,L. Kennard,149,215,26,Missed,1,,,0,h,MISS Kennard 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,65
+0021900103,87,PT04M12.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,66
+0021900103,89,PT04M05.00S,1,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,SUB: Wood FOR Kennard,Substitution,,0,0,67
+0021900103,90,PT04M05.00S,1,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,SUB: Galloway FOR Morris,Substitution,,0,0,68
+0021900103,91,PT04M05.00S,1,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,SUB: Portis FOR Ntilikina,Substitution,,0,0,69
+0021900103,92,PT04M05.00S,1,1610612752,NYK,1629011,Robinson,M. Robinson,0,0,0,,0,,,0,v,SUB: Ellington FOR Robinson,Substitution,,0,0,70
+0021900103,97,PT04M03.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle S.FOUL (P1.T3) (A.Moyer-Gleich),Foul,Shooting,1,0,71
+0021900103,99,PT04M03.00S,1,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,17,16,33,h,Galloway Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,72
+0021900103,100,PT04M03.00S,1,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,18,16,34,h,Galloway Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,73
+0021900103,101,PT03M50.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,74
+0021900103,101,PT03M50.00S,1,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood STEAL (1 STL),,,1,0,75
+0021900103,103,PT03M37.00S,1,1610612765,DET,1626174,Wood,C. Wood,-24,28,4,Made,1,20,16,36,h,Wood 4' Alley Oop Dunk (2 PTS) (Brown 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,76
+0021900103,105,PT03M33.00S,1,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,77
+0021900103,106,PT03M33.00S,1,1610612765,DET,203503,Snell,T. Snell,0,0,0,,0,,,0,h,SUB: Mykhailiuk FOR Snell,Substitution,,0,0,78
+0021900103,107,PT03M33.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,SUB: Gibson FOR Randle,Substitution,,0,0,79
+0021900103,110,PT03M23.00S,1,1610612752,NYK,201961,Ellington,W. Ellington,-172,189,26,Missed,1,,,0,v,MISS Ellington 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,80
+0021900103,111,PT03M22.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,81
+0021900103,112,PT03M04.00S,1,1610612765,DET,1626174,Wood,C. Wood,233,91,25,Missed,1,,,0,h,MISS Wood 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,82
+0021900103,113,PT03M03.00S,1,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,83
+0021900103,114,PT03M02.00S,1,1610612765,DET,1626174,Wood,C. Wood,13,13,2,Made,1,22,16,38,h,Wood 2' Alley Oop Dunk (4 PTS) (Brown 2 AST),Made Shot,Alley Oop Dunk Shot,1,2,84
+0021900103,116,PT02M44.00S,1,1610612752,NYK,1628995,Knox II,K. Knox II,100,68,12,Missed,1,,,0,v,MISS Knox II 12' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,85
+0021900103,117,PT02M43.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,86
+0021900103,118,PT02M38.00S,1,1610612765,DET,1628971,Brown,B. Brown,41,26,5,Made,1,24,16,40,h,Brown 5' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,87
+0021900103,119,PT02M29.00S,1,1610612752,NYK,1628995,Knox II,K. Knox II,-156,194,25,Made,1,24,19,43,v,Knox II 25' 3PT Jump Shot (3 PTS) (Barrett 3 AST),Made Shot,Jump Shot,1,3,88
+0021900103,121,PT02M12.00S,1,1610612752,NYK,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis S.FOUL (P1.T4) (B.Barnaky),Foul,Shooting,1,0,89
+0021900103,123,PT02M12.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,25,19,44,h,Drummond Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,90
+0021900103,126,PT02M12.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,26,19,45,h,Drummond Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,91
+0021900103,124,PT02M12.00S,1,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,SUB: Kennard FOR Brown,Substitution,,0,0,92
+0021900103,127,PT02M03.00S,1,1610612752,NYK,1626171,Portis,B. Portis,46,24,5,Missed,1,,,0,v,MISS Portis 5' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,93
+0021900103,128,PT02M02.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,94
+0021900103,129,PT01M51.00S,1,1610612765,DET,203083,Drummond,A. Drummond,20,16,3,Made,1,28,19,47,h,Drummond 3' Layup (6 PTS) (Galloway 1 AST),Made Shot,Layup Shot,1,2,95
+0021900103,132,PT01M41.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,SUB: Ntilikina FOR Barrett,Substitution,,0,0,96
+0021900103,134,PT01M31.00S,1,1610612752,NYK,201961,Ellington,W. Ellington,18,21,3,Made,1,28,21,49,v,Ellington 3' Layup (2 PTS),Made Shot,Layup Shot,1,2,97
+0021900103,135,PT01M11.00S,1,1610612765,DET,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk Lost Ball Turnover (P1.T3),Turnover,Lost Ball,1,0,98
+0021900103,135,PT01M11.00S,1,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina STEAL (1 STL),,,1,0,99
+0021900103,137,PT01M05.00S,1,1610612752,NYK,201959,Gibson,T. Gibson,16,15,2,Made,1,28,23,51,v,Gibson 2' Layup (2 PTS) (Portis 1 AST),Made Shot,Layup Shot,1,2,100
+0021900103,139,PT00M45.90S,1,1610612765,DET,1628379,Kennard,L. Kennard,-38,10,4,Made,1,30,23,53,h,Kennard 4' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,101
+0021900103,140,PT00M38.10S,1,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,84,151,17,Made,1,30,25,55,v,Ntilikina 17' Pullup Jump Shot (4 PTS),Made Shot,Pullup Jump shot,1,2,102
+0021900103,141,PT00M12.60S,1,1610612765,DET,1626174,Wood,C. Wood,234,37,24,Made,1,33,25,58,h,Wood 24' 3PT Jump Shot (7 PTS) (Kennard 4 AST),Made Shot,Jump Shot,1,3,103
+0021900103,143,PT00M02.50S,1,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,Kennard Personal Take Foul (P1.T3) (B.Taylor),Foul,Personal Take,1,0,104
+0021900103,145,PT00M01.00S,1,1610612752,NYK,1626171,Portis,B. Portis,192,68,20,Missed,1,,,0,v,MISS Portis 20' Jump Shot,Missed Shot,Jump Shot,1,2,105
+0021900103,146,PT00M01.00S,1,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,106
+0021900103,147,PT00M00.00S,1,0,,0,,,0,0,0,,0,33,25,58,,End of 1st Period (7:35 PM EST),period,end,1,0,107
+0021900103,150,PT12M00.00S,2,0,,0,,,0,0,0,,0,33,25,58,,Start of 2nd Period (7:38 PM EST),period,start,0,0,108
+0021900103,151,PT11M48.00S,2,1610612752,NYK,1628995,Knox II,K. Knox II,11,14,2,Made,1,33,27,60,v,Knox II 2' Driving Dunk (5 PTS),Made Shot,Driving Dunk Shot,1,2,109
+0021900103,153,PT11M21.00S,2,1610612765,DET,1628379,Kennard,L. Kennard,130,280,31,Missed,1,,,0,h,MISS Kennard 31' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,110
+0021900103,154,PT11M18.00S,2,1610612752,NYK,201959,Gibson,T. Gibson,0,0,0,,0,,,0,v,Gibson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,111
+0021900103,155,PT11M11.00S,2,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,-29,6,3,Made,1,33,29,62,v,Ntilikina 3' Driving Layup (6 PTS),Made Shot,Driving Layup Shot,1,2,112
+0021900103,156,PT10M55.00S,2,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood Traveling Turnover (P1.T4),Turnover,Traveling,1,0,113
+0021900103,157,PT10M37.00S,2,1610612752,NYK,201959,Gibson,T. Gibson,-3,17,2,Made,1,33,31,64,v,Gibson 2' Cutting Dunk Shot (4 PTS) (Ellington 1 AST),Made Shot,Cutting Dunk Shot,1,2,114
+0021900103,159,PT10M16.00S,2,1610612765,DET,1627748,Maker,T. Maker,49,149,16,Made,1,35,31,66,h,Maker 16' Jump Shot (2 PTS) (Mykhailiuk 1 AST),Made Shot,Jump Shot,1,2,115
+0021900103,161,PT10M01.00S,2,1610612752,NYK,201959,Gibson,T. Gibson,90,153,18,Missed,1,,,0,v,MISS Gibson 18' Jump Shot,Missed Shot,Jump Shot,1,2,116
+0021900103,162,PT09M57.00S,2,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,h,Galloway REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,117
+0021900103,163,PT09M48.00S,2,1610612765,DET,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk Bad Pass Turnover (P2.T5),Turnover,Bad Pass,1,0,118
+0021900103,163,PT09M48.00S,2,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,,,0,v,Knox II STEAL (1 STL),,,1,0,119
+0021900103,165,PT09M44.00S,2,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,Kennard S.FOUL (P2.T1) (B.Barnaky),Foul,Shooting,1,0,120
+0021900103,167,PT09M44.00S,2,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,MISS Ntilikina Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,121
+0021900103,168,PT09M44.00S,2,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Normal Rebound,0,0,122
+0021900103,169,PT09M44.00S,2,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,SUB: Snell FOR Kennard,Substitution,,0,0,123
+0021900103,170,PT09M44.00S,2,1610612765,DET,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,SUB: Brown FOR Mykhailiuk,Substitution,,0,0,124
+0021900103,171,PT09M44.00S,2,1610612752,NYK,201959,Gibson,T. Gibson,0,0,0,,0,,,0,v,SUB: Morris Sr. FOR Gibson,Substitution,,0,0,125
+0021900103,175,PT09M44.00S,2,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,MISS Ntilikina Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,126
+0021900103,176,PT09M41.00S,2,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,127
+0021900103,177,PT09M30.00S,2,1610612765,DET,1628971,Brown,B. Brown,41,68,8,Missed,1,,,0,h,MISS Brown 8' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,128
+0021900103,178,PT09M28.00S,2,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,129
+0021900103,179,PT09M14.00S,2,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,,,0,v,Knox II Lost Ball Turnover (P1.T5),Turnover,Lost Ball,1,0,130
+0021900103,179,PT09M14.00S,2,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,h,Galloway STEAL (1 STL),,,1,0,131
+0021900103,181,PT09M09.00S,2,1610612765,DET,204038,Galloway,L. Galloway,10,18,2,Made,1,37,31,68,h,Galloway 2' Running Reverse Layup (4 PTS) (Wood 1 AST),Made Shot,Running Reverse Layup Shot,1,2,132
+0021900103,183,PT08M50.00S,2,1610612752,NYK,1628995,Knox II,K. Knox II,-129,219,25,Made,1,37,34,71,v,Knox II 25' 3PT Jump Shot (8 PTS) (Ellington 2 AST),Made Shot,Jump Shot,1,3,133
+0021900103,185,PT08M25.00S,2,1610612765,DET,1627748,Maker,T. Maker,230,41,0,Made,1,40,34,74,h,Maker 3PT Step Back Jump Shot (5 PTS) (Galloway 2 AST),Made Shot,Step Back Jump shot,1,3,134
+0021900103,187,PT08M12.00S,2,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,85,140,16,Missed,1,,,0,v,MISS Morris Sr. 16' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,135
+0021900103,188,PT08M10.00S,2,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,h,Galloway REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,136
+0021900103,189,PT08M06.00S,2,1610612765,DET,1628971,Brown,B. Brown,-25,20,3,Missed,1,,,0,h,MISS Brown 3' Layup,Missed Shot,Layup Shot,1,2,137
+0021900103,189,PT08M06.00S,2,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina BLOCK (3 BLK),,,1,2,138
+0021900103,191,PT08M06.00S,2,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,139
+0021900103,193,PT08M06.00S,2,1610612752,NYK,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,SUB: Randle FOR Portis,Substitution,,0,0,140
+0021900103,194,PT08M06.00S,2,1610612752,NYK,201961,Ellington,W. Ellington,0,0,0,,0,,,0,v,SUB: Barrett FOR Ellington,Substitution,,0,0,141
+0021900103,197,PT07M59.00S,2,1610612765,DET,203503,Snell,T. Snell,-230,134,27,Made,1,43,34,77,h,Snell 27' 3PT Jump Shot (13 PTS) (Maker 1 AST),Made Shot,Jump Shot,1,3,142
+0021900103,199,PT07M50.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,-22,14,3,Made,1,43,36,79,v,Barrett 3' Layup (5 PTS),Made Shot,Layup Shot,1,2,143
+0021900103,200,PT07M50.00S,2,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker S.FOUL (P1.T2) (B.Barnaky),Foul,Shooting,1,0,144
+0021900103,202,PT07M50.00S,2,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,SUB: Morris FOR Wood,Substitution,,0,0,145
+0021900103,204,PT07M50.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,43,37,80,v,Barrett Free Throw 1 of 1 (6 PTS),Free Throw,Free Throw 1 of 1,1,0,146
+0021900103,205,PT07M34.00S,2,1610612765,DET,202693,Morris,M. Morris,-50,71,9,Made,1,45,37,82,h,Morris 9' Turnaround Jump Shot (6 PTS),Made Shot,Turnaround Jump Shot,1,2,147
+0021900103,207,PT07M24.00S,2,1610612752,NYK,203944,Randle,J. Randle,28,42,5,Made,1,45,39,84,v,Randle 5' Driving Layup (7 PTS) (Barrett 4 AST),Made Shot,Driving Layup Shot,1,2,148
+0021900103,209,PT06M59.00S,2,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle S.FOUL (P2.T1) (B.Taylor),Foul,Shooting,1,0,149
+0021900103,211,PT06M59.00S,2,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,150
+0021900103,212,PT06M59.00S,2,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,46,39,85,h,Morris Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,151
+0021900103,213,PT06M59.00S,2,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,47,39,86,h,Morris Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,152
+0021900103,214,PT06M50.00S,2,1610612752,NYK,1628995,Knox II,K. Knox II,76,251,26,Missed,1,,,0,v,MISS Knox II 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,153
+0021900103,215,PT06M47.00S,2,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,154
+0021900103,217,PT06M28.00S,2,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,Brown Bad Pass Turnover (P1.T6),Turnover,Bad Pass,1,0,155
+0021900103,217,PT06M28.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett STEAL (1 STL),,,1,0,156
+0021900103,219,PT06M19.00S,2,1610612752,NYK,203944,Randle,J. Randle,-54,46,7,Made,1,47,41,88,v,Randle 7' Turnaround Fadeaway (9 PTS),Made Shot,Turnaround Fadeaway shot,1,2,157
+0021900103,220,PT06M03.00S,2,1610612765,DET,204038,Galloway,L. Galloway,102,27,11,Missed,1,,,0,h,MISS Galloway 11' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,158
+0021900103,221,PT06M01.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,159
+0021900103,222,PT05M45.00S,2,1610612752,NYK,203944,Randle,J. Randle,-84,242,26,Made,1,47,44,91,v,Randle 26' 3PT Pullup Jump Shot (12 PTS),Made Shot,Pullup Jump shot,1,3,160
+0021900103,224,PT05M21.00S,2,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina S.FOUL (P1.T2) (B.Taylor),Foul,Shooting,1,0,161
+0021900103,226,PT05M21.00S,2,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,MISS Morris Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,162
+0021900103,227,PT05M21.00S,2,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Normal Rebound,0,0,163
+0021900103,228,PT05M21.00S,2,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,SUB: Kennard FOR Maker,Substitution,,0,0,164
+0021900103,229,PT05M21.00S,2,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,h,SUB: Drummond FOR Galloway,Substitution,,0,0,165
+0021900103,230,PT05M21.00S,2,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,,,0,v,SUB: Portis FOR Knox II,Substitution,,0,0,166
+0021900103,234,PT05M21.00S,2,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,48,44,92,h,Morris Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,167
+0021900103,235,PT05M10.00S,2,1610612752,NYK,203944,Randle,J. Randle,127,127,18,Missed,1,,,0,v,MISS Randle 18' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,168
+0021900103,236,PT05M05.00S,2,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,Kennard REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,169
+0021900103,237,PT04M59.00S,2,1610612765,DET,202693,Morris,M. Morris,76,252,26,Made,1,51,44,95,h,Morris 26' 3PT Jump Shot (12 PTS) (Drummond 3 AST),Made Shot,Jump Shot,1,3,170
+0021900103,239,PT04M47.00S,2,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,-108,232,26,Missed,1,,,0,v,MISS Morris Sr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,171
+0021900103,240,PT04M45.00S,2,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,172
+0021900103,241,PT04M42.00S,2,1610612765,DET,203503,Snell,T. Snell,16,17,2,Made,1,53,44,97,h,Snell 2' Running Layup (15 PTS) (Brown 3 AST),Made Shot,Running Layup Shot,1,2,173
+0021900103,243,PT04M36.00S,2,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,174
+0021900103,245,PT04M20.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,98,151,18,Missed,1,,,0,v,MISS Barrett 18' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,175
+0021900103,246,PT04M16.00S,2,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,176
+0021900103,247,PT04M10.00S,2,1610612752,NYK,203944,Randle,J. Randle,239,20,24,Made,1,53,47,100,v,Randle 24' 3PT Jump Shot (15 PTS) (Barrett 5 AST),Made Shot,Jump Shot,1,3,177
+0021900103,249,PT03M49.00S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond Bad Pass Turnover (P2.T7),Turnover,Bad Pass,1,0,178
+0021900103,249,PT03M49.00S,2,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle STEAL (1 STL),,,1,0,179
+0021900103,251,PT03M44.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,27,15,3,Made,1,53,49,102,v,Barrett 3' Running Layup (8 PTS),Made Shot,Running Layup Shot,1,2,180
+0021900103,252,PT03M32.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett P.FOUL (P1.T3) (B.Taylor),Foul,Personal,1,0,181
+0021900103,254,PT03M23.00S,2,1610612765,DET,203083,Drummond,A. Drummond,-19,16,2,Made,1,55,49,104,h,Drummond 2' Dunk (8 PTS) (Kennard 5 AST),Made Shot,Dunk Shot,1,2,182
+0021900103,256,PT03M15.00S,2,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,Brown S.FOUL (P1.T3) (B.Taylor),Foul,Shooting,1,0,183
+0021900103,258,PT03M15.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,MISS Barrett Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,184
+0021900103,259,PT03M15.00S,2,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Normal Rebound,0,0,185
+0021900103,260,PT03M15.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,55,50,105,v,Barrett Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,186
+0021900103,261,PT02M58.00S,2,1610612765,DET,1628971,Brown,B. Brown,27,36,5,Missed,1,,,0,h,MISS Brown 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,187
+0021900103,262,PT02M56.00S,2,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,188
+0021900103,264,PT02M52.00S,2,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,Brown S.FOUL (P2.T4) (A.Moyer-Gleich),Foul,Shooting,1,0,189
+0021900103,266,PT02M52.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,MISS Barrett Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,190
+0021900103,267,PT02M52.00S,2,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Normal Rebound,0,0,191
+0021900103,268,PT02M52.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,55,51,106,v,Barrett Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,192
+0021900103,269,PT02M35.00S,2,1610612765,DET,202693,Morris,M. Morris,-240,36,24,Missed,1,,,0,h,MISS Morris 24' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,193
+0021900103,270,PT02M33.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,194
+0021900103,271,PT02M27.00S,2,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,-228,17,0,Made,1,55,54,109,v,Morris Sr. 3PT Jump Shot (3 PTS) (Ntilikina 1 AST),Made Shot,Jump Shot,1,3,195
+0021900103,273,PT02M05.00S,2,1610612765,DET,1628379,Kennard,L. Kennard,-152,227,27,Missed,1,,,0,h,MISS Kennard 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,196
+0021900103,274,PT02M01.00S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,197
+0021900103,275,PT02M01.00S,2,1610612765,DET,203083,Drummond,A. Drummond,0,-6,1,Missed,1,,,0,h,MISS Drummond 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,198
+0021900103,276,PT01M59.00S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,199
+0021900103,277,PT01M59.00S,2,1610612765,DET,203083,Drummond,A. Drummond,0,-6,1,Made,1,57,54,111,h,Drummond 1' Tip Layup Shot (10 PTS),Made Shot,Tip Layup Shot,1,2,200
+0021900103,278,PT01M51.00S,2,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,-84,64,11,Made,1,57,56,113,v,Morris Sr. 11' Driving Floating Bank Jump Shot (5 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,201
+0021900103,279,PT01M51.00S,2,1610612765,DET,203503,Snell,T. Snell,0,0,0,,0,,,0,h,Snell S.FOUL (P2.PN) (B.Taylor),Foul,Shooting,1,0,202
+0021900103,281,PT01M51.00S,2,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,57,57,114,v,Morris Sr. Free Throw 1 of 1 (6 PTS),Free Throw,Free Throw 1 of 1,1,0,203
+0021900103,282,PT01M31.00S,2,1610612765,DET,1628379,Kennard,L. Kennard,-23,17,3,Made,1,59,57,116,h,Kennard 3' Cutting Layup Shot (4 PTS) (Drummond 4 AST),Made Shot,Cutting Layup Shot,1,2,204
+0021900103,284,PT01M20.00S,2,1610612752,NYK,203944,Randle,J. Randle,-11,21,2,Made,1,59,59,118,v,Randle 2' Driving Dunk (17 PTS) (Ntilikina 2 AST),Made Shot,Driving Dunk Shot,1,2,205
+0021900103,286,PT01M03.00S,2,1610612765,DET,203083,Drummond,A. Drummond,-11,28,3,Made,1,61,59,120,h,Drummond 3' Layup (12 PTS) (Morris 1 AST),Made Shot,Layup Shot,1,2,206
+0021900103,288,PT00M51.70S,2,1610612752,NYK,203944,Randle,J. Randle,176,200,27,Missed,1,,,0,v,MISS Randle 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,207
+0021900103,289,PT00M49.20S,2,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,208
+0021900103,290,PT00M47.60S,2,1610612765,DET,203083,Drummond,A. Drummond,-17,15,2,Made,1,63,59,122,h,Drummond 2' Running Finger Roll Layup (14 PTS) (Morris 2 AST),Made Shot,Running Finger Roll Layup Shot,1,2,209
+0021900103,292,PT00M33.80S,2,1610612752,NYK,1629628,Barrett,R. Barrett,-44,55,7,Missed,1,,,0,v,MISS Barrett 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,210
+0021900103,293,PT00M31.20S,2,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,Kennard REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,211
+0021900103,294,PT00M11.50S,2,1610612765,DET,1628379,Kennard,L. Kennard,-19,55,6,Missed,1,,,0,h,MISS Kennard 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,212
+0021900103,295,PT00M11.50S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:4 Def:5),Rebound,Unknown,1,0,213
+0021900103,296,PT00M11.50S,2,1610612765,DET,203083,Drummond,A. Drummond,0,-6,1,Missed,1,,,0,h,MISS Drummond 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,214
+0021900103,297,PT00M11.50S,2,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,Kennard REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,215
+0021900103,298,PT00M11.50S,2,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett S.FOUL (P2.T4) (B.Taylor),Foul,Shooting,1,0,216
+0021900103,304,PT00M11.50S,2,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,MISS Kennard Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,217
+0021900103,305,PT00M11.50S,2,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Normal Rebound,0,0,218
+0021900103,306,PT00M11.50S,2,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,64,59,123,h,Kennard Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,219
+0021900103,300,PT00M11.50S,2,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,SUB: Galloway FOR Brown,Substitution,,0,0,220
+0021900103,302,PT00M01.90S,2,1610612752,NYK,1626171,Portis,B. Portis,168,235,29,Missed,1,,,0,v,MISS Portis 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,221
+0021900103,303,PT00M00.50S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:4 Def:6),Rebound,Unknown,1,0,222
+0021900103,307,PT00M00.00S,2,0,,0,,,0,0,0,,0,64,59,123,,End of 2nd Period (8:05 PM EST),period,end,1,0,223
+0021900103,312,PT12M00.00S,3,0,,0,,,0,0,0,,0,64,59,123,,Start of 3rd Period (8:20 PM EST),period,start,0,0,224
+0021900103,313,PT11M43.00S,3,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,-199,189,27,Made,1,64,62,126,v,Morris Sr. 27' 3PT Jump Shot (9 PTS) (Barrett 6 AST),Made Shot,Jump Shot,1,3,225
+0021900103,315,PT11M23.00S,3,1610612765,DET,202693,Morris,M. Morris,-169,193,26,Made,1,67,62,129,h,Morris 26' 3PT Jump Shot (15 PTS) (Kennard 6 AST),Made Shot,Jump Shot,1,3,226
+0021900103,317,PT11M08.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,22,10,2,Made,1,67,64,131,v,Barrett 2' Cutting Layup Shot (12 PTS) (Gibson 1 AST),Made Shot,Cutting Layup Shot,1,2,227
+0021900103,319,PT10M44.00S,3,1610612765,DET,1628971,Brown,B. Brown,-119,227,26,Missed,1,,,0,h,MISS Brown 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,228
+0021900103,320,PT10M44.00S,3,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,229
+0021900103,322,PT10M31.00S,3,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,174,197,26,Made,1,67,67,134,v,Morris Sr. 26' 3PT Jump Shot (12 PTS) (Randle 2 AST),Made Shot,Jump Shot,1,3,230
+0021900103,324,PT10M16.00S,3,1610612765,DET,203083,Drummond,A. Drummond,-6,17,2,Made,1,69,67,136,h,Drummond 2' Driving Layup (16 PTS) (Brown 4 AST),Made Shot,Driving Layup Shot,1,2,231
+0021900103,326,PT10M04.00S,3,1610612752,NYK,201959,Gibson,T. Gibson,4,23,2,Made,1,69,69,138,v,Gibson 2' Layup (6 PTS) (Barrett 7 AST),Made Shot,Layup Shot,1,2,232
+0021900103,328,PT09M45.00S,3,1610612765,DET,202693,Morris,M. Morris,-11,250,25,Made,1,72,69,141,h,Morris 25' 3PT Jump Shot (18 PTS) (Snell 2 AST),Made Shot,Jump Shot,1,3,233
+0021900103,330,PT09M29.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,-157,235,28,Missed,1,,,0,v,MISS Barrett 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,234
+0021900103,331,PT09M24.00S,3,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,Kennard REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,235
+0021900103,332,PT09M04.00S,3,1610612765,DET,203083,Drummond,A. Drummond,8,37,4,Made,1,74,69,143,h,Drummond 4' Turnaround Hook Shot (18 PTS) (Morris 3 AST),Made Shot,Turnaround Hook Shot,1,2,236
+0021900103,334,PT08M46.00S,3,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,233,44,24,Missed,1,,,0,v,MISS Morris Sr. 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,237
+0021900103,335,PT08M42.00S,3,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,238
+0021900103,336,PT08M36.00S,3,1610612752,NYK,201959,Gibson,T. Gibson,0,0,0,,0,,,0,v,Gibson P.FOUL (P1.T1) (B.Taylor),Foul,Personal,1,0,239
+0021900103,338,PT08M20.00S,3,1610612765,DET,1628379,Kennard,L. Kennard,143,255,29,Missed,1,,,0,h,MISS Kennard 29' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,240
+0021900103,339,PT08M17.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,241
+0021900103,340,PT08M09.00S,3,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,-193,176,26,Made,1,74,72,146,v,Ntilikina 26' 3PT Jump Shot (9 PTS) (Gibson 2 AST),Made Shot,Jump Shot,1,3,242
+0021900103,342,PT07M50.00S,3,1610612765,DET,202693,Morris,M. Morris,-134,236,27,Made,1,77,72,149,h,Morris 27' 3PT Jump Shot (21 PTS) (Brown 5 AST),Made Shot,Jump Shot,1,3,243
+0021900103,344,PT07M50.00S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle FLAGRANT.FOUL.TYPE1 (P3.T2) (A.Moyer-Gleich),Foul,Flagrant Type 1,1,0,244
+0021900103,357,PT07M50.00S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle No Turnover (P2.T6),Turnover,,1,0,245
+0021900103,347,PT07M50.00S,3,0,,344,Barros,D. Barros,0,0,0,,0,77,72,149,,Instant Replay3rd Period (8:26 PM EST),Instant Replay,Overturn Ruling,0,0,246
+0021900103,348,PT07M50.00S,3,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,78,72,150,h,Morris Free Throw Flagrant 1 of 1 (22 PTS),Free Throw,Free Throw Flagrant 1 of 1,1,0,247
+0021900103,351,PT07M50.00S,3,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,SUB: Galloway FOR Kennard,Substitution,,0,0,248
+0021900103,349,PT07M40.00S,3,1610612765,DET,203083,Drummond,A. Drummond,1,35,4,Made,1,80,72,152,h,Drummond 4' Layup (20 PTS) (Galloway 3 AST),Made Shot,Layup Shot,1,2,249
+0021900103,353,PT07M20.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett Bad Pass Turnover (P2.T7),Turnover,Bad Pass,1,0,250
+0021900103,353,PT07M20.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond STEAL (1 STL),,,1,0,251
+0021900103,355,PT07M13.00S,3,1610612765,DET,1628971,Brown,B. Brown,-2,19,2,Made,1,82,72,154,h,Brown 2' Running Layup (4 PTS),Made Shot,Running Layup Shot,1,2,252
+0021900103,356,PT07M10.00S,3,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,253
+0021900103,359,PT07M10.00S,3,1610612752,NYK,201959,Gibson,T. Gibson,0,0,0,,0,,,0,v,SUB: Portis FOR Gibson,Substitution,,0,0,254
+0021900103,362,PT06M51.00S,3,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Turnover: Shot Clock (T#8),Turnover,Shot Clock Turnover,0,0,255
+0021900103,363,PT06M35.00S,3,1610612765,DET,204038,Galloway,L. Galloway,27,122,12,Made,1,84,72,156,h,Galloway 12' Driving Floating Jump Shot (6 PTS) (Drummond 5 AST),Made Shot,Driving Floating Jump Shot,1,2,256
+0021900103,365,PT06M17.00S,3,1610612752,NYK,203944,Randle,J. Randle,-13,264,26,Made,1,84,75,159,v,Randle 26' 3PT Jump Shot (20 PTS) (Ntilikina 3 AST),Made Shot,Jump Shot,1,3,257
+0021900103,367,PT06M02.00S,3,1610612765,DET,203083,Drummond,A. Drummond,9,58,6,Missed,1,,,0,h,MISS Drummond 6' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,258
+0021900103,368,PT06M00.00S,3,1610612752,NYK,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,259
+0021900103,369,PT05M45.00S,3,1610612752,NYK,203944,Randle,J. Randle,-35,82,9,Missed,1,,,0,v,MISS Randle 9' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,260
+0021900103,370,PT05M43.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:4 Def:7),Rebound,Unknown,1,0,261
+0021900103,371,PT05M28.00S,3,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris Lost Ball Turnover (P2.T8),Turnover,Lost Ball,1,0,262
+0021900103,371,PT05M28.00S,3,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. STEAL (2 STL),,,1,0,263
+0021900103,373,PT05M23.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,-6,38,4,Missed,1,,,0,v,MISS Barrett 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,264
+0021900103,374,PT05M21.00S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,265
+0021900103,375,PT05M19.00S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle Lost Ball Turnover (P3.T9),Turnover,Lost Ball,1,0,266
+0021900103,375,PT05M19.00S,3,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris STEAL (2 STL),,,1,0,267
+0021900103,377,PT05M12.00S,3,1610612765,DET,203503,Snell,T. Snell,-157,208,26,Made,1,87,75,162,h,Snell 26' 3PT Jump Shot (18 PTS) (Brown 6 AST),Made Shot,Jump Shot,1,3,268
+0021900103,379,PT05M05.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,27,25,4,Missed,1,,,0,v,MISS Barrett 4' Layup,Missed Shot,Layup Shot,1,2,269
+0021900103,380,PT05M05.00S,3,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,270
+0021900103,382,PT05M05.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,SUB: Ellington FOR Barrett,Substitution,,0,0,271
+0021900103,383,PT05M05.00S,3,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,SUB: Gibson FOR Ntilikina,Substitution,,0,0,272
+0021900103,386,PT05M05.00S,3,1610612752,NYK,201959,Gibson,T. Gibson,0,0,0,,0,,,0,v,SUB: Ntilikina FOR Gibson,Substitution,,0,0,273
+0021900103,388,PT04M48.00S,3,1610612765,DET,203083,Drummond,A. Drummond,-8,21,2,Made,1,89,75,164,h,Drummond 2' Alley Oop Dunk (22 PTS) (Galloway 4 AST),Made Shot,Alley Oop Dunk Shot,1,2,274
+0021900103,390,PT04M34.00S,3,1610612752,NYK,1626171,Portis,B. Portis,13,231,23,Missed,1,,,0,v,MISS Portis 23' Jump Shot,Missed Shot,Jump Shot,1,2,275
+0021900103,391,PT04M31.00S,3,1610612752,NYK,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,276
+0021900103,392,PT04M30.00S,3,1610612752,NYK,1626171,Portis,B. Portis,10,28,3,Made,1,89,77,166,v,Portis 3' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,277
+0021900103,393,PT04M30.00S,3,1610612765,DET,203503,Snell,T. Snell,0,0,0,,0,,,0,h,Snell S.FOUL (P3.T1) (A.Moyer-Gleich),Foul,Shooting,1,0,278
+0021900103,395,PT04M30.00S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,SUB: Gibson FOR Randle,Substitution,,0,0,279
+0021900103,397,PT04M30.00S,3,1610612752,NYK,1626171,Portis,B. Portis,0,0,0,,0,89,78,167,v,Portis Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,1,0,280
+0021900103,398,PT04M11.00S,3,1610612765,DET,204038,Galloway,L. Galloway,-36,26,4,Missed,1,,,0,h,MISS Galloway 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,281
+0021900103,399,PT04M09.00S,3,1610612752,NYK,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,282
+0021900103,400,PT04M05.00S,3,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,-25,10,3,Made,1,89,80,169,v,Morris Sr. 3' Driving Reverse Layup (14 PTS) (Ntilikina 4 AST),Made Shot,Driving Reverse Layup Shot,1,2,283
+0021900103,402,PT03M48.00S,3,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris Out of Bounds Lost Ball Turnover (P3.T9),Turnover,Out of Bounds Lost Ball Turnover,1,0,284
+0021900103,403,PT03M48.00S,3,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,h,SUB: Kennard FOR Galloway,Substitution,,0,0,285
+0021900103,404,PT03M48.00S,3,1610612765,DET,203503,Snell,T. Snell,0,0,0,,0,,,0,h,SUB: Mykhailiuk FOR Snell,Substitution,,0,0,286
+0021900103,407,PT03M29.00S,3,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,57,32,7,Missed,1,,,0,v,MISS Ntilikina 7' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,287
+0021900103,408,PT03M27.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:4 Def:8),Rebound,Unknown,1,0,288
+0021900103,409,PT03M14.00S,3,1610612765,DET,1628379,Kennard,L. Kennard,114,237,26,Made,1,92,80,172,h,Kennard 26' 3PT Jump Shot (8 PTS) (Drummond 6 AST),Made Shot,Jump Shot,1,3,289
+0021900103,411,PT02M51.00S,3,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,152,149,21,Made,1,92,82,174,v,Ntilikina 21' Pullup Jump Shot (11 PTS) (Gibson 3 AST),Made Shot,Pullup Jump shot,1,2,290
+0021900103,413,PT02M48.00S,3,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,291
+0021900103,414,PT02M48.00S,3,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,SUB: Wood FOR Morris,Substitution,,0,0,292
+0021900103,415,PT02M48.00S,3,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,SUB: Knox II FOR Morris Sr.,Substitution,,0,0,293
+0021900103,418,PT02M24.00S,3,1610612765,DET,203083,Drummond,A. Drummond,-44,10,5,Made,1,94,82,176,h,Drummond 5' Layup (24 PTS) (Kennard 7 AST),Made Shot,Layup Shot,1,2,294
+0021900103,420,PT02M09.00S,3,1610612752,NYK,1626171,Portis,B. Portis,-22,44,5,Missed,1,,,0,v,MISS Portis 5' Hook Shot,Missed Shot,Hook Shot,1,2,295
+0021900103,421,PT02M07.00S,3,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,296
+0021900103,422,PT01M59.00S,3,1610612752,NYK,201959,Gibson,T. Gibson,0,0,0,,0,,,0,v,Gibson P.FOUL (P2.T3) (B.Taylor),Foul,Personal,1,0,297
+0021900103,424,PT01M59.00S,3,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,SUB: Barrett FOR Ntilikina,Substitution,,0,0,298
+0021900103,426,PT01M50.00S,3,1610612765,DET,1626174,Wood,C. Wood,54,58,8,Missed,1,,,0,h,MISS Wood 8' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,299
+0021900103,427,PT01M48.00S,3,1610612752,NYK,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,300
+0021900103,428,PT01M45.00S,3,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood S.FOUL (P1.T2) (A.Moyer-Gleich),Foul,Shooting,1,0,301
+0021900103,430,PT01M45.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,MISS Barrett Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,302
+0021900103,431,PT01M45.00S,3,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Normal Rebound,0,0,303
+0021900103,432,PT01M45.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,94,83,177,v,Barrett Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,304
+0021900103,433,PT01M34.00S,3,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,Kennard Out of Bounds Lost Ball Turnover (P1.T10),Turnover,Out of Bounds Lost Ball Turnover,1,0,305
+0021900103,434,PT01M27.00S,3,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,Brown P.FOUL (P3.PN) (B.Taylor),Foul,Personal,1,0,306
+0021900103,436,PT01M27.00S,3,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,94,84,178,v,Knox II Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,307
+0021900103,437,PT01M27.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,SUB: Maker FOR Drummond,Substitution,,0,0,308
+0021900103,439,PT01M27.00S,3,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,94,85,179,v,Knox II Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,309
+0021900103,440,PT01M14.00S,3,1610612765,DET,1629004,Mykhailiuk,S. Mykhailiuk,-226,43,0,Missed,1,,,0,h,MISS Mykhailiuk 3PT Jump Shot,Missed Shot,Jump Shot,1,3,310
+0021900103,441,PT01M12.00S,3,1610612752,NYK,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,311
+0021900103,442,PT01M03.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,16,22,3,Missed,1,,,0,v,MISS Barrett 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,312
+0021900103,443,PT01M01.00S,3,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,313
+0021900103,444,PT00M57.30S,3,1610612765,DET,1628379,Kennard,L. Kennard,-165,185,25,Missed,1,,,0,h,MISS Kennard 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,314
+0021900103,445,PT00M54.30S,3,1610612752,NYK,201959,Gibson,T. Gibson,0,0,0,,0,,,0,v,Gibson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,315
+0021900103,446,PT00M44.00S,3,1610612752,NYK,201961,Ellington,W. Ellington,-165,216,27,Missed,1,,,0,v,MISS Ellington 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,316
+0021900103,447,PT00M40.20S,3,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,317
+0021900103,448,PT00M23.70S,3,1610612765,DET,1627748,Maker,T. Maker,29,124,13,Made,1,96,85,181,h,Maker 13' Jump Shot (7 PTS),Made Shot,Jump Shot,1,2,318
+0021900103,450,PT00M23.70S,3,1610612752,NYK,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis S.FOUL (P2.PN) (B.Barnaky),Foul,Shooting,1,0,319
+0021900103,452,PT00M23.70S,3,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,MISS Maker Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,320
+0021900103,453,PT00M21.30S,3,1610612752,NYK,201959,Gibson,T. Gibson,0,0,0,,0,,,0,v,Gibson REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,321
+0021900103,454,PT00M01.10S,3,1610612752,NYK,201961,Ellington,W. Ellington,138,225,26,Missed,1,,,0,v,MISS Ellington 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,322
+0021900103,454,PT00M01.10S,3,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood BLOCK (1 BLK),,,1,3,323
+0021900103,456,PT00M01.00S,3,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,324
+0021900103,459,PT00M00.00S,3,0,,0,,,0,0,0,,0,96,85,181,,End of 3rd Period (8:46 PM EST),period,end,1,0,325
+0021900103,466,PT12M00.00S,4,0,,0,,,0,0,0,,0,96,85,181,,Start of 4th Period (8:48 PM EST),period,start,0,0,326
+0021900103,467,PT11M43.00S,4,1610612765,DET,1628971,Brown,B. Brown,239,50,24,Made,1,99,85,184,h,Brown 24' 3PT Jump Shot (7 PTS) (Mykhailiuk 2 AST),Made Shot,Jump Shot,1,3,327
+0021900103,469,PT11M26.00S,4,1610612752,NYK,203944,Randle,J. Randle,-63,29,7,Missed,1,,,0,v,MISS Randle 7' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,328
+0021900103,470,PT11M24.00S,4,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,329
+0021900103,471,PT11M20.00S,4,1610612765,DET,1626174,Wood,C. Wood,7,40,4,Missed,1,,,0,h,MISS Wood 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,330
+0021900103,472,PT11M20.00S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,331
+0021900103,474,PT11M20.00S,4,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker L.B.FOUL (P2.T1) (B.Barnaky),Foul,Loose Ball,1,0,332
+0021900103,476,PT11M07.00S,4,1610612752,NYK,201961,Ellington,W. Ellington,-133,233,27,Missed,1,,,0,v,MISS Ellington 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,333
+0021900103,477,PT11M05.00S,4,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,334
+0021900103,478,PT10M49.00S,4,1610612765,DET,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk Bad Pass Turnover (P3.T11),Turnover,Bad Pass,1,0,335
+0021900103,478,PT10M49.00S,4,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. STEAL (3 STL),,,1,0,336
+0021900103,480,PT10M45.00S,4,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. Out of Bounds - Bad Pass Turnover Turnover (P2.T10),Turnover,Out of Bounds - Bad Pass Turnover,1,0,337
+0021900103,481,PT10M45.00S,4,1610612752,NYK,201961,Ellington,W. Ellington,0,0,0,,0,,,0,v,SUB: Ntilikina FOR Ellington,Substitution,,0,0,338
+0021900103,483,PT10M28.00S,4,1610612765,DET,1629004,Mykhailiuk,S. Mykhailiuk,77,199,21,Missed,1,,,0,h,MISS Mykhailiuk 21' Jump Shot,Missed Shot,Jump Shot,1,2,339
+0021900103,484,PT10M25.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,340
+0021900103,485,PT10M12.00S,4,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,68,202,21,Made,1,99,87,186,v,Morris Sr. 21' Jump Shot (16 PTS),Made Shot,Jump Shot,1,2,341
+0021900103,486,PT09M56.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett S.FOUL (P3.T1) (B.Taylor),Foul,Shooting,1,0,342
+0021900103,488,PT09M56.00S,4,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,100,87,187,h,Brown Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,343
+0021900103,489,PT09M56.00S,4,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,101,87,188,h,Brown Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,344
+0021900103,490,PT09M43.00S,4,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker S.FOUL (P3.T2) (B.Barnaky),Foul,Shooting,1,0,345
+0021900103,492,PT09M43.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,MISS Barrett Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,346
+0021900103,493,PT09M43.00S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Normal Rebound,0,0,347
+0021900103,494,PT09M43.00S,4,1610612765,DET,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,SUB: Snell FOR Mykhailiuk,Substitution,,0,0,348
+0021900103,496,PT09M43.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,101,88,189,v,Barrett Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,1,0,349
+0021900103,497,PT09M18.00S,4,1610612765,DET,1626174,Wood,C. Wood,-20,8,2,Missed,1,,,0,h,MISS Wood 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,350
+0021900103,497,PT09M18.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle BLOCK (1 BLK),,,1,2,351
+0021900103,499,PT09M15.00S,4,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,352
+0021900103,500,PT09M14.00S,4,1610612765,DET,1626174,Wood,C. Wood,-21,35,4,Missed,1,,,0,h,MISS Wood 4' Hook Shot,Missed Shot,Hook Shot,1,2,353
+0021900103,501,PT09M14.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,354
+0021900103,502,PT09M11.00S,4,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina Traveling Turnover (P2.T11),Turnover,Traveling,1,0,355
+0021900103,503,PT09M11.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,356
+0021900103,504,PT09M11.00S,4,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,SUB: Drummond FOR Brown,Substitution,,0,0,357
+0021900103,505,PT09M11.00S,4,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,SUB: Kennard FOR Maker,Substitution,,0,0,358
+0021900103,506,PT09M11.00S,4,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,,,0,v,SUB: Gibson FOR Knox II,Substitution,,0,0,359
+0021900103,510,PT08M57.00S,4,1610612765,DET,204038,Galloway,L. Galloway,-108,232,26,Missed,1,,,0,h,MISS Galloway 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,360
+0021900103,511,PT08M54.00S,4,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,361
+0021900103,512,PT08M49.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond Lost Ball Turnover (P3.T12),Turnover,Lost Ball,1,0,362
+0021900103,512,PT08M49.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett STEAL (2 STL),,,1,0,363
+0021900103,514,PT08M45.00S,4,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,Kennard S.FOUL (P3.T3) (B.Taylor),Foul,Shooting,1,0,364
+0021900103,516,PT08M45.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,101,89,190,v,Barrett Free Throw 1 of 2 (15 PTS),Free Throw,Free Throw 1 of 2,1,0,365
+0021900103,517,PT08M45.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,MISS Barrett Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,366
+0021900103,518,PT08M41.00S,4,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,367
+0021900103,519,PT08M20.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle S.FOUL (P4.T2) (B.Taylor),Foul,Shooting,1,0,368
+0021900103,521,PT08M20.00S,4,0,,519,,,0,0,0,,0,101,89,190,,Instant Replay4th Period (8:58 PM EST),Instant Replay,Ruling Stands,0,0,369
+0021900103,522,PT08M20.00S,4,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,102,89,191,h,Galloway Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,370
+0021900103,523,PT08M20.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,SUB: Knox II FOR Barrett,Substitution,,0,0,371
+0021900103,525,PT08M20.00S,4,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,103,89,192,h,Galloway Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,372
+0021900103,526,PT08M04.00S,4,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,-164,128,21,Missed,1,,,0,v,MISS Morris Sr. 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,373
+0021900103,527,PT07M58.00S,4,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,Kennard REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,374
+0021900103,528,PT07M38.00S,4,1610612765,DET,203503,Snell,T. Snell,-228,42,0,Made,1,106,89,195,h,Snell 3PT Jump Shot (21 PTS) (Galloway 5 AST),Made Shot,Jump Shot,1,3,375
+0021900103,530,PT07M26.00S,4,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,20,10,2,Made,1,106,91,197,v,Morris Sr. 2' Driving Layup (18 PTS) (Gibson 4 AST),Made Shot,Driving Layup Shot,1,2,376
+0021900103,532,PT07M01.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Turnover: Shot Clock (T#13),Turnover,Shot Clock Turnover,0,0,377
+0021900103,533,PT07M01.00S,4,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,SUB: Morris FOR Wood,Substitution,,0,0,378
+0021900103,535,PT07M01.00S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,379
+0021900103,536,PT06M48.00S,4,1610612752,NYK,1628995,Knox II,K. Knox II,81,159,18,Made,1,106,93,199,v,Knox II 18' Jump Shot (12 PTS),Made Shot,Jump Shot,1,2,380
+0021900103,537,PT06M36.00S,4,1610612765,DET,204038,Galloway,L. Galloway,-84,246,26,Made,1,109,93,202,h,Galloway 26' 3PT Jump Shot (11 PTS) (Drummond 7 AST),Made Shot,Jump Shot,1,3,381
+0021900103,539,PT06M36.00S,4,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,,,0,v,Knox II S.FOUL (P1.T3) (B.Barnaky),Foul,Shooting,1,0,382
+0021900103,541,PT06M36.00S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,383
+0021900103,542,PT06M36.00S,4,0,,539,,,0,0,0,,0,109,93,202,,Instant Replay4th Period (9:05 PM EST),Instant Replay,Coach Challenge Ruling Stands,1,0,384
+0021900103,543,PT06M36.00S,4,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,110,93,203,h,Galloway Free Throw 1 of 1 (12 PTS),Free Throw,Free Throw 1 of 1,0,0,385
+0021900103,544,PT06M26.00S,4,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. Traveling Turnover (P3.T12),Turnover,Traveling,1,0,386
+0021900103,545,PT06M26.00S,4,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. T.FOUL (P2.T3) (B.Taylor),Foul,Technical,1,0,387
+0021900103,546,PT06M26.00S,4,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,111,93,204,h,Galloway Free Throw Technical (13 PTS),Free Throw,Free Throw Technical,1,0,388
+0021900103,547,PT06M26.00S,4,1610612752,NYK,201959,Gibson,T. Gibson,0,0,0,,0,,,0,v,SUB: Barrett FOR Gibson,Substitution,,0,0,389
+0021900103,549,PT06M08.00S,4,1610612765,DET,204038,Galloway,L. Galloway,144,219,26,Missed,1,,,0,h,MISS Galloway 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,390
+0021900103,550,PT06M05.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,391
+0021900103,551,PT06M04.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett Out of Bounds - Bad Pass Turnover Turnover (P3.T13),Turnover,Out of Bounds - Bad Pass Turnover,1,0,392
+0021900103,552,PT05M56.00S,4,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,Kennard Traveling Turnover (P2.T14),Turnover,Traveling,1,0,393
+0021900103,553,PT05M37.00S,4,1610612752,NYK,203944,Randle,J. Randle,68,39,8,Missed,1,,,0,v,MISS Randle 8' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,394
+0021900103,554,PT05M35.00S,4,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,395
+0021900103,555,PT05M23.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond Bad Pass Turnover (P4.T15),Turnover,Bad Pass,1,0,396
+0021900103,555,PT05M23.00S,4,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,,,0,v,Knox II STEAL (2 STL),,,1,0,397
+0021900103,557,PT05M18.00S,4,1610612752,NYK,1628995,Knox II,K. Knox II,57,36,7,Made,1,111,95,206,v,Knox II 7' Floating Jump Shot (14 PTS) (Barrett 8 AST),Made Shot,Floating Jump shot,1,2,398
+0021900103,559,PT05M08.00S,4,1610612765,DET,203083,Drummond,A. Drummond,25,16,3,Made,1,113,95,208,h,Drummond 3' Layup (26 PTS) (Galloway 6 AST),Made Shot,Layup Shot,1,2,399
+0021900103,561,PT04M52.00S,4,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,-150,223,27,Missed,1,,,0,v,MISS Morris Sr. 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,400
+0021900103,562,PT04M48.00S,4,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,Kennard REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,401
+0021900103,563,PT04M38.00S,4,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,Kennard Step Out of Bounds Turnover (P3.T16),Turnover,Step Out of Bounds Turnover,1,0,402
+0021900103,564,PT04M28.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond P.FOUL (P1.T4) (B.Taylor),Foul,Personal,1,0,403
+0021900103,567,PT04M18.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle Lost Ball Turnover (P4.T14),Turnover,Lost Ball,1,0,404
+0021900103,567,PT04M18.00S,4,1610612765,DET,203503,Snell,T. Snell,0,0,0,,0,,,0,h,Snell STEAL (1 STL),,,1,0,405
+0021900103,569,PT04M18.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle P.FOUL (P5.T4) (B.Barnaky),Foul,Personal,1,0,406
+0021900103,571,PT04M10.00S,4,1610612765,DET,1628379,Kennard,L. Kennard,-25,5,3,Made,1,115,95,210,h,Kennard 3' Layup (10 PTS) (Morris 4 AST),Made Shot,Layup Shot,1,2,407
+0021900103,573,PT04M10.00S,4,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina S.FOUL (P2.PN) (B.Taylor),Foul,Shooting,1,0,408
+0021900103,575,PT04M10.00S,4,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,116,95,211,h,Kennard Free Throw 1 of 1 (11 PTS),Free Throw,Free Throw 1 of 1,1,0,409
+0021900103,576,PT03M55.00S,4,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,108,165,20,Missed,1,,,0,v,MISS Morris Sr. 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,410
+0021900103,577,PT03M53.00S,4,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,Kennard REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,411
+0021900103,578,PT03M49.00S,4,1610612765,DET,203503,Snell,T. Snell,120,231,26,Made,1,119,95,214,h,Snell 26' 3PT Jump Shot (24 PTS) (Morris 5 AST),Made Shot,Jump Shot,1,3,412
+0021900103,580,PT03M43.00S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,413
+0021900103,581,PT03M43.00S,4,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,h,SUB: Mykhailiuk FOR Galloway,Substitution,,0,0,414
+0021900103,582,PT03M43.00S,4,1610612765,DET,203503,Snell,T. Snell,0,0,0,,0,,,0,h,SUB: Thomas FOR Snell,Substitution,,0,0,415
+0021900103,583,PT03M43.00S,4,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,SUB: Dotson FOR Ntilikina,Substitution,,0,0,416
+0021900103,584,PT03M43.00S,4,1610612752,NYK,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,SUB: Gibson FOR Morris Sr.,Substitution,,0,0,417
+0021900103,585,PT03M43.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,SUB: Brazdeikis FOR Randle,Substitution,,0,0,418
+0021900103,586,PT03M43.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,SUB: Trier FOR Barrett,Substitution,,0,0,419
+0021900103,593,PT03M43.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle T.FOUL (P5.PN) (B.Taylor),Foul,Technical,1,0,420
+0021900103,594,PT03M43.00S,4,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,120,95,215,h,Kennard Free Throw Technical (12 PTS),Free Throw,Free Throw Technical,1,0,421
+0021900103,595,PT03M25.00S,4,1610612752,NYK,1628422,Dotson,D. Dotson,33,218,22,Made,1,120,97,217,v,Dotson 22' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,422
+0021900103,596,PT02M57.00S,4,1610612765,DET,202693,Morris,M. Morris,190,189,27,Missed,1,,,0,h,MISS Morris 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,423
+0021900103,597,PT02M55.00S,4,1610612752,NYK,1629019,Trier,A. Trier,0,0,0,,0,,,0,v,Trier REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,424
+0021900103,598,PT02M50.00S,4,1610612752,NYK,1629019,Trier,A. Trier,146,223,27,Missed,1,,,0,v,MISS Trier 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,425
+0021900103,599,PT02M46.00S,4,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,426
+0021900103,600,PT02M34.00S,4,1610612752,NYK,1629649,Brazdeikis,I. Brazdeikis,0,0,0,,0,,,0,v,Brazdeikis S.FOUL (P1.PN) (B.Barnaky),Foul,Shooting,1,0,427
+0021900103,602,PT02M34.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,121,97,218,h,Drummond Free Throw 1 of 2 (27 PTS),Free Throw,Free Throw 1 of 2,1,0,428
+0021900103,603,PT02M34.00S,4,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,h,SUB: Bone FOR Kennard,Substitution,,0,0,429
+0021900103,604,PT02M34.00S,4,1610612765,DET,202693,Morris,M. Morris,0,0,0,,0,,,0,h,SUB: Wood FOR Morris,Substitution,,0,0,430
+0021900103,607,PT02M34.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,MISS Drummond Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,431
+0021900103,608,PT02M30.00S,4,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,,,0,v,Knox II REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,432
+0021900103,609,PT02M16.00S,4,1610612752,NYK,1629649,Brazdeikis,I. Brazdeikis,-41,22,5,Missed,1,,,0,v,MISS Brazdeikis 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,433
+0021900103,610,PT02M14.00S,4,1610612765,DET,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,434
+0021900103,611,PT02M11.00S,4,1610612765,DET,1629648,Bone,J. Bone,0,0,0,,0,,,0,h,Bone OFF.Foul (P1) (B.Taylor),Foul,Offensive,1,0,435
+0021900103,613,PT02M11.00S,4,1610612765,DET,1629648,Bone,J. Bone,0,0,0,,0,,,0,h,Bone Offensive Foul Turnover (P1.T17),Turnover,Offensive Foul Turnover,1,0,436
+0021900103,614,PT02M11.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,SUB: Maker FOR Drummond,Substitution,,0,0,437
+0021900103,616,PT01M54.00S,4,1610612752,NYK,1629649,Brazdeikis,I. Brazdeikis,-4,149,15,Missed,1,,,0,v,MISS Brazdeikis 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,438
+0021900103,617,PT01M50.00S,4,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,439
+0021900103,618,PT01M35.00S,4,1610612765,DET,1629648,Bone,J. Bone,131,221,26,Missed,1,,,0,h,MISS Bone 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,440
+0021900103,619,PT01M32.00S,4,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,,,0,v,Knox II REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,441
+0021900103,620,PT01M26.00S,4,1610612752,NYK,1629019,Trier,A. Trier,44,265,27,Made,1,121,100,221,v,Trier 27' 3PT Jump Shot (3 PTS) (Knox II 1 AST),Made Shot,Jump Shot,1,3,442
+0021900103,622,PT01M07.00S,4,1610612765,DET,1629648,Bone,J. Bone,-107,53,12,Missed,1,,,0,h,MISS Bone 12' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,443
+0021900103,623,PT01M03.00S,4,1610612752,NYK,201959,Gibson,T. Gibson,0,0,0,,0,,,0,v,Gibson REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,444
+0021900103,624,PT00M59.10S,4,1610612765,DET,1629648,Bone,J. Bone,0,0,0,,0,,,0,h,Bone P.FOUL (P2.PN) (B.Barnaky),Foul,Personal,1,0,445
+0021900103,626,PT00M59.10S,4,1610612752,NYK,1629019,Trier,A. Trier,0,0,0,,0,121,101,222,v,Trier Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,446
+0021900103,627,PT00M59.10S,4,1610612752,NYK,1629019,Trier,A. Trier,0,0,0,,0,121,102,223,v,Trier Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,447
+0021900103,629,PT00M39.10S,4,1610612752,NYK,201959,Gibson,T. Gibson,0,0,0,,0,,,0,v,Gibson P.FOUL (P3.PN) (B.Barnaky),Foul,Personal,1,0,448
+0021900103,631,PT00M39.10S,4,1610612765,DET,1629017,Thomas,K. Thomas,0,0,0,,0,,,0,h,MISS Thomas Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,449
+0021900103,632,PT00M39.10S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Normal Rebound,0,0,450
+0021900103,633,PT00M39.10S,4,1610612765,DET,1629017,Thomas,K. Thomas,0,0,0,,0,122,102,224,h,Thomas Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,451
+0021900103,634,PT00M24.60S,4,1610612752,NYK,1628422,Dotson,D. Dotson,63,149,16,Missed,1,,,0,v,MISS Dotson 16' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,452
+0021900103,635,PT00M22.30S,4,1610612765,DET,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,453
+0021900103,637,PT00M00.00S,4,0,,0,,,0,0,0,,0,122,102,224,,End of 4th Period (9:23 PM EST),period,end,1,0,454

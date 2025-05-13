@@ -1,0 +1,487 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022000505,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:46 PM EST),period,start,0,0,1
+0022000505,4,PT12M00.00S,1,1610612738,BOS,1628464,Theis,D. Theis,0,0,0,,0,,,0,h,Jump Ball Theis vs. Turner: Tip to Walker,Jump Ball,,1,0,2
+0022000505,7,PT11M44.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,33,22,4,Missed,1,,,0,h,MISS Tatum 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,3
+0022000505,7,PT11M44.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner BLOCK (1 BLK),,,1,2,4
+0022000505,9,PT11M42.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,5
+0022000505,41,PT11M35.00S,1,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Turnover: Shot Clock (T#1),Turnover,Shot Clock Turnover,0,0,6
+0022000505,12,PT11M15.00S,1,1610612754,IND,1626167,Turner,M. Turner,-227,14,0,Made,1,0,3,3,v,Turner 3PT Jump Shot (3 PTS) (Brogdon 1 AST),Made Shot,Jump Shot,1,3,7
+0022000505,14,PT10M57.00S,1,1610612738,BOS,1628464,Theis,D. Theis,0,0,0,,0,,,0,h,Theis Traveling Turnover (P1.T2),Turnover,Traveling,1,0,8
+0022000505,15,PT10M40.00S,1,1610612754,IND,203926,McDermott,D. McDermott,-86,225,24,Made,1,0,6,6,v,McDermott 24' 3PT Jump Shot (3 PTS) (Sabonis 1 AST),Made Shot,Jump Shot,1,3,9
+0022000505,17,PT10M17.00S,1,1610612738,BOS,1628464,Theis,D. Theis,84,159,18,Missed,1,,,0,h,MISS Theis 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,10
+0022000505,18,PT10M14.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,11
+0022000505,19,PT10M06.00S,1,1610612754,IND,1626167,Turner,M. Turner,-177,166,24,Made,1,0,9,9,v,Turner 24' 3PT Jump Shot (6 PTS) (J. Holiday 1 AST),Made Shot,Jump Shot,1,3,12
+0022000505,21,PT09M50.00S,1,1610612738,BOS,202689,Walker,K. Walker,-28,168,17,Missed,1,,,0,h,MISS Walker 17' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,13
+0022000505,22,PT09M48.00S,1,1610612754,IND,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,v,Brogdon REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,14
+0022000505,23,PT09M44.00S,1,1610612754,IND,1626167,Turner,M. Turner,11,19,2,Made,1,0,11,11,v,Turner 2' Running Layup (8 PTS) (Brogdon 2 AST),Made Shot,Running Layup Shot,1,2,15
+0022000505,25,PT09M44.00S,1,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown P.FOUL (P1.T1) (E.Lewis),Foul,Personal,1,0,16
+0022000505,27,PT09M44.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,0,12,12,v,Turner Free Throw 1 of 1 (9 PTS),Free Throw,Free Throw 1 of 1,1,0,17
+0022000505,28,PT09M34.00S,1,1610612738,BOS,1627759,Brown,J. Brown,-25,173,17,Made,1,2,12,14,h,Brown 17' Pullup Jump Shot (2 PTS) (Walker 1 AST),Made Shot,Pullup Jump shot,1,2,18
+0022000505,29,PT09M20.00S,1,1610612754,IND,203926,McDermott,D. McDermott,78,89,12,Missed,1,,,0,v,MISS McDermott 12' Jump Shot,Missed Shot,Jump Shot,1,2,19
+0022000505,30,PT09M19.00S,1,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Rebound,Rebound,Unknown,0,0,20
+0022000505,32,PT09M14.00S,1,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,McDermott P.FOUL (P1.T1) (E.Lewis),Foul,Personal,1,0,21
+0022000505,34,PT09M05.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,-117,79,14,Missed,1,,,0,h,MISS Tatum 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,22
+0022000505,35,PT09M02.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,23
+0022000505,36,PT08M54.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis FLAGRANT.FOUL.TYPE1 (P1.T2) (A.Smith),Foul,Flagrant Type 1,1,0,24
+0022000505,39,PT08M54.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis Turnover Turnover (P1.T1),Turnover,,1,0,25
+0022000505,40,PT08M54.00S,1,0,,36,Marciulionis,S. Marciulionis,0,0,0,,0,2,12,14,,Instant Replay1st Period (7:50 PM EST),Instant Replay,Overturn Ruling,0,0,26
+0022000505,42,PT08M54.00S,1,1610612738,BOS,1628464,Theis,D. Theis,0,0,0,,0,3,12,15,h,Theis Free Throw Flagrant 1 of 2 (1 PTS),Free Throw,Free Throw Flagrant 1 of 2,1,0,27
+0022000505,43,PT08M54.00S,1,1610612738,BOS,1628464,Theis,D. Theis,0,0,0,,0,,,0,h,MISS Theis Free Throw Flagrant 2 of 2,Free Throw,Free Throw Flagrant 2 of 2,1,0,28
+0022000505,44,PT08M54.00S,1,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Rebound,Rebound,Unknown,0,0,29
+0022000505,45,PT08M44.00S,1,1610612738,BOS,1628464,Theis,D. Theis,-236,52,24,Missed,1,,,0,h,MISS Theis 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,30
+0022000505,46,PT08M40.00S,1,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,J. Holiday REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,31
+0022000505,47,PT08M31.00S,1,1610612754,IND,1627763,Brogdon,M. Brogdon,-84,146,17,Missed,1,,,0,v,MISS Brogdon 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,32
+0022000505,48,PT08M29.00S,1,1610612738,BOS,202684,Thompson,T. Thompson,0,0,0,,0,,,0,h,Thompson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,33
+0022000505,49,PT08M21.00S,1,1610612738,BOS,1627759,Brown,J. Brown,230,48,0,Missed,1,,,0,h,MISS Brown 3PT Jump Shot,Missed Shot,Jump Shot,1,3,34
+0022000505,51,PT08M19.00S,1,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,McDermott REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,35
+0022000505,52,PT08M08.00S,1,1610612754,IND,1627763,Brogdon,M. Brogdon,-32,17,4,Missed,1,,,0,v,MISS Brogdon 4' Layup,Missed Shot,Layup Shot,1,2,36
+0022000505,52,PT08M08.00S,1,1610612738,BOS,1628464,Theis,D. Theis,0,0,0,,0,,,0,h,Theis BLOCK (1 BLK),,,1,2,37
+0022000505,54,PT08M05.00S,1,1610612754,IND,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,v,Brogdon REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,38
+0022000505,55,PT08M04.00S,1,1610612754,IND,1627763,Brogdon,M. Brogdon,30,2,3,Missed,1,,,0,v,MISS Brogdon 3' Putback Layup,Missed Shot,Putback Layup Shot,1,2,39
+0022000505,56,PT08M03.00S,1,1610612738,BOS,202684,Thompson,T. Thompson,0,0,0,,0,,,0,h,Thompson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,40
+0022000505,57,PT08M00.00S,1,1610612754,IND,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,v,Brogdon S.FOUL (P1.T3) (A.Smith),Foul,Shooting,1,0,41
+0022000505,59,PT08M00.00S,1,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,4,12,16,h,Brown Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,42
+0022000505,60,PT08M00.00S,1,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,MISS Brown Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,43
+0022000505,61,PT08M00.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,44
+0022000505,62,PT07M37.00S,1,1610612754,IND,1627763,Brogdon,M. Brogdon,-139,211,25,Made,1,4,15,19,v,Brogdon 25' 3PT Jump Shot (3 PTS) (Turner 1 AST),Made Shot,Jump Shot,1,3,45
+0022000505,64,PT07M16.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,19,180,18,Missed,1,,,0,h,MISS Tatum 18' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,46
+0022000505,65,PT07M12.00S,1,1610612754,IND,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,v,Brogdon REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,47
+0022000505,66,PT07M05.00S,1,1610612754,IND,203200,Holiday,J. Holiday,-231,-1,0,Made,1,4,18,22,v,J. Holiday 3PT Jump Shot (3 PTS) (Sabonis 2 AST),Made Shot,Jump Shot,1,3,48
+0022000505,68,PT07M02.00S,1,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,49
+0022000505,69,PT06M48.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner S.FOUL (P1.T4) (E.Lewis),Foul,Shooting,1,0,50
+0022000505,71,PT06M48.00S,1,1610612738,BOS,202689,Walker,K. Walker,0,0,0,,0,5,18,23,h,Walker Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,51
+0022000505,72,PT06M48.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,SUB: Pritchard FOR Tatum,Substitution,,0,0,52
+0022000505,74,PT06M48.00S,1,1610612738,BOS,202689,Walker,K. Walker,0,0,0,,0,6,18,24,h,Walker Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,53
+0022000505,75,PT06M35.00S,1,1610612754,IND,203926,McDermott,D. McDermott,157,198,25,Missed,1,,,0,v,MISS McDermott 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,54
+0022000505,76,PT06M31.00S,1,1610612738,BOS,202689,Walker,K. Walker,0,0,0,,0,,,0,h,Walker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,55
+0022000505,77,PT06M23.00S,1,1610612738,BOS,202689,Walker,K. Walker,-54,269,27,Made,1,9,18,27,h,Walker 27' 3PT Pullup Jump Shot (5 PTS),Made Shot,Pullup Jump shot,1,3,56
+0022000505,85,PT05M57.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,22,86,9,Missed,1,,,0,v,MISS Sabonis 9' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,57
+0022000505,85,PT05M57.00S,1,1610612738,BOS,1628464,Theis,D. Theis,0,0,0,,0,,,0,h,Theis BLOCK (2 BLK),,,1,2,58
+0022000505,87,PT05M55.00S,1,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,59
+0022000505,79,PT05M55.00S,1,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Turnover: Shot Clock (T#2),Turnover,Shot Clock Turnover,0,0,60
+0022000505,80,PT05M43.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis S.FOUL (P2.PN) (A.Smith),Foul,Shooting,1,0,61
+0022000505,82,PT05M43.00S,1,1610612738,BOS,1628464,Theis,D. Theis,0,0,0,,0,10,18,28,h,Theis Free Throw 1 of 2 (2 PTS),Free Throw,Free Throw 1 of 2,1,0,62
+0022000505,83,PT05M43.00S,1,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,SUB: McConnell FOR McDermott,Substitution,,0,0,63
+0022000505,88,PT05M43.00S,1,1610612738,BOS,1628464,Theis,D. Theis,0,0,0,,0,11,18,29,h,Theis Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,64
+0022000505,89,PT05M26.00S,1,1610612754,IND,204456,McConnell,T. McConnell,23,15,3,Made,1,11,20,31,v,McConnell 3' Layup (2 PTS) (Sabonis 3 AST),Made Shot,Layup Shot,1,2,65
+0022000505,91,PT05M14.00S,1,1610612738,BOS,202689,Walker,K. Walker,-76,260,27,Made,1,14,20,34,h,Walker 27' 3PT Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,3,66
+0022000505,92,PT05M02.00S,1,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,McConnell Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,67
+0022000505,92,PT05M02.00S,1,1610612738,BOS,202689,Walker,K. Walker,0,0,0,,0,,,0,h,Walker STEAL (1 STL),,,1,0,68
+0022000505,94,PT05M00.00S,1,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,McConnell P.FOUL (P1.PN) (M.Lindsay),Foul,Personal,1,0,69
+0022000505,96,PT05M00.00S,1,1610612738,BOS,202689,Walker,K. Walker,0,0,0,,0,15,20,35,h,Walker Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,70
+0022000505,97,PT05M00.00S,1,1610612738,BOS,202684,Thompson,T. Thompson,0,0,0,,0,,,0,h,SUB: Williams III FOR Thompson,Substitution,,0,0,71
+0022000505,99,PT05M00.00S,1,1610612738,BOS,202689,Walker,K. Walker,0,0,0,,0,16,20,36,h,Walker Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,72
+0022000505,100,PT04M46.00S,1,1610612754,IND,1627763,Brogdon,M. Brogdon,-79,232,25,Missed,1,,,0,v,MISS Brogdon 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,73
+0022000505,101,PT04M44.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,74
+0022000505,102,PT04M42.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,57,245,25,Missed,1,,,0,v,MISS Sabonis 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,75
+0022000505,103,PT04M38.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,76
+0022000505,104,PT04M24.00S,1,1610612738,BOS,1630202,Pritchard,P. Pritchard,230,69,24,Made,1,19,20,39,h,Pritchard 24' 3PT Jump Shot (3 PTS) (Walker 2 AST),Made Shot,Jump Shot,1,3,77
+0022000505,106,PT04M19.00S,1,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,78
+0022000505,107,PT04M19.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: Lamb FOR Sabonis,Substitution,,0,0,79
+0022000505,109,PT04M11.00S,1,1610612754,IND,204456,McConnell,T. McConnell,72,88,11,Made,1,19,22,41,v,McConnell 11' Fadeaway Jumper (4 PTS) (J. Holiday 2 AST),Made Shot,Fadeaway Jump Shot,1,2,80
+0022000505,110,PT03M56.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,-1,13,1,Made,1,21,22,43,h,Williams III 1' Cutting Dunk Shot (2 PTS) (Theis 1 AST),Made Shot,Cutting Dunk Shot,1,2,81
+0022000505,112,PT03M33.00S,1,1610612754,IND,203200,Holiday,J. Holiday,236,109,26,Made,1,21,25,46,v,J. Holiday 26' 3PT Jump Shot (6 PTS) (Brogdon 3 AST),Made Shot,Jump Shot,1,3,82
+0022000505,114,PT03M20.00S,1,1610612738,BOS,1628464,Theis,D. Theis,-49,121,13,Made,1,23,25,48,h,Theis 13' Jump Shot (5 PTS) (Brown 1 AST),Made Shot,Jump Shot,1,2,83
+0022000505,116,PT03M10.00S,1,1610612754,IND,204456,McConnell,T. McConnell,27,13,3,Missed,1,,,0,v,MISS McConnell 3' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,84
+0022000505,117,PT03M09.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,85
+0022000505,118,PT03M05.00S,1,1610612754,IND,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,v,Brogdon S.FOUL (P2.PN) (E.Lewis),Foul,Shooting,1,0,86
+0022000505,120,PT03M05.00S,1,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,24,25,49,h,Brown Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,87
+0022000505,121,PT03M05.00S,1,1610612738,BOS,202689,Walker,K. Walker,0,0,0,,0,,,0,h,SUB: Teague FOR Walker,Substitution,,0,0,88
+0022000505,122,PT03M05.00S,1,1610612738,BOS,1628464,Theis,D. Theis,0,0,0,,0,,,0,h,SUB: Tatum FOR Theis,Substitution,,0,0,89
+0022000505,125,PT03M05.00S,1,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,25,25,50,h,Brown Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,90
+0022000505,127,PT02M44.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III S.FOUL (P1.T2) (M.Lindsay),Foul,Shooting,1,0,91
+0022000505,129,PT02M44.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,25,26,51,v,Turner Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,92
+0022000505,130,PT02M44.00S,1,1610612754,IND,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,v,SUB: A. Holiday FOR Brogdon,Substitution,,0,0,93
+0022000505,132,PT02M44.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,25,27,52,v,Turner Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,94
+0022000505,133,PT02M34.00S,1,1610612738,BOS,1627759,Brown,J. Brown,-232,58,24,Missed,1,,,0,h,MISS Brown 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,95
+0022000505,134,PT02M31.00S,1,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,McConnell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,96
+0022000505,135,PT02M24.00S,1,1610612754,IND,1626167,Turner,M. Turner,-8,6,1,Missed,1,,,0,v,MISS Turner 1' Layup,Missed Shot,Layup Shot,1,2,97
+0022000505,137,PT02M23.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,98
+0022000505,184,PT02M22.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III Lost Ball Turnover (P1.T3),Turnover,Lost Ball,1,0,99
+0022000505,184,PT02M22.00S,1,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,McConnell STEAL (1 STL),,,1,0,100
+0022000505,139,PT02M04.00S,1,1610612754,IND,203087,Lamb,J. Lamb,-70,232,24,Missed,1,,,0,v,MISS Lamb 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,101
+0022000505,140,PT02M02.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,102
+0022000505,141,PT01M56.00S,1,1610612738,BOS,201952,Teague,J. Teague,102,26,11,Missed,1,,,0,h,MISS Teague 11' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,103
+0022000505,142,PT01M54.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,104
+0022000505,143,PT01M51.00S,1,1610612738,BOS,1630202,Pritchard,P. Pritchard,0,0,0,,0,,,0,h,Pritchard S.FOUL (P1.T3) (A.Smith),Foul,Shooting,1,0,105
+0022000505,145,PT01M51.00S,1,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,25,28,53,v,McConnell Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,106
+0022000505,146,PT01M51.00S,1,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,SUB: Nesmith FOR Brown,Substitution,,0,0,107
+0022000505,148,PT01M51.00S,1,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,25,29,54,v,McConnell Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,108
+0022000505,149,PT01M41.00S,1,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,v,A. Holiday P.FOUL (P1.PN) (M.Lindsay),Foul,Personal,1,0,109
+0022000505,151,PT01M41.00S,1,1610612738,BOS,201952,Teague,J. Teague,0,0,0,,0,,,0,h,MISS Teague Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,110
+0022000505,152,PT01M41.00S,1,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Rebound,Rebound,Normal Rebound,0,0,111
+0022000505,153,PT01M41.00S,1,1610612738,BOS,201952,Teague,J. Teague,0,0,0,,0,26,29,55,h,Teague Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,112
+0022000505,154,PT01M30.00S,1,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,McConnell Bad Pass Turnover (P2.T4),Turnover,Bad Pass,1,0,113
+0022000505,154,PT01M30.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III STEAL (1 STL),,,1,0,114
+0022000505,156,PT01M27.00S,1,1610612738,BOS,1629057,Williams III,R. Williams III,-9,13,2,Made,1,28,29,57,h,Williams III 2' Running Layup (4 PTS),Made Shot,Running Layup Shot,1,2,115
+0022000505,160,PT01M12.00S,1,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Coach Challenge (Reg.1 Short 0),Timeout,Coach Challenge,0,0,116
+0022000505,161,PT01M12.00S,1,0,,157,Harper,D. Harper,0,0,0,,0,28,29,57,,Instant Replay1st Period (8:15 PM EST),Instant Replay,Coach Challenge Overturn Ruling,1,0,117
+0022000505,162,PT01M12.00S,1,1610612738,BOS,201952,Teague,J. Teague,0,0,0,,0,,,0,h,Teague P.FOUL (P1.PN) (M.Lindsay),Foul,Personal,1,0,118
+0022000505,165,PT01M12.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,28,30,58,v,Turner Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,1,0,119
+0022000505,166,PT01M12.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,28,31,59,v,Turner Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,1,0,120
+0022000505,167,PT00M51.80S,1,1610612738,BOS,1628369,Tatum,J. Tatum,113,144,18,Made,1,30,31,61,h,Tatum 18' Turnaround Jump Shot (2 PTS),Made Shot,Turnaround Jump Shot,1,2,121
+0022000505,168,PT00M37.90S,1,1610612754,IND,203087,Lamb,J. Lamb,-70,100,12,Missed,1,,,0,v,MISS Lamb 12' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,122
+0022000505,168,PT00M37.90S,1,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III BLOCK (1 BLK),,,1,2,123
+0022000505,170,PT00M35.40S,1,1610612738,BOS,201952,Teague,J. Teague,0,0,0,,0,,,0,h,Teague REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,124
+0022000505,171,PT00M29.90S,1,1610612738,BOS,201952,Teague,J. Teague,-71,134,15,Made,1,32,31,63,h,Teague 15' Driving Floating Jump Shot (3 PTS),Made Shot,Driving Floating Jump Shot,1,2,125
+0022000505,172,PT00M04.40S,1,1610612754,IND,203087,Lamb,J. Lamb,88,138,16,Missed,1,,,0,v,MISS Lamb 16' Jump Shot,Missed Shot,Jump Shot,1,2,126
+0022000505,173,PT00M02.90S,1,1610612738,BOS,1630202,Pritchard,P. Pritchard,0,0,0,,0,,,0,h,Pritchard REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,127
+0022000505,174,PT00M00.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,69,162,18,Missed,1,,,0,h,MISS Tatum 18' Jump Shot,Missed Shot,Jump Shot,1,2,128
+0022000505,175,PT00M00.00S,1,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Rebound,Rebound,Unknown,0,0,129
+0022000505,176,PT00M00.00S,1,0,,0,,,0,0,0,,0,32,31,63,,End of 1st Period (8:19 PM EST),period,end,1,0,130
+0022000505,181,PT12M00.00S,2,0,,0,,,0,0,0,,0,32,31,63,,Start of 2nd Period (8:23 PM EST),period,start,0,0,131
+0022000505,182,PT11M40.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,130,220,26,Made,1,32,34,66,v,A. Holiday 26' 3PT Jump Shot (3 PTS) (Sabonis 4 AST),Made Shot,Jump Shot,1,3,132
+0022000505,186,PT11M20.00S,2,1610612738,BOS,201952,Teague,J. Teague,0,0,0,,0,,,0,h,Teague Lost Ball Turnover (P1.T4),Turnover,Lost Ball,1,0,133
+0022000505,186,PT11M20.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,v,A. Holiday STEAL (1 STL),,,1,0,134
+0022000505,188,PT11M18.00S,2,1610612738,BOS,201952,Teague,J. Teague,0,0,0,,0,,,0,h,Teague P.FOUL (P2.T1) (M.Lindsay),Foul,Personal,1,0,135
+0022000505,190,PT11M10.00S,2,1610612754,IND,203087,Lamb,J. Lamb,152,216,26,Missed,1,,,0,v,MISS Lamb 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,136
+0022000505,191,PT11M07.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,137
+0022000505,192,PT10M57.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,-9,21,2,Made,1,34,34,68,h,Williams III 2' Alley Oop Layup (6 PTS) (Tatum 1 AST),Made Shot,Alley Oop Layup shot,1,2,138
+0022000505,194,PT10M38.00S,2,1610612754,IND,203087,Lamb,J. Lamb,0,0,0,,0,,,0,v,Lamb Out of Bounds - Bad Pass Turnover Turnover (P1.T5),Turnover,Out of Bounds - Bad Pass Turnover,1,0,139
+0022000505,195,PT10M26.00S,2,1610612738,BOS,1630202,Pritchard,P. Pritchard,-50,141,15,Missed,1,,,0,h,MISS Pritchard 15' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,140
+0022000505,195,PT10M26.00S,2,1610612754,IND,203087,Lamb,J. Lamb,0,0,0,,0,,,0,v,Lamb BLOCK (1 BLK),,,1,2,141
+0022000505,197,PT10M24.00S,2,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,McConnell REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,142
+0022000505,198,PT10M17.00S,2,1610612738,BOS,1630174,Nesmith,A. Nesmith,0,0,0,,0,,,0,h,Nesmith S.FOUL (P1.T2) (E.Lewis),Foul,Shooting,1,0,143
+0022000505,200,PT10M17.00S,2,1610612754,IND,203087,Lamb,J. Lamb,0,0,0,,0,34,35,69,v,Lamb Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,144
+0022000505,201,PT10M17.00S,2,1610612754,IND,203087,Lamb,J. Lamb,0,0,0,,0,34,36,70,v,Lamb Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,145
+0022000505,202,PT09M58.00S,2,1610612738,BOS,201952,Teague,J. Teague,-120,241,27,Made,1,37,36,73,h,Teague 27' 3PT Jump Shot (6 PTS) (Williams III 1 AST),Made Shot,Jump Shot,1,3,146
+0022000505,204,PT09M47.00S,2,1610612754,IND,203926,McDermott,D. McDermott,-124,213,25,Missed,1,,,0,v,MISS McDermott 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,147
+0022000505,205,PT09M44.00S,2,1610612738,BOS,201952,Teague,J. Teague,0,0,0,,0,,,0,h,Teague REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,148
+0022000505,206,PT09M38.00S,2,1610612738,BOS,1630174,Nesmith,A. Nesmith,227,29,0,Missed,1,,,0,h,MISS Nesmith 3PT Jump Shot,Missed Shot,Jump Shot,1,3,149
+0022000505,207,PT09M35.00S,2,1610612738,BOS,1630202,Pritchard,P. Pritchard,0,0,0,,0,,,0,h,Pritchard REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,150
+0022000505,208,PT09M33.00S,2,1610612738,BOS,1630202,Pritchard,P. Pritchard,-13,21,2,Made,1,39,36,75,h,Pritchard 2' Putback Layup (5 PTS),Made Shot,Putback Layup Shot,1,2,151
+0022000505,209,PT09M17.00S,2,1610612754,IND,203926,McDermott,D. McDermott,-225,-8,0,Made,1,39,39,78,v,McDermott 3PT Jump Shot (6 PTS) (Sabonis 5 AST),Made Shot,Jump Shot,1,3,152
+0022000505,211,PT09M11.00S,2,1610612754,IND,203087,Lamb,J. Lamb,0,0,0,,0,,,0,v,Lamb S.FOUL (P1.T1) (A.Smith),Foul,Shooting,1,0,153
+0022000505,213,PT09M11.00S,2,1610612738,BOS,201952,Teague,J. Teague,0,0,0,,0,40,39,79,h,Teague Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,154
+0022000505,228,PT09M11.00S,2,1610612738,BOS,201952,Teague,J. Teague,0,0,0,,0,41,39,80,h,Teague Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,155
+0022000505,214,PT09M11.00S,2,1610612754,IND,203087,Lamb,J. Lamb,0,0,0,,0,,,0,v,SUB: Sumner FOR Lamb,Substitution,,0,0,156
+0022000505,216,PT09M04.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,210,125,24,Missed,1,,,0,v,MISS A. Holiday 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,157
+0022000505,217,PT09M01.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,158
+0022000505,218,PT08M51.00S,2,1610612738,BOS,1630202,Pritchard,P. Pritchard,-29,33,4,Made,1,43,39,82,h,Pritchard 4' Cutting Layup Shot (7 PTS) (Tatum 2 AST),Made Shot,Cutting Layup Shot,1,2,159
+0022000505,220,PT08M39.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,68,114,13,Made,1,43,41,84,v,A. Holiday 13' Driving Floating Jump Shot (5 PTS) (McDermott 1 AST),Made Shot,Driving Floating Jump Shot,1,2,160
+0022000505,221,PT08M19.00S,2,1610612738,BOS,1630202,Pritchard,P. Pritchard,-27,25,4,Missed,1,,,0,h,MISS Pritchard 4' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,161
+0022000505,222,PT08M18.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,162
+0022000505,223,PT08M17.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,-5,28,3,Missed,1,,,0,h,MISS Williams III 3' Putback Layup,Missed Shot,Putback Layup Shot,1,2,163
+0022000505,224,PT08M15.00S,2,1610612738,BOS,1630202,Pritchard,P. Pritchard,0,0,0,,0,,,0,h,Pritchard REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,164
+0022000505,225,PT08M13.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,-16,21,3,Made,1,45,41,86,h,Williams III 3' Cutting Dunk Shot (8 PTS) (Pritchard 1 AST),Made Shot,Cutting Dunk Shot,1,2,165
+0022000505,227,PT08M11.00S,2,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,166
+0022000505,229,PT08M00.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,-60,246,25,Missed,1,,,0,v,MISS A. Holiday 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,167
+0022000505,230,PT07M57.00S,2,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,McConnell REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,168
+0022000505,231,PT07M52.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,-127,209,24,Made,1,45,44,89,v,A. Holiday 24' 3PT Jump Shot (8 PTS) (Sabonis 6 AST),Made Shot,Jump Shot,1,3,169
+0022000505,233,PT07M29.00S,2,1610612738,BOS,201952,Teague,J. Teague,38,41,6,Missed,1,,,0,h,MISS Teague 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,170
+0022000505,234,PT07M27.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,171
+0022000505,235,PT07M24.00S,2,1610612738,BOS,1630202,Pritchard,P. Pritchard,-208,39,21,Made,1,47,44,91,h,Pritchard 21' Jump Shot (9 PTS) (Williams III 2 AST),Made Shot,Jump Shot,1,2,172
+0022000505,237,PT07M14.00S,2,1610612754,IND,203926,McDermott,D. McDermott,-187,161,25,Missed,1,,,0,v,MISS McDermott 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,173
+0022000505,238,PT07M12.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,174
+0022000505,239,PT07M02.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,233,42,24,Missed,1,,,0,h,MISS Tatum 24' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,175
+0022000505,240,PT06M59.00S,2,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,McConnell REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,176
+0022000505,241,PT06M56.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,2,-2,0,Made,1,47,46,93,v,Sabonis Running Dunk (2 PTS) (McConnell 1 AST),Made Shot,Running Dunk Shot,1,2,177
+0022000505,243,PT06M45.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,v,A. Holiday S.FOUL (P2.T2) (E.Lewis),Foul,Shooting,1,0,178
+0022000505,245,PT06M45.00S,2,1610612738,BOS,201952,Teague,J. Teague,0,0,0,,0,48,46,94,h,Teague Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,179
+0022000505,246,PT06M45.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,SUB: Brown FOR Tatum,Substitution,,0,0,180
+0022000505,247,PT06M45.00S,2,1610612738,BOS,1630174,Nesmith,A. Nesmith,0,0,0,,0,,,0,h,SUB: Walker FOR Nesmith,Substitution,,0,0,181
+0022000505,250,PT06M45.00S,2,1610612738,BOS,201952,Teague,J. Teague,0,0,0,,0,49,46,95,h,Teague Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,182
+0022000505,252,PT06M30.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,-37,20,4,Missed,1,,,0,v,MISS A. Holiday 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,183
+0022000505,252,PT06M30.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III BLOCK (2 BLK),,,1,2,184
+0022000505,254,PT06M30.00S,2,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,185
+0022000505,256,PT06M30.00S,2,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,SUB: Turner FOR McConnell,Substitution,,0,0,186
+0022000505,257,PT06M30.00S,2,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,SUB: Brogdon FOR McDermott,Substitution,,0,0,187
+0022000505,260,PT06M20.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,-74,32,8,Made,1,49,48,97,v,A. Holiday 8' Floating Jump Shot (10 PTS),Made Shot,Floating Jump shot,1,2,188
+0022000505,261,PT06M00.00S,2,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,,,0,v,Sumner P.FOUL (P1.T3) (M.Lindsay),Foul,Personal,1,0,189
+0022000505,263,PT06M00.00S,2,1610612738,BOS,1630202,Pritchard,P. Pritchard,0,0,0,,0,,,0,h,SUB: Theis FOR Pritchard,Substitution,,0,0,190
+0022000505,265,PT05M50.00S,2,1610612738,BOS,202689,Walker,K. Walker,90,91,13,Made,1,51,48,99,h,Walker 13' Fadeaway Jumper (12 PTS),Made Shot,Fadeaway Jump Shot,1,2,191
+0022000505,266,PT05M41.00S,2,1610612754,IND,1627763,Brogdon,M. Brogdon,-42,22,5,Missed,1,,,0,v,MISS Brogdon 5' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,192
+0022000505,267,PT05M39.00S,2,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,193
+0022000505,268,PT05M36.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,v,A. Holiday P.FOUL (P3.T4) (M.Lindsay),Foul,Personal,1,0,194
+0022000505,270,PT05M30.00S,2,1610612738,BOS,201952,Teague,J. Teague,0,0,0,,0,,,0,h,Teague Lost Ball Turnover (P2.T5),Turnover,Lost Ball,1,0,195
+0022000505,270,PT05M30.00S,2,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,,,0,v,Sumner STEAL (1 STL),,,1,0,196
+0022000505,272,PT05M28.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III S.FOUL (P2.T3) (M.Lindsay),Foul,Shooting,1,0,197
+0022000505,274,PT05M28.00S,2,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,,,0,v,MISS Sumner Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,198
+0022000505,275,PT05M28.00S,2,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Normal Rebound,0,0,199
+0022000505,276,PT05M28.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,SUB: Thompson FOR Williams III,Substitution,,0,0,200
+0022000505,277,PT05M28.00S,2,1610612738,BOS,201952,Teague,J. Teague,0,0,0,,0,,,0,h,SUB: Pritchard FOR Teague,Substitution,,0,0,201
+0022000505,280,PT05M28.00S,2,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,51,49,100,v,Sumner Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,202
+0022000505,281,PT05M08.00S,2,1610612738,BOS,202689,Walker,K. Walker,-11,163,16,Made,1,53,49,102,h,Walker 16' Pullup Jump Shot (14 PTS),Made Shot,Pullup Jump shot,1,2,203
+0022000505,282,PT04M49.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner Out of Bounds - Bad Pass Turnover Turnover (P1.T6),Turnover,Out of Bounds - Bad Pass Turnover,1,0,204
+0022000505,283,PT04M49.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,v,SUB: J. Holiday FOR A. Holiday,Substitution,,0,0,205
+0022000505,285,PT04M28.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner P.FOUL (P2.PN) (A.Smith),Foul,Personal,1,0,206
+0022000505,287,PT04M28.00S,2,1610612738,BOS,202689,Walker,K. Walker,0,0,0,,0,54,49,103,h,Walker Free Throw 1 of 2 (15 PTS),Free Throw,Free Throw 1 of 2,1,0,207
+0022000505,288,PT04M28.00S,2,1610612738,BOS,202689,Walker,K. Walker,0,0,0,,0,55,49,104,h,Walker Free Throw 2 of 2 (16 PTS),Free Throw,Free Throw 2 of 2,1,0,208
+0022000505,289,PT04M12.00S,2,1610612754,IND,1627763,Brogdon,M. Brogdon,92,230,25,Missed,1,,,0,v,MISS Brogdon 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,209
+0022000505,290,PT04M10.00S,2,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,210
+0022000505,291,PT03M59.00S,2,1610612738,BOS,1627759,Brown,J. Brown,24,36,4,Missed,1,,,0,h,MISS Brown 4' Layup,Missed Shot,Layup Shot,1,2,211
+0022000505,291,PT03M59.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner BLOCK (2 BLK),,,1,2,212
+0022000505,293,PT03M57.00S,2,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,,,0,v,Sumner REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,213
+0022000505,294,PT03M52.00S,2,1610612754,IND,203200,Holiday,J. Holiday,-134,215,25,Made,1,55,52,107,v,J. Holiday 25' 3PT Jump Shot (9 PTS) (Sumner 1 AST),Made Shot,Jump Shot,1,3,214
+0022000505,296,PT03M38.00S,2,1610612738,BOS,202689,Walker,K. Walker,-79,247,26,Missed,1,,,0,h,MISS Walker 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,215
+0022000505,296,PT03M38.00S,2,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,J. Holiday BLOCK (1 BLK),,,1,3,216
+0022000505,297,PT03M37.00S,2,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,,,0,v,Sumner REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,217
+0022000505,298,PT03M31.00S,2,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,J. Holiday Out of Bounds Lost Ball Turnover (P1.T7),Turnover,Out of Bounds Lost Ball Turnover,1,0,218
+0022000505,299,PT03M31.00S,2,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,219
+0022000505,301,PT03M22.00S,2,1610612738,BOS,202689,Walker,K. Walker,92,252,27,Missed,1,,,0,h,MISS Walker 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,220
+0022000505,302,PT03M20.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,221
+0022000505,303,PT03M08.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis Bad Pass Turnover (P2.T8),Turnover,Bad Pass,1,0,222
+0022000505,303,PT03M08.00S,2,1610612738,BOS,1628464,Theis,D. Theis,0,0,0,,0,,,0,h,Theis STEAL (1 STL),,,1,0,223
+0022000505,305,PT03M03.00S,2,1610612738,BOS,202689,Walker,K. Walker,0,16,2,Made,1,57,52,109,h,Walker 2' Running Layup (18 PTS) (Brown 2 AST),Made Shot,Running Layup Shot,1,2,224
+0022000505,307,PT02M53.00S,2,1610612754,IND,1627763,Brogdon,M. Brogdon,-11,0,1,Made,1,57,54,111,v,Brogdon 1' Driving Layup (5 PTS),Made Shot,Driving Layup Shot,1,2,225
+0022000505,308,PT02M36.00S,2,1610612738,BOS,1627759,Brown,J. Brown,-120,180,22,Made,1,59,54,113,h,Brown 22' Pullup Jump Shot (7 PTS) (Thompson 1 AST),Made Shot,Pullup Jump shot,1,2,226
+0022000505,310,PT02M26.00S,2,1610612738,BOS,1628464,Theis,D. Theis,0,0,0,,0,,,0,h,Theis P.FOUL (P1.T4) (E.Lewis),Foul,Personal,1,0,227
+0022000505,312,PT02M26.00S,2,1610612738,BOS,1628464,Theis,D. Theis,0,0,0,,0,,,0,h,SUB: Tatum FOR Theis,Substitution,,0,0,228
+0022000505,313,PT02M26.00S,2,1610612738,BOS,202684,Thompson,T. Thompson,0,0,0,,0,,,0,h,SUB: Williams III FOR Thompson,Substitution,,0,0,229
+0022000505,316,PT02M18.00S,2,1610612754,IND,203200,Holiday,J. Holiday,-185,159,24,Missed,1,,,0,v,MISS J. Holiday 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,230
+0022000505,317,PT02M15.00S,2,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,231
+0022000505,319,PT02M03.00S,2,1610612754,IND,1626167,Turner,M. Turner,-71,93,12,Missed,1,,,0,v,MISS Turner 12' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,232
+0022000505,320,PT02M01.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,233
+0022000505,321,PT01M53.00S,2,1610612738,BOS,202689,Walker,K. Walker,-79,252,26,Missed,1,,,0,h,MISS Walker 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,234
+0022000505,321,PT01M53.00S,2,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,J. Holiday BLOCK (2 BLK),,,1,3,235
+0022000505,323,PT01M50.00S,2,1610612738,BOS,1630202,Pritchard,P. Pritchard,0,0,0,,0,,,0,h,Pritchard REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,236
+0022000505,324,PT01M45.00S,2,1610612738,BOS,1627759,Brown,J. Brown,69,174,19,Missed,1,,,0,h,MISS Brown 19' Jump Shot,Missed Shot,Jump Shot,1,2,237
+0022000505,325,PT01M42.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,238
+0022000505,326,PT01M28.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,-75,4,8,Made,1,59,56,115,v,Sabonis 8' Turnaround Bank Hook Shot (4 PTS),Made Shot,Turnaround Bank Hook Shot,1,2,239
+0022000505,327,PT01M11.00S,2,1610612738,BOS,202689,Walker,K. Walker,30,15,3,Missed,1,,,0,h,MISS Walker 3' Layup,Missed Shot,Layup Shot,1,2,240
+0022000505,328,PT01M09.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,241
+0022000505,329,PT01M05.00S,2,1610612754,IND,1628410,Sumner,E. Sumner,164,195,25,Missed,1,,,0,v,MISS Sumner 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,242
+0022000505,330,PT01M04.00S,2,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,243
+0022000505,331,PT01M04.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III L.B.FOUL (P3.PN) (M.Lindsay),Foul,Loose Ball,1,0,244
+0022000505,333,PT01M04.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,59,57,116,v,Sabonis Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,245
+0022000505,334,PT01M04.00S,2,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,SUB: Theis FOR Williams III,Substitution,,0,0,246
+0022000505,336,PT01M04.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,59,58,117,v,Sabonis Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,247
+0022000505,337,PT00M48.70S,2,1610612738,BOS,1628369,Tatum,J. Tatum,-93,84,13,Missed,1,,,0,h,MISS Tatum 13' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,248
+0022000505,338,PT00M46.80S,2,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,J. Holiday REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,249
+0022000505,339,PT00M41.50S,2,1610612754,IND,1627763,Brogdon,M. Brogdon,24,17,3,Made,1,59,60,119,v,Brogdon 3' Driving Finger Roll Layup (7 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,250
+0022000505,340,PT00M27.10S,2,1610612738,BOS,1627759,Brown,J. Brown,-3,22,2,Made,1,61,60,121,h,Brown 2' Driving Finger Roll Layup (9 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,251
+0022000505,341,PT00M04.60S,2,1610612754,IND,1627763,Brogdon,M. Brogdon,95,232,25,Missed,1,,,0,v,MISS Brogdon 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,252
+0022000505,342,PT00M02.20S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,253
+0022000505,343,PT00M00.00S,2,1610612738,BOS,202689,Walker,K. Walker,138,394,42,Missed,1,,,0,h,MISS Walker 42' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,254
+0022000505,344,PT00M00.00S,2,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Rebound,Rebound,Unknown,0,0,255
+0022000505,345,PT00M00.00S,2,0,,0,,,0,0,0,,0,61,60,121,,End of 2nd Period (8:50 PM EST),period,end,1,0,256
+0022000505,350,PT12M00.00S,3,0,,0,,,0,0,0,,0,61,60,121,,Start of 3rd Period (9:05 PM EST),period,start,0,0,257
+0022000505,351,PT11M38.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,-39,37,5,Missed,1,,,0,v,MISS Sabonis 5' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,258
+0022000505,352,PT11M36.00S,3,1610612738,BOS,202684,Thompson,T. Thompson,0,0,0,,0,,,0,h,Thompson REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,259
+0022000505,353,PT11M30.00S,3,1610612738,BOS,202689,Walker,K. Walker,0,0,0,,0,,,0,h,Walker Out of Bounds - Bad Pass Turnover Turnover (P1.T6),Turnover,Out of Bounds - Bad Pass Turnover,1,0,260
+0022000505,354,PT11M20.00S,3,1610612754,IND,1626167,Turner,M. Turner,227,41,0,Missed,1,,,0,v,MISS Turner 3PT Jump Shot,Missed Shot,Jump Shot,1,3,261
+0022000505,355,PT11M17.00S,3,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,262
+0022000505,356,PT11M10.00S,3,1610612738,BOS,202684,Thompson,T. Thompson,13,117,12,Made,1,63,60,123,h,Thompson 12' Driving Floating Jump Shot (2 PTS) (Brown 3 AST),Made Shot,Driving Floating Jump Shot,1,2,263
+0022000505,358,PT10M51.00S,3,1610612754,IND,1627763,Brogdon,M. Brogdon,130,236,27,Missed,1,,,0,v,MISS Brogdon 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,264
+0022000505,359,PT10M48.00S,3,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,McDermott REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,265
+0022000505,360,PT10M32.00S,3,1610612754,IND,203200,Holiday,J. Holiday,-121,225,26,Made,1,63,63,126,v,J. Holiday 26' 3PT Jump Shot (12 PTS) (Sabonis 7 AST),Made Shot,Jump Shot,1,3,266
+0022000505,362,PT10M09.00S,3,1610612738,BOS,1628464,Theis,D. Theis,46,137,14,Made,1,65,63,128,h,Theis 14' Jump Shot (7 PTS) (Tatum 3 AST),Made Shot,Jump Shot,1,2,267
+0022000505,364,PT09M52.00S,3,1610612754,IND,1626167,Turner,M. Turner,-231,49,24,Missed,1,,,0,v,MISS Turner 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,268
+0022000505,365,PT09M50.00S,3,1610612738,BOS,202684,Thompson,T. Thompson,0,0,0,,0,,,0,h,Thompson REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,269
+0022000505,366,PT09M42.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,16,22,3,Missed,1,,,0,h,MISS Tatum 3' Driving Dunk,Missed Shot,Driving Dunk Shot,1,2,270
+0022000505,367,PT09M40.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,271
+0022000505,368,PT09M39.00S,3,1610612738,BOS,1628464,Theis,D. Theis,0,0,0,,0,,,0,h,Theis Personal Take Foul (P2.T1) (A.Smith),Foul,Personal Take,1,0,272
+0022000505,370,PT09M35.00S,3,1610612754,IND,203200,Holiday,J. Holiday,173,197,26,Missed,1,,,0,v,MISS J. Holiday 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,273
+0022000505,371,PT09M31.00S,3,1610612738,BOS,202684,Thompson,T. Thompson,0,0,0,,0,,,0,h,Thompson REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,274
+0022000505,372,PT09M17.00S,3,1610612738,BOS,1627759,Brown,J. Brown,1,30,3,Made,1,67,63,130,h,Brown 3' Driving Floating Jump Shot (11 PTS),Made Shot,Driving Floating Jump Shot,1,2,275
+0022000505,373,PT09M08.00S,3,1610612738,BOS,202684,Thompson,T. Thompson,0,0,0,,0,,,0,h,Thompson S.FOUL (P1.T2) (M.Lindsay),Foul,Shooting,1,0,276
+0022000505,375,PT09M08.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,67,64,131,v,Sabonis Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,277
+0022000505,376,PT09M08.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,67,65,132,v,Sabonis Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,278
+0022000505,377,PT08M57.00S,3,1610612738,BOS,202689,Walker,K. Walker,-150,197,25,Made,1,70,65,135,h,Walker 25' 3PT Jump Shot (21 PTS),Made Shot,Jump Shot,1,3,279
+0022000505,378,PT08M46.00S,3,1610612754,IND,1627763,Brogdon,M. Brogdon,-16,25,3,Made,1,70,67,137,v,Brogdon 3' Driving Finger Roll Layup (9 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,280
+0022000505,379,PT08M34.00S,3,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,J. Holiday P.FOUL (P1.T1) (M.Lindsay),Foul,Personal,1,0,281
+0022000505,381,PT08M24.00S,3,1610612738,BOS,202684,Thompson,T. Thompson,17,30,3,Made,1,72,67,139,h,Thompson 3' Hook Shot (4 PTS) (Brown 4 AST),Made Shot,Hook Shot,1,2,282
+0022000505,383,PT08M13.00S,3,1610612754,IND,203926,McDermott,D. McDermott,-3,274,27,Missed,1,,,0,v,MISS McDermott 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,283
+0022000505,384,PT08M10.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,284
+0022000505,385,PT08M04.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,-167,183,25,Missed,1,,,0,h,MISS Tatum 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,285
+0022000505,386,PT08M01.00S,3,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,McDermott REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,286
+0022000505,387,PT07M53.00S,3,1610612754,IND,203926,McDermott,D. McDermott,-1,23,2,Missed,1,,,0,v,MISS McDermott 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,287
+0022000505,388,PT07M51.00S,3,1610612738,BOS,202689,Walker,K. Walker,0,0,0,,0,,,0,h,Walker REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,288
+0022000505,389,PT07M42.00S,3,1610612738,BOS,1628464,Theis,D. Theis,115,0,12,Made,1,74,67,141,h,Theis 12' Jump Shot (9 PTS) (Walker 3 AST),Made Shot,Jump Shot,1,2,289
+0022000505,391,PT07M21.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,-123,80,15,Missed,1,,,0,v,MISS Sabonis 15' Jump Shot,Missed Shot,Jump Shot,1,2,290
+0022000505,392,PT07M18.00S,3,1610612738,BOS,1628464,Theis,D. Theis,0,0,0,,0,,,0,h,Theis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,291
+0022000505,393,PT07M07.00S,3,1610612738,BOS,1628464,Theis,D. Theis,-162,183,24,Made,1,77,67,144,h,Theis 24' 3PT Jump Shot (12 PTS) (Walker 4 AST),Made Shot,Jump Shot,1,3,292
+0022000505,395,PT07M06.00S,3,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,293
+0022000505,396,PT06M57.00S,3,1610612754,IND,1626167,Turner,M. Turner,-170,201,26,Missed,1,,,0,v,MISS Turner 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,294
+0022000505,397,PT06M53.00S,3,1610612738,BOS,1628464,Theis,D. Theis,0,0,0,,0,,,0,h,Theis REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,295
+0022000505,398,PT06M40.00S,3,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown Lost Ball Turnover (P1.T7),Turnover,Lost Ball,1,0,296
+0022000505,398,PT06M40.00S,3,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,J. Holiday STEAL (1 STL),,,1,0,297
+0022000505,400,PT06M37.00S,3,1610612754,IND,203200,Holiday,J. Holiday,6,23,2,Made,1,77,69,146,v,J. Holiday 2' Running Layup (14 PTS),Made Shot,Running Layup Shot,1,2,298
+0022000505,401,PT06M19.00S,3,1610612738,BOS,1628464,Theis,D. Theis,2,43,4,Missed,1,,,0,h,MISS Theis 4' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,299
+0022000505,401,PT06M19.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner BLOCK (3 BLK),,,1,2,300
+0022000505,403,PT06M19.00S,3,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Rebound,Rebound,Unknown,0,0,301
+0022000505,405,PT06M15.00S,3,1610612738,BOS,1627759,Brown,J. Brown,26,6,3,Missed,1,,,0,h,MISS Brown 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,302
+0022000505,406,PT06M09.00S,3,1610612754,IND,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,v,Brogdon REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,303
+0022000505,407,PT05M58.00S,3,1610612754,IND,1627763,Brogdon,M. Brogdon,105,249,27,Made,1,77,72,149,v,Brogdon 27' 3PT Jump Shot (12 PTS) (Sabonis 8 AST),Made Shot,Jump Shot,1,3,304
+0022000505,409,PT05M41.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,43,61,7,Missed,1,,,0,h,MISS Tatum 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,305
+0022000505,410,PT05M39.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,306
+0022000505,411,PT05M34.00S,3,1610612754,IND,203926,McDermott,D. McDermott,150,238,28,Missed,1,,,0,v,MISS McDermott 28' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,307
+0022000505,412,PT05M31.00S,3,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,308
+0022000505,431,PT05M16.00S,3,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown Bad Pass Turnover (P2.T8),Turnover,Bad Pass,1,0,309
+0022000505,431,PT05M16.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner STEAL (1 STL),,,1,0,310
+0022000505,415,PT05M11.00S,3,1610612754,IND,203200,Holiday,J. Holiday,-177,190,26,Missed,1,,,0,v,MISS J. Holiday 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,311
+0022000505,416,PT05M08.00S,3,1610612738,BOS,1628464,Theis,D. Theis,0,0,0,,0,,,0,h,Theis REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,312
+0022000505,417,PT04M58.00S,3,1610612738,BOS,202684,Thompson,T. Thompson,23,69,7,Made,1,79,72,151,h,Thompson 7' Turnaround Jump Shot (6 PTS),Made Shot,Turnaround Jump Shot,1,2,313
+0022000505,418,PT04M31.00S,3,1610612738,BOS,202684,Thompson,T. Thompson,0,0,0,,0,,,0,h,Thompson S.FOUL (P2.T3) (A.Smith),Foul,Shooting,1,0,314
+0022000505,420,PT04M31.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,79,73,152,v,Sabonis Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,315
+0022000505,421,PT04M31.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,SUB: Pritchard FOR Tatum,Substitution,,0,0,316
+0022000505,422,PT04M31.00S,3,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,SUB: McConnell FOR McDermott,Substitution,,0,0,317
+0022000505,425,PT04M31.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,79,74,153,v,Sabonis Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,318
+0022000505,426,PT04M14.00S,3,1610612738,BOS,1627759,Brown,J. Brown,-120,184,22,Missed,1,,,0,h,MISS Brown 22' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,319
+0022000505,427,PT04M11.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,320
+0022000505,428,PT03M48.00S,3,1610612754,IND,203200,Holiday,J. Holiday,-231,17,0,Made,1,79,77,156,v,J. Holiday 3PT Jump Shot (17 PTS) (Sabonis 9 AST),Made Shot,Jump Shot,1,3,321
+0022000505,430,PT03M46.00S,3,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,322
+0022000505,433,PT03M46.00S,3,1610612738,BOS,202684,Thompson,T. Thompson,0,0,0,,0,,,0,h,SUB: Williams III FOR Thompson,Substitution,,0,0,323
+0022000505,434,PT03M46.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,SUB: Lamb FOR Turner,Substitution,,0,0,324
+0022000505,437,PT03M30.00S,3,1610612738,BOS,202689,Walker,K. Walker,165,192,25,Made,1,82,77,159,h,Walker 25' 3PT Pullup Jump Shot (24 PTS) (Williams III 3 AST),Made Shot,Pullup Jump shot,1,3,325
+0022000505,439,PT03M03.00S,3,1610612754,IND,204456,McConnell,T. McConnell,-3,27,3,Missed,1,,,0,v,MISS McConnell 3' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,326
+0022000505,440,PT03M02.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,327
+0022000505,441,PT03M02.00S,3,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown S.FOUL (P2.T4) (A.Smith),Foul,Shooting,1,0,328
+0022000505,443,PT03M02.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,MISS Sabonis Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,329
+0022000505,444,PT03M02.00S,3,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Normal Rebound,0,0,330
+0022000505,445,PT03M02.00S,3,1610612738,BOS,202689,Walker,K. Walker,0,0,0,,0,,,0,h,SUB: Teague FOR Walker,Substitution,,0,0,331
+0022000505,446,PT03M02.00S,3,1610612738,BOS,1628464,Theis,D. Theis,0,0,0,,0,,,0,h,SUB: Tatum FOR Theis,Substitution,,0,0,332
+0022000505,449,PT03M02.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,82,78,160,v,Sabonis Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,333
+0022000505,450,PT02M42.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,-127,29,13,Made,1,84,78,162,h,Tatum 13' Turnaround Fadeaway (4 PTS),Made Shot,Turnaround Fadeaway shot,1,2,334
+0022000505,451,PT02M31.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,-5,32,3,Made,1,84,80,164,v,Sabonis 3' Cutting Dunk Shot (13 PTS) (Brogdon 4 AST),Made Shot,Cutting Dunk Shot,1,2,335
+0022000505,453,PT02M18.00S,3,1610612738,BOS,1629057,Williams III,R. Williams III,0,5,1,Made,1,86,80,166,h,Williams III 1' Alley Oop Layup (10 PTS) (Teague 1 AST),Made Shot,Alley Oop Layup shot,1,2,336
+0022000505,455,PT02M18.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis S.FOUL (P3.T2) (A.Smith),Foul,Shooting,1,0,337
+0022000505,457,PT02M18.00S,3,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,87,80,167,h,Williams III Free Throw 1 of 1 (11 PTS),Free Throw,Free Throw 1 of 1,1,0,338
+0022000505,458,PT02M05.00S,3,1610612754,IND,1627763,Brogdon,M. Brogdon,162,32,17,Missed,1,,,0,v,MISS Brogdon 17' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,339
+0022000505,459,PT02M01.00S,3,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,340
+0022000505,460,PT01M40.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,32,253,26,Missed,1,,,0,h,MISS Tatum 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,341
+0022000505,461,PT01M37.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,342
+0022000505,462,PT01M28.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,-17,13,2,Made,1,87,82,169,v,Sabonis 2' Cutting Layup Shot (15 PTS) (Brogdon 5 AST),Made Shot,Cutting Layup Shot,1,2,343
+0022000505,464,PT01M03.00S,3,1610612738,BOS,201952,Teague,J. Teague,7,50,5,Made,1,89,82,171,h,Teague 5' Driving Floating Jump Shot (12 PTS),Made Shot,Driving Floating Jump Shot,1,2,344
+0022000505,465,PT00M37.70S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,-39,69,8,Made,1,89,84,173,v,Sabonis 8' Turnaround Hook Shot (17 PTS),Made Shot,Turnaround Hook Shot,1,2,345
+0022000505,466,PT00M31.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,142,219,26,Made,1,92,84,176,h,Tatum 26' 3PT Pullup Jump Shot (7 PTS),Made Shot,Pullup Jump shot,1,3,346
+0022000505,467,PT00M10.70S,3,1610612754,IND,1627763,Brogdon,M. Brogdon,-17,132,13,Missed,1,,,0,v,MISS Brogdon 13' Jump Shot,Missed Shot,Jump Shot,1,2,347
+0022000505,468,PT00M06.10S,3,1610612754,IND,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,v,Brogdon REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,348
+0022000505,469,PT00M00.00S,3,0,,0,,,0,0,0,,0,92,84,176,,End of 3rd Period (9:29 PM EST),period,end,1,0,349
+0022000505,478,PT12M00.00S,4,0,,0,,,0,0,0,,0,92,84,176,,Start of 4th Period (9:33 PM EST),period,start,0,0,350
+0022000505,479,PT11M44.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum Lost Ball Turnover (P1.T9),Turnover,Lost Ball,1,0,351
+0022000505,479,PT11M44.00S,4,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,,,0,v,Sumner STEAL (2 STL),,,1,0,352
+0022000505,481,PT11M27.00S,4,1610612738,BOS,201952,Teague,J. Teague,0,0,0,,0,,,0,h,Teague S.FOUL (P3.T1) (E.Lewis),Foul,Shooting,1,0,353
+0022000505,483,PT11M27.00S,4,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,92,85,177,v,Sumner Free Throw 1 of 2 (2 PTS),Free Throw,Free Throw 1 of 2,1,0,354
+0022000505,484,PT11M27.00S,4,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,92,86,178,v,Sumner Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,355
+0022000505,485,PT11M12.00S,4,1610612738,BOS,1629057,Williams III,R. Williams III,29,69,7,Missed,1,,,0,h,MISS Williams III 7' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,356
+0022000505,486,PT11M08.00S,4,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,357
+0022000505,487,PT11M07.00S,4,1610612738,BOS,1629057,Williams III,R. Williams III,25,29,4,Made,1,94,86,180,h,Williams III 4' Putback Layup (13 PTS),Made Shot,Putback Layup Shot,1,2,358
+0022000505,488,PT10M48.00S,4,1610612754,IND,203087,Lamb,J. Lamb,-164,202,26,Missed,1,,,0,v,MISS Lamb 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,359
+0022000505,489,PT10M46.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,360
+0022000505,490,PT10M44.00S,4,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,McConnell P.FOUL (P2.T1) (A.Smith),Foul,Personal,1,0,361
+0022000505,492,PT10M35.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,-82,29,9,Missed,1,,,0,h,MISS Tatum 9' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,362
+0022000505,493,PT10M32.00S,4,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,McConnell REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,363
+0022000505,494,PT10M26.00S,4,1610612754,IND,203087,Lamb,J. Lamb,-89,90,13,Made,1,94,88,182,v,Lamb 13' Driving Floating Jump Shot (4 PTS) (McConnell 2 AST),Made Shot,Driving Floating Jump Shot,1,2,364
+0022000505,496,PT10M15.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,v,A. Holiday S.FOUL (P4.T2) (E.Lewis),Foul,Shooting,1,0,365
+0022000505,498,PT10M15.00S,4,1610612738,BOS,201952,Teague,J. Teague,0,0,0,,0,95,88,183,h,Teague Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,1,0,366
+0022000505,499,PT10M15.00S,4,1610612738,BOS,201952,Teague,J. Teague,0,0,0,,0,96,88,184,h,Teague Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,1,0,367
+0022000505,500,PT10M01.00S,4,1610612754,IND,1626167,Turner,M. Turner,16,17,2,Missed,1,,,0,v,MISS Turner 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,368
+0022000505,501,PT09M59.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,369
+0022000505,502,PT09M51.00S,4,1610612738,BOS,201952,Teague,J. Teague,0,0,0,,0,,,0,h,Teague Bad Pass Turnover (P3.T10),Turnover,Bad Pass,1,0,370
+0022000505,502,PT09M51.00S,4,1610612754,IND,203087,Lamb,J. Lamb,0,0,0,,0,,,0,v,Lamb STEAL (1 STL),,,1,0,371
+0022000505,504,PT09M43.00S,4,1610612754,IND,1628410,Sumner,E. Sumner,19,12,2,Missed,1,,,0,v,MISS Sumner 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,372
+0022000505,505,PT09M41.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,373
+0022000505,506,PT09M40.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,86,267,28,Missed,1,,,0,v,MISS A. Holiday 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,374
+0022000505,507,PT09M37.00S,4,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,,,0,v,Sumner REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,375
+0022000505,560,PT09M36.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,30,73,8,Missed,1,,,0,v,MISS A. Holiday 8' Driving Layup,Missed Shot,Driving Layup Shot,1,2,376
+0022000505,560,PT09M36.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum BLOCK (1 BLK),,,1,2,377
+0022000505,562,PT09M35.00S,4,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Rebound,Rebound,Unknown,0,0,378
+0022000505,510,PT09M35.00S,4,0,,1610612738,,,0,0,0,,0,,,0,h,CELTICS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,379
+0022000505,511,PT09M35.00S,4,0,,508,,,0,0,0,,0,96,88,184,,Instant Replay4th Period (9:38 PM EST),Instant Replay,Coach Challenge Overturn Ruling,1,0,380
+0022000505,512,PT09M31.00S,4,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Jump Ball (CC) Williams III vs. Turner: Tip to Teague,Jump Ball,Coach Challenge,1,0,381
+0022000505,515,PT09M21.00S,4,1610612738,BOS,1629750,Green,J. Green,17,15,2,Made,1,98,88,186,h,Green 2' Alley Oop Layup (2 PTS) (Williams III 4 AST),Made Shot,Alley Oop Layup shot,1,2,382
+0022000505,517,PT09M06.00S,4,1610612754,IND,203087,Lamb,J. Lamb,118,84,14,Made,1,98,90,188,v,Lamb 14' Driving Floating Bank Jump Shot (6 PTS) (McConnell 3 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,383
+0022000505,518,PT09M06.00S,4,1610612738,BOS,1630202,Pritchard,P. Pritchard,0,0,0,,0,,,0,h,Pritchard S.FOUL (P2.T2) (A.Smith),Foul,Shooting,1,0,384
+0022000505,520,PT09M06.00S,4,1610612754,IND,203087,Lamb,J. Lamb,0,0,0,,0,98,91,189,v,Lamb Free Throw 1 of 1 (7 PTS),Free Throw,Free Throw 1 of 1,1,0,385
+0022000505,522,PT08M46.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,-15,20,3,Missed,1,,,0,h,MISS Tatum 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,386
+0022000505,523,PT08M44.00S,4,1610612754,IND,203087,Lamb,J. Lamb,0,0,0,,0,,,0,v,Lamb REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,387
+0022000505,524,PT08M35.00S,4,1610612754,IND,1628410,Sumner,E. Sumner,89,83,12,Made,1,98,93,191,v,Sumner 12' Driving Floating Jump Shot (5 PTS),Made Shot,Driving Floating Jump Shot,1,2,388
+0022000505,525,PT08M35.00S,4,1610612738,BOS,201952,Teague,J. Teague,0,0,0,,0,,,0,h,Teague S.FOUL (P4.T3) (M.Lindsay),Foul,Shooting,1,0,389
+0022000505,527,PT08M35.00S,4,1610612738,BOS,201952,Teague,J. Teague,0,0,0,,0,,,0,h,SUB: Walker FOR Teague,Substitution,,0,0,390
+0022000505,529,PT08M35.00S,4,1610612738,BOS,1630202,Pritchard,P. Pritchard,0,0,0,,0,,,0,h,SUB: Teague FOR Pritchard,Substitution,,0,0,391
+0022000505,530,PT08M35.00S,4,1610612738,BOS,1629750,Green,J. Green,0,0,0,,0,,,0,h,SUB: Brown FOR Green,Substitution,,0,0,392
+0022000505,533,PT08M35.00S,4,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,98,94,192,v,Sumner Free Throw 1 of 1 (6 PTS),Free Throw,Free Throw 1 of 1,1,0,393
+0022000505,534,PT08M20.00S,4,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown Bad Pass Turnover (P3.T11),Turnover,Bad Pass,1,0,394
+0022000505,534,PT08M20.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,v,A. Holiday STEAL (2 STL),,,1,0,395
+0022000505,536,PT08M14.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,231,20,0,Made,1,98,97,195,v,A. Holiday 3PT Jump Shot (13 PTS) (Lamb 1 AST),Made Shot,Jump Shot,1,3,396
+0022000505,538,PT07M53.00S,4,1610612738,BOS,202689,Walker,K. Walker,-35,95,10,Made,1,100,97,197,h,Walker 10' Driving Floating Jump Shot (26 PTS) (Teague 2 AST),Made Shot,Driving Floating Jump Shot,1,2,397
+0022000505,540,PT07M41.00S,4,1610612738,BOS,202689,Walker,K. Walker,0,0,0,,0,,,0,h,Walker P.FOUL (P1.T4) (E.Lewis),Foul,Personal,1,0,398
+0022000505,542,PT07M41.00S,4,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,SUB: Theis FOR Williams III,Substitution,,0,0,399
+0022000505,544,PT07M33.00S,4,1610612754,IND,1626167,Turner,M. Turner,190,170,25,Missed,1,,,0,v,MISS Turner 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,400
+0022000505,545,PT07M30.00S,4,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,401
+0022000505,546,PT07M13.00S,4,1610612738,BOS,202689,Walker,K. Walker,-92,159,18,Made,1,102,97,199,h,Walker 18' Pullup Jump Shot (28 PTS) (Tatum 4 AST),Made Shot,Pullup Jump shot,1,2,402
+0022000505,548,PT06M57.00S,4,1610612754,IND,1628410,Sumner,E. Sumner,-105,253,27,Missed,1,,,0,v,MISS Sumner 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,403
+0022000505,549,PT06M54.00S,4,1610612738,BOS,202689,Walker,K. Walker,0,0,0,,0,,,0,h,Walker REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,404
+0022000505,550,PT06M45.00S,4,1610612738,BOS,1627759,Brown,J. Brown,20,14,2,Made,1,104,97,201,h,Brown 2' Driving Layup (13 PTS),Made Shot,Driving Layup Shot,1,2,405
+0022000505,551,PT06M30.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,118,31,12,Made,1,104,99,203,v,A. Holiday 12' Driving Floating Jump Shot (15 PTS) (Lamb 2 AST),Made Shot,Driving Floating Jump Shot,1,2,406
+0022000505,553,PT06M14.00S,4,1610612738,BOS,202689,Walker,K. Walker,155,198,25,Missed,1,,,0,h,MISS Walker 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,407
+0022000505,554,PT06M12.00S,4,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,,,0,v,Sumner REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,408
+0022000505,555,PT06M00.00S,4,1610612754,IND,1626167,Turner,M. Turner,2,10,1,Made,1,104,101,205,v,Turner 1' Layup (15 PTS) (McConnell 4 AST),Made Shot,Layup Shot,1,2,409
+0022000505,557,PT05M42.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,67,53,9,Made,1,106,101,207,h,Tatum 9' Driving Floating Jump Shot (9 PTS) (Brown 5 AST),Made Shot,Driving Floating Jump Shot,1,2,410
+0022000505,559,PT05M34.00S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,411
+0022000505,563,PT05M34.00S,4,1610612738,BOS,201952,Teague,J. Teague,0,0,0,,0,,,0,h,SUB: Pritchard FOR Teague,Substitution,,0,0,412
+0022000505,564,PT05M34.00S,4,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,,,0,v,SUB: Sabonis FOR Sumner,Substitution,,0,0,413
+0022000505,565,PT05M34.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,SUB: Brogdon FOR Turner,Substitution,,0,0,414
+0022000505,569,PT05M21.00S,4,1610612738,BOS,1628464,Theis,D. Theis,0,0,0,,0,,,0,h,Theis Violation:Kicked Ball (E.Lewis),Violation,Kicked Ball,0,0,415
+0022000505,570,PT05M12.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,227,58,0,Missed,1,,,0,v,MISS A. Holiday 3PT Jump Shot,Missed Shot,Jump Shot,1,3,416
+0022000505,571,PT05M10.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,417
+0022000505,572,PT04M55.00S,4,1610612738,BOS,202689,Walker,K. Walker,43,19,5,Missed,1,,,0,h,MISS Walker 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,418
+0022000505,573,PT04M52.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,419
+0022000505,574,PT04M46.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,-29,264,27,Missed,1,,,0,v,MISS Sabonis 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,420
+0022000505,575,PT04M44.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,h,Tatum REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,421
+0022000505,576,PT04M28.00S,4,1610612738,BOS,1628464,Theis,D. Theis,-57,68,9,Made,1,108,101,209,h,Theis 9' Turnaround Jump Shot (14 PTS) (Walker 5 AST),Made Shot,Turnaround Jump Shot,1,2,422
+0022000505,578,PT04M19.00S,4,1610612754,IND,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,v,Brogdon Offensive Charge Foul (P3) (A.Smith),Foul,Offensive Charge,1,0,423
+0022000505,580,PT04M19.00S,4,1610612754,IND,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,v,Brogdon Offensive Foul Turnover (P1.T9),Turnover,Offensive Foul Turnover,1,0,424
+0022000505,581,PT04M19.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,v,SUB: J. Holiday FOR A. Holiday,Substitution,,0,0,425
+0022000505,582,PT04M19.00S,4,1610612754,IND,203087,Lamb,J. Lamb,0,0,0,,0,,,0,v,SUB: Turner FOR Lamb,Substitution,,0,0,426
+0022000505,585,PT04M09.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,67,143,16,Missed,1,,,0,h,MISS Tatum 16' Jump Shot,Missed Shot,Jump Shot,1,2,427
+0022000505,586,PT04M06.00S,4,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,J. Holiday REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,428
+0022000505,587,PT04M00.00S,4,1610612754,IND,204456,McConnell,T. McConnell,20,10,2,Missed,1,,,0,v,MISS McConnell 2' Running Reverse Layup,Missed Shot,Running Reverse Layup Shot,1,2,429
+0022000505,588,PT03M58.00S,4,1610612738,BOS,1628464,Theis,D. Theis,0,0,0,,0,,,0,h,Theis REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,430
+0022000505,589,PT03M47.00S,4,1610612738,BOS,202689,Walker,K. Walker,20,9,2,Made,1,110,101,211,h,Walker 2' Driving Layup (30 PTS),Made Shot,Driving Layup Shot,1,2,431
+0022000505,590,PT03M47.00S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,432
+0022000505,591,PT03M47.00S,4,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,SUB: McDermott FOR McConnell,Substitution,,0,0,433
+0022000505,593,PT03M37.00S,4,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown P.FOUL (P3.PN) (M.Lindsay),Foul,Personal,1,0,434
+0022000505,595,PT03M37.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,110,102,212,v,Turner Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,1,0,435
+0022000505,596,PT03M37.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,110,103,213,v,Turner Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,1,0,436
+0022000505,597,PT03M20.00S,4,1610612738,BOS,202689,Walker,K. Walker,100,247,27,Missed,1,,,0,h,MISS Walker 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,437
+0022000505,598,PT03M17.00S,4,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,J. Holiday REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,438
+0022000505,599,PT03M03.00S,4,1610612754,IND,1627763,Brogdon,M. Brogdon,-23,34,4,Missed,1,,,0,v,MISS Brogdon 4' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,439
+0022000505,599,PT03M03.00S,4,1610612738,BOS,1628464,Theis,D. Theis,0,0,0,,0,,,0,h,Theis BLOCK (3 BLK),,,1,2,440
+0022000505,601,PT03M00.00S,4,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,441
+0022000505,602,PT02M48.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner S.FOUL (P3.T3) (M.Lindsay),Foul,Shooting,1,0,442
+0022000505,604,PT02M48.00S,4,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,111,103,214,h,Brown Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,443
+0022000505,605,PT02M48.00S,4,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,112,103,215,h,Brown Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,444
+0022000505,606,PT02M33.00S,4,1610612738,BOS,1628464,Theis,D. Theis,0,0,0,,0,,,0,h,Theis P.FOUL (P3.PN) (M.Lindsay),Foul,Personal,1,0,445
+0022000505,608,PT02M33.00S,4,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,112,104,216,v,J. Holiday Free Throw 1 of 2 (18 PTS),Free Throw,Free Throw 1 of 2,1,0,446
+0022000505,609,PT02M33.00S,4,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,112,105,217,v,J. Holiday Free Throw 2 of 2 (19 PTS),Free Throw,Free Throw 2 of 2,1,0,447
+0022000505,610,PT02M15.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,22,30,4,Missed,1,,,0,h,MISS Tatum 4' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,448
+0022000505,611,PT02M14.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,449
+0022000505,612,PT02M07.00S,4,1610612738,BOS,1628464,Theis,D. Theis,0,0,0,,0,,,0,h,Theis S.FOUL (P4.PN) (E.Lewis),Foul,Shooting,1,0,450
+0022000505,614,PT02M07.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,112,106,218,v,Sabonis Free Throw 1 of 2 (18 PTS),Free Throw,Free Throw 1 of 2,1,0,451
+0022000505,615,PT02M07.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,112,107,219,v,Sabonis Free Throw 2 of 2 (19 PTS),Free Throw,Free Throw 2 of 2,1,0,452
+0022000505,616,PT01M41.00S,4,1610612738,BOS,1627759,Brown,J. Brown,-170,113,20,Missed,1,,,0,h,MISS Brown 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,453
+0022000505,617,PT01M38.00S,4,1610612754,IND,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,v,Brogdon REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,454
+0022000505,618,PT01M35.00S,4,1610612754,IND,1627763,Brogdon,M. Brogdon,161,215,27,Missed,1,,,0,v,MISS Brogdon 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,455
+0022000505,619,PT01M34.00S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,456
+0022000505,621,PT01M34.00S,4,0,,618,,,0,0,0,,0,112,107,219,,Instant Replay4th Period (10:00 PM EST),Instant Replay,Ruling Stands,0,0,457
+0022000505,651,PT01M34.00S,4,1610612738,BOS,1630202,Pritchard,P. Pritchard,0,0,0,,0,,,0,h,SUB: Thompson FOR Pritchard,Substitution,,0,0,458
+0022000505,622,PT01M23.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,-5,18,2,Made,1,112,109,221,v,Sabonis 2' Layup (21 PTS),Made Shot,Layup Shot,1,2,459
+0022000505,624,PT01M10.00S,4,1610612738,BOS,1627759,Brown,J. Brown,0,0,0,,0,,,0,h,Brown Step Out of Bounds Turnover (P4.T12),Turnover,Step Out of Bounds Turnover,1,0,460
+0022000505,663,PT01M10.00S,4,1610612738,BOS,202684,Thompson,T. Thompson,0,0,0,,0,,,0,h,SUB: Williams III FOR Thompson,Substitution,,0,0,461
+0022000505,627,PT00M56.30S,4,1610612754,IND,203200,Holiday,J. Holiday,-232,44,24,Missed,1,,,0,v,MISS J. Holiday 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,462
+0022000505,628,PT00M53.80S,4,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,463
+0022000505,629,PT00M36.40S,4,1610612738,BOS,1628464,Theis,D. Theis,229,14,0,Made,1,115,109,224,h,Theis 3PT Jump Shot (17 PTS) (Walker 6 AST),Made Shot,Jump Shot,1,3,464
+0022000505,631,PT00M25.70S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,155,212,26,Made,1,115,112,227,v,Sabonis 26' 3PT Jump Shot (24 PTS) (Brogdon 6 AST),Made Shot,Jump Shot,1,3,465
+0022000505,633,PT00M18.70S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis P.FOUL (P4.T4) (A.Smith),Foul,Personal,1,0,466
+0022000505,635,PT00M18.70S,4,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,SUB: Pritchard FOR Williams III,Substitution,,0,0,467
+0022000505,636,PT00M18.70S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,SUB: McConnell FOR Turner,Substitution,,0,0,468
+0022000505,639,PT00M18.70S,4,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,SUB: Sumner FOR McDermott,Substitution,,0,0,469
+0022000505,642,PT00M11.60S,4,1610612754,IND,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,v,Brogdon P.FOUL (P4.PN) (M.Lindsay),Foul,Personal,1,0,470
+0022000505,644,PT00M11.60S,4,1610612738,BOS,202689,Walker,K. Walker,0,0,0,,0,116,112,228,h,Walker Free Throw 1 of 2 (31 PTS),Free Throw,Free Throw 1 of 2,1,0,471
+0022000505,645,PT00M11.60S,4,1610612738,BOS,1630202,Pritchard,P. Pritchard,0,0,0,,0,,,0,h,SUB: Williams III FOR Pritchard,Substitution,,0,0,472
+0022000505,646,PT00M11.60S,4,1610612754,IND,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,SUB: Turner FOR McConnell,Substitution,,0,0,473
+0022000505,649,PT00M11.60S,4,1610612738,BOS,202689,Walker,K. Walker,0,0,0,,0,117,112,229,h,Walker Free Throw 2 of 2 (32 PTS),Free Throw,Free Throw 2 of 2,1,0,474
+0022000505,650,PT00M11.60S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,475
+0022000505,653,PT00M11.60S,4,1610612754,IND,1628410,Sumner,E. Sumner,0,0,0,,0,,,0,v,SUB: McDermott FOR Sumner,Substitution,,0,0,476
+0022000505,655,PT00M06.30S,4,1610612754,IND,1626167,Turner,M. Turner,-123,247,28,Missed,1,,,0,v,MISS Turner 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,477
+0022000505,656,PT00M02.90S,4,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,Williams III REBOUND (Off:3 Def:8),Rebound,Unknown,1,0,478
+0022000505,657,PT00M02.90S,4,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,J. Holiday P.FOUL (P2.PN) (A.Smith),Foul,Personal,1,0,479
+0022000505,659,PT00M02.90S,4,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,118,112,230,h,Williams III Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,480
+0022000505,660,PT00M02.90S,4,1610612738,BOS,1629057,Williams III,R. Williams III,0,0,0,,0,,,0,h,MISS Williams III Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,481
+0022000505,661,PT00M02.00S,4,1610612754,IND,203200,Holiday,J. Holiday,0,0,0,,0,,,0,v,J. Holiday REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,482
+0022000505,662,PT00M02.00S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.7 Short 0),Timeout,Regular,0,0,483
+0022000505,664,PT00M00.60S,4,1610612754,IND,1626167,Turner,M. Turner,40,273,28,Missed,1,,,0,v,MISS Turner 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,484
+0022000505,665,PT00M00.60S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,485
+0022000505,666,PT00M00.00S,4,0,,0,,,0,0,0,,0,118,112,230,,End of 4th Period (10:11 PM EST),period,end,1,0,486

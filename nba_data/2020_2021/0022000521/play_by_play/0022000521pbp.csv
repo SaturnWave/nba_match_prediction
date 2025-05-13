@@ -1,0 +1,442 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022000521,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (8:11 PM EST),period,start,0,0,1
+0022000521,4,PT12M00.00S,1,1610612765,DET,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h, ,Jump Ball,,1,0,2
+0022000521,56,PT11M48.00S,1,1610612765,DET,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,3
+0022000521,56,PT11M48.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett STEAL (1 STL),,,1,0,4
+0022000521,58,PT11M46.00S,1,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,5
+0022000521,58,PT11M46.00S,1,1610612765,DET,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk STEAL (1 STL),,,1,0,6
+0022000521,7,PT11M34.00S,1,1610612765,DET,1630180,Bey,S. Bey,172,196,26,Missed,1,,,0,h,MISS Bey 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,7
+0022000521,8,PT11M32.00S,1,1610612752,NYK,201565,Rose,D. Rose,0,0,0,,0,,,0,v,Rose REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,8
+0022000521,9,PT11M30.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,-73,42,8,Missed,1,,,0,v,MISS Barrett 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,9
+0022000521,10,PT11M27.00S,1,1610612765,DET,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,10
+0022000521,11,PT11M18.00S,1,1610612765,DET,203924,Grant,J. Grant,147,238,28,Made,1,3,0,3,h,Grant 28' 3PT Jump Shot (3 PTS) (Smith Jr. 1 AST),Made Shot,Jump Shot,1,3,11
+0022000521,13,PT10M58.00S,1,1610612752,NYK,203944,Randle,J. Randle,-124,4,12,Missed,1,,,0,v,MISS Randle 12' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,12
+0022000521,14,PT10M55.00S,1,1610612765,DET,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,13
+0022000521,15,PT10M35.00S,1,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,-141,142,20,Missed,1,,,0,h,MISS Smith Jr. 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,14
+0022000521,16,PT10M33.00S,1,1610612752,NYK,203493,Bullock Jr.,R. Bullock Jr.,0,0,0,,0,,,0,v,Bullock REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,15
+0022000521,17,PT10M23.00S,1,1610612752,NYK,203493,Bullock Jr.,R. Bullock Jr.,141,252,29,Made,1,3,3,6,v,Bullock 29' 3PT Jump Shot (3 PTS) (Randle 1 AST),Made Shot,Jump Shot,1,3,16
+0022000521,19,PT10M09.00S,1,1610612765,DET,1629004,Mykhailiuk,S. Mykhailiuk,32,253,26,Missed,1,,,0,h,MISS Mykhailiuk 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,17
+0022000521,20,PT10M06.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,18
+0022000521,21,PT09M58.00S,1,1610612752,NYK,203493,Bullock Jr.,R. Bullock Jr.,-54,156,17,Missed,1,,,0,v,MISS Bullock 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,19
+0022000521,22,PT09M56.00S,1,1610612765,DET,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,20
+0022000521,23,PT09M53.00S,1,1610612765,DET,1629004,Mykhailiuk,S. Mykhailiuk,-197,193,28,Missed,1,,,0,h,MISS Mykhailiuk 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,21
+0022000521,24,PT09M50.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,22
+0022000521,25,PT09M43.00S,1,1610612752,NYK,201565,Rose,D. Rose,-84,251,26,Made,1,3,6,9,v,Rose 26' 3PT Jump Shot (3 PTS) (Randle 2 AST),Made Shot,Jump Shot,1,3,23
+0022000521,27,PT09M27.00S,1,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,38,1,4,Missed,1,,,0,h,MISS Smith Jr. 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,24
+0022000521,27,PT09M27.00S,1,1610612752,NYK,201565,Rose,D. Rose,0,0,0,,0,,,0,v,Rose BLOCK (1 BLK),,,1,2,25
+0022000521,29,PT09M23.00S,1,1610612752,NYK,203493,Bullock Jr.,R. Bullock Jr.,0,0,0,,0,,,0,v,Bullock REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,26
+0022000521,30,PT09M11.00S,1,1610612752,NYK,203944,Randle,J. Randle,70,73,10,Made,1,3,8,11,v,Randle 10' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,27
+0022000521,31,PT08M49.00S,1,1610612765,DET,203924,Grant,J. Grant,-160,248,30,Missed,1,,,0,h,MISS Grant 30' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,28
+0022000521,32,PT08M47.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,29
+0022000521,33,PT08M37.00S,1,1610612752,NYK,203457,Noel,N. Noel,-10,45,5,Missed,1,,,0,v,MISS Noel 5' Hook Shot,Missed Shot,Hook Shot,1,2,30
+0022000521,34,PT08M35.00S,1,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,h,Smith Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,31
+0022000521,35,PT08M31.00S,1,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel Violation:Kicked Ball (D.Scott),Violation,Kicked Ball,0,0,32
+0022000521,36,PT08M21.00S,1,1610612765,DET,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant Traveling Turnover (P1.T2),Turnover,Traveling,1,0,33
+0022000521,37,PT08M10.00S,1,1610612752,NYK,203944,Randle,J. Randle,-101,11,10,Missed,1,,,0,v,MISS Randle 10' Jump Shot,Missed Shot,Jump Shot,1,2,34
+0022000521,38,PT08M07.00S,1,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,h,Smith Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,35
+0022000521,39,PT08M02.00S,1,1610612765,DET,203486,Plumlee,M. Plumlee,25,2,3,Made,1,5,8,13,h,Plumlee 3' Driving Layup (2 PTS) (Smith Jr. 2 AST),Made Shot,Driving Layup Shot,1,2,36
+0022000521,41,PT07M44.00S,1,1610612752,NYK,203493,Bullock Jr.,R. Bullock Jr.,-75,143,16,Missed,1,,,0,v,MISS Bullock 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,37
+0022000521,42,PT07M41.00S,1,1610612765,DET,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,38
+0022000521,43,PT07M41.00S,1,1610612765,DET,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk Step Out of Bounds Turnover (P2.T3),Turnover,Step Out of Bounds Turnover,1,0,39
+0022000521,44,PT07M29.00S,1,1610612752,NYK,201565,Rose,D. Rose,34,16,4,Made,1,5,10,15,v,Rose 4' Driving Floating Bank Jump Shot (5 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,40
+0022000521,45,PT07M29.00S,1,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,h,Smith Jr. S.FOUL (P1.T1) (T.Brothers),Foul,Shooting,1,0,41
+0022000521,47,PT07M29.00S,1,1610612752,NYK,201565,Rose,D. Rose,0,0,0,,0,,,0,v,MISS Rose Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,42
+0022000521,48,PT07M25.00S,1,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,,,0,h,Bey REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,43
+0022000521,49,PT07M10.00S,1,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,-115,235,26,Made,1,8,10,18,h,Smith Jr. 26' 3PT Jump Shot (3 PTS),Made Shot,Jump Shot,1,3,44
+0022000521,50,PT06M53.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,-51,156,16,Missed,1,,,0,v,MISS Barrett 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,45
+0022000521,51,PT06M51.00S,1,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,h,Smith Jr. REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,46
+0022000521,52,PT06M45.00S,1,1610612765,DET,1630180,Bey,S. Bey,-175,195,26,Missed,1,,,0,h,MISS Bey 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,47
+0022000521,53,PT06M43.00S,1,1610612765,DET,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,48
+0022000521,54,PT06M39.00S,1,1610612765,DET,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant Out of Bounds Lost Ball Turnover (P2.T4),Turnover,Out of Bounds Lost Ball Turnover,1,0,49
+0022000521,55,PT06M39.00S,1,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,50
+0022000521,60,PT06M25.00S,1,1610612752,NYK,201565,Rose,D. Rose,-15,25,3,Missed,1,,,0,v,MISS Rose 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,51
+0022000521,61,PT06M25.00S,1,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,52
+0022000521,62,PT06M25.00S,1,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,,,0,h,Bey L.B.FOUL (P1.T2) (M.Kogut),Foul,Loose Ball,1,0,53
+0022000521,64,PT06M12.00S,1,1610612752,NYK,203944,Randle,J. Randle,-230,10,0,Missed,1,,,0,v,MISS Randle 3PT Jump Shot,Missed Shot,Jump Shot,1,3,54
+0022000521,65,PT06M09.00S,1,1610612765,DET,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,55
+0022000521,66,PT06M06.00S,1,1610612765,DET,203486,Plumlee,M. Plumlee,14,18,2,Made,1,10,10,20,h,Plumlee 2' Running Dunk (4 PTS) (Smith Jr. 3 AST),Made Shot,Running Dunk Shot,1,2,56
+0022000521,68,PT05M44.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,57
+0022000521,68,PT05M44.00S,1,1610612765,DET,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant STEAL (1 STL),,,1,0,58
+0022000521,70,PT05M38.00S,1,1610612765,DET,203924,Grant,J. Grant,10,18,2,Made,1,12,10,22,h,Grant 2' Running Dunk (5 PTS),Made Shot,Running Dunk Shot,1,2,59
+0022000521,71,PT05M33.00S,1,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,60
+0022000521,72,PT05M22.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,-227,10,0,Made,1,12,13,25,v,Barrett 3PT Jump Shot (3 PTS) (Bullock 1 AST),Made Shot,Jump Shot,1,3,61
+0022000521,74,PT05M06.00S,1,1610612752,NYK,203493,Bullock Jr.,R. Bullock Jr.,0,0,0,,0,,,0,v,Bullock P.FOUL (P1.T1) (D.Scott),Foul,Personal,1,0,62
+0022000521,76,PT05M06.00S,1,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,SUB: Toppin FOR Noel,Substitution,,0,0,63
+0022000521,78,PT04M51.00S,1,1610612765,DET,1629004,Mykhailiuk,S. Mykhailiuk,163,191,25,Missed,1,,,0,h,MISS Mykhailiuk 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,64
+0022000521,79,PT04M48.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,65
+0022000521,80,PT04M41.00S,1,1610612752,NYK,201565,Rose,D. Rose,79,10,8,Missed,1,,,0,v,MISS Rose 8' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,66
+0022000521,81,PT04M38.00S,1,1610612765,DET,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,67
+0022000521,82,PT04M37.00S,1,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,Toppin P.FOUL (P1.T2) (M.Kogut),Foul,Personal,1,0,68
+0022000521,84,PT04M37.00S,1,1610612765,DET,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,SUB: Stewart FOR Mykhailiuk,Substitution,,0,0,69
+0022000521,85,PT04M37.00S,1,1610612765,DET,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,SUB: Jackson FOR Plumlee,Substitution,,0,0,70
+0022000521,88,PT04M37.00S,1,1610612752,NYK,203493,Bullock Jr.,R. Bullock Jr.,0,0,0,,0,,,0,v,SUB: Burks FOR Bullock,Substitution,,0,0,71
+0022000521,90,PT04M29.00S,1,1610612765,DET,203924,Grant,J. Grant,13,11,2,Missed,1,,,0,h,MISS Grant 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,72
+0022000521,90,PT04M29.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett BLOCK (1 BLK),,,1,2,73
+0022000521,92,PT04M26.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,74
+0022000521,93,PT04M23.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,-25,15,3,Made,1,12,15,27,v,Barrett 3' Running Layup (5 PTS),Made Shot,Running Layup Shot,1,2,75
+0022000521,94,PT04M15.00S,1,1610612765,DET,1630191,Stewart,I. Stewart,29,21,4,Missed,1,,,0,h,MISS Stewart 4' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,76
+0022000521,95,PT04M10.00S,1,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,h,Jackson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,77
+0022000521,96,PT04M10.00S,1,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,Missed,1,,,0,h,MISS Jackson Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,78
+0022000521,97,PT04M09.00S,1,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,Toppin REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,79
+0022000521,98,PT03M54.00S,1,1610612752,NYK,202692,Burks,A. Burks,117,142,18,Missed,1,,,0,v,MISS Burks 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,80
+0022000521,99,PT03M51.00S,1,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,h,Smith Jr. REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,81
+0022000521,100,PT03M39.00S,1,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,27,1,3,Missed,1,,,0,h,MISS Smith Jr. 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,82
+0022000521,101,PT03M39.00S,1,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,83
+0022000521,103,PT03M24.00S,1,1610612752,NYK,201565,Rose,D. Rose,23,10,3,Missed,1,,,0,v,MISS Rose 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,84
+0022000521,104,PT03M22.00S,1,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,85
+0022000521,105,PT03M17.00S,1,1610612765,DET,203924,Grant,J. Grant,4,25,3,Made,1,14,15,29,h,Grant 3' Driving Layup (7 PTS) (Jackson 1 AST),Made Shot,Driving Layup Shot,1,2,86
+0022000521,106,PT02M56.00S,1,1610612752,NYK,1630167,Toppin,O. Toppin,232,4,0,Missed,1,,,0,v,MISS Toppin 3PT Jump Shot,Missed Shot,Jump Shot,1,3,87
+0022000521,107,PT02M54.00S,1,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,,,0,h,Bey REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,88
+0022000521,109,PT02M51.00S,1,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,h,SUB: Lee FOR Smith Jr.,Substitution,,0,0,89
+0022000521,110,PT02M51.00S,1,1610612752,NYK,201565,Rose,D. Rose,0,0,0,,0,,,0,v,SUB: Quickley FOR Rose,Substitution,,0,0,90
+0022000521,113,PT02M44.00S,1,1610612765,DET,1630180,Bey,S. Bey,9,22,2,Missed,1,,,0,h,MISS Bey 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,91
+0022000521,114,PT02M39.00S,1,1610612752,NYK,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,v,Quickley REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,92
+0022000521,117,PT02M30.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,-233,4,0,Made,1,14,18,32,v,Barrett 3PT Jump Shot (8 PTS) (Randle 3 AST),Made Shot,Jump Shot,1,3,93
+0022000521,119,PT02M20.00S,1,1610612765,DET,1628367,Jackson,J. Jackson,-14,257,26,Missed,1,,,0,h,MISS Jackson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,94
+0022000521,120,PT02M18.00S,1,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,Toppin REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,95
+0022000521,121,PT02M10.00S,1,1610612752,NYK,1630193,Quickley,I. Quickley,-37,61,7,Missed,1,,,0,v,MISS Quickley 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,96
+0022000521,122,PT02M07.00S,1,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,97
+0022000521,123,PT02M00.00S,1,1610612765,DET,1628367,Jackson,J. Jackson,18,12,2,Made,1,16,18,34,h,Jackson 2' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,98
+0022000521,124,PT01M44.00S,1,1610612752,NYK,202692,Burks,A. Burks,56,250,26,Made,1,16,21,37,v,Burks 26' 3PT Jump Shot (3 PTS) (Randle 4 AST),Made Shot,Jump Shot,1,3,99
+0022000521,125,PT01M30.00S,1,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks P.FOUL (P1.T3) (T.Brothers),Foul,Personal,1,0,100
+0022000521,127,PT01M30.00S,1,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,,,0,h,SUB: Ellington FOR Bey,Substitution,,0,0,101
+0022000521,128,PT01M30.00S,1,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,SUB: Ntilikina FOR Barrett,Substitution,,0,0,102
+0022000521,131,PT01M15.00S,1,1610612765,DET,1630240,Lee,S. Lee,29,10,3,Made,1,18,21,39,h,Lee 3' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,103
+0022000521,132,PT01M00.00S,1,1610612752,NYK,202692,Burks,A. Burks,1,262,26,Missed,1,,,0,v,MISS Burks 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,104
+0022000521,133,PT00M59.40S,1,1610612765,DET,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,105
+0022000521,134,PT00M48.90S,1,1610612765,DET,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant Bad Pass Turnover (P3.T5),Turnover,Bad Pass,1,0,106
+0022000521,134,PT00M48.90S,1,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,Toppin STEAL (1 STL),,,1,0,107
+0022000521,136,PT00M44.40S,1,1610612752,NYK,1630167,Toppin,O. Toppin,25,13,3,Missed,1,,,0,v,MISS Toppin 3' Running Layup,Missed Shot,Running Layup Shot,1,2,108
+0022000521,136,PT00M44.40S,1,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart BLOCK (1 BLK),,,1,2,109
+0022000521,138,PT00M44.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,110
+0022000521,139,PT00M44.00S,1,1610612765,DET,201961,Ellington,W. Ellington,0,0,0,,0,,,0,h,Ellington S.FOUL (P1.T3) (T.Brothers),Foul,Shooting,1,0,111
+0022000521,141,PT00M44.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,MISS Randle Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,112
+0022000521,142,PT00M44.00S,1,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Normal Rebound,0,0,113
+0022000521,143,PT00M44.00S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,18,22,40,v,Randle Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,114
+0022000521,144,PT00M30.10S,1,1610612765,DET,203924,Grant,J. Grant,3,21,2,Missed,1,,,0,h,MISS Grant 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,115
+0022000521,145,PT00M27.50S,1,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,116
+0022000521,146,PT00M05.20S,1,1610612752,NYK,203944,Randle,J. Randle,131,130,18,Missed,1,,,0,v,MISS Randle 18' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,117
+0022000521,147,PT00M04.70S,1,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,118
+0022000521,148,PT00M04.70S,1,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks L.B.FOUL (P2.PN) (D.Scott),Foul,Loose Ball,1,0,119
+0022000521,150,PT00M04.70S,1,1610612765,DET,201961,Ellington,W. Ellington,0,0,0,,0,19,22,41,h,Ellington Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,120
+0022000521,151,PT00M04.70S,1,1610612765,DET,201961,Ellington,W. Ellington,0,0,0,,0,20,22,42,h,Ellington Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,121
+0022000521,152,PT00M00.90S,1,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart S.FOUL (P1.PN) (T.Brothers),Foul,Shooting,1,0,122
+0022000521,154,PT00M00.90S,1,1610612752,NYK,1630193,Quickley,I. Quickley,0,0,0,,0,20,23,43,v,Quickley Free Throw 1 of 3 (1 PTS),Free Throw,Free Throw 1 of 3,1,0,123
+0022000521,155,PT00M00.90S,1,1610612752,NYK,1630193,Quickley,I. Quickley,0,0,0,,0,20,24,44,v,Quickley Free Throw 2 of 3 (2 PTS),Free Throw,Free Throw 2 of 3,1,0,124
+0022000521,156,PT00M00.90S,1,1610612752,NYK,1630193,Quickley,I. Quickley,0,0,0,,0,20,25,45,v,Quickley Free Throw 3 of 3 (3 PTS),Free Throw,Free Throw 3 of 3,1,0,125
+0022000521,157,PT00M00.00S,1,0,,0,,,0,0,0,,0,20,25,45,,End of 1st Period (8:36 PM EST),period,end,1,0,126
+0022000521,163,PT12M00.00S,2,0,,0,,,0,0,0,,0,20,25,45,,Start of 2nd Period (8:39 PM EST),period,start,0,0,127
+0022000521,164,PT11M42.00S,2,1610612752,NYK,1630193,Quickley,I. Quickley,41,51,7,Missed,1,,,0,v,MISS Quickley 7' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,128
+0022000521,165,PT11M39.00S,2,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,129
+0022000521,166,PT11M22.00S,2,1610612765,DET,1628367,Jackson,J. Jackson,-82,1,8,Missed,1,,,0,h,MISS Jackson 8' Jump Shot,Missed Shot,Jump Shot,1,2,130
+0022000521,167,PT11M22.00S,2,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,131
+0022000521,168,PT11M22.00S,2,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,h,Jackson P.FOUL (P1.T1) (M.Kogut),Foul,Personal,1,0,132
+0022000521,170,PT11M06.00S,2,1610612752,NYK,202692,Burks,A. Burks,29,19,3,Made,1,20,27,47,v,Burks 3' Driving Layup (5 PTS),Made Shot,Driving Layup Shot,1,2,133
+0022000521,171,PT10M53.00S,2,1610612765,DET,1628367,Jackson,J. Jackson,11,16,2,Missed,1,,,0,h,MISS Jackson 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,134
+0022000521,171,PT10M53.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel BLOCK (1 BLK),,,1,2,135
+0022000521,173,PT10M50.00S,2,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,136
+0022000521,174,PT10M37.00S,2,1610612752,NYK,1630193,Quickley,I. Quickley,-122,241,27,Missed,1,,,0,v,MISS Quickley 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,137
+0022000521,175,PT10M34.00S,2,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,138
+0022000521,176,PT10M21.00S,2,1610612765,DET,201961,Ellington,W. Ellington,147,210,26,Made,1,23,27,50,h,Ellington 26' 3PT Jump Shot (5 PTS) (Lee 1 AST),Made Shot,Jump Shot,1,3,139
+0022000521,178,PT10M06.00S,2,1610612752,NYK,202692,Burks,A. Burks,-30,9,3,Made,1,23,29,52,v,Burks 3' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,140
+0022000521,179,PT09M44.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,Toppin S.FOUL (P2.T1) (M.Kogut),Foul,Shooting,1,0,141
+0022000521,182,PT09M44.00S,2,1610612765,DET,1629635,Doumbouya,S. Doumbouya,0,0,0,,0,,,0,h,MISS Doumbouya Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,142
+0022000521,183,PT09M44.00S,2,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Normal Rebound,0,0,143
+0022000521,184,PT09M44.00S,2,1610612765,DET,1629635,Doumbouya,S. Doumbouya,0,0,0,,0,24,29,53,h,Doumbouya Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,144
+0022000521,185,PT09M18.00S,2,1610612752,NYK,202692,Burks,A. Burks,-163,194,25,Made,1,24,32,56,v,Burks 25' 3PT Jump Shot (10 PTS) (Toppin 1 AST),Made Shot,Jump Shot,1,3,145
+0022000521,187,PT08M59.00S,2,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,h,Jackson Out of Bounds Lost Ball Turnover (P1.T6),Turnover,Out of Bounds Lost Ball Turnover,1,0,146
+0022000521,188,PT08M34.00S,2,1610612752,NYK,1630193,Quickley,I. Quickley,-67,19,7,Missed,1,,,0,v,MISS Quickley 7' Jump Bank Shot,Missed Shot,Jump Bank Shot,1,2,147
+0022000521,189,PT08M32.00S,2,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,148
+0022000521,190,PT08M24.00S,2,1610612765,DET,201961,Ellington,W. Ellington,-234,106,26,Missed,1,,,0,h,MISS Ellington 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,149
+0022000521,191,PT08M21.00S,2,1610612752,NYK,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,v,Quickley REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,150
+0022000521,192,PT08M11.00S,2,1610612752,NYK,1630193,Quickley,I. Quickley,35,47,6,Missed,1,,,0,v,MISS Quickley 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,151
+0022000521,193,PT08M09.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,152
+0022000521,194,PT07M59.00S,2,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,-55,129,14,Missed,1,,,0,v,MISS Ntilikina 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,153
+0022000521,195,PT07M57.00S,2,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,h,Jackson REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,154
+0022000521,196,PT07M38.00S,2,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina S.FOUL (P1.T2) (T.Brothers),Foul,Shooting,1,0,155
+0022000521,198,PT07M38.00S,2,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,h,MISS Jackson Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,156
+0022000521,199,PT07M38.00S,2,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Normal Rebound,0,0,157
+0022000521,200,PT07M38.00S,2,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,25,32,57,h,Jackson Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,1,0,158
+0022000521,201,PT07M17.00S,2,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,149,215,26,Missed,1,,,0,v,MISS Ntilikina 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,159
+0022000521,202,PT07M15.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,Toppin REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,160
+0022000521,203,PT07M15.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,Missed,1,,,0,v,MISS Toppin Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,161
+0022000521,204,PT07M14.00S,2,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,162
+0022000521,205,PT07M10.00S,2,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,h,Jackson Bad Pass Turnover (P2.T7),Turnover,Bad Pass,1,0,163
+0022000521,205,PT07M10.00S,2,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina STEAL (1 STL),,,1,0,164
+0022000521,207,PT07M05.00S,2,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,165
+0022000521,207,PT07M05.00S,2,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart STEAL (1 STL),,,1,0,166
+0022000521,209,PT06M59.00S,2,1610612765,DET,1629635,Doumbouya,S. Doumbouya,21,21,3,Made,1,27,32,59,h,Doumbouya 3' Running Dunk (3 PTS) (Lee 2 AST),Made Shot,Running Dunk Shot,1,2,167
+0022000521,211,PT06M53.00S,2,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,168
+0022000521,212,PT06M44.00S,2,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,-177,183,25,Missed,1,,,0,v,MISS Ntilikina 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,169
+0022000521,213,PT06M42.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,170
+0022000521,214,PT06M38.00S,2,1610612752,NYK,202692,Burks,A. Burks,158,199,25,Missed,1,,,0,v,MISS Burks 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,171
+0022000521,215,PT06M38.00S,2,1610612765,DET,1629635,Doumbouya,S. Doumbouya,0,0,0,,0,,,0,h,Doumbouya REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,172
+0022000521,216,PT06M21.00S,2,1610612765,DET,201961,Ellington,W. Ellington,210,142,25,Made,1,30,32,62,h,Ellington 25' 3PT Jump Shot (8 PTS) (Lee 3 AST),Made Shot,Jump Shot,1,3,173
+0022000521,218,PT05M59.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,12,10,2,Made,1,30,34,64,v,Toppin 2' Driving Reverse Dunk Shot (2 PTS) (Noel 1 AST),Made Shot,Driving Reverse Dunk Shot,1,2,174
+0022000521,220,PT05M43.00S,2,1610612752,NYK,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,v,Quickley S.FOUL (P1.T3) (M.Kogut),Foul,Shooting,1,0,175
+0022000521,222,PT05M43.00S,2,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,31,34,65,h,Jackson Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,176
+0022000521,223,PT05M43.00S,2,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,SUB: Plumlee FOR Stewart,Substitution,,0,0,177
+0022000521,224,PT05M43.00S,2,1610612765,DET,1629635,Doumbouya,S. Doumbouya,0,0,0,,0,,,0,h,SUB: Grant FOR Doumbouya,Substitution,,0,0,178
+0022000521,225,PT05M43.00S,2,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,SUB: Randle FOR Toppin,Substitution,,0,0,179
+0022000521,226,PT05M43.00S,2,1610612752,NYK,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,v,SUB: Barrett FOR Quickley,Substitution,,0,0,180
+0022000521,227,PT05M43.00S,2,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,SUB: Rose FOR Ntilikina,Substitution,,0,0,181
+0022000521,233,PT05M43.00S,2,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,h,MISS Jackson Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,182
+0022000521,234,PT05M39.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,183
+0022000521,235,PT05M26.00S,2,1610612752,NYK,203944,Randle,J. Randle,-35,104,11,Missed,1,,,0,v,MISS Randle 11' Jump Shot,Missed Shot,Jump Shot,1,2,184
+0022000521,236,PT05M24.00S,2,1610612765,DET,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,185
+0022000521,237,PT05M12.00S,2,1610612765,DET,203924,Grant,J. Grant,0,52,5,Missed,1,,,0,h,MISS Grant 5' Driving Dunk,Missed Shot,Driving Dunk Shot,1,2,186
+0022000521,237,PT05M12.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel BLOCK (2 BLK),,,1,2,187
+0022000521,238,PT05M09.00S,2,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,188
+0022000521,239,PT05M09.00S,2,1610612752,NYK,202692,Burks,A. Burks,-14,27,3,Missed,1,,,0,v,MISS Burks 3' Running Layup,Missed Shot,Running Layup Shot,1,2,189
+0022000521,239,PT05M09.00S,2,1610612765,DET,201961,Ellington,W. Ellington,0,0,0,,0,,,0,h,Ellington BLOCK (1 BLK),,,1,2,190
+0022000521,240,PT05M09.00S,2,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,191
+0022000521,242,PT04M58.00S,2,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,h,Jackson OFF.Foul (P2) (D.Scott),Foul,Offensive,1,0,192
+0022000521,244,PT04M58.00S,2,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,h,Jackson Offensive Foul Turnover (P3.T8),Turnover,Offensive Foul Turnover,1,0,193
+0022000521,245,PT04M58.00S,2,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,SUB: Bullock FOR Burks,Substitution,,0,0,194
+0022000521,247,PT04M41.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,-29,9,3,Made,1,31,36,67,v,Barrett 3' Driving Layup (10 PTS) (Bullock 2 AST),Made Shot,Driving Layup Shot,1,2,195
+0022000521,248,PT04M27.00S,2,1610612765,DET,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee Lost Ball Turnover (P1.T9),Turnover,Lost Ball,1,0,196
+0022000521,248,PT04M27.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel STEAL (1 STL),,,1,0,197
+0022000521,250,PT04M23.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,-16,1,2,Made,1,31,38,69,v,Barrett 2' Running Layup (12 PTS),Made Shot,Running Layup Shot,1,2,198
+0022000521,251,PT04M16.00S,2,1610612765,DET,1630240,Lee,S. Lee,8,20,2,Missed,1,,,0,h,MISS Lee 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,199
+0022000521,251,PT04M16.00S,2,1610612752,NYK,201565,Rose,D. Rose,0,0,0,,0,,,0,v,Rose BLOCK (2 BLK),,,1,2,200
+0022000521,252,PT04M12.00S,2,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,201
+0022000521,253,PT04M11.00S,2,1610612765,DET,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant P.FOUL (P1.T2) (M.Kogut),Foul,Personal,1,0,202
+0022000521,255,PT04M11.00S,2,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,h,SUB: Bey FOR Jackson,Substitution,,0,0,203
+0022000521,257,PT04M11.00S,2,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,204
+0022000521,258,PT04M11.00S,2,1610612765,DET,1630240,Lee,S. Lee,0,0,0,,0,,,0,h,SUB: Smith Jr. FOR Lee,Substitution,,0,0,205
+0022000521,260,PT04M02.00S,2,1610612752,NYK,201565,Rose,D. Rose,19,6,2,Made,1,31,40,71,v,Rose 2' Driving Layup (7 PTS) (Noel 2 AST),Made Shot,Driving Layup Shot,1,2,206
+0022000521,262,PT03M46.00S,2,1610612765,DET,203924,Grant,J. Grant,108,235,26,Missed,1,,,0,h,MISS Grant 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,207
+0022000521,263,PT03M43.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,208
+0022000521,264,PT03M29.00S,2,1610612752,NYK,203493,Bullock Jr.,R. Bullock Jr.,-231,94,25,Made,1,31,43,74,v,Bullock 25' 3PT Jump Shot (6 PTS) (Randle 5 AST),Made Shot,Jump Shot,1,3,209
+0022000521,266,PT03M15.00S,2,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,-19,1,2,Missed,1,,,0,h,MISS Smith Jr. 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,210
+0022000521,267,PT03M13.00S,2,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,h,Smith Jr. REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,211
+0022000521,268,PT03M12.00S,2,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,-13,15,2,Missed,1,,,0,h,MISS Smith Jr. 2' Layup,Missed Shot,Layup Shot,1,2,212
+0022000521,268,PT03M12.00S,2,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle BLOCK (1 BLK),,,1,2,213
+0022000521,270,PT03M12.00S,2,1610612752,NYK,203493,Bullock Jr.,R. Bullock Jr.,0,0,0,,0,,,0,v,Bullock REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,214
+0022000521,271,PT03M03.00S,2,1610612752,NYK,201565,Rose,D. Rose,-236,0,24,Missed,1,,,0,v,MISS Rose 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,215
+0022000521,272,PT03M01.00S,2,1610612765,DET,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,216
+0022000521,317,PT02M48.00S,2,1610612765,DET,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant Bad Pass Turnover (P4.T10),Turnover,Bad Pass,1,0,217
+0022000521,317,PT02M48.00S,2,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle STEAL (1 STL),,,1,0,218
+0022000521,319,PT02M46.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel Bad Pass Turnover (P2.T4),Turnover,Bad Pass,1,0,219
+0022000521,319,PT02M46.00S,2,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,h,Smith Jr. STEAL (1 STL),,,1,0,220
+0022000521,273,PT02M37.00S,2,1610612765,DET,1630180,Bey,S. Bey,10,25,3,Missed,1,,,0,h,MISS Bey 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,221
+0022000521,273,PT02M37.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel BLOCK (3 BLK),,,1,2,222
+0022000521,275,PT02M34.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,223
+0022000521,276,PT02M24.00S,2,1610612752,NYK,201565,Rose,D. Rose,-32,85,9,Missed,1,,,0,v,MISS Rose 9' Jump Shot,Missed Shot,Jump Shot,1,2,224
+0022000521,277,PT02M21.00S,2,1610612765,DET,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,225
+0022000521,278,PT02M03.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel S.FOUL (P1.T4) (T.Brothers),Foul,Shooting,1,0,226
+0022000521,280,PT02M03.00S,2,1610612765,DET,203924,Grant,J. Grant,0,0,0,,0,32,43,75,h,Grant Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,227
+0022000521,281,PT02M03.00S,2,1610612765,DET,201961,Ellington,W. Ellington,0,0,0,,0,,,0,h,SUB: Mykhailiuk FOR Ellington,Substitution,,0,0,228
+0022000521,284,PT02M03.00S,2,1610612765,DET,203924,Grant,J. Grant,0,0,0,,0,,,0,h,MISS Grant Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,229
+0022000521,285,PT02M00.00S,2,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,230
+0022000521,286,PT01M47.00S,2,1610612752,NYK,203944,Randle,J. Randle,66,246,25,Made,1,32,46,78,v,Randle 25' 3PT Jump Shot (6 PTS) (Barrett 1 AST),Made Shot,Jump Shot,1,3,231
+0022000521,288,PT01M29.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel S.FOUL (P2.PN) (D.Scott),Foul,Shooting,1,0,232
+0022000521,290,PT01M29.00S,2,1610612765,DET,203486,Plumlee,M. Plumlee,0,0,0,,0,33,46,79,h,Plumlee Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,233
+0022000521,292,PT01M29.00S,2,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Lane,Violation,Lane,0,0,234
+0022000521,294,PT01M29.00S,2,1610612765,DET,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,MISS Plumlee Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,235
+0022000521,295,PT01M26.00S,2,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,236
+0022000521,296,PT01M08.00S,2,1610612752,NYK,203944,Randle,J. Randle,16,55,6,Made,1,33,48,81,v,Randle 6' Fadeaway Jumper (8 PTS),Made Shot,Fadeaway Jump Shot,1,2,237
+0022000521,297,PT00M58.90S,2,1610612765,DET,1630180,Bey,S. Bey,-197,167,26,Missed,1,,,0,h,MISS Bey 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,238
+0022000521,298,PT00M56.30S,2,1610612752,NYK,203493,Bullock Jr.,R. Bullock Jr.,0,0,0,,0,,,0,v,Bullock REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,239
+0022000521,299,PT00M50.70S,2,1610612752,NYK,201565,Rose,D. Rose,-38,9,4,Missed,1,,,0,v,MISS Rose 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,240
+0022000521,299,PT00M50.70S,2,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,h,Smith Jr. BLOCK (1 BLK),,,1,2,241
+0022000521,301,PT00M47.30S,2,1610612765,DET,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,242
+0022000521,302,PT00M45.10S,2,1610612765,DET,203486,Plumlee,M. Plumlee,6,18,2,Made,1,35,48,83,h,Plumlee 2' Driving Layup (7 PTS) (Mykhailiuk 1 AST),Made Shot,Driving Layup Shot,1,2,243
+0022000521,304,PT00M40.90S,2,1610612752,NYK,201565,Rose,D. Rose,0,0,0,,0,,,0,v,Rose Lost Ball Turnover (P1.T5),Turnover,Lost Ball,1,0,244
+0022000521,304,PT00M40.90S,2,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,h,Smith Jr. STEAL (2 STL),,,1,0,245
+0022000521,306,PT00M34.30S,2,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle S.FOUL (P1.PN) (M.Kogut),Foul,Shooting,1,0,246
+0022000521,308,PT00M34.30S,2,1610612765,DET,203924,Grant,J. Grant,0,0,0,,0,36,48,84,h,Grant Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,247
+0022000521,309,PT00M34.30S,2,1610612765,DET,203924,Grant,J. Grant,0,0,0,,0,37,48,85,h,Grant Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,248
+0022000521,310,PT00M17.50S,2,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett Lost Ball Turnover (P1.T6),Turnover,Lost Ball,1,0,249
+0022000521,310,PT00M17.50S,2,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,h,Smith Jr. STEAL (3 STL),,,1,0,250
+0022000521,312,PT00M01.00S,2,1610612765,DET,203924,Grant,J. Grant,236,25,24,Missed,1,,,0,h,MISS Grant 24' 3PT Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,3,251
+0022000521,313,PT00M01.00S,2,1610612752,NYK,203493,Bullock Jr.,R. Bullock Jr.,0,0,0,,0,,,0,v,Bullock REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,252
+0022000521,314,PT00M00.00S,2,0,,0,,,0,0,0,,0,37,48,85,,End of 2nd Period (9:04 PM EST),period,end,1,0,253
+0022000521,321,PT12M00.00S,3,0,,0,,,0,0,0,,0,37,48,85,,Start of 3rd Period (9:20 PM EST),period,start,0,0,254
+0022000521,322,PT11M50.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,-12,6,1,Made,1,37,50,87,v,Barrett 1' Driving Layup (14 PTS),Made Shot,Driving Layup Shot,1,2,255
+0022000521,323,PT11M50.00S,3,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,,,0,h,Bey S.FOUL (P2.T1) (T.Brothers),Foul,Shooting,1,0,256
+0022000521,325,PT11M50.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,37,51,88,v,Barrett Free Throw 1 of 1 (15 PTS),Free Throw,Free Throw 1 of 1,0,0,257
+0022000521,326,PT11M32.00S,3,1610612765,DET,203924,Grant,J. Grant,-48,136,14,Made,1,39,51,90,h,Grant 14' Pullup Jump Shot (12 PTS) (Plumlee 1 AST),Made Shot,Pullup Jump shot,1,2,258
+0022000521,328,PT11M05.00S,3,1610612752,NYK,201565,Rose,D. Rose,-13,11,2,Made,1,39,53,92,v,Rose 2' Driving Layup (9 PTS) (Bullock 3 AST),Made Shot,Driving Layup Shot,1,2,259
+0022000521,330,PT10M52.00S,3,1610612765,DET,203924,Grant,J. Grant,136,216,26,Made,1,42,53,95,h,Grant 26' 3PT Jump Shot (15 PTS) (Mykhailiuk 2 AST),Made Shot,Jump Shot,1,3,260
+0022000521,332,PT10M36.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,69,244,25,Missed,1,,,0,v,MISS Barrett 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,261
+0022000521,333,PT10M34.00S,3,1610612765,DET,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,262
+0022000521,334,PT10M16.00S,3,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,-130,226,26,Missed,1,,,0,h,MISS Smith Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,263
+0022000521,335,PT10M14.00S,3,1610612765,DET,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,264
+0022000521,336,PT10M08.00S,3,1610612765,DET,203486,Plumlee,M. Plumlee,27,47,5,Missed,1,,,0,h,MISS Plumlee 5' Hook Shot,Missed Shot,Hook Shot,1,2,265
+0022000521,337,PT10M06.00S,3,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,h,Smith Jr. REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,266
+0022000521,338,PT10M06.00S,3,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,0,0,0,Made,1,44,53,97,h,Smith Jr. Tip Layup Shot (5 PTS),Made Shot,Tip Layup Shot,1,2,267
+0022000521,339,PT09M49.00S,3,1610612752,NYK,203944,Randle,J. Randle,-61,125,14,Made,1,44,55,99,v,Randle 14' Jump Shot (10 PTS) (Rose 1 AST),Made Shot,Jump Shot,1,2,268
+0022000521,341,PT09M37.00S,3,1610612765,DET,203924,Grant,J. Grant,-49,163,17,Made,1,46,55,101,h,Grant 17' Pullup Jump Shot (17 PTS),Made Shot,Pullup Jump shot,1,2,269
+0022000521,342,PT09M22.00S,3,1610612752,NYK,203944,Randle,J. Randle,-5,23,2,Made,1,46,57,103,v,Randle 2' Driving Layup (12 PTS),Made Shot,Driving Layup Shot,1,2,270
+0022000521,343,PT09M22.00S,3,1610612765,DET,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee S.FOUL (P1.T2) (M.Kogut),Foul,Shooting,1,0,271
+0022000521,345,PT09M22.00S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,46,58,104,v,Randle Free Throw 1 of 1 (13 PTS),Free Throw,Free Throw 1 of 1,1,0,272
+0022000521,346,PT09M02.00S,3,1610612765,DET,203924,Grant,J. Grant,28,247,25,Missed,1,,,0,h,MISS Grant 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,273
+0022000521,347,PT08M59.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,274
+0022000521,348,PT08M50.00S,3,1610612765,DET,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee S.FOUL (P2.T3) (D.Scott),Foul,Shooting,1,0,275
+0022000521,350,PT08M50.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,46,59,105,v,Barrett Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,1,0,276
+0022000521,351,PT08M50.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,46,60,106,v,Barrett Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,1,0,277
+0022000521,352,PT08M30.00S,3,1610612765,DET,1630180,Bey,S. Bey,17,255,26,Made,1,49,60,109,h,Bey 26' 3PT Jump Shot (3 PTS) (Mykhailiuk 3 AST),Made Shot,Jump Shot,1,3,278
+0022000521,354,PT08M02.00S,3,1610612752,NYK,203944,Randle,J. Randle,168,197,26,Made,1,49,63,112,v,Randle 26' 3PT Jump Shot (16 PTS) (Barrett 2 AST),Made Shot,Jump Shot,1,3,279
+0022000521,356,PT07M38.00S,3,1610612765,DET,203924,Grant,J. Grant,147,151,21,Missed,1,,,0,h,MISS Grant 21' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,280
+0022000521,357,PT07M37.00S,3,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,281
+0022000521,362,PT07M37.00S,3,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Turnover: Shot Clock (T#11),Turnover,Shot Clock Turnover,0,0,282
+0022000521,359,PT07M35.00S,3,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,h,Smith Jr. Violation:Kicked Ball (M.Kogut),Violation,Kicked Ball,0,0,283
+0022000521,360,PT07M10.00S,3,1610612752,NYK,203944,Randle,J. Randle,-50,79,9,Made,1,49,65,114,v,Randle 9' Fadeaway Jumper (18 PTS),Made Shot,Fadeaway Jump Shot,1,2,284
+0022000521,361,PT07M10.00S,3,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,285
+0022000521,363,PT06M49.00S,3,1610612765,DET,203924,Grant,J. Grant,50,243,25,Missed,1,,,0,h,MISS Grant 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,286
+0022000521,364,PT06M48.00S,3,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,287
+0022000521,367,PT06M32.00S,3,1610612752,NYK,203944,Randle,J. Randle,-84,167,19,Made,1,49,67,116,v,Randle 19' Pullup Jump Shot (20 PTS),Made Shot,Pullup Jump shot,1,2,288
+0022000521,368,PT06M18.00S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle P.FOUL (P2.T1) (D.Scott),Foul,Personal,1,0,289
+0022000521,370,PT06M09.00S,3,1610612765,DET,203486,Plumlee,M. Plumlee,3,41,4,Made,1,51,67,118,h,Plumlee 4' Driving Hook Shot (9 PTS),Made Shot,Driving Hook Shot,1,2,290
+0022000521,371,PT05M49.00S,3,1610612752,NYK,203493,Bullock Jr.,R. Bullock Jr.,190,170,25,Made,1,51,70,121,v,Bullock 25' 3PT Jump Shot (9 PTS) (Rose 2 AST),Made Shot,Jump Shot,1,3,291
+0022000521,373,PT05M40.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett P.FOUL (P1.T2) (M.Kogut),Foul,Personal,1,0,292
+0022000521,375,PT05M25.00S,3,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,134,219,26,Missed,1,,,0,h,MISS Smith Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,293
+0022000521,376,PT05M22.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,294
+0022000521,377,PT05M04.00S,3,1610612752,NYK,203457,Noel,N. Noel,22,10,2,Made,1,51,72,123,v,Noel 2' Dunk (2 PTS) (Rose 3 AST),Made Shot,Dunk Shot,1,2,295
+0022000521,379,PT04M56.00S,3,1610612752,NYK,201565,Rose,D. Rose,0,0,0,,0,,,0,v,Rose P.FOUL (P1.T3) (D.Scott),Foul,Personal,1,0,296
+0022000521,381,PT04M56.00S,3,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,h,SUB: Stewart FOR Smith Jr.,Substitution,,0,0,297
+0022000521,382,PT04M56.00S,3,1610612765,DET,203486,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,SUB: Jackson FOR Plumlee,Substitution,,0,0,298
+0022000521,383,PT04M56.00S,3,1610612765,DET,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,SUB: Lee FOR Mykhailiuk,Substitution,,0,0,299
+0022000521,387,PT04M50.00S,3,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel S.FOUL (P3.T4) (T.Brothers),Foul,Shooting,1,0,300
+0022000521,389,PT04M50.00S,3,1610612765,DET,203924,Grant,J. Grant,0,0,0,,0,52,72,124,h,Grant Free Throw 1 of 2 (18 PTS),Free Throw,Free Throw 1 of 2,1,0,301
+0022000521,390,PT04M50.00S,3,1610612765,DET,203924,Grant,J. Grant,0,0,0,,0,53,72,125,h,Grant Free Throw 2 of 2 (19 PTS),Free Throw,Free Throw 2 of 2,1,0,302
+0022000521,391,PT04M36.00S,3,1610612752,NYK,203944,Randle,J. Randle,-239,6,24,Missed,1,,,0,v,MISS Randle 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,303
+0022000521,392,PT04M34.00S,3,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,,,0,h,Bey REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,304
+0022000521,393,PT04M30.00S,3,1610612765,DET,1630180,Bey,S. Bey,101,241,26,Missed,1,,,0,h,MISS Bey 26' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,305
+0022000521,394,PT04M28.00S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,306
+0022000521,395,PT04M11.00S,3,1610612752,NYK,201565,Rose,D. Rose,-141,116,18,Missed,1,,,0,v,MISS Rose 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,307
+0022000521,396,PT04M08.00S,3,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,308
+0022000521,397,PT04M07.00S,3,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart Lost Ball Turnover (P1.T12),Turnover,Lost Ball,1,0,309
+0022000521,397,PT04M07.00S,3,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel STEAL (2 STL),,,1,0,310
+0022000521,399,PT03M58.00S,3,1610612752,NYK,203493,Bullock Jr.,R. Bullock Jr.,0,0,0,,0,,,0,v,Bullock Step Out of Bounds Turnover (P1.T7),Turnover,Step Out of Bounds Turnover,1,0,311
+0022000521,400,PT03M58.00S,3,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,SUB: Toppin FOR Randle,Substitution,,0,0,312
+0022000521,402,PT03M44.00S,3,1610612765,DET,203924,Grant,J. Grant,7,147,15,Made,1,55,72,127,h,Grant 15' Jump Shot (21 PTS) (Lee 4 AST),Made Shot,Jump Shot,1,2,313
+0022000521,404,PT03M26.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,-34,117,12,Made,1,55,74,129,v,Barrett 12' Pullup Jump Shot (19 PTS),Made Shot,Pullup Jump shot,1,2,314
+0022000521,405,PT03M09.00S,3,1610612765,DET,203924,Grant,J. Grant,172,182,25,Missed,1,,,0,h,MISS Grant 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,315
+0022000521,406,PT03M07.00S,3,1610612752,NYK,201565,Rose,D. Rose,0,0,0,,0,,,0,v,Rose REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,316
+0022000521,407,PT02M58.00S,3,1610612752,NYK,201565,Rose,D. Rose,-137,142,20,Made,1,55,76,131,v,Rose 20' Step Back Jump Shot (11 PTS),Made Shot,Step Back Jump shot,1,2,317
+0022000521,408,PT02M45.00S,3,1610612765,DET,1630240,Lee,S. Lee,30,19,4,Missed,1,,,0,h,MISS Lee 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,318
+0022000521,409,PT02M43.00S,3,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,319
+0022000521,410,PT02M34.00S,3,1610612752,NYK,203457,Noel,N. Noel,32,18,4,Made,1,55,78,133,v,Noel 4' Alley Oop Dunk (4 PTS) (Barrett 3 AST),Made Shot,Alley Oop Dunk Shot,1,2,320
+0022000521,412,PT02M33.00S,3,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,321
+0022000521,413,PT02M33.00S,3,1610612752,NYK,203493,Bullock Jr.,R. Bullock Jr.,0,0,0,,0,,,0,v,SUB: Burks FOR Bullock,Substitution,,0,0,322
+0022000521,415,PT02M19.00S,3,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks S.FOUL (P3.PN) (T.Brothers),Foul,Shooting,1,0,323
+0022000521,417,PT02M19.00S,3,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,56,78,134,h,Jackson Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,324
+0022000521,418,PT02M19.00S,3,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,57,78,135,h,Jackson Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,325
+0022000521,419,PT01M56.00S,3,1610612752,NYK,201565,Rose,D. Rose,-77,253,26,Made,1,57,81,138,v,Rose 26' 3PT Jump Shot (14 PTS) (Burks 1 AST),Made Shot,Jump Shot,1,3,326
+0022000521,421,PT01M32.00S,3,1610612765,DET,1630180,Bey,S. Bey,-127,225,26,Made,1,60,81,141,h,Bey 26' 3PT Jump Shot (6 PTS),Made Shot,Jump Shot,1,3,327
+0022000521,423,PT01M23.00S,3,1610612765,DET,1630240,Lee,S. Lee,0,0,0,,0,,,0,h,Lee P.FOUL (P1.T4) (D.Scott),Foul,Personal,1,0,328
+0022000521,425,PT01M15.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,119,227,26,Missed,1,,,0,v,MISS Barrett 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,329
+0022000521,426,PT01M12.00S,3,1610612765,DET,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,330
+0022000521,427,PT01M09.00S,3,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks S.FOUL (P4.PN) (D.Scott),Foul,Shooting,1,0,331
+0022000521,429,PT01M09.00S,3,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,61,81,142,h,Jackson Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,332
+0022000521,430,PT01M09.00S,3,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,SUB: Ntilikina FOR Barrett,Substitution,,0,0,333
+0022000521,432,PT01M09.00S,3,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,62,81,143,h,Jackson Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,334
+0022000521,433,PT00M55.20S,3,1610612752,NYK,1630167,Toppin,O. Toppin,-76,46,9,Made,1,62,83,145,v,Toppin 9' Driving Floating Bank Jump Shot (4 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,335
+0022000521,434,PT00M36.90S,3,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina S.FOUL (P2.PN) (T.Brothers),Foul,Shooting,1,0,336
+0022000521,436,PT00M36.90S,3,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,337
+0022000521,437,PT00M36.90S,3,0,,434,Dumas,T. Dumas,0,0,0,,0,62,83,145,,Instant Replay3rd Period (9:44 PM EST),Instant Replay,Coach Challenge Ruling Stands,1,0,338
+0022000521,438,PT00M36.90S,3,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,63,83,146,h,Jackson Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,339
+0022000521,439,PT00M36.90S,3,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,64,83,147,h,Jackson Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,340
+0022000521,440,PT00M16.40S,3,1610612752,NYK,201565,Rose,D. Rose,82,96,13,Missed,1,,,0,v,MISS Rose 13' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,341
+0022000521,441,PT00M13.90S,3,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,,,0,h,Bey REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,342
+0022000521,442,PT00M00.00S,3,1610612765,DET,203924,Grant,J. Grant,110,127,17,Missed,1,,,0,h,MISS Grant 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,343
+0022000521,443,PT00M00.00S,3,1610612752,NYK,201565,Rose,D. Rose,0,0,0,,0,,,0,v,Rose REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,344
+0022000521,444,PT00M00.00S,3,0,,0,,,0,0,0,,0,64,83,147,,End of 3rd Period (9:47 PM EST),period,end,1,0,345
+0022000521,453,PT12M00.00S,4,0,,0,,,0,0,0,,0,64,83,147,,Start of 4th Period (9:50 PM EST),period,start,0,0,346
+0022000521,454,PT11M44.00S,4,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,h,Jackson Bad Pass Turnover (P4.T13),Turnover,Bad Pass,1,0,347
+0022000521,454,PT11M44.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle STEAL (2 STL),,,1,0,348
+0022000521,456,PT11M29.00S,4,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,Toppin Offensive Charge Foul (P3.T1) (D.Scott),Foul,Offensive Charge,1,0,349
+0022000521,458,PT11M29.00S,4,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,Toppin Offensive Foul Turnover (P1.T8),Turnover,Offensive Foul Turnover,1,0,350
+0022000521,459,PT11M20.00S,4,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart OFF.Foul (P2) (T.Brothers),Foul,Offensive,1,0,351
+0022000521,461,PT11M20.00S,4,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart Offensive Foul Turnover (P2.T14),Turnover,Offensive Foul Turnover,1,0,352
+0022000521,462,PT11M08.00S,4,1610612752,NYK,202692,Burks,A. Burks,58,68,9,Made,1,64,85,149,v,Burks 9' Jump Shot (12 PTS),Made Shot,Jump Shot,1,2,353
+0022000521,463,PT10M51.00S,4,1610612765,DET,201961,Ellington,W. Ellington,235,55,24,Missed,1,,,0,h,MISS Ellington 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,354
+0022000521,464,PT10M47.00S,4,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,Toppin REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,355
+0022000521,465,PT10M40.00S,4,1610612752,NYK,1630193,Quickley,I. Quickley,-17,43,5,Made,1,64,87,151,v,Quickley 5' Driving Floating Jump Shot (5 PTS),Made Shot,Driving Floating Jump Shot,1,2,356
+0022000521,466,PT10M16.00S,4,1610612765,DET,1629635,Doumbouya,S. Doumbouya,28,10,3,Missed,1,,,0,h,MISS Doumbouya 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,357
+0022000521,467,PT10M14.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,358
+0022000521,468,PT10M11.00S,4,1610612765,DET,1630240,Lee,S. Lee,0,0,0,,0,,,0,h,Lee P.FOUL (P2.T1) (M.Kogut),Foul,Personal,1,0,359
+0022000521,470,PT10M08.00S,4,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina Bad Pass Turnover (P1.T9),Turnover,Bad Pass,1,0,360
+0022000521,470,PT10M08.00S,4,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,h,Jackson STEAL (1 STL),,,1,0,361
+0022000521,472,PT10M04.00S,4,1610612765,DET,1628367,Jackson,J. Jackson,-19,24,3,Missed,1,,,0,h,MISS Jackson 3' Running Layup,Missed Shot,Running Layup Shot,1,2,362
+0022000521,473,PT10M01.00S,4,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,363
+0022000521,474,PT10M00.00S,4,1610612765,DET,1630191,Stewart,I. Stewart,-9,8,1,Made,1,66,87,153,h,Stewart 1' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,364
+0022000521,475,PT09M48.00S,4,1610612752,NYK,202692,Burks,A. Burks,-127,148,20,Made,1,66,89,155,v,Burks 20' Pullup Jump Shot (14 PTS),Made Shot,Pullup Jump shot,1,2,365
+0022000521,476,PT09M32.00S,4,1610612765,DET,1629635,Doumbouya,S. Doumbouya,141,224,26,Missed,1,,,0,h,MISS Doumbouya 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,366
+0022000521,477,PT09M30.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,367
+0022000521,479,PT09M29.00S,4,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,Toppin P.FOUL (P4.T2) (T.Brothers),Foul,Personal,1,0,368
+0022000521,481,PT09M21.00S,4,1610612765,DET,201961,Ellington,W. Ellington,60,251,26,Made,1,69,89,158,h,Ellington 26' 3PT Jump Shot (11 PTS) (Jackson 2 AST),Made Shot,Jump Shot,1,3,369
+0022000521,483,PT08M55.00S,4,1610612752,NYK,203944,Randle,J. Randle,-231,46,24,Made,1,69,92,161,v,Randle 24' 3PT Jump Shot (23 PTS),Made Shot,Jump Shot,1,3,370
+0022000521,484,PT08M43.00S,4,1610612752,NYK,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,v,Quickley S.FOUL (P2.T3) (M.Kogut),Foul,Shooting,1,0,371
+0022000521,486,PT08M43.00S,4,1610612765,DET,1630240,Lee,S. Lee,0,0,0,,0,70,92,162,h,Lee Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,372
+0022000521,487,PT08M43.00S,4,1610612752,NYK,1630167,Toppin,O. Toppin,0,0,0,,0,,,0,v,SUB: Noel FOR Toppin,Substitution,,0,0,373
+0022000521,489,PT08M43.00S,4,1610612765,DET,1630240,Lee,S. Lee,0,0,0,,0,71,92,163,h,Lee Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,374
+0022000521,490,PT08M25.00S,4,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,98,11,10,Missed,1,,,0,v,MISS Ntilikina 10' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,375
+0022000521,491,PT08M23.00S,4,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,376
+0022000521,492,PT08M20.00S,4,1610612752,NYK,203457,Noel,N. Noel,25,48,5,Made,1,71,94,165,v,Noel 5' Floating Jump Shot (6 PTS),Made Shot,Floating Jump shot,1,2,377
+0022000521,493,PT08M09.00S,4,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel S.FOUL (P4.T4) (T.Brothers),Foul,Shooting,1,0,378
+0022000521,495,PT08M09.00S,4,1610612765,DET,1630240,Lee,S. Lee,0,0,0,,0,,,0,h,MISS Lee Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,379
+0022000521,496,PT08M09.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Normal Rebound,0,0,380
+0022000521,497,PT08M09.00S,4,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,SUB: Barrett FOR Ntilikina,Substitution,,0,0,381
+0022000521,499,PT08M09.00S,4,1610612765,DET,1630240,Lee,S. Lee,0,0,0,,0,72,94,166,h,Lee Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,382
+0022000521,500,PT08M09.00S,4,1610612752,NYK,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle T.FOUL (P2.T4) (M.Kogut),Foul,Technical,1,0,383
+0022000521,501,PT08M09.00S,4,1610612765,DET,201961,Ellington,W. Ellington,0,0,0,,0,73,94,167,h,Ellington Free Throw Technical (12 PTS),Free Throw,Free Throw Technical,1,0,384
+0022000521,502,PT07M55.00S,4,1610612752,NYK,1630193,Quickley,I. Quickley,-44,49,7,Made,1,73,96,169,v,Quickley 7' Driving Floating Jump Shot (7 PTS) (Burks 2 AST),Made Shot,Driving Floating Jump Shot,1,2,385
+0022000521,504,PT07M30.00S,4,1610612765,DET,1630240,Lee,S. Lee,-25,6,3,Made,1,75,96,171,h,Lee 3' Cutting Layup Shot (7 PTS) (Doumbouya 1 AST),Made Shot,Cutting Layup Shot,1,2,386
+0022000521,506,PT07M05.00S,4,1610612752,NYK,1630193,Quickley,I. Quickley,147,214,26,Made,1,75,99,174,v,Quickley 26' 3PT Pullup Jump Shot (10 PTS),Made Shot,Pullup Jump shot,1,3,387
+0022000521,507,PT06M47.00S,4,1610612765,DET,1630240,Lee,S. Lee,14,6,2,Made,1,77,99,176,h,Lee 2' Driving Floating Bank Jump Shot (9 PTS) (Doumbouya 2 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,388
+0022000521,509,PT06M31.00S,4,1610612752,NYK,1630193,Quickley,I. Quickley,129,181,22,Made,1,77,101,178,v,Quickley 22' Pullup Jump Shot (12 PTS),Made Shot,Pullup Jump shot,1,2,389
+0022000521,510,PT06M30.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,390
+0022000521,511,PT06M30.00S,4,1610612765,DET,1630240,Lee,S. Lee,0,0,0,,0,,,0,h,SUB: Smith Jr. FOR Lee,Substitution,,0,0,391
+0022000521,512,PT06M30.00S,4,1610612765,DET,1629635,Doumbouya,S. Doumbouya,0,0,0,,0,,,0,h,SUB: Grant FOR Doumbouya,Substitution,,0,0,392
+0022000521,515,PT06M08.00S,4,1610612765,DET,203924,Grant,J. Grant,159,235,28,Missed,1,,,0,h,MISS Grant 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,393
+0022000521,516,PT06M05.00S,4,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,394
+0022000521,517,PT05M49.00S,4,1610612752,NYK,202692,Burks,A. Burks,-234,18,0,Missed,1,,,0,v,MISS Burks 3PT Jump Shot,Missed Shot,Jump Shot,1,3,395
+0022000521,518,PT05M46.00S,4,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,396
+0022000521,519,PT05M38.00S,4,1610612765,DET,201961,Ellington,W. Ellington,141,215,26,Made,1,80,101,181,h,Ellington 26' 3PT Jump Shot (15 PTS) (Smith Jr. 4 AST),Made Shot,Jump Shot,1,3,397
+0022000521,521,PT05M20.00S,4,1610612752,NYK,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,v,Quickley Bad Pass Turnover (P1.T10),Turnover,Bad Pass,1,0,398
+0022000521,521,PT05M20.00S,4,1610612765,DET,201961,Ellington,W. Ellington,0,0,0,,0,,,0,h,Ellington STEAL (1 STL),,,1,0,399
+0022000521,523,PT05M17.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,0,0,0,,0,,,0,v,Barrett S.FOUL (P2.PN) (D.Scott),Foul,Shooting,1,0,400
+0022000521,525,PT05M17.00S,4,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,81,101,182,h,Jackson Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,1,0,401
+0022000521,526,PT05M17.00S,4,1610612765,DET,203924,Grant,J. Grant,0,0,0,,0,,,0,h,SUB: Bey FOR Grant,Substitution,,0,0,402
+0022000521,527,PT05M17.00S,4,1610612752,NYK,1630193,Quickley,I. Quickley,0,0,0,,0,,,0,v,SUB: Rose FOR Quickley,Substitution,,0,0,403
+0022000521,530,PT05M17.00S,4,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,82,101,183,h,Jackson Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,404
+0022000521,531,PT05M00.00S,4,1610612752,NYK,203944,Randle,J. Randle,-122,112,17,Made,1,82,103,185,v,Randle 17' Step Back Jump Shot (25 PTS) (Rose 4 AST),Made Shot,Step Back Jump shot,1,2,405
+0022000521,533,PT04M41.00S,4,1610612765,DET,1630180,Bey,S. Bey,-38,53,7,Made,1,84,103,187,h,Bey 7' Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,2,406
+0022000521,534,PT04M21.00S,4,1610612752,NYK,203944,Randle,J. Randle,-107,105,15,Missed,1,,,0,v,MISS Randle 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,407
+0022000521,535,PT04M17.00S,4,1610612765,DET,201961,Ellington,W. Ellington,0,0,0,,0,,,0,h,Ellington REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,408
+0022000521,536,PT04M08.00S,4,1610612765,DET,1630180,Bey,S. Bey,134,229,27,Missed,1,,,0,h,MISS Bey 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,409
+0022000521,537,PT04M07.00S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,410
+0022000521,539,PT03M43.00S,4,1610612752,NYK,202692,Burks,A. Burks,24,20,3,Made,1,84,105,189,v,Burks 3' Driving Layup (16 PTS) (Randle 6 AST),Made Shot,Driving Layup Shot,1,2,411
+0022000521,552,PT03M28.00S,4,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,h,Jackson Lost Ball Turnover (P5.T15),Turnover,Lost Ball,1,0,412
+0022000521,552,PT03M28.00S,4,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel STEAL (3 STL),,,1,0,413
+0022000521,541,PT03M24.00S,4,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,,,0,h,Bey P.FOUL (P3.T2) (D.Scott),Foul,Personal,1,0,414
+0022000521,544,PT03M14.00S,4,1610612752,NYK,201565,Rose,D. Rose,0,0,0,,0,,,0,v,Rose Out of Bounds - Bad Pass Turnover Turnover (P2.T11),Turnover,Out of Bounds - Bad Pass Turnover,1,0,415
+0022000521,545,PT03M14.00S,4,1610612765,DET,201961,Ellington,W. Ellington,0,0,0,,0,,,0,h,SUB: McGruder FOR Ellington,Substitution,,0,0,416
+0022000521,546,PT03M14.00S,4,1610612765,DET,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,h,SUB: Mykhailiuk FOR Jackson,Substitution,,0,0,417
+0022000521,549,PT02M57.00S,4,1610612752,NYK,201565,Rose,D. Rose,0,0,0,,0,,,0,v,Rose S.FOUL (P2.PN) (M.Kogut),Foul,Shooting,1,0,418
+0022000521,551,PT02M57.00S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,419
+0022000521,554,PT02M57.00S,4,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,85,105,190,h,Bey Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,420
+0022000521,555,PT02M57.00S,4,1610612765,DET,1630180,Bey,S. Bey,0,0,0,,0,86,105,191,h,Bey Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,421
+0022000521,556,PT02M38.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,-19,27,3,Made,1,86,107,193,v,Barrett 3' Driving Dunk (21 PTS) (Burks 3 AST),Made Shot,Driving Dunk Shot,1,2,422
+0022000521,558,PT02M24.00S,4,1610612765,DET,1629004,Mykhailiuk,S. Mykhailiuk,0,0,0,,0,,,0,h,Mykhailiuk Lost Ball Turnover (P3.T16),Turnover,Lost Ball,1,0,423
+0022000521,558,PT02M24.00S,4,1610612752,NYK,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks STEAL (1 STL),,,1,0,424
+0022000521,560,PT02M20.00S,4,1610612752,NYK,202692,Burks,A. Burks,-16,18,2,Missed,1,,,0,v,MISS Burks 2' Running Layup,Missed Shot,Running Layup Shot,1,2,425
+0022000521,560,PT02M20.00S,4,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart BLOCK (2 BLK),,,1,2,426
+0022000521,562,PT02M18.00S,4,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,h,Smith Jr. REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,427
+0022000521,563,PT02M09.00S,4,1610612765,DET,1630180,Bey,S. Bey,-212,140,25,Missed,1,,,0,h,MISS Bey 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,428
+0022000521,564,PT02M06.00S,4,1610612765,DET,1630191,Stewart,I. Stewart,0,0,0,,0,,,0,h,Stewart REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,429
+0022000521,565,PT02M05.00S,4,1610612765,DET,1630191,Stewart,I. Stewart,-4,25,3,Made,1,88,107,195,h,Stewart 3' Putback Layup (4 PTS),Made Shot,Putback Layup Shot,1,2,430
+0022000521,566,PT01M44.00S,4,1610612752,NYK,203944,Randle,J. Randle,232,32,0,Missed,1,,,0,v,MISS Randle 3PT Jump Shot,Missed Shot,Jump Shot,1,3,431
+0022000521,567,PT01M44.00S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,432
+0022000521,569,PT01M36.00S,4,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,h,Smith Jr. P.FOUL (P2.T3) (M.Kogut),Foul,Personal,1,0,433
+0022000521,571,PT01M23.00S,4,1610612752,NYK,1629628,Barrett,R. Barrett,-41,44,6,Missed,1,,,0,v,MISS Barrett 6' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,434
+0022000521,572,PT01M21.00S,4,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:4 Def:6),Rebound,Unknown,1,0,435
+0022000521,575,PT01M09.00S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Turnover: Shot Clock (T#12),Turnover,Shot Clock Turnover,0,0,436
+0022000521,574,PT00M58.00S,4,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,1,-2,0,Made,1,90,107,197,h,Smith Jr. Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,437
+0022000521,576,PT00M40.70S,4,1610612752,NYK,203457,Noel,N. Noel,-7,13,1,Made,1,90,109,199,v,Noel 1' Cutting Dunk Shot (8 PTS) (Rose 5 AST),Made Shot,Cutting Dunk Shot,1,2,438
+0022000521,578,PT00M22.70S,4,1610612765,DET,1628372,Smith Jr.,D. Smith Jr.,121,256,28,Missed,1,,,0,h,MISS Smith Jr. 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,439
+0022000521,579,PT00M18.80S,4,1610612752,NYK,203457,Noel,N. Noel,0,0,0,,0,,,0,v,Noel REBOUND (Off:4 Def:7),Rebound,Unknown,1,0,440
+0022000521,580,PT00M00.00S,4,0,,0,,,0,0,0,,0,90,109,199,,End of 4th Period (10:15 PM EST),period,end,1,0,441

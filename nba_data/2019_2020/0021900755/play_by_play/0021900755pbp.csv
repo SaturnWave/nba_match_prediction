@@ -1,0 +1,431 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021900755,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:12 PM EST),period,start,0,0,1
+0021900755,4,PT12M00.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Jump Ball Drummond vs. Ayton: Tip to Doumbouya,Jump Ball,,1,0,2
+0021900755,7,PT11M33.00S,1,1610612765,DET,203083,Drummond,A. Drummond,90,-31,10,Missed,1,,,0,h,MISS Drummond 10' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,3
+0021900755,8,PT11M30.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,v,Ayton REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,4
+0021900755,9,PT11M26.00S,1,1610612756,PHX,1628969,Bridges,M. Bridges,227,0,0,Made,1,0,3,3,v,Bridges 3PT Jump Shot (3 PTS) (Rubio 1 AST),Made Shot,Jump Shot,1,3,5
+0021900755,11,PT11M11.00S,1,1610612765,DET,1628971,Brown,B. Brown,25,11,3,Made,1,2,3,5,h,Brown 3' Driving Layup (2 PTS) (Drummond 1 AST),Made Shot,Driving Layup Shot,1,2,6
+0021900755,13,PT10M48.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,19,27,3,Missed,1,,,0,v,MISS Ayton 3' Alley Oop Layup,Missed Shot,Alley Oop Layup shot,1,2,7
+0021900755,14,PT10M45.00S,1,1610612765,DET,1629635,Doumbouya,S. Doumbouya,0,0,0,,0,,,0,h,Doumbouya REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,8
+0021900755,15,PT10M38.00S,1,1610612765,DET,202704,Jackson,R. Jackson,-93,245,26,Made,1,5,3,8,h,Jackson 26' 3PT Jump Shot (3 PTS) (Doumbouya 1 AST),Made Shot,Jump Shot,1,3,9
+0021900755,17,PT10M25.00S,1,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,10
+0021900755,17,PT10M25.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond STEAL (1 STL),,,1,0,11
+0021900755,19,PT10M12.00S,1,1610612765,DET,203503,Snell,T. Snell,76,34,8,Missed,1,,,0,h,MISS Snell 8' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,12
+0021900755,20,PT10M09.00S,1,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,v,Oubre Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,13
+0021900755,21,PT10M03.00S,1,1610612756,PHX,1628969,Bridges,M. Bridges,-236,10,24,Made,1,5,6,11,v,Bridges 24' 3PT Jump Shot (6 PTS) (Rubio 2 AST),Made Shot,Jump Shot,1,3,14
+0021900755,23,PT09M44.00S,1,1610612765,DET,202704,Jackson,R. Jackson,170,210,27,Made,1,8,6,14,h,Jackson 27' 3PT Jump Shot (6 PTS) (Brown 1 AST),Made Shot,Jump Shot,1,3,15
+0021900755,25,PT09M36.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond P.FOUL (P1.T1) (J.Capers),Foul,Personal,1,0,16
+0021900755,27,PT09M31.00S,1,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,v,Bridges Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,17
+0021900755,27,PT09M31.00S,1,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,Brown STEAL (1 STL),,,1,0,18
+0021900755,29,PT09M25.00S,1,1610612765,DET,203083,Drummond,A. Drummond,-11,11,2,Made,1,10,6,16,h,Drummond 2' Layup (2 PTS) (Brown 2 AST),Made Shot,Layup Shot,1,2,19
+0021900755,31,PT09M07.00S,1,1610612756,PHX,1626164,Booker,D. Booker,20,13,2,Made,1,10,8,18,v,Booker 2' Layup (2 PTS) (Rubio 3 AST),Made Shot,Layup Shot,1,2,20
+0021900755,33,PT08M47.00S,1,1610612765,DET,1629635,Doumbouya,S. Doumbouya,159,218,27,Made,1,13,8,21,h,Doumbouya 27' 3PT Jump Shot (3 PTS) (Brown 3 AST),Made Shot,Jump Shot,1,3,21
+0021900755,35,PT08M35.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,51,52,7,Made,1,13,10,23,v,Ayton 7' Floating Jump Shot (2 PTS) (Rubio 4 AST),Made Shot,Floating Jump shot,1,2,22
+0021900755,37,PT08M27.00S,1,1610612765,DET,203083,Drummond,A. Drummond,-27,0,3,Made,1,15,10,25,h,Drummond 3' Cutting Layup Shot (4 PTS) (Jackson 1 AST),Made Shot,Cutting Layup Shot,1,2,23
+0021900755,39,PT08M27.00S,1,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,24
+0021900755,40,PT08M16.00S,1,1610612756,PHX,1628969,Bridges,M. Bridges,-83,248,26,Missed,1,,,0,v,MISS Bridges 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,25
+0021900755,41,PT08M14.00S,1,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,v,Bridges REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,26
+0021900755,42,PT08M06.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,3,27,3,Made,1,15,12,27,v,Ayton 3' Layup (4 PTS) (Rubio 5 AST),Made Shot,Layup Shot,1,2,27
+0021900755,44,PT07M44.00S,1,1610612765,DET,202704,Jackson,R. Jackson,-18,14,2,Missed,1,,,0,h,MISS Jackson 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,28
+0021900755,45,PT07M43.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,29
+0021900755,105,PT07M43.00S,1,1610612765,DET,203083,Drummond,A. Drummond,6,9,1,Missed,1,,,0,h,MISS Drummond 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,30
+0021900755,106,PT07M42.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,31
+0021900755,46,PT07M41.00S,1,1610612765,DET,203083,Drummond,A. Drummond,8,22,2,Made,1,17,12,29,h,Drummond 2' Putback Layup (6 PTS),Made Shot,Putback Layup Shot,1,2,32
+0021900755,47,PT07M23.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,19,8,2,Made,1,17,14,31,v,Ayton 2' Cutting Layup Shot (6 PTS) (Booker 1 AST),Made Shot,Cutting Layup Shot,1,2,33
+0021900755,49,PT07M23.00S,1,1610612765,DET,1629635,Doumbouya,S. Doumbouya,0,0,0,,0,,,0,h,Doumbouya S.FOUL (P1.T2) (N.Green),Foul,Shooting,1,0,34
+0021900755,51,PT07M23.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,17,15,32,v,Ayton Free Throw 1 of 1 (7 PTS),Free Throw,Free Throw 1 of 1,0,0,35
+0021900755,52,PT07M00.00S,1,1610612765,DET,203083,Drummond,A. Drummond,-19,3,2,Made,1,19,15,34,h,Drummond 2' Driving Layup (8 PTS) (Jackson 2 AST),Made Shot,Driving Layup Shot,1,2,36
+0021900755,54,PT06M43.00S,1,1610612756,PHX,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,37
+0021900755,54,PT06M43.00S,1,1610612765,DET,1629635,Doumbouya,S. Doumbouya,0,0,0,,0,,,0,h,Doumbouya STEAL (1 STL),,,1,0,38
+0021900755,56,PT06M37.00S,1,1610612765,DET,1629635,Doumbouya,S. Doumbouya,11,4,1,Missed,1,,,0,h,MISS Doumbouya 1' Layup,Missed Shot,Layup Shot,1,2,39
+0021900755,57,PT06M34.00S,1,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,40
+0021900755,58,PT06M34.00S,1,1610612765,DET,1628971,Brown,B. Brown,0,-6,1,Made,1,21,15,36,h,Brown 1' Tip Layup Shot (4 PTS),Made Shot,Tip Layup Shot,1,2,41
+0021900755,59,PT06M24.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,3,26,3,Made,1,21,17,38,v,Ayton 3' Cutting Dunk Shot (9 PTS) (Rubio 6 AST),Made Shot,Cutting Dunk Shot,1,2,42
+0021900755,61,PT06M05.00S,1,1610612765,DET,202704,Jackson,R. Jackson,-138,29,14,Missed,1,,,0,h,MISS Jackson 14' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,43
+0021900755,62,PT06M02.00S,1,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,v,Bridges REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,44
+0021900755,63,PT05M56.00S,1,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,190,175,26,Made,1,21,20,41,v,Oubre Jr. 26' 3PT Pullup Jump Shot (3 PTS) (Bridges 1 AST),Made Shot,Pullup Jump shot,1,3,45
+0021900755,65,PT05M50.00S,1,1610612765,DET,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,Jackson Out of Bounds - Bad Pass Turnover Turnover (P1.T1),Turnover,Out of Bounds - Bad Pass Turnover,1,0,46
+0021900755,66,PT05M35.00S,1,1610612756,PHX,201937,Rubio,R. Rubio,-123,139,19,Missed,1,,,0,v,MISS Rubio 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,47
+0021900755,67,PT05M31.00S,1,1610612765,DET,203503,Snell,T. Snell,0,0,0,,0,,,0,h,Snell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,48
+0021900755,69,PT05M24.00S,1,1610612765,DET,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,SUB: Galloway FOR Jackson,Substitution,,0,0,49
+0021900755,70,PT05M24.00S,1,1610612756,PHX,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,SUB: Okobo FOR Rubio,Substitution,,0,0,50
+0021900755,73,PT05M15.00S,1,1610612765,DET,203503,Snell,T. Snell,-15,50,5,Missed,1,,,0,h,MISS Snell 5' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,51
+0021900755,74,PT05M11.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:3 Def:0),Rebound,Unknown,1,0,52
+0021900755,75,PT05M11.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,-6,1,Made,1,23,20,43,h,Drummond 1' Tip Dunk Shot (10 PTS),Made Shot,Tip Dunk Shot,1,2,53
+0021900755,76,PT04M59.00S,1,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,Brown S.FOUL (P1.T3) (S.Wall),Foul,Shooting,1,0,54
+0021900755,78,PT04M59.00S,1,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,23,21,44,v,Booker Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,55
+0021900755,79,PT04M59.00S,1,1610612765,DET,1629635,Doumbouya,S. Doumbouya,0,0,0,,0,,,0,h,SUB: Wood FOR Doumbouya,Substitution,,0,0,56
+0021900755,81,PT04M59.00S,1,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,23,22,45,v,Booker Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,57
+0021900755,82,PT04M43.00S,1,1610612765,DET,204038,Galloway,L. Galloway,78,245,26,Missed,1,,,0,h,MISS Galloway 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,58
+0021900755,83,PT04M40.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,v,Ayton REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,59
+0021900755,84,PT04M30.00S,1,1610612756,PHX,1626164,Booker,D. Booker,-14,134,13,Made,1,23,24,47,v,Booker 13' Pullup Jump Shot (6 PTS),Made Shot,Pullup Jump shot,1,2,60
+0021900755,85,PT04M12.00S,1,1610612765,DET,203083,Drummond,A. Drummond,7,66,7,Made,1,25,24,49,h,Drummond 7' Floating Jump Shot (12 PTS) (Brown 4 AST),Made Shot,Floating Jump shot,1,2,61
+0021900755,137,PT04M03.00S,1,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,-47,55,7,Missed,1,,,0,v,MISS Oubre Jr. 7' Driving Layup,Missed Shot,Driving Layup Shot,1,2,62
+0021900755,137,PT04M03.00S,1,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,h,Galloway BLOCK (1 BLK),,,1,2,63
+0021900755,139,PT04M01.00S,1,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,64
+0021900755,88,PT03M47.00S,1,1610612765,DET,203083,Drummond,A. Drummond,14,6,2,Made,1,27,24,51,h,Drummond 2' Alley Oop Dunk (14 PTS) (Snell 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,65
+0021900755,90,PT03M25.00S,1,1610612756,PHX,1626164,Booker,D. Booker,-81,89,12,Made,1,27,26,53,v,Booker 12' Fadeaway Jumper (8 PTS),Made Shot,Fadeaway Jump Shot,1,2,66
+0021900755,91,PT03M03.00S,1,1610612765,DET,203503,Snell,T. Snell,96,113,15,Missed,1,,,0,h,MISS Snell 15' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,67
+0021900755,92,PT03M02.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:4 Def:0),Rebound,Unknown,1,0,68
+0021900755,93,PT02M55.00S,1,1610612765,DET,204038,Galloway,L. Galloway,-231,110,26,Made,1,30,26,56,h,Galloway 26' 3PT Jump Shot (3 PTS) (Drummond 2 AST),Made Shot,Jump Shot,1,3,69
+0021900755,95,PT02M31.00S,1,1610612756,PHX,1626164,Booker,D. Booker,62,99,12,Made,1,30,28,58,v,Booker 12' Jump Shot (10 PTS),Made Shot,Jump Shot,1,2,70
+0021900755,96,PT02M17.00S,1,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,v,Oubre Jr. P.FOUL (P1.T1) (N.Green),Foul,Personal,1,0,71
+0021900755,98,PT02M17.00S,1,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,72
+0021900755,99,PT02M17.00S,1,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,SUB: Bone FOR Brown,Substitution,,0,0,73
+0021900755,100,PT02M17.00S,1,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,v,SUB: Diallo FOR Oubre Jr.,Substitution,,0,0,74
+0021900755,101,PT02M17.00S,1,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,v,SUB: Carter FOR Bridges,Substitution,,0,0,75
+0021900755,107,PT02M05.00S,1,1610612765,DET,203503,Snell,T. Snell,-206,140,25,Missed,1,,,0,h,MISS Snell 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,76
+0021900755,108,PT02M03.00S,1,1610612756,PHX,1629059,Okobo,E. Okobo,0,0,0,,0,,,0,v,Okobo REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,77
+0021900755,109,PT01M57.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,-116,50,13,Made,1,30,30,60,v,Ayton 13' Jump Shot (11 PTS) (Okobo 1 AST),Made Shot,Jump Shot,1,2,78
+0021900755,111,PT01M34.00S,1,1610612765,DET,1629648,Bone,J. Bone,-79,27,8,Missed,1,,,0,h,MISS Bone 8' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,79
+0021900755,112,PT01M31.00S,1,1610612756,PHX,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,v,Diallo REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,80
+0021900755,113,PT01M21.00S,1,1610612756,PHX,1629028,Ayton,D. Ayton,-82,138,16,Missed,1,,,0,v,MISS Ayton 16' Jump Shot,Missed Shot,Jump Shot,1,2,81
+0021900755,114,PT01M19.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:4 Def:1),Rebound,Unknown,1,0,82
+0021900755,115,PT01M12.00S,1,1610612765,DET,1626174,Wood,C. Wood,28,16,3,Made,1,32,30,62,h,Wood 3' Driving Layup (2 PTS) (Galloway 1 AST),Made Shot,Driving Layup Shot,1,2,83
+0021900755,117,PT01M12.00S,1,1610612756,PHX,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,v,Diallo S.FOUL (P1.T2) (S.Wall),Foul,Shooting,1,0,84
+0021900755,119,PT01M12.00S,1,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,33,30,63,h,Wood Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,1,0,85
+0021900755,120,PT00M58.00S,1,1610612756,PHX,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,v,Diallo Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,86
+0021900755,120,PT00M58.00S,1,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood STEAL (1 STL),,,1,0,87
+0021900755,122,PT00M54.20S,1,1610612765,DET,1626174,Wood,C. Wood,11,24,3,Made,1,35,30,65,h,Wood 3' Running Dunk (5 PTS),Made Shot,Running Dunk Shot,1,2,88
+0021900755,123,PT00M40.70S,1,1610612756,PHX,1627767,Diallo,C. Diallo,-6,68,7,Missed,1,,,0,v,MISS Diallo 7' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,89
+0021900755,124,PT00M38.60S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:4 Def:2),Rebound,Unknown,1,0,90
+0021900755,125,PT00M31.70S,1,1610612765,DET,203503,Snell,T. Snell,-70,6,7,Missed,1,,,0,h,MISS Snell 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,91
+0021900755,126,PT00M29.90S,1,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,92
+0021900755,127,PT00M29.40S,1,1610612765,DET,204038,Galloway,L. Galloway,236,41,24,Made,1,38,30,68,h,Galloway 24' 3PT Jump Shot (6 PTS) (Wood 1 AST),Made Shot,Jump Shot,1,3,93
+0021900755,129,PT00M14.60S,1,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,h,Galloway S.FOUL (P1.T4) (N.Green),Foul,Shooting,1,0,94
+0021900755,131,PT00M14.60S,1,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,MISS Booker Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,95
+0021900755,132,PT00M14.60S,1,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Rebound,Rebound,Normal Rebound,0,0,96
+0021900755,133,PT00M14.60S,1,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,38,31,69,v,Booker Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,97
+0021900755,134,PT00M01.50S,1,1610612765,DET,1626174,Wood,C. Wood,-105,141,18,Missed,1,,,0,h,MISS Wood 18' Jump Shot,Missed Shot,Jump Shot,1,2,98
+0021900755,135,PT00M01.00S,1,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,99
+0021900755,136,PT00M00.00S,1,0,,0,,,0,0,0,,0,38,31,69,,End of 1st Period (7:33 PM EST),period,end,1,0,100
+0021900755,150,PT12M00.00S,2,0,,0,,,0,0,0,,0,38,31,69,,Start of 2nd Period (7:36 PM EST),period,start,0,0,101
+0021900755,151,PT11M44.00S,2,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,-84,69,11,Made,1,38,33,71,v,Oubre Jr. 11' Pullup Jump Shot (5 PTS),Made Shot,Pullup Jump shot,1,2,102
+0021900755,152,PT11M24.00S,2,1610612765,DET,204038,Galloway,L. Galloway,177,11,18,Made,1,40,33,73,h,Galloway 18' Jump Shot (8 PTS) (Maker 1 AST),Made Shot,Jump Shot,1,2,103
+0021900755,154,PT11M13.00S,2,1610612765,DET,1629648,Bone,J. Bone,0,0,0,,0,,,0,h,Bone P.FOUL (P1.T1) (S.Wall),Foul,Personal,1,0,104
+0021900755,156,PT10M59.00S,2,1610612756,PHX,1628975,Carter,J. Carter,-237,-1,24,Missed,1,,,0,v,MISS Carter 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,105
+0021900755,157,PT10M57.00S,2,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,106
+0021900755,158,PT10M43.00S,2,1610612765,DET,1626174,Wood,C. Wood,-18,8,2,Made,1,42,33,75,h,Wood 2' Dunk (7 PTS),Made Shot,Dunk Shot,1,2,107
+0021900755,159,PT10M43.00S,2,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,v,Bridges S.FOUL (P1.T1) (S.Wall),Foul,Shooting,1,0,108
+0021900755,161,PT10M43.00S,2,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,43,33,76,h,Wood Free Throw 1 of 1 (8 PTS),Free Throw,Free Throw 1 of 1,1,0,109
+0021900755,162,PT10M31.00S,2,1610612756,PHX,1628975,Carter,J. Carter,-237,0,24,Made,1,43,36,79,v,Carter 24' 3PT Jump Shot (3 PTS) (Rubio 7 AST),Made Shot,Jump Shot,1,3,110
+0021900755,164,PT10M07.00S,2,1610612765,DET,1629648,Bone,J. Bone,-112,229,25,Missed,1,,,0,h,MISS Bone 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,111
+0021900755,165,PT10M07.00S,2,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Rebound,Rebound,Unknown,0,0,112
+0021900755,168,PT09M43.00S,2,1610612756,PHX,1628975,Carter,J. Carter,-187,193,27,Missed,1,,,0,v,MISS Carter 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,113
+0021900755,169,PT09M41.00S,2,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,h,Galloway REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,114
+0021900755,171,PT09M18.00S,2,1610612765,DET,1626174,Wood,C. Wood,-130,5,13,Missed,1,,,0,h,MISS Wood 13' Jump Shot,Missed Shot,Jump Shot,1,2,115
+0021900755,172,PT09M16.00S,2,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,116
+0021900755,173,PT09M13.00S,2,1610612765,DET,1629648,Bone,J. Bone,44,17,5,Missed,1,,,0,h,MISS Bone 5' Layup,Missed Shot,Layup Shot,1,2,117
+0021900755,174,PT09M11.00S,2,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,118
+0021900755,175,PT09M09.00S,2,1610612765,DET,1626174,Wood,C. Wood,-15,11,2,Made,1,45,36,81,h,Wood 2' Putback Layup (10 PTS),Made Shot,Putback Layup Shot,1,2,119
+0021900755,176,PT08M50.00S,2,1610612756,PHX,201937,Rubio,R. Rubio,-203,174,27,Missed,1,,,0,v,MISS Rubio 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,120
+0021900755,177,PT08M46.00S,2,1610612765,DET,1629648,Bone,J. Bone,0,0,0,,0,,,0,h,Bone REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,121
+0021900755,178,PT08M39.00S,2,1610612765,DET,202704,Jackson,R. Jackson,187,171,25,Made,1,48,36,84,h,Jackson 25' 3PT Jump Shot (9 PTS) (Bone 1 AST),Made Shot,Jump Shot,1,3,122
+0021900755,180,PT08M39.00S,2,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,123
+0021900755,181,PT08M39.00S,2,1610612756,PHX,1628975,Carter,J. Carter,0,0,0,,0,,,0,v,SUB: Booker FOR Carter,Substitution,,0,0,124
+0021900755,182,PT08M39.00S,2,1610612756,PHX,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,v,SUB: Ayton FOR Diallo,Substitution,,0,0,125
+0021900755,185,PT08M23.00S,2,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,-49,21,5,Made,1,48,38,86,v,Oubre Jr. 5' Jump Bank Shot (7 PTS) (Ayton 1 AST),Made Shot,Jump Bank Shot,1,2,126
+0021900755,187,PT08M07.00S,2,1610612765,DET,204038,Galloway,L. Galloway,240,65,25,Missed,1,,,0,h,MISS Galloway 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,127
+0021900755,188,PT08M06.00S,2,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Rebound,Rebound,Unknown,0,0,128
+0021900755,189,PT08M06.00S,2,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker L.B.FOUL (P1.T2) (N.Green),Foul,Loose Ball,1,0,129
+0021900755,191,PT07M57.00S,2,1610612756,PHX,1626164,Booker,D. Booker,-71,133,15,Missed,1,,,0,v,MISS Booker 15' Jump Shot,Missed Shot,Jump Shot,1,2,130
+0021900755,192,PT07M54.00S,2,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,131
+0021900755,193,PT07M46.00S,2,1610612765,DET,202704,Jackson,R. Jackson,2,20,2,Missed,1,,,0,h,MISS Jackson 2' Layup,Missed Shot,Layup Shot,1,2,132
+0021900755,194,PT07M44.00S,2,1610612765,DET,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,Jackson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,133
+0021900755,196,PT07M31.00S,2,1610612765,DET,202704,Jackson,R. Jackson,-200,159,26,Missed,1,,,0,h,MISS Jackson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,134
+0021900755,197,PT07M29.00S,2,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,135
+0021900755,198,PT07M16.00S,2,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,195,18,20,Made,1,48,40,88,v,Oubre Jr. 20' Pullup Jump Shot (9 PTS),Made Shot,Pullup Jump shot,1,2,136
+0021900755,199,PT07M02.00S,2,1610612765,DET,202704,Jackson,R. Jackson,36,38,5,Missed,1,,,0,h,MISS Jackson 5' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,137
+0021900755,200,PT06M59.00S,2,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,v,Bridges REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,138
+0021900755,201,PT06M59.00S,2,1610612765,DET,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,Jackson P.FOUL (P1.T3) (N.Green),Foul,Personal,1,0,139
+0021900755,203,PT06M59.00S,2,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,SUB: Doumbouya FOR Wood,Substitution,,0,0,140
+0021900755,205,PT06M59.00S,2,1610612765,DET,1629648,Bone,J. Bone,0,0,0,,0,,,0,h,SUB: Brown FOR Bone,Substitution,,0,0,141
+0021900755,207,PT06M55.00S,2,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,-105,249,27,Made,1,48,43,91,v,Oubre Jr. 27' 3PT Pullup Jump Shot (12 PTS) (Ayton 2 AST),Made Shot,Pullup Jump shot,1,3,142
+0021900755,209,PT06M36.00S,2,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker P.FOUL (P1.T2) (S.Wall),Foul,Personal,1,0,143
+0021900755,211,PT06M22.00S,2,1610612765,DET,1628971,Brown,B. Brown,-227,62,24,Missed,1,,,0,h,MISS Brown 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,144
+0021900755,212,PT06M22.00S,2,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Rebound,Rebound,Unknown,0,0,145
+0021900755,214,PT06M08.00S,2,1610612756,PHX,1628969,Bridges,M. Bridges,-236,32,24,Made,1,48,46,94,v,Bridges 24' 3PT Jump Shot (9 PTS) (Rubio 8 AST),Made Shot,Jump Shot,1,3,146
+0021900755,216,PT06M08.00S,2,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,147
+0021900755,217,PT06M08.00S,2,1610612765,DET,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,SUB: Drummond FOR Jackson,Substitution,,0,0,148
+0021900755,218,PT06M08.00S,2,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,SUB: Snell FOR Maker,Substitution,,0,0,149
+0021900755,221,PT05M41.00S,2,1610612765,DET,1628971,Brown,B. Brown,45,40,6,Missed,1,,,0,h,MISS Brown 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,150
+0021900755,222,PT05M39.00S,2,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,v,Bridges REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,151
+0021900755,223,PT05M22.00S,2,1610612756,PHX,1629028,Ayton,D. Ayton,-2,145,15,Missed,1,,,0,v,MISS Ayton 15' Jump Shot,Missed Shot,Jump Shot,1,2,152
+0021900755,224,PT05M20.00S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:4 Def:3),Rebound,Unknown,1,0,153
+0021900755,225,PT05M03.00S,2,1610612765,DET,1629635,Doumbouya,S. Doumbouya,-8,252,25,Missed,1,,,0,h,MISS Doumbouya 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,154
+0021900755,226,PT05M01.00S,2,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,v,Oubre Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,155
+0021900755,227,PT04M53.00S,2,1610612756,PHX,1628969,Bridges,M. Bridges,233,17,0,Missed,1,,,0,v,MISS Bridges 3PT Jump Shot,Missed Shot,Jump Shot,1,3,156
+0021900755,228,PT04M51.00S,2,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,v,Ayton REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,157
+0021900755,229,PT04M51.00S,2,1610612756,PHX,1629028,Ayton,D. Ayton,0,-6,1,Missed,1,,,0,v,MISS Ayton 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,158
+0021900755,230,PT04M51.00S,2,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,v,Ayton REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,159
+0021900755,231,PT04M51.00S,2,1610612756,PHX,1629028,Ayton,D. Ayton,0,-6,1,Made,1,48,48,96,v,Ayton 1' Putback Dunk (13 PTS),Made Shot,Putback Dunk Shot,1,2,160
+0021900755,232,PT04M51.00S,2,1610612765,DET,1629635,Doumbouya,S. Doumbouya,0,0,0,,0,,,0,h,Doumbouya S.FOUL (P2.T4) (N.Green),Foul,Shooting,1,0,161
+0021900755,234,PT04M51.00S,2,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,v,MISS Ayton Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,162
+0021900755,235,PT04M49.00S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:4 Def:4),Rebound,Unknown,1,0,163
+0021900755,236,PT04M26.00S,2,1610612765,DET,1628971,Brown,B. Brown,-32,19,4,Missed,1,,,0,h,MISS Brown 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,164
+0021900755,237,PT04M26.00S,2,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,165
+0021900755,239,PT04M26.00S,2,1610612756,PHX,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,SUB: Carter FOR Rubio,Substitution,,0,0,166
+0021900755,238,PT04M26.00S,2,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Turnover: Shot Clock (T#2),Turnover,Shot Clock Turnover,0,0,167
+0021900755,241,PT04M10.00S,2,1610612756,PHX,1626164,Booker,D. Booker,182,-1,18,Missed,1,,,0,v,MISS Booker 18' Jump Shot,Missed Shot,Jump Shot,1,2,168
+0021900755,242,PT04M07.00S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:4 Def:5),Rebound,Unknown,1,0,169
+0021900755,243,PT04M01.00S,2,1610612756,PHX,1628975,Carter,J. Carter,0,0,0,,0,,,0,v,Carter P.FOUL (P1.T3) (J.Capers),Foul,Personal,1,0,170
+0021900755,245,PT03M47.00S,2,1610612765,DET,1629635,Doumbouya,S. Doumbouya,-20,9,2,Made,1,50,48,98,h,Doumbouya 2' Layup (5 PTS) (Galloway 2 AST),Made Shot,Layup Shot,1,2,171
+0021900755,247,PT03M31.00S,2,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,h,Galloway P.FOUL (P2.PN) (J.Capers),Foul,Personal,1,0,172
+0021900755,249,PT03M31.00S,2,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,50,49,99,v,Ayton Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,173
+0021900755,250,PT03M31.00S,2,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,h,SUB: Wood FOR Galloway,Substitution,,0,0,174
+0021900755,252,PT03M31.00S,2,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,v,MISS Ayton Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,175
+0021900755,253,PT03M28.00S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:4 Def:6),Rebound,Unknown,1,0,176
+0021900755,254,PT03M05.00S,2,1610612765,DET,1628971,Brown,B. Brown,-32,43,5,Made,1,52,49,101,h,Brown 5' Turnaround Hook Shot (6 PTS),Made Shot,Turnaround Hook Shot,1,2,177
+0021900755,256,PT03M05.00S,2,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,v,Ayton Inbound Turnover (P1.T5),Turnover,Inbound Turnover,1,0,178
+0021900755,257,PT02M55.00S,2,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,v,Oubre Jr. S.FOUL (P2.T4) (J.Capers),Foul,Shooting,1,0,179
+0021900755,259,PT02M55.00S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,53,49,102,h,Drummond Free Throw 1 of 2 (15 PTS),Free Throw,Free Throw 1 of 2,1,0,180
+0021900755,260,PT02M55.00S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,54,49,103,h,Drummond Free Throw 2 of 2 (16 PTS),Free Throw,Free Throw 2 of 2,1,0,181
+0021900755,261,PT02M40.00S,2,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,217,143,26,Missed,1,,,0,v,MISS Oubre Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,182
+0021900755,262,PT02M38.00S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:4 Def:7),Rebound,Unknown,1,0,183
+0021900755,263,PT02M32.00S,2,1610612765,DET,203083,Drummond,A. Drummond,-19,8,2,Made,1,56,49,105,h,Drummond 2' Running Jump Shot (18 PTS),Made Shot,Running Jump Shot,1,2,184
+0021900755,264,PT02M23.00S,2,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,-23,11,3,Made,1,56,51,107,v,Oubre Jr. 3' Driving Layup (14 PTS) (Ayton 3 AST),Made Shot,Driving Layup Shot,1,2,185
+0021900755,266,PT02M23.00S,2,1610612765,DET,1629635,Doumbouya,S. Doumbouya,0,0,0,,0,,,0,h,Doumbouya S.FOUL (P3.PN) (N.Green),Foul,Shooting,1,0,186
+0021900755,268,PT02M23.00S,2,1610612765,DET,1629635,Doumbouya,S. Doumbouya,0,0,0,,0,,,0,h,SUB: Jackson FOR Doumbouya,Substitution,,0,0,187
+0021900755,269,PT02M23.00S,2,1610612756,PHX,1628975,Carter,J. Carter,0,0,0,,0,,,0,v,SUB: Rubio FOR Carter,Substitution,,0,0,188
+0021900755,272,PT02M23.00S,2,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,56,52,108,v,Oubre Jr. Free Throw 1 of 1 (15 PTS),Free Throw,Free Throw 1 of 1,1,0,189
+0021900755,273,PT02M05.00S,2,1610612765,DET,202704,Jackson,R. Jackson,43,26,5,Missed,1,,,0,h,MISS Jackson 5' Driving Bank Hook Shot,Missed Shot,Driving Bank Hook Shot,1,2,190
+0021900755,274,PT02M03.00S,2,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,191
+0021900755,276,PT01M54.00S,2,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,212,152,26,Made,1,56,55,111,v,Oubre Jr. 26' 3PT Jump Shot (18 PTS) (Rubio 9 AST),Made Shot,Jump Shot,1,3,192
+0021900755,278,PT01M36.00S,2,1610612765,DET,1626174,Wood,C. Wood,-13,16,2,Made,1,58,55,113,h,Wood 2' Cutting Layup Shot (12 PTS) (Brown 5 AST),Made Shot,Cutting Layup Shot,1,2,193
+0021900755,280,PT01M36.00S,2,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,v,Bridges S.FOUL (P2.PN) (S.Wall),Foul,Shooting,1,0,194
+0021900755,282,PT01M36.00S,2,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,59,55,114,h,Wood Free Throw 1 of 1 (13 PTS),Free Throw,Free Throw 1 of 1,1,0,195
+0021900755,283,PT01M18.00S,2,1610612756,PHX,1628969,Bridges,M. Bridges,27,15,3,Made,1,59,57,116,v,Bridges 3' Driving Layup (11 PTS) (Booker 2 AST),Made Shot,Driving Layup Shot,1,2,196
+0021900755,285,PT00M59.30S,2,1610612765,DET,203083,Drummond,A. Drummond,-19,15,2,Made,1,61,57,118,h,Drummond 2' Cutting Layup Shot (20 PTS) (Jackson 3 AST),Made Shot,Cutting Layup Shot,1,2,197
+0021900755,287,PT00M59.30S,2,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,v,Ayton S.FOUL (P1.PN) (N.Green),Foul,Shooting,1,0,198
+0021900755,289,PT00M59.30S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,MISS Drummond Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,199
+0021900755,290,PT00M57.10S,2,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,v,Bridges REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,200
+0021900755,291,PT00M41.90S,2,1610612756,PHX,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio Out of Bounds - Bad Pass Turnover Turnover (P2.T6),Turnover,Out of Bounds - Bad Pass Turnover,1,0,201
+0021900755,292,PT00M32.20S,2,1610612765,DET,202704,Jackson,R. Jackson,-37,3,4,Missed,1,,,0,h,MISS Jackson 4' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,202
+0021900755,294,PT00M27.10S,2,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,v,Bridges REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,203
+0021900755,295,PT00M25.60S,2,1610612756,PHX,1629028,Ayton,D. Ayton,-17,18,2,Made,1,61,59,120,v,Ayton 2' Alley Oop Layup (16 PTS) (Rubio 10 AST),Made Shot,Alley Oop Layup shot,1,2,204
+0021900755,297,PT00M04.50S,2,1610612765,DET,203503,Snell,T. Snell,-193,167,26,Made,1,64,59,123,h,Snell 26' 3PT Jump Shot (3 PTS) (Jackson 4 AST),Made Shot,Jump Shot,1,3,205
+0021900755,299,PT00M00.30S,2,1610612756,PHX,1628969,Bridges,M. Bridges,-20,10,2,Made,1,64,61,125,v,Bridges 2' Driving Reverse Layup (13 PTS) (Ayton 4 AST),Made Shot,Driving Reverse Layup Shot,1,2,206
+0021900755,301,PT00M00.00S,2,0,,0,,,0,0,0,,0,64,61,125,,End of 2nd Period (8:02 PM EST),period,end,1,0,207
+0021900755,304,PT12M00.00S,3,0,,0,,,0,0,0,,0,64,61,125,,Start of 3rd Period (8:17 PM EST),period,start,0,0,208
+0021900755,305,PT11M40.00S,3,1610612756,PHX,1629028,Ayton,D. Ayton,-8,50,5,Made,1,64,63,127,v,Ayton 5' Floating Jump Shot (18 PTS) (Oubre Jr. 1 AST),Made Shot,Floating Jump shot,1,2,209
+0021900755,309,PT11M12.00S,3,1610612765,DET,203083,Drummond,A. Drummond,19,11,2,Missed,1,,,0,h,MISS Drummond 2' Layup,Missed Shot,Layup Shot,1,2,210
+0021900755,310,PT11M11.00S,3,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,211
+0021900755,311,PT11M10.00S,3,1610612756,PHX,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio Step Out of Bounds Turnover (P3.T7),Turnover,Step Out of Bounds Turnover,1,0,212
+0021900755,312,PT10M47.00S,3,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,Brown Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,213
+0021900755,312,PT10M47.00S,3,1610612756,PHX,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio STEAL (1 STL),,,1,0,214
+0021900755,314,PT10M42.00S,3,1610612756,PHX,1626164,Booker,D. Booker,-218,137,26,Missed,1,,,0,v,MISS Booker 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,215
+0021900755,315,PT10M39.00S,3,1610612765,DET,1629635,Doumbouya,S. Doumbouya,0,0,0,,0,,,0,h,Doumbouya REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,216
+0021900755,316,PT10M31.00S,3,1610612765,DET,202704,Jackson,R. Jackson,-23,10,3,Made,1,66,63,129,h,Jackson 3' Driving Layup (11 PTS),Made Shot,Driving Layup Shot,1,2,217
+0021900755,317,PT10M26.00S,3,1610612756,PHX,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio OFF.Foul (P1) (N.Green),Foul,Offensive,1,0,218
+0021900755,319,PT10M26.00S,3,1610612756,PHX,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio Offensive Foul Turnover (P4.T8),Turnover,Offensive Foul Turnover,1,0,219
+0021900755,320,PT10M06.00S,3,1610612765,DET,203083,Drummond,A. Drummond,15,8,2,Made,1,68,63,131,h,Drummond 2' Cutting Layup Shot (22 PTS) (Snell 2 AST),Made Shot,Cutting Layup Shot,1,2,220
+0021900755,322,PT10M06.00S,3,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,v,Bridges S.FOUL (P3.T1) (J.Capers),Foul,Shooting,1,0,221
+0021900755,324,PT10M06.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,MISS Drummond Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,222
+0021900755,325,PT10M04.00S,3,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,223
+0021900755,326,PT09M45.00S,3,1610612756,PHX,1629028,Ayton,D. Ayton,41,22,5,Made,1,68,65,133,v,Ayton 5' Layup (20 PTS) (Bridges 2 AST),Made Shot,Layup Shot,1,2,224
+0021900755,328,PT09M21.00S,3,1610612765,DET,1628971,Brown,B. Brown,232,23,0,Missed,1,,,0,h,MISS Brown 3PT Jump Shot,Missed Shot,Jump Shot,1,3,225
+0021900755,329,PT09M19.00S,3,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,v,Ayton REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,226
+0021900755,330,PT09M01.00S,3,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,-226,-17,0,Missed,1,,,0,v,MISS Oubre Jr. 3PT Jump Shot,Missed Shot,Jump Shot,1,3,227
+0021900755,331,PT09M00.00S,3,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,v,Ayton REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,228
+0021900755,332,PT08M58.00S,3,1610612756,PHX,1629028,Ayton,D. Ayton,24,22,3,Made,1,68,67,135,v,Ayton 3' Putback Layup (22 PTS),Made Shot,Putback Layup Shot,1,2,229
+0021900755,333,PT08M36.00S,3,1610612765,DET,202704,Jackson,R. Jackson,-185,260,32,Missed,1,,,0,h,MISS Jackson 32' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,230
+0021900755,334,PT08M33.00S,3,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,v,Ayton REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,231
+0021900755,335,PT08M19.00S,3,1610612756,PHX,1629028,Ayton,D. Ayton,-64,140,15,Missed,1,,,0,v,MISS Ayton 15' Jump Shot,Missed Shot,Jump Shot,1,2,232
+0021900755,336,PT08M17.00S,3,1610612765,DET,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,Jackson REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,233
+0021900755,337,PT08M15.00S,3,1610612765,DET,203083,Drummond,A. Drummond,-23,12,3,Made,1,70,67,137,h,Drummond 3' Layup (24 PTS) (Jackson 5 AST),Made Shot,Layup Shot,1,2,234
+0021900755,339,PT08M15.00S,3,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,v,Ayton S.FOUL (P2.T2) (N.Green),Foul,Shooting,1,0,235
+0021900755,341,PT08M15.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,71,67,138,h,Drummond Free Throw 1 of 1 (25 PTS),Free Throw,Free Throw 1 of 1,1,0,236
+0021900755,342,PT07M55.00S,3,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,152,198,25,Missed,1,,,0,v,MISS Oubre Jr. 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,237
+0021900755,343,PT07M50.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:4 Def:8),Rebound,Unknown,1,0,238
+0021900755,344,PT07M42.00S,3,1610612765,DET,202704,Jackson,R. Jackson,-17,67,7,Missed,1,,,0,h,MISS Jackson 7' Driving Layup,Missed Shot,Driving Layup Shot,1,2,239
+0021900755,344,PT07M42.00S,3,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,v,Ayton BLOCK (1 BLK),,,1,2,240
+0021900755,346,PT07M39.00S,3,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,v,Ayton REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,241
+0021900755,347,PT07M39.00S,3,1610612765,DET,203503,Snell,T. Snell,0,0,0,,0,,,0,h,Snell S.FOUL (P1.T1) (N.Green),Foul,Shooting,1,0,242
+0021900755,349,PT07M39.00S,3,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,71,68,139,v,Oubre Jr. Free Throw 1 of 2 (19 PTS),Free Throw,Free Throw 1 of 2,1,0,243
+0021900755,350,PT07M39.00S,3,1610612765,DET,1629635,Doumbouya,S. Doumbouya,0,0,0,,0,,,0,h,SUB: King FOR Doumbouya,Substitution,,0,0,244
+0021900755,352,PT07M39.00S,3,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,71,69,140,v,Oubre Jr. Free Throw 2 of 2 (20 PTS),Free Throw,Free Throw 2 of 2,1,0,245
+0021900755,353,PT07M17.00S,3,1610612756,PHX,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio P.FOUL (P2.T3) (J.Capers),Foul,Personal,1,0,246
+0021900755,355,PT07M10.00S,3,1610612765,DET,203503,Snell,T. Snell,-24,267,27,Missed,1,,,0,h,MISS Snell 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,247
+0021900755,356,PT07M07.00S,3,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,v,Oubre Jr. REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,248
+0021900755,357,PT07M03.00S,3,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,-15,11,2,Made,1,71,71,142,v,Oubre Jr. 2' Running Dunk (22 PTS),Made Shot,Running Dunk Shot,1,2,249
+0021900755,358,PT06M49.00S,3,1610612765,DET,1629663,King,L. King,-204,178,27,Missed,1,,,0,h,MISS King 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,250
+0021900755,359,PT06M46.00S,3,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Rebound,Rebound,Unknown,0,0,251
+0021900755,361,PT06M46.00S,3,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,252
+0021900755,362,PT06M46.00S,3,1610612765,DET,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,SUB: Wood FOR Jackson,Substitution,,0,0,253
+0021900755,363,PT06M46.00S,3,1610612765,DET,203503,Snell,T. Snell,0,0,0,,0,,,0,h,SUB: Galloway FOR Snell,Substitution,,0,0,254
+0021900755,366,PT06M33.00S,3,1610612756,PHX,1626164,Booker,D. Booker,-63,248,26,Made,1,71,74,145,v,Booker 26' 3PT Jump Shot (14 PTS) (Oubre Jr. 2 AST),Made Shot,Jump Shot,1,3,255
+0021900755,368,PT06M15.00S,3,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker P.FOUL (P2.T4) (N.Green),Foul,Personal,1,0,256
+0021900755,373,PT05M59.00S,3,1610612765,DET,204038,Galloway,L. Galloway,226,-2,0,Made,1,74,74,148,h,Galloway 3PT Jump Shot (11 PTS) (Brown 6 AST),Made Shot,Jump Shot,1,3,257
+0021900755,375,PT05M40.00S,3,1610612756,PHX,1626164,Booker,D. Booker,122,226,26,Missed,1,,,0,v,MISS Booker 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,258
+0021900755,376,PT05M38.00S,3,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,259
+0021900755,377,PT05M19.00S,3,1610612765,DET,1626174,Wood,C. Wood,29,44,5,Made,1,76,74,150,h,Wood 5' Turnaround Jump Shot (15 PTS),Made Shot,Turnaround Jump Shot,1,2,260
+0021900755,378,PT05M06.00S,3,1610612765,DET,1629663,King,L. King,0,0,0,,0,,,0,h,King P.FOUL (P1.T2) (S.Wall),Foul,Personal,1,0,261
+0021900755,380,PT05M06.00S,3,1610612756,PHX,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,SUB: Okobo FOR Rubio,Substitution,,0,0,262
+0021900755,382,PT04M59.00S,3,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,-68,73,10,Missed,1,,,0,v,MISS Oubre Jr. 10' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,263
+0021900755,383,PT04M57.00S,3,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,v,Oubre Jr. REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,264
+0021900755,384,PT04M54.00S,3,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,v,Ayton Traveling Turnover (P2.T9),Turnover,Traveling,1,0,265
+0021900755,385,PT04M45.00S,3,1610612756,PHX,1629059,Okobo,E. Okobo,0,0,0,,0,,,0,v,Okobo S.FOUL (P1.PN) (J.Capers),Foul,Shooting,1,0,266
+0021900755,387,PT04M45.00S,3,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,77,74,151,h,Brown Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,267
+0021900755,388,PT04M45.00S,3,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,MISS Brown Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,268
+0021900755,389,PT04M43.00S,3,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,v,Ayton REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,269
+0021900755,390,PT04M23.00S,3,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,33,83,9,Missed,1,,,0,v,MISS Oubre Jr. 9' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,270
+0021900755,391,PT04M20.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:4 Def:9),Rebound,Unknown,1,0,271
+0021900755,392,PT04M00.00S,3,1610612765,DET,1629663,King,L. King,230,118,26,Made,1,80,74,154,h,King 26' 3PT Jump Shot (3 PTS) (Drummond 3 AST),Made Shot,Jump Shot,1,3,272
+0021900755,394,PT03M58.00S,3,1610612765,DET,1629663,King,L. King,0,0,0,,0,,,0,h,King T.FOUL (P1.T2) (J.Capers),Foul,Technical,1,0,273
+0021900755,395,PT03M58.00S,3,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,80,75,155,v,Booker Free Throw Technical (15 PTS),Free Throw,Free Throw Technical,0,0,274
+0021900755,396,PT03M58.00S,3,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,v,SUB: Diallo FOR Bridges,Substitution,,0,0,275
+0021900755,399,PT03M46.00S,3,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,Brown P.FOUL (P2.T3) (J.Capers),Foul,Personal,1,0,276
+0021900755,401,PT03M46.00S,3,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,v,SUB: Carter FOR Oubre Jr.,Substitution,,0,0,277
+0021900755,403,PT03M34.00S,3,1610612756,PHX,1626164,Booker,D. Booker,-117,227,26,Made,1,80,78,158,v,Booker 26' 3PT Jump Shot (18 PTS),Made Shot,Jump Shot,1,3,278
+0021900755,404,PT03M18.00S,3,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker P.FOUL (P3.PN) (J.Capers),Foul,Personal,1,0,279
+0021900755,406,PT03M18.00S,3,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,81,78,159,h,Brown Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,280
+0021900755,407,PT03M18.00S,3,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,82,78,160,h,Brown Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,281
+0021900755,408,PT03M02.00S,3,1610612756,PHX,1627767,Diallo,C. Diallo,14,16,2,Made,1,82,80,162,v,Diallo 2' Layup (2 PTS) (Booker 3 AST),Made Shot,Layup Shot,1,2,282
+0021900755,410,PT03M02.00S,3,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood S.FOUL (P1.T4) (S.Wall),Foul,Shooting,1,0,283
+0021900755,412,PT03M02.00S,3,1610612756,PHX,1627767,Diallo,C. Diallo,0,0,0,,0,82,81,163,v,Diallo Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,1,0,284
+0021900755,413,PT02M41.00S,3,1610612765,DET,204038,Galloway,L. Galloway,-9,265,27,Missed,1,,,0,h,MISS Galloway 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,285
+0021900755,414,PT02M41.00S,3,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,286
+0021900755,415,PT02M41.00S,3,1610612756,PHX,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,v,Diallo L.B.FOUL (P2.PN) (S.Wall),Foul,Loose Ball,1,0,287
+0021900755,417,PT02M41.00S,3,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,288
+0021900755,418,PT02M41.00S,3,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,SUB: Snell FOR Brown,Substitution,,0,0,289
+0021900755,419,PT02M41.00S,3,1610612765,DET,1629663,King,L. King,0,0,0,,0,,,0,h,SUB: Jackson FOR King,Substitution,,0,0,290
+0021900755,422,PT02M41.00S,3,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,83,81,164,h,Wood Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,1,0,291
+0021900755,423,PT02M41.00S,3,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,MISS Wood Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,292
+0021900755,424,PT02M39.00S,3,1610612756,PHX,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,v,Diallo REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,293
+0021900755,425,PT02M18.00S,3,1610612756,PHX,1629028,Ayton,D. Ayton,-37,53,6,Missed,1,,,0,v,MISS Ayton 6' Hook Shot,Missed Shot,Hook Shot,1,2,294
+0021900755,426,PT02M15.00S,3,1610612765,DET,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,Jackson REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,295
+0021900755,427,PT02M11.00S,3,1610612765,DET,1626174,Wood,C. Wood,-41,38,6,Missed,1,,,0,h,MISS Wood 6' Layup,Missed Shot,Layup Shot,1,2,296
+0021900755,427,PT02M11.00S,3,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,v,Ayton BLOCK (2 BLK),,,1,2,297
+0021900755,429,PT02M08.00S,3,1610612756,PHX,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,v,Diallo REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,298
+0021900755,430,PT02M03.00S,3,1610612756,PHX,1629059,Okobo,E. Okobo,-230,27,0,Made,1,83,84,167,v,Okobo 3PT Jump Shot (3 PTS) (Booker 4 AST),Made Shot,Jump Shot,1,3,299
+0021900755,432,PT01M44.00S,3,1610612765,DET,203083,Drummond,A. Drummond,-25,8,3,Missed,1,,,0,h,MISS Drummond 3' Layup,Missed Shot,Layup Shot,1,2,300
+0021900755,432,PT01M44.00S,3,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,v,Ayton BLOCK (3 BLK),,,1,2,301
+0021900755,434,PT01M42.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:5 Def:9),Rebound,Unknown,1,0,302
+0021900755,435,PT01M39.00S,3,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Turnover: Shot Clock (T#4),Turnover,Shot Clock Turnover,0,0,303
+0021900755,436,PT01M26.00S,3,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker Bad Pass Turnover (P2.T10),Turnover,Bad Pass,1,0,304
+0021900755,436,PT01M26.00S,3,1610612765,DET,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,Jackson STEAL (1 STL),,,1,0,305
+0021900755,438,PT01M23.00S,3,1610612765,DET,202704,Jackson,R. Jackson,-14,17,2,Made,1,85,84,169,h,Jackson 2' Running Finger Roll Layup (13 PTS),Made Shot,Running Finger Roll Layup Shot,1,2,306
+0021900755,439,PT01M04.00S,3,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker Bad Pass Turnover (P3.T11),Turnover,Bad Pass,1,0,307
+0021900755,439,PT01M04.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond STEAL (2 STL),,,1,0,308
+0021900755,441,PT00M58.50S,3,1610612765,DET,202704,Jackson,R. Jackson,21,13,2,Missed,1,,,0,h,MISS Jackson 2' Layup,Missed Shot,Layup Shot,1,2,309
+0021900755,442,PT00M56.50S,3,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,v,Ayton REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,310
+0021900755,443,PT00M46.20S,3,1610612756,PHX,1629059,Okobo,E. Okobo,54,17,6,Missed,1,,,0,v,MISS Okobo 6' Layup,Missed Shot,Layup Shot,1,2,311
+0021900755,444,PT00M44.70S,3,1610612756,PHX,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,v,Diallo REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,312
+0021900755,445,PT00M43.00S,3,1610612756,PHX,1627767,Diallo,C. Diallo,-10,16,2,Missed,1,,,0,v,MISS Diallo 2' Layup,Missed Shot,Layup Shot,1,2,313
+0021900755,446,PT00M40.80S,3,1610612765,DET,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,Jackson REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,314
+0021900755,447,PT00M38.40S,3,1610612765,DET,203503,Snell,T. Snell,-19,8,2,Made,1,87,84,171,h,Snell 2' Dunk (5 PTS) (Jackson 6 AST),Made Shot,Dunk Shot,1,2,315
+0021900755,449,PT00M30.30S,3,1610612756,PHX,1626164,Booker,D. Booker,-134,241,28,Missed,1,,,0,v,MISS Booker 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,316
+0021900755,450,PT00M28.00S,3,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,317
+0021900755,451,PT00M10.10S,3,1610612765,DET,202704,Jackson,R. Jackson,3,27,3,Made,1,89,84,173,h,Jackson 3' Driving Layup (15 PTS),Made Shot,Driving Layup Shot,1,2,318
+0021900755,452,PT00M03.50S,3,1610612756,PHX,1627767,Diallo,C. Diallo,13,3,1,Made,1,89,86,175,v,Diallo 1' Alley Oop Layup (5 PTS) (Booker 5 AST),Made Shot,Alley Oop Layup shot,1,2,319
+0021900755,454,PT00M00.00S,3,0,,0,,,0,0,0,,0,89,86,175,,End of 3rd Period (8:44 PM EST),period,end,1,0,320
+0021900755,463,PT12M00.00S,4,0,,0,,,0,0,0,,0,89,86,175,,Start of 4th Period (8:47 PM EST),period,start,0,0,321
+0021900755,465,PT11M41.00S,4,1610612765,DET,203503,Snell,T. Snell,60,102,12,Missed,1,,,0,h,MISS Snell 12' Jump Shot,Missed Shot,Jump Shot,1,2,322
+0021900755,466,PT11M39.00S,4,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,323
+0021900755,491,PT11M39.00S,4,1610612765,DET,1627748,Maker,T. Maker,-7,18,2,Missed,1,,,0,h,MISS Maker 2' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,324
+0021900755,492,PT11M38.00S,4,1610612756,PHX,1629059,Okobo,E. Okobo,0,0,0,,0,,,0,v,Okobo REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,325
+0021900755,467,PT11M15.00S,4,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,v,Bridges Bad Pass Turnover (P2.T12),Turnover,Bad Pass,1,0,326
+0021900755,467,PT11M15.00S,4,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,h,Galloway STEAL (1 STL),,,1,0,327
+0021900755,469,PT11M09.00S,4,1610612765,DET,204038,Galloway,L. Galloway,10,15,2,Made,1,91,86,177,h,Galloway 2' Dunk (13 PTS) (Snell 3 AST),Made Shot,Dunk Shot,1,2,328
+0021900755,471,PT10M51.00S,4,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,236,32,24,Made,1,91,89,180,v,Oubre Jr. 24' 3PT Jump Shot (25 PTS) (Bridges 3 AST),Made Shot,Jump Shot,1,3,329
+0021900755,473,PT10M37.00S,4,1610612765,DET,1626174,Wood,C. Wood,29,10,3,Missed,1,,,0,h,MISS Wood 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,330
+0021900755,474,PT10M35.00S,4,1610612756,PHX,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,v,Diallo REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,331
+0021900755,475,PT10M31.00S,4,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,24,9,3,Missed,1,,,0,v,MISS Oubre Jr. 3' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,332
+0021900755,476,PT10M31.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,333
+0021900755,478,PT10M24.00S,4,1610612756,PHX,1629059,Okobo,E. Okobo,0,0,0,,0,,,0,v,Okobo P.FOUL (P2.T1) (N.Green),Foul,Personal,1,0,334
+0021900755,480,PT10M17.00S,4,1610612756,PHX,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio P.FOUL (P3.T2) (N.Green),Foul,Personal,1,0,335
+0021900755,482,PT10M05.00S,4,1610612765,DET,202704,Jackson,R. Jackson,156,227,28,Missed,1,,,0,h,MISS Jackson 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,336
+0021900755,483,PT10M03.00S,4,1610612756,PHX,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,v,Diallo REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,337
+0021900755,484,PT09M52.00S,4,1610612756,PHX,1627767,Diallo,C. Diallo,11,10,1,Made,1,91,91,182,v,Diallo 1' Layup (7 PTS) (Bridges 4 AST),Made Shot,Layup Shot,1,2,338
+0021900755,486,PT09M38.00S,4,1610612765,DET,202704,Jackson,R. Jackson,6,39,4,Made,1,93,91,184,h,Jackson 4' Driving Floating Jump Shot (17 PTS) (Galloway 3 AST),Made Shot,Driving Floating Jump Shot,1,2,339
+0021900755,489,PT09M13.00S,4,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Turnover: Shot Clock (T#13),Turnover,Shot Clock Turnover,0,0,340
+0021900755,490,PT09M11.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,341
+0021900755,510,PT09M11.00S,4,1610612756,PHX,1629059,Okobo,E. Okobo,0,0,0,,0,,,0,v,SUB: Booker FOR Okobo,Substitution,,0,0,342
+0021900755,493,PT08M56.00S,4,1610612765,DET,1626174,Wood,C. Wood,53,272,28,Missed,1,,,0,h,MISS Wood 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,343
+0021900755,494,PT08M54.00S,4,1610612756,PHX,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,v,Diallo REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,344
+0021900755,495,PT08M36.00S,4,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,-177,178,25,Made,1,93,94,187,v,Oubre Jr. 25' 3PT Jump Shot (28 PTS) (Booker 6 AST),Made Shot,Jump Shot,1,3,345
+0021900755,500,PT08M22.00S,4,1610612756,PHX,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,v,SUB: Ayton FOR Diallo,Substitution,,0,0,346
+0021900755,502,PT08M16.00S,4,1610612765,DET,202704,Jackson,R. Jackson,-98,275,29,Made,1,96,94,190,h,Jackson 29' 3PT Jump Shot (20 PTS) (Maker 2 AST),Made Shot,Jump Shot,1,3,347
+0021900755,504,PT08M00.00S,4,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,v,Bridges Out of Bounds - Bad Pass Turnover Turnover (P3.T14),Turnover,Out of Bounds - Bad Pass Turnover,1,0,348
+0021900755,505,PT08M00.00S,4,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,SUB: Drummond FOR Maker,Substitution,,0,0,349
+0021900755,507,PT07M50.00S,4,1610612765,DET,202704,Jackson,R. Jackson,-5,33,3,Missed,1,,,0,h,MISS Jackson 3' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,350
+0021900755,508,PT07M49.00S,4,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,351
+0021900755,526,PT07M49.00S,4,1610612765,DET,1626174,Wood,C. Wood,-7,15,2,Missed,1,,,0,h,MISS Wood 2' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,352
+0021900755,527,PT07M49.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:6 Def:9),Rebound,Unknown,1,0,353
+0021900755,509,PT07M48.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,-6,1,Made,1,98,94,192,h,Drummond 1' Tip Layup Shot (27 PTS),Made Shot,Tip Layup Shot,1,2,354
+0021900755,512,PT07M19.00S,4,1610612756,PHX,1626164,Booker,D. Booker,174,199,26,Missed,1,,,0,v,MISS Booker 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,355
+0021900755,513,PT07M17.00S,4,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,356
+0021900755,514,PT07M11.00S,4,1610612765,DET,1626174,Wood,C. Wood,120,241,27,Made,1,101,94,195,h,Wood 27' 3PT Jump Shot (19 PTS) (Jackson 7 AST),Made Shot,Jump Shot,1,3,357
+0021900755,516,PT07M11.00S,4,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,358
+0021900755,517,PT07M11.00S,4,1610612765,DET,203503,Snell,T. Snell,0,0,0,,0,,,0,h,SUB: Brown FOR Snell,Substitution,,0,0,359
+0021900755,519,PT06M53.00S,4,1610612756,PHX,1629028,Ayton,D. Ayton,-9,15,2,Made,1,101,96,197,v,Ayton 2' Dunk (24 PTS) (Rubio 11 AST),Made Shot,Dunk Shot,1,2,360
+0021900755,521,PT06M27.00S,4,1610612765,DET,204038,Galloway,L. Galloway,-24,15,3,Missed,1,,,0,h,MISS Galloway 3' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,361
+0021900755,522,PT06M25.00S,4,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,v,Ayton REBOUND (Off:3 Def:8),Rebound,Unknown,1,0,362
+0021900755,523,PT06M14.00S,4,1610612756,PHX,1626164,Booker,D. Booker,12,100,10,Made,1,101,98,199,v,Booker 10' Jump Shot (20 PTS),Made Shot,Jump Shot,1,2,363
+0021900755,524,PT06M01.00S,4,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,v,Ayton P.FOUL (P3.T3) (N.Green),Foul,Personal,1,0,364
+0021900755,528,PT05M51.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,365
+0021900755,529,PT05M45.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond Lost Ball Turnover (P1.T5),Turnover,Lost Ball,1,0,366
+0021900755,529,PT05M45.00S,4,1610612756,PHX,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio STEAL (2 STL),,,1,0,367
+0021900755,531,PT05M33.00S,4,1610612756,PHX,1626164,Booker,D. Booker,27,61,7,Made,1,101,100,201,v,Booker 7' Driving Hook Shot (22 PTS),Made Shot,Driving Hook Shot,1,2,368
+0021900755,532,PT05M10.00S,4,1610612765,DET,202704,Jackson,R. Jackson,-20,10,2,Made,1,103,100,203,h,Jackson 2' Driving Layup (22 PTS) (Drummond 4 AST),Made Shot,Driving Layup Shot,1,2,369
+0021900755,534,PT04M52.00S,4,1610612756,PHX,201937,Rubio,R. Rubio,-41,24,5,Missed,1,,,0,v,MISS Rubio 5' Layup,Missed Shot,Layup Shot,1,2,370
+0021900755,535,PT04M50.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:6 Def:10),Rebound,Unknown,1,0,371
+0021900755,537,PT04M46.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond Lost Ball Turnover (P2.T6),Turnover,Lost Ball,1,0,372
+0021900755,537,PT04M46.00S,4,1610612756,PHX,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio STEAL (3 STL),,,1,0,373
+0021900755,539,PT04M43.00S,4,1610612756,PHX,1629028,Ayton,D. Ayton,16,8,2,Made,1,103,102,205,v,Ayton 2' Layup (26 PTS),Made Shot,Layup Shot,1,2,374
+0021900755,541,PT04M33.00S,4,1610612765,DET,203083,Drummond,A. Drummond,18,68,7,Made,1,105,102,207,h,Drummond 7' Jump Shot (29 PTS) (Jackson 8 AST),Made Shot,Jump Shot,1,2,375
+0021900755,543,PT04M09.00S,4,1610612756,PHX,1626164,Booker,D. Booker,103,141,17,Missed,1,,,0,v,MISS Booker 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,376
+0021900755,543,PT04M09.00S,4,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,Brown BLOCK (1 BLK),,,1,2,377
+0021900755,545,PT04M05.00S,4,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,,,0,h,Wood REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,378
+0021900755,546,PT04M04.00S,4,1610612765,DET,204038,Galloway,L. Galloway,13,34,4,Made,1,107,102,209,h,Galloway 4' Layup (15 PTS) (Brown 7 AST),Made Shot,Layup Shot,1,2,379
+0021900755,548,PT03M50.00S,4,1610612756,PHX,1626164,Booker,D. Booker,-55,89,10,Missed,1,,,0,v,MISS Booker 10' Jump Shot,Missed Shot,Jump Shot,1,2,380
+0021900755,549,PT03M50.00S,4,1610612765,DET,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,Jackson REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,381
+0021900755,550,PT03M41.00S,4,1610612765,DET,202704,Jackson,R. Jackson,-217,172,28,Made,1,110,102,212,h,Jackson 28' 3PT Jump Shot (25 PTS),Made Shot,Jump Shot,1,3,382
+0021900755,551,PT03M40.00S,4,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,383
+0021900755,552,PT03M40.00S,4,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,h,SUB: Snell FOR Galloway,Substitution,,0,0,384
+0021900755,554,PT03M29.00S,4,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,-103,239,26,Missed,1,,,0,v,MISS Oubre Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,385
+0021900755,555,PT03M27.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:6 Def:11),Rebound,Unknown,1,0,386
+0021900755,556,PT03M10.00S,4,1610612765,DET,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,Jackson Bad Pass Turnover (P2.T7),Turnover,Bad Pass,1,0,387
+0021900755,556,PT03M10.00S,4,1610612756,PHX,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio STEAL (4 STL),,,1,0,388
+0021900755,558,PT03M05.00S,4,1610612756,PHX,1628969,Bridges,M. Bridges,43,13,4,Missed,1,,,0,v,MISS Bridges 4' Running Layup,Missed Shot,Running Layup Shot,1,2,389
+0021900755,559,PT03M00.00S,4,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,v,Oubre Jr. REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,390
+0021900755,560,PT03M00.00S,4,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,0,-6,1,Made,1,110,104,214,v,Oubre Jr. 1' Tip Dunk Shot (30 PTS),Made Shot,Tip Dunk Shot,1,2,391
+0021900755,561,PT02M44.00S,4,1610612765,DET,1626174,Wood,C. Wood,233,25,0,Missed,1,,,0,h,MISS Wood 3PT Jump Shot,Missed Shot,Jump Shot,1,3,392
+0021900755,562,PT02M42.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:7 Def:11),Rebound,Unknown,1,0,393
+0021900755,563,PT02M39.00S,4,1610612765,DET,203083,Drummond,A. Drummond,-32,23,4,Missed,1,,,0,h,MISS Drummond 4' Layup,Missed Shot,Layup Shot,1,2,394
+0021900755,563,PT02M39.00S,4,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,v,Ayton BLOCK (4 BLK),,,1,2,395
+0021900755,565,PT02M39.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,396
+0021900755,567,PT02M29.00S,4,1610612765,DET,202704,Jackson,R. Jackson,27,68,7,Missed,1,,,0,h,MISS Jackson 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,397
+0021900755,568,PT02M27.00S,4,1610612756,PHX,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,398
+0021900755,569,PT02M21.00S,4,1610612756,PHX,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio Bad Pass Turnover (P5.T15),Turnover,Bad Pass,1,0,399
+0021900755,569,PT02M21.00S,4,1610612765,DET,203503,Snell,T. Snell,0,0,0,,0,,,0,h,Snell STEAL (1 STL),,,1,0,400
+0021900755,571,PT02M18.00S,4,1610612765,DET,203503,Snell,T. Snell,15,15,2,Made,1,112,104,216,h,Snell 2' Running Dunk (7 PTS),Made Shot,Running Dunk Shot,1,2,401
+0021900755,572,PT01M59.00S,4,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,h,Brown S.FOUL (P3.T1) (N.Green),Foul,Shooting,1,0,402
+0021900755,574,PT01M59.00S,4,1610612756,PHX,201937,Rubio,R. Rubio,0,0,0,,0,112,105,217,v,Rubio Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,403
+0021900755,575,PT01M59.00S,4,1610612756,PHX,201937,Rubio,R. Rubio,0,0,0,,0,112,106,218,v,Rubio Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,404
+0021900755,576,PT01M41.00S,4,1610612765,DET,203083,Drummond,A. Drummond,-11,25,3,Made,1,114,106,220,h,Drummond 3' Layup (31 PTS) (Jackson 9 AST),Made Shot,Layup Shot,1,2,405
+0021900755,578,PT01M27.00S,4,1610612756,PHX,201937,Rubio,R. Rubio,-13,6,1,Missed,1,,,0,v,MISS Rubio 1' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,406
+0021900755,579,PT01M25.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond REBOUND (Off:7 Def:12),Rebound,Unknown,1,0,407
+0021900755,606,PT01M23.00S,4,1610612765,DET,1628971,Brown,B. Brown,49,21,5,Missed,1,,,0,h,MISS Brown 5' Running Layup,Missed Shot,Running Layup Shot,1,2,408
+0021900755,606,PT01M23.00S,4,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,v,Bridges BLOCK (1 BLK),,,1,2,409
+0021900755,608,PT01M22.00S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Rebound,Rebound,Unknown,0,0,410
+0021900755,582,PT01M22.00S,4,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Timeout: Coach Challenge (Reg.5 Short 0),Timeout,Coach Challenge,0,0,411
+0021900755,583,PT01M22.00S,4,0,,580,,,0,0,0,,0,114,106,220,,Instant Replay4th Period (9:11 PM EST),Instant Replay,Coach Challenge Overturn Ruling,1,0,412
+0021900755,585,PT01M17.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Jump Ball (CC) Drummond vs. Ayton: Tip to Jackson,Jump Ball,Coach Challenge,1,0,413
+0021900755,588,PT00M53.90S,4,1610612765,DET,202704,Jackson,R. Jackson,-43,262,27,Missed,1,,,0,h,MISS Jackson 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,414
+0021900755,589,PT00M51.90S,4,1610612756,PHX,1629028,Ayton,D. Ayton,0,0,0,,0,,,0,v,Ayton REBOUND (Off:3 Def:9),Rebound,Unknown,1,0,415
+0021900755,590,PT00M47.50S,4,1610612756,PHX,1628969,Bridges,M. Bridges,175,197,26,Missed,1,,,0,v,MISS Bridges 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,416
+0021900755,591,PT00M43.80S,4,1610612765,DET,203503,Snell,T. Snell,0,0,0,,0,,,0,h,Snell REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,417
+0021900755,592,PT00M38.30S,4,1610612756,PHX,1628969,Bridges,M. Bridges,0,0,0,,0,,,0,v,Bridges P.FOUL (P4.T4) (N.Green),Foul,Personal,1,0,418
+0021900755,594,PT00M37.20S,4,1610612756,PHX,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,v,Oubre Jr. P.FOUL (P3.PN) (S.Wall),Foul,Personal,1,0,419
+0021900755,596,PT00M37.20S,4,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,115,106,221,h,Wood Free Throw 1 of 2 (20 PTS),Free Throw,Free Throw 1 of 2,1,0,420
+0021900755,597,PT00M37.20S,4,1610612765,DET,1626174,Wood,C. Wood,0,0,0,,0,116,106,222,h,Wood Free Throw 2 of 2 (21 PTS),Free Throw,Free Throw 2 of 2,1,0,421
+0021900755,598,PT00M37.20S,4,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,422
+0021900755,599,PT00M37.20S,4,1610612765,DET,202704,Jackson,R. Jackson,0,0,0,,0,,,0,h,SUB: Galloway FOR Jackson,Substitution,,0,0,423
+0021900755,601,PT00M33.90S,4,1610612756,PHX,201937,Rubio,R. Rubio,23,14,3,Made,1,116,108,224,v,Rubio 3' Driving Finger Roll Layup (4 PTS) (Booker 7 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,424
+0021900755,603,PT00M32.10S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond Out of Bounds - Bad Pass Turnover Turnover (P3.T8),Turnover,Out of Bounds - Bad Pass Turnover,1,0,425
+0021900755,605,PT00M32.10S,4,0,,604,,,0,0,0,,0,116,108,224,,Instant Replay4th Period (9:17 PM EST),Instant Replay,Support Ruling,0,0,426
+0021900755,609,PT00M30.70S,4,1610612756,PHX,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio Bad Pass Turnover (P6.T16),Turnover,Bad Pass,1,0,427
+0021900755,609,PT00M30.70S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,h,Drummond STEAL (3 STL),,,1,0,428
+0021900755,611,PT00M06.40S,4,0,,1610612765,,,0,0,0,,0,,,0,h,PISTONS Turnover: Shot Clock (T#9),Turnover,Shot Clock Turnover,0,0,429
+0021900755,612,PT00M00.00S,4,0,,0,,,0,0,0,,0,116,108,224,,End of 4th Period (9:19 PM EST),period,end,1,0,430

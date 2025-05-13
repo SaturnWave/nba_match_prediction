@@ -1,0 +1,469 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022000981,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (10:13 PM EST),period,start,0,0,1
+0022000981,4,PT12M00.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Jump Ball Gobert vs. Poeltl: Tip to Niang,Jump Ball,,1,0,2
+0022000981,7,PT11M46.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,-74,104,13,Made,1,2,0,2,h,Ingles 13' Driving Floating Jump Shot (2 PTS) (Gobert 1 AST),Made Shot,Driving Floating Jump Shot,1,2,3
+0022000981,9,PT11M25.00S,1,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,4
+0022000981,9,PT11M25.00S,1,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,h,O'Neale STEAL (1 STL),,,1,0,5
+0022000981,11,PT11M22.00S,1,1610612762,UTA,1626220,O'Neale,R. O'Neale,174,198,26,Made,1,5,0,5,h,O'Neale 26' 3PT Running Jump Shot (3 PTS),Made Shot,Running Jump Shot,1,3,6
+0022000981,12,PT11M20.00S,1,0,,1610612759,,,0,0,0,,0,,,0,v,Spurs Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,7
+0022000981,13,PT11M09.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,-130,106,17,Made,1,5,2,7,v,DeRozan 17' Pullup Jump Shot (2 PTS) (Poeltl 1 AST),Made Shot,Pullup Jump shot,1,2,8
+0022000981,14,PT10M43.00S,1,1610612762,UTA,1627777,Niang,G. Niang,-13,122,12,Missed,1,,,0,h,MISS Niang 12' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,9
+0022000981,15,PT10M40.00S,1,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,Poeltl REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,10
+0022000981,17,PT10M34.00S,1,1610612759,SAS,1627749,Murray,D. Murray,100,115,15,Missed,1,,,0,v,MISS Murray 15' Jump Shot,Missed Shot,Jump Shot,1,2,11
+0022000981,18,PT10M31.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,12
+0022000981,19,PT10M16.00S,1,1610612762,UTA,202711,Bogdanović,B. Bogdanović,8,96,10,Made,1,7,2,9,h,Bogdanovic 10' Fadeaway Jumper (2 PTS),Made Shot,Fadeaway Jump Shot,1,2,13
+0022000981,20,PT09M59.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,141,28,14,Made,1,7,4,11,v,DeRozan 14' Pullup Jump Shot (4 PTS) (Poeltl 2 AST),Made Shot,Pullup Jump shot,1,2,14
+0022000981,22,PT09M51.00S,1,1610612762,UTA,1627777,Niang,G. Niang,232,82,25,Made,1,10,4,14,h,Niang 25' 3PT Jump Shot (3 PTS) (Ingles 1 AST),Made Shot,Jump Shot,1,3,15
+0022000981,24,PT09M27.00S,1,1610612759,SAS,1627751,Poeltl,J. Poeltl,13,1,1,Missed,1,,,0,v,MISS Poeltl 1' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,16
+0022000981,25,PT09M25.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,h,Ingles REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,17
+0022000981,26,PT09M12.00S,1,1610612762,UTA,1627777,Niang,G. Niang,-227,10,0,Missed,1,,,0,h,MISS Niang 3PT Jump Shot,Missed Shot,Jump Shot,1,3,18
+0022000981,27,PT09M08.00S,1,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,19
+0022000981,28,PT08M49.00S,1,1610612759,SAS,1627751,Poeltl,J. Poeltl,-45,92,10,Made,1,10,6,16,v,Poeltl 10' Turnaround Jump Shot (2 PTS) (Murray 1 AST),Made Shot,Turnaround Jump Shot,1,2,20
+0022000981,30,PT08M32.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,2,34,3,Made,1,12,6,18,h,Gobert 3' Cutting Layup Shot (2 PTS) (Ingles 2 AST),Made Shot,Cutting Layup Shot,1,2,21
+0022000981,32,PT08M32.00S,1,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,Poeltl S.FOUL (P1.T1) (A.Moyer-Gleich),Foul,Shooting,1,0,22
+0022000981,34,PT08M32.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,13,6,19,h,Gobert Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,1,0,23
+0022000981,35,PT08M21.00S,1,1610612759,SAS,1629640,Johnson,K. Johnson,92,116,15,Missed,1,,,0,v,MISS Johnson 15' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,24
+0022000981,36,PT08M17.00S,1,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,h,O'Neale REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,25
+0022000981,37,PT08M05.00S,1,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,Bogdanovic Double Dribble Turnover (P1.T1),Turnover,Double Dribble,1,0,26
+0022000981,38,PT07M52.00S,1,1610612759,SAS,1627751,Poeltl,J. Poeltl,-49,91,10,Made,1,13,8,21,v,Poeltl 10' Floating Jump Shot (4 PTS) (DeRozan 1 AST),Made Shot,Floating Jump shot,1,2,27
+0022000981,40,PT07M40.00S,1,1610612762,UTA,202711,Bogdanović,B. Bogdanović,8,11,1,Made,1,15,8,23,h,Bogdanovic 1' Driving Dunk (4 PTS) (Ingles 3 AST),Made Shot,Driving Dunk Shot,1,2,28
+0022000981,42,PT07M28.00S,1,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray Out of Bounds - Bad Pass Turnover Turnover (P2.T2),Turnover,Out of Bounds - Bad Pass Turnover,1,0,29
+0022000981,43,PT07M28.00S,1,1610612762,UTA,1627777,Niang,G. Niang,0,0,0,,0,,,0,h,SUB: Clarkson FOR Niang,Substitution,,0,0,30
+0022000981,45,PT07M20.00S,1,1610612762,UTA,202711,Bogdanović,B. Bogdanović,-100,225,25,Missed,1,,,0,h,MISS Bogdanovic 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,31
+0022000981,46,PT07M16.00S,1,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,h,O'Neale REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,32
+0022000981,47,PT07M14.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,33
+0022000981,47,PT07M14.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,DeRozan STEAL (1 STL),,,1,0,34
+0022000981,49,PT07M04.00S,1,1610612759,SAS,1627749,Murray,D. Murray,51,117,13,Made,1,15,10,25,v,Murray 13' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,35
+0022000981,50,PT06M50.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,-90,247,26,Missed,1,,,0,h,MISS Ingles 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,36
+0022000981,51,PT06M46.00S,1,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,v,Vassell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,37
+0022000981,52,PT06M37.00S,1,1610612759,SAS,1630170,Vassell,D. Vassell,143,200,25,Missed,1,,,0,v,MISS Vassell 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,38
+0022000981,53,PT06M34.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,39
+0022000981,54,PT06M24.00S,1,1610612762,UTA,202711,Bogdanović,B. Bogdanović,-32,80,9,Missed,1,,,0,h,MISS Bogdanovic 9' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,40
+0022000981,55,PT06M20.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,41
+0022000981,56,PT06M20.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,Missed,1,,,0,h,MISS Gobert Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,42
+0022000981,57,PT06M20.00S,1,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,v,Johnson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,43
+0022000981,58,PT06M07.00S,1,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,Poeltl Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,44
+0022000981,58,PT06M07.00S,1,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,h,O'Neale STEAL (2 STL),,,1,0,45
+0022000981,60,PT06M04.00S,1,1610612762,UTA,1626220,O'Neale,R. O'Neale,-3,9,1,Made,1,17,10,27,h,O'Neale 1' Running Dunk (5 PTS),Made Shot,Running Dunk Shot,1,2,46
+0022000981,61,PT05M34.00S,1,1610612759,SAS,1627751,Poeltl,J. Poeltl,74,16,8,Made,1,17,12,29,v,Poeltl 8' Floating Jump Shot (6 PTS) (Johnson 1 AST),Made Shot,Floating Jump shot,1,2,47
+0022000981,63,PT05M25.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,DeRozan P.FOUL (P1.T2) (A.Moyer-Gleich),Foul,Personal,1,0,48
+0022000981,65,PT05M25.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,h,SUB: Favors FOR Ingles,Substitution,,0,0,49
+0022000981,66,PT05M25.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,SUB: Forrest FOR Gobert,Substitution,,0,0,50
+0022000981,67,PT05M25.00S,1,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,v,SUB: Eubanks FOR Johnson,Substitution,,0,0,51
+0022000981,68,PT05M25.00S,1,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,SUB: Mills FOR Murray,Substitution,,0,0,52
+0022000981,69,PT05M25.00S,1,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,SUB: Walker IV FOR Poeltl,Substitution,,0,0,53
+0022000981,75,PT05M20.00S,1,1610612762,UTA,203903,Clarkson,J. Clarkson,-14,88,9,Made,1,19,12,31,h,Clarkson 9' Floating Jump Shot (2 PTS),Made Shot,Floating Jump shot,1,2,54
+0022000981,76,PT05M03.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,-81,165,18,Made,1,19,14,33,v,DeRozan 18' Pullup Jump Shot (6 PTS) (Eubanks 1 AST),Made Shot,Pullup Jump shot,1,2,55
+0022000981,78,PT04M45.00S,1,1610612762,UTA,203903,Clarkson,J. Clarkson,-19,240,24,Made,1,22,14,36,h,Clarkson 24' 3PT Step Back Jump Shot (5 PTS),Made Shot,Step Back Jump shot,1,3,56
+0022000981,79,PT04M31.00S,1,1610612759,SAS,1629234,Eubanks,D. Eubanks,-22,60,6,Made,1,22,16,38,v,Eubanks 6' Floating Jump Shot (2 PTS) (DeRozan 2 AST),Made Shot,Floating Jump shot,1,2,57
+0022000981,81,PT04M06.00S,1,1610612762,UTA,202711,Bogdanović,B. Bogdanović,78,26,8,Made,1,24,16,40,h,Bogdanovic 8' Turnaround Fadeaway Bank Jump Shot (6 PTS),Made Shot,Turnaround Fadeaway Bank Jump Shot,1,2,58
+0022000981,82,PT03M51.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,-101,85,13,Missed,1,,,0,v,MISS DeRozan 13' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,59
+0022000981,83,PT03M48.00S,1,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,,,0,v,Eubanks REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,60
+0022000981,84,PT03M48.00S,1,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,Missed,1,,,0,v,MISS Eubanks Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,61
+0022000981,85,PT03M45.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,h,Favors REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,62
+0022000981,86,PT03M29.00S,1,1610612762,UTA,202711,Bogdanović,B. Bogdanović,-26,8,3,Made,1,26,16,42,h,Bogdanovic 3' Driving Layup (8 PTS),Made Shot,Driving Layup Shot,1,2,63
+0022000981,87,PT03M09.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,h,Favors S.FOUL (P1.T1) (A.Moyer-Gleich),Foul,Shooting,1,0,64
+0022000981,89,PT03M09.00S,1,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,26,17,43,v,Eubanks Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,65
+0022000981,90,PT03M09.00S,1,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,66
+0022000981,91,PT03M09.00S,1,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,h,SUB: Oni FOR O'Neale,Substitution,,0,0,67
+0022000981,92,PT03M09.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,SUB: Gay FOR DeRozan,Substitution,,0,0,68
+0022000981,93,PT03M09.00S,1,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,v,SUB: Murray FOR Vassell,Substitution,,0,0,69
+0022000981,97,PT03M09.00S,1,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,26,18,44,v,Eubanks Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,70
+0022000981,98,PT02M44.00S,1,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Turnover: Shot Clock (T#3),Turnover,Shot Clock Turnover,0,0,71
+0022000981,99,PT02M29.00S,1,1610612759,SAS,200752,Gay,R. Gay,-88,242,26,Missed,1,,,0,v,MISS Gay 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,72
+0022000981,100,PT02M26.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,h,Favors REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,73
+0022000981,101,PT02M17.00S,1,1610612762,UTA,203903,Clarkson,J. Clarkson,176,183,25,Missed,1,,,0,h,MISS Clarkson 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,74
+0022000981,102,PT02M15.00S,1,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,Bogdanovic REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,75
+0022000981,103,PT02M06.00S,1,1610612762,UTA,202324,Favors,D. Favors,29,4,3,Missed,1,,,0,h,MISS Favors 3' Layup,Missed Shot,Layup Shot,1,2,76
+0022000981,103,PT02M06.00S,1,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay BLOCK (1 BLK),,,1,2,77
+0022000981,105,PT02M03.00S,1,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,78
+0022000981,106,PT02M00.00S,1,1610612759,SAS,1629022,Walker IV,L. Walker IV,144,211,26,Missed,1,,,0,v,MISS Walker IV 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,79
+0022000981,107,PT01M56.00S,1,1610612762,UTA,1630235,Forrest,T. Forrest,0,0,0,,0,,,0,h,Forrest REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,80
+0022000981,108,PT01M44.00S,1,1610612762,UTA,203903,Clarkson,J. Clarkson,-70,241,25,Missed,1,,,0,h,MISS Clarkson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,81
+0022000981,109,PT01M41.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,h,Favors REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,82
+0022000981,110,PT01M40.00S,1,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay S.FOUL (P1.T3) (J.Tiven),Foul,Shooting,1,0,83
+0022000981,112,PT01M40.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,h,MISS Favors Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,84
+0022000981,113,PT01M40.00S,1,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Normal Rebound,0,0,85
+0022000981,114,PT01M40.00S,1,1610612762,UTA,1630235,Forrest,T. Forrest,0,0,0,,0,,,0,h,SUB: Niang FOR Forrest,Substitution,,0,0,86
+0022000981,115,PT01M40.00S,1,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,SUB: Ingles FOR Bogdanovic,Substitution,,0,0,87
+0022000981,118,PT01M40.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,27,18,45,h,Favors Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,88
+0022000981,119,PT01M25.00S,1,1610612759,SAS,1629234,Eubanks,D. Eubanks,20,22,3,Missed,1,,,0,v,MISS Eubanks 3' Driving Bank Hook Shot,Missed Shot,Driving Bank Hook Shot,1,2,89
+0022000981,120,PT01M23.00S,1,1610612762,UTA,203903,Clarkson,J. Clarkson,0,0,0,,0,,,0,h,Clarkson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,90
+0022000981,121,PT01M17.00S,1,1610612762,UTA,203903,Clarkson,J. Clarkson,39,29,5,Missed,1,,,0,h,MISS Clarkson 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,91
+0022000981,121,PT01M17.00S,1,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,,,0,v,Eubanks BLOCK (1 BLK),,,1,2,92
+0022000981,123,PT01M14.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,h,Favors REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,93
+0022000981,124,PT01M14.00S,1,1610612762,UTA,202324,Favors,D. Favors,2,26,3,Made,1,29,18,47,h,Favors 3' Putback Layup (3 PTS),Made Shot,Putback Layup Shot,1,2,94
+0022000981,125,PT01M02.00S,1,1610612759,SAS,1627749,Murray,D. Murray,105,125,16,Made,1,29,20,49,v,Murray 16' Pullup Jump Shot (4 PTS),Made Shot,Pullup Jump shot,1,2,95
+0022000981,126,PT00M46.00S,1,1610612762,UTA,202324,Favors,D. Favors,-24,14,3,Missed,1,,,0,h,MISS Favors 3' Layup,Missed Shot,Layup Shot,1,2,96
+0022000981,127,PT00M44.40S,1,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,97
+0022000981,128,PT00M41.10S,1,1610612759,SAS,1627749,Murray,D. Murray,18,125,13,Made,1,29,22,51,v,Murray 13' Pullup Jump Shot (6 PTS),Made Shot,Pullup Jump shot,1,2,98
+0022000981,129,PT00M30.20S,1,1610612762,UTA,202324,Favors,D. Favors,2,90,9,Made,1,31,22,53,h,Favors 9' Floating Jump Shot (5 PTS) (Ingles 4 AST),Made Shot,Floating Jump shot,1,2,99
+0022000981,131,PT00M09.80S,1,1610612759,SAS,200752,Gay,R. Gay,-234,16,0,Missed,1,,,0,v,MISS Gay 3PT Jump Shot,Missed Shot,Jump Shot,1,3,100
+0022000981,132,PT00M05.20S,1,1610612762,UTA,203903,Clarkson,J. Clarkson,0,0,0,,0,,,0,h,Clarkson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,101
+0022000981,133,PT00M00.10S,1,1610612762,UTA,203903,Clarkson,J. Clarkson,-157,242,29,Missed,1,,,0,h,MISS Clarkson 29' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,102
+0022000981,134,PT00M00.10S,1,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,0,0,103
+0022000981,135,PT00M00.00S,1,0,,0,,,0,0,0,,0,31,22,53,,End of 1st Period (10:35 PM EST),period,end,1,0,104
+0022000981,140,PT12M00.00S,2,0,,0,,,0,0,0,,0,31,22,53,,Start of 2nd Period (10:38 PM EST),period,start,0,0,105
+0022000981,141,PT11M49.00S,2,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray Bad Pass Turnover (P3.T4),Turnover,Bad Pass,1,0,106
+0022000981,141,PT11M49.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert STEAL (1 STL),,,1,0,107
+0022000981,143,PT11M32.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,-10,5,1,Made,1,33,22,55,h,Gobert 1' Alley Oop Layup (5 PTS) (Clarkson 1 AST),Made Shot,Alley Oop Layup shot,1,2,108
+0022000981,145,PT11M19.00S,2,1610612759,SAS,201988,Mills,P. Mills,-12,99,10,Made,1,33,24,57,v,Mills 10' Driving Floating Jump Shot (2 PTS) (Poeltl 3 AST),Made Shot,Driving Floating Jump Shot,1,2,109
+0022000981,147,PT11M05.00S,2,1610612762,UTA,203903,Clarkson,J. Clarkson,47,35,6,Missed,1,,,0,h,MISS Clarkson 6' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,0,2,110
+0022000981,148,PT11M04.00S,2,1610612759,SAS,1629022,Walker IV,L. Walker IV,0,0,0,,0,,,0,v,Walker IV REBOUND (Off:0 Def:1),Rebound,Unknown,0,0,111
+0022000981,149,PT11M02.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,h,Ingles Personal Take Foul (P1.T1) (M.Smith),Foul,Personal Take,1,0,112
+0022000981,151,PT10M47.00S,2,1610612759,SAS,200752,Gay,R. Gay,-41,89,10,Made,1,33,26,59,v,Gay 10' Fadeaway Jumper (2 PTS),Made Shot,Fadeaway Jump Shot,1,2,113
+0022000981,152,PT10M30.00S,2,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,Poeltl S.FOUL (P2.T1) (J.Tiven),Foul,Shooting,1,0,114
+0022000981,154,PT10M30.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,MISS Gobert Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,115
+0022000981,155,PT10M30.00S,2,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Normal Rebound,0,0,116
+0022000981,156,PT10M30.00S,2,1610612762,UTA,203903,Clarkson,J. Clarkson,0,0,0,,0,,,0,h,SUB: Forrest FOR Clarkson,Substitution,,0,0,117
+0022000981,158,PT10M30.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,34,26,60,h,Gobert Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,118
+0022000981,159,PT10M13.00S,2,1610612759,SAS,1627749,Murray,D. Murray,92,20,9,Made,1,34,28,62,v,Murray 9' Driving Layup (8 PTS) (Gay 1 AST),Made Shot,Driving Layup Shot,1,2,119
+0022000981,160,PT10M13.00S,2,1610612762,UTA,1630235,Forrest,T. Forrest,0,0,0,,0,,,0,h,Forrest S.FOUL (P1.T2) (J.Tiven),Foul,Shooting,1,0,120
+0022000981,163,PT10M13.00S,2,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,34,29,63,v,Murray Free Throw 1 of 1 (9 PTS),Free Throw,Free Throw 1 of 1,1,0,121
+0022000981,164,PT10M01.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,39,241,24,Missed,1,,,0,h,MISS Ingles 24' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,122
+0022000981,165,PT09M57.00S,2,1610612759,SAS,201988,Mills,P. Mills,0,0,0,,0,,,0,v,Mills REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,123
+0022000981,166,PT09M56.00S,2,1610612759,SAS,201988,Mills,P. Mills,0,0,0,,0,,,0,v,Mills Lost Ball Turnover (P1.T5),Turnover,Lost Ball,1,0,124
+0022000981,166,PT09M56.00S,2,1610612762,UTA,1629671,Oni,M. Oni,0,0,0,,0,,,0,h,Oni STEAL (1 STL),,,1,0,125
+0022000981,168,PT09M55.00S,2,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,Poeltl P.FOUL (P3.T2) (J.Tiven),Foul,Personal,1,0,126
+0022000981,170,PT09M55.00S,2,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,SUB: Eubanks FOR Poeltl,Substitution,,0,0,127
+0022000981,172,PT09M43.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,-29,8,3,Made,1,36,29,65,h,Ingles 3' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,128
+0022000981,173,PT09M27.00S,2,1610612759,SAS,201988,Mills,P. Mills,-7,258,26,Missed,1,,,0,v,MISS Mills 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,129
+0022000981,174,PT09M25.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,130
+0022000981,175,PT09M14.00S,2,1610612762,UTA,1627777,Niang,G. Niang,93,-4,9,Missed,1,,,0,h,MISS Niang 9' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,131
+0022000981,176,PT09M12.00S,2,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,132
+0022000981,178,PT09M09.00S,2,1610612762,UTA,1629671,Oni,M. Oni,0,0,0,,0,,,0,h,SUB: Clarkson FOR Oni,Substitution,,0,0,133
+0022000981,180,PT08M59.00S,2,1610612759,SAS,201988,Mills,P. Mills,-19,5,2,Missed,1,,,0,v,MISS Mills 2' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,134
+0022000981,181,PT08M57.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,135
+0022000981,182,PT08M35.00S,2,1610612762,UTA,1627777,Niang,G. Niang,232,-7,0,Missed,1,,,0,h,MISS Niang 3PT Jump Shot,Missed Shot,Jump Shot,1,3,136
+0022000981,183,PT08M32.00S,2,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,137
+0022000981,184,PT08M24.00S,2,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray Bad Pass Turnover (P4.T6),Turnover,Bad Pass,1,0,138
+0022000981,184,PT08M24.00S,2,1610612762,UTA,203903,Clarkson,J. Clarkson,0,0,0,,0,,,0,h,Clarkson STEAL (1 STL),,,1,0,139
+0022000981,186,PT08M19.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,235,74,25,Missed,1,,,0,h,MISS Ingles 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,140
+0022000981,187,PT08M15.00S,2,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,141
+0022000981,188,PT08M08.00S,2,1610612759,SAS,200752,Gay,R. Gay,-81,143,16,Made,1,36,31,67,v,Gay 16' Pullup Jump Shot (4 PTS),Made Shot,Pullup Jump shot,1,2,142
+0022000981,189,PT07M44.00S,2,1610612762,UTA,203903,Clarkson,J. Clarkson,-152,188,24,Missed,1,,,0,h,MISS Clarkson 24' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,143
+0022000981,190,PT07M41.00S,2,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,144
+0022000981,191,PT07M30.00S,2,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,145
+0022000981,191,PT07M30.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,h,Ingles STEAL (1 STL),,,1,0,146
+0022000981,193,PT07M25.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,-20,-2,2,Missed,1,,,0,h,MISS Gobert 2' Running Layup,Missed Shot,Running Layup Shot,1,2,147
+0022000981,194,PT07M24.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,148
+0022000981,195,PT07M24.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,Made,1,38,31,69,h,Gobert Putback Dunk (8 PTS),Made Shot,Putback Dunk Shot,1,2,149
+0022000981,196,PT07M24.00S,2,0,,1610612759,,,0,0,0,,0,,,0,v,Spurs Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,150
+0022000981,197,PT07M24.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,h,SUB: Favors FOR Ingles,Substitution,,0,0,151
+0022000981,198,PT07M24.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,SUB: O'Neale FOR Gobert,Substitution,,0,0,152
+0022000981,199,PT07M24.00S,2,1610612762,UTA,1627777,Niang,G. Niang,0,0,0,,0,,,0,h,SUB: Bogdanovic FOR Niang,Substitution,,0,0,153
+0022000981,200,PT07M24.00S,2,1610612759,SAS,1629022,Walker IV,L. Walker IV,0,0,0,,0,,,0,v,SUB: DeRozan FOR Walker IV,Substitution,,0,0,154
+0022000981,201,PT07M24.00S,2,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,SUB: Vassell FOR Murray,Substitution,,0,0,155
+0022000981,202,PT07M24.00S,2,1610612759,SAS,201988,Mills,P. Mills,0,0,0,,0,,,0,v,SUB: Samanic FOR Mills,Substitution,,0,0,156
+0022000981,209,PT07M13.00S,2,1610612759,SAS,201942,DeRozan,D. DeRozan,22,163,16,Made,1,38,33,71,v,DeRozan 16' Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,2,157
+0022000981,210,PT06M59.00S,2,1610612762,UTA,203903,Clarkson,J. Clarkson,93,153,18,Missed,1,,,0,h,MISS Clarkson 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,158
+0022000981,211,PT06M55.00S,2,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,h,Favors REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,159
+0022000981,212,PT06M55.00S,2,1610612762,UTA,202324,Favors,D. Favors,0,0,0,Missed,1,,,0,h,MISS Favors Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,160
+0022000981,213,PT06M53.00S,2,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,,,0,v,Eubanks REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,161
+0022000981,214,PT06M41.00S,2,1610612759,SAS,1630170,Vassell,D. Vassell,-160,130,21,Missed,1,,,0,v,MISS Vassell 21' Jump Shot,Missed Shot,Jump Shot,1,2,162
+0022000981,215,PT06M37.00S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,h,O'Neale REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,163
+0022000981,216,PT06M33.00S,2,1610612762,UTA,202711,Bogdanović,B. Bogdanović,28,1,3,Made,1,40,33,73,h,Bogdanovic 3' Driving Layup (10 PTS),Made Shot,Driving Layup Shot,1,2,164
+0022000981,217,PT06M17.00S,2,1610612759,SAS,200752,Gay,R. Gay,157,47,16,Made,1,40,35,75,v,Gay 16' Jump Shot (6 PTS) (DeRozan 3 AST),Made Shot,Jump Shot,1,2,165
+0022000981,219,PT05M53.00S,2,1610612762,UTA,202711,Bogdanović,B. Bogdanović,-124,221,25,Made,1,43,35,78,h,Bogdanovic 25' 3PT Jump Shot (13 PTS) (Clarkson 2 AST),Made Shot,Jump Shot,1,3,166
+0022000981,221,PT05M35.00S,2,1610612759,SAS,1629677,Samanic,L. Samanic,-92,180,20,Missed,1,,,0,v,MISS Samanic 20' Jump Shot,Missed Shot,Jump Shot,1,2,167
+0022000981,222,PT05M32.00S,2,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,h,Favors REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,168
+0022000981,223,PT05M21.00S,2,1610612762,UTA,1630235,Forrest,T. Forrest,-30,40,5,Made,1,45,35,80,h,Forrest 5' Floating Jump Shot (2 PTS),Made Shot,Floating Jump shot,1,2,169
+0022000981,224,PT05M12.00S,2,0,,1610612759,,,0,0,0,,0,,,0,v,Spurs Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,170
+0022000981,225,PT05M12.00S,2,1610612759,SAS,1629234,Eubanks,D. Eubanks,0,0,0,,0,,,0,v,SUB: Bates-Diop FOR Eubanks,Substitution,,0,0,171
+0022000981,226,PT05M12.00S,2,1610612759,SAS,1629677,Samanic,L. Samanic,0,0,0,,0,,,0,v,SUB: Johnson FOR Samanic,Substitution,,0,0,172
+0022000981,229,PT05M12.00S,2,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,SUB: Dieng FOR Gay,Substitution,,0,0,173
+0022000981,231,PT05M03.00S,2,1610612759,SAS,1629640,Johnson,K. Johnson,35,17,4,Missed,1,,,0,v,MISS Johnson 4' Layup,Missed Shot,Layup Shot,1,2,174
+0022000981,232,PT05M01.00S,2,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,h,Favors REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,175
+0022000981,233,PT04M39.00S,2,1610612762,UTA,203903,Clarkson,J. Clarkson,-64,8,6,Made,1,47,35,82,h,Clarkson 6' Driving Floating Jump Shot (7 PTS),Made Shot,Driving Floating Jump Shot,1,2,176
+0022000981,234,PT04M19.00S,2,1610612759,SAS,1630170,Vassell,D. Vassell,27,118,12,Made,1,47,37,84,v,Vassell 12' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,177
+0022000981,235,PT03M54.00S,2,1610612762,UTA,203903,Clarkson,J. Clarkson,-11,78,8,Made,1,49,37,86,h,Clarkson 8' Floating Jump Shot (9 PTS),Made Shot,Floating Jump shot,1,2,178
+0022000981,236,PT03M43.00S,2,1610612759,SAS,203476,Dieng,G. Dieng,-66,251,26,Missed,1,,,0,v,MISS Dieng 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,179
+0022000981,237,PT03M41.00S,2,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,Bogdanovic REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,180
+0022000981,238,PT03M31.00S,2,1610612762,UTA,203903,Clarkson,J. Clarkson,-81,232,25,Made,1,52,37,89,h,Clarkson 25' 3PT Step Back Jump Shot (12 PTS),Made Shot,Step Back Jump shot,1,3,181
+0022000981,239,PT03M10.00S,2,1610612759,SAS,1629640,Johnson,K. Johnson,18,139,14,Made,1,52,39,91,v,Johnson 14' Pullup Jump Shot (2 PTS) (Dieng 1 AST),Made Shot,Pullup Jump shot,1,2,182
+0022000981,243,PT03M00.00S,2,1610612762,UTA,1630235,Forrest,T. Forrest,0,0,0,,0,,,0,h,SUB: Gobert FOR Forrest,Substitution,,0,0,183
+0022000981,244,PT03M00.00S,2,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,h,SUB: Ingles FOR Favors,Substitution,,0,0,184
+0022000981,245,PT03M00.00S,2,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,v,SUB: Walker IV FOR Vassell,Substitution,,0,0,185
+0022000981,246,PT03M00.00S,2,1610612759,SAS,1628966,Bates-Diop,K. Bates-Diop,0,0,0,,0,,,0,v,SUB: Murray FOR Bates-Diop,Substitution,,0,0,186
+0022000981,251,PT02M55.00S,2,1610612762,UTA,203903,Clarkson,J. Clarkson,62,245,25,Missed,1,,,0,h,MISS Clarkson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,187
+0022000981,252,PT02M52.00S,2,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,DeRozan REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,188
+0022000981,253,PT02M42.00S,2,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,v,Johnson Lost Ball Turnover (P1.T8),Turnover,Lost Ball,1,0,189
+0022000981,253,PT02M42.00S,2,1610612762,UTA,203903,Clarkson,J. Clarkson,0,0,0,,0,,,0,h,Clarkson STEAL (2 STL),,,1,0,190
+0022000981,255,PT02M36.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,9,25,3,Made,1,54,39,93,h,Gobert 3' Dunk (10 PTS) (Bogdanovic 1 AST),Made Shot,Dunk Shot,1,2,191
+0022000981,257,PT02M17.00S,2,1610612759,SAS,1627749,Murray,D. Murray,-103,122,16,Missed,1,,,0,v,MISS Murray 16' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,192
+0022000981,258,PT02M15.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,193
+0022000981,259,PT02M05.00S,2,1610612762,UTA,202711,Bogdanović,B. Bogdanović,-221,61,0,Made,1,57,39,96,h,Bogdanovic 3PT Jump Shot (16 PTS) (Clarkson 3 AST),Made Shot,Jump Shot,1,3,194
+0022000981,261,PT01M49.00S,2,1610612759,SAS,1629640,Johnson,K. Johnson,-126,138,19,Made,1,57,41,98,v,Johnson 19' Pullup Jump Shot (4 PTS) (Murray 2 AST),Made Shot,Pullup Jump shot,1,2,195
+0022000981,262,PT01M39.00S,2,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,Bogdanovic Traveling Turnover (P2.T4),Turnover,Traveling,1,0,196
+0022000981,264,PT01M26.00S,2,1610612759,SAS,201942,DeRozan,D. DeRozan,58,111,13,Missed,1,,,0,v,MISS DeRozan 13' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,197
+0022000981,265,PT01M24.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,198
+0022000981,266,PT01M11.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,-16,1,2,Made,1,59,41,100,h,Gobert 2' Dunk (12 PTS) (Clarkson 4 AST),Made Shot,Dunk Shot,1,2,199
+0022000981,268,PT00M54.90S,2,1610612759,SAS,1629640,Johnson,K. Johnson,68,88,11,Missed,1,,,0,v,MISS Johnson 11' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,200
+0022000981,269,PT00M52.80S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,h,O'Neale REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,201
+0022000981,270,PT00M46.40S,2,1610612759,SAS,203476,Dieng,G. Dieng,0,0,0,,0,,,0,v,Dieng S.FOUL (P1.T3) (M.Smith),Foul,Shooting,1,0,202
+0022000981,272,PT00M46.40S,2,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,60,41,101,h,Bogdanovic Free Throw 1 of 2 (17 PTS),Free Throw,Free Throw 1 of 2,1,0,203
+0022000981,273,PT00M46.40S,2,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,MISS Bogdanovic Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,204
+0022000981,274,PT00M44.70S,2,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,v,Johnson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,205
+0022000981,275,PT00M34.50S,2,1610612762,UTA,203903,Clarkson,J. Clarkson,0,0,0,,0,,,0,h,Clarkson P.FOUL (P1.T3) (J.Tiven),Foul,Personal,1,0,206
+0022000981,277,PT00M29.20S,2,1610612759,SAS,1627749,Murray,D. Murray,48,107,12,Missed,1,,,0,v,MISS Murray 12' Jump Shot,Missed Shot,Jump Shot,1,2,207
+0022000981,277,PT00M29.20S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,h,O'Neale BLOCK (1 BLK),,,1,2,208
+0022000981,279,PT00M27.00S,2,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,v,Johnson REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,209
+0022000981,280,PT00M23.60S,2,1610612759,SAS,1627749,Murray,D. Murray,-22,11,2,Made,1,60,43,103,v,Murray 2' Layup (11 PTS) (Johnson 2 AST),Made Shot,Layup Shot,1,2,210
+0022000981,282,PT00M04.30S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,h,Ingles Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,211
+0022000981,282,PT00M04.30S,2,1610612759,SAS,1629022,Walker IV,L. Walker IV,0,0,0,,0,,,0,v,Walker IV STEAL (1 STL),,,1,0,212
+0022000981,284,PT00M01.20S,2,1610612759,SAS,1629022,Walker IV,L. Walker IV,103,241,26,Missed,1,,,0,v,MISS Walker IV 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,213
+0022000981,285,PT00M01.20S,2,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,Bogdanovic REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,214
+0022000981,286,PT00M00.00S,2,0,,0,,,0,0,0,,0,60,43,103,,End of 2nd Period (11:01 PM EST),period,end,1,0,215
+0022000981,293,PT12M00.00S,3,0,,0,,,0,0,0,,0,60,43,103,,Start of 3rd Period (11:16 PM EST),period,start,0,0,216
+0022000981,294,PT11M43.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,-29,6,3,Missed,1,,,0,v,MISS DeRozan 3' Layup,Missed Shot,Layup Shot,1,2,217
+0022000981,294,PT11M43.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert BLOCK (1 BLK),,,1,2,218
+0022000981,296,PT11M40.00S,3,1610612762,UTA,1627777,Niang,G. Niang,0,0,0,,0,,,0,h,Niang REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,219
+0022000981,297,PT11M34.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,DeRozan S.FOUL (P2.T1) (A.Moyer-Gleich),Foul,Shooting,1,0,220
+0022000981,299,PT11M34.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,61,43,104,h,Gobert Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,1,0,221
+0022000981,300,PT11M34.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,MISS Gobert Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,222
+0022000981,301,PT11M33.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,Poeltl REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,223
+0022000981,302,PT11M19.00S,3,1610612759,SAS,1630170,Vassell,D. Vassell,38,106,11,Made,1,61,45,106,v,Vassell 11' Pullup Jump Shot (4 PTS) (Murray 3 AST),Made Shot,Pullup Jump shot,1,2,224
+0022000981,305,PT10M56.00S,3,1610612762,UTA,202711,Bogdanović,B. Bogdanović,-234,85,25,Missed,1,,,0,h,MISS Bogdanovic 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,225
+0022000981,306,PT10M52.00S,3,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,v,Vassell REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,226
+0022000981,307,PT10M45.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,-86,17,9,Made,1,61,47,108,v,DeRozan 9' Turnaround Fadeaway (10 PTS),Made Shot,Turnaround Fadeaway shot,1,2,227
+0022000981,308,PT10M20.00S,3,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,v,Johnson P.FOUL (P1.T2) (J.Tiven),Foul,Personal,1,0,228
+0022000981,310,PT10M09.00S,3,1610612762,UTA,202711,Bogdanović,B. Bogdanović,-232,33,0,Missed,1,,,0,h,MISS Bogdanovic 3PT Jump Shot,Missed Shot,Jump Shot,1,3,229
+0022000981,311,PT10M05.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,Poeltl REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,230
+0022000981,312,PT09M58.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,44,21,5,Missed,1,,,0,v,MISS Poeltl 5' Layup,Missed Shot,Layup Shot,1,2,231
+0022000981,313,PT09M56.00S,3,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,h,O'Neale REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,232
+0022000981,314,PT09M51.00S,3,1610612762,UTA,1627777,Niang,G. Niang,227,-4,0,Made,1,64,47,111,h,Niang 3PT Jump Shot (6 PTS) (O'Neale 1 AST),Made Shot,Jump Shot,1,3,233
+0022000981,317,PT09M25.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,Poeltl Lost Ball Turnover (P2.T9),Turnover,Lost Ball,1,0,234
+0022000981,317,PT09M25.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert STEAL (2 STL),,,1,0,235
+0022000981,319,PT09M19.00S,3,1610612762,UTA,202711,Bogdanović,B. Bogdanović,21,15,3,Made,1,66,47,113,h,Bogdanovic 3' Driving Reverse Layup (19 PTS) (Ingles 5 AST),Made Shot,Driving Reverse Layup Shot,1,2,236
+0022000981,321,PT09M19.00S,3,0,,1610612759,,,0,0,0,,0,,,0,v,Spurs Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,237
+0022000981,322,PT09M02.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,-21,6,2,Made,1,66,49,115,v,DeRozan 2' Layup (12 PTS),Made Shot,Layup Shot,1,2,238
+0022000981,323,PT08M50.00S,3,1610612762,UTA,1627777,Niang,G. Niang,3,65,7,Missed,1,,,0,h,MISS Niang 7' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,239
+0022000981,324,PT08M47.00S,3,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,v,Vassell REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,240
+0022000981,325,PT08M45.00S,3,1610612759,SAS,1630170,Vassell,D. Vassell,22,1,2,Missed,1,,,0,v,MISS Vassell 2' Running Layup,Missed Shot,Running Layup Shot,1,2,241
+0022000981,326,PT08M43.00S,3,1610612762,UTA,1627777,Niang,G. Niang,0,0,0,,0,,,0,h,Niang REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,242
+0022000981,327,PT08M35.00S,3,1610612762,UTA,1627777,Niang,G. Niang,-35,253,26,Made,1,69,49,118,h,Niang 26' 3PT Jump Shot (9 PTS) (O'Neale 2 AST),Made Shot,Jump Shot,1,3,243
+0022000981,329,PT08M19.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,-123,4,12,Missed,1,,,0,v,MISS Poeltl 12' Jump Shot,Missed Shot,Jump Shot,1,2,244
+0022000981,330,PT08M16.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,245
+0022000981,331,PT08M07.00S,3,1610612762,UTA,202711,Bogdanović,B. Bogdanović,64,71,10,Missed,1,,,0,h,MISS Bogdanovic 10' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,246
+0022000981,332,PT08M06.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,247
+0022000981,333,PT08M05.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,Made,1,71,49,120,h,Gobert Tip Layup Shot (15 PTS),Made Shot,Tip Layup Shot,1,2,248
+0022000981,334,PT07M51.00S,3,1610612759,SAS,1629640,Johnson,K. Johnson,-21,6,2,Missed,1,,,0,v,MISS Johnson 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,249
+0022000981,334,PT07M51.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert BLOCK (2 BLK),,,1,2,250
+0022000981,336,PT07M48.00S,3,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,v,Vassell REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,251
+0022000981,337,PT07M46.00S,3,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,v,Johnson Out of Bounds Lost Ball Turnover (P2.T10),Turnover,Out of Bounds Lost Ball Turnover,1,0,252
+0022000981,338,PT07M46.00S,3,1610612762,UTA,1627777,Niang,G. Niang,0,0,0,,0,,,0,h,SUB: Clarkson FOR Niang,Substitution,,0,0,253
+0022000981,340,PT07M35.00S,3,1610612762,UTA,202711,Bogdanović,B. Bogdanović,96,232,25,Missed,1,,,0,h,MISS Bogdanovic 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,254
+0022000981,341,PT07M33.00S,3,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,h,O'Neale REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,255
+0022000981,342,PT07M30.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,-234,97,25,Made,1,74,49,123,h,Ingles 25' 3PT Jump Shot (7 PTS) (Clarkson 5 AST),Made Shot,Jump Shot,1,3,256
+0022000981,344,PT07M07.00S,3,1610612759,SAS,1630170,Vassell,D. Vassell,-198,140,24,Made,1,74,52,126,v,Vassell 24' 3PT Jump Shot (7 PTS),Made Shot,Jump Shot,1,3,257
+0022000981,345,PT06M56.00S,3,1610612762,UTA,203903,Clarkson,J. Clarkson,0,0,0,,0,,,0,h,Clarkson OFF.Foul (P2) (J.Tiven),Foul,Offensive,1,0,258
+0022000981,347,PT06M56.00S,3,1610612762,UTA,203903,Clarkson,J. Clarkson,0,0,0,,0,,,0,h,Clarkson Offensive Foul Turnover (P1.T6),Turnover,Offensive Foul Turnover,1,0,259
+0022000981,348,PT06M56.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,h,SUB: Forrest FOR Ingles,Substitution,,0,0,260
+0022000981,349,PT06M56.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,SUB: Favors FOR Gobert,Substitution,,0,0,261
+0022000981,352,PT06M43.00S,3,1610612759,SAS,1630170,Vassell,D. Vassell,110,14,11,Missed,1,,,0,v,MISS Vassell 11' Jump Shot,Missed Shot,Jump Shot,1,2,262
+0022000981,353,PT06M42.00S,3,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,v,Vassell REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,263
+0022000981,354,PT06M42.00S,3,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,Made,1,74,54,128,v,Vassell Tip Layup Shot (9 PTS),Made Shot,Tip Layup Shot,1,2,264
+0022000981,355,PT06M20.00S,3,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,h,O'Neale Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,265
+0022000981,355,PT06M20.00S,3,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray STEAL (1 STL),,,1,0,266
+0022000981,357,PT06M16.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,-24,8,3,Missed,1,,,0,v,MISS DeRozan 3' Running Layup,Missed Shot,Running Layup Shot,1,2,267
+0022000981,358,PT06M13.00S,3,1610612762,UTA,1630235,Forrest,T. Forrest,0,0,0,,0,,,0,h,Forrest REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,268
+0022000981,359,PT06M10.00S,3,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,v,Vassell Personal Take Foul (P1.T3) (J.Tiven),Foul,Personal Take,1,0,269
+0022000981,361,PT06M10.00S,3,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,v,SUB: Walker IV FOR Johnson,Substitution,,0,0,270
+0022000981,362,PT06M10.00S,3,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,SUB: Mills FOR Murray,Substitution,,0,0,271
+0022000981,365,PT06M10.00S,3,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,272
+0022000981,366,PT06M10.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,SUB: Dieng FOR Poeltl,Substitution,,0,0,273
+0022000981,369,PT06M00.00S,3,1610612762,UTA,1630235,Forrest,T. Forrest,-17,21,3,Made,1,76,54,130,h,Forrest 3' Driving Dunk (4 PTS),Made Shot,Driving Dunk Shot,1,2,274
+0022000981,370,PT05M50.00S,3,1610612762,UTA,1630235,Forrest,T. Forrest,0,0,0,,0,,,0,h,Forrest S.FOUL (P2.T1) (A.Moyer-Gleich),Foul,Shooting,1,0,275
+0022000981,372,PT05M50.00S,3,1610612759,SAS,203476,Dieng,G. Dieng,0,0,0,,0,76,55,131,v,Dieng Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,276
+0022000981,373,PT05M50.00S,3,1610612759,SAS,203476,Dieng,G. Dieng,0,0,0,,0,76,56,132,v,Dieng Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,277
+0022000981,374,PT05M34.00S,3,1610612762,UTA,203903,Clarkson,J. Clarkson,0,0,0,,0,,,0,h,Jump Ball Clarkson vs. Dieng: Tip to DeRozan,Jump Ball,,1,0,278
+0022000981,377,PT05M34.00S,3,1610612762,UTA,203903,Clarkson,J. Clarkson,0,0,0,,0,,,0,h,Clarkson Lost Ball Turnover (P2.T8),Turnover,Lost Ball,1,0,279
+0022000981,377,PT05M34.00S,3,1610612759,SAS,203476,Dieng,G. Dieng,0,0,0,,0,,,0,v,Dieng STEAL (1 STL),,,1,0,280
+0022000981,379,PT05M24.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,43,94,10,Made,1,76,58,134,v,DeRozan 10' Fadeaway Jumper (14 PTS),Made Shot,Fadeaway Jump Shot,1,2,281
+0022000981,380,PT05M04.00S,3,1610612762,UTA,1626220,O'Neale,R. O'Neale,-20,71,7,Made,1,78,58,136,h,O'Neale 7' Floating Jump Shot (7 PTS) (Bogdanovic 2 AST),Made Shot,Floating Jump shot,1,2,282
+0022000981,382,PT04M54.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,22,73,8,Missed,1,,,0,v,MISS DeRozan 8' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,283
+0022000981,383,PT04M52.00S,3,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,h,Favors REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,284
+0022000981,384,PT04M44.00S,3,1610612762,UTA,203903,Clarkson,J. Clarkson,0,0,0,,0,,,0,h,Clarkson Lost Ball Turnover (P3.T9),Turnover,Lost Ball,1,0,285
+0022000981,384,PT04M44.00S,3,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,v,Vassell STEAL (1 STL),,,1,0,286
+0022000981,386,PT04M32.00S,3,1610612759,SAS,203476,Dieng,G. Dieng,24,6,2,Made,1,78,60,138,v,Dieng 2' Layup (4 PTS) (DeRozan 4 AST),Made Shot,Layup Shot,1,2,287
+0022000981,388,PT04M32.00S,3,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,288
+0022000981,389,PT04M32.00S,3,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,v,SUB: Gay FOR Vassell,Substitution,,0,0,289
+0022000981,391,PT04M20.00S,3,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay S.FOUL (P2.T4) (M.Smith),Foul,Shooting,1,0,290
+0022000981,393,PT04M20.00S,3,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,79,60,139,h,Bogdanovic Free Throw 1 of 2 (20 PTS),Free Throw,Free Throw 1 of 2,1,0,291
+0022000981,394,PT04M20.00S,3,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,80,60,140,h,Bogdanovic Free Throw 2 of 2 (21 PTS),Free Throw,Free Throw 2 of 2,1,0,292
+0022000981,395,PT04M07.00S,3,1610612759,SAS,200752,Gay,R. Gay,-43,25,5,Missed,1,,,0,v,MISS Gay 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,293
+0022000981,396,PT04M06.00S,3,1610612759,SAS,203476,Dieng,G. Dieng,0,0,0,,0,,,0,v,Dieng REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,294
+0022000981,451,PT04M06.00S,3,1610612759,SAS,203476,Dieng,G. Dieng,3,14,1,Missed,1,,,0,v,MISS Dieng 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,295
+0022000981,452,PT04M06.00S,3,1610612759,SAS,203476,Dieng,G. Dieng,0,0,0,,0,,,0,v,Dieng REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,296
+0022000981,397,PT04M06.00S,3,1610612759,SAS,203476,Dieng,G. Dieng,0,0,0,Missed,1,,,0,v,MISS Dieng Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,297
+0022000981,398,PT04M03.00S,3,1610612762,UTA,203903,Clarkson,J. Clarkson,0,0,0,,0,,,0,h,Clarkson REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,298
+0022000981,399,PT03M57.00S,3,1610612762,UTA,1626220,O'Neale,R. O'Neale,127,222,26,Missed,1,,,0,h,MISS O'Neale 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,299
+0022000981,400,PT03M55.00S,3,1610612762,UTA,1630235,Forrest,T. Forrest,0,0,0,,0,,,0,h,Forrest REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,300
+0022000981,401,PT03M54.00S,3,1610612762,UTA,1630235,Forrest,T. Forrest,4,26,3,Missed,1,,,0,h,MISS Forrest 3' Layup,Missed Shot,Layup Shot,1,2,301
+0022000981,401,PT03M54.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,DeRozan BLOCK (1 BLK),,,1,2,302
+0022000981,403,PT03M54.00S,3,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,0,0,303
+0022000981,405,PT03M49.00S,3,1610612762,UTA,203903,Clarkson,J. Clarkson,0,0,0,,0,,,0,h,Clarkson Lost Ball Turnover (P4.T10),Turnover,Lost Ball,1,0,304
+0022000981,405,PT03M49.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,DeRozan STEAL (2 STL),,,1,0,305
+0022000981,407,PT03M35.00S,3,1610612759,SAS,1629022,Walker IV,L. Walker IV,120,142,19,Made,1,80,62,142,v,Walker IV 19' Pullup Jump Shot (2 PTS) (Dieng 2 AST),Made Shot,Pullup Jump shot,1,2,306
+0022000981,409,PT03M28.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,DeRozan P.FOUL (P3.PN) (M.Smith),Foul,Personal,1,0,307
+0022000981,411,PT03M28.00S,3,1610612762,UTA,1630235,Forrest,T. Forrest,0,0,0,,0,81,62,143,h,Forrest Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,308
+0022000981,412,PT03M28.00S,3,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,h,SUB: Gobert FOR Favors,Substitution,,0,0,309
+0022000981,414,PT03M28.00S,3,1610612762,UTA,1630235,Forrest,T. Forrest,0,0,0,,0,82,62,144,h,Forrest Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,0,0,310
+0022000981,416,PT03M17.00S,3,1610612762,UTA,1630235,Forrest,T. Forrest,0,0,0,,0,,,0,h,SUB: Ingles FOR Forrest,Substitution,,0,0,311
+0022000981,418,PT03M17.00S,3,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,SUB: Niang FOR Bogdanovic,Substitution,,0,0,312
+0022000981,420,PT03M17.00S,3,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,h,SUB: Oni FOR O'Neale,Substitution,,0,0,313
+0022000981,422,PT03M17.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,SUB: Murray FOR DeRozan,Substitution,,0,0,314
+0022000981,424,PT03M11.00S,3,1610612759,SAS,1627749,Murray,D. Murray,-70,236,25,Missed,1,,,0,v,MISS Murray 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,315
+0022000981,425,PT03M08.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert REBOUND (Off:3 Def:8),Rebound,Unknown,1,0,316
+0022000981,426,PT02M53.00S,3,1610612759,SAS,201988,Mills,P. Mills,0,0,0,,0,,,0,v,Mills S.FOUL (P1.PN) (J.Tiven),Foul,Shooting,1,0,317
+0022000981,428,PT02M53.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,83,62,145,h,Gobert Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,1,0,318
+0022000981,429,PT02M53.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,MISS Gobert Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,319
+0022000981,430,PT02M52.00S,3,1610612759,SAS,203476,Dieng,G. Dieng,0,0,0,,0,,,0,v,Dieng REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,320
+0022000981,431,PT02M43.00S,3,1610612759,SAS,1629022,Walker IV,L. Walker IV,0,0,0,,0,,,0,v,Walker IV Out of Bounds - Bad Pass Turnover Turnover (P1.T11),Turnover,Out of Bounds - Bad Pass Turnover,1,0,321
+0022000981,432,PT02M30.00S,3,1610612762,UTA,1627777,Niang,G. Niang,221,41,0,Missed,1,,,0,h,MISS Niang 3PT Jump Shot,Missed Shot,Jump Shot,1,3,322
+0022000981,433,PT02M26.00S,3,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Rebound,Rebound,Unknown,0,0,323
+0022000981,435,PT02M17.00S,3,1610612762,UTA,203903,Clarkson,J. Clarkson,44,104,11,Made,1,85,62,147,h,Clarkson 11' Floating Jump Shot (14 PTS) (Ingles 6 AST),Made Shot,Floating Jump shot,1,2,324
+0022000981,436,PT02M03.00S,3,1610612759,SAS,200752,Gay,R. Gay,-195,148,24,Made,1,85,65,150,v,Gay 24' 3PT Jump Shot (9 PTS) (Dieng 3 AST),Made Shot,Jump Shot,1,3,325
+0022000981,438,PT01M41.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,-60,58,8,Missed,1,,,0,h,MISS Ingles 8' Jump Shot,Missed Shot,Jump Shot,1,2,326
+0022000981,438,PT01M41.00S,3,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay BLOCK (2 BLK),,,1,2,327
+0022000981,440,PT01M38.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,h,Ingles REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,328
+0022000981,441,PT01M37.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,-234,83,25,Missed,1,,,0,h,MISS Ingles 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,329
+0022000981,442,PT01M34.00S,3,1610612759,SAS,201988,Mills,P. Mills,0,0,0,,0,,,0,v,Mills REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,330
+0022000981,443,PT01M30.00S,3,1610612759,SAS,1627749,Murray,D. Murray,28,6,3,Made,1,85,67,152,v,Murray 3' Running Layup (13 PTS) (Mills 1 AST),Made Shot,Running Layup Shot,1,2,331
+0022000981,445,PT01M15.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,27,17,3,Made,1,87,67,154,h,Gobert 3' Layup (18 PTS) (Ingles 7 AST),Made Shot,Layup Shot,1,2,332
+0022000981,447,PT00M58.40S,3,1610612759,SAS,203476,Dieng,G. Dieng,35,17,4,Made,1,87,69,156,v,Dieng 4' Jump Bank Shot (6 PTS) (Murray 4 AST),Made Shot,Jump Bank Shot,1,2,333
+0022000981,449,PT00M58.40S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert S.FOUL (P1.T2) (M.Smith),Foul,Shooting,1,0,334
+0022000981,453,PT00M58.40S,3,1610612759,SAS,203476,Dieng,G. Dieng,0,0,0,,0,87,70,157,v,Dieng Free Throw 1 of 1 (7 PTS),Free Throw,Free Throw 1 of 1,1,0,335
+0022000981,454,PT00M45.00S,3,1610612762,UTA,1627777,Niang,G. Niang,-68,91,11,Made,1,89,70,159,h,Niang 11' Turnaround Jump Shot (11 PTS) (Ingles 8 AST),Made Shot,Turnaround Jump Shot,1,2,336
+0022000981,456,PT00M28.10S,3,1610612759,SAS,203476,Dieng,G. Dieng,-49,56,7,Made,1,89,72,161,v,Dieng 7' Step Back Jump Shot (9 PTS),Made Shot,Step Back Jump shot,1,2,337
+0022000981,457,PT00M03.70S,3,1610612762,UTA,203903,Clarkson,J. Clarkson,223,106,25,Missed,1,,,0,h,MISS Clarkson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,338
+0022000981,458,PT00M03.70S,3,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,339
+0022000981,459,PT00M00.00S,3,1610612759,SAS,1629022,Walker IV,L. Walker IV,-162,308,35,Missed,1,,,0,v,MISS Walker IV 35' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,340
+0022000981,460,PT00M00.00S,3,0,,1610612759,,,0,0,0,,0,,,0,v,Spurs Rebound,Rebound,Unknown,0,0,341
+0022000981,461,PT00M00.00S,3,0,,0,,,0,0,0,,0,89,72,161,,End of 3rd Period (11:45 PM EST),period,end,1,0,342
+0022000981,462,PT12M00.00S,4,0,,0,,,0,0,0,,0,89,72,161,,Start of 4th Period (11:48 PM EST),period,start,0,0,343
+0022000981,463,PT11M46.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,-23,11,3,Missed,1,,,0,h,MISS Gobert 3' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,344
+0022000981,464,PT11M46.00S,4,1610612759,SAS,203476,Dieng,G. Dieng,0,0,0,,0,,,0,v,Dieng REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,345
+0022000981,465,PT11M43.00S,4,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,h,Ingles Personal Take Foul (P2.T1) (J.Tiven),Foul,Personal Take,1,0,346
+0022000981,467,PT11M31.00S,4,1610612759,SAS,203476,Dieng,G. Dieng,-190,155,25,Missed,1,,,0,v,MISS Dieng 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,347
+0022000981,468,PT11M28.00S,4,1610612762,UTA,1629671,Oni,M. Oni,0,0,0,,0,,,0,h,Oni REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,348
+0022000981,469,PT11M17.00S,4,1610612762,UTA,203903,Clarkson,J. Clarkson,0,0,0,,0,,,0,h,Clarkson Out of Bounds - Bad Pass Turnover Turnover (P5.T11),Turnover,Out of Bounds - Bad Pass Turnover,1,0,349
+0022000981,470,PT10M56.00S,4,1610612759,SAS,203476,Dieng,G. Dieng,23,93,10,Missed,1,,,0,v,MISS Dieng 10' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,350
+0022000981,471,PT10M54.00S,4,1610612762,UTA,1627777,Niang,G. Niang,0,0,0,,0,,,0,h,Niang REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,351
+0022000981,472,PT10M53.00S,4,1610612762,UTA,1627777,Niang,G. Niang,0,0,0,,0,,,0,h,Niang Lost Ball Turnover (P1.T12),Turnover,Lost Ball,1,0,352
+0022000981,472,PT10M53.00S,4,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay STEAL (1 STL),,,1,0,353
+0022000981,475,PT10M50.00S,4,1610612759,SAS,200752,Gay,R. Gay,3,22,2,Missed,1,,,0,v,MISS Gay 2' Layup,Missed Shot,Layup Shot,1,2,354
+0022000981,476,PT10M50.00S,4,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,355
+0022000981,474,PT10M50.00S,4,1610612759,SAS,200752,Gay,R. Gay,18,13,2,Made,1,89,74,163,v,Gay 2' Tip Layup Shot (11 PTS),Made Shot,Tip Layup Shot,1,2,356
+0022000981,477,PT10M33.00S,4,1610612762,UTA,204060,Ingles,J. Ingles,-16,15,2,Made,1,91,74,165,h,Ingles 2' Driving Layup (9 PTS),Made Shot,Driving Layup Shot,1,2,357
+0022000981,478,PT10M33.00S,4,1610612759,SAS,203476,Dieng,G. Dieng,0,0,0,,0,,,0,v,Dieng S.FOUL (P2.T1) (J.Tiven),Foul,Shooting,1,0,358
+0022000981,480,PT10M33.00S,4,1610612762,UTA,203903,Clarkson,J. Clarkson,0,0,0,,0,,,0,h,SUB: Forrest FOR Clarkson,Substitution,,0,0,359
+0022000981,482,PT10M33.00S,4,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,92,74,166,h,Ingles Free Throw 1 of 1 (10 PTS),Free Throw,Free Throw 1 of 1,1,0,360
+0022000981,483,PT10M17.00S,4,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay Bad Pass Turnover (P2.T12),Turnover,Bad Pass,1,0,361
+0022000981,483,PT10M17.00S,4,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,h,Ingles STEAL (2 STL),,,1,0,362
+0022000981,485,PT10M09.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,-20,7,2,Made,1,94,74,168,h,Gobert 2' Alley Oop Dunk (20 PTS) (Niang 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,363
+0022000981,487,PT10M09.00S,4,0,,1610612759,,,0,0,0,,0,,,0,v,Spurs Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,364
+0022000981,489,PT10M09.00S,4,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,SUB: DeRozan FOR Murray,Substitution,,0,0,365
+0022000981,490,PT10M09.00S,4,1610612759,SAS,203476,Dieng,G. Dieng,0,0,0,,0,,,0,v,SUB: Poeltl FOR Dieng,Substitution,,0,0,366
+0022000981,491,PT10M09.00S,4,1610612759,SAS,201988,Mills,P. Mills,0,0,0,,0,,,0,v,SUB: Johnson FOR Mills,Substitution,,0,0,367
+0022000981,495,PT09M54.00S,4,1610612759,SAS,1629022,Walker IV,L. Walker IV,35,77,8,Missed,1,,,0,v,MISS Walker IV 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,368
+0022000981,496,PT09M51.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert REBOUND (Off:3 Def:9),Rebound,Unknown,1,0,369
+0022000981,497,PT09M45.00S,4,1610612762,UTA,204060,Ingles,J. Ingles,57,285,29,Missed,1,,,0,h,MISS Ingles 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,370
+0022000981,498,PT09M45.00S,4,0,,1610612759,,,0,0,0,,0,,,0,v,Spurs Rebound,Rebound,Unknown,0,0,371
+0022000981,500,PT09M32.00S,4,1610612759,SAS,200752,Gay,R. Gay,-120,219,25,Made,1,94,77,171,v,Gay 25' 3PT Jump Shot (14 PTS) (DeRozan 5 AST),Made Shot,Jump Shot,1,3,372
+0022000981,502,PT09M05.00S,4,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,h,Ingles Lost Ball Turnover (P2.T13),Turnover,Lost Ball,1,0,373
+0022000981,502,PT09M05.00S,4,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay STEAL (2 STL),,,1,0,374
+0022000981,504,PT08M53.00S,4,1610612759,SAS,200752,Gay,R. Gay,109,266,29,Made,1,94,80,174,v,Gay 29' 3PT Jump Shot (17 PTS) (DeRozan 6 AST),Made Shot,Jump Shot,1,3,375
+0022000981,506,PT08M34.00S,4,1610612762,UTA,204060,Ingles,J. Ingles,64,244,25,Made,1,97,80,177,h,Ingles 25' 3PT Jump Shot (13 PTS) (Niang 2 AST),Made Shot,Jump Shot,1,3,376
+0022000981,507,PT08M15.00S,4,1610612759,SAS,201942,DeRozan,D. DeRozan,25,93,10,Made,1,97,82,179,v,DeRozan 10' Fadeaway Jumper (16 PTS),Made Shot,Fadeaway Jump Shot,1,2,377
+0022000981,510,PT08M00.00S,4,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,h,SUB: O'Neale FOR Ingles,Substitution,,0,0,378
+0022000981,511,PT08M00.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,SUB: Clarkson FOR Gobert,Substitution,,0,0,379
+0022000981,512,PT08M00.00S,4,1610612762,UTA,1627777,Niang,G. Niang,0,0,0,,0,,,0,h,SUB: Bogdanovic FOR Niang,Substitution,,0,0,380
+0022000981,513,PT08M00.00S,4,1610612762,UTA,1629671,Oni,M. Oni,0,0,0,,0,,,0,h,SUB: Favors FOR Oni,Substitution,,0,0,381
+0022000981,514,PT08M00.00S,4,1610612759,SAS,1629022,Walker IV,L. Walker IV,0,0,0,,0,,,0,v,SUB: Murray FOR Walker IV,Substitution,,0,0,382
+0022000981,520,PT07M48.00S,4,1610612762,UTA,202711,Bogdanović,B. Bogdanović,-22,8,2,Made,1,99,82,181,h,Bogdanovic 2' Driving Layup (23 PTS),Made Shot,Driving Layup Shot,1,2,383
+0022000981,521,PT07M28.00S,4,1610612759,SAS,200752,Gay,R. Gay,-102,67,12,Missed,1,,,0,v,MISS Gay 12' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,384
+0022000981,522,PT07M24.00S,4,1610612762,UTA,1630235,Forrest,T. Forrest,0,0,0,,0,,,0,h,Forrest REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,385
+0022000981,523,PT07M12.00S,4,1610612762,UTA,202711,Bogdanović,B. Bogdanović,226,22,0,Missed,1,,,0,h,MISS Bogdanovic 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,386
+0022000981,524,PT07M07.00S,4,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,387
+0022000981,525,PT07M06.00S,4,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay Lost Ball Turnover (P3.T13),Turnover,Lost Ball,1,0,388
+0022000981,525,PT07M06.00S,4,1610612762,UTA,1630235,Forrest,T. Forrest,0,0,0,,0,,,0,h,Forrest STEAL (1 STL),,,1,0,389
+0022000981,527,PT07M01.00S,4,1610612762,UTA,203903,Clarkson,J. Clarkson,114,233,26,Missed,1,,,0,h,MISS Clarkson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,390
+0022000981,528,PT06M58.00S,4,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,391
+0022000981,529,PT06M50.00S,4,1610612762,UTA,203903,Clarkson,J. Clarkson,0,0,0,,0,,,0,h,Clarkson S.FOUL (P3.T2) (A.Moyer-Gleich),Foul,Shooting,1,0,392
+0022000981,531,PT06M50.00S,4,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,99,83,182,v,DeRozan Free Throw 1 of 2 (17 PTS),Free Throw,Free Throw 1 of 2,1,0,393
+0022000981,532,PT06M50.00S,4,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,99,84,183,v,DeRozan Free Throw 2 of 2 (18 PTS),Free Throw,Free Throw 2 of 2,1,0,394
+0022000981,533,PT06M26.00S,4,1610612762,UTA,1630235,Forrest,T. Forrest,-235,17,24,Missed,1,,,0,h,MISS Forrest 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,395
+0022000981,534,PT06M23.00S,4,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,396
+0022000981,535,PT06M15.00S,4,1610612759,SAS,1627749,Murray,D. Murray,16,120,12,Missed,1,,,0,v,MISS Murray 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,397
+0022000981,536,PT06M10.00S,4,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,h,Favors REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,398
+0022000981,538,PT06M03.00S,4,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,399
+0022000981,539,PT06M03.00S,4,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,SUB: Vassell FOR Gay,Substitution,,0,0,400
+0022000981,541,PT05M48.00S,4,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,Bogdanovic Bad Pass Turnover (P3.T14),Turnover,Bad Pass,1,0,401
+0022000981,541,PT05M48.00S,4,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,DeRozan STEAL (3 STL),,,1,0,402
+0022000981,553,PT05M42.00S,4,1610612759,SAS,201942,DeRozan,D. DeRozan,29,15,3,Missed,1,,,0,v,MISS DeRozan 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,403
+0022000981,553,PT05M42.00S,4,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,h,Favors BLOCK (1 BLK),,,1,2,404
+0022000981,555,PT05M42.00S,4,0,,1610612759,,,0,0,0,,0,,,0,v,Spurs Rebound,Rebound,Unknown,0,0,405
+0022000981,544,PT05M41.00S,4,1610612759,SAS,201942,DeRozan,D. DeRozan,182,4,18,Made,1,99,86,185,v,DeRozan 18' Jump Shot (20 PTS) (Murray 5 AST),Made Shot,Jump Shot,0,2,406
+0022000981,546,PT05M22.00S,4,1610612762,UTA,202711,Bogdanović,B. Bogdanović,8,26,3,Made,1,101,86,187,h,Bogdanovic 3' Driving Layup (25 PTS),Made Shot,Driving Layup Shot,1,2,407
+0022000981,547,PT05M11.00S,4,1610612759,SAS,201942,DeRozan,D. DeRozan,154,140,21,Made,1,101,88,189,v,DeRozan 21' Pullup Jump Shot (22 PTS) (Poeltl 4 AST),Made Shot,Pullup Jump shot,1,2,408
+0022000981,549,PT04M51.00S,4,1610612762,UTA,1630235,Forrest,T. Forrest,234,16,0,Made,1,104,88,192,h,Forrest 3PT Jump Shot (9 PTS) (O'Neale 3 AST),Made Shot,Jump Shot,1,3,409
+0022000981,551,PT04M35.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,18,80,8,Made,1,104,90,194,v,Johnson 8' Turnaround Jump Shot (6 PTS),Made Shot,Turnaround Jump Shot,1,2,410
+0022000981,552,PT04M25.00S,4,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,411
+0022000981,556,PT04M25.00S,4,1610612762,UTA,1630235,Forrest,T. Forrest,0,0,0,,0,,,0,h,SUB: Ingles FOR Forrest,Substitution,,0,0,412
+0022000981,557,PT04M25.00S,4,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,h,SUB: Gobert FOR Favors,Substitution,,0,0,413
+0022000981,560,PT04M25.00S,4,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,SUB: Dieng FOR Poeltl,Substitution,,0,0,414
+0022000981,561,PT04M25.00S,4,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,v,SUB: Gay FOR Vassell,Substitution,,0,0,415
+0022000981,564,PT04M20.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert OFF.Foul (P2) (M.Smith),Foul,Offensive,1,0,416
+0022000981,566,PT04M20.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert Offensive Foul Turnover (P2.T15),Turnover,Offensive Foul Turnover,1,0,417
+0022000981,567,PT04M05.00S,4,1610612759,SAS,1627749,Murray,D. Murray,65,16,7,Made,1,104,92,196,v,Murray 7' Driving Layup (15 PTS),Made Shot,Driving Layup Shot,1,2,418
+0022000981,568,PT03M48.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,-36,39,5,Missed,1,,,0,h,MISS Gobert 5' Jump Shot,Missed Shot,Jump Shot,1,2,419
+0022000981,569,PT03M46.00S,4,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,h,O'Neale REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,420
+0022000981,570,PT03M43.00S,4,1610612762,UTA,203903,Clarkson,J. Clarkson,228,10,0,Missed,1,,,0,h,MISS Clarkson 3PT Jump Shot,Missed Shot,Jump Shot,1,3,421
+0022000981,571,PT03M42.00S,4,1610612762,UTA,203903,Clarkson,J. Clarkson,0,0,0,,0,,,0,h,Clarkson REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,422
+0022000981,572,PT03M38.00S,4,1610612762,UTA,203903,Clarkson,J. Clarkson,38,23,4,Made,1,106,92,198,h,Clarkson 4' Layup (16 PTS),Made Shot,Layup Shot,1,2,423
+0022000981,573,PT03M26.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,43,22,5,Missed,1,,,0,v,MISS Johnson 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,424
+0022000981,573,PT03M26.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert BLOCK (3 BLK),,,1,2,425
+0022000981,575,PT03M26.00S,4,0,,1610612759,,,0,0,0,,0,,,0,v,Spurs Rebound,Rebound,Unknown,0,0,426
+0022000981,577,PT03M15.00S,4,1610612759,SAS,201942,DeRozan,D. DeRozan,141,158,21,Missed,1,,,0,v,MISS DeRozan 21' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,427
+0022000981,578,PT03M12.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,v,Johnson REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,428
+0022000981,579,PT03M06.00S,4,1610612759,SAS,1627749,Murray,D. Murray,-67,132,15,Missed,1,,,0,v,MISS Murray 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,429
+0022000981,580,PT03M03.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert REBOUND (Off:3 Def:10),Rebound,Unknown,1,0,430
+0022000981,581,PT03M01.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert Bad Pass Turnover (P3.T16),Turnover,Bad Pass,1,0,431
+0022000981,581,PT03M01.00S,4,1610612759,SAS,203476,Dieng,G. Dieng,0,0,0,,0,,,0,v,Dieng STEAL (2 STL),,,1,0,432
+0022000981,583,PT02M59.00S,4,1610612759,SAS,200752,Gay,R. Gay,-143,198,24,Missed,1,,,0,v,MISS Gay 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,433
+0022000981,584,PT02M54.00S,4,1610612762,UTA,203903,Clarkson,J. Clarkson,0,0,0,,0,,,0,h,Clarkson REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,434
+0022000981,585,PT02M43.00S,4,1610612762,UTA,203903,Clarkson,J. Clarkson,35,18,4,Missed,1,,,0,h,MISS Clarkson 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,435
+0022000981,586,PT02M41.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert REBOUND (Off:4 Def:10),Rebound,Unknown,1,0,436
+0022000981,587,PT02M41.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,Made,1,108,92,200,h,Gobert Tip Layup Shot (22 PTS),Made Shot,Tip Layup Shot,1,2,437
+0022000981,588,PT02M29.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,-73,8,7,Missed,1,,,0,v,MISS Johnson 7' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,438
+0022000981,589,PT02M28.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,Gobert REBOUND (Off:4 Def:11),Rebound,Unknown,1,0,439
+0022000981,590,PT02M12.00S,4,1610612762,UTA,203903,Clarkson,J. Clarkson,98,13,10,Missed,1,,,0,h,MISS Clarkson 10' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,440
+0022000981,591,PT02M09.00S,4,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,Murray REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,441
+0022000981,592,PT02M04.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,239,-1,24,Missed,1,,,0,v,MISS Johnson 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,442
+0022000981,593,PT02M02.00S,4,0,,1610612759,,,0,0,0,,0,,,0,v,Spurs Rebound,Rebound,Unknown,0,0,443
+0022000981,595,PT02M02.00S,4,0,,1610612759,,,0,0,0,,0,,,0,v,Spurs Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,444
+0022000981,596,PT02M02.00S,4,1610612759,SAS,1627749,Murray,D. Murray,0,0,0,,0,,,0,v,SUB: Vassell FOR Murray,Substitution,,0,0,445
+0022000981,597,PT02M02.00S,4,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,SUB: Eubanks FOR DeRozan,Substitution,,0,0,446
+0022000981,598,PT02M02.00S,4,1610612759,SAS,203476,Dieng,G. Dieng,0,0,0,,0,,,0,v,SUB: Samanic FOR Dieng,Substitution,,0,0,447
+0022000981,599,PT02M02.00S,4,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,SUB: Bates-Diop FOR Gay,Substitution,,0,0,448
+0022000981,604,PT02M02.00S,4,1610612759,SAS,1629640,Johnson,K. Johnson,0,0,0,,0,,,0,v,SUB: Jones FOR Johnson,Substitution,,0,0,449
+0022000981,606,PT01M49.00S,4,1610612759,SAS,1628966,Bates-Diop,K. Bates-Diop,180,166,24,Missed,1,,,0,v,MISS Bates-Diop 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,450
+0022000981,607,PT01M45.00S,4,1610612762,UTA,203903,Clarkson,J. Clarkson,0,0,0,,0,,,0,h,Clarkson REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,451
+0022000981,608,PT01M32.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,-3,33,3,Made,1,110,92,202,h,Gobert 3' Layup (24 PTS) (Ingles 9 AST),Made Shot,Layup Shot,1,2,452
+0022000981,610,PT01M21.00S,4,1610612759,SAS,1629234,Eubanks,D. Eubanks,-22,4,2,Made,1,110,94,204,v,Eubanks 2' Layup (6 PTS) (Samanic 1 AST),Made Shot,Layup Shot,1,2,453
+0022000981,612,PT01M16.00S,4,0,,1610612762,,,0,0,0,,0,,,0,h,JAZZ Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,454
+0022000981,613,PT01M16.00S,4,1610612762,UTA,203903,Clarkson,J. Clarkson,0,0,0,,0,,,0,h,SUB: Thomas FOR Clarkson,Substitution,,0,0,455
+0022000981,614,PT01M16.00S,4,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,h,SUB: Hughes FOR O'Neale,Substitution,,0,0,456
+0022000981,615,PT01M16.00S,4,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,SUB: Oni FOR Bogdanovic,Substitution,,0,0,457
+0022000981,616,PT01M16.00S,4,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,h,SUB: Brantley FOR Ingles,Substitution,,0,0,458
+0022000981,617,PT01M16.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,h,SUB: Morgan FOR Gobert,Substitution,,0,0,459
+0022000981,623,PT01M07.00S,4,1610612762,UTA,1630190,Hughes,E. Hughes,-93,236,25,Missed,1,,,0,h,MISS Hughes 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,460
+0022000981,624,PT01M02.00S,4,1610612759,SAS,1628966,Bates-Diop,K. Bates-Diop,0,0,0,,0,,,0,v,Bates-Diop REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,461
+0022000981,625,PT00M52.30S,4,1610612759,SAS,1629677,Samanic,L. Samanic,201,153,25,Made,1,110,97,207,v,Samanic 25' 3PT Jump Shot (3 PTS) (Eubanks 2 AST),Made Shot,Jump Shot,1,3,462
+0022000981,627,PT00M33.80S,4,1610612762,UTA,1629714,Brantley,J. Brantley,73,246,26,Missed,1,,,0,h,MISS Brantley 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,463
+0022000981,628,PT00M30.50S,4,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,,,0,v,Vassell REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,464
+0022000981,629,PT00M22.30S,4,1610612762,UTA,1629752,Morgan,J. Morgan,0,0,0,,0,,,0,h,Morgan S.FOUL (P1.T3) (M.Smith),Foul,Shooting,1,0,465
+0022000981,631,PT00M22.30S,4,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,110,98,208,v,Vassell Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,466
+0022000981,632,PT00M22.30S,4,1610612759,SAS,1630170,Vassell,D. Vassell,0,0,0,,0,110,99,209,v,Vassell Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,467
+0022000981,633,PT00M00.00S,4,0,,0,,,0,0,0,,0,110,99,209,,End of 4th Period (12:16 AM EST),period,end,1,0,468

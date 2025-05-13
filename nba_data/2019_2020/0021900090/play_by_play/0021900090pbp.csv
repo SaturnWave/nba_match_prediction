@@ -1,0 +1,528 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021900090,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (9:12 PM EST),period,start,0,0,1
+0021900090,4,PT12M00.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Jump Ball Zubac vs. Gobert: Tip to Bogdanovic,Jump Ball,,1,0,2
+0021900090,7,PT11M46.00S,1,1610612762,UTA,202711,Bogdanović,B. Bogdanović,54,9,5,Missed,1,,,0,v,MISS Bogdanovic 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,3
+0021900090,7,PT11M46.00S,1,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard BLOCK (1 BLK),,,1,2,4
+0021900090,9,PT11M46.00S,1,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,5
+0021900090,11,PT11M44.00S,1,1610612762,UTA,202711,Bogdanović,B. Bogdanović,228,95,25,Missed,1,,,0,v,MISS Bogdanovic 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,6
+0021900090,12,PT11M40.00S,1,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,h,Beverley REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,7
+0021900090,13,PT11M25.00S,1,1610612746,LAC,202335,Patterson,P. Patterson,-174,184,25,Missed,1,,,0,h,MISS Patterson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,8
+0021900090,14,PT11M21.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,9
+0021900090,15,PT11M02.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,-14,-1,1,Missed,1,,,0,v,MISS Mitchell 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,10
+0021900090,17,PT10M58.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,11
+0021900090,18,PT10M56.00S,1,1610612762,UTA,201144,Conley,M. Conley,0,0,0,,0,,,0,v,Conley P.FOUL (P1.T1) (E.Lewis),Foul,Personal,1,0,12
+0021900090,20,PT10M52.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,13
+0021900090,20,PT10M52.00S,1,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic STEAL (1 STL),,,1,0,14
+0021900090,22,PT10M49.00S,1,1610612762,UTA,202711,Bogdanović,B. Bogdanović,16,5,2,Made,1,0,2,2,v,Bogdanovic 2' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,15
+0021900090,23,PT10M35.00S,1,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard Double Dribble Turnover (P1.T2),Turnover,Double Dribble,1,0,16
+0021900090,24,PT10M21.00S,1,1610612762,UTA,201144,Conley,M. Conley,46,89,10,Missed,1,,,0,v,MISS Conley 10' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,17
+0021900090,25,PT10M18.00S,1,1610612746,LAC,202335,Patterson,P. Patterson,0,0,0,,0,,,0,h,Patterson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,18
+0021900090,26,PT10M05.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,40,12,4,Missed,1,,,0,h,MISS Zubac 4' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,19
+0021900090,27,PT10M03.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,20
+0021900090,28,PT09M43.00S,1,1610612762,UTA,202711,Bogdanović,B. Bogdanović,-8,11,1,Made,1,0,4,4,v,Bogdanovic 1' Driving Layup (4 PTS) (Mitchell 1 AST),Made Shot,Driving Layup Shot,1,2,21
+0021900090,30,PT09M31.00S,1,1610612746,LAC,202695,Leonard,K. Leonard,134,214,25,Missed,1,,,0,h,MISS Leonard 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,22
+0021900090,31,PT09M29.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,23
+0021900090,32,PT09M17.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,16,-1,2,Missed,1,,,0,v,MISS Gobert 2' Alley Oop Layup,Missed Shot,Alley Oop Layup shot,1,2,24
+0021900090,33,PT09M12.00S,1,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,h,Beverley REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,25
+0021900090,34,PT09M03.00S,1,1610612746,LAC,202695,Leonard,K. Leonard,-128,71,15,Missed,1,,,0,h,MISS Leonard 15' Jump Shot,Missed Shot,Jump Shot,1,2,26
+0021900090,35,PT09M00.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,27
+0021900090,36,PT08M50.00S,1,1610612746,LAC,202335,Patterson,P. Patterson,0,0,0,,0,,,0,h,Patterson S.FOUL (P1.T1) (A.Smith),Foul,Shooting,1,0,28
+0021900090,38,PT08M50.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,MISS Gobert Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,29
+0021900090,39,PT08M50.00S,1,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Normal Rebound,0,0,30
+0021900090,40,PT08M50.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,0,5,5,v,Gobert Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,1,0,31
+0021900090,41,PT08M38.00S,1,1610612746,LAC,201976,Beverley,P. Beverley,-217,125,25,Missed,1,,,0,h,MISS Beverley 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,32
+0021900090,42,PT08M36.00S,1,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,33
+0021900090,43,PT08M22.00S,1,1610612762,UTA,202711,Bogdanović,B. Bogdanović,-67,246,25,Made,1,0,8,8,v,Bogdanovic 25' 3PT Jump Shot (7 PTS) (O'Neale 1 AST),Made Shot,Jump Shot,1,3,34
+0021900090,45,PT08M21.00S,1,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,35
+0021900090,46,PT08M07.00S,1,1610612762,UTA,201144,Conley,M. Conley,0,0,0,,0,,,0,v,Conley S.FOUL (P2.T2) (A.Smith),Foul,Shooting,1,0,36
+0021900090,48,PT08M07.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,1,8,9,h,Zubac Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,37
+0021900090,49,PT08M07.00S,1,1610612762,UTA,201144,Conley,M. Conley,0,0,0,,0,,,0,v,SUB: Ingles FOR Conley,Substitution,,0,0,38
+0021900090,51,PT08M07.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,2,8,10,h,Zubac Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,39
+0021900090,52,PT07M52.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,-209,127,24,Made,1,2,11,13,v,Mitchell 24' 3PT Jump Shot (3 PTS) (Bogdanovic 1 AST),Made Shot,Jump Shot,1,3,40
+0021900090,54,PT07M36.00S,1,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard Bad Pass Turnover (P2.T3),Turnover,Bad Pass,1,0,41
+0021900090,54,PT07M36.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell STEAL (1 STL),,,1,0,42
+0021900090,56,PT07M33.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,-5,5,1,Missed,1,,,0,v,MISS Mitchell 1' Running Alley Oop Dunk Shot,Missed Shot,Running Alley Oop Dunk Shot,1,2,43
+0021900090,57,PT07M31.00S,1,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,44
+0021900090,59,PT07M20.00S,1,1610612762,UTA,202711,Bogdanović,B. Bogdanović,236,14,24,Missed,1,,,0,v,MISS Bogdanovic 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,45
+0021900090,60,PT07M17.00S,1,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,h,Beverley REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,46
+0021900090,61,PT07M01.00S,1,1610612746,LAC,202695,Leonard,K. Leonard,31,37,5,Missed,1,,,0,h,MISS Leonard 5' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,47
+0021900090,62,PT06M56.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,48
+0021900090,63,PT06M56.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,-6,1,Made,1,4,11,15,h,Zubac 1' Tip Layup Shot (4 PTS),Made Shot,Tip Layup Shot,1,2,49
+0021900090,64,PT06M46.00S,1,1610612762,UTA,202711,Bogdanović,B. Bogdanović,34,57,7,Missed,1,,,0,v,MISS Bogdanovic 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,50
+0021900090,65,PT06M46.00S,1,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,51
+0021900090,67,PT06M46.00S,1,1610612746,LAC,202335,Patterson,P. Patterson,0,0,0,,0,,,0,h,SUB: Williams FOR Patterson,Substitution,,0,0,52
+0021900090,69,PT06M42.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,-225,50,0,Missed,1,,,0,v,MISS Ingles 3PT Jump Shot,Missed Shot,Jump Shot,1,3,53
+0021900090,70,PT06M39.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,54
+0021900090,71,PT06M33.00S,1,1610612746,LAC,101150,Williams,L. Williams,15,2,2,Made,1,6,11,17,h,Williams 2' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,55
+0021900090,72,PT06M25.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles OFF.Foul (P1) (R.Mott),Foul,Offensive,1,0,56
+0021900090,74,PT06M25.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles Offensive Foul Turnover (P1.T1),Turnover,Offensive Foul Turnover,1,0,57
+0021900090,75,PT06M25.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,SUB: Conley FOR Mitchell,Substitution,,0,0,58
+0021900090,78,PT06M09.00S,1,1610612746,LAC,202695,Leonard,K. Leonard,-67,83,11,Missed,1,,,0,h,MISS Leonard 11' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,59
+0021900090,79,PT06M08.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,60
+0021900090,80,PT05M55.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,12,64,7,Missed,1,,,0,v,MISS Gobert 7' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,61
+0021900090,81,PT05M54.00S,1,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,1,0,62
+0021900090,82,PT05M54.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert L.B.FOUL (P1.T3) (A.Smith),Foul,Loose Ball,1,0,63
+0021900090,84,PT05M41.00S,1,1610612746,LAC,202695,Leonard,K. Leonard,-195,167,26,Missed,1,,,0,h,MISS Leonard 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,64
+0021900090,85,PT05M32.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,65
+0021900090,86,PT05M32.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,-6,1,Made,1,8,11,19,h,Zubac 1' Putback Dunk (6 PTS),Made Shot,Putback Dunk Shot,1,2,66
+0021900090,87,PT05M28.00S,1,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,h,Beverley P.FOUL (P1.T2) (E.Lewis),Foul,Personal,1,0,67
+0021900090,89,PT05M25.00S,1,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic Traveling Turnover (P1.T2),Turnover,Traveling,1,0,68
+0021900090,90,PT05M12.00S,1,1610612746,LAC,101150,Williams,L. Williams,18,10,2,Made,1,10,11,21,h,Williams 2' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,69
+0021900090,91,PT05M01.00S,1,1610612746,LAC,1629013,Shamet,L. Shamet,0,0,0,,0,,,0,h,Shamet P.FOUL (P1.T3) (R.Mott),Foul,Personal,1,0,70
+0021900090,93,PT05M01.00S,1,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,SUB: Harkless FOR Leonard,Substitution,,0,0,71
+0021900090,95,PT04M51.00S,1,1610612762,UTA,201144,Conley,M. Conley,62,110,13,Made,1,10,13,23,v,Conley 13' Driving Floating Jump Shot (2 PTS),Made Shot,Driving Floating Jump Shot,1,2,72
+0021900090,96,PT04M29.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,-38,23,4,Made,1,12,13,25,h,Zubac 4' Hook Bank Shot (8 PTS) (Beverley 1 AST),Made Shot,Hook Bank Shot,1,2,73
+0021900090,98,PT04M18.00S,1,1610612762,UTA,201144,Conley,M. Conley,0,0,0,,0,,,0,v,Conley Out of Bounds - Bad Pass Turnover Turnover (P1.T3),Turnover,Out of Bounds - Bad Pass Turnover,1,0,74
+0021900090,99,PT04M06.00S,1,1610612746,LAC,101150,Williams,L. Williams,65,69,9,Missed,1,,,0,h,MISS Williams 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,75
+0021900090,100,PT04M04.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,76
+0021900090,101,PT03M58.00S,1,1610612762,UTA,1626220,O'Neale,R. O'Neale,180,183,26,Missed,1,,,0,v,MISS O'Neale 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,77
+0021900090,102,PT03M53.00S,1,1610612746,LAC,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,Harkless REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,78
+0021900090,103,PT03M50.00S,1,1610612746,LAC,1629013,Shamet,L. Shamet,-201,180,27,Missed,1,,,0,h,MISS Shamet 27' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,79
+0021900090,104,PT03M47.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,80
+0021900090,105,PT03M31.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,147,231,27,Missed,1,,,0,v,MISS Ingles 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,81
+0021900090,106,PT03M26.00S,1,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,82
+0021900090,107,PT03M19.00S,1,1610612762,UTA,201144,Conley,M. Conley,0,126,13,Missed,1,,,0,v,MISS Conley 13' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,83
+0021900090,108,PT03M10.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,84
+0021900090,109,PT03M10.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,-6,1,Missed,1,,,0,v,MISS Gobert 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,85
+0021900090,110,PT03M09.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,86
+0021900090,111,PT03M01.00S,1,1610612746,LAC,101150,Williams,L. Williams,-117,144,19,Missed,1,,,0,h,MISS Williams 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,87
+0021900090,111,PT03M01.00S,1,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic BLOCK (1 BLK),,,1,2,88
+0021900090,113,PT02M58.00S,1,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,89
+0021900090,114,PT02M47.00S,1,1610612746,LAC,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,Harkless S.FOUL (P1.T4) (E.Lewis),Foul,Shooting,1,0,90
+0021900090,116,PT02M47.00S,1,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,91
+0021900090,117,PT02M47.00S,1,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,SUB: Harrell FOR Zubac,Substitution,,0,0,92
+0021900090,118,PT02M47.00S,1,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,SUB: Niang FOR O'Neale,Substitution,,0,0,93
+0021900090,119,PT02M47.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,SUB: Green FOR Gobert,Substitution,,0,0,94
+0021900090,120,PT02M47.00S,1,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,SUB: Bradley FOR Bogdanovic,Substitution,,0,0,95
+0021900090,125,PT02M47.00S,1,1610612762,UTA,201144,Conley,M. Conley,0,0,0,,0,12,14,26,v,Conley Free Throw 1 of 3 (3 PTS),Free Throw,Free Throw 1 of 3,1,0,96
+0021900090,126,PT02M47.00S,1,1610612762,UTA,201144,Conley,M. Conley,0,0,0,,0,12,15,27,v,Conley Free Throw 2 of 3 (4 PTS),Free Throw,Free Throw 2 of 3,1,0,97
+0021900090,127,PT02M47.00S,1,1610612762,UTA,201144,Conley,M. Conley,0,0,0,,0,12,16,28,v,Conley Free Throw 3 of 3 (5 PTS),Free Throw,Free Throw 3 of 3,1,0,98
+0021900090,128,PT02M33.00S,1,1610612746,LAC,201976,Beverley,P. Beverley,22,252,25,Missed,1,,,0,h,MISS Beverley 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,99
+0021900090,129,PT02M29.00S,1,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,Bradley REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,100
+0021900090,130,PT02M09.00S,1,1610612762,UTA,201144,Conley,M. Conley,231,48,24,Missed,1,,,0,v,MISS Conley 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,101
+0021900090,131,PT02M05.00S,1,1610612746,LAC,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,Harkless REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,102
+0021900090,132,PT01M55.00S,1,1610612746,LAC,203090,Harkless,M. Harkless,-16,8,2,Made,1,14,16,30,h,Harkless 2' Cutting Dunk Shot (2 PTS) (Harrell 1 AST),Made Shot,Cutting Dunk Shot,1,2,103
+0021900090,134,PT01M41.00S,1,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,Bradley Offensive Charge Foul (P1.T4) (R.Mott),Foul,Offensive Charge,1,0,104
+0021900090,136,PT01M41.00S,1,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,Bradley Offensive Foul Turnover (P1.T4),Turnover,Offensive Foul Turnover,1,0,105
+0021900090,137,PT01M41.00S,1,1610612746,LAC,1629013,Shamet,L. Shamet,0,0,0,,0,,,0,h,SUB: McGruder FOR Shamet,Substitution,,0,0,106
+0021900090,138,PT01M41.00S,1,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,h,SUB: Green FOR Beverley,Substitution,,0,0,107
+0021900090,139,PT01M41.00S,1,1610612762,UTA,201144,Conley,M. Conley,0,0,0,,0,,,0,v,SUB: Mitchell FOR Conley,Substitution,,0,0,108
+0021900090,143,PT01M31.00S,1,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,h,Williams Out of Bounds - Bad Pass Turnover Turnover (P1.T4),Turnover,Out of Bounds - Bad Pass Turnover,1,0,109
+0021900090,144,PT01M15.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,-11,5,1,Missed,1,,,0,v,MISS Mitchell 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,110
+0021900090,145,PT01M13.00S,1,1610612746,LAC,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,McGruder REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,111
+0021900090,146,PT01M12.00S,1,1610612762,UTA,1627777,Niang,G. Niang,0,0,0,,0,,,0,v,Niang S.FOUL (P1.PN) (A.Smith),Foul,Shooting,1,0,112
+0021900090,148,PT01M12.00S,1,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,15,16,31,h,Williams Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,113
+0021900090,149,PT01M12.00S,1,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,16,16,32,h,Williams Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,0,0,114
+0021900090,150,PT00M50.30S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,24,50,6,Made,1,16,18,34,v,Mitchell 6' Driving Finger Roll Layup (5 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,115
+0021900090,152,PT00M39.20S,1,1610612762,UTA,1627777,Niang,G. Niang,0,0,0,,0,,,0,v,Niang S.FOUL (P2.PN) (R.Mott),Foul,Shooting,1,0,116
+0021900090,154,PT00M39.20S,1,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,MISS Harrell Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,117
+0021900090,155,PT00M39.20S,1,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Normal Rebound,0,0,118
+0021900090,156,PT00M39.20S,1,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,MISS Harrell Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,119
+0021900090,157,PT00M37.00S,1,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,Bradley REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,120
+0021900090,158,PT00M34.00S,1,1610612746,LAC,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,McGruder P.FOUL (P1.PN) (R.Mott),Foul,Personal,1,0,121
+0021900090,160,PT00M34.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,16,19,35,v,Mitchell Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,122
+0021900090,161,PT00M34.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,16,20,36,v,Mitchell Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,123
+0021900090,162,PT00M09.20S,1,1610612746,LAC,203210,Green,J. Green,0,0,0,,0,,,0,h,Green Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,124
+0021900090,162,PT00M09.20S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell STEAL (2 STL),,,1,0,125
+0021900090,164,PT00M01.20S,1,1610612762,UTA,1628396,Bradley,T. Bradley,-15,17,2,Missed,1,,,0,v,MISS Bradley 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,126
+0021900090,164,PT00M01.20S,1,1610612746,LAC,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,McGruder BLOCK (1 BLK),,,1,2,127
+0021900090,166,PT00M00.50S,1,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,Bradley REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,128
+0021900090,167,PT00M00.10S,1,1610612762,UTA,1628396,Bradley,T. Bradley,0,-6,1,Missed,1,,,0,v,MISS Bradley 1' Putback Layup,Missed Shot,Putback Layup Shot,1,2,129
+0021900090,167,PT00M00.10S,1,1610612746,LAC,203210,Green,J. Green,0,0,0,,0,,,0,h,Green BLOCK (1 BLK),,,1,2,130
+0021900090,169,PT00M00.10S,1,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,131
+0021900090,170,PT00M00.00S,1,0,,0,,,0,0,0,,0,16,20,36,,End of 1st Period (9:40 PM EST),period,end,1,0,132
+0021900090,173,PT12M00.00S,2,0,,0,,,0,0,0,,0,16,20,36,,Start of 2nd Period (9:43 PM EST),period,start,0,0,133
+0021900090,174,PT11M49.00S,2,1610612746,LAC,203090,Harkless,M. Harkless,18,8,2,Missed,1,,,0,h,MISS Harkless 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,134
+0021900090,175,PT11M46.00S,2,1610612762,UTA,201145,Green,J. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,135
+0021900090,176,PT11M38.00S,2,1610612746,LAC,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,Harkless S.FOUL (P2.T1) (R.Mott),Foul,Shooting,1,0,136
+0021900090,212,PT11M38.00S,2,1610612746,LAC,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,SUB: Leonard FOR Harkless,Substitution,,0,0,137
+0021900090,178,PT11M38.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,MISS Mitchell Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,138
+0021900090,179,PT11M38.00S,2,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Normal Rebound,0,0,139
+0021900090,180,PT11M38.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,MISS Mitchell Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,140
+0021900090,181,PT11M36.00S,2,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,Bradley REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,141
+0021900090,182,PT11M36.00S,2,1610612762,UTA,1628396,Bradley,T. Bradley,2,11,1,Made,1,16,22,38,v,Bradley 1' Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,142
+0021900090,183,PT11M24.00S,2,1610612746,LAC,203210,Green,J. Green,-171,202,26,Missed,1,,,0,h,MISS Green 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,143
+0021900090,184,PT11M22.00S,2,1610612746,LAC,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,McGruder REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,144
+0021900090,185,PT11M15.00S,2,1610612746,LAC,203585,McGruder,R. McGruder,227,83,24,Missed,1,,,0,h,MISS McGruder 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,145
+0021900090,186,PT11M14.00S,2,1610612746,LAC,203210,Green,J. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,146
+0021900090,259,PT11M14.00S,2,1610612746,LAC,203210,Green,J. Green,10,13,2,Missed,1,,,0,h,MISS Green 2' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,147
+0021900090,260,PT11M14.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,148
+0021900090,187,PT11M11.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,5,16,2,Made,1,18,22,40,h,Harrell 2' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,149
+0021900090,188,PT10M45.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,105,241,26,Missed,1,,,0,v,MISS Mitchell 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,150
+0021900090,189,PT10M40.00S,2,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,151
+0021900090,190,PT10M39.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles L.B.FOUL (P2.T1) (R.Mott),Foul,Loose Ball,1,0,152
+0021900090,192,PT10M26.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,5,7,1,Made,1,20,22,42,h,Harrell 1' Dunk (4 PTS) (Leonard 1 AST),Made Shot,Dunk Shot,1,2,153
+0021900090,194,PT10M05.00S,2,1610612762,UTA,1628396,Bradley,T. Bradley,-15,3,2,Made,1,20,24,44,v,Bradley 2' Cutting Dunk Shot (4 PTS) (Mitchell 2 AST),Made Shot,Cutting Dunk Shot,1,2,154
+0021900090,198,PT10M05.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell S.FOUL (P1.T2) (R.Mott),Foul,Shooting,1,0,155
+0021900090,200,PT10M05.00S,2,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,MISS Bradley Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,156
+0021900090,201,PT10M01.00S,2,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,157
+0021900090,202,PT09M56.00S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale S.FOUL (P1.T2) (R.Mott),Foul,Shooting,1,0,158
+0021900090,204,PT09M56.00S,2,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,21,24,45,h,Leonard Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,159
+0021900090,205,PT09M56.00S,2,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,22,24,46,h,Leonard Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,160
+0021900090,206,PT09M42.00S,2,1610612762,UTA,201145,Green,J. Green,237,61,24,Missed,1,,,0,v,MISS Green 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,161
+0021900090,207,PT09M36.00S,2,1610612746,LAC,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,McGruder REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,162
+0021900090,208,PT09M34.00S,2,1610612746,LAC,101150,Williams,L. Williams,-154,43,16,Made,1,24,24,48,h,Williams 16' Jump Shot (8 PTS),Made Shot,Jump Shot,1,2,163
+0021900090,210,PT09M13.00S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,180,192,26,Missed,1,,,0,v,MISS O'Neale 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,164
+0021900090,211,PT09M08.00S,2,1610612746,LAC,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,McGruder REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,165
+0021900090,214,PT08M55.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,20,10,2,Missed,1,,,0,h,MISS Harrell 2' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,166
+0021900090,215,PT08M51.00S,2,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,167
+0021900090,216,PT08M43.00S,2,1610612746,LAC,202695,Leonard,K. Leonard,-16,75,8,Made,1,26,24,50,h,Leonard 8' Turnaround Fadeaway Bank Jump Shot (4 PTS),Made Shot,Turnaround Fadeaway Bank Jump Shot,1,2,168
+0021900090,217,PT08M18.00S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,143,32,15,Missed,1,,,0,v,MISS O'Neale 15' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,169
+0021900090,218,PT08M18.00S,2,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,170
+0021900090,219,PT08M18.00S,2,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Turnover: Shot Clock (T#5),Turnover,Shot Clock Turnover,0,0,171
+0021900090,220,PT08M18.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,SUB: Conley FOR Ingles,Substitution,,0,0,172
+0021900090,221,PT08M18.00S,2,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,SUB: Gobert FOR Bradley,Substitution,,0,0,173
+0021900090,245,PT08M18.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,SUB: Bogdanovic FOR Mitchell,Substitution,,0,0,174
+0021900090,224,PT08M02.00S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale P.FOUL (P2.T3) (E.Lewis),Foul,Personal,1,0,175
+0021900090,226,PT08M02.00S,2,1610612746,LAC,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,SUB: Shamet FOR McGruder,Substitution,,0,0,176
+0021900090,227,PT08M02.00S,2,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,h,SUB: Beverley FOR Williams,Substitution,,0,0,177
+0021900090,230,PT07M57.00S,2,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic S.FOUL (P1.T4) (E.Lewis),Foul,Shooting,1,0,178
+0021900090,232,PT07M57.00S,2,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,MISS Leonard Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,179
+0021900090,233,PT07M57.00S,2,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Normal Rebound,0,0,180
+0021900090,236,PT07M57.00S,2,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,27,24,51,h,Leonard Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,181
+0021900090,237,PT07M42.00S,2,1610612762,UTA,201145,Green,J. Green,95,247,26,Missed,1,,,0,v,MISS Green 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,182
+0021900090,238,PT07M38.00S,2,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,h,Beverley REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,183
+0021900090,239,PT07M34.00S,2,1610612746,LAC,202695,Leonard,K. Leonard,2,259,26,Missed,1,,,0,h,MISS Leonard 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,184
+0021900090,240,PT07M32.00S,2,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,185
+0021900090,241,PT07M29.00S,2,1610612746,LAC,203210,Green,J. Green,227,2,0,Missed,1,,,0,h,MISS Green 3PT Jump Shot,Missed Shot,Jump Shot,1,3,186
+0021900090,242,PT07M25.00S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,187
+0021900090,248,PT07M23.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Jump Ball Harrell vs. Green: Tip to Gobert,Jump Ball,,1,0,188
+0021900090,253,PT06M57.00S,2,1610612762,UTA,201144,Conley,M. Conley,164,148,22,Missed,1,,,0,v,MISS Conley 22' Jump Shot,Missed Shot,Jump Shot,1,2,189
+0021900090,254,PT06M54.00S,2,1610612746,LAC,1629013,Shamet,L. Shamet,0,0,0,,0,,,0,h,Shamet REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,190
+0021900090,255,PT06M48.00S,2,1610612746,LAC,202695,Leonard,K. Leonard,-47,22,5,Missed,1,,,0,h,MISS Leonard 5' Running Layup,Missed Shot,Running Layup Shot,1,2,191
+0021900090,256,PT06M44.00S,2,1610612746,LAC,203210,Green,J. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,192
+0021900090,257,PT06M39.00S,2,1610612746,LAC,201976,Beverley,P. Beverley,10,10,1,Made,1,29,24,53,h,Beverley 1' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,193
+0021900090,258,PT06M39.00S,2,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,194
+0021900090,261,PT06M21.00S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,-29,36,5,Missed,1,,,0,v,MISS O'Neale 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,195
+0021900090,262,PT06M17.00S,2,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,h,Beverley REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,196
+0021900090,263,PT05M59.00S,2,1610612746,LAC,1629013,Shamet,L. Shamet,13,22,3,Made,1,31,24,55,h,Shamet 3' Driving Layup (2 PTS) (Green 1 AST),Made Shot,Driving Layup Shot,1,2,197
+0021900090,265,PT05M36.00S,2,1610612762,UTA,202711,Bogdanović,B. Bogdanović,27,17,3,Missed,1,,,0,v,MISS Bogdanovic 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,198
+0021900090,265,PT05M36.00S,2,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,h,Beverley BLOCK (1 BLK),,,1,2,199
+0021900090,267,PT05M36.00S,2,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,200
+0021900090,269,PT05M36.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,SUB: Zubac FOR Harrell,Substitution,,0,0,201
+0021900090,270,PT05M36.00S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,SUB: Mitchell FOR O'Neale,Substitution,,0,0,202
+0021900090,273,PT05M32.00S,2,1610612762,UTA,201144,Conley,M. Conley,0,0,0,,0,,,0,v,Conley Bad Pass Turnover (P2.T6),Turnover,Bad Pass,1,0,203
+0021900090,273,PT05M32.00S,2,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac STEAL (1 STL),,,1,0,204
+0021900090,275,PT05M27.00S,2,1610612746,LAC,202695,Leonard,K. Leonard,0,16,2,Missed,1,,,0,h,MISS Leonard 2' Cutting Dunk Shot,Missed Shot,Cutting Dunk Shot,1,2,205
+0021900090,275,PT05M27.00S,2,1610612762,UTA,201145,Green,J. Green,0,0,0,,0,,,0,v,Green BLOCK (1 BLK),,,1,2,206
+0021900090,277,PT05M25.00S,2,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,h,Beverley REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,207
+0021900090,278,PT05M25.00S,2,1610612746,LAC,201976,Beverley,P. Beverley,3,15,2,Made,1,33,24,57,h,Beverley 2' Putback Layup (4 PTS),Made Shot,Putback Layup Shot,1,2,208
+0021900090,281,PT05M17.00S,2,1610612746,LAC,203210,Green,J. Green,0,0,0,,0,,,0,h,Green P.FOUL (P1.T3) (R.Mott),Foul,Personal,1,0,209
+0021900090,283,PT05M17.00S,2,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,SUB: Williams FOR Leonard,Substitution,,0,0,210
+0021900090,284,PT05M17.00S,2,1610612746,LAC,203210,Green,J. Green,0,0,0,,0,,,0,h,SUB: Patterson FOR Green,Substitution,,0,0,211
+0021900090,287,PT05M04.00S,2,1610612762,UTA,202711,Bogdanović,B. Bogdanović,-129,219,25,Missed,1,,,0,v,MISS Bogdanovic 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,212
+0021900090,288,PT05M02.00S,2,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,h,Beverley REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,213
+0021900090,289,PT04M57.00S,2,1610612746,LAC,1629013,Shamet,L. Shamet,-131,222,26,Made,1,36,24,60,h,Shamet 26' 3PT Jump Shot (5 PTS) (Williams 1 AST),Made Shot,Jump Shot,1,3,214
+0021900090,291,PT04M36.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,-4,272,27,Made,1,36,27,63,v,Mitchell 27' 3PT Jump Shot (10 PTS) (Bogdanovic 2 AST),Made Shot,Jump Shot,1,3,215
+0021900090,293,PT04M18.00S,2,1610612746,LAC,101150,Williams,L. Williams,-52,41,7,Missed,1,,,0,h,MISS Williams 7' Driving Layup,Missed Shot,Driving Layup Shot,1,2,216
+0021900090,294,PT04M15.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,217
+0021900090,295,PT04M09.00S,2,1610612762,UTA,202711,Bogdanović,B. Bogdanović,172,197,26,Made,1,36,30,66,v,Bogdanovic 26' 3PT Jump Shot (10 PTS) (Mitchell 3 AST),Made Shot,Jump Shot,1,3,218
+0021900090,297,PT04M09.00S,2,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,219
+0021900090,298,PT04M09.00S,2,1610612762,UTA,201145,Green,J. Green,0,0,0,,0,,,0,v,SUB: Ingles FOR Green,Substitution,,0,0,220
+0021900090,300,PT03M55.00S,2,1610612746,LAC,1629013,Shamet,L. Shamet,-223,111,25,Missed,1,,,0,h,MISS Shamet 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,221
+0021900090,301,PT03M52.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,222
+0021900090,302,PT03M34.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,-10,-1,1,Missed,1,,,0,v,MISS Gobert 1' Layup,Missed Shot,Layup Shot,1,2,223
+0021900090,302,PT03M34.00S,2,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac BLOCK (1 BLK),,,1,2,224
+0021900090,304,PT03M30.00S,2,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,h,Beverley REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,225
+0021900090,305,PT03M23.00S,2,1610612746,LAC,201976,Beverley,P. Beverley,154,204,26,Missed,1,,,0,h,MISS Beverley 26' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,226
+0021900090,306,PT03M18.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,227
+0021900090,307,PT03M11.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,-57,25,6,Missed,1,,,0,v,MISS Mitchell 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,228
+0021900090,308,PT03M07.00S,2,1610612746,LAC,1629013,Shamet,L. Shamet,0,0,0,,0,,,0,h,Shamet REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,229
+0021900090,309,PT03M01.00S,2,1610612746,LAC,101150,Williams,L. Williams,25,10,3,Missed,1,,,0,h,MISS Williams 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,230
+0021900090,310,PT02M59.00S,2,1610612762,UTA,201144,Conley,M. Conley,0,0,0,,0,,,0,v,Conley REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,231
+0021900090,311,PT02M51.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,16,67,7,Made,1,36,32,68,v,Mitchell 7' Driving Floating Jump Shot (12 PTS) (Bogdanovic 3 AST),Made Shot,Driving Floating Jump Shot,1,2,232
+0021900090,313,PT02M35.00S,2,1610612746,LAC,1629013,Shamet,L. Shamet,-79,249,26,Made,1,39,32,71,h,Shamet 26' 3PT Jump Shot (8 PTS) (Beverley 2 AST),Made Shot,Jump Shot,1,3,233
+0021900090,315,PT02M08.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,-10,5,1,Made,1,39,34,73,v,Gobert 1' Cutting Dunk Shot (3 PTS) (Bogdanovic 4 AST),Made Shot,Cutting Dunk Shot,1,2,234
+0021900090,317,PT01M44.00S,2,1610612746,LAC,1629013,Shamet,L. Shamet,87,232,25,Missed,1,,,0,h,MISS Shamet 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,235
+0021900090,318,PT01M42.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,236
+0021900090,319,PT01M34.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,20,10,2,Made,1,39,36,75,v,Gobert 2' Cutting Layup Shot (5 PTS) (Ingles 1 AST),Made Shot,Cutting Layup Shot,1,2,237
+0021900090,321,PT01M24.00S,2,1610612746,LAC,202335,Patterson,P. Patterson,0,0,0,,0,,,0,h,Patterson Out of Bounds - Bad Pass Turnover Turnover (P1.T6),Turnover,Out of Bounds - Bad Pass Turnover,1,0,238
+0021900090,322,PT01M24.00S,2,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,h,SUB: Harrell FOR Beverley,Substitution,,0,0,239
+0021900090,323,PT01M24.00S,2,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,SUB: Leonard FOR Zubac,Substitution,,0,0,240
+0021900090,324,PT01M24.00S,2,1610612746,LAC,202335,Patterson,P. Patterson,0,0,0,,0,,,0,h,SUB: McGruder FOR Patterson,Substitution,,0,0,241
+0021900090,328,PT01M11.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,74,241,25,Made,1,39,39,78,v,Ingles 25' 3PT Jump Shot (3 PTS) (Conley 1 AST),Made Shot,Jump Shot,1,3,242
+0021900090,330,PT00M44.70S,2,1610612746,LAC,1629013,Shamet,L. Shamet,225,50,0,Missed,1,,,0,h,MISS Shamet 3PT Jump Shot,Missed Shot,Jump Shot,1,3,243
+0021900090,331,PT00M42.30S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,244
+0021900090,332,PT00M26.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,6,14,2,Made,1,39,41,80,v,Mitchell 2' Driving Layup (14 PTS) (Ingles 2 AST),Made Shot,Driving Layup Shot,1,2,245
+0021900090,334,PT00M02.30S,2,1610612746,LAC,1629013,Shamet,L. Shamet,9,79,8,Missed,1,,,0,h,MISS Shamet 8' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,246
+0021900090,335,PT00M01.20S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,247
+0021900090,336,PT00M00.00S,2,0,,0,,,0,0,0,,0,39,41,80,,End of 2nd Period (10:06 PM EST),period,end,1,0,248
+0021900090,347,PT12M00.00S,3,0,,0,,,0,0,0,,0,39,41,80,,Start of 3rd Period (10:22 PM EST),period,start,0,0,249
+0021900090,348,PT11M44.00S,3,1610612746,LAC,202695,Leonard,K. Leonard,-16,145,15,Made,1,41,41,82,h,Leonard 15' Step Back Jump Shot (7 PTS) (Zubac 1 AST),Made Shot,Step Back Jump shot,1,2,250
+0021900090,350,PT11M28.00S,3,1610612762,UTA,202711,Bogdanović,B. Bogdanović,-215,133,25,Made,1,41,44,85,v,Bogdanovic 25' 3PT Jump Shot (13 PTS) (Mitchell 4 AST),Made Shot,Jump Shot,1,3,251
+0021900090,352,PT11M14.00S,3,1610612746,LAC,201976,Beverley,P. Beverley,-152,190,24,Missed,1,,,0,h,MISS Beverley 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,252
+0021900090,353,PT11M11.00S,3,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,253
+0021900090,354,PT11M04.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,-20,100,10,Missed,1,,,0,v,MISS Mitchell 10' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,254
+0021900090,355,PT11M02.00S,3,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,255
+0021900090,356,PT10M55.00S,3,1610612746,LAC,1629013,Shamet,L. Shamet,-128,210,25,Missed,1,,,0,h,MISS Shamet 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,256
+0021900090,357,PT10M53.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,257
+0021900090,358,PT10M40.00S,3,1610612762,UTA,202711,Bogdanović,B. Bogdanović,11,10,1,Made,1,41,46,87,v,Bogdanovic 1' Driving Layup (15 PTS),Made Shot,Driving Layup Shot,1,2,258
+0021900090,359,PT10M26.00S,3,1610612746,LAC,202695,Leonard,K. Leonard,-73,152,17,Missed,1,,,0,h,MISS Leonard 17' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,259
+0021900090,360,PT10M26.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,260
+0021900090,361,PT10M14.00S,3,1610612762,UTA,201144,Conley,M. Conley,-25,13,3,Missed,1,,,0,v,MISS Conley 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,261
+0021900090,362,PT10M12.00S,3,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,262
+0021900090,363,PT10M10.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell S.FOUL (P1.T1) (A.Smith),Foul,Shooting,1,0,263
+0021900090,365,PT10M10.00S,3,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,MISS Leonard Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,264
+0021900090,366,PT10M10.00S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Normal Rebound,0,0,265
+0021900090,367,PT10M10.00S,3,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,42,46,88,h,Leonard Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,266
+0021900090,368,PT10M00.00S,3,1610612762,UTA,201144,Conley,M. Conley,0,0,0,,0,,,0,v,Conley Bad Pass Turnover (P3.T7),Turnover,Bad Pass,1,0,267
+0021900090,368,PT10M00.00S,3,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard STEAL (1 STL),,,1,0,268
+0021900090,370,PT09M58.00S,3,1610612746,LAC,202695,Leonard,K. Leonard,0,15,2,Made,1,44,46,90,h,Leonard 2' Running Dunk (10 PTS),Made Shot,Running Dunk Shot,1,2,269
+0021900090,371,PT09M41.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,-83,237,25,Made,1,44,49,93,v,Mitchell 25' 3PT Jump Shot (17 PTS),Made Shot,Jump Shot,1,3,270
+0021900090,372,PT09M20.00S,3,1610612746,LAC,1627826,Zubac,I. Zubac,122,47,13,Made,1,46,49,95,h,Zubac 13' Jump Bank Shot (10 PTS) (Patterson 1 AST),Made Shot,Jump Bank Shot,1,2,271
+0021900090,374,PT08M59.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,-25,1,3,Made,1,46,51,97,v,Gobert 3' Alley Oop Layup (7 PTS) (Mitchell 5 AST),Made Shot,Alley Oop Layup shot,1,2,272
+0021900090,376,PT08M45.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert S.FOUL (P2.T2) (E.Lewis),Foul,Shooting,1,0,273
+0021900090,378,PT08M45.00S,3,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,MISS Zubac Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,274
+0021900090,379,PT08M45.00S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Normal Rebound,0,0,275
+0021900090,380,PT08M45.00S,3,1610612746,LAC,202335,Patterson,P. Patterson,0,0,0,,0,,,0,h,SUB: Williams FOR Patterson,Substitution,,0,0,276
+0021900090,382,PT08M45.00S,3,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,47,51,98,h,Zubac Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,277
+0021900090,383,PT08M33.00S,3,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,h,Beverley P.FOUL (P2.T1) (R.Mott),Foul,Personal,1,0,278
+0021900090,385,PT08M24.00S,3,1610612762,UTA,201144,Conley,M. Conley,-161,102,19,Made,1,47,53,100,v,Conley 19' Pullup Jump Shot (7 PTS),Made Shot,Pullup Jump shot,1,2,279
+0021900090,386,PT08M09.00S,3,1610612746,LAC,1629013,Shamet,L. Shamet,39,105,11,Made,1,49,53,102,h,Shamet 11' Pullup Jump Shot (10 PTS),Made Shot,Pullup Jump shot,1,2,280
+0021900090,387,PT07M58.00S,3,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac S.FOUL (P1.T2) (A.Smith),Foul,Shooting,1,0,281
+0021900090,389,PT07M58.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,49,54,103,v,Gobert Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,282
+0021900090,390,PT07M58.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,MISS Gobert Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,283
+0021900090,391,PT07M56.00S,3,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,284
+0021900090,392,PT07M43.00S,3,1610612746,LAC,202695,Leonard,K. Leonard,-130,213,25,Missed,1,,,0,h,MISS Leonard 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,285
+0021900090,393,PT07M43.00S,3,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,286
+0021900090,395,PT07M30.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,-65,47,8,Missed,1,,,0,v,MISS Mitchell 8' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,287
+0021900090,396,PT07M28.00S,3,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,288
+0021900090,397,PT07M21.00S,3,1610612746,LAC,101150,Williams,L. Williams,-106,17,11,Missed,1,,,0,h,MISS Williams 11' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,289
+0021900090,398,PT07M19.00S,3,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,290
+0021900090,399,PT07M17.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,-9,10,1,Made,1,49,56,105,v,Mitchell 1' Running Alley Oop Dunk Shot (19 PTS) (O'Neale 2 AST),Made Shot,Running Alley Oop Dunk Shot,1,2,291
+0021900090,401,PT06M59.00S,3,1610612746,LAC,101150,Williams,L. Williams,61,137,15,Missed,1,,,0,h,MISS Williams 15' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,292
+0021900090,402,PT06M57.00S,3,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,Zubac REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,293
+0021900090,403,PT06M57.00S,3,1610612746,LAC,1627826,Zubac,I. Zubac,7,8,1,Missed,1,,,0,h,MISS Zubac 1' Putback Layup,Missed Shot,Putback Layup Shot,1,2,294
+0021900090,403,PT06M57.00S,3,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale BLOCK (1 BLK),,,1,2,295
+0021900090,405,PT06M57.00S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,0,0,296
+0021900090,406,PT06M57.00S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,297
+0021900090,408,PT06M57.00S,3,1610612746,LAC,1627826,Zubac,I. Zubac,0,0,0,,0,,,0,h,SUB: Harrell FOR Zubac,Substitution,,0,0,298
+0021900090,409,PT06M57.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,SUB: Ingles FOR Mitchell,Substitution,,0,0,299
+0021900090,412,PT06M54.00S,3,1610612746,LAC,1629013,Shamet,L. Shamet,230,36,0,Missed,1,,,0,h,MISS Shamet 3PT Jump Shot,Missed Shot,Jump Shot,1,3,300
+0021900090,413,PT06M50.00S,3,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,301
+0021900090,414,PT06M48.00S,3,1610612762,UTA,202711,Bogdanović,B. Bogdanović,-224,125,26,Missed,1,,,0,v,MISS Bogdanovic 26' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,302
+0021900090,415,PT06M44.00S,3,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,303
+0021900090,416,PT06M39.00S,3,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell Out of Bounds Lost Ball Turnover (P1.T7),Turnover,Out of Bounds Lost Ball Turnover,1,0,304
+0021900090,418,PT06M15.00S,3,1610612762,UTA,201144,Conley,M. Conley,0,0,0,,0,,,0,v,Conley Step Out of Bounds Turnover (P4.T8),Turnover,Step Out of Bounds Turnover,1,0,305
+0021900090,419,PT05M56.00S,3,1610612746,LAC,1629013,Shamet,L. Shamet,-57,8,6,Missed,1,,,0,h,MISS Shamet 6' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,306
+0021900090,420,PT05M53.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,307
+0021900090,421,PT05M35.00S,3,1610612762,UTA,201144,Conley,M. Conley,-57,254,26,Missed,1,,,0,v,MISS Conley 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,308
+0021900090,422,PT05M34.00S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,0,0,309
+0021900090,423,PT05M34.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert L.B.FOUL (P3.T3) (R.Mott),Foul,Loose Ball,1,0,310
+0021900090,425,PT05M28.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles Violation:Kicked Ball (R.Mott),Violation,Kicked Ball,0,0,311
+0021900090,426,PT05M23.00S,3,1610612746,LAC,202695,Leonard,K. Leonard,96,106,14,Made,1,51,56,107,h,Leonard 14' Pullup Jump Shot (12 PTS),Made Shot,Pullup Jump shot,1,2,312
+0021900090,427,PT05M07.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,118,217,25,Made,1,51,59,110,v,Ingles 25' 3PT Step Back Jump Shot (6 PTS),Made Shot,Step Back Jump shot,1,3,313
+0021900090,428,PT04M55.00S,3,1610612746,LAC,202695,Leonard,K. Leonard,-69,109,13,Missed,1,,,0,h,MISS Leonard 13' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,314
+0021900090,428,PT04M55.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles BLOCK (1 BLK),,,1,2,315
+0021900090,430,PT04M53.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:1 Def:10),Rebound,Unknown,1,0,316
+0021900090,431,PT04M44.00S,3,1610612746,LAC,1629013,Shamet,L. Shamet,0,0,0,,0,,,0,h,Shamet P.FOUL (P2.T3) (E.Lewis),Foul,Personal,1,0,317
+0021900090,433,PT04M44.00S,3,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,SUB: Harkless FOR Leonard,Substitution,,0,0,318
+0021900090,434,PT04M44.00S,3,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,h,SUB: McGruder FOR Beverley,Substitution,,0,0,319
+0021900090,437,PT04M36.00S,3,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell P.FOUL (P2.T4) (E.Lewis),Foul,Personal,1,0,320
+0021900090,439,PT04M25.00S,3,1610612762,UTA,202711,Bogdanović,B. Bogdanović,108,241,26,Missed,1,,,0,v,MISS Bogdanovic 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,321
+0021900090,440,PT04M23.00S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,0,0,322
+0021900090,441,PT04M23.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert L.B.FOUL (P4.T4) (R.Mott),Foul,Loose Ball,1,0,323
+0021900090,443,PT04M23.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,SUB: Bradley FOR Gobert,Substitution,,0,0,324
+0021900090,446,PT04M08.00S,3,1610612746,LAC,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,Harkless Bad Pass Turnover (P1.T8),Turnover,Bad Pass,1,0,325
+0021900090,446,PT04M08.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles STEAL (1 STL),,,1,0,326
+0021900090,448,PT03M56.00S,3,1610612762,UTA,202711,Bogdanović,B. Bogdanović,-11,17,2,Missed,1,,,0,v,MISS Bogdanovic 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,327
+0021900090,449,PT03M55.00S,3,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,Bradley REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,328
+0021900090,450,PT03M55.00S,3,1610612762,UTA,1628396,Bradley,T. Bradley,0,-6,1,Made,1,51,61,112,v,Bradley 1' Tip Layup Shot (6 PTS),Made Shot,Tip Layup Shot,1,2,329
+0021900090,451,PT03M55.00S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,330
+0021900090,452,PT03M55.00S,3,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,SUB: Green FOR O'Neale,Substitution,,0,0,331
+0021900090,454,PT03M42.00S,3,1610612746,LAC,203090,Harkless,M. Harkless,14,0,1,Missed,1,,,0,h,MISS Harkless 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,332
+0021900090,455,PT03M42.00S,3,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,333
+0021900090,456,PT03M42.00S,3,1610612746,LAC,1626149,Harrell,M. Harrell,0,-6,1,Made,1,53,61,114,h,Harrell 1' Tip Layup Shot (6 PTS),Made Shot,Tip Layup Shot,1,2,334
+0021900090,457,PT03M28.00S,3,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic Offensive Charge Foul (P2.PN) (R.Mott),Foul,Offensive Charge,1,0,335
+0021900090,459,PT03M28.00S,3,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic Offensive Foul Turnover (P2.T9),Turnover,Offensive Foul Turnover,1,0,336
+0021900090,460,PT03M28.00S,3,1610612746,LAC,1629013,Shamet,L. Shamet,0,0,0,,0,,,0,h,SUB: Green FOR Shamet,Substitution,,0,0,337
+0021900090,461,PT03M28.00S,3,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,SUB: Niang FOR Bogdanovic,Substitution,,0,0,338
+0021900090,464,PT03M17.00S,3,1610612746,LAC,203210,Green,J. Green,-227,-2,0,Made,1,56,61,117,h,Green 3PT Jump Shot (3 PTS) (Harkless 1 AST),Made Shot,Jump Shot,1,3,339
+0021900090,466,PT02M58.00S,3,1610612746,LAC,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,McGruder S.FOUL (P2.PN) (A.Smith),Foul,Shooting,1,0,340
+0021900090,468,PT02M58.00S,3,1610612762,UTA,201144,Conley,M. Conley,0,0,0,,0,56,62,118,v,Conley Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,1,0,341
+0021900090,469,PT02M58.00S,3,1610612762,UTA,201144,Conley,M. Conley,0,0,0,,0,,,0,v,MISS Conley Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,342
+0021900090,470,PT02M55.00S,3,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,343
+0021900090,471,PT02M45.00S,3,1610612746,LAC,101150,Williams,L. Williams,27,21,3,Made,1,58,62,120,h,Williams 3' Driving Finger Roll Layup (10 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,344
+0021900090,472,PT02M27.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,135,236,27,Made,1,58,65,123,v,Ingles 27' 3PT Jump Shot (9 PTS) (Niang 1 AST),Made Shot,Jump Shot,1,3,345
+0021900090,474,PT02M16.00S,3,1610612746,LAC,1626149,Harrell,M. Harrell,6,9,1,Made,1,60,65,125,h,Harrell 1' Dunk (8 PTS) (Williams 2 AST),Made Shot,Dunk Shot,1,2,346
+0021900090,476,PT01M54.00S,3,1610612762,UTA,201145,Green,J. Green,90,13,9,Made,1,60,67,127,v,Green 9' Turnaround Fadeaway (2 PTS),Made Shot,Turnaround Fadeaway shot,1,2,347
+0021900090,477,PT01M47.00S,3,1610612746,LAC,1626149,Harrell,M. Harrell,1,19,2,Missed,1,,,0,h,MISS Harrell 2' Layup,Missed Shot,Layup Shot,1,2,348
+0021900090,477,PT01M47.00S,3,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,Bradley BLOCK (1 BLK),,,1,2,349
+0021900090,479,PT01M47.00S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,0,0,350
+0021900090,481,PT01M47.00S,3,1610612762,UTA,201144,Conley,M. Conley,0,0,0,,0,,,0,v,SUB: Mitchell FOR Conley,Substitution,,0,0,351
+0021900090,483,PT01M40.00S,3,1610612746,LAC,101150,Williams,L. Williams,-70,137,15,Missed,1,,,0,h,MISS Williams 15' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,352
+0021900090,484,PT01M40.00S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,0,0,353
+0021900090,485,PT01M40.00S,3,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,Bradley L.B.FOUL (P2.PN) (E.Lewis),Foul,Loose Ball,1,0,354
+0021900090,487,PT01M40.00S,3,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,61,67,128,h,Harrell Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,355
+0021900090,488,PT01M40.00S,3,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,62,67,129,h,Harrell Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,356
+0021900090,489,PT01M29.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,21,13,2,Missed,1,,,0,v,MISS Mitchell 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,357
+0021900090,490,PT01M28.00S,3,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,358
+0021900090,491,PT01M28.00S,3,1610612746,LAC,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,McGruder L.B.FOUL (P3.PN) (E.Lewis),Foul,Loose Ball,1,0,359
+0021900090,493,PT01M28.00S,3,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,62,68,130,v,Bradley Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,360
+0021900090,494,PT01M28.00S,3,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,62,69,131,v,Bradley Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,361
+0021900090,495,PT01M20.00S,3,1610612746,LAC,101150,Williams,L. Williams,6,11,1,Missed,1,,,0,h,MISS Williams 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,362
+0021900090,495,PT01M20.00S,3,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,Bradley BLOCK (2 BLK),,,1,2,363
+0021900090,497,PT01M16.00S,3,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,364
+0021900090,498,PT01M07.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell S.FOUL (P2.PN) (E.Lewis),Foul,Shooting,1,0,365
+0021900090,500,PT01M07.00S,3,1610612746,LAC,203210,Green,J. Green,0,0,0,,0,63,69,132,h,Green Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,1,0,366
+0021900090,501,PT01M07.00S,3,1610612746,LAC,203210,Green,J. Green,0,0,0,,0,64,69,133,h,Green Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,1,0,367
+0021900090,502,PT00M51.90S,3,1610612762,UTA,204060,Ingles,J. Ingles,-104,290,31,Missed,1,,,0,v,MISS Ingles 31' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,368
+0021900090,503,PT00M48.70S,3,1610612746,LAC,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,Harkless REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,369
+0021900090,504,PT00M44.60S,3,1610612746,LAC,203090,Harkless,M. Harkless,3,13,1,Missed,1,,,0,h,MISS Harkless 1' Running Finger Roll Layup,Missed Shot,Running Finger Roll Layup Shot,1,2,370
+0021900090,505,PT00M44.30S,3,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,371
+0021900090,507,PT00M44.30S,3,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,372
+0021900090,508,PT00M36.10S,3,1610612762,UTA,204060,Ingles,J. Ingles,-231,81,24,Missed,1,,,0,v,MISS Ingles 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,373
+0021900090,509,PT00M28.50S,3,1610612746,LAC,203210,Green,J. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,374
+0021900090,510,PT00M28.30S,3,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles P.FOUL (P3.PN) (E.Lewis),Foul,Personal,1,0,375
+0021900090,512,PT00M28.30S,3,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,h,MISS Williams Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,376
+0021900090,513,PT00M28.30S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Normal Rebound,0,0,377
+0021900090,514,PT00M28.30S,3,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,65,69,134,h,Williams Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,378
+0021900090,515,PT00M08.20S,3,1610612762,UTA,204060,Ingles,J. Ingles,222,34,0,Missed,1,,,0,v,MISS Ingles 3PT Jump Shot,Missed Shot,Jump Shot,1,3,379
+0021900090,516,PT00M04.50S,3,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,380
+0021900090,517,PT00M00.90S,3,1610612746,LAC,101150,Williams,L. Williams,228,114,25,Missed,1,,,0,h,MISS Williams 25' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,381
+0021900090,518,PT00M00.10S,3,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,0,0,382
+0021900090,519,PT00M00.00S,3,0,,0,,,0,0,0,,0,65,69,134,,End of 3rd Period (10:53 PM EST),period,end,1,0,383
+0021900090,524,PT12M00.00S,4,0,,0,,,0,0,0,,0,65,69,134,,Start of 4th Period (10:56 PM EST),period,start,0,0,384
+0021900090,525,PT11M43.00S,4,1610612762,UTA,201145,Green,J. Green,-231,67,24,Missed,1,,,0,v,MISS Green 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,385
+0021900090,526,PT11M41.00S,4,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,386
+0021900090,527,PT11M36.00S,4,1610612746,LAC,101150,Williams,L. Williams,-113,53,12,Made,1,67,69,136,h,Williams 12' Fadeaway Jumper (13 PTS),Made Shot,Fadeaway Jump Shot,1,2,387
+0021900090,528,PT11M12.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,65,5,7,Made,1,67,71,138,v,Mitchell 7' Driving Floating Jump Shot (21 PTS),Made Shot,Driving Floating Jump Shot,1,2,388
+0021900090,529,PT11M04.00S,4,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale S.FOUL (P3.T1) (E.Lewis),Foul,Shooting,1,0,389
+0021900090,531,PT11M04.00S,4,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,h,MISS Williams Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,390
+0021900090,532,PT11M04.00S,4,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Normal Rebound,0,0,391
+0021900090,533,PT11M04.00S,4,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,68,71,139,h,Williams Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,1,0,392
+0021900090,534,PT10M49.00S,4,1610612746,LAC,203210,Green,J. Green,0,0,0,,0,,,0,h,Green S.FOUL (P2.T1) (E.Lewis),Foul,Shooting,1,0,393
+0021900090,536,PT10M49.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,68,72,140,v,Mitchell Free Throw 1 of 2 (22 PTS),Free Throw,Free Throw 1 of 2,1,0,394
+0021900090,537,PT10M49.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,MISS Mitchell Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,395
+0021900090,538,PT10M47.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,396
+0021900090,539,PT10M32.00S,4,1610612746,LAC,202695,Leonard,K. Leonard,71,99,12,Made,1,70,72,142,h,Leonard 12' Jump Shot (14 PTS),Made Shot,Jump Shot,1,2,397
+0021900090,540,PT10M19.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell Bad Pass Turnover (P1.T10),Turnover,Bad Pass,1,0,398
+0021900090,540,PT10M19.00S,4,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard STEAL (2 STL),,,1,0,399
+0021900090,542,PT10M19.00S,4,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles Personal Take Foul (P4.T2) (A.Smith),Foul,Personal Take,1,0,400
+0021900090,544,PT10M02.00S,4,1610612746,LAC,202695,Leonard,K. Leonard,-102,225,25,Missed,1,,,0,h,MISS Leonard 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,401
+0021900090,545,PT09M59.00S,4,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,402
+0021900090,546,PT09M49.00S,4,1610612762,UTA,204060,Ingles,J. Ingles,102,226,25,Missed,1,,,0,v,MISS Ingles 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,403
+0021900090,547,PT09M47.00S,4,1610612746,LAC,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,Harkless REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,404
+0021900090,548,PT09M40.00S,4,1610612746,LAC,203210,Green,J. Green,-222,4,0,Missed,1,,,0,h,MISS Green 3PT Jump Shot,Missed Shot,Jump Shot,1,3,405
+0021900090,549,PT09M32.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,406
+0021900090,550,PT09M32.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,-6,1,Made,1,72,72,144,h,Harrell 1' Tip Layup Shot (12 PTS),Made Shot,Tip Layup Shot,1,2,407
+0021900090,551,PT09M21.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,98,109,15,Made,1,72,74,146,v,Mitchell 15' Pullup Jump Shot (24 PTS),Made Shot,Pullup Jump shot,1,2,408
+0021900090,552,PT09M09.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,-2,8,1,Made,1,74,74,148,h,Harrell 1' Cutting Layup Shot (14 PTS) (Williams 3 AST),Made Shot,Cutting Layup Shot,1,2,409
+0021900090,555,PT08M55.00S,4,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,h,SUB: Beverley FOR Williams,Substitution,,0,0,410
+0021900090,556,PT08M55.00S,4,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,SUB: Gobert FOR Ingles,Substitution,,0,0,411
+0021900090,557,PT08M55.00S,4,1610612762,UTA,1628396,Bradley,T. Bradley,0,0,0,,0,,,0,v,SUB: Bogdanovic FOR Bradley,Substitution,,0,0,412
+0021900090,558,PT08M55.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,SUB: Conley FOR Mitchell,Substitution,,0,0,413
+0021900090,563,PT08M50.00S,4,1610612746,LAC,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,Harkless S.FOUL (P3.T2) (E.Lewis),Foul,Shooting,1,0,414
+0021900090,565,PT08M50.00S,4,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,74,75,149,v,Bogdanovic Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,1,0,415
+0021900090,566,PT08M50.00S,4,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,74,76,150,v,Bogdanovic Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,1,0,416
+0021900090,567,PT08M27.00S,4,1610612746,LAC,202695,Leonard,K. Leonard,154,200,25,Made,1,77,76,153,h,Leonard 25' 3PT Jump Shot (17 PTS) (Harrell 2 AST),Made Shot,Jump Shot,1,3,417
+0021900090,569,PT08M10.00S,4,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale Offensive Charge Foul (P4.T3) (A.Smith),Foul,Offensive Charge,1,0,418
+0021900090,571,PT08M10.00S,4,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale Offensive Foul Turnover (P1.T11),Turnover,Offensive Foul Turnover,1,0,419
+0021900090,572,PT07M53.00S,4,1610612746,LAC,202695,Leonard,K. Leonard,-129,92,16,Missed,1,,,0,h,MISS Leonard 16' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,420
+0021900090,573,PT07M47.00S,4,1610612746,LAC,203210,Green,J. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,421
+0021900090,574,PT07M47.00S,4,1610612746,LAC,203210,Green,J. Green,0,-6,1,Made,1,79,76,155,h,Green 1' Tip Layup Shot (7 PTS),Made Shot,Tip Layup Shot,1,2,422
+0021900090,575,PT07M35.00S,4,1610612762,UTA,201144,Conley,M. Conley,-27,10,3,Missed,1,,,0,v,MISS Conley 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,423
+0021900090,576,PT07M33.00S,4,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,424
+0021900090,577,PT07M29.00S,4,1610612746,LAC,202695,Leonard,K. Leonard,120,219,25,Made,1,82,76,158,h,Leonard 25' 3PT Running Pull-Up Jump Shot (20 PTS),Made Shot,Running Pull-Up Jump Shot,1,3,425
+0021900090,578,PT07M29.00S,4,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,426
+0021900090,579,PT07M29.00S,4,1610612762,UTA,201145,Green,J. Green,0,0,0,,0,,,0,v,SUB: Mitchell FOR Green,Substitution,,0,0,427
+0021900090,581,PT07M12.00S,4,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard P.FOUL (P1.T3) (E.Lewis),Foul,Personal,1,0,428
+0021900090,583,PT07M05.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,-126,99,16,Made,1,82,78,160,v,Mitchell 16' Pullup Jump Shot (26 PTS),Made Shot,Pullup Jump shot,1,2,429
+0021900090,584,PT06M38.00S,4,1610612746,LAC,202695,Leonard,K. Leonard,161,75,18,Made,1,84,78,162,h,Leonard 18' Pullup Jump Shot (22 PTS) (Beverley 3 AST),Made Shot,Pullup Jump shot,1,2,430
+0021900090,586,PT06M23.00S,4,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard P.FOUL (P2.T4) (E.Lewis),Foul,Personal,1,0,431
+0021900090,588,PT06M13.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,-119,222,25,Made,1,84,81,165,v,Mitchell 25' 3PT Pullup Jump Shot (29 PTS),Made Shot,Pullup Jump shot,1,3,432
+0021900090,589,PT06M01.00S,4,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,h,Beverley OFF.Foul (P3) (R.Mott),Foul,Offensive,1,0,433
+0021900090,591,PT06M01.00S,4,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,h,Beverley Offensive Foul Turnover (P1.T9),Turnover,Offensive Foul Turnover,1,0,434
+0021900090,592,PT05M49.00S,4,1610612746,LAC,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,Harkless P.FOUL (P4.PN) (R.Mott),Foul,Personal,1,0,435
+0021900090,594,PT05M49.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,84,82,166,v,Gobert Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,1,0,436
+0021900090,595,PT05M49.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,84,83,167,v,Gobert Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,437
+0021900090,596,PT05M34.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,40,40,6,Missed,1,,,0,h,MISS Harrell 6' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,438
+0021900090,597,PT05M31.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:1 Def:11),Rebound,Unknown,1,0,439
+0021900090,599,PT05M27.00S,4,1610612746,LAC,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,SUB: Williams FOR Harkless,Substitution,,0,0,440
+0021900090,601,PT05M25.00S,4,1610612762,UTA,201144,Conley,M. Conley,0,0,0,,0,,,0,v,Conley Bad Pass Turnover (P5.T12),Turnover,Bad Pass,1,0,441
+0021900090,601,PT05M25.00S,4,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,h,Beverley STEAL (1 STL),,,1,0,442
+0021900090,603,PT05M17.00S,4,1610612746,LAC,101150,Williams,L. Williams,-82,235,25,Missed,1,,,0,h,MISS Williams 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,443
+0021900090,604,PT05M13.00S,4,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,h,Beverley REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,444
+0021900090,605,PT05M08.00S,4,1610612746,LAC,201976,Beverley,P. Beverley,236,4,24,Missed,1,,,0,h,MISS Beverley 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,445
+0021900090,606,PT05M03.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell REBOUND (Off:4 Def:2),Rebound,Unknown,1,0,446
+0021900090,607,PT04M50.00S,4,1610612746,LAC,202695,Leonard,K. Leonard,117,104,16,Missed,1,,,0,h,MISS Leonard 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,447
+0021900090,608,PT04M47.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,448
+0021900090,609,PT04M41.00S,4,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,h,Beverley S.FOUL (P4.PN) (A.Smith),Foul,Shooting,1,0,449
+0021900090,611,PT04M41.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,MISS Mitchell Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,450
+0021900090,612,PT04M41.00S,4,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Normal Rebound,0,0,451
+0021900090,613,PT04M41.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,84,84,168,v,Mitchell Free Throw 2 of 2 (30 PTS),Free Throw,Free Throw 2 of 2,1,0,452
+0021900090,614,PT04M27.00S,4,1610612746,LAC,202695,Leonard,K. Leonard,-2,103,10,Made,1,86,84,170,h,Leonard 10' Pullup Jump Shot (24 PTS),Made Shot,Pullup Jump shot,1,2,453
+0021900090,615,PT04M12.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell S.FOUL (P3.PN) (E.Lewis),Foul,Shooting,1,0,454
+0021900090,617,PT04M12.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,86,85,171,v,Mitchell Free Throw 1 of 2 (31 PTS),Free Throw,Free Throw 1 of 2,1,0,455
+0021900090,618,PT04M12.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,86,86,172,v,Mitchell Free Throw 2 of 2 (32 PTS),Free Throw,Free Throw 2 of 2,1,0,456
+0021900090,619,PT04M00.00S,4,1610612746,LAC,202695,Leonard,K. Leonard,98,134,17,Missed,1,,,0,h,MISS Leonard 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,457
+0021900090,620,PT03M58.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell REBOUND (Off:5 Def:2),Rebound,Unknown,1,0,458
+0021900090,621,PT03M56.00S,4,1610612746,LAC,202695,Leonard,K. Leonard,235,1,24,Missed,1,,,0,h,MISS Leonard 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,459
+0021900090,622,PT03M56.00S,4,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,0,0,460
+0021900090,623,PT03M56.00S,4,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic L.B.FOUL (P3.T4) (R.Mott),Foul,Loose Ball,1,0,461
+0021900090,625,PT03M51.00S,4,1610612746,LAC,101150,Williams,L. Williams,36,258,26,Made,1,89,86,175,h,Williams 26' 3PT Jump Shot (17 PTS) (Leonard 2 AST),Made Shot,Jump Shot,1,3,462
+0021900090,627,PT03M32.00S,4,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,h,Williams S.FOUL (P1.PN) (A.Smith),Foul,Shooting,1,0,463
+0021900090,629,PT03M32.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,89,87,176,v,Mitchell Free Throw 1 of 2 (33 PTS),Free Throw,Free Throw 1 of 2,1,0,464
+0021900090,630,PT03M32.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,89,88,177,v,Mitchell Free Throw 2 of 2 (34 PTS),Free Throw,Free Throw 2 of 2,1,0,465
+0021900090,631,PT03M19.00S,4,1610612746,LAC,101150,Williams,L. Williams,47,15,5,Missed,1,,,0,h,MISS Williams 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,466
+0021900090,632,PT03M15.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell REBOUND (Off:6 Def:2),Rebound,Unknown,1,0,467
+0021900090,633,PT03M15.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,-6,1,Made,1,91,88,179,h,Harrell 1' Tip Layup Shot (16 PTS),Made Shot,Tip Layup Shot,1,2,468
+0021900090,637,PT03M04.00S,4,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,469
+0021900090,638,PT03M04.00S,4,0,,634,,,0,0,0,,0,91,88,179,,Instant Replay4th Period (11:18 PM EST),Instant Replay,Coach Challenge Overturn Ruling,0,0,470
+0021900090,639,PT02M58.00S,4,1610612746,LAC,203210,Green,J. Green,0,0,0,,0,,,0,h,Green P.FOUL (P3.PN) (R.Mott),Foul,Personal,1,0,471
+0021900090,641,PT02M58.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,91,89,180,v,Mitchell Free Throw 1 of 2 (35 PTS),Free Throw,Free Throw 1 of 2,1,0,472
+0021900090,642,PT02M58.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,91,90,181,v,Mitchell Free Throw 2 of 2 (36 PTS),Free Throw,Free Throw 2 of 2,1,0,473
+0021900090,643,PT02M51.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell P.FOUL (P3.PN) (E.Lewis),Foul,Personal,1,0,474
+0021900090,645,PT02M47.00S,4,1610612746,LAC,203210,Green,J. Green,-44,247,25,Made,1,94,90,184,h,Green 25' 3PT Jump Shot (10 PTS) (Leonard 3 AST),Made Shot,Jump Shot,1,3,475
+0021900090,647,PT02M31.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,90,231,25,Missed,1,,,0,v,MISS Mitchell 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,476
+0021900090,648,PT02M27.00S,4,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,477
+0021900090,649,PT02M22.00S,4,1610612746,LAC,101150,Williams,L. Williams,-223,26,0,Missed,1,,,0,h,MISS Williams 3PT Jump Shot,Missed Shot,Jump Shot,1,3,478
+0021900090,650,PT02M21.00S,4,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,0,0,479
+0021900090,651,PT02M21.00S,4,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale L.B.FOUL (P5.PN) (A.Smith),Foul,Loose Ball,1,0,480
+0021900090,653,PT02M21.00S,4,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,95,90,185,h,Leonard Free Throw 1 of 2 (25 PTS),Free Throw,Free Throw 1 of 2,1,0,481
+0021900090,654,PT02M21.00S,4,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,96,90,186,h,Leonard Free Throw 2 of 2 (26 PTS),Free Throw,Free Throw 2 of 2,1,0,482
+0021900090,655,PT02M05.00S,4,1610612762,UTA,201144,Conley,M. Conley,31,120,12,Missed,1,,,0,v,MISS Conley 12' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,483
+0021900090,656,PT02M03.00S,4,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Unknown,0,0,484
+0021900090,658,PT02M03.00S,4,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,SUB: Ingles FOR O'Neale,Substitution,,0,0,485
+0021900090,660,PT01M53.00S,4,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic P.FOUL (P4.PN) (A.Smith),Foul,Personal,1,0,486
+0021900090,662,PT01M53.00S,4,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,97,90,187,h,Leonard Free Throw 1 of 2 (27 PTS),Free Throw,Free Throw 1 of 2,1,0,487
+0021900090,668,PT01M53.00S,4,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,h,SUB: Harkless FOR Williams,Substitution,,0,0,488
+0021900090,663,PT01M53.00S,4,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,98,90,188,h,Leonard Free Throw 2 of 2 (28 PTS),Free Throw,Free Throw 2 of 2,1,0,489
+0021900090,664,PT01M38.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell Lost Ball Turnover (P2.T13),Turnover,Lost Ball,1,0,490
+0021900090,664,PT01M38.00S,4,1610612746,LAC,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,Harkless STEAL (1 STL),,,1,0,491
+0021900090,666,PT01M38.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell P.FOUL (P4.PN) (A.Smith),Foul,Personal,1,0,492
+0021900090,670,PT01M38.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,MISS Harrell Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,493
+0021900090,671,PT01M38.00S,4,0,,1610612746,,,0,0,0,,0,,,0,h,CLIPPERS Rebound,Rebound,Normal Rebound,0,0,494
+0021900090,672,PT01M38.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,99,90,189,h,Harrell Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,1,0,495
+0021900090,674,PT01M23.00S,4,1610612762,UTA,202711,Bogdanović,B. Bogdanović,8,29,3,Made,1,99,92,191,v,Bogdanovic 3' Driving Floating Bank Jump Shot (19 PTS) (Mitchell 6 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,496
+0021900090,676,PT01M23.00S,4,1610612746,LAC,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,Harkless S.FOUL (P5.PN) (E.Lewis),Foul,Shooting,1,0,497
+0021900090,678,PT01M23.00S,4,1610612746,LAC,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,SUB: Williams FOR Harkless,Substitution,,0,0,498
+0021900090,679,PT01M23.00S,4,1610612762,UTA,201144,Conley,M. Conley,0,0,0,,0,,,0,v,SUB: O'Neale FOR Conley,Substitution,,0,0,499
+0021900090,682,PT01M23.00S,4,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,MISS Bogdanovic Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,1,0,500
+0021900090,683,PT01M20.00S,4,1610612746,LAC,203210,Green,J. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,501
+0021900090,684,PT01M05.00S,4,1610612746,LAC,202695,Leonard,K. Leonard,-30,53,6,Missed,1,,,0,h,MISS Leonard 6' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,502
+0021900090,685,PT01M01.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:1 Def:12),Rebound,Unknown,1,0,503
+0021900090,686,PT00M54.40S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,27,12,3,Missed,1,,,0,v,MISS Mitchell 3' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,504
+0021900090,687,PT00M52.90S,4,1610612746,LAC,203210,Green,J. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,505
+0021900090,688,PT00M41.60S,4,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic P.FOUL (P5.PN) (R.Mott),Foul,Personal,1,0,506
+0021900090,690,PT00M41.60S,4,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,100,92,192,h,Leonard Free Throw 1 of 2 (29 PTS),Free Throw,Free Throw 1 of 2,1,0,507
+0021900090,691,PT00M41.60S,4,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,h,SUB: Harkless FOR Williams,Substitution,,0,0,508
+0021900090,693,PT00M41.60S,4,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,101,92,193,h,Leonard Free Throw 2 of 2 (30 PTS),Free Throw,Free Throw 2 of 2,1,0,509
+0021900090,694,PT00M41.60S,4,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,510
+0021900090,695,PT00M41.60S,4,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,SUB: Conley FOR O'Neale,Substitution,,0,0,511
+0021900090,697,PT00M36.50S,4,1610612762,UTA,202711,Bogdanović,B. Bogdanović,-229,39,0,Missed,1,,,0,v,MISS Bogdanovic 3PT Jump Shot,Missed Shot,Jump Shot,1,3,512
+0021900090,697,PT00M36.50S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,h,Harrell BLOCK (1 BLK),,,1,3,513
+0021900090,698,PT00M35.60S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:2 Def:12),Rebound,Unknown,1,0,514
+0021900090,699,PT00M35.60S,4,1610612762,UTA,203497,Gobert,R. Gobert,-5,15,2,Made,1,101,94,195,v,Gobert 2' Putback Dunk (12 PTS),Made Shot,Putback Dunk Shot,1,2,515
+0021900090,700,PT00M34.90S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell Personal Take Foul (P5.PN) (E.Lewis),Foul,Personal Take,1,0,516
+0021900090,702,PT00M34.90S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,102,94,196,h,Harrell Free Throw 1 of 2 (18 PTS),Free Throw,Free Throw 1 of 2,1,0,517
+0021900090,703,PT00M34.90S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,103,94,197,h,Harrell Free Throw 2 of 2 (19 PTS),Free Throw,Free Throw 2 of 2,1,0,518
+0021900090,704,PT00M27.80S,4,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic Bad Pass Turnover (P3.T14),Turnover,Bad Pass,1,0,519
+0021900090,704,PT00M27.80S,4,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,Leonard STEAL (3 STL),,,1,0,520
+0021900090,706,PT00M15.40S,4,1610612762,UTA,201144,Conley,M. Conley,0,0,0,,0,,,0,v,Conley Personal Take Foul (P3.PN) (A.Smith),Foul,Personal Take,1,0,521
+0021900090,708,PT00M15.40S,4,1610612746,LAC,203210,Green,J. Green,0,0,0,,0,104,94,198,h,Green Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,1,0,522
+0021900090,709,PT00M15.40S,4,1610612746,LAC,202695,Leonard,K. Leonard,0,0,0,,0,,,0,h,SUB: Mann FOR Leonard,Substitution,,0,0,523
+0021900090,711,PT00M15.40S,4,1610612746,LAC,203210,Green,J. Green,0,0,0,,0,105,94,199,h,Green Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,524
+0021900090,712,PT00M04.70S,4,1610612762,UTA,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic Lost Ball Turnover (P4.T15),Turnover,Lost Ball,1,0,525
+0021900090,712,PT00M04.70S,4,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,h,Beverley STEAL (2 STL),,,1,0,526
+0021900090,714,PT00M00.00S,4,0,,0,,,0,0,0,,0,105,94,199,,End of 4th Period (11:33 PM EST),period,end,1,0,527

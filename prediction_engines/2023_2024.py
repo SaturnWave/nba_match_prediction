@@ -643,15 +643,22 @@ class NBAPredictor:
 
             model_params = {'random_state': 42, 'n_estimators': 150, 'learning_rate': 0.05, 'num_leaves': 31, 'verbose': -1, 'n_jobs': -1}
 
+            # Modern LightGBM (>=4.0) moved early stopping / logging control out of
+            # fit() kwargs and into callbacks.
+            early_stopping_callbacks = [lgb.early_stopping(stopping_rounds=20, verbose=False),
+                                        lgb.log_evaluation(period=0)]
+
             if target_name == 'home_win':
                 model = lgb.LGBMClassifier(**model_params)
-                model.fit(X_train, y_train, eval_set=[(X_test, y_test)], early_stopping_rounds=20, verbose=False) # eval_metric can be 'logloss' or 'auc'
+                model.fit(X_train, y_train, eval_set=[(X_test, y_test)], eval_metric='auc',
+                          callbacks=early_stopping_callbacks)
                 preds, probs = model.predict(X_test), model.predict_proba(X_test)[:, 1]
                 self.validation_metrics[target_name] = {'accuracy': accuracy_score(y_test, preds), 'auc': roc_auc_score(y_test, probs)}
                 print(f"  Accuracy: {self.validation_metrics[target_name]['accuracy']:.4f}, AUC: {self.validation_metrics[target_name]['auc']:.4f}")
-            else: 
+            else:
                 model = lgb.LGBMRegressor(**model_params)
-                model.fit(X_train, y_train, eval_set=[(X_test, y_test)], early_stopping_rounds=20, verbose=False) # eval_metric can be 'rmse' or 'mae'
+                model.fit(X_train, y_train, eval_set=[(X_test, y_test)], eval_metric='rmse',
+                          callbacks=early_stopping_callbacks)
                 preds = model.predict(X_test)
                 self.validation_metrics[target_name] = {'mae': mean_absolute_error(y_test, preds), 'rmse': np.sqrt(mean_squared_error(y_test, preds))}
                 print(f"  MAE: {self.validation_metrics[target_name]['mae']:.4f}, RMSE: {self.validation_metrics[target_name]['rmse']:.4f}")
@@ -744,8 +751,8 @@ class NBAPredictor:
         return predictions
 
 if __name__ == '__main__':
-    USER_PROJECT_ROOT = r"C:\Users\arcan\Desktop\Python\nba_new\impact_scores"
-    PROJECT_ROOT = USER_PROJECT_ROOT
+    # Project root is the parent directory of this script's folder (prediction_engines/)
+    PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     
     BASE_DATA_DIR_ABS = os.path.join(PROJECT_ROOT, "nba_data")
     GAME_IDS_DIR_ABS = os.path.join(PROJECT_ROOT, "game_ids") # Corrected path

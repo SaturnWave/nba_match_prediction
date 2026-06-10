@@ -6,7 +6,7 @@ import traceback
 from nba_api.stats.endpoints import PlayByPlayV3, BoxScorePlayerTrackV2, LeagueGameFinder
 
 # Define the base directory for all NBA data using the absolute path
-BASE_DIR = r"C:\Users\arcan\Desktop\Python\nba_new\impact_scores\nba_data"
+BASE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "nba_data")
 
 # --- General Helper Functions ---
 def format_game_id(game_id):

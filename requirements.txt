@@ -1,0 +1,17 @@
+# Core data / numerics
+pandas>=1.5
+numpy>=1.23
+
+# Machine learning
+scikit-learn>=1.1
+lightgbm>=4.0
+
+# Visualization
+matplotlib>=3.6
+seaborn>=0.12
+
+# NBA data retrieval
+nba_api>=1.2
+
+# Progress bars
+tqdm>=4.64

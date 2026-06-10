@@ -5,12 +5,26 @@ import seaborn as sns
 from matplotlib.patches import Circle, Rectangle, Arc
 import os
 
+# Shared stateless helpers (de-duplicated into impact_common.py)
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+from impact_common import (
+    is_clutch_time,
+    is_last_2_minutes,
+    get_score_margin,
+    identify_scoring_run,
+    categorize_shot_distance,
+    calculate_expected_points,
+    estimate_win_probability,
+)
+
+
 # --- Data Loading and Preprocessing ---
 def load_and_preprocess_data():
     """Loads and preprocesses only the play-by-play CSV file."""
 
-    # Get the directory where the script is located
-    script_dir = os.path.dirname(os.path.abspath(__file__))
+    # Sample-game CSVs live in the impact_score_files/ folder alongside this script.
+    script_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "impact_score_files")
 
     # Load only the play-by-play dataframe using the full path
     df_pbp = pd.read_csv(os.path.join(script_dir, "detailed_play_by_play_0022400058_1.csv"))
@@ -36,79 +50,6 @@ def load_and_preprocess_data():
 
     return df_pbp
 
-# --- Helper Functions ---
-def is_clutch_time(clock_seconds, period):
-    """Checks if the play is in the last 5 minutes of the 4th period or overtime."""
-    return (period == 4 and clock_seconds <= 300) or period > 4
-
-def is_last_2_minutes(clock_seconds, period):
-    """Checks if the play is in the last 2 minutes of the 4th period or overtime."""
-    return (period == 4 and clock_seconds <= 120) or period > 4
-
-def get_score_margin(row):
-    """Returns the absolute score margin between teams."""
-    return abs(row['scoreHome'] - row['scoreAway']) if pd.notnull(row['scoreHome']) and pd.notnull(row['scoreAway']) else 0
-
-def identify_scoring_run(data, current_idx, window=5):
-    """Identifies if there's a scoring run by a team in the previous plays."""
-    start_idx = max(0, current_idx - window)
-    previous_plays = data.iloc[start_idx:current_idx]
-    if not previous_plays.empty:
-        team_counts = previous_plays['teamTricode'].value_counts()
-        if not team_counts.empty and len(team_counts) > 0:
-            return team_counts.index[0]
-    return None
-
-def categorize_shot_distance(distance):
-    """Categorizes shot distance into bins for analysis."""
-    if pd.isnull(distance):
-        return None
-    if distance <= 3:
-        return "At Rim"
-    elif distance <= 8:
-        return "Paint"
-    elif distance <= 16:
-        return "Mid-Range"
-    elif distance <= 24:
-        return "Long 2"
-    else:
-        return "3-Point"
-
-def calculate_expected_points(x, y, shot_value):
-    """Calculate expected points based on shot location."""
-    if pd.isnull(x) or pd.isnull(y) or pd.isnull(shot_value):
-        return None
-
-    # Convert coordinates to feet from basket
-    distance = np.sqrt(x**2 + y**2) / 10  # Approximate conversion
-
-    if shot_value == 3:  # 3-pointer
-        if abs(x) > 220 and y < 90:  # Corner 3 coordinates
-            return 1.1  # Corner 3 (higher percentage)
-        else:
-            return 0.9  # Above the break 3 (lower percentage)
-    else:  # 2-pointer
-        if distance < 5:
-            return 1.6  # At rim
-        elif distance < 10:
-            return 0.9  # Paint non-restricted
-        elif distance < 16:
-            return 0.8  # Mid-range
-        else:
-            return 0.7  # Long 2 (inefficient)
-
-def estimate_win_probability(row, home_score, away_score, period, time_remaining):
-    """Simple win probability estimation based on score and time."""
-    if pd.isnull(home_score) or pd.isnull(away_score) or pd.isnull(period) or pd.isnull(time_remaining):
-        return 0.5  # Default to 50% if missing data
-
-    lead = home_score - away_score
-    total_seconds_left = (4 - min(period, 4)) * 720 + time_remaining  # Assuming 12 min periods
-    seconds_factor = max(0.1, min(1, total_seconds_left / 2880))  # Normalize by total game seconds
-
-    # Simple logistic model
-    wp = 1 / (1 + np.exp(-lead * seconds_factor * 0.1))
-    return wp
 
 # --- Enhanced Impact Score Calculations ---
 

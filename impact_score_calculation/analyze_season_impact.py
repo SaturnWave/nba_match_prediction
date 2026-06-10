@@ -9,6 +9,19 @@ import time
 from collections import defaultdict
 import warnings
 from datetime import datetime
+
+# Shared stateless helpers (de-duplicated into impact_common.py)
+import sys as _sys, os as _os
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+from impact_common import (
+    is_clutch_time,
+    is_last_2_minutes,
+    get_score_margin,
+    identify_scoring_run,
+    categorize_shot_distance,
+    calculate_expected_points,
+)
+
 warnings.filterwarnings('ignore')  # Suppress warnings for cleaner output
 
 # --- Data Loading and Preprocessing ---
@@ -96,66 +109,6 @@ def load_and_preprocess_pbp_file(filepath):
         print(f"Error preprocessing file {filepath}: {e}")
         return None
 
-# --- Helper Functions ---
-def is_clutch_time(clock_seconds, period):
-    """Checks if the play is in the last 5 minutes of the 4th period or overtime."""
-    return (period == 4 and clock_seconds <= 300) or period > 4
-
-def is_last_2_minutes(clock_seconds, period):
-    """Checks if the play is in the last 2 minutes of the 4th period or overtime."""
-    return (period == 4 and clock_seconds <= 120) or period > 4
-
-def get_score_margin(row):
-    """Returns the absolute score margin between teams."""
-    return abs(row['scoreHome'] - row['scoreAway']) if pd.notnull(row['scoreHome']) and pd.notnull(row['scoreAway']) else 0
-
-def identify_scoring_run(data, current_idx, window=5):
-    """Identifies if there's a scoring run by a team in the previous plays."""
-    start_idx = max(0, current_idx - window)
-    previous_plays = data.iloc[start_idx:current_idx]
-    if not previous_plays.empty:
-        team_counts = previous_plays['teamTricode'].value_counts()
-        if not team_counts.empty and len(team_counts) > 0:
-            return team_counts.index[0]
-    return None
-
-def categorize_shot_distance(distance):
-    """Categorizes shot distance into bins for analysis."""
-    if pd.isnull(distance):
-        return None
-    if distance <= 3:
-        return "At Rim"
-    elif distance <= 8:
-        return "Paint"
-    elif distance <= 16:
-        return "Mid-Range"
-    elif distance <= 24:
-        return "Long 2"
-    else:
-        return "3-Point"
-
-def calculate_expected_points(x, y, shot_value):
-    """Calculate expected points based on shot location."""
-    if pd.isnull(x) or pd.isnull(y) or pd.isnull(shot_value):
-        return None
-
-    # Convert coordinates to feet from basket
-    distance = np.sqrt(x**2 + y**2) / 10  # Approximate conversion
-
-    if shot_value == 3:  # 3-pointer
-        if abs(x) > 220 and y < 90:  # Corner 3 coordinates
-            return 1.1  # Corner 3 (higher percentage)
-        else:
-            return 0.9  # Above the break 3 (lower percentage)
-    else:  # 2-pointer
-        if distance < 5:
-            return 1.6  # At rim
-        elif distance < 10:
-            return 0.9  # Paint non-restricted
-        elif distance < 16:
-            return 0.8  # Mid-range
-        else:
-            return 0.7  # Long 2 (inefficient)
 
 # --- Enhanced Impact Score Calculations ---
 
@@ -594,7 +547,7 @@ def analyze_season_data():
     print("Starting NBA season impact score analysis...")
     
     # Path to the directory containing all the game data
-    base_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "nba_data", "2023_2024")
+    base_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "nba_data", "2023_2024")
     
     # Find all play-by-play CSV files
     print("Scanning for play-by-play data...")

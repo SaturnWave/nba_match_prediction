@@ -3,7 +3,7 @@ import os
 from nba_api.stats.endpoints import BoxScoreTraditionalV2, BoxScoreAdvancedV2
 
 # Define the base directory for all NBA data using the absolute path
-BASE_DIR = r"C:\Users\arcan\Desktop\Python\nba_new\impact_scores\nba_data"
+BASE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "nba_data")
 
 # Replace with a 2024-2025 season game ID
 game_id = '0022400058'  # This is already using a 2024-2025 game ID format (the leading '00224' indicates 2024-25 season)

@@ -6,7 +6,7 @@ from nba_api.stats.endpoints import BoxScorePlayerTrackV2
 import traceback
 
 # Define the base directory for all NBA data using the absolute path
-BASE_DIR = r"C:\Users\arcan\Desktop\Python\nba_new\impact_scores\nba_data"
+BASE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "nba_data")
 
 def retrieve_player_tracking_data(game_id, max_retries=3):
     """

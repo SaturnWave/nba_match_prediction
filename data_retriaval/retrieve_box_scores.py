@@ -10,7 +10,7 @@ from nba_api.stats.endpoints import BoxScoreTraditionalV2, BoxScoreAdvancedV2, B
 # Global Configuration
 # ----------------------------------------
 # Base directory for saving NBA data - using absolute path
-BASE_DIR = r"C:\Users\arcan\Desktop\Python\nba_new\impact_scores\nba_data"
+BASE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "nba_data")
 
 # Initial delay between API calls
 INITIAL_API_DELAY = 0.1  # seconds

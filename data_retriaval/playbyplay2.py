@@ -5,7 +5,7 @@ import json
 from nba_api.stats.endpoints import LeagueGameFinder, PlayByPlayV3
 
 # Define the base directory for all NBA data using the absolute path
-BASE_DIR = r"C:\Users\arcan\Desktop\Python\nba_new\impact_scores\nba_data"
+BASE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "nba_data")
 
 def get_regular_season_game_ids(season="2024-25"):
     """
@@ -280,7 +280,7 @@ if __name__ == "__main__":
         season_format = get_season_formatted_filename(season)
         
         # Define the exact target CSV path first
-        target_csv_path = r"C:\Users\arcan\Desktop\Python\nba_new\impact_scores\game_id_2024_2025.csv"
+        target_csv_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "game_ids", f"game_id_{season_format}.csv")
         
         # Alternative paths
         data_retriaval_csv_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), f"game_id_{season_format}.csv")

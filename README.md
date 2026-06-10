@@ -131,24 +131,30 @@ Common code has been pulled out of the individual scripts to avoid duplication:
 - **`impact_common.py`** — stateless helpers (`is_clutch_time`, `get_score_margin`,
   `categorize_shot_distance`, `calculate_expected_points`, `calculate_team_possessions`, …)
   used by `asasa.py` and every script in `impact_score_calculation/`.
-- **`impact_score_calculation/season_impact_engine.py`** — the six per-play
-  `calculate_*_impact` functions that were identical between
-  `analyze_season_impact.py` and `analyze_season_impact_1.py`.
+- **`impact_engine.py`** — the single set of six per-play `calculate_*_impact`
+  functions, used by `asasa.py`, `impact_score.py` and both
+  `analyze_season_impact*.py` scripts. The full-game DataFrame is passed
+  explicitly, and optional `df_defensive` / `df_player_track` arguments add the
+  tracking bonuses (no bonus when omitted), so every former variant is a
+  parameterisation of this one engine.
 - **`data_retriaval/nba_api_utils.py`** — `format_season` and `read_game_ids`,
   shared by the season scrapers.
 
 Each consumer adds the relevant directory to `sys.path` at import time, so the
 scripts still run directly (`python impact_score_calculation/impact_score.py`).
 
+The merge was verified against the previous code: the season-analysis path is
+**byte-identical** (720 sampled calls, 0 differences), and the tracking-bonus
+path matches `impact_score.py` exactly — except `calculate_foul_impact`, which
+in the old `asasa.py` / `impact_score.py` copies crashed on every foul
+(`df_pbp.loc[:row.name-1]` iterates column labels, not rows). The unified engine
+uses the corrected version, so those two scripts now run instead of aborting.
+
 ## Notes / known limitations
 
 - `prediction_engines/2023_2024.py` currently uses a **simplified** stub of the
   impact calculator; the full logic lives in `impact_score_calculation/impact_score.py`
   and is not yet wired into the model features.
-- `asasa.py` and `impact_score.py` keep their own variants of the
-  `calculate_*_impact` functions because they differ (PBP-only vs.
-  tracking-integrated) — they were intentionally left separate rather than
-  force-merged, which would change the scores.
 - `data_retriaval/game_data_retriaval.py` is a strict subset of the root
   `game_data_retriaval.py` and can likely be removed once its single-game
   entry point is no longer needed.

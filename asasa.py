@@ -18,6 +18,17 @@ from impact_common import (
     estimate_win_probability,
 )
 
+# Unified per-play impact engine (de-duplicated into impact_engine.py at the project root).
+from impact_engine import (
+    calculate_block_impact,
+    calculate_steal_impact,
+    calculate_rebound_impact,
+    calculate_scoring_impact,
+    calculate_turnover_impact,
+    calculate_foul_impact,
+)
+
+
 
 # --- Data Loading and Preprocessing ---
 def load_and_preprocess_data():
@@ -53,336 +64,11 @@ def load_and_preprocess_data():
 
 # --- Enhanced Impact Score Calculations ---
 
-def calculate_block_impact(row, next_play, previous_plays):
-    """Calculates enhanced impact value for blocks."""
-    base_impact = 1.2
 
-    # Original modifiers
-    if next_play is not None and next_play['teamTricode'] == row['teamTricode']:
-        base_impact -= 0.2  # Block that stays with blocking team (reduced value)
-    if next_play is not None and isinstance(next_play.get('description'), str) and 'Running' in next_play['description']:
-        base_impact += 0.2  # Block leading to transition
-    if next_play is not None and isinstance(next_play.get('description'), str) and 'Shot Clock' in next_play['description']:
-        base_impact += 0.3  # Block causing shot clock violation
 
-    # Multiple blocks demonstrating defensive dominance
-    recent_blocks = [play for play in previous_plays[-3:]
-                    if isinstance(play.get('description'), str) and 'BLOCK' in play['description']
-                    and play.get('playerName') == row.get('playerName')]
-    if len(recent_blocks) > 1:
-        base_impact += 0.3
 
-    # Clutch time blocks
-    if is_last_2_minutes(row['clock_seconds'], row['period']) and get_score_margin(row) <= 3:
-        base_impact += 0.5
 
-    # Enhanced modifiers
-    # Block location value (rim protection)
-    if pd.notnull(row.get('shotDistance')) and row['shotDistance'] <= 5:
-        base_impact += 0.2  # Blocks at the rim
 
-    # Block against a scoring run
-    scoring_run_team = identify_scoring_run(df_pbp, df_pbp.index.get_loc(row.name))
-    if scoring_run_team and scoring_run_team != row.get('teamTricode'):
-        base_impact += 0.3  # Stopping opponent's momentum
-
-    # Block results in change of possession
-    if next_play is not None and next_play.get('teamTricode') != row.get('teamTricode'):
-        base_impact += 0.2  # Block resulted in change of possession
-
-    return base_impact
-
-def calculate_steal_impact(row, next_play, previous_plays):
-    """Calculates enhanced impact value for steals."""
-    base_impact = 1.4
-
-    # Original modifiers
-    if isinstance(row.get('description'), str) and 'Backcourt' in row['description']:
-        base_impact += 0.1  # Backcourt steal (higher pressure)
-    if next_play is not None and next_play.get('actionType') == 'Made Shot':
-        base_impact += 0.2  # Steal leading to immediate score
-
-    # Multiple steals demonstrating defensive prowess
-    recent_steals = [play for play in previous_plays[-5:]
-                    if isinstance(play.get('description'), str) and 'STEAL' in play['description']
-                    and play.get('playerName') == row.get('playerName')]
-    if len(recent_steals) > 1:
-        base_impact += 0.2
-
-    # Game situation adjustments
-    if is_clutch_time(row['clock_seconds'], row['period']):
-        margin = get_score_margin(row)
-        if margin > 20:
-            base_impact = 1.0  # Reduced impact in blowouts
-        elif margin > 10:
-            base_impact = 1.1  # Slightly reduced impact
-        else:
-            base_impact = 1.5  # Increased impact in close games
-
-    # Enhanced modifiers
-    # Steal type classification
-    if isinstance(row.get('description'), str):
-        if 'Bad Pass' in row['description']:
-            base_impact += 0.1  # Anticipation steal (passing lane)
-        elif 'Lost Ball' in row['description']:
-            base_impact += 0.3  # Active pickpocket (direct steal)
-
-    # Steal leading to breakaway
-    if next_play is not None and next_play.get('actionType') == 'Made Shot' and pd.notnull(next_play.get('shotDistance')) and next_play['shotDistance'] <= 3:
-        base_impact += 0.3  # Steal leading to easy basket
-
-    # Steal in opponent's frontcourt
-    if pd.notnull(row.get('xLegacy')) and pd.notnull(row.get('yLegacy')):
-        # Check if steal is in opponent's half
-        team_id = row.get('teamId')
-        if (team_id == 1610612743 and row['xLegacy'] < 0) or (team_id == 1610612744 and row['xLegacy'] > 0):
-            base_impact += 0.2  # Steal in opponent's frontcourt
-
-    return base_impact
-
-def calculate_rebound_impact(row, next_play, previous_plays):
-    """Calculates enhanced impact value for rebounds."""
-    is_offensive = isinstance(row.get('description'), str) and 'Off' in row['description']
-    base_impact = 0.9 if is_offensive else 0.6
-
-    # Original modifiers
-    if any(isinstance(play.get('description'), str) and 'REBOUND' in play['description'] for play in previous_plays[-2:]):
-        base_impact += 0.2  # Multiple rebounds in sequence
-    if next_play is not None and next_play.get('actionType') == 'Made Shot':
-        base_impact += 0.2  # Rebound leading to score
-    if is_last_2_minutes(row['clock_seconds'], row['period']) and get_score_margin(row) <= 3:
-        base_impact += 0.3  # Critical late-game rebounds
-    if is_clutch_time(row['clock_seconds'], row['period']):
-        base_impact += 0.4  # Clutch time rebounds
-
-    # Enhanced modifiers
-    # Rebound after contested shot
-    if any(isinstance(play.get('description'), str) and 'BLOCK' in play['description'] for play in previous_plays[-1:]):
-        base_impact += 0.3  # Rebound after blocked shot (higher difficulty)
-
-    # Team context
-    if is_offensive:
-        # Check if team is trailing (offensive rebounds more valuable when behind)
-        team_id = row.get('teamId')
-        if (team_id == 1610612743 and row.get('scoreHome', 0) < row.get('scoreAway', 0)) or \
-           (team_id == 1610612744 and row.get('scoreHome', 0) > row.get('scoreAway', 0)):
-            base_impact += 0.2  # Offensive rebound while trailing
-
-        # Putback attempt
-        if next_play is not None and next_play.get('actionType') in ['Made Shot', 'Missed Shot'] and next_play.get('teamTricode') == row.get('teamTricode'):
-            if pd.notnull(next_play.get('clock_seconds')) and row.get('clock_seconds') - next_play['clock_seconds'] < 3:
-                base_impact += 0.2  # Quick putback attempt
-    else:  # Defensive rebound
-        # Leading to fast break
-        if next_play is not None and next_play.get('actionType') in ['Made Shot', 'Missed Shot'] and next_play.get('teamTricode') == row.get('teamTricode'):
-            if pd.notnull(next_play.get('clock_seconds')) and row.get('clock_seconds') - next_play['clock_seconds'] < 5:
-                base_impact += 0.2  # Quick transition after defensive rebound
-
-    # Shot clock context
-    previous_shot = next((play for play in previous_plays[-2:] if play.get('actionType') in ['Made Shot', 'Missed Shot']), None)
-    if previous_shot and pd.notnull(previous_shot.get('clock_seconds')):
-        shot_clock_value = previous_shot['clock_seconds'] % 24
-        if shot_clock_value <= 4:
-            base_impact += 0.2  # Rebound after end-of-shot-clock attempt (often more contested)
-
-    return base_impact
-
-def calculate_scoring_impact(row, previous_plays):
-    """Calculates enhanced impact value for scoring plays."""
-    base_impact = 3.0 if row.get('shotValue') == 3 else 2.0
-
-    # Original modifiers
-    if any(isinstance(play.get('description'), str) and 'Free Throw' in play['description'] for play in previous_plays[:2]):
-        base_impact += 0.3  # And-one plays
-    if any(isinstance(play.get('description'), str) and 'Timeout' in play['description'] for play in previous_plays[-3:]):
-        base_impact += 0.2  # Scoring after timeout
-
-    scoring_run_team = identify_scoring_run(df_pbp, df_pbp.index.get_loc(row.name))
-    if scoring_run_team and scoring_run_team != row.get('teamTricode'):
-        base_impact += 0.2  # Stopping opponent's run
-
-    if any(isinstance(play.get('description'), str) and 'Start of' in play['description'] for play in previous_plays[-3:]):
-        base_impact += 0.1  # Period-starting baskets
-
-    # Enhanced modifiers
-    # Shot difficulty based on spatial data
-    if pd.notnull(row.get('expected_points')):
-        # Adjust impact based on expected value
-        ep_modifier = row['expected_points']
-        # Score higher than expected = more valuable
-        base_impact *= ep_modifier
-
-    # Shot difficulty based on shot description
-    if isinstance(row.get('description'), str):
-        # Special shot types
-        if 'Fadeaway' in row['description']:
-            base_impact += 0.2  # Difficult fadeaway shot
-        elif 'Step Back' in row['description']:
-            base_impact += 0.3  # Difficult step back
-        elif 'Driving' in row['description'] and 'Dunk' in row['description']:
-            base_impact += 0.3  # Athletic driving dunk
-        elif 'Alley Oop' in row['description']:
-            base_impact += 0.4  # Highlight play
-        elif 'Turnaround' in row['description']:
-            base_impact += 0.2  # Difficult post move
-        elif 'Pullup' in row['description']:
-            base_impact += 0.1  # Pull-up jumper
-        elif 'Bank' in row['description']:
-            base_impact += 0.1  # Bank shot
-
-    # Shot timing context
-    if pd.notnull(row.get('clock_seconds')):
-        shot_clock_value = row['clock_seconds'] % 24
-        if shot_clock_value <= 4:
-            base_impact += 0.3  # End of shot clock (bailout shot)
-        elif shot_clock_value <= 7:
-            base_impact += 0.1  # Late shot clock
-
-    # Score impact
-    prev_margin = 0
-    prev_score_play = next((play for play in previous_plays if pd.notnull(play.get('scoreHome')) and pd.notnull(play.get('scoreAway'))), None)
-    if prev_score_play:
-        team_id = row.get('teamId')
-        home_team_id = 1610612743  # Denver Nuggets
-        prev_diff = prev_score_play['scoreHome'] - prev_score_play['scoreAway']
-        curr_diff = row['scoreHome'] - row['scoreAway']
-
-        # Check if shot changed lead
-        if (prev_diff <= 0 and curr_diff > 0) or (prev_diff >= 0 and curr_diff < 0):
-            base_impact += 0.5  # Lead-changing basket
-        # Check if shot tied game
-        elif curr_diff == 0 and prev_diff != 0:
-            base_impact += 0.4  # Game-tying basket
-        # Check if shot reduced deficit to one possession
-        elif (team_id == home_team_id and prev_diff < -3 and curr_diff >= -3) or \
-             (team_id != home_team_id and prev_diff > 3 and curr_diff <= 3):
-            base_impact += 0.3  # Cut to one possession
-
-    # Clutch scoring
-    if is_clutch_time(row['clock_seconds'], row['period']):
-        margin = get_score_margin(row)
-        if margin <= 5:
-            base_impact *= 1.3  # 30% boost for scoring in close clutch situations
-        elif margin <= 10:
-            base_impact *= 1.2  # 20% boost for scoring in moderate clutch situations
-
-    return base_impact
-
-def calculate_turnover_impact(row, next_play, previous_plays):
-    """Calculates enhanced impact value for turnovers."""
-    base_impact = -1.0 if is_clutch_time(row['clock_seconds'], row['period']) else -0.8
-
-    # Enhanced modifiers
-    # Turnover type
-    if isinstance(row.get('description'), str):
-        if 'Bad Pass' in row['description']:
-            base_impact -= 0.2  # Decision error (worse)
-        elif 'Lost Ball' in row['description']:
-            base_impact -= 0.3  # Ball handling error (worse)
-        elif 'Step Out of Bounds' in row['description'] or 'Traveling' in row['description']:
-            base_impact -= 0.1  # Unforced error (slightly better)
-        elif 'Shot Clock' in row['description']:
-            base_impact -= 0.3  # Team failure to get shot off
-        elif 'Offensive Foul' in row['description']:
-            base_impact -= 0.2  # Aggressive error
-        elif 'Backcourt' in row['description']:
-            base_impact -= 0.3  # Basic error
-
-    # Turnover leading to opponent scoring
-    if next_play is not None and next_play.get('actionType') == 'Made Shot' and next_play.get('teamTricode') != row.get('teamTricode'):
-        time_diff = row.get('clock_seconds', 0) - next_play.get('clock_seconds', 0)
-        if pd.notnull(time_diff) and time_diff < 5:
-            base_impact -= 0.3  # Quick score off turnover
-            if next_play.get('shotValue') == 3:
-                base_impact -= 0.2  # Even worse if opponent hits a 3
-
-    # Game context
-    margin = get_score_margin(row)
-    if margin <= 5 and row['period'] >= 4:
-        # Close late game
-        base_impact *= 1.3  # 30% worse in close late games
-    elif margin >= 15:
-        # Blowout
-        base_impact *= 0.7  # 30% less impactful in blowouts
-
-    # Multiple turnovers
-    recent_turnovers = [play for play in previous_plays[-5:]
-                      if play.get('actionType') == 'Turnover'
-                      and play.get('playerName') == row.get('playerName')]
-    if len(recent_turnovers) >= 2:
-        base_impact -= 0.2  # Compounding turnovers
-
-    # Turnover after timeout (worse)
-    if any(isinstance(play.get('description'), str) and 'Timeout' in play['description'] for play in previous_plays[-3:]):
-        base_impact -= 0.2  # Turnover after timeout
-
-    return base_impact
-
-def calculate_foul_impact(row, next_play, previous_plays):
-    """Calculates enhanced impact value for fouls."""
-    # Base value depends on foul type
-    if isinstance(row.get('description'), str):
-        if 'S.FOUL' in row['description']:
-            base_impact = -0.7  # Shooting foul
-        elif 'P.FOUL' in row['description']:
-            base_impact = -0.3  # Personal foul
-        elif 'OFF.FOUL' in row['description'] or 'Offensive' in row['description']:
-            base_impact = -0.6  # Offensive foul
-        elif 'L.B.FOUL' in row['description']:
-            base_impact = -0.4  # Loose ball foul
-        elif 'T.FOUL' in row['description']:
-            base_impact = -1.0  # Technical foul
-        elif 'FLAGRANT' in row['description'].upper():
-            base_impact = -1.5  # Flagrant foul
-        else:
-            base_impact = -0.5  # Default foul value
-    else:
-        base_impact = -0.5  # Default if description missing
-
-    # Enhanced modifiers
-    # Foul trouble context
-    foul_count = 1
-    player_name = row.get('playerName')
-    if player_name:
-        previous_fouls = [play for play in df_pbp.loc[:row.name-1]
-                        if isinstance(play.get('description'), str)
-                        and 'FOUL' in play['description']
-                        and play.get('playerName') == player_name]
-        foul_count += len(previous_fouls)
-
-    # Scale impact based on foul count
-    if foul_count == 2:
-        base_impact *= 1.1  # 10% worse
-    elif foul_count == 3:
-        base_impact *= 1.2  # 20% worse
-    elif foul_count == 4:
-        base_impact *= 1.4  # 40% worse
-    elif foul_count >= 5:
-        base_impact *= 1.6  # 60% worse
-
-    # Bonus situation
-    if next_play is not None and isinstance(next_play.get('description'), str) and 'Free Throw' in next_play['description']:
-        # Free throws without shooting foul means team in bonus
-        if not isinstance(row.get('description'), str) or 'S.FOUL' not in row['description']:
-            base_impact -= 0.2  # Worse for putting team in bonus
-
-    # Game context
-    if is_last_2_minutes(row['clock_seconds'], row['period']):
-        margin = get_score_margin(row)
-        if margin <= 3:
-            base_impact *= 1.2  # 20% worse in close, late-game situations
-
-    # Intentional foul strategy context (positive for trailing team)
-    if is_last_2_minutes(row['clock_seconds'], row['period']):
-        team_id = row.get('teamId')
-        if (team_id == 1610612743 and row.get('scoreHome', 0) < row.get('scoreAway', 0)) or \
-           (team_id == 1610612744 and row.get('scoreHome', 0) > row.get('scoreAway', 0)):
-            # Trailing team fouling
-            margin = get_score_margin(row)
-            if 3 <= margin <= 7:
-                base_impact *= 0.7  # 30% less negative (strategic foul)
-
-    return base_impact
 
 def calculate_enhanced_impact_score(df):
     """Calculates the enhanced impact score with contextual modifiers using only play-by-play data."""
@@ -405,15 +91,15 @@ def calculate_enhanced_impact_score(df):
 
         # --- Base Impact (from play-by-play) with enhanced contextual modifiers ---
         if isinstance(row.get('description'), str) and 'BLOCK' in row['description']:
-            impact += calculate_block_impact(row, next_play, previous_plays)
+            impact += calculate_block_impact(row, next_play, previous_plays, df)
         elif isinstance(row.get('description'), str) and 'STEAL' in row['description']:
             impact += calculate_steal_impact(row, next_play, previous_plays)
         elif row.get('actionType') == 'Rebound':
             impact += calculate_rebound_impact(row, next_play, previous_plays)
         elif row.get('actionType') == 'Made Shot':
-            impact += calculate_scoring_impact(row, previous_plays)
+            impact += calculate_scoring_impact(row, previous_plays, df)
         elif isinstance(row.get('description'), str) and 'Foul' in row['description']:
-            impact += calculate_foul_impact(row, next_play, previous_plays)
+            impact += calculate_foul_impact(row, next_play, previous_plays, df)
         elif row.get('actionType') == 'Turnover':
             impact += calculate_turnover_impact(row, next_play, previous_plays)
 
@@ -523,15 +209,15 @@ def plot_cumulative_impact(df_pbp, player_name):
         previous_plays = df_pbp.iloc[max(0, idx - 5):idx].to_dict('records')
 
         if isinstance(row['description'], str) and 'BLOCK' in row['description']:
-            player_data.loc[index, 'impact'] = calculate_block_impact(row, next_play, previous_plays)
+            player_data.loc[index, 'impact'] = calculate_block_impact(row, next_play, previous_plays, df_pbp)
         elif isinstance(row['description'], str) and 'STEAL' in row['description']:
             player_data.loc[index, 'impact'] = calculate_steal_impact(row, next_play, previous_plays)
         elif row['actionType'] == 'Rebound':
             player_data.loc[index, 'impact'] = calculate_rebound_impact(row, next_play, previous_plays)
         elif row['actionType'] == 'Made Shot':
-            player_data.loc[index, 'impact'] = calculate_scoring_impact(row, previous_plays)
+            player_data.loc[index, 'impact'] = calculate_scoring_impact(row, previous_plays, df_pbp)
         elif isinstance(row['description'], str) and 'Foul' in row['description']:
-            player_data.loc[index, 'impact'] = calculate_foul_impact(row, next_play, previous_plays)
+            player_data.loc[index, 'impact'] = calculate_foul_impact(row, next_play, previous_plays, df_pbp)
         elif row['actionType'] == 'Turnover':
             player_data.loc[index, 'impact'] = calculate_turnover_impact(row, next_play, previous_plays)
 
@@ -618,7 +304,7 @@ def visualize_player_breakdown(player_name, df_pbp):
         category = 'Other'
 
         if isinstance(row['description'], str) and 'BLOCK' in row['description']:
-            impact = calculate_block_impact(row, next_play, previous_plays)
+            impact = calculate_block_impact(row, next_play, previous_plays, df_pbp)
             category = 'Blocks'
         elif isinstance(row['description'], str) and 'STEAL' in row['description']:
             impact = calculate_steal_impact(row, next_play, previous_plays)
@@ -627,10 +313,10 @@ def visualize_player_breakdown(player_name, df_pbp):
             impact = calculate_rebound_impact(row, next_play, previous_plays)
             category = 'Rebounds'
         elif row['actionType'] == 'Made Shot':
-            impact = calculate_scoring_impact(row, previous_plays)
+            impact = calculate_scoring_impact(row, previous_plays, df_pbp)
             category = 'Scoring'
         elif isinstance(row['description'], str) and 'Foul' in row['description']:
-            impact = calculate_foul_impact(row, next_play, previous_plays)
+            impact = calculate_foul_impact(row, next_play, previous_plays, df_pbp)
             category = 'Fouls'
         elif row['actionType'] == 'Turnover':
             impact = calculate_turnover_impact(row, next_play, previous_plays)

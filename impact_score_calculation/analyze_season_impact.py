@@ -22,9 +22,8 @@ from impact_common import (
     calculate_expected_points,
 )
 
-# Per-play impact functions shared with analyze_season_impact_1 / analyze_season_impact
-# (de-duplicated into season_impact_engine.py).
-from season_impact_engine import (
+# Unified per-play impact engine (de-duplicated into impact_engine.py at the project root).
+from impact_engine import (
     calculate_block_impact,
     calculate_steal_impact,
     calculate_rebound_impact,

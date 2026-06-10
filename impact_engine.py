@@ -1,10 +1,18 @@
-"""Shared per-play impact-scoring engine for full-season analysis.
+"""Unified per-play impact-scoring engine.
 
-These six ``calculate_*_impact`` functions were byte-for-byte identical between
-``analyze_season_impact.py`` and ``analyze_season_impact_1.py``; they are
-collected here as the single source of truth. Each takes the current play
-``row``, the ``next_play``, the list of ``previous_plays`` and (for block /
-scoring runs) the full game DataFrame ``df``.
+This is the single source of truth for the six ``calculate_*_impact`` functions.
+It merges the three historical variants (``asasa.py``, ``impact_score.py`` and the
+season-analysis scripts) into one set:
+
+* The full-game DataFrame ``df`` is always passed explicitly (used for scoring-run
+  and foul-trouble lookups) instead of relying on a module-level global.
+* Optional ``df_defensive`` / ``df_player_track`` arguments add the
+  tracking-based bonuses. When they are ``None`` (the default) no bonus is
+  applied, so callers that do not have tracking data get the plain
+  play-by-play score, identical to the old PBP-only / season behaviour.
+
+All field access uses ``.get(...)`` so a row with a missing column degrades
+gracefully instead of raising.
 """
 
 import os
@@ -12,8 +20,7 @@ import sys
 
 import pandas as pd
 
-# Shared stateless helpers live in impact_common.py at the project root.
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from impact_common import (
     is_clutch_time,
     is_last_2_minutes,
@@ -21,7 +28,8 @@ from impact_common import (
     identify_scoring_run,
 )
 
-def calculate_block_impact(row, next_play, previous_plays, df):
+
+def calculate_block_impact(row, next_play, previous_plays, df, df_defensive=None):
     """Calculates enhanced impact value for blocks."""
     base_impact = 1.2
 
@@ -59,9 +67,18 @@ def calculate_block_impact(row, next_play, previous_plays, df):
     if next_play is not None and next_play.get('teamTricode') != row.get('teamTricode'):
         base_impact += 0.2  # Block resulted in change of possession
 
+    # Integration with defensive tracking data if available
+    if df_defensive is not None and row.get('personId') is not None:
+        player_def_data = df_defensive[df_defensive['personId'] == row['personId']]
+        if not player_def_data.empty:
+            # Add value for players who contest shots frequently
+            contested_ratio = player_def_data['matchupFieldGoalsAttempted'].values[0] / max(1, player_def_data['MIN'].values[0]/60)
+            if contested_ratio > 5:  # High contest rate
+                base_impact += 0.2
+
     return base_impact
 
-def calculate_steal_impact(row, next_play, previous_plays):
+def calculate_steal_impact(row, next_play, previous_plays, df_defensive=None):
     """Calculates enhanced impact value for steals."""
     base_impact = 1.4
 
@@ -107,9 +124,17 @@ def calculate_steal_impact(row, next_play, previous_plays):
         if (team_id == 1610612743 and row.get('xLegacy') < 0) or (team_id == 1610612744 and row.get('xLegacy') > 0):
             base_impact += 0.2  # Steal in opponent's frontcourt
 
+    # Integration with defensive tracking data if available
+    if df_defensive is not None and row.get('personId') is not None:
+        player_def_data = df_defensive[df_defensive['personId'] == row['personId']]
+        if not player_def_data.empty:
+            # Add value for players who consistently generate steals
+            if player_def_data['steals'].values[0] > 1:  # Multiple steals in game
+                base_impact += 0.1 * player_def_data['steals'].values[0]  # Scale by steal count
+
     return base_impact
 
-def calculate_rebound_impact(row, next_play, previous_plays):
+def calculate_rebound_impact(row, next_play, previous_plays, df_player_track=None):
     """Calculates enhanced impact value for rebounds."""
     is_offensive = isinstance(row.get('description'), str) and 'Off' in row.get('description')
     base_impact = 0.9 if is_offensive else 0.6
@@ -154,9 +179,24 @@ def calculate_rebound_impact(row, next_play, previous_plays):
         if shot_clock_value <= 4:
             base_impact += 0.2  # Rebound after end-of-shot-clock attempt (often more contested)
 
+    # Integration with player tracking data if available
+    if df_player_track is not None and row.get('personId') is not None:
+        player_track_data = df_player_track[df_player_track['PLAYER_ID'] == row['personId']]
+        if not player_track_data.empty:
+            if is_offensive:
+                # ORBC = Offensive Rebound Chances
+                if pd.notnull(player_track_data['ORBC'].values[0]) and player_track_data['ORBC'].values[0] > 0:
+                    oreb_chance_ratio = player_track_data['OREB'].values[0] / player_track_data['ORBC'].values[0]
+                    base_impact += oreb_chance_ratio * 0.3  # Scale by success rate
+            else:
+                # DRBC = Defensive Rebound Chances
+                if pd.notnull(player_track_data['DRBC'].values[0]) and player_track_data['DRBC'].values[0] > 0:
+                    dreb_chance_ratio = player_track_data['DREB'].values[0] / player_track_data['DRBC'].values[0]
+                    base_impact += dreb_chance_ratio * 0.2  # Scale by success rate
+
     return base_impact
 
-def calculate_scoring_impact(row, previous_plays, df):
+def calculate_scoring_impact(row, previous_plays, df, df_player_track=None):
     """Calculates enhanced impact value for scoring plays."""
     base_impact = 3.0 if row.get('shotValue') == 3 else 2.0
 
@@ -227,6 +267,17 @@ def calculate_scoring_impact(row, previous_plays, df):
         elif (team_id == home_team_id and prev_diff < -3 and curr_diff >= -3) or \
              (team_id != home_team_id and prev_diff > 3 and curr_diff <= 3):
             base_impact += 0.3  # Cut to one possession
+
+    # Integration with player tracking data if available
+    if df_player_track is not None and row.get('personId') is not None:
+        player_track_data = df_player_track[df_player_track['PLAYER_ID'] == row['personId']]
+        if not player_track_data.empty:
+            # Contested Field Goal %
+            if pd.notnull(player_track_data['CFGM'].values[0]) and pd.notnull(player_track_data['CFGA'].values[0]) and player_track_data['CFGA'].values[0] > 0:
+                cfg_pct = player_track_data['CFG_PCT'].values[0]
+                # If the player is good at making contested shots, this shot is likely contested
+                if cfg_pct > 0.5 and row.get('shotDistance', 0) > 5:
+                    base_impact += 0.2  # Likely contested jumper from good contested shooter
 
     # Clutch scoring
     if is_clutch_time(row.get('clock_seconds'), row.get('period')):

@@ -6,6 +6,12 @@ import traceback
 import datetime
 from nba_api.stats.endpoints import BoxScoreTraditionalV2, BoxScoreAdvancedV2, BoxScoreDefensiveV2
 
+# Shared retrieval helpers (de-duplicated into nba_api_utils.py).
+import os as _os, sys as _sys
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
+from nba_api_utils import format_season, read_game_ids
+
+
 # ----------------------------------------
 # Global Configuration
 # ----------------------------------------
@@ -37,40 +43,7 @@ def format_game_id(game_id):
     game_id_str = str(game_id)
     return f"00{game_id_str}" if not game_id_str.startswith('00') else game_id_str
 
-def format_season(season):
-    """
-    Convert season format from "YYYY-YY" to "YYYY_YYYY" for directory structure
-    """
-    season_parts = season.split("-")
-    season_format = f"{season_parts[0]}_{int(season_parts[0])+1}"
-    return season_format
 
-def read_game_ids(season):
-    """
-    Read game IDs from the corresponding CSV file
-    
-    Args:
-        season (str): Season in format "YYYY-YY" (e.g., "2019-20")
-        
-    Returns:
-        pd.DataFrame: DataFrame containing game IDs and metadata
-    """
-    formatted_season = format_season(season)
-    csv_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
-                           f"game_id_{formatted_season}.csv")
-    
-    if not os.path.exists(csv_path):
-        print(f"ERROR: Game IDs CSV file not found: {csv_path}")
-        return None
-    
-    try:
-        games_df = pd.read_csv(csv_path)
-        # Ensure we have unique game IDs
-        games_df = games_df.drop_duplicates(subset=['GAME_ID'])
-        return games_df
-    except Exception as e:
-        print(f"ERROR: Failed to read game IDs from {csv_path}: {e}")
-        return None
 
 def update_api_delay(success=True):
     """

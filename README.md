@@ -24,24 +24,32 @@ Requires Python 3.9+.
 
 ```
 nba_match_prediction/
+├── impact_common.py             # shared stateless helpers (clutch time, shot
+│                                #   distance bins, possessions, ...) imported
+│                                #   across the impact-score scripts
+│
 ├── data_retriaval/              # API scrapers -> writes into nba_data/
+│   ├── nba_api_utils.py            # shared retrieval helpers (format_season, read_game_ids)
 │   ├── retrieve_nba_data.py        # main scraper (PBP + tracking, all seasons)
 │   ├── retrieve_box_scores.py      # traditional/advanced/defensive/matchup box scores
 │   ├── play_by_play_data_retrieve.py
 │   ├── retrieve_tracking_data.py
 │   ├── player_track_retriaval.py
 │   ├── playbyplay2.py
+│   ├── game_data_retriaval.py      # NOTE: redundant subset of the root game_data_retriaval.py
 │   └── test.py                     # small single-game smoke test
 │
 ├── impact_score_calculation/    # the heuristic player-impact engine
+│   ├── season_impact_engine.py     # per-play impact functions shared by both analyze scripts
 │   ├── impact_score.py             # full single-game engine + visualizations
 │   ├── analyze_season_impact.py    # scales impact scoring to a full season
-│   └── analyze_season_impact_1.py
+│   └── analyze_season_impact_1.py  # optimized variant (multiprocessing + caching)
 │
 ├── prediction_engines/
 │   └── 2023_2024.py                # LightGBM training + prediction (NBAPredictor)
 │
 ├── asasa.py                     # earlier PBP-only impact-score prototype
+├── game_data_retriaval.py       # fetch season game-ID lists (superset of the data_retriaval/ copy)
 │
 ├── game_ids/                    # GAME_ID,GAME_DATE,MATCHUP per season
 │   └── game_id_<season>.csv
@@ -116,13 +124,34 @@ Each play is assigned a base value by event type, then adjusted:
 Plays in clutch time (last 5 min of Q4 / OT) are boosted ×1.5, and totals are
 normalized to 100 possessions per team.
 
+## Shared modules
+
+Common code has been pulled out of the individual scripts to avoid duplication:
+
+- **`impact_common.py`** — stateless helpers (`is_clutch_time`, `get_score_margin`,
+  `categorize_shot_distance`, `calculate_expected_points`, `calculate_team_possessions`, …)
+  used by `asasa.py` and every script in `impact_score_calculation/`.
+- **`impact_score_calculation/season_impact_engine.py`** — the six per-play
+  `calculate_*_impact` functions that were identical between
+  `analyze_season_impact.py` and `analyze_season_impact_1.py`.
+- **`data_retriaval/nba_api_utils.py`** — `format_season` and `read_game_ids`,
+  shared by the season scrapers.
+
+Each consumer adds the relevant directory to `sys.path` at import time, so the
+scripts still run directly (`python impact_score_calculation/impact_score.py`).
+
 ## Notes / known limitations
 
 - `prediction_engines/2023_2024.py` currently uses a **simplified** stub of the
   impact calculator; the full logic lives in `impact_score_calculation/impact_score.py`
   and is not yet wired into the model features.
-- The impact-scoring helpers are duplicated across `asasa.py`,
-  `impact_score.py` and the `analyze_season_impact*.py` scripts.
+- `asasa.py` and `impact_score.py` keep their own variants of the
+  `calculate_*_impact` functions because they differ (PBP-only vs.
+  tracking-integrated) — they were intentionally left separate rather than
+  force-merged, which would change the scores.
+- `data_retriaval/game_data_retriaval.py` is a strict subset of the root
+  `game_data_retriaval.py` and can likely be removed once its single-game
+  entry point is no longer needed.
 - Some scrapers and `impact_score.py` are pinned to a single sample game
   (`0022400058`).
 ```

@@ -134,11 +134,13 @@ def save_game_ids_to_csv(games_df, season, output_dir=None):
     return filepath
 
 if __name__ == "__main__":
-    # Define the seasons to retrieve, now including 2024-25
-    seasons = ['2024-25', '2019-20', '2020-21', '2021-22', '2022-23', '2023-24']
-    
-    # Output directory is the root folder of the project
-    output_dir = os.path.dirname(os.path.abspath(__file__))
+    # Define the seasons to retrieve, now including the completed 2025-26 season
+    seasons = ['2025-26', '2024-25', '2019-20', '2020-21', '2021-22', '2022-23', '2023-24']
+
+    # Save game-id CSVs into the game_ids/ folder, which is where both the
+    # data-retrieval scripts and the prediction engine (GameDataLoader) read from.
+    output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "game_ids")
+    os.makedirs(output_dir, exist_ok=True)
     
     # Retrieve game IDs for each season and save to separate CSV files
     for season in seasons:

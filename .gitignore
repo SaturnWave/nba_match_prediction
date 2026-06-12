@@ -12,3 +12,10 @@ env/
 .DS_Store
 .idea/
 .vscode/
+
+# derived caches (rebuilt automatically from data on disk)
+matchup_cache_v1.pkl
+game_impact_cache_v2.pkl
+
+# logs
+*.log

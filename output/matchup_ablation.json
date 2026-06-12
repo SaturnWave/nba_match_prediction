@@ -1,0 +1,89 @@
+{
+  "matchup_features": [
+    "home_matchup_def_quality",
+    "away_matchup_def_quality",
+    "home_matchup_edge",
+    "away_matchup_edge",
+    "diff_matchup_def_quality",
+    "diff_matchup_edge"
+  ],
+  "n_features_with": 190,
+  "n_features_without": 184,
+  "protocol": "leak-free early stopping (val = chronological tail 10% of train)",
+  "targets": {
+    "home_win": {
+      "with_matchup": {
+        "accuracy": 0.7597402597402597,
+        "auc": 0.8324024822695035
+      },
+      "matchup_feature_importance_rank": {
+        "home_matchup_def_quality": 27,
+        "away_matchup_def_quality": 25,
+        "home_matchup_edge": 2,
+        "away_matchup_edge": 7,
+        "diff_matchup_def_quality": 30,
+        "diff_matchup_edge": 4
+      },
+      "without_matchup": {
+        "accuracy": 0.7564935064935064,
+        "auc": 0.8129875886524823
+      },
+      "delta_accuracy": 0.0032467532467532756,
+      "delta_auc": 0.0194148936170212
+    },
+    "point_diff": {
+      "with_matchup": {
+        "mae": 11.051242919677152,
+        "rmse": 14.252162749117751
+      },
+      "without_matchup": {
+        "mae": 11.382903273103583,
+        "rmse": 14.647418084379343
+      },
+      "delta_mae": -0.33166035342643063
+    },
+    "total_score": {
+      "with_matchup": {
+        "mae": 15.282815513031942,
+        "rmse": 19.324756252733184
+      },
+      "without_matchup": {
+        "mae": 15.292010878548892,
+        "rmse": 19.264108592776118
+      },
+      "delta_mae": -0.009195365516950105
+    }
+  },
+  "home_win_by_segment": {
+    "close_games (|pd|<=6)": {
+      "n": 75,
+      "acc_with_matchup": 0.6933333333333334,
+      "acc_without_matchup": 0.68,
+      "delta": 0.013333333333333308
+    },
+    "moderate (6<|pd|<=15)": {
+      "n": 110,
+      "acc_with_matchup": 0.7272727272727273,
+      "acc_without_matchup": 0.7636363636363637,
+      "delta": -0.036363636363636376
+    },
+    "blowouts (|pd|>15)": {
+      "n": 123,
+      "acc_with_matchup": 0.8292682926829268,
+      "acc_without_matchup": 0.7967479674796748,
+      "delta": 0.03252032520325199
+    },
+    "large_matchup_edge_gap": {
+      "n": 154,
+      "acc_with_matchup": 0.7792207792207793,
+      "acc_without_matchup": 0.7662337662337663,
+      "delta": 0.012987012987012991
+    },
+    "small_matchup_edge_gap": {
+      "n": 154,
+      "acc_with_matchup": 0.7402597402597403,
+      "acc_without_matchup": 0.7467532467532467,
+      "delta": -0.00649350649350644
+    }
+  }
+}

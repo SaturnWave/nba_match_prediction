@@ -1,0 +1,162 @@
+{
+  "train_season": "2024_2025",
+  "target_season": "2025_2026",
+  "n_train": 2152,
+  "n_test": 308,
+  "n_features": 184,
+  "home_baseline_rate": 0.6103896103896104,
+  "impact_ablation": {
+    "n_impact_features": 24,
+    "n_total_features": 184,
+    "impact_features": [
+      "home_roster_impact_l10_mean",
+      "home_roster_impact_l10_sum",
+      "home_roster_form_l6",
+      "home_roster_form_l3",
+      "away_roster_impact_l10_mean",
+      "away_roster_impact_l10_sum",
+      "away_roster_form_l6",
+      "away_roster_form_l3",
+      "diff_roster_impact_l10_mean",
+      "diff_roster_impact_l10_sum",
+      "diff_roster_form_l6",
+      "diff_roster_form_l3",
+      "home_L3_impact_score_agg",
+      "home_L5_impact_score_agg",
+      "home_L10_impact_score_agg",
+      "home_season_avg_impact_score_agg",
+      "away_L3_impact_score_agg",
+      "away_L5_impact_score_agg",
+      "away_L10_impact_score_agg",
+      "away_season_avg_impact_score_agg",
+      "diff_L3_impact_score_agg",
+      "diff_L5_impact_score_agg",
+      "diff_L10_impact_score_agg",
+      "diff_season_avg_impact_score_agg"
+    ],
+    "targets": {
+      "home_win": {
+        "with_impact": {
+          "accuracy": 0.7597402597402597,
+          "auc": 0.8316932624113476
+        },
+        "without_impact": {
+          "accuracy": 0.7337662337662337,
+          "auc": 0.8017287234042554
+        },
+        "delta_accuracy": 0.025974025974025983,
+        "delta_auc": 0.029964539007092172
+      },
+      "point_diff": {
+        "with_impact": {
+          "mae": 11.055228874747149,
+          "rmse": 14.210693592594057
+        },
+        "without_impact": {
+          "mae": 11.940456712391606,
+          "rmse": 15.197963924584915
+        },
+        "delta_mae": -0.8852278376444573
+      },
+      "total_score": {
+        "with_impact": {
+          "mae": 15.183467653139386,
+          "rmse": 19.324035623649387
+        },
+        "without_impact": {
+          "mae": 14.990878143026498,
+          "rmse": 19.154774110014333
+        },
+        "delta_mae": 0.19258951011288872
+      }
+    },
+    "home_win_accuracy_by_segment": {
+      "close_games (|pd|<=6)": {
+        "n": 75,
+        "acc_with_impact": 0.6533333333333333,
+        "acc_without_impact": 0.64,
+        "delta": 0.013333333333333308
+      },
+      "moderate (6<|pd|<=15)": {
+        "n": 110,
+        "acc_with_impact": 0.7727272727272727,
+        "acc_without_impact": 0.6818181818181818,
+        "delta": 0.09090909090909094
+      },
+      "blowouts (|pd|>15)": {
+        "n": 123,
+        "acc_with_impact": 0.8130081300813008,
+        "acc_without_impact": 0.8373983739837398,
+        "delta": -0.024390243902439046
+      },
+      "large_impact_form_gap": {
+        "n": 154,
+        "acc_with_impact": 0.7857142857142857,
+        "acc_without_impact": 0.7597402597402597,
+        "delta": 0.025974025974025983
+      },
+      "small_impact_form_gap": {
+        "n": 154,
+        "acc_with_impact": 0.7337662337662337,
+        "acc_without_impact": 0.7077922077922078,
+        "delta": 0.025974025974025983
+      }
+    }
+  },
+  "model_comparison": {
+    "home_win": {
+      "lightgbm": {
+        "accuracy": 0.7597402597402597,
+        "auc": 0.8316932624113476
+      },
+      "xgboost": {
+        "accuracy": 0.7435064935064936,
+        "auc": 0.8036790780141845
+      },
+      "random_forest": {
+        "accuracy": 0.7564935064935064,
+        "auc": 0.8321365248226951
+      },
+      "logistic_regression": {
+        "accuracy": 0.7467532467532467,
+        "auc": 0.7864804964539006
+      }
+    },
+    "point_diff": {
+      "lightgbm": {
+        "mae": 11.055228874747149,
+        "rmse": 14.210693592594057
+      },
+      "xgboost": {
+        "mae": 11.214158767398882,
+        "rmse": 14.2906391723566
+      },
+      "random_forest": {
+        "mae": 11.084501700398638,
+        "rmse": 14.215767426635251
+      },
+      "ridge": {
+        "mae": 11.519417809915128,
+        "rmse": 14.745432984621159
+      }
+    },
+    "total_score": {
+      "lightgbm": {
+        "mae": 15.183467653139386,
+        "rmse": 19.324035623649387
+      },
+      "xgboost": {
+        "mae": 15.295964922223773,
+        "rmse": 19.462845011677793
+      },
+      "random_forest": {
+        "mae": 15.298820460153134,
+        "rmse": 19.2912674759133
+      },
+      "ridge": {
+        "mae": 15.284751842226484,
+        "rmse": 19.495662869285216
+      }
+    }
+  }
+}

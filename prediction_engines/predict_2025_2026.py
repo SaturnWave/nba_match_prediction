@@ -764,9 +764,11 @@ class NBAPredictor:
         return cols
 
     def train(self, train_season, target_season):
+        """train_season: a season string or a list of them (all become context)."""
+        train_seasons = [train_season] if isinstance(train_season, str) else list(train_season)
         self.feature_columns = self._select_features()
         print(f"\n{len(self.feature_columns)} features selected.")
-        ctx = self.dataset[self.dataset["season"] == train_season]
+        ctx = self.dataset[self.dataset["season"].isin(train_seasons)]
         tgt = self.dataset[self.dataset["season"] == target_season].sort_values("game_date")
         if tgt.empty:
             raise RuntimeError(f"No games for target season {target_season}")
@@ -859,16 +861,20 @@ class NBAPredictor:
         return out
 
 
+ALL_SEASONS = ["2019_2020", "2020_2021", "2021_2022", "2022_2023",
+               "2023_2024", "2024_2025", "2025_2026"]
+
+
 def main():
     print("=" * 70)
     print("NBA 2025-26 PREDICTOR")
     print("=" * 70)
     predictor = NBAPredictor()
-    predictor.load_and_prepare(seasons=["2024_2025", "2025_2026"])
+    predictor.load_and_prepare(seasons=ALL_SEASONS)
     if predictor.dataset is None or predictor.dataset.empty:
         print("No data — aborting.")
         return
-    predictor.train(train_season="2024_2025", target_season="2025_2026")
+    predictor.train(train_season=ALL_SEASONS[:-1], target_season="2025_2026")
 
     print("\n--- Single-game test (held-out 2025-26) ---")
     result = predictor.test_single_game()

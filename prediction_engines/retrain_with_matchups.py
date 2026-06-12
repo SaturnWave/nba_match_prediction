@@ -32,11 +32,13 @@ spec = importlib.util.spec_from_file_location("pp", os.path.join(HERE, "predict_
 pp = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(pp)
 
-TRAIN_SEASON, TARGET_SEASON = "2024_2025", "2025_2026"
+TRAIN_SEASONS = ["2019_2020", "2020_2021", "2021_2022", "2022_2023",
+                 "2023_2024", "2024_2025"]
+TARGET_SEASON = "2025_2026"
 
 
 def chrono_split(dataset):
-    ctx = dataset[dataset["season"] == TRAIN_SEASON]
+    ctx = dataset[dataset["season"].isin(TRAIN_SEASONS)]
     tgt = dataset[dataset["season"] == TARGET_SEASON].sort_values("game_date")
     split = int(len(tgt) * 0.75)
     train = pd.concat([ctx, tgt.iloc[:split]]) if not ctx.empty else tgt.iloc[:split]
@@ -132,7 +134,7 @@ def matchup_ablation(dataset, features):
 def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     n_files = 0
-    for season in (TRAIN_SEASON, TARGET_SEASON):
+    for season in TRAIN_SEASONS + [TARGET_SEASON]:
         sdir = os.path.join(PROJECT_ROOT, "nba_data", season)
         if os.path.isdir(sdir):
             n_files += sum(1 for g in os.listdir(sdir)
@@ -142,7 +144,7 @@ def main():
 
     print("\n[1/4] Rebuilding engineered dataset with matchup features...")
     P = pp.NBAPredictor()
-    P.load_and_prepare(seasons=[TRAIN_SEASON, TARGET_SEASON])
+    P.load_and_prepare(seasons=TRAIN_SEASONS + [TARGET_SEASON])
     features = P._select_features()
     matchup_feats = [f for f in features if "matchup_" in f]
     print(f"  {len(features)} features ({len(matchup_feats)} matchup: {matchup_feats})")
@@ -154,7 +156,7 @@ def main():
     pd.to_pickle({"dataset": P.dataset, "features": features}, DATASET_CACHE)
 
     print("\n[3/4] Retraining production models (original protocol, comparable metrics)...")
-    P.train(train_season=TRAIN_SEASON, target_season=TARGET_SEASON)
+    P.train(train_season=TRAIN_SEASONS, target_season=TARGET_SEASON)
 
     print("\n[4/4] Fair matchup ablation (leak-free early stopping)...")
     ablation = matchup_ablation(P.dataset, features)

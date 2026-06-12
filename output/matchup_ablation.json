@@ -13,77 +13,77 @@
   "targets": {
     "home_win": {
       "with_matchup": {
-        "accuracy": 0.7597402597402597,
-        "auc": 0.8324024822695035
+        "accuracy": 0.7662337662337663,
+        "auc": 0.8369237588652484
       },
       "matchup_feature_importance_rank": {
-        "home_matchup_def_quality": 27,
-        "away_matchup_def_quality": 25,
-        "home_matchup_edge": 2,
-        "away_matchup_edge": 7,
-        "diff_matchup_def_quality": 30,
-        "diff_matchup_edge": 4
+        "home_matchup_def_quality": 119,
+        "away_matchup_def_quality": 13,
+        "home_matchup_edge": 11,
+        "away_matchup_edge": 34,
+        "diff_matchup_def_quality": 20,
+        "diff_matchup_edge": 2
       },
       "without_matchup": {
-        "accuracy": 0.7564935064935064,
-        "auc": 0.8129875886524823
+        "accuracy": 0.7954545454545454,
+        "auc": 0.8322695035460993
       },
-      "delta_accuracy": 0.0032467532467532756,
-      "delta_auc": 0.0194148936170212
+      "delta_accuracy": -0.029220779220779147,
+      "delta_auc": 0.004654255319149092
     },
     "point_diff": {
       "with_matchup": {
-        "mae": 11.051242919677152,
-        "rmse": 14.252162749117751
+        "mae": 10.683465853432573,
+        "rmse": 13.708582684066686
       },
       "without_matchup": {
-        "mae": 11.382903273103583,
-        "rmse": 14.647418084379343
+        "mae": 11.033710560243208,
+        "rmse": 14.055582826657215
       },
-      "delta_mae": -0.33166035342643063
+      "delta_mae": -0.3502447068106349
     },
     "total_score": {
       "with_matchup": {
-        "mae": 15.282815513031942,
-        "rmse": 19.324756252733184
+        "mae": 15.545905689704265,
+        "rmse": 19.568707975022914
       },
       "without_matchup": {
-        "mae": 15.292010878548892,
-        "rmse": 19.264108592776118
+        "mae": 15.507499707955308,
+        "rmse": 19.59778539760528
       },
-      "delta_mae": -0.009195365516950105
+      "delta_mae": 0.03840598174895682
     }
   },
   "home_win_by_segment": {
     "close_games (|pd|<=6)": {
       "n": 75,
-      "acc_with_matchup": 0.6933333333333334,
-      "acc_without_matchup": 0.68,
-      "delta": 0.013333333333333308
+      "acc_with_matchup": 0.68,
+      "acc_without_matchup": 0.72,
+      "delta": -0.039999999999999925
     },
     "moderate (6<|pd|<=15)": {
       "n": 110,
-      "acc_with_matchup": 0.7272727272727273,
-      "acc_without_matchup": 0.7636363636363637,
-      "delta": -0.036363636363636376
+      "acc_with_matchup": 0.7636363636363637,
+      "acc_without_matchup": 0.7818181818181819,
+      "delta": -0.018181818181818188
     },
     "blowouts (|pd|>15)": {
       "n": 123,
-      "acc_with_matchup": 0.8292682926829268,
-      "acc_without_matchup": 0.7967479674796748,
-      "delta": 0.03252032520325199
+      "acc_with_matchup": 0.8211382113821138,
+      "acc_without_matchup": 0.8536585365853658,
+      "delta": -0.03252032520325199
     },
     "large_matchup_edge_gap": {
       "n": 154,
-      "acc_with_matchup": 0.7792207792207793,
-      "acc_without_matchup": 0.7662337662337663,
-      "delta": 0.012987012987012991
+      "acc_with_matchup": 0.7597402597402597,
+      "acc_without_matchup": 0.7987012987012987,
+      "delta": -0.038961038961038974
     },
     "small_matchup_edge_gap": {
       "n": 154,
-      "acc_with_matchup": 0.7402597402597403,
-      "acc_without_matchup": 0.7467532467532467,
-      "delta": -0.00649350649350644
+      "acc_with_matchup": 0.7727272727272727,
+      "acc_without_matchup": 0.7922077922077922,
+      "delta": -0.019480519480519543
     }
   }
 }

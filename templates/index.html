@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NBA 2025-26 Prediction Dashboard</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="logo">&#127936;</span>
+    <h1>NBA 2025-26 <span class="accent">Prediction Dashboard</span></h1>
+  </div>
+  <div class="filters">
+    <label>Season
+      <select id="seasonSel"><option value="">All seasons</option></select>
+    </label>
+    <label>Team
+      <select id="teamSel"><option value="">All teams</option></select>
+    </label>
+    <label>Month
+      <select id="monthSel"><option value="">All months</option></select>
+    </label>
+    <button id="resetBtn" type="button">Reset</button>
+  </div>
+</header>
+
+<main class="layout">
+
+  <aside class="panel list-panel">
+    <div class="panel-head">
+      <h2>Games</h2>
+      <span id="gameCount" class="muted"></span>
+    </div>
+    <ul id="gameList" class="game-list"></ul>
+  </aside>
+
+  <section class="panel detail-panel" id="detailPanel">
+    <div id="placeholder" class="placeholder">
+      <div class="placeholder-ball">&#127936;</div>
+      <p>Select a game from the list to see the model's prediction.</p>
+    </div>
+    <div id="card" hidden></div>
+  </section>
+
+</main>
+
+<script>
+"use strict";
+
+var state = { games: [], selected: null };
+
+function $(id) { return document.getElementById(id); }
+
+function esc(s) {
+  return String(s == null ? "" : s)
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+}
+
+function fmt(x, dp) {
+  if (x == null || isNaN(x)) return "–";
+  return Number(x).toFixed(dp == null ? 1 : dp);
+}
+
+function badgePill(badge, compact) {
+  var cls = badge.key === "out-of-sample" ? "badge badge-out" : "badge badge-in";
+  var text = compact
+    ? (badge.key === "out-of-sample" ? "HELD-OUT" : "IN-SAMPLE")
+    : esc(badge.label);
+  return '<span class="' + cls + '" title="' + esc(badge.label) + '">' + text + "</span>";
+}
+
+/* ---------------- filters / game list ---------------- */
+
+function loadMeta() {
+  return fetch("/api/meta").then(function (r) { return r.json(); }).then(function (m) {
+    m.seasons.forEach(function (s) {
+      $("seasonSel").insertAdjacentHTML("beforeend",
+        '<option value="' + esc(s) + '">' + esc(s.replace("_", "-")) + "</option>");
+    });
+    m.teams.forEach(function (t) {
+      $("teamSel").insertAdjacentHTML("beforeend",
+        '<option value="' + esc(t) + '">' + esc(t) + "</option>");
+    });
+    m.months.forEach(function (mo) {
+      $("monthSel").insertAdjacentHTML("beforeend",
+        '<option value="' + esc(mo) + '">' + esc(mo) + "</option>");
+    });
+  });
+}
+
+function loadGames() {
+  var params = new URLSearchParams();
+  if ($("seasonSel").value) params.set("season", $("seasonSel").value);
+  if ($("teamSel").value) params.set("team", $("teamSel").value);
+  if ($("monthSel").value) params.set("month", $("monthSel").value);
+  $("gameCount").textContent = "loading…";
+  fetch("/api/games?" + params.toString())
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      state.games = data.games;
+      $("gameCount").textContent = data.count + " games";
+      renderGameList();
+    })
+    .catch(function () { $("gameCount").textContent = "failed to load"; });
+}
+
+function renderGameList() {
+  var html = state.games.map(function (g) {
+    var sel = state.selected === g.game_id ? " selected" : "";
+    var dot = g.badge.key === "out-of-sample" ? "dot dot-out" : "dot dot-in";
+    return '<li class="game-item' + sel + '" data-gid="' + esc(g.game_id) + '">' +
+      '<span class="' + dot + '" title="' + esc(g.badge.label) + '"></span>' +
+      '<span class="gi-matchup">' + esc(g.matchup) + "</span>" +
+      '<span class="gi-score">' + fmt(g.away_score, 0) + "–" + fmt(g.home_score, 0) + "</span>" +
+      '<span class="gi-date">' + esc(g.date) + "</span>" +
+      "</li>";
+  }).join("");
+  $("gameList").innerHTML = html || '<li class="muted empty">No games match the filters.</li>';
+}
+
+$("gameList").addEventListener("click", function (ev) {
+  var li = ev.target.closest("li[data-gid]");
+  if (li) selectGame(li.getAttribute("data-gid"));
+});
+
+function selectGame(gid) {
+  state.selected = gid;
+  renderGameList();
+  $("placeholder").hidden = true;
+  $("card").hidden = false;
+  $("card").innerHTML = '<div class="loading">Predicting&hellip;</div>';
+  fetch("/api/predict/" + encodeURIComponent(gid))
+    .then(function (r) { return r.json(); })
+    .then(renderCard)
+    .catch(function () {
+      $("card").innerHTML = '<div class="loading">Prediction failed — is the server running?</div>';
+    });
+}
+
+/* ---------------- prediction card ---------------- */
+
+function rosterTable(side, label, rows) {
+  var body = (rows && rows.length)
+    ? rows.map(function (p) {
+        return "<tr><td>" + esc(p.name) + "</td><td>" + fmt(p.l10_mean, 2) +
+          "</td><td>" + fmt(p.l3_mean, 2) + "</td><td>" + p.n_games + "</td></tr>";
+      }).join("")
+    : '<tr><td colspan="4" class="muted">No prior impact history before this date.</td></tr>';
+  return '<div class="roster-col">' +
+    '<h4><span class="team-chip ' + side + '">' + esc(label) + "</span> roster impact</h4>" +
+    '<table class="data-table"><thead><tr><th>Player</th><th>L10 impact</th><th>L3 impact</th><th>GP</th></tr></thead>' +
+    "<tbody>" + body + "</tbody></table></div>";
+}
+
+function matchupSection(rows) {
+  if (!rows) {
+    return '<p class="muted small">Matchup box score not downloaded yet for this game ' +
+      "(the BoxScoreMatchupsV3 retrieval job is still running).</p>";
+  }
+  var body = rows.map(function (m) {
+    return "<tr><td>" + esc(m.offName) + "</td><td>" + esc(m.defName) + "</td><td>" +
+      fmt(m.partialPossessions, 1) + "</td><td>" + m.playerPoints + "</td><td>" +
+      m.matchupFieldGoalsMade + "/" + m.matchupFieldGoalsAttempted + "</td></tr>";
+  }).join("");
+  return '<table class="data-table"><thead><tr>' +
+    "<th>Scorer</th><th>Primary defender</th><th>Poss.</th><th>Pts vs</th><th>FG vs</th>" +
+    "</tr></thead><tbody>" + body + "</tbody></table>";
+}
+
+function renderCard(d) {
+  if (d.error) {
+    $("card").innerHTML = '<div class="loading">' + esc(d.error) + "</div>";
+    return;
+  }
+  var p = d.predicted, a = d.actual;
+  var homeProb = p.home_win_prob, awayProb = 1 - homeProb;
+  var conf = Math.max(homeProb, awayProb);
+  var verdict = a.correct_winner
+    ? '<span class="verdict ok">&#10003; correct pick</span>'
+    : '<span class="verdict bad">&#10007; wrong pick</span>';
+
+  var html =
+    '<div class="card-head">' +
+      '<div><h2 class="matchup-title">' + esc(d.away_team) +
+        ' <span class="at">@</span> ' + esc(d.home_team) + "</h2>" +
+      '<div class="muted">' + esc(d.date) + " &middot; " +
+        esc(d.season.replace("_", "-")) + " &middot; game " + esc(d.game_id) + "</div></div>" +
+      badgePill(d.badge, false) +
+    "</div>" +
+
+    '<div class="prob-block">' +
+      '<div class="prob-labels"><span>' + esc(d.away_team) + " " + fmt(awayProb * 100, 1) +
+        "%</span><span>" + esc(d.home_team) + " " + fmt(homeProb * 100, 1) + "%</span></div>" +
+      '<div class="prob-bar"><div class="prob-fill" style="width:' +
+        fmt(homeProb * 100, 1) + '%"></div></div>' +
+      '<div class="prob-caption">Model pick: <strong>' + esc(p.predicted_winner) +
+        "</strong> &middot; confidence " + fmt(conf * 100, 1) + "% " + verdict + "</div>" +
+    "</div>" +
+
+    '<div class="score-grid">' +
+      '<div class="score-cell"><div class="sc-label">Predicted score</div>' +
+        '<div class="sc-value">' + fmt(p.away_score, 1) + " &ndash; " + fmt(p.home_score, 1) + "</div>" +
+        '<div class="sc-sub">' + esc(d.away_team) + " / " + esc(d.home_team) + "</div></div>" +
+      '<div class="score-cell"><div class="sc-label">Actual score</div>' +
+        '<div class="sc-value">' + fmt(a.away_score, 0) + " &ndash; " + fmt(a.home_score, 0) + "</div>" +
+        '<div class="sc-sub">winner: ' + esc(a.winner) + "</div></div>" +
+      '<div class="score-cell"><div class="sc-label">Point diff (home&minus;away)</div>' +
+        '<div class="sc-value">' + fmt(p.point_diff, 1) + "</div>" +
+        '<div class="sc-sub">actual ' + fmt(a.point_diff, 0) + "</div></div>" +
+      '<div class="score-cell"><div class="sc-label">Total points</div>' +
+        '<div class="sc-value">' + fmt(p.total_score, 1) + "</div>" +
+        '<div class="sc-sub">actual ' + fmt(a.total_score, 0) + "</div></div>" +
+    "</div>" +
+
+    '<div class="explainer">' +
+      "<strong>How to read this:</strong> every feature is a rolling &ldquo;as-of&rdquo; stat " +
+      "(shift(1) &mdash; only games strictly before tip-off), so the model knows the team and " +
+      "roster's <em>current</em> 2025-26 form through its features even though the weights were " +
+      "fit on earlier games. The roster panel below is the forward-looking " +
+      "<code>get_current_roster_impact</code> signal: trailing impact per player computed " +
+      "strictly before this game's date." +
+    "</div>" +
+
+    '<div class="roster-grid">' +
+      rosterTable("home", d.home_team + " (home)", d.roster_impact.home) +
+      rosterTable("away", d.away_team + " (away)", d.roster_impact.away) +
+    "</div>" +
+
+    '<div class="matchup-block"><h3>Defender vs scorer assignments ' +
+      '<span class="muted small">(top by partial possessions)</span></h3>' +
+      matchupSection(d.matchup_data) +
+    "</div>";
+
+  $("card").innerHTML = html;
+}
+
+/* ---------------- wiring ---------------- */
+
+["seasonSel", "teamSel", "monthSel"].forEach(function (id) {
+  $(id).addEventListener("change", loadGames);
+});
+$("resetBtn").addEventListener("click", function () {
+  $("seasonSel").value = ""; $("teamSel").value = ""; $("monthSel").value = "";
+  loadGames();
+});
+
+loadMeta().then(loadGames);
+</script>
+</body>
+</html>

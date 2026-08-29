@@ -1,0 +1,40 @@
+{
+  "protocol": "chronological fit 80% / early-stop 10% / moments 10%; Poisson-objective rates, negative-binomial marginals, Gaussian copula",
+  "n_sims": 4000,
+  "n_test": 308,
+  "dispersion_r": {
+    "home": 248.65007480497786,
+    "away": 281.3887307099099
+  },
+  "residual_correlation": 0.37427130355406574,
+  "metrics": {
+    "home_win": {
+      "accuracy": 0.7694805194805194,
+      "auc": 0.8013519503546099,
+      "brier": 0.18199037723214284,
+      "log_loss": 0.5466952121187645
+    },
+    "mae": {
+      "point_diff": 11.579093344155844,
+      "total_score": 15.369661525974028,
+      "home_score": 9.876366071428572,
+      "away_score": 9.645441558441558
+    },
+    "coherence": {
+      "win_vs_margin_contradictions": 1,
+      "margin_identity_max_error": 1.3766765505351941e-14,
+      "total_identity_max_error": 2.842170943040401e-14
+    },
+    "spread": {
+      "sim_home_score_sd": 13.073719398310967,
+      "actual_home_score_sd": 13.648151905116856,
+      "sim_margin_sd": 14.411651319906456,
+      "actual_margin_sd": 17.66317775686888
+    },
+    "interval_coverage_80pct": {
+      "home_score": 0.8636363636363636,
+      "point_diff": 0.7857142857142857,
+      "total_score": 0.8603896103896104
+    }
+  }
+}

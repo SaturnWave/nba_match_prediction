@@ -274,12 +274,19 @@ def build_trailing_table(table):
 
 
 def add_defensive_tracking_features(master_df, data_dir=BASE_DATA_DIR,
-                                    game_ids_dir=GAME_IDS_DIR, use_cache=True):
+                                    game_ids_dir=GAME_IDS_DIR, use_cache=True,
+                                    seasons=None):
     """Add home/away/diff trailing defensive + tracking features per game.
 
     Adds the 24 columns in DT_FEATURE_COLS, NaN where a team has no prior
     history (callers fillna(0), matching how matchup features are handled).
     Returns master_df unchanged in shape when no source files exist.
+
+    `seasons` defaults to the seasons present in master_df, NOT to every
+    directory under nba_data. Scanning by directory would pull in a season the
+    frame does not cover — including one that is still being downloaded, whose
+    half-written files would produce trailing averages from partial history and
+    silently miss the on-disk cache.
     """
     df = master_df.copy()
     df = df.drop(columns=[c for c in DT_FEATURE_COLS if c in df.columns], errors="ignore")
@@ -288,8 +295,11 @@ def add_defensive_tracking_features(master_df, data_dir=BASE_DATA_DIR,
             df[c] = np.nan
         return df
 
+    if seasons is None and "season" in df.columns:
+        seasons = sorted(str(s) for s in df["season"].dropna().unique())
     trailing = build_trailing_table(
-        load_team_game_metrics(data_dir, game_ids_dir=game_ids_dir, use_cache=use_cache))
+        load_team_game_metrics(data_dir, seasons=seasons, game_ids_dir=game_ids_dir,
+                               use_cache=use_cache))
     if trailing.empty:
         for c in DT_FEATURE_COLS:
             df[c] = np.nan

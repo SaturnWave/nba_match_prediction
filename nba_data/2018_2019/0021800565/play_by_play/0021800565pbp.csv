@@ -1,0 +1,518 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021800565,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (10:41 PM EST),period,start,0,0,1
+0021800565,4,PT12M00.00S,1,1610612744,GSW,201142,Durant,K. Durant,0,0,0,,0,,,0,h,Jump Ball Durant vs. Capela: Tip to Thompson,Jump Ball,,1,0,2
+0021800565,7,PT11M46.00S,1,1610612744,GSW,1626172,Looney,K. Looney,20,17,3,Missed,1,,,0,h,MISS Looney 3' Layup,Missed Shot,Layup Shot,1,2,3
+0021800565,8,PT11M45.00S,1,1610612744,GSW,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,Looney REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,4
+0021800565,9,PT11M45.00S,1,1610612744,GSW,1626172,Looney,K. Looney,0,-6,1,Made,1,2,0,2,h,Looney 1' Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,5
+0021800565,10,PT11M22.00S,1,1610612745,HOU,200782,Tucker,P. Tucker,-222,-20,0,Missed,1,,,0,v,MISS Tucker 3PT Jump Shot,Missed Shot,Jump Shot,1,3,6
+0021800565,11,PT11M20.00S,1,1610612744,GSW,201142,Durant,K. Durant,0,0,0,,0,,,0,h,Durant REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,7
+0021800565,12,PT11M06.00S,1,1610612744,GSW,201142,Durant,K. Durant,0,0,0,,0,,,0,h,Durant Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,8
+0021800565,12,PT11M06.00S,1,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela STEAL (1 STL),,,1,0,9
+0021800565,14,PT11M01.00S,1,1610612745,HOU,203991,Capela,C. Capela,-3,13,1,Made,1,2,2,4,v,Capela 1' Dunk (2 PTS) (Harden 1 AST),Made Shot,Dunk Shot,1,2,10
+0021800565,17,PT10M42.00S,1,1610612744,GSW,201939,Curry,S. Curry,-225,62,0,Missed,1,,,0,h,MISS Curry 3PT Jump Shot,Missed Shot,Jump Shot,1,3,11
+0021800565,18,PT10M40.00S,1,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,12
+0021800565,19,PT10M38.00S,1,1610612744,GSW,203110,Green,D. Green,9,22,2,Made,1,4,2,6,h,Green 2' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,13
+0021800565,28,PT10M22.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,14
+0021800565,28,PT10M22.00S,1,1610612744,GSW,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,Looney STEAL (1 STL),,,1,0,15
+0021800565,22,PT10M17.00S,1,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,16
+0021800565,22,PT10M17.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden STEAL (1 STL),,,1,0,17
+0021800565,24,PT10M10.00S,1,1610612745,HOU,1627863,House Jr.,D. House Jr.,237,13,24,Made,1,4,5,9,v,House Jr. 24' 3PT Jump Shot (3 PTS) (Harden 2 AST),Made Shot,Jump Shot,1,3,18
+0021800565,26,PT09M51.00S,1,1610612744,GSW,202691,Thompson,K. Thompson,27,286,29,Missed,1,,,0,h,MISS Thompson 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,19
+0021800565,27,PT09M49.00S,1,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,20
+0021800565,30,PT09M41.00S,1,1610612745,HOU,201935,Harden,J. Harden,-2,79,8,Missed,1,,,0,v,MISS Harden 8' Running Finger Roll Layup,Missed Shot,Running Finger Roll Layup Shot,1,2,21
+0021800565,31,PT09M40.00S,1,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,22
+0021800565,32,PT09M36.00S,1,1610612744,GSW,1626172,Looney,K. Looney,-7,17,2,Made,1,6,5,11,h,Looney 2' Running Dunk (4 PTS) (Green 1 AST),Made Shot,Running Dunk Shot,1,2,23
+0021800565,34,PT09M36.00S,1,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,Tucker S.FOUL (P1.T1) (T.Brown),Foul,Shooting,1,0,24
+0021800565,36,PT09M36.00S,1,1610612744,GSW,1626172,Looney,K. Looney,0,0,0,,0,7,5,12,h,Looney Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,0,0,25
+0021800565,37,PT09M19.00S,1,1610612745,HOU,203991,Capela,C. Capela,23,50,6,Made,1,7,7,14,v,Capela 6' Jump Shot (4 PTS) (House Jr. 1 AST),Made Shot,Jump Shot,1,2,26
+0021800565,39,PT09M10.00S,1,1610612744,GSW,1626172,Looney,K. Looney,10,16,2,Made,1,9,7,16,h,Looney 2' Cutting Dunk Shot (7 PTS) (Green 2 AST),Made Shot,Cutting Dunk Shot,1,2,27
+0021800565,41,PT09M02.00S,1,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,Tucker Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,28
+0021800565,41,PT09M02.00S,1,1610612744,GSW,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,Thompson STEAL (1 STL),,,1,0,29
+0021800565,43,PT08M48.00S,1,1610612744,GSW,202691,Thompson,K. Thompson,2,13,1,Made,1,11,7,18,h,Thompson 1' Running Dunk (2 PTS) (Looney 1 AST),Made Shot,Running Dunk Shot,1,2,30
+0021800565,45,PT08M32.00S,1,1610612745,HOU,201935,Harden,J. Harden,-187,193,27,Missed,1,,,0,v,MISS Harden 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,31
+0021800565,45,PT08M32.00S,1,1610612744,GSW,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,Thompson BLOCK (1 BLK),,,1,3,32
+0021800565,47,PT08M30.00S,1,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,33
+0021800565,48,PT08M28.00S,1,1610612745,HOU,203991,Capela,C. Capela,9,24,3,Made,1,11,9,20,v,Capela 3' Layup (6 PTS),Made Shot,Layup Shot,1,2,34
+0021800565,49,PT08M22.00S,1,1610612744,GSW,201939,Curry,S. Curry,-47,291,29,Missed,1,,,0,h,MISS Curry 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,35
+0021800565,50,PT08M20.00S,1,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,36
+0021800565,51,PT08M03.00S,1,1610612744,GSW,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,Thompson S.FOUL (P1.T1) (T.Maddox),Foul,Shooting,1,0,37
+0021800565,53,PT08M03.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,MISS Harden Free Throw 1 of 3,Free Throw,Free Throw 1 of 3,0,0,38
+0021800565,54,PT08M03.00S,1,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Rebound,Rebound,Normal Rebound,0,0,39
+0021800565,55,PT08M03.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,11,10,21,v,Harden Free Throw 2 of 3 (1 PTS),Free Throw,Free Throw 2 of 3,0,0,40
+0021800565,56,PT08M03.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,11,11,22,v,Harden Free Throw 3 of 3 (2 PTS),Free Throw,Free Throw 3 of 3,0,0,41
+0021800565,57,PT07M47.00S,1,1610612744,GSW,201939,Curry,S. Curry,-57,265,27,Missed,1,,,0,h,MISS Curry 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,42
+0021800565,58,PT07M45.00S,1,1610612745,HOU,203085,Rivers,A. Rivers,0,0,0,,0,,,0,v,Rivers REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,43
+0021800565,59,PT07M40.00S,1,1610612745,HOU,203085,Rivers,A. Rivers,191,203,28,Missed,1,,,0,v,MISS Rivers 28' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,44
+0021800565,60,PT07M38.00S,1,1610612744,GSW,201142,Durant,K. Durant,0,0,0,,0,,,0,h,Durant REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,45
+0021800565,61,PT07M30.00S,1,1610612744,GSW,201142,Durant,K. Durant,108,106,15,Made,1,13,11,24,h,Durant 15' Jump Shot (2 PTS),Made Shot,Jump Shot,1,2,46
+0021800565,62,PT07M12.00S,1,1610612745,HOU,201935,Harden,J. Harden,-189,199,27,Made,1,13,14,27,v,Harden 27' 3PT Step Back Jump Shot (5 PTS),Made Shot,Step Back Jump shot,1,3,47
+0021800565,63,PT07M00.00S,1,1610612744,GSW,201142,Durant,K. Durant,177,222,28,Made,1,16,14,30,h,Durant 28' 3PT Running Pull-Up Jump Shot (5 PTS) (Curry 1 AST),Made Shot,Running Pull-Up Jump Shot,1,3,48
+0021800565,65,PT06M39.00S,1,1610612745,HOU,201935,Harden,J. Harden,-43,89,10,Missed,1,,,0,v,MISS Harden 10' Jump Shot,Missed Shot,Jump Shot,1,2,49
+0021800565,65,PT06M39.00S,1,1610612744,GSW,201142,Durant,K. Durant,0,0,0,,0,,,0,h,Durant BLOCK (1 BLK),,,1,2,50
+0021800565,67,PT06M37.00S,1,1610612744,GSW,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,Thompson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,51
+0021800565,68,PT06M37.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden Personal Take Foul (P1.T2) (J.Goble),Foul,Personal Take,1,0,52
+0021800565,70,PT06M37.00S,1,0,,1610612744,,,0,0,0,,0,,,0,h,WARRIORS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,53
+0021800565,71,PT06M37.00S,1,1610612745,HOU,1627863,House Jr.,D. House Jr.,0,0,0,,0,,,0,v,SUB: Green FOR House Jr.,Substitution,,0,0,54
+0021800565,73,PT06M33.00S,1,1610612744,GSW,201939,Curry,S. Curry,0,0,0,,0,,,0,h,Curry Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,55
+0021800565,73,PT06M33.00S,1,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela STEAL (2 STL),,,1,0,56
+0021800565,75,PT06M25.00S,1,1610612745,HOU,203991,Capela,C. Capela,56,37,7,Missed,1,,,0,v,MISS Capela 7' Layup,Missed Shot,Layup Shot,1,2,57
+0021800565,76,PT06M24.00S,1,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,58
+0021800565,77,PT06M18.00S,1,1610612745,HOU,101123,Green,G. Green,206,199,29,Missed,1,,,0,v,MISS Green 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,59
+0021800565,78,PT06M16.00S,1,1610612744,GSW,201939,Curry,S. Curry,0,0,0,,0,,,0,h,Curry REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,60
+0021800565,79,PT06M07.00S,1,1610612744,GSW,202691,Thompson,K. Thompson,20,193,19,Made,1,18,14,32,h,Thompson 19' Turnaround Jump Shot (4 PTS) (Durant 1 AST),Made Shot,Turnaround Jump Shot,1,2,61
+0021800565,81,PT05M43.00S,1,1610612745,HOU,201935,Harden,J. Harden,149,221,27,Missed,1,,,0,v,MISS Harden 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,62
+0021800565,82,PT05M41.00S,1,1610612744,GSW,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,Thompson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,63
+0021800565,83,PT05M35.00S,1,1610612744,GSW,201939,Curry,S. Curry,0,0,0,,0,,,0,h,Curry Bad Pass Turnover (P2.T4),Turnover,Bad Pass,1,0,64
+0021800565,83,PT05M35.00S,1,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,v,Green STEAL (1 STL),,,1,0,65
+0021800565,85,PT05M17.00S,1,1610612745,HOU,203991,Capela,C. Capela,-14,24,3,Missed,1,,,0,v,MISS Capela 3' Layup,Missed Shot,Layup Shot,1,2,66
+0021800565,85,PT05M17.00S,1,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green BLOCK (1 BLK),,,1,2,67
+0021800565,87,PT05M16.00S,1,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Rebound,Rebound,Unknown,0,0,68
+0021800565,89,PT05M16.00S,1,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,SUB: Iguodala FOR Green,Substitution,,0,0,69
+0021800565,91,PT05M13.00S,1,1610612745,HOU,201935,Harden,J. Harden,-231,13,0,Missed,1,,,0,v,MISS Harden 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,70
+0021800565,92,PT05M11.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,71
+0021800565,93,PT05M06.00S,1,1610612744,GSW,201939,Curry,S. Curry,0,0,0,,0,,,0,h,Curry P.FOUL (P1.T2) (J.Goble),Foul,Personal,1,0,72
+0021800565,95,PT05M06.00S,1,1610612745,HOU,203085,Rivers,A. Rivers,0,0,0,,0,,,0,v,SUB: Ennis III FOR Rivers,Substitution,,0,0,73
+0021800565,97,PT04M55.00S,1,1610612745,HOU,203991,Capela,C. Capela,-134,-8,13,Missed,1,,,0,v,MISS Capela 13' Jump Shot,Missed Shot,Jump Shot,1,2,74
+0021800565,98,PT04M53.00S,1,1610612745,HOU,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,Ennis III REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,75
+0021800565,99,PT04M53.00S,1,1610612744,GSW,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,Thompson S.FOUL (P2.T3) (T.Maddox),Foul,Shooting,1,0,76
+0021800565,101,PT04M53.00S,1,1610612745,HOU,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,MISS Ennis III Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,77
+0021800565,102,PT04M53.00S,1,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Rebound,Rebound,Normal Rebound,0,0,78
+0021800565,103,PT04M53.00S,1,1610612745,HOU,203516,Ennis III,J. Ennis III,0,0,0,,0,18,15,33,v,Ennis III Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,0,0,79
+0021800565,104,PT04M48.00S,1,1610612744,GSW,201939,Curry,S. Curry,3,37,4,Made,1,20,15,35,h,Curry 4' Running Finger Roll Layup (2 PTS),Made Shot,Running Finger Roll Layup Shot,1,2,80
+0021800565,105,PT04M48.00S,1,1610612745,HOU,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,Ennis III S.FOUL (P1.T3) (T.Maddox),Foul,Shooting,1,0,81
+0021800565,107,PT04M48.00S,1,1610612744,GSW,201939,Curry,S. Curry,0,0,0,,0,,,0,h,MISS Curry Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,0,0,82
+0021800565,108,PT04M47.00S,1,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,83
+0021800565,109,PT04M33.00S,1,1610612745,HOU,201935,Harden,J. Harden,-114,241,27,Made,1,20,18,38,v,Harden 27' 3PT Jump Shot (8 PTS) (Green 1 AST),Made Shot,Jump Shot,1,3,84
+0021800565,111,PT04M19.00S,1,1610612744,GSW,1626172,Looney,K. Looney,10,29,3,Missed,1,,,0,h,MISS Looney 3' Layup,Missed Shot,Layup Shot,1,2,85
+0021800565,112,PT04M17.00S,1,1610612744,GSW,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,Looney REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,86
+0021800565,113,PT04M15.00S,1,1610612744,GSW,1626172,Looney,K. Looney,2,18,2,Made,1,22,18,40,h,Looney 2' Dunk (9 PTS),Made Shot,Dunk Shot,1,2,87
+0021800565,114,PT04M09.00S,1,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,88
+0021800565,115,PT04M09.00S,1,1610612744,GSW,201939,Curry,S. Curry,0,0,0,,0,,,0,h,SUB: Cook FOR Curry,Substitution,,0,0,89
+0021800565,116,PT04M09.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,SUB: Rivers FOR Harden,Substitution,,0,0,90
+0021800565,117,PT04M09.00S,1,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,v,SUB: Knight FOR Green,Substitution,,0,0,91
+0021800565,121,PT03M55.00S,1,1610612745,HOU,203085,Rivers,A. Rivers,23,47,5,Missed,1,,,0,v,MISS Rivers 5' Layup,Missed Shot,Layup Shot,1,2,92
+0021800565,122,PT03M54.00S,1,1610612744,GSW,1626188,Cook,Q. Cook,0,0,0,,0,,,0,h,Cook REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,93
+0021800565,123,PT03M39.00S,1,1610612744,GSW,201142,Durant,K. Durant,-133,53,14,Missed,1,,,0,h,MISS Durant 14' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,94
+0021800565,124,PT03M38.00S,1,0,,1610612744,,,0,0,0,,0,,,0,h,WARRIORS Rebound,Rebound,Unknown,0,0,95
+0021800565,125,PT03M38.00S,1,1610612745,HOU,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,Ennis III L.B.FOUL (P2.T4) (T.Maddox),Foul,Loose Ball,1,0,96
+0021800565,127,PT03M25.00S,1,1610612744,GSW,202691,Thompson,K. Thompson,-20,18,3,Made,1,24,18,42,h,Thompson 3' Driving Finger Roll Layup (6 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,97
+0021800565,128,PT03M02.00S,1,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela Lost Ball Turnover (P1.T3),Turnover,Lost Ball,1,0,98
+0021800565,128,PT03M02.00S,1,1610612744,GSW,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,Thompson STEAL (2 STL),,,1,0,99
+0021800565,130,PT02M54.00S,1,1610612744,GSW,202691,Thompson,K. Thompson,-3,20,2,Made,1,26,18,44,h,Thompson 2' Running Layup (8 PTS),Made Shot,Running Layup Shot,1,2,100
+0021800565,131,PT02M37.00S,1,1610612744,GSW,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,Looney S.FOUL (P1.T4) (T.Maddox),Foul,Shooting,1,0,101
+0021800565,133,PT02M37.00S,1,1610612745,HOU,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,MISS Ennis III Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,102
+0021800565,134,PT02M37.00S,1,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Rebound,Rebound,Normal Rebound,0,0,103
+0021800565,135,PT02M37.00S,1,1610612744,GSW,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,SUB: Jerebko FOR Looney,Substitution,,0,0,104
+0021800565,136,PT02M37.00S,1,1610612744,GSW,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,SUB: Green FOR Thompson,Substitution,,0,0,105
+0021800565,137,PT02M37.00S,1,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,SUB: Clark FOR Capela,Substitution,,0,0,106
+0021800565,138,PT02M37.00S,1,1610612745,HOU,203085,Rivers,A. Rivers,0,0,0,,0,,,0,v,SUB: Harden FOR Rivers,Substitution,,0,0,107
+0021800565,143,PT02M37.00S,1,1610612745,HOU,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,MISS Ennis III Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,108
+0021800565,144,PT02M36.00S,1,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,109
+0021800565,145,PT02M24.00S,1,1610612745,HOU,202688,Knight,B. Knight,0,0,0,,0,,,0,v,Knight S.FOUL (P1.PN) (T.Maddox),Foul,Shooting,1,0,110
+0021800565,147,PT02M24.00S,1,1610612744,GSW,201142,Durant,K. Durant,0,0,0,,0,27,18,45,h,Durant Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,0,0,111
+0021800565,148,PT02M24.00S,1,1610612745,HOU,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,SUB: Green FOR Ennis III,Substitution,,0,0,112
+0021800565,150,PT02M24.00S,1,1610612744,GSW,201142,Durant,K. Durant,0,0,0,,0,28,18,46,h,Durant Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,0,0,113
+0021800565,151,PT02M09.00S,1,1610612744,GSW,201973,Jerebko,J. Jerebko,0,0,0,,0,,,0,h,Jerebko P.FOUL (P1.PN) (T.Brown),Foul,Personal,1,0,114
+0021800565,153,PT02M09.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,28,19,47,v,Harden Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,0,0,115
+0021800565,154,PT02M09.00S,1,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,SUB: House Jr. FOR Tucker,Substitution,,0,0,116
+0021800565,156,PT02M09.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,28,20,48,v,Harden Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,0,0,117
+0021800565,157,PT02M02.00S,1,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green Out of Bounds - Bad Pass Turnover Turnover (P2.T5),Turnover,Out of Bounds - Bad Pass Turnover,1,0,118
+0021800565,158,PT01M44.00S,1,1610612745,HOU,1627863,House Jr.,D. House Jr.,-14,35,4,Made,1,28,22,50,v,House Jr. 4' Driving Layup (5 PTS) (Clark 1 AST),Made Shot,Driving Layup Shot,1,2,119
+0021800565,160,PT01M24.00S,1,1610612744,GSW,201142,Durant,K. Durant,-6,11,1,Made,1,30,22,52,h,Durant 1' Driving Layup (9 PTS) (Cook 1 AST),Made Shot,Driving Layup Shot,1,2,120
+0021800565,162,PT01M00.00S,1,1610612745,HOU,201935,Harden,J. Harden,-182,180,26,Missed,1,,,0,v,MISS Harden 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,121
+0021800565,163,PT00M58.50S,1,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,122
+0021800565,165,PT00M41.70S,1,1610612744,GSW,1626188,Cook,Q. Cook,15,31,3,Made,1,32,22,54,h,Cook 3' Layup (2 PTS),Made Shot,Layup Shot,1,2,123
+0021800565,166,PT00M22.10S,1,1610612745,HOU,1629109,Clark,G. Clark,159,252,30,Missed,1,,,0,v,MISS Clark 30' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,124
+0021800565,167,PT00M20.40S,1,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,125
+0021800565,168,PT00M04.30S,1,1610612744,GSW,201142,Durant,K. Durant,14,16,2,Made,1,34,22,56,h,Durant 2' Driving Finger Roll Layup (11 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,126
+0021800565,169,PT00M00.30S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden Lost Ball Turnover (P2.T4),Turnover,Lost Ball,1,0,127
+0021800565,169,PT00M00.30S,1,1610612744,GSW,1626188,Cook,Q. Cook,0,0,0,,0,,,0,h,Cook STEAL (1 STL),,,1,0,128
+0021800565,171,PT00M00.00S,1,0,,0,,,0,0,0,,0,34,22,56,,End of 1st Period (11:08 PM EST),period,end,1,0,129
+0021800565,180,PT12M00.00S,2,0,,0,,,0,0,0,,0,34,22,56,,Start of 2nd Period (11:11 PM EST),period,start,0,0,130
+0021800565,181,PT11M44.00S,2,1610612745,HOU,101123,Green,G. Green,11,95,10,Made,1,34,24,58,v,Green 10' Pullup Jump Shot (2 PTS) (Rivers 1 AST),Made Shot,Pullup Jump shot,0,2,131
+0021800565,183,PT11M25.00S,2,1610612744,GSW,203110,Green,D. Green,-153,218,27,Missed,1,,,0,h,MISS Green 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,132
+0021800565,184,PT11M22.00S,2,1610612745,HOU,203085,Rivers,A. Rivers,0,0,0,,0,,,0,v,Rivers REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,133
+0021800565,185,PT11M14.00S,2,1610612745,HOU,202688,Knight,B. Knight,-167,195,26,Missed,1,,,0,v,MISS Knight 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,134
+0021800565,186,PT11M08.00S,2,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,135
+0021800565,187,PT11M05.00S,2,1610612744,GSW,201939,Curry,S. Curry,0,0,0,,0,,,0,h,Curry Out of Bounds Lost Ball Turnover (P3.T6),Turnover,Out of Bounds Lost Ball Turnover,1,0,136
+0021800565,188,PT10M53.00S,2,1610612745,HOU,202688,Knight,B. Knight,23,42,5,Made,1,34,26,60,v,Knight 5' Running Jump Shot (2 PTS) (Capela 1 AST),Made Shot,Running Jump Shot,1,2,137
+0021800565,190,PT10M44.00S,2,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green Bad Pass Turnover (P3.T7),Turnover,Bad Pass,1,0,138
+0021800565,190,PT10M44.00S,2,1610612745,HOU,202688,Knight,B. Knight,0,0,0,,0,,,0,v,Knight STEAL (1 STL),,,1,0,139
+0021800565,192,PT10M39.00S,2,1610612745,HOU,101123,Green,G. Green,215,142,26,Missed,1,,,0,v,MISS Green 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,140
+0021800565,193,PT10M36.00S,2,1610612744,GSW,2738,Iguodala,A. Iguodala,0,0,0,,0,,,0,h,Iguodala REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,141
+0021800565,194,PT10M35.00S,2,1610612744,GSW,201939,Curry,S. Curry,0,0,0,,0,,,0,h,Curry Lost Ball Turnover (P4.T8),Turnover,Lost Ball,1,0,142
+0021800565,194,PT10M35.00S,2,1610612745,HOU,203085,Rivers,A. Rivers,0,0,0,,0,,,0,v,Rivers STEAL (1 STL),,,1,0,143
+0021800565,196,PT10M28.00S,2,1610612745,HOU,1627863,House Jr.,D. House Jr.,-162,206,26,Made,1,34,29,63,v,House Jr. 26' 3PT Jump Shot (8 PTS) (Rivers 2 AST),Made Shot,Jump Shot,1,3,144
+0021800565,198,PT10M02.00S,2,1610612744,GSW,2733,Livingston,S. Livingston,-20,117,12,Made,1,36,29,65,h,Livingston 12' Turnaround Jump Shot (2 PTS) (Curry 2 AST),Made Shot,Turnaround Jump Shot,1,2,145
+0021800565,200,PT09M42.00S,2,1610612745,HOU,203991,Capela,C. Capela,25,45,5,Made,1,36,31,67,v,Capela 5' Hook Shot (8 PTS),Made Shot,Hook Shot,1,2,146
+0021800565,202,PT09M36.00S,2,1610612744,GSW,201939,Curry,S. Curry,-219,143,26,Made,1,39,31,70,h,Curry 26' 3PT Step Back Jump Shot (5 PTS),Made Shot,Step Back Jump shot,1,3,147
+0021800565,203,PT09M16.00S,2,1610612745,HOU,101123,Green,G. Green,-192,176,26,Missed,1,,,0,v,MISS Green 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,148
+0021800565,204,PT09M14.00S,2,1610612744,GSW,2738,Iguodala,A. Iguodala,0,0,0,,0,,,0,h,Iguodala REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,149
+0021800565,206,PT09M11.00S,2,1610612744,GSW,201973,Jerebko,J. Jerebko,0,0,0,,0,,,0,h,SUB: McKinnie FOR Jerebko,Substitution,,0,0,150
+0021800565,208,PT09M01.00S,2,1610612744,GSW,201939,Curry,S. Curry,9,21,2,Made,1,41,31,72,h,Curry 2' Cutting Layup Shot (7 PTS) (Green 3 AST),Made Shot,Cutting Layup Shot,1,2,151
+0021800565,210,PT09M01.00S,2,1610612745,HOU,1627863,House Jr.,D. House Jr.,0,0,0,,0,,,0,v,House Jr. S.FOUL (P1.T1) (T.Brown),Foul,Shooting,1,0,152
+0021800565,212,PT09M01.00S,2,1610612744,GSW,201939,Curry,S. Curry,0,0,0,,0,42,31,73,h,Curry Free Throw 1 of 1 (8 PTS),Free Throw,Free Throw 1 of 1,0,0,153
+0021800565,213,PT08M49.00S,2,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green P.FOUL (P1.T1) (J.Goble),Foul,Personal,1,0,154
+0021800565,215,PT08M49.00S,2,1610612744,GSW,2738,Iguodala,A. Iguodala,0,0,0,,0,,,0,h,SUB: Thompson FOR Iguodala,Substitution,,0,0,155
+0021800565,216,PT08M49.00S,2,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,SUB: Looney FOR Green,Substitution,,0,0,156
+0021800565,219,PT08M40.00S,2,1610612745,HOU,203085,Rivers,A. Rivers,11,27,3,Missed,1,,,0,v,MISS Rivers 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,157
+0021800565,220,PT08M39.00S,2,1610612744,GSW,1628035,McKinnie,A. McKinnie,0,0,0,,0,,,0,h,McKinnie REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,158
+0021800565,221,PT08M33.00S,2,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,v,Green S.FOUL (P1.T2) (J.Goble),Foul,Shooting,1,0,159
+0021800565,223,PT08M33.00S,2,1610612744,GSW,2733,Livingston,S. Livingston,0,0,0,,0,43,31,74,h,Livingston Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,160
+0021800565,224,PT08M33.00S,2,1610612745,HOU,202688,Knight,B. Knight,0,0,0,,0,,,0,v,SUB: Harden FOR Knight,Substitution,,0,0,161
+0021800565,226,PT08M33.00S,2,1610612744,GSW,2733,Livingston,S. Livingston,0,0,0,,0,44,31,75,h,Livingston Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,162
+0021800565,227,PT08M29.00S,2,1610612744,GSW,2733,Livingston,S. Livingston,0,0,0,,0,,,0,h,Livingston S.FOUL (P1.T2) (J.Goble),Foul,Shooting,1,0,163
+0021800565,229,PT08M29.00S,2,1610612745,HOU,1627863,House Jr.,D. House Jr.,0,0,0,,0,44,32,76,v,House Jr. Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,0,0,164
+0021800565,230,PT08M29.00S,2,1610612745,HOU,1627863,House Jr.,D. House Jr.,0,0,0,,0,44,33,77,v,House Jr. Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,0,0,165
+0021800565,231,PT08M19.00S,2,1610612744,GSW,201939,Curry,S. Curry,190,180,26,Missed,1,,,0,h,MISS Curry 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,166
+0021800565,232,PT08M17.00S,2,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,167
+0021800565,233,PT08M09.00S,2,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden Out of Bounds Lost Ball Turnover (P3.T5),Turnover,Out of Bounds Lost Ball Turnover,1,0,168
+0021800565,234,PT07M57.00S,2,1610612744,GSW,1628035,McKinnie,A. McKinnie,-198,172,26,Made,1,47,33,80,h,McKinnie 26' 3PT Jump Shot (3 PTS) (Livingston 1 AST),Made Shot,Jump Shot,1,3,169
+0021800565,236,PT07M43.00S,2,1610612745,HOU,101123,Green,G. Green,-4,10,1,Made,1,47,35,82,v,Green 1' Alley Oop Layup (4 PTS) (Harden 3 AST),Made Shot,Alley Oop Layup shot,1,2,170
+0021800565,238,PT07M33.00S,2,1610612744,GSW,202691,Thompson,K. Thompson,206,39,21,Made,1,49,35,84,h,Thompson 21' Pullup Jump Shot (10 PTS) (Curry 3 AST),Made Shot,Pullup Jump shot,1,2,171
+0021800565,240,PT07M19.00S,2,1610612745,HOU,201935,Harden,J. Harden,3,79,8,Made,1,49,37,86,v,Harden 8' Driving Floating Jump Shot (12 PTS),Made Shot,Driving Floating Jump Shot,1,2,172
+0021800565,241,PT07M17.00S,2,1610612744,GSW,201939,Curry,S. Curry,0,0,0,,0,,,0,h,Curry Out of Bounds - Bad Pass Turnover Turnover (P5.T9),Turnover,Out of Bounds - Bad Pass Turnover,1,0,173
+0021800565,242,PT07M03.00S,2,1610612745,HOU,203085,Rivers,A. Rivers,19,92,9,Made,1,49,39,88,v,Rivers 9' Driving Hook Shot (2 PTS),Made Shot,Driving Hook Shot,1,2,174
+0021800565,243,PT06M43.00S,2,1610612744,GSW,1628035,McKinnie,A. McKinnie,6,12,1,Made,1,51,39,90,h,McKinnie 1' Driving Layup (5 PTS) (Looney 2 AST),Made Shot,Driving Layup Shot,1,2,175
+0021800565,245,PT06M28.00S,2,1610612745,HOU,203085,Rivers,A. Rivers,231,48,24,Missed,1,,,0,v,MISS Rivers 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,176
+0021800565,246,PT06M26.00S,2,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,177
+0021800565,247,PT06M24.00S,2,1610612744,GSW,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,Looney P.FOUL (P2.T3) (T.Brown),Foul,Personal,1,0,178
+0021800565,249,PT06M24.00S,2,0,,1610612744,,,0,0,0,,0,,,0,h,WARRIORS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,179
+0021800565,250,PT06M24.00S,2,1610612744,GSW,201939,Curry,S. Curry,0,0,0,,0,,,0,h,SUB: Durant FOR Curry,Substitution,,0,0,180
+0021800565,252,PT06M17.00S,2,1610612745,HOU,203991,Capela,C. Capela,-10,13,2,Made,1,51,41,92,v,Capela 2' Cutting Dunk Shot (10 PTS) (House Jr. 2 AST),Made Shot,Cutting Dunk Shot,1,2,181
+0021800565,254,PT06M02.00S,2,1610612744,GSW,1626172,Looney,K. Looney,2,11,1,Made,1,53,41,94,h,Looney 1' Cutting Layup Shot (11 PTS) (Thompson 1 AST),Made Shot,Cutting Layup Shot,1,2,182
+0021800565,256,PT06M02.00S,2,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,v,Green S.FOUL (P2.T3) (T.Brown),Foul,Shooting,1,0,183
+0021800565,258,PT06M02.00S,2,1610612744,GSW,1626172,Looney,K. Looney,0,0,0,,0,54,41,95,h,Looney Free Throw 1 of 1 (12 PTS),Free Throw,Free Throw 1 of 1,0,0,184
+0021800565,259,PT05M45.00S,2,1610612745,HOU,201935,Harden,J. Harden,-182,203,27,Missed,1,,,0,v,MISS Harden 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,185
+0021800565,260,PT05M43.00S,2,1610612744,GSW,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,Thompson REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,186
+0021800565,261,PT05M31.00S,2,1610612744,GSW,2733,Livingston,S. Livingston,15,94,10,Missed,1,,,0,h,MISS Livingston 10' Jump Shot,Missed Shot,Jump Shot,1,2,187
+0021800565,262,PT05M30.00S,2,1610612744,GSW,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,Looney REBOUND (Off:3 Def:0),Rebound,Unknown,1,0,188
+0021800565,263,PT05M26.00S,2,1610612744,GSW,202691,Thompson,K. Thompson,201,163,26,Missed,1,,,0,h,MISS Thompson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,189
+0021800565,264,PT05M24.00S,2,1610612745,HOU,203085,Rivers,A. Rivers,0,0,0,,0,,,0,v,Rivers REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,190
+0021800565,265,PT05M15.00S,2,1610612745,HOU,203085,Rivers,A. Rivers,-226,-8,0,Made,1,54,44,98,v,Rivers 3PT Jump Shot (5 PTS) (Green 2 AST),Made Shot,Jump Shot,1,3,191
+0021800565,267,PT05M01.00S,2,1610612744,GSW,202691,Thompson,K. Thompson,-7,102,10,Missed,1,,,0,h,MISS Thompson 10' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,192
+0021800565,268,PT05M00.00S,2,1610612744,GSW,1628035,McKinnie,A. McKinnie,0,0,0,,0,,,0,h,McKinnie REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,193
+0021800565,269,PT04M51.00S,2,1610612744,GSW,202691,Thompson,K. Thompson,-230,55,24,Made,1,57,44,101,h,Thompson 24' 3PT Jump Shot (13 PTS) (McKinnie 1 AST),Made Shot,Jump Shot,1,3,194
+0021800565,271,PT04M42.00S,2,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden Lost Ball Turnover (P4.T6),Turnover,Lost Ball,1,0,195
+0021800565,271,PT04M42.00S,2,1610612744,GSW,2733,Livingston,S. Livingston,0,0,0,,0,,,0,h,Livingston STEAL (1 STL),,,1,0,196
+0021800565,273,PT04M37.00S,2,1610612744,GSW,201142,Durant,K. Durant,-192,209,28,Missed,1,,,0,h,MISS Durant 28' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,197
+0021800565,274,PT04M35.00S,2,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,198
+0021800565,275,PT04M27.00S,2,1610612745,HOU,203991,Capela,C. Capela,-2,13,1,Made,1,57,46,103,v,Capela 1' Dunk (12 PTS) (Harden 4 AST),Made Shot,Dunk Shot,1,2,199
+0021800565,278,PT04M15.00S,2,1610612744,GSW,201142,Durant,K. Durant,-29,115,12,Missed,1,,,0,h,MISS Durant 12' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,200
+0021800565,279,PT04M14.00S,2,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,201
+0021800565,280,PT04M07.00S,2,1610612745,HOU,203991,Capela,C. Capela,5,0,1,Made,1,57,48,105,v,Capela 1' Dunk (14 PTS) (Harden 5 AST),Made Shot,Dunk Shot,1,2,202
+0021800565,282,PT03M56.00S,2,1610612744,GSW,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,Thompson Traveling Turnover (P1.T10),Turnover,Traveling,1,0,203
+0021800565,283,PT03M56.00S,2,1610612744,GSW,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,SUB: Curry FOR Looney,Substitution,,0,0,204
+0021800565,284,PT03M56.00S,2,1610612744,GSW,1628035,McKinnie,A. McKinnie,0,0,0,,0,,,0,h,SUB: Green FOR McKinnie,Substitution,,0,0,205
+0021800565,285,PT03M56.00S,2,1610612744,GSW,2733,Livingston,S. Livingston,0,0,0,,0,,,0,h,SUB: Iguodala FOR Livingston,Substitution,,0,0,206
+0021800565,286,PT03M56.00S,2,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,SUB: Tucker FOR Capela,Substitution,,0,0,207
+0021800565,291,PT03M39.00S,2,1610612745,HOU,1627863,House Jr.,D. House Jr.,223,21,0,Missed,1,,,0,v,MISS House Jr. 3PT Jump Shot,Missed Shot,Jump Shot,1,3,208
+0021800565,292,PT03M37.00S,2,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,209
+0021800565,293,PT03M22.00S,2,1610612744,GSW,2738,Iguodala,A. Iguodala,0,0,0,,0,,,0,h,Iguodala Bad Pass Turnover (P1.T11),Turnover,Bad Pass,1,0,210
+0021800565,293,PT03M22.00S,2,1610612745,HOU,1627863,House Jr.,D. House Jr.,0,0,0,,0,,,0,v,House Jr. STEAL (1 STL),,,1,0,211
+0021800565,295,PT03M19.00S,2,1610612745,HOU,203085,Rivers,A. Rivers,-172,206,27,Missed,1,,,0,v,MISS Rivers 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,212
+0021800565,296,PT03M17.00S,2,1610612744,GSW,201142,Durant,K. Durant,0,0,0,,0,,,0,h,Durant REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,213
+0021800565,297,PT03M12.00S,2,1610612744,GSW,202691,Thompson,K. Thompson,232,48,24,Made,1,60,48,108,h,Thompson 24' 3PT Jump Shot (16 PTS) (Curry 4 AST),Made Shot,Jump Shot,1,3,214
+0021800565,299,PT02M48.00S,2,1610612745,HOU,101123,Green,G. Green,234,4,0,Missed,1,,,0,v,MISS Green 3PT Jump Shot,Missed Shot,Jump Shot,1,3,215
+0021800565,300,PT02M46.00S,2,1610612744,GSW,201939,Curry,S. Curry,0,0,0,,0,,,0,h,Curry REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,216
+0021800565,301,PT02M30.00S,2,1610612744,GSW,202691,Thompson,K. Thompson,225,73,24,Made,1,63,48,111,h,Thompson 24' 3PT Jump Shot (19 PTS) (Green 4 AST),Made Shot,Jump Shot,1,3,217
+0021800565,303,PT02M28.00S,2,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,218
+0021800565,304,PT02M28.00S,2,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,v,SUB: Capela FOR Green,Substitution,,0,0,219
+0021800565,306,PT02M14.00S,2,1610612745,HOU,201935,Harden,J. Harden,-20,48,5,Missed,1,,,0,v,MISS Harden 5' Layup,Missed Shot,Layup Shot,1,2,220
+0021800565,306,PT02M14.00S,2,1610612744,GSW,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,Thompson BLOCK (2 BLK),,,1,2,221
+0021800565,307,PT02M12.00S,2,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,222
+0021800565,308,PT02M10.00S,2,1610612744,GSW,201939,Curry,S. Curry,-24,20,3,Made,1,65,48,113,h,Curry 3' Running Finger Roll Layup (10 PTS) (Green 5 AST),Made Shot,Running Finger Roll Layup Shot,1,2,223
+0021800565,309,PT02M10.00S,2,1610612745,HOU,1627863,House Jr.,D. House Jr.,0,0,0,,0,,,0,v,House Jr. Violation:Defensive Goaltending (J.Goble),Violation,Defensive Goaltending,1,0,224
+0021800565,311,PT01M49.00S,2,1610612745,HOU,203085,Rivers,A. Rivers,100,70,12,Missed,1,,,0,v,MISS Rivers 12' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,225
+0021800565,312,PT01M48.00S,2,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,226
+0021800565,313,PT01M48.00S,2,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green S.FOUL (P2.T4) (T.Brown),Foul,Shooting,1,0,227
+0021800565,315,PT01M48.00S,2,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,65,49,114,v,Capela Free Throw 1 of 2 (15 PTS),Free Throw,Free Throw 1 of 2,0,0,228
+0021800565,316,PT01M48.00S,2,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,65,50,115,v,Capela Free Throw 2 of 2 (16 PTS),Free Throw,Free Throw 2 of 2,0,0,229
+0021800565,317,PT01M31.00S,2,1610612744,GSW,202691,Thompson,K. Thompson,101,78,13,Missed,1,,,0,h,MISS Thompson 13' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,230
+0021800565,318,PT01M30.00S,2,1610612745,HOU,1627863,House Jr.,D. House Jr.,0,0,0,,0,,,0,v,House Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,231
+0021800565,341,PT01M30.00S,2,1610612745,HOU,1627863,House Jr.,D. House Jr.,0,0,0,,0,,,0,v,House Jr. Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,232
+0021800565,341,PT01M30.00S,2,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green STEAL (1 STL),,,1,0,233
+0021800565,319,PT01M24.00S,2,1610612744,GSW,202691,Thompson,K. Thompson,4,21,2,Missed,1,,,0,h,MISS Thompson 2' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,234
+0021800565,320,PT01M23.00S,2,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,235
+0021800565,321,PT01M11.00S,2,1610612745,HOU,201935,Harden,J. Harden,-168,215,27,Made,1,65,53,118,v,Harden 27' 3PT Step Back Jump Shot (15 PTS),Made Shot,Step Back Jump shot,1,3,236
+0021800565,327,PT00M59.20S,2,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden P.FOUL (P2.T4) (T.Brown),Foul,Personal,1,0,237
+0021800565,329,PT00M52.70S,2,1610612744,GSW,201939,Curry,S. Curry,-120,290,31,Made,1,68,53,121,h,Curry 31' 3PT Jump Shot (13 PTS) (Iguodala 1 AST),Made Shot,Jump Shot,0,3,238
+0021800565,331,PT00M32.20S,2,1610612745,HOU,201935,Harden,J. Harden,-117,231,26,Missed,1,,,0,v,MISS Harden 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,239
+0021800565,332,PT00M30.80S,2,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,240
+0021800565,333,PT00M24.90S,2,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green Bad Pass Turnover (P4.T12),Turnover,Bad Pass,1,0,241
+0021800565,333,PT00M24.90S,2,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,Tucker STEAL (1 STL),,,1,0,242
+0021800565,335,PT00M05.00S,2,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden Bad Pass Turnover (P5.T8),Turnover,Bad Pass,1,0,243
+0021800565,335,PT00M05.00S,2,1610612744,GSW,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,Thompson STEAL (3 STL),,,1,0,244
+0021800565,337,PT00M00.80S,2,1610612744,GSW,201142,Durant,K. Durant,0,28,3,Made,1,70,53,123,h,Durant 3' Running Dunk (13 PTS) (Thompson 2 AST),Made Shot,Running Dunk Shot,1,2,245
+0021800565,339,PT00M00.00S,2,0,,0,,,0,0,0,,0,70,53,123,,End of 2nd Period (11:37 PM EST),period,end,1,0,246
+0021800565,345,PT12M00.00S,3,0,,0,,,0,0,0,,0,70,53,123,,Start of 3rd Period (11:54 PM EST),period,start,0,0,247
+0021800565,346,PT11M43.00S,3,1610612745,HOU,203991,Capela,C. Capela,15,31,3,Missed,1,,,0,v,MISS Capela 3' Alley Oop Layup,Missed Shot,Alley Oop Layup shot,1,2,248
+0021800565,347,PT11M42.00S,3,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,249
+0021800565,348,PT11M34.00S,3,1610612745,HOU,201935,Harden,J. Harden,117,277,30,Missed,1,,,0,v,MISS Harden 30' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,250
+0021800565,349,PT11M32.00S,3,1610612744,GSW,201142,Durant,K. Durant,0,0,0,,0,,,0,h,Durant REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,251
+0021800565,350,PT11M21.00S,3,1610612744,GSW,203110,Green,D. Green,32,75,8,Missed,1,,,0,h,MISS Green 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,252
+0021800565,351,PT11M20.00S,3,1610612744,GSW,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,Looney REBOUND (Off:4 Def:0),Rebound,Unknown,1,0,253
+0021800565,352,PT11M14.00S,3,1610612744,GSW,201939,Curry,S. Curry,-2,158,16,Made,1,72,53,125,h,Curry 16' Jump Shot (15 PTS),Made Shot,Jump Shot,1,2,254
+0021800565,353,PT11M14.00S,3,1610612745,HOU,203085,Rivers,A. Rivers,0,0,0,,0,,,0,v,Rivers S.FOUL (P1.T1) (T.Brown),Foul,Shooting,1,0,255
+0021800565,355,PT11M14.00S,3,1610612744,GSW,201939,Curry,S. Curry,0,0,0,,0,73,53,126,h,Curry Free Throw 1 of 1 (16 PTS),Free Throw,Free Throw 1 of 1,0,0,256
+0021800565,356,PT10M55.00S,3,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green S.FOUL (P3.T1) (T.Maddox),Foul,Shooting,1,0,257
+0021800565,358,PT10M55.00S,3,1610612745,HOU,1627863,House Jr.,D. House Jr.,0,0,0,,0,73,54,127,v,House Jr. Free Throw 1 of 3 (11 PTS),Free Throw,Free Throw 1 of 3,0,0,258
+0021800565,359,PT10M55.00S,3,1610612745,HOU,1627863,House Jr.,D. House Jr.,0,0,0,,0,73,55,128,v,House Jr. Free Throw 2 of 3 (12 PTS),Free Throw,Free Throw 2 of 3,0,0,259
+0021800565,360,PT10M55.00S,3,1610612745,HOU,1627863,House Jr.,D. House Jr.,0,0,0,,0,73,56,129,v,House Jr. Free Throw 3 of 3 (13 PTS),Free Throw,Free Throw 3 of 3,0,0,260
+0021800565,362,PT10M36.00S,3,1610612744,GSW,1626172,Looney,K. Looney,22,67,7,Missed,1,,,0,h,MISS Looney 7' Hook Shot,Missed Shot,Hook Shot,1,2,261
+0021800565,363,PT10M35.00S,3,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,262
+0021800565,364,PT10M29.00S,3,1610612744,GSW,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,Looney S.FOUL (P3.T2) (T.Brown),Foul,Shooting,1,0,263
+0021800565,366,PT10M29.00S,3,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,73,57,130,v,Harden Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,0,0,264
+0021800565,367,PT10M29.00S,3,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,73,58,131,v,Harden Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,0,0,265
+0021800565,368,PT10M21.00S,3,1610612744,GSW,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,Looney OFF.Foul (P4) (T.Maddox),Foul,Offensive,1,0,266
+0021800565,370,PT10M21.00S,3,1610612744,GSW,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,Looney Offensive Foul Turnover (P1.T13),Turnover,Offensive Foul Turnover,1,0,267
+0021800565,371,PT10M21.00S,3,1610612744,GSW,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,SUB: Bell FOR Looney,Substitution,,0,0,268
+0021800565,373,PT10M12.00S,3,1610612745,HOU,200782,Tucker,P. Tucker,-202,181,27,Made,1,73,61,134,v,Tucker 27' 3PT Jump Shot (3 PTS) (Harden 6 AST),Made Shot,Jump Shot,1,3,269
+0021800565,375,PT10M03.00S,3,1610612744,GSW,201939,Curry,S. Curry,-10,10,1,Made,1,75,61,136,h,Curry 1' Cutting Layup Shot (18 PTS) (Green 6 AST),Made Shot,Cutting Layup Shot,1,2,270
+0021800565,377,PT09M51.00S,3,1610612745,HOU,203991,Capela,C. Capela,-8,18,2,Made,1,75,63,138,v,Capela 2' Cutting Dunk Shot (18 PTS) (Harden 7 AST),Made Shot,Cutting Dunk Shot,1,2,271
+0021800565,379,PT09M34.00S,3,1610612744,GSW,201142,Durant,K. Durant,133,138,19,Made,1,77,63,140,h,Durant 19' Pullup Jump Shot (15 PTS),Made Shot,Pullup Jump shot,1,2,272
+0021800565,380,PT09M14.00S,3,1610612745,HOU,201935,Harden,J. Harden,91,259,27,Made,1,77,66,143,v,Harden 27' 3PT Step Back Jump Shot (20 PTS),Made Shot,Step Back Jump shot,1,3,273
+0021800565,382,PT08M57.00S,3,1610612744,GSW,203110,Green,D. Green,-194,176,26,Missed,1,,,0,h,MISS Green 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,274
+0021800565,383,PT08M55.00S,3,1610612744,GSW,1628395,Bell,J. Bell,0,0,0,,0,,,0,h,Bell REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,275
+0021800565,384,PT08M49.00S,3,1610612744,GSW,201939,Curry,S. Curry,230,27,0,Made,1,80,66,146,h,Curry 3PT Pullup Jump Shot (21 PTS) (Bell 1 AST),Made Shot,Pullup Jump shot,1,3,276
+0021800565,386,PT08M28.00S,3,1610612745,HOU,203085,Rivers,A. Rivers,207,149,26,Made,1,80,69,149,v,Rivers 26' 3PT Pullup Jump Shot (8 PTS) (House Jr. 3 AST),Made Shot,Pullup Jump shot,1,3,277
+0021800565,388,PT08M10.00S,3,1610612744,GSW,201939,Curry,S. Curry,230,-1,0,Missed,1,,,0,h,MISS Curry 3PT Jump Shot,Missed Shot,Jump Shot,1,3,278
+0021800565,389,PT08M08.00S,3,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,279
+0021800565,390,PT08M04.00S,3,1610612745,HOU,203085,Rivers,A. Rivers,194,184,27,Made,1,80,72,152,v,Rivers 27' 3PT Jump Shot (11 PTS) (Harden 8 AST),Made Shot,Jump Shot,1,3,280
+0021800565,392,PT08M03.00S,3,0,,1610612744,,,0,0,0,,0,,,0,h,WARRIORS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,281
+0021800565,393,PT07M47.00S,3,1610612744,GSW,203110,Green,D. Green,-8,3,1,Made,1,82,72,154,h,Green 1' Cutting Dunk Shot (4 PTS) (Bell 2 AST),Made Shot,Cutting Dunk Shot,1,2,282
+0021800565,395,PT07M21.00S,3,1610612745,HOU,201935,Harden,J. Harden,139,230,27,Missed,1,,,0,v,MISS Harden 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,283
+0021800565,396,PT07M17.00S,3,1610612744,GSW,1628395,Bell,J. Bell,0,0,0,,0,,,0,h,Bell REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,284
+0021800565,397,PT07M02.00S,3,1610612744,GSW,202691,Thompson,K. Thompson,153,26,16,Missed,1,,,0,h,MISS Thompson 16' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,285
+0021800565,398,PT06M57.00S,3,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,286
+0021800565,399,PT06M53.00S,3,1610612744,GSW,1628395,Bell,J. Bell,0,0,0,,0,,,0,h,Bell S.FOUL (P1.T3) (T.Maddox),Foul,Shooting,1,0,287
+0021800565,401,PT06M53.00S,3,0,,399,Rooks,S. Rooks,0,0,0,,0,82,72,154,,Instant Replay3rd Period (12:05 AM EST),Instant Replay,Support Ruling,0,0,288
+0021800565,402,PT06M53.00S,3,1610612745,HOU,1627863,House Jr.,D. House Jr.,0,0,0,,0,82,73,155,v,House Jr. Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,0,0,289
+0021800565,403,PT06M53.00S,3,1610612745,HOU,1627863,House Jr.,D. House Jr.,0,0,0,,0,82,74,156,v,House Jr. Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,0,0,290
+0021800565,404,PT06M48.00S,3,1610612744,GSW,201939,Curry,S. Curry,-145,147,21,Missed,1,,,0,h,MISS Curry 21' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,291
+0021800565,405,PT06M47.00S,3,1610612745,HOU,1627863,House Jr.,D. House Jr.,0,0,0,,0,,,0,v,House Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,292
+0021800565,406,PT06M24.00S,3,1610612745,HOU,201935,Harden,J. Harden,-98,63,12,Missed,1,,,0,v,MISS Harden 12' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,293
+0021800565,407,PT06M23.00S,3,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,294
+0021800565,408,PT06M23.00S,3,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,Tucker P.FOUL (P2.T2) (T.Brown),Foul,Personal,1,0,295
+0021800565,410,PT06M23.00S,3,1610612745,HOU,1627863,House Jr.,D. House Jr.,0,0,0,,0,,,0,v,SUB: Green FOR House Jr.,Substitution,,0,0,296
+0021800565,412,PT06M10.00S,3,1610612745,HOU,203085,Rivers,A. Rivers,0,0,0,,0,,,0,v,Rivers P.FOUL (P2.T3) (T.Brown),Foul,Personal,1,0,297
+0021800565,414,PT05M59.00S,3,1610612744,GSW,201142,Durant,K. Durant,0,0,0,,0,,,0,h,Durant Step Out of Bounds Turnover (P2.T14),Turnover,Step Out of Bounds Turnover,1,0,298
+0021800565,415,PT05M59.00S,3,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,SUB: Iguodala FOR Green,Substitution,,0,0,299
+0021800565,417,PT05M45.00S,3,1610612745,HOU,203085,Rivers,A. Rivers,-13,50,5,Missed,1,,,0,v,MISS Rivers 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,300
+0021800565,418,PT05M44.00S,3,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:4 Def:7),Rebound,Unknown,1,0,301
+0021800565,419,PT05M44.00S,3,1610612745,HOU,203991,Capela,C. Capela,0,-6,1,Missed,1,,,0,v,MISS Capela 1' Putback Layup,Missed Shot,Putback Layup Shot,1,2,302
+0021800565,420,PT05M43.00S,3,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:5 Def:7),Rebound,Unknown,1,0,303
+0021800565,421,PT05M43.00S,3,1610612745,HOU,203991,Capela,C. Capela,0,-6,1,Missed,1,,,0,v,MISS Capela 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,304
+0021800565,422,PT05M42.00S,3,0,,1610612744,,,0,0,0,,0,,,0,h,WARRIORS Rebound,Rebound,Unknown,0,0,305
+0021800565,424,PT05M39.00S,3,1610612744,GSW,201939,Curry,S. Curry,-190,204,28,Made,1,85,74,159,h,Curry 28' 3PT Running Jump Shot (24 PTS) (Iguodala 2 AST),Made Shot,Running Jump Shot,1,3,306
+0021800565,426,PT05M37.00S,3,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,307
+0021800565,427,PT05M37.00S,3,1610612745,HOU,203085,Rivers,A. Rivers,0,0,0,,0,,,0,v,SUB: Ennis III FOR Rivers,Substitution,,0,0,308
+0021800565,429,PT05M21.00S,3,1610612745,HOU,203516,Ennis III,J. Ennis III,-230,21,0,Missed,1,,,0,v,MISS Ennis III 3PT Jump Shot,Missed Shot,Jump Shot,1,3,309
+0021800565,430,PT05M19.00S,3,1610612744,GSW,1628395,Bell,J. Bell,0,0,0,,0,,,0,h,Bell REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,310
+0021800565,431,PT05M04.00S,3,1610612744,GSW,201939,Curry,S. Curry,-26,17,3,Made,1,87,74,161,h,Curry 3' Driving Finger Roll Layup (26 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,311
+0021800565,433,PT04M47.00S,3,1610612745,HOU,203991,Capela,C. Capela,-3,17,2,Made,1,87,76,163,v,Capela 2' Alley Oop Layup (20 PTS) (Harden 9 AST),Made Shot,Alley Oop Layup shot,1,2,312
+0021800565,435,PT04M32.00S,3,1610612744,GSW,2738,Iguodala,A. Iguodala,230,101,25,Made,1,90,76,166,h,Iguodala 25' 3PT Jump Shot (3 PTS) (Curry 5 AST),Made Shot,Jump Shot,1,3,313
+0021800565,437,PT04M14.00S,3,1610612745,HOU,101123,Green,G. Green,154,217,27,Made,1,90,79,169,v,Green 27' 3PT Pullup Jump Shot (7 PTS) (Ennis III 1 AST),Made Shot,Pullup Jump shot,1,3,314
+0021800565,439,PT03M57.00S,3,1610612744,GSW,202691,Thompson,K. Thompson,201,174,27,Missed,1,,,0,h,MISS Thompson 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,315
+0021800565,440,PT03M53.00S,3,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:5 Def:8),Rebound,Unknown,1,0,316
+0021800565,441,PT03M36.00S,3,1610612745,HOU,201935,Harden,J. Harden,-72,109,13,Made,1,90,81,171,v,Harden 13' Step Back Jump Shot (22 PTS),Made Shot,Step Back Jump shot,1,2,317
+0021800565,442,PT03M25.00S,3,1610612744,GSW,202691,Thompson,K. Thompson,195,183,27,Made,1,93,81,174,h,Thompson 27' 3PT Jump Shot (22 PTS) (Iguodala 3 AST),Made Shot,Jump Shot,1,3,318
+0021800565,444,PT03M06.00S,3,1610612745,HOU,201935,Harden,J. Harden,157,221,27,Missed,1,,,0,v,MISS Harden 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,319
+0021800565,445,PT03M05.00S,3,0,,1610612744,,,0,0,0,,0,,,0,h,WARRIORS Rebound,Rebound,Unknown,0,0,320
+0021800565,447,PT03M05.00S,3,1610612744,GSW,1628395,Bell,J. Bell,0,0,0,,0,,,0,h,SUB: Cook FOR Bell,Substitution,,0,0,321
+0021800565,448,PT03M05.00S,3,1610612744,GSW,201939,Curry,S. Curry,0,0,0,,0,,,0,h,SUB: Green FOR Curry,Substitution,,0,0,322
+0021800565,449,PT03M05.00S,3,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,SUB: Clark FOR Capela,Substitution,,0,0,323
+0021800565,453,PT02M53.00S,3,1610612744,GSW,201142,Durant,K. Durant,104,179,21,Missed,1,,,0,h,MISS Durant 21' Jump Shot,Missed Shot,Jump Shot,1,2,324
+0021800565,454,PT02M48.00S,3,1610612745,HOU,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,Ennis III REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,325
+0021800565,455,PT02M38.00S,3,1610612745,HOU,101123,Green,G. Green,225,117,25,Made,1,93,84,177,v,Green 25' 3PT Jump Shot (10 PTS) (Harden 10 AST),Made Shot,Jump Shot,1,3,326
+0021800565,458,PT02M10.00S,3,1610612744,GSW,1626188,Cook,Q. Cook,220,130,26,Missed,1,,,0,h,MISS Cook 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,327
+0021800565,458,PT02M10.00S,3,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden BLOCK (1 BLK),,,1,3,328
+0021800565,460,PT02M09.00S,3,0,,1610612744,,,0,0,0,,0,,,0,h,WARRIORS Rebound,Rebound,Unknown,0,0,329
+0021800565,461,PT02M09.00S,3,0,,1610612744,,,0,0,0,,0,,,0,h,WARRIORS Turnover: Shot Clock (T#15),Turnover,Shot Clock Turnover,0,0,330
+0021800565,462,PT01M51.00S,3,1610612745,HOU,200782,Tucker,P. Tucker,227,44,0,Missed,1,,,0,v,MISS Tucker 3PT Jump Shot,Missed Shot,Jump Shot,1,3,331
+0021800565,463,PT01M46.00S,3,1610612744,GSW,2738,Iguodala,A. Iguodala,0,0,0,,0,,,0,h,Iguodala REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,332
+0021800565,464,PT01M42.00S,3,1610612744,GSW,1626188,Cook,Q. Cook,198,169,26,Made,1,96,84,180,h,Cook 26' 3PT Jump Shot (5 PTS) (Iguodala 4 AST),Made Shot,Jump Shot,1,3,333
+0021800565,466,PT01M26.00S,3,1610612745,HOU,201935,Harden,J. Harden,183,185,26,Made,1,96,87,183,v,Harden 26' 3PT Pullup Jump Shot (25 PTS),Made Shot,Pullup Jump shot,1,3,334
+0021800565,467,PT01M08.00S,3,1610612744,GSW,2738,Iguodala,A. Iguodala,-18,14,2,Missed,1,,,0,h,MISS Iguodala 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,335
+0021800565,467,PT01M08.00S,3,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,v,Green BLOCK (1 BLK),,,1,2,336
+0021800565,469,PT01M04.00S,3,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,Tucker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,337
+0021800565,470,PT01M01.00S,3,1610612745,HOU,203516,Ennis III,J. Ennis III,-3,17,2,Made,1,96,89,185,v,Ennis III 2' Cutting Layup Shot (3 PTS) (Harden 11 AST),Made Shot,Cutting Layup Shot,1,2,338
+0021800565,472,PT00M38.70S,3,1610612744,GSW,201142,Durant,K. Durant,-55,116,13,Missed,1,,,0,h,MISS Durant 13' Jump Shot,Missed Shot,Jump Shot,1,2,339
+0021800565,473,PT00M35.50S,3,1610612744,GSW,2738,Iguodala,A. Iguodala,0,0,0,,0,,,0,h,Iguodala REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,340
+0021800565,474,PT00M33.00S,3,1610612744,GSW,2738,Iguodala,A. Iguodala,1,17,2,Made,1,98,89,187,h,Iguodala 2' Layup (5 PTS),Made Shot,Layup Shot,1,2,341
+0021800565,476,PT00M29.80S,3,1610612745,HOU,201935,Harden,J. Harden,-175,238,30,Made,1,98,92,190,v,Harden 30' 3PT Jump Shot (28 PTS) (Ennis III 2 AST),Made Shot,Jump Shot,1,3,342
+0021800565,478,PT00M10.40S,3,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,Tucker P.FOUL (P3.T4) (J.Goble),Foul,Personal,1,0,343
+0021800565,480,PT00M00.90S,3,1610612744,GSW,1626188,Cook,Q. Cook,23,17,3,Missed,1,,,0,h,MISS Cook 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,344
+0021800565,481,PT00M00.10S,3,0,,1610612744,,,0,0,0,,0,,,0,h,WARRIORS Rebound,Rebound,Unknown,0,0,345
+0021800565,482,PT00M00.00S,3,0,,0,,,0,0,0,,0,98,92,190,,End of 3rd Period (12:20 AM EST),period,end,1,0,346
+0021800565,497,PT12M00.00S,4,0,,0,,,0,0,0,,0,98,92,190,,Start of 4th Period (12:23 AM EST),period,start,0,0,347
+0021800565,498,PT11M49.00S,4,1610612744,GSW,203110,Green,D. Green,-8,-1,1,Made,1,100,92,192,h,Green 1' Driving Dunk (6 PTS) (Curry 6 AST),Made Shot,Driving Dunk Shot,0,2,348
+0021800565,500,PT11M36.00S,4,1610612745,HOU,101123,Green,G. Green,-8,53,5,Made,1,100,94,194,v,Green 5' Driving Finger Roll Layup (12 PTS) (Knight 1 AST),Made Shot,Driving Finger Roll Layup Shot,0,2,349
+0021800565,502,PT11M36.00S,4,1610612744,GSW,201939,Curry,S. Curry,0,0,0,,0,,,0,h,Curry S.FOUL (P2.T1) (T.Brown),Foul,Shooting,0,0,350
+0021800565,504,PT11M36.00S,4,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,100,95,195,v,Green Free Throw 1 of 1 (13 PTS),Free Throw,Free Throw 1 of 1,0,0,351
+0021800565,505,PT11M22.00S,4,1610612744,GSW,201939,Curry,S. Curry,-154,213,26,Missed,1,,,0,h,MISS Curry 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,352
+0021800565,506,PT11M19.00S,4,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:5 Def:9),Rebound,Unknown,1,0,353
+0021800565,507,PT11M01.00S,4,1610612745,HOU,202688,Knight,B. Knight,122,239,27,Made,1,100,98,198,v,Knight 27' 3PT Step Back Jump Shot (5 PTS),Made Shot,Step Back Jump shot,1,3,354
+0021800565,508,PT10M43.00S,4,1610612744,GSW,201973,Jerebko,J. Jerebko,-203,159,26,Missed,1,,,0,h,MISS Jerebko 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,355
+0021800565,509,PT10M39.00S,4,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,356
+0021800565,510,PT10M28.00S,4,1610612745,HOU,202688,Knight,B. Knight,54,73,9,Missed,1,,,0,v,MISS Knight 9' Jump Shot,Missed Shot,Jump Shot,1,2,357
+0021800565,511,PT10M25.00S,4,1610612744,GSW,2733,Livingston,S. Livingston,0,0,0,,0,,,0,h,Livingston REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,358
+0021800565,512,PT10M24.00S,4,1610612745,HOU,1627863,House Jr.,D. House Jr.,0,0,0,,0,,,0,v,House Jr. S.FOUL (P2.T1) (T.Brown),Foul,Shooting,1,0,359
+0021800565,514,PT10M24.00S,4,1610612744,GSW,201973,Jerebko,J. Jerebko,0,0,0,,0,101,98,199,h,Jerebko Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,360
+0021800565,515,PT10M24.00S,4,1610612744,GSW,201973,Jerebko,J. Jerebko,0,0,0,,0,102,98,200,h,Jerebko Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,361
+0021800565,516,PT10M05.00S,4,1610612745,HOU,101123,Green,G. Green,-234,55,24,Made,1,102,101,203,v,Green 24' 3PT Pullup Jump Shot (16 PTS) (Knight 2 AST),Made Shot,Pullup Jump shot,1,3,362
+0021800565,518,PT09M55.00S,4,1610612744,GSW,203110,Green,D. Green,51,111,12,Made,1,104,101,205,h,Green 12' Turnaround Fadeaway (8 PTS),Made Shot,Turnaround Fadeaway shot,1,2,363
+0021800565,519,PT09M55.00S,4,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,v,Green S.FOUL (P3.T2) (J.Goble),Foul,Shooting,1,0,364
+0021800565,521,PT09M55.00S,4,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,105,101,206,h,Green Free Throw 1 of 1 (9 PTS),Free Throw,Free Throw 1 of 1,0,0,365
+0021800565,522,PT09M40.00S,4,1610612745,HOU,202688,Knight,B. Knight,-9,285,29,Missed,1,,,0,v,MISS Knight 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,366
+0021800565,523,PT09M38.00S,4,1610612744,GSW,2738,Iguodala,A. Iguodala,0,0,0,,0,,,0,h,Iguodala REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,367
+0021800565,524,PT09M33.00S,4,1610612744,GSW,201939,Curry,S. Curry,188,194,27,Missed,1,,,0,h,MISS Curry 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,368
+0021800565,525,PT09M31.00S,4,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:5 Def:10),Rebound,Unknown,1,0,369
+0021800565,526,PT09M26.00S,4,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green S.FOUL (P4.T2) (J.Goble),Foul,Shooting,1,0,370
+0021800565,528,PT09M26.00S,4,1610612745,HOU,1627863,House Jr.,D. House Jr.,0,0,0,,0,105,102,207,v,House Jr. Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,0,0,371
+0021800565,529,PT09M26.00S,4,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,SUB: Looney FOR Green,Substitution,,0,0,372
+0021800565,532,PT09M26.00S,4,1610612745,HOU,1627863,House Jr.,D. House Jr.,0,0,0,,0,105,103,208,v,House Jr. Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,0,0,373
+0021800565,533,PT09M11.00S,4,1610612744,GSW,201973,Jerebko,J. Jerebko,209,172,27,Made,1,108,103,211,h,Jerebko 27' 3PT Jump Shot (5 PTS) (Livingston 2 AST),Made Shot,Jump Shot,1,3,374
+0021800565,535,PT08M49.00S,4,1610612745,HOU,1627863,House Jr.,D. House Jr.,19,16,2,Missed,1,,,0,v,MISS House Jr. 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,375
+0021800565,535,PT08M49.00S,4,1610612744,GSW,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,Looney BLOCK (1 BLK),,,1,2,376
+0021800565,537,PT08M47.00S,4,1610612744,GSW,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,Looney REBOUND (Off:4 Def:1),Rebound,Unknown,1,0,377
+0021800565,538,PT08M39.00S,4,1610612744,GSW,2733,Livingston,S. Livingston,123,14,12,Missed,1,,,0,h,MISS Livingston 12' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,378
+0021800565,539,PT08M38.00S,4,1610612745,HOU,1627863,House Jr.,D. House Jr.,0,0,0,,0,,,0,v,House Jr. REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,379
+0021800565,540,PT08M26.00S,4,1610612745,HOU,101123,Green,G. Green,223,116,25,Missed,1,,,0,v,MISS Green 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,380
+0021800565,541,PT08M24.00S,4,1610612744,GSW,2733,Livingston,S. Livingston,0,0,0,,0,,,0,h,Livingston REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,381
+0021800565,542,PT08M11.00S,4,1610612744,GSW,201939,Curry,S. Curry,11,58,6,Missed,1,,,0,h,MISS Curry 6' Hook Shot,Missed Shot,Hook Shot,1,2,382
+0021800565,543,PT08M10.00S,4,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:5 Def:11),Rebound,Unknown,1,0,383
+0021800565,545,PT08M00.00S,4,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,384
+0021800565,546,PT08M00.00S,4,1610612744,GSW,2738,Iguodala,A. Iguodala,0,0,0,,0,,,0,h,SUB: Thompson FOR Iguodala,Substitution,,0,0,385
+0021800565,547,PT08M00.00S,4,1610612745,HOU,202688,Knight,B. Knight,0,0,0,,0,,,0,v,SUB: Harden FOR Knight,Substitution,,0,0,386
+0021800565,550,PT07M52.00S,4,1610612745,HOU,203991,Capela,C. Capela,-3,75,8,Missed,1,,,0,v,MISS Capela 8' Jump Shot,Missed Shot,Jump Shot,1,2,387
+0021800565,551,PT07M52.00S,4,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:6 Def:11),Rebound,Unknown,1,0,388
+0021800565,552,PT07M52.00S,4,1610612744,GSW,201939,Curry,S. Curry,0,0,0,,0,,,0,h,Curry S.FOUL (P3.T3) (T.Brown),Foul,Shooting,1,0,389
+0021800565,554,PT07M52.00S,4,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,108,104,212,v,Capela Free Throw 1 of 2 (21 PTS),Free Throw,Free Throw 1 of 2,0,0,390
+0021800565,555,PT07M52.00S,4,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,108,105,213,v,Capela Free Throw 2 of 2 (22 PTS),Free Throw,Free Throw 2 of 2,0,0,391
+0021800565,556,PT07M31.00S,4,1610612744,GSW,201939,Curry,S. Curry,-4,73,7,Made,1,110,105,215,h,Curry 7' Driving Finger Roll Layup (28 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,392
+0021800565,557,PT07M19.00S,4,1610612745,HOU,203085,Rivers,A. Rivers,14,33,4,Made,1,110,107,217,v,Rivers 4' Driving Finger Roll Layup (13 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,393
+0021800565,558,PT06M56.00S,4,1610612744,GSW,201939,Curry,S. Curry,209,171,27,Missed,1,,,0,h,MISS Curry 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,394
+0021800565,559,PT06M53.00S,4,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,395
+0021800565,560,PT06M49.00S,4,1610612745,HOU,203991,Capela,C. Capela,-11,26,3,Made,1,110,109,219,v,Capela 3' Alley Oop Dunk (24 PTS) (Harden 12 AST),Made Shot,Alley Oop Dunk Shot,1,2,396
+0021800565,562,PT06M48.00S,4,0,,1610612744,,,0,0,0,,0,,,0,h,WARRIORS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,397
+0021800565,563,PT06M48.00S,4,1610612744,GSW,201973,Jerebko,J. Jerebko,0,0,0,,0,,,0,h,SUB: Iguodala FOR Jerebko,Substitution,,0,0,398
+0021800565,564,PT06M48.00S,4,1610612744,GSW,201939,Curry,S. Curry,0,0,0,,0,,,0,h,SUB: Durant FOR Curry,Substitution,,0,0,399
+0021800565,567,PT06M36.00S,4,1610612744,GSW,202691,Thompson,K. Thompson,107,253,27,Missed,1,,,0,h,MISS Thompson 27' 3PT Jump Shot,Missed Shot,Jump Shot,0,3,400
+0021800565,568,PT06M32.00S,4,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden REBOUND (Off:2 Def:3),Rebound,Unknown,0,0,401
+0021800565,569,PT06M22.00S,4,1610612745,HOU,201935,Harden,J. Harden,-123,134,18,Missed,1,,,0,v,MISS Harden 18' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,402
+0021800565,570,PT06M21.00S,4,1610612744,GSW,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,Thompson REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,403
+0021800565,571,PT06M04.00S,4,1610612744,GSW,2733,Livingston,S. Livingston,13,10,2,Made,1,112,109,221,h,Livingston 2' Cutting Layup Shot (6 PTS) (Thompson 3 AST),Made Shot,Cutting Layup Shot,1,2,404
+0021800565,574,PT05M41.00S,4,1610612745,HOU,1627863,House Jr.,D. House Jr.,0,0,0,,0,,,0,v,SUB: Tucker FOR House Jr.,Substitution,,0,0,405
+0021800565,576,PT05M37.00S,4,1610612745,HOU,201935,Harden,J. Harden,128,152,20,Made,1,112,111,223,v,Harden 20' Step Back Jump Shot (30 PTS) (Rivers 3 AST),Made Shot,Step Back Jump shot,1,2,406
+0021800565,578,PT05M22.00S,4,1610612744,GSW,201142,Durant,K. Durant,130,156,20,Missed,1,,,0,h,MISS Durant 20' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,407
+0021800565,579,PT05M21.00S,4,1610612744,GSW,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,Looney REBOUND (Off:5 Def:1),Rebound,Unknown,1,0,408
+0021800565,580,PT05M12.00S,4,1610612744,GSW,1626172,Looney,K. Looney,8,26,3,Missed,1,,,0,h,MISS Looney 3' Layup,Missed Shot,Layup Shot,1,2,409
+0021800565,580,PT05M12.00S,4,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden BLOCK (2 BLK),,,1,2,410
+0021800565,582,PT05M10.00S,4,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,411
+0021800565,583,PT05M02.00S,4,1610612745,HOU,101123,Green,G. Green,-226,12,0,Missed,1,,,0,v,MISS Green 3PT Jump Shot,Missed Shot,Jump Shot,1,3,412
+0021800565,584,PT05M00.00S,4,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:7 Def:11),Rebound,Unknown,1,0,413
+0021800565,585,PT04M56.00S,4,1610612745,HOU,200782,Tucker,P. Tucker,233,39,24,Missed,1,,,0,v,MISS Tucker 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,414
+0021800565,586,PT04M54.00S,4,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:8 Def:11),Rebound,Unknown,1,0,415
+0021800565,587,PT04M46.00S,4,1610612745,HOU,201935,Harden,J. Harden,-11,274,27,Missed,1,,,0,v,MISS Harden 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,416
+0021800565,588,PT04M44.00S,4,1610612744,GSW,201142,Durant,K. Durant,0,0,0,,0,,,0,h,Durant REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,417
+0021800565,589,PT04M37.00S,4,1610612744,GSW,202691,Thompson,K. Thompson,159,10,16,Made,1,114,111,225,h,Thompson 16' Jump Shot (24 PTS),Made Shot,Jump Shot,1,2,418
+0021800565,590,PT04M16.00S,4,1610612745,HOU,203085,Rivers,A. Rivers,-225,54,0,Missed,1,,,0,v,MISS Rivers 3PT Jump Shot,Missed Shot,Jump Shot,1,3,419
+0021800565,591,PT04M14.00S,4,1610612744,GSW,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,Looney REBOUND (Off:5 Def:2),Rebound,Unknown,1,0,420
+0021800565,592,PT03M59.00S,4,1610612744,GSW,202691,Thompson,K. Thompson,-134,101,17,Missed,1,,,0,h,MISS Thompson 17' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,421
+0021800565,593,PT03M58.00S,4,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,Tucker REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,422
+0021800565,594,PT03M48.00S,4,1610612745,HOU,203991,Capela,C. Capela,-8,22,2,Made,1,114,113,227,v,Capela 2' Cutting Layup Shot (26 PTS) (Harden 13 AST),Made Shot,Cutting Layup Shot,1,2,423
+0021800565,596,PT03M48.00S,4,0,,1610612744,,,0,0,0,,0,,,0,h,WARRIORS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,424
+0021800565,597,PT03M48.00S,4,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,425
+0021800565,598,PT03M48.00S,4,1610612744,GSW,2733,Livingston,S. Livingston,0,0,0,,0,,,0,h,SUB: Green FOR Livingston,Substitution,,0,0,426
+0021800565,600,PT03M48.00S,4,1610612744,GSW,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,SUB: Curry FOR Looney,Substitution,,0,0,427
+0021800565,602,PT03M35.00S,4,1610612744,GSW,201142,Durant,K. Durant,155,56,16,Missed,1,,,0,h,MISS Durant 16' Jump Shot,Missed Shot,Jump Shot,1,2,428
+0021800565,602,PT03M35.00S,4,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,Tucker BLOCK (1 BLK),,,1,2,429
+0021800565,604,PT03M29.00S,4,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,Tucker REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,430
+0021800565,605,PT03M26.00S,4,1610612745,HOU,101123,Green,G. Green,228,68,24,Missed,1,,,0,v,MISS Green 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,431
+0021800565,606,PT03M24.00S,4,1610612744,GSW,201142,Durant,K. Durant,0,0,0,,0,,,0,h,Durant REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,432
+0021800565,607,PT03M17.00S,4,1610612744,GSW,201142,Durant,K. Durant,2,27,3,Missed,1,,,0,h,MISS Durant 3' Driving Dunk,Missed Shot,Driving Dunk Shot,1,2,433
+0021800565,607,PT03M17.00S,4,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela BLOCK (1 BLK),,,1,2,434
+0021800565,609,PT03M15.00S,4,1610612745,HOU,203085,Rivers,A. Rivers,0,0,0,,0,,,0,v,Rivers REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,435
+0021800565,610,PT02M59.00S,4,1610612745,HOU,201935,Harden,J. Harden,32,94,10,Missed,1,,,0,v,MISS Harden 10' Jump Shot,Missed Shot,Jump Shot,1,2,436
+0021800565,611,PT02M57.00S,4,1610612744,GSW,2738,Iguodala,A. Iguodala,0,0,0,,0,,,0,h,Iguodala REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,437
+0021800565,612,PT02M51.00S,4,1610612744,GSW,201142,Durant,K. Durant,19,24,3,Made,1,116,113,229,h,Durant 3' Running Layup (17 PTS),Made Shot,Running Layup Shot,1,2,438
+0021800565,613,PT02M51.00S,4,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,Tucker S.FOUL (P4.T3) (T.Maddox),Foul,Shooting,1,0,439
+0021800565,615,PT02M51.00S,4,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,v,SUB: House Jr. FOR Green,Substitution,,0,0,440
+0021800565,617,PT02M51.00S,4,1610612744,GSW,201142,Durant,K. Durant,0,0,0,,0,117,113,230,h,Durant Free Throw 1 of 1 (18 PTS),Free Throw,Free Throw 1 of 1,0,0,441
+0021800565,618,PT02M32.00S,4,1610612745,HOU,201935,Harden,J. Harden,-7,269,27,Missed,1,,,0,v,MISS Harden 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,442
+0021800565,619,PT02M27.00S,4,1610612744,GSW,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,Thompson REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,443
+0021800565,620,PT02M19.00S,4,1610612744,GSW,201142,Durant,K. Durant,175,226,29,Missed,1,,,0,h,MISS Durant 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,444
+0021800565,621,PT02M16.00S,4,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,445
+0021800565,622,PT02M10.00S,4,1610612744,GSW,202691,Thompson,K. Thompson,0,0,0,,0,,,0,h,Thompson P.FOUL (P3.T4) (T.Brown),Foul,Personal,1,0,446
+0021800565,624,PT02M01.00S,4,1610612745,HOU,203085,Rivers,A. Rivers,-193,202,28,Missed,1,,,0,v,MISS Rivers 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,447
+0021800565,625,PT01M55.00S,4,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:9 Def:11),Rebound,Unknown,1,0,448
+0021800565,626,PT01M53.00S,4,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Turnover: Shot Clock (T#9),Turnover,Shot Clock Turnover,0,0,449
+0021800565,627,PT01M44.00S,4,0,,626,,,0,0,0,,0,117,113,230,,Instant Replay4th Period (12:48 AM EST),Instant Replay,Support Ruling,0,0,450
+0021800565,628,PT01M27.00S,4,1610612744,GSW,201142,Durant,K. Durant,-122,30,13,Made,1,119,113,232,h,Durant 13' Turnaround Fadeaway (20 PTS),Made Shot,Turnaround Fadeaway shot,1,2,451
+0021800565,629,PT01M18.00S,4,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden Bad Pass Turnover (P6.T10),Turnover,Bad Pass,1,0,452
+0021800565,629,PT01M18.00S,4,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green STEAL (2 STL),,,1,0,453
+0021800565,631,PT01M09.00S,4,1610612744,GSW,201142,Durant,K. Durant,2,272,27,Missed,1,,,0,h,MISS Durant 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,454
+0021800565,632,PT01M06.00S,4,1610612745,HOU,1627863,House Jr.,D. House Jr.,0,0,0,,0,,,0,v,House Jr. REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,455
+0021800565,633,PT01M03.00S,4,1610612745,HOU,203991,Capela,C. Capela,-22,20,3,Made,1,119,115,234,v,Capela 3' Layup (28 PTS) (Harden 14 AST),Made Shot,Layup Shot,1,2,456
+0021800565,635,PT01M03.00S,4,1610612744,GSW,201939,Curry,S. Curry,0,0,0,,0,,,0,h,Curry S.FOUL (P4.PN) (J.Goble),Foul,Shooting,1,0,457
+0021800565,637,PT01M03.00S,4,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,119,116,235,v,Capela Free Throw 1 of 1 (29 PTS),Free Throw,Free Throw 1 of 1,0,0,458
+0021800565,638,PT00M53.80S,4,1610612744,GSW,201939,Curry,S. Curry,73,278,29,Missed,1,,,0,h,MISS Curry 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,459
+0021800565,639,PT00M51.80S,4,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,460
+0021800565,640,PT00M51.40S,4,1610612745,HOU,201935,Harden,J. Harden,-138,259,29,Made,1,119,119,238,v,Harden 29' 3PT Step Back Jump Shot (33 PTS),Made Shot,Step Back Jump shot,1,3,461
+0021800565,641,PT00M28.30S,4,1610612744,GSW,201142,Durant,K. Durant,51,108,12,Missed,1,,,0,h,MISS Durant 12' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,462
+0021800565,642,PT00M23.70S,4,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,463
+0021800565,643,PT00M03.30S,4,1610612745,HOU,201935,Harden,J. Harden,139,280,31,Missed,1,,,0,v,MISS Harden 31' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,464
+0021800565,644,PT00M00.70S,4,1610612744,GSW,201939,Curry,S. Curry,0,0,0,,0,,,0,h,Curry REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,465
+0021800565,645,PT00M00.10S,4,1610612744,GSW,201939,Curry,S. Curry,0,714,71,Missed,1,,,0,h,MISS Curry 71' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,466
+0021800565,646,PT00M00.10S,4,0,,1610612744,,,0,0,0,,0,,,0,h,WARRIORS Rebound,Rebound,Unknown,0,0,467
+0021800565,647,PT00M00.00S,4,0,,0,,,0,0,0,,0,119,119,238,,End of 4th Period (12:54 AM EST),period,end,1,0,468
+0021800565,648,PT05M00.00S,5,0,,0,,,0,0,0,,0,119,119,238,,Start of 1st OT (12:55 AM EST),period,start,0,0,469
+0021800565,650,PT05M00.00S,5,1610612744,GSW,201142,Durant,K. Durant,0,0,0,,0,,,0,h,Jump Ball Durant vs. Capela: Tip to Curry,Jump Ball,,1,0,470
+0021800565,653,PT04M39.00S,5,1610612744,GSW,2738,Iguodala,A. Iguodala,-227,-2,0,Missed,1,,,0,h,MISS Iguodala 3PT Jump Shot,Missed Shot,Jump Shot,1,3,471
+0021800565,654,PT04M37.00S,5,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:9 Def:12),Rebound,Unknown,1,0,472
+0021800565,655,PT04M21.00S,5,1610612745,HOU,203085,Rivers,A. Rivers,96,73,12,Made,1,119,121,240,v,Rivers 12' Driving Layup (15 PTS),Made Shot,Driving Layup Shot,1,2,473
+0021800565,656,PT04M11.00S,5,1610612744,GSW,201939,Curry,S. Curry,-6,11,1,Made,1,121,121,242,h,Curry 1' Driving Layup (30 PTS),Made Shot,Driving Layup Shot,1,2,474
+0021800565,657,PT03M52.00S,5,1610612745,HOU,201935,Harden,J. Harden,-147,241,28,Made,1,121,124,245,v,Harden 28' 3PT Step Back Jump Shot (36 PTS),Made Shot,Step Back Jump shot,1,3,475
+0021800565,661,PT03M34.00S,5,1610612745,HOU,1627863,House Jr.,D. House Jr.,0,0,0,,0,,,0,v,House Jr. P.FOUL (P3.T1) (T.Maddox),Foul,Personal,1,0,476
+0021800565,663,PT03M22.00S,5,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela S.FOUL (P1.T2) (T.Maddox),Foul,Shooting,1,0,477
+0021800565,665,PT03M22.00S,5,1610612744,GSW,201142,Durant,K. Durant,0,0,0,,0,122,124,246,h,Durant Free Throw 1 of 2 (21 PTS),Free Throw,Free Throw 1 of 2,0,0,478
+0021800565,666,PT03M22.00S,5,1610612744,GSW,201142,Durant,K. Durant,0,0,0,,0,123,124,247,h,Durant Free Throw 2 of 2 (22 PTS),Free Throw,Free Throw 2 of 2,0,0,479
+0021800565,668,PT03M00.00S,5,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden Offensive Charge Foul (P3.T3) (T.Maddox),Foul,Offensive Charge,1,0,480
+0021800565,670,PT03M00.00S,5,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden Offensive Foul Turnover (P7.T11),Turnover,Offensive Foul Turnover,1,0,481
+0021800565,671,PT02M44.00S,5,1610612744,GSW,201142,Durant,K. Durant,-140,105,18,Made,1,125,124,249,h,Durant 18' Pullup Jump Shot (24 PTS) (Green 7 AST),Made Shot,Pullup Jump shot,1,2,482
+0021800565,673,PT02M27.00S,5,1610612745,HOU,203085,Rivers,A. Rivers,-98,67,12,Missed,1,,,0,v,MISS Rivers 12' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,483
+0021800565,674,PT02M25.00S,5,1610612744,GSW,201142,Durant,K. Durant,0,0,0,,0,,,0,h,Durant REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,484
+0021800565,675,PT02M22.00S,5,1610612744,GSW,201939,Curry,S. Curry,-230,-7,0,Made,1,128,124,252,h,Curry 3PT Running Pull-Up Jump Shot (33 PTS) (Durant 2 AST),Made Shot,Running Pull-Up Jump Shot,1,3,485
+0021800565,677,PT02M20.00S,5,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,486
+0021800565,678,PT02M08.00S,5,1610612745,HOU,203085,Rivers,A. Rivers,96,20,10,Missed,1,,,0,v,MISS Rivers 10' Jump Shot,Missed Shot,Jump Shot,1,2,487
+0021800565,678,PT02M08.00S,5,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green BLOCK (2 BLK),,,1,2,488
+0021800565,680,PT02M07.00S,5,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Rebound,Rebound,Unknown,0,0,489
+0021800565,682,PT02M02.00S,5,1610612745,HOU,201935,Harden,J. Harden,221,126,25,Made,1,128,127,255,v,Harden 25' 3PT Fadeaway Jumper (39 PTS) (Rivers 4 AST),Made Shot,Fadeaway Jump Shot,0,3,490
+0021800565,685,PT01M43.00S,5,0,,684,Meyer,L. Meyer,0,0,0,,0,128,127,255,,Instant Replay1st OT (1:02 AM EST),Instant Replay,Support Ruling,0,0,491
+0021800565,686,PT01M40.00S,5,1610612744,GSW,201142,Durant,K. Durant,-119,51,13,Missed,1,,,0,h,MISS Durant 13' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,492
+0021800565,687,PT01M35.00S,5,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,493
+0021800565,688,PT01M27.00S,5,1610612745,HOU,203085,Rivers,A. Rivers,156,206,26,Made,1,128,130,258,v,Rivers 26' 3PT Jump Shot (18 PTS) (Harden 15 AST),Made Shot,Jump Shot,1,3,494
+0021800565,690,PT01M17.00S,5,1610612744,GSW,201939,Curry,S. Curry,100,73,12,Missed,1,,,0,h,MISS Curry 12' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,495
+0021800565,691,PT01M16.00S,5,0,,1610612744,,,0,0,0,,0,,,0,h,WARRIORS Rebound,Rebound,Unknown,0,0,496
+0021800565,692,PT01M16.00S,5,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden L.B.FOUL (P4.PN) (J.Goble),Foul,Loose Ball,1,0,497
+0021800565,694,PT01M10.00S,5,1610612744,GSW,201142,Durant,K. Durant,-46,103,11,Made,1,130,130,260,h,Durant 11' Driving Floating Jump Shot (26 PTS) (Green 8 AST),Made Shot,Driving Floating Jump Shot,1,2,498
+0021800565,696,PT00M49.10S,5,1610612745,HOU,201935,Harden,J. Harden,-215,184,28,Missed,1,,,0,v,MISS Harden 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,499
+0021800565,697,PT00M47.50S,5,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:1 Def:10),Rebound,Unknown,1,0,500
+0021800565,698,PT00M40.60S,5,1610612744,GSW,202691,Thompson,K. Thompson,-8,15,2,Made,1,132,130,262,h,Thompson 2' Running Finger Roll Layup (26 PTS) (Durant 3 AST),Made Shot,Running Finger Roll Layup Shot,1,2,501
+0021800565,700,PT00M33.50S,5,1610612744,GSW,203110,Green,D. Green,0,0,0,,0,,,0,h,Green S.FOUL (P5.T1) (J.Goble),Foul,Shooting,1,0,502
+0021800565,702,PT00M33.50S,5,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,132,131,263,v,Harden Free Throw 1 of 2 (40 PTS),Free Throw,Free Throw 1 of 2,1,0,503
+0021800565,703,PT00M33.50S,5,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,132,132,264,v,Harden Free Throw 2 of 2 (41 PTS),Free Throw,Free Throw 2 of 2,1,0,504
+0021800565,704,PT00M33.50S,5,0,,1610612744,,,0,0,0,,0,,,0,h,WARRIORS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,505
+0021800565,705,PT00M23.10S,5,1610612744,GSW,201939,Curry,S. Curry,-165,67,18,Made,1,134,132,266,h,Curry 18' Jump Shot (35 PTS) (Thompson 4 AST),Made Shot,Jump Shot,1,2,506
+0021800565,707,PT00M05.50S,5,1610612744,GSW,201939,Curry,S. Curry,0,0,0,,0,,,0,h,Curry Violation:Kicked Ball (T.Brown),Violation,Kicked Ball,0,0,507
+0021800565,708,PT00M05.50S,5,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Timeout: Regular (Reg.7 Short 0),Timeout,Regular,0,0,508
+0021800565,709,PT00M05.50S,5,1610612744,GSW,201939,Curry,S. Curry,0,0,0,,0,,,0,h,SUB: Looney FOR Curry,Substitution,,0,0,509
+0021800565,710,PT00M05.50S,5,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,SUB: Green FOR Capela,Substitution,,0,0,510
+0021800565,713,PT00M02.70S,5,1610612745,HOU,201935,Harden,J. Harden,155,237,28,Made,1,134,135,269,v,Harden 28' 3PT Pullup Jump Shot (44 PTS),Made Shot,Pullup Jump shot,1,3,511
+0021800565,714,PT00M01.00S,5,0,,1610612744,,,0,0,0,,0,,,0,h,WARRIORS Timeout: Regular (Full 7 Short 0),Timeout,Regular,0,0,512
+0021800565,715,PT00M01.00S,5,1610612744,GSW,1626172,Looney,K. Looney,0,0,0,,0,,,0,h,SUB: Curry FOR Looney,Substitution,,0,0,513
+0021800565,716,PT00M01.00S,5,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,v,SUB: Capela FOR Green,Substitution,,0,0,514
+0021800565,719,PT00M00.40S,5,1610612744,GSW,201142,Durant,K. Durant,-151,271,31,Missed,1,,,0,h,MISS Durant 31' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,515
+0021800565,720,PT00M00.10S,5,0,,1610612744,,,0,0,0,,0,,,0,h,WARRIORS Rebound,Rebound,Unknown,0,0,516
+0021800565,721,PT00M00.00S,5,0,,0,,,0,0,0,,0,134,135,269,,End of 1st OT (1:13 AM EST),period,end,1,0,517

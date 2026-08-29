@@ -1,0 +1,459 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021800623,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:46 PM EST),period,start,0,0,1
+0021800623,4,PT12M00.00S,1,1610612752,NYK,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Jump Ball Kornet vs. Sabonis: Tip to Vonleh,Jump Ball,,1,0,2
+0021800623,7,PT11M43.00S,1,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,,,0,h,Knox II Step Out of Bounds Turnover (P1.T1),Turnover,Step Out of Bounds Turnover,1,0,3
+0021800623,8,PT11M31.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,-10,35,4,Missed,1,,,0,v,MISS Sabonis 4' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,4
+0021800623,9,PT11M29.00S,1,1610612752,NYK,203943,Vonleh,N. Vonleh,0,0,0,,0,,,0,h,Vonleh REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,5
+0021800623,11,PT11M15.00S,1,1610612752,NYK,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet Lost Ball Turnover (P1.T2),Turnover,Lost Ball,1,0,6
+0021800623,11,PT11M15.00S,1,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,Young STEAL (1 STL),,,1,0,7
+0021800623,13,PT11M08.00S,1,1610612754,IND,201152,Young,T. Young,99,224,24,Missed,1,,,0,v,MISS Young 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,8
+0021800623,14,PT11M06.00S,1,1610612752,NYK,203943,Vonleh,N. Vonleh,0,0,0,,0,,,0,h,Vonleh REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,9
+0021800623,15,PT10M51.00S,1,1610612752,NYK,1626144,Mudiay,E. Mudiay,0,0,0,,0,,,0,h,Mudiay Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,10
+0021800623,15,PT10M51.00S,1,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,Young STEAL (2 STL),,,1,0,11
+0021800623,17,PT10M32.00S,1,1610612754,IND,201152,Young,T. Young,23,55,6,Made,1,0,2,2,v,Young 6' Driving Hook Shot (2 PTS),Made Shot,Driving Hook Shot,1,2,12
+0021800623,18,PT10M11.00S,1,1610612752,NYK,203943,Vonleh,N. Vonleh,-122,233,26,Made,1,3,2,5,h,Vonleh 26' 3PT Jump Shot (3 PTS) (Knox II 1 AST),Made Shot,Jump Shot,1,3,13
+0021800623,20,PT09M50.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,12,29,3,Missed,1,,,0,v,MISS Oladipo 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,14
+0021800623,20,PT09M50.00S,1,1610612752,NYK,203943,Vonleh,N. Vonleh,0,0,0,,0,,,0,h,Vonleh BLOCK (1 BLK),,,1,2,15
+0021800623,22,PT09M48.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,16
+0021800623,23,PT09M46.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,-223,13,0,Made,1,3,5,8,v,Bogdanovic 3PT Jump Shot (3 PTS) (Oladipo 1 AST),Made Shot,Jump Shot,1,3,17
+0021800623,25,PT09M32.00S,1,1610612752,NYK,1628995,Knox II,K. Knox II,47,97,11,Missed,1,,,0,h,MISS Knox II 11' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,18
+0021800623,26,PT09M30.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,19
+0021800623,27,PT09M22.00S,1,1610612754,IND,201954,Collison,D. Collison,231,25,0,Missed,1,,,0,v,MISS Collison 3PT Jump Shot,Missed Shot,Jump Shot,1,3,20
+0021800623,28,PT09M20.00S,1,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,Collison REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,21
+0021800623,29,PT09M16.00S,1,1610612752,NYK,203943,Vonleh,N. Vonleh,0,0,0,,0,,,0,h,Vonleh P.FOUL (P1.T1) (K.Scott),Foul,Personal,1,0,22
+0021800623,31,PT09M10.00S,1,1610612752,NYK,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet S.FOUL (P1.T2) (K.Mauer),Foul,Shooting,1,0,23
+0021800623,33,PT09M10.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,3,6,9,v,Bogdanovic Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,0,0,24
+0021800623,34,PT09M10.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,3,7,10,v,Bogdanovic Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,0,0,25
+0021800623,35,PT09M01.00S,1,1610612752,NYK,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet Out of Bounds - Bad Pass Turnover Turnover (P2.T4),Turnover,Out of Bounds - Bad Pass Turnover,1,0,26
+0021800623,36,PT08M50.00S,1,1610612752,NYK,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet P.FOUL (P2.T3) (K.Mauer),Foul,Personal,1,0,27
+0021800623,38,PT08M50.00S,1,1610612752,NYK,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,SUB: Hezonja FOR Kornet,Substitution,,0,0,28
+0021800623,40,PT08M41.00S,1,1610612754,IND,201152,Young,T. Young,-33,24,4,Made,1,3,9,12,v,Young 4' Turnaround Hook Shot (4 PTS),Made Shot,Turnaround Hook Shot,1,2,29
+0021800623,41,PT08M25.00S,1,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,-93,133,16,Missed,1,,,0,h,MISS Hardaway Jr. 16' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,30
+0021800623,42,PT08M23.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,31
+0021800623,43,PT08M14.00S,1,1610612754,IND,201152,Young,T. Young,-133,24,14,Missed,1,,,0,v,MISS Young 14' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,32
+0021800623,44,PT08M12.00S,1,0,,1610612752,,,0,0,0,,0,,,0,h,KNICKS Rebound,Rebound,Unknown,0,0,33
+0021800623,46,PT08M02.00S,1,1610612752,NYK,1626209,Hezonja,M. Hezonja,3,11,1,Made,1,5,9,14,h,Hezonja 1' Cutting Layup Shot (2 PTS) (Mudiay 1 AST),Made Shot,Cutting Layup Shot,1,2,34
+0021800623,48,PT07M54.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,5,4,1,Made,1,5,11,16,v,Oladipo 1' Driving Dunk (2 PTS),Made Shot,Driving Dunk Shot,1,2,35
+0021800623,49,PT07M45.00S,1,1610612752,NYK,1626209,Hezonja,M. Hezonja,93,244,26,Missed,1,,,0,h,MISS Hezonja 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,36
+0021800623,50,PT07M43.00S,1,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,Collison REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,37
+0021800623,51,PT07M39.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,2,14,1,Made,1,5,13,18,v,Sabonis 1' Running Dunk (2 PTS) (Collison 1 AST),Made Shot,Running Dunk Shot,1,2,38
+0021800623,53,PT07M39.00S,1,0,,1610612752,,,0,0,0,,0,,,0,h,KNICKS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,39
+0021800623,54,PT07M16.00S,1,1610612752,NYK,1626144,Mudiay,E. Mudiay,0,0,0,,0,,,0,h,Mudiay Bad Pass Turnover (P2.T5),Turnover,Bad Pass,1,0,40
+0021800623,54,PT07M16.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic STEAL (1 STL),,,1,0,41
+0021800623,56,PT07M14.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic Backcourt Turnover (P1.T1),Turnover,Backcourt Turnover,1,0,42
+0021800623,57,PT07M04.00S,1,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,89,256,27,Missed,1,,,0,h,MISS Hardaway Jr. 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,43
+0021800623,58,PT07M02.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,44
+0021800623,59,PT06M42.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo Lost Ball Turnover (P1.T2),Turnover,Lost Ball,1,0,45
+0021800623,59,PT06M42.00S,1,1610612752,NYK,203943,Vonleh,N. Vonleh,0,0,0,,0,,,0,h,Vonleh STEAL (1 STL),,,1,0,46
+0021800623,61,PT06M40.00S,1,1610612752,NYK,1626144,Mudiay,E. Mudiay,10,8,1,Missed,1,,,0,h,MISS Mudiay 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,47
+0021800623,62,PT06M39.00S,1,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,h,Hardaway Jr. REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,48
+0021800623,63,PT06M38.00S,1,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,-3,5,1,Made,1,7,13,20,h,Hardaway Jr. 1' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,49
+0021800623,64,PT06M38.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis S.FOUL (P1.T1) (K.Mauer),Foul,Shooting,1,0,50
+0021800623,66,PT06M38.00S,1,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,8,13,21,h,Hardaway Jr. Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,0,0,51
+0021800623,67,PT06M26.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,159,204,26,Missed,1,,,0,v,MISS Bogdanovic 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,52
+0021800623,68,PT06M24.00S,1,1610612752,NYK,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,53
+0021800623,69,PT06M18.00S,1,1610612752,NYK,1626209,Hezonja,M. Hezonja,21,32,4,Made,1,10,13,23,h,Hezonja 4' Pullup Jump Shot (4 PTS),Made Shot,Pullup Jump shot,1,2,54
+0021800623,70,PT06M01.00S,1,1610612754,IND,201152,Young,T. Young,6,73,7,Made,1,10,15,25,v,Young 7' Driving Floating Jump Shot (6 PTS) (Collison 2 AST),Made Shot,Driving Floating Jump Shot,1,2,55
+0021800623,72,PT05M46.00S,1,1610612752,NYK,203943,Vonleh,N. Vonleh,2,2,0,Made,1,12,15,27,h,Vonleh Driving Layup (5 PTS) (Hezonja 1 AST),Made Shot,Driving Layup Shot,1,2,56
+0021800623,74,PT05M36.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,-103,53,12,Missed,1,,,0,v,MISS Sabonis 12' Jump Shot,Missed Shot,Jump Shot,1,2,57
+0021800623,75,PT05M34.00S,1,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,h,Hardaway Jr. REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,58
+0021800623,76,PT05M28.00S,1,1610612752,NYK,1626209,Hezonja,M. Hezonja,111,223,25,Missed,1,,,0,h,MISS Hezonja 25' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,59
+0021800623,77,PT05M26.00S,1,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,Collison REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,60
+0021800623,78,PT05M23.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,-6,-4,1,Made,1,12,17,29,v,Bogdanovic 1' Running Dunk (7 PTS) (Collison 3 AST),Made Shot,Running Dunk Shot,1,2,61
+0021800623,80,PT05M08.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic P.FOUL (P1.T2) (D.Richardson),Foul,Personal,1,0,62
+0021800623,82,PT05M08.00S,1,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,,,0,h,SUB: Trier FOR Knox II,Substitution,,0,0,63
+0021800623,84,PT04M55.00S,1,1610612752,NYK,1626144,Mudiay,E. Mudiay,-125,125,18,Missed,1,,,0,h,MISS Mudiay 18' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,64
+0021800623,85,PT04M53.00S,1,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,Young REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,65
+0021800623,86,PT04M47.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo Bad Pass Turnover (P2.T3),Turnover,Bad Pass,1,0,66
+0021800623,86,PT04M47.00S,1,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,h,Hardaway Jr. STEAL (1 STL),,,1,0,67
+0021800623,88,PT04M44.00S,1,1610612752,NYK,1629019,Trier,A. Trier,0,0,0,,0,,,0,h,Trier Offensive Charge Foul (P1.T4) (K.Mauer),Foul,Offensive Charge,1,0,68
+0021800623,90,PT04M44.00S,1,1610612752,NYK,1629019,Trier,A. Trier,0,0,0,,0,,,0,h,Trier Offensive Foul Turnover (P1.T6),Turnover,Offensive Foul Turnover,1,0,69
+0021800623,91,PT04M44.00S,1,1610612752,NYK,1626144,Mudiay,E. Mudiay,0,0,0,,0,,,0,h,SUB: Burke FOR Mudiay,Substitution,,0,0,70
+0021800623,93,PT04M29.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,-11,10,1,Missed,1,,,0,v,MISS Oladipo 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,71
+0021800623,93,PT04M29.00S,1,1610612752,NYK,1629019,Trier,A. Trier,0,0,0,,0,,,0,h,Trier BLOCK (1 BLK),,,1,2,72
+0021800623,95,PT04M27.00S,1,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,Young REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,73
+0021800623,96,PT04M21.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,3,19,2,Missed,1,,,0,v,MISS Bogdanovic 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,74
+0021800623,97,PT04M19.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,75
+0021800623,98,PT04M19.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,-6,1,Made,1,12,19,31,v,Sabonis 1' Tip Layup Shot (4 PTS),Made Shot,Tip Layup Shot,1,2,76
+0021800623,99,PT04M04.00S,1,1610612752,NYK,203943,Vonleh,N. Vonleh,-2,60,6,Made,1,14,19,33,h,Vonleh 6' Driving Hook Shot (7 PTS),Made Shot,Driving Hook Shot,1,2,77
+0021800623,100,PT03M52.00S,1,1610612754,IND,201954,Collison,D. Collison,30,42,5,Made,1,14,21,35,v,Collison 5' Driving Floating Bank Jump Shot (2 PTS) (Oladipo 2 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,78
+0021800623,101,PT03M34.00S,1,1610612752,NYK,203504,Burke,T. Burke,-84,104,13,Missed,1,,,0,h,MISS Burke 13' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,79
+0021800623,103,PT03M34.00S,1,0,,1610612752,,,0,0,0,,0,,,0,h,KNICKS Rebound,Rebound,Unknown,0,0,80
+0021800623,104,PT03M34.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,SUB: Joseph FOR Bogdanovic,Substitution,,0,0,81
+0021800623,106,PT03M25.00S,1,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,-158,221,27,Missed,1,,,0,h,MISS Hardaway Jr. 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,82
+0021800623,107,PT03M23.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,83
+0021800623,108,PT03M09.00S,1,1610612754,IND,201152,Young,T. Young,-32,13,3,Missed,1,,,0,v,MISS Young 3' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,84
+0021800623,109,PT03M07.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,85
+0021800623,110,PT03M04.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,-6,1,Missed,1,,,0,v,MISS Sabonis 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,86
+0021800623,110,PT03M04.00S,1,1610612752,NYK,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja BLOCK (1 BLK),,,1,2,87
+0021800623,112,PT03M04.00S,1,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,h,Hardaway Jr. REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,88
+0021800623,113,PT03M04.00S,1,1610612752,NYK,1629019,Trier,A. Trier,-3,18,2,Made,1,16,21,37,h,Trier 2' Running Layup (2 PTS) (Hardaway Jr. 1 AST),Made Shot,Running Layup Shot,1,2,89
+0021800623,115,PT03M04.00S,1,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,Joseph S.FOUL (P1.T3) (K.Scott),Foul,Shooting,1,0,90
+0021800623,117,PT03M04.00S,1,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,h,SUB: Dotson FOR Hardaway Jr.,Substitution,,0,0,91
+0021800623,119,PT03M04.00S,1,1610612752,NYK,1629019,Trier,A. Trier,0,0,0,,0,17,21,38,h,Trier Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,0,0,92
+0021800623,120,PT03M00.00S,1,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,93
+0021800623,121,PT03M00.00S,1,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,SUB: Leaf FOR Young,Substitution,,0,0,94
+0021800623,122,PT03M00.00S,1,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,SUB: Evans FOR Collison,Substitution,,0,0,95
+0021800623,125,PT02M52.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,-25,220,22,Missed,1,,,0,v,MISS Oladipo 22' Jump Shot,Missed Shot,Jump Shot,1,2,96
+0021800623,126,PT02M50.00S,1,1610612752,NYK,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,97
+0021800623,127,PT02M33.00S,1,1610612752,NYK,203943,Vonleh,N. Vonleh,0,0,0,,0,,,0,h,Vonleh OFF.Foul (P2) (K.Mauer),Foul,Offensive,1,0,98
+0021800623,129,PT02M33.00S,1,1610612752,NYK,203943,Vonleh,N. Vonleh,0,0,0,,0,,,0,h,Vonleh Offensive Foul Turnover (P1.T7),Turnover,Offensive Foul Turnover,1,0,99
+0021800623,130,PT02M33.00S,1,1610612752,NYK,203943,Vonleh,N. Vonleh,0,0,0,,0,,,0,h,SUB: Kornet FOR Vonleh,Substitution,,0,0,100
+0021800623,131,PT02M33.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: McDermott FOR Sabonis,Substitution,,0,0,101
+0021800623,132,PT02M33.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,SUB: O'Quinn FOR Oladipo,Substitution,,0,0,102
+0021800623,136,PT02M17.00S,1,1610612754,IND,203926,McDermott,D. McDermott,-223,-11,0,Made,1,17,24,41,v,McDermott 3PT Jump Shot (3 PTS) (Joseph 1 AST),Made Shot,Jump Shot,1,3,103
+0021800623,138,PT02M03.00S,1,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,Pacers T.Foul (Def. 3 Sec McDermott ) (K.Mauer),Foul,Defense 3 Second,1,0,104
+0021800623,139,PT02M03.00S,1,1610612752,NYK,1628422,Dotson,D. Dotson,0,0,0,,0,18,24,42,h,Dotson Free Throw Technical (1 PTS),Free Throw,Free Throw Technical,0,0,105
+0021800623,140,PT01M55.00S,1,1610612752,NYK,1626209,Hezonja,M. Hezonja,32,265,27,Missed,1,,,0,h,MISS Hezonja 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,106
+0021800623,141,PT01M53.00S,1,1610612754,IND,201936,Evans,T. Evans,0,0,0,,0,,,0,v,Evans REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,107
+0021800623,142,PT01M44.00S,1,1610612754,IND,201936,Evans,T. Evans,54,255,26,Made,1,18,27,45,v,Evans 26' 3PT Pullup Jump Shot (3 PTS),Made Shot,Pullup Jump shot,1,3,108
+0021800623,143,PT01M38.00S,1,0,,1610612752,,,0,0,0,,0,,,0,h,KNICKS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,109
+0021800623,145,PT01M28.00S,1,1610612752,NYK,1628422,Dotson,D. Dotson,-5,11,1,Made,1,20,27,47,h,Dotson 1' Driving Layup (3 PTS) (Trier 1 AST),Made Shot,Driving Layup Shot,1,2,110
+0021800623,147,PT01M06.00S,1,1610612754,IND,1628388,Leaf,T. Leaf,5,6,1,Made,1,20,29,49,v,Leaf 1' Layup (2 PTS),Made Shot,Layup Shot,1,2,111
+0021800623,148,PT00M46.90S,1,1610612752,NYK,203504,Burke,T. Burke,8,6,1,Made,1,22,29,51,h,Burke 1' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,112
+0021800623,149,PT00M34.90S,1,1610612754,IND,203124,O'Quinn,K. O'Quinn,163,58,17,Made,1,22,31,53,v,O'Quinn 17' Jump Shot (2 PTS) (Joseph 2 AST),Made Shot,Jump Shot,1,2,113
+0021800623,151,PT00M25.50S,1,1610612754,IND,1628388,Leaf,T. Leaf,0,0,0,,0,,,0,v,Leaf P.FOUL (P1.T4) (D.Richardson),Foul,Personal,1,0,114
+0021800623,153,PT00M19.30S,1,1610612752,NYK,1626209,Hezonja,M. Hezonja,-28,209,21,Missed,1,,,0,h,MISS Hezonja 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,115
+0021800623,154,PT00M17.50S,1,1610612754,IND,201936,Evans,T. Evans,0,0,0,,0,,,0,v,Evans REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,116
+0021800623,155,PT00M01.00S,1,1610612754,IND,201936,Evans,T. Evans,0,150,15,Missed,1,,,0,v,MISS Evans 15' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,117
+0021800623,156,PT00M00.50S,1,1610612752,NYK,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,118
+0021800623,157,PT00M00.00S,1,0,,0,,,0,0,0,,0,22,31,53,,End of 1st Period (8:14 PM EST),period,end,1,0,119
+0021800623,158,PT12M00.00S,2,0,,0,,,0,0,0,,0,22,31,53,,Start of 2nd Period (8:18 PM EST),period,start,0,0,120
+0021800623,159,PT11M46.00S,2,1610612754,IND,203926,McDermott,D. McDermott,71,243,25,Missed,1,,,0,v,MISS McDermott 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,121
+0021800623,160,PT11M44.00S,2,1610612752,NYK,1629019,Trier,A. Trier,0,0,0,,0,,,0,h,Trier REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,122
+0021800623,161,PT11M34.00S,2,1610612752,NYK,1628422,Dotson,D. Dotson,-67,242,25,Missed,1,,,0,h,MISS Dotson 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,123
+0021800623,162,PT11M32.00S,2,1610612754,IND,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,124
+0021800623,163,PT11M20.00S,2,1610612754,IND,201936,Evans,T. Evans,-220,-10,0,Missed,1,,,0,v,MISS Evans 3PT Jump Shot,Missed Shot,Jump Shot,1,3,125
+0021800623,164,PT11M18.00S,2,1610612754,IND,1628388,Leaf,T. Leaf,0,0,0,,0,,,0,v,Leaf REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,126
+0021800623,165,PT11M18.00S,2,1610612754,IND,1628388,Leaf,T. Leaf,0,-6,1,Made,1,22,33,55,v,Leaf 1' Putback Dunk (4 PTS),Made Shot,Putback Dunk Shot,1,2,127
+0021800623,166,PT11M00.00S,2,1610612752,NYK,1629019,Trier,A. Trier,6,6,1,Made,1,24,33,57,h,Trier 1' Driving Layup (5 PTS),Made Shot,Driving Layup Shot,1,2,128
+0021800623,167,PT10M42.00S,2,1610612754,IND,1628388,Leaf,T. Leaf,66,61,9,Made,1,24,35,59,v,Leaf 9' Turnaround Bank Hook Shot (6 PTS),Made Shot,Turnaround Bank Hook Shot,1,2,129
+0021800623,168,PT10M29.00S,2,1610612752,NYK,1628436,Kornet,L. Kornet,81,248,26,Missed,1,,,0,h,MISS Kornet 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,130
+0021800623,169,PT10M27.00S,2,1610612752,NYK,1628422,Dotson,D. Dotson,0,0,0,,0,,,0,h,Dotson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,131
+0021800623,170,PT10M25.00S,2,1610612752,NYK,1626209,Hezonja,M. Hezonja,-117,162,20,Missed,1,,,0,h,MISS Hezonja 20' Jump Shot,Missed Shot,Jump Shot,1,2,132
+0021800623,171,PT10M23.00S,2,1610612754,IND,201936,Evans,T. Evans,0,0,0,,0,,,0,v,Evans REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,133
+0021800623,172,PT10M16.00S,2,1610612752,NYK,1629019,Trier,A. Trier,0,0,0,,0,,,0,h,Trier S.FOUL (P2.T1) (D.Richardson),Foul,Shooting,1,0,134
+0021800623,175,PT10M16.00S,2,1610612752,NYK,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,SUB: Knox II FOR Hezonja,Substitution,,0,0,135
+0021800623,174,PT10M16.00S,2,1610612754,IND,201936,Evans,T. Evans,0,0,0,,0,24,36,60,v,Evans Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,0,0,136
+0021800623,177,PT10M16.00S,2,1610612754,IND,201936,Evans,T. Evans,0,0,0,,0,24,37,61,v,Evans Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,0,0,137
+0021800623,178,PT10M11.00S,2,1610612754,IND,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn P.FOUL (P1.T1) (D.Richardson),Foul,Personal,1,0,138
+0021800623,180,PT10M03.00S,2,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,Joseph S.FOUL (P2.T2) (D.Richardson),Foul,Shooting,1,0,139
+0021800623,182,PT10M03.00S,2,1610612752,NYK,203504,Burke,T. Burke,0,0,0,,0,25,37,62,h,Burke Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,140
+0021800623,183,PT10M03.00S,2,1610612752,NYK,203504,Burke,T. Burke,0,0,0,,0,26,37,63,h,Burke Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,141
+0021800623,184,PT09M52.00S,2,1610612754,IND,201936,Evans,T. Evans,77,250,26,Missed,1,,,0,v,MISS Evans 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,142
+0021800623,185,PT09M50.00S,2,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,,,0,h,Knox II REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,143
+0021800623,186,PT09M45.00S,2,1610612754,IND,1628388,Leaf,T. Leaf,0,0,0,,0,,,0,v,Leaf S.FOUL (P2.T3) (K.Scott),Foul,Shooting,1,0,144
+0021800623,188,PT09M45.00S,2,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,27,37,64,h,Knox II Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,145
+0021800623,189,PT09M45.00S,2,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,28,37,65,h,Knox II Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,146
+0021800623,190,PT09M26.00S,2,1610612754,IND,201936,Evans,T. Evans,7,15,2,Missed,1,,,0,v,MISS Evans 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,147
+0021800623,192,PT09M24.00S,2,1610612752,NYK,1628422,Dotson,D. Dotson,0,0,0,,0,,,0,h,Dotson REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,148
+0021800623,193,PT09M20.00S,2,1610612752,NYK,203504,Burke,T. Burke,2,-4,0,Made,1,30,37,67,h,Burke Running Layup (6 PTS) (Dotson 1 AST),Made Shot,Running Layup Shot,1,2,149
+0021800623,195,PT08M59.00S,2,1610612754,IND,201936,Evans,T. Evans,157,99,19,Made,1,30,39,69,v,Evans 19' Step Back Jump Shot (7 PTS),Made Shot,Step Back Jump shot,1,2,150
+0021800623,196,PT08M42.00S,2,1610612752,NYK,1628436,Kornet,L. Kornet,-85,281,29,Made,1,33,39,72,h,Kornet 29' 3PT Jump Shot (3 PTS) (Knox II 2 AST),Made Shot,Jump Shot,1,3,151
+0021800623,198,PT08M22.00S,2,1610612754,IND,203926,McDermott,D. McDermott,-179,121,22,Made,1,33,41,74,v,McDermott 22' Jump Shot (5 PTS) (Evans 1 AST),Made Shot,Jump Shot,1,2,152
+0021800623,200,PT08M10.00S,2,1610612752,NYK,1628436,Kornet,L. Kornet,101,257,28,Missed,1,,,0,h,MISS Kornet 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,153
+0021800623,201,PT08M08.00S,2,1610612754,IND,201936,Evans,T. Evans,0,0,0,,0,,,0,v,Evans REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,154
+0021800623,202,PT07M59.00S,2,1610612752,NYK,203504,Burke,T. Burke,0,0,0,,0,,,0,h,Burke P.FOUL (P1.T2) (D.Richardson),Foul,Personal,1,0,155
+0021800623,204,PT07M59.00S,2,1610612752,NYK,1629019,Trier,A. Trier,0,0,0,,0,,,0,h,SUB: Hardaway Jr. FOR Trier,Substitution,,0,0,156
+0021800623,205,PT07M59.00S,2,1610612752,NYK,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,SUB: Vonleh FOR Kornet,Substitution,,0,0,157
+0021800623,206,PT07M59.00S,2,1610612754,IND,1628388,Leaf,T. Leaf,0,0,0,,0,,,0,v,SUB: Bogdanovic FOR Leaf,Substitution,,0,0,158
+0021800623,211,PT07M55.00S,2,1610612752,NYK,1628422,Dotson,D. Dotson,0,0,0,,0,,,0,h,Dotson S.FOUL (P1.T3) (D.Richardson),Foul,Shooting,1,0,159
+0021800623,213,PT07M55.00S,2,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,33,42,75,v,McDermott Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,0,0,160
+0021800623,214,PT07M55.00S,2,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,33,43,76,v,McDermott Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,0,0,161
+0021800623,215,PT07M46.00S,2,1610612752,NYK,203504,Burke,T. Burke,29,168,17,Made,1,35,43,78,h,Burke 17' Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,2,162
+0021800623,216,PT07M32.00S,2,1610612754,IND,201936,Evans,T. Evans,0,0,0,,0,,,0,v,Evans Traveling Turnover (P1.T4),Turnover,Traveling,1,0,163
+0021800623,217,PT07M23.00S,2,1610612752,NYK,203943,Vonleh,N. Vonleh,127,222,26,Made,1,38,43,81,h,Vonleh 26' 3PT Jump Shot (10 PTS) (Burke 1 AST),Made Shot,Jump Shot,1,3,164
+0021800623,219,PT07M16.00S,2,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,165
+0021800623,220,PT07M16.00S,2,1610612754,IND,201936,Evans,T. Evans,0,0,0,,0,,,0,v,SUB: Oladipo FOR Evans,Substitution,,0,0,166
+0021800623,221,PT07M16.00S,2,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,SUB: Sabonis FOR McDermott,Substitution,,0,0,167
+0021800623,222,PT07M16.00S,2,1610612754,IND,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,SUB: Young FOR O'Quinn,Substitution,,0,0,168
+0021800623,226,PT07M07.00S,2,1610612754,IND,202711,Bogdanović,B. Bogdanović,2,147,15,Missed,1,,,0,v,MISS Bogdanovic 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,169
+0021800623,227,PT07M05.00S,2,0,,1610612752,,,0,0,0,,0,,,0,h,KNICKS Rebound,Rebound,Unknown,0,0,170
+0021800623,229,PT06M51.00S,2,1610612752,NYK,1628995,Knox II,K. Knox II,-115,247,27,Missed,1,,,0,h,MISS Knox II 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,171
+0021800623,230,PT06M49.00S,2,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,172
+0021800623,231,PT06M49.00S,2,1610612752,NYK,203943,Vonleh,N. Vonleh,0,0,0,,0,,,0,h,Vonleh L.B.FOUL (P3.T4) (D.Richardson),Foul,Loose Ball,1,0,173
+0021800623,233,PT06M49.00S,2,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,SUB: Collison FOR Joseph,Substitution,,0,0,174
+0021800623,235,PT06M49.00S,2,1610612752,NYK,203943,Vonleh,N. Vonleh,0,0,0,,0,,,0,h,SUB: Kornet FOR Vonleh,Substitution,,0,0,175
+0021800623,237,PT06M38.00S,2,1610612754,IND,203506,Oladipo,V. Oladipo,55,195,20,Made,1,38,45,83,v,Oladipo 20' Pullup Jump Shot (4 PTS),Made Shot,Pullup Jump shot,1,2,176
+0021800623,238,PT06M20.00S,2,1610612752,NYK,1628995,Knox II,K. Knox II,32,91,10,Made,1,40,45,85,h,Knox II 10' Driving Floating Jump Shot (4 PTS) (Burke 2 AST),Made Shot,Driving Floating Jump Shot,1,2,177
+0021800623,240,PT05M59.00S,2,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo Palming Turnover (P3.T5),Turnover,Palming Turnover,1,0,178
+0021800623,241,PT05M44.00S,2,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,-43,259,26,Made,1,43,45,88,h,Hardaway Jr. 26' 3PT Jump Shot (6 PTS) (Dotson 2 AST),Made Shot,Jump Shot,1,3,179
+0021800623,243,PT05M29.00S,2,1610612754,IND,201954,Collison,D. Collison,235,14,24,Missed,1,,,0,v,MISS Collison 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,180
+0021800623,244,PT05M27.00S,2,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,h,Hardaway Jr. REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,181
+0021800623,245,PT05M22.00S,2,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,122,230,26,Made,1,46,45,91,h,Hardaway Jr. 26' 3PT Running Pull-Up Jump Shot (9 PTS),Made Shot,Running Pull-Up Jump Shot,1,3,182
+0021800623,246,PT05M04.00S,2,1610612754,IND,201152,Young,T. Young,39,46,6,Missed,1,,,0,v,MISS Young 6' Hook Shot,Missed Shot,Hook Shot,1,2,183
+0021800623,247,PT05M03.00S,2,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,184
+0021800623,249,PT04M55.00S,2,1610612754,IND,203506,Oladipo,V. Oladipo,-193,157,25,Missed,1,,,0,v,MISS Oladipo 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,185
+0021800623,250,PT04M53.00S,2,1610612752,NYK,1628422,Dotson,D. Dotson,0,0,0,,0,,,0,h,Dotson REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,186
+0021800623,251,PT04M45.00S,2,1610612752,NYK,203504,Burke,T. Burke,-3,5,1,Missed,1,,,0,h,MISS Burke 1' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,187
+0021800623,252,PT04M44.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,188
+0021800623,253,PT04M37.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,5,194,19,Missed,1,,,0,v,MISS Sabonis 19' Jump Shot,Missed Shot,Jump Shot,1,2,189
+0021800623,254,PT04M35.00S,2,1610612752,NYK,1628422,Dotson,D. Dotson,0,0,0,,0,,,0,h,Dotson REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,190
+0021800623,255,PT04M29.00S,2,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,57,263,27,Missed,1,,,0,h,MISS Hardaway Jr. 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,191
+0021800623,256,PT04M27.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,192
+0021800623,258,PT04M15.00S,2,1610612754,IND,201152,Young,T. Young,2,9,1,Missed,1,,,0,v,MISS Young 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,193
+0021800623,259,PT04M13.00S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,Young REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,194
+0021800623,260,PT04M13.00S,2,1610612754,IND,201152,Young,T. Young,0,-6,1,Missed,1,,,0,v,MISS Young 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,195
+0021800623,261,PT04M11.00S,2,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,,,0,h,Knox II REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,196
+0021800623,262,PT04M07.00S,2,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,,,0,h,Knox II Lost Ball Turnover (P2.T8),Turnover,Lost Ball,1,0,197
+0021800623,262,PT04M07.00S,2,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo STEAL (1 STL),,,1,0,198
+0021800623,264,PT04M02.00S,2,1610612754,IND,201152,Young,T. Young,-223,-17,0,Made,1,46,48,94,v,Young 3PT Jump Shot (9 PTS) (Oladipo 3 AST),Made Shot,Jump Shot,1,3,199
+0021800623,266,PT03M53.00S,2,0,,1610612752,,,0,0,0,,0,,,0,h,KNICKS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,200
+0021800623,267,PT03M53.00S,2,1610612752,NYK,203504,Burke,T. Burke,0,0,0,,0,,,0,h,SUB: Mudiay FOR Burke,Substitution,,0,0,201
+0021800623,269,PT03M42.00S,2,1610612752,NYK,1628436,Kornet,L. Kornet,24,254,26,Missed,1,,,0,h,MISS Kornet 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,202
+0021800623,270,PT03M40.00S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,Young REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,203
+0021800623,271,PT03M26.00S,2,1610612754,IND,202711,Bogdanović,B. Bogdanović,60,52,8,Missed,1,,,0,v,MISS Bogdanovic 8' Driving Layup,Missed Shot,Driving Layup Shot,1,2,204
+0021800623,271,PT03M26.00S,2,1610612752,NYK,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet BLOCK (1 BLK),,,1,2,205
+0021800623,273,PT03M24.00S,2,1610612752,NYK,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,206
+0021800623,275,PT03M07.00S,2,1610612752,NYK,1628422,Dotson,D. Dotson,-226,62,0,Made,1,49,48,97,h,Dotson 3PT Jump Shot (6 PTS) (Kornet 1 AST),Made Shot,Jump Shot,1,3,207
+0021800623,277,PT02M49.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,-2,3,0,Made,1,49,50,99,v,Sabonis Hook Shot (6 PTS) (Collison 4 AST),Made Shot,Hook Shot,1,2,208
+0021800623,279,PT02M38.00S,2,1610612752,NYK,1626144,Mudiay,E. Mudiay,0,0,0,,0,,,0,h,Mudiay Lost Ball Turnover (P3.T9),Turnover,Lost Ball,1,0,209
+0021800623,279,PT02M38.00S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,Young STEAL (3 STL),,,1,0,210
+0021800623,281,PT02M35.00S,2,1610612754,IND,201954,Collison,D. Collison,1,-5,1,Made,1,49,52,101,v,Collison 1' Running Layup (4 PTS) (Young 1 AST),Made Shot,Running Layup Shot,1,2,211
+0021800623,283,PT02M13.00S,2,1610612752,NYK,1628995,Knox II,K. Knox II,-150,216,26,Made,1,52,52,104,h,Knox II 26' 3PT Jump Shot (7 PTS) (Kornet 2 AST),Made Shot,Jump Shot,1,3,212
+0021800623,286,PT01M59.00S,2,1610612754,IND,201152,Young,T. Young,0,4,0,Made,1,52,54,106,v,Young Layup (11 PTS) (Sabonis 1 AST),Made Shot,Layup Shot,1,2,213
+0021800623,288,PT01M43.00S,2,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,-117,127,17,Missed,1,,,0,h,MISS Hardaway Jr. 17' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,214
+0021800623,289,PT01M42.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,215
+0021800623,290,PT01M34.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,3,14,1,Made,1,52,56,108,v,Sabonis 1' Turnaround Hook Shot (8 PTS) (Collison 5 AST),Made Shot,Turnaround Hook Shot,1,2,216
+0021800623,292,PT01M12.00S,2,1610612752,NYK,1628995,Knox II,K. Knox II,143,220,26,Missed,1,,,0,h,MISS Knox II 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,217
+0021800623,293,PT01M10.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,218
+0021800623,294,PT00M55.70S,2,1610612754,IND,203506,Oladipo,V. Oladipo,125,227,26,Made,1,52,59,111,v,Oladipo 26' 3PT Jump Shot (7 PTS) (Sabonis 2 AST),Made Shot,Jump Shot,1,3,219
+0021800623,296,PT00M42.10S,2,1610612752,NYK,1628436,Kornet,L. Kornet,165,194,25,Missed,1,,,0,h,MISS Kornet 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,220
+0021800623,297,PT00M39.70S,2,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,221
+0021800623,298,PT00M35.30S,2,1610612754,IND,203506,Oladipo,V. Oladipo,33,283,28,Made,1,52,62,114,v,Oladipo 28' 3PT Running Pull-Up Jump Shot (10 PTS),Made Shot,Running Pull-Up Jump Shot,1,3,222
+0021800623,299,PT00M13.40S,2,1610612752,NYK,1626144,Mudiay,E. Mudiay,-85,47,10,Missed,1,,,0,h,MISS Mudiay 10' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,223
+0021800623,300,PT00M11.20S,2,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,224
+0021800623,301,PT00M05.30S,2,1610612754,IND,202711,Bogdanović,B. Bogdanović,11,14,2,Made,1,52,64,116,v,Bogdanovic 2' Driving Dunk (9 PTS),Made Shot,Driving Dunk Shot,1,2,225
+0021800623,329,PT00M01.30S,2,1610612752,NYK,1626144,Mudiay,E. Mudiay,-136,209,25,Missed,1,,,0,h,MISS Mudiay 25' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,226
+0021800623,329,PT00M01.30S,2,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,Collison BLOCK (1 BLK),,,1,3,227
+0021800623,331,PT00M01.30S,2,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,Collison REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,228
+0021800623,304,PT00M00.30S,2,1610612754,IND,201954,Collison,D. Collison,-33,382,38,Missed,1,,,0,v,MISS Collison 38' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,229
+0021800623,305,PT00M00.10S,2,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,230
+0021800623,306,PT00M00.00S,2,0,,0,,,0,0,0,,0,52,64,116,,End of 2nd Period (8:44 PM EST),period,end,1,0,231
+0021800623,309,PT12M00.00S,3,0,,0,,,0,0,0,,0,52,64,116,,Start of 3rd Period (8:59 PM EST),period,start,0,0,232
+0021800623,310,PT11M42.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,221,57,0,Made,1,52,67,119,v,Bogdanovic 3PT Jump Shot (12 PTS) (Oladipo 4 AST),Made Shot,Jump Shot,1,3,233
+0021800623,312,PT11M18.00S,3,1610612752,NYK,1628436,Kornet,L. Kornet,-4,162,16,Missed,1,,,0,h,MISS Kornet 16' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,234
+0021800623,313,PT11M16.00S,3,1610612752,NYK,1626144,Mudiay,E. Mudiay,0,0,0,,0,,,0,h,Mudiay REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,235
+0021800623,314,PT11M15.00S,3,1610612752,NYK,1626144,Mudiay,E. Mudiay,12,4,1,Made,1,54,67,121,h,Mudiay 1' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,236
+0021800623,315,PT11M02.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,8,8,1,Missed,1,,,0,v,MISS Bogdanovic 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,237
+0021800623,316,PT11M00.00S,3,1610612752,NYK,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,238
+0021800623,317,PT10M54.00S,3,1610612752,NYK,1626144,Mudiay,E. Mudiay,1,5,1,Missed,1,,,0,h,MISS Mudiay 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,239
+0021800623,318,PT10M52.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,240
+0021800623,319,PT10M30.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,-11,0,1,Made,1,54,69,123,v,Sabonis 1' Layup (10 PTS) (Oladipo 5 AST),Made Shot,Layup Shot,1,2,241
+0021800623,321,PT10M12.00S,3,1610612752,NYK,203943,Vonleh,N. Vonleh,0,0,0,,0,,,0,h,Vonleh Bad Pass Turnover (P2.T10),Turnover,Bad Pass,1,0,242
+0021800623,321,PT10M12.00S,3,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,Collison STEAL (1 STL),,,1,0,243
+0021800623,323,PT10M03.00S,3,1610612752,NYK,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,Kornet Violation:Kicked Ball (K.Scott),Violation,Kicked Ball,0,0,244
+0021800623,324,PT09M52.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,-2,2,0,Made,1,54,71,125,v,Sabonis Layup (12 PTS) (Bogdanovic 1 AST),Made Shot,Layup Shot,1,2,245
+0021800623,326,PT09M52.00S,3,0,,1610612752,,,0,0,0,,0,,,0,h,KNICKS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,246
+0021800623,327,PT09M40.00S,3,1610612752,NYK,1626144,Mudiay,E. Mudiay,-231,-8,0,Made,1,57,71,128,h,Mudiay 3PT Jump Shot (5 PTS) (Hardaway Jr. 2 AST),Made Shot,Jump Shot,1,3,247
+0021800623,332,PT09M24.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,5,15,2,Made,1,57,73,130,v,Sabonis 2' Cutting Dunk Shot (14 PTS) (Collison 6 AST),Made Shot,Cutting Dunk Shot,1,2,248
+0021800623,349,PT09M07.00S,3,1610612752,NYK,1626144,Mudiay,E. Mudiay,-227,-10,0,Missed,1,,,0,h,MISS Mudiay 3PT Jump Shot,Missed Shot,Jump Shot,1,3,249
+0021800623,350,PT09M05.00S,3,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,Young REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,250
+0021800623,336,PT08M48.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,-18,16,2,Made,1,57,75,132,v,Sabonis 2' Layup (16 PTS) (Collison 7 AST),Made Shot,Layup Shot,1,2,251
+0021800623,337,PT08M30.00S,3,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,5,9,1,Made,1,59,75,134,h,Hardaway Jr. 1' Driving Layup (11 PTS) (Kornet 3 AST),Made Shot,Driving Layup Shot,1,2,252
+0021800623,339,PT08M17.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,-123,143,19,Made,1,59,77,136,v,Oladipo 19' Pullup Jump Shot (12 PTS),Made Shot,Pullup Jump shot,1,2,253
+0021800623,340,PT07M59.00S,3,1610612752,NYK,1628436,Kornet,L. Kornet,25,263,26,Missed,1,,,0,h,MISS Kornet 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,254
+0021800623,341,PT07M57.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,255
+0021800623,342,PT07M48.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo Bad Pass Turnover (P4.T6),Turnover,Bad Pass,1,0,256
+0021800623,342,PT07M48.00S,3,1610612752,NYK,203943,Vonleh,N. Vonleh,0,0,0,,0,,,0,h,Vonleh STEAL (2 STL),,,1,0,257
+0021800623,344,PT07M43.00S,3,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,2,5,1,Missed,1,,,0,h,MISS Hardaway Jr. 1' Layup,Missed Shot,Layup Shot,1,2,258
+0021800623,345,PT07M41.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:2 Def:9),Rebound,Unknown,1,0,259
+0021800623,346,PT07M36.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,-240,26,24,Made,1,59,80,139,v,Bogdanovic 24' 3PT Jump Shot (15 PTS) (Collison 8 AST),Made Shot,Jump Shot,1,3,260
+0021800623,348,PT07M35.00S,3,0,,1610612752,,,0,0,0,,0,,,0,h,KNICKS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,261
+0021800623,352,PT07M35.00S,3,1610612752,NYK,1628436,Kornet,L. Kornet,0,0,0,,0,,,0,h,SUB: Dotson FOR Kornet,Substitution,,0,0,262
+0021800623,353,PT07M35.00S,3,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,,,0,h,SUB: Thomas FOR Knox II,Substitution,,0,0,263
+0021800623,354,PT07M35.00S,3,1610612752,NYK,203943,Vonleh,N. Vonleh,0,0,0,,0,,,0,h,SUB: Hezonja FOR Vonleh,Substitution,,0,0,264
+0021800623,358,PT07M22.00S,3,1610612752,NYK,1628422,Dotson,D. Dotson,214,134,25,Made,1,62,80,142,h,Dotson 25' 3PT Jump Shot (9 PTS) (Mudiay 2 AST),Made Shot,Jump Shot,1,3,265
+0021800623,360,PT07M22.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic S.FOUL (P2.T1) (K.Scott),Foul,Shooting,1,0,266
+0021800623,362,PT07M22.00S,3,1610612752,NYK,1628422,Dotson,D. Dotson,0,0,0,,0,63,80,143,h,Dotson Free Throw 1 of 1 (10 PTS),Free Throw,Free Throw 1 of 1,0,0,267
+0021800623,363,PT07M09.00S,3,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,h,Hardaway Jr. P.FOUL (P1.T1) (K.Scott),Foul,Personal,1,0,268
+0021800623,466,PT06M59.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,-162,51,17,Missed,1,,,0,v,MISS Bogdanovic 17' Jump Shot,Missed Shot,Jump Shot,1,2,269
+0021800623,466,PT06M59.00S,3,1610612752,NYK,1626144,Mudiay,E. Mudiay,0,0,0,,0,,,0,h,Mudiay BLOCK (1 BLK),,,1,2,270
+0021800623,468,PT06M58.00S,3,1610612752,NYK,1626144,Mudiay,E. Mudiay,0,0,0,,0,,,0,h,Mudiay REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,271
+0021800623,367,PT06M54.00S,3,1610612752,NYK,1626144,Mudiay,E. Mudiay,7,13,1,Made,1,65,80,145,h,Mudiay 1' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,272
+0021800623,368,PT06M39.00S,3,1610612754,IND,201152,Young,T. Young,0,78,8,Missed,1,,,0,v,MISS Young 8' Hook Shot,Missed Shot,Hook Shot,1,2,273
+0021800623,369,PT06M37.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:3 Def:9),Rebound,Unknown,1,0,274
+0021800623,370,PT06M37.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,-6,1,Made,1,65,82,147,v,Sabonis 1' Tip Layup Shot (18 PTS),Made Shot,Tip Layup Shot,1,2,275
+0021800623,371,PT06M28.00S,3,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,Young S.FOUL (P1.T2) (K.Mauer),Foul,Shooting,1,0,276
+0021800623,373,PT06M28.00S,3,1610612752,NYK,1626144,Mudiay,E. Mudiay,0,0,0,,0,66,82,148,h,Mudiay Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,0,0,277
+0021800623,374,PT06M28.00S,3,1610612752,NYK,1626144,Mudiay,E. Mudiay,0,0,0,,0,67,82,149,h,Mudiay Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,0,0,278
+0021800623,375,PT06M19.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,233,26,0,Made,1,67,85,152,v,Oladipo 3PT Jump Shot (15 PTS) (Collison 9 AST),Made Shot,Jump Shot,1,3,279
+0021800623,377,PT06M05.00S,3,1610612752,NYK,1626144,Mudiay,E. Mudiay,0,0,0,,0,,,0,h,Mudiay Lost Ball Turnover (P4.T11),Turnover,Lost Ball,1,0,280
+0021800623,377,PT06M05.00S,3,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,Young STEAL (4 STL),,,1,0,281
+0021800623,379,PT06M02.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,-8,11,1,Made,1,67,87,154,v,Oladipo 1' Running Dunk (17 PTS) (Collison 10 AST),Made Shot,Running Dunk Shot,1,2,282
+0021800623,381,PT05M41.00S,3,1610612752,NYK,1626144,Mudiay,E. Mudiay,-125,216,25,Missed,1,,,0,h,MISS Mudiay 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,283
+0021800623,382,PT05M39.00S,3,1610612752,NYK,202498,Thomas,L. Thomas,0,0,0,,0,,,0,h,Thomas REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,284
+0021800623,383,PT05M37.00S,3,1610612752,NYK,1628422,Dotson,D. Dotson,-232,-26,0,Made,1,70,87,157,h,Dotson 3PT Jump Shot (13 PTS) (Thomas 1 AST),Made Shot,Jump Shot,1,3,285
+0021800623,385,PT05M19.00S,3,1610612754,IND,201152,Young,T. Young,-9,13,2,Missed,1,,,0,v,MISS Young 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,286
+0021800623,386,PT05M17.00S,3,1610612752,NYK,1628422,Dotson,D. Dotson,0,0,0,,0,,,0,h,Dotson REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,287
+0021800623,387,PT05M12.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis S.FOUL (P2.T3) (K.Scott),Foul,Shooting,1,0,288
+0021800623,389,PT05M12.00S,3,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,h,MISS Hardaway Jr. Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,289
+0021800623,390,PT05M12.00S,3,0,,1610612752,,,0,0,0,,0,,,0,h,KNICKS Rebound,Rebound,Normal Rebound,0,0,290
+0021800623,391,PT05M12.00S,3,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,71,87,158,h,Hardaway Jr. Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,0,0,291
+0021800623,392,PT04M59.00S,3,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,Collison Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,292
+0021800623,392,PT04M59.00S,3,1610612752,NYK,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja STEAL (1 STL),,,1,0,293
+0021800623,394,PT04M54.00S,3,1610612752,NYK,1626209,Hezonja,M. Hezonja,1,5,1,Made,1,73,87,160,h,Hezonja 1' Driving Layup (6 PTS) (Dotson 3 AST),Made Shot,Driving Layup Shot,1,2,294
+0021800623,396,PT04M54.00S,3,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,295
+0021800623,397,PT04M41.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,-152,210,26,Missed,1,,,0,v,MISS Oladipo 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,296
+0021800623,398,PT04M39.00S,3,1610612752,NYK,202498,Thomas,L. Thomas,0,0,0,,0,,,0,h,Thomas REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,297
+0021800623,399,PT04M35.00S,3,1610612752,NYK,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja Offensive Charge Foul (P1.T2) (K.Mauer),Foul,Offensive Charge,1,0,298
+0021800623,401,PT04M35.00S,3,1610612752,NYK,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja Offensive Foul Turnover (P1.T12),Turnover,Offensive Foul Turnover,1,0,299
+0021800623,402,PT04M14.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,-83,39,9,Missed,1,,,0,v,MISS Sabonis 9' Hook Shot,Missed Shot,Hook Shot,1,2,300
+0021800623,403,PT04M12.00S,3,1610612752,NYK,202498,Thomas,L. Thomas,0,0,0,,0,,,0,h,Thomas REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,301
+0021800623,404,PT03M59.00S,3,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,132,239,27,Missed,1,,,0,h,MISS Hardaway Jr. 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,302
+0021800623,405,PT03M57.00S,3,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,Collison REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,303
+0021800623,406,PT03M41.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,-230,34,0,Missed,1,,,0,v,MISS Bogdanovic 3PT Jump Shot,Missed Shot,Jump Shot,1,3,304
+0021800623,407,PT03M39.00S,3,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,h,Hardaway Jr. REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,305
+0021800623,408,PT03M32.00S,3,1610612752,NYK,202498,Thomas,L. Thomas,-109,218,24,Missed,1,,,0,h,MISS Thomas 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,306
+0021800623,409,PT03M30.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,307
+0021800623,410,PT03M16.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,-56,211,22,Made,1,73,89,162,v,Oladipo 22' Pullup Jump Shot (19 PTS),Made Shot,Pullup Jump shot,1,2,308
+0021800623,411,PT02M57.00S,3,1610612752,NYK,1626209,Hezonja,M. Hezonja,217,145,26,Made,1,76,89,165,h,Hezonja 26' 3PT Jump Shot (9 PTS) (Dotson 4 AST),Made Shot,Jump Shot,1,3,309
+0021800623,413,PT02M35.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo Out of Bounds - Bad Pass Turnover Turnover (P5.T8),Turnover,Out of Bounds - Bad Pass Turnover,1,0,310
+0021800623,414,PT02M35.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,SUB: Joseph FOR Bogdanovic,Substitution,,0,0,311
+0021800623,416,PT02M18.00S,3,1610612752,NYK,1626144,Mudiay,E. Mudiay,9,5,1,Made,1,78,89,167,h,Mudiay 1' Driving Layup (11 PTS),Made Shot,Driving Layup Shot,1,2,312
+0021800623,417,PT02M04.00S,3,1610612754,IND,201954,Collison,D. Collison,63,183,19,Missed,1,,,0,v,MISS Collison 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,313
+0021800623,418,PT02M02.00S,3,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,Young REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,314
+0021800623,419,PT01M57.00S,3,1610612754,IND,201954,Collison,D. Collison,-17,59,6,Made,1,78,91,169,v,Collison 6' Driving Floating Jump Shot (6 PTS) (Joseph 3 AST),Made Shot,Driving Floating Jump Shot,1,2,315
+0021800623,421,PT01M57.00S,3,1610612752,NYK,202498,Thomas,L. Thomas,0,0,0,,0,,,0,h,Thomas S.FOUL (P1.T3) (D.Richardson),Foul,Shooting,1,0,316
+0021800623,423,PT01M57.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,SUB: Leaf FOR Oladipo,Substitution,,0,0,317
+0021800623,424,PT01M57.00S,3,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,SUB: Evans FOR Young,Substitution,,0,0,318
+0021800623,427,PT01M57.00S,3,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,78,92,170,v,Collison Free Throw 1 of 1 (7 PTS),Free Throw,Free Throw 1 of 1,0,0,319
+0021800623,428,PT01M45.00S,3,1610612752,NYK,1626144,Mudiay,E. Mudiay,20,88,9,Missed,1,,,0,h,MISS Mudiay 9' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,320
+0021800623,429,PT01M43.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:3 Def:10),Rebound,Unknown,1,0,321
+0021800623,430,PT01M29.00S,3,1610612754,IND,1628388,Leaf,T. Leaf,-232,23,0,Missed,1,,,0,v,MISS Leaf 3PT Jump Shot,Missed Shot,Jump Shot,1,3,322
+0021800623,431,PT01M27.00S,3,1610612752,NYK,1628422,Dotson,D. Dotson,0,0,0,,0,,,0,h,Dotson REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,323
+0021800623,432,PT01M13.00S,3,1610612752,NYK,1626144,Mudiay,E. Mudiay,-2,0,0,Made,1,80,92,172,h,Mudiay Driving Layup (13 PTS),Made Shot,Driving Layup Shot,1,2,324
+0021800623,433,PT00M58.90S,3,1610612752,NYK,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja S.FOUL (P2.PN) (K.Mauer),Foul,Shooting,1,0,325
+0021800623,437,PT00M58.90S,3,1610612752,NYK,1626144,Mudiay,E. Mudiay,0,0,0,,0,,,0,h,SUB: Trier FOR Mudiay,Substitution,,0,0,326
+0021800623,438,PT00M58.90S,3,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,h,SUB: Burke FOR Hardaway Jr.,Substitution,,0,0,327
+0021800623,439,PT00M58.90S,3,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,SUB: McDermott FOR Collison,Substitution,,0,0,328
+0021800623,435,PT00M58.90S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,80,93,173,v,Sabonis Free Throw 1 of 2 (19 PTS),Free Throw,Free Throw 1 of 2,0,0,329
+0021800623,436,PT00M58.90S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,80,94,174,v,Sabonis Free Throw 2 of 2 (20 PTS),Free Throw,Free Throw 2 of 2,0,0,330
+0021800623,443,PT00M47.90S,3,1610612752,NYK,1628422,Dotson,D. Dotson,0,0,0,,0,,,0,h,Dotson Out of Bounds - Bad Pass Turnover Turnover (P1.T13),Turnover,Out of Bounds - Bad Pass Turnover,1,0,331
+0021800623,444,PT00M47.90S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: O'Quinn FOR Sabonis,Substitution,,0,0,332
+0021800623,446,PT00M34.90S,3,1610612754,IND,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn Offensive Charge Foul (P2.T4) (K.Scott),Foul,Offensive Charge,1,0,333
+0021800623,448,PT00M34.90S,3,1610612754,IND,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn Offensive Foul Turnover (P1.T9),Turnover,Offensive Foul Turnover,1,0,334
+0021800623,449,PT00M25.60S,3,1610612752,NYK,1626209,Hezonja,M. Hezonja,1,3,0,Missed,1,,,0,h,MISS Hezonja Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,335
+0021800623,450,PT00M23.90S,3,1610612752,NYK,202498,Thomas,L. Thomas,0,0,0,,0,,,0,h,Thomas REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,336
+0021800623,451,PT00M23.90S,3,1610612752,NYK,202498,Thomas,L. Thomas,0,-6,1,Made,1,82,94,176,h,Thomas 1' Tip Dunk Shot (2 PTS),Made Shot,Tip Dunk Shot,1,2,337
+0021800623,452,PT00M04.10S,3,1610612754,IND,202709,Joseph,C. Joseph,84,189,21,Made,1,82,96,178,v,Joseph 21' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,338
+0021800623,453,PT00M00.60S,3,1610612752,NYK,203504,Burke,T. Burke,-8,16,2,Missed,1,,,0,h,MISS Burke 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,339
+0021800623,454,PT00M00.10S,3,0,,1610612752,,,0,0,0,,0,,,0,h,KNICKS Rebound,Rebound,Unknown,0,0,340
+0021800623,455,PT00M00.00S,3,0,,0,,,0,0,0,,0,82,96,178,,End of 3rd Period (9:26 PM EST),period,end,1,0,341
+0021800623,458,PT12M00.00S,4,0,,0,,,0,0,0,,0,82,96,178,,Start of 4th Period (9:29 PM EST),period,start,0,0,342
+0021800623,459,PT11M45.00S,4,1610612752,NYK,1628422,Dotson,D. Dotson,114,156,19,Missed,1,,,0,h,MISS Dotson 19' Jump Shot,Missed Shot,Jump Shot,1,2,343
+0021800623,460,PT11M43.00S,4,1610612754,IND,1628388,Leaf,T. Leaf,0,0,0,,0,,,0,v,Leaf REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,344
+0021800623,461,PT11M35.00S,4,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,Joseph Bad Pass Turnover (P1.T10),Turnover,Bad Pass,1,0,345
+0021800623,461,PT11M35.00S,4,1610612752,NYK,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja STEAL (2 STL),,,1,0,346
+0021800623,463,PT11M30.00S,4,1610612752,NYK,1626209,Hezonja,M. Hezonja,11,13,2,Missed,1,,,0,h,MISS Hezonja 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,347
+0021800623,464,PT11M28.00S,4,1610612752,NYK,203943,Vonleh,N. Vonleh,0,0,0,,0,,,0,h,Vonleh REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,348
+0021800623,465,PT11M28.00S,4,1610612752,NYK,203943,Vonleh,N. Vonleh,0,-6,1,Made,1,84,96,180,h,Vonleh 1' Tip Dunk Shot (12 PTS),Made Shot,Tip Dunk Shot,1,2,349
+0021800623,469,PT11M15.00S,4,1610612754,IND,203124,O'Quinn,K. O'Quinn,0,11,1,Made,1,84,98,182,v,O'Quinn 1' Layup (4 PTS) (Leaf 1 AST),Made Shot,Layup Shot,1,2,350
+0021800623,471,PT11M15.00S,4,1610612752,NYK,203943,Vonleh,N. Vonleh,0,0,0,,0,,,0,h,Vonleh Violation:Defensive Goaltending (K.Scott),Violation,Defensive Goaltending,1,0,351
+0021800623,472,PT11M09.00S,4,1610612754,IND,1628388,Leaf,T. Leaf,0,0,0,,0,,,0,v,Leaf P.FOUL (P3.T1) (K.Mauer),Foul,Personal,1,0,352
+0021800623,474,PT11M03.00S,4,1610612752,NYK,203504,Burke,T. Burke,73,193,21,Missed,1,,,0,h,MISS Burke 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,353
+0021800623,475,PT11M01.00S,4,1610612754,IND,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,354
+0021800623,476,PT10M41.00S,4,1610612754,IND,201936,Evans,T. Evans,221,102,24,Made,1,84,101,185,v,Evans 24' 3PT Jump Shot (10 PTS) (O'Quinn 1 AST),Made Shot,Jump Shot,1,3,355
+0021800623,478,PT10M24.00S,4,1610612752,NYK,203943,Vonleh,N. Vonleh,-108,237,26,Missed,1,,,0,h,MISS Vonleh 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,356
+0021800623,479,PT10M22.00S,4,1610612754,IND,1628388,Leaf,T. Leaf,0,0,0,,0,,,0,v,Leaf REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,357
+0021800623,480,PT10M10.00S,4,1610612754,IND,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn OFF.Foul (P3) (K.Scott),Foul,Offensive,1,0,358
+0021800623,482,PT10M10.00S,4,1610612754,IND,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn Offensive Foul Turnover (P2.T11),Turnover,Offensive Foul Turnover,1,0,359
+0021800623,483,PT09M54.00S,4,1610612752,NYK,203943,Vonleh,N. Vonleh,0,0,0,,0,,,0,h,Vonleh Bad Pass Turnover (P3.T14),Turnover,Bad Pass,1,0,360
+0021800623,483,PT09M54.00S,4,1610612754,IND,201936,Evans,T. Evans,0,0,0,,0,,,0,v,Evans STEAL (1 STL),,,1,0,361
+0021800623,485,PT09M49.00S,4,1610612754,IND,201936,Evans,T. Evans,0,0,0,,0,,,0,v,Evans Bad Pass Turnover (P2.T12),Turnover,Bad Pass,1,0,362
+0021800623,485,PT09M49.00S,4,1610612752,NYK,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja STEAL (3 STL),,,1,0,363
+0021800623,487,PT09M30.00S,4,1610612754,IND,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn S.FOUL (P4.T2) (D.Richardson),Foul,Shooting,1,0,364
+0021800623,489,PT09M30.00S,4,1610612752,NYK,1628422,Dotson,D. Dotson,0,0,0,,0,85,101,186,h,Dotson Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,0,0,365
+0021800623,490,PT09M30.00S,4,1610612752,NYK,1628422,Dotson,D. Dotson,0,0,0,,0,86,101,187,h,Dotson Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,0,0,366
+0021800623,491,PT09M17.00S,4,1610612754,IND,203926,McDermott,D. McDermott,20,52,6,Missed,1,,,0,v,MISS McDermott 6' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,367
+0021800623,492,PT09M15.00S,4,1610612752,NYK,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,368
+0021800623,494,PT08M59.00S,4,0,,1610612752,,,0,0,0,,0,,,0,h,KNICKS Turnover: 5 Second Violation (T#15),Turnover,5 Second Violation,1,0,369
+0021800623,495,PT08M41.00S,4,1610612754,IND,201936,Evans,T. Evans,-13,60,6,Made,1,86,103,189,v,Evans 6' Turnaround Hook Shot (12 PTS) (Leaf 2 AST),Made Shot,Turnaround Hook Shot,1,2,370
+0021800623,497,PT08M31.00S,4,1610612752,NYK,203504,Burke,T. Burke,3,-1,0,Made,1,88,103,191,h,Burke Driving Layup (10 PTS),Made Shot,Driving Layup Shot,1,2,371
+0021800623,498,PT08M17.00S,4,1610612754,IND,201936,Evans,T. Evans,120,195,23,Missed,1,,,0,v,MISS Evans 23' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,372
+0021800623,499,PT08M15.00S,4,1610612754,IND,1628388,Leaf,T. Leaf,0,0,0,,0,,,0,v,Leaf REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,373
+0021800623,500,PT08M11.00S,4,1610612754,IND,203124,O'Quinn,K. O'Quinn,-9,17,2,Made,1,88,105,193,v,O'Quinn 2' Layup (6 PTS),Made Shot,Layup Shot,1,2,374
+0021800623,501,PT07M56.00S,4,1610612752,NYK,203943,Vonleh,N. Vonleh,0,0,0,,0,,,0,h,Vonleh OFF.Foul (P4) (K.Mauer),Foul,Offensive,1,0,375
+0021800623,503,PT07M56.00S,4,1610612752,NYK,203943,Vonleh,N. Vonleh,0,0,0,,0,,,0,h,Vonleh Offensive Foul Turnover (P4.T16),Turnover,Offensive Foul Turnover,1,0,376
+0021800623,504,PT07M56.00S,4,1610612752,NYK,1629019,Trier,A. Trier,0,0,0,,0,,,0,h,SUB: Mudiay FOR Trier,Substitution,,0,0,377
+0021800623,506,PT07M41.00S,4,1610612752,NYK,203943,Vonleh,N. Vonleh,0,0,0,,0,,,0,h,Vonleh P.FOUL (P5.T1) (K.Mauer),Foul,Personal,1,0,378
+0021800623,508,PT07M41.00S,4,1610612752,NYK,203943,Vonleh,N. Vonleh,0,0,0,,0,,,0,h,SUB: Thomas FOR Vonleh,Substitution,,0,0,379
+0021800623,510,PT07M36.00S,4,1610612754,IND,203124,O'Quinn,K. O'Quinn,-73,204,22,Missed,1,,,0,v,MISS O'Quinn 22' Jump Shot,Missed Shot,Jump Shot,1,2,380
+0021800623,511,PT07M34.00S,4,1610612752,NYK,202498,Thomas,L. Thomas,0,0,0,,0,,,0,h,Thomas REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,381
+0021800623,512,PT07M25.00S,4,1610612752,NYK,1628422,Dotson,D. Dotson,16,253,25,Missed,1,,,0,h,MISS Dotson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,382
+0021800623,513,PT07M23.00S,4,1610612754,IND,201936,Evans,T. Evans,0,0,0,,0,,,0,v,Evans REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,383
+0021800623,514,PT07M15.00S,4,1610612754,IND,201936,Evans,T. Evans,-6,11,1,Missed,1,,,0,v,MISS Evans 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,384
+0021800623,515,PT07M13.00S,4,1610612752,NYK,202498,Thomas,L. Thomas,0,0,0,,0,,,0,h,Thomas REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,385
+0021800623,516,PT07M06.00S,4,1610612752,NYK,1626144,Mudiay,E. Mudiay,9,74,7,Missed,1,,,0,h,MISS Mudiay 7' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,386
+0021800623,517,PT07M04.00S,4,1610612754,IND,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,387
+0021800623,518,PT07M04.00S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,388
+0021800623,519,PT07M04.00S,4,1610612752,NYK,1628422,Dotson,D. Dotson,0,0,0,,0,,,0,h,SUB: Hardaway Jr. FOR Dotson,Substitution,,0,0,389
+0021800623,520,PT07M04.00S,4,1610612754,IND,1628388,Leaf,T. Leaf,0,0,0,,0,,,0,v,SUB: Young FOR Leaf,Substitution,,0,0,390
+0021800623,523,PT06M50.00S,4,1610612754,IND,203926,McDermott,D. McDermott,3,6,1,Missed,1,,,0,v,MISS McDermott 1' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,391
+0021800623,524,PT06M48.00S,4,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,h,Hardaway Jr. REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,392
+0021800623,525,PT06M38.00S,4,1610612752,NYK,203504,Burke,T. Burke,14,15,2,Made,1,90,105,195,h,Burke 2' Driving Layup (12 PTS),Made Shot,Driving Layup Shot,1,2,393
+0021800623,526,PT06M28.00S,4,1610612754,IND,202709,Joseph,C. Joseph,125,155,20,Made,1,90,107,197,v,Joseph 20' Pullup Jump Shot (4 PTS),Made Shot,Pullup Jump shot,1,2,394
+0021800623,527,PT06M13.00S,4,1610612752,NYK,203504,Burke,T. Burke,-189,162,25,Missed,1,,,0,h,MISS Burke 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,395
+0021800623,528,PT06M11.00S,4,1610612754,IND,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,396
+0021800623,529,PT06M03.00S,4,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,h,Hardaway Jr. P.FOUL (P2.T2) (K.Mauer),Foul,Personal,1,0,397
+0021800623,531,PT06M03.00S,4,1610612752,NYK,203501,Hardaway Jr.,T. Hardaway Jr.,0,0,0,,0,,,0,h,SUB: Knox II FOR Hardaway Jr.,Substitution,,0,0,398
+0021800623,532,PT06M03.00S,4,1610612754,IND,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,SUB: Sabonis FOR O'Quinn,Substitution,,0,0,399
+0021800623,533,PT06M03.00S,4,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,SUB: Oladipo FOR McDermott,Substitution,,0,0,400
+0021800623,537,PT05M51.00S,4,1610612754,IND,201936,Evans,T. Evans,9,25,3,Missed,1,,,0,v,MISS Evans 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,401
+0021800623,538,PT05M49.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:4 Def:10),Rebound,Unknown,1,0,402
+0021800623,539,PT05M49.00S,4,1610612752,NYK,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja S.FOUL (P3.T3) (K.Mauer),Foul,Shooting,1,0,403
+0021800623,541,PT05M49.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,90,108,198,v,Sabonis Free Throw 1 of 2 (21 PTS),Free Throw,Free Throw 1 of 2,0,0,404
+0021800623,542,PT05M49.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,90,109,199,v,Sabonis Free Throw 2 of 2 (22 PTS),Free Throw,Free Throw 2 of 2,0,0,405
+0021800623,543,PT05M39.00S,4,1610612752,NYK,202498,Thomas,L. Thomas,17,78,8,Missed,1,,,0,h,MISS Thomas 8' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,406
+0021800623,544,PT05M37.00S,4,0,,1610612752,,,0,0,0,,0,,,0,h,KNICKS Rebound,Rebound,Unknown,0,0,407
+0021800623,546,PT05M24.00S,4,1610612752,NYK,1626144,Mudiay,E. Mudiay,133,241,28,Missed,1,,,0,h,MISS Mudiay 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,408
+0021800623,547,PT05M22.00S,4,1610612754,IND,201936,Evans,T. Evans,0,0,0,,0,,,0,v,Evans REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,409
+0021800623,548,PT05M14.00S,4,1610612754,IND,201152,Young,T. Young,-2,7,1,Made,1,90,111,201,v,Young 1' Dunk (13 PTS) (Oladipo 6 AST),Made Shot,Dunk Shot,1,2,410
+0021800623,550,PT05M14.00S,4,0,,1610612752,,,0,0,0,,0,,,0,h,KNICKS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,411
+0021800623,551,PT04M58.00S,4,1610612752,NYK,203504,Burke,T. Burke,56,251,26,Missed,1,,,0,h,MISS Burke 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,412
+0021800623,552,PT04M56.00S,4,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,Joseph REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,413
+0021800623,554,PT04M47.00S,4,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,SUB: McDermott FOR Oladipo,Substitution,,0,0,414
+0021800623,556,PT04M42.00S,4,1610612754,IND,202709,Joseph,C. Joseph,158,107,19,Missed,1,,,0,v,MISS Joseph 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,415
+0021800623,557,PT04M40.00S,4,1610612752,NYK,202498,Thomas,L. Thomas,0,0,0,,0,,,0,h,Thomas REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,416
+0021800623,558,PT04M29.00S,4,1610612752,NYK,1628995,Knox II,K. Knox II,77,243,25,Missed,1,,,0,h,MISS Knox II 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,417
+0021800623,559,PT04M27.00S,4,1610612752,NYK,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,418
+0021800623,560,PT04M24.00S,4,1610612752,NYK,1626144,Mudiay,E. Mudiay,-5,255,26,Made,1,93,111,204,h,Mudiay 26' 3PT Jump Shot (16 PTS) (Hezonja 2 AST),Made Shot,Jump Shot,1,3,419
+0021800623,562,PT04M02.00S,4,1610612754,IND,203926,McDermott,D. McDermott,-239,12,24,Made,1,93,114,207,v,McDermott 24' 3PT Jump Shot (10 PTS) (Young 2 AST),Made Shot,Jump Shot,1,3,420
+0021800623,564,PT03M50.00S,4,1610612752,NYK,203504,Burke,T. Burke,11,11,2,Missed,1,,,0,h,MISS Burke 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,421
+0021800623,565,PT03M49.00S,4,0,,1610612752,,,0,0,0,,0,,,0,h,KNICKS Rebound,Rebound,Unknown,1,0,422
+0021800623,567,PT03M40.00S,4,1610612752,NYK,1626144,Mudiay,E. Mudiay,9,15,2,Made,1,95,114,209,h,Mudiay 2' Driving Reverse Layup (18 PTS),Made Shot,Driving Reverse Layup Shot,1,2,423
+0021800623,568,PT03M28.00S,4,1610612752,NYK,1626144,Mudiay,E. Mudiay,0,0,0,,0,,,0,h,Mudiay P.FOUL (P1.T4) (K.Scott),Foul,Personal,1,0,424
+0021800623,570,PT03M23.00S,4,1610612754,IND,203926,McDermott,D. McDermott,-5,15,2,Made,1,95,116,211,v,McDermott 2' Cutting Layup Shot (12 PTS) (Young 3 AST),Made Shot,Cutting Layup Shot,1,2,425
+0021800623,572,PT03M06.00S,4,1610612752,NYK,1626144,Mudiay,E. Mudiay,-42,250,25,Made,1,98,116,214,h,Mudiay 25' 3PT Jump Shot (21 PTS) (Burke 3 AST),Made Shot,Jump Shot,1,3,426
+0021800623,574,PT03M05.00S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,427
+0021800623,575,PT03M05.00S,4,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,SUB: Leaf FOR Young,Substitution,,0,0,428
+0021800623,577,PT02M49.00S,4,1610612754,IND,202709,Joseph,C. Joseph,0,6,1,Made,1,98,118,216,v,Joseph 1' Driving Layup (6 PTS) (Sabonis 3 AST),Made Shot,Driving Layup Shot,1,2,429
+0021800623,579,PT02M34.00S,4,1610612752,NYK,1628995,Knox II,K. Knox II,25,53,6,Made,1,100,118,218,h,Knox II 6' Hook Shot (9 PTS) (Mudiay 3 AST),Made Shot,Hook Shot,1,2,430
+0021800623,581,PT02M18.00S,4,1610612754,IND,201936,Evans,T. Evans,54,253,26,Missed,1,,,0,v,MISS Evans 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,431
+0021800623,582,PT02M16.00S,4,1610612752,NYK,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,432
+0021800623,583,PT02M09.00S,4,1610612752,NYK,1626209,Hezonja,M. Hezonja,-3,1,0,Missed,1,,,0,h,MISS Hezonja Driving Layup,Missed Shot,Driving Layup Shot,1,2,433
+0021800623,584,PT02M07.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:4 Def:11),Rebound,Unknown,1,0,434
+0021800623,585,PT02M06.00S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,435
+0021800623,586,PT02M06.00S,4,1610612752,NYK,1626144,Mudiay,E. Mudiay,0,0,0,,0,,,0,h,SUB: Trier FOR Mudiay,Substitution,,0,0,436
+0021800623,587,PT02M06.00S,4,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,SUB: Sumner FOR Joseph,Substitution,,0,0,437
+0021800623,588,PT02M06.00S,4,1610612754,IND,201936,Evans,T. Evans,0,0,0,,0,,,0,v,SUB: Johnson FOR Evans,Substitution,,0,0,438
+0021800623,589,PT02M06.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: Holiday FOR Sabonis,Substitution,,0,0,439
+0021800623,594,PT01M54.00S,4,1610612754,IND,1628388,Leaf,T. Leaf,0,0,0,,0,,,0,v,Leaf Lost Ball Turnover (P1.T13),Turnover,Lost Ball,1,0,440
+0021800623,594,PT01M54.00S,4,1610612752,NYK,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja STEAL (4 STL),,,1,0,441
+0021800623,596,PT01M41.00S,4,1610612752,NYK,1628995,Knox II,K. Knox II,136,224,26,Made,1,103,118,221,h,Knox II 26' 3PT Jump Shot (12 PTS),Made Shot,Jump Shot,1,3,442
+0021800623,597,PT01M31.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,87,253,27,Missed,1,,,0,v,MISS Holiday 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,443
+0021800623,598,PT01M29.00S,4,1610612752,NYK,203504,Burke,T. Burke,0,0,0,,0,,,0,h,Burke REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,444
+0021800623,599,PT01M18.00S,4,1610612752,NYK,1628995,Knox II,K. Knox II,33,203,21,Missed,1,,,0,h,MISS Knox II 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,445
+0021800623,600,PT01M16.00S,4,1610612752,NYK,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,446
+0021800623,602,PT01M05.00S,4,1610612752,NYK,1628995,Knox II,K. Knox II,12,53,5,Made,1,105,118,223,h,Knox II 5' Driving Layup (14 PTS) (Trier 2 AST),Made Shot,Driving Layup Shot,1,2,447
+0021800623,603,PT00M57.80S,4,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,McDermott Bad Pass Turnover (P1.T14),Turnover,Bad Pass,1,0,448
+0021800623,603,PT00M57.80S,4,1610612752,NYK,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja STEAL (5 STL),,,1,0,449
+0021800623,605,PT00M56.50S,4,1610612754,IND,1628388,Leaf,T. Leaf,0,0,0,,0,,,0,v,Leaf S.FOUL (P4.T3) (K.Scott),Foul,Shooting,1,0,450
+0021800623,607,PT00M56.50S,4,1610612752,NYK,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,MISS Hezonja Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,451
+0021800623,608,PT00M56.50S,4,0,,1610612752,,,0,0,0,,0,,,0,h,KNICKS Rebound,Rebound,Normal Rebound,0,0,452
+0021800623,609,PT00M56.50S,4,1610612752,NYK,1626209,Hezonja,M. Hezonja,0,0,0,,0,106,118,224,h,Hezonja Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,0,0,453
+0021800623,610,PT00M36.20S,4,1610612754,IND,1628993,Johnson,A. Johnson,30,52,6,Missed,1,,,0,v,MISS Johnson 6' Running Jump Shot,Missed Shot,Running Jump Shot,1,2,454
+0021800623,611,PT00M34.80S,4,0,,1610612752,,,0,0,0,,0,,,0,h,KNICKS Rebound,Rebound,Unknown,0,0,455
+0021800623,613,PT00M28.30S,4,1610612752,NYK,1628995,Knox II,K. Knox II,0,0,0,,0,,,0,h,Knox II Out of Bounds - Bad Pass Turnover Turnover (P3.T17),Turnover,Out of Bounds - Bad Pass Turnover,1,0,456
+0021800623,614,PT00M08.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,166,199,26,Made,1,106,121,227,v,Holiday 26' 3PT Pullup Jump Shot (3 PTS),Made Shot,Pullup Jump shot,1,3,457
+0021800623,615,PT00M00.00S,4,0,,0,,,0,0,0,,0,106,121,227,,End of 4th Period (9:59 PM EST),period,end,1,0,458

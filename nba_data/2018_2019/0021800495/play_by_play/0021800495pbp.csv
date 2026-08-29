@@ -1,0 +1,543 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021800495,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (9:13 PM EST),period,start,0,0,1
+0021800495,4,PT12M00.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Jump Ball Nurkic vs. Jordan: Tip to Brunson,Jump Ball,,1,0,2
+0021800495,7,PT11M45.00S,1,1610612742,DAL,201599,Jordan,D. Jordan,-5,8,1,Made,1,0,2,2,v,Jordan 1' Layup (2 PTS) (Doncic 1 AST),Made Shot,Layup Shot,1,2,3
+0021800495,9,PT11M23.00S,1,1610612757,POR,203090,Harkless,M. Harkless,-74,130,15,Missed,1,,,0,h,MISS Harkless 15' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,4
+0021800495,10,PT11M21.00S,1,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,5
+0021800495,11,PT11M09.00S,1,1610612742,DAL,201599,Jordan,D. Jordan,3,9,1,Made,1,0,4,4,v,Jordan 1' Cutting Dunk Shot (4 PTS) (Matthews 1 AST),Made Shot,Cutting Dunk Shot,1,2,6
+0021800495,13,PT11M09.00S,1,1610612757,POR,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,Harkless S.FOUL (P1.T1) (B.Nansel),Foul,Shooting,1,0,7
+0021800495,15,PT11M09.00S,1,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,0,5,5,v,Jordan Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,0,0,8
+0021800495,16,PT10M57.00S,1,1610612757,POR,203468,McCollum,C. McCollum,-54,200,21,Made,1,2,5,7,h,McCollum 21' Pullup Jump Shot (2 PTS) (Nurkic 1 AST),Made Shot,Pullup Jump shot,1,2,9
+0021800495,17,PT10M45.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,25,20,3,Made,1,2,7,9,v,Doncic 3' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,10
+0021800495,19,PT10M34.00S,1,1610612757,POR,203081,Lillard,D. Lillard,54,188,20,Made,1,4,7,11,h,Lillard 20' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,11
+0021800495,21,PT10M16.00S,1,1610612742,DAL,203084,Barnes,H. Barnes,226,4,0,Made,1,4,10,14,v,Barnes 3PT Jump Shot (3 PTS) (Doncic 2 AST),Made Shot,Jump Shot,1,3,12
+0021800495,23,PT10M03.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,-2,11,1,Made,1,6,10,16,h,Nurkic 1' Cutting Layup Shot (2 PTS) (Lillard 1 AST),Made Shot,Cutting Layup Shot,1,2,13
+0021800495,25,PT09M45.00S,1,1610612742,DAL,202083,Matthews,W. Matthews,-31,250,25,Missed,1,,,0,v,MISS Matthews 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,14
+0021800495,25,PT09M45.00S,1,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,h,Lillard BLOCK (1 BLK),,,1,3,15
+0021800495,26,PT09M41.00S,1,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,h,McCollum REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,16
+0021800495,27,PT09M36.00S,1,1610612757,POR,203468,McCollum,C. McCollum,-9,258,26,Missed,1,,,0,h,MISS McCollum 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,17
+0021800495,28,PT09M32.00S,1,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,18
+0021800495,29,PT09M25.00S,1,1610612742,DAL,203084,Barnes,H. Barnes,-2,45,5,Missed,1,,,0,v,MISS Barnes 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,19
+0021800495,30,PT09M25.00S,1,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,h,Lillard REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,20
+0021800495,31,PT09M16.00S,1,1610612757,POR,203081,Lillard,D. Lillard,8,2,1,Missed,1,,,0,h,MISS Lillard 1' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,21
+0021800495,32,PT09M14.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,22
+0021800495,34,PT09M10.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,19,250,25,Made,1,6,13,19,v,Doncic 25' 3PT Running Pull-Up Jump Shot (5 PTS),Made Shot,Running Pull-Up Jump Shot,1,3,23
+0021800495,35,PT08M55.00S,1,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,Matthews P.FOUL (P1.T1) (Z.Zarba),Foul,Personal,1,0,24
+0021800495,37,PT08M50.00S,1,1610612757,POR,203081,Lillard,D. Lillard,-47,253,26,Missed,1,,,0,h,MISS Lillard 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,25
+0021800495,38,PT08M47.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,26
+0021800495,39,PT08M41.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,14,10,2,Missed,1,,,0,v,MISS Doncic 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,27
+0021800495,40,PT08M39.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,28
+0021800495,41,PT08M25.00S,1,1610612757,POR,203090,Harkless,M. Harkless,-9,5,1,Made,1,8,13,21,h,Harkless 1' Driving Finger Roll Layup (2 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,29
+0021800495,42,PT08M04.00S,1,1610612742,DAL,202083,Matthews,W. Matthews,-216,124,25,Missed,1,,,0,v,MISS Matthews 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,30
+0021800495,43,PT08M02.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,31
+0021800495,44,PT07M52.00S,1,1610612757,POR,202329,Aminu,A. Aminu,-2,-8,1,Made,1,10,13,23,h,Aminu 1' Driving Dunk (2 PTS) (Lillard 2 AST),Made Shot,Driving Dunk Shot,1,2,32
+0021800495,46,PT07M33.00S,1,1610612742,DAL,1628973,Brunson,J. Brunson,14,17,2,Made,1,10,15,25,v,Brunson 2' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,33
+0021800495,47,PT07M19.00S,1,1610612757,POR,203081,Lillard,D. Lillard,3,6,1,Made,1,12,15,27,h,Lillard 1' Cutting Layup Shot (4 PTS) (Nurkic 2 AST),Made Shot,Cutting Layup Shot,1,2,34
+0021800495,49,PT07M03.00S,1,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,h,Lillard P.FOUL (P1.T2) (T.Maddox),Foul,Personal,1,0,35
+0021800495,51,PT06M53.00S,1,1610612742,DAL,201599,Jordan,D. Jordan,33,20,4,Missed,1,,,0,v,MISS Jordan 4' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,36
+0021800495,52,PT06M48.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,37
+0021800495,53,PT06M48.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,-6,1,Made,1,12,17,29,v,Doncic 1' Tip Layup Shot (7 PTS),Made Shot,Tip Layup Shot,1,2,38
+0021800495,54,PT06M42.00S,1,1610612757,POR,203081,Lillard,D. Lillard,180,-1,18,Made,1,14,17,31,h,Lillard 18' Step Back Jump Shot (6 PTS),Made Shot,Step Back Jump shot,1,2,39
+0021800495,55,PT06M28.00S,1,1610612742,DAL,203084,Barnes,H. Barnes,231,35,0,Missed,1,,,0,v,MISS Barnes 3PT Jump Shot,Missed Shot,Jump Shot,1,3,40
+0021800495,56,PT06M27.00S,1,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,41
+0021800495,58,PT06M27.00S,1,0,,1610612757,,,0,0,0,,0,,,0,h,TRAIL BLAZERS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,42
+0021800495,59,PT06M19.00S,1,1610612742,DAL,201599,Jordan,D. Jordan,7,-10,1,Made,1,14,19,33,v,Jordan 1' Alley Oop Dunk (7 PTS) (Doncic 3 AST),Made Shot,Alley Oop Dunk Shot,1,2,43
+0021800495,61,PT06M04.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,5,16,2,Made,1,16,19,35,h,Nurkic 2' Dunk (4 PTS) (McCollum 1 AST),Made Shot,Dunk Shot,1,2,44
+0021800495,63,PT05M45.00S,1,1610612742,DAL,202083,Matthews,W. Matthews,-147,124,19,Missed,1,,,0,v,MISS Matthews 19' Jump Shot,Missed Shot,Jump Shot,1,2,45
+0021800495,64,PT05M43.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,46
+0021800495,65,PT05M39.00S,1,1610612757,POR,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,Harkless OFF.Foul (P2) (Z.Zarba),Foul,Offensive,1,0,47
+0021800495,67,PT05M39.00S,1,1610612757,POR,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,Harkless Offensive Foul Turnover (P1.T1),Turnover,Offensive Foul Turnover,1,0,48
+0021800495,68,PT05M39.00S,1,1610612757,POR,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,SUB: Turner FOR Harkless,Substitution,,0,0,49
+0021800495,70,PT05M27.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,-98,75,12,Missed,1,,,0,v,MISS Doncic 12' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,50
+0021800495,71,PT05M25.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,51
+0021800495,72,PT05M15.00S,1,1610612757,POR,202323,Turner,E. Turner,21,25,3,Missed,1,,,0,h,MISS Turner 3' Hook Bank Shot,Missed Shot,Hook Bank Shot,1,2,52
+0021800495,73,PT05M13.00S,1,1610612757,POR,202323,Turner,E. Turner,0,0,0,,0,,,0,h,Turner REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,53
+0021800495,74,PT05M12.00S,1,1610612757,POR,202323,Turner,E. Turner,-8,11,1,Missed,1,,,0,h,MISS Turner 1' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,54
+0021800495,75,PT05M12.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,55
+0021800495,76,PT05M12.00S,1,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan S.FOUL (P1.T2) (Z.Zarba),Foul,Shooting,1,0,56
+0021800495,78,PT05M12.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,MISS Nurkic Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,57
+0021800495,79,PT05M12.00S,1,0,,1610612757,,,0,0,0,,0,,,0,h,TRAIL BLAZERS Rebound,Rebound,Normal Rebound,0,0,58
+0021800495,80,PT05M12.00S,1,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Lane,Violation,Lane,0,0,59
+0021800495,81,PT05M12.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,MISS Nurkic Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,60
+0021800495,82,PT05M09.00S,1,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,Matthews REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,61
+0021800495,83,PT04M47.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,-143,64,16,Missed,1,,,0,v,MISS Doncic 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,62
+0021800495,84,PT04M47.00S,1,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,63
+0021800495,85,PT04M47.00S,1,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Turnover: Shot Clock (T#1),Turnover,Shot Clock Turnover,0,0,64
+0021800495,86,PT04M31.00S,1,1610612757,POR,203081,Lillard,D. Lillard,-110,184,21,Missed,1,,,0,h,MISS Lillard 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,65
+0021800495,87,PT04M31.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,66
+0021800495,92,PT04M31.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,4,1,0,Missed,1,,,0,h,MISS Nurkic Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,67
+0021800495,93,PT04M31.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,68
+0021800495,88,PT04M27.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,-11,-14,2,Made,1,18,19,37,h,Nurkic 2' Putback Layup (6 PTS),Made Shot,Putback Layup Shot,1,2,69
+0021800495,89,PT04M09.00S,1,1610612742,DAL,1628973,Brunson,J. Brunson,38,96,10,Made,1,18,21,39,v,Brunson 10' Pullup Jump Shot (4 PTS),Made Shot,Pullup Jump shot,1,2,70
+0021800495,90,PT03M54.00S,1,1610612757,POR,203081,Lillard,D. Lillard,-12,264,26,Made,1,21,21,42,h,Lillard 26' 3PT Pullup Jump Shot (9 PTS),Made Shot,Pullup Jump shot,1,3,71
+0021800495,91,PT03M52.00S,1,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,72
+0021800495,94,PT03M52.00S,1,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,h,SUB: Curry FOR McCollum,Substitution,,0,0,73
+0021800495,95,PT03M52.00S,1,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,SUB: Barea FOR Brunson,Substitution,,0,0,74
+0021800495,98,PT03M35.00S,1,1610612742,DAL,200826,Barea,J. Barea,19,21,3,Missed,1,,,0,v,MISS Barea 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,75
+0021800495,99,PT03M33.00S,1,1610612757,POR,202329,Aminu,A. Aminu,0,0,0,,0,,,0,h,Aminu REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,76
+0021800495,100,PT03M21.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,-19,36,4,Missed,1,,,0,h,MISS Nurkic 4' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,77
+0021800495,101,PT03M19.00S,1,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,78
+0021800495,102,PT03M06.00S,1,1610612742,DAL,202083,Matthews,W. Matthews,-21,67,7,Missed,1,,,0,v,MISS Matthews 7' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,79
+0021800495,103,PT03M04.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,80
+0021800495,104,PT02M58.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic OFF.Foul (P1) (Z.Zarba),Foul,Offensive,1,0,81
+0021800495,106,PT02M58.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic Offensive Foul Turnover (P1.T2),Turnover,Offensive Foul Turnover,1,0,82
+0021800495,107,PT02M58.00S,1,1610612757,POR,202329,Aminu,A. Aminu,0,0,0,,0,,,0,h,SUB: Collins FOR Aminu,Substitution,,0,0,83
+0021800495,108,PT02M58.00S,1,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,SUB: Leonard FOR Nurkic,Substitution,,0,0,84
+0021800495,109,PT02M58.00S,1,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,SUB: Finney-Smith FOR Jordan,Substitution,,0,0,85
+0021800495,110,PT02M58.00S,1,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,SUB: Powell FOR Matthews,Substitution,,0,0,86
+0021800495,111,PT02M58.00S,1,1610612742,DAL,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,SUB: Kleber FOR Barnes,Substitution,,0,0,87
+0021800495,112,PT02M58.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,SUB: Harris FOR Doncic,Substitution,,0,0,88
+0021800495,119,PT02M51.00S,1,1610612742,DAL,203939,Powell,D. Powell,94,229,25,Missed,1,,,0,v,MISS Powell 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,89
+0021800495,120,PT02M48.00S,1,1610612757,POR,1628380,Collins,Z. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,90
+0021800495,121,PT02M34.00S,1,1610612757,POR,202323,Turner,E. Turner,-36,47,6,Missed,1,,,0,h,MISS Turner 6' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,91
+0021800495,121,PT02M34.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber BLOCK (1 BLK),,,1,2,92
+0021800495,123,PT02M30.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,93
+0021800495,124,PT02M18.00S,1,1610612742,DAL,200826,Barea,J. Barea,-24,50,6,Missed,1,,,0,v,MISS Barea 6' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,94
+0021800495,125,PT02M15.00S,1,1610612757,POR,202323,Turner,E. Turner,0,0,0,,0,,,0,h,Turner REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,95
+0021800495,126,PT02M10.00S,1,1610612757,POR,203086,Leonard,M. Leonard,-3,279,28,Missed,1,,,0,h,MISS Leonard 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,96
+0021800495,127,PT02M07.00S,1,1610612742,DAL,2734,Harris,D. Harris,0,0,0,,0,,,0,v,Harris REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,97
+0021800495,128,PT02M01.00S,1,1610612757,POR,203086,Leonard,M. Leonard,0,0,0,,0,,,0,h,Leonard S.FOUL (P1.T3) (Z.Zarba),Foul,Shooting,1,0,98
+0021800495,130,PT02M01.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,21,22,43,v,Powell Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,99
+0021800495,131,PT02M01.00S,1,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,h,SUB: Stauskas FOR Lillard,Substitution,,0,0,100
+0021800495,133,PT02M01.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,21,23,44,v,Powell Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,101
+0021800495,134,PT01M50.00S,1,1610612757,POR,1628380,Collins,Z. Collins,0,0,0,,0,,,0,h,Collins Traveling Turnover (P1.T3),Turnover,Traveling,1,0,102
+0021800495,135,PT01M36.00S,1,1610612742,DAL,2734,Harris,D. Harris,23,10,3,Missed,1,,,0,v,MISS Harris 3' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,103
+0021800495,136,PT01M33.00S,1,1610612757,POR,203917,Stauskas,N. Stauskas,0,0,0,,0,,,0,h,Stauskas REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,104
+0021800495,137,PT01M29.00S,1,1610612757,POR,1628380,Collins,Z. Collins,-40,29,5,Missed,1,,,0,h,MISS Collins 5' Running Layup,Missed Shot,Running Layup Shot,1,2,105
+0021800495,138,PT01M24.00S,1,1610612757,POR,202323,Turner,E. Turner,0,0,0,,0,,,0,h,Turner REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,106
+0021800495,139,PT01M24.00S,1,1610612757,POR,202323,Turner,E. Turner,0,-6,1,Made,1,23,23,46,h,Turner 1' Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,107
+0021800495,140,PT01M19.00S,1,1610612742,DAL,203939,Powell,D. Powell,9,11,1,Made,1,23,25,48,v,Powell 1' Cutting Dunk Shot (4 PTS) (Barea 1 AST),Made Shot,Cutting Dunk Shot,1,2,108
+0021800495,142,PT01M01.00S,1,1610612757,POR,203086,Leonard,M. Leonard,6,13,1,Made,1,25,25,50,h,Leonard 1' Layup (2 PTS) (Curry 1 AST),Made Shot,Layup Shot,1,2,109
+0021800495,144,PT00M48.50S,1,1610612757,POR,203552,Curry,S. Curry,0,0,0,,0,,,0,h,Curry S.FOUL (P1.T4) (T.Maddox),Foul,Shooting,1,0,110
+0021800495,146,PT00M48.50S,1,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,25,26,51,v,Barea Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,111
+0021800495,147,PT00M48.50S,1,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,25,27,52,v,Barea Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,112
+0021800495,148,PT00M31.80S,1,1610612757,POR,1628380,Collins,Z. Collins,-153,201,25,Missed,1,,,0,h,MISS Collins 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,113
+0021800495,149,PT00M29.20S,1,1610612742,DAL,2734,Harris,D. Harris,0,0,0,,0,,,0,v,Harris REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,114
+0021800495,150,PT00M11.80S,1,1610612742,DAL,2734,Harris,D. Harris,152,114,19,Missed,1,,,0,v,MISS Harris 19' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,115
+0021800495,151,PT00M09.80S,1,1610612757,POR,1628380,Collins,Z. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,116
+0021800495,152,PT00M07.60S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber Personal Take Foul (P1.T3) (B.Nansel),Foul,Personal Take,1,0,117
+0021800495,154,PT00M07.60S,1,1610612757,POR,203086,Leonard,M. Leonard,0,0,0,,0,,,0,h,SUB: Lillard FOR Leonard,Substitution,,0,0,118
+0021800495,155,PT00M07.60S,1,1610612757,POR,1628380,Collins,Z. Collins,0,0,0,,0,,,0,h,SUB: McCollum FOR Collins,Substitution,,0,0,119
+0021800495,158,PT00M01.30S,1,1610612757,POR,203468,McCollum,C. McCollum,51,196,20,Missed,1,,,0,h,MISS McCollum 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,120
+0021800495,159,PT00M01.30S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,121
+0021800495,160,PT00M00.00S,1,0,,0,,,0,0,0,,0,25,27,52,,End of 1st Period (9:37 PM EST),period,end,1,0,122
+0021800495,165,PT12M00.00S,2,0,,0,,,0,0,0,,0,25,27,52,,Start of 2nd Period (9:40 PM EST),period,start,0,0,123
+0021800495,166,PT11M43.00S,2,1610612757,POR,203552,Curry,S. Curry,-230,6,0,Missed,1,,,0,h,MISS Curry 3PT Jump Shot,Missed Shot,Jump Shot,1,3,124
+0021800495,167,PT11M38.00S,2,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,125
+0021800495,168,PT11M30.00S,2,1610612742,DAL,2734,Harris,D. Harris,128,226,26,Missed,1,,,0,v,MISS Harris 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,126
+0021800495,169,PT11M25.00S,2,1610612757,POR,1628380,Collins,Z. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,127
+0021800495,170,PT11M18.00S,2,1610612757,POR,202323,Turner,E. Turner,-25,8,3,Missed,1,,,0,h,MISS Turner 3' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,128
+0021800495,170,PT11M18.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber BLOCK (2 BLK),,,1,2,129
+0021800495,172,PT11M17.00S,2,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,Barea REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,130
+0021800495,173,PT11M17.00S,2,1610612757,POR,202323,Turner,E. Turner,0,0,0,,0,,,0,h,Turner P.FOUL (P1.T1) (T.Maddox),Foul,Personal,1,0,131
+0021800495,175,PT11M07.00S,2,1610612742,DAL,200826,Barea,J. Barea,6,68,7,Missed,1,,,0,v,MISS Barea 7' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,132
+0021800495,176,PT11M04.00S,2,1610612757,POR,203086,Leonard,M. Leonard,0,0,0,,0,,,0,h,Leonard REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,133
+0021800495,177,PT10M55.00S,2,1610612757,POR,203917,Stauskas,N. Stauskas,-2,4,0,Made,1,27,27,54,h,Stauskas Driving Finger Roll Layup (2 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,134
+0021800495,178,PT10M46.00S,2,1610612757,POR,203086,Leonard,M. Leonard,0,0,0,,0,,,0,h,Leonard P.FOUL (P2.T2) (T.Maddox),Foul,Personal,1,0,135
+0021800495,180,PT10M39.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,82,245,26,Made,1,27,30,57,v,Kleber 26' 3PT Jump Shot (3 PTS) (Barea 2 AST),Made Shot,Jump Shot,1,3,136
+0021800495,182,PT10M15.00S,2,1610612757,POR,203552,Curry,S. Curry,-234,-16,0,Made,1,30,30,60,h,Curry 3PT Jump Shot (3 PTS) (Stauskas 1 AST),Made Shot,Jump Shot,1,3,137
+0021800495,184,PT09M56.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,-59,46,7,Made,1,30,32,62,v,Kleber 7' Fadeaway Jumper (5 PTS) (Barea 3 AST),Made Shot,Fadeaway Jump Shot,1,2,138
+0021800495,185,PT09M38.00S,2,1610612757,POR,202323,Turner,E. Turner,0,0,0,,0,,,0,h,Turner Out of Bounds - Bad Pass Turnover Turnover (P1.T4),Turnover,Out of Bounds - Bad Pass Turnover,1,0,139
+0021800495,187,PT09M17.00S,2,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith Offensive Goaltending Turnover (P1.T2),Turnover,Offensive Goaltending,1,0,140
+0021800495,188,PT09M05.00S,2,1610612757,POR,1628380,Collins,Z. Collins,-234,8,0,Made,1,33,32,65,h,Collins 3PT Jump Shot (3 PTS) (Stauskas 2 AST),Made Shot,Jump Shot,1,3,141
+0021800495,190,PT08M51.00S,2,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,Barea Lost Ball Turnover (P1.T3),Turnover,Lost Ball,1,0,142
+0021800495,190,PT08M51.00S,2,1610612757,POR,203552,Curry,S. Curry,0,0,0,,0,,,0,h,Curry STEAL (1 STL),,,1,0,143
+0021800495,192,PT08M48.00S,2,1610612757,POR,203552,Curry,S. Curry,232,83,25,Made,1,36,32,68,h,Curry 25' 3PT Running Pull-Up Jump Shot (6 PTS),Made Shot,Running Pull-Up Jump Shot,1,3,144
+0021800495,193,PT08M47.00S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,145
+0021800495,194,PT08M47.00S,2,0,,188,,,0,0,0,,0,36,32,68,,Instant Replay2nd Period (9:44 PM EST),Instant Replay,Support Ruling,0,0,146
+0021800495,195,PT08M33.00S,2,1610612757,POR,203086,Leonard,M. Leonard,0,0,0,,0,,,0,h,TRAIL BLAZERS T.Foul (Def. 3 Sec Leonard ) (Z.Zarba),Foul,Defense 3 Second,1,0,147
+0021800495,196,PT08M33.00S,2,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,36,33,69,v,Barea Free Throw Technical (3 PTS),Free Throw,Free Throw Technical,0,0,148
+0021800495,197,PT08M25.00S,2,1610612742,DAL,203939,Powell,D. Powell,101,231,25,Missed,1,,,0,v,MISS Powell 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,149
+0021800495,198,PT08M22.00S,2,1610612757,POR,1628380,Collins,Z. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,150
+0021800495,199,PT08M15.00S,2,1610612757,POR,203552,Curry,S. Curry,98,226,25,Missed,1,,,0,h,MISS Curry 25' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,151
+0021800495,200,PT08M14.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,152
+0021800495,201,PT08M04.00S,2,1610612757,POR,203086,Leonard,M. Leonard,0,0,0,,0,,,0,h,Leonard S.FOUL (P3.T3) (Z.Zarba),Foul,Shooting,1,0,153
+0021800495,203,PT08M04.00S,2,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,36,34,70,v,Powell Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,0,0,154
+0021800495,204,PT08M04.00S,2,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,36,35,71,v,Powell Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,0,0,155
+0021800495,205,PT07M47.00S,2,1610612757,POR,203917,Stauskas,N. Stauskas,-228,67,24,Missed,1,,,0,h,MISS Stauskas 24' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,156
+0021800495,206,PT07M47.00S,2,0,,1610612757,,,0,0,0,,0,,,0,h,TRAIL BLAZERS Rebound,Rebound,Unknown,1,0,157
+0021800495,207,PT07M47.00S,2,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,Barea L.B.FOUL (P1.T1) (Z.Zarba),Foul,Loose Ball,1,0,158
+0021800495,209,PT07M41.00S,2,1610612757,POR,203086,Leonard,M. Leonard,-1,13,1,Made,1,38,35,73,h,Leonard 1' Alley Oop Dunk (4 PTS) (Curry 2 AST),Made Shot,Alley Oop Dunk Shot,1,2,159
+0021800495,211,PT07M28.00S,2,1610612742,DAL,203939,Powell,D. Powell,6,5,1,Made,1,38,37,75,v,Powell 1' Alley Oop Dunk (8 PTS) (Barea 4 AST),Made Shot,Alley Oop Dunk Shot,1,2,160
+0021800495,213,PT07M15.00S,2,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell Violation:Kicked Ball (B.Nansel),Violation,Kicked Ball,0,0,161
+0021800495,214,PT07M02.00S,2,1610612757,POR,202323,Turner,E. Turner,174,109,21,Missed,1,,,0,h,MISS Turner 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,162
+0021800495,215,PT06M58.00S,2,1610612742,DAL,2734,Harris,D. Harris,0,0,0,,0,,,0,v,Harris REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,163
+0021800495,216,PT06M54.00S,2,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,2,10,1,Made,1,38,39,77,v,Finney-Smith 1' Driving Dunk (2 PTS),Made Shot,Driving Dunk Shot,1,2,164
+0021800495,217,PT06M38.00S,2,1610612757,POR,203917,Stauskas,N. Stauskas,176,168,24,Missed,1,,,0,h,MISS Stauskas 24' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,165
+0021800495,218,PT06M35.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,166
+0021800495,220,PT06M22.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,-65,239,25,Missed,1,,,0,v,MISS Kleber 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,167
+0021800495,221,PT06M20.00S,2,1610612757,POR,203917,Stauskas,N. Stauskas,0,0,0,,0,,,0,h,Stauskas REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,168
+0021800495,222,PT06M17.00S,2,1610612757,POR,1628380,Collins,Z. Collins,3,7,1,Made,1,40,39,79,h,Collins 1' Layup (5 PTS) (Stauskas 3 AST),Made Shot,Layup Shot,1,2,169
+0021800495,224,PT05M57.00S,2,1610612742,DAL,203939,Powell,D. Powell,-6,4,1,Made,1,40,41,81,v,Powell 1' Layup (10 PTS) (Barea 5 AST),Made Shot,Layup Shot,1,2,170
+0021800495,226,PT05M44.00S,2,1610612757,POR,203917,Stauskas,N. Stauskas,0,0,0,,0,,,0,h,Stauskas Out of Bounds - Bad Pass Turnover Turnover (P1.T5),Turnover,Out of Bounds - Bad Pass Turnover,1,0,171
+0021800495,227,PT05M44.00S,2,1610612757,POR,202323,Turner,E. Turner,0,0,0,,0,,,0,h,SUB: Lillard FOR Turner,Substitution,,0,0,172
+0021800495,228,PT05M44.00S,2,1610612757,POR,203917,Stauskas,N. Stauskas,0,0,0,,0,,,0,h,SUB: Harkless FOR Stauskas,Substitution,,0,0,173
+0021800495,229,PT05M44.00S,2,1610612757,POR,203552,Curry,S. Curry,0,0,0,,0,,,0,h,SUB: Aminu FOR Curry,Substitution,,0,0,174
+0021800495,230,PT05M44.00S,2,1610612757,POR,203086,Leonard,M. Leonard,0,0,0,,0,,,0,h,SUB: Nurkic FOR Leonard,Substitution,,0,0,175
+0021800495,231,PT05M44.00S,2,1610612757,POR,1628380,Collins,Z. Collins,0,0,0,,0,,,0,h,SUB: McCollum FOR Collins,Substitution,,0,0,176
+0021800495,232,PT05M44.00S,2,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,SUB: Jordan FOR Powell,Substitution,,0,0,177
+0021800495,239,PT05M28.00S,2,1610612742,DAL,2734,Harris,D. Harris,13,24,3,Missed,1,,,0,v,MISS Harris 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,178
+0021800495,239,PT05M28.00S,2,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic BLOCK (1 BLK),,,1,2,179
+0021800495,241,PT05M28.00S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,180
+0021800495,243,PT05M28.00S,2,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,SUB: Doncic FOR Finney-Smith,Substitution,,0,0,181
+0021800495,244,PT05M28.00S,2,1610612742,DAL,2734,Harris,D. Harris,0,0,0,,0,,,0,v,SUB: Matthews FOR Harris,Substitution,,0,0,182
+0021800495,245,PT05M28.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,SUB: Barnes FOR Kleber,Substitution,,0,0,183
+0021800495,249,PT05M24.00S,2,1610612742,DAL,200826,Barea,J. Barea,154,199,25,Missed,1,,,0,v,MISS Barea 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,184
+0021800495,250,PT05M20.00S,2,1610612757,POR,202329,Aminu,A. Aminu,0,0,0,,0,,,0,h,Aminu REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,185
+0021800495,251,PT05M13.00S,2,1610612757,POR,203081,Lillard,D. Lillard,-11,17,2,Made,1,42,41,83,h,Lillard 2' Cutting Layup Shot (11 PTS) (Nurkic 3 AST),Made Shot,Cutting Layup Shot,1,2,186
+0021800495,253,PT05M02.00S,2,1610612757,POR,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,Harkless S.FOUL (P3.T4) (B.Nansel),Foul,Shooting,1,0,187
+0021800495,255,PT05M02.00S,2,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,42,42,84,v,Doncic Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,0,0,188
+0021800495,256,PT05M02.00S,2,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,SUB: Brunson FOR Barea,Substitution,,0,0,189
+0021800495,258,PT05M02.00S,2,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,42,43,85,v,Doncic Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,0,0,190
+0021800495,259,PT04M55.00S,2,1610612757,POR,203081,Lillard,D. Lillard,79,258,27,Missed,1,,,0,h,MISS Lillard 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,191
+0021800495,260,PT04M51.00S,2,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,192
+0021800495,261,PT04M45.00S,2,1610612742,DAL,1629029,Dončić,L. Dončić,70,193,21,Made,1,42,45,87,v,Doncic 21' Step Back Jump Shot (11 PTS),Made Shot,Step Back Jump shot,1,2,193
+0021800495,262,PT04M31.00S,2,1610612757,POR,203090,Harkless,M. Harkless,2,5,1,Made,1,44,45,89,h,Harkless 1' Driving Layup (4 PTS) (Nurkic 4 AST),Made Shot,Driving Layup Shot,1,2,194
+0021800495,264,PT04M19.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,6,248,25,Missed,1,,,0,v,MISS Brunson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,195
+0021800495,265,PT04M15.00S,2,1610612757,POR,202329,Aminu,A. Aminu,0,0,0,,0,,,0,h,Aminu REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,196
+0021800495,266,PT04M08.00S,2,1610612757,POR,202329,Aminu,A. Aminu,-5,12,1,Made,1,46,45,91,h,Aminu 1' Layup (4 PTS),Made Shot,Layup Shot,1,2,197
+0021800495,267,PT03M45.00S,2,1610612742,DAL,203084,Barnes,H. Barnes,-54,19,6,Missed,1,,,0,v,MISS Barnes 6' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,198
+0021800495,268,PT03M43.00S,2,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,h,McCollum REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,199
+0021800495,269,PT03M37.00S,2,1610612757,POR,203468,McCollum,C. McCollum,-11,7,1,Made,1,48,45,93,h,McCollum 1' Running Layup (4 PTS),Made Shot,Running Layup Shot,1,2,200
+0021800495,270,PT03M37.00S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,201
+0021800495,271,PT03M30.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson Out of Bounds Lost Ball Turnover (P1.T4),Turnover,Out of Bounds Lost Ball Turnover,1,0,202
+0021800495,272,PT03M19.00S,2,1610612757,POR,203090,Harkless,M. Harkless,8,28,3,Made,1,50,45,95,h,Harkless 3' Driving Layup (6 PTS) (Nurkic 5 AST),Made Shot,Driving Layup Shot,1,2,203
+0021800495,274,PT03M00.00S,2,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,Matthews Lost Ball Turnover (P1.T5),Turnover,Lost Ball,1,0,204
+0021800495,274,PT03M00.00S,2,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,h,McCollum STEAL (1 STL),,,1,0,205
+0021800495,276,PT02M56.00S,2,1610612757,POR,203468,McCollum,C. McCollum,-165,202,26,Made,1,53,45,98,h,McCollum 26' 3PT Running Pull-Up Jump Shot (7 PTS),Made Shot,Running Pull-Up Jump Shot,1,3,206
+0021800495,277,PT02M40.00S,2,1610612742,DAL,203084,Barnes,H. Barnes,-3,1,0,Made,1,53,47,100,v,Barnes Driving Layup (5 PTS),Made Shot,Driving Layup Shot,1,2,207
+0021800495,278,PT02M21.00S,2,1610612757,POR,203468,McCollum,C. McCollum,-142,225,27,Missed,1,,,0,h,MISS McCollum 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,208
+0021800495,279,PT02M20.00S,2,0,,1610612757,,,0,0,0,,0,,,0,h,TRAIL BLAZERS Rebound,Rebound,Unknown,0,0,209
+0021800495,281,PT02M07.00S,2,1610612757,POR,203468,McCollum,C. McCollum,-27,4,3,Made,1,55,47,102,h,McCollum 3' Driving Floating Bank Jump Shot (9 PTS) (Lillard 3 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,210
+0021800495,283,PT01M47.00S,2,1610612742,DAL,1629029,Dončić,L. Dončić,-24,46,5,Missed,1,,,0,v,MISS Doncic 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,211
+0021800495,284,PT01M43.00S,2,1610612757,POR,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,Harkless REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,212
+0021800495,285,PT01M40.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson S.FOUL (P1.T2) (B.Nansel),Foul,Shooting,1,0,213
+0021800495,287,PT01M40.00S,2,1610612757,POR,202329,Aminu,A. Aminu,0,0,0,,0,,,0,h,MISS Aminu Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,214
+0021800495,288,PT01M40.00S,2,0,,1610612757,,,0,0,0,,0,,,0,h,TRAIL BLAZERS Rebound,Rebound,Normal Rebound,0,0,215
+0021800495,289,PT01M40.00S,2,1610612757,POR,202329,Aminu,A. Aminu,0,0,0,,0,56,47,103,h,Aminu Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,0,0,216
+0021800495,290,PT01M21.00S,2,1610612742,DAL,202083,Matthews,W. Matthews,-195,147,24,Missed,1,,,0,v,MISS Matthews 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,217
+0021800495,291,PT01M18.00S,2,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,218
+0021800495,292,PT01M14.00S,2,1610612742,DAL,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes S.FOUL (P1.PN) (Z.Zarba),Foul,Shooting,1,0,219
+0021800495,294,PT01M14.00S,2,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,57,47,104,h,Lillard Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,0,0,220
+0021800495,295,PT01M14.00S,2,1610612757,POR,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,SUB: Turner FOR Harkless,Substitution,,0,0,221
+0021800495,297,PT01M14.00S,2,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,58,47,105,h,Lillard Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,0,0,222
+0021800495,298,PT01M04.00S,2,1610612742,DAL,203084,Barnes,H. Barnes,51,245,25,Made,1,58,50,108,v,Barnes 25' 3PT Jump Shot (8 PTS) (Doncic 4 AST),Made Shot,Jump Shot,1,3,223
+0021800495,300,PT00M51.50S,2,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson S.FOUL (P2.PN) (Z.Zarba),Foul,Shooting,1,0,224
+0021800495,302,PT00M51.50S,2,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,59,50,109,h,Lillard Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,0,0,225
+0021800495,303,PT00M51.50S,2,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,60,50,110,h,Lillard Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,0,0,226
+0021800495,304,PT00M40.70S,2,1610612742,DAL,1629029,Dončić,L. Dončić,-15,6,2,Missed,1,,,0,v,MISS Doncic 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,227
+0021800495,305,PT00M38.40S,2,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,228
+0021800495,306,PT00M36.70S,2,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic OFF.Foul (P2) (B.Nansel),Foul,Offensive,1,0,229
+0021800495,308,PT00M36.70S,2,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic Offensive Foul Turnover (P2.T6),Turnover,Offensive Foul Turnover,1,0,230
+0021800495,309,PT00M21.10S,2,1610612742,DAL,202083,Matthews,W. Matthews,-15,8,2,Missed,1,,,0,v,MISS Matthews 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,231
+0021800495,310,PT00M20.90S,2,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,232
+0021800495,311,PT00M20.90S,2,1610612742,DAL,201599,Jordan,D. Jordan,0,-6,1,Made,1,60,52,112,v,Jordan 1' Tip Layup Shot (9 PTS),Made Shot,Tip Layup Shot,1,2,233
+0021800495,312,PT00M04.60S,2,1610612757,POR,203994,Nurkić,J. Nurkić,-8,-8,1,Made,1,62,52,114,h,Nurkic 1' Cutting Dunk Shot (8 PTS) (Lillard 4 AST),Made Shot,Cutting Dunk Shot,1,2,234
+0021800495,314,PT00M00.00S,2,1610612742,DAL,1629029,Dončić,L. Dončić,-204,457,50,Missed,1,,,0,v,MISS Doncic 50' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,235
+0021800495,315,PT00M00.00S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,236
+0021800495,316,PT00M00.00S,2,0,,0,,,0,0,0,,0,62,52,114,,End of 2nd Period (10:07 PM EST),period,end,1,0,237
+0021800495,319,PT12M00.00S,3,0,,0,,,0,0,0,,0,62,52,114,,Start of 3rd Period (10:22 PM EST),period,start,0,0,238
+0021800495,320,PT11M37.00S,3,1610612757,POR,203468,McCollum,C. McCollum,74,260,27,Missed,1,,,0,h,MISS McCollum 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,239
+0021800495,321,PT11M29.00S,3,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,240
+0021800495,322,PT11M14.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,19,275,28,Missed,1,,,0,v,MISS Doncic 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,241
+0021800495,323,PT11M12.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic REBOUND (Off:3 Def:8),Rebound,Unknown,1,0,242
+0021800495,324,PT11M02.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,23,0,2,Made,1,64,52,116,h,Nurkic 2' Cutting Dunk Shot (10 PTS) (McCollum 2 AST),Made Shot,Cutting Dunk Shot,1,2,243
+0021800495,326,PT10M37.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic Lost Ball Turnover (P1.T6),Turnover,Lost Ball,1,0,244
+0021800495,326,PT10M37.00S,3,1610612757,POR,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,Harkless STEAL (1 STL),,,1,0,245
+0021800495,328,PT10M34.00S,3,1610612757,POR,203090,Harkless,M. Harkless,12,8,1,Made,1,66,52,118,h,Harkless 1' Running Dunk (8 PTS),Made Shot,Running Dunk Shot,1,2,246
+0021800495,329,PT10M34.00S,3,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,247
+0021800495,330,PT10M24.00S,3,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,h,McCollum S.FOUL (P1.T1) (Z.Zarba),Foul,Shooting,1,0,248
+0021800495,332,PT10M24.00S,3,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,66,53,119,v,Matthews Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,249
+0021800495,333,PT10M24.00S,3,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,66,54,120,v,Matthews Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,250
+0021800495,334,PT10M08.00S,3,1610612757,POR,203090,Harkless,M. Harkless,-216,113,24,Missed,1,,,0,h,MISS Harkless 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,251
+0021800495,335,PT10M08.00S,3,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,Matthews REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,252
+0021800495,336,PT09M59.00S,3,1610612742,DAL,203084,Barnes,H. Barnes,-5,248,25,Made,1,66,57,123,v,Barnes 25' 3PT Jump Shot (11 PTS) (Matthews 2 AST),Made Shot,Jump Shot,1,3,253
+0021800495,338,PT09M43.00S,3,1610612757,POR,203468,McCollum,C. McCollum,1,157,16,Made,1,68,57,125,h,McCollum 16' Pullup Jump Shot (11 PTS) (Nurkic 6 AST),Made Shot,Pullup Jump shot,1,2,254
+0021800495,340,PT09M33.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic S.FOUL (P3.T2) (T.Maddox),Foul,Shooting,1,0,255
+0021800495,342,PT09M33.00S,3,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,MISS Jordan Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,256
+0021800495,343,PT09M33.00S,3,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Normal Rebound,0,0,257
+0021800495,344,PT09M33.00S,3,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,68,58,126,v,Jordan Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,0,0,258
+0021800495,345,PT09M25.00S,3,1610612757,POR,203468,McCollum,C. McCollum,-179,179,25,Missed,1,,,0,h,MISS McCollum 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,259
+0021800495,346,PT09M20.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,260
+0021800495,347,PT09M12.00S,3,1610612742,DAL,202083,Matthews,W. Matthews,-47,154,16,Missed,1,,,0,v,MISS Matthews 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,261
+0021800495,348,PT09M09.00S,3,1610612757,POR,202329,Aminu,A. Aminu,0,0,0,,0,,,0,h,Aminu REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,262
+0021800495,349,PT09M01.00S,3,1610612757,POR,203081,Lillard,D. Lillard,-82,145,17,Missed,1,,,0,h,MISS Lillard 17' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,263
+0021800495,350,PT08M56.00S,3,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,264
+0021800495,351,PT08M49.00S,3,1610612742,DAL,203084,Barnes,H. Barnes,4,8,1,Missed,1,,,0,v,MISS Barnes 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,265
+0021800495,352,PT08M47.00S,3,1610612757,POR,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,Harkless REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,266
+0021800495,354,PT08M33.00S,3,1610612757,POR,203081,Lillard,D. Lillard,123,234,26,Made,1,71,58,129,h,Lillard 26' 3PT Pullup Jump Shot (18 PTS),Made Shot,Pullup Jump shot,1,3,267
+0021800495,355,PT08M22.00S,3,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,h,McCollum P.FOUL (P2.T3) (Z.Zarba),Foul,Personal,1,0,268
+0021800495,357,PT08M14.00S,3,1610612742,DAL,1628973,Brunson,J. Brunson,93,256,27,Made,1,71,61,132,v,Brunson 27' 3PT Jump Shot (7 PTS) (Matthews 3 AST),Made Shot,Jump Shot,1,3,269
+0021800495,359,PT07M51.00S,3,1610612757,POR,203468,McCollum,C. McCollum,3,43,4,Missed,1,,,0,h,MISS McCollum 4' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,270
+0021800495,360,PT07M42.00S,3,1610612757,POR,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,Harkless REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,271
+0021800495,361,PT07M40.00S,3,1610612757,POR,203468,McCollum,C. McCollum,225,121,26,Missed,1,,,0,h,MISS McCollum 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,272
+0021800495,362,PT07M39.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,273
+0021800495,363,PT07M33.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,16,23,3,Missed,1,,,0,v,MISS Doncic 3' Running Layup,Missed Shot,Running Layup Shot,1,2,274
+0021800495,363,PT07M33.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic BLOCK (2 BLK),,,1,2,275
+0021800495,365,PT07M31.00S,3,0,,1610612757,,,0,0,0,,0,,,0,h,TRAIL BLAZERS Rebound,Rebound,Unknown,0,0,276
+0021800495,367,PT07M22.00S,3,1610612757,POR,203081,Lillard,D. Lillard,-139,213,25,Missed,1,,,0,h,MISS Lillard 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,277
+0021800495,368,PT07M19.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,278
+0021800495,369,PT07M15.00S,3,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,Matthews OFF.Foul (P2) (Z.Zarba),Foul,Offensive,1,0,279
+0021800495,371,PT07M15.00S,3,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,Matthews Offensive Foul Turnover (P2.T7),Turnover,Offensive Foul Turnover,1,0,280
+0021800495,372,PT07M04.00S,3,1610612757,POR,203468,McCollum,C. McCollum,84,187,21,Made,1,73,61,134,h,McCollum 21' Pullup Jump Shot (13 PTS),Made Shot,Pullup Jump shot,1,2,281
+0021800495,373,PT06M46.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,8,4,1,Missed,1,,,0,v,MISS Doncic 1' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,282
+0021800495,374,PT06M45.00S,3,1610612757,POR,202329,Aminu,A. Aminu,0,0,0,,0,,,0,h,Aminu REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,283
+0021800495,375,PT06M34.00S,3,1610612757,POR,202329,Aminu,A. Aminu,-4,36,4,Missed,1,,,0,h,MISS Aminu 4' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,284
+0021800495,376,PT06M34.00S,3,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,285
+0021800495,377,PT06M34.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic L.B.FOUL (P4.T4) (T.Maddox),Foul,Loose Ball,1,0,286
+0021800495,379,PT06M34.00S,3,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,SUB: Leonard FOR Nurkic,Substitution,,0,0,287
+0021800495,381,PT06M22.00S,3,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan Bad Pass Turnover (P1.T8),Turnover,Bad Pass,1,0,288
+0021800495,381,PT06M22.00S,3,1610612757,POR,202329,Aminu,A. Aminu,0,0,0,,0,,,0,h,Aminu STEAL (1 STL),,,1,0,289
+0021800495,383,PT06M12.00S,3,1610612757,POR,202329,Aminu,A. Aminu,-184,162,25,Missed,1,,,0,h,MISS Aminu 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,290
+0021800495,384,PT06M08.00S,3,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,291
+0021800495,385,PT06M00.00S,3,1610612742,DAL,203084,Barnes,H. Barnes,232,22,0,Made,1,73,64,137,v,Barnes 3PT Jump Shot (14 PTS) (Brunson 1 AST),Made Shot,Jump Shot,1,3,292
+0021800495,388,PT05M37.00S,3,1610612757,POR,203081,Lillard,D. Lillard,137,15,14,Made,1,75,64,139,h,Lillard 14' Turnaround Fadeaway (20 PTS),Made Shot,Turnaround Fadeaway shot,1,2,293
+0021800495,389,PT05M28.00S,3,1610612757,POR,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,Harkless P.FOUL (P4.PN) (B.Nansel),Foul,Personal,1,0,294
+0021800495,391,PT05M28.00S,3,1610612757,POR,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,Harkless T.FOUL (P4.PN) (B.Nansel),Foul,Technical,1,0,295
+0021800495,392,PT05M28.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,75,65,140,v,Doncic Free Throw Technical (12 PTS),Free Throw,Free Throw Technical,0,0,296
+0021800495,393,PT05M28.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,75,66,141,v,Doncic Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,0,0,297
+0021800495,394,PT05M28.00S,3,1610612757,POR,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,SUB: Turner FOR Harkless,Substitution,,0,0,298
+0021800495,396,PT05M28.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,75,67,142,v,Doncic Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,0,0,299
+0021800495,397,PT05M13.00S,3,1610612757,POR,203468,McCollum,C. McCollum,-204,142,25,Missed,1,,,0,h,MISS McCollum 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,300
+0021800495,398,PT05M10.00S,3,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,301
+0021800495,399,PT05M00.00S,3,1610612742,DAL,203084,Barnes,H. Barnes,-12,4,1,Made,1,75,69,144,v,Barnes 1' Driving Layup (16 PTS),Made Shot,Driving Layup Shot,1,2,302
+0021800495,400,PT04M59.00S,3,0,,1610612757,,,0,0,0,,0,,,0,h,TRAIL BLAZERS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,303
+0021800495,401,PT04M41.00S,3,1610612757,POR,203086,Leonard,M. Leonard,-187,152,24,Made,1,78,69,147,h,Leonard 24' 3PT Jump Shot (7 PTS) (McCollum 3 AST),Made Shot,Jump Shot,1,3,304
+0021800495,403,PT04M22.00S,3,1610612742,DAL,1628973,Brunson,J. Brunson,-9,117,12,Made,1,78,71,149,v,Brunson 12' Driving Floating Jump Shot (9 PTS),Made Shot,Driving Floating Jump Shot,1,2,305
+0021800495,405,PT04M00.00S,3,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,Matthews S.FOUL (P3.T1) (T.Maddox),Foul,Shooting,1,0,306
+0021800495,407,PT04M00.00S,3,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,h,MISS McCollum Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,307
+0021800495,408,PT04M00.00S,3,0,,1610612757,,,0,0,0,,0,,,0,h,TRAIL BLAZERS Rebound,Rebound,Normal Rebound,0,0,308
+0021800495,409,PT04M00.00S,3,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,SUB: Powell FOR Jordan,Substitution,,0,0,309
+0021800495,410,PT04M00.00S,3,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,SUB: Barea FOR Brunson,Substitution,,0,0,310
+0021800495,413,PT04M00.00S,3,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,79,71,150,h,McCollum Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,0,0,311
+0021800495,414,PT03M37.00S,3,1610612742,DAL,203084,Barnes,H. Barnes,-16,15,2,Missed,1,,,0,v,MISS Barnes 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,312
+0021800495,415,PT03M36.00S,3,1610612757,POR,203086,Leonard,M. Leonard,0,0,0,,0,,,0,h,Leonard REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,313
+0021800495,416,PT03M30.00S,3,1610612757,POR,203086,Leonard,M. Leonard,0,0,0,,0,,,0,h,Leonard OFF.Foul (P4) (T.Maddox),Foul,Offensive,1,0,314
+0021800495,418,PT03M30.00S,3,1610612757,POR,203086,Leonard,M. Leonard,0,0,0,,0,,,0,h,Leonard Offensive Foul Turnover (P1.T7),Turnover,Offensive Foul Turnover,1,0,315
+0021800495,419,PT03M30.00S,3,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,h,SUB: Curry FOR McCollum,Substitution,,0,0,316
+0021800495,421,PT03M17.00S,3,1610612742,DAL,203084,Barnes,H. Barnes,-2,15,2,Made,1,79,73,152,v,Barnes 2' Turnaround Jump Shot (18 PTS) (Barea 6 AST),Made Shot,Turnaround Jump Shot,1,2,317
+0021800495,423,PT03M17.00S,3,1610612757,POR,203086,Leonard,M. Leonard,0,0,0,,0,,,0,h,Leonard S.FOUL (P5.PN) (B.Nansel),Foul,Shooting,1,0,318
+0021800495,425,PT03M17.00S,3,1610612757,POR,203086,Leonard,M. Leonard,0,0,0,,0,,,0,h,SUB: Collins FOR Leonard,Substitution,,0,0,319
+0021800495,426,PT03M17.00S,3,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,SUB: Harris FOR Matthews,Substitution,,0,0,320
+0021800495,429,PT03M17.00S,3,1610612742,DAL,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,MISS Barnes Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,0,0,321
+0021800495,430,PT03M14.00S,3,1610612742,DAL,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,322
+0021800495,438,PT03M12.00S,3,1610612742,DAL,203084,Barnes,H. Barnes,-2,16,2,Missed,1,,,0,v,MISS Barnes 2' Layup,Missed Shot,Layup Shot,1,2,323
+0021800495,438,PT03M12.00S,3,1610612757,POR,1628380,Collins,Z. Collins,0,0,0,,0,,,0,h,Collins BLOCK (1 BLK),,,1,2,324
+0021800495,440,PT03M12.00S,3,1610612757,POR,202323,Turner,E. Turner,0,0,0,,0,,,0,h,Turner REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,325
+0021800495,434,PT02M55.00S,3,1610612757,POR,203081,Lillard,D. Lillard,19,8,2,Made,1,81,73,154,h,Lillard 2' Turnaround Jump Shot (22 PTS),Made Shot,Turnaround Jump Shot,1,2,326
+0021800495,435,PT02M55.00S,3,1610612742,DAL,2734,Harris,D. Harris,0,0,0,,0,,,0,v,Harris S.FOUL (P1.T2) (B.Nansel),Foul,Shooting,1,0,327
+0021800495,437,PT02M55.00S,3,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,82,73,155,h,Lillard Free Throw 1 of 1 (23 PTS),Free Throw,Free Throw 1 of 1,0,0,328
+0021800495,441,PT02M39.00S,3,1610612742,DAL,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes OFF.Foul (P2) (Z.Zarba),Foul,Offensive,1,0,329
+0021800495,443,PT02M39.00S,3,1610612742,DAL,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes Offensive Foul Turnover (P1.T9),Turnover,Offensive Foul Turnover,1,0,330
+0021800495,444,PT02M39.00S,3,1610612757,POR,202329,Aminu,A. Aminu,0,0,0,,0,,,0,h,SUB: Leonard FOR Aminu,Substitution,,0,0,331
+0021800495,445,PT02M39.00S,3,1610612742,DAL,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,SUB: Finney-Smith FOR Barnes,Substitution,,0,0,332
+0021800495,446,PT02M39.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,SUB: Kleber FOR Doncic,Substitution,,0,0,333
+0021800495,450,PT02M23.00S,3,1610612757,POR,203081,Lillard,D. Lillard,-111,127,17,Missed,1,,,0,h,MISS Lillard 17' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,334
+0021800495,451,PT02M18.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,335
+0021800495,452,PT02M12.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,-202,155,25,Made,1,82,76,158,v,Finney-Smith 25' 3PT Jump Shot (5 PTS) (Harris 1 AST),Made Shot,Jump Shot,1,3,336
+0021800495,454,PT01M53.00S,3,1610612757,POR,203081,Lillard,D. Lillard,-62,318,32,Missed,1,,,0,h,MISS Lillard 32' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,337
+0021800495,455,PT01M51.00S,3,1610612742,DAL,2734,Harris,D. Harris,0,0,0,,0,,,0,v,Harris REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,338
+0021800495,457,PT01M39.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,-12,46,5,Missed,1,,,0,v,MISS Finney-Smith 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,339
+0021800495,457,PT01M39.00S,3,1610612757,POR,202323,Turner,E. Turner,0,0,0,,0,,,0,h,Turner BLOCK (1 BLK),,,1,2,340
+0021800495,459,PT01M36.00S,3,1610612757,POR,1628380,Collins,Z. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,341
+0021800495,460,PT01M32.00S,3,1610612757,POR,203086,Leonard,M. Leonard,78,264,28,Missed,1,,,0,h,MISS Leonard 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,342
+0021800495,461,PT01M31.00S,3,0,,1610612757,,,0,0,0,,0,,,0,h,TRAIL BLAZERS Rebound,Rebound,Unknown,0,0,343
+0021800495,462,PT01M31.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith L.B.FOUL (P1.T3) (Z.Zarba),Foul,Loose Ball,1,0,344
+0021800495,464,PT01M20.00S,3,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,h,Lillard Out of Bounds - Bad Pass Turnover Turnover (P1.T8),Turnover,Out of Bounds - Bad Pass Turnover,1,0,345
+0021800495,465,PT01M02.00S,3,1610612742,DAL,200826,Barea,J. Barea,36,223,23,Missed,1,,,0,v,MISS Barea 23' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,346
+0021800495,466,PT00M59.70S,3,1610612757,POR,203086,Leonard,M. Leonard,0,0,0,,0,,,0,h,Leonard REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,347
+0021800495,467,PT00M54.10S,3,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell P.FOUL (P1.PN) (T.Maddox),Foul,Personal,1,0,348
+0021800495,469,PT00M54.10S,3,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,83,76,159,h,Lillard Free Throw 1 of 2 (24 PTS),Free Throw,Free Throw 1 of 2,0,0,349
+0021800495,470,PT00M54.10S,3,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,84,76,160,h,Lillard Free Throw 2 of 2 (25 PTS),Free Throw,Free Throw 2 of 2,0,0,350
+0021800495,471,PT00M38.10S,3,1610612742,DAL,200826,Barea,J. Barea,-11,16,2,Made,1,84,78,162,v,Barea 2' Driving Layup (5 PTS),Made Shot,Driving Layup Shot,1,2,351
+0021800495,472,PT00M33.10S,3,1610612757,POR,203081,Lillard,D. Lillard,7,5,1,Made,1,86,78,164,h,Lillard 1' Driving Dunk (27 PTS),Made Shot,Driving Dunk Shot,1,2,352
+0021800495,473,PT00M28.30S,3,1610612757,POR,202323,Turner,E. Turner,0,0,0,,0,,,0,h,Turner P.FOUL (P2.PN) (B.Nansel),Foul,Personal,1,0,353
+0021800495,475,PT00M28.30S,3,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,MISS Barea Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,354
+0021800495,476,PT00M28.30S,3,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Normal Rebound,0,0,355
+0021800495,477,PT00M28.30S,3,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,MISS Barea Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,356
+0021800495,478,PT00M26.70S,3,1610612757,POR,202323,Turner,E. Turner,0,0,0,,0,,,0,h,Turner REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,357
+0021800495,479,PT00M11.70S,3,1610612757,POR,203086,Leonard,M. Leonard,9,0,1,Made,1,88,78,166,h,Leonard 1' Alley Oop Dunk (9 PTS) (Turner 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,358
+0021800495,481,PT00M04.90S,3,1610612742,DAL,203939,Powell,D. Powell,6,201,20,Made,1,88,80,168,v,Powell 20' Pullup Jump Shot (12 PTS) (Barea 7 AST),Made Shot,Pullup Jump shot,1,2,359
+0021800495,483,PT00M00.00S,3,1610612757,POR,1628380,Collins,Z. Collins,122,190,23,Missed,1,,,0,h,MISS Collins 23' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,360
+0021800495,484,PT00M00.00S,3,0,,1610612757,,,0,0,0,,0,,,0,h,TRAIL BLAZERS Rebound,Rebound,Unknown,0,0,361
+0021800495,485,PT00M00.00S,3,0,,0,,,0,0,0,,0,88,80,168,,End of 3rd Period (10:50 PM EST),period,end,1,0,362
+0021800495,488,PT12M00.00S,4,0,,0,,,0,0,0,,0,88,80,168,,Start of 4th Period (10:53 PM EST),period,start,0,0,363
+0021800495,489,PT11M50.00S,4,1610612742,DAL,203939,Powell,D. Powell,0,11,1,Missed,1,,,0,v,MISS Powell 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,364
+0021800495,490,PT11M46.00S,4,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,365
+0021800495,491,PT11M45.00S,4,1610612742,DAL,203939,Powell,D. Powell,8,18,2,Missed,1,,,0,v,MISS Powell 2' Layup,Missed Shot,Layup Shot,1,2,366
+0021800495,492,PT11M41.00S,4,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,367
+0021800495,493,PT11M41.00S,4,1610612742,DAL,203939,Powell,D. Powell,0,-6,1,Missed,1,,,0,v,MISS Powell 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,368
+0021800495,494,PT11M41.00S,4,1610612757,POR,203086,Leonard,M. Leonard,0,0,0,,0,,,0,h,Leonard REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,369
+0021800495,495,PT11M33.00S,4,1610612757,POR,203086,Leonard,M. Leonard,14,17,2,Made,1,90,80,170,h,Leonard 2' Layup (11 PTS) (Curry 3 AST),Made Shot,Layup Shot,1,2,370
+0021800495,497,PT11M22.00S,4,1610612742,DAL,203939,Powell,D. Powell,32,249,25,Missed,1,,,0,v,MISS Powell 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,371
+0021800495,498,PT11M22.00S,4,0,,1610612757,,,0,0,0,,0,,,0,h,TRAIL BLAZERS Rebound,Rebound,Unknown,0,0,372
+0021800495,499,PT11M22.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber L.B.FOUL (P2.T1) (Z.Zarba),Foul,Loose Ball,1,0,373
+0021800495,501,PT11M08.00S,4,1610612742,DAL,2734,Harris,D. Harris,0,0,0,,0,,,0,v,Harris P.FOUL (P2.T2) (Z.Zarba),Foul,Personal,1,0,374
+0021800495,503,PT11M00.00S,4,1610612757,POR,203086,Leonard,M. Leonard,74,239,25,Missed,1,,,0,h,MISS Leonard 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,375
+0021800495,504,PT10M56.00S,4,1610612742,DAL,2734,Harris,D. Harris,0,0,0,,0,,,0,v,Harris REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,376
+0021800495,505,PT10M49.00S,4,1610612742,DAL,200826,Barea,J. Barea,-187,23,19,Made,1,90,82,172,v,Barea 19' Pullup Jump Shot (7 PTS),Made Shot,Pullup Jump shot,1,2,377
+0021800495,506,PT10M26.00S,4,1610612757,POR,203552,Curry,S. Curry,-108,221,25,Missed,1,,,0,h,MISS Curry 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,378
+0021800495,507,PT10M25.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,379
+0021800495,509,PT10M13.00S,4,1610612742,DAL,203939,Powell,D. Powell,-9,8,1,Made,1,90,84,174,v,Powell 1' Cutting Dunk Shot (14 PTS) (Barea 8 AST),Made Shot,Cutting Dunk Shot,1,2,380
+0021800495,511,PT10M00.00S,4,1610612742,DAL,2734,Harris,D. Harris,0,0,0,,0,,,0,v,Harris P.FOUL (P3.T3) (Z.Zarba),Foul,Personal,1,0,381
+0021800495,513,PT09M53.00S,4,1610612757,POR,203552,Curry,S. Curry,201,143,25,Made,1,93,84,177,h,Curry 25' 3PT Jump Shot (9 PTS) (Turner 2 AST),Made Shot,Jump Shot,1,3,382
+0021800495,515,PT09M38.00S,4,1610612757,POR,202323,Turner,E. Turner,0,0,0,,0,,,0,h,Turner S.FOUL (P3.T1) (B.Nansel),Foul,Shooting,1,0,383
+0021800495,517,PT09M38.00S,4,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,93,85,178,v,Barea Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,0,0,384
+0021800495,518,PT09M38.00S,4,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,93,86,179,v,Barea Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,0,0,385
+0021800495,520,PT09M17.00S,4,1610612757,POR,203086,Leonard,M. Leonard,88,46,10,Missed,1,,,0,h,MISS Leonard 10' Turnaround Fadeaway Bank Jump Shot,Missed Shot,Turnaround Fadeaway Bank Jump Shot,1,2,386
+0021800495,521,PT09M14.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,387
+0021800495,522,PT09M02.00S,4,1610612742,DAL,200826,Barea,J. Barea,96,147,18,Missed,1,,,0,v,MISS Barea 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,388
+0021800495,523,PT08M59.00S,4,1610612757,POR,1628380,Collins,Z. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,389
+0021800495,524,PT08M53.00S,4,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell P.FOUL (P2.T4) (B.Nansel),Foul,Personal,1,0,390
+0021800495,526,PT08M45.00S,4,1610612757,POR,202323,Turner,E. Turner,39,-2,4,Missed,1,,,0,h,MISS Turner 4' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,391
+0021800495,527,PT08M44.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,392
+0021800495,531,PT08M31.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,2,13,1,Missed,1,,,0,v,MISS Kleber 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,393
+0021800495,531,PT08M31.00S,4,1610612757,POR,202323,Turner,E. Turner,0,0,0,,0,,,0,h,Turner BLOCK (2 BLK),,,1,2,394
+0021800495,533,PT08M31.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,395
+0021800495,529,PT08M25.00S,4,1610612742,DAL,2734,Harris,D. Harris,13,-5,1,Made,1,93,88,181,v,Harris 1' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,396
+0021800495,530,PT08M25.00S,4,0,,1610612757,,,0,0,0,,0,,,0,h,TRAIL BLAZERS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,397
+0021800495,535,PT08M12.00S,4,1610612757,POR,202323,Turner,E. Turner,38,3,4,Missed,1,,,0,h,MISS Turner 4' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,398
+0021800495,536,PT08M12.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,399
+0021800495,538,PT07M59.00S,4,1610612742,DAL,200826,Barea,J. Barea,-116,162,20,Missed,1,,,0,v,MISS Barea 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,400
+0021800495,539,PT07M55.00S,4,1610612757,POR,203552,Curry,S. Curry,0,0,0,,0,,,0,h,Curry REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,401
+0021800495,540,PT07M41.00S,4,1610612757,POR,203086,Leonard,M. Leonard,3,6,1,Made,1,95,88,183,h,Leonard 1' Cutting Dunk Shot (13 PTS) (Turner 3 AST),Made Shot,Cutting Dunk Shot,1,2,402
+0021800495,542,PT07M29.00S,4,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,8,1,Missed,1,,,0,v,MISS Finney-Smith 1' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,403
+0021800495,544,PT07M29.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,404
+0021800495,545,PT07M23.00S,4,1610612742,DAL,2734,Harris,D. Harris,91,151,18,Missed,1,,,0,v,MISS Harris 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,405
+0021800495,546,PT07M23.00S,4,0,,1610612757,,,0,0,0,,0,,,0,h,TRAIL BLAZERS Rebound,Rebound,Unknown,1,0,406
+0021800495,548,PT07M03.00S,4,1610612757,POR,202323,Turner,E. Turner,112,5,11,Missed,1,,,0,h,MISS Turner 11' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,407
+0021800495,549,PT06M59.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,408
+0021800495,550,PT06M52.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,-141,231,27,Missed,1,,,0,v,MISS Kleber 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,409
+0021800495,551,PT06M46.00S,4,1610612757,POR,203552,Curry,S. Curry,0,0,0,,0,,,0,h,Curry REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,410
+0021800495,552,PT06M36.00S,4,1610612757,POR,203552,Curry,S. Curry,213,120,24,Made,1,98,88,186,h,Curry 24' 3PT Jump Shot (12 PTS) (Turner 4 AST),Made Shot,Jump Shot,1,3,411
+0021800495,554,PT06M35.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,412
+0021800495,555,PT06M35.00S,4,1610612757,POR,202323,Turner,E. Turner,0,0,0,,0,,,0,h,SUB: McCollum FOR Turner,Substitution,,0,0,413
+0021800495,556,PT06M35.00S,4,1610612757,POR,203917,Stauskas,N. Stauskas,0,0,0,,0,,,0,h,SUB: Lillard FOR Stauskas,Substitution,,0,0,414
+0021800495,557,PT06M35.00S,4,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,SUB: Jordan FOR Barea,Substitution,,0,0,415
+0021800495,558,PT06M35.00S,4,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,SUB: Brunson FOR Powell,Substitution,,0,0,416
+0021800495,559,PT06M35.00S,4,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,SUB: Matthews FOR Finney-Smith,Substitution,,0,0,417
+0021800495,560,PT06M35.00S,4,1610612742,DAL,2734,Harris,D. Harris,0,0,0,,0,,,0,v,SUB: Barnes FOR Harris,Substitution,,0,0,418
+0021800495,561,PT06M35.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,SUB: Doncic FOR Kleber,Substitution,,0,0,419
+0021800495,569,PT06M35.00S,4,1610612757,POR,1628380,Collins,Z. Collins,0,0,0,,0,,,0,h,SUB: Aminu FOR Collins,Substitution,,0,0,420
+0021800495,571,PT06M14.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,-47,42,6,Missed,1,,,0,v,MISS Doncic 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,421
+0021800495,572,PT06M12.00S,4,1610612757,POR,203086,Leonard,M. Leonard,0,0,0,,0,,,0,h,Leonard REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,422
+0021800495,573,PT05M59.00S,4,1610612757,POR,203081,Lillard,D. Lillard,-134,8,13,Missed,1,,,0,h,MISS Lillard 13' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,423
+0021800495,574,PT05M57.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,424
+0021800495,575,PT05M49.00S,4,1610612742,DAL,203084,Barnes,H. Barnes,21,12,2,Made,1,98,90,188,v,Barnes 2' Driving Layup (20 PTS),Made Shot,Driving Layup Shot,1,2,425
+0021800495,576,PT05M28.00S,4,1610612757,POR,202329,Aminu,A. Aminu,231,84,25,Missed,1,,,0,h,MISS Aminu 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,426
+0021800495,577,PT05M26.00S,4,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,427
+0021800495,578,PT05M21.00S,4,1610612742,DAL,1628973,Brunson,J. Brunson,-7,4,1,Made,1,98,92,190,v,Brunson 1' Running Finger Roll Layup (11 PTS),Made Shot,Running Finger Roll Layup Shot,1,2,428
+0021800495,579,PT05M04.00S,4,1610612757,POR,203468,McCollum,C. McCollum,-58,14,6,Made,1,100,92,192,h,McCollum 6' Fadeaway Jumper (16 PTS),Made Shot,Fadeaway Jump Shot,1,2,429
+0021800495,580,PT04M52.00S,4,1610612742,DAL,203084,Barnes,H. Barnes,129,247,28,Made,1,100,95,195,v,Barnes 28' 3PT Jump Shot (23 PTS) (Doncic 5 AST),Made Shot,Jump Shot,1,3,430
+0021800495,582,PT04M24.00S,4,1610612757,POR,203552,Curry,S. Curry,-184,159,24,Missed,1,,,0,h,MISS Curry 24' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,431
+0021800495,583,PT04M22.00S,4,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,432
+0021800495,584,PT04M14.00S,4,1610612742,DAL,1628973,Brunson,J. Brunson,-1,157,16,Missed,1,,,0,v,MISS Brunson 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,433
+0021800495,585,PT04M11.00S,4,1610612757,POR,203086,Leonard,M. Leonard,0,0,0,,0,,,0,h,Leonard REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,434
+0021800495,586,PT04M00.00S,4,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,h,Lillard Bad Pass Turnover (P2.T9),Turnover,Bad Pass,1,0,435
+0021800495,586,PT04M00.00S,4,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson STEAL (1 STL),,,1,0,436
+0021800495,588,PT03M56.00S,4,1610612742,DAL,202083,Matthews,W. Matthews,-179,199,27,Made,1,100,98,198,v,Matthews 27' 3PT Jump Shot (5 PTS) (Brunson 2 AST),Made Shot,Jump Shot,1,3,437
+0021800495,590,PT03M56.00S,4,0,,1610612757,,,0,0,0,,0,,,0,h,TRAIL BLAZERS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,438
+0021800495,591,PT03M56.00S,4,1610612757,POR,203086,Leonard,M. Leonard,0,0,0,,0,,,0,h,SUB: Harkless FOR Leonard,Substitution,,0,0,439
+0021800495,592,PT03M56.00S,4,1610612757,POR,203552,Curry,S. Curry,0,0,0,,0,,,0,h,SUB: Nurkic FOR Curry,Substitution,,0,0,440
+0021800495,595,PT03M39.00S,4,1610612757,POR,203994,Nurkić,J. Nurkić,-18,6,2,Missed,1,,,0,h,MISS Nurkic 2' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,441
+0021800495,596,PT03M36.00S,4,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,442
+0021800495,597,PT03M24.00S,4,1610612742,DAL,201599,Jordan,D. Jordan,-11,8,1,Missed,1,,,0,v,MISS Jordan 1' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,443
+0021800495,598,PT03M22.00S,4,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic REBOUND (Off:3 Def:9),Rebound,Unknown,1,0,444
+0021800495,599,PT03M14.00S,4,1610612757,POR,203081,Lillard,D. Lillard,-123,15,12,Missed,1,,,0,h,MISS Lillard 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,445
+0021800495,600,PT03M12.00S,4,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,446
+0021800495,601,PT03M08.00S,4,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,h,Lillard P.FOUL (P2.T2) (Z.Zarba),Foul,Personal,1,0,447
+0021800495,603,PT03M04.00S,4,1610612757,POR,202329,Aminu,A. Aminu,0,0,0,,0,,,0,h,Aminu P.FOUL (P1.T3) (Z.Zarba),Foul,Personal,1,0,448
+0021800495,605,PT02M53.00S,4,1610612742,DAL,202083,Matthews,W. Matthews,-147,215,26,Made,1,100,101,201,v,Matthews 26' 3PT Jump Shot (8 PTS) (Jordan 1 AST),Made Shot,Jump Shot,1,3,449
+0021800495,607,PT02M31.00S,4,1610612757,POR,202329,Aminu,A. Aminu,-226,8,0,Missed,1,,,0,h,MISS Aminu 3PT Jump Shot,Missed Shot,Jump Shot,1,3,450
+0021800495,608,PT02M26.00S,4,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,Matthews REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,451
+0021800495,609,PT02M18.00S,4,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic S.FOUL (P5.T4) (B.Nansel),Foul,Shooting,1,0,452
+0021800495,611,PT02M18.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,100,102,202,v,Doncic Free Throw 1 of 2 (15 PTS),Free Throw,Free Throw 1 of 2,0,0,453
+0021800495,612,PT02M18.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,MISS Doncic Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,454
+0021800495,613,PT02M16.00S,4,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,h,McCollum REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,455
+0021800495,614,PT02M05.00S,4,1610612757,POR,202329,Aminu,A. Aminu,-230,30,0,Missed,1,,,0,h,MISS Aminu 3PT Jump Shot,Missed Shot,Jump Shot,1,3,456
+0021800495,615,PT02M03.00S,4,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,Matthews REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,457
+0021800495,616,PT01M53.00S,4,1610612742,DAL,203084,Barnes,H. Barnes,190,165,25,Missed,1,,,0,v,MISS Barnes 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,458
+0021800495,617,PT01M50.00S,4,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,h,Lillard REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,459
+0021800495,618,PT01M42.00S,4,1610612757,POR,203090,Harkless,M. Harkless,-231,3,0,Made,1,103,102,205,h,Harkless 3PT Jump Shot (11 PTS) (Lillard 5 AST),Made Shot,Jump Shot,1,3,460
+0021800495,620,PT01M42.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,461
+0021800495,621,PT01M30.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,15,175,18,Made,1,103,104,207,v,Doncic 18' Jump Shot (17 PTS),Made Shot,Jump Shot,1,2,462
+0021800495,622,PT01M16.00S,4,1610612757,POR,203468,McCollum,C. McCollum,1,200,20,Made,1,105,104,209,h,McCollum 20' Pullup Jump Shot (18 PTS) (Lillard 6 AST),Made Shot,Pullup Jump shot,1,2,463
+0021800495,624,PT01M00.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,14,42,4,Missed,1,,,0,v,MISS Doncic 4' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,464
+0021800495,625,PT00M58.20S,4,1610612757,POR,202329,Aminu,A. Aminu,0,0,0,,0,,,0,h,Aminu REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,465
+0021800495,626,PT00M44.20S,4,1610612757,POR,203081,Lillard,D. Lillard,-11,3,1,Made,1,107,104,211,h,Lillard 1' Driving Layup (29 PTS) (McCollum 4 AST),Made Shot,Driving Layup Shot,1,2,466
+0021800495,628,PT00M44.20S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.7 Short 0),Timeout,Regular,0,0,467
+0021800495,629,PT00M36.60S,4,1610612742,DAL,202083,Matthews,W. Matthews,95,239,26,Missed,1,,,0,v,MISS Matthews 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,468
+0021800495,630,PT00M35.70S,4,0,,1610612757,,,0,0,0,,0,,,0,h,TRAIL BLAZERS Rebound,Rebound,Unknown,0,0,469
+0021800495,632,PT00M13.50S,4,1610612757,POR,203081,Lillard,D. Lillard,-69,72,10,Missed,1,,,0,h,MISS Lillard 10' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,470
+0021800495,633,PT00M08.40S,4,1610612757,POR,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,Harkless REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,471
+0021800495,634,PT00M08.40S,4,1610612757,POR,203090,Harkless,M. Harkless,0,-6,1,Missed,1,,,0,h,MISS Harkless 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,472
+0021800495,635,PT00M08.40S,4,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,473
+0021800495,636,PT00M02.10S,4,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,,,0,h,Lillard P.FOUL (P3.PN) (B.Nansel),Foul,Personal,1,0,474
+0021800495,638,PT00M02.10S,4,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,MISS Brunson Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,475
+0021800495,639,PT00M02.10S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Normal Rebound,0,0,476
+0021800495,640,PT00M02.10S,4,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,SUB: Powell FOR Matthews,Substitution,,0,0,477
+0021800495,642,PT00M02.10S,4,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,h,SUB: Turner FOR McCollum,Substitution,,0,0,478
+0021800495,644,PT00M02.10S,4,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,MISS Brunson Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,479
+0021800495,645,PT00M00.60S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,480
+0021800495,647,PT00M00.60S,4,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,SUB: Matthews FOR Powell,Substitution,,0,0,481
+0021800495,649,PT00M00.60S,4,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,SUB: McCollum FOR Nurkic,Substitution,,0,0,482
+0021800495,651,PT00M00.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,220,12,0,Made,1,107,107,214,v,Doncic 3PT Jump Shot (20 PTS) (Brunson 3 AST),Made Shot,Jump Shot,1,3,483
+0021800495,653,PT00M00.00S,4,0,,651,,,0,0,0,,0,107,107,214,,Instant Replay4th Period (11:23 PM EST),Instant Replay,Support Ruling,0,0,484
+0021800495,654,PT00M00.00S,4,0,,0,,,0,0,0,,0,107,107,214,,End of 4th Period (11:24 PM EST),period,end,1,0,485
+0021800495,657,PT05M00.00S,5,0,,0,,,0,0,0,,0,107,107,214,,Start of 1st OT (11:27 PM EST),period,start,0,0,486
+0021800495,659,PT05M00.00S,5,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Jump Ball Nurkic vs. Jordan: Tip to Lillard,Jump Ball,,1,0,487
+0021800495,662,PT04M43.00S,5,1610612757,POR,203468,McCollum,C. McCollum,6,15,2,Made,1,109,107,216,h,McCollum 2' Driving Dunk (20 PTS),Made Shot,Driving Dunk Shot,1,2,488
+0021800495,663,PT04M29.00S,5,1610612742,DAL,202083,Matthews,W. Matthews,146,205,25,Missed,1,,,0,v,MISS Matthews 25' 3PT Jump Bank Shot,Missed Shot,Jump Bank Shot,1,3,489
+0021800495,664,PT04M28.00S,5,1610612757,POR,202329,Aminu,A. Aminu,0,0,0,,0,,,0,h,Aminu REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,490
+0021800495,665,PT04M10.00S,5,1610612757,POR,202329,Aminu,A. Aminu,225,78,24,Made,1,112,107,219,h,Aminu 24' 3PT Jump Shot (8 PTS) (Lillard 7 AST),Made Shot,Jump Shot,1,3,491
+0021800495,667,PT03M48.00S,5,1610612742,DAL,203084,Barnes,H. Barnes,-5,28,3,Made,1,112,109,221,v,Barnes 3' Driving Hook Shot (25 PTS),Made Shot,Driving Hook Shot,1,2,492
+0021800495,668,PT03M31.00S,5,1610612757,POR,203468,McCollum,C. McCollum,98,239,26,Missed,1,,,0,h,MISS McCollum 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,493
+0021800495,669,PT03M29.00S,5,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,494
+0021800495,670,PT03M23.00S,5,1610612742,DAL,1629029,Dončić,L. Dončić,4,277,28,Missed,1,,,0,v,MISS Doncic 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,495
+0021800495,671,PT03M18.00S,5,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,h,McCollum REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,496
+0021800495,672,PT03M06.00S,5,1610612757,POR,203081,Lillard,D. Lillard,-183,173,25,Missed,1,,,0,h,MISS Lillard 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,497
+0021800495,673,PT03M02.00S,5,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,498
+0021800495,674,PT02M48.00S,5,1610612742,DAL,1629029,Dončić,L. Dončić,112,231,26,Missed,1,,,0,v,MISS Doncic 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,499
+0021800495,675,PT02M47.00S,5,1610612757,POR,203468,McCollum,C. McCollum,0,0,0,,0,,,0,h,McCollum REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,500
+0021800495,676,PT02M43.00S,5,1610612757,POR,203090,Harkless,M. Harkless,-2,14,1,Made,1,114,109,223,h,Harkless 1' Driving Layup (13 PTS) (McCollum 5 AST),Made Shot,Driving Layup Shot,1,2,501
+0021800495,678,PT02M43.00S,5,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.8 Short 0),Timeout,Regular,0,0,502
+0021800495,682,PT02M29.00S,5,1610612742,DAL,203084,Barnes,H. Barnes,96,25,10,Made,1,114,111,225,v,Barnes 10' Turnaround Fadeaway (27 PTS),Made Shot,Turnaround Fadeaway shot,1,2,503
+0021800495,683,PT02M08.00S,5,1610612757,POR,203468,McCollum,C. McCollum,55,153,16,Made,1,116,111,227,h,McCollum 16' Pullup Jump Shot (22 PTS) (Harkless 1 AST),Made Shot,Pullup Jump shot,1,2,504
+0021800495,685,PT01M55.00S,5,1610612757,POR,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,Harkless P.FOUL (P5.T1) (B.Nansel),Foul,Personal,1,0,505
+0021800495,687,PT01M52.00S,5,1610612742,DAL,203084,Barnes,H. Barnes,-7,8,1,Missed,1,,,0,v,MISS Barnes 1' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,506
+0021800495,688,PT01M51.00S,5,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,507
+0021800495,689,PT01M51.00S,5,1610612742,DAL,201599,Jordan,D. Jordan,0,-6,1,Made,1,116,113,229,v,Jordan 1' Tip Dunk Shot (12 PTS),Made Shot,Tip Dunk Shot,1,2,508
+0021800495,690,PT01M28.00S,5,1610612757,POR,203468,McCollum,C. McCollum,76,172,19,Missed,1,,,0,h,MISS McCollum 19' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,509
+0021800495,692,PT01M28.00S,5,0,,1610612757,,,0,0,0,,0,,,0,h,TRAIL BLAZERS Rebound,Rebound,Unknown,0,0,510
+0021800495,691,PT01M28.00S,5,0,,1610612757,,,0,0,0,,0,,,0,h,TRAIL BLAZERS Turnover: Shot Clock (T#10),Turnover,Shot Clock Turnover,0,0,511
+0021800495,693,PT01M14.00S,5,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson Bad Pass Turnover (P2.T10),Turnover,Bad Pass,1,0,512
+0021800495,693,PT01M14.00S,5,1610612757,POR,202329,Aminu,A. Aminu,0,0,0,,0,,,0,h,Aminu STEAL (2 STL),,,1,0,513
+0021800495,695,PT00M59.80S,5,1610612757,POR,203081,Lillard,D. Lillard,-140,148,20,Missed,1,,,0,h,MISS Lillard 20' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,514
+0021800495,696,PT00M57.00S,5,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,515
+0021800495,697,PT00M50.20S,5,1610612742,DAL,201599,Jordan,D. Jordan,3,-10,1,Made,1,116,115,231,v,Jordan 1' Dunk (14 PTS) (Doncic 6 AST),Made Shot,Dunk Shot,1,2,516
+0021800495,699,PT00M34.20S,5,1610612757,POR,203081,Lillard,D. Lillard,9,-6,1,Made,1,118,115,233,h,Lillard 1' Driving Layup (31 PTS),Made Shot,Driving Layup Shot,1,2,517
+0021800495,700,PT00M34.20S,5,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.9 Short 0),Timeout,Regular,0,0,518
+0021800495,701,PT00M28.70S,5,1610612742,DAL,203084,Barnes,H. Barnes,-1,254,25,Missed,1,,,0,v,MISS Barnes 25' 3PT Jump Bank Shot,Missed Shot,Jump Bank Shot,1,3,519
+0021800495,702,PT00M24.70S,5,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:2 Def:9),Rebound,Unknown,1,0,520
+0021800495,703,PT00M23.50S,5,1610612742,DAL,1629029,Dončić,L. Dončić,-163,194,25,Missed,1,,,0,v,MISS Doncic 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,521
+0021800495,704,PT00M23.50S,5,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,522
+0021800495,705,PT00M19.30S,5,1610612742,DAL,1628973,Brunson,J. Brunson,211,120,24,Missed,1,,,0,v,MISS Brunson 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,523
+0021800495,706,PT00M17.10S,5,1610612757,POR,202329,Aminu,A. Aminu,0,0,0,,0,,,0,h,Aminu REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,524
+0021800495,707,PT00M17.10S,5,1610612742,DAL,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes Personal Take Foul (P3.T1) (Z.Zarba),Foul,Personal Take,1,0,525
+0021800495,709,PT00M17.10S,5,1610612757,POR,203090,Harkless,M. Harkless,0,0,0,,0,,,0,h,SUB: Turner FOR Harkless,Substitution,,0,0,526
+0021800495,711,PT00M15.60S,5,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson Personal Take Foul (P3.PN) (B.Nansel),Foul,Personal Take,1,0,527
+0021800495,713,PT00M15.60S,5,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,119,115,234,h,Lillard Free Throw 1 of 2 (32 PTS),Free Throw,Free Throw 1 of 2,1,0,528
+0021800495,714,PT00M15.60S,5,1610612757,POR,202323,Turner,E. Turner,0,0,0,,0,,,0,h,SUB: Harkless FOR Turner,Substitution,,0,0,529
+0021800495,716,PT00M15.60S,5,1610612757,POR,203081,Lillard,D. Lillard,0,0,0,,0,120,115,235,h,Lillard Free Throw 2 of 2 (33 PTS),Free Throw,Free Throw 2 of 2,1,0,530
+0021800495,717,PT00M08.20S,5,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,Nurkic S.FOUL (P6.PN) (T.Maddox),Foul,Shooting,1,0,531
+0021800495,719,PT00M08.20S,5,1610612757,POR,203994,Nurkić,J. Nurkić,0,0,0,,0,,,0,h,SUB: Leonard FOR Nurkic,Substitution,,0,0,532
+0021800495,721,PT00M08.20S,5,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,120,116,236,v,Doncic Free Throw 1 of 2 (21 PTS),Free Throw,Free Throw 1 of 2,1,0,533
+0021800495,722,PT00M08.20S,5,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,MISS Doncic Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,534
+0021800495,723,PT00M07.00S,5,1610612757,POR,202329,Aminu,A. Aminu,0,0,0,,0,,,0,h,Aminu REBOUND (Off:0 Def:9),Rebound,Unknown,1,0,535
+0021800495,724,PT00M07.00S,5,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,Matthews Personal Take Foul (P4.PN) (Z.Zarba),Foul,Personal Take,1,0,536
+0021800495,726,PT00M07.00S,5,1610612757,POR,202329,Aminu,A. Aminu,0,0,0,,0,,,0,h,MISS Aminu Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,537
+0021800495,727,PT00M07.00S,5,0,,1610612757,,,0,0,0,,0,,,0,h,TRAIL BLAZERS Rebound,Rebound,Normal Rebound,0,0,538
+0021800495,728,PT00M07.00S,5,1610612757,POR,203086,Leonard,M. Leonard,0,0,0,,0,,,0,h,SUB: Turner FOR Leonard,Substitution,,0,0,539
+0021800495,730,PT00M07.00S,5,1610612757,POR,202329,Aminu,A. Aminu,0,0,0,,0,121,116,237,h,Aminu Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,540
+0021800495,731,PT00M01.20S,5,1610612742,DAL,1629029,Dončić,L. Dončić,8,0,1,Made,1,121,118,239,v,Doncic 1' Running Layup (23 PTS),Made Shot,Running Layup Shot,1,2,541
+0021800495,732,PT00M00.00S,5,0,,0,,,0,0,0,,0,121,118,239,,End of 1st OT (11:39 PM EST),period,end,1,0,542

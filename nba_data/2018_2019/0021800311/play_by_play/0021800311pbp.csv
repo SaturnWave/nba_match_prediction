@@ -1,0 +1,464 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021800311,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (8:11 PM EST),period,start,0,0,1
+0021800311,4,PT12M00.00S,1,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,h,Jump Ball Towns vs. Aldridge: Tip to Gibson,Jump Ball,,1,0,2
+0021800311,7,PT11M48.00S,1,1610612750,MIN,203952,Wiggins,A. Wiggins,2,1,0,Missed,1,,,0,h,MISS Wiggins Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,3
+0021800311,8,PT11M45.00S,1,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,4
+0021800311,9,PT11M30.00S,1,1610612759,SAS,200746,Aldridge,L. Aldridge,-193,51,20,Made,1,0,2,2,v,Aldridge 20' Jump Shot (2 PTS) (Gay 1 AST),Made Shot,Jump Shot,1,2,5
+0021800311,11,PT11M12.00S,1,1610612750,MIN,203952,Wiggins,A. Wiggins,-1,0,0,Missed,1,,,0,h,MISS Wiggins Alley Oop Layup,Missed Shot,Alley Oop Layup shot,1,2,6
+0021800311,12,PT11M11.00S,1,1610612750,MIN,203952,Wiggins,A. Wiggins,0,0,0,,0,,,0,h,Wiggins REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,7
+0021800311,13,PT11M11.00S,1,1610612759,SAS,200746,Aldridge,L. Aldridge,0,0,0,,0,,,0,v,Aldridge S.FOUL (P1.T1) (E.Malloy),Foul,Shooting,1,0,8
+0021800311,15,PT11M11.00S,1,1610612750,MIN,203952,Wiggins,A. Wiggins,0,0,0,,0,1,2,3,h,Wiggins Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,9
+0021800311,16,PT11M11.00S,1,1610612750,MIN,203952,Wiggins,A. Wiggins,0,0,0,,0,,,0,h,MISS Wiggins Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,10
+0021800311,17,PT11M09.00S,1,1610612759,SAS,200746,Aldridge,L. Aldridge,0,0,0,,0,,,0,v,Aldridge REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,11
+0021800311,18,PT10M50.00S,1,1610612759,SAS,200746,Aldridge,L. Aldridge,-113,-6,11,Missed,1,,,0,v,MISS Aldridge 11' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,12
+0021800311,19,PT10M47.00S,1,1610612750,MIN,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,13
+0021800311,20,PT10M28.00S,1,1610612750,MIN,1626157,Towns,K. Towns,-79,0,8,Missed,1,,,0,h,MISS Towns 8' Running Layup,Missed Shot,Running Layup Shot,1,2,14
+0021800311,21,PT10M26.00S,1,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,15
+0021800311,22,PT10M17.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,DeRozan Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,16
+0021800311,22,PT10M17.00S,1,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,h,Towns STEAL (1 STL),,,1,0,17
+0021800311,24,PT10M13.00S,1,1610612750,MIN,203496,Covington,R. Covington,-2,6,1,Made,1,3,2,5,h,Covington 1' Driving Layup (2 PTS) (Towns 1 AST),Made Shot,Driving Layup Shot,1,2,18
+0021800311,26,PT09M56.00S,1,1610612759,SAS,200746,Aldridge,L. Aldridge,187,61,20,Missed,1,,,0,v,MISS Aldridge 20' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,19
+0021800311,27,PT09M53.00S,1,1610612750,MIN,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,20
+0021800311,28,PT09M42.00S,1,1610612750,MIN,201952,Teague,J. Teague,0,0,0,,0,,,0,h,Teague Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,21
+0021800311,28,PT09M42.00S,1,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay STEAL (1 STL),,,1,0,22
+0021800311,30,PT09M39.00S,1,1610612759,SAS,200746,Aldridge,L. Aldridge,1,24,2,Missed,1,,,0,v,MISS Aldridge 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,23
+0021800311,30,PT09M39.00S,1,1610612750,MIN,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington BLOCK (1 BLK),,,1,2,24
+0021800311,32,PT09M39.00S,1,0,,1610612759,,,0,0,0,,0,,,0,v,Spurs Rebound,Rebound,Unknown,0,0,25
+0021800311,34,PT09M30.00S,1,1610612759,SAS,200746,Aldridge,L. Aldridge,5,21,2,Made,1,3,4,7,v,Aldridge 2' Driving Finger Roll Layup (4 PTS) (Forbes 1 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,26
+0021800311,36,PT09M11.00S,1,1610612750,MIN,203952,Wiggins,A. Wiggins,-13,49,5,Made,1,5,4,9,h,Wiggins 5' Hook Shot (3 PTS) (Teague 1 AST),Made Shot,Hook Shot,1,2,27
+0021800311,38,PT08M54.00S,1,1610612759,SAS,200752,Gay,R. Gay,101,232,25,Made,1,5,7,12,v,Gay 25' 3PT Jump Shot (3 PTS) (Aldridge 1 AST),Made Shot,Jump Shot,1,3,28
+0021800311,40,PT08M39.00S,1,1610612750,MIN,201959,Gibson,T. Gibson,44,115,12,Missed,1,,,0,h,MISS Gibson 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,29
+0021800311,41,PT08M37.00S,1,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,h,Towns REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,30
+0021800311,42,PT08M35.00S,1,1610612750,MIN,1626157,Towns,K. Towns,6,12,1,Made,1,7,7,14,h,Towns 1' Layup (2 PTS),Made Shot,Layup Shot,1,2,31
+0021800311,43,PT08M24.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,DeRozan Out of Bounds - Bad Pass Turnover Turnover (P2.T2),Turnover,Out of Bounds - Bad Pass Turnover,1,0,32
+0021800311,44,PT08M07.00S,1,1610612750,MIN,201952,Teague,J. Teague,-128,222,26,Missed,1,,,0,h,MISS Teague 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,33
+0021800311,45,PT08M04.00S,1,1610612759,SAS,200746,Aldridge,L. Aldridge,0,0,0,,0,,,0,v,Aldridge REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,34
+0021800311,46,PT07M52.00S,1,1610612750,MIN,201952,Teague,J. Teague,0,0,0,,0,,,0,h,Teague P.FOUL (P1.T1) (M.Kogut),Foul,Personal,1,0,35
+0021800311,48,PT07M39.00S,1,1610612759,SAS,200752,Gay,R. Gay,-222,3,0,Missed,1,,,0,v,MISS Gay 3PT Jump Shot,Missed Shot,Jump Shot,1,3,36
+0021800311,49,PT07M37.00S,1,1610612750,MIN,203952,Wiggins,A. Wiggins,0,0,0,,0,,,0,h,Wiggins REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,37
+0021800311,50,PT07M31.00S,1,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay P.FOUL (P1.T2) (M.Kogut),Foul,Personal,1,0,38
+0021800311,52,PT07M18.00S,1,1610612750,MIN,201959,Gibson,T. Gibson,-3,11,1,Made,1,9,7,16,h,Gibson 1' Layup (2 PTS) (Towns 2 AST),Made Shot,Layup Shot,1,2,39
+0021800311,54,PT07M07.00S,1,1610612759,SAS,1627854,Forbes,B. Forbes,-80,155,17,Missed,1,,,0,v,MISS Forbes 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,40
+0021800311,55,PT07M04.00S,1,1610612750,MIN,201959,Gibson,T. Gibson,0,0,0,,0,,,0,h,Gibson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,41
+0021800311,56,PT06M53.00S,1,1610612750,MIN,201959,Gibson,T. Gibson,-5,10,1,Made,1,11,7,18,h,Gibson 1' Layup (4 PTS) (Towns 3 AST),Made Shot,Layup Shot,1,2,42
+0021800311,58,PT06M40.00S,1,1610612759,SAS,1628401,White,D. White,3,155,16,Missed,1,,,0,v,MISS White 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,43
+0021800311,59,PT06M38.00S,1,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,h,Towns REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,44
+0021800311,60,PT06M32.00S,1,1610612750,MIN,203496,Covington,R. Covington,105,231,25,Made,1,14,7,21,h,Covington 25' 3PT Pullup Jump Shot (5 PTS),Made Shot,Pullup Jump shot,1,3,45
+0021800311,61,PT06M32.00S,1,0,,1610612759,,,0,0,0,,0,,,0,v,Spurs Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,46
+0021800311,62,PT06M32.00S,1,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,SUB: Mills FOR Gay,Substitution,,0,0,47
+0021800311,63,PT06M32.00S,1,1610612759,SAS,1628401,White,D. White,0,0,0,,0,,,0,v,SUB: Cunningham FOR White,Substitution,,0,0,48
+0021800311,66,PT06M07.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,DeRozan Lost Ball Turnover (P3.T3),Turnover,Lost Ball,0,0,49
+0021800311,66,PT06M07.00S,1,1610612750,MIN,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington STEAL (1 STL),,,0,0,50
+0021800311,68,PT06M02.00S,1,1610612750,MIN,203496,Covington,R. Covington,2,8,1,Made,1,16,7,23,h,Covington 1' Cutting Layup Shot (7 PTS) (Teague 2 AST),Made Shot,Cutting Layup Shot,1,2,51
+0021800311,70,PT05M54.00S,1,1610612750,MIN,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington P.FOUL (P1.T2) (E.Malloy),Foul,Personal,1,0,52
+0021800311,72,PT05M49.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,-177,51,18,Made,1,16,9,25,v,DeRozan 18' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,53
+0021800311,73,PT05M34.00S,1,1610612750,MIN,203952,Wiggins,A. Wiggins,20,17,3,Missed,1,,,0,h,MISS Wiggins 3' Layup,Missed Shot,Layup Shot,1,2,54
+0021800311,74,PT05M33.00S,1,1610612750,MIN,203952,Wiggins,A. Wiggins,0,0,0,,0,,,0,h,Wiggins REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,55
+0021800311,75,PT05M33.00S,1,1610612759,SAS,201967,Cunningham,D. Cunningham,0,0,0,,0,,,0,v,Cunningham S.FOUL (P1.T3) (E.Malloy),Foul,Shooting,1,0,56
+0021800311,77,PT05M33.00S,1,1610612750,MIN,203952,Wiggins,A. Wiggins,0,0,0,,0,17,9,26,h,Wiggins Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,0,0,57
+0021800311,78,PT05M33.00S,1,1610612750,MIN,203952,Wiggins,A. Wiggins,0,0,0,,0,18,9,27,h,Wiggins Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,0,0,58
+0021800311,79,PT05M20.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,-169,101,20,Missed,1,,,0,v,MISS DeRozan 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,59
+0021800311,80,PT05M18.00S,1,1610612750,MIN,201959,Gibson,T. Gibson,0,0,0,,0,,,0,h,Gibson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,60
+0021800311,81,PT05M10.00S,1,1610612750,MIN,1626157,Towns,K. Towns,-66,267,28,Missed,1,,,0,h,MISS Towns 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,61
+0021800311,82,PT05M08.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,DeRozan REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,62
+0021800311,83,PT05M01.00S,1,1610612759,SAS,201988,Mills,P. Mills,-174,184,25,Missed,1,,,0,v,MISS Mills 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,63
+0021800311,84,PT04M58.00S,1,1610612750,MIN,201959,Gibson,T. Gibson,0,0,0,,0,,,0,h,Gibson REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,64
+0021800311,85,PT04M50.00S,1,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,h,Towns Out of Bounds - Bad Pass Turnover Turnover (P1.T2),Turnover,Out of Bounds - Bad Pass Turnover,1,0,65
+0021800311,86,PT04M50.00S,1,1610612750,MIN,203496,Covington,R. Covington,0,0,0,,0,,,0,h,SUB: Rose FOR Covington,Substitution,,0,0,66
+0021800311,88,PT04M34.00S,1,1610612759,SAS,201967,Cunningham,D. Cunningham,17,158,16,Made,1,18,11,29,v,Cunningham 16' Jump Shot (2 PTS) (Mills 1 AST),Made Shot,Jump Shot,1,2,67
+0021800311,90,PT04M08.00S,1,1610612750,MIN,203952,Wiggins,A. Wiggins,-134,228,26,Missed,1,,,0,h,MISS Wiggins 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,68
+0021800311,91,PT04M06.00S,1,1610612759,SAS,1627854,Forbes,B. Forbes,0,0,0,,0,,,0,v,Forbes REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,69
+0021800311,92,PT04M02.00S,1,1610612759,SAS,1627854,Forbes,B. Forbes,96,236,25,Missed,1,,,0,v,MISS Forbes 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,70
+0021800311,93,PT03M59.00S,1,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,h,Towns REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,71
+0021800311,94,PT03M50.00S,1,1610612750,MIN,201959,Gibson,T. Gibson,-5,6,1,Made,1,20,11,31,h,Gibson 1' Reverse Layup (6 PTS) (Rose 1 AST),Made Shot,Reverse Layup Shot,1,2,72
+0021800311,96,PT03M35.00S,1,1610612759,SAS,1627854,Forbes,B. Forbes,-120,226,26,Made,1,20,14,34,v,Forbes 26' 3PT Jump Shot (3 PTS) (Mills 2 AST),Made Shot,Jump Shot,1,3,73
+0021800311,98,PT03M25.00S,1,1610612750,MIN,201952,Teague,J. Teague,-3,8,1,Made,1,22,14,36,h,Teague 1' Driving Finger Roll Layup (2 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,74
+0021800311,99,PT03M00.00S,1,1610612759,SAS,201988,Mills,P. Mills,50,239,24,Missed,1,,,0,v,MISS Mills 24' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,75
+0021800311,100,PT02M58.00S,1,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,h,Towns REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,76
+0021800311,101,PT02M55.00S,1,1610612750,MIN,203952,Wiggins,A. Wiggins,0,0,0,,0,,,0,h,Wiggins OFF.Foul (P1) (M.Kogut),Foul,Offensive,1,0,77
+0021800311,103,PT02M55.00S,1,1610612750,MIN,203952,Wiggins,A. Wiggins,0,0,0,,0,,,0,h,Wiggins Offensive Foul Turnover (P1.T3),Turnover,Offensive Foul Turnover,1,0,78
+0021800311,104,PT02M55.00S,1,0,,1610612750,,,0,0,0,,0,,,0,h,TIMBERWOLVES Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,79
+0021800311,105,PT02M55.00S,1,1610612750,MIN,201952,Teague,J. Teague,0,0,0,,0,,,0,h,SUB: Jones FOR Teague,Substitution,,0,0,80
+0021800311,106,PT02M55.00S,1,1610612750,MIN,201959,Gibson,T. Gibson,0,0,0,,0,,,0,h,SUB: Saric FOR Gibson,Substitution,,0,0,81
+0021800311,107,PT02M55.00S,1,1610612759,SAS,1627854,Forbes,B. Forbes,0,0,0,,0,,,0,v,SUB: Belinelli FOR Forbes,Substitution,,0,0,82
+0021800311,111,PT02M35.00S,1,1610612759,SAS,200746,Aldridge,L. Aldridge,-97,0,10,Missed,1,,,0,v,MISS Aldridge 10' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,83
+0021800311,112,PT02M33.00S,1,1610612750,MIN,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,84
+0021800311,113,PT02M18.00S,1,1610612750,MIN,203952,Wiggins,A. Wiggins,-55,27,6,Missed,1,,,0,h,MISS Wiggins 6' Jump Shot,Missed Shot,Jump Shot,1,2,85
+0021800311,113,PT02M18.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,DeRozan BLOCK (1 BLK),,,1,2,86
+0021800311,115,PT02M12.00S,1,1610612759,SAS,201967,Cunningham,D. Cunningham,0,0,0,,0,,,0,v,Cunningham REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,87
+0021800311,116,PT02M11.00S,1,1610612759,SAS,201158,Belinelli,M. Belinelli,43,250,25,Made,1,22,17,39,v,Belinelli 25' 3PT Jump Shot (3 PTS) (Mills 3 AST),Made Shot,Jump Shot,1,3,88
+0021800311,117,PT02M01.00S,1,1610612750,MIN,201565,Rose,D. Rose,-7,247,25,Made,1,25,17,42,h,Rose 25' 3PT Pullup Jump Shot (3 PTS),Made Shot,Pullup Jump shot,1,3,89
+0021800311,118,PT01M37.00S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,3,13,1,Made,1,25,19,44,v,DeRozan 1' Driving Layup (4 PTS) (Aldridge 2 AST),Made Shot,Driving Layup Shot,1,2,90
+0021800311,120,PT01M23.00S,1,1610612750,MIN,1626157,Towns,K. Towns,81,237,25,Missed,1,,,0,h,MISS Towns 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,91
+0021800311,121,PT01M20.00S,1,1610612759,SAS,201967,Cunningham,D. Cunningham,0,0,0,,0,,,0,v,Cunningham REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,92
+0021800311,123,PT01M10.00S,1,1610612759,SAS,201988,Mills,P. Mills,18,248,25,Made,1,25,22,47,v,Mills 25' 3PT Jump Shot (3 PTS) (Belinelli 1 AST),Made Shot,Jump Shot,1,3,93
+0021800311,124,PT00M49.80S,1,1610612750,MIN,201565,Rose,D. Rose,-147,221,27,Made,1,28,22,50,h,Rose 27' 3PT Jump Shot (6 PTS) (Towns 4 AST),Made Shot,Jump Shot,1,3,94
+0021800311,126,PT00M30.10S,1,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,DeRozan Bad Pass Turnover (P4.T4),Turnover,Bad Pass,1,0,95
+0021800311,126,PT00M30.10S,1,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,h,Towns STEAL (2 STL),,,1,0,96
+0021800311,128,PT00M07.50S,1,1610612750,MIN,203967,Šarić,D. Šarić,9,136,14,Missed,1,,,0,h,MISS Saric 14' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,97
+0021800311,129,PT00M04.20S,1,1610612759,SAS,201988,Mills,P. Mills,0,0,0,,0,,,0,v,Mills REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,98
+0021800311,130,PT00M02.80S,1,1610612759,SAS,201988,Mills,P. Mills,-48,50,7,Made,1,28,24,52,v,Mills 7' Driving Floating Jump Shot (5 PTS),Made Shot,Driving Floating Jump Shot,1,2,99
+0021800311,131,PT00M02.80S,1,1610612750,MIN,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric S.FOUL (P1.T3) (M.Kogut),Foul,Shooting,1,0,100
+0021800311,133,PT00M02.80S,1,1610612759,SAS,201988,Mills,P. Mills,0,0,0,,0,28,25,53,v,Mills Free Throw 1 of 1 (6 PTS),Free Throw,Free Throw 1 of 1,0,0,101
+0021800311,134,PT00M00.20S,1,1610612750,MIN,1626145,Jones,T. Jones,-201,151,25,Missed,1,,,0,h,MISS Jones 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,102
+0021800311,135,PT00M00.10S,1,0,,1610612750,,,0,0,0,,0,,,0,h,TIMBERWOLVES Rebound,Rebound,Unknown,0,0,103
+0021800311,136,PT00M00.00S,1,0,,0,,,0,0,0,,0,28,25,53,,End of 1st Period (8:33 PM EST),period,end,1,0,104
+0021800311,145,PT12M00.00S,2,0,,0,,,0,0,0,,0,28,25,53,,Start of 2nd Period (8:36 PM EST),period,start,0,0,105
+0021800311,146,PT11M44.00S,2,1610612759,SAS,201988,Mills,P. Mills,-25,26,4,Missed,1,,,0,v,MISS Mills 4' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,106
+0021800311,146,PT11M44.00S,2,1610612750,MIN,203476,Dieng,G. Dieng,0,0,0,,0,,,0,h,Dieng BLOCK (1 BLK),,,1,2,107
+0021800311,148,PT11M41.00S,2,1610612750,MIN,203476,Dieng,G. Dieng,0,0,0,,0,,,0,h,Dieng REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,108
+0021800311,149,PT11M34.00S,2,1610612750,MIN,203476,Dieng,G. Dieng,134,109,17,Made,1,30,25,55,h,Dieng 17' Jump Shot (2 PTS) (Jones 1 AST),Made Shot,Jump Shot,1,2,109
+0021800311,151,PT11M11.00S,2,1610612759,SAS,1627751,Poeltl,J. Poeltl,-2,13,1,Made,1,30,27,57,v,Poeltl 1' Cutting Layup Shot (2 PTS) (Gay 2 AST),Made Shot,Cutting Layup Shot,1,2,110
+0021800311,153,PT10M58.00S,2,1610612750,MIN,201565,Rose,D. Rose,-5,8,1,Made,1,32,27,59,h,Rose 1' Driving Layup (8 PTS) (Jones 2 AST),Made Shot,Driving Layup Shot,1,2,111
+0021800311,154,PT10M41.00S,2,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay Out of Bounds - Bad Pass Turnover Turnover (P1.T5),Turnover,Out of Bounds - Bad Pass Turnover,1,0,112
+0021800311,156,PT10M26.00S,2,1610612750,MIN,203967,Šarić,D. Šarić,-6,10,1,Made,1,34,27,61,h,Saric 1' Cutting Dunk Shot (2 PTS) (Rose 2 AST),Made Shot,Cutting Dunk Shot,1,2,113
+0021800311,158,PT10M14.00S,2,1610612759,SAS,201158,Belinelli,M. Belinelli,55,168,18,Missed,1,,,0,v,MISS Belinelli 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,114
+0021800311,159,PT10M09.00S,2,1610612750,MIN,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,115
+0021800311,160,PT10M04.00S,2,1610612750,MIN,1626145,Jones,T. Jones,-8,-5,1,Made,1,36,27,63,h,Jones 1' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,116
+0021800311,161,PT09M41.00S,2,1610612759,SAS,201158,Belinelli,M. Belinelli,-67,243,25,Missed,1,,,0,v,MISS Belinelli 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,117
+0021800311,162,PT09M39.00S,2,1610612750,MIN,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,118
+0021800311,163,PT09M32.00S,2,1610612750,MIN,1626145,Jones,T. Jones,-120,143,19,Missed,1,,,0,h,MISS Jones 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,119
+0021800311,164,PT09M29.00S,2,1610612750,MIN,203476,Dieng,G. Dieng,0,0,0,,0,,,0,h,Dieng REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,120
+0021800311,165,PT09M29.00S,2,1610612750,MIN,203476,Dieng,G. Dieng,0,-6,1,Made,1,38,27,65,h,Dieng 1' Tip Layup Shot (4 PTS),Made Shot,Tip Layup Shot,1,2,121
+0021800311,166,PT09M29.00S,2,0,,1610612759,,,0,0,0,,0,,,0,v,Spurs Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,122
+0021800311,167,PT09M29.00S,2,1610612759,SAS,201988,Mills,P. Mills,0,0,0,,0,,,0,v,SUB: Forbes FOR Mills,Substitution,,0,0,123
+0021800311,168,PT09M29.00S,2,1610612759,SAS,201967,Cunningham,D. Cunningham,0,0,0,,0,,,0,v,SUB: Bertans FOR Cunningham,Substitution,,0,0,124
+0021800311,171,PT09M09.00S,2,1610612759,SAS,202722,Bertans,D. Bertans,-139,208,25,Missed,1,,,0,v,MISS Bertans 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,125
+0021800311,172,PT09M07.00S,2,1610612759,SAS,202722,Bertans,D. Bertans,0,0,0,,0,,,0,v,Bertans REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,126
+0021800311,173,PT09M07.00S,2,1610612750,MIN,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington P.FOUL (P2.T1) (A.Smith),Foul,Personal,1,0,127
+0021800311,175,PT09M00.00S,2,1610612759,SAS,1627854,Forbes,B. Forbes,0,0,0,,0,,,0,v,Forbes Lost Ball Turnover (P1.T6),Turnover,Lost Ball,1,0,128
+0021800311,175,PT09M00.00S,2,1610612750,MIN,1626145,Jones,T. Jones,0,0,0,,0,,,0,h,Jones STEAL (1 STL),,,1,0,129
+0021800311,177,PT08M57.00S,2,1610612750,MIN,1626145,Jones,T. Jones,3,18,2,Made,1,40,27,67,h,Jones 2' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,130
+0021800311,178,PT08M57.00S,2,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,Poeltl Violation:Defensive Goaltending (M.Kogut),Violation,Defensive Goaltending,1,0,131
+0021800311,179,PT08M43.00S,2,1610612759,SAS,1627854,Forbes,B. Forbes,-4,203,20,Missed,1,,,0,v,MISS Forbes 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,132
+0021800311,180,PT08M39.00S,2,1610612750,MIN,203476,Dieng,G. Dieng,0,0,0,,0,,,0,h,Dieng REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,133
+0021800311,181,PT08M25.00S,2,1610612750,MIN,203967,Šarić,D. Šarić,0,268,27,Missed,1,,,0,h,MISS Saric 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,134
+0021800311,182,PT08M23.00S,2,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,135
+0021800311,183,PT08M19.00S,2,1610612750,MIN,201565,Rose,D. Rose,0,0,0,,0,,,0,h,Rose P.FOUL (P1.T2) (M.Kogut),Foul,Personal,1,0,136
+0021800311,185,PT08M13.00S,2,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,Poeltl Lost Ball Turnover (P1.T7),Turnover,Lost Ball,1,0,137
+0021800311,185,PT08M13.00S,2,1610612750,MIN,1626145,Jones,T. Jones,0,0,0,,0,,,0,h,Jones STEAL (2 STL),,,1,0,138
+0021800311,187,PT08M05.00S,2,1610612750,MIN,203496,Covington,R. Covington,-226,60,0,Missed,1,,,0,h,MISS Covington 3PT Jump Shot,Missed Shot,Jump Shot,1,3,139
+0021800311,188,PT08M01.00S,2,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,140
+0021800311,189,PT07M52.00S,2,1610612759,SAS,200752,Gay,R. Gay,-21,37,4,Missed,1,,,0,v,MISS Gay 4' Hook Shot,Missed Shot,Hook Shot,1,2,141
+0021800311,189,PT07M52.00S,2,1610612750,MIN,203476,Dieng,G. Dieng,0,0,0,,0,,,0,h,Dieng BLOCK (2 BLK),,,1,2,142
+0021800311,191,PT07M52.00S,2,0,,1610612750,,,0,0,0,,0,,,0,h,TIMBERWOLVES Rebound,Rebound,Unknown,1,0,143
+0021800311,192,PT07M52.00S,2,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay L.B.FOUL (P2.T1) (A.Smith),Foul,Loose Ball,1,0,144
+0021800311,194,PT07M52.00S,2,1610612759,SAS,201158,Belinelli,M. Belinelli,0,0,0,,0,,,0,v,SUB: DeRozan FOR Belinelli,Substitution,,0,0,145
+0021800311,196,PT07M43.00S,2,1610612750,MIN,203476,Dieng,G. Dieng,0,0,0,,0,,,0,h,Dieng OFF.Foul (P1) (E.Malloy),Foul,Offensive,1,0,146
+0021800311,198,PT07M43.00S,2,1610612750,MIN,203476,Dieng,G. Dieng,0,0,0,,0,,,0,h,Dieng Offensive Foul Turnover (P1.T4),Turnover,Offensive Foul Turnover,1,0,147
+0021800311,637,PT07M29.00S,2,1610612759,SAS,1627751,Poeltl,J. Poeltl,34,37,5,Missed,1,,,0,v,MISS Poeltl 5' Layup,Missed Shot,Layup Shot,0,2,148
+0021800311,637,PT07M29.00S,2,1610612750,MIN,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington BLOCK (2 BLK),,,0,2,149
+0021800311,639,PT07M27.00S,2,0,,1610612759,,,0,0,0,,0,,,0,v,Spurs Rebound,Rebound,Unknown,0,0,150
+0021800311,201,PT07M24.00S,2,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,Poeltl Offensive Charge Foul (P1.T2) (A.Smith),Foul,Offensive Charge,1,0,151
+0021800311,203,PT07M24.00S,2,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,Poeltl Offensive Foul Turnover (P2.T8),Turnover,Offensive Foul Turnover,1,0,152
+0021800311,204,PT07M14.00S,2,1610612750,MIN,201565,Rose,D. Rose,-117,164,20,Made,1,42,27,69,h,Rose 20' Step Back Jump Shot (10 PTS),Made Shot,Step Back Jump shot,1,2,153
+0021800311,205,PT07M02.00S,2,1610612759,SAS,201942,DeRozan,D. DeRozan,-114,69,13,Missed,1,,,0,v,MISS DeRozan 13' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,154
+0021800311,206,PT07M00.00S,2,1610612750,MIN,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,155
+0021800311,207,PT06M49.00S,2,1610612750,MIN,201565,Rose,D. Rose,47,202,21,Missed,1,,,0,h,MISS Rose 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,156
+0021800311,208,PT06M45.00S,2,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,Poeltl REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,157
+0021800311,209,PT06M26.00S,2,1610612759,SAS,202722,Bertans,D. Bertans,6,274,27,Missed,1,,,0,v,MISS Bertans 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,158
+0021800311,210,PT06M23.00S,2,1610612750,MIN,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,159
+0021800311,211,PT06M14.00S,2,1610612750,MIN,203496,Covington,R. Covington,76,242,25,Made,1,45,27,72,h,Covington 25' 3PT Pullup Jump Shot (10 PTS),Made Shot,Pullup Jump shot,1,3,160
+0021800311,212,PT05M58.00S,2,1610612759,SAS,201942,DeRozan,D. DeRozan,161,-6,16,Made,1,45,29,74,v,DeRozan 16' Step Back Jump Shot (6 PTS),Made Shot,Step Back Jump shot,1,2,161
+0021800311,213,PT05M40.00S,2,1610612750,MIN,203476,Dieng,G. Dieng,-17,5,2,Missed,1,,,0,h,MISS Dieng 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,162
+0021800311,214,PT05M40.00S,2,1610612750,MIN,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,163
+0021800311,215,PT05M40.00S,2,1610612750,MIN,203967,Šarić,D. Šarić,0,-6,1,Made,1,47,29,76,h,Saric 1' Tip Layup Shot (4 PTS),Made Shot,Tip Layup Shot,1,2,164
+0021800311,216,PT05M40.00S,2,1610612759,SAS,1627854,Forbes,B. Forbes,0,0,0,,0,,,0,v,Forbes S.FOUL (P1.T3) (A.Smith),Foul,Shooting,1,0,165
+0021800311,218,PT05M40.00S,2,1610612750,MIN,201565,Rose,D. Rose,0,0,0,,0,,,0,h,SUB: Wiggins FOR Rose,Substitution,,0,0,166
+0021800311,219,PT05M40.00S,2,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,SUB: Aldridge FOR Poeltl,Substitution,,0,0,167
+0021800311,222,PT05M40.00S,2,1610612750,MIN,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,MISS Saric Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,0,0,168
+0021800311,223,PT05M40.00S,2,1610612759,SAS,200746,Aldridge,L. Aldridge,0,0,0,,0,,,0,v,Aldridge REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,169
+0021800311,224,PT05M17.00S,2,1610612759,SAS,200752,Gay,R. Gay,-192,155,25,Missed,1,,,0,v,MISS Gay 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,170
+0021800311,225,PT05M14.00S,2,1610612750,MIN,1626145,Jones,T. Jones,0,0,0,,0,,,0,h,Jones REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,171
+0021800311,226,PT04M51.00S,2,1610612750,MIN,203952,Wiggins,A. Wiggins,161,189,25,Missed,1,,,0,h,MISS Wiggins 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,172
+0021800311,227,PT04M48.00S,2,1610612759,SAS,202722,Bertans,D. Bertans,0,0,0,,0,,,0,v,Bertans REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,173
+0021800311,228,PT04M33.00S,2,1610612759,SAS,1627854,Forbes,B. Forbes,-16,73,7,Missed,1,,,0,v,MISS Forbes 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,174
+0021800311,229,PT04M31.00S,2,1610612750,MIN,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,175
+0021800311,230,PT04M19.00S,2,1610612750,MIN,1626145,Jones,T. Jones,41,89,10,Missed,1,,,0,h,MISS Jones 10' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,176
+0021800311,231,PT04M18.00S,2,1610612759,SAS,200746,Aldridge,L. Aldridge,0,0,0,,0,,,0,v,Aldridge REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,177
+0021800311,232,PT04M08.00S,2,1610612759,SAS,1627854,Forbes,B. Forbes,-128,214,25,Missed,1,,,0,v,MISS Forbes 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,178
+0021800311,233,PT04M05.00S,2,1610612750,MIN,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,179
+0021800311,234,PT04M02.00S,2,1610612759,SAS,202722,Bertans,D. Bertans,0,0,0,,0,,,0,v,Bertans S.FOUL (P1.T4) (A.Smith),Foul,Shooting,1,0,180
+0021800311,236,PT04M02.00S,2,1610612750,MIN,203496,Covington,R. Covington,0,0,0,,0,,,0,h,MISS Covington Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,181
+0021800311,266,PT04M02.00S,2,0,,1610612750,,,0,0,0,,0,,,0,h,TIMBERWOLVES Rebound,Rebound,Normal Rebound,0,0,182
+0021800311,267,PT04M02.00S,2,1610612750,MIN,203496,Covington,R. Covington,0,0,0,,0,48,29,77,h,Covington Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,0,0,183
+0021800311,238,PT04M02.00S,2,1610612750,MIN,1626145,Jones,T. Jones,0,0,0,,0,,,0,h,SUB: Teague FOR Jones,Substitution,,0,0,184
+0021800311,239,PT04M02.00S,2,1610612750,MIN,203476,Dieng,G. Dieng,0,0,0,,0,,,0,h,SUB: Towns FOR Dieng,Substitution,,0,0,185
+0021800311,240,PT04M02.00S,2,1610612750,MIN,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,SUB: Gibson FOR Saric,Substitution,,0,0,186
+0021800311,241,PT04M02.00S,2,1610612759,SAS,1627854,Forbes,B. Forbes,0,0,0,,0,,,0,v,SUB: Mills FOR Forbes,Substitution,,0,0,187
+0021800311,242,PT04M02.00S,2,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,SUB: Belinelli FOR Gay,Substitution,,0,0,188
+0021800311,243,PT04M02.00S,2,1610612759,SAS,202722,Bertans,D. Bertans,0,0,0,,0,,,0,v,SUB: Cunningham FOR Bertans,Substitution,,0,0,189
+0021800311,250,PT03M40.00S,2,1610612759,SAS,200746,Aldridge,L. Aldridge,98,172,20,Missed,1,,,0,v,MISS Aldridge 20' Jump Shot,Missed Shot,Jump Shot,1,2,190
+0021800311,251,PT03M37.00S,2,1610612750,MIN,201959,Gibson,T. Gibson,0,0,0,,0,,,0,h,Gibson REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,191
+0021800311,252,PT03M29.00S,2,1610612750,MIN,1626157,Towns,K. Towns,90,-14,9,Missed,1,,,0,h,MISS Towns 9' Layup,Missed Shot,Layup Shot,1,2,192
+0021800311,253,PT03M27.00S,2,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,h,Towns REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,193
+0021800311,254,PT03M24.00S,2,1610612750,MIN,1626157,Towns,K. Towns,3,-6,1,Made,1,50,29,79,h,Towns 1' Putback Layup (4 PTS),Made Shot,Putback Layup Shot,1,2,194
+0021800311,255,PT03M18.00S,2,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,h,Towns P.FOUL (P1.T3) (E.Malloy),Foul,Personal,1,0,195
+0021800311,257,PT03M12.00S,2,1610612759,SAS,201988,Mills,P. Mills,-117,162,20,Missed,1,,,0,v,MISS Mills 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,196
+0021800311,258,PT03M09.00S,2,1610612750,MIN,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,197
+0021800311,259,PT02M56.00S,2,1610612750,MIN,201959,Gibson,T. Gibson,-14,12,2,Missed,1,,,0,h,MISS Gibson 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,198
+0021800311,259,PT02M56.00S,2,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,DeRozan BLOCK (2 BLK),,,1,2,199
+0021800311,261,PT02M54.00S,2,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,DeRozan REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,200
+0021800311,262,PT02M36.00S,2,1610612759,SAS,201942,DeRozan,D. DeRozan,-118,219,25,Missed,1,,,0,v,MISS DeRozan 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,201
+0021800311,263,PT02M34.00S,2,0,,1610612750,,,0,0,0,,0,,,0,h,TIMBERWOLVES Rebound,Rebound,Unknown,0,0,202
+0021800311,265,PT02M34.00S,2,0,,1610612750,,,0,0,0,,0,,,0,h,TIMBERWOLVES Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,203
+0021800311,268,PT02M22.00S,2,1610612750,MIN,203952,Wiggins,A. Wiggins,0,8,1,Missed,1,,,0,h,MISS Wiggins 1' Cutting Dunk Shot,Missed Shot,Cutting Dunk Shot,1,2,204
+0021800311,268,PT02M22.00S,2,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,DeRozan BLOCK (3 BLK),,,1,2,205
+0021800311,270,PT02M19.00S,2,1610612759,SAS,201158,Belinelli,M. Belinelli,0,0,0,,0,,,0,v,Belinelli REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,206
+0021800311,271,PT02M07.00S,2,1610612759,SAS,201158,Belinelli,M. Belinelli,117,220,25,Made,1,50,32,82,v,Belinelli 25' 3PT Jump Shot (6 PTS) (DeRozan 1 AST),Made Shot,Jump Shot,1,3,207
+0021800311,273,PT01M52.00S,2,1610612750,MIN,1626157,Towns,K. Towns,2,44,4,Made,1,52,32,84,h,Towns 4' Driving Floating Jump Shot (6 PTS) (Teague 3 AST),Made Shot,Driving Floating Jump Shot,1,2,208
+0021800311,275,PT01M34.00S,2,1610612759,SAS,201158,Belinelli,M. Belinelli,-201,135,24,Missed,1,,,0,v,MISS Belinelli 24' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,209
+0021800311,276,PT01M34.00S,2,1610612750,MIN,201959,Gibson,T. Gibson,0,0,0,,0,,,0,h,Gibson REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,210
+0021800311,277,PT01M24.00S,2,1610612759,SAS,201158,Belinelli,M. Belinelli,0,0,0,,0,,,0,v,Belinelli P.FOUL (P1.PN) (E.Malloy),Foul,Personal,1,0,211
+0021800311,279,PT01M09.00S,2,1610612750,MIN,203952,Wiggins,A. Wiggins,-177,186,26,Missed,1,,,0,h,MISS Wiggins 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,212
+0021800311,280,PT01M05.00S,2,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,h,Towns REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,213
+0021800311,281,PT01M02.00S,2,1610612750,MIN,203496,Covington,R. Covington,-87,265,28,Missed,1,,,0,h,MISS Covington 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,214
+0021800311,282,PT01M02.00S,2,1610612750,MIN,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,215
+0021800311,283,PT00M59.80S,2,1610612750,MIN,203496,Covington,R. Covington,-3,0,0,Made,1,54,32,86,h,Covington Reverse Layup (13 PTS),Made Shot,Reverse Layup Shot,1,2,216
+0021800311,284,PT00M44.60S,2,1610612759,SAS,201158,Belinelli,M. Belinelli,-38,43,6,Missed,1,,,0,v,MISS Belinelli 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,217
+0021800311,285,PT00M43.60S,2,1610612759,SAS,200746,Aldridge,L. Aldridge,0,0,0,,0,,,0,v,Aldridge REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,218
+0021800311,286,PT00M43.60S,2,1610612759,SAS,200746,Aldridge,L. Aldridge,-3,15,2,Made,1,54,34,88,v,Aldridge 2' Putback Layup (6 PTS),Made Shot,Putback Layup Shot,1,2,219
+0021800311,287,PT00M30.90S,2,1610612750,MIN,203496,Covington,R. Covington,217,123,25,Missed,1,,,0,h,MISS Covington 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,220
+0021800311,288,PT00M28.20S,2,1610612759,SAS,200746,Aldridge,L. Aldridge,0,0,0,,0,,,0,v,Aldridge REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,221
+0021800311,289,PT00M19.70S,2,1610612759,SAS,201158,Belinelli,M. Belinelli,-188,156,24,Missed,1,,,0,v,MISS Belinelli 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,222
+0021800311,290,PT00M19.70S,2,1610612759,SAS,201967,Cunningham,D. Cunningham,0,0,0,,0,,,0,v,Cunningham REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,223
+0021800311,293,PT00M19.70S,2,1610612759,SAS,201967,Cunningham,D. Cunningham,0,0,0,,0,,,0,v,Cunningham Bad Pass Turnover (P1.T9),Turnover,Bad Pass,1,0,224
+0021800311,293,PT00M19.70S,2,1610612750,MIN,203952,Wiggins,A. Wiggins,0,0,0,,0,,,0,h,Wiggins STEAL (1 STL),,,1,0,225
+0021800311,291,PT00M02.10S,2,1610612750,MIN,203952,Wiggins,A. Wiggins,-12,263,26,Made,1,57,34,91,h,Wiggins 26' 3PT Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,3,226
+0021800311,292,PT00M00.00S,2,0,,0,,,0,0,0,,0,57,34,91,,End of 2nd Period (8:59 PM EST),period,end,1,0,227
+0021800311,301,PT12M00.00S,3,0,,0,,,0,0,0,,0,57,34,91,,Start of 3rd Period (9:14 PM EST),period,start,0,0,228
+0021800311,302,PT11M47.00S,3,1610612759,SAS,200752,Gay,R. Gay,-197,148,25,Missed,1,,,0,v,MISS Gay 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,229
+0021800311,303,PT11M43.00S,3,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,h,Towns REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,230
+0021800311,304,PT11M31.00S,3,1610612750,MIN,201952,Teague,J. Teague,-11,24,3,Made,1,59,34,93,h,Teague 3' Driving Layup (4 PTS) (Towns 5 AST),Made Shot,Driving Layup Shot,1,2,231
+0021800311,306,PT11M31.00S,3,1610612759,SAS,1627854,Forbes,B. Forbes,0,0,0,,0,,,0,v,Forbes S.FOUL (P2.T1) (M.Kogut),Foul,Shooting,1,0,232
+0021800311,308,PT11M31.00S,3,1610612750,MIN,201952,Teague,J. Teague,0,0,0,,0,60,34,94,h,Teague Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,0,0,233
+0021800311,309,PT11M15.00S,3,1610612759,SAS,200746,Aldridge,L. Aldridge,-14,43,5,Missed,1,,,0,v,MISS Aldridge 5' Hook Shot,Missed Shot,Hook Shot,1,2,234
+0021800311,310,PT11M13.00S,3,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,h,Towns REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,235
+0021800311,311,PT11M10.00S,3,1610612750,MIN,203496,Covington,R. Covington,116,239,27,Made,1,63,34,97,h,Covington 27' 3PT Pullup Jump Shot (16 PTS) (Teague 4 AST),Made Shot,Pullup Jump shot,1,3,236
+0021800311,312,PT10M57.00S,3,1610612750,MIN,203952,Wiggins,A. Wiggins,0,0,0,,0,,,0,h,Wiggins S.FOUL (P2.T1) (A.Smith),Foul,Shooting,1,0,237
+0021800311,315,PT10M57.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,63,35,98,v,DeRozan Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,0,0,238
+0021800311,316,PT10M57.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,63,36,99,v,DeRozan Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,239
+0021800311,317,PT10M47.00S,3,1610612750,MIN,203496,Covington,R. Covington,115,231,26,Missed,1,,,0,h,MISS Covington 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,240
+0021800311,318,PT10M45.00S,3,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,241
+0021800311,319,PT10M41.00S,3,1610612759,SAS,1627854,Forbes,B. Forbes,0,0,0,,0,,,0,v,Forbes Lost Ball Turnover (P2.T10),Turnover,Lost Ball,1,0,242
+0021800311,319,PT10M41.00S,3,1610612750,MIN,201952,Teague,J. Teague,0,0,0,,0,,,0,h,Teague STEAL (1 STL),,,1,0,243
+0021800311,321,PT10M38.00S,3,1610612750,MIN,201959,Gibson,T. Gibson,7,17,2,Made,1,65,36,101,h,Gibson 2' Cutting Dunk Shot (8 PTS) (Teague 5 AST),Made Shot,Cutting Dunk Shot,1,2,244
+0021800311,323,PT10M23.00S,3,1610612759,SAS,1627854,Forbes,B. Forbes,141,200,24,Made,1,65,39,104,v,Forbes 24' 3PT Jump Shot (6 PTS) (White 1 AST),Made Shot,Jump Shot,1,3,245
+0021800311,325,PT10M05.00S,3,1610612750,MIN,201959,Gibson,T. Gibson,5,11,1,Made,1,67,39,106,h,Gibson 1' Cutting Layup Shot (10 PTS) (Teague 6 AST),Made Shot,Cutting Layup Shot,1,2,246
+0021800311,327,PT09M59.00S,3,1610612759,SAS,1628401,White,D. White,0,0,0,,0,,,0,v,White OFF.Foul (P1) (A.Smith),Foul,Offensive,1,0,247
+0021800311,329,PT09M59.00S,3,1610612759,SAS,1628401,White,D. White,0,0,0,,0,,,0,v,White Offensive Foul Turnover (P1.T11),Turnover,Offensive Foul Turnover,1,0,248
+0021800311,330,PT09M46.00S,3,1610612750,MIN,1626157,Towns,K. Towns,-33,251,25,Made,1,70,39,109,h,Towns 25' 3PT Jump Shot (9 PTS) (Wiggins 1 AST),Made Shot,Jump Shot,1,3,249
+0021800311,332,PT09M26.00S,3,1610612759,SAS,1627854,Forbes,B. Forbes,-89,238,25,Missed,1,,,0,v,MISS Forbes 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,250
+0021800311,333,PT09M24.00S,3,0,,1610612750,,,0,0,0,,0,,,0,h,TIMBERWOLVES Rebound,Rebound,Unknown,0,0,251
+0021800311,350,PT09M13.00S,3,1610612750,MIN,203952,Wiggins,A. Wiggins,1,20,2,Missed,1,,,0,h,MISS Wiggins 2' Layup,Missed Shot,Layup Shot,1,2,252
+0021800311,350,PT09M13.00S,3,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay BLOCK (1 BLK),,,1,2,253
+0021800311,352,PT09M11.00S,3,1610612750,MIN,201959,Gibson,T. Gibson,0,0,0,,0,,,0,h,Gibson REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,254
+0021800311,335,PT09M09.00S,3,1610612750,MIN,201959,Gibson,T. Gibson,6,17,2,Made,1,72,39,111,h,Gibson 2' Layup (12 PTS),Made Shot,Layup Shot,1,2,255
+0021800311,336,PT08M58.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,-28,59,7,Missed,1,,,0,v,MISS DeRozan 7' Jump Shot,Missed Shot,Jump Shot,1,2,256
+0021800311,336,PT08M58.00S,3,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,h,Towns BLOCK (1 BLK),,,1,2,257
+0021800311,338,PT08M55.00S,3,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,h,Towns REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,258
+0021800311,339,PT08M53.00S,3,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,h,Towns Out of Bounds - Bad Pass Turnover Turnover (P2.T5),Turnover,Out of Bounds - Bad Pass Turnover,1,0,259
+0021800311,340,PT08M37.00S,3,1610612759,SAS,1628401,White,D. White,3,65,7,Made,1,72,41,113,v,White 7' Floating Jump Shot (2 PTS) (Gay 3 AST),Made Shot,Floating Jump shot,1,2,260
+0021800311,341,PT08M19.00S,3,1610612750,MIN,201952,Teague,J. Teague,-22,30,4,Missed,1,,,0,h,MISS Teague 4' Layup,Missed Shot,Layup Shot,1,2,261
+0021800311,341,PT08M19.00S,3,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay BLOCK (2 BLK),,,1,2,262
+0021800311,343,PT08M18.00S,3,0,,1610612750,,,0,0,0,,0,,,0,h,TIMBERWOLVES Rebound,Rebound,Unknown,0,0,263
+0021800311,345,PT08M16.00S,3,1610612750,MIN,203496,Covington,R. Covington,3,19,2,Made,1,74,41,115,h,Covington 2' Reverse Layup (18 PTS) (Teague 7 AST),Made Shot,Reverse Layup Shot,1,2,264
+0021800311,347,PT07M58.00S,3,1610612759,SAS,200746,Aldridge,L. Aldridge,0,0,0,,0,,,0,v,Aldridge Lost Ball Turnover (P1.T12),Turnover,Lost Ball,1,0,265
+0021800311,347,PT07M58.00S,3,1610612750,MIN,203952,Wiggins,A. Wiggins,0,0,0,,0,,,0,h,Wiggins STEAL (2 STL),,,1,0,266
+0021800311,353,PT07M46.00S,3,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,Gay P.FOUL (P3.T2) (A.Smith),Foul,Personal,1,0,267
+0021800311,355,PT07M39.00S,3,1610612750,MIN,203952,Wiggins,A. Wiggins,0,0,0,,0,,,0,h,Wiggins Out of Bounds - Bad Pass Turnover Turnover (P2.T6),Turnover,Out of Bounds - Bad Pass Turnover,1,0,268
+0021800311,357,PT07M31.00S,3,1610612759,SAS,200746,Aldridge,L. Aldridge,117,25,12,Made,1,74,43,117,v,Aldridge 12' Fadeaway Jumper (8 PTS) (Gay 4 AST),Made Shot,Fadeaway Jump Shot,1,2,269
+0021800311,359,PT07M02.00S,3,1610612750,MIN,201952,Teague,J. Teague,-102,197,22,Made,1,76,43,119,h,Teague 22' Pullup Jump Shot (7 PTS),Made Shot,Pullup Jump shot,1,2,270
+0021800311,360,PT06M34.00S,3,1610612759,SAS,1627854,Forbes,B. Forbes,-3,252,25,Missed,1,,,0,v,MISS Forbes 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,271
+0021800311,361,PT06M30.00S,3,1610612750,MIN,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,272
+0021800311,362,PT06M28.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,DeRozan P.FOUL (P1.T3) (E.Malloy),Foul,Personal,1,0,273
+0021800311,364,PT06M28.00S,3,0,,1610612750,,,0,0,0,,0,,,0,h,TIMBERWOLVES Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,274
+0021800311,365,PT06M28.00S,3,1610612759,SAS,1628401,White,D. White,0,0,0,,0,,,0,v,SUB: Belinelli FOR White,Substitution,,0,0,275
+0021800311,366,PT06M28.00S,3,1610612759,SAS,200752,Gay,R. Gay,0,0,0,,0,,,0,v,SUB: Cunningham FOR Gay,Substitution,,0,0,276
+0021800311,370,PT06M13.00S,3,1610612750,MIN,1626157,Towns,K. Towns,-2,22,2,Missed,1,,,0,h,MISS Towns 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,277
+0021800311,371,PT06M09.00S,3,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,h,Towns REBOUND (Off:4 Def:6),Rebound,Unknown,1,0,278
+0021800311,372,PT06M09.00S,3,1610612750,MIN,1626157,Towns,K. Towns,0,-6,1,Made,1,78,43,121,h,Towns 1' Putback Layup (11 PTS),Made Shot,Putback Layup Shot,1,2,279
+0021800311,373,PT06M00.00S,3,1610612759,SAS,200746,Aldridge,L. Aldridge,0,0,0,,0,,,0,v,Aldridge Lost Ball Turnover (P2.T13),Turnover,Lost Ball,1,0,280
+0021800311,373,PT06M00.00S,3,1610612750,MIN,201952,Teague,J. Teague,0,0,0,,0,,,0,h,Teague STEAL (2 STL),,,1,0,281
+0021800311,375,PT05M48.00S,3,1610612750,MIN,201959,Gibson,T. Gibson,-6,21,2,Missed,1,,,0,h,MISS Gibson 2' Layup,Missed Shot,Layup Shot,1,2,282
+0021800311,376,PT05M46.00S,3,1610612759,SAS,200746,Aldridge,L. Aldridge,0,0,0,,0,,,0,v,Aldridge REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,283
+0021800311,377,PT05M40.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,-12,16,2,Missed,1,,,0,v,MISS DeRozan 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,284
+0021800311,378,PT05M36.00S,3,1610612759,SAS,200746,Aldridge,L. Aldridge,0,0,0,,0,,,0,v,Aldridge REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,285
+0021800311,379,PT05M36.00S,3,1610612759,SAS,200746,Aldridge,L. Aldridge,0,-6,1,Made,1,78,45,123,v,Aldridge 1' Tip Layup Shot (10 PTS),Made Shot,Tip Layup Shot,1,2,286
+0021800311,380,PT05M20.00S,3,1610612750,MIN,203496,Covington,R. Covington,-167,198,26,Missed,1,,,0,h,MISS Covington 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,287
+0021800311,381,PT05M18.00S,3,1610612759,SAS,200746,Aldridge,L. Aldridge,0,0,0,,0,,,0,v,Aldridge REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,288
+0021800311,382,PT05M08.00S,3,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,h,Towns P.FOUL (P2.T2) (A.Smith),Foul,Personal,1,0,289
+0021800311,384,PT05M08.00S,3,1610612750,MIN,203496,Covington,R. Covington,0,0,0,,0,,,0,h,SUB: Rose FOR Covington,Substitution,,0,0,290
+0021800311,385,PT05M08.00S,3,1610612759,SAS,1627854,Forbes,B. Forbes,0,0,0,,0,,,0,v,SUB: Mills FOR Forbes,Substitution,,0,0,291
+0021800311,386,PT05M08.00S,3,1610612759,SAS,200746,Aldridge,L. Aldridge,0,0,0,,0,,,0,v,SUB: Poeltl FOR Aldridge,Substitution,,0,0,292
+0021800311,390,PT04M57.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,-2,8,1,Made,1,78,47,125,v,Poeltl 1' Cutting Layup Shot (4 PTS) (DeRozan 2 AST),Made Shot,Cutting Layup Shot,1,2,293
+0021800311,392,PT04M42.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,DeRozan S.FOUL (P2.T4) (A.Smith),Foul,Shooting,1,0,294
+0021800311,394,PT04M42.00S,3,1610612750,MIN,201959,Gibson,T. Gibson,0,0,0,,0,79,47,126,h,Gibson Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,0,0,295
+0021800311,395,PT04M42.00S,3,1610612750,MIN,201959,Gibson,T. Gibson,0,0,0,,0,,,0,h,MISS Gibson Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,296
+0021800311,396,PT04M40.00S,3,1610612750,MIN,201959,Gibson,T. Gibson,0,0,0,,0,,,0,h,Gibson REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,297
+0021800311,398,PT04M25.00S,3,1610612750,MIN,201959,Gibson,T. Gibson,0,117,12,Missed,1,,,0,h,MISS Gibson 12' Driving Layup,Missed Shot,Driving Layup Shot,1,2,298
+0021800311,398,PT04M25.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,DeRozan BLOCK (4 BLK),,,1,2,299
+0021800311,399,PT04M25.00S,3,0,,1610612750,,,0,0,0,,0,,,0,h,TIMBERWOLVES Rebound,Rebound,Unknown,0,0,300
+0021800311,400,PT04M25.00S,3,0,,1610612750,,,0,0,0,,0,,,0,h,TIMBERWOLVES Turnover: Shot Clock (T#7),Turnover,Shot Clock Turnover,0,0,301
+0021800311,401,PT04M17.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,DeRozan Lost Ball Turnover (P5.T14),Turnover,Lost Ball,1,0,302
+0021800311,401,PT04M17.00S,3,1610612750,MIN,201952,Teague,J. Teague,0,0,0,,0,,,0,h,Teague STEAL (3 STL),,,1,0,303
+0021800311,403,PT04M09.00S,3,1610612750,MIN,203952,Wiggins,A. Wiggins,1,8,1,Made,1,81,47,128,h,Wiggins 1' Driving Layup (10 PTS) (Teague 8 AST),Made Shot,Driving Layup Shot,1,2,304
+0021800311,405,PT03M54.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,-73,34,8,Made,1,81,49,130,v,DeRozan 8' Driving Floating Bank Jump Shot (10 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,305
+0021800311,406,PT03M40.00S,3,1610612750,MIN,201565,Rose,D. Rose,-81,240,25,Missed,1,,,0,h,MISS Rose 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,306
+0021800311,407,PT03M38.00S,3,0,,1610612750,,,0,0,0,,0,,,0,h,TIMBERWOLVES Rebound,Rebound,Unknown,0,0,307
+0021800311,409,PT03M38.00S,3,1610612759,SAS,201942,DeRozan,D. DeRozan,0,0,0,,0,,,0,v,SUB: Bertans FOR DeRozan,Substitution,,0,0,308
+0021800311,411,PT03M29.00S,3,1610612750,MIN,203952,Wiggins,A. Wiggins,-108,220,25,Missed,1,,,0,h,MISS Wiggins 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,309
+0021800311,412,PT03M26.00S,3,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,h,Towns REBOUND (Off:5 Def:6),Rebound,Unknown,1,0,310
+0021800311,413,PT03M24.00S,3,1610612750,MIN,1626157,Towns,K. Towns,232,24,0,Made,1,84,49,133,h,Towns 3PT Jump Shot (14 PTS),Made Shot,Jump Shot,1,3,311
+0021800311,414,PT03M08.00S,3,1610612759,SAS,201158,Belinelli,M. Belinelli,31,22,4,Missed,1,,,0,v,MISS Belinelli 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,312
+0021800311,414,PT03M08.00S,3,1610612750,MIN,201952,Teague,J. Teague,0,0,0,,0,,,0,h,Teague BLOCK (1 BLK),,,1,2,313
+0021800311,416,PT03M06.00S,3,1610612750,MIN,201565,Rose,D. Rose,0,0,0,,0,,,0,h,Rose REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,314
+0021800311,417,PT03M00.00S,3,1610612750,MIN,203952,Wiggins,A. Wiggins,12,22,3,Missed,1,,,0,h,MISS Wiggins 3' Layup,Missed Shot,Layup Shot,1,2,315
+0021800311,417,PT03M00.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,Poeltl BLOCK (1 BLK),,,1,2,316
+0021800311,419,PT02M58.00S,3,1610612759,SAS,201967,Cunningham,D. Cunningham,0,0,0,,0,,,0,v,Cunningham REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,317
+0021800311,420,PT02M48.00S,3,1610612759,SAS,201158,Belinelli,M. Belinelli,-94,69,12,Missed,1,,,0,v,MISS Belinelli 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,318
+0021800311,421,PT02M47.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,Poeltl REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,319
+0021800311,429,PT02M46.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,-5,12,1,Missed,1,,,0,v,MISS Poeltl 1' Putback Layup,Missed Shot,Putback Layup Shot,1,2,320
+0021800311,430,PT02M46.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,Poeltl REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,321
+0021800311,422,PT02M45.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,-6,1,Made,1,84,51,135,v,Poeltl 1' Tip Layup Shot (6 PTS),Made Shot,Tip Layup Shot,1,2,322
+0021800311,423,PT02M22.00S,3,1610612750,MIN,203952,Wiggins,A. Wiggins,186,75,20,Missed,1,,,0,h,MISS Wiggins 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,323
+0021800311,424,PT02M19.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,Poeltl REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,324
+0021800311,425,PT02M13.00S,3,1610612759,SAS,201988,Mills,P. Mills,79,241,25,Missed,1,,,0,v,MISS Mills 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,325
+0021800311,426,PT02M10.00S,3,1610612750,MIN,201959,Gibson,T. Gibson,0,0,0,,0,,,0,h,Gibson REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,326
+0021800311,428,PT01M55.00S,3,0,,1610612759,,,0,0,0,,0,,,0,v,Spurs Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,327
+0021800311,431,PT01M50.00S,3,1610612750,MIN,201565,Rose,D. Rose,-211,117,24,Made,1,87,51,138,h,Rose 24' 3PT Jump Shot (13 PTS) (Gibson 1 AST),Made Shot,Jump Shot,1,3,328
+0021800311,433,PT01M36.00S,3,1610612759,SAS,202722,Bertans,D. Bertans,5,2,1,Missed,1,,,0,v,MISS Bertans 1' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,329
+0021800311,434,PT01M31.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,Poeltl REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,330
+0021800311,435,PT01M31.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,-6,1,Missed,1,,,0,v,MISS Poeltl 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,331
+0021800311,436,PT01M27.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,Poeltl REBOUND (Off:4 Def:2),Rebound,Unknown,1,0,332
+0021800311,437,PT01M27.00S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,-6,1,Made,1,87,53,140,v,Poeltl 1' Tip Layup Shot (8 PTS),Made Shot,Tip Layup Shot,1,2,333
+0021800311,438,PT01M16.00S,3,1610612750,MIN,201565,Rose,D. Rose,-193,157,25,Made,1,90,53,143,h,Rose 25' 3PT Jump Shot (16 PTS) (Teague 9 AST),Made Shot,Jump Shot,1,3,334
+0021800311,440,PT01M08.00S,3,1610612750,MIN,203952,Wiggins,A. Wiggins,0,0,0,,0,,,0,h,Wiggins S.FOUL (P3.T3) (E.Malloy),Foul,Shooting,1,0,335
+0021800311,442,PT01M08.00S,3,1610612759,SAS,201158,Belinelli,M. Belinelli,0,0,0,,0,90,54,144,v,Belinelli Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,0,0,336
+0021800311,443,PT01M08.00S,3,1610612750,MIN,201952,Teague,J. Teague,0,0,0,,0,,,0,h,SUB: Saric FOR Teague,Substitution,,0,0,337
+0021800311,444,PT01M08.00S,3,1610612750,MIN,201959,Gibson,T. Gibson,0,0,0,,0,,,0,h,SUB: Jones FOR Gibson,Substitution,,0,0,338
+0021800311,447,PT01M08.00S,3,1610612759,SAS,201158,Belinelli,M. Belinelli,0,0,0,,0,90,55,145,v,Belinelli Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,339
+0021800311,463,PT00M57.70S,3,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,h,Towns OFF.Foul (P3) (A.Smith),Foul,Offensive,1,0,340
+0021800311,464,PT00M57.70S,3,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,h,Towns Offensive Foul Turnover (P3.T8),Turnover,Offensive Foul Turnover,1,0,341
+0021800311,453,PT00M48.30S,3,1610612759,SAS,201967,Cunningham,D. Cunningham,25,23,3,Missed,1,,,0,v,MISS Cunningham 3' Layup,Missed Shot,Layup Shot,1,2,342
+0021800311,454,PT00M46.00S,3,1610612759,SAS,202722,Bertans,D. Bertans,0,0,0,,0,,,0,v,Bertans REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,343
+0021800311,455,PT00M41.40S,3,1610612759,SAS,201158,Belinelli,M. Belinelli,227,22,0,Made,1,90,58,148,v,Belinelli 3PT Jump Shot (11 PTS) (Bertans 1 AST),Made Shot,Jump Shot,1,3,344
+0021800311,457,PT00M26.50S,3,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,Poeltl S.FOUL (P2.PN) (E.Malloy),Foul,Shooting,1,0,345
+0021800311,459,PT00M26.50S,3,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,91,58,149,h,Towns Free Throw 1 of 2 (15 PTS),Free Throw,Free Throw 1 of 2,0,0,346
+0021800311,461,PT00M26.50S,3,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,92,58,150,h,Towns Free Throw 2 of 2 (16 PTS),Free Throw,Free Throw 2 of 2,0,0,347
+0021800311,462,PT00M02.50S,3,0,,1610612759,,,0,0,0,,0,,,0,v,Spurs Turnover: Shot Clock (T#15),Turnover,Shot Clock Turnover,0,0,348
+0021800311,466,PT00M01.40S,3,1610612750,MIN,1626157,Towns,K. Towns,0,0,0,,0,,,0,h,Towns Out of Bounds - Bad Pass Turnover Turnover (P4.T9),Turnover,Out of Bounds - Bad Pass Turnover,1,0,349
+0021800311,467,PT00M00.20S,3,1610612759,SAS,202722,Bertans,D. Bertans,-215,336,40,Missed,1,,,0,v,MISS Bertans 40' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,350
+0021800311,468,PT00M00.10S,3,0,,1610612759,,,0,0,0,,0,,,0,v,Spurs Rebound,Rebound,Unknown,0,0,351
+0021800311,469,PT00M00.00S,3,0,,0,,,0,0,0,,0,92,58,150,,End of 3rd Period (9:40 PM EST),period,end,1,0,352
+0021800311,482,PT12M00.00S,4,0,,0,,,0,0,0,,0,92,58,150,,Start of 4th Period (9:42 PM EST),period,start,0,0,353
+0021800311,483,PT11M44.00S,4,1610612750,MIN,203967,Šarić,D. Šarić,183,177,25,Made,1,95,58,153,h,Saric 25' 3PT Jump Shot (7 PTS) (Jones 3 AST),Made Shot,Jump Shot,1,3,354
+0021800311,599,PT11M25.00S,4,1610612759,SAS,1627751,Poeltl,J. Poeltl,55,66,9,Missed,1,,,0,v,MISS Poeltl 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,355
+0021800311,600,PT11M24.00S,4,1610612759,SAS,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,356
+0021800311,489,PT11M20.00S,4,1610612759,SAS,1629002,Metu,C. Metu,-182,-21,18,Missed,1,,,0,v,MISS Metu 18' Jump Shot,Missed Shot,Jump Shot,1,2,357
+0021800311,490,PT11M18.00S,4,1610612750,MIN,203476,Dieng,G. Dieng,0,0,0,,0,,,0,h,Dieng REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,358
+0021800311,491,PT11M07.00S,4,1610612750,MIN,203967,Šarić,D. Šarić,-141,209,25,Missed,1,,,0,h,MISS Saric 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,359
+0021800311,492,PT11M04.00S,4,1610612759,SAS,202347,Pondexter,Q. Pondexter,0,0,0,,0,,,0,v,Pondexter REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,360
+0021800311,493,PT10M56.00S,4,1610612759,SAS,202347,Pondexter,Q. Pondexter,90,231,25,Made,1,95,61,156,v,Pondexter 25' 3PT Jump Shot (3 PTS) (White 2 AST),Made Shot,Jump Shot,1,3,361
+0021800311,495,PT10M35.00S,4,1610612750,MIN,1626145,Jones,T. Jones,-73,240,25,Made,1,98,61,159,h,Jones 25' 3PT Jump Shot (7 PTS) (Covington 1 AST),Made Shot,Jump Shot,1,3,362
+0021800311,497,PT10M22.00S,4,1610612750,MIN,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington P.FOUL (P3.T1) (E.Malloy),Foul,Personal,1,0,363
+0021800311,499,PT10M22.00S,4,1610612750,MIN,201565,Rose,D. Rose,0,0,0,,0,,,0,h,SUB: Okogie FOR Rose,Substitution,,0,0,364
+0021800311,501,PT10M13.00S,4,1610612759,SAS,202347,Pondexter,Q. Pondexter,2,5,1,Missed,1,,,0,v,MISS Pondexter 1' Driving Dunk,Missed Shot,Driving Dunk Shot,1,2,365
+0021800311,502,PT10M11.00S,4,1610612750,MIN,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,366
+0021800311,503,PT10M04.00S,4,1610612750,MIN,203496,Covington,R. Covington,-75,47,9,Missed,1,,,0,h,MISS Covington 9' Turnaround Fadeaway Bank Jump Shot,Missed Shot,Turnaround Fadeaway Bank Jump Shot,1,2,367
+0021800311,504,PT10M02.00S,4,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,Poeltl REBOUND (Off:4 Def:3),Rebound,Unknown,1,0,368
+0021800311,505,PT09M48.00S,4,1610612759,SAS,1628401,White,D. White,0,1,0,Made,1,98,63,161,v,White Driving Reverse Layup (4 PTS),Made Shot,Driving Reverse Layup Shot,1,2,369
+0021800311,506,PT09M32.00S,4,1610612750,MIN,203476,Dieng,G. Dieng,-54,157,17,Made,1,100,63,163,h,Dieng 17' Jump Shot (6 PTS) (Jones 4 AST),Made Shot,Jump Shot,1,2,370
+0021800311,508,PT09M22.00S,4,1610612750,MIN,203476,Dieng,G. Dieng,0,0,0,,0,,,0,h,Dieng Violation:Kicked Ball (M.Kogut),Violation,Kicked Ball,0,0,371
+0021800311,509,PT09M16.00S,4,1610612759,SAS,1627751,Poeltl,J. Poeltl,3,4,1,Made,1,100,65,165,v,Poeltl 1' Cutting Layup Shot (10 PTS) (Belinelli 2 AST),Made Shot,Cutting Layup Shot,1,2,372
+0021800311,511,PT08M53.00S,4,1610612750,MIN,203496,Covington,R. Covington,161,192,25,Made,1,103,65,168,h,Covington 25' 3PT Jump Shot (21 PTS) (Jones 5 AST),Made Shot,Jump Shot,1,3,373
+0021800311,513,PT08M39.00S,4,1610612759,SAS,201158,Belinelli,M. Belinelli,0,0,0,,0,,,0,v,Belinelli Lost Ball Turnover (P1.T16),Turnover,Lost Ball,1,0,374
+0021800311,513,PT08M39.00S,4,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,h,Okogie STEAL (1 STL),,,1,0,375
+0021800311,515,PT08M35.00S,4,1610612750,MIN,1629006,Okogie,J. Okogie,7,16,2,Missed,1,,,0,h,MISS Okogie 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,376
+0021800311,516,PT08M30.00S,4,1610612750,MIN,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,377
+0021800311,517,PT08M30.00S,4,1610612750,MIN,203496,Covington,R. Covington,0,-6,1,Missed,1,,,0,h,MISS Covington 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,378
+0021800311,518,PT08M29.00S,4,1610612759,SAS,1628401,White,D. White,0,0,0,,0,,,0,v,White REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,379
+0021800311,519,PT08M23.00S,4,1610612759,SAS,201158,Belinelli,M. Belinelli,221,78,0,Missed,1,,,0,v,MISS Belinelli 3PT Jump Shot,Missed Shot,Jump Shot,1,3,380
+0021800311,520,PT08M22.00S,4,1610612750,MIN,1626145,Jones,T. Jones,0,0,0,,0,,,0,h,Jones REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,381
+0021800311,521,PT08M11.00S,4,1610612750,MIN,1629006,Okogie,J. Okogie,-152,146,21,Missed,1,,,0,h,MISS Okogie 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,382
+0021800311,522,PT08M09.00S,4,1610612759,SAS,1628401,White,D. White,0,0,0,,0,,,0,v,White REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,383
+0021800311,523,PT08M07.00S,4,1610612759,SAS,1628401,White,D. White,0,0,0,,0,,,0,v,White Out of Bounds - Bad Pass Turnover Turnover (P2.T17),Turnover,Out of Bounds - Bad Pass Turnover,1,0,384
+0021800311,524,PT08M07.00S,4,1610612759,SAS,201158,Belinelli,M. Belinelli,0,0,0,,0,,,0,v,SUB: Bertans FOR Belinelli,Substitution,,0,0,385
+0021800311,526,PT07M45.00S,4,1610612750,MIN,203967,Šarić,D. Šarić,232,58,24,Made,1,106,65,171,h,Saric 24' 3PT Jump Shot (10 PTS) (Okogie 1 AST),Made Shot,Jump Shot,1,3,386
+0021800311,528,PT07M28.00S,4,1610612759,SAS,202347,Pondexter,Q. Pondexter,0,0,0,,0,,,0,v,Pondexter Offensive Charge Foul (P1.T1) (E.Malloy),Foul,Offensive Charge,1,0,387
+0021800311,530,PT07M28.00S,4,1610612759,SAS,202347,Pondexter,Q. Pondexter,0,0,0,,0,,,0,v,Pondexter Offensive Foul Turnover (P1.T18),Turnover,Offensive Foul Turnover,1,0,388
+0021800311,531,PT07M28.00S,4,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,SUB: Cunningham FOR Poeltl,Substitution,,0,0,389
+0021800311,533,PT07M17.00S,4,1610612750,MIN,203967,Šarić,D. Šarić,5,14,1,Missed,1,,,0,h,MISS Saric 1' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,390
+0021800311,533,PT07M17.00S,4,1610612759,SAS,202722,Bertans,D. Bertans,0,0,0,,0,,,0,v,Bertans BLOCK (1 BLK),,,1,2,391
+0021800311,534,PT07M15.00S,4,1610612759,SAS,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,392
+0021800311,535,PT07M11.00S,4,1610612759,SAS,202722,Bertans,D. Bertans,-3,2,0,Made,1,106,67,173,v,Bertans Alley Oop Dunk (2 PTS) (Pondexter 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,393
+0021800311,537,PT07M04.00S,4,0,,1610612750,,,0,0,0,,0,,,0,h,TIMBERWOLVES Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,394
+0021800311,538,PT07M04.00S,4,1610612750,MIN,203496,Covington,R. Covington,0,0,0,,0,,,0,h,SUB: Deng FOR Covington,Substitution,,0,0,395
+0021800311,539,PT07M04.00S,4,1610612750,MIN,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,SUB: Tolliver FOR Saric,Substitution,,0,0,396
+0021800311,542,PT06M52.00S,4,1610612750,MIN,1629006,Okogie,J. Okogie,6,9,1,Made,1,108,67,175,h,Okogie 1' Driving Dunk (2 PTS) (Dieng 1 AST),Made Shot,Driving Dunk Shot,1,2,397
+0021800311,544,PT06M42.00S,4,1610612759,SAS,201967,Cunningham,D. Cunningham,0,0,0,,0,,,0,v,Cunningham Bad Pass Turnover (P2.T19),Turnover,Bad Pass,1,0,398
+0021800311,544,PT06M42.00S,4,1610612750,MIN,2736,Deng,L. Deng,0,0,0,,0,,,0,h,Deng STEAL (1 STL),,,1,0,399
+0021800311,546,PT06M39.00S,4,1610612750,MIN,2736,Deng,L. Deng,9,13,2,Made,1,110,67,177,h,Deng 2' Running Layup (2 PTS) (Okogie 2 AST),Made Shot,Running Layup Shot,1,2,400
+0021800311,548,PT06M39.00S,4,1610612759,SAS,202347,Pondexter,Q. Pondexter,0,0,0,,0,,,0,v,Pondexter S.FOUL (P2.T2) (M.Kogut),Foul,Shooting,1,0,401
+0021800311,550,PT06M39.00S,4,1610612750,MIN,2736,Deng,L. Deng,0,0,0,,0,111,67,178,h,Deng Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,0,0,402
+0021800311,551,PT06M31.00S,4,1610612759,SAS,1629002,Metu,C. Metu,21,25,3,Missed,1,,,0,v,MISS Metu 3' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,403
+0021800311,552,PT06M28.00S,4,1610612750,MIN,201229,Tolliver,A. Tolliver,0,0,0,,0,,,0,h,Tolliver REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,404
+0021800311,553,PT06M12.00S,4,1610612750,MIN,1626145,Jones,T. Jones,-131,214,25,Missed,1,,,0,h,MISS Jones 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,405
+0021800311,554,PT06M10.00S,4,1610612759,SAS,202347,Pondexter,Q. Pondexter,0,0,0,,0,,,0,v,Pondexter REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,406
+0021800311,555,PT06M06.00S,4,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,h,Okogie P.FOUL (P1.T2) (A.Smith),Foul,Personal,1,0,407
+0021800311,557,PT05M59.00S,4,1610612750,MIN,2736,Deng,L. Deng,0,0,0,,0,,,0,h,Deng S.FOUL (P1.T3) (E.Malloy),Foul,Shooting,1,0,408
+0021800311,559,PT05M59.00S,4,1610612759,SAS,202347,Pondexter,Q. Pondexter,0,0,0,,0,111,68,179,v,Pondexter Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,0,0,409
+0021800311,560,PT05M59.00S,4,1610612759,SAS,202347,Pondexter,Q. Pondexter,0,0,0,,0,111,69,180,v,Pondexter Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,0,0,410
+0021800311,561,PT05M47.00S,4,1610612750,MIN,203476,Dieng,G. Dieng,8,117,12,Made,1,113,69,182,h,Dieng 12' Turnaround Jump Shot (8 PTS) (Jones 6 AST),Made Shot,Turnaround Jump Shot,1,2,411
+0021800311,563,PT05M35.00S,4,1610612759,SAS,201967,Cunningham,D. Cunningham,-230,84,24,Missed,1,,,0,v,MISS Cunningham 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,412
+0021800311,564,PT05M33.00S,4,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,h,Okogie REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,413
+0021800311,565,PT05M27.00S,4,1610612750,MIN,1629006,Okogie,J. Okogie,-55,246,25,Made,1,116,69,185,h,Okogie 25' 3PT Jump Shot (5 PTS) (Deng 1 AST),Made Shot,Jump Shot,1,3,414
+0021800311,567,PT05M11.00S,4,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,h,Okogie S.FOUL (P2.T4) (M.Kogut),Foul,Shooting,1,0,415
+0021800311,569,PT05M11.00S,4,1610612759,SAS,202347,Pondexter,Q. Pondexter,0,0,0,,0,116,70,186,v,Pondexter Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,0,0,416
+0021800311,570,PT05M11.00S,4,1610612750,MIN,203476,Dieng,G. Dieng,0,0,0,,0,,,0,h,SUB: Nunnally FOR Dieng,Substitution,,0,0,417
+0021800311,572,PT05M11.00S,4,1610612759,SAS,202347,Pondexter,Q. Pondexter,0,0,0,,0,116,71,187,v,Pondexter Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,0,0,418
+0021800311,573,PT05M00.00S,4,1610612750,MIN,1629006,Okogie,J. Okogie,224,100,25,Made,1,119,71,190,h,Okogie 25' 3PT Jump Shot (8 PTS) (Tolliver 1 AST),Made Shot,Jump Shot,1,3,419
+0021800311,575,PT04M43.00S,4,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,h,Okogie P.FOUL (P3.PN) (A.Smith),Foul,Personal,1,0,420
+0021800311,577,PT04M43.00S,4,1610612759,SAS,1629002,Metu,C. Metu,0,0,0,,0,119,72,191,v,Metu Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,421
+0021800311,578,PT04M43.00S,4,1610612759,SAS,201967,Cunningham,D. Cunningham,0,0,0,,0,,,0,v,SUB: Poeltl FOR Cunningham,Substitution,,0,0,422
+0021800311,580,PT04M43.00S,4,1610612759,SAS,1629002,Metu,C. Metu,0,0,0,,0,119,73,192,v,Metu Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,423
+0021800311,581,PT04M26.00S,4,1610612750,MIN,203263,Nunnally,J. Nunnally,226,40,0,Missed,1,,,0,h,MISS Nunnally 3PT Jump Shot,Missed Shot,Jump Shot,1,3,424
+0021800311,582,PT04M24.00S,4,1610612759,SAS,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,425
+0021800311,583,PT04M14.00S,4,1610612759,SAS,1627751,Poeltl,J. Poeltl,-5,46,5,Made,1,119,75,194,v,Poeltl 5' Turnaround Hook Shot (12 PTS) (Metu 1 AST),Made Shot,Turnaround Hook Shot,1,2,426
+0021800311,585,PT03M59.00S,4,1610612750,MIN,2736,Deng,L. Deng,-146,199,25,Missed,1,,,0,h,MISS Deng 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,427
+0021800311,586,PT03M57.00S,4,1610612759,SAS,202722,Bertans,D. Bertans,0,0,0,,0,,,0,v,Bertans REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,428
+0021800311,587,PT03M53.00S,4,1610612759,SAS,202722,Bertans,D. Bertans,-6,6,1,Made,1,119,77,196,v,Bertans 1' Cutting Layup Shot (4 PTS) (White 3 AST),Made Shot,Cutting Layup Shot,1,2,429
+0021800311,589,PT03M35.00S,4,1610612750,MIN,1629006,Okogie,J. Okogie,-174,169,24,Made,1,122,77,199,h,Okogie 24' 3PT Jump Shot (11 PTS) (Jones 7 AST),Made Shot,Jump Shot,1,3,430
+0021800311,591,PT03M18.00S,4,1610612759,SAS,1629002,Metu,C. Metu,-186,41,19,Missed,1,,,0,v,MISS Metu 19' Jump Shot,Missed Shot,Jump Shot,1,2,431
+0021800311,592,PT03M15.00S,4,1610612759,SAS,202722,Bertans,D. Bertans,0,0,0,,0,,,0,v,Bertans REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,432
+0021800311,594,PT03M08.00S,4,1610612759,SAS,202347,Pondexter,Q. Pondexter,-74,42,9,Made,1,122,79,201,v,Pondexter 9' Driving Floating Bank Jump Shot (9 PTS) (White 4 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,433
+0021800311,595,PT02M54.00S,4,1610612750,MIN,201229,Tolliver,A. Tolliver,-158,187,24,Missed,1,,,0,h,MISS Tolliver 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,434
+0021800311,596,PT02M53.00S,4,0,,1610612759,,,0,0,0,,0,,,0,v,Spurs Rebound,Rebound,Unknown,0,0,435
+0021800311,598,PT02M53.00S,4,0,,1610612759,,,0,0,0,,0,,,0,v,Spurs Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,436
+0021800311,602,PT02M38.00S,4,1610612759,SAS,1628401,White,D. White,-3,0,0,Made,1,122,81,203,v,White Cutting Dunk Shot (6 PTS) (Metu 2 AST),Made Shot,Cutting Dunk Shot,1,2,437
+0021800311,604,PT02M24.00S,4,1610612759,SAS,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu S.FOUL (P1.T3) (A.Smith),Foul,Shooting,1,0,438
+0021800311,606,PT02M24.00S,4,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,h,MISS Okogie Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,439
+0021800311,607,PT02M24.00S,4,0,,1610612750,,,0,0,0,,0,,,0,h,TIMBERWOLVES Rebound,Rebound,Normal Rebound,0,0,440
+0021800311,608,PT02M24.00S,4,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,123,81,204,h,Okogie Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,0,0,441
+0021800311,609,PT02M16.00S,4,1610612750,MIN,2736,Deng,L. Deng,0,0,0,,0,,,0,h,Deng S.FOUL (P2.PN) (A.Smith),Foul,Shooting,1,0,442
+0021800311,611,PT02M16.00S,4,1610612759,SAS,202347,Pondexter,Q. Pondexter,0,0,0,,0,123,82,205,v,Pondexter Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,0,0,443
+0021800311,612,PT02M16.00S,4,1610612759,SAS,202347,Pondexter,Q. Pondexter,0,0,0,,0,123,83,206,v,Pondexter Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,0,0,444
+0021800311,613,PT02M06.00S,4,1610612750,MIN,203263,Nunnally,J. Nunnally,175,182,25,Missed,1,,,0,h,MISS Nunnally 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,445
+0021800311,614,PT02M03.00S,4,1610612759,SAS,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,446
+0021800311,615,PT01M51.00S,4,1610612759,SAS,1628401,White,D. White,2,2,0,Missed,1,,,0,v,MISS White Driving Layup,Missed Shot,Driving Layup Shot,1,2,447
+0021800311,616,PT01M49.00S,4,1610612750,MIN,2736,Deng,L. Deng,0,0,0,,0,,,0,h,Deng REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,448
+0021800311,617,PT01M44.00S,4,1610612750,MIN,201229,Tolliver,A. Tolliver,192,201,28,Made,1,126,83,209,h,Tolliver 28' 3PT Jump Shot (3 PTS) (Jones 8 AST),Made Shot,Jump Shot,1,3,449
+0021800311,619,PT01M34.00S,4,1610612759,SAS,1629002,Metu,C. Metu,158,79,18,Missed,1,,,0,v,MISS Metu 18' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,450
+0021800311,620,PT01M30.00S,4,1610612759,SAS,1627751,Poeltl,J. Poeltl,0,0,0,,0,,,0,v,Poeltl REBOUND (Off:5 Def:3),Rebound,Unknown,1,0,451
+0021800311,621,PT01M28.00S,4,1610612759,SAS,1628401,White,D. White,-7,18,2,Missed,1,,,0,v,MISS White 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,452
+0021800311,622,PT01M26.00S,4,1610612750,MIN,1629006,Okogie,J. Okogie,0,0,0,,0,,,0,h,Okogie REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,453
+0021800311,623,PT01M18.00S,4,1610612750,MIN,2736,Deng,L. Deng,39,74,8,Made,1,128,83,211,h,Deng 8' Running Jump Shot (5 PTS) (Nunnally 1 AST),Made Shot,Running Jump Shot,1,2,454
+0021800311,625,PT01M18.00S,4,1610612759,SAS,1629002,Metu,C. Metu,0,0,0,,0,,,0,v,Metu Violation:Defensive Goaltending (E.Malloy),Violation,Defensive Goaltending,1,0,455
+0021800311,626,PT01M07.00S,4,1610612759,SAS,1627751,Poeltl,J. Poeltl,19,5,2,Made,1,128,85,213,v,Poeltl 2' Turnaround Fadeaway Bank Jump Shot (14 PTS),Made Shot,Turnaround Fadeaway Bank Jump Shot,1,2,456
+0021800311,627,PT00M50.80S,4,1610612750,MIN,1629006,Okogie,J. Okogie,-177,177,25,Missed,1,,,0,h,MISS Okogie 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,457
+0021800311,628,PT00M47.40S,4,1610612759,SAS,202347,Pondexter,Q. Pondexter,0,0,0,,0,,,0,v,Pondexter REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,458
+0021800311,629,PT00M41.00S,4,1610612759,SAS,202722,Bertans,D. Bertans,3,-6,1,Made,1,128,87,215,v,Bertans 1' Cutting Layup Shot (6 PTS) (Pondexter 2 AST),Made Shot,Cutting Layup Shot,1,2,459
+0021800311,631,PT00M29.20S,4,1610612750,MIN,1626145,Jones,T. Jones,-165,185,25,Missed,1,,,0,h,MISS Jones 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,460
+0021800311,632,PT00M25.20S,4,1610612759,SAS,202347,Pondexter,Q. Pondexter,0,0,0,,0,,,0,v,Pondexter REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,461
+0021800311,633,PT00M21.00S,4,1610612759,SAS,202347,Pondexter,Q. Pondexter,5,6,1,Made,1,128,89,217,v,Pondexter 1' Driving Layup (13 PTS),Made Shot,Driving Layup Shot,1,2,462
+0021800311,635,PT00M00.00S,4,0,,0,,,0,0,0,,0,128,89,217,,End of 4th Period (10:06 PM EST),period,end,1,0,463

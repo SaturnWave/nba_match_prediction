@@ -1,0 +1,463 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021800351,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:43 PM EST),period,start,0,0,1
+0021800351,4,PT12M00.00S,1,1610612748,MIA,202355,Whiteside,H. Whiteside,0,0,0,,0,,,0,h,Jump Ball Whiteside vs. Vucevic: Tip to J. Johnson,Jump Ball,,1,0,2
+0021800351,7,PT11M54.00S,1,1610612748,MIA,201949,Johnson,J. Johnson,0,46,5,Made,1,2,0,2,h,J. Johnson 5' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,3
+0021800351,8,PT11M40.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,4
+0021800351,8,PT11M40.00S,1,1610612748,MIA,201949,Johnson,J. Johnson,0,0,0,,0,,,0,h,J. Johnson STEAL (1 STL),,,1,0,5
+0021800351,10,PT11M26.00S,1,1610612748,MIA,202355,Whiteside,H. Whiteside,-5,10,1,Made,1,4,0,4,h,Whiteside 1' Layup (2 PTS) (McGruder 1 AST),Made Shot,Layup Shot,1,2,6
+0021800351,12,PT11M02.00S,1,1610612753,ORL,203095,Fournier,E. Fournier,-1,0,0,Made,1,4,2,6,v,Fournier Cutting Layup Shot (2 PTS) (Vucevic 1 AST),Made Shot,Cutting Layup Shot,1,2,7
+0021800351,14,PT10M43.00S,1,1610612748,MIA,202355,Whiteside,H. Whiteside,0,0,0,,0,,,0,h,Whiteside Out of Bounds - Bad Pass Turnover Turnover (P1.T1),Turnover,Out of Bounds - Bad Pass Turnover,1,0,8
+0021800351,15,PT10M34.00S,1,1610612753,ORL,203095,Fournier,E. Fournier,106,233,26,Made,1,4,5,9,v,Fournier 26' 3PT Jump Shot (5 PTS) (Augustin 1 AST),Made Shot,Jump Shot,1,3,9
+0021800351,17,PT10M19.00S,1,1610612748,MIA,201949,Johnson,J. Johnson,0,0,0,,0,,,0,h,J. Johnson Traveling Turnover (P1.T2),Turnover,Traveling,1,0,10
+0021800351,18,PT09M58.00S,1,1610612753,ORL,203095,Fournier,E. Fournier,-236,67,25,Made,1,4,8,12,v,Fournier 25' 3PT Jump Shot (8 PTS) (Simmons 1 AST),Made Shot,Jump Shot,1,3,11
+0021800351,20,PT09M45.00S,1,1610612748,MIA,203585,McGruder,R. McGruder,39,58,7,Missed,1,,,0,h,MISS McGruder 7' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,12
+0021800351,21,PT09M44.00S,1,1610612748,MIA,202355,Whiteside,H. Whiteside,0,0,0,,0,,,0,h,Whiteside REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,13
+0021800351,22,PT09M42.00S,1,1610612748,MIA,202355,Whiteside,H. Whiteside,0,-6,1,Made,1,6,8,14,h,Whiteside 1' Tip Layup Shot (4 PTS),Made Shot,Tip Layup Shot,1,2,14
+0021800351,23,PT09M21.00S,1,1610612753,ORL,201571,Augustin,D. Augustin,-1,4,0,Missed,1,,,0,v,MISS Augustin Driving Layup,Missed Shot,Driving Layup Shot,1,2,15
+0021800351,24,PT09M17.00S,1,1610612748,MIA,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,McGruder REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,16
+0021800351,25,PT09M15.00S,1,1610612748,MIA,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,McGruder Out of Bounds Lost Ball Turnover (P1.T3),Turnover,Out of Bounds Lost Ball Turnover,1,0,17
+0021800351,26,PT08M59.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,-52,106,12,Missed,1,,,0,v,MISS Vucevic 12' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,18
+0021800351,27,PT08M57.00S,1,1610612748,MIA,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,McGruder REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,19
+0021800351,28,PT08M45.00S,1,1610612748,MIA,202355,Whiteside,H. Whiteside,13,40,4,Made,1,8,8,16,h,Whiteside 4' Layup (6 PTS),Made Shot,Layup Shot,1,2,20
+0021800351,29,PT08M30.00S,1,1610612753,ORL,203932,Gordon,A. Gordon,-27,74,8,Missed,1,,,0,v,MISS Gordon 8' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,21
+0021800351,30,PT08M29.00S,1,1610612753,ORL,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,22
+0021800351,31,PT08M28.00S,1,1610612753,ORL,203932,Gordon,A. Gordon,0,-6,1,Missed,1,,,0,v,MISS Gordon 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,23
+0021800351,32,PT08M27.00S,1,1610612753,ORL,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,24
+0021800351,33,PT08M26.00S,1,1610612753,ORL,203932,Gordon,A. Gordon,0,-6,1,Missed,1,,,0,v,MISS Gordon 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,25
+0021800351,34,PT08M25.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,26
+0021800351,63,PT08M24.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,4,4,1,Missed,1,,,0,v,MISS Vucevic 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,27
+0021800351,64,PT08M23.00S,1,1610612753,ORL,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon REBOUND (Off:3 Def:0),Rebound,Unknown,1,0,28
+0021800351,65,PT08M22.00S,1,1610612753,ORL,203932,Gordon,A. Gordon,2,8,1,Missed,1,,,0,v,MISS Gordon 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,29
+0021800351,66,PT08M21.00S,1,1610612748,MIA,202355,Whiteside,H. Whiteside,0,0,0,,0,,,0,h,Whiteside REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,30
+0021800351,35,PT08M15.00S,1,1610612748,MIA,1626196,Richardson,J. Richardson,-18,13,2,Missed,1,,,0,h,MISS Richardson 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,31
+0021800351,36,PT08M15.00S,1,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Rebound,Rebound,Unknown,1,0,32
+0021800351,37,PT08M15.00S,1,1610612753,ORL,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon L.B.FOUL (P1.T1) (N.Green),Foul,Loose Ball,1,0,33
+0021800351,39,PT08M07.00S,1,1610612748,MIA,201961,Ellington,W. Ellington,-150,201,25,Made,1,11,8,19,h,Ellington 25' 3PT Jump Shot (3 PTS) (J. Johnson 1 AST),Made Shot,Jump Shot,1,3,34
+0021800351,41,PT07M51.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,-180,180,25,Missed,1,,,0,v,MISS Vucevic 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,35
+0021800351,42,PT07M48.00S,1,1610612748,MIA,202355,Whiteside,H. Whiteside,0,0,0,,0,,,0,h,Whiteside REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,36
+0021800351,43,PT07M40.00S,1,1610612748,MIA,202355,Whiteside,H. Whiteside,-4,57,6,Made,1,13,8,21,h,Whiteside 6' Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,2,37
+0021800351,44,PT07M27.00S,1,1610612753,ORL,203932,Gordon,A. Gordon,-7,11,1,Missed,1,,,0,v,MISS Gordon 1' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,38
+0021800351,44,PT07M27.00S,1,1610612748,MIA,202355,Whiteside,H. Whiteside,0,0,0,,0,,,0,h,Whiteside BLOCK (1 BLK),,,1,2,39
+0021800351,46,PT07M27.00S,1,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Rebound,Rebound,Unknown,0,0,40
+0021800351,48,PT07M27.00S,1,1610612748,MIA,201949,Johnson,J. Johnson,0,0,0,,0,,,0,h,J. Johnson AWAY.FROM.PLAY.FOUL (P1.T1) (B.Forte),Foul,Away From Play,1,0,41
+0021800351,50,PT07M27.00S,1,1610612753,ORL,201571,Augustin,D. Augustin,0,0,0,,0,13,9,22,v,Augustin Free Throw 1 of 1 (1 PTS),Free Throw,Free Throw 1 of 1,0,0,42
+0021800351,51,PT07M20.00S,1,1610612753,ORL,203095,Fournier,E. Fournier,5,11,1,Made,1,13,11,24,v,Fournier 1' Driving Layup (10 PTS) (Gordon 1 AST),Made Shot,Driving Layup Shot,1,2,43
+0021800351,53,PT07M01.00S,1,1610612748,MIA,1626196,Richardson,J. Richardson,-81,213,23,Missed,1,,,0,h,MISS Richardson 23' Jump Shot,Missed Shot,Jump Shot,1,2,44
+0021800351,54,PT06M59.00S,1,1610612748,MIA,202355,Whiteside,H. Whiteside,0,0,0,,0,,,0,h,Whiteside REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,45
+0021800351,55,PT06M55.00S,1,1610612748,MIA,202355,Whiteside,H. Whiteside,-3,55,6,Made,1,15,11,26,h,Whiteside 6' Hook Shot (10 PTS),Made Shot,Hook Shot,1,2,46
+0021800351,57,PT06M41.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,-33,251,25,Made,1,15,14,29,v,Vucevic 25' 3PT Jump Shot (3 PTS) (Augustin 2 AST),Made Shot,Jump Shot,1,3,47
+0021800351,59,PT06M22.00S,1,1610612748,MIA,201961,Ellington,W. Ellington,-145,206,25,Missed,1,,,0,h,MISS Ellington 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,48
+0021800351,60,PT06M17.00S,1,1610612753,ORL,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,49
+0021800351,61,PT06M07.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,6,8,1,Made,1,15,16,31,v,Vucevic 1' Driving Layup (5 PTS),Made Shot,Driving Layup Shot,1,2,50
+0021800351,62,PT06M03.00S,1,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,51
+0021800351,67,PT06M03.00S,1,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,v,SUB: Isaac FOR Simmons,Substitution,,0,0,52
+0021800351,70,PT05M50.00S,1,1610612748,MIA,203585,McGruder,R. McGruder,-36,22,4,Made,1,17,16,33,h,McGruder 4' Jump Bank Shot (2 PTS) (Richardson 1 AST),Made Shot,Jump Bank Shot,1,2,53
+0021800351,72,PT05M31.00S,1,1610612753,ORL,203095,Fournier,E. Fournier,-119,257,28,Missed,1,,,0,v,MISS Fournier 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,54
+0021800351,73,PT05M27.00S,1,1610612748,MIA,202355,Whiteside,H. Whiteside,0,0,0,,0,,,0,h,Whiteside REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,55
+0021800351,74,PT05M19.00S,1,1610612748,MIA,203585,McGruder,R. McGruder,-15,68,7,Made,1,19,16,35,h,McGruder 7' Floating Jump Shot (4 PTS),Made Shot,Floating Jump shot,1,2,56
+0021800351,75,PT05M00.00S,1,1610612753,ORL,203932,Gordon,A. Gordon,-158,221,27,Made,1,19,19,38,v,Gordon 27' 3PT Step Back Jump Shot (3 PTS) (Isaac 1 AST),Made Shot,Step Back Jump shot,1,3,57
+0021800351,78,PT04M45.00S,1,1610612748,MIA,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,SUB: Adebayo FOR McGruder,Substitution,,0,0,58
+0021800351,79,PT04M45.00S,1,1610612748,MIA,202355,Whiteside,H. Whiteside,0,0,0,,0,,,0,h,SUB: Wade FOR Whiteside,Substitution,,0,0,59
+0021800351,80,PT04M45.00S,1,1610612753,ORL,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,SUB: Ross FOR Fournier,Substitution,,0,0,60
+0021800351,102,PT04M45.00S,1,1610612748,MIA,201949,Johnson,J. Johnson,0,0,0,,0,,,0,h,SUB: Olynyk FOR J. Johnson,Substitution,,0,0,61
+0021800351,84,PT04M38.00S,1,1610612748,MIA,201961,Ellington,W. Ellington,2,251,25,Made,1,22,19,41,h,Ellington 25' 3PT Jump Shot (6 PTS) (Adebayo 1 AST),Made Shot,Jump Shot,1,3,62
+0021800351,86,PT04M25.00S,1,1610612748,MIA,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,h,Richardson P.FOUL (P1.T2) (Z.Zarba),Foul,Personal,1,0,63
+0021800351,88,PT04M23.00S,1,1610612748,MIA,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,h,Richardson P.FOUL (P2.T3) (N.Green),Foul,Personal,1,0,64
+0021800351,92,PT04M23.00S,1,1610612748,MIA,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,h,SUB: Winslow FOR Richardson,Substitution,,0,0,65
+0021800351,94,PT04M11.00S,1,1610612753,ORL,1628371,Isaac,J. Isaac,-114,79,14,Made,1,22,21,43,v,Isaac 14' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,66
+0021800351,95,PT03M59.00S,1,1610612748,MIA,201961,Ellington,W. Ellington,-133,215,25,Missed,1,,,0,h,MISS Ellington 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,67
+0021800351,96,PT03M59.00S,1,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Rebound,Rebound,Unknown,0,0,68
+0021800351,98,PT03M59.00S,1,1610612753,ORL,201571,Augustin,D. Augustin,0,0,0,,0,,,0,v,SUB: Grant FOR Augustin,Substitution,,0,0,69
+0021800351,100,PT03M49.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,-150,207,26,Made,1,22,24,46,v,Vucevic 26' 3PT Jump Shot (8 PTS) (Ross 1 AST),Made Shot,Jump Shot,1,3,70
+0021800351,104,PT03M34.00S,1,1610612748,MIA,2548,Wade,D. Wade,-16,80,8,Missed,1,,,0,h,MISS Wade 8' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,71
+0021800351,104,PT03M34.00S,1,1610612753,ORL,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon BLOCK (1 BLK),,,1,2,72
+0021800351,106,PT03M31.00S,1,1610612748,MIA,201961,Ellington,W. Ellington,0,0,0,,0,,,0,h,Ellington REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,73
+0021800351,108,PT03M21.00S,1,1610612748,MIA,2548,Wade,D. Wade,-105,132,17,Missed,1,,,0,h,MISS Wade 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,74
+0021800351,109,PT03M17.00S,1,1610612753,ORL,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,75
+0021800351,110,PT03M12.00S,1,1610612753,ORL,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon Lost Ball Turnover (P1.T2),Turnover,Lost Ball,1,0,76
+0021800351,110,PT03M12.00S,1,1610612748,MIA,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,h,Olynyk STEAL (1 STL),,,1,0,77
+0021800351,112,PT03M05.00S,1,1610612748,MIA,203482,Olynyk,K. Olynyk,-9,11,1,Missed,1,,,0,h,MISS Olynyk 1' Layup,Missed Shot,Layup Shot,1,2,78
+0021800351,113,PT03M02.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,79
+0021800351,114,PT02M50.00S,1,1610612753,ORL,203082,Ross,T. Ross,-179,204,27,Made,1,22,27,49,v,Ross 27' 3PT Jump Shot (3 PTS) (Gordon 2 AST),Made Shot,Jump Shot,1,3,80
+0021800351,116,PT02M26.00S,1,1610612748,MIA,201961,Ellington,W. Ellington,0,0,0,,0,,,0,h,Ellington OFF.Foul (P1) (B.Forte),Foul,Offensive,1,0,81
+0021800351,118,PT02M26.00S,1,1610612748,MIA,201961,Ellington,W. Ellington,0,0,0,,0,,,0,h,Ellington Offensive Foul Turnover (P1.T4),Turnover,Offensive Foul Turnover,1,0,82
+0021800351,119,PT02M26.00S,1,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,83
+0021800351,120,PT02M26.00S,1,1610612748,MIA,201961,Ellington,W. Ellington,0,0,0,,0,,,0,h,SUB: T. Johnson FOR Ellington,Substitution,,0,0,84
+0021800351,121,PT02M26.00S,1,1610612753,ORL,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,SUB: Simmons FOR Gordon,Substitution,,0,0,85
+0021800351,122,PT02M26.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,SUB: Bamba FOR Vucevic,Substitution,,0,0,86
+0021800351,126,PT02M10.00S,1,1610612753,ORL,203613,Simmons,J. Simmons,41,31,5,Missed,1,,,0,v,MISS Simmons 5' Jump Shot,Missed Shot,Jump Shot,1,2,87
+0021800351,126,PT02M10.00S,1,1610612748,MIA,1626159,Winslow,J. Winslow,0,0,0,,0,,,0,h,Winslow BLOCK (1 BLK),,,1,2,88
+0021800351,128,PT02M10.00S,1,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Rebound,Rebound,Unknown,0,0,89
+0021800351,130,PT02M06.00S,1,1610612753,ORL,203082,Ross,T. Ross,-172,15,17,Missed,1,,,0,v,MISS Ross 17' Jump Shot,Missed Shot,Jump Shot,1,2,90
+0021800351,131,PT02M03.00S,1,1610612748,MIA,204020,Johnson,T. Johnson,0,0,0,,0,,,0,h,T. Johnson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,91
+0021800351,132,PT01M57.00S,1,1610612748,MIA,204020,Johnson,T. Johnson,-9,10,1,Made,1,24,27,51,h,T. Johnson 1' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,92
+0021800351,133,PT01M35.00S,1,1610612753,ORL,203082,Ross,T. Ross,-29,202,20,Missed,1,,,0,v,MISS Ross 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,93
+0021800351,134,PT01M32.00S,1,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,94
+0021800351,136,PT01M16.00S,1,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,v,Isaac S.FOUL (P1.T2) (B.Forte),Foul,Shooting,1,0,95
+0021800351,138,PT01M16.00S,1,1610612748,MIA,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,h,MISS Olynyk Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,96
+0021800351,139,PT01M16.00S,1,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Rebound,Rebound,Normal Rebound,0,0,97
+0021800351,140,PT01M16.00S,1,1610612748,MIA,203482,Olynyk,K. Olynyk,0,0,0,,0,25,27,52,h,Olynyk Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,0,0,98
+0021800351,141,PT01M01.00S,1,1610612753,ORL,203082,Ross,T. Ross,101,42,11,Missed,1,,,0,v,MISS Ross 11' Jump Shot,Missed Shot,Jump Shot,1,2,99
+0021800351,142,PT00M58.30S,1,1610612748,MIA,1626159,Winslow,J. Winslow,0,0,0,,0,,,0,h,Winslow REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,100
+0021800351,143,PT00M37.30S,1,1610612748,MIA,2548,Wade,D. Wade,17,35,4,Missed,1,,,0,h,MISS Wade 4' Hook Shot,Missed Shot,Hook Shot,1,2,101
+0021800351,144,PT00M31.00S,1,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,v,Isaac REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,102
+0021800351,145,PT00M27.70S,1,1610612753,ORL,1626170,Grant,J. Grant,-3,88,9,Missed,1,,,0,v,MISS Grant 9' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,103
+0021800351,146,PT00M25.50S,1,1610612748,MIA,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,h,Olynyk REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,104
+0021800351,147,PT00M06.60S,1,1610612748,MIA,1626159,Winslow,J. Winslow,88,51,10,Missed,1,,,0,h,MISS Winslow 10' Jump Bank Shot,Missed Shot,Jump Bank Shot,1,2,105
+0021800351,148,PT00M05.70S,1,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,v,Simmons REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,106
+0021800351,152,PT00M04.00S,1,1610612753,ORL,203613,Simmons,J. Simmons,11,18,2,Missed,1,,,0,v,MISS Simmons 2' Running Layup,Missed Shot,Running Layup Shot,1,2,107
+0021800351,152,PT00M04.00S,1,1610612748,MIA,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,h,Olynyk BLOCK (1 BLK),,,1,2,108
+0021800351,154,PT00M03.00S,1,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,v,Simmons REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,109
+0021800351,149,PT00M02.80S,1,1610612753,ORL,203613,Simmons,J. Simmons,10,12,2,Missed,1,,,0,v,MISS Simmons 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,110
+0021800351,149,PT00M02.80S,1,1610612748,MIA,204020,Johnson,T. Johnson,0,0,0,,0,,,0,h,T. Johnson BLOCK (1 BLK),,,1,2,111
+0021800351,151,PT00M01.00S,1,1610612748,MIA,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,h,Olynyk REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,112
+0021800351,155,PT00M00.00S,1,0,,0,,,0,0,0,,0,25,27,52,,End of 1st Period (8:07 PM EST),period,end,1,0,113
+0021800351,158,PT12M00.00S,2,0,,0,,,0,0,0,,0,25,27,52,,Start of 2nd Period (8:09 PM EST),period,start,0,0,114
+0021800351,226,PT11M49.00S,2,1610612753,ORL,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,Fournier Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,115
+0021800351,226,PT11M49.00S,2,1610612748,MIA,204020,Johnson,T. Johnson,0,0,0,,0,,,0,h,T. Johnson STEAL (1 STL),,,1,0,116
+0021800351,228,PT11M43.00S,2,1610612748,MIA,204020,Johnson,T. Johnson,0,0,0,,0,,,0,h,T. Johnson Out of Bounds - Bad Pass Turnover Turnover (P1.T5),Turnover,Out of Bounds - Bad Pass Turnover,1,0,117
+0021800351,160,PT11M34.00S,2,1610612753,ORL,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,Bamba Lost Ball Turnover (P1.T4),Turnover,Lost Ball,1,0,118
+0021800351,160,PT11M34.00S,2,1610612748,MIA,2548,Wade,D. Wade,0,0,0,,0,,,0,h,Wade STEAL (1 STL),,,1,0,119
+0021800351,162,PT11M26.00S,2,1610612748,MIA,2548,Wade,D. Wade,11,17,2,Made,1,27,27,54,h,Wade 2' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,120
+0021800351,163,PT11M04.00S,2,1610612753,ORL,203082,Ross,T. Ross,8,8,1,Missed,1,,,0,v,MISS Ross 1' Driving Dunk,Missed Shot,Driving Dunk Shot,1,2,121
+0021800351,163,PT11M04.00S,2,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo BLOCK (1 BLK),,,1,2,122
+0021800351,164,PT11M02.00S,2,1610612748,MIA,2548,Wade,D. Wade,0,0,0,,0,,,0,h,Wade REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,123
+0021800351,165,PT10M57.00S,2,1610612748,MIA,204020,Johnson,T. Johnson,18,8,2,Made,1,29,27,56,h,T. Johnson 2' Reverse Layup (4 PTS) (Wade 1 AST),Made Shot,Reverse Layup Shot,1,2,124
+0021800351,167,PT10M44.00S,2,1610612753,ORL,203095,Fournier,E. Fournier,4,12,1,Missed,1,,,0,v,MISS Fournier 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,125
+0021800351,167,PT10M44.00S,2,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo BLOCK (2 BLK),,,1,2,126
+0021800351,169,PT10M40.00S,2,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,127
+0021800351,170,PT10M26.00S,2,1610612748,MIA,2548,Wade,D. Wade,0,0,0,,0,,,0,h,Wade Lost Ball Turnover (P1.T6),Turnover,Lost Ball,1,0,128
+0021800351,170,PT10M26.00S,2,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,v,Isaac STEAL (1 STL),,,1,0,129
+0021800351,172,PT10M18.00S,2,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo P.FOUL (P1.T1) (N.Green),Foul,Personal,1,0,130
+0021800351,174,PT10M18.00S,2,1610612748,MIA,204020,Johnson,T. Johnson,0,0,0,,0,,,0,h,SUB: McGruder FOR T. Johnson,Substitution,,0,0,131
+0021800351,176,PT10M06.00S,2,1610612753,ORL,1628964,Bamba,M. Bamba,10,15,2,Missed,1,,,0,v,MISS Bamba 2' Layup,Missed Shot,Layup Shot,1,2,132
+0021800351,176,PT10M06.00S,2,1610612748,MIA,1626159,Winslow,J. Winslow,0,0,0,,0,,,0,h,Winslow BLOCK (2 BLK),,,1,2,133
+0021800351,178,PT10M03.00S,2,1610612753,ORL,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,Bamba REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,134
+0021800351,179,PT10M02.00S,2,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Turnover: Shot Clock (T#5),Turnover,Shot Clock Turnover,0,0,135
+0021800351,180,PT09M50.00S,2,1610612748,MIA,2548,Wade,D. Wade,-177,185,26,Missed,1,,,0,h,MISS Wade 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,136
+0021800351,181,PT09M47.00S,2,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,v,Isaac REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,137
+0021800351,182,PT09M36.00S,2,1610612753,ORL,1628371,Isaac,J. Isaac,230,55,24,Missed,1,,,0,v,MISS Isaac 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,138
+0021800351,183,PT09M34.00S,2,1610612748,MIA,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,h,Olynyk REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,139
+0021800351,184,PT09M25.00S,2,1610612748,MIA,203585,McGruder,R. McGruder,9,-6,1,Missed,1,,,0,h,MISS McGruder 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,140
+0021800351,184,PT09M25.00S,2,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,v,Isaac BLOCK (1 BLK),,,1,2,141
+0021800351,186,PT09M21.00S,2,1610612753,ORL,1626170,Grant,J. Grant,0,0,0,,0,,,0,v,Grant REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,142
+0021800351,187,PT09M18.00S,2,1610612753,ORL,203095,Fournier,E. Fournier,-30,54,6,Missed,1,,,0,v,MISS Fournier 6' Jump Shot,Missed Shot,Jump Shot,1,2,143
+0021800351,187,PT09M18.00S,2,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo BLOCK (3 BLK),,,1,2,144
+0021800351,189,PT09M14.00S,2,1610612748,MIA,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,h,Olynyk REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,145
+0021800351,190,PT09M11.00S,2,1610612748,MIA,203482,Olynyk,K. Olynyk,133,221,26,Missed,1,,,0,h,MISS Olynyk 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,146
+0021800351,191,PT09M11.00S,2,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,147
+0021800351,192,PT09M06.00S,2,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,-6,1,Made,1,31,27,58,h,Adebayo 1' Tip Dunk Shot (2 PTS),Made Shot,Tip Dunk Shot,1,2,148
+0021800351,193,PT08M44.00S,2,1610612753,ORL,203095,Fournier,E. Fournier,-82,191,21,Missed,1,,,0,v,MISS Fournier 21' Jump Shot,Missed Shot,Jump Shot,1,2,149
+0021800351,194,PT08M43.00S,2,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Rebound,Rebound,Unknown,0,0,150
+0021800351,195,PT08M43.00S,2,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Turnover: Shot Clock (T#6),Turnover,Shot Clock Turnover,0,0,151
+0021800351,196,PT08M43.00S,2,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,SUB: Whiteside FOR Adebayo,Substitution,,0,0,152
+0021800351,198,PT08M32.00S,2,1610612748,MIA,2548,Wade,D. Wade,0,0,0,,0,,,0,h,Wade Out of Bounds - Bad Pass Turnover Turnover (P2.T7),Turnover,Out of Bounds - Bad Pass Turnover,1,0,153
+0021800351,199,PT08M32.00S,2,1610612748,MIA,2548,Wade,D. Wade,0,0,0,,0,,,0,h,SUB: Richardson FOR Wade,Substitution,,0,0,154
+0021800351,201,PT08M24.00S,2,1610612748,MIA,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,McGruder S.FOUL (P1.T2) (N.Green),Foul,Shooting,1,0,155
+0021800351,203,PT08M24.00S,2,1610612753,ORL,1626170,Grant,J. Grant,0,0,0,,0,31,28,59,v,Grant Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,156
+0021800351,204,PT08M24.00S,2,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,v,SUB: Gordon FOR Isaac,Substitution,,0,0,157
+0021800351,206,PT08M24.00S,2,1610612753,ORL,1626170,Grant,J. Grant,0,0,0,,0,,,0,v,MISS Grant Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,158
+0021800351,207,PT08M22.00S,2,1610612748,MIA,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,h,Olynyk REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,159
+0021800351,208,PT08M03.00S,2,1610612748,MIA,1626159,Winslow,J. Winslow,-4,8,1,Made,1,33,28,61,h,Winslow 1' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,160
+0021800351,209,PT07M44.00S,2,1610612753,ORL,203932,Gordon,A. Gordon,-176,17,18,Missed,1,,,0,v,MISS Gordon 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,161
+0021800351,210,PT07M41.00S,2,1610612748,MIA,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,McGruder REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,162
+0021800351,212,PT07M33.00S,2,1610612753,ORL,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,Fournier P.FOUL (P1.T1) (Z.Zarba),Foul,Personal,1,0,163
+0021800351,214,PT07M21.00S,2,1610612748,MIA,1626159,Winslow,J. Winslow,179,187,26,Made,1,36,28,64,h,Winslow 26' 3PT Jump Shot (5 PTS) (Richardson 2 AST),Made Shot,Jump Shot,1,3,164
+0021800351,216,PT07M04.00S,2,1610612753,ORL,203932,Gordon,A. Gordon,-99,144,17,Missed,1,,,0,v,MISS Gordon 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,165
+0021800351,217,PT07M03.00S,2,1610612753,ORL,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,Bamba REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,166
+0021800351,218,PT07M02.00S,2,1610612753,ORL,1628964,Bamba,M. Bamba,0,-6,1,Made,1,36,30,66,v,Bamba 1' Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,167
+0021800351,219,PT06M46.00S,2,1610612748,MIA,1626159,Winslow,J. Winslow,22,47,5,Missed,1,,,0,h,MISS Winslow 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,168
+0021800351,219,PT06M46.00S,2,1610612753,ORL,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,Bamba BLOCK (1 BLK),,,1,2,169
+0021800351,221,PT06M46.00S,2,1610612753,ORL,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,Fournier REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,170
+0021800351,222,PT06M43.00S,2,1610612753,ORL,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,Bamba OFF.Foul (P1) (B.Forte),Foul,Offensive,1,0,171
+0021800351,224,PT06M43.00S,2,1610612753,ORL,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,Bamba Offensive Foul Turnover (P2.T7),Turnover,Offensive Foul Turnover,1,0,172
+0021800351,225,PT06M43.00S,2,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,173
+0021800351,229,PT06M43.00S,2,1610612753,ORL,203082,Ross,T. Ross,0,0,0,,0,,,0,v,SUB: Simmons FOR Ross,Substitution,,0,0,174
+0021800351,231,PT06M27.00S,2,1610612748,MIA,1626159,Winslow,J. Winslow,-11,4,1,Made,1,38,30,68,h,Winslow 1' Cutting Layup Shot (7 PTS) (Olynyk 1 AST),Made Shot,Cutting Layup Shot,1,2,175
+0021800351,233,PT06M13.00S,2,1610612753,ORL,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,Fournier Discontinue Dribble Turnover (P2.T8),Turnover,Discontinue Dribble,1,0,176
+0021800351,234,PT05M54.00S,2,1610612748,MIA,203482,Olynyk,K. Olynyk,179,187,26,Missed,1,,,0,h,MISS Olynyk 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,177
+0021800351,235,PT05M52.00S,2,1610612748,MIA,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,h,Richardson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,178
+0021800351,236,PT05M41.00S,2,1610612748,MIA,203482,Olynyk,K. Olynyk,-130,211,25,Missed,1,,,0,h,MISS Olynyk 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,179
+0021800351,237,PT05M38.00S,2,1610612753,ORL,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,Fournier REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,180
+0021800351,238,PT05M34.00S,2,1610612753,ORL,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,Fournier Bad Pass Turnover (P3.T9),Turnover,Bad Pass,1,0,181
+0021800351,239,PT05M34.00S,2,1610612753,ORL,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,Fournier L.B.FOUL (P2.T2) (Z.Zarba),Foul,Loose Ball,1,0,182
+0021800351,241,PT05M34.00S,2,1610612753,ORL,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,SUB: Vucevic FOR Bamba,Substitution,,0,0,183
+0021800351,242,PT05M34.00S,2,1610612753,ORL,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,SUB: Augustin FOR Fournier,Substitution,,0,0,184
+0021800351,243,PT05M34.00S,2,1610612753,ORL,1626170,Grant,J. Grant,0,0,0,,0,,,0,v,SUB: Isaac FOR Grant,Substitution,,0,0,185
+0021800351,248,PT05M18.00S,2,1610612748,MIA,203585,McGruder,R. McGruder,17,36,4,Missed,1,,,0,h,MISS McGruder 4' Jump Shot,Missed Shot,Jump Shot,1,2,186
+0021800351,249,PT05M17.00S,2,1610612748,MIA,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,McGruder REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,187
+0021800351,313,PT05M16.00S,2,1610612748,MIA,203585,McGruder,R. McGruder,-4,13,1,Missed,1,,,0,h,MISS McGruder 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,188
+0021800351,314,PT05M15.00S,2,1610612753,ORL,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,189
+0021800351,250,PT04M59.00S,2,1610612753,ORL,203613,Simmons,J. Simmons,-196,157,25,Made,1,38,33,71,v,Simmons 25' 3PT Jump Shot (3 PTS) (Augustin 3 AST),Made Shot,Jump Shot,1,3,190
+0021800351,252,PT04M52.00S,2,1610612748,MIA,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,h,Olynyk OFF.Foul (P1) (N.Green),Foul,Offensive,1,0,191
+0021800351,254,PT04M52.00S,2,1610612748,MIA,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,h,Olynyk Offensive Foul Turnover (P1.T8),Turnover,Offensive Foul Turnover,1,0,192
+0021800351,255,PT04M38.00S,2,1610612753,ORL,203613,Simmons,J. Simmons,93,167,19,Missed,1,,,0,v,MISS Simmons 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,193
+0021800351,256,PT04M36.00S,2,1610612748,MIA,202355,Whiteside,H. Whiteside,0,0,0,,0,,,0,h,Whiteside REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,194
+0021800351,257,PT04M14.00S,2,1610612748,MIA,1626196,Richardson,J. Richardson,-179,172,25,Missed,1,,,0,h,MISS Richardson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,195
+0021800351,258,PT04M12.00S,2,1610612753,ORL,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,196
+0021800351,259,PT04M10.00S,2,1610612748,MIA,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,McGruder S.FOUL (P2.T3) (Z.Zarba),Foul,Shooting,1,0,197
+0021800351,261,PT04M10.00S,2,1610612753,ORL,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,MISS Gordon Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,198
+0021800351,262,PT04M10.00S,2,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Rebound,Rebound,Normal Rebound,0,0,199
+0021800351,263,PT04M10.00S,2,1610612748,MIA,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,h,SUB: J. Johnson FOR Olynyk,Substitution,,0,0,200
+0021800351,265,PT04M10.00S,2,1610612753,ORL,203932,Gordon,A. Gordon,0,0,0,,0,38,34,72,v,Gordon Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,201
+0021800351,266,PT03M57.00S,2,1610612748,MIA,1626159,Winslow,J. Winslow,-9,6,1,Made,1,40,34,74,h,Winslow 1' Driving Layup (9 PTS),Made Shot,Driving Layup Shot,1,2,202
+0021800351,267,PT03M42.00S,2,1610612753,ORL,201571,Augustin,D. Augustin,0,0,0,,0,,,0,v,Augustin Lost Ball Turnover (P1.T10),Turnover,Lost Ball,1,0,203
+0021800351,267,PT03M42.00S,2,1610612748,MIA,202355,Whiteside,H. Whiteside,0,0,0,,0,,,0,h,Whiteside STEAL (1 STL),,,1,0,204
+0021800351,269,PT03M37.00S,2,1610612748,MIA,1626159,Winslow,J. Winslow,14,9,2,Missed,1,,,0,h,MISS Winslow 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,205
+0021800351,270,PT03M34.00S,2,1610612748,MIA,201949,Johnson,J. Johnson,0,0,0,,0,,,0,h,J. Johnson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,206
+0021800351,271,PT03M33.00S,2,1610612748,MIA,201949,Johnson,J. Johnson,0,0,0,,0,,,0,h,J. Johnson Lost Ball Turnover (P2.T9),Turnover,Lost Ball,1,0,207
+0021800351,271,PT03M33.00S,2,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,v,Simmons STEAL (1 STL),,,1,0,208
+0021800351,273,PT03M28.00S,2,1610612753,ORL,201571,Augustin,D. Augustin,4,5,1,Made,1,40,36,76,v,Augustin 1' Layup (3 PTS) (Gordon 3 AST),Made Shot,Layup Shot,1,2,209
+0021800351,275,PT03M09.00S,2,1610612748,MIA,202355,Whiteside,H. Whiteside,9,9,1,Made,1,42,36,78,h,Whiteside 1' Driving Dunk (12 PTS) (Richardson 3 AST),Made Shot,Driving Dunk Shot,1,2,210
+0021800351,277,PT02M57.00S,2,1610612753,ORL,201571,Augustin,D. Augustin,5,8,1,Missed,1,,,0,v,MISS Augustin 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,211
+0021800351,278,PT02M53.00S,2,1610612748,MIA,201949,Johnson,J. Johnson,0,0,0,,0,,,0,h,J. Johnson REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,212
+0021800351,279,PT02M49.00S,2,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic P.FOUL (P1.T3) (B.Forte),Foul,Personal,1,0,213
+0021800351,281,PT02M49.00S,2,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,214
+0021800351,282,PT02M49.00S,2,0,,2168,,,0,0,0,,0,,,0,,Steve Clifford Foul:T.FOUL (B.Forte),Foul,Technical,0,0,215
+0021800351,283,PT02M49.00S,2,1610612753,ORL,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,SUB: Ross FOR Gordon,Substitution,,0,0,216
+0021800351,285,PT02M49.00S,2,1610612748,MIA,1626196,Richardson,J. Richardson,0,0,0,,0,43,36,79,h,Richardson Free Throw Technical (1 PTS),Free Throw,Free Throw Technical,0,0,217
+0021800351,286,PT02M39.00S,2,1610612748,MIA,203585,McGruder,R. McGruder,3,92,9,Missed,1,,,0,h,MISS McGruder 9' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,218
+0021800351,287,PT02M39.00S,2,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Rebound,Rebound,Unknown,0,0,219
+0021800351,288,PT02M39.00S,2,1610612748,MIA,202355,Whiteside,H. Whiteside,0,0,0,,0,,,0,h,Whiteside L.B.FOUL (P1.T4) (Z.Zarba),Foul,Loose Ball,1,0,220
+0021800351,290,PT02M23.00S,2,1610612753,ORL,203082,Ross,T. Ross,92,162,19,Made,1,43,38,81,v,Ross 19' Pullup Jump Shot (5 PTS) (Augustin 4 AST),Made Shot,Pullup Jump shot,1,2,221
+0021800351,292,PT02M11.00S,2,1610612748,MIA,1626196,Richardson,J. Richardson,-227,15,0,Missed,1,,,0,h,MISS Richardson 3PT Jump Shot,Missed Shot,Jump Shot,1,3,222
+0021800351,293,PT02M08.00S,2,1610612753,ORL,201571,Augustin,D. Augustin,0,0,0,,0,,,0,v,Augustin REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,223
+0021800351,294,PT02M03.00S,2,1610612753,ORL,201571,Augustin,D. Augustin,0,0,0,,0,,,0,v,Augustin Lost Ball Turnover (P2.T11),Turnover,Lost Ball,1,0,224
+0021800351,294,PT02M03.00S,2,1610612748,MIA,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,McGruder STEAL (1 STL),,,1,0,225
+0021800351,296,PT01M58.00S,2,1610612748,MIA,201949,Johnson,J. Johnson,16,11,2,Made,1,45,38,83,h,J. Johnson 2' Running Layup (4 PTS) (McGruder 2 AST),Made Shot,Running Layup Shot,1,2,226
+0021800351,298,PT01M44.00S,2,1610612753,ORL,202696,Vučević,N. Vučević,-12,4,1,Made,1,45,40,85,v,Vucevic 1' Driving Dunk (10 PTS),Made Shot,Driving Dunk Shot,1,2,227
+0021800351,299,PT01M31.00S,2,1610612748,MIA,201949,Johnson,J. Johnson,-9,10,1,Made,1,47,40,87,h,J. Johnson 1' Driving Layup (6 PTS),Made Shot,Driving Layup Shot,1,2,228
+0021800351,300,PT01M18.00S,2,1610612753,ORL,1628371,Isaac,J. Isaac,-12,6,1,Made,1,47,42,89,v,Isaac 1' Cutting Layup Shot (4 PTS) (Simmons 2 AST),Made Shot,Cutting Layup Shot,1,2,229
+0021800351,302,PT01M01.00S,2,1610612748,MIA,203585,McGruder,R. McGruder,183,184,26,Made,1,50,42,92,h,McGruder 26' 3PT Jump Shot (7 PTS) (Winslow 1 AST),Made Shot,Jump Shot,1,3,230
+0021800351,304,PT00M45.30S,2,1610612753,ORL,203082,Ross,T. Ross,-11,4,1,Made,1,50,44,94,v,Ross 1' Reverse Layup (7 PTS) (Vucevic 2 AST),Made Shot,Reverse Layup Shot,1,2,231
+0021800351,306,PT00M22.50S,2,1610612748,MIA,1626159,Winslow,J. Winslow,-227,21,0,Missed,1,,,0,h,MISS Winslow 3PT Jump Shot,Missed Shot,Jump Shot,1,3,232
+0021800351,307,PT00M19.10S,2,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,233
+0021800351,308,PT00M00.00S,2,1610612753,ORL,202696,Vučević,N. Vučević,-78,139,16,Made,1,50,46,96,v,Vucevic 16' Jump Shot (12 PTS) (Simmons 3 AST),Made Shot,Jump Shot,1,2,234
+0021800351,310,PT00M00.00S,2,0,,0,,,0,0,0,,0,50,46,96,,Instant Replay2nd Period (8:33 PM EST),Instant Replay,Support Ruling,0,0,235
+0021800351,312,PT00M00.00S,2,0,,0,,,0,0,0,,0,50,46,96,,End of 2nd Period (8:34 PM EST),period,end,1,0,236
+0021800351,321,PT12M00.00S,3,0,,0,,,0,0,0,,0,50,46,96,,Start of 3rd Period (8:49 PM EST),period,start,0,0,237
+0021800351,342,PT11M53.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,-177,179,25,Missed,1,,,0,v,MISS Vucevic 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,238
+0021800351,343,PT11M52.00S,3,1610612748,MIA,202355,Whiteside,H. Whiteside,0,0,0,,0,,,0,h,Whiteside REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,239
+0021800351,333,PT11M36.00S,3,1610612748,MIA,201949,Johnson,J. Johnson,17,34,4,Made,1,52,46,98,h,J. Johnson 4' Cutting Layup Shot (8 PTS) (Whiteside 1 AST),Made Shot,Cutting Layup Shot,1,2,240
+0021800351,323,PT11M08.00S,3,1610612753,ORL,203095,Fournier,E. Fournier,159,5,16,Missed,1,,,0,v,MISS Fournier 16' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,241
+0021800351,324,PT11M05.00S,3,1610612748,MIA,201949,Johnson,J. Johnson,0,0,0,,0,,,0,h,J. Johnson REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,242
+0021800351,325,PT10M51.00S,3,1610612748,MIA,1626196,Richardson,J. Richardson,-209,155,26,Missed,1,,,0,h,MISS Richardson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,243
+0021800351,326,PT10M47.00S,3,1610612753,ORL,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,244
+0021800351,327,PT10M38.00S,3,1610612753,ORL,203613,Simmons,J. Simmons,230,5,0,Missed,1,,,0,v,MISS Simmons 3PT Jump Shot,Missed Shot,Jump Shot,1,3,245
+0021800351,328,PT10M35.00S,3,1610612748,MIA,202355,Whiteside,H. Whiteside,0,0,0,,0,,,0,h,Whiteside REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,246
+0021800351,329,PT10M15.00S,3,1610612748,MIA,201961,Ellington,W. Ellington,90,158,18,Missed,1,,,0,h,MISS Ellington 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,247
+0021800351,330,PT10M12.00S,3,1610612753,ORL,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,248
+0021800351,331,PT10M05.00S,3,1610612753,ORL,203932,Gordon,A. Gordon,-11,8,1,Made,1,52,48,100,v,Gordon 1' Driving Reverse Layup (6 PTS),Made Shot,Driving Reverse Layup Shot,1,2,249
+0021800351,332,PT09M48.00S,3,1610612748,MIA,201949,Johnson,J. Johnson,171,189,25,Made,1,55,48,103,h,J. Johnson 25' 3PT Jump Shot (11 PTS),Made Shot,Jump Shot,1,3,250
+0021800351,335,PT09M18.00S,3,1610612753,ORL,201571,Augustin,D. Augustin,153,26,16,Missed,1,,,0,v,MISS Augustin 16' Jump Shot,Missed Shot,Jump Shot,1,2,251
+0021800351,336,PT09M16.00S,3,1610612748,MIA,201961,Ellington,W. Ellington,0,0,0,,0,,,0,h,Ellington REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,252
+0021800351,337,PT09M10.00S,3,1610612748,MIA,201961,Ellington,W. Ellington,195,151,25,Missed,1,,,0,h,MISS Ellington 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,253
+0021800351,338,PT09M08.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,254
+0021800351,339,PT09M06.00S,3,1610612748,MIA,201949,Johnson,J. Johnson,0,0,0,,0,,,0,h,J. Johnson S.FOUL (P2.T1) (B.Forte),Foul,Shooting,1,0,255
+0021800351,341,PT09M06.00S,3,1610612753,ORL,203932,Gordon,A. Gordon,0,0,0,,0,55,49,104,v,Gordon Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,0,0,256
+0021800351,344,PT09M06.00S,3,1610612753,ORL,203932,Gordon,A. Gordon,0,0,0,,0,55,50,105,v,Gordon Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,257
+0021800351,345,PT08M43.00S,3,1610612748,MIA,1626196,Richardson,J. Richardson,14,12,2,Missed,1,,,0,h,MISS Richardson 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,258
+0021800351,346,PT08M43.00S,3,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Rebound,Rebound,Unknown,0,0,259
+0021800351,348,PT08M31.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,164,-11,16,Missed,1,,,0,v,MISS Vucevic 16' Jump Shot,Missed Shot,Jump Shot,1,2,260
+0021800351,349,PT08M28.00S,3,1610612748,MIA,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,McGruder REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,261
+0021800351,350,PT08M15.00S,3,1610612748,MIA,201949,Johnson,J. Johnson,155,201,25,Missed,1,,,0,h,MISS J. Johnson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,262
+0021800351,351,PT08M13.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,263
+0021800351,352,PT08M09.00S,3,1610612753,ORL,201571,Augustin,D. Augustin,-198,155,25,Missed,1,,,0,v,MISS Augustin 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,264
+0021800351,353,PT08M08.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,265
+0021800351,412,PT08M07.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,-5,12,1,Missed,1,,,0,v,MISS Vucevic 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,266
+0021800351,413,PT08M06.00S,3,1610612748,MIA,202355,Whiteside,H. Whiteside,0,0,0,,0,,,0,h,Whiteside REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,267
+0021800351,354,PT07M51.00S,3,1610612748,MIA,202355,Whiteside,H. Whiteside,-12,202,20,Missed,1,,,0,h,MISS Whiteside 20' Jump Shot,Missed Shot,Jump Shot,1,2,268
+0021800351,355,PT07M48.00S,3,1610612753,ORL,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,269
+0021800351,356,PT07M43.00S,3,1610612753,ORL,203932,Gordon,A. Gordon,157,203,26,Made,1,55,53,108,v,Gordon 26' 3PT Pullup Jump Shot (11 PTS),Made Shot,Pullup Jump shot,1,3,270
+0021800351,357,PT07M27.00S,3,1610612748,MIA,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,McGruder Bad Pass Turnover (P2.T10),Turnover,Bad Pass,1,0,271
+0021800351,357,PT07M27.00S,3,1610612753,ORL,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon STEAL (1 STL),,,1,0,272
+0021800351,359,PT07M25.00S,3,1610612753,ORL,203932,Gordon,A. Gordon,3,10,1,Made,1,55,55,110,v,Gordon 1' Running Dunk (13 PTS),Made Shot,Running Dunk Shot,1,2,273
+0021800351,360,PT07M25.00S,3,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,274
+0021800351,361,PT07M06.00S,3,1610612748,MIA,1626196,Richardson,J. Richardson,-32,18,4,Missed,1,,,0,h,MISS Richardson 4' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,275
+0021800351,362,PT07M05.00S,3,1610612748,MIA,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,h,Richardson REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,276
+0021800351,363,PT07M05.00S,3,1610612748,MIA,1626196,Richardson,J. Richardson,-2,21,2,Missed,1,,,0,h,MISS Richardson 2' Putback Layup,Missed Shot,Putback Layup Shot,1,2,277
+0021800351,364,PT07M04.00S,3,1610612748,MIA,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,h,Richardson REBOUND (Off:3 Def:0),Rebound,Unknown,1,0,278
+0021800351,365,PT07M02.00S,3,1610612748,MIA,1626196,Richardson,J. Richardson,0,-6,1,Made,1,57,55,112,h,Richardson 1' Tip Layup Shot (3 PTS),Made Shot,Tip Layup Shot,1,2,279
+0021800351,366,PT06M42.00S,3,1610612753,ORL,203932,Gordon,A. Gordon,-8,13,2,Missed,1,,,0,v,MISS Gordon 2' Layup,Missed Shot,Layup Shot,1,2,280
+0021800351,366,PT06M42.00S,3,1610612748,MIA,202355,Whiteside,H. Whiteside,0,0,0,,0,,,0,h,Whiteside BLOCK (2 BLK),,,1,2,281
+0021800351,367,PT06M42.00S,3,1610612748,MIA,201961,Ellington,W. Ellington,0,0,0,,0,,,0,h,Ellington REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,282
+0021800351,368,PT06M34.00S,3,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,v,Simmons P.FOUL (P1.T1) (Z.Zarba),Foul,Personal,1,0,283
+0021800351,370,PT06M26.00S,3,1610612748,MIA,201949,Johnson,J. Johnson,0,0,0,,0,,,0,h,J. Johnson Bad Pass Turnover (P3.T11),Turnover,Bad Pass,1,0,284
+0021800351,370,PT06M26.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic STEAL (1 STL),,,1,0,285
+0021800351,372,PT06M21.00S,3,1610612748,MIA,201949,Johnson,J. Johnson,0,0,0,,0,,,0,h,J. Johnson P.FOUL (P3.T2) (B.Forte),Foul,Personal,1,0,286
+0021800351,375,PT06M09.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,5,190,19,Missed,1,,,0,v,MISS Vucevic 19' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,287
+0021800351,376,PT06M07.00S,3,1610612748,MIA,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,McGruder REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,288
+0021800351,377,PT05M59.00S,3,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,v,Simmons S.FOUL (P2.T2) (Z.Zarba),Foul,Shooting,1,0,289
+0021800351,379,PT05M59.00S,3,1610612748,MIA,202355,Whiteside,H. Whiteside,0,0,0,,0,,,0,h,MISS Whiteside Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,290
+0021800351,380,PT05M59.00S,3,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Rebound,Rebound,Normal Rebound,0,0,291
+0021800351,381,PT05M59.00S,3,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,v,SUB: Isaac FOR Simmons,Substitution,,0,0,292
+0021800351,383,PT05M59.00S,3,1610612748,MIA,202355,Whiteside,H. Whiteside,0,0,0,,0,,,0,h,MISS Whiteside Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,293
+0021800351,384,PT05M56.00S,3,1610612748,MIA,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,McGruder REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,294
+0021800351,385,PT05M54.00S,3,1610612748,MIA,201961,Ellington,W. Ellington,225,50,0,Missed,1,,,0,h,MISS Ellington 3PT Jump Shot,Missed Shot,Jump Shot,1,3,295
+0021800351,386,PT05M50.00S,3,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,v,Isaac REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,296
+0021800351,387,PT05M39.00S,3,1610612753,ORL,203095,Fournier,E. Fournier,-206,134,25,Made,1,57,58,115,v,Fournier 25' 3PT Pullup Jump Shot (13 PTS),Made Shot,Pullup Jump shot,1,3,297
+0021800351,388,PT05M16.00S,3,1610612748,MIA,201949,Johnson,J. Johnson,222,10,0,Missed,1,,,0,h,MISS J. Johnson 3PT Jump Shot,Missed Shot,Jump Shot,1,3,298
+0021800351,389,PT05M13.00S,3,1610612753,ORL,201571,Augustin,D. Augustin,0,0,0,,0,,,0,v,Augustin REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,299
+0021800351,390,PT05M07.00S,3,1610612753,ORL,201571,Augustin,D. Augustin,7,9,1,Missed,1,,,0,v,MISS Augustin 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,300
+0021800351,390,PT05M07.00S,3,1610612748,MIA,202355,Whiteside,H. Whiteside,0,0,0,,0,,,0,h,Whiteside BLOCK (3 BLK),,,1,2,301
+0021800351,392,PT05M07.00S,3,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Rebound,Rebound,Unknown,0,0,302
+0021800351,394,PT05M07.00S,3,1610612748,MIA,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,SUB: Wade FOR McGruder,Substitution,,0,0,303
+0021800351,395,PT05M07.00S,3,1610612753,ORL,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,SUB: Ross FOR Fournier,Substitution,,0,0,304
+0021800351,398,PT05M01.00S,3,1610612753,ORL,203082,Ross,T. Ross,89,199,22,Made,1,57,60,117,v,Ross 22' Turnaround Jump Shot (9 PTS) (Augustin 5 AST),Made Shot,Turnaround Jump Shot,1,2,305
+0021800351,400,PT04M39.00S,3,1610612748,MIA,1626196,Richardson,J. Richardson,-225,44,0,Made,1,60,60,120,h,Richardson 3PT Jump Shot (6 PTS) (Wade 2 AST),Made Shot,Jump Shot,1,3,306
+0021800351,402,PT04M12.00S,3,1610612753,ORL,1628371,Isaac,J. Isaac,-10,13,2,Made,1,60,62,122,v,Isaac 2' Driving Layup (6 PTS),Made Shot,Driving Layup Shot,1,2,307
+0021800351,411,PT04M12.00S,3,0,,402,Koncak,J. Koncak,0,0,0,,0,60,62,122,,Instant Replay3rd Period (9:02 PM EST),Instant Replay,Support Ruling,0,0,308
+0021800351,403,PT03M42.00S,3,1610612748,MIA,1626196,Richardson,J. Richardson,209,142,25,Missed,1,,,0,h,MISS Richardson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,309
+0021800351,404,PT03M39.00S,3,1610612753,ORL,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon REBOUND (Off:3 Def:8),Rebound,Unknown,1,0,310
+0021800351,405,PT03M33.00S,3,1610612753,ORL,203932,Gordon,A. Gordon,137,214,25,Made,1,60,65,125,v,Gordon 25' 3PT Pullup Jump Shot (16 PTS),Made Shot,Pullup Jump shot,1,3,311
+0021800351,406,PT03M20.00S,3,1610612748,MIA,201949,Johnson,J. Johnson,8,4,1,Missed,1,,,0,h,MISS J. Johnson 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,312
+0021800351,407,PT03M18.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,313
+0021800351,408,PT03M15.00S,3,1610612753,ORL,201571,Augustin,D. Augustin,116,222,25,Missed,1,,,0,v,MISS Augustin 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,314
+0021800351,409,PT03M11.00S,3,1610612748,MIA,201949,Johnson,J. Johnson,0,0,0,,0,,,0,h,J. Johnson REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,315
+0021800351,410,PT03M07.00S,3,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,316
+0021800351,414,PT03M07.00S,3,1610612748,MIA,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,h,SUB: Olynyk FOR Richardson,Substitution,,0,0,317
+0021800351,415,PT03M07.00S,3,1610612748,MIA,201961,Ellington,W. Ellington,0,0,0,,0,,,0,h,SUB: Adebayo FOR Ellington,Substitution,,0,0,318
+0021800351,416,PT03M07.00S,3,1610612748,MIA,201949,Johnson,J. Johnson,0,0,0,,0,,,0,h,SUB: Winslow FOR J. Johnson,Substitution,,0,0,319
+0021800351,417,PT03M07.00S,3,1610612748,MIA,202355,Whiteside,H. Whiteside,0,0,0,,0,,,0,h,SUB: T. Johnson FOR Whiteside,Substitution,,0,0,320
+0021800351,418,PT03M07.00S,3,1610612753,ORL,201571,Augustin,D. Augustin,0,0,0,,0,,,0,v,SUB: Grant FOR Augustin,Substitution,,0,0,321
+0021800351,424,PT02M52.00S,3,1610612748,MIA,2548,Wade,D. Wade,-87,21,9,Missed,1,,,0,h,MISS Wade 9' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,322
+0021800351,425,PT02M50.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,323
+0021800351,426,PT02M37.00S,3,1610612753,ORL,203932,Gordon,A. Gordon,5,13,1,Made,1,60,67,127,v,Gordon 1' Cutting Dunk Shot (18 PTS) (Vucevic 3 AST),Made Shot,Cutting Dunk Shot,1,2,324
+0021800351,428,PT02M25.00S,3,1610612748,MIA,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,h,Olynyk Lost Ball Turnover (P2.T12),Turnover,Lost Ball,1,0,325
+0021800351,430,PT02M25.00S,3,1610612748,MIA,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,h,Olynyk L.B.FOUL (P2.T3) (N.Green),Foul,Loose Ball,1,0,326
+0021800351,432,PT02M12.00S,3,1610612748,MIA,1626159,Winslow,J. Winslow,0,0,0,,0,,,0,h,Winslow Violation:Kicked Ball (Z.Zarba),Violation,Kicked Ball,0,0,327
+0021800351,433,PT02M07.00S,3,1610612753,ORL,203082,Ross,T. Ross,103,125,16,Made,1,60,69,129,v,Ross 16' Pullup Jump Shot (11 PTS),Made Shot,Pullup Jump shot,1,2,328
+0021800351,434,PT01M44.00S,3,1610612748,MIA,2548,Wade,D. Wade,-11,15,2,Made,1,62,69,131,h,Wade 2' Finger Roll Layup (4 PTS),Made Shot,Finger Roll Layup Shot,1,2,329
+0021800351,435,PT01M25.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,33,41,5,Made,1,62,71,133,v,Vucevic 5' Hook Bank Shot (14 PTS) (Gordon 4 AST),Made Shot,Hook Bank Shot,1,2,330
+0021800351,437,PT01M14.00S,3,1610612748,MIA,1626159,Winslow,J. Winslow,154,84,18,Missed,1,,,0,h,MISS Winslow 18' Jump Shot,Missed Shot,Jump Shot,1,2,331
+0021800351,438,PT01M11.00S,3,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,v,Isaac REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,332
+0021800351,439,PT01M04.00S,3,1610612753,ORL,203932,Gordon,A. Gordon,2,10,1,Made,1,62,73,135,v,Gordon 1' Driving Dunk (20 PTS),Made Shot,Driving Dunk Shot,1,2,333
+0021800351,440,PT00M46.80S,3,1610612748,MIA,1628389,Adebayo,B. Adebayo,-1,123,12,Missed,1,,,0,h,MISS Adebayo 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,334
+0021800351,441,PT00M43.30S,3,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,335
+0021800351,442,PT00M35.10S,3,1610612753,ORL,1626170,Grant,J. Grant,-227,19,0,Missed,1,,,0,v,MISS Grant 3PT Jump Shot,Missed Shot,Jump Shot,1,3,336
+0021800351,443,PT00M31.70S,3,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,337
+0021800351,445,PT00M31.00S,3,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo Out of Bounds - Bad Pass Turnover Turnover (P1.T13),Turnover,Out of Bounds - Bad Pass Turnover,1,0,338
+0021800351,446,PT00M31.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,SUB: Bamba FOR Vucevic,Substitution,,0,0,339
+0021800351,448,PT00M10.90S,3,1610612753,ORL,203082,Ross,T. Ross,-107,227,25,Made,1,62,76,138,v,Ross 25' 3PT Pullup Jump Shot (14 PTS),Made Shot,Pullup Jump shot,1,3,340
+0021800351,449,PT00M01.10S,3,1610612748,MIA,1626159,Winslow,J. Winslow,-228,8,0,Missed,1,,,0,h,MISS Winslow 3PT Jump Shot,Missed Shot,Jump Shot,1,3,341
+0021800351,450,PT00M00.10S,3,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Rebound,Rebound,Unknown,0,0,342
+0021800351,451,PT00M00.00S,3,0,,0,,,0,0,0,,0,62,76,138,,End of 3rd Period (9:11 PM EST),period,end,1,0,343
+0021800351,454,PT12M00.00S,4,0,,0,,,0,0,0,,0,62,76,138,,Start of 4th Period (9:13 PM EST),period,start,0,0,344
+0021800351,455,PT11M44.00S,4,1610612748,MIA,204020,Johnson,T. Johnson,-27,37,5,Missed,1,,,0,h,MISS T. Johnson 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,345
+0021800351,455,PT11M44.00S,4,1610612753,ORL,1626170,Grant,J. Grant,0,0,0,,0,,,0,v,Grant BLOCK (1 BLK),,,1,2,346
+0021800351,457,PT11M43.00S,4,1610612748,MIA,1626159,Winslow,J. Winslow,0,0,0,,0,,,0,h,Winslow REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,347
+0021800351,458,PT11M40.00S,4,1610612748,MIA,1626159,Winslow,J. Winslow,-5,7,1,Made,1,64,76,140,h,Winslow 1' Putback Layup (11 PTS),Made Shot,Putback Layup Shot,1,2,348
+0021800351,459,PT11M26.00S,4,1610612753,ORL,203082,Ross,T. Ross,158,111,19,Missed,1,,,0,v,MISS Ross 19' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,349
+0021800351,460,PT11M26.00S,4,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Rebound,Rebound,Unknown,0,0,350
+0021800351,462,PT11M10.00S,4,1610612753,ORL,1626170,Grant,J. Grant,-141,213,26,Missed,1,,,0,v,MISS Grant 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,351
+0021800351,463,PT11M08.00S,4,1610612753,ORL,1626170,Grant,J. Grant,0,0,0,,0,,,0,v,Grant REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,352
+0021800351,464,PT11M06.00S,4,1610612753,ORL,1626170,Grant,J. Grant,144,208,25,Missed,1,,,0,v,MISS Grant 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,353
+0021800351,465,PT11M06.00S,4,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Rebound,Rebound,Unknown,0,0,354
+0021800351,467,PT10M46.00S,4,1610612748,MIA,1628389,Adebayo,B. Adebayo,4,-4,1,Missed,1,,,0,h,MISS Adebayo 1' Layup,Missed Shot,Layup Shot,1,2,355
+0021800351,468,PT10M44.00S,4,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,356
+0021800351,469,PT10M42.00S,4,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,-6,1,Made,1,66,76,142,h,Adebayo 1' Tip Layup Shot (4 PTS),Made Shot,Tip Layup Shot,1,2,357
+0021800351,470,PT10M25.00S,4,1610612753,ORL,203082,Ross,T. Ross,-129,210,25,Missed,1,,,0,v,MISS Ross 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,358
+0021800351,471,PT10M22.00S,4,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,359
+0021800351,472,PT10M13.00S,4,1610612753,ORL,1626170,Grant,J. Grant,0,0,0,,0,,,0,v,Grant P.FOUL (P1.T1) (Z.Zarba),Foul,Personal,1,0,360
+0021800351,474,PT10M05.00S,4,1610612748,MIA,203482,Olynyk,K. Olynyk,234,2,0,Missed,1,,,0,h,MISS Olynyk 3PT Jump Shot,Missed Shot,Jump Shot,1,3,361
+0021800351,475,PT10M02.00S,4,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,v,Isaac REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,362
+0021800351,476,PT09M56.00S,4,1610612753,ORL,1626170,Grant,J. Grant,175,197,26,Made,1,66,79,145,v,Grant 26' 3PT Jump Shot (4 PTS) (Ross 2 AST),Made Shot,Jump Shot,1,3,363
+0021800351,478,PT09M44.00S,4,1610612748,MIA,203482,Olynyk,K. Olynyk,-141,252,29,Made,1,69,79,148,h,Olynyk 29' 3PT Jump Shot (4 PTS) (Winslow 2 AST),Made Shot,Jump Shot,1,3,364
+0021800351,480,PT09M27.00S,4,1610612748,MIA,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,h,Olynyk P.FOUL (P3.T1) (Z.Zarba),Foul,Personal,1,0,365
+0021800351,482,PT09M13.00S,4,1610612753,ORL,1628371,Isaac,J. Isaac,-84,142,16,Made,1,69,81,150,v,Isaac 16' Turnaround Jump Shot (8 PTS),Made Shot,Turnaround Jump Shot,1,2,366
+0021800351,483,PT08M55.00S,4,1610612748,MIA,203482,Olynyk,K. Olynyk,79,236,25,Made,1,72,81,153,h,Olynyk 25' 3PT Jump Shot (7 PTS) (Wade 3 AST),Made Shot,Jump Shot,1,3,367
+0021800351,485,PT08M32.00S,4,1610612753,ORL,1628964,Bamba,M. Bamba,-44,34,6,Missed,1,,,0,v,MISS Bamba 6' Layup,Missed Shot,Layup Shot,1,2,368
+0021800351,485,PT08M32.00S,4,1610612748,MIA,2548,Wade,D. Wade,0,0,0,,0,,,0,h,Wade BLOCK (1 BLK),,,1,2,369
+0021800351,487,PT08M30.00S,4,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Rebound,Rebound,Unknown,0,0,370
+0021800351,488,PT08M30.00S,4,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Turnover: Shot Clock (T#12),Turnover,Shot Clock Turnover,0,0,371
+0021800351,489,PT08M16.00S,4,1610612748,MIA,203482,Olynyk,K. Olynyk,-236,69,25,Made,1,75,81,156,h,Olynyk 25' 3PT Jump Shot (10 PTS) (Wade 4 AST),Made Shot,Jump Shot,1,3,372
+0021800351,491,PT08M16.00S,4,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,373
+0021800351,492,PT07M58.00S,4,1610612753,ORL,203082,Ross,T. Ross,123,164,21,Made,1,75,83,158,v,Ross 21' Jump Shot (16 PTS) (Isaac 2 AST),Made Shot,Jump Shot,1,2,374
+0021800351,494,PT07M42.00S,4,1610612748,MIA,2548,Wade,D. Wade,5,11,1,Made,1,77,83,160,h,Wade 1' Cutting Layup Shot (6 PTS) (T. Johnson 1 AST),Made Shot,Cutting Layup Shot,1,2,375
+0021800351,497,PT07M23.00S,4,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,v,SUB: Gordon FOR Isaac,Substitution,,0,0,376
+0021800351,499,PT07M13.00S,4,1610612753,ORL,1628964,Bamba,M. Bamba,8,14,2,Made,1,77,85,162,v,Bamba 2' Cutting Layup Shot (4 PTS) (Grant 1 AST),Made Shot,Cutting Layup Shot,1,2,377
+0021800351,501,PT07M00.00S,4,1610612748,MIA,2548,Wade,D. Wade,-78,15,8,Missed,1,,,0,h,MISS Wade 8' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,378
+0021800351,502,PT06M55.00S,4,1610612753,ORL,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,Fournier REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,379
+0021800351,503,PT06M55.00S,4,1610612748,MIA,2548,Wade,D. Wade,0,0,0,,0,,,0,h,Wade S.FOUL (P1.T2) (Z.Zarba),Foul,Shooting,1,0,380
+0021800351,505,PT06M55.00S,4,1610612753,ORL,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,MISS Bamba Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,381
+0021800351,506,PT06M55.00S,4,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Rebound,Rebound,Normal Rebound,0,0,382
+0021800351,507,PT06M55.00S,4,1610612748,MIA,204020,Johnson,T. Johnson,0,0,0,,0,,,0,h,SUB: Richardson FOR T. Johnson,Substitution,,0,0,383
+0021800351,509,PT06M55.00S,4,1610612753,ORL,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,MISS Bamba Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,384
+0021800351,510,PT06M52.00S,4,1610612748,MIA,1626159,Winslow,J. Winslow,0,0,0,,0,,,0,h,Winslow REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,385
+0021800351,511,PT06M35.00S,4,1610612753,ORL,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,Fournier P.FOUL (P3.T2) (Z.Zarba),Foul,Personal,1,0,386
+0021800351,513,PT06M30.00S,4,1610612748,MIA,1626196,Richardson,J. Richardson,-176,191,26,Missed,1,,,0,h,MISS Richardson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,387
+0021800351,514,PT06M27.00S,4,1610612753,ORL,203082,Ross,T. Ross,0,0,0,,0,,,0,v,Ross REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,388
+0021800351,515,PT06M25.00S,4,1610612753,ORL,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,Bamba OFF.Foul (P2) (Z.Zarba),Foul,Offensive,1,0,389
+0021800351,517,PT06M25.00S,4,1610612753,ORL,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,Bamba Offensive Foul Turnover (P3.T13),Turnover,Offensive Foul Turnover,1,0,390
+0021800351,518,PT06M25.00S,4,1610612753,ORL,1628964,Bamba,M. Bamba,0,0,0,,0,,,0,v,SUB: Vucevic FOR Bamba,Substitution,,0,0,391
+0021800351,520,PT06M06.00S,4,1610612748,MIA,1626159,Winslow,J. Winslow,8,8,1,Missed,1,,,0,h,MISS Winslow 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,392
+0021800351,521,PT06M05.00S,4,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,393
+0021800351,522,PT06M04.00S,4,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,-6,1,Made,1,79,85,164,h,Adebayo 1' Tip Dunk Shot (6 PTS),Made Shot,Tip Dunk Shot,1,2,394
+0021800351,523,PT05M42.00S,4,1610612753,ORL,203082,Ross,T. Ross,0,0,0,,0,,,0,v,Ross Bad Pass Turnover (P1.T14),Turnover,Bad Pass,1,0,395
+0021800351,523,PT05M42.00S,4,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo STEAL (1 STL),,,1,0,396
+0021800351,525,PT05M40.00S,4,1610612748,MIA,1628389,Adebayo,B. Adebayo,0,0,0,,0,,,0,h,Adebayo Out of Bounds - Bad Pass Turnover Turnover (P2.T14),Turnover,Out of Bounds - Bad Pass Turnover,1,0,397
+0021800351,526,PT05M40.00S,4,1610612748,MIA,2548,Wade,D. Wade,0,0,0,,0,,,0,h,SUB: McGruder FOR Wade,Substitution,,0,0,398
+0021800351,527,PT05M40.00S,4,1610612753,ORL,203095,Fournier,E. Fournier,0,0,0,,0,,,0,v,SUB: Isaac FOR Fournier,Substitution,,0,0,399
+0021800351,528,PT05M40.00S,4,1610612753,ORL,1626170,Grant,J. Grant,0,0,0,,0,,,0,v,SUB: Augustin FOR Grant,Substitution,,0,0,400
+0021800351,532,PT05M26.00S,4,1610612753,ORL,201571,Augustin,D. Augustin,87,282,30,Missed,1,,,0,v,MISS Augustin 30' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,401
+0021800351,533,PT05M22.00S,4,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,Vucevic REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,402
+0021800351,534,PT05M19.00S,4,1610612753,ORL,202696,Vučević,N. Vučević,29,71,8,Made,1,79,87,166,v,Vucevic 8' Hook Shot (16 PTS),Made Shot,Hook Shot,1,2,403
+0021800351,535,PT04M58.00S,4,1610612748,MIA,1628389,Adebayo,B. Adebayo,-16,4,2,Missed,1,,,0,h,MISS Adebayo 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,404
+0021800351,536,PT04M56.00S,4,1610612753,ORL,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon REBOUND (Off:3 Def:9),Rebound,Unknown,1,0,405
+0021800351,537,PT04M48.00S,4,1610612753,ORL,203932,Gordon,A. Gordon,122,166,21,Missed,1,,,0,v,MISS Gordon 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,406
+0021800351,538,PT04M47.00S,4,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,v,Isaac REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,407
+0021800351,540,PT04M38.00S,4,1610612748,MIA,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,h,Olynyk S.FOUL (P4.T3) (N.Green),Foul,Shooting,1,0,408
+0021800351,542,PT04M38.00S,4,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,v,MISS Vucevic Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,409
+0021800351,543,PT04M38.00S,4,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Rebound,Rebound,Normal Rebound,0,0,410
+0021800351,544,PT04M38.00S,4,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,79,88,167,v,Vucevic Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,0,0,411
+0021800351,545,PT04M35.00S,4,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,412
+0021800351,546,PT04M26.00S,4,1610612748,MIA,203482,Olynyk,K. Olynyk,-84,249,26,Missed,1,,,0,h,MISS Olynyk 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,413
+0021800351,547,PT04M23.00S,4,1610612753,ORL,203082,Ross,T. Ross,0,0,0,,0,,,0,v,Ross REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,414
+0021800351,548,PT04M10.00S,4,1610612753,ORL,202696,Vučević,N. Vučević,230,26,0,Missed,1,,,0,v,MISS Vucevic 3PT Jump Shot,Missed Shot,Jump Shot,1,3,415
+0021800351,549,PT04M08.00S,4,1610612748,MIA,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,h,Richardson REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,416
+0021800351,550,PT04M04.00S,4,1610612748,MIA,1626159,Winslow,J. Winslow,-158,204,26,Made,1,82,88,170,h,Winslow 26' 3PT Jump Shot (14 PTS) (Richardson 4 AST),Made Shot,Jump Shot,1,3,417
+0021800351,552,PT03M36.00S,4,1610612753,ORL,202696,Vučević,N. Vučević,62,32,7,Made,1,82,90,172,v,Vucevic 7' Turnaround Bank Hook Shot (19 PTS),Made Shot,Turnaround Bank Hook Shot,1,2,418
+0021800351,553,PT03M13.00S,4,1610612748,MIA,1626196,Richardson,J. Richardson,-12,201,20,Missed,1,,,0,h,MISS Richardson 20' Jump Shot,Missed Shot,Jump Shot,1,2,419
+0021800351,554,PT03M12.00S,4,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Rebound,Rebound,Unknown,0,0,420
+0021800351,555,PT03M12.00S,4,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Turnover: Shot Clock (T#15),Turnover,Shot Clock Turnover,0,0,421
+0021800351,556,PT03M12.00S,4,1610612748,MIA,203585,McGruder,R. McGruder,0,0,0,,0,,,0,h,SUB: Wade FOR McGruder,Substitution,,0,0,422
+0021800351,558,PT03M10.00S,4,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,423
+0021800351,559,PT03M06.00S,4,1610612748,MIA,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,h,Richardson S.FOUL (P3.T4) (N.Green),Foul,Shooting,1,0,424
+0021800351,561,PT03M06.00S,4,0,,0,,,0,0,0,,0,82,90,172,,Instant Replay4th Period (9:35 PM EST),Instant Replay,Support Ruling,0,0,425
+0021800351,562,PT03M06.00S,4,1610612753,ORL,203082,Ross,T. Ross,0,0,0,,0,82,91,173,v,Ross Free Throw 1 of 3 (17 PTS),Free Throw,Free Throw 1 of 3,0,0,426
+0021800351,563,PT03M06.00S,4,1610612753,ORL,203082,Ross,T. Ross,0,0,0,,0,82,92,174,v,Ross Free Throw 2 of 3 (18 PTS),Free Throw,Free Throw 2 of 3,0,0,427
+0021800351,564,PT03M06.00S,4,1610612753,ORL,203082,Ross,T. Ross,0,0,0,,0,82,93,175,v,Ross Free Throw 3 of 3 (19 PTS),Free Throw,Free Throw 3 of 3,0,0,428
+0021800351,565,PT02M54.00S,4,1610612748,MIA,203482,Olynyk,K. Olynyk,195,157,25,Missed,1,,,0,h,MISS Olynyk 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,429
+0021800351,566,PT02M53.00S,4,1610612748,MIA,1626159,Winslow,J. Winslow,0,0,0,,0,,,0,h,Winslow REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,430
+0021800351,567,PT02M51.00S,4,1610612753,ORL,201571,Augustin,D. Augustin,0,0,0,,0,,,0,v,Augustin P.FOUL (P1.T3) (Z.Zarba),Foul,Personal,1,0,431
+0021800351,569,PT02M49.00S,4,1610612753,ORL,201571,Augustin,D. Augustin,0,0,0,,0,,,0,v,Augustin P.FOUL (P2.T4) (B.Forte),Foul,Personal,1,0,432
+0021800351,571,PT02M38.00S,4,1610612748,MIA,2548,Wade,D. Wade,-9,259,26,Missed,1,,,0,h,MISS Wade 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,433
+0021800351,572,PT02M35.00S,4,1610612748,MIA,1626159,Winslow,J. Winslow,0,0,0,,0,,,0,h,Winslow REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,434
+0021800351,573,PT02M25.00S,4,1610612748,MIA,203482,Olynyk,K. Olynyk,215,132,25,Made,1,85,93,178,h,Olynyk 25' 3PT Jump Shot (13 PTS) (Richardson 5 AST),Made Shot,Jump Shot,1,3,435
+0021800351,575,PT01M58.00S,4,1610612753,ORL,201571,Augustin,D. Augustin,-16,253,25,Missed,1,,,0,v,MISS Augustin 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,436
+0021800351,576,PT01M57.00S,4,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Rebound,Rebound,Unknown,0,0,437
+0021800351,577,PT01M56.00S,4,1610612748,MIA,1626196,Richardson,J. Richardson,0,0,0,,0,,,0,h,Richardson L.B.FOUL (P4.PN) (B.Forte),Foul,Loose Ball,1,0,438
+0021800351,579,PT01M56.00S,4,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,85,94,179,v,Isaac Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,0,0,439
+0021800351,580,PT01M56.00S,4,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,85,95,180,v,Isaac Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,0,0,440
+0021800351,581,PT01M45.00S,4,1610612748,MIA,1626196,Richardson,J. Richardson,184,164,25,Missed,1,,,0,h,MISS Richardson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,441
+0021800351,582,PT01M42.00S,4,1610612753,ORL,203932,Gordon,A. Gordon,0,0,0,,0,,,0,v,Gordon REBOUND (Off:3 Def:10),Rebound,Unknown,1,0,442
+0021800351,583,PT01M37.00S,4,1610612753,ORL,201571,Augustin,D. Augustin,229,56,24,Made,1,85,98,183,v,Augustin 24' 3PT Jump Shot (6 PTS) (Ross 3 AST),Made Shot,Jump Shot,1,3,443
+0021800351,585,PT01M37.00S,4,0,,1610612748,,,0,0,0,,0,,,0,h,HEAT Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,444
+0021800351,586,PT01M29.00S,4,1610612748,MIA,2548,Wade,D. Wade,232,20,0,Missed,1,,,0,h,MISS Wade 3PT Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,3,445
+0021800351,587,PT01M27.00S,4,1610612748,MIA,203482,Olynyk,K. Olynyk,0,0,0,,0,,,0,h,Olynyk REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,446
+0021800351,588,PT01M23.00S,4,1610612748,MIA,2548,Wade,D. Wade,-228,2,0,Made,1,88,98,186,h,Wade 3PT Jump Shot (9 PTS) (Olynyk 2 AST),Made Shot,Jump Shot,1,3,447
+0021800351,590,PT01M14.00S,4,1610612748,MIA,2548,Wade,D. Wade,0,0,0,,0,,,0,h,Wade P.FOUL (P2.PN) (Z.Zarba),Foul,Personal,1,0,448
+0021800351,592,PT01M14.00S,4,1610612753,ORL,201571,Augustin,D. Augustin,0,0,0,,0,88,99,187,v,Augustin Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,0,0,449
+0021800351,593,PT01M14.00S,4,1610612753,ORL,201571,Augustin,D. Augustin,0,0,0,,0,88,100,188,v,Augustin Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,450
+0021800351,594,PT01M10.00S,4,1610612748,MIA,2548,Wade,D. Wade,4,4,1,Made,1,90,100,190,h,Wade 1' Driving Layup (11 PTS),Made Shot,Driving Layup Shot,1,2,451
+0021800351,595,PT00M46.80S,4,1610612753,ORL,201571,Augustin,D. Augustin,174,187,26,Made,1,90,103,193,v,Augustin 26' 3PT Jump Shot (11 PTS) (Gordon 5 AST),Made Shot,Jump Shot,1,3,452
+0021800351,597,PT00M41.80S,4,1610612748,MIA,2548,Wade,D. Wade,0,0,0,,0,,,0,h,Wade Bad Pass Turnover (P3.T16),Turnover,Bad Pass,1,0,453
+0021800351,597,PT00M41.80S,4,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,v,Isaac STEAL (2 STL),,,1,0,454
+0021800351,599,PT00M40.50S,4,1610612748,MIA,1626159,Winslow,J. Winslow,0,0,0,,0,,,0,h,Winslow S.FOUL (P1.PN) (B.Forte),Foul,Shooting,1,0,455
+0021800351,601,PT00M40.50S,4,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,90,104,194,v,Isaac Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,0,0,456
+0021800351,602,PT00M40.50S,4,1610612748,MIA,2548,Wade,D. Wade,0,0,0,,0,,,0,h,SUB: T. Johnson FOR Wade,Substitution,,0,0,457
+0021800351,604,PT00M40.50S,4,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,90,105,195,v,Isaac Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,0,0,458
+0021800351,605,PT00M25.60S,4,1610612748,MIA,1628389,Adebayo,B. Adebayo,-159,-4,16,Missed,1,,,0,h,MISS Adebayo 16' Jump Shot,Missed Shot,Jump Shot,1,2,459
+0021800351,606,PT00M22.90S,4,1610612753,ORL,203082,Ross,T. Ross,0,0,0,,0,,,0,v,Ross REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,460
+0021800351,607,PT00M01.90S,4,0,,1610612753,,,0,0,0,,0,,,0,v,Magic Turnover: Shot Clock (T#15),Turnover,Shot Clock Turnover,0,0,461
+0021800351,608,PT00M00.00S,4,0,,0,,,0,0,0,,0,90,105,195,,End of 4th Period (9:45 PM EST),period,end,1,0,462

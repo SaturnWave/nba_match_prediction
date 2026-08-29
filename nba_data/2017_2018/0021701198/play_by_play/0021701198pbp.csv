@@ -1,0 +1,464 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021701198,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (1:11 PM EST),period,start,0,0,1
+0021701198,4,PT12M00.00S,1,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,h,Jump Ball Johnson vs. Motley: Tip to Simmons,Jump Ball,,1,0,2
+0021701198,7,PT11M45.00S,1,1610612755,PHI,200755,Redick,J. Redick,232,-2,0,Missed,1,,,0,h,MISS Redick 3PT Jump Shot,Missed Shot,Jump Shot,1,3,3
+0021701198,8,PT11M42.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,4
+0021701198,9,PT11M30.00S,1,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,-165,238,29,Missed,1,,,0,v,MISS Smith Jr. 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,5
+0021701198,10,PT11M26.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,6
+0021701198,11,PT11M20.00S,1,1610612742,DAL,1628405,Motley,J. Motley,0,0,0,,0,,,0,v,Motley S.FOUL (P1.T1) (A.Smith),Foul,Shooting,1,0,7
+0021701198,13,PT11M20.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,MISS Simmons Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,8
+0021701198,14,PT11M20.00S,1,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Rebound,Rebound,Normal Rebound,0,0,9
+0021701198,15,PT11M20.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,1,0,1,h,Simmons Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,0,0,10
+0021701198,16,PT11M07.00S,1,1610612742,DAL,203084,Barnes,H. Barnes,80,279,29,Missed,1,,,0,v,MISS Barnes 29' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,11
+0021701198,17,PT11M03.00S,1,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,12
+0021701198,18,PT10M58.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,6,101,10,Missed,1,,,0,h,MISS Simmons 10' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,13
+0021701198,19,PT10M56.00S,1,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,14
+0021701198,20,PT10M53.00S,1,1610612755,PHI,200755,Redick,J. Redick,9,215,22,Missed,1,,,0,h,MISS Redick 22' Jump Shot,Missed Shot,Jump Shot,1,2,15
+0021701198,21,PT10M53.00S,1,1610612742,DAL,1628405,Motley,J. Motley,0,0,0,,0,,,0,v,Motley REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,16
+0021701198,22,PT10M42.00S,1,1610612742,DAL,1628405,Motley,J. Motley,-8,5,1,Made,1,1,2,3,v,Motley 1' Driving Dunk (2 PTS) (Smith Jr. 1 AST),Made Shot,Driving Dunk Shot,1,2,17
+0021701198,24,PT10M32.00S,1,1610612755,PHI,203496,Covington,R. Covington,141,75,16,Missed,1,,,0,h,MISS Covington 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,18
+0021701198,25,PT10M30.00S,1,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,19
+0021701198,26,PT10M23.00S,1,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,-112,151,19,Missed,1,,,0,v,MISS Smith Jr. 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,20
+0021701198,27,PT10M21.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,21
+0021701198,30,PT10M00.00S,1,1610612755,PHI,101161,Johnson,A. Johnson,2,10,1,Made,1,3,2,5,h,Johnson 1' Dunk (2 PTS) (Simmons 1 AST),Made Shot,Dunk Shot,1,2,22
+0021701198,32,PT09M37.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,230,48,0,Missed,1,,,0,v,MISS Finney-Smith 3PT Jump Shot,Missed Shot,Jump Shot,1,3,23
+0021701198,33,PT09M35.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,24
+0021701198,34,PT09M27.00S,1,1610612755,PHI,200755,Redick,J. Redick,18,256,26,Missed,1,,,0,h,MISS Redick 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,25
+0021701198,35,PT09M23.00S,1,1610612742,DAL,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,26
+0021701198,36,PT09M11.00S,1,1610612742,DAL,1628405,Motley,J. Motley,-38,218,22,Missed,1,,,0,v,MISS Motley 22' Jump Shot,Missed Shot,Jump Shot,1,2,27
+0021701198,37,PT09M07.00S,1,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,28
+0021701198,38,PT08M59.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,35,14,4,Made,1,5,2,7,h,Saric 4' Turnaround Hook Shot (2 PTS),Made Shot,Turnaround Hook Shot,1,2,29
+0021701198,39,PT08M39.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,10,10,1,Made,1,5,4,9,v,Finney-Smith 1' Cutting Layup Shot (2 PTS) (Motley 1 AST),Made Shot,Cutting Layup Shot,1,2,30
+0021701198,41,PT08M25.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,31
+0021701198,41,PT08M25.00S,1,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. STEAL (1 STL),,,1,0,32
+0021701198,43,PT08M16.00S,1,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,-7,63,6,Made,1,5,6,11,v,Smith Jr. 6' Driving Floating Jump Shot (2 PTS),Made Shot,Driving Floating Jump Shot,1,2,33
+0021701198,44,PT08M07.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith S.FOUL (P1.T2) (C.Kirkland),Foul,Shooting,1,0,34
+0021701198,47,PT08M07.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,MISS Simmons Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,35
+0021701198,48,PT08M07.00S,1,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Rebound,Rebound,Normal Rebound,0,0,36
+0021701198,49,PT08M07.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,6,6,12,h,Simmons Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,37
+0021701198,50,PT07M48.00S,1,1610612742,DAL,203939,Powell,D. Powell,-244,43,25,Made,1,6,9,15,v,Powell 25' 3PT Jump Shot (3 PTS) (Finney-Smith 1 AST),Made Shot,Jump Shot,1,3,38
+0021701198,52,PT07M38.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,-138,226,26,Missed,1,,,0,h,MISS Saric 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,39
+0021701198,53,PT07M37.00S,1,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,40
+0021701198,54,PT07M23.00S,1,1610612742,DAL,203084,Barnes,H. Barnes,173,212,27,Missed,1,,,0,v,MISS Barnes 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,41
+0021701198,55,PT07M21.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,42
+0021701198,56,PT07M14.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,-233,30,0,Missed,1,,,0,h,MISS Saric 3PT Jump Shot,Missed Shot,Jump Shot,1,3,43
+0021701198,57,PT07M10.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,44
+0021701198,58,PT06M50.00S,1,1610612742,DAL,1628405,Motley,J. Motley,20,31,4,Missed,1,,,0,v,MISS Motley 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,45
+0021701198,59,PT06M48.00S,1,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,46
+0021701198,60,PT06M38.00S,1,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. S.FOUL (P1.T3) (A.Smith),Foul,Shooting,1,0,47
+0021701198,62,PT06M38.00S,1,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,48
+0021701198,63,PT06M38.00S,1,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,7,9,16,h,Redick Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,49
+0021701198,64,PT06M38.00S,1,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,8,9,17,h,Redick Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,50
+0021701198,65,PT06M15.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,152,67,17,Made,1,8,11,19,v,Finney-Smith 17' Pullup Jump Shot (4 PTS) (Powell 1 AST),Made Shot,Pullup Jump shot,1,2,51
+0021701198,67,PT05M48.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,-11,13,2,Made,1,10,11,21,h,Simmons 2' Reverse Layup (4 PTS) (Saric 1 AST),Made Shot,Reverse Layup Shot,1,2,52
+0021701198,69,PT05M26.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,53
+0021701198,69,PT05M26.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons STEAL (1 STL),,,1,0,54
+0021701198,71,PT05M22.00S,1,1610612755,PHI,200755,Redick,J. Redick,2,5,1,Missed,1,,,0,h,MISS Redick 1' Layup,Missed Shot,Layup Shot,1,2,55
+0021701198,72,PT05M20.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,56
+0021701198,73,PT05M08.00S,1,1610612742,DAL,203084,Barnes,H. Barnes,-83,172,19,Missed,1,,,0,v,MISS Barnes 19' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,57
+0021701198,74,PT05M05.00S,1,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,58
+0021701198,75,PT04M59.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,199,179,27,Made,1,13,11,24,h,Saric 27' 3PT Jump Shot (5 PTS) (Simmons 2 AST),Made Shot,Jump Shot,1,3,59
+0021701198,77,PT04M39.00S,1,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,h,Johnson P.FOUL (P1.T1) (A.Smith),Foul,Personal,1,0,60
+0021701198,79,PT04M39.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,SUB: Belinelli FOR Saric,Substitution,,0,0,61
+0021701198,80,PT04M39.00S,1,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,h,SUB: Ilyasova FOR Johnson,Substitution,,0,0,62
+0021701198,81,PT04M39.00S,1,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,h,SUB: Holmes FOR Redick,Substitution,,0,0,63
+0021701198,85,PT04M29.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,242,54,25,Made,1,13,14,27,v,Finney-Smith 25' 3PT Jump Shot (7 PTS) (Smith Jr. 2 AST),Made Shot,Jump Shot,1,3,64
+0021701198,87,PT04M16.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,-3,29,3,Made,1,15,14,29,h,Simmons 3' Driving Layup (6 PTS),Made Shot,Driving Layup Shot,1,2,65
+0021701198,88,PT04M15.00S,1,0,,1610612755,,,0,0,0,,0,,,0,,Delay Of Game,Violation,Delay Of Game,0,0,66
+0021701198,89,PT03M58.00S,1,1610612742,DAL,203084,Barnes,H. Barnes,6,19,2,Missed,1,,,0,v,MISS Barnes 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,67
+0021701198,89,PT03M58.00S,1,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington BLOCK (1 BLK),,,1,2,68
+0021701198,90,PT03M56.00S,1,1610612755,PHI,201158,Belinelli,M. Belinelli,0,0,0,,0,,,0,h,Belinelli REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,69
+0021701198,91,PT03M56.00S,1,1610612755,PHI,201158,Belinelli,M. Belinelli,0,0,0,,0,,,0,h,Belinelli Double Dribble Turnover (P1.T2),Turnover,Double Dribble,1,0,70
+0021701198,93,PT03M56.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,SUB: Fultz FOR Simmons,Substitution,,0,0,71
+0021701198,95,PT03M56.00S,1,1610612742,DAL,1628405,Motley,J. Motley,0,0,0,,0,,,0,v,SUB: Kleber FOR Motley,Substitution,,0,0,72
+0021701198,97,PT03M41.00S,1,1610612742,DAL,203084,Barnes,H. Barnes,136,210,25,Missed,1,,,0,v,MISS Barnes 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,73
+0021701198,98,PT03M37.00S,1,1610612755,PHI,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,74
+0021701198,99,PT03M29.00S,1,1610612755,PHI,101141,Ilyasova,E. Ilyasova,8,204,20,Made,1,17,14,31,h,Ilyasova 20' Step Back Jump Shot (2 PTS) (Covington 1 AST),Made Shot,Step Back Jump shot,1,2,75
+0021701198,101,PT03M11.00S,1,1610612755,PHI,1628365,Fultz,M. Fultz,0,0,0,,0,,,0,h,Fultz S.FOUL (P1.T2) (C.Kirkland),Foul,Shooting,1,0,76
+0021701198,103,PT03M11.00S,1,1610612742,DAL,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,MISS Barnes Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,77
+0021701198,104,PT03M11.00S,1,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Normal Rebound,0,0,78
+0021701198,105,PT03M11.00S,1,1610612742,DAL,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,MISS Barnes Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,79
+0021701198,106,PT03M08.00S,1,1610612755,PHI,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,80
+0021701198,107,PT03M01.00S,1,1610612755,PHI,201158,Belinelli,M. Belinelli,-79,188,20,Missed,1,,,0,h,MISS Belinelli 20' Jump Shot,Missed Shot,Jump Shot,1,2,81
+0021701198,108,PT02M58.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,82
+0021701198,109,PT02M51.00S,1,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,83
+0021701198,109,PT02M51.00S,1,1610612755,PHI,1626158,Holmes,R. Holmes,0,0,0,,0,,,0,h,Holmes STEAL (1 STL),,,1,0,84
+0021701198,111,PT02M39.00S,1,1610612755,PHI,1628365,Fultz,M. Fultz,0,0,0,,0,,,0,h,Fultz Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,85
+0021701198,111,PT02M39.00S,1,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. STEAL (2 STL),,,1,0,86
+0021701198,114,PT02M36.00S,1,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,87
+0021701198,115,PT02M36.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,SUB: Ferrell FOR Finney-Smith,Substitution,,0,0,88
+0021701198,117,PT02M28.00S,1,1610612742,DAL,203084,Barnes,H. Barnes,24,23,3,Missed,1,,,0,v,MISS Barnes 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,89
+0021701198,118,PT02M25.00S,1,1610612755,PHI,1628365,Fultz,M. Fultz,0,0,0,,0,,,0,h,Fultz REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,90
+0021701198,119,PT02M22.00S,1,1610612755,PHI,1628365,Fultz,M. Fultz,8,41,4,Missed,1,,,0,h,MISS Fultz 4' Running Layup,Missed Shot,Running Layup Shot,1,2,91
+0021701198,120,PT02M19.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,92
+0021701198,121,PT02M13.00S,1,1610612742,DAL,203084,Barnes,H. Barnes,135,218,26,Missed,1,,,0,v,MISS Barnes 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,93
+0021701198,124,PT02M12.00S,1,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Rebound,Rebound,Unknown,0,0,94
+0021701198,122,PT02M12.00S,1,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,SUB: Redick FOR Covington,Substitution,,0,0,95
+0021701198,125,PT02M03.00S,1,1610612755,PHI,201158,Belinelli,M. Belinelli,0,26,3,Made,1,19,14,33,h,Belinelli 3' Cutting Layup Shot (2 PTS) (Ilyasova 1 AST),Made Shot,Cutting Layup Shot,1,2,96
+0021701198,127,PT01M53.00S,1,1610612755,PHI,1626158,Holmes,R. Holmes,0,0,0,,0,,,0,h,Holmes S.FOUL (P1.T3) (A.Smith),Foul,Shooting,1,0,97
+0021701198,129,PT01M53.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,MISS Powell Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,98
+0021701198,130,PT01M53.00S,1,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Normal Rebound,0,0,99
+0021701198,131,PT01M53.00S,1,1610612742,DAL,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,SUB: McDermott FOR Barnes,Substitution,,0,0,100
+0021701198,133,PT01M53.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,19,15,34,v,Powell Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,101
+0021701198,134,PT01M41.00S,1,1610612755,PHI,1626158,Holmes,R. Holmes,-11,17,2,Made,1,21,15,36,h,Holmes 2' Cutting Layup Shot (2 PTS) (Redick 1 AST),Made Shot,Cutting Layup Shot,1,2,102
+0021701198,136,PT01M29.00S,1,1610612742,DAL,203939,Powell,D. Powell,-7,22,2,Missed,1,,,0,v,MISS Powell 2' Alley Oop Dunk,Missed Shot,Alley Oop Dunk Shot,1,2,103
+0021701198,137,PT01M26.00S,1,1610612755,PHI,1626158,Holmes,R. Holmes,0,0,0,,0,,,0,h,Holmes REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,104
+0021701198,138,PT01M19.00S,1,1610612755,PHI,1628365,Fultz,M. Fultz,71,53,9,Made,1,23,15,38,h,Fultz 9' Fadeaway Jumper (2 PTS) (Redick 2 AST),Made Shot,Fadeaway Jump Shot,1,2,105
+0021701198,140,PT01M08.00S,1,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,-17,16,2,Made,1,23,17,40,v,Smith Jr. 2' Driving Reverse Layup (4 PTS),Made Shot,Driving Reverse Layup Shot,1,2,106
+0021701198,141,PT01M05.00S,1,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. T.FOUL (P1.T3) (C.Kirkland),Foul,Technical,1,0,107
+0021701198,142,PT01M05.00S,1,1610612755,PHI,201158,Belinelli,M. Belinelli,0,0,0,,0,24,17,41,h,Belinelli Free Throw Technical (3 PTS),Free Throw,Free Throw Technical,0,0,108
+0021701198,143,PT00M52.50S,1,1610612755,PHI,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova OFF.Foul (P1) (A.Smith),Foul,Offensive,1,0,109
+0021701198,145,PT00M52.50S,1,1610612755,PHI,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova Offensive Foul Turnover (P1.T4),Turnover,Offensive Foul Turnover,1,0,110
+0021701198,146,PT00M41.60S,1,1610612742,DAL,203926,McDermott,D. McDermott,192,53,20,Missed,1,,,0,v,MISS McDermott 20' Jump Shot,Missed Shot,Jump Shot,1,2,111
+0021701198,147,PT00M40.30S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,112
+0021701198,148,PT00M39.70S,1,1610612742,DAL,1628467,Kleber,M. Kleber,21,-2,2,Made,1,24,19,43,v,Kleber 2' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,113
+0021701198,149,PT00M32.10S,1,1610612755,PHI,200755,Redick,J. Redick,-117,166,20,Made,1,26,19,45,h,Redick 20' Jump Shot (4 PTS) (Ilyasova 2 AST),Made Shot,Jump Shot,1,2,114
+0021701198,151,PT00M28.90S,1,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,-134,222,26,Missed,1,,,0,v,MISS Smith Jr. 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,115
+0021701198,152,PT00M26.50S,1,1610612755,PHI,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,116
+0021701198,153,PT00M05.60S,1,1610612755,PHI,200755,Redick,J. Redick,-11,222,22,Made,1,28,19,47,h,Redick 22' Jump Shot (6 PTS),Made Shot,Jump Shot,1,2,117
+0021701198,154,PT00M00.50S,1,1610612755,PHI,1628365,Fultz,M. Fultz,0,0,0,,0,,,0,h,Fultz S.FOUL (P2.PN) (A.Smith),Foul,Shooting,1,0,118
+0021701198,156,PT00M00.50S,1,1610612742,DAL,1627812,Ferrell,Y. Ferrell,0,0,0,,0,28,20,48,v,Ferrell Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,119
+0021701198,157,PT00M00.50S,1,1610612742,DAL,1627812,Ferrell,Y. Ferrell,0,0,0,,0,,,0,v,MISS Ferrell Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,120
+0021701198,158,PT00M00.00S,1,1610612755,PHI,1626158,Holmes,R. Holmes,0,0,0,,0,,,0,h,Holmes REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,121
+0021701198,159,PT00M00.00S,1,0,,0,,,0,0,0,,0,28,20,48,,End of 1st Period (1:36 PM EST),period,end,1,0,122
+0021701198,160,PT12M00.00S,2,0,,0,,,0,0,0,,0,28,20,48,,Start of 2nd Period (1:39 PM EST),period,start,0,0,123
+0021701198,163,PT11M47.00S,2,1610612742,DAL,1627858,Collinsworth,K. Collinsworth,0,27,3,Made,1,28,22,50,v,Collinsworth 3' Driving Hook Shot (2 PTS),Made Shot,Driving Hook Shot,1,2,124
+0021701198,164,PT11M32.00S,2,1610612755,PHI,1626158,Holmes,R. Holmes,3,5,1,Made,1,30,22,52,h,Holmes 1' Dunk (4 PTS) (Fultz 1 AST),Made Shot,Dunk Shot,1,2,125
+0021701198,166,PT11M12.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,7,24,3,Made,1,30,24,54,v,Kleber 3' Hook Shot (4 PTS) (Barnes 1 AST),Made Shot,Hook Shot,1,2,126
+0021701198,168,PT10M50.00S,2,1610612755,PHI,1626158,Holmes,R. Holmes,6,29,3,Made,1,32,24,56,h,Holmes 3' Driving Floating Jump Shot (6 PTS) (Redick 3 AST),Made Shot,Driving Floating Jump Shot,1,2,127
+0021701198,172,PT10M26.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,-141,222,26,Made,1,32,27,59,v,Kleber 26' 3PT Jump Shot (7 PTS) (Ferrell 1 AST),Made Shot,Jump Shot,1,3,128
+0021701198,174,PT10M10.00S,2,1610612755,PHI,200755,Redick,J. Redick,-123,168,21,Missed,1,,,0,h,MISS Redick 21' Jump Shot,Missed Shot,Jump Shot,1,2,129
+0021701198,174,PT10M10.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber BLOCK (1 BLK),,,1,2,130
+0021701198,176,PT10M08.00S,2,1610612742,DAL,1627812,Ferrell,Y. Ferrell,0,0,0,,0,,,0,v,Ferrell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,131
+0021701198,177,PT10M02.00S,2,1610612742,DAL,203926,McDermott,D. McDermott,14,4,1,Made,1,32,29,61,v,McDermott 1' Driving Reverse Layup (2 PTS) (Collinsworth 1 AST),Made Shot,Driving Reverse Layup Shot,1,2,132
+0021701198,179,PT10M01.00S,2,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,133
+0021701198,180,PT10M01.00S,2,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,h,SUB: Covington FOR Redick,Substitution,,0,0,134
+0021701198,182,PT09M45.00S,2,1610612755,PHI,201158,Belinelli,M. Belinelli,-149,222,27,Missed,1,,,0,h,MISS Belinelli 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,135
+0021701198,183,PT09M45.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,136
+0021701198,184,PT09M32.00S,2,1610612742,DAL,1627812,Ferrell,Y. Ferrell,151,216,26,Missed,1,,,0,v,MISS Ferrell 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,137
+0021701198,185,PT09M29.00S,2,1610612755,PHI,1628365,Fultz,M. Fultz,0,0,0,,0,,,0,h,Fultz REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,138
+0021701198,186,PT09M25.00S,2,1610612755,PHI,1628365,Fultz,M. Fultz,16,32,4,Missed,1,,,0,h,MISS Fultz 4' Layup,Missed Shot,Layup Shot,1,2,139
+0021701198,187,PT09M22.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,140
+0021701198,188,PT09M20.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,141
+0021701198,188,PT09M20.00S,2,1610612755,PHI,1628365,Fultz,M. Fultz,0,0,0,,0,,,0,h,Fultz STEAL (1 STL),,,1,0,142
+0021701198,190,PT09M16.00S,2,1610612755,PHI,1628365,Fultz,M. Fultz,-5,34,3,Made,1,34,29,63,h,Fultz 3' Layup (4 PTS),Made Shot,Layup Shot,1,2,143
+0021701198,191,PT09M12.00S,2,1610612742,DAL,1627858,Collinsworth,K. Collinsworth,0,0,0,,0,,,0,v,Collinsworth Lost Ball Turnover (P1.T4),Turnover,Lost Ball,1,0,144
+0021701198,191,PT09M12.00S,2,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington STEAL (1 STL),,,1,0,145
+0021701198,193,PT09M03.00S,2,1610612755,PHI,101141,Ilyasova,E. Ilyasova,-44,47,6,Missed,1,,,0,h,MISS Ilyasova 6' Turnaround Fadeaway Bank Jump Shot,Missed Shot,Turnaround Fadeaway Bank Jump Shot,1,2,146
+0021701198,194,PT09M00.00S,2,1610612742,DAL,1627858,Collinsworth,K. Collinsworth,0,0,0,,0,,,0,v,Collinsworth REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,147
+0021701198,195,PT08M55.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,231,69,24,Missed,1,,,0,v,MISS Kleber 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,148
+0021701198,196,PT08M52.00S,2,1610612755,PHI,1626158,Holmes,R. Holmes,0,0,0,,0,,,0,h,Holmes REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,149
+0021701198,197,PT08M40.00S,2,1610612755,PHI,101141,Ilyasova,E. Ilyasova,-151,215,26,Missed,1,,,0,h,MISS Ilyasova 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,150
+0021701198,198,PT08M37.00S,2,1610612742,DAL,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,151
+0021701198,199,PT08M29.00S,2,1610612742,DAL,203084,Barnes,H. Barnes,107,123,16,Made,1,34,31,65,v,Barnes 16' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,152
+0021701198,200,PT08M14.00S,2,1610612755,PHI,201158,Belinelli,M. Belinelli,-116,151,19,Made,1,36,31,67,h,Belinelli 19' Jump Shot (5 PTS) (Ilyasova 3 AST),Made Shot,Jump Shot,1,2,153
+0021701198,202,PT07M57.00S,2,1610612742,DAL,203084,Barnes,H. Barnes,10,59,6,Made,1,36,33,69,v,Barnes 6' Turnaround Fadeaway Bank Jump Shot (4 PTS) (Ferrell 2 AST),Made Shot,Turnaround Fadeaway Bank Jump Shot,1,2,154
+0021701198,204,PT07M57.00S,2,1610612755,PHI,1628365,Fultz,M. Fultz,0,0,0,,0,,,0,h,Fultz S.FOUL (P3.T1) (S.Wright),Foul,Shooting,1,0,155
+0021701198,206,PT07M57.00S,2,1610612755,PHI,1628365,Fultz,M. Fultz,0,0,0,,0,,,0,h,SUB: Simmons FOR Fultz,Substitution,,0,0,156
+0021701198,207,PT07M57.00S,2,1610612755,PHI,1626158,Holmes,R. Holmes,0,0,0,,0,,,0,h,SUB: Johnson FOR Holmes,Substitution,,0,0,157
+0021701198,208,PT07M57.00S,2,1610612755,PHI,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,SUB: Saric FOR Ilyasova,Substitution,,0,0,158
+0021701198,212,PT07M57.00S,2,1610612742,DAL,203084,Barnes,H. Barnes,0,0,0,,0,36,34,70,v,Barnes Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,0,0,159
+0021701198,213,PT07M40.00S,2,1610612755,PHI,101161,Johnson,A. Johnson,-8,22,2,Made,1,38,34,72,h,Johnson 2' Hook Shot (4 PTS) (Simmons 3 AST),Made Shot,Hook Shot,1,2,160
+0021701198,215,PT07M20.00S,2,1610612742,DAL,1627812,Ferrell,Y. Ferrell,55,262,27,Missed,1,,,0,v,MISS Ferrell 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,161
+0021701198,216,PT07M19.00S,2,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Rebound,Rebound,Unknown,0,0,162
+0021701198,217,PT07M19.00S,2,1610612742,DAL,1627858,Collinsworth,K. Collinsworth,0,0,0,,0,,,0,v,SUB: Smith Jr. FOR Collinsworth,Substitution,,0,0,163
+0021701198,219,PT07M07.00S,2,1610612755,PHI,101161,Johnson,A. Johnson,-14,20,2,Made,1,40,34,74,h,Johnson 2' Cutting Layup Shot (6 PTS) (Covington 2 AST),Made Shot,Cutting Layup Shot,1,2,164
+0021701198,221,PT07M07.00S,2,1610612742,DAL,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,McDermott S.FOUL (P1.T1) (C.Kirkland),Foul,Shooting,1,0,165
+0021701198,223,PT07M07.00S,2,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,h,MISS Johnson Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,0,0,166
+0021701198,224,PT07M07.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,167
+0021701198,225,PT06M54.00S,2,1610612742,DAL,203926,McDermott,D. McDermott,-47,249,25,Missed,1,,,0,v,MISS McDermott 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,168
+0021701198,226,PT06M52.00S,2,1610612755,PHI,201158,Belinelli,M. Belinelli,0,0,0,,0,,,0,h,Belinelli REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,169
+0021701198,227,PT06M44.00S,2,1610612755,PHI,203496,Covington,R. Covington,23,16,3,Made,1,42,34,76,h,Covington 3' Driving Layup (2 PTS) (Simmons 4 AST),Made Shot,Driving Layup Shot,1,2,170
+0021701198,229,PT06M43.00S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,171
+0021701198,230,PT06M32.00S,2,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric P.FOUL (P1.T2) (C.Kirkland),Foul,Personal,1,0,172
+0021701198,232,PT06M24.00S,2,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,-6,31,3,Missed,1,,,0,v,MISS Smith Jr. 3' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,173
+0021701198,233,PT06M22.00S,2,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,174
+0021701198,234,PT06M19.00S,2,1610612755,PHI,203496,Covington,R. Covington,-171,209,27,Made,1,45,34,79,h,Covington 27' 3PT Pullup Jump Shot (5 PTS) (Simmons 5 AST),Made Shot,Pullup Jump shot,1,3,175
+0021701198,236,PT06M03.00S,2,1610612742,DAL,203084,Barnes,H. Barnes,0,70,7,Missed,1,,,0,v,MISS Barnes 7' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,176
+0021701198,237,PT06M01.00S,2,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,177
+0021701198,238,PT05M50.00S,2,1610612755,PHI,203496,Covington,R. Covington,-196,190,27,Made,1,48,34,82,h,Covington 27' 3PT Jump Shot (8 PTS) (Simmons 6 AST),Made Shot,Jump Shot,1,3,178
+0021701198,240,PT05M37.00S,2,1610612742,DAL,1627812,Ferrell,Y. Ferrell,189,197,27,Missed,1,,,0,v,MISS Ferrell 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,179
+0021701198,241,PT05M35.00S,2,1610612755,PHI,201158,Belinelli,M. Belinelli,0,0,0,,0,,,0,h,Belinelli REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,180
+0021701198,243,PT05M22.00S,2,1610612755,PHI,201158,Belinelli,M. Belinelli,10,8,1,Missed,1,,,0,h,MISS Belinelli 1' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,181
+0021701198,244,PT05M21.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,182
+0021701198,245,PT05M19.00S,2,1610612755,PHI,201158,Belinelli,M. Belinelli,0,0,0,,0,,,0,h,Belinelli P.FOUL (P1.T3) (C.Kirkland),Foul,Personal,1,0,183
+0021701198,247,PT05M19.00S,2,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,h,SUB: Ilyasova FOR Johnson,Substitution,,0,0,184
+0021701198,248,PT05M19.00S,2,1610612742,DAL,1627812,Ferrell,Y. Ferrell,0,0,0,,0,,,0,v,SUB: Powell FOR Ferrell,Substitution,,0,0,185
+0021701198,249,PT05M19.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,SUB: Finney-Smith FOR Kleber,Substitution,,0,0,186
+0021701198,253,PT05M08.00S,2,1610612742,DAL,203084,Barnes,H. Barnes,-7,115,12,Missed,1,,,0,v,MISS Barnes 12' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,187
+0021701198,254,PT05M06.00S,2,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,188
+0021701198,255,PT04M49.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,2,27,3,Made,1,50,34,84,h,Simmons 3' Driving Hook Shot (8 PTS),Made Shot,Driving Hook Shot,1,2,189
+0021701198,256,PT04M41.00S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,190
+0021701198,257,PT04M28.00S,2,1610612742,DAL,203084,Barnes,H. Barnes,-2,4,0,Made,1,50,36,86,v,Barnes Driving Dunk (7 PTS),Made Shot,Driving Dunk Shot,1,2,191
+0021701198,258,PT04M15.00S,2,1610612755,PHI,201158,Belinelli,M. Belinelli,45,198,20,Made,1,52,36,88,h,Belinelli 20' Pullup Jump Shot (7 PTS) (Simmons 7 AST),Made Shot,Pullup Jump shot,1,2,192
+0021701198,260,PT03M59.00S,2,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric P.FOUL (P2.T4) (C.Kirkland),Foul,Personal,1,0,193
+0021701198,262,PT03M59.00S,2,1610612755,PHI,201158,Belinelli,M. Belinelli,0,0,0,,0,,,0,h,SUB: Redick FOR Belinelli,Substitution,,0,0,194
+0021701198,263,PT03M59.00S,2,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,SUB: Fultz FOR Covington,Substitution,,0,0,195
+0021701198,266,PT03M46.00S,2,1610612742,DAL,203084,Barnes,H. Barnes,-20,130,13,Missed,1,,,0,v,MISS Barnes 13' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,196
+0021701198,266,PT03M46.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons BLOCK (1 BLK),,,1,2,197
+0021701198,269,PT03M45.00S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,198
+0021701198,268,PT03M45.00S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Turnover: Shot Clock (T#5),Turnover,Shot Clock Turnover,0,0,199
+0021701198,271,PT03M29.00S,2,1610612755,PHI,200755,Redick,J. Redick,165,216,27,Made,1,55,36,91,h,Redick 27' 3PT Jump Shot (9 PTS) (Saric 2 AST),Made Shot,Jump Shot,1,3,200
+0021701198,273,PT03M14.00S,2,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,16,18,2,Made,1,55,38,93,v,Smith Jr. 2' Driving Finger Roll Layup (6 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,201
+0021701198,274,PT03M00.00S,2,1610612755,PHI,1628365,Fultz,M. Fultz,-15,-4,2,Made,1,57,38,95,h,Fultz 2' Driving Reverse Layup (6 PTS) (Saric 3 AST),Made Shot,Driving Reverse Layup Shot,1,2,202
+0021701198,276,PT02M44.00S,2,1610612742,DAL,203084,Barnes,H. Barnes,230,130,26,Missed,1,,,0,v,MISS Barnes 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,203
+0021701198,277,PT02M42.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,204
+0021701198,278,PT02M38.00S,2,1610612755,PHI,101141,Ilyasova,E. Ilyasova,-3,-5,1,Missed,1,,,0,h,MISS Ilyasova 1' Running Dunk,Missed Shot,Running Dunk Shot,1,2,205
+0021701198,279,PT02M35.00S,2,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,206
+0021701198,280,PT02M30.00S,2,1610612742,DAL,203926,McDermott,D. McDermott,-195,172,26,Made,1,57,41,98,v,McDermott 26' 3PT Jump Shot (5 PTS) (Smith Jr. 3 AST),Made Shot,Jump Shot,1,3,207
+0021701198,282,PT02M05.00S,2,1610612755,PHI,1628365,Fultz,M. Fultz,9,19,2,Missed,1,,,0,h,MISS Fultz 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,208
+0021701198,282,PT02M05.00S,2,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. BLOCK (1 BLK),,,1,2,209
+0021701198,284,PT02M03.00S,2,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,210
+0021701198,285,PT02M03.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons P.FOUL (P1.PN) (S.Wright),Foul,Personal,1,0,211
+0021701198,287,PT02M03.00S,2,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,MISS Powell Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,212
+0021701198,288,PT02M03.00S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Normal Rebound,0,0,213
+0021701198,289,PT02M03.00S,2,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,MISS Powell Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,214
+0021701198,290,PT02M01.00S,2,1610612755,PHI,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,215
+0021701198,291,PT01M45.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,-3,3,0,Made,1,59,41,100,h,Simmons Driving Dunk (10 PTS),Made Shot,Driving Dunk Shot,1,2,216
+0021701198,292,PT01M32.00S,2,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. Out of Bounds - Bad Pass Turnover Turnover (P2.T6),Turnover,Out of Bounds - Bad Pass Turnover,1,0,217
+0021701198,295,PT01M29.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons Bad Pass Turnover (P2.T5),Turnover,Bad Pass,1,0,218
+0021701198,295,PT01M29.00S,2,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell STEAL (1 STL),,,1,0,219
+0021701198,297,PT01M22.00S,2,1610612742,DAL,203939,Powell,D. Powell,-1,274,27,Missed,1,,,0,v,MISS Powell 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,220
+0021701198,298,PT01M20.00S,2,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,221
+0021701198,299,PT01M14.00S,2,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,15,10,2,Made,1,59,43,102,v,Smith Jr. 2' Driving Layup (8 PTS),Made Shot,Driving Layup Shot,1,2,222
+0021701198,300,PT00M56.70S,2,1610612755,PHI,203967,Šarić,D. Šarić,0,4,0,Made,1,61,43,104,h,Saric Driving Dunk (7 PTS) (Simmons 8 AST),Made Shot,Driving Dunk Shot,1,2,223
+0021701198,302,PT00M44.10S,2,1610612742,DAL,203926,McDermott,D. McDermott,-131,244,28,Made,1,61,46,107,v,McDermott 28' 3PT Jump Shot (8 PTS) (Smith Jr. 4 AST),Made Shot,Jump Shot,1,3,224
+0021701198,304,PT00M29.40S,2,1610612755,PHI,1628365,Fultz,M. Fultz,-76,29,8,Missed,1,,,0,h,MISS Fultz 8' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,225
+0021701198,305,PT00M25.90S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,226
+0021701198,306,PT00M25.00S,2,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. Personal Block Foul (P2.T2) (C.Kirkland),Foul,Personal Block,1,0,227
+0021701198,308,PT00M25.00S,2,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,SUB: Holmes FOR Saric,Substitution,,0,0,228
+0021701198,310,PT00M11.90S,2,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell S.FOUL (P1.PN) (A.Smith),Foul,Shooting,1,0,229
+0021701198,312,PT00M11.90S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,MISS Simmons Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,230
+0021701198,313,PT00M11.90S,2,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Rebound,Rebound,Normal Rebound,0,0,231
+0021701198,314,PT00M11.90S,2,1610612755,PHI,1628365,Fultz,M. Fultz,0,0,0,,0,,,0,h,SUB: Covington FOR Fultz,Substitution,,0,0,232
+0021701198,316,PT00M11.90S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,MISS Simmons Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,233
+0021701198,317,PT00M10.30S,2,1610612742,DAL,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,McDermott REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,234
+0021701198,318,PT00M00.30S,2,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,140,167,22,Made,1,61,48,109,v,Smith Jr. 22' Step Back Jump Shot (10 PTS),Made Shot,Step Back Jump shot,1,2,235
+0021701198,320,PT00M00.30S,2,0,,318,,,0,0,0,,0,61,48,109,,Instant Replay2nd Period (2:04 PM EST),Instant Replay,Support Ruling,0,0,236
+0021701198,319,PT00M00.00S,2,0,,0,,,0,0,0,,0,61,48,109,,End of 2nd Period (2:04 PM EST),period,end,1,0,237
+0021701198,327,PT12M00.00S,3,0,,0,,,0,0,0,,0,61,48,109,,Start of 3rd Period (2:20 PM EST),period,start,0,0,238
+0021701198,328,PT11M41.00S,3,1610612742,DAL,1628405,Motley,J. Motley,-145,87,17,Missed,1,,,0,v,MISS Motley 17' Jump Shot,Missed Shot,Jump Shot,1,2,239
+0021701198,329,PT11M38.00S,3,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,240
+0021701198,330,PT11M29.00S,3,1610612755,PHI,200755,Redick,J. Redick,-52,206,21,Made,1,63,48,111,h,Redick 21' Pullup Jump Shot (11 PTS) (Johnson 1 AST),Made Shot,Pullup Jump shot,1,2,241
+0021701198,332,PT11M15.00S,3,1610612742,DAL,203084,Barnes,H. Barnes,-216,103,24,Missed,1,,,0,v,MISS Barnes 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,242
+0021701198,333,PT11M11.00S,3,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,243
+0021701198,334,PT11M06.00S,3,1610612755,PHI,203967,Šarić,D. Šarić,-39,116,12,Missed,1,,,0,h,MISS Saric 12' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,244
+0021701198,335,PT11M04.00S,3,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,245
+0021701198,336,PT10M55.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,240,96,26,Made,1,63,51,114,v,Finney-Smith 26' 3PT Jump Shot (10 PTS) (Smith Jr. 5 AST),Made Shot,Jump Shot,1,3,246
+0021701198,338,PT10M53.00S,3,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,247
+0021701198,339,PT10M29.00S,3,1610612755,PHI,200755,Redick,J. Redick,-165,253,30,Made,1,66,51,117,h,Redick 30' 3PT Jump Shot (14 PTS) (Saric 4 AST),Made Shot,Jump Shot,1,3,248
+0021701198,341,PT10M08.00S,3,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,-230,17,0,Missed,1,,,0,v,MISS Smith Jr. 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,249
+0021701198,342,PT10M04.00S,3,1610612742,DAL,1628405,Motley,J. Motley,0,0,0,,0,,,0,v,Motley REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,250
+0021701198,343,PT10M04.00S,3,1610612742,DAL,1628405,Motley,J. Motley,6,30,3,Missed,1,,,0,v,MISS Motley 3' Layup,Missed Shot,Layup Shot,1,2,251
+0021701198,343,PT10M04.00S,3,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington BLOCK (2 BLK),,,1,2,252
+0021701198,345,PT10M04.00S,3,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,253
+0021701198,346,PT10M00.00S,3,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. Lost Ball Turnover (P3.T7),Turnover,Lost Ball,1,0,254
+0021701198,346,PT10M00.00S,3,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington STEAL (2 STL),,,1,0,255
+0021701198,348,PT09M39.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,4,41,4,Missed,1,,,0,h,MISS Simmons 4' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,256
+0021701198,349,PT09M31.00S,3,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,257
+0021701198,350,PT09M31.00S,3,1610612755,PHI,203967,Šarić,D. Šarić,0,-6,1,Made,1,68,51,119,h,Saric 1' Tip Layup Shot (9 PTS),Made Shot,Tip Layup Shot,1,2,258
+0021701198,351,PT09M19.00S,3,1610612742,DAL,203084,Barnes,H. Barnes,-75,210,22,Missed,1,,,0,v,MISS Barnes 22' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,259
+0021701198,352,PT09M19.00S,3,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,260
+0021701198,353,PT09M08.00S,3,1610612755,PHI,203496,Covington,R. Covington,-190,194,27,Missed,1,,,0,h,MISS Covington 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,261
+0021701198,354,PT09M05.00S,3,1610612742,DAL,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,262
+0021701198,355,PT09M00.00S,3,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,-33,211,21,Made,1,68,53,121,v,Smith Jr. 21' Pullup Jump Shot (12 PTS),Made Shot,Pullup Jump shot,1,2,263
+0021701198,356,PT08M53.00S,3,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington Out of Bounds Lost Ball Turnover (P1.T6),Turnover,Out of Bounds Lost Ball Turnover,1,0,264
+0021701198,357,PT08M35.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,119,4,12,Missed,1,,,0,v,MISS Finney-Smith 12' Jump Shot,Missed Shot,Jump Shot,1,2,265
+0021701198,358,PT08M32.00S,3,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,266
+0021701198,359,PT08M22.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,-8,8,1,Missed,1,,,0,h,MISS Simmons 1' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,267
+0021701198,360,PT08M20.00S,3,1610612742,DAL,1628405,Motley,J. Motley,0,0,0,,0,,,0,v,Motley REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,268
+0021701198,361,PT08M06.00S,3,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,1,42,4,Made,1,68,55,123,v,Smith Jr. 4' Turnaround Hook Shot (14 PTS),Made Shot,Turnaround Hook Shot,1,2,269
+0021701198,362,PT07M52.00S,3,1610612755,PHI,200755,Redick,J. Redick,-134,168,21,Made,1,70,55,125,h,Redick 21' Pullup Jump Shot (16 PTS),Made Shot,Pullup Jump shot,1,2,270
+0021701198,363,PT07M39.00S,3,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,-15,57,6,Missed,1,,,0,v,MISS Smith Jr. 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,271
+0021701198,364,PT07M38.00S,3,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,h,Redick REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,272
+0021701198,365,PT07M33.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,6,21,2,Made,1,72,55,127,h,Simmons 2' Running Layup (12 PTS),Made Shot,Running Layup Shot,1,2,273
+0021701198,366,PT07M32.00S,3,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,274
+0021701198,367,PT07M32.00S,3,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,h,SUB: Belinelli FOR Redick,Substitution,,0,0,275
+0021701198,370,PT07M12.00S,3,1610612742,DAL,203084,Barnes,H. Barnes,-230,17,0,Made,1,72,58,130,v,Barnes 3PT Jump Shot (10 PTS) (Smith Jr. 6 AST),Made Shot,Jump Shot,1,3,276
+0021701198,372,PT07M10.00S,3,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,277
+0021701198,373,PT06M57.00S,3,1610612755,PHI,203967,Šarić,D. Šarić,-61,277,28,Missed,1,,,0,h,MISS Saric 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,278
+0021701198,374,PT06M54.00S,3,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,279
+0021701198,375,PT06M35.00S,3,1610612742,DAL,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes Bad Pass Turnover (P1.T8),Turnover,Bad Pass,1,0,280
+0021701198,375,PT06M35.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons STEAL (2 STL),,,1,0,281
+0021701198,377,PT06M31.00S,3,1610612755,PHI,201158,Belinelli,M. Belinelli,-193,190,27,Missed,1,,,0,h,MISS Belinelli 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,282
+0021701198,378,PT06M30.00S,3,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,283
+0021701198,379,PT06M30.00S,3,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,h,Johnson P.FOUL (P2.T1) (S.Wright),Foul,Personal,1,0,284
+0021701198,381,PT06M15.00S,3,1610612742,DAL,203084,Barnes,H. Barnes,17,20,3,Missed,1,,,0,v,MISS Barnes 3' Turnaround Fadeaway Bank Jump Shot,Missed Shot,Turnaround Fadeaway Bank Jump Shot,1,2,285
+0021701198,382,PT06M08.00S,3,1610612742,DAL,1628405,Motley,J. Motley,0,0,0,,0,,,0,v,Motley REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,286
+0021701198,383,PT06M08.00S,3,1610612742,DAL,1628405,Motley,J. Motley,0,-6,1,Made,1,72,60,132,v,Motley 1' Putback Dunk (4 PTS),Made Shot,Putback Dunk Shot,1,2,287
+0021701198,384,PT05M57.00S,3,1610612755,PHI,201158,Belinelli,M. Belinelli,0,0,0,,0,,,0,h,Belinelli Bad Pass Turnover (P2.T7),Turnover,Bad Pass,1,0,288
+0021701198,384,PT05M57.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith STEAL (1 STL),,,1,0,289
+0021701198,387,PT05M48.00S,3,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,70,256,27,Made,1,72,63,135,v,Smith Jr. 27' 3PT Jump Shot (17 PTS) (Powell 2 AST),Made Shot,Jump Shot,1,3,290
+0021701198,389,PT05M32.00S,3,1610612755,PHI,201158,Belinelli,M. Belinelli,-114,167,20,Made,1,74,63,137,h,Belinelli 20' Jump Shot (9 PTS) (Johnson 2 AST),Made Shot,Jump Shot,1,2,291
+0021701198,391,PT05M15.00S,3,1610612742,DAL,203939,Powell,D. Powell,141,218,26,Missed,1,,,0,v,MISS Powell 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,292
+0021701198,392,PT05M13.00S,3,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,293
+0021701198,393,PT05M01.00S,3,1610612755,PHI,201158,Belinelli,M. Belinelli,-16,8,2,Made,1,76,63,139,h,Belinelli 2' Reverse Layup (11 PTS) (Saric 5 AST),Made Shot,Reverse Layup Shot,1,2,294
+0021701198,395,PT04M47.00S,3,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,h,Johnson P.FOUL (P3.T2) (S.Wright),Foul,Personal,1,0,295
+0021701198,397,PT04M47.00S,3,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,h,SUB: Holmes FOR Johnson,Substitution,,0,0,296
+0021701198,398,PT04M47.00S,3,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,SUB: Ilyasova FOR Saric,Substitution,,0,0,297
+0021701198,401,PT04M35.00S,3,1610612742,DAL,203084,Barnes,H. Barnes,0,0,0,,0,,,0,v,Barnes Bad Pass Turnover (P2.T9),Turnover,Bad Pass,1,0,298
+0021701198,401,PT04M35.00S,3,1610612755,PHI,201158,Belinelli,M. Belinelli,0,0,0,,0,,,0,h,Belinelli STEAL (1 STL),,,1,0,299
+0021701198,403,PT04M29.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons Out of Bounds - Bad Pass Turnover Turnover (P3.T8),Turnover,Out of Bounds - Bad Pass Turnover,1,0,300
+0021701198,404,PT04M10.00S,3,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,-154,240,29,Missed,1,,,0,v,MISS Smith Jr. 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,301
+0021701198,405,PT04M07.00S,3,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,302
+0021701198,406,PT04M07.00S,3,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell Out of Bounds - Bad Pass Turnover Turnover (P1.T10),Turnover,Out of Bounds - Bad Pass Turnover,1,0,303
+0021701198,407,PT04M07.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,SUB: Fultz FOR Simmons,Substitution,,0,0,304
+0021701198,409,PT03M59.00S,3,1610612755,PHI,201158,Belinelli,M. Belinelli,-7,264,26,Missed,1,,,0,h,MISS Belinelli 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,305
+0021701198,410,PT03M55.00S,3,1610612755,PHI,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,306
+0021701198,411,PT03M53.00S,3,1610612755,PHI,201158,Belinelli,M. Belinelli,89,146,17,Missed,1,,,0,h,MISS Belinelli 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,307
+0021701198,412,PT03M51.00S,3,1610612742,DAL,1628405,Motley,J. Motley,0,0,0,,0,,,0,v,Motley REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,308
+0021701198,413,PT03M41.00S,3,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,-10,21,2,Missed,1,,,0,v,MISS Smith Jr. 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,309
+0021701198,414,PT03M38.00S,3,1610612755,PHI,1626158,Holmes,R. Holmes,0,0,0,,0,,,0,h,Holmes REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,310
+0021701198,415,PT03M38.00S,3,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. P.FOUL (P3.T1) (A.Smith),Foul,Personal,1,0,311
+0021701198,417,PT03M38.00S,3,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,SUB: Redick FOR Covington,Substitution,,0,0,312
+0021701198,418,PT03M38.00S,3,1610612742,DAL,1628405,Motley,J. Motley,0,0,0,,0,,,0,v,SUB: Kleber FOR Motley,Substitution,,0,0,313
+0021701198,421,PT03M38.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,SUB: Ferrell FOR Finney-Smith,Substitution,,0,0,314
+0021701198,423,PT03M17.00S,3,1610612755,PHI,1626158,Holmes,R. Holmes,26,31,4,Made,1,78,63,141,h,Holmes 4' Turnaround Fadeaway Bank Jump Shot (8 PTS) (Belinelli 1 AST),Made Shot,Turnaround Fadeaway Bank Jump Shot,1,2,315
+0021701198,425,PT03M03.00S,3,1610612742,DAL,203939,Powell,D. Powell,71,252,26,Made,1,78,66,144,v,Powell 26' 3PT Jump Shot (7 PTS) (Barnes 2 AST),Made Shot,Jump Shot,1,3,316
+0021701198,427,PT02M45.00S,3,1610612755,PHI,101141,Ilyasova,E. Ilyasova,-30,22,4,Made,1,80,66,146,h,Ilyasova 4' Turnaround Fadeaway Bank Jump Shot (4 PTS) (Fultz 2 AST),Made Shot,Turnaround Fadeaway Bank Jump Shot,1,2,317
+0021701198,429,PT02M45.00S,3,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell Violation:Defensive Goaltending (S.Wright),Violation,Defensive Goaltending,1,0,318
+0021701198,430,PT02M29.00S,3,1610612742,DAL,1627812,Ferrell,Y. Ferrell,130,67,15,Made,1,80,68,148,v,Ferrell 15' Driving Floating Jump Shot (3 PTS) (Powell 3 AST),Made Shot,Driving Floating Jump Shot,1,2,319
+0021701198,432,PT02M11.00S,3,1610612755,PHI,1626158,Holmes,R. Holmes,9,50,5,Missed,1,,,0,h,MISS Holmes 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,320
+0021701198,433,PT02M09.00S,3,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,321
+0021701198,434,PT02M02.00S,3,1610612742,DAL,203084,Barnes,H. Barnes,-226,-2,0,Made,1,80,71,151,v,Barnes 3PT Jump Shot (13 PTS) (Kleber 1 AST),Made Shot,Jump Shot,1,3,322
+0021701198,436,PT01M47.00S,3,1610612755,PHI,201158,Belinelli,M. Belinelli,-60,191,20,Missed,1,,,0,h,MISS Belinelli 20' Jump Shot,Missed Shot,Jump Shot,1,2,323
+0021701198,437,PT01M45.00S,3,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,324
+0021701198,438,PT01M42.00S,3,1610612755,PHI,201158,Belinelli,M. Belinelli,0,0,0,,0,,,0,h,Belinelli P.FOUL (P2.T3) (C.Kirkland),Foul,Personal,1,0,325
+0021701198,440,PT01M34.00S,3,1610612742,DAL,203084,Barnes,H. Barnes,13,41,4,Made,1,80,73,153,v,Barnes 4' Driving Floating Bank Jump Shot (15 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,326
+0021701198,441,PT01M19.00S,3,1610612755,PHI,1628365,Fultz,M. Fultz,0,0,0,,0,,,0,h,Fultz Bad Pass Turnover (P2.T9),Turnover,Bad Pass,1,0,327
+0021701198,441,PT01M19.00S,3,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. STEAL (3 STL),,,1,0,328
+0021701198,443,PT01M19.00S,3,1610612755,PHI,1628365,Fultz,M. Fultz,0,0,0,,0,,,0,h,Fultz C.P.FOUL (P4.PN) (S.Wright),Foul,Clear Path,1,0,329
+0021701198,446,PT01M19.00S,3,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,80,74,154,v,Smith Jr. Free Throw Clear Path 1 of 2 (18 PTS),Free Throw,Free Throw Clear Path 1 of 2,0,0,330
+0021701198,447,PT01M19.00S,3,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,MISS Smith Jr. Free Throw Clear Path 2 of 2,Free Throw,Free Throw Clear Path 2 of 2,0,0,331
+0021701198,448,PT01M19.00S,3,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,332
+0021701198,449,PT01M10.00S,3,1610612742,DAL,1628467,Kleber,M. Kleber,17,10,2,Made,1,80,76,156,v,Kleber 2' Cutting Layup Shot (9 PTS) (Powell 4 AST),Made Shot,Cutting Layup Shot,1,2,333
+0021701198,451,PT00M51.40S,3,1610612755,PHI,101141,Ilyasova,E. Ilyasova,233,52,24,Made,1,83,76,159,h,Ilyasova 24' 3PT Jump Shot (7 PTS) (Holmes 1 AST),Made Shot,Jump Shot,1,3,334
+0021701198,453,PT00M33.20S,3,1610612742,DAL,203939,Powell,D. Powell,-38,15,4,Missed,1,,,0,v,MISS Powell 4' Layup,Missed Shot,Layup Shot,1,2,335
+0021701198,454,PT00M30.50S,3,1610612755,PHI,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,336
+0021701198,455,PT00M19.60S,3,1610612755,PHI,1628365,Fultz,M. Fultz,-3,81,8,Missed,1,,,0,h,MISS Fultz 8' Jump Shot,Missed Shot,Jump Shot,1,2,337
+0021701198,455,PT00M19.60S,3,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. BLOCK (2 BLK),,,1,2,338
+0021701198,457,PT00M16.50S,3,1610612755,PHI,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,339
+0021701198,458,PT00M15.60S,3,1610612755,PHI,101141,Ilyasova,E. Ilyasova,14,11,2,Made,1,85,76,161,h,Ilyasova 2' Layup (9 PTS),Made Shot,Layup Shot,1,2,340
+0021701198,459,PT00M06.00S,3,1610612742,DAL,203939,Powell,D. Powell,159,214,27,Missed,1,,,0,v,MISS Powell 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,341
+0021701198,460,PT00M02.80S,3,1610612755,PHI,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,342
+0021701198,461,PT00M01.00S,3,1610612755,PHI,101141,Ilyasova,E. Ilyasova,-60,351,36,Missed,1,,,0,h,MISS Ilyasova 36' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,343
+0021701198,462,PT00M01.00S,3,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Rebound,Rebound,Unknown,0,0,344
+0021701198,463,PT00M00.00S,3,0,,0,,,0,0,0,,0,85,76,161,,End of 3rd Period (2:44 PM EST),period,end,1,0,345
+0021701198,472,PT12M00.00S,4,0,,0,,,0,0,0,,0,85,76,161,,Start of 4th Period (2:46 PM EST),period,start,0,0,346
+0021701198,473,PT11M43.00S,4,1610612755,PHI,1628365,Fultz,M. Fultz,-59,130,14,Made,1,87,76,163,h,Fultz 14' Turnaround Fadeaway (8 PTS),Made Shot,Turnaround Fadeaway shot,1,2,347
+0021701198,474,PT11M27.00S,4,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,22,16,3,Missed,1,,,0,v,MISS Finney-Smith 3' Alley Oop Layup,Missed Shot,Alley Oop Layup shot,1,2,348
+0021701198,475,PT11M27.00S,4,1610612755,PHI,1626158,Holmes,R. Holmes,0,0,0,,0,,,0,h,Holmes REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,349
+0021701198,476,PT11M10.00S,4,1610612755,PHI,1628365,Fultz,M. Fultz,-25,34,4,Missed,1,,,0,h,MISS Fultz 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,350
+0021701198,477,PT11M06.00S,4,1610612755,PHI,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,351
+0021701198,478,PT11M06.00S,4,1610612755,PHI,101141,Ilyasova,E. Ilyasova,0,-6,1,Made,1,89,76,165,h,Ilyasova 1' Tip Layup Shot (11 PTS),Made Shot,Tip Layup Shot,1,2,352
+0021701198,479,PT10M57.00S,4,1610612742,DAL,203926,McDermott,D. McDermott,-233,105,26,Missed,1,,,0,v,MISS McDermott 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,353
+0021701198,480,PT10M54.00S,4,1610612755,PHI,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,354
+0021701198,481,PT10M44.00S,4,1610612755,PHI,200755,Redick,J. Redick,119,167,21,Missed,1,,,0,h,MISS Redick 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,355
+0021701198,482,PT10M44.00S,4,1610612742,DAL,1627858,Collinsworth,K. Collinsworth,0,0,0,,0,,,0,v,Collinsworth REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,356
+0021701198,483,PT10M34.00S,4,1610612742,DAL,1627812,Ferrell,Y. Ferrell,7,193,19,Missed,1,,,0,v,MISS Ferrell 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,357
+0021701198,484,PT10M28.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,358
+0021701198,485,PT10M27.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,13,1,Made,1,89,78,167,v,Kleber 1' Reverse Layup (11 PTS),Made Shot,Reverse Layup Shot,1,2,359
+0021701198,486,PT10M19.00S,4,1610612742,DAL,1627812,Ferrell,Y. Ferrell,0,0,0,,0,,,0,v,Ferrell S.FOUL (P1.T1) (A.Smith),Foul,Shooting,1,0,360
+0021701198,488,PT10M19.00S,4,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,90,78,168,h,Redick Free Throw 1 of 2 (17 PTS),Free Throw,Free Throw 1 of 2,0,0,361
+0021701198,489,PT10M19.00S,4,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,91,78,169,h,Redick Free Throw 2 of 2 (18 PTS),Free Throw,Free Throw 2 of 2,0,0,362
+0021701198,490,PT10M06.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,5,260,26,Missed,1,,,0,v,MISS Kleber 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,363
+0021701198,491,PT10M04.00S,4,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,h,Redick REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,364
+0021701198,492,PT09M58.00S,4,1610612755,PHI,200755,Redick,J. Redick,10,267,27,Missed,1,,,0,h,MISS Redick 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,365
+0021701198,493,PT09M56.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,366
+0021701198,494,PT09M56.00S,4,1610612755,PHI,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova L.B.FOUL (P2.T1) (C.Kirkland),Foul,Loose Ball,1,0,367
+0021701198,496,PT09M45.00S,4,1610612742,DAL,203926,McDermott,D. McDermott,71,251,26,Missed,1,,,0,v,MISS McDermott 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,368
+0021701198,497,PT09M41.00S,4,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,369
+0021701198,498,PT09M39.00S,4,1610612742,DAL,203926,McDermott,D. McDermott,70,256,27,Missed,1,,,0,v,MISS McDermott 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,370
+0021701198,499,PT09M35.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,371
+0021701198,500,PT09M32.00S,4,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,115,247,27,Missed,1,,,0,v,MISS Finney-Smith 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,372
+0021701198,501,PT09M30.00S,4,1610612755,PHI,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova REBOUND (Off:3 Def:8),Rebound,Unknown,1,0,373
+0021701198,502,PT09M27.00S,4,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith S.FOUL (P2.T2) (C.Kirkland),Foul,Shooting,1,0,374
+0021701198,504,PT09M27.00S,4,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,92,78,170,h,Covington Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,0,0,375
+0021701198,505,PT09M27.00S,4,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,h,SUB: Belinelli FOR Redick,Substitution,,0,0,376
+0021701198,507,PT09M27.00S,4,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,93,78,171,h,Covington Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,0,0,377
+0021701198,508,PT09M19.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,-3,271,27,Missed,1,,,0,v,MISS Kleber 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,378
+0021701198,509,PT09M14.00S,4,1610612742,DAL,1627858,Collinsworth,K. Collinsworth,0,0,0,,0,,,0,v,Collinsworth REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,379
+0021701198,510,PT09M11.00S,4,1610612742,DAL,1627812,Ferrell,Y. Ferrell,-173,197,26,Missed,1,,,0,v,MISS Ferrell 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,380
+0021701198,511,PT09M09.00S,4,1610612755,PHI,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova REBOUND (Off:3 Def:9),Rebound,Unknown,1,0,381
+0021701198,512,PT09M05.00S,4,1610612755,PHI,1628365,Fultz,M. Fultz,65,39,8,Missed,1,,,0,h,MISS Fultz 8' Running Layup,Missed Shot,Running Layup Shot,1,2,382
+0021701198,512,PT09M05.00S,4,1610612742,DAL,1627858,Collinsworth,K. Collinsworth,0,0,0,,0,,,0,v,Collinsworth BLOCK (1 BLK),,,1,2,383
+0021701198,514,PT09M05.00S,4,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Rebound,Rebound,Unknown,0,0,384
+0021701198,515,PT09M05.00S,4,1610612755,PHI,1628365,Fultz,M. Fultz,0,0,0,,0,,,0,h,SUB: Simmons FOR Fultz,Substitution,,0,0,385
+0021701198,516,PT09M05.00S,4,1610612755,PHI,1626158,Holmes,R. Holmes,0,0,0,,0,,,0,h,SUB: Saric FOR Holmes,Substitution,,0,0,386
+0021701198,520,PT09M02.00S,4,1610612755,PHI,101141,Ilyasova,E. Ilyasova,89,246,26,Missed,1,,,0,h,MISS Ilyasova 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,387
+0021701198,521,PT08M57.00S,4,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,388
+0021701198,522,PT08M51.00S,4,1610612742,DAL,203926,McDermott,D. McDermott,-221,38,0,Missed,1,,,0,v,MISS McDermott 3PT Jump Shot,Missed Shot,Jump Shot,1,3,389
+0021701198,523,PT08M47.00S,4,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,390
+0021701198,524,PT08M45.00S,4,1610612755,PHI,203496,Covington,R. Covington,-5,-3,1,Made,1,95,78,173,h,Covington 1' Running Dunk (12 PTS),Made Shot,Running Dunk Shot,1,2,391
+0021701198,525,PT08M44.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,392
+0021701198,526,PT08M44.00S,4,1610612742,DAL,1627858,Collinsworth,K. Collinsworth,0,0,0,,0,,,0,v,SUB: Smith Jr. FOR Collinsworth,Substitution,,0,0,393
+0021701198,527,PT08M44.00S,4,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,SUB: Barnes FOR Finney-Smith,Substitution,,0,0,394
+0021701198,530,PT08M31.00S,4,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,49,166,17,Missed,1,,,0,v,MISS Smith Jr. 17' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,395
+0021701198,531,PT08M27.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,396
+0021701198,532,PT08M13.00S,4,1610612755,PHI,203496,Covington,R. Covington,86,249,26,Missed,1,,,0,h,MISS Covington 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,397
+0021701198,533,PT08M10.00S,4,1610612755,PHI,201158,Belinelli,M. Belinelli,0,0,0,,0,,,0,h,Belinelli REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,398
+0021701198,534,PT08M04.00S,4,1610612755,PHI,201158,Belinelli,M. Belinelli,0,0,0,,0,,,0,h,Belinelli Bad Pass Turnover (P3.T10),Turnover,Bad Pass,1,0,399
+0021701198,534,PT08M04.00S,4,1610612742,DAL,1627812,Ferrell,Y. Ferrell,0,0,0,,0,,,0,v,Ferrell STEAL (1 STL),,,1,0,400
+0021701198,536,PT08M00.00S,4,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,-3,46,5,Made,1,95,80,175,v,Smith Jr. 5' Running Layup (20 PTS) (Ferrell 3 AST),Made Shot,Running Layup Shot,1,2,401
+0021701198,538,PT07M42.00S,4,1610612755,PHI,201158,Belinelli,M. Belinelli,15,67,7,Missed,1,,,0,h,MISS Belinelli 7' Driving Layup,Missed Shot,Driving Layup Shot,1,2,402
+0021701198,539,PT07M40.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,403
+0021701198,540,PT07M21.00S,4,1610612742,DAL,203084,Barnes,H. Barnes,7,89,9,Missed,1,,,0,v,MISS Barnes 9' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,404
+0021701198,541,PT07M19.00S,4,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:9),Rebound,Unknown,1,0,405
+0021701198,542,PT07M09.00S,4,1610612755,PHI,203967,Šarić,D. Šarić,107,159,19,Missed,1,,,0,h,MISS Saric 19' Jump Shot,Missed Shot,Jump Shot,1,2,406
+0021701198,543,PT07M05.00S,4,1610612742,DAL,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,McDermott REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,407
+0021701198,544,PT07M00.00S,4,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric P.FOUL (P3.T2) (C.Kirkland),Foul,Personal,1,0,408
+0021701198,546,PT07M00.00S,4,1610612755,PHI,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,SUB: Redick FOR Ilyasova,Substitution,,0,0,409
+0021701198,548,PT06M50.00S,4,1610612742,DAL,203084,Barnes,H. Barnes,-130,230,26,Missed,1,,,0,v,MISS Barnes 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,410
+0021701198,549,PT06M45.00S,4,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:10),Rebound,Unknown,1,0,411
+0021701198,550,PT06M37.00S,4,1610612755,PHI,201158,Belinelli,M. Belinelli,9,16,2,Made,1,97,80,177,h,Belinelli 2' Cutting Layup Shot (13 PTS) (Simmons 9 AST),Made Shot,Cutting Layup Shot,1,2,412
+0021701198,552,PT06M19.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber Bad Pass Turnover (P2.T11),Turnover,Bad Pass,1,0,413
+0021701198,552,PT06M19.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons STEAL (3 STL),,,1,0,414
+0021701198,554,PT06M13.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,-3,32,3,Made,1,99,80,179,h,Simmons 3' Running Finger Roll Layup (14 PTS) (Belinelli 2 AST),Made Shot,Running Finger Roll Layup Shot,1,2,415
+0021701198,556,PT06M10.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,416
+0021701198,557,PT06M10.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,SUB: Powell FOR Kleber,Substitution,,0,0,417
+0021701198,559,PT05M52.00S,4,1610612742,DAL,1627812,Ferrell,Y. Ferrell,-31,37,5,Missed,1,,,0,v,MISS Ferrell 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,418
+0021701198,559,PT05M52.00S,4,1610612755,PHI,201158,Belinelli,M. Belinelli,0,0,0,,0,,,0,h,Belinelli BLOCK (1 BLK),,,1,2,419
+0021701198,561,PT05M49.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,420
+0021701198,562,PT05M30.00S,4,1610612755,PHI,203967,Šarić,D. Šarić,-29,249,25,Missed,1,,,0,h,MISS Saric 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,421
+0021701198,563,PT05M29.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,422
+0021701198,564,PT05M18.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons P.FOUL (P2.T3) (S.Wright),Foul,Personal,1,0,423
+0021701198,566,PT05M08.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons P.FOUL (P3.T4) (S.Wright),Foul,Personal,1,0,424
+0021701198,568,PT04M55.00S,4,1610612742,DAL,203084,Barnes,H. Barnes,17,13,2,Made,1,99,82,181,v,Barnes 2' Driving Layup (17 PTS),Made Shot,Driving Layup Shot,1,2,425
+0021701198,569,PT04M31.00S,4,1610612755,PHI,200755,Redick,J. Redick,-150,230,27,Missed,1,,,0,h,MISS Redick 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,426
+0021701198,569,PT04M31.00S,4,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell BLOCK (1 BLK),,,1,3,427
+0021701198,571,PT04M28.00S,4,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,428
+0021701198,572,PT04M20.00S,4,1610612742,DAL,203939,Powell,D. Powell,3,19,2,Made,1,99,84,183,v,Powell 2' Driving Finger Roll Layup (9 PTS) (Smith Jr. 7 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,429
+0021701198,574,PT04M20.00S,4,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,430
+0021701198,575,PT04M20.00S,4,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,SUB: Holmes FOR Saric,Substitution,,0,0,431
+0021701198,577,PT04M06.00S,4,1610612755,PHI,201158,Belinelli,M. Belinelli,-17,193,19,Made,1,101,84,185,h,Belinelli 19' Pullup Jump Shot (15 PTS) (Covington 3 AST),Made Shot,Pullup Jump shot,1,2,432
+0021701198,579,PT03M41.00S,4,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,89,241,26,Missed,1,,,0,v,MISS Smith Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,433
+0021701198,580,PT03M37.00S,4,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,434
+0021701198,581,PT03M33.00S,4,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington S.FOUL (P1.PN) (C.Kirkland),Foul,Shooting,1,0,435
+0021701198,583,PT03M33.00S,4,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,101,85,186,v,Powell Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,0,0,436
+0021701198,584,PT03M33.00S,4,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,101,86,187,v,Powell Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,0,0,437
+0021701198,585,PT03M10.00S,4,1610612755,PHI,203496,Covington,R. Covington,-155,232,28,Missed,1,,,0,h,MISS Covington 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,438
+0021701198,586,PT03M05.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,439
+0021701198,587,PT03M04.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,-3,12,1,Made,1,103,86,189,h,Simmons 1' Putback Dunk (16 PTS),Made Shot,Putback Dunk Shot,1,2,440
+0021701198,588,PT02M47.00S,4,1610612742,DAL,1627812,Ferrell,Y. Ferrell,0,0,0,,0,,,0,v,Ferrell Bad Pass Turnover (P1.T12),Turnover,Bad Pass,1,0,441
+0021701198,588,PT02M47.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons STEAL (4 STL),,,1,0,442
+0021701198,590,PT02M41.00S,4,1610612755,PHI,203496,Covington,R. Covington,225,33,0,Made,1,106,86,192,h,Covington 3PT Jump Shot (15 PTS) (Redick 4 AST),Made Shot,Jump Shot,1,3,443
+0021701198,592,PT02M26.00S,4,1610612742,DAL,203926,McDermott,D. McDermott,9,111,11,Made,1,106,88,194,v,McDermott 11' Floating Jump Shot (10 PTS) (Smith Jr. 8 AST),Made Shot,Floating Jump shot,1,2,444
+0021701198,594,PT02M24.00S,4,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,445
+0021701198,595,PT02M24.00S,4,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,h,SUB: McConnell FOR Redick,Substitution,,0,0,446
+0021701198,596,PT02M24.00S,4,1610612755,PHI,201158,Belinelli,M. Belinelli,0,0,0,,0,,,0,h,SUB: Anderson FOR Belinelli,Substitution,,0,0,447
+0021701198,597,PT02M24.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,SUB: Fultz FOR Simmons,Substitution,,0,0,448
+0021701198,598,PT02M24.00S,4,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,SUB: Korkmaz FOR Covington,Substitution,,0,0,449
+0021701198,603,PT02M00.00S,4,1610612755,PHI,1627788,Korkmaz,F. Korkmaz,130,57,14,Missed,1,,,0,h,MISS Korkmaz 14' Jump Shot,Missed Shot,Jump Shot,1,2,450
+0021701198,603,PT02M00.00S,4,1610612742,DAL,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,McDermott BLOCK (1 BLK),,,1,2,451
+0021701198,605,PT01M56.00S,4,1610612742,DAL,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,McDermott REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,452
+0021701198,606,PT01M50.00S,4,1610612742,DAL,1627812,Ferrell,Y. Ferrell,210,155,26,Made,1,106,91,197,v,Ferrell 26' 3PT Jump Shot (6 PTS) (Smith Jr. 9 AST),Made Shot,Jump Shot,1,3,453
+0021701198,608,PT01M34.00S,4,1610612755,PHI,1626147,Anderson,J. Anderson,196,178,26,Missed,1,,,0,h,MISS Anderson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,454
+0021701198,609,PT01M32.00S,4,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,455
+0021701198,610,PT01M21.00S,4,1610612742,DAL,203939,Powell,D. Powell,6,-5,1,Made,1,106,93,199,v,Powell 1' Dunk (13 PTS) (Smith Jr. 10 AST),Made Shot,Dunk Shot,1,2,456
+0021701198,612,PT01M09.00S,4,1610612755,PHI,1626147,Anderson,J. Anderson,168,207,27,Made,1,109,93,202,h,Anderson 27' 3PT Jump Shot (3 PTS) (Fultz 3 AST),Made Shot,Jump Shot,1,3,457
+0021701198,614,PT00M53.50S,4,1610612742,DAL,203084,Barnes,H. Barnes,6,6,1,Made,1,109,95,204,v,Barnes 1' Cutting Dunk Shot (19 PTS) (Smith Jr. 11 AST),Made Shot,Cutting Dunk Shot,1,2,458
+0021701198,616,PT00M32.10S,4,1610612755,PHI,1627788,Korkmaz,F. Korkmaz,-188,207,28,Missed,1,,,0,h,MISS Korkmaz 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,459
+0021701198,618,PT00M29.00S,4,1610612755,PHI,1626147,Anderson,J. Anderson,0,0,0,,0,,,0,h,Anderson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,460
+0021701198,620,PT00M28.40S,4,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Turnover: Shot Clock (T#11),Turnover,Shot Clock Turnover,0,0,461
+0021701198,621,PT00M13.20S,4,1610612742,DAL,203084,Barnes,H. Barnes,-2,21,2,Made,1,109,97,206,v,Barnes 2' Driving Layup (21 PTS),Made Shot,Driving Layup Shot,1,2,462
+0021701198,622,PT00M00.00S,4,0,,0,,,0,0,0,,0,109,97,206,,End of 4th Period (3:13 PM EST),period,end,1,0,463

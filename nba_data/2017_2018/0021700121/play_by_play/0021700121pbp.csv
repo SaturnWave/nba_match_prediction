@@ -1,0 +1,510 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021700121,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:11 PM EST),period,start,0,0,1
+0021700121,4,PT12M00.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Jump Ball Embiid vs. Sabonis: Tip to Simmons,Jump Ball,,1,0,2
+0021700121,7,PT11M39.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,-14,1,1,Missed,1,,,0,h,MISS Embiid 1' Hook Shot,Missed Shot,Hook Shot,1,2,3
+0021700121,8,PT11M35.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,4
+0021700121,9,PT11M20.00S,1,1610612754,IND,201152,Young,T. Young,-8,34,3,Made,1,0,2,2,v,T. Young 3' Floating Jump Shot (2 PTS) (Oladipo 1 AST),Made Shot,Floating Jump shot,1,2,5
+0021700121,12,PT11M10.00S,1,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,Collison P.FOUL (P1.T1) (G.Zielinski),Foul,Personal,1,0,6
+0021700121,14,PT10M58.00S,1,1610612755,PHI,200755,Redick,J. Redick,182,4,18,Made,1,2,2,4,h,Redick 18' Pullup Jump Shot (2 PTS) (Embiid 1 AST),Made Shot,Pullup Jump shot,1,2,7
+0021700121,16,PT10M40.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,8
+0021700121,16,PT10M40.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons STEAL (1 STL),,,1,0,9
+0021700121,18,PT10M36.00S,1,1610612755,PHI,203496,Covington,R. Covington,3,1,0,Made,1,4,2,6,h,Covington Running Dunk (2 PTS) (Simmons 1 AST),Made Shot,Running Dunk Shot,1,2,10
+0021700121,20,PT10M29.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,-74,54,9,Made,1,4,4,8,v,Bogdanovic 9' Running Jump Shot (2 PTS) (Collison 1 AST),Made Shot,Running Jump Shot,1,2,11
+0021700121,22,PT10M20.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,-82,146,17,Made,1,6,4,10,h,Saric 17' Jump Shot (2 PTS) (Simmons 2 AST),Made Shot,Jump Shot,1,2,12
+0021700121,24,PT10M06.00S,1,1610612754,IND,201152,Young,T. Young,-8,7,1,Made,1,6,6,12,v,T. Young 1' Driving Layup (4 PTS) (Oladipo 2 AST),Made Shot,Driving Layup Shot,1,2,13
+0021700121,26,PT09M52.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,7,1,1,Made,1,8,6,14,h,Simmons 1' Dunk (2 PTS) (Embiid 2 AST),Made Shot,Dunk Shot,1,2,14
+0021700121,28,PT09M34.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo Lost Ball Turnover (P2.T2),Turnover,Lost Ball,1,0,15
+0021700121,28,PT09M34.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Embiid STEAL (1 STL),,,1,0,16
+0021700121,30,PT09M29.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,9,34,4,Missed,1,,,0,h,MISS Embiid 4' Layup,Missed Shot,Layup Shot,1,2,17
+0021700121,31,PT09M27.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,18
+0021700121,32,PT09M26.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,11,1,Missed,1,,,0,h,MISS Simmons 1' Layup,Missed Shot,Layup Shot,1,2,19
+0021700121,33,PT09M26.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,20
+0021700121,34,PT09M20.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,0,-6,1,Made,1,10,6,16,h,Saric 1' Tip Layup Shot (4 PTS),Made Shot,Tip Layup Shot,1,2,21
+0021700121,35,PT09M10.00S,1,1610612754,IND,201954,Collison,D. Collison,10,1,1,Missed,1,,,0,v,MISS Collison 1' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,22
+0021700121,35,PT09M10.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons BLOCK (1 BLK),,,1,2,23
+0021700121,37,PT09M10.00S,1,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,24
+0021700121,38,PT09M08.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,80,70,11,Made,1,10,8,18,v,Bogdanovic 11' Step Back Jump Shot (4 PTS) (Oladipo 3 AST),Made Shot,Step Back Jump shot,1,2,25
+0021700121,40,PT08M55.00S,1,1610612755,PHI,200755,Redick,J. Redick,-136,216,26,Missed,1,,,0,h,MISS Redick 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,26
+0021700121,41,PT08M51.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Embiid REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,27
+0021700121,42,PT08M51.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,112,90,14,Made,1,12,8,20,h,Embiid 14' Turnaround Hook Shot (2 PTS),Made Shot,Turnaround Hook Shot,1,2,28
+0021700121,43,PT08M37.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,-90,157,18,Missed,1,,,0,v,MISS Oladipo 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,29
+0021700121,44,PT08M33.00S,1,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,30
+0021700121,45,PT08M27.00S,1,1610612755,PHI,203496,Covington,R. Covington,117,242,27,Missed,1,,,0,h,MISS Covington 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,31
+0021700121,46,PT08M22.00S,1,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,Collison REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,32
+0021700121,47,PT08M20.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,16,11,2,Made,1,12,10,22,v,Bogdanovic 2' Driving Layup (6 PTS),Made Shot,Driving Layup Shot,1,2,33
+0021700121,48,PT08M20.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric S.FOUL (P1.T1) (T.Brown),Foul,Shooting,1,0,34
+0021700121,50,PT08M20.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,12,11,23,v,Bogdanovic Free Throw 1 of 1 (7 PTS),Free Throw,Free Throw 1 of 1,0,0,35
+0021700121,51,PT08M09.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,-138,220,26,Made,1,15,11,26,h,Saric 26' 3PT Jump Shot (7 PTS) (Simmons 3 AST),Made Shot,Jump Shot,1,3,36
+0021700121,53,PT07M49.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,-39,174,18,Missed,1,,,0,v,MISS Sabonis 18' Jump Shot,Missed Shot,Jump Shot,1,2,37
+0021700121,54,PT07M46.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,38
+0021700121,55,PT07M29.00S,1,1610612755,PHI,200755,Redick,J. Redick,-4,14,1,Missed,1,,,0,h,MISS Redick 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,39
+0021700121,56,PT07M27.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,40
+0021700121,57,PT07M22.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,14,-4,1,Missed,1,,,0,v,MISS Bogdanovic 1' Running Layup,Missed Shot,Running Layup Shot,1,2,41
+0021700121,57,PT07M22.00S,1,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington BLOCK (1 BLK),,,1,2,42
+0021700121,59,PT07M18.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Embiid REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,43
+0021700121,60,PT07M14.00S,1,1610612755,PHI,203496,Covington,R. Covington,18,13,2,Made,1,17,11,28,h,Covington 2' Alley Oop Layup (4 PTS) (Redick 1 AST),Made Shot,Alley Oop Layup shot,1,2,44
+0021700121,62,PT06M52.00S,1,1610612754,IND,201152,Young,T. Young,44,60,7,Made,1,17,13,30,v,T. Young 7' Driving Floating Jump Shot (6 PTS),Made Shot,Driving Floating Jump Shot,1,2,45
+0021700121,63,PT06M39.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,44,64,8,Missed,1,,,0,h,MISS Simmons 8' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,46
+0021700121,64,PT06M35.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,47
+0021700121,65,PT06M35.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,-6,1,Missed,1,,,0,h,MISS Simmons 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,48
+0021700121,66,PT06M34.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,49
+0021700121,67,PT06M31.00S,1,1610612754,IND,201954,Collison,D. Collison,190,164,25,Missed,1,,,0,v,MISS Collison 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,50
+0021700121,68,PT06M31.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,51
+0021700121,69,PT06M25.00S,1,1610612755,PHI,203496,Covington,R. Covington,-161,209,26,Made,1,20,13,33,h,Covington 26' 3PT Running Pull-Up Jump Shot (7 PTS) (Simmons 4 AST),Made Shot,Running Pull-Up Jump Shot,1,3,52
+0021700121,71,PT06M17.00S,1,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,53
+0021700121,74,PT06M17.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,SUB: McConnell FOR Embiid,Substitution,,0,0,54
+0021700121,75,PT06M17.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,SUB: Johnson FOR Saric,Substitution,,0,0,55
+0021700121,77,PT06M17.00S,1,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,h,SUB: Bayless FOR Redick,Substitution,,0,0,56
+0021700121,78,PT06M04.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,-54,36,6,Missed,1,,,0,v,MISS Bogdanovic 6' Layup,Missed Shot,Layup Shot,1,2,57
+0021700121,78,PT06M04.00S,1,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,h,Johnson BLOCK (1 BLK),,,1,2,58
+0021700121,80,PT06M01.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,59
+0021700121,81,PT06M00.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,-8,13,2,Made,1,20,15,35,v,Sabonis 2' Layup (2 PTS),Made Shot,Layup Shot,1,2,60
+0021700121,82,PT05M55.00S,1,1610612755,PHI,203496,Covington,R. Covington,-187,157,24,Missed,1,,,0,h,MISS Covington 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,61
+0021700121,83,PT05M45.00S,1,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,62
+0021700121,84,PT05M45.00S,1,1610612755,PHI,101161,Johnson,A. Johnson,0,-6,1,Made,1,22,15,37,h,Johnson 1' Putback Dunk (2 PTS),Made Shot,Putback Dunk Shot,1,2,63
+0021700121,85,PT05M42.00S,1,1610612754,IND,201152,Young,T. Young,-228,-5,0,Missed,1,,,0,v,MISS T. Young 3PT Jump Shot,Missed Shot,Jump Shot,1,3,64
+0021700121,86,PT05M39.00S,1,1610612755,PHI,201573,Bayless,J. Bayless,0,0,0,,0,,,0,h,Bayless REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,65
+0021700121,87,PT05M23.00S,1,1610612755,PHI,201573,Bayless,J. Bayless,25,17,3,Made,1,24,15,39,h,Bayless 3' Cutting Layup Shot (2 PTS) (Simmons 5 AST),Made Shot,Cutting Layup Shot,1,2,66
+0021700121,89,PT05M07.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,-12,15,2,Made,1,24,17,41,v,Sabonis 2' Finger Roll Layup (4 PTS) (Collison 2 AST),Made Shot,Finger Roll Layup Shot,1,2,67
+0021700121,91,PT04M54.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,-116,61,13,Missed,1,,,0,h,MISS Simmons 13' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,68
+0021700121,92,PT04M50.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,69
+0021700121,93,PT04M41.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,-57,272,28,Missed,1,,,0,v,MISS Oladipo 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,70
+0021700121,94,PT04M38.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,71
+0021700121,95,PT04M28.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,72
+0021700121,95,PT04M28.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic STEAL (1 STL),,,1,0,73
+0021700121,97,PT04M24.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,-8,31,3,Made,1,24,19,43,v,Bogdanovic 3' Running Layup (9 PTS),Made Shot,Running Layup Shot,1,2,74
+0021700121,98,PT04M17.00S,1,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington Backcourt Turnover (P1.T2),Turnover,Backcourt Turnover,1,0,75
+0021700121,103,PT04M17.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,SUB: Saric FOR Simmons,Substitution,,0,0,76
+0021700121,104,PT04M17.00S,1,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,SUB: Redick FOR Covington,Substitution,,0,0,77
+0021700121,105,PT04M17.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: Stephenson FOR Sabonis,Substitution,,0,0,78
+0021700121,106,PT04M17.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,SUB: Turner FOR Bogdanovic,Substitution,,0,0,79
+0021700121,107,PT04M09.00S,1,1610612754,IND,201152,Young,T. Young,-36,73,8,Missed,1,,,0,v,MISS T. Young 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,80
+0021700121,108,PT04M07.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,81
+0021700121,109,PT04M01.00S,1,1610612755,PHI,201573,Bayless,J. Bayless,240,71,25,Missed,1,,,0,h,MISS Bayless 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,82
+0021700121,110,PT03M56.00S,1,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,h,Johnson REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,83
+0021700121,111,PT03M55.00S,1,1610612755,PHI,200755,Redick,J. Redick,-73,240,25,Made,1,27,19,46,h,Redick 25' 3PT Jump Shot (5 PTS) (Johnson 1 AST),Made Shot,Jump Shot,1,3,84
+0021700121,113,PT03M47.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,18,11,2,Missed,1,,,0,v,MISS Oladipo 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,85
+0021700121,114,PT03M45.00S,1,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,h,Redick REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,86
+0021700121,115,PT03M41.00S,1,1610612755,PHI,200755,Redick,J. Redick,-135,231,27,Missed,1,,,0,h,MISS Redick 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,87
+0021700121,116,PT03M39.00S,1,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,1,0,88
+0021700121,118,PT03M39.00S,1,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,h,Johnson L.B.FOUL (P1.T2) (S.Twardoski),Foul,Loose Ball,1,0,89
+0021700121,122,PT03M39.00S,1,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,SUB: Joseph FOR Collison,Substitution,,0,0,90
+0021700121,123,PT03M39.00S,1,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,SUB: Leaf FOR T. Young,Substitution,,0,0,91
+0021700121,125,PT03M18.00S,1,1610612754,IND,202709,Joseph,C. Joseph,8,11,1,Missed,1,,,0,v,MISS Joseph 1' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,92
+0021700121,126,PT03M15.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,93
+0021700121,127,PT03M14.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,23,2,Missed,1,,,0,v,MISS Turner 2' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,94
+0021700121,128,PT03M14.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,95
+0021700121,129,PT03M09.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,-57,255,26,Missed,1,,,0,h,MISS Saric 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,96
+0021700121,130,PT03M09.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,97
+0021700121,131,PT03M00.00S,1,1610612754,IND,202362,Stephenson,L. Stephenson,78,185,20,Missed,1,,,0,v,MISS Stephenson 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,98
+0021700121,132,PT02M57.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,99
+0021700121,133,PT02M53.00S,1,1610612755,PHI,204456,McConnell,T. McConnell,40,103,11,Missed,1,,,0,h,MISS McConnell 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,100
+0021700121,134,PT02M50.00S,1,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,Joseph REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,101
+0021700121,135,PT02M40.00S,1,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,Joseph Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,102
+0021700121,135,PT02M40.00S,1,1610612755,PHI,204456,McConnell,T. McConnell,0,0,0,,0,,,0,h,McConnell STEAL (1 STL),,,1,0,103
+0021700121,137,PT02M34.00S,1,1610612755,PHI,201573,Bayless,J. Bayless,111,237,26,Missed,1,,,0,h,MISS Bayless 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,104
+0021700121,137,PT02M34.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner BLOCK (1 BLK),,,1,3,105
+0021700121,139,PT02M30.00S,1,1610612754,IND,1628388,Leaf,T. Leaf,0,0,0,,0,,,0,v,Leaf REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,106
+0021700121,140,PT02M28.00S,1,1610612754,IND,1626167,Turner,M. Turner,-22,25,3,Missed,1,,,0,v,MISS Turner 3' Running Layup,Missed Shot,Running Layup Shot,1,2,107
+0021700121,140,PT02M28.00S,1,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,h,Johnson BLOCK (2 BLK),,,1,2,108
+0021700121,142,PT02M28.00S,1,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,109
+0021700121,143,PT02M28.00S,1,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,110
+0021700121,146,PT02M28.00S,1,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,h,SUB: Embiid FOR Johnson,Substitution,,0,0,111
+0021700121,147,PT02M28.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,SUB: J. Young FOR Oladipo,Substitution,,0,0,112
+0021700121,148,PT02M17.00S,1,1610612754,IND,1626167,Turner,M. Turner,122,148,19,Missed,1,,,0,v,MISS Turner 19' Jump Shot,Missed Shot,Jump Shot,1,2,113
+0021700121,149,PT02M13.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Embiid REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,114
+0021700121,150,PT01M59.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,-60,89,11,Missed,1,,,0,h,MISS Embiid 11' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,115
+0021700121,151,PT01M56.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,116
+0021700121,152,PT01M47.00S,1,1610612754,IND,202362,Stephenson,L. Stephenson,-6,162,16,Made,1,27,21,48,v,Stephenson 16' Step Back Jump Shot (2 PTS),Made Shot,Step Back Jump shot,1,2,117
+0021700121,153,PT01M35.00S,1,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,h,Redick Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,118
+0021700121,153,PT01M35.00S,1,1610612754,IND,1628388,Leaf,T. Leaf,0,0,0,,0,,,0,v,Leaf STEAL (1 STL),,,1,0,119
+0021700121,155,PT01M31.00S,1,1610612754,IND,1628388,Leaf,T. Leaf,0,0,0,,0,,,0,v,Leaf Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,120
+0021700121,155,PT01M31.00S,1,1610612755,PHI,201573,Bayless,J. Bayless,0,0,0,,0,,,0,h,Bayless STEAL (1 STL),,,1,0,121
+0021700121,157,PT01M26.00S,1,1610612755,PHI,200755,Redick,J. Redick,-163,190,25,Missed,1,,,0,h,MISS Redick 25' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,122
+0021700121,158,PT01M22.00S,1,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,Joseph REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,123
+0021700121,159,PT01M17.00S,1,1610612754,IND,1626167,Turner,M. Turner,-182,218,28,Missed,1,,,0,v,MISS Turner 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,124
+0021700121,160,PT01M14.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,125
+0021700121,161,PT01M04.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,132,225,26,Missed,1,,,0,h,MISS Saric 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,126
+0021700121,162,PT01M00.00S,1,1610612754,IND,1626202,Young,J. Young,0,0,0,,0,,,0,v,J. Young REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,127
+0021700121,163,PT00M57.40S,1,1610612754,IND,1626167,Turner,M. Turner,5,1,1,Made,1,27,23,50,v,Turner 1' Running Dunk (2 PTS) (J. Young 1 AST),Made Shot,Running Dunk Shot,1,2,128
+0021700121,165,PT00M40.20S,1,1610612755,PHI,203954,Embiid,J. Embiid,27,8,3,Made,1,29,23,52,h,Embiid 3' Layup (4 PTS) (Redick 2 AST),Made Shot,Layup Shot,1,2,129
+0021700121,167,PT00M32.40S,1,1610612754,IND,1626167,Turner,M. Turner,-14,13,2,Made,1,29,25,54,v,Turner 2' Dunk (4 PTS) (Stephenson 1 AST),Made Shot,Dunk Shot,1,2,130
+0021700121,170,PT00M17.40S,1,1610612754,IND,1626202,Young,J. Young,0,0,0,,0,,,0,v,Pacers T.Foul (Def. 3 Sec J. Young ) (G.Zielinski),Foul,Defense 3 Second,1,0,131
+0021700121,171,PT00M17.40S,1,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,30,25,55,h,Redick Free Throw Technical (6 PTS),Free Throw,Free Throw Technical,0,0,132
+0021700121,172,PT00M05.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Embiid Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,133
+0021700121,172,PT00M05.00S,1,1610612754,IND,202362,Stephenson,L. Stephenson,0,0,0,,0,,,0,v,Stephenson STEAL (1 STL),,,1,0,134
+0021700121,174,PT00M01.80S,1,1610612754,IND,1626202,Young,J. Young,16,5,2,Made,1,30,27,57,v,J. Young 2' Running Layup (2 PTS),Made Shot,Running Layup Shot,1,2,135
+0021700121,175,PT00M01.80S,1,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Embiid FLAGRANT.FOUL.TYPE1 (P1.T3) (T.Brown),Foul,Flagrant Type 1,1,0,136
+0021700121,703,PT00M01.80S,1,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Embiid Turnover Turnover (P2.T5),Turnover,,0,0,137
+0021700121,177,PT00M01.80S,1,0,,175,Lister,A. Lister,0,0,0,,0,30,27,57,,Instant Replay1st Period (7:33 PM EST),Instant Replay,Overturn Ruling,0,0,138
+0021700121,178,PT00M01.80S,1,1610612754,IND,1626202,Young,J. Young,0,0,0,,0,30,28,58,v,J. Young Free Throw Flagrant 1 of 1 (3 PTS),Free Throw,Free Throw Flagrant 1 of 1,0,0,139
+0021700121,180,PT00M00.00S,1,1610612754,IND,202709,Joseph,C. Joseph,-119,25,12,Missed,1,,,0,v,MISS Joseph 12' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,140
+0021700121,181,PT00M00.00S,1,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,141
+0021700121,182,PT00M00.00S,1,0,,0,,,0,0,0,,0,30,28,58,,End of 1st Period (7:35 PM EST),period,end,1,0,142
+0021700121,187,PT12M00.00S,2,0,,0,,,0,0,0,,0,30,28,58,,Start of 2nd Period (7:38 PM EST),period,start,0,0,143
+0021700121,188,PT11M48.00S,2,1610612754,IND,1626167,Turner,M. Turner,-43,162,17,Made,1,30,30,60,v,Turner 17' Jump Shot (6 PTS) (Stephenson 2 AST),Made Shot,Jump Shot,1,2,144
+0021700121,190,PT11M40.00S,2,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric OFF.Foul (P2) (T.Brown),Foul,Offensive,1,0,145
+0021700121,192,PT11M40.00S,2,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric Offensive Foul Turnover (P1.T6),Turnover,Offensive Foul Turnover,1,0,146
+0021700121,194,PT11M40.00S,2,1610612754,IND,1626202,Young,J. Young,0,0,0,,0,,,0,v,SUB: Collison FOR J. Young,Substitution,,0,0,147
+0021700121,195,PT11M33.00S,2,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Embiid S.FOUL (P2.T1) (T.Brown),Foul,Shooting,1,0,148
+0021700121,197,PT11M33.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,MISS Turner Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,149
+0021700121,198,PT11M33.00S,2,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Normal Rebound,0,0,150
+0021700121,199,PT11M33.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,MISS Turner Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,151
+0021700121,200,PT11M30.00S,2,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Embiid REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,152
+0021700121,201,PT11M18.00S,2,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Embiid Traveling Turnover (P3.T7),Turnover,Traveling,1,0,153
+0021700121,202,PT11M09.00S,2,1610612754,IND,202362,Stephenson,L. Stephenson,0,0,0,,0,,,0,v,Stephenson Offensive Charge Foul (P1) (G.Zielinski),Foul,Offensive Charge,1,0,154
+0021700121,204,PT11M09.00S,2,1610612754,IND,202362,Stephenson,L. Stephenson,0,0,0,,0,,,0,v,Stephenson Offensive Foul Turnover (P1.T5),Turnover,Offensive Foul Turnover,1,0,155
+0021700121,205,PT10M59.00S,2,1610612755,PHI,203954,Embiid,J. Embiid,-100,85,13,Missed,1,,,0,h,MISS Embiid 13' Jump Shot,Missed Shot,Jump Shot,1,2,156
+0021700121,205,PT10M59.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner BLOCK (2 BLK),,,1,2,157
+0021700121,207,PT10M56.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,158
+0021700121,208,PT10M54.00S,2,1610612754,IND,1628388,Leaf,T. Leaf,-7,15,2,Made,1,30,32,62,v,Leaf 2' Running Dunk (2 PTS) (Joseph 1 AST),Made Shot,Running Dunk Shot,1,2,159
+0021700121,210,PT10M40.00S,2,1610612755,PHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,-119,218,25,Missed,1,,,0,h,MISS Luwawu-Cabarrot 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,160
+0021700121,211,PT10M36.00S,2,1610612754,IND,202362,Stephenson,L. Stephenson,0,0,0,,0,,,0,v,Stephenson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,161
+0021700121,212,PT10M32.00S,2,1610612754,IND,202709,Joseph,C. Joseph,-237,21,24,Made,1,30,35,65,v,Joseph 24' 3PT Jump Shot (3 PTS) (Collison 3 AST),Made Shot,Jump Shot,1,3,162
+0021700121,214,PT10M15.00S,2,1610612755,PHI,203967,Šarić,D. Šarić,-22,56,6,Missed,1,,,0,h,MISS Saric 6' Hook Shot,Missed Shot,Hook Shot,1,2,163
+0021700121,215,PT10M13.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,164
+0021700121,216,PT10M09.00S,2,1610612754,IND,1628388,Leaf,T. Leaf,-28,23,4,Missed,1,,,0,v,MISS Leaf 4' Jump Shot,Missed Shot,Jump Shot,1,2,165
+0021700121,216,PT10M09.00S,2,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Embiid BLOCK (1 BLK),,,1,2,166
+0021700121,218,PT10M04.00S,2,1610612754,IND,202362,Stephenson,L. Stephenson,0,0,0,,0,,,0,v,Stephenson REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,167
+0021700121,219,PT10M04.00S,2,1610612754,IND,202362,Stephenson,L. Stephenson,0,-6,1,Made,1,30,37,67,v,Stephenson 1' Putback Layup (4 PTS),Made Shot,Putback Layup Shot,1,2,168
+0021700121,220,PT10M04.00S,2,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,169
+0021700121,223,PT10M04.00S,2,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,SUB: McConnell FOR Saric,Substitution,,0,0,170
+0021700121,224,PT10M04.00S,2,1610612754,IND,1628388,Leaf,T. Leaf,0,0,0,,0,,,0,v,SUB: T. Young FOR Leaf,Substitution,,0,0,171
+0021700121,225,PT10M01.00S,2,1610612755,PHI,201573,Bayless,J. Bayless,0,0,0,,0,,,0,h,Jump Ball Bayless vs. Joseph: Tip to Embiid,Jump Ball,,0,0,172
+0021700121,228,PT09M51.00S,2,1610612755,PHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,-152,208,26,Made,1,33,37,70,h,Luwawu-Cabarrot 26' 3PT Jump Shot (3 PTS) (Simmons 6 AST),Made Shot,Jump Shot,1,3,173
+0021700121,230,PT09M35.00S,2,1610612754,IND,1626167,Turner,M. Turner,-3,191,19,Missed,1,,,0,v,MISS Turner 19' Jump Shot,Missed Shot,Jump Shot,1,2,174
+0021700121,231,PT09M31.00S,2,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Embiid REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,175
+0021700121,232,PT09M24.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,-8,40,4,Missed,1,,,0,h,MISS Simmons 4' Running Jump Shot,Missed Shot,Running Jump Shot,1,2,176
+0021700121,233,PT09M23.00S,2,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,Joseph REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,177
+0021700121,234,PT09M19.00S,2,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,Joseph Bad Pass Turnover (P2.T6),Turnover,Bad Pass,1,0,178
+0021700121,234,PT09M19.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons STEAL (2 STL),,,1,0,179
+0021700121,236,PT09M14.00S,2,1610612755,PHI,201573,Bayless,J. Bayless,-3,41,4,Missed,1,,,0,h,MISS Bayless 4' Jump Shot,Missed Shot,Jump Shot,1,2,180
+0021700121,236,PT09M14.00S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young BLOCK (1 BLK),,,1,2,181
+0021700121,238,PT09M13.00S,2,1610612755,PHI,204456,McConnell,T. McConnell,0,0,0,,0,,,0,h,McConnell REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,182
+0021700121,240,PT08M56.00S,2,1610612755,PHI,201573,Bayless,J. Bayless,5,262,26,Missed,1,,,0,h,MISS Bayless 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,183
+0021700121,241,PT08M52.00S,2,1610612754,IND,202362,Stephenson,L. Stephenson,0,0,0,,0,,,0,v,Stephenson REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,184
+0021700121,242,PT08M40.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner Traveling Turnover (P1.T7),Turnover,Traveling,1,0,185
+0021700121,244,PT08M40.00S,2,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,SUB: Johnson FOR Embiid,Substitution,,0,0,186
+0021700121,245,PT08M31.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons OFF.Foul (P1) (T.Brown),Foul,Offensive,1,0,187
+0021700121,247,PT08M31.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons Offensive Foul Turnover (P2.T8),Turnover,Offensive Foul Turnover,1,0,188
+0021700121,249,PT08M31.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,SUB: Sabonis FOR Turner,Substitution,,0,0,189
+0021700121,250,PT08M17.00S,2,1610612754,IND,201954,Collison,D. Collison,2,8,1,Made,1,33,39,72,v,Collison 1' Driving Finger Roll Layup (2 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,190
+0021700121,251,PT07M56.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis P.FOUL (P1.T1) (S.Twardoski),Foul,Personal,1,0,191
+0021700121,254,PT07M56.00S,2,1610612754,IND,202362,Stephenson,L. Stephenson,0,0,0,,0,,,0,v,SUB: Bogdanovic FOR Stephenson,Substitution,,0,0,192
+0021700121,255,PT07M51.00S,2,1610612755,PHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,236,17,24,Made,1,36,39,75,h,Luwawu-Cabarrot 24' 3PT Jump Shot (6 PTS) (Bayless 1 AST),Made Shot,Jump Shot,1,3,193
+0021700121,258,PT07M40.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons Violation:Kicked Ball (G.Zielinski),Violation,Kicked Ball,0,0,194
+0021700121,261,PT07M40.00S,2,1610612755,PHI,201573,Bayless,J. Bayless,0,0,0,,0,,,0,h,SUB: Redick FOR Bayless,Substitution,,0,0,195
+0021700121,262,PT07M40.00S,2,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,SUB: Oladipo FOR Joseph,Substitution,,0,0,196
+0021700121,263,PT07M33.00S,2,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,h,Redick S.FOUL (P1.T2) (G.Zielinski),Foul,Shooting,1,0,197
+0021700121,265,PT07M33.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,MISS Sabonis Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,198
+0021700121,266,PT07M33.00S,2,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Normal Rebound,0,0,199
+0021700121,267,PT07M33.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,36,40,76,v,Sabonis Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,0,0,200
+0021700121,268,PT07M24.00S,2,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,Collison P.FOUL (P2.T2) (G.Zielinski),Foul,Personal,1,0,201
+0021700121,271,PT07M24.00S,2,1610612755,PHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,0,0,0,,0,,,0,h,SUB: Covington FOR Luwawu-Cabarrot,Substitution,,0,0,202
+0021700121,272,PT07M15.00S,2,1610612755,PHI,203496,Covington,R. Covington,-134,151,20,Missed,1,,,0,h,MISS Covington 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,203
+0021700121,273,PT07M12.00S,2,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,204
+0021700121,275,PT07M07.00S,2,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo Bad Pass Turnover (P3.T8),Turnover,Bad Pass,1,0,205
+0021700121,275,PT07M07.00S,2,1610612755,PHI,204456,McConnell,T. McConnell,0,0,0,,0,,,0,h,McConnell STEAL (2 STL),,,1,0,206
+0021700121,277,PT07M02.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons Bad Pass Turnover (P3.T9),Turnover,Bad Pass,1,0,207
+0021700121,277,PT07M02.00S,2,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic STEAL (2 STL),,,1,0,208
+0021700121,279,PT06M51.00S,2,1610612754,IND,201954,Collison,D. Collison,-202,2,20,Missed,1,,,0,v,MISS Collison 20' Jump Shot,Missed Shot,Jump Shot,1,2,209
+0021700121,280,PT06M47.00S,2,1610612755,PHI,204456,McConnell,T. McConnell,0,0,0,,0,,,0,h,McConnell REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,210
+0021700121,281,PT06M40.00S,2,1610612755,PHI,203496,Covington,R. Covington,-146,209,25,Made,1,39,40,79,h,Covington 25' 3PT Jump Shot (10 PTS) (Redick 3 AST),Made Shot,Jump Shot,1,3,211
+0021700121,283,PT06M20.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,-55,101,12,Made,1,39,42,81,v,Sabonis 12' Floating Jump Shot (7 PTS) (Collison 4 AST),Made Shot,Floating Jump shot,1,2,212
+0021700121,285,PT06M12.00S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young P.FOUL (P1.T3) (G.Zielinski),Foul,Personal,1,0,213
+0021700121,288,PT06M12.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,SUB: Saric FOR Simmons,Substitution,,0,0,214
+0021700121,289,PT05M59.00S,2,1610612755,PHI,204456,McConnell,T. McConnell,3,5,1,Made,1,41,42,83,h,McConnell 1' Layup (2 PTS) (Saric 1 AST),Made Shot,Layup Shot,1,2,215
+0021700121,291,PT05M40.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,-25,26,4,Made,1,41,44,85,v,Sabonis 4' Cutting Layup Shot (9 PTS) (Oladipo 4 AST),Made Shot,Cutting Layup Shot,1,2,216
+0021700121,293,PT05M31.00S,2,1610612755,PHI,200755,Redick,J. Redick,-227,-13,0,Made,1,44,44,88,h,Redick 3PT Jump Shot (9 PTS) (McConnell 1 AST),Made Shot,Jump Shot,1,3,217
+0021700121,295,PT05M14.00S,2,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,h,Johnson S.FOUL (P2.T3) (G.Zielinski),Foul,Shooting,1,0,218
+0021700121,297,PT05M14.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,MISS Sabonis Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,219
+0021700121,298,PT05M14.00S,2,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Normal Rebound,0,0,220
+0021700121,299,PT05M14.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,44,45,89,v,Sabonis Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,0,0,221
+0021700121,300,PT05M03.00S,2,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic S.FOUL (P1.T4) (S.Twardoski),Foul,Shooting,1,0,222
+0021700121,302,PT05M03.00S,2,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,MISS Covington Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,223
+0021700121,303,PT05M03.00S,2,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Rebound,Rebound,Normal Rebound,0,0,224
+0021700121,305,PT05M03.00S,2,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,SUB: Joseph FOR Collison,Substitution,,0,0,225
+0021700121,306,PT05M03.00S,2,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,45,45,90,h,Covington Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,0,0,226
+0021700121,307,PT04M50.00S,2,1610612754,IND,203506,Oladipo,V. Oladipo,-11,20,2,Made,1,45,47,92,v,Oladipo 2' Driving Reverse Layup (2 PTS),Made Shot,Driving Reverse Layup Shot,1,2,227
+0021700121,308,PT04M33.00S,2,1610612755,PHI,203967,Šarić,D. Šarić,-131,205,24,Made,1,48,47,95,h,Saric 24' 3PT Jump Shot (10 PTS) (Covington 1 AST),Made Shot,Jump Shot,1,3,228
+0021700121,310,PT04M15.00S,2,1610612754,IND,202711,Bogdanović,B. Bogdanović,130,221,26,Made,1,48,50,98,v,Bogdanovic 26' 3PT Jump Shot (12 PTS) (Oladipo 5 AST),Made Shot,Jump Shot,1,3,229
+0021700121,312,PT04M14.00S,2,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,230
+0021700121,315,PT04M14.00S,2,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,h,SUB: Bayless FOR Johnson,Substitution,,0,0,231
+0021700121,316,PT04M14.00S,2,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,SUB: Embiid FOR Saric,Substitution,,0,0,232
+0021700121,317,PT03M56.00S,2,1610612755,PHI,200755,Redick,J. Redick,-67,179,19,Made,1,50,50,100,h,Redick 19' Jump Shot (11 PTS) (Bayless 2 AST),Made Shot,Jump Shot,1,2,233
+0021700121,319,PT03M42.00S,2,1610612754,IND,203506,Oladipo,V. Oladipo,-61,130,14,Made,1,50,52,102,v,Oladipo 14' Pullup Jump Shot (4 PTS) (Sabonis 1 AST),Made Shot,Pullup Jump shot,1,2,234
+0021700121,321,PT03M18.00S,2,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Embiid Bad Pass Turnover (P4.T10),Turnover,Bad Pass,1,0,235
+0021700121,321,PT03M18.00S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young STEAL (1 STL),,,1,0,236
+0021700121,323,PT03M13.00S,2,1610612754,IND,202709,Joseph,C. Joseph,-20,26,3,Missed,1,,,0,v,MISS Joseph 3' Running Layup,Missed Shot,Running Layup Shot,1,2,237
+0021700121,323,PT03M13.00S,2,1610612755,PHI,201573,Bayless,J. Bayless,0,0,0,,0,,,0,h,Bayless BLOCK (1 BLK),,,1,2,238
+0021700121,324,PT03M11.00S,2,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,239
+0021700121,325,PT03M09.00S,2,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic P.FOUL (P2.PN) (S.Twardoski),Foul,Personal,1,0,240
+0021700121,327,PT03M09.00S,2,1610612755,PHI,204456,McConnell,T. McConnell,0,0,0,,0,51,52,103,h,McConnell Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,241
+0021700121,328,PT03M09.00S,2,1610612755,PHI,204456,McConnell,T. McConnell,0,0,0,,0,,,0,h,MISS McConnell Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,242
+0021700121,330,PT03M06.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,243
+0021700121,331,PT02M56.00S,2,1610612754,IND,202711,Bogdanović,B. Bogdanović,-70,159,17,Missed,1,,,0,v,MISS Bogdanovic 17' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,244
+0021700121,332,PT02M53.00S,2,1610612755,PHI,204456,McConnell,T. McConnell,0,0,0,,0,,,0,h,McConnell REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,245
+0021700121,333,PT02M44.00S,2,1610612755,PHI,203954,Embiid,J. Embiid,-6,13,1,Made,1,53,52,105,h,Embiid 1' Hook Shot (6 PTS) (McConnell 2 AST),Made Shot,Hook Shot,1,2,246
+0021700121,335,PT02M31.00S,2,1610612754,IND,201152,Young,T. Young,-32,69,8,Made,1,53,54,107,v,T. Young 8' Hook Shot (8 PTS) (Sabonis 2 AST),Made Shot,Hook Shot,1,2,247
+0021700121,337,PT02M18.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis S.FOUL (P2.PN) (T.Brown),Foul,Shooting,1,0,248
+0021700121,339,PT02M18.00S,2,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,54,54,108,h,Embiid Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,0,0,249
+0021700121,342,PT02M18.00S,2,1610612755,PHI,204456,McConnell,T. McConnell,0,0,0,,0,,,0,h,SUB: Simmons FOR McConnell,Substitution,,0,0,250
+0021700121,343,PT02M18.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: Turner FOR Sabonis,Substitution,,0,0,251
+0021700121,344,PT02M18.00S,2,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,MISS Embiid Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,252
+0021700121,345,PT02M15.00S,2,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,253
+0021700121,346,PT01M58.00S,2,1610612754,IND,1626167,Turner,M. Turner,37,268,27,Made,1,54,57,111,v,Turner 27' 3PT Jump Shot (9 PTS) (Joseph 2 AST),Made Shot,Jump Shot,1,3,254
+0021700121,348,PT01M45.00S,2,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Embiid OFF.Foul (P3) (S.Twardoski),Foul,Offensive,1,0,255
+0021700121,350,PT01M45.00S,2,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Embiid Offensive Foul Turnover (P5.T11),Turnover,Offensive Foul Turnover,1,0,256
+0021700121,352,PT01M45.00S,2,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,SUB: Johnson FOR Embiid,Substitution,,0,0,257
+0021700121,353,PT01M31.00S,2,1610612754,IND,203506,Oladipo,V. Oladipo,19,21,3,Made,1,54,59,113,v,Oladipo 3' Driving Finger Roll Layup (6 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,258
+0021700121,355,PT01M13.00S,2,1610612755,PHI,203496,Covington,R. Covington,28,274,28,Missed,1,,,0,h,MISS Covington 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,259
+0021700121,356,PT01M10.00S,2,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,Joseph REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,260
+0021700121,357,PT01M05.00S,2,1610612754,IND,202711,Bogdanović,B. Bogdanović,-235,18,24,Missed,1,,,0,v,MISS Bogdanovic 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,261
+0021700121,358,PT01M02.00S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,262
+0021700121,359,PT01M00.00S,2,1610612754,IND,201152,Young,T. Young,-1,41,4,Made,1,54,61,115,v,T. Young 4' Hook Shot (10 PTS),Made Shot,Hook Shot,1,2,263
+0021700121,360,PT00M39.90S,2,1610612755,PHI,200755,Redick,J. Redick,-10,152,15,Missed,1,,,0,h,MISS Redick 15' Jump Shot,Missed Shot,Jump Shot,1,2,264
+0021700121,360,PT00M39.90S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner BLOCK (3 BLK),,,1,2,265
+0021700121,362,PT00M35.70S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,266
+0021700121,363,PT00M30.20S,2,1610612754,IND,203506,Oladipo,V. Oladipo,-161,-4,16,Made,1,54,63,117,v,Oladipo 16' Pullup Jump Shot (8 PTS) (Bogdanovic 1 AST),Made Shot,Pullup Jump shot,1,2,267
+0021700121,365,PT00M13.20S,2,1610612755,PHI,203496,Covington,R. Covington,9,36,4,Made,1,56,63,119,h,Covington 4' Driving Finger Roll Layup (13 PTS) (Simmons 7 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,268
+0021700121,367,PT00M03.70S,2,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,h,Redick Personal Take Foul (P2.T4) (S.Twardoski),Foul,Personal Take,1,0,269
+0021700121,370,PT00M03.70S,2,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,h,SUB: Luwawu-Cabarrot FOR Redick,Substitution,,0,0,270
+0021700121,371,PT00M01.00S,2,1610612754,IND,1626167,Turner,M. Turner,-120,337,36,Missed,1,,,0,v,MISS Turner 36' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,271
+0021700121,372,PT00M01.00S,2,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,272
+0021700121,373,PT00M00.00S,2,0,,0,,,0,0,0,,0,56,63,119,,End of 2nd Period (8:06 PM EST),period,end,1,0,273
+0021700121,384,PT12M00.00S,3,0,,0,,,0,0,0,,0,56,63,119,,Start of 3rd Period (8:21 PM EST),period,start,0,0,274
+0021700121,385,PT11M49.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,35,27,4,Missed,1,,,0,v,MISS Sabonis 4' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,275
+0021700121,386,PT11M45.00S,3,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Embiid REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,276
+0021700121,387,PT11M39.00S,3,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Embiid Out of Bounds - Bad Pass Turnover Turnover (P6.T12),Turnover,Out of Bounds - Bad Pass Turnover,1,0,277
+0021700121,388,PT11M22.00S,3,1610612754,IND,201152,Young,T. Young,-13,84,9,Missed,1,,,0,v,MISS T. Young 9' Jump Shot,Missed Shot,Jump Shot,1,2,278
+0021700121,388,PT11M22.00S,3,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Embiid BLOCK (2 BLK),,,1,2,279
+0021700121,390,PT11M22.00S,3,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,280
+0021700121,391,PT11M15.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,-182,73,20,Made,1,56,65,121,v,Oladipo 20' Turnaround Jump Shot (10 PTS) (Collison 5 AST),Made Shot,Turnaround Jump Shot,1,2,281
+0021700121,393,PT10M59.00S,3,1610612755,PHI,203954,Embiid,J. Embiid,73,57,9,Made,1,58,65,123,h,Embiid 9' Turnaround Fadeaway Bank Jump Shot (9 PTS),Made Shot,Turnaround Fadeaway Bank Jump Shot,1,2,282
+0021700121,394,PT10M59.00S,3,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young S.FOUL (P2.T1) (G.Zielinski),Foul,Shooting,1,0,283
+0021700121,396,PT10M59.00S,3,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,59,65,124,h,Embiid Free Throw 1 of 1 (10 PTS),Free Throw,Free Throw 1 of 1,0,0,284
+0021700121,397,PT10M45.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,-20,25,3,Made,1,59,67,126,v,Sabonis 3' Layup (12 PTS) (T. Young 1 AST),Made Shot,Layup Shot,1,2,285
+0021700121,399,PT10M32.00S,3,1610612755,PHI,200755,Redick,J. Redick,177,174,25,Made,1,62,67,129,h,Redick 25' 3PT Jump Shot (14 PTS) (Embiid 3 AST),Made Shot,Jump Shot,1,3,286
+0021700121,436,PT10M32.00S,3,0,,399,Rooks,S. Rooks,0,0,0,,0,62,67,129,,Instant Replay3rd Period (8:23 PM EST),Instant Replay,Overturn Ruling,0,0,287
+0021700121,401,PT10M24.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis OFF.Foul (P3) (S.Twardoski),Foul,Offensive,1,0,288
+0021700121,403,PT10M24.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis Offensive Foul Turnover (P1.T9),Turnover,Offensive Foul Turnover,1,0,289
+0021700121,404,PT10M13.00S,3,1610612755,PHI,203967,Šarić,D. Šarić,11,-3,1,Made,1,64,67,131,h,Saric 1' Cutting Layup Shot (12 PTS) (Covington 2 AST),Made Shot,Cutting Layup Shot,1,2,290
+0021700121,406,PT09M53.00S,3,1610612754,IND,201954,Collison,D. Collison,105,153,19,Missed,1,,,0,v,MISS Collison 19' Jump Shot,Missed Shot,Jump Shot,1,2,291
+0021700121,407,PT09M50.00S,3,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Embiid REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,292
+0021700121,408,PT09M38.00S,3,1610612755,PHI,203496,Covington,R. Covington,-76,260,27,Made,1,67,67,134,h,Covington 27' 3PT Jump Shot (16 PTS) (Redick 4 AST),Made Shot,Jump Shot,1,3,293
+0021700121,410,PT09M27.00S,3,1610612754,IND,201152,Young,T. Young,92,250,27,Missed,1,,,0,v,MISS T. Young 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,294
+0021700121,411,PT09M24.00S,3,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,295
+0021700121,412,PT09M17.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis P.FOUL (P4.T2) (G.Zielinski),Foul,Personal,1,0,296
+0021700121,415,PT09M17.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: Turner FOR Sabonis,Substitution,,0,0,297
+0021700121,416,PT09M12.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,-35,112,12,Made,1,69,67,136,h,Simmons 12' Pullup Jump Shot (4 PTS),Made Shot,Pullup Jump shot,1,2,298
+0021700121,417,PT08M57.00S,3,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Embiid S.FOUL (P4.T1) (G.Zielinski),Foul,Shooting,1,0,299
+0021700121,419,PT08M57.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,69,68,137,v,Bogdanovic Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,0,0,300
+0021700121,421,PT08M57.00S,3,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,SUB: Holmes FOR Embiid,Substitution,,0,0,301
+0021700121,422,PT08M57.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,69,69,138,v,Bogdanovic Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,0,0,302
+0021700121,423,PT08M42.00S,3,1610612755,PHI,203496,Covington,R. Covington,-150,201,25,Missed,1,,,0,h,MISS Covington 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,303
+0021700121,424,PT08M38.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,304
+0021700121,425,PT08M28.00S,3,1610612754,IND,1626167,Turner,M. Turner,54,255,26,Missed,1,,,0,v,MISS Turner 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,305
+0021700121,426,PT08M25.00S,3,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,Saric REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,306
+0021700121,427,PT08M15.00S,3,1610612755,PHI,200755,Redick,J. Redick,-24,191,19,Made,1,71,69,140,h,Redick 19' Pullup Jump Shot (16 PTS),Made Shot,Pullup Jump shot,1,2,307
+0021700121,428,PT08M07.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,60,137,15,Made,1,71,71,142,v,Oladipo 15' Pullup Jump Shot (12 PTS),Made Shot,Pullup Jump shot,1,2,308
+0021700121,429,PT07M54.00S,3,1610612755,PHI,200755,Redick,J. Redick,60,148,16,Missed,1,,,0,h,MISS Redick 16' Jump Shot,Missed Shot,Jump Shot,1,2,309
+0021700121,430,PT07M54.00S,3,1610612755,PHI,1626158,Holmes,R. Holmes,0,0,0,,0,,,0,h,Holmes REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,310
+0021700121,431,PT07M49.00S,3,1610612755,PHI,1626158,Holmes,R. Holmes,0,-6,1,Made,1,73,71,144,h,Holmes 1' Putback Dunk (2 PTS),Made Shot,Putback Dunk Shot,1,2,311
+0021700121,432,PT07M28.00S,3,1610612754,IND,201954,Collison,D. Collison,-165,205,26,Missed,1,,,0,v,MISS Collison 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,312
+0021700121,433,PT07M24.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,313
+0021700121,434,PT07M22.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,228,32,0,Made,1,73,74,147,v,Oladipo 3PT Jump Shot (15 PTS),Made Shot,Jump Shot,1,3,314
+0021700121,435,PT07M22.00S,3,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,315
+0021700121,438,PT07M22.00S,3,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,SUB: McConnell FOR Saric,Substitution,,0,0,316
+0021700121,439,PT07M14.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons Offensive Charge Foul (P2) (G.Zielinski),Foul,Offensive Charge,1,0,317
+0021700121,441,PT07M14.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons Offensive Foul Turnover (P4.T13),Turnover,Offensive Foul Turnover,1,0,318
+0021700121,442,PT06M54.00S,3,1610612754,IND,1626167,Turner,M. Turner,3,115,12,Missed,1,,,0,v,MISS Turner 12' Hook Shot,Missed Shot,Hook Shot,1,2,319
+0021700121,443,PT06M51.00S,3,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,320
+0021700121,444,PT06M45.00S,3,1610612755,PHI,200755,Redick,J. Redick,6,252,25,Made,1,76,74,150,h,Redick 25' 3PT Jump Shot (19 PTS),Made Shot,Jump Shot,1,3,321
+0021700121,445,PT06M32.00S,3,1610612754,IND,201152,Young,T. Young,0,109,11,Missed,1,,,0,v,MISS T. Young 11' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,322
+0021700121,446,PT06M30.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,323
+0021700121,447,PT06M27.00S,3,1610612755,PHI,200755,Redick,J. Redick,173,193,26,Made,1,79,74,153,h,Redick 26' 3PT Running Jump Shot (22 PTS) (Simmons 8 AST),Made Shot,Running Jump Shot,1,3,324
+0021700121,449,PT06M09.00S,3,1610612754,IND,1626167,Turner,M. Turner,-27,157,16,Missed,1,,,0,v,MISS Turner 16' Jump Shot,Missed Shot,Jump Shot,1,2,325
+0021700121,450,PT06M07.00S,3,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,326
+0021700121,451,PT06M05.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons Offensive Charge Foul (P3) (T.Brown),Foul,Offensive Charge,1,0,327
+0021700121,453,PT06M05.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons Offensive Foul Turnover (P5.T14),Turnover,Offensive Foul Turnover,1,0,328
+0021700121,454,PT05M47.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,1,87,9,Missed,1,,,0,v,MISS Oladipo 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,329
+0021700121,455,PT05M41.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,330
+0021700121,456,PT05M39.00S,3,1610612754,IND,1626167,Turner,M. Turner,-7,17,2,Missed,1,,,0,v,MISS Turner 2' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,331
+0021700121,457,PT05M37.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,332
+0021700121,458,PT05M31.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,-23,53,6,Made,1,81,74,155,h,Simmons 6' Driving Finger Roll Layup (6 PTS) (Redick 5 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,333
+0021700121,460,PT05M31.00S,3,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,334
+0021700121,462,PT05M31.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,SUB: Bayless FOR Simmons,Substitution,,0,0,335
+0021700121,464,PT05M09.00S,3,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington S.FOUL (P1.T2) (S.Twardoski),Foul,Shooting,1,0,336
+0021700121,466,PT05M09.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,MISS Turner Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,337
+0021700121,467,PT05M09.00S,3,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Normal Rebound,0,0,338
+0021700121,468,PT05M09.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,81,75,156,v,Turner Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,0,0,339
+0021700121,469,PT04M54.00S,3,1610612755,PHI,203496,Covington,R. Covington,-121,236,27,Made,1,84,75,159,h,Covington 27' 3PT Jump Shot (19 PTS) (Redick 6 AST),Made Shot,Jump Shot,1,3,340
+0021700121,471,PT04M34.00S,3,1610612754,IND,201152,Young,T. Young,134,227,26,Made,1,84,78,162,v,T. Young 26' 3PT Jump Shot (13 PTS) (Oladipo 6 AST),Made Shot,Jump Shot,1,3,341
+0021700121,473,PT04M22.00S,3,1610612755,PHI,1626158,Holmes,R. Holmes,-43,251,25,Missed,1,,,0,h,MISS Holmes 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,342
+0021700121,474,PT04M18.00S,3,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,343
+0021700121,479,PT04M14.00S,3,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,h,SUB: Simmons FOR Redick,Substitution,,0,0,344
+0021700121,480,PT04M14.00S,3,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,SUB: Luwawu-Cabarrot FOR Covington,Substitution,,0,0,345
+0021700121,481,PT04M14.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,SUB: Stephenson FOR Bogdanovic,Substitution,,0,0,346
+0021700121,483,PT03M59.00S,3,1610612755,PHI,1626158,Holmes,R. Holmes,0,0,0,,0,,,0,h,Holmes S.FOUL (P1.T3) (S.Twardoski),Foul,Shooting,1,0,347
+0021700121,485,PT03M59.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,84,79,163,v,Oladipo Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,0,0,348
+0021700121,486,PT03M59.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,MISS Oladipo Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,349
+0021700121,487,PT03M56.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,350
+0021700121,488,PT03M52.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner S.FOUL (P1.T3) (S.Twardoski),Foul,Shooting,1,0,351
+0021700121,490,PT03M52.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,85,79,164,h,Simmons Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,0,0,352
+0021700121,491,PT03M52.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,86,79,165,h,Simmons Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,353
+0021700121,492,PT03M37.00S,3,1610612754,IND,201954,Collison,D. Collison,-31,82,9,Missed,1,,,0,v,MISS Collison 9' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,354
+0021700121,493,PT03M34.00S,3,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,355
+0021700121,494,PT03M32.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,131,239,27,Missed,1,,,0,v,MISS Oladipo 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,356
+0021700121,495,PT03M29.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,357
+0021700121,496,PT03M25.00S,3,1610612755,PHI,204456,McConnell,T. McConnell,0,0,0,,0,,,0,h,McConnell Traveling Turnover (P1.T15),Turnover,Traveling,1,0,358
+0021700121,498,PT03M25.00S,3,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,SUB: Joseph FOR Collison,Substitution,,0,0,359
+0021700121,499,PT03M04.00S,3,1610612754,IND,201152,Young,T. Young,-3,10,1,Made,1,86,81,167,v,T. Young 1' Cutting Finger Roll Layup Shot (15 PTS) (Joseph 3 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,360
+0021700121,501,PT02M51.00S,3,1610612755,PHI,1626158,Holmes,R. Holmes,49,88,10,Missed,1,,,0,h,MISS Holmes 10' Jump Shot,Missed Shot,Jump Shot,1,2,361
+0021700121,502,PT02M49.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,362
+0021700121,503,PT02M41.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,-140,218,26,Made,1,86,84,170,v,Oladipo 26' 3PT Jump Shot (19 PTS),Made Shot,Jump Shot,1,3,363
+0021700121,504,PT02M26.00S,3,1610612755,PHI,201573,Bayless,J. Bayless,16,46,5,Missed,1,,,0,h,MISS Bayless 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,364
+0021700121,505,PT02M24.00S,3,1610612755,PHI,1626158,Holmes,R. Holmes,0,0,0,,0,,,0,h,Holmes REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,365
+0021700121,506,PT02M23.00S,3,1610612755,PHI,1626158,Holmes,R. Holmes,24,10,3,Missed,1,,,0,h,MISS Holmes 3' Putback Layup,Missed Shot,Putback Layup Shot,1,2,366
+0021700121,507,PT02M23.00S,3,1610612755,PHI,1626158,Holmes,R. Holmes,0,0,0,,0,,,0,h,Holmes REBOUND (Off:3 Def:0),Rebound,Unknown,1,0,367
+0021700121,508,PT02M19.00S,3,1610612755,PHI,1626158,Holmes,R. Holmes,16,23,3,Made,1,88,84,172,h,Holmes 3' Putback Layup (4 PTS),Made Shot,Putback Layup Shot,1,2,368
+0021700121,509,PT02M08.00S,3,1610612755,PHI,201573,Bayless,J. Bayless,0,0,0,,0,,,0,h,Bayless Personal Block Foul (P1.T4) (T.Brown),Foul,Personal Block,1,0,369
+0021700121,511,PT02M05.00S,3,1610612755,PHI,201573,Bayless,J. Bayless,0,0,0,,0,,,0,h,Bayless S.FOUL (P2.PN) (G.Zielinski),Foul,Shooting,1,0,370
+0021700121,513,PT02M05.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,88,85,173,v,Oladipo Free Throw 1 of 3 (20 PTS),Free Throw,Free Throw 1 of 3,0,0,371
+0021700121,514,PT02M05.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,88,86,174,v,Oladipo Free Throw 2 of 3 (21 PTS),Free Throw,Free Throw 2 of 3,0,0,372
+0021700121,516,PT02M05.00S,3,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,SUB: Bogdanovic FOR T. Young,Substitution,,0,0,373
+0021700121,517,PT02M05.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,88,87,175,v,Oladipo Free Throw 3 of 3 (22 PTS),Free Throw,Free Throw 3 of 3,0,0,374
+0021700121,519,PT01M41.00S,3,1610612755,PHI,204456,McConnell,T. McConnell,40,163,17,Missed,1,,,0,h,MISS McConnell 17' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,375
+0021700121,521,PT01M37.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,376
+0021700121,522,PT01M22.00S,3,1610612754,IND,202362,Stephenson,L. Stephenson,226,75,24,Missed,1,,,0,v,MISS Stephenson 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,377
+0021700121,523,PT01M19.00S,3,1610612755,PHI,204456,McConnell,T. McConnell,0,0,0,,0,,,0,h,McConnell REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,378
+0021700121,524,PT01M08.00S,3,1610612755,PHI,1626158,Holmes,R. Holmes,-7,-1,1,Made,1,90,87,177,h,Holmes 1' Alley Oop Dunk (6 PTS) (McConnell 3 AST),Made Shot,Alley Oop Dunk Shot,1,2,379
+0021700121,526,PT00M48.60S,3,1610612754,IND,202709,Joseph,C. Joseph,39,184,19,Made,1,90,89,179,v,Joseph 19' Jump Shot (5 PTS),Made Shot,Jump Shot,1,2,380
+0021700121,527,PT00M35.80S,3,1610612755,PHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,80,236,25,Missed,1,,,0,h,MISS Luwawu-Cabarrot 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,381
+0021700121,528,PT00M33.50S,3,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,382
+0021700121,530,PT00M33.50S,3,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,SUB: J. Young FOR Oladipo,Substitution,,0,0,383
+0021700121,531,PT00M22.00S,3,1610612754,IND,202709,Joseph,C. Joseph,110,163,20,Missed,1,,,0,v,MISS Joseph 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,384
+0021700121,532,PT00M19.60S,3,1610612755,PHI,204456,McConnell,T. McConnell,0,0,0,,0,,,0,h,McConnell REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,385
+0021700121,535,PT00M01.00S,3,1610612754,IND,1626202,Young,J. Young,-134,456,48,Missed,1,,,0,v,MISS J. Young 48' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,386
+0021700121,536,PT00M01.00S,3,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,387
+0021700121,533,PT00M00.60S,3,1610612755,PHI,201573,Bayless,J. Bayless,-103,136,17,Made,1,92,89,181,h,Bayless 17' Pullup Jump Shot (4 PTS) (Holmes 1 AST),Made Shot,Pullup Jump shot,1,2,388
+0021700121,537,PT00M00.00S,3,0,,0,,,0,0,0,,0,92,89,181,,End of 3rd Period (8:48 PM EST),period,end,1,0,389
+0021700121,544,PT12M00.00S,4,0,,0,,,0,0,0,,0,92,89,181,,Start of 4th Period (8:50 PM EST),period,start,0,0,390
+0021700121,545,PT11M39.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,-112,-19,11,Missed,1,,,0,h,MISS Simmons 11' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,391
+0021700121,546,PT11M37.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,392
+0021700121,547,PT11M22.00S,4,1610612754,IND,202711,Bogdanović,B. Bogdanović,-232,130,27,Missed,1,,,0,v,MISS Bogdanovic 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,393
+0021700121,548,PT11M20.00S,4,1610612755,PHI,201573,Bayless,J. Bayless,0,0,0,,0,,,0,h,Bayless REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,394
+0021700121,549,PT11M15.00S,4,1610612755,PHI,203967,Šarić,D. Šarić,203,173,27,Made,1,95,89,184,h,Saric 27' 3PT Jump Shot (15 PTS) (Luwawu-Cabarrot 1 AST),Made Shot,Jump Shot,1,3,395
+0021700121,551,PT10M59.00S,4,1610612754,IND,202362,Stephenson,L. Stephenson,-55,193,20,Made,1,95,91,186,v,Stephenson 20' Jump Shot (6 PTS),Made Shot,Jump Shot,1,2,396
+0021700121,552,PT10M44.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,105,11,11,Made,1,97,91,188,h,Embiid 11' Jump Shot (12 PTS),Made Shot,Jump Shot,1,2,397
+0021700121,553,PT10M29.00S,4,1610612754,IND,202711,Bogdanović,B. Bogdanović,117,234,26,Made,1,97,94,191,v,Bogdanovic 26' 3PT Jump Shot (17 PTS) (Sabonis 3 AST),Made Shot,Jump Shot,1,3,398
+0021700121,555,PT10M13.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,6,2,1,Made,1,99,94,193,h,Simmons 1' Driving Layup (10 PTS) (Embiid 4 AST),Made Shot,Driving Layup Shot,1,2,399
+0021700121,557,PT09M57.00S,4,1610612754,IND,202711,Bogdanović,B. Bogdanović,-62,130,14,Made,1,99,96,195,v,Bogdanovic 14' Step Back Jump Shot (19 PTS),Made Shot,Step Back Jump shot,1,2,400
+0021700121,558,PT09M50.00S,4,1610612755,PHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,0,0,0,,0,,,0,h,Luwawu-Cabarrot OFF.Foul (P1) (G.Zielinski),Foul,Offensive,1,0,401
+0021700121,560,PT09M50.00S,4,1610612755,PHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,0,0,0,,0,,,0,h,Luwawu-Cabarrot Offensive Foul Turnover (P1.T16),Turnover,Offensive Foul Turnover,1,0,402
+0021700121,562,PT09M50.00S,4,1610612754,IND,1626202,Young,J. Young,0,0,0,,0,,,0,v,SUB: T. Young FOR J. Young,Substitution,,0,0,403
+0021700121,563,PT09M41.00S,4,1610612754,IND,202362,Stephenson,L. Stephenson,0,0,0,,0,,,0,v,Stephenson Bad Pass Turnover (P2.T10),Turnover,Bad Pass,1,0,404
+0021700121,563,PT09M41.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Embiid STEAL (2 STL),,,1,0,405
+0021700121,565,PT09M37.00S,4,1610612754,IND,202362,Stephenson,L. Stephenson,0,0,0,,0,,,0,v,Stephenson S.FOUL (P2.T1) (G.Zielinski),Foul,Shooting,1,0,406
+0021700121,567,PT09M37.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,100,96,196,h,Simmons Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,0,0,407
+0021700121,568,PT09M37.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,101,96,197,h,Simmons Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,0,0,408
+0021700121,569,PT09M25.00S,4,1610612754,IND,202709,Joseph,C. Joseph,-133,135,19,Missed,1,,,0,v,MISS Joseph 19' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,409
+0021700121,570,PT09M21.00S,4,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,410
+0021700121,571,PT09M17.00S,4,1610612754,IND,202711,Bogdanović,B. Bogdanović,-231,52,24,Missed,1,,,0,v,MISS Bogdanovic 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,411
+0021700121,572,PT09M15.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,412
+0021700121,573,PT09M11.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis P.FOUL (P5.T2) (S.Twardoski),Foul,Personal,1,0,413
+0021700121,578,PT09M11.00S,4,1610612755,PHI,201573,Bayless,J. Bayless,0,0,0,,0,,,0,h,SUB: McConnell FOR Bayless,Substitution,,0,0,414
+0021700121,579,PT09M11.00S,4,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,h,SUB: Covington FOR Saric,Substitution,,0,0,415
+0021700121,580,PT09M11.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: Turner FOR Sabonis,Substitution,,0,0,416
+0021700121,581,PT09M03.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,-88,89,13,Made,1,103,96,199,h,Simmons 13' Pullup Jump Shot (14 PTS) (McConnell 4 AST),Made Shot,Pullup Jump shot,1,2,417
+0021700121,585,PT08M45.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,SUB: Holmes FOR Embiid,Substitution,,0,0,418
+0021700121,586,PT08M41.00S,4,1610612754,IND,202711,Bogdanović,B. Bogdanović,14,20,2,Made,1,103,98,201,v,Bogdanovic 2' Layup (21 PTS) (Stephenson 3 AST),Made Shot,Layup Shot,1,2,419
+0021700121,588,PT08M34.00S,4,1610612755,PHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,0,0,0,,0,,,0,h,Luwawu-Cabarrot Bad Pass Turnover (P2.T17),Turnover,Bad Pass,1,0,420
+0021700121,588,PT08M34.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner STEAL (1 STL),,,1,0,421
+0021700121,590,PT08M25.00S,4,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington S.FOUL (P2.T1) (S.Twardoski),Foul,Shooting,1,0,422
+0021700121,592,PT08M25.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,103,99,202,v,Turner Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,0,0,423
+0021700121,594,PT08M25.00S,4,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,SUB: Oladipo FOR Bogdanovic,Substitution,,0,0,424
+0021700121,595,PT08M25.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,MISS Turner Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,425
+0021700121,596,PT08M23.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons REBOUND (Off:2 Def:9),Rebound,Unknown,1,0,426
+0021700121,597,PT08M14.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,18,116,12,Missed,1,,,0,h,MISS Simmons 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,427
+0021700121,598,PT08M11.00S,4,1610612755,PHI,1626158,Holmes,R. Holmes,0,0,0,,0,,,0,h,Holmes REBOUND (Off:4 Def:0),Rebound,Unknown,1,0,428
+0021700121,599,PT08M02.00S,4,1610612755,PHI,1626158,Holmes,R. Holmes,5,91,9,Missed,1,,,0,h,MISS Holmes 9' Driving Layup,Missed Shot,Driving Layup Shot,1,2,429
+0021700121,599,PT08M02.00S,4,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,Joseph BLOCK (1 BLK),,,1,2,430
+0021700121,604,PT07M59.00S,4,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Rebound,Rebound,Unknown,0,0,431
+0021700121,601,PT07M59.00S,4,1610612755,PHI,1626158,Holmes,R. Holmes,0,0,0,,0,,,0,h,Jump Ball Holmes vs. Joseph: Tip to Covington,Jump Ball,,0,0,432
+0021700121,607,PT07M49.00S,4,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Turnover: Shot Clock (T#18),Turnover,Shot Clock Turnover,0,0,433
+0021700121,605,PT07M48.00S,4,1610612755,PHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,-2,264,26,Missed,1,,,0,h,MISS Luwawu-Cabarrot 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,434
+0021700121,606,PT07M48.00S,4,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Rebound,Rebound,Unknown,0,0,435
+0021700121,608,PT07M39.00S,4,1610612754,IND,203506,Oladipo,V. Oladipo,121,226,26,Missed,1,,,0,v,MISS Oladipo 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,436
+0021700121,609,PT07M36.00S,4,1610612755,PHI,1626158,Holmes,R. Holmes,0,0,0,,0,,,0,h,Holmes REBOUND (Off:4 Def:1),Rebound,Unknown,1,0,437
+0021700121,610,PT07M31.00S,4,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,438
+0021700121,613,PT07M31.00S,4,1610612755,PHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,0,0,0,,0,,,0,h,SUB: Redick FOR Luwawu-Cabarrot,Substitution,,0,0,439
+0021700121,614,PT07M31.00S,4,1610612755,PHI,1626158,Holmes,R. Holmes,0,0,0,,0,,,0,h,SUB: Embiid FOR Holmes,Substitution,,0,0,440
+0021700121,615,PT07M22.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,-49,28,6,Missed,1,,,0,h,MISS Simmons 6' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,441
+0021700121,616,PT07M20.00S,4,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,442
+0021700121,617,PT07M09.00S,4,1610612754,IND,203506,Oladipo,V. Oladipo,-20,19,3,Made,1,103,101,204,v,Oladipo 3' Driving Floating Bank Jump Shot (24 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,443
+0021700121,618,PT06M56.00S,4,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young P.FOUL (P3.T3) (T.Brown),Foul,Personal,1,0,444
+0021700121,620,PT06M44.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,16,-2,2,Missed,1,,,0,h,MISS Embiid 2' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,445
+0021700121,621,PT06M39.00S,4,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,446
+0021700121,622,PT06M24.00S,4,1610612754,IND,202709,Joseph,C. Joseph,232,67,24,Missed,1,,,0,v,MISS Joseph 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,447
+0021700121,623,PT06M21.00S,4,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,448
+0021700121,624,PT06M13.00S,4,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young P.FOUL (P4.T4) (T.Brown),Foul,Personal,1,0,449
+0021700121,626,PT06M00.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,-19,-4,2,Made,1,105,101,206,h,Embiid 2' Finger Roll Layup (14 PTS),Made Shot,Finger Roll Layup Shot,1,2,450
+0021700121,627,PT06M00.00S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,451
+0021700121,631,PT06M00.00S,4,1610612754,IND,202362,Stephenson,L. Stephenson,0,0,0,,0,,,0,v,SUB: Bogdanovic FOR Stephenson,Substitution,,0,0,452
+0021700121,632,PT06M00.00S,4,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,SUB: Sabonis FOR Joseph,Substitution,,0,0,453
+0021700121,633,PT06M00.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,SUB: Collison FOR Turner,Substitution,,0,0,454
+0021700121,634,PT06M00.00S,4,1610612755,PHI,204456,McConnell,T. McConnell,0,0,0,,0,,,0,h,McConnell P.FOUL (P1.T2) (G.Zielinski),Foul,Personal,1,0,455
+0021700121,636,PT05M49.00S,4,1610612754,IND,203506,Oladipo,V. Oladipo,7,178,18,Missed,1,,,0,v,MISS Oladipo 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,456
+0021700121,637,PT05M47.00S,4,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Rebound,Rebound,Unknown,0,0,457
+0021700121,638,PT05M25.00S,4,1610612755,PHI,200755,Redick,J. Redick,26,13,3,Missed,1,,,0,h,MISS Redick 3' Layup,Missed Shot,Layup Shot,1,2,458
+0021700121,638,PT05M25.00S,4,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo BLOCK (1 BLK),,,1,2,459
+0021700121,640,PT05M22.00S,4,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,460
+0021700121,641,PT05M20.00S,4,1610612754,IND,203506,Oladipo,V. Oladipo,33,34,5,Made,1,105,103,208,v,Oladipo 5' Running Dunk (26 PTS) (Bogdanovic 2 AST),Made Shot,Running Dunk Shot,1,2,461
+0021700121,643,PT05M00.00S,4,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,h,Covington Traveling Turnover (P2.T19),Turnover,Traveling,1,0,462
+0021700121,645,PT05M00.00S,4,1610612755,PHI,204456,McConnell,T. McConnell,0,0,0,,0,,,0,h,SUB: Bayless FOR McConnell,Substitution,,0,0,463
+0021700121,646,PT04M48.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,-25,46,5,Missed,1,,,0,v,MISS Sabonis 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,464
+0021700121,646,PT04M48.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons BLOCK (2 BLK),,,1,2,465
+0021700121,648,PT04M48.00S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,466
+0021700121,649,PT04M39.00S,4,1610612754,IND,203506,Oladipo,V. Oladipo,47,268,27,Made,1,105,106,211,v,Oladipo 27' 3PT Jump Shot (29 PTS),Made Shot,Jump Shot,1,3,467
+0021700121,650,PT04M39.00S,4,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,468
+0021700121,652,PT04M23.00S,4,1610612755,PHI,200755,Redick,J. Redick,-5,257,26,Missed,1,,,0,h,MISS Redick 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,469
+0021700121,653,PT04M19.00S,4,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,Collison REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,470
+0021700121,654,PT04M08.00S,4,1610612754,IND,203506,Oladipo,V. Oladipo,90,162,19,Made,1,105,108,213,v,Oladipo 19' Pullup Jump Shot (31 PTS),Made Shot,Pullup Jump shot,1,2,471
+0021700121,655,PT03M50.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,-7,21,2,Made,1,107,108,215,h,Embiid 2' Driving Layup (16 PTS),Made Shot,Driving Layup Shot,1,2,472
+0021700121,656,PT03M32.00S,4,1610612754,IND,201152,Young,T. Young,-233,38,24,Missed,1,,,0,v,MISS T. Young 24' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,473
+0021700121,657,PT03M29.00S,4,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,h,Redick REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,474
+0021700121,658,PT03M23.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,-8,247,25,Missed,1,,,0,h,MISS Embiid 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,475
+0021700121,660,PT03M19.00S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,476
+0021700121,659,PT03M18.00S,4,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,477
+0021700121,661,PT03M02.00S,4,1610612754,IND,201152,Young,T. Young,-158,215,27,Missed,1,,,0,v,MISS T. Young 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,478
+0021700121,662,PT02M59.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Embiid REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,479
+0021700121,663,PT02M45.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,-10,19,2,Missed,1,,,0,h,MISS Embiid 2' Alley Oop Dunk,Missed Shot,Alley Oop Dunk Shot,1,2,480
+0021700121,664,PT02M43.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,h,Embiid REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,481
+0021700121,665,PT02M39.00S,4,1610612755,PHI,203496,Covington,R. Covington,199,181,27,Made,1,110,108,218,h,Covington 27' 3PT Jump Shot (22 PTS) (Simmons 9 AST),Made Shot,Jump Shot,1,3,482
+0021700121,667,PT02M22.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,3,210,21,Made,1,110,110,220,v,Sabonis 21' Jump Shot (14 PTS) (Oladipo 7 AST),Made Shot,Jump Shot,1,2,483
+0021700121,669,PT02M06.00S,4,1610612755,PHI,200755,Redick,J. Redick,-114,230,26,Made,1,113,110,223,h,Redick 26' 3PT Jump Shot (25 PTS) (Simmons 10 AST),Made Shot,Jump Shot,1,3,484
+0021700121,671,PT01M53.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis OFF.Foul (P6) (S.Twardoski),Foul,Offensive,1,0,485
+0021700121,673,PT01M53.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,Sabonis Offensive Foul Turnover (P2.T11),Turnover,Offensive Foul Turnover,1,0,486
+0021700121,675,PT01M53.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,v,SUB: Turner FOR Sabonis,Substitution,,0,0,487
+0021700121,676,PT01M38.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,-29,-3,3,Missed,1,,,0,h,MISS Embiid 3' Driving Dunk,Missed Shot,Driving Dunk Shot,1,2,488
+0021700121,677,PT01M36.00S,4,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,489
+0021700121,678,PT01M32.00S,4,1610612754,IND,201954,Collison,D. Collison,32,12,3,Missed,1,,,0,v,MISS Collison 3' Running Layup,Missed Shot,Running Layup Shot,1,2,490
+0021700121,678,PT01M32.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,h,Simmons BLOCK (3 BLK),,,1,2,491
+0021700121,680,PT01M23.00S,4,1610612755,PHI,201573,Bayless,J. Bayless,0,0,0,,0,,,0,h,Bayless REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,492
+0021700121,681,PT01M08.00S,4,1610612755,PHI,200755,Redick,J. Redick,199,167,26,Made,1,116,110,226,h,Redick 26' 3PT Jump Shot (28 PTS) (Embiid 5 AST),Made Shot,Jump Shot,1,3,493
+0021700121,683,PT01M08.00S,4,0,,0,,,0,0,0,,0,116,110,226,,Instant Replay4th Period (9:17 PM EST),Instant Replay,Support Ruling,0,0,494
+0021700121,685,PT01M08.00S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,495
+0021700121,686,PT01M01.00S,4,1610612754,IND,203506,Oladipo,V. Oladipo,19,266,27,Missed,1,,,0,v,MISS Oladipo 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,496
+0021700121,688,PT01M01.00S,4,0,,0,,,0,0,0,,0,116,110,226,,Instant Replay4th Period (9:21 PM EST),Instant Replay,Overturn Ruling,0,0,497
+0021700121,687,PT01M00.00S,4,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Rebound,Rebound,Unknown,0,0,498
+0021700121,689,PT00M46.70S,4,1610612755,PHI,200755,Redick,J. Redick,-217,137,26,Made,1,119,110,229,h,Redick 26' 3PT Jump Shot (31 PTS) (Simmons 11 AST),Made Shot,Jump Shot,1,3,499
+0021700121,691,PT00M46.30S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.7 Short 0),Timeout,Regular,0,0,500
+0021700121,692,PT00M46.30S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Turnover: 5 Second Violation (T#12),Turnover,5 Second Violation,0,0,501
+0021700121,693,PT00M46.30S,4,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,502
+0021700121,694,PT00M44.40S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner P.FOUL (P2.PN) (G.Zielinski),Foul,Personal,1,0,503
+0021700121,696,PT00M44.40S,4,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,120,110,230,h,Embiid Free Throw 1 of 2 (17 PTS),Free Throw,Free Throw 1 of 2,1,0,504
+0021700121,697,PT00M44.40S,4,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,121,110,231,h,Embiid Free Throw 2 of 2 (18 PTS),Free Throw,Free Throw 2 of 2,1,0,505
+0021700121,698,PT00M38.10S,4,1610612754,IND,201954,Collison,D. Collison,109,246,27,Missed,1,,,0,v,MISS Collison 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,506
+0021700121,699,PT00M35.30S,4,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,h,Redick REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,507
+0021700121,700,PT00M12.40S,4,0,,1610612755,,,0,0,0,,0,,,0,h,76ERS Turnover: Shot Clock (T#20),Turnover,Shot Clock Turnover,0,0,508
+0021700121,701,PT00M00.00S,4,0,,0,,,0,0,0,,0,121,110,231,,End of 4th Period (9:29 PM EST),period,end,1,0,509

@@ -1,0 +1,470 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021700556,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:11 PM EST),period,start,0,0,1
+0021700556,4,PT12M00.00S,1,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,Jump Ball Gortat vs. Porzingis: Tip to Porter Jr.,Jump Ball,,1,0,2
+0021700556,7,PT11M40.00S,1,1610612764,WAS,202693,Morris,M. Morris,-41,26,5,Made,1,2,0,2,h,Morris 5' Layup (2 PTS) (Gortat 1 AST),Made Shot,Layup Shot,1,2,3
+0021700556,9,PT11M13.00S,1,1610612752,NYK,202683,Freedom,E. Freedom,-14,5,1,Made,1,2,2,4,v,Kanter 1' Layup (2 PTS),Made Shot,Layup Shot,1,2,4
+0021700556,10,PT11M00.00S,1,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,Gortat Traveling Turnover (P1.T1),Turnover,Traveling,1,0,5
+0021700556,11,PT10M52.00S,1,1610612764,WAS,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris P.FOUL (P1.T1) (M.Ayotte),Foul,Personal,1,0,6
+0021700556,13,PT10M40.00S,1,1610612752,NYK,202683,Freedom,E. Freedom,-130,141,19,Missed,1,,,0,v,MISS Kanter 19' Jump Shot,Missed Shot,Jump Shot,1,2,7
+0021700556,14,PT10M38.00S,1,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,h,Beal REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,8
+0021700556,16,PT10M29.00S,1,1610612764,WAS,101162,Gortat,M. Gortat,-8,134,13,Made,1,4,2,6,h,Gortat 13' Jump Shot (2 PTS) (Wall 1 AST),Made Shot,Jump Shot,1,2,9
+0021700556,18,PT10M17.00S,1,1610612752,NYK,202683,Freedom,E. Freedom,13,22,3,Made,1,4,4,8,v,Kanter 3' Cutting Layup Shot (4 PTS) (Jack 1 AST),Made Shot,Cutting Layup Shot,1,2,10
+0021700556,20,PT09M55.00S,1,1610612764,WAS,101162,Gortat,M. Gortat,13,53,5,Made,1,6,4,10,h,Gortat 5' Hook Shot (4 PTS),Made Shot,Hook Shot,1,2,11
+0021700556,21,PT09M38.00S,1,1610612752,NYK,202683,Freedom,E. Freedom,0,0,0,,0,,,0,v,Kanter Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,12
+0021700556,21,PT09M38.00S,1,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,Gortat STEAL (1 STL),,,1,0,13
+0021700556,23,PT09M29.00S,1,1610612764,WAS,203490,Porter Jr.,O. Porter Jr.,172,179,25,Missed,1,,,0,h,MISS Porter Jr. 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,14
+0021700556,24,PT09M26.00S,1,1610612752,NYK,204001,Porziņģis,K. Porziņģis,0,0,0,,0,,,0,v,Porzingis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,15
+0021700556,25,PT09M17.00S,1,1610612752,NYK,101127,Jack,J. Jack,-14,5,1,Made,1,6,6,12,v,Jack 1' Driving Reverse Layup (2 PTS),Made Shot,Driving Reverse Layup Shot,1,2,16
+0021700556,26,PT08M56.00S,1,1610612764,WAS,203490,Porter Jr.,O. Porter Jr.,-186,176,26,Made,1,9,6,15,h,Porter Jr. 26' 3PT Pullup Jump Shot (3 PTS),Made Shot,Pullup Jump shot,1,3,17
+0021700556,27,PT08M38.00S,1,1610612752,NYK,201584,Lee,C. Lee,0,0,0,,0,,,0,v,Lee Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,18
+0021700556,27,PT08M38.00S,1,1610612764,WAS,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. STEAL (1 STL),,,1,0,19
+0021700556,29,PT08M37.00S,1,1610612752,NYK,101127,Jack,J. Jack,0,0,0,,0,,,0,v,Jack Violation:Kicked Ball (M.Ayotte),Violation,Kicked Ball,0,0,20
+0021700556,30,PT08M30.00S,1,1610612764,WAS,203078,Beal,B. Beal,-12,-4,1,Made,1,11,6,17,h,Beal 1' Driving Reverse Layup (2 PTS),Made Shot,Driving Reverse Layup Shot,1,2,21
+0021700556,31,PT08M17.00S,1,1610612752,NYK,101127,Jack,J. Jack,-37,31,5,Missed,1,,,0,v,MISS Jack 5' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,22
+0021700556,32,PT08M17.00S,1,1610612752,NYK,202683,Freedom,E. Freedom,0,0,0,,0,,,0,v,Kanter REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,23
+0021700556,33,PT08M17.00S,1,1610612752,NYK,202683,Freedom,E. Freedom,11,19,2,Made,1,11,8,19,v,Kanter 2' Putback Layup (6 PTS),Made Shot,Putback Layup Shot,1,2,24
+0021700556,34,PT08M17.00S,1,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,Gortat S.FOUL (P1.T2) (B.Taylor),Foul,Shooting,1,0,25
+0021700556,36,PT08M17.00S,1,1610612752,NYK,202683,Freedom,E. Freedom,0,0,0,,0,,,0,v,MISS Kanter Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,0,0,26
+0021700556,37,PT08M13.00S,1,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,Gortat REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,27
+0021700556,38,PT08M04.00S,1,1610612764,WAS,101162,Gortat,M. Gortat,-122,34,13,Made,1,13,8,21,h,Gortat 13' Jump Shot (6 PTS) (Beal 1 AST),Made Shot,Jump Shot,1,2,28
+0021700556,40,PT07M49.00S,1,1610612752,NYK,204001,Porziņģis,K. Porziņģis,-75,200,21,Made,1,13,10,23,v,Porzingis 21' Jump Shot (2 PTS) (Kanter 1 AST),Made Shot,Jump Shot,1,2,29
+0021700556,42,PT07M37.00S,1,1610612764,WAS,101162,Gortat,M. Gortat,9,4,1,Made,1,15,10,25,h,Gortat 1' Cutting Layup Shot (8 PTS) (Wall 2 AST),Made Shot,Cutting Layup Shot,1,2,30
+0021700556,44,PT07M11.00S,1,1610612752,NYK,204001,Porziņģis,K. Porziņģis,-80,169,19,Missed,1,,,0,v,MISS Porzingis 19' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,31
+0021700556,45,PT07M07.00S,1,1610612752,NYK,202498,Thomas,L. Thomas,0,0,0,,0,,,0,v,Thomas REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,32
+0021700556,46,PT07M06.00S,1,1610612752,NYK,202498,Thomas,L. Thomas,1,11,1,Missed,1,,,0,v,MISS Thomas 1' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,33
+0021700556,47,PT07M06.00S,1,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Unknown,0,0,34
+0021700556,48,PT06M56.00S,1,1610612752,NYK,202683,Freedom,E. Freedom,0,0,0,,0,,,0,v,Kanter S.FOUL (P1.T1) (M.Ayotte),Foul,Shooting,1,0,35
+0021700556,50,PT06M56.00S,1,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,36
+0021700556,51,PT06M56.00S,1,1610612764,WAS,202322,Wall,J. Wall,0,0,0,,0,16,10,26,h,Wall Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,37
+0021700556,52,PT06M56.00S,1,1610612764,WAS,202322,Wall,J. Wall,0,0,0,,0,17,10,27,h,Wall Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,38
+0021700556,54,PT06M36.00S,1,1610612752,NYK,101127,Jack,J. Jack,-232,46,24,Missed,1,,,0,v,MISS Jack 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,39
+0021700556,55,PT06M33.00S,1,1610612764,WAS,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,40
+0021700556,56,PT06M20.00S,1,1610612764,WAS,202693,Morris,M. Morris,160,199,26,Missed,1,,,0,h,MISS Morris 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,41
+0021700556,57,PT06M16.00S,1,1610612752,NYK,202683,Freedom,E. Freedom,0,0,0,,0,,,0,v,Kanter REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,42
+0021700556,58,PT06M09.00S,1,1610612752,NYK,204001,Porziņģis,K. Porziņģis,-119,137,18,Made,1,17,12,29,v,Porzingis 18' Jump Shot (4 PTS) (Thomas 1 AST),Made Shot,Jump Shot,1,2,43
+0021700556,60,PT05M59.00S,1,1610612764,WAS,203078,Beal,B. Beal,-127,226,26,Made,1,20,12,32,h,Beal 26' 3PT Jump Shot (5 PTS) (Wall 3 AST),Made Shot,Jump Shot,1,3,44
+0021700556,62,PT05M45.00S,1,1610612752,NYK,201584,Lee,C. Lee,7,260,26,Made,1,20,15,35,v,Lee 26' 3PT Pullup Jump Shot (3 PTS),Made Shot,Pullup Jump shot,1,3,45
+0021700556,63,PT05M28.00S,1,1610612764,WAS,203490,Porter Jr.,O. Porter Jr.,53,0,5,Made,1,22,15,37,h,Porter Jr. 5' Driving Floating Jump Shot (5 PTS),Made Shot,Driving Floating Jump Shot,1,2,46
+0021700556,64,PT05M17.00S,1,1610612752,NYK,201584,Lee,C. Lee,8,115,12,Made,1,22,17,39,v,Lee 12' Driving Floating Jump Shot (5 PTS),Made Shot,Driving Floating Jump Shot,1,2,47
+0021700556,65,PT05M08.00S,1,1610612764,WAS,202322,Wall,J. Wall,0,0,0,,0,,,0,h,Wall Lost Ball Turnover (P1.T2),Turnover,Lost Ball,1,0,48
+0021700556,65,PT05M08.00S,1,1610612752,NYK,201584,Lee,C. Lee,0,0,0,,0,,,0,v,Lee STEAL (1 STL),,,1,0,49
+0021700556,67,PT04M55.00S,1,1610612752,NYK,202683,Freedom,E. Freedom,-16,50,5,Made,1,22,19,41,v,Kanter 5' Turnaround Hook Shot (8 PTS),Made Shot,Turnaround Hook Shot,1,2,50
+0021700556,68,PT04M44.00S,1,1610612752,NYK,202498,Thomas,L. Thomas,0,0,0,,0,,,0,v,Thomas P.FOUL (P1.T2) (M.Ayotte),Foul,Personal,1,0,51
+0021700556,70,PT04M44.00S,1,1610612764,WAS,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,,,0,h,SUB: Oubre Jr. FOR Porter Jr.,Substitution,,0,0,52
+0021700556,71,PT04M44.00S,1,1610612752,NYK,202498,Thomas,L. Thomas,0,0,0,,0,,,0,v,SUB: McDermott FOR Thomas,Substitution,,0,0,53
+0021700556,72,PT04M44.00S,1,1610612752,NYK,201584,Lee,C. Lee,0,0,0,,0,,,0,v,SUB: Baker FOR Lee,Substitution,,0,0,54
+0021700556,76,PT04M40.00S,1,1610612764,WAS,203078,Beal,B. Beal,-1,15,2,Made,1,24,19,43,h,Beal 2' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,55
+0021700556,77,PT04M40.00S,1,1610612752,NYK,202683,Freedom,E. Freedom,0,0,0,,0,,,0,v,Kanter S.FOUL (P2.T3) (M.Ayotte),Foul,Shooting,1,0,56
+0021700556,79,PT04M40.00S,1,1610612752,NYK,202683,Freedom,E. Freedom,0,0,0,,0,,,0,v,SUB: O'Quinn FOR Kanter,Substitution,,0,0,57
+0021700556,81,PT04M40.00S,1,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,25,19,44,h,Beal Free Throw 1 of 1 (8 PTS),Free Throw,Free Throw 1 of 1,0,0,58
+0021700556,82,PT04M27.00S,1,1610612752,NYK,1627758,Baker,R. Baker,-3,22,2,Made,1,25,21,46,v,Baker 2' Reverse Layup (2 PTS) (O'Quinn 1 AST),Made Shot,Reverse Layup Shot,1,2,59
+0021700556,84,PT04M12.00S,1,1610612752,NYK,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,McDermott S.FOUL (P1.T4) (K.Mauer),Foul,Shooting,1,0,60
+0021700556,86,PT04M12.00S,1,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,MISS Gortat Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,61
+0021700556,87,PT04M12.00S,1,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Normal Rebound,0,0,62
+0021700556,88,PT04M12.00S,1,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,MISS Gortat Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,63
+0021700556,89,PT04M10.00S,1,1610612752,NYK,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,64
+0021700556,90,PT04M01.00S,1,1610612752,NYK,101127,Jack,J. Jack,12,-4,1,Made,1,25,23,48,v,Jack 1' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,65
+0021700556,91,PT03M57.00S,1,1610612764,WAS,202322,Wall,J. Wall,5,39,4,Made,1,27,23,50,h,Wall 4' Driving Floating Jump Shot (4 PTS),Made Shot,Driving Floating Jump Shot,1,2,66
+0021700556,92,PT03M57.00S,1,1610612752,NYK,1627758,Baker,R. Baker,0,0,0,,0,,,0,v,Baker S.FOUL (P1.PN) (M.Ayotte),Foul,Shooting,1,0,67
+0021700556,94,PT03M57.00S,1,1610612764,WAS,202322,Wall,J. Wall,0,0,0,,0,,,0,h,MISS Wall Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,0,0,68
+0021700556,95,PT03M55.00S,1,1610612752,NYK,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,69
+0021700556,96,PT03M40.00S,1,1610612752,NYK,204001,Porziņģis,K. Porziņģis,65,271,28,Missed,1,,,0,v,MISS Porzingis 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,70
+0021700556,97,PT03M36.00S,1,1610612752,NYK,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,71
+0021700556,98,PT03M34.00S,1,1610612752,NYK,203124,O'Quinn,K. O'Quinn,17,5,2,Missed,1,,,0,v,MISS O'Quinn 2' Putback Layup,Missed Shot,Putback Layup Shot,1,2,72
+0021700556,99,PT03M34.00S,1,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,Gortat REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,73
+0021700556,100,PT03M22.00S,1,1610612764,WAS,202322,Wall,J. Wall,-2,63,6,Missed,1,,,0,h,MISS Wall 6' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,74
+0021700556,101,PT03M21.00S,1,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,75
+0021700556,102,PT03M21.00S,1,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,Gortat L.B.FOUL (P2.T3) (B.Taylor),Foul,Loose Ball,1,0,76
+0021700556,104,PT03M21.00S,1,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,SUB: Mahinmi FOR Gortat,Substitution,,0,0,77
+0021700556,106,PT03M21.00S,1,1610612752,NYK,101127,Jack,J. Jack,0,0,0,,0,,,0,v,SUB: Ntilikina FOR Jack,Substitution,,0,0,78
+0021700556,108,PT03M09.00S,1,1610612752,NYK,203124,O'Quinn,K. O'Quinn,-75,182,20,Missed,1,,,0,v,MISS O'Quinn 20' Jump Shot,Missed Shot,Jump Shot,1,2,79
+0021700556,109,PT03M06.00S,1,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,h,Beal REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,80
+0021700556,110,PT02M58.00S,1,1610612752,NYK,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,Knicks T.Foul (Def. 3 Sec O'Quinn ) (B.Taylor),Foul,Defense 3 Second,1,0,81
+0021700556,111,PT02M58.00S,1,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,82
+0021700556,112,PT02M58.00S,1,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,h,SUB: Meeks FOR Beal,Substitution,,0,0,83
+0021700556,113,PT02M58.00S,1,1610612764,WAS,202693,Morris,M. Morris,0,0,0,,0,,,0,h,SUB: Scott FOR Morris,Substitution,,0,0,84
+0021700556,116,PT02M58.00S,1,1610612764,WAS,202322,Wall,J. Wall,0,0,0,,0,28,23,51,h,Wall Free Throw Technical (5 PTS),Free Throw,Free Throw Technical,0,0,85
+0021700556,118,PT02M44.00S,1,1610612764,WAS,202322,Wall,J. Wall,-90,168,19,Missed,1,,,0,h,MISS Wall 19' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,86
+0021700556,119,PT02M40.00S,1,1610612752,NYK,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,87
+0021700556,120,PT02M26.00S,1,1610612752,NYK,203124,O'Quinn,K. O'Quinn,-14,9,2,Made,1,28,25,53,v,O'Quinn 2' Cutting Layup Shot (2 PTS) (Ntilikina 1 AST),Made Shot,Cutting Layup Shot,1,2,88
+0021700556,122,PT02M04.00S,1,1610612764,WAS,1626162,Oubre Jr.,K. Oubre Jr.,183,178,26,Missed,1,,,0,h,MISS Oubre Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,89
+0021700556,123,PT02M01.00S,1,1610612752,NYK,204001,Porziņģis,K. Porziņģis,0,0,0,,0,,,0,v,Porzingis REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,90
+0021700556,124,PT01M57.00S,1,1610612764,WAS,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,Oubre Jr. P.FOUL (P1.T4) (B.Taylor),Foul,Personal,1,0,91
+0021700556,126,PT01M57.00S,1,1610612764,WAS,202322,Wall,J. Wall,0,0,0,,0,,,0,h,SUB: Satoransky FOR Wall,Substitution,,0,0,92
+0021700556,128,PT01M52.00S,1,1610612764,WAS,203118,Scott,M. Scott,0,0,0,,0,,,0,h,Scott S.FOUL (P1.PN) (M.Ayotte),Foul,Shooting,1,0,93
+0021700556,130,PT01M52.00S,1,1610612752,NYK,204001,Porziņģis,K. Porziņģis,0,0,0,,0,28,26,54,v,Porzingis Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,0,0,94
+0021700556,131,PT01M52.00S,1,1610612752,NYK,204001,Porziņģis,K. Porziņģis,0,0,0,,0,28,27,55,v,Porzingis Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,0,0,95
+0021700556,132,PT01M37.00S,1,1610612764,WAS,203118,Scott,M. Scott,107,225,25,Made,1,31,27,58,h,Scott 25' 3PT Jump Shot (3 PTS) (Meeks 1 AST),Made Shot,Jump Shot,1,3,96
+0021700556,134,PT01M25.00S,1,1610612764,WAS,203118,Scott,M. Scott,0,0,0,,0,,,0,h,Scott S.FOUL (P2.PN) (K.Mauer),Foul,Shooting,1,0,97
+0021700556,136,PT01M25.00S,1,1610612752,NYK,204001,Porziņģis,K. Porziņģis,0,0,0,,0,31,28,59,v,Porzingis Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,0,0,98
+0021700556,137,PT01M25.00S,1,1610612752,NYK,204001,Porziņģis,K. Porziņģis,0,0,0,,0,31,29,60,v,Porzingis Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,99
+0021700556,153,PT01M16.00S,1,1610612764,WAS,101133,Mahinmi,I. Mahinmi,5,23,2,Missed,1,,,0,h,MISS Mahinmi 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,100
+0021700556,154,PT01M16.00S,1,1610612764,WAS,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,Oubre Jr. REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,101
+0021700556,138,PT01M09.00S,1,1610612764,WAS,1626162,Oubre Jr.,K. Oubre Jr.,-6,15,2,Made,1,33,29,62,h,Oubre Jr. 2' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,102
+0021700556,139,PT01M01.00S,1,1610612764,WAS,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,Oubre Jr. P.FOUL (P2.PN) (M.Ayotte),Foul,Personal,1,0,103
+0021700556,141,PT01M01.00S,1,1610612752,NYK,204001,Porziņģis,K. Porziņģis,0,0,0,,0,,,0,v,MISS Porzingis Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,104
+0021700556,142,PT01M01.00S,1,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Normal Rebound,0,0,105
+0021700556,143,PT01M01.00S,1,1610612752,NYK,204001,Porziņģis,K. Porziņģis,0,0,0,,0,33,30,63,v,Porzingis Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,0,0,106
+0021700556,144,PT00M50.20S,1,1610612764,WAS,101133,Mahinmi,I. Mahinmi,0,0,0,,0,,,0,h,Mahinmi Lost Ball Turnover (P1.T3),Turnover,Lost Ball,1,0,107
+0021700556,144,PT00M50.20S,1,1610612752,NYK,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn STEAL (1 STL),,,1,0,108
+0021700556,146,PT00M44.20S,1,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,28,27,4,Missed,1,,,0,v,MISS Ntilikina 4' Running Layup,Missed Shot,Running Layup Shot,1,2,109
+0021700556,147,PT00M42.90S,1,1610612764,WAS,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,Oubre Jr. REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,110
+0021700556,148,PT00M37.80S,1,1610612764,WAS,1626162,Oubre Jr.,K. Oubre Jr.,-3,1,0,Missed,1,,,0,h,MISS Oubre Jr. Running Layup,Missed Shot,Running Layup Shot,1,2,111
+0021700556,149,PT00M36.00S,1,1610612752,NYK,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,McDermott REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,112
+0021700556,150,PT00M23.70S,1,1610612752,NYK,203124,O'Quinn,K. O'Quinn,3,20,2,Made,1,33,32,65,v,O'Quinn 2' Cutting Dunk Shot (4 PTS) (Baker 1 AST),Made Shot,Cutting Dunk Shot,1,2,113
+0021700556,152,PT00M00.00S,1,0,,0,,,0,0,0,,0,33,32,65,,End of 1st Period (7:37 PM EST),period,end,1,0,114
+0021700556,157,PT12M00.00S,2,0,,0,,,0,0,0,,0,33,32,65,,Start of 2nd Period (7:40 PM EST),period,start,0,0,115
+0021700556,158,PT11M44.00S,2,1610612752,NYK,203926,McDermott,D. McDermott,-5,16,2,Made,1,33,34,67,v,McDermott 2' Reverse Layup (2 PTS) (O'Quinn 2 AST),Made Shot,Reverse Layup Shot,1,2,116
+0021700556,160,PT11M36.00S,2,1610612764,WAS,1626162,Oubre Jr.,K. Oubre Jr.,18,6,2,Missed,1,,,0,h,MISS Oubre Jr. 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,117
+0021700556,161,PT11M36.00S,2,1610612752,NYK,201563,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,118
+0021700556,163,PT11M20.00S,2,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,67,262,27,Made,1,33,37,70,v,Ntilikina 27' 3PT Pullup Jump Shot (3 PTS),Made Shot,Pullup Jump shot,1,3,119
+0021700556,164,PT11M02.00S,2,1610612764,WAS,203107,Satoransky,T. Satoransky,-95,39,10,Missed,1,,,0,h,MISS Satoransky 10' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,120
+0021700556,165,PT10M59.00S,2,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,Satoransky REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,121
+0021700556,166,PT10M55.00S,2,1610612764,WAS,201975,Meeks,J. Meeks,47,31,6,Missed,1,,,0,h,MISS Meeks 6' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,122
+0021700556,167,PT10M54.00S,2,1610612764,WAS,101133,Mahinmi,I. Mahinmi,0,0,0,,0,,,0,h,Mahinmi REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,123
+0021700556,168,PT10M54.00S,2,1610612752,NYK,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn S.FOUL (P1.T1) (K.Mauer),Foul,Shooting,1,0,124
+0021700556,170,PT10M54.00S,2,1610612764,WAS,101133,Mahinmi,I. Mahinmi,0,0,0,,0,,,0,h,MISS Mahinmi Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,125
+0021700556,171,PT10M54.00S,2,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Normal Rebound,0,0,126
+0021700556,172,PT10M54.00S,2,1610612764,WAS,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,SUB: Porter Jr. FOR Oubre Jr.,Substitution,,0,0,127
+0021700556,174,PT10M54.00S,2,1610612764,WAS,101133,Mahinmi,I. Mahinmi,0,0,0,,0,34,37,71,h,Mahinmi Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,0,0,128
+0021700556,175,PT10M41.00S,2,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,Satoransky S.FOUL (P1.T1) (K.Mauer),Foul,Shooting,1,0,129
+0021700556,177,PT10M41.00S,2,1610612752,NYK,203926,McDermott,D. McDermott,0,0,0,,0,34,38,72,v,McDermott Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,130
+0021700556,178,PT10M41.00S,2,1610612752,NYK,203926,McDermott,D. McDermott,0,0,0,,0,34,39,73,v,McDermott Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,131
+0021700556,179,PT10M21.00S,2,1610612764,WAS,203490,Porter Jr.,O. Porter Jr.,227,49,0,Missed,1,,,0,h,MISS Porter Jr. 3PT Jump Shot,Missed Shot,Jump Shot,1,3,132
+0021700556,180,PT10M17.00S,2,1610612752,NYK,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,133
+0021700556,181,PT09M59.00S,2,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,45,171,18,Made,1,34,41,75,v,Ntilikina 18' Turnaround Fadeaway (5 PTS),Made Shot,Turnaround Fadeaway shot,1,2,134
+0021700556,182,PT09M56.00S,2,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,135
+0021700556,183,PT09M56.00S,2,1610612764,WAS,201975,Meeks,J. Meeks,0,0,0,,0,,,0,h,SUB: Wall FOR Meeks,Substitution,,0,0,136
+0021700556,184,PT09M56.00S,2,1610612764,WAS,101133,Mahinmi,I. Mahinmi,0,0,0,,0,,,0,h,SUB: Gortat FOR Mahinmi,Substitution,,0,0,137
+0021700556,185,PT09M56.00S,2,1610612764,WAS,203118,Scott,M. Scott,0,0,0,,0,,,0,h,SUB: Morris FOR Scott,Substitution,,0,0,138
+0021700556,186,PT09M56.00S,2,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,SUB: Beal FOR Satoransky,Substitution,,0,0,139
+0021700556,191,PT09M46.00S,2,1610612764,WAS,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris Out of Bounds Lost Ball Turnover (P1.T4),Turnover,Out of Bounds Lost Ball Turnover,1,0,140
+0021700556,192,PT09M27.00S,2,1610612752,NYK,201563,Beasley,M. Beasley,145,124,19,Made,1,34,43,77,v,Beasley 19' Jump Shot (2 PTS),Made Shot,Jump Shot,1,2,141
+0021700556,193,PT09M08.00S,2,1610612764,WAS,203490,Porter Jr.,O. Porter Jr.,-220,120,25,Made,1,37,43,80,h,Porter Jr. 25' 3PT Jump Shot (8 PTS) (Wall 4 AST),Made Shot,Jump Shot,1,3,142
+0021700556,195,PT08M46.00S,2,1610612752,NYK,203926,McDermott,D. McDermott,-226,22,0,Missed,1,,,0,v,MISS McDermott 3PT Jump Shot,Missed Shot,Jump Shot,1,3,143
+0021700556,196,PT08M43.00S,2,1610612764,WAS,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,144
+0021700556,197,PT08M38.00S,2,1610612764,WAS,202322,Wall,J. Wall,0,0,0,,0,,,0,h,Wall Lost Ball Turnover (P2.T5),Turnover,Lost Ball,1,0,145
+0021700556,197,PT08M38.00S,2,1610612752,NYK,201563,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley STEAL (1 STL),,,1,0,146
+0021700556,199,PT08M32.00S,2,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,1,11,1,Made,1,37,45,82,v,Ntilikina 1' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,147
+0021700556,200,PT08M17.00S,2,1610612764,WAS,203078,Beal,B. Beal,2,127,13,Made,1,39,45,84,h,Beal 13' Pullup Jump Shot (10 PTS),Made Shot,Pullup Jump shot,1,2,148
+0021700556,201,PT08M17.00S,2,1610612752,NYK,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn S.FOUL (P2.T2) (B.Taylor),Foul,Shooting,1,0,149
+0021700556,203,PT08M17.00S,2,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,40,45,85,h,Beal Free Throw 1 of 1 (11 PTS),Free Throw,Free Throw 1 of 1,0,0,150
+0021700556,204,PT08M06.00S,2,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,-59,247,25,Missed,1,,,0,v,MISS Ntilikina 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,151
+0021700556,205,PT08M03.00S,2,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,Gortat REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,152
+0021700556,206,PT07M54.00S,2,1610612764,WAS,101162,Gortat,M. Gortat,11,12,2,Made,1,42,45,87,h,Gortat 2' Cutting Finger Roll Layup Shot (10 PTS) (Beal 2 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,153
+0021700556,208,PT07M38.00S,2,1610612752,NYK,201563,Beasley,M. Beasley,-124,30,13,Made,1,42,47,89,v,Beasley 13' Fadeaway Jumper (4 PTS),Made Shot,Fadeaway Jump Shot,1,2,154
+0021700556,209,PT07M26.00S,2,1610612764,WAS,101162,Gortat,M. Gortat,-6,20,2,Made,1,44,47,91,h,Gortat 2' Driving Layup (12 PTS) (Beal 3 AST),Made Shot,Driving Layup Shot,1,2,155
+0021700556,211,PT07M26.00S,2,1610612752,NYK,201563,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley S.FOUL (P1.T3) (K.Mauer),Foul,Shooting,1,0,156
+0021700556,213,PT07M26.00S,2,1610612752,NYK,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,SUB: Lee FOR O'Quinn,Substitution,,0,0,157
+0021700556,214,PT07M26.00S,2,1610612752,NYK,1627758,Baker,R. Baker,0,0,0,,0,,,0,v,SUB: Kanter FOR Baker,Substitution,,0,0,158
+0021700556,217,PT07M26.00S,2,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,45,47,92,h,Gortat Free Throw 1 of 1 (13 PTS),Free Throw,Free Throw 1 of 1,0,0,159
+0021700556,218,PT07M09.00S,2,1610612752,NYK,201563,Beasley,M. Beasley,111,236,26,Missed,1,,,0,v,MISS Beasley 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,160
+0021700556,219,PT07M04.00S,2,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,Gortat REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,161
+0021700556,220,PT06M53.00S,2,1610612764,WAS,101162,Gortat,M. Gortat,58,54,8,Missed,1,,,0,h,MISS Gortat 8' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,162
+0021700556,220,PT06M53.00S,2,1610612752,NYK,201563,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley BLOCK (1 BLK),,,1,2,163
+0021700556,222,PT06M50.00S,2,1610612764,WAS,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,164
+0021700556,223,PT06M50.00S,2,1610612752,NYK,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,McDermott S.FOUL (P2.T4) (M.Ayotte),Foul,Shooting,1,0,165
+0021700556,225,PT06M50.00S,2,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,46,47,93,h,Gortat Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,0,0,166
+0021700556,226,PT06M50.00S,2,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,SUB: Jack FOR Ntilikina,Substitution,,0,0,167
+0021700556,227,PT06M50.00S,2,1610612752,NYK,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,SUB: Porzingis FOR McDermott,Substitution,,0,0,168
+0021700556,230,PT06M50.00S,2,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,MISS Gortat Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,169
+0021700556,231,PT06M47.00S,2,1610612752,NYK,204001,Porziņģis,K. Porziņģis,0,0,0,,0,,,0,v,Porzingis REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,170
+0021700556,232,PT06M31.00S,2,1610612752,NYK,201563,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,171
+0021700556,232,PT06M31.00S,2,1610612764,WAS,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. STEAL (2 STL),,,1,0,172
+0021700556,234,PT06M25.00S,2,1610612764,WAS,202322,Wall,J. Wall,201,141,25,Missed,1,,,0,h,MISS Wall 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,173
+0021700556,235,PT06M22.00S,2,1610612752,NYK,201563,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,174
+0021700556,236,PT06M11.00S,2,1610612752,NYK,204001,Porziņģis,K. Porziņģis,0,0,0,,0,,,0,v,Porzingis Lost Ball Turnover (P1.T4),Turnover,Lost Ball,1,0,175
+0021700556,236,PT06M11.00S,2,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,h,Beal STEAL (1 STL),,,1,0,176
+0021700556,238,PT06M04.00S,2,1610612764,WAS,203078,Beal,B. Beal,-203,163,26,Made,1,49,47,96,h,Beal 26' 3PT Jump Shot (14 PTS) (Wall 5 AST),Made Shot,Jump Shot,1,3,177
+0021700556,240,PT06M02.00S,2,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,178
+0021700556,241,PT05M42.00S,2,1610612752,NYK,202683,Freedom,E. Freedom,1,22,2,Missed,1,,,0,v,MISS Kanter 2' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,179
+0021700556,242,PT05M40.00S,2,1610612752,NYK,202683,Freedom,E. Freedom,0,0,0,,0,,,0,v,Kanter REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,180
+0021700556,243,PT05M40.00S,2,1610612752,NYK,202683,Freedom,E. Freedom,8,10,1,Made,1,49,49,98,v,Kanter 1' Putback Layup (10 PTS),Made Shot,Putback Layup Shot,1,2,181
+0021700556,244,PT05M23.00S,2,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,Gortat Lost Ball Turnover (P2.T6),Turnover,Lost Ball,1,0,182
+0021700556,244,PT05M23.00S,2,1610612752,NYK,201563,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley STEAL (2 STL),,,1,0,183
+0021700556,248,PT05M19.00S,2,1610612752,NYK,101127,Jack,J. Jack,9,41,4,Missed,1,,,0,v,MISS Jack 4' Running Layup,Missed Shot,Running Layup Shot,1,2,184
+0021700556,250,PT05M18.00S,2,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,185
+0021700556,251,PT05M15.00S,2,1610612752,NYK,204001,Porziņģis,K. Porziņģis,138,243,28,Made,1,49,52,101,v,Porzingis 28' 3PT Jump Shot (12 PTS) (Lee 1 AST),Made Shot,Jump Shot,1,3,186
+0021700556,253,PT04M58.00S,2,1610612764,WAS,202693,Morris,M. Morris,-234,26,24,Missed,1,,,0,h,MISS Morris 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,187
+0021700556,254,PT04M58.00S,2,1610612752,NYK,201563,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,188
+0021700556,255,PT04M52.00S,2,1610612752,NYK,101127,Jack,J. Jack,0,0,0,,0,,,0,v,Jack Out of Bounds - Bad Pass Turnover Turnover (P1.T5),Turnover,Out of Bounds - Bad Pass Turnover,1,0,189
+0021700556,256,PT04M42.00S,2,1610612764,WAS,203078,Beal,B. Beal,8,164,16,Made,1,51,52,103,h,Beal 16' Jump Shot (16 PTS),Made Shot,Jump Shot,1,2,190
+0021700556,257,PT04M28.00S,2,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,Gortat S.FOUL (P3.T2) (M.Ayotte),Foul,Shooting,1,0,191
+0021700556,259,PT04M28.00S,2,1610612752,NYK,202683,Freedom,E. Freedom,0,0,0,,0,51,53,104,v,Kanter Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,0,0,192
+0021700556,260,PT04M28.00S,2,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,SUB: Mahinmi FOR Gortat,Substitution,,0,0,193
+0021700556,262,PT04M28.00S,2,1610612752,NYK,202683,Freedom,E. Freedom,0,0,0,,0,51,54,105,v,Kanter Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,0,0,194
+0021700556,263,PT04M16.00S,2,1610612764,WAS,101133,Mahinmi,I. Mahinmi,-1,2,0,Made,1,53,54,107,h,Mahinmi Cutting Layup Shot (3 PTS) (Wall 6 AST),Made Shot,Cutting Layup Shot,1,2,195
+0021700556,265,PT04M05.00S,2,1610612752,NYK,204001,Porziņģis,K. Porziņģis,20,267,27,Missed,1,,,0,v,MISS Porzingis 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,196
+0021700556,266,PT04M04.00S,2,1610612764,WAS,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,197
+0021700556,267,PT03M59.00S,2,1610612764,WAS,202322,Wall,J. Wall,-1,8,1,Made,1,55,54,109,h,Wall 1' Running Layup (7 PTS),Made Shot,Running Layup Shot,1,2,198
+0021700556,268,PT03M56.00S,2,1610612764,WAS,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris Personal Take Foul (P2.T3) (B.Taylor),Foul,Personal Take,1,0,199
+0021700556,270,PT03M42.00S,2,1610612752,NYK,201584,Lee,C. Lee,-55,197,20,Missed,1,,,0,v,MISS Lee 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,200
+0021700556,271,PT03M39.00S,2,1610612764,WAS,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,201
+0021700556,272,PT03M36.00S,2,1610612764,WAS,203490,Porter Jr.,O. Porter Jr.,-125,139,19,Missed,1,,,0,h,MISS Porter Jr. 19' Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,2,202
+0021700556,273,PT03M33.00S,2,1610612752,NYK,204001,Porziņģis,K. Porziņģis,0,0,0,,0,,,0,v,Porzingis REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,203
+0021700556,274,PT03M26.00S,2,1610612752,NYK,101127,Jack,J. Jack,0,21,2,Made,1,55,56,111,v,Jack 2' Reverse Layup (6 PTS) (Lee 2 AST),Made Shot,Reverse Layup Shot,1,2,204
+0021700556,276,PT02M57.00S,2,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Turnover: Shot Clock (T#7),Turnover,Shot Clock Turnover,0,0,205
+0021700556,277,PT02M42.00S,2,1610612752,NYK,201584,Lee,C. Lee,84,238,25,Made,1,55,59,114,v,Lee 25' 3PT Jump Shot (8 PTS) (Jack 2 AST),Made Shot,Jump Shot,1,3,206
+0021700556,312,PT02M42.00S,2,0,,277,,,0,0,0,,0,55,59,114,,Instant Replay2nd Period (8:01 PM EST),Instant Replay,Overturn Ruling,0,0,207
+0021700556,279,PT02M29.00S,2,1610612764,WAS,202322,Wall,J. Wall,5,1,1,Made,1,57,59,116,h,Wall 1' Driving Layup (9 PTS),Made Shot,Driving Layup Shot,1,2,208
+0021700556,280,PT02M29.00S,2,1610612752,NYK,202683,Freedom,E. Freedom,0,0,0,,0,,,0,v,Kanter S.FOUL (P3.PN) (K.Mauer),Foul,Shooting,1,0,209
+0021700556,282,PT02M29.00S,2,1610612752,NYK,202683,Freedom,E. Freedom,0,0,0,,0,,,0,v,SUB: O'Quinn FOR Kanter,Substitution,,0,0,210
+0021700556,284,PT02M29.00S,2,1610612764,WAS,202322,Wall,J. Wall,0,0,0,,0,58,59,117,h,Wall Free Throw 1 of 1 (10 PTS),Free Throw,Free Throw 1 of 1,0,0,211
+0021700556,285,PT02M11.00S,2,1610612752,NYK,203124,O'Quinn,K. O'Quinn,2,14,1,Made,1,58,61,119,v,O'Quinn 1' Cutting Layup Shot (6 PTS) (Beasley 1 AST),Made Shot,Cutting Layup Shot,1,2,212
+0021700556,287,PT01M52.00S,2,1610612764,WAS,203078,Beal,B. Beal,-188,-13,19,Made,1,60,61,121,h,Beal 19' Pullup Jump Shot (18 PTS),Made Shot,Pullup Jump shot,1,2,213
+0021700556,288,PT01M39.00S,2,1610612752,NYK,101127,Jack,J. Jack,-13,36,4,Missed,1,,,0,v,MISS Jack 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,214
+0021700556,288,PT01M39.00S,2,1610612764,WAS,101133,Mahinmi,I. Mahinmi,0,0,0,,0,,,0,h,Mahinmi BLOCK (1 BLK),,,1,2,215
+0021700556,290,PT01M35.00S,2,1610612764,WAS,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,216
+0021700556,291,PT01M26.00S,2,1610612764,WAS,202322,Wall,J. Wall,-18,16,2,Missed,1,,,0,h,MISS Wall 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,217
+0021700556,291,PT01M26.00S,2,1610612752,NYK,201563,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley BLOCK (2 BLK),,,1,2,218
+0021700556,293,PT01M22.00S,2,1610612752,NYK,201563,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,219
+0021700556,294,PT01M20.00S,2,1610612752,NYK,201563,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley Out of Bounds Lost Ball Turnover (P2.T6),Turnover,Out of Bounds Lost Ball Turnover,1,0,220
+0021700556,295,PT01M08.00S,2,1610612764,WAS,202322,Wall,J. Wall,0,10,1,Made,1,62,61,123,h,Wall 1' Cutting Layup Shot (12 PTS) (Porter Jr. 1 AST),Made Shot,Cutting Layup Shot,1,2,221
+0021700556,297,PT00M54.90S,2,1610612764,WAS,101133,Mahinmi,I. Mahinmi,0,0,0,,0,,,0,h,Mahinmi P.FOUL (P1.T4) (K.Mauer),Foul,Personal,1,0,222
+0021700556,299,PT00M45.80S,2,1610612752,NYK,204001,Porziņģis,K. Porziņģis,0,0,0,,0,,,0,v,Porzingis Bad Pass Turnover (P2.T7),Turnover,Bad Pass,1,0,223
+0021700556,299,PT00M45.80S,2,1610612764,WAS,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. STEAL (3 STL),,,1,0,224
+0021700556,301,PT00M43.40S,2,1610612764,WAS,101133,Mahinmi,I. Mahinmi,0,0,0,,0,,,0,h,Mahinmi Bad Pass Turnover (P2.T8),Turnover,Bad Pass,1,0,225
+0021700556,301,PT00M43.40S,2,1610612752,NYK,201584,Lee,C. Lee,0,0,0,,0,,,0,v,Lee STEAL (2 STL),,,1,0,226
+0021700556,303,PT00M39.00S,2,1610612752,NYK,204001,Porziņģis,K. Porziņģis,44,52,7,Made,1,62,63,125,v,Porzingis 7' Cutting Layup Shot (14 PTS) (Lee 3 AST),Made Shot,Cutting Layup Shot,1,2,227
+0021700556,305,PT00M33.90S,2,1610612764,WAS,202322,Wall,J. Wall,144,125,19,Missed,1,,,0,h,MISS Wall 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,228
+0021700556,306,PT00M33.90S,2,1610612752,NYK,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,229
+0021700556,307,PT00M11.40S,2,1610612752,NYK,201563,Beasley,M. Beasley,-143,80,16,Missed,1,,,0,v,MISS Beasley 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,230
+0021700556,308,PT00M08.30S,2,1610612764,WAS,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,231
+0021700556,309,PT00M03.50S,2,1610612764,WAS,203078,Beal,B. Beal,-169,257,31,Missed,1,,,0,h,MISS Beal 31' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,232
+0021700556,310,PT00M03.50S,2,1610612764,WAS,202322,Wall,J. Wall,0,0,0,,0,,,0,h,Wall REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,233
+0021700556,311,PT00M00.30S,2,1610612764,WAS,202322,Wall,J. Wall,160,-9,16,Made,1,64,63,127,h,Wall 16' Fadeaway Jumper (14 PTS),Made Shot,Fadeaway Jump Shot,1,2,234
+0021700556,313,PT00M00.00S,2,0,,311,,,0,0,0,,0,64,63,127,,Instant Replay2nd Period (8:06 PM EST),Instant Replay,Support Ruling,0,0,235
+0021700556,314,PT00M00.00S,2,0,,0,,,0,0,0,,0,64,63,127,,End of 2nd Period (8:07 PM EST),period,end,1,0,236
+0021700556,321,PT12M00.00S,3,0,,0,,,0,0,0,,0,64,63,127,,Start of 3rd Period (8:21 PM EST),period,start,0,0,237
+0021700556,322,PT11M43.00S,3,1610612752,NYK,202498,Thomas,L. Thomas,0,0,0,,0,,,0,v,Thomas Bad Pass Turnover (P1.T8),Turnover,Bad Pass,1,0,238
+0021700556,322,PT11M43.00S,3,1610612764,WAS,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris STEAL (1 STL),,,1,0,239
+0021700556,324,PT11M32.00S,3,1610612764,WAS,202322,Wall,J. Wall,30,62,7,Missed,1,,,0,h,MISS Wall 7' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,240
+0021700556,325,PT11M30.00S,3,1610612752,NYK,202683,Freedom,E. Freedom,0,0,0,,0,,,0,v,Kanter REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,241
+0021700556,326,PT11M25.00S,3,1610612752,NYK,204001,Porziņģis,K. Porziņģis,-120,246,27,Missed,1,,,0,v,MISS Porzingis 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,242
+0021700556,327,PT11M25.00S,3,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,Gortat REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,243
+0021700556,328,PT11M08.00S,3,1610612764,WAS,101162,Gortat,M. Gortat,-4,11,1,Made,1,66,63,129,h,Gortat 1' Cutting Layup Shot (16 PTS) (Porter Jr. 2 AST),Made Shot,Cutting Layup Shot,1,2,244
+0021700556,330,PT10M55.00S,3,1610612752,NYK,204001,Porziņģis,K. Porziņģis,0,0,0,,0,,,0,v,Porzingis Bad Pass Turnover (P3.T9),Turnover,Bad Pass,1,0,245
+0021700556,330,PT10M55.00S,3,1610612764,WAS,202322,Wall,J. Wall,0,0,0,,0,,,0,h,Wall STEAL (1 STL),,,1,0,246
+0021700556,332,PT10M53.00S,3,1610612764,WAS,202322,Wall,J. Wall,7,11,1,Made,1,68,63,131,h,Wall 1' Running Dunk (16 PTS),Made Shot,Running Dunk Shot,1,2,247
+0021700556,333,PT10M52.00S,3,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,248
+0021700556,334,PT10M35.00S,3,1610612752,NYK,101127,Jack,J. Jack,152,57,16,Missed,1,,,0,v,MISS Jack 16' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,249
+0021700556,335,PT10M31.00S,3,1610612764,WAS,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,250
+0021700556,336,PT10M19.00S,3,1610612764,WAS,101162,Gortat,M. Gortat,17,26,3,Made,1,70,63,133,h,Gortat 3' Finger Roll Layup (18 PTS),Made Shot,Finger Roll Layup Shot,1,2,251
+0021700556,337,PT10M11.00S,3,1610612752,NYK,202683,Freedom,E. Freedom,-3,28,3,Missed,1,,,0,v,MISS Kanter 3' Jump Shot,Missed Shot,Jump Shot,1,2,252
+0021700556,337,PT10M11.00S,3,1610612764,WAS,202322,Wall,J. Wall,0,0,0,,0,,,0,h,Wall BLOCK (1 BLK),,,1,2,253
+0021700556,338,PT10M11.00S,3,1610612764,WAS,202322,Wall,J. Wall,0,0,0,,0,,,0,h,Wall REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,254
+0021700556,339,PT09M55.00S,3,1610612764,WAS,203078,Beal,B. Beal,1,0,0,Made,1,72,63,135,h,Beal Driving Layup (20 PTS),Made Shot,Driving Layup Shot,1,2,255
+0021700556,340,PT09M43.00S,3,1610612752,NYK,101127,Jack,J. Jack,0,0,0,,0,,,0,v,Jack Out of Bounds - Bad Pass Turnover Turnover (P2.T10),Turnover,Out of Bounds - Bad Pass Turnover,1,0,256
+0021700556,342,PT09M26.00S,3,1610612764,WAS,202693,Morris,M. Morris,-125,231,26,Missed,1,,,0,h,MISS Morris 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,257
+0021700556,343,PT09M23.00S,3,1610612752,NYK,101127,Jack,J. Jack,0,0,0,,0,,,0,v,Jack REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,258
+0021700556,344,PT09M07.00S,3,1610612752,NYK,202498,Thomas,L. Thomas,180,163,24,Made,1,72,66,138,v,Thomas 24' 3PT Jump Shot (3 PTS) (Jack 3 AST),Made Shot,Jump Shot,1,3,259
+0021700556,346,PT08M46.00S,3,1610612764,WAS,202693,Morris,M. Morris,0,19,2,Made,1,74,66,140,h,Morris 2' Layup (4 PTS) (Beal 4 AST),Made Shot,Layup Shot,1,2,260
+0021700556,349,PT08M35.00S,3,1610612752,NYK,201584,Lee,C. Lee,3,25,3,Missed,1,,,0,v,MISS Lee 3' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,261
+0021700556,350,PT08M34.00S,3,1610612764,WAS,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,262
+0021700556,351,PT08M30.00S,3,1610612764,WAS,202322,Wall,J. Wall,-10,29,3,Made,1,76,66,142,h,Wall 3' Driving Layup (18 PTS),Made Shot,Driving Layup Shot,1,2,263
+0021700556,352,PT08M30.00S,3,1610612752,NYK,101127,Jack,J. Jack,0,0,0,,0,,,0,v,Jack S.FOUL (P1.T1) (K.Mauer),Foul,Shooting,1,0,264
+0021700556,354,PT08M30.00S,3,1610612752,NYK,201584,Lee,C. Lee,0,0,0,,0,,,0,v,Lee T.FOUL (P0.T1) (B.Taylor),Foul,Technical,0,0,265
+0021700556,355,PT08M30.00S,3,1610612764,WAS,202322,Wall,J. Wall,0,0,0,,0,,,0,h,MISS Wall Free Throw Technical,Free Throw,Free Throw Technical,0,0,266
+0021700556,356,PT08M30.00S,3,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Normal Rebound,0,0,267
+0021700556,357,PT08M30.00S,3,1610612764,WAS,202322,Wall,J. Wall,0,0,0,,0,77,66,143,h,Wall Free Throw 1 of 1 (19 PTS),Free Throw,Free Throw 1 of 1,0,0,268
+0021700556,358,PT08M18.00S,3,1610612752,NYK,201584,Lee,C. Lee,-23,53,6,Missed,1,,,0,v,MISS Lee 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,269
+0021700556,359,PT08M16.00S,3,1610612764,WAS,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,270
+0021700556,360,PT08M13.00S,3,1610612764,WAS,203490,Porter Jr.,O. Porter Jr.,-172,197,26,Missed,1,,,0,h,MISS Porter Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,271
+0021700556,361,PT08M10.00S,3,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,272
+0021700556,362,PT07M53.00S,3,1610612752,NYK,101127,Jack,J. Jack,0,0,0,,0,,,0,v,Jack Lost Ball Turnover (P3.T11),Turnover,Lost Ball,1,0,273
+0021700556,362,PT07M53.00S,3,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,h,Beal STEAL (2 STL),,,1,0,274
+0021700556,364,PT07M47.00S,3,1610612764,WAS,203078,Beal,B. Beal,-4,1,0,Made,1,79,66,145,h,Beal Cutting Dunk Shot (22 PTS) (Wall 7 AST),Made Shot,Cutting Dunk Shot,1,2,275
+0021700556,366,PT07M22.00S,3,1610612752,NYK,101127,Jack,J. Jack,119,57,13,Made,1,79,68,147,v,Jack 13' Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,2,276
+0021700556,367,PT06M58.00S,3,1610612764,WAS,202322,Wall,J. Wall,-183,211,28,Made,1,82,68,150,h,Wall 28' 3PT Jump Shot (22 PTS) (Morris 1 AST),Made Shot,Jump Shot,1,3,277
+0021700556,369,PT06M40.00S,3,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,h,Beal P.FOUL (P1.T1) (B.Taylor),Foul,Personal,1,0,278
+0021700556,371,PT06M40.00S,3,1610612752,NYK,201584,Lee,C. Lee,0,0,0,,0,,,0,v,SUB: Ntilikina FOR Lee,Substitution,,0,0,279
+0021700556,372,PT06M40.00S,3,1610612752,NYK,101127,Jack,J. Jack,0,0,0,,0,,,0,v,SUB: Baker FOR Jack,Substitution,,0,0,280
+0021700556,375,PT06M32.00S,3,1610612752,NYK,202683,Freedom,E. Freedom,0,0,0,,0,,,0,v,Kanter Offensive Charge Foul (P4.T2) (K.Mauer),Foul,Offensive Charge,1,0,281
+0021700556,377,PT06M32.00S,3,1610612752,NYK,202683,Freedom,E. Freedom,0,0,0,,0,,,0,v,Kanter Offensive Foul Turnover (P2.T12),Turnover,Offensive Foul Turnover,1,0,282
+0021700556,378,PT06M32.00S,3,1610612752,NYK,202683,Freedom,E. Freedom,0,0,0,,0,,,0,v,SUB: O'Quinn FOR Kanter,Substitution,,0,0,283
+0021700556,380,PT06M10.00S,3,1610612764,WAS,203078,Beal,B. Beal,-141,175,22,Made,1,84,68,152,h,Beal 22' Step Back Jump Shot (24 PTS),Made Shot,Step Back Jump shot,1,2,284
+0021700556,382,PT06M10.00S,3,0,,380,Smith,T. Smith,0,0,0,,0,84,68,152,,Instant Replay3rd Period (8:32 PM EST),Instant Replay,Overturn Ruling,0,0,285
+0021700556,381,PT06M07.00S,3,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,286
+0021700556,383,PT05M55.00S,3,1610612752,NYK,202498,Thomas,L. Thomas,-231,-19,0,Missed,1,,,0,v,MISS Thomas 3PT Jump Shot,Missed Shot,Jump Shot,1,3,287
+0021700556,384,PT05M53.00S,3,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,h,Beal REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,288
+0021700556,385,PT05M33.00S,3,1610612764,WAS,202693,Morris,M. Morris,125,164,21,Missed,1,,,0,h,MISS Morris 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,289
+0021700556,385,PT05M33.00S,3,1610612752,NYK,204001,Porziņģis,K. Porziņģis,0,0,0,,0,,,0,v,Porzingis BLOCK (1 BLK),,,1,2,290
+0021700556,387,PT05M30.00S,3,1610612752,NYK,204001,Porziņģis,K. Porziņģis,0,0,0,,0,,,0,v,Porzingis REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,291
+0021700556,388,PT05M28.00S,3,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina Bad Pass Turnover (P1.T13),Turnover,Bad Pass,1,0,292
+0021700556,388,PT05M28.00S,3,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,h,Beal STEAL (3 STL),,,1,0,293
+0021700556,390,PT05M18.00S,3,1610612764,WAS,202322,Wall,J. Wall,-183,188,26,Missed,1,,,0,h,MISS Wall 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,294
+0021700556,391,PT05M14.00S,3,1610612752,NYK,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,295
+0021700556,392,PT05M04.00S,3,1610612752,NYK,203124,O'Quinn,K. O'Quinn,-12,15,2,Missed,1,,,0,v,MISS O'Quinn 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,296
+0021700556,392,PT05M04.00S,3,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,Gortat BLOCK (1 BLK),,,1,2,297
+0021700556,393,PT05M02.00S,3,1610612764,WAS,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,298
+0021700556,394,PT05M00.00S,3,1610612752,NYK,1627758,Baker,R. Baker,0,0,0,,0,,,0,v,Baker P.FOUL (P2.T3) (M.Ayotte),Foul,Personal,1,0,299
+0021700556,397,PT05M00.00S,3,1610612752,NYK,202498,Thomas,L. Thomas,0,0,0,,0,,,0,v,SUB: McDermott FOR Thomas,Substitution,,0,0,300
+0021700556,399,PT04M46.00S,3,1610612764,WAS,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris Out of Bounds - Bad Pass Turnover Turnover (P2.T9),Turnover,Out of Bounds - Bad Pass Turnover,1,0,301
+0021700556,400,PT04M23.00S,3,1610612752,NYK,203124,O'Quinn,K. O'Quinn,-153,73,17,Made,1,84,70,154,v,O'Quinn 17' Step Back Jump Shot (8 PTS),Made Shot,Step Back Jump shot,1,2,302
+0021700556,401,PT04M02.00S,3,1610612764,WAS,203490,Porter Jr.,O. Porter Jr.,6,130,13,Missed,1,,,0,h,MISS Porter Jr. 13' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,303
+0021700556,402,PT04M00.00S,3,1610612752,NYK,204001,Porziņģis,K. Porziņģis,0,0,0,,0,,,0,v,Porzingis REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,304
+0021700556,403,PT03M53.00S,3,1610612752,NYK,203124,O'Quinn,K. O'Quinn,21,26,3,Missed,1,,,0,v,MISS O'Quinn 3' Layup,Missed Shot,Layup Shot,1,2,305
+0021700556,403,PT03M53.00S,3,1610612764,WAS,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. BLOCK (1 BLK),,,1,2,306
+0021700556,405,PT03M53.00S,3,1610612764,WAS,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:9),Rebound,Unknown,1,0,307
+0021700556,406,PT03M43.00S,3,1610612764,WAS,202322,Wall,J. Wall,6,22,2,Missed,1,,,0,h,MISS Wall 2' Layup,Missed Shot,Layup Shot,1,2,308
+0021700556,407,PT03M41.00S,3,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,Gortat REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,309
+0021700556,408,PT03M36.00S,3,1610612764,WAS,101162,Gortat,M. Gortat,133,37,14,Made,1,86,70,156,h,Gortat 14' Layup (20 PTS) (Beal 5 AST),Made Shot,Layup Shot,1,2,310
+0021700556,410,PT03M13.00S,3,1610612752,NYK,204001,Porziņģis,K. Porziņģis,43,148,15,Missed,1,,,0,v,MISS Porzingis 15' Jump Shot,Missed Shot,Jump Shot,1,2,311
+0021700556,411,PT03M10.00S,3,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,312
+0021700556,412,PT03M10.00S,3,1610612764,WAS,202693,Morris,M. Morris,0,0,0,,0,,,0,h,SUB: Scott FOR Morris,Substitution,,0,0,313
+0021700556,414,PT03M08.00S,3,1610612752,NYK,204001,Porziņģis,K. Porziņģis,-164,18,16,Missed,1,,,0,v,MISS Porzingis 16' Jump Shot,Missed Shot,Jump Shot,1,2,314
+0021700556,415,PT03M05.00S,3,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,Gortat REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,315
+0021700556,416,PT03M01.00S,3,1610612752,NYK,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,McDermott S.FOUL (P3.T4) (K.Mauer),Foul,Shooting,1,0,316
+0021700556,418,PT03M01.00S,3,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,MISS Gortat Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,317
+0021700556,419,PT03M01.00S,3,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Normal Rebound,0,0,318
+0021700556,420,PT03M01.00S,3,1610612752,NYK,204001,Porziņģis,K. Porziņģis,0,0,0,,0,,,0,v,SUB: Beasley FOR Porzingis,Substitution,,0,0,319
+0021700556,422,PT03M01.00S,3,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,87,70,157,h,Gortat Free Throw 2 of 2 (21 PTS),Free Throw,Free Throw 2 of 2,0,0,320
+0021700556,423,PT02M42.00S,3,1610612752,NYK,1627758,Baker,R. Baker,13,22,3,Missed,1,,,0,v,MISS Baker 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,321
+0021700556,424,PT02M39.00S,3,1610612764,WAS,203118,Scott,M. Scott,0,0,0,,0,,,0,h,Scott REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,322
+0021700556,425,PT02M32.00S,3,1610612764,WAS,202322,Wall,J. Wall,0,0,0,,0,,,0,h,Wall Out of Bounds - Bad Pass Turnover Turnover (P3.T10),Turnover,Out of Bounds - Bad Pass Turnover,1,0,323
+0021700556,426,PT02M32.00S,3,1610612764,WAS,202322,Wall,J. Wall,0,0,0,,0,,,0,h,SUB: Satoransky FOR Wall,Substitution,,0,0,324
+0021700556,428,PT02M21.00S,3,1610612752,NYK,201563,Beasley,M. Beasley,160,6,16,Missed,1,,,0,v,MISS Beasley 16' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,325
+0021700556,429,PT02M18.00S,3,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,Gortat REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,326
+0021700556,430,PT02M09.00S,3,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,h,Beal Bad Pass Turnover (P1.T11),Turnover,Bad Pass,1,0,327
+0021700556,430,PT02M09.00S,3,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina STEAL (1 STL),,,1,0,328
+0021700556,432,PT01M53.00S,3,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,32,60,7,Missed,1,,,0,v,MISS Ntilikina 7' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,329
+0021700556,433,PT01M51.00S,3,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,h,Beal REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,330
+0021700556,434,PT01M46.00S,3,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,Gortat OFF.Foul (P4) (K.Mauer),Foul,Offensive,1,0,331
+0021700556,436,PT01M46.00S,3,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,Gortat Offensive Foul Turnover (P3.T12),Turnover,Offensive Foul Turnover,1,0,332
+0021700556,437,PT01M46.00S,3,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,333
+0021700556,438,PT01M46.00S,3,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,SUB: Mahinmi FOR Gortat,Substitution,,0,0,334
+0021700556,440,PT01M35.00S,3,1610612752,NYK,203124,O'Quinn,K. O'Quinn,-11,16,2,Made,1,87,72,159,v,O'Quinn 2' Cutting Dunk Shot (10 PTS) (Baker 2 AST),Made Shot,Cutting Dunk Shot,1,2,335
+0021700556,442,PT01M11.00S,3,1610612764,WAS,203118,Scott,M. Scott,0,0,0,,0,,,0,h,Scott Lost Ball Turnover (P1.T13),Turnover,Lost Ball,1,0,336
+0021700556,442,PT01M11.00S,3,1610612752,NYK,1627758,Baker,R. Baker,0,0,0,,0,,,0,v,Baker STEAL (1 STL),,,1,0,337
+0021700556,444,PT01M06.00S,3,1610612752,NYK,201563,Beasley,M. Beasley,10,11,1,Made,1,87,74,161,v,Beasley 1' Cutting Layup Shot (6 PTS) (Baker 3 AST),Made Shot,Cutting Layup Shot,1,2,338
+0021700556,446,PT00M50.90S,3,1610612752,NYK,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn S.FOUL (P3.PN) (B.Taylor),Foul,Shooting,1,0,339
+0021700556,448,PT00M50.90S,3,1610612764,WAS,101133,Mahinmi,I. Mahinmi,0,0,0,,0,88,74,162,h,Mahinmi Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,0,0,340
+0021700556,449,PT00M50.90S,3,1610612764,WAS,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,,,0,h,SUB: Oubre Jr. FOR Porter Jr.,Substitution,,0,0,341
+0021700556,451,PT00M50.90S,3,1610612764,WAS,101133,Mahinmi,I. Mahinmi,0,0,0,,0,,,0,h,MISS Mahinmi Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,342
+0021700556,452,PT00M49.30S,3,1610612752,NYK,201563,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,343
+0021700556,453,PT00M40.80S,3,1610612752,NYK,203926,McDermott,D. McDermott,-174,200,27,Missed,1,,,0,v,MISS McDermott 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,344
+0021700556,454,PT00M37.40S,3,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,Satoransky REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,345
+0021700556,455,PT00M27.90S,3,1610612764,WAS,203078,Beal,B. Beal,17,47,5,Missed,1,,,0,h,MISS Beal 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,346
+0021700556,455,PT00M27.90S,3,1610612752,NYK,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn BLOCK (1 BLK),,,1,2,347
+0021700556,457,PT00M25.60S,3,1610612752,NYK,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,348
+0021700556,458,PT00M20.40S,3,1610612752,NYK,1627758,Baker,R. Baker,221,26,0,Missed,1,,,0,v,MISS Baker 3PT Jump Shot,Missed Shot,Jump Shot,1,3,349
+0021700556,459,PT00M18.00S,3,1610612752,NYK,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,McDermott REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,350
+0021700556,460,PT00M17.90S,3,1610612752,NYK,203926,McDermott,D. McDermott,-9,8,1,Made,1,88,76,164,v,McDermott 1' Putback Layup (6 PTS),Made Shot,Putback Layup Shot,1,2,351
+0021700556,461,PT00M17.90S,3,1610612764,WAS,203118,Scott,M. Scott,0,0,0,,0,,,0,h,Scott S.FOUL (P3.T2) (M.Ayotte),Foul,Shooting,1,0,352
+0021700556,463,PT00M17.90S,3,1610612752,NYK,203926,McDermott,D. McDermott,0,0,0,,0,88,77,165,v,McDermott Free Throw 1 of 1 (7 PTS),Free Throw,Free Throw 1 of 1,0,0,353
+0021700556,464,PT00M00.40S,3,1610612764,WAS,101133,Mahinmi,I. Mahinmi,-2,13,1,Made,1,90,77,167,h,Mahinmi 1' Cutting Dunk Shot (6 PTS) (Beal 6 AST),Made Shot,Cutting Dunk Shot,1,2,354
+0021700556,468,PT00M00.00S,3,0,,0,,,0,0,0,,0,90,77,167,,End of 3rd Period (8:48 PM EST),period,end,1,0,355
+0021700556,471,PT12M00.00S,4,0,,0,,,0,0,0,,0,90,77,167,,Start of 4th Period (8:50 PM EST),period,start,0,0,356
+0021700556,472,PT11M40.00S,4,1610612764,WAS,203118,Scott,M. Scott,109,168,20,Missed,1,,,0,h,MISS Scott 20' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,357
+0021700556,473,PT11M36.00S,4,1610612752,NYK,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,358
+0021700556,474,PT11M23.00S,4,1610612752,NYK,203926,McDermott,D. McDermott,-115,113,16,Missed,1,,,0,v,MISS McDermott 16' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,359
+0021700556,475,PT11M20.00S,4,1610612764,WAS,201975,Meeks,J. Meeks,0,0,0,,0,,,0,h,Meeks REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,360
+0021700556,476,PT11M12.00S,4,1610612752,NYK,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn Violation:Kicked Ball (K.Mauer),Violation,Kicked Ball,0,0,361
+0021700556,477,PT11M02.00S,4,1610612764,WAS,203107,Satoransky,T. Satoransky,164,10,16,Made,1,92,77,169,h,Satoransky 16' Jump Shot (2 PTS) (Scott 1 AST),Made Shot,Jump Shot,1,2,362
+0021700556,479,PT10M49.00S,4,1610612752,NYK,1627758,Baker,R. Baker,-3,8,1,Missed,1,,,0,v,MISS Baker 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,363
+0021700556,480,PT10M44.00S,4,1610612752,NYK,201563,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,364
+0021700556,481,PT10M43.00S,4,1610612752,NYK,201563,Beasley,M. Beasley,-119,101,16,Missed,1,,,0,v,MISS Beasley 16' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,365
+0021700556,482,PT10M40.00S,4,1610612764,WAS,201975,Meeks,J. Meeks,0,0,0,,0,,,0,h,Meeks REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,366
+0021700556,483,PT10M40.00S,4,1610612752,NYK,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn P.FOUL (P4.T1) (B.Taylor),Foul,Personal,1,0,367
+0021700556,485,PT10M21.00S,4,1610612764,WAS,203107,Satoransky,T. Satoransky,239,74,25,Made,1,95,77,172,h,Satoransky 25' 3PT Jump Shot (5 PTS) (Meeks 2 AST),Made Shot,Jump Shot,1,3,368
+0021700556,487,PT10M03.00S,4,1610612752,NYK,1627758,Baker,R. Baker,8,12,1,Made,1,95,79,174,v,Baker 1' Cutting Layup Shot (4 PTS) (Beasley 2 AST),Made Shot,Cutting Layup Shot,1,2,369
+0021700556,489,PT09M45.00S,4,1610612764,WAS,1626162,Oubre Jr.,K. Oubre Jr.,-92,247,26,Missed,1,,,0,h,MISS Oubre Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,370
+0021700556,490,PT09M42.00S,4,1610612752,NYK,201563,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,371
+0021700556,491,PT09M33.00S,4,1610612752,NYK,203926,McDermott,D. McDermott,106,42,11,Missed,1,,,0,v,MISS McDermott 11' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,372
+0021700556,492,PT09M29.00S,4,1610612764,WAS,201975,Meeks,J. Meeks,0,0,0,,0,,,0,h,Meeks REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,373
+0021700556,493,PT09M22.00S,4,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina S.FOUL (P1.T2) (M.Ayotte),Foul,Shooting,1,0,374
+0021700556,495,PT09M22.00S,4,1610612764,WAS,101133,Mahinmi,I. Mahinmi,0,0,0,,0,96,79,175,h,Mahinmi Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,0,0,375
+0021700556,496,PT09M22.00S,4,1610612752,NYK,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,SUB: Porzingis FOR McDermott,Substitution,,0,0,376
+0021700556,497,PT09M22.00S,4,1610612752,NYK,1627758,Baker,R. Baker,0,0,0,,0,,,0,v,SUB: Lee FOR Baker,Substitution,,0,0,377
+0021700556,500,PT09M22.00S,4,1610612764,WAS,101133,Mahinmi,I. Mahinmi,0,0,0,,0,97,79,176,h,Mahinmi Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,378
+0021700556,501,PT09M01.00S,4,1610612752,NYK,204001,Porziņģis,K. Porziņģis,57,147,16,Missed,1,,,0,v,MISS Porzingis 16' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,379
+0021700556,501,PT09M01.00S,4,1610612764,WAS,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,Oubre Jr. BLOCK (1 BLK),,,1,2,380
+0021700556,503,PT09M00.00S,4,1610612752,NYK,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,O'Quinn REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,381
+0021700556,504,PT09M00.00S,4,1610612752,NYK,203124,O'Quinn,K. O'Quinn,11,8,1,Made,1,97,81,178,v,O'Quinn 1' Putback Layup (12 PTS),Made Shot,Putback Layup Shot,1,2,382
+0021700556,505,PT09M00.00S,4,1610612764,WAS,101133,Mahinmi,I. Mahinmi,0,0,0,,0,,,0,h,Mahinmi S.FOUL (P2.T1) (M.Ayotte),Foul,Shooting,1,0,383
+0021700556,507,PT09M00.00S,4,1610612752,NYK,203124,O'Quinn,K. O'Quinn,0,0,0,,0,97,82,179,v,O'Quinn Free Throw 1 of 1 (13 PTS),Free Throw,Free Throw 1 of 1,0,0,384
+0021700556,508,PT08M52.00S,4,1610612764,WAS,203107,Satoransky,T. Satoransky,96,199,22,Made,1,99,82,181,h,Satoransky 22' Pullup Jump Shot (7 PTS),Made Shot,Pullup Jump shot,1,2,385
+0021700556,509,PT08M35.00S,4,1610612764,WAS,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,Oubre Jr. P.FOUL (P3.T2) (K.Mauer),Foul,Personal,1,0,386
+0021700556,511,PT08M35.00S,4,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,SUB: Jack FOR Ntilikina,Substitution,,0,0,387
+0021700556,513,PT08M30.00S,4,1610612752,NYK,204001,Porziņģis,K. Porziņģis,-47,130,14,Missed,1,,,0,v,MISS Porzingis 14' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,388
+0021700556,514,PT08M27.00S,4,1610612764,WAS,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,Oubre Jr. REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,389
+0021700556,515,PT08M16.00S,4,1610612764,WAS,1626162,Oubre Jr.,K. Oubre Jr.,-35,55,7,Made,1,101,82,183,h,Oubre Jr. 7' Driving Floating Jump Shot (4 PTS),Made Shot,Driving Floating Jump Shot,1,2,390
+0021700556,516,PT08M06.00S,4,1610612752,NYK,201563,Beasley,M. Beasley,-1,6,1,Made,1,101,84,185,v,Beasley 1' Driving Layup (8 PTS),Made Shot,Driving Layup Shot,1,2,391
+0021700556,517,PT08M06.00S,4,1610612764,WAS,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,Oubre Jr. S.FOUL (P4.T3) (B.Taylor),Foul,Shooting,1,0,392
+0021700556,519,PT08M06.00S,4,1610612752,NYK,201563,Beasley,M. Beasley,0,0,0,,0,101,85,186,v,Beasley Free Throw 1 of 1 (9 PTS),Free Throw,Free Throw 1 of 1,0,0,393
+0021700556,520,PT07M52.00S,4,1610612764,WAS,1626162,Oubre Jr.,K. Oubre Jr.,-9,93,9,Made,1,103,85,188,h,Oubre Jr. 9' Driving Floating Jump Shot (6 PTS) (Meeks 3 AST),Made Shot,Driving Floating Jump Shot,1,2,394
+0021700556,522,PT07M38.00S,4,1610612764,WAS,203118,Scott,M. Scott,0,0,0,,0,,,0,h,Scott P.FOUL (P4.T4) (M.Ayotte),Foul,Personal,1,0,395
+0021700556,524,PT07M38.00S,4,1610612752,NYK,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,v,SUB: McDermott FOR O'Quinn,Substitution,,0,0,396
+0021700556,526,PT07M29.00S,4,1610612752,NYK,201563,Beasley,M. Beasley,6,11,1,Made,1,103,87,190,v,Beasley 1' Driving Layup (11 PTS),Made Shot,Driving Layup Shot,1,2,397
+0021700556,527,PT07M29.00S,4,1610612764,WAS,101133,Mahinmi,I. Mahinmi,0,0,0,,0,,,0,h,Mahinmi S.FOUL (P3.PN) (K.Mauer),Foul,Shooting,1,0,398
+0021700556,529,PT07M29.00S,4,1610612752,NYK,201563,Beasley,M. Beasley,0,0,0,,0,103,88,191,v,Beasley Free Throw 1 of 1 (12 PTS),Free Throw,Free Throw 1 of 1,0,0,399
+0021700556,530,PT07M15.00S,4,1610612764,WAS,203118,Scott,M. Scott,5,210,21,Made,1,105,88,193,h,Scott 21' Jump Shot (5 PTS) (Satoransky 1 AST),Made Shot,Jump Shot,1,2,400
+0021700556,532,PT07M01.00S,4,1610612752,NYK,204001,Porziņģis,K. Porziņģis,103,33,11,Made,1,105,90,195,v,Porzingis 11' Turnaround Jump Shot (16 PTS) (Beasley 3 AST),Made Shot,Turnaround Jump Shot,1,2,401
+0021700556,534,PT06M44.00S,4,1610612764,WAS,201975,Meeks,J. Meeks,-82,245,26,Missed,1,,,0,h,MISS Meeks 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,402
+0021700556,535,PT06M41.00S,4,1610612752,NYK,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,McDermott REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,403
+0021700556,536,PT06M32.00S,4,1610612764,WAS,203118,Scott,M. Scott,0,0,0,,0,,,0,h,Scott S.FOUL (P5.PN) (B.Taylor),Foul,Shooting,1,0,404
+0021700556,538,PT06M32.00S,4,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,405
+0021700556,539,PT06M32.00S,4,1610612764,WAS,1626162,Oubre Jr.,K. Oubre Jr.,0,0,0,,0,,,0,h,SUB: Gortat FOR Oubre Jr.,Substitution,,0,0,406
+0021700556,540,PT06M32.00S,4,1610612764,WAS,201975,Meeks,J. Meeks,0,0,0,,0,,,0,h,SUB: Beal FOR Meeks,Substitution,,0,0,407
+0021700556,541,PT06M32.00S,4,1610612764,WAS,101133,Mahinmi,I. Mahinmi,0,0,0,,0,,,0,h,SUB: Porter Jr. FOR Mahinmi,Substitution,,0,0,408
+0021700556,542,PT06M32.00S,4,1610612764,WAS,203118,Scott,M. Scott,0,0,0,,0,,,0,h,SUB: Morris FOR Scott,Substitution,,0,0,409
+0021700556,543,PT06M32.00S,4,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,SUB: Wall FOR Satoransky,Substitution,,0,0,410
+0021700556,549,PT06M32.00S,4,1610612752,NYK,101127,Jack,J. Jack,0,0,0,,0,,,0,v,MISS Jack Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,411
+0021700556,550,PT06M32.00S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Normal Rebound,0,0,412
+0021700556,551,PT06M32.00S,4,1610612752,NYK,101127,Jack,J. Jack,0,0,0,,0,,,0,v,MISS Jack Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,413
+0021700556,552,PT06M30.00S,4,1610612764,WAS,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:10),Rebound,Unknown,1,0,414
+0021700556,553,PT06M19.00S,4,1610612764,WAS,203078,Beal,B. Beal,170,190,25,Missed,1,,,0,h,MISS Beal 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,415
+0021700556,554,PT06M18.00S,4,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Unknown,0,0,416
+0021700556,555,PT06M18.00S,4,1610612752,NYK,204001,Porziņģis,K. Porziņģis,0,0,0,,0,,,0,v,Porzingis L.B.FOUL (P1.T3) (B.Taylor),Foul,Loose Ball,1,0,417
+0021700556,557,PT06M12.00S,4,1610612764,WAS,202693,Morris,M. Morris,-78,167,18,Made,1,107,90,197,h,Morris 18' Jump Shot (6 PTS) (Wall 8 AST),Made Shot,Jump Shot,1,2,418
+0021700556,559,PT05M54.00S,4,1610612752,NYK,201563,Beasley,M. Beasley,-3,8,1,Made,1,107,92,199,v,Beasley 1' Driving Layup (14 PTS),Made Shot,Driving Layup Shot,1,2,419
+0021700556,560,PT05M54.00S,4,1610612764,WAS,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris S.FOUL (P3.PN) (B.Taylor),Foul,Shooting,1,0,420
+0021700556,562,PT05M54.00S,4,1610612752,NYK,201563,Beasley,M. Beasley,0,0,0,,0,107,93,200,v,Beasley Free Throw 1 of 1 (15 PTS),Free Throw,Free Throw 1 of 1,0,0,421
+0021700556,563,PT05M39.00S,4,1610612764,WAS,202322,Wall,J. Wall,-109,40,12,Missed,1,,,0,h,MISS Wall 12' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,422
+0021700556,563,PT05M39.00S,4,1610612752,NYK,204001,Porziņģis,K. Porziņģis,0,0,0,,0,,,0,v,Porzingis BLOCK (2 BLK),,,1,2,423
+0021700556,565,PT05M36.00S,4,1610612752,NYK,201563,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,424
+0021700556,566,PT05M30.00S,4,1610612752,NYK,201563,Beasley,M. Beasley,13,5,1,Made,1,107,95,202,v,Beasley 1' Running Layup (17 PTS),Made Shot,Running Layup Shot,1,2,425
+0021700556,567,PT05M12.00S,4,1610612764,WAS,202693,Morris,M. Morris,7,27,3,Made,1,109,95,204,h,Morris 3' Cutting Layup Shot (8 PTS) (Gortat 2 AST),Made Shot,Cutting Layup Shot,1,2,426
+0021700556,569,PT05M01.00S,4,1610612752,NYK,101127,Jack,J. Jack,-1,48,5,Missed,1,,,0,v,MISS Jack 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,427
+0021700556,570,PT04M59.00S,4,1610612764,WAS,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,428
+0021700556,571,PT04M53.00S,4,1610612752,NYK,204001,Porziņģis,K. Porziņģis,0,0,0,,0,,,0,v,Porzingis S.FOUL (P2.T4) (B.Taylor),Foul,Shooting,1,0,429
+0021700556,573,PT04M53.00S,4,1610612764,WAS,202322,Wall,J. Wall,0,0,0,,0,,,0,h,MISS Wall Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,430
+0021700556,574,PT04M53.00S,4,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Normal Rebound,0,0,431
+0021700556,575,PT04M53.00S,4,1610612764,WAS,202322,Wall,J. Wall,0,0,0,,0,110,95,205,h,Wall Free Throw 2 of 2 (23 PTS),Free Throw,Free Throw 2 of 2,0,0,432
+0021700556,576,PT04M40.00S,4,1610612752,NYK,201563,Beasley,M. Beasley,-134,7,13,Missed,1,,,0,v,MISS Beasley 13' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,433
+0021700556,577,PT04M37.00S,4,1610612752,NYK,101127,Jack,J. Jack,0,0,0,,0,,,0,v,Jack REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,434
+0021700556,578,PT04M35.00S,4,1610612752,NYK,203926,McDermott,D. McDermott,-154,210,26,Made,1,110,98,208,v,McDermott 26' 3PT Jump Shot (10 PTS) (Porzingis 1 AST),Made Shot,Jump Shot,1,3,435
+0021700556,580,PT04M13.00S,4,1610612764,WAS,203490,Porter Jr.,O. Porter Jr.,217,134,26,Missed,1,,,0,h,MISS Porter Jr. 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,436
+0021700556,581,PT04M11.00S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Rebound,Rebound,Unknown,0,0,437
+0021700556,582,PT04M06.00S,4,1610612752,NYK,101127,Jack,J. Jack,11,2,1,Made,1,110,100,210,v,Jack 1' Driving Layup (10 PTS),Made Shot,Driving Layup Shot,1,2,438
+0021700556,583,PT03M43.00S,4,1610612764,WAS,202693,Morris,M. Morris,122,243,27,Made,1,113,100,213,h,Morris 27' 3PT Jump Shot (11 PTS) (Porter Jr. 3 AST),Made Shot,Jump Shot,1,3,439
+0021700556,585,PT03M26.00S,4,1610612752,NYK,201563,Beasley,M. Beasley,151,214,26,Made,1,113,103,216,v,Beasley 26' 3PT Jump Shot (20 PTS) (Jack 4 AST),Made Shot,Jump Shot,1,3,440
+0021700556,587,PT03M07.00S,4,1610612764,WAS,202322,Wall,J. Wall,5,11,1,Made,1,115,103,218,h,Wall 1' Driving Dunk (25 PTS),Made Shot,Driving Dunk Shot,1,2,441
+0021700556,588,PT02M39.00S,4,1610612752,NYK,201563,Beasley,M. Beasley,0,8,1,Missed,1,,,0,v,MISS Beasley 1' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,442
+0021700556,589,PT02M37.00S,4,1610612764,WAS,202693,Morris,M. Morris,0,0,0,,0,,,0,h,Morris REBOUND (Off:0 Def:11),Rebound,Unknown,1,0,443
+0021700556,590,PT02M18.00S,4,1610612752,NYK,203926,McDermott,D. McDermott,0,0,0,,0,,,0,v,McDermott P.FOUL (P4.PN) (B.Taylor),Foul,Personal,1,0,444
+0021700556,592,PT02M18.00S,4,0,,1610612752,,,0,0,0,,0,,,0,v,Knicks Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,445
+0021700556,593,PT02M18.00S,4,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,116,103,219,h,Beal Free Throw 1 of 2 (25 PTS),Free Throw,Free Throw 1 of 2,0,0,446
+0021700556,594,PT02M18.00S,4,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,h,MISS Beal Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,447
+0021700556,595,PT02M16.00S,4,1610612752,NYK,201563,Beasley,M. Beasley,0,0,0,,0,,,0,v,Beasley REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,448
+0021700556,596,PT02M06.00S,4,1610612752,NYK,203926,McDermott,D. McDermott,-7,205,21,Missed,1,,,0,v,MISS McDermott 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,449
+0021700556,597,PT02M03.00S,4,1610612764,WAS,202322,Wall,J. Wall,0,0,0,,0,,,0,h,Wall REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,450
+0021700556,598,PT01M50.00S,4,1610612764,WAS,203078,Beal,B. Beal,-3,16,2,Made,1,118,103,221,h,Beal 2' Alley Oop Dunk (27 PTS) (Wall 9 AST),Made Shot,Alley Oop Dunk Shot,1,2,451
+0021700556,600,PT01M38.00S,4,1610612752,NYK,101127,Jack,J. Jack,0,0,0,,0,,,0,v,Jack Out of Bounds - Bad Pass Turnover Turnover (P4.T14),Turnover,Out of Bounds - Bad Pass Turnover,1,0,452
+0021700556,601,PT01M38.00S,4,1610612764,WAS,101162,Gortat,M. Gortat,0,0,0,,0,,,0,h,SUB: Mahinmi FOR Gortat,Substitution,,0,0,453
+0021700556,602,PT01M38.00S,4,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,h,SUB: Meeks FOR Beal,Substitution,,0,0,454
+0021700556,603,PT01M38.00S,4,1610612764,WAS,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,,,0,h,SUB: Scott FOR Porter Jr.,Substitution,,0,0,455
+0021700556,604,PT01M38.00S,4,1610612764,WAS,202693,Morris,M. Morris,0,0,0,,0,,,0,h,SUB: Satoransky FOR Morris,Substitution,,0,0,456
+0021700556,605,PT01M38.00S,4,1610612764,WAS,202322,Wall,J. Wall,0,0,0,,0,,,0,h,SUB: Oubre Jr. FOR Wall,Substitution,,0,0,457
+0021700556,606,PT01M38.00S,4,1610612752,NYK,201584,Lee,C. Lee,0,0,0,,0,,,0,v,SUB: Hernangomez FOR Lee,Substitution,,0,0,458
+0021700556,607,PT01M38.00S,4,1610612752,NYK,204001,Porziņģis,K. Porziņģis,0,0,0,,0,,,0,v,SUB: O'Quinn FOR Porzingis,Substitution,,0,0,459
+0021700556,608,PT01M38.00S,4,1610612752,NYK,201563,Beasley,M. Beasley,0,0,0,,0,,,0,v,SUB: Dotson FOR Beasley,Substitution,,0,0,460
+0021700556,609,PT01M38.00S,4,1610612752,NYK,101127,Jack,J. Jack,0,0,0,,0,,,0,v,SUB: Ntilikina FOR Jack,Substitution,,0,0,461
+0021700556,619,PT01M22.00S,4,1610612764,WAS,203107,Satoransky,T. Satoransky,158,211,26,Made,1,121,103,224,h,Satoransky 26' 3PT Jump Shot (10 PTS) (Meeks 4 AST),Made Shot,Jump Shot,1,3,462
+0021700556,622,PT00M58.40S,4,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,103,233,25,Missed,1,,,0,v,MISS Ntilikina 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,463
+0021700556,623,PT00M55.20S,4,1610612764,WAS,101133,Mahinmi,I. Mahinmi,0,0,0,,0,,,0,h,Mahinmi REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,464
+0021700556,624,PT00M32.80S,4,1610612764,WAS,203118,Scott,M. Scott,-42,151,16,Missed,1,,,0,h,MISS Scott 16' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,465
+0021700556,625,PT00M30.00S,4,1610612752,NYK,1628373,Ntilikina,F. Ntilikina,0,0,0,,0,,,0,v,Ntilikina REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,466
+0021700556,626,PT00M25.70S,4,1610612752,NYK,1628422,Dotson,D. Dotson,138,222,26,Missed,1,,,0,v,MISS Dotson 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,467
+0021700556,627,PT00M22.00S,4,1610612764,WAS,101133,Mahinmi,I. Mahinmi,0,0,0,,0,,,0,h,Mahinmi REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,468
+0021700556,628,PT00M00.00S,4,0,,0,,,0,0,0,,0,121,103,224,,End of 4th Period (9:16 PM EST),period,end,1,0,469

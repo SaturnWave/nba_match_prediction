@@ -1,0 +1,502 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021701029,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:11 PM EST),period,start,0,0,1
+0021701029,4,PT12M00.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Jump Ball Vucevic vs. Baynes: Tip to Augustin,Jump Ball,,1,0,2
+0021701029,7,PT11M33.00S,1,1610612753,ORL,203613,Simmons,J. Simmons,8,25,3,Made,1,2,0,2,h,Simmons 3' Floating Jump Shot (2 PTS),Made Shot,Floating Jump shot,1,2,3
+0021701029,8,PT11M17.00S,1,1610612738,BOS,201143,Horford,A. Horford,-69,15,7,Missed,1,,,0,v,MISS Horford 7' Layup,Missed Shot,Layup Shot,1,2,4
+0021701029,8,PT11M17.00S,1,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,h,Isaac BLOCK (1 BLK),,,1,2,5
+0021701029,10,PT11M16.00S,1,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,6
+0021701029,11,PT11M14.00S,1,1610612738,BOS,203382,Baynes,A. Baynes,-13,35,4,Missed,1,,,0,v,MISS Baynes 4' Layup,Missed Shot,Layup Shot,1,2,7
+0021701029,11,PT11M14.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic BLOCK (1 BLK),,,1,2,8
+0021701029,13,PT11M14.00S,1,0,,1610612738,,,0,0,0,,0,,,0,v,Celtics Rebound,Rebound,Unknown,0,0,9
+0021701029,14,PT11M12.00S,1,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,h,Simmons P.FOUL (P1.T1) (S.Wall),Foul,Personal,1,0,10
+0021701029,16,PT10M59.00S,1,1610612738,BOS,201143,Horford,A. Horford,-18,72,7,Missed,1,,,0,v,MISS Horford 7' Hook Shot,Missed Shot,Hook Shot,1,2,11
+0021701029,16,PT10M59.00S,1,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,h,Isaac BLOCK (2 BLK),,,1,2,12
+0021701029,18,PT10M56.00S,1,1610612753,ORL,201571,Augustin,D. Augustin,0,0,0,,0,,,0,h,Augustin REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,13
+0021701029,19,PT10M52.00S,1,1610612753,ORL,203613,Simmons,J. Simmons,196,153,25,Missed,1,,,0,h,MISS Simmons 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,14
+0021701029,20,PT10M48.00S,1,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,h,Simmons REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,15
+0021701029,21,PT10M47.00S,1,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,h,Simmons Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,16
+0021701029,21,PT10M47.00S,1,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. STEAL (1 STL),,,1,0,17
+0021701029,23,PT10M41.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,126,229,26,Missed,1,,,0,v,MISS Tatum 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,18
+0021701029,24,PT10M37.00S,1,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,19
+0021701029,25,PT10M34.00S,1,1610612738,BOS,201143,Horford,A. Horford,76,82,11,Missed,1,,,0,v,MISS Horford 11' Layup,Missed Shot,Layup Shot,1,2,20
+0021701029,26,PT10M32.00S,1,1610612753,ORL,201571,Augustin,D. Augustin,0,0,0,,0,,,0,h,Augustin REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,21
+0021701029,27,PT10M17.00S,1,1610612753,ORL,1626209,Hezonja,M. Hezonja,-46,248,25,Missed,1,,,0,h,MISS Hezonja 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,22
+0021701029,28,PT10M14.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,23
+0021701029,29,PT10M04.00S,1,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,224,90,24,Made,1,2,3,5,v,Morris Sr. 24' 3PT Jump Shot (3 PTS) (Rozier 1 AST),Made Shot,Jump Shot,1,3,24
+0021701029,32,PT09M38.00S,1,1610612738,BOS,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,Rozier P.FOUL (P1.T1) (S.Wall),Foul,Personal,1,0,25
+0021701029,34,PT09M29.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,35,85,9,Missed,1,,,0,h,MISS Vucevic 9' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,26
+0021701029,35,PT09M26.00S,1,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,27
+0021701029,36,PT09M21.00S,1,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,-96,241,26,Missed,1,,,0,v,MISS Morris Sr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,28
+0021701029,37,PT09M18.00S,1,1610612738,BOS,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,Rozier REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,29
+0021701029,38,PT09M07.00S,1,1610612738,BOS,1626179,Rozier,T. Rozier,-116,222,25,Made,1,2,6,8,v,Rozier 25' 3PT Step Back Jump Shot (3 PTS),Made Shot,Step Back Jump shot,1,3,30
+0021701029,39,PT08M54.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,46,216,22,Missed,1,,,0,h,MISS Vucevic 22' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,31
+0021701029,40,PT08M51.00S,1,1610612738,BOS,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,Rozier REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,32
+0021701029,41,PT08M41.00S,1,1610612738,BOS,1626179,Rozier,T. Rozier,-9,150,15,Missed,1,,,0,v,MISS Rozier 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,33
+0021701029,42,PT08M39.00S,1,1610612753,ORL,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,34
+0021701029,43,PT08M32.00S,1,1610612753,ORL,1626209,Hezonja,M. Hezonja,8,17,2,Made,1,4,6,10,h,Hezonja 2' Cutting Layup Shot (2 PTS) (Augustin 1 AST),Made Shot,Cutting Layup Shot,1,2,35
+0021701029,46,PT08M09.00S,1,1610612738,BOS,203382,Baynes,A. Baynes,-80,34,9,Missed,1,,,0,v,MISS Baynes 9' Hook Shot,Missed Shot,Hook Shot,1,2,36
+0021701029,47,PT08M06.00S,1,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,h,Simmons REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,37
+0021701029,48,PT07M58.00S,1,1610612753,ORL,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja Offensive Charge Foul (P1.T2) (J.Goble),Foul,Offensive Charge,1,0,38
+0021701029,50,PT07M58.00S,1,1610612753,ORL,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja Offensive Foul Turnover (P1.T2),Turnover,Offensive Foul Turnover,1,0,39
+0021701029,51,PT07M43.00S,1,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,-222,42,0,Missed,1,,,0,v,MISS Morris Sr. 3PT Jump Shot,Missed Shot,Jump Shot,1,3,40
+0021701029,52,PT07M40.00S,1,1610612738,BOS,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,Rozier REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,41
+0021701029,53,PT07M38.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,225,101,25,Missed,1,,,0,v,MISS Tatum 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,42
+0021701029,54,PT07M38.00S,1,1610612738,BOS,203382,Baynes,A. Baynes,0,0,0,,0,,,0,v,Baynes REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,43
+0021701029,55,PT07M35.00S,1,1610612738,BOS,203382,Baynes,A. Baynes,0,0,0,,0,,,0,v,Baynes Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,44
+0021701029,55,PT07M35.00S,1,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,h,Isaac STEAL (1 STL),,,1,0,45
+0021701029,57,PT07M21.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,22,91,9,Missed,1,,,0,h,MISS Vucevic 9' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,46
+0021701029,58,PT07M18.00S,1,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,47
+0021701029,60,PT07M15.00S,1,1610612738,BOS,203382,Baynes,A. Baynes,0,0,0,,0,,,0,v,Baynes OFF.Foul (P1) (C.Washington),Foul,Offensive,1,0,48
+0021701029,62,PT07M15.00S,1,1610612738,BOS,203382,Baynes,A. Baynes,0,0,0,,0,,,0,v,Baynes Offensive Foul Turnover (P2.T2),Turnover,Offensive Foul Turnover,1,0,49
+0021701029,63,PT06M59.00S,1,1610612753,ORL,201571,Augustin,D. Augustin,129,231,26,Missed,1,,,0,h,MISS Augustin 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,50
+0021701029,64,PT06M56.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,51
+0021701029,65,PT06M46.00S,1,1610612738,BOS,201143,Horford,A. Horford,95,143,17,Made,1,4,8,12,v,Horford 17' Step Back Jump Shot (2 PTS),Made Shot,Step Back Jump shot,1,2,52
+0021701029,66,PT06M45.00S,1,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,53
+0021701029,67,PT06M45.00S,1,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,h,SUB: Birch FOR Isaac,Substitution,,0,0,54
+0021701029,69,PT06M25.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,8,263,26,Missed,1,,,0,h,MISS Vucevic 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,55
+0021701029,70,PT06M22.00S,1,1610612753,ORL,203920,Birch,K. Birch,0,0,0,,0,,,0,h,Birch REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,56
+0021701029,71,PT06M18.00S,1,1610612753,ORL,203613,Simmons,J. Simmons,-25,53,6,Missed,1,,,0,h,MISS Simmons 6' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,57
+0021701029,72,PT06M14.00S,1,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,58
+0021701029,73,PT05M59.00S,1,1610612738,BOS,1626179,Rozier,T. Rozier,-230,106,25,Missed,1,,,0,v,MISS Rozier 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,59
+0021701029,74,PT05M56.00S,1,1610612753,ORL,203920,Birch,K. Birch,0,0,0,,0,,,0,h,Birch REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,60
+0021701029,75,PT05M47.00S,1,1610612753,ORL,201571,Augustin,D. Augustin,95,120,15,Made,1,6,8,14,h,Augustin 15' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,61
+0021701029,76,PT05M33.00S,1,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,22,189,19,Made,1,6,10,16,v,Morris Sr. 19' Pullup Jump Shot (5 PTS) (Baynes 1 AST),Made Shot,Pullup Jump shot,1,2,62
+0021701029,78,PT05M19.00S,1,1610612753,ORL,203613,Simmons,J. Simmons,227,76,24,Missed,1,,,0,h,MISS Simmons 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,63
+0021701029,79,PT05M16.00S,1,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,64
+0021701029,80,PT05M09.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic S.FOUL (P1.T3) (C.Washington),Foul,Shooting,1,0,65
+0021701029,82,PT05M09.00S,1,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,6,11,17,v,Horford Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,66
+0021701029,83,PT05M09.00S,1,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,SUB: Nader FOR Morris Sr.,Substitution,,0,0,67
+0021701029,84,PT05M09.00S,1,1610612738,BOS,203382,Baynes,A. Baynes,0,0,0,,0,,,0,v,SUB: Monroe FOR Baynes,Substitution,,0,0,68
+0021701029,87,PT05M09.00S,1,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,6,12,18,v,Horford Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,69
+0021701029,88,PT04M51.00S,1,1610612753,ORL,1626209,Hezonja,M. Hezonja,-206,152,26,Missed,1,,,0,h,MISS Hezonja 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,70
+0021701029,89,PT04M47.00S,1,1610612738,BOS,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,Rozier REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,71
+0021701029,90,PT04M44.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum OFF.Foul (P1) (J.Goble),Foul,Offensive,1,0,72
+0021701029,92,PT04M44.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum Offensive Foul Turnover (P1.T3),Turnover,Offensive Foul Turnover,1,0,73
+0021701029,93,PT04M44.00S,1,1610612753,ORL,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,SUB: Iwundu FOR Hezonja,Substitution,,0,0,74
+0021701029,95,PT04M33.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,6,7,1,Made,1,8,12,20,h,Vucevic 1' Cutting Dunk Shot (2 PTS) (Simmons 1 AST),Made Shot,Cutting Dunk Shot,1,2,75
+0021701029,97,PT04M18.00S,1,1610612738,BOS,201143,Horford,A. Horford,-6,1,1,Made,1,8,14,22,v,Horford 1' Cutting Dunk Shot (6 PTS) (Rozier 2 AST),Made Shot,Cutting Dunk Shot,1,2,76
+0021701029,99,PT04M02.00S,1,1610612753,ORL,203613,Simmons,J. Simmons,0,83,8,Missed,1,,,0,h,MISS Simmons 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,77
+0021701029,100,PT03M59.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,78
+0021701029,101,PT03M54.00S,1,1610612738,BOS,201143,Horford,A. Horford,52,26,6,Missed,1,,,0,v,MISS Horford 6' Layup,Missed Shot,Layup Shot,1,2,79
+0021701029,102,PT03M46.00S,1,1610612738,BOS,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,80
+0021701029,103,PT03M46.00S,1,1610612738,BOS,202328,Monroe,G. Monroe,0,-6,1,Missed,1,,,0,v,MISS Monroe 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,81
+0021701029,104,PT03M45.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,82
+0021701029,105,PT03M41.00S,1,1610612753,ORL,201571,Augustin,D. Augustin,-74,258,27,Made,1,11,14,25,h,Augustin 27' 3PT Jump Shot (5 PTS) (Simmons 2 AST),Made Shot,Jump Shot,1,3,83
+0021701029,107,PT03M20.00S,1,1610612738,BOS,202328,Monroe,G. Monroe,-4,56,6,Made,1,11,16,27,v,Monroe 6' Hook Shot (2 PTS),Made Shot,Hook Shot,1,2,84
+0021701029,108,PT03M12.00S,1,1610612738,BOS,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,Rozier Personal Block Foul (P2.T2) (C.Washington),Foul,Personal Block,1,0,85
+0021701029,110,PT03M12.00S,1,1610612753,ORL,201571,Augustin,D. Augustin,0,0,0,,0,,,0,h,SUB: Mack FOR Augustin,Substitution,,0,0,86
+0021701029,111,PT03M12.00S,1,1610612738,BOS,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,SUB: Larkin FOR Rozier,Substitution,,0,0,87
+0021701029,114,PT03M08.00S,1,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,h,Simmons Traveling Turnover (P2.T3),Turnover,Traveling,1,0,88
+0021701029,115,PT02M45.00S,1,1610612738,BOS,1627846,Nader,A. Nader,-222,38,0,Made,1,11,19,30,v,Nader 3PT Jump Shot (3 PTS) (Monroe 1 AST),Made Shot,Jump Shot,1,3,89
+0021701029,117,PT02M26.00S,1,1610612753,ORL,203920,Birch,K. Birch,0,0,0,,0,,,0,h,Birch Lost Ball Turnover (P1.T4),Turnover,Lost Ball,1,0,90
+0021701029,117,PT02M26.00S,1,1610612738,BOS,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe STEAL (1 STL),,,1,0,91
+0021701029,119,PT02M15.00S,1,1610612738,BOS,202328,Monroe,G. Monroe,-36,38,5,Missed,1,,,0,v,MISS Monroe 5' Hook Shot,Missed Shot,Hook Shot,1,2,92
+0021701029,120,PT02M13.00S,1,1610612753,ORL,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,93
+0021701029,121,PT02M06.00S,1,1610612753,ORL,203613,Simmons,J. Simmons,-114,225,25,Missed,1,,,0,h,MISS Simmons 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,94
+0021701029,122,PT02M03.00S,1,1610612738,BOS,203499,Larkin,S. Larkin,0,0,0,,0,,,0,v,Larkin REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,95
+0021701029,123,PT01M55.00S,1,1610612738,BOS,201143,Horford,A. Horford,115,104,16,Missed,1,,,0,v,MISS Horford 16' Jump Shot,Missed Shot,Jump Shot,1,2,96
+0021701029,124,PT01M53.00S,1,1610612753,ORL,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,97
+0021701029,125,PT01M45.00S,1,1610612753,ORL,203920,Birch,K. Birch,-16,122,12,Missed,1,,,0,h,MISS Birch 12' Jump Shot,Missed Shot,Jump Shot,1,2,98
+0021701029,126,PT01M45.00S,1,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,99
+0021701029,127,PT01M45.00S,1,0,,1610612738,,,0,0,0,,0,,,0,v,Celtics Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,100
+0021701029,128,PT01M45.00S,1,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,SUB: Biyombo FOR Vucevic,Substitution,,0,0,101
+0021701029,129,PT01M45.00S,1,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,SUB: Morris Sr. FOR Tatum,Substitution,,0,0,102
+0021701029,130,PT01M45.00S,1,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,SUB: Ojeleye FOR Horford,Substitution,,0,0,103
+0021701029,134,PT01M32.00S,1,1610612738,BOS,203499,Larkin,S. Larkin,8,5,1,Made,1,11,21,32,v,Larkin 1' Cutting Layup Shot (2 PTS) (Monroe 2 AST),Made Shot,Cutting Layup Shot,1,2,104
+0021701029,136,PT01M15.00S,1,1610612753,ORL,203613,Simmons,J. Simmons,8,1,1,Made,1,13,21,34,h,Simmons 1' Driving Layup (4 PTS) (Biyombo 1 AST),Made Shot,Driving Layup Shot,1,2,105
+0021701029,138,PT00M53.90S,1,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,51,163,17,Made,1,13,23,36,v,Morris Sr. 17' Pullup Jump Shot (7 PTS),Made Shot,Pullup Jump shot,1,2,106
+0021701029,139,PT00M44.10S,1,1610612753,ORL,202714,Mack,S. Mack,-3,10,1,Missed,1,,,0,h,MISS Mack 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,107
+0021701029,140,PT00M42.20S,1,1610612738,BOS,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,108
+0021701029,141,PT00M38.00S,1,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,150,224,27,Missed,1,,,0,v,MISS Morris Sr. 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,109
+0021701029,142,PT00M34.20S,1,1610612753,ORL,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,110
+0021701029,143,PT00M27.30S,1,1610612753,ORL,203920,Birch,K. Birch,-142,5,14,Missed,1,,,0,h,MISS Birch 14' Jump Shot,Missed Shot,Jump Shot,1,2,111
+0021701029,144,PT00M25.80S,1,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Rebound,Rebound,Unknown,0,0,112
+0021701029,145,PT00M25.80S,1,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. L.B.FOUL (P1.T3) (C.Washington),Foul,Loose Ball,1,0,113
+0021701029,147,PT00M12.50S,1,1610612753,ORL,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack Backcourt Turnover (P1.T5),Turnover,Backcourt Turnover,1,0,114
+0021701029,148,PT00M12.50S,1,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,h,SUB: Purvis FOR Simmons,Substitution,,0,0,115
+0021701029,149,PT00M12.50S,1,1610612738,BOS,1628400,Ojeleye,S. Ojeleye,0,0,0,,0,,,0,v,SUB: Rozier FOR Ojeleye,Substitution,,0,0,116
+0021701029,152,PT00M07.40S,1,1610612753,ORL,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack S.FOUL (P1.T4) (C.Washington),Foul,Shooting,1,0,117
+0021701029,154,PT00M07.40S,1,1610612738,BOS,203499,Larkin,S. Larkin,0,0,0,,0,13,24,37,v,Larkin Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,118
+0021701029,155,PT00M07.40S,1,1610612738,BOS,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,SUB: Ojeleye FOR Rozier,Substitution,,0,0,119
+0021701029,157,PT00M07.40S,1,1610612738,BOS,203499,Larkin,S. Larkin,0,0,0,,0,13,25,38,v,Larkin Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,120
+0021701029,158,PT00M01.00S,1,1610612753,ORL,202714,Mack,S. Mack,-147,215,26,Made,1,16,25,41,h,Mack 26' 3PT Pullup Jump Shot (3 PTS),Made Shot,Pullup Jump shot,1,3,121
+0021701029,159,PT00M00.00S,1,0,,0,,,0,0,0,,0,16,25,41,,End of 1st Period (7:36 PM EST),period,end,1,0,122
+0021701029,162,PT12M00.00S,2,0,,0,,,0,0,0,,0,16,25,41,,Start of 2nd Period (7:39 PM EST),period,start,0,0,123
+0021701029,163,PT11M40.00S,2,1610612738,BOS,1627846,Nader,A. Nader,-33,58,7,Missed,1,,,0,v,MISS Nader 7' Driving Layup,Missed Shot,Driving Layup Shot,1,2,124
+0021701029,164,PT11M35.00S,2,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,125
+0021701029,165,PT11M35.00S,2,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,0,-6,1,Missed,1,,,0,v,MISS Morris Sr. 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,126
+0021701029,165,PT11M35.00S,2,1610612753,ORL,1628411,Iwundu,W. Iwundu,0,0,0,,0,,,0,h,Iwundu BLOCK (1 BLK),,,1,2,127
+0021701029,166,PT11M33.00S,2,1610612753,ORL,1628411,Iwundu,W. Iwundu,0,0,0,,0,,,0,h,Iwundu REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,128
+0021701029,167,PT11M16.00S,2,1610612753,ORL,202714,Mack,S. Mack,69,238,25,Missed,1,,,0,h,MISS Mack 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,129
+0021701029,168,PT11M13.00S,2,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,130
+0021701029,169,PT11M07.00S,2,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,-20,34,4,Missed,1,,,0,v,MISS Morris Sr. 4' Layup,Missed Shot,Layup Shot,1,2,131
+0021701029,176,PT11M07.00S,2,1610612738,BOS,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,132
+0021701029,171,PT11M07.00S,2,1610612753,ORL,1628681,Purvis,R. Purvis,0,0,0,,0,,,0,h,Purvis S.FOUL (P1.T1) (S.Wall),Foul,Shooting,1,0,133
+0021701029,173,PT11M07.00S,2,1610612738,BOS,202328,Monroe,G. Monroe,0,0,0,,0,16,26,42,v,Monroe Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,134
+0021701029,174,PT11M07.00S,2,1610612738,BOS,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,MISS Monroe Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,135
+0021701029,175,PT11M05.00S,2,1610612753,ORL,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,136
+0021701029,177,PT10M44.00S,2,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,h,Isaac Out of Bounds Lost Ball Turnover (P1.T6),Turnover,Out of Bounds Lost Ball Turnover,1,0,137
+0021701029,178,PT10M27.00S,2,1610612738,BOS,202328,Monroe,G. Monroe,-4,13,1,Made,1,16,28,44,v,Monroe 1' Driving Layup (5 PTS),Made Shot,Driving Layup Shot,1,2,138
+0021701029,179,PT10M09.00S,2,1610612753,ORL,1628371,Isaac,J. Isaac,-187,5,19,Missed,1,,,0,h,MISS Isaac 19' Jump Shot,Missed Shot,Jump Shot,1,2,139
+0021701029,180,PT10M07.00S,2,1610612738,BOS,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,140
+0021701029,181,PT10M02.00S,2,1610612738,BOS,203499,Larkin,S. Larkin,-4,257,26,Made,1,16,31,47,v,Larkin 26' 3PT Step Back Jump Shot (7 PTS),Made Shot,Step Back Jump shot,1,3,141
+0021701029,182,PT10M01.00S,2,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,142
+0021701029,183,PT09M43.00S,2,1610612753,ORL,202714,Mack,S. Mack,6,18,2,Missed,1,,,0,h,MISS Mack 2' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,143
+0021701029,184,PT09M39.00S,2,1610612738,BOS,1628400,Ojeleye,S. Ojeleye,0,0,0,,0,,,0,v,Ojeleye REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,144
+0021701029,185,PT09M29.00S,2,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. Lost Ball Turnover (P1.T4),Turnover,Lost Ball,1,0,145
+0021701029,185,PT09M29.00S,2,1610612753,ORL,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack STEAL (1 STL),,,1,0,146
+0021701029,187,PT09M25.00S,2,1610612753,ORL,1628681,Purvis,R. Purvis,0,0,0,,0,,,0,h,Purvis Step Out of Bounds Turnover (P1.T7),Turnover,Step Out of Bounds Turnover,1,0,147
+0021701029,188,PT09M14.00S,2,1610612753,ORL,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack P.FOUL (P2.T2) (S.Wall),Foul,Personal,1,0,148
+0021701029,190,PT09M06.00S,2,1610612738,BOS,1627846,Nader,A. Nader,224,35,0,Missed,1,,,0,v,MISS Nader 3PT Jump Shot,Missed Shot,Jump Shot,1,3,149
+0021701029,191,PT09M03.00S,2,1610612753,ORL,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,150
+0021701029,192,PT08M56.00S,2,1610612753,ORL,1628411,Iwundu,W. Iwundu,-3,13,1,Made,1,18,31,49,h,Iwundu 1' Driving Finger Roll Layup (2 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,151
+0021701029,193,PT08M43.00S,2,1610612753,ORL,1628411,Iwundu,W. Iwundu,0,0,0,,0,,,0,h,Iwundu P.FOUL (P1.T3) (C.Washington),Foul,Personal,1,0,152
+0021701029,195,PT08M32.00S,2,1610612738,BOS,1627846,Nader,A. Nader,6,31,3,Missed,1,,,0,v,MISS Nader 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,153
+0021701029,195,PT08M32.00S,2,1610612753,ORL,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo BLOCK (1 BLK),,,1,2,154
+0021701029,196,PT08M31.00S,2,1610612753,ORL,1628411,Iwundu,W. Iwundu,0,0,0,,0,,,0,h,Iwundu REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,155
+0021701029,197,PT08M13.00S,2,1610612753,ORL,1628411,Iwundu,W. Iwundu,10,25,3,Made,1,20,31,51,h,Iwundu 3' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,156
+0021701029,198,PT07M56.00S,2,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,-154,9,15,Missed,1,,,0,v,MISS Morris Sr. 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,157
+0021701029,199,PT07M53.00S,2,1610612753,ORL,1628411,Iwundu,W. Iwundu,0,0,0,,0,,,0,h,Iwundu REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,158
+0021701029,200,PT07M42.00S,2,1610612753,ORL,1628371,Isaac,J. Isaac,118,127,17,Made,1,22,31,53,h,Isaac 17' Pullup Jump Shot (2 PTS) (Iwundu 1 AST),Made Shot,Pullup Jump shot,1,2,159
+0021701029,202,PT07M27.00S,2,1610612738,BOS,203499,Larkin,S. Larkin,18,189,19,Missed,1,,,0,v,MISS Larkin 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,160
+0021701029,203,PT07M24.00S,2,1610612753,ORL,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,161
+0021701029,204,PT07M10.00S,2,1610612753,ORL,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo Out of Bounds - Bad Pass Turnover Turnover (P1.T8),Turnover,Out of Bounds - Bad Pass Turnover,1,0,162
+0021701029,205,PT06M53.00S,2,1610612738,BOS,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,163
+0021701029,205,PT06M53.00S,2,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,h,Isaac STEAL (2 STL),,,1,0,164
+0021701029,207,PT06M49.00S,2,1610612753,ORL,1628371,Isaac,J. Isaac,-8,11,1,Made,1,24,31,55,h,Isaac 1' Running Finger Roll Layup (4 PTS),Made Shot,Running Finger Roll Layup Shot,1,2,165
+0021701029,208,PT06M26.00S,2,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,-53,35,6,Missed,1,,,0,v,MISS Morris Sr. 6' Layup,Missed Shot,Layup Shot,1,2,166
+0021701029,208,PT06M26.00S,2,1610612753,ORL,1628681,Purvis,R. Purvis,0,0,0,,0,,,0,h,Purvis BLOCK (1 BLK),,,1,2,167
+0021701029,210,PT06M26.00S,2,0,,1610612738,,,0,0,0,,0,,,0,v,Celtics Rebound,Rebound,Unknown,0,0,168
+0021701029,211,PT06M26.00S,2,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,h,SUB: Birch FOR Isaac,Substitution,,0,0,169
+0021701029,213,PT06M26.00S,2,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. T.FOUL (P1.T0) (C.Washington),Foul,Technical,1,0,170
+0021701029,214,PT06M26.00S,2,1610612753,ORL,1628681,Purvis,R. Purvis,0,0,0,,0,25,31,56,h,Purvis Free Throw Technical (1 PTS),Free Throw,Free Throw Technical,0,0,171
+0021701029,215,PT06M26.00S,2,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,SUB: Tatum FOR Morris Sr.,Substitution,,0,0,172
+0021701029,216,PT06M26.00S,2,1610612738,BOS,1627846,Nader,A. Nader,0,0,0,,0,,,0,v,SUB: Rozier FOR Nader,Substitution,,0,0,173
+0021701029,217,PT06M26.00S,2,1610612738,BOS,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,SUB: Horford FOR Monroe,Substitution,,0,0,174
+0021701029,221,PT06M22.00S,2,1610612738,BOS,1626179,Rozier,T. Rozier,230,20,0,Missed,1,,,0,v,MISS Rozier 3PT Jump Shot,Missed Shot,Jump Shot,1,3,175
+0021701029,222,PT06M17.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,176
+0021701029,223,PT06M01.00S,2,1610612738,BOS,1626179,Rozier,T. Rozier,130,151,20,Made,1,25,33,58,v,Rozier 20' Pullup Jump Shot (5 PTS),Made Shot,Pullup Jump shot,1,2,177
+0021701029,224,PT05M40.00S,2,1610612753,ORL,202714,Mack,S. Mack,37,123,13,Missed,1,,,0,h,MISS Mack 13' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,178
+0021701029,225,PT05M37.00S,2,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,179
+0021701029,226,PT05M31.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,231,17,0,Missed,1,,,0,v,MISS Tatum 3PT Jump Shot,Missed Shot,Jump Shot,1,3,180
+0021701029,227,PT05M28.00S,2,1610612738,BOS,203499,Larkin,S. Larkin,0,0,0,,0,,,0,v,Larkin REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,181
+0021701029,228,PT05M26.00S,2,1610612738,BOS,203499,Larkin,S. Larkin,-227,-8,0,Missed,1,,,0,v,MISS Larkin 3PT Jump Shot,Missed Shot,Jump Shot,1,3,182
+0021701029,231,PT05M26.00S,2,0,,1610612738,,,0,0,0,,0,,,0,v,Celtics Rebound,Rebound,Unknown,0,0,183
+0021701029,229,PT05M26.00S,2,1610612753,ORL,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack P.FOUL (P3.T4) (J.Goble),Foul,Personal,1,0,184
+0021701029,232,PT05M26.00S,2,1610612753,ORL,202714,Mack,S. Mack,0,0,0,,0,,,0,h,SUB: Augustin FOR Mack,Substitution,,0,0,185
+0021701029,234,PT05M20.00S,2,1610612738,BOS,201143,Horford,A. Horford,11,192,19,Missed,1,,,0,v,MISS Horford 19' Jump Shot,Missed Shot,Jump Shot,1,2,186
+0021701029,235,PT05M17.00S,2,1610612753,ORL,201571,Augustin,D. Augustin,0,0,0,,0,,,0,h,Augustin REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,187
+0021701029,236,PT05M03.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum P.FOUL (P2.T1) (S.Wall),Foul,Personal,1,0,188
+0021701029,238,PT05M03.00S,2,1610612738,BOS,1628400,Ojeleye,S. Ojeleye,0,0,0,,0,,,0,v,SUB: Baynes FOR Ojeleye,Substitution,,0,0,189
+0021701029,240,PT04M58.00S,2,1610612738,BOS,203499,Larkin,S. Larkin,0,0,0,,0,,,0,v,Larkin S.FOUL (P1.T2) (S.Wall),Foul,Shooting,1,0,190
+0021701029,246,PT04M58.00S,2,1610612753,ORL,201571,Augustin,D. Augustin,0,0,0,,0,26,35,61,h,Augustin Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,0,0,191
+0021701029,247,PT04M58.00S,2,1610612753,ORL,201571,Augustin,D. Augustin,0,0,0,,0,27,35,62,h,Augustin Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,0,0,192
+0021701029,242,PT04M58.00S,2,1610612753,ORL,1628411,Iwundu,W. Iwundu,0,0,0,,0,,,0,h,SUB: Hezonja FOR Iwundu,Substitution,,0,0,193
+0021701029,244,PT04M46.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,3,16,2,Made,1,25,35,60,v,Tatum 2' Cutting Layup Shot (2 PTS) (Baynes 2 AST),Made Shot,Cutting Layup Shot,1,2,194
+0021701029,248,PT04M32.00S,2,1610612753,ORL,201571,Augustin,D. Augustin,-85,170,19,Missed,1,,,0,h,MISS Augustin 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,195
+0021701029,249,PT04M32.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,196
+0021701029,250,PT04M20.00S,2,1610612738,BOS,203499,Larkin,S. Larkin,163,189,25,Made,1,27,38,65,v,Larkin 25' 3PT Jump Shot (10 PTS) (Horford 1 AST),Made Shot,Jump Shot,1,3,197
+0021701029,252,PT04M20.00S,2,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,198
+0021701029,253,PT04M20.00S,2,1610612753,ORL,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,SUB: Vucevic FOR Biyombo,Substitution,,0,0,199
+0021701029,254,PT04M20.00S,2,1610612753,ORL,1628681,Purvis,R. Purvis,0,0,0,,0,,,0,h,SUB: Simmons FOR Purvis,Substitution,,0,0,200
+0021701029,255,PT04M20.00S,2,1610612738,BOS,203499,Larkin,S. Larkin,0,0,0,,0,,,0,v,SUB: Morris Sr. FOR Larkin,Substitution,,0,0,201
+0021701029,260,PT04M02.00S,2,1610612753,ORL,202696,Vučević,N. Vučević,-106,99,15,Missed,1,,,0,h,MISS Vucevic 15' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,202
+0021701029,261,PT04M00.00S,2,1610612753,ORL,203920,Birch,K. Birch,0,0,0,,0,,,0,h,Birch REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,203
+0021701029,262,PT03M59.00S,2,1610612753,ORL,203920,Birch,K. Birch,13,18,2,Missed,1,,,0,h,MISS Birch 2' Hook Shot,Missed Shot,Hook Shot,1,2,204
+0021701029,263,PT03M59.00S,2,1610612738,BOS,203382,Baynes,A. Baynes,0,0,0,,0,,,0,v,Baynes REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,205
+0021701029,264,PT03M40.00S,2,1610612738,BOS,1626179,Rozier,T. Rozier,27,93,10,Missed,1,,,0,v,MISS Rozier 10' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,206
+0021701029,265,PT03M39.00S,2,1610612738,BOS,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,Rozier REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,207
+0021701029,266,PT03M37.00S,2,1610612738,BOS,1626179,Rozier,T. Rozier,-2,29,3,Made,1,27,40,67,v,Rozier 3' Putback Layup (7 PTS),Made Shot,Putback Layup Shot,1,2,208
+0021701029,267,PT03M13.00S,2,1610612753,ORL,202696,Vučević,N. Vučević,-14,46,5,Missed,1,,,0,h,MISS Vucevic 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,209
+0021701029,268,PT03M11.00S,2,1610612738,BOS,203382,Baynes,A. Baynes,0,0,0,,0,,,0,v,Baynes REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,210
+0021701029,269,PT03M05.00S,2,1610612738,BOS,201143,Horford,A. Horford,24,22,3,Made,1,27,42,69,v,Horford 3' Driving Layup (8 PTS),Made Shot,Driving Layup Shot,1,2,211
+0021701029,270,PT02M49.00S,2,1610612753,ORL,203613,Simmons,J. Simmons,116,4,12,Missed,1,,,0,h,MISS Simmons 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,212
+0021701029,271,PT02M46.00S,2,1610612738,BOS,203382,Baynes,A. Baynes,0,0,0,,0,,,0,v,Baynes REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,213
+0021701029,272,PT02M32.00S,2,1610612738,BOS,1626179,Rozier,T. Rozier,-108,234,26,Missed,1,,,0,v,MISS Rozier 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,214
+0021701029,273,PT02M29.00S,2,1610612753,ORL,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,215
+0021701029,274,PT02M18.00S,2,1610612753,ORL,203920,Birch,K. Birch,0,7,1,Made,1,29,42,71,h,Birch 1' Cutting Dunk Shot (2 PTS) (Augustin 2 AST),Made Shot,Cutting Dunk Shot,1,2,216
+0021701029,276,PT01M54.00S,2,1610612738,BOS,203382,Baynes,A. Baynes,-6,34,3,Missed,1,,,0,v,MISS Baynes 3' Hook Shot,Missed Shot,Hook Shot,1,2,217
+0021701029,277,PT01M54.00S,2,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Rebound,Rebound,Unknown,0,0,218
+0021701029,278,PT01M54.00S,2,1610612753,ORL,203920,Birch,K. Birch,0,0,0,,0,,,0,h,SUB: Isaac FOR Birch,Substitution,,0,0,219
+0021701029,280,PT01M41.00S,2,1610612753,ORL,201571,Augustin,D. Augustin,21,13,2,Made,1,31,42,73,h,Augustin 2' Driving Finger Roll Layup (9 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,220
+0021701029,281,PT01M26.00S,2,1610612738,BOS,201143,Horford,A. Horford,155,72,17,Missed,1,,,0,v,MISS Horford 17' Jump Shot,Missed Shot,Jump Shot,1,2,221
+0021701029,282,PT01M23.00S,2,1610612738,BOS,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,Rozier REBOUND (Off:4 Def:2),Rebound,Unknown,1,0,222
+0021701029,283,PT01M21.00S,2,1610612738,BOS,1628369,Tatum,J. Tatum,67,250,26,Made,1,31,45,76,v,Tatum 26' 3PT Jump Shot (5 PTS) (Rozier 3 AST),Made Shot,Jump Shot,1,3,223
+0021701029,285,PT01M04.00S,2,1610612753,ORL,1628371,Isaac,J. Isaac,8,160,16,Missed,1,,,0,h,MISS Isaac 16' Jump Shot,Missed Shot,Jump Shot,1,2,224
+0021701029,286,PT01M01.00S,2,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,225
+0021701029,287,PT00M55.10S,2,1610612753,ORL,201571,Augustin,D. Augustin,0,0,0,,0,,,0,h,Augustin P.FOUL (P1.PN) (S.Wall),Foul,Personal,1,0,226
+0021701029,289,PT00M55.10S,2,1610612738,BOS,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,MISS Rozier Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,227
+0021701029,290,PT00M55.10S,2,0,,1610612738,,,0,0,0,,0,,,0,v,Celtics Rebound,Rebound,Normal Rebound,0,0,228
+0021701029,291,PT00M55.10S,2,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,SUB: Ojeleye FOR Tatum,Substitution,,0,0,229
+0021701029,293,PT00M55.10S,2,1610612738,BOS,1626179,Rozier,T. Rozier,0,0,0,,0,31,46,77,v,Rozier Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,230
+0021701029,294,PT00M32.50S,2,1610612753,ORL,1626209,Hezonja,M. Hezonja,5,37,4,Missed,1,,,0,h,MISS Hezonja 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,231
+0021701029,295,PT00M29.30S,2,1610612738,BOS,1628400,Ojeleye,S. Ojeleye,0,0,0,,0,,,0,v,Ojeleye REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,232
+0021701029,296,PT00M23.80S,2,1610612738,BOS,203382,Baynes,A. Baynes,39,27,5,Missed,1,,,0,v,MISS Baynes 5' Layup,Missed Shot,Layup Shot,1,2,233
+0021701029,297,PT00M23.80S,2,1610612738,BOS,203382,Baynes,A. Baynes,0,0,0,,0,,,0,v,Baynes REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,234
+0021701029,298,PT00M23.80S,2,1610612738,BOS,203382,Baynes,A. Baynes,0,-6,1,Made,1,31,48,79,v,Baynes 1' Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,235
+0021701029,299,PT00M03.50S,2,1610612753,ORL,1626209,Hezonja,M. Hezonja,52,246,25,Missed,1,,,0,h,MISS Hezonja 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,236
+0021701029,300,PT00M03.50S,2,1610612738,BOS,1628400,Ojeleye,S. Ojeleye,0,0,0,,0,,,0,v,Ojeleye REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,237
+0021701029,301,PT00M00.00S,2,0,,0,,,0,0,0,,0,31,48,79,,End of 2nd Period (8:03 PM EST),period,end,1,0,238
+0021701029,305,PT12M00.00S,3,0,,0,,,0,0,0,,0,31,48,79,,Start of 3rd Period (8:18 PM EST),period,start,0,0,239
+0021701029,306,PT11M47.00S,3,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,-79,181,20,Missed,1,,,0,v,MISS Morris Sr. 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,240
+0021701029,307,PT11M44.00S,3,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,h,Simmons REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,241
+0021701029,308,PT11M21.00S,3,1610612753,ORL,201571,Augustin,D. Augustin,111,235,26,Missed,1,,,0,h,MISS Augustin 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,242
+0021701029,309,PT11M18.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,243
+0021701029,310,PT10M59.00S,3,1610612738,BOS,203382,Baynes,A. Baynes,234,65,24,Missed,1,,,0,v,MISS Baynes 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,244
+0021701029,311,PT10M57.00S,3,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,h,Isaac REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,245
+0021701029,312,PT10M49.00S,3,1610612753,ORL,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja Traveling Turnover (P2.T9),Turnover,Traveling,1,0,246
+0021701029,313,PT10M35.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum Offensive Charge Foul (P3.T1) (J.Goble),Foul,Offensive Charge,1,0,247
+0021701029,315,PT10M35.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum Offensive Foul Turnover (P2.T6),Turnover,Offensive Foul Turnover,1,0,248
+0021701029,316,PT10M25.00S,3,1610612753,ORL,1628371,Isaac,J. Isaac,-6,20,2,Missed,1,,,0,h,MISS Isaac 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,249
+0021701029,317,PT10M23.00S,3,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,250
+0021701029,318,PT10M16.00S,3,1610612738,BOS,201143,Horford,A. Horford,116,13,12,Missed,1,,,0,v,MISS Horford 12' Jump Shot,Missed Shot,Jump Shot,1,2,251
+0021701029,319,PT10M13.00S,3,1610612753,ORL,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,252
+0021701029,320,PT10M01.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,-25,108,11,Made,1,33,48,81,h,Vucevic 11' Turnaround Jump Shot (4 PTS),Made Shot,Turnaround Jump Shot,1,2,253
+0021701029,321,PT09M50.00S,3,1610612738,BOS,203382,Baynes,A. Baynes,-89,116,15,Made,1,33,50,83,v,Baynes 15' Hook Shot (4 PTS) (Rozier 4 AST),Made Shot,Hook Shot,1,2,254
+0021701029,323,PT09M30.00S,3,1610612753,ORL,1626209,Hezonja,M. Hezonja,96,240,26,Missed,1,,,0,h,MISS Hezonja 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,255
+0021701029,324,PT09M26.00S,3,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,256
+0021701029,325,PT09M21.00S,3,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,-94,212,23,Missed,1,,,0,v,MISS Morris Sr. 23' Jump Shot,Missed Shot,Jump Shot,1,2,257
+0021701029,326,PT09M19.00S,3,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,h,Isaac REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,258
+0021701029,327,PT09M11.00S,3,1610612753,ORL,201571,Augustin,D. Augustin,-8,19,2,Made,1,35,50,85,h,Augustin 2' Layup (11 PTS),Made Shot,Layup Shot,1,2,259
+0021701029,328,PT08M55.00S,3,1610612738,BOS,201143,Horford,A. Horford,54,29,6,Made,1,35,52,87,v,Horford 6' Turnaround Hook Shot (10 PTS),Made Shot,Turnaround Hook Shot,1,2,260
+0021701029,330,PT08M40.00S,3,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford S.FOUL (P1.T2) (S.Wall),Foul,Shooting,1,0,261
+0021701029,332,PT08M40.00S,3,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,h,MISS Simmons Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,262
+0021701029,333,PT08M40.00S,3,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Rebound,Rebound,Normal Rebound,0,0,263
+0021701029,334,PT08M40.00S,3,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,36,52,88,h,Simmons Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,0,0,264
+0021701029,335,PT08M25.00S,3,1610612738,BOS,201143,Horford,A. Horford,36,125,13,Made,1,36,54,90,v,Horford 13' Step Back Jump Shot (12 PTS),Made Shot,Step Back Jump shot,1,2,265
+0021701029,336,PT07M58.00S,3,1610612753,ORL,201571,Augustin,D. Augustin,-9,16,2,Missed,1,,,0,h,MISS Augustin 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,266
+0021701029,336,PT07M58.00S,3,1610612738,BOS,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,Rozier BLOCK (1 BLK),,,1,2,267
+0021701029,337,PT07M56.00S,3,1610612738,BOS,203382,Baynes,A. Baynes,0,0,0,,0,,,0,v,Baynes REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,268
+0021701029,338,PT07M53.00S,3,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,h,Simmons P.FOUL (P2.T1) (J.Goble),Foul,Personal,1,0,269
+0021701029,340,PT07M45.00S,3,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,h,Isaac P.FOUL (P1.T2) (S.Wall),Foul,Personal,1,0,270
+0021701029,343,PT07M43.00S,3,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,h,Simmons P.FOUL (P3.T3) (C.Washington),Foul,Personal,1,0,271
+0021701029,345,PT07M37.00S,3,1610612738,BOS,201143,Horford,A. Horford,-3,20,2,Missed,1,,,0,v,MISS Horford 2' Layup,Missed Shot,Layup Shot,1,2,272
+0021701029,347,PT07M32.00S,3,1610612738,BOS,203382,Baynes,A. Baynes,0,0,0,,0,,,0,v,Baynes REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,273
+0021701029,348,PT07M30.00S,3,1610612738,BOS,1626179,Rozier,T. Rozier,-36,252,25,Made,1,36,57,93,v,Rozier 25' 3PT Jump Shot (11 PTS) (Baynes 3 AST),Made Shot,Jump Shot,1,3,274
+0021701029,350,PT07M20.00S,3,1610612753,ORL,203613,Simmons,J. Simmons,-5,263,26,Missed,1,,,0,h,MISS Simmons 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,275
+0021701029,350,PT07M20.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum BLOCK (1 BLK),,,1,3,276
+0021701029,352,PT07M16.00S,3,1610612738,BOS,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,Rozier REBOUND (Off:4 Def:3),Rebound,Unknown,1,0,277
+0021701029,353,PT07M02.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,113,226,25,Missed,1,,,0,v,MISS Tatum 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,278
+0021701029,354,PT07M00.00S,3,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,h,Simmons REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,279
+0021701029,355,PT07M00.00S,3,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford Violation:Kicked Ball (J.Goble),Violation,Kicked Ball,0,0,280
+0021701029,356,PT07M00.00S,3,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,281
+0021701029,357,PT07M00.00S,3,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,h,SUB: Birch FOR Isaac,Substitution,,0,0,282
+0021701029,359,PT06M46.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,-138,204,25,Missed,1,,,0,h,MISS Vucevic 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,283
+0021701029,360,PT06M45.00S,3,0,,1610612738,,,0,0,0,,0,,,0,v,Celtics Rebound,Rebound,Unknown,0,0,284
+0021701029,361,PT06M29.00S,3,1610612738,BOS,1626179,Rozier,T. Rozier,-206,151,26,Made,1,36,60,96,v,Rozier 26' 3PT Jump Shot (14 PTS) (Morris Sr. 1 AST),Made Shot,Jump Shot,1,3,285
+0021701029,363,PT06M20.00S,3,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,h,Simmons Out of Bounds - Bad Pass Turnover Turnover (P3.T10),Turnover,Out of Bounds - Bad Pass Turnover,1,0,286
+0021701029,364,PT06M09.00S,3,1610612738,BOS,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,Rozier Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,287
+0021701029,364,PT06M09.00S,3,1610612753,ORL,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja STEAL (1 STL),,,1,0,288
+0021701029,366,PT06M05.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,0,1,0,Made,1,38,60,98,h,Vucevic Running Dunk (6 PTS) (Hezonja 1 AST),Made Shot,Running Dunk Shot,1,2,289
+0021701029,368,PT05M51.00S,3,1610612738,BOS,201143,Horford,A. Horford,37,105,11,Missed,1,,,0,v,MISS Horford 11' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,290
+0021701029,369,PT05M49.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,291
+0021701029,370,PT05M42.00S,3,1610612753,ORL,203920,Birch,K. Birch,-27,13,3,Missed,1,,,0,h,MISS Birch 3' Dunk,Missed Shot,Dunk Shot,1,2,292
+0021701029,372,PT05M39.00S,3,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,293
+0021701029,373,PT05M39.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic P.FOUL (P2.T4) (S.Wall),Foul,Personal,1,0,294
+0021701029,375,PT05M39.00S,3,1610612738,BOS,203382,Baynes,A. Baynes,0,0,0,,0,,,0,v,SUB: Monroe FOR Baynes,Substitution,,0,0,295
+0021701029,377,PT05M39.00S,3,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,SUB: Ojeleye FOR Morris Sr.,Substitution,,0,0,296
+0021701029,379,PT05M25.00S,3,1610612738,BOS,202328,Monroe,G. Monroe,24,80,8,Made,1,38,62,100,v,Monroe 8' Driving Hook Shot (7 PTS) (Horford 2 AST),Made Shot,Driving Hook Shot,1,2,297
+0021701029,381,PT05M05.00S,3,1610612753,ORL,1626209,Hezonja,M. Hezonja,225,41,0,Made,1,41,62,103,h,Hezonja 3PT Pullup Jump Shot (5 PTS) (Simmons 3 AST),Made Shot,Pullup Jump shot,1,3,298
+0021701029,383,PT04M48.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum Step Out of Bounds Turnover (P3.T8),Turnover,Step Out of Bounds Turnover,1,0,299
+0021701029,384,PT04M38.00S,3,1610612753,ORL,201571,Augustin,D. Augustin,125,225,26,Missed,1,,,0,h,MISS Augustin 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,300
+0021701029,385,PT04M33.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,301
+0021701029,388,PT04M31.00S,3,0,,1610612738,,,0,0,0,,0,,,0,v,Celtics Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,302
+0021701029,389,PT04M31.00S,3,1610612753,ORL,203920,Birch,K. Birch,0,0,0,,0,,,0,h,SUB: Mack FOR Birch,Substitution,,0,0,303
+0021701029,391,PT04M25.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,55,131,14,Made,1,41,64,105,v,Tatum 14' Turnaround Fadeaway (7 PTS) (Horford 3 AST),Made Shot,Turnaround Fadeaway shot,1,2,304
+0021701029,393,PT04M06.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,-16,105,11,Made,1,43,64,107,h,Vucevic 11' Turnaround Jump Shot (8 PTS) (Augustin 3 AST),Made Shot,Turnaround Jump Shot,1,2,305
+0021701029,395,PT03M52.00S,3,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford Bad Pass Turnover (P1.T9),Turnover,Bad Pass,1,0,306
+0021701029,395,PT03M52.00S,3,1610612753,ORL,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack STEAL (2 STL),,,1,0,307
+0021701029,397,PT03M48.00S,3,1610612753,ORL,201571,Augustin,D. Augustin,-8,-2,1,Made,1,45,64,109,h,Augustin 1' Running Layup (13 PTS),Made Shot,Running Layup Shot,1,2,308
+0021701029,398,PT03M37.00S,3,1610612753,ORL,201571,Augustin,D. Augustin,0,0,0,,0,,,0,h,Augustin P.FOUL (P2.PN) (C.Washington),Foul,Personal,1,0,309
+0021701029,400,PT03M37.00S,3,1610612738,BOS,202328,Monroe,G. Monroe,0,0,0,,0,45,65,110,v,Monroe Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,0,0,310
+0021701029,401,PT03M37.00S,3,1610612738,BOS,202328,Monroe,G. Monroe,0,0,0,,0,45,66,111,v,Monroe Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,0,0,311
+0021701029,402,PT03M25.00S,3,1610612753,ORL,203613,Simmons,J. Simmons,-3,88,9,Missed,1,,,0,h,MISS Simmons 9' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,312
+0021701029,402,PT03M25.00S,3,1610612738,BOS,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe BLOCK (1 BLK),,,1,2,313
+0021701029,403,PT03M23.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,314
+0021701029,404,PT03M21.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,1,20,2,Made,1,47,66,113,h,Vucevic 2' Hook Shot (10 PTS),Made Shot,Hook Shot,1,2,315
+0021701029,405,PT03M12.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic S.FOUL (P3.PN) (S.Wall),Foul,Shooting,1,0,316
+0021701029,407,PT03M12.00S,3,1610612738,BOS,202328,Monroe,G. Monroe,0,0,0,,0,47,67,114,v,Monroe Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,0,0,317
+0021701029,408,PT03M12.00S,3,1610612738,BOS,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,MISS Monroe Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,318
+0021701029,409,PT03M10.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,319
+0021701029,411,PT02M48.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,-42,77,9,Made,1,49,67,116,h,Vucevic 9' Turnaround Fadeaway (12 PTS),Made Shot,Turnaround Fadeaway shot,1,2,320
+0021701029,412,PT02M30.00S,3,1610612738,BOS,1626179,Rozier,T. Rozier,102,167,20,Missed,1,,,0,v,MISS Rozier 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,321
+0021701029,413,PT02M29.00S,3,0,,1610612738,,,0,0,0,,0,,,0,v,Celtics Rebound,Rebound,Unknown,0,0,322
+0021701029,414,PT02M29.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic L.B.FOUL (P4.PN) (J.Goble),Foul,Loose Ball,1,0,323
+0021701029,416,PT02M29.00S,3,1610612738,BOS,202328,Monroe,G. Monroe,0,0,0,,0,49,68,117,v,Monroe Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,0,0,324
+0021701029,417,PT02M29.00S,3,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,SUB: Biyombo FOR Vucevic,Substitution,,0,0,325
+0021701029,418,PT02M29.00S,3,1610612753,ORL,201571,Augustin,D. Augustin,0,0,0,,0,,,0,h,SUB: Iwundu FOR Augustin,Substitution,,0,0,326
+0021701029,419,PT02M29.00S,3,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,SUB: Morris Sr. FOR Tatum,Substitution,,0,0,327
+0021701029,420,PT02M29.00S,3,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,SUB: Nader FOR Horford,Substitution,,0,0,328
+0021701029,425,PT02M29.00S,3,1610612738,BOS,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,MISS Monroe Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,329
+0021701029,426,PT02M22.00S,3,1610612753,ORL,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,330
+0021701029,427,PT02M15.00S,3,1610612753,ORL,203613,Simmons,J. Simmons,73,50,9,Made,1,51,68,119,h,Simmons 9' Turnaround Jump Shot (7 PTS),Made Shot,Turnaround Jump Shot,1,2,331
+0021701029,428,PT02M15.00S,3,1610612738,BOS,1628400,Ojeleye,S. Ojeleye,0,0,0,,0,,,0,v,Ojeleye S.FOUL (P1.T3) (J.Goble),Foul,Shooting,1,0,332
+0021701029,433,PT02M15.00S,3,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,52,68,120,h,Simmons Free Throw 1 of 1 (8 PTS),Free Throw,Free Throw 1 of 1,0,0,333
+0021701029,434,PT02M02.00S,3,1610612738,BOS,202328,Monroe,G. Monroe,0,16,2,Made,1,52,70,122,v,Monroe 2' Driving Layup (13 PTS) (Morris Sr. 2 AST),Made Shot,Driving Layup Shot,1,2,334
+0021701029,436,PT01M45.00S,3,1610612753,ORL,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack Bad Pass Turnover (P2.T11),Turnover,Bad Pass,1,0,335
+0021701029,436,PT01M45.00S,3,1610612738,BOS,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe STEAL (2 STL),,,1,0,336
+0021701029,438,PT01M43.00S,3,1610612753,ORL,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja S.FOUL (P2.PN) (C.Washington),Foul,Shooting,1,0,337
+0021701029,440,PT01M43.00S,3,1610612738,BOS,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,MISS Rozier Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,338
+0021701029,441,PT01M43.00S,3,0,,1610612738,,,0,0,0,,0,,,0,v,Celtics Rebound,Rebound,Normal Rebound,0,0,339
+0021701029,442,PT01M43.00S,3,1610612738,BOS,1626179,Rozier,T. Rozier,0,0,0,,0,52,71,123,v,Rozier Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,0,0,340
+0021701029,443,PT01M31.00S,3,1610612753,ORL,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja Bad Pass Turnover (P3.T12),Turnover,Bad Pass,1,0,341
+0021701029,443,PT01M31.00S,3,1610612738,BOS,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe STEAL (3 STL),,,1,0,342
+0021701029,445,PT01M18.00S,3,1610612738,BOS,202328,Monroe,G. Monroe,40,99,11,Made,1,52,73,125,v,Monroe 11' Turnaround Hook Shot (15 PTS),Made Shot,Turnaround Hook Shot,1,2,343
+0021701029,446,PT01M04.00S,3,1610612753,ORL,1626209,Hezonja,M. Hezonja,-68,245,25,Missed,1,,,0,h,MISS Hezonja 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,344
+0021701029,447,PT01M01.00S,3,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,345
+0021701029,448,PT00M55.60S,3,1610612738,BOS,1626179,Rozier,T. Rozier,-147,217,26,Missed,1,,,0,v,MISS Rozier 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,346
+0021701029,449,PT00M54.70S,3,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,347
+0021701029,450,PT00M54.70S,3,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,0,-6,1,Made,1,52,75,127,v,Morris Sr. 1' Tip Layup Shot (9 PTS),Made Shot,Tip Layup Shot,1,2,348
+0021701029,451,PT00M54.70S,3,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,349
+0021701029,453,PT00M54.70S,3,1610612753,ORL,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,SUB: Isaac FOR Hezonja,Substitution,,0,0,350
+0021701029,454,PT00M54.70S,3,1610612738,BOS,1627846,Nader,A. Nader,0,0,0,,0,,,0,v,SUB: Tatum FOR Nader,Substitution,,0,0,351
+0021701029,457,PT00M37.00S,3,1610612753,ORL,203613,Simmons,J. Simmons,89,246,26,Missed,1,,,0,h,MISS Simmons 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,352
+0021701029,458,PT00M35.80S,3,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Rebound,Rebound,Unknown,0,0,353
+0021701029,459,PT00M35.80S,3,1610612738,BOS,1628400,Ojeleye,S. Ojeleye,0,0,0,,0,,,0,v,Ojeleye L.B.FOUL (P2.T4) (S.Wall),Foul,Loose Ball,1,0,354
+0021701029,461,PT00M28.30S,3,1610612753,ORL,1628371,Isaac,J. Isaac,-107,4,11,Missed,1,,,0,h,MISS Isaac 11' Jump Shot,Missed Shot,Jump Shot,1,2,355
+0021701029,462,PT00M25.90S,3,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,356
+0021701029,463,PT00M09.80S,3,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,43,252,26,Missed,1,,,0,v,MISS Morris Sr. 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,357
+0021701029,464,PT00M06.10S,3,1610612753,ORL,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,358
+0021701029,465,PT00M00.00S,3,1610612753,ORL,203613,Simmons,J. Simmons,11,24,3,Missed,1,,,0,h,MISS Simmons 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,359
+0021701029,466,PT00M00.00S,3,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,360
+0021701029,467,PT00M00.00S,3,0,,0,,,0,0,0,,0,52,75,127,,End of 3rd Period (8:46 PM EST),period,end,1,0,361
+0021701029,474,PT12M00.00S,4,0,,0,,,0,0,0,,0,52,75,127,,Start of 4th Period (8:48 PM EST),period,start,0,0,362
+0021701029,475,PT11M43.00S,4,1610612753,ORL,1628371,Isaac,J. Isaac,1,22,2,Made,1,54,75,129,h,Isaac 2' Cutting Dunk Shot (6 PTS) (Biyombo 2 AST),Made Shot,Cutting Dunk Shot,1,2,363
+0021701029,477,PT11M22.00S,4,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,90,22,9,Missed,1,,,0,v,MISS Morris Sr. 9' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,364
+0021701029,478,PT11M19.00S,4,1610612753,ORL,1628411,Iwundu,W. Iwundu,0,0,0,,0,,,0,h,Iwundu REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,365
+0021701029,479,PT11M08.00S,4,1610612753,ORL,202714,Mack,S. Mack,3,5,1,Missed,1,,,0,h,MISS Mack 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,366
+0021701029,480,PT11M08.00S,4,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Rebound,Rebound,Unknown,0,0,367
+0021701029,481,PT11M08.00S,4,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. L.B.FOUL (P2.T1) (J.Goble),Foul,Loose Ball,1,0,368
+0021701029,483,PT11M02.00S,4,1610612753,ORL,202714,Mack,S. Mack,-4,20,2,Made,1,56,75,131,h,Mack 2' Driving Layup (5 PTS) (Biyombo 3 AST),Made Shot,Driving Layup Shot,1,2,369
+0021701029,486,PT10M39.00S,4,1610612738,BOS,203499,Larkin,S. Larkin,42,52,7,Missed,1,,,0,v,MISS Larkin 7' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,370
+0021701029,486,PT10M39.00S,4,1610612753,ORL,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo BLOCK (2 BLK),,,1,2,371
+0021701029,488,PT10M39.00S,4,0,,1610612738,,,0,0,0,,0,,,0,v,Celtics Rebound,Rebound,Unknown,0,0,372
+0021701029,489,PT10M35.00S,4,1610612738,BOS,1627846,Nader,A. Nader,118,132,18,Missed,1,,,0,v,MISS Nader 18' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,373
+0021701029,490,PT10M33.00S,4,1610612753,ORL,1628681,Purvis,R. Purvis,0,0,0,,0,,,0,h,Purvis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,374
+0021701029,491,PT10M23.00S,4,1610612753,ORL,1628681,Purvis,R. Purvis,-135,210,25,Missed,1,,,0,h,MISS Purvis 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,375
+0021701029,492,PT10M19.00S,4,1610612753,ORL,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,376
+0021701029,493,PT10M18.00S,4,1610612753,ORL,202687,Biyombo,B. Biyombo,2,31,3,Missed,1,,,0,h,MISS Biyombo 3' Putback Layup,Missed Shot,Putback Layup Shot,1,2,377
+0021701029,494,PT10M18.00S,4,1610612738,BOS,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,378
+0021701029,495,PT10M10.00S,4,1610612738,BOS,202328,Monroe,G. Monroe,-2,15,2,Made,1,56,77,133,v,Monroe 2' Cutting Layup Shot (17 PTS) (Ojeleye 1 AST),Made Shot,Cutting Layup Shot,1,2,379
+0021701029,497,PT09M50.00S,4,1610612753,ORL,1628681,Purvis,R. Purvis,-15,258,26,Made,1,59,77,136,h,Purvis 26' 3PT Jump Shot (4 PTS),Made Shot,Jump Shot,1,3,380
+0021701029,499,PT09M33.00S,4,1610612738,BOS,203499,Larkin,S. Larkin,0,0,0,,0,,,0,v,Larkin Bad Pass Turnover (P1.T10),Turnover,Bad Pass,1,0,381
+0021701029,499,PT09M33.00S,4,1610612753,ORL,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo STEAL (1 STL),,,1,0,382
+0021701029,501,PT09M28.00S,4,1610612753,ORL,1628681,Purvis,R. Purvis,-228,103,25,Missed,1,,,0,h,MISS Purvis 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,383
+0021701029,502,PT09M24.00S,4,1610612753,ORL,1628411,Iwundu,W. Iwundu,0,0,0,,0,,,0,h,Iwundu REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,384
+0021701029,503,PT09M20.00S,4,1610612753,ORL,1628371,Isaac,J. Isaac,22,147,15,Missed,1,,,0,h,MISS Isaac 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,385
+0021701029,504,PT09M18.00S,4,1610612753,ORL,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,386
+0021701029,505,PT09M18.00S,4,1610612753,ORL,202687,Biyombo,B. Biyombo,1,10,1,Made,1,61,77,138,h,Biyombo 1' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,387
+0021701029,506,PT09M18.00S,4,0,,1610612738,,,0,0,0,,0,,,0,v,Celtics Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,388
+0021701029,507,PT09M18.00S,4,1610612738,BOS,1628400,Ojeleye,S. Ojeleye,0,0,0,,0,,,0,v,SUB: Rozier FOR Ojeleye,Substitution,,0,0,389
+0021701029,508,PT09M18.00S,4,1610612738,BOS,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,SUB: Baynes FOR Monroe,Substitution,,0,0,390
+0021701029,509,PT09M18.00S,4,1610612738,BOS,203499,Larkin,S. Larkin,0,0,0,,0,,,0,v,SUB: Horford FOR Larkin,Substitution,,0,0,391
+0021701029,513,PT09M01.00S,4,1610612738,BOS,203382,Baynes,A. Baynes,11,167,17,Missed,1,,,0,v,MISS Baynes 17' Jump Shot,Missed Shot,Jump Shot,1,2,392
+0021701029,514,PT08M58.00S,4,1610612753,ORL,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,393
+0021701029,515,PT08M44.00S,4,1610612753,ORL,1628411,Iwundu,W. Iwundu,-221,11,0,Missed,1,,,0,h,MISS Iwundu 3PT Jump Shot,Missed Shot,Jump Shot,1,3,394
+0021701029,516,PT08M42.00S,4,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,395
+0021701029,517,PT08M33.00S,4,1610612738,BOS,201143,Horford,A. Horford,53,179,19,Missed,1,,,0,v,MISS Horford 19' Jump Shot,Missed Shot,Jump Shot,1,2,396
+0021701029,518,PT08M30.00S,4,1610612753,ORL,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,397
+0021701029,519,PT08M30.00S,4,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford P.FOUL (P2.T2) (S.Wall),Foul,Personal,1,0,398
+0021701029,521,PT08M10.00S,4,1610612753,ORL,202714,Mack,S. Mack,-10,13,2,Made,1,63,77,140,h,Mack 2' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,399
+0021701029,522,PT07M57.00S,4,1610612738,BOS,1626179,Rozier,T. Rozier,203,151,25,Missed,1,,,0,v,MISS Rozier 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,400
+0021701029,523,PT07M54.00S,4,1610612753,ORL,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,401
+0021701029,524,PT07M47.00S,4,1610612753,ORL,202714,Mack,S. Mack,16,248,25,Missed,1,,,0,h,MISS Mack 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,402
+0021701029,525,PT07M44.00S,4,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,Morris Sr. REBOUND (Off:2 Def:9),Rebound,Unknown,1,0,403
+0021701029,526,PT07M32.00S,4,1610612738,BOS,201143,Horford,A. Horford,230,53,24,Made,1,63,80,143,v,Horford 24' 3PT Jump Shot (15 PTS) (Rozier 5 AST),Made Shot,Jump Shot,1,3,404
+0021701029,528,PT07M19.00S,4,1610612753,ORL,1628371,Isaac,J. Isaac,17,258,26,Missed,1,,,0,h,MISS Isaac 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,405
+0021701029,529,PT07M17.00S,4,1610612738,BOS,1627846,Nader,A. Nader,0,0,0,,0,,,0,v,Nader REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,406
+0021701029,530,PT07M03.00S,4,1610612738,BOS,203382,Baynes,A. Baynes,0,0,0,,0,,,0,v,Baynes OFF.Foul (P2) (S.Wall),Foul,Offensive,1,0,407
+0021701029,532,PT07M03.00S,4,1610612738,BOS,203382,Baynes,A. Baynes,0,0,0,,0,,,0,v,Baynes Offensive Foul Turnover (P3.T11),Turnover,Offensive Foul Turnover,1,0,408
+0021701029,533,PT07M03.00S,4,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,h,SUB: Birch FOR Isaac,Substitution,,0,0,409
+0021701029,535,PT06M43.00S,4,1610612753,ORL,1628411,Iwundu,W. Iwundu,12,10,2,Missed,1,,,0,h,MISS Iwundu 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,410
+0021701029,535,PT06M43.00S,4,1610612738,BOS,203382,Baynes,A. Baynes,0,0,0,,0,,,0,v,Baynes BLOCK (1 BLK),,,1,2,411
+0021701029,537,PT06M40.00S,4,1610612738,BOS,1627846,Nader,A. Nader,0,0,0,,0,,,0,v,Nader REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,412
+0021701029,538,PT06M28.00S,4,1610612738,BOS,201143,Horford,A. Horford,-224,34,0,Missed,1,,,0,v,MISS Horford 3PT Jump Shot,Missed Shot,Jump Shot,1,3,413
+0021701029,539,PT06M24.00S,4,1610612753,ORL,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,414
+0021701029,540,PT06M16.00S,4,1610612753,ORL,202714,Mack,S. Mack,11,22,2,Made,1,65,80,145,h,Mack 2' Floating Jump Shot (9 PTS),Made Shot,Floating Jump shot,1,2,415
+0021701029,541,PT06M16.00S,4,1610612738,BOS,1627846,Nader,A. Nader,0,0,0,,0,,,0,v,Nader S.FOUL (P1.T3) (J.Goble),Foul,Shooting,1,0,416
+0021701029,543,PT06M16.00S,4,1610612753,ORL,1628681,Purvis,R. Purvis,0,0,0,,0,,,0,h,SUB: Simmons FOR Purvis,Substitution,,0,0,417
+0021701029,544,PT06M16.00S,4,1610612753,ORL,1628411,Iwundu,W. Iwundu,0,0,0,,0,,,0,h,SUB: Augustin FOR Iwundu,Substitution,,0,0,418
+0021701029,545,PT06M16.00S,4,1610612738,BOS,202694,Morris Sr.,M. Morris Sr.,0,0,0,,0,,,0,v,SUB: Tatum FOR Morris Sr.,Substitution,,0,0,419
+0021701029,549,PT06M16.00S,4,1610612753,ORL,202714,Mack,S. Mack,0,0,0,,0,66,80,146,h,Mack Free Throw 1 of 1 (10 PTS),Free Throw,Free Throw 1 of 1,0,0,420
+0021701029,550,PT06M04.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum Lost Ball Turnover (P4.T12),Turnover,Lost Ball,1,0,421
+0021701029,550,PT06M04.00S,4,1610612753,ORL,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack STEAL (3 STL),,,1,0,422
+0021701029,552,PT05M42.00S,4,1610612753,ORL,202714,Mack,S. Mack,-111,245,27,Missed,1,,,0,h,MISS Mack 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,423
+0021701029,553,PT05M42.00S,4,0,,1610612738,,,0,0,0,,0,,,0,v,Celtics Rebound,Rebound,Unknown,0,0,424
+0021701029,595,PT05M23.00S,4,1610612738,BOS,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,Rozier Lost Ball Turnover (P2.T13),Turnover,Lost Ball,1,0,425
+0021701029,595,PT05M23.00S,4,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,h,Simmons STEAL (1 STL),,,1,0,426
+0021701029,557,PT05M17.00S,4,1610612753,ORL,201571,Augustin,D. Augustin,-6,-1,1,Missed,1,,,0,h,MISS Augustin 1' Layup,Missed Shot,Layup Shot,1,2,427
+0021701029,557,PT05M17.00S,4,1610612738,BOS,1627846,Nader,A. Nader,0,0,0,,0,,,0,v,Nader BLOCK (1 BLK),,,1,2,428
+0021701029,559,PT05M17.00S,4,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Rebound,Rebound,Unknown,0,0,429
+0021701029,560,PT05M17.00S,4,1610612738,BOS,1627846,Nader,A. Nader,0,0,0,,0,,,0,v,SUB: Larkin FOR Nader,Substitution,,0,0,430
+0021701029,562,PT05M17.00S,4,1610612753,ORL,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,SUB: Vucevic FOR Biyombo,Substitution,,0,0,431
+0021701029,563,PT05M17.00S,4,1610612753,ORL,203920,Birch,K. Birch,0,0,0,,0,,,0,h,SUB: Hezonja FOR Birch,Substitution,,0,0,432
+0021701029,566,PT05M15.00S,4,1610612753,ORL,203613,Simmons,J. Simmons,164,4,16,Made,1,68,80,148,h,Simmons 16' Jump Shot (10 PTS) (Augustin 4 AST),Made Shot,Jump Shot,1,2,433
+0021701029,568,PT04M57.00S,4,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,Vucevic S.FOUL (P5.T1) (J.Goble),Foul,Shooting,1,0,434
+0021701029,570,PT04M57.00S,4,1610612738,BOS,1626179,Rozier,T. Rozier,0,0,0,,0,68,81,149,v,Rozier Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,0,0,435
+0021701029,571,PT04M57.00S,4,1610612753,ORL,202696,Vučević,N. Vučević,0,0,0,,0,,,0,h,SUB: Biyombo FOR Vucevic,Substitution,,0,0,436
+0021701029,572,PT04M57.00S,4,1610612738,BOS,203382,Baynes,A. Baynes,0,0,0,,0,,,0,v,SUB: Ojeleye FOR Baynes,Substitution,,0,0,437
+0021701029,575,PT04M57.00S,4,1610612738,BOS,1626179,Rozier,T. Rozier,0,0,0,,0,68,82,150,v,Rozier Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,0,0,438
+0021701029,576,PT04M41.00S,4,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,h,Simmons Lost Ball Turnover (P4.T13),Turnover,Lost Ball,1,0,439
+0021701029,576,PT04M41.00S,4,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,Horford STEAL (1 STL),,,1,0,440
+0021701029,578,PT04M34.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,14,1,1,Missed,1,,,0,v,MISS Tatum 1' Layup,Missed Shot,Layup Shot,1,2,441
+0021701029,579,PT04M34.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,442
+0021701029,580,PT04M34.00S,4,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,h,Simmons S.FOUL (P4.T2) (S.Wall),Foul,Shooting,1,0,443
+0021701029,582,PT04M34.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,MISS Tatum Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,444
+0021701029,583,PT04M34.00S,4,0,,1610612738,,,0,0,0,,0,,,0,v,Celtics Rebound,Rebound,Normal Rebound,0,0,445
+0021701029,584,PT04M34.00S,4,1610612738,BOS,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,SUB: Nader FOR Rozier,Substitution,,0,0,446
+0021701029,586,PT04M34.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,68,83,151,v,Tatum Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,447
+0021701029,587,PT04M17.00S,4,1610612753,ORL,201571,Augustin,D. Augustin,0,0,0,,0,,,0,h,Augustin Bad Pass Turnover (P1.T14),Turnover,Bad Pass,1,0,448
+0021701029,587,PT04M17.00S,4,1610612738,BOS,1627846,Nader,A. Nader,0,0,0,,0,,,0,v,Nader STEAL (1 STL),,,1,0,449
+0021701029,589,PT04M15.00S,4,1610612753,ORL,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo S.FOUL (P1.T3) (C.Washington),Foul,Shooting,1,0,450
+0021701029,591,PT04M15.00S,4,1610612738,BOS,1627846,Nader,A. Nader,0,0,0,,0,68,84,152,v,Nader Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,0,0,451
+0021701029,599,PT04M15.00S,4,1610612738,BOS,1627846,Nader,A. Nader,0,0,0,,0,68,85,153,v,Nader Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,0,0,452
+0021701029,592,PT04M15.00S,4,1610612738,BOS,201143,Horford,A. Horford,0,0,0,,0,,,0,v,SUB: Monroe FOR Horford,Substitution,,0,0,453
+0021701029,594,PT04M14.00S,4,0,,1610612753,,,0,0,0,,0,,,0,h,MAGIC Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,454
+0021701029,597,PT04M14.00S,4,1610612753,ORL,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,SUB: Vucevic FOR Biyombo,Substitution,,0,0,455
+0021701029,600,PT03M52.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum S.FOUL (P4.T4) (C.Washington),Foul,Shooting,1,0,456
+0021701029,602,PT03M52.00S,4,1610612753,ORL,1626209,Hezonja,M. Hezonja,0,0,0,,0,69,85,154,h,Hezonja Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,0,0,457
+0021701029,603,PT03M52.00S,4,1610612753,ORL,1626209,Hezonja,M. Hezonja,0,0,0,,0,70,85,155,h,Hezonja Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,0,0,458
+0021701029,604,PT03M35.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,Tatum Bad Pass Turnover (P5.T14),Turnover,Bad Pass,1,0,459
+0021701029,604,PT03M35.00S,4,1610612753,ORL,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja STEAL (2 STL),,,1,0,460
+0021701029,606,PT03M30.00S,4,1610612753,ORL,1626209,Hezonja,M. Hezonja,14,-1,1,Made,1,72,85,157,h,Hezonja 1' Running Layup (9 PTS),Made Shot,Running Layup Shot,1,2,461
+0021701029,607,PT03M09.00S,4,1610612738,BOS,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe Lost Ball Turnover (P2.T15),Turnover,Lost Ball,1,0,462
+0021701029,607,PT03M09.00S,4,1610612753,ORL,201571,Augustin,D. Augustin,0,0,0,,0,,,0,h,Augustin STEAL (1 STL),,,1,0,463
+0021701029,609,PT03M05.00S,4,1610612753,ORL,1626209,Hezonja,M. Hezonja,-32,55,6,Missed,1,,,0,h,MISS Hezonja 6' Running Layup,Missed Shot,Running Layup Shot,1,2,464
+0021701029,609,PT03M05.00S,4,1610612738,BOS,1627846,Nader,A. Nader,0,0,0,,0,,,0,v,Nader BLOCK (2 BLK),,,1,2,465
+0021701029,614,PT02M58.00S,4,0,,1610612738,,,0,0,0,,0,,,0,v,Celtics Rebound,Rebound,Unknown,0,0,466
+0021701029,611,PT02M58.00S,4,1610612753,ORL,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Jump Ball Hezonja vs. Nader: Tip to Tatum,Jump Ball,,1,0,467
+0021701029,615,PT02M49.00S,4,1610612738,BOS,1627846,Nader,A. Nader,10,11,1,Made,1,72,87,159,v,Nader 1' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,468
+0021701029,616,PT02M30.00S,4,1610612753,ORL,202714,Mack,S. Mack,11,36,4,Made,1,74,87,161,h,Mack 4' Cutting Layup Shot (12 PTS) (Vucevic 1 AST),Made Shot,Cutting Layup Shot,1,2,469
+0021701029,618,PT02M13.00S,4,1610612738,BOS,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe Lost Ball Turnover (P3.T16),Turnover,Lost Ball,1,0,470
+0021701029,618,PT02M13.00S,4,1610612753,ORL,201571,Augustin,D. Augustin,0,0,0,,0,,,0,h,Augustin STEAL (2 STL),,,1,0,471
+0021701029,620,PT02M09.00S,4,1610612738,BOS,1628400,Ojeleye,S. Ojeleye,0,0,0,,0,,,0,v,Ojeleye P.FOUL (P3.PN) (J.Goble),Foul,Personal,1,0,472
+0021701029,622,PT02M09.00S,4,1610612753,ORL,202714,Mack,S. Mack,0,0,0,,0,75,87,162,h,Mack Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,0,0,473
+0021701029,623,PT02M09.00S,4,1610612753,ORL,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,SUB: Isaac FOR Hezonja,Substitution,,0,0,474
+0021701029,624,PT02M09.00S,4,1610612738,BOS,1628369,Tatum,J. Tatum,0,0,0,,0,,,0,v,SUB: Yabusele FOR Tatum,Substitution,,0,0,475
+0021701029,625,PT02M09.00S,4,1610612738,BOS,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,SUB: Rozier FOR Monroe,Substitution,,0,0,476
+0021701029,629,PT02M09.00S,4,1610612753,ORL,202714,Mack,S. Mack,0,0,0,,0,76,87,163,h,Mack Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,0,0,477
+0021701029,631,PT01M50.00S,4,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,h,Simmons S.FOUL (P5.T4) (S.Wall),Foul,Shooting,1,0,478
+0021701029,633,PT01M50.00S,4,1610612738,BOS,1627846,Nader,A. Nader,0,0,0,,0,76,88,164,v,Nader Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,0,0,479
+0021701029,637,PT01M50.00S,4,1610612753,ORL,1628371,Isaac,J. Isaac,0,0,0,,0,,,0,h,SUB: Hezonja FOR Isaac,Substitution,,0,0,480
+0021701029,636,PT01M50.00S,4,1610612738,BOS,1627846,Nader,A. Nader,0,0,0,,0,76,89,165,v,Nader Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,0,0,481
+0021701029,638,PT01M39.00S,4,1610612753,ORL,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack Bad Pass Turnover (P3.T15),Turnover,Bad Pass,1,0,482
+0021701029,638,PT01M39.00S,4,1610612738,BOS,203499,Larkin,S. Larkin,0,0,0,,0,,,0,v,Larkin STEAL (1 STL),,,1,0,483
+0021701029,640,PT01M36.00S,4,1610612738,BOS,1626179,Rozier,T. Rozier,0,0,0,,0,,,0,v,Rozier Out of Bounds - Bad Pass Turnover Turnover (P3.T17),Turnover,Out of Bounds - Bad Pass Turnover,1,0,484
+0021701029,641,PT01M22.00S,4,1610612753,ORL,203613,Simmons,J. Simmons,-146,215,26,Made,1,79,89,168,h,Simmons 26' 3PT Jump Shot (13 PTS) (Vucevic 2 AST),Made Shot,Jump Shot,1,3,485
+0021701029,644,PT01M05.00S,4,1610612738,BOS,1627846,Nader,A. Nader,0,0,0,,0,,,0,v,Nader Bad Pass Turnover (P1.T18),Turnover,Bad Pass,1,0,486
+0021701029,644,PT01M05.00S,4,1610612753,ORL,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja STEAL (3 STL),,,1,0,487
+0021701029,647,PT00M55.40S,4,1610612753,ORL,1626209,Hezonja,M. Hezonja,-3,10,1,Made,1,81,89,170,h,Hezonja 1' Driving Layup (11 PTS),Made Shot,Driving Layup Shot,1,2,488
+0021701029,648,PT00M53.40S,4,1610612753,ORL,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack Personal Take Foul (P4.PN) (C.Washington),Foul,Personal Take,1,0,489
+0021701029,650,PT00M53.40S,4,1610612738,BOS,1628400,Ojeleye,S. Ojeleye,0,0,0,,0,81,90,171,v,Ojeleye Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,490
+0021701029,651,PT00M53.40S,4,1610612738,BOS,1628400,Ojeleye,S. Ojeleye,0,0,0,,0,,,0,v,MISS Ojeleye Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,491
+0021701029,652,PT00M50.20S,4,1610612753,ORL,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,492
+0021701029,653,PT00M41.50S,4,1610612753,ORL,202714,Mack,S. Mack,16,27,3,Made,1,83,90,173,h,Mack 3' Driving Layup (16 PTS),Made Shot,Driving Layup Shot,1,2,493
+0021701029,654,PT00M39.60S,4,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,h,Simmons Personal Take Foul (P6.PN) (C.Washington),Foul,Personal Take,1,0,494
+0021701029,656,PT00M39.60S,4,1610612753,ORL,203613,Simmons,J. Simmons,0,0,0,,0,,,0,h,SUB: Isaac FOR Simmons,Substitution,,0,0,495
+0021701029,658,PT00M39.60S,4,1610612738,BOS,1627846,Nader,A. Nader,0,0,0,,0,83,91,174,v,Nader Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,496
+0021701029,659,PT00M39.60S,4,1610612738,BOS,1627846,Nader,A. Nader,0,0,0,,0,83,92,175,v,Nader Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,497
+0021701029,660,PT00M32.50S,4,1610612753,ORL,202696,Vučević,N. Vučević,-10,269,27,Missed,1,,,0,h,MISS Vucevic 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,498
+0021701029,661,PT00M28.40S,4,1610612738,BOS,1627846,Nader,A. Nader,0,0,0,,0,,,0,v,Nader REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,499
+0021701029,662,PT00M06.70S,4,0,,1610612738,,,0,0,0,,0,,,0,v,Celtics Turnover: Shot Clock (T#19),Turnover,Shot Clock Turnover,0,0,500
+0021701029,663,PT00M00.00S,4,0,,0,,,0,0,0,,0,83,92,175,,End of 4th Period (9:18 PM EST),period,end,1,0,501

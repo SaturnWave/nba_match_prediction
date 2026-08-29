@@ -1,0 +1,475 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021700756,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:44 PM EST),period,start,0,0,1
+0021700756,4,PT12M00.00S,1,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Jump Ball Allen vs. Embiid: Tip to Redick,Jump Ball,,1,0,2
+0021700756,7,PT11M49.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,23,25,3,Missed,1,,,0,v,MISS Simmons 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,3
+0021700756,8,PT11M46.00S,1,1610612751,BKN,203112,Acy,Q. Acy,0,0,0,,0,,,0,h,Acy REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,4
+0021700756,9,PT11M45.00S,1,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,-18,25,3,Missed,1,,,0,h,MISS Dinwiddie 3' Running Layup,Missed Shot,Running Layup Shot,1,2,5
+0021700756,9,PT11M45.00S,1,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,v,Covington BLOCK (1 BLK),,,1,2,6
+0021700756,10,PT11M45.00S,1,0,,1610612751,,,0,0,0,,0,,,0,h,NETS Rebound,Rebound,Unknown,0,0,7
+0021700756,12,PT11M34.00S,1,1610612751,BKN,203459,Crabbe,A. Crabbe,75,180,20,Missed,1,,,0,h,MISS Crabbe 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,8
+0021700756,13,PT11M31.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,Embiid REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,9
+0021700756,14,PT11M27.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,27,16,3,Missed,1,,,0,v,MISS Saric 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,10
+0021700756,14,PT11M27.00S,1,1610612751,BKN,203112,Acy,Q. Acy,0,0,0,,0,,,0,h,Acy BLOCK (1 BLK),,,1,2,11
+0021700756,15,PT11M27.00S,1,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Unknown,1,0,12
+0021700756,16,PT11M19.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,60,8,6,Made,1,0,2,2,v,Simmons 6' Turnaround Hook Shot (2 PTS) (Saric 1 AST),Made Shot,Turnaround Hook Shot,1,2,13
+0021700756,19,PT11M06.00S,1,1610612751,BKN,203459,Crabbe,A. Crabbe,173,180,25,Missed,1,,,0,h,MISS Crabbe 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,14
+0021700756,20,PT11M06.00S,1,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,v,Redick REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,15
+0021700756,21,PT10M58.00S,1,1610612755,PHI,200755,Redick,J. Redick,169,120,21,Missed,1,,,0,v,MISS Redick 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,16
+0021700756,22,PT10M55.00S,1,1610612751,BKN,203459,Crabbe,A. Crabbe,0,0,0,,0,,,0,h,Crabbe REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,17
+0021700756,23,PT10M38.00S,1,1610612751,BKN,203112,Acy,Q. Acy,-236,21,24,Made,1,3,2,5,h,Acy 24' 3PT Jump Shot (3 PTS),Made Shot,Jump Shot,1,3,18
+0021700756,24,PT10M24.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,17,2,Made,1,3,4,7,v,Simmons 2' Driving Reverse Layup (4 PTS),Made Shot,Driving Reverse Layup Shot,1,2,19
+0021700756,25,PT10M14.00S,1,1610612751,BKN,201960,Carroll,D. Carroll,11,18,2,Made,1,5,4,9,h,Carroll 2' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,20
+0021700756,26,PT09M57.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,-31,187,19,Made,1,5,6,11,v,Saric 19' Jump Shot (2 PTS) (Covington 1 AST),Made Shot,Jump Shot,1,2,21
+0021700756,28,PT09M38.00S,1,1610612751,BKN,201960,Carroll,D. Carroll,-55,126,14,Made,1,7,6,13,h,Carroll 14' Floating Jump Shot (4 PTS) (Allen 1 AST),Made Shot,Floating Jump shot,1,2,22
+0021700756,29,PT09M29.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,-2,14,1,Made,1,7,8,15,v,Simmons 1' Driving Dunk (6 PTS),Made Shot,Driving Dunk Shot,1,2,23
+0021700756,30,PT09M10.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,v,Saric P.FOUL (P1.T1) (N.Buchert),Foul,Personal,1,0,24
+0021700756,33,PT09M00.00S,1,1610612751,BKN,203459,Crabbe,A. Crabbe,-239,-4,24,Missed,1,,,0,h,MISS Crabbe 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,25
+0021700756,34,PT08M55.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,Embiid REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,26
+0021700756,35,PT08M49.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,166,204,26,Made,1,7,11,18,v,Saric 26' 3PT Jump Shot (5 PTS) (Simmons 1 AST),Made Shot,Jump Shot,1,3,27
+0021700756,37,PT08M27.00S,1,1610612751,BKN,203112,Acy,Q. Acy,-230,27,0,Missed,1,,,0,h,MISS Acy 3PT Jump Shot,Missed Shot,Jump Shot,1,3,28
+0021700756,38,PT08M25.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,Embiid REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,29
+0021700756,39,PT08M18.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,-29,248,25,Made,1,7,14,21,v,Embiid 25' 3PT Pullup Jump Shot (3 PTS),Made Shot,Pullup Jump shot,1,3,30
+0021700756,40,PT08M17.00S,1,0,,1610612751,,,0,0,0,,0,,,0,h,NETS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,31
+0021700756,41,PT07M57.00S,1,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,-89,162,18,Made,1,9,14,23,h,Dinwiddie 18' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,32
+0021700756,42,PT07M39.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,0,15,2,Missed,1,,,0,v,MISS Embiid 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,33
+0021700756,42,PT07M39.00S,1,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen BLOCK (1 BLK),,,1,2,34
+0021700756,43,PT07M37.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,Embiid REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,35
+0021700756,44,PT07M37.00S,1,1610612751,BKN,201960,Carroll,D. Carroll,0,0,0,,0,,,0,h,Carroll S.FOUL (P1.T1) (C.Blair),Foul,Shooting,1,0,36
+0021700756,47,PT07M37.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,9,15,24,v,Embiid Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,0,0,37
+0021700756,48,PT07M37.00S,1,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,v,SUB: McConnell FOR Redick,Substitution,,0,0,38
+0021700756,50,PT07M37.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,9,16,25,v,Embiid Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,0,0,39
+0021700756,51,PT07M17.00S,1,1610612751,BKN,1628386,Allen,J. Allen,-45,157,16,Made,1,11,16,27,h,Allen 16' Jump Shot (2 PTS) (Carroll 1 AST),Made Shot,Jump Shot,1,2,40
+0021700756,53,PT06M54.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,-71,42,8,Made,1,11,18,29,v,Embiid 8' Turnaround Fadeaway (7 PTS),Made Shot,Turnaround Fadeaway shot,1,2,41
+0021700756,54,PT06M36.00S,1,1610612751,BKN,201960,Carroll,D. Carroll,78,41,9,Missed,1,,,0,h,MISS Carroll 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,42
+0021700756,55,PT06M32.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,v,Saric REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,43
+0021700756,56,PT06M23.00S,1,1610612755,PHI,204456,McConnell,T. McConnell,24,20,3,Made,1,11,20,31,v,McConnell 3' Driving Reverse Layup (2 PTS),Made Shot,Driving Reverse Layup Shot,1,2,44
+0021700756,57,PT06M03.00S,1,1610612751,BKN,203459,Crabbe,A. Crabbe,-126,154,20,Made,1,13,20,33,h,Crabbe 20' Jump Shot (2 PTS),Made Shot,Jump Shot,1,2,45
+0021700756,58,PT05M46.00S,1,1610612751,BKN,203112,Acy,Q. Acy,0,0,0,,0,,,0,h,Acy P.FOUL (P1.T2) (N.Buchert),Foul,Personal,1,0,46
+0021700756,60,PT05M46.00S,1,1610612751,BKN,203112,Acy,Q. Acy,0,0,0,,0,,,0,h,SUB: Okafor FOR Acy,Substitution,,0,0,47
+0021700756,61,PT05M46.00S,1,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,SUB: Harris FOR Allen,Substitution,,0,0,48
+0021700756,62,PT05M46.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,SUB: Johnson FOR Embiid,Substitution,,0,0,49
+0021700756,66,PT05M40.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,-106,169,20,Missed,1,,,0,v,MISS Saric 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,50
+0021700756,67,PT05M36.00S,1,1610612751,BKN,203459,Crabbe,A. Crabbe,0,0,0,,0,,,0,h,Crabbe REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,51
+0021700756,68,PT05M32.00S,1,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,11,21,2,Missed,1,,,0,h,MISS Dinwiddie 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,52
+0021700756,68,PT05M32.00S,1,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,v,Johnson BLOCK (1 BLK),,,1,2,53
+0021700756,70,PT05M30.00S,1,1610612751,BKN,1626143,Okafor,J. Okafor,0,0,0,,0,,,0,h,Okafor REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,54
+0021700756,71,PT05M30.00S,1,1610612751,BKN,1626143,Okafor,J. Okafor,-11,15,2,Made,1,15,20,35,h,Okafor 2' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,55
+0021700756,72,PT05M18.00S,1,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,v,Johnson OFF.Foul (P1) (N.Buchert),Foul,Offensive,1,0,56
+0021700756,78,PT05M18.00S,1,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,v,Johnson Offensive Foul Turnover (P1.T1),Turnover,Offensive Foul Turnover,1,0,57
+0021700756,75,PT05M01.00S,1,1610612751,BKN,203459,Crabbe,A. Crabbe,185,174,25,Made,1,18,20,38,h,Crabbe 25' 3PT Jump Shot (5 PTS) (Harris 1 AST),Made Shot,Jump Shot,1,3,58
+0021700756,77,PT04M59.00S,1,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,59
+0021700756,79,PT04M59.00S,1,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,,,0,h,SUB: Russell FOR Dinwiddie,Substitution,,0,0,60
+0021700756,81,PT04M48.00S,1,1610612751,BKN,1626143,Okafor,J. Okafor,0,0,0,,0,,,0,h,Okafor S.FOUL (P1.T3) (C.Blair),Foul,Shooting,1,0,61
+0021700756,83,PT04M48.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,18,21,39,v,Saric Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,0,0,62
+0021700756,84,PT04M48.00S,1,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,v,SUB: Anderson FOR Covington,Substitution,,0,0,63
+0021700756,86,PT04M48.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,18,22,40,v,Saric Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,0,0,64
+0021700756,87,PT04M38.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons Violation:Kicked Ball (N.Buchert),Violation,Kicked Ball,0,0,65
+0021700756,88,PT04M29.00S,1,1610612751,BKN,201960,Carroll,D. Carroll,228,58,24,Made,1,21,22,43,h,Carroll 24' 3PT Jump Shot (7 PTS) (Russell 1 AST),Made Shot,Jump Shot,1,3,66
+0021700756,90,PT04M14.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,52,98,11,Made,1,21,24,45,v,Simmons 11' Driving Floating Bank Jump Shot (8 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,67
+0021700756,91,PT04M05.00S,1,1610612751,BKN,1626143,Okafor,J. Okafor,0,0,0,,0,,,0,h,Okafor OFF.Foul (P2) (N.Buchert),Foul,Offensive,1,0,68
+0021700756,93,PT04M05.00S,1,1610612751,BKN,1626143,Okafor,J. Okafor,0,0,0,,0,,,0,h,Okafor Offensive Foul Turnover (P1.T1),Turnover,Offensive Foul Turnover,1,0,69
+0021700756,94,PT04M05.00S,1,1610612751,BKN,203459,Crabbe,A. Crabbe,0,0,0,,0,,,0,h,SUB: Stauskas FOR Crabbe,Substitution,,0,0,70
+0021700756,96,PT03M51.00S,1,1610612751,BKN,203925,Harris,J. Harris,0,0,0,,0,,,0,h,Harris P.FOUL (P1.T4) (R.Mott),Foul,Personal,1,0,71
+0021700756,98,PT03M39.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,25,69,7,Missed,1,,,0,v,MISS Saric 7' Hook Shot,Missed Shot,Hook Shot,1,2,72
+0021700756,98,PT03M39.00S,1,1610612751,BKN,1626143,Okafor,J. Okafor,0,0,0,,0,,,0,h,Okafor BLOCK (1 BLK),,,1,2,73
+0021700756,100,PT03M34.00S,1,1610612751,BKN,1626143,Okafor,J. Okafor,0,0,0,,0,,,0,h,Okafor REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,74
+0021700756,101,PT03M32.00S,1,1610612751,BKN,201960,Carroll,D. Carroll,0,0,0,,0,,,0,h,Carroll Traveling Turnover (P1.T2),Turnover,Traveling,1,0,75
+0021700756,102,PT03M32.00S,1,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,v,SUB: Embiid FOR Johnson,Substitution,,0,0,76
+0021700756,104,PT03M14.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,40,37,5,Made,1,21,26,47,v,Simmons 5' Hook Shot (10 PTS),Made Shot,Hook Shot,1,2,77
+0021700756,105,PT03M03.00S,1,1610612751,BKN,1626156,Russell,D. Russell,-109,64,13,Missed,1,,,0,h,MISS Russell 13' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,78
+0021700756,106,PT03M02.00S,1,1610612751,BKN,1626143,Okafor,J. Okafor,0,0,0,,0,,,0,h,Okafor REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,79
+0021700756,107,PT03M02.00S,1,1610612755,PHI,1626147,Anderson,J. Anderson,0,0,0,,0,,,0,v,Anderson P.FOUL (P1.T2) (N.Buchert),Foul,Personal,1,0,80
+0021700756,109,PT03M02.00S,1,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,v,SUB: Booker FOR Saric,Substitution,,0,0,81
+0021700756,110,PT03M02.00S,1,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,SUB: Redick FOR Simmons,Substitution,,0,0,82
+0021700756,113,PT02M50.00S,1,1610612751,BKN,1626143,Okafor,J. Okafor,-13,155,16,Missed,1,,,0,h,MISS Okafor 16' Jump Shot,Missed Shot,Jump Shot,1,2,83
+0021700756,114,PT02M47.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,Embiid REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,84
+0021700756,115,PT02M35.00S,1,1610612751,BKN,1626143,Okafor,J. Okafor,0,0,0,,0,,,0,h,Okafor S.FOUL (P3.PN) (C.Blair),Foul,Shooting,1,0,85
+0021700756,117,PT02M35.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,21,27,48,v,Embiid Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,0,0,86
+0021700756,118,PT02M35.00S,1,1610612751,BKN,1626143,Okafor,J. Okafor,0,0,0,,0,,,0,h,SUB: Webb III FOR Okafor,Substitution,,0,0,87
+0021700756,139,PT02M35.00S,1,1610612751,BKN,201960,Carroll,D. Carroll,0,0,0,,0,,,0,h,SUB: Zeller FOR Carroll,Substitution,,0,0,88
+0021700756,123,PT02M35.00S,1,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,21,28,49,v,Embiid Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,0,0,89
+0021700756,124,PT02M23.00S,1,1610612751,BKN,203925,Harris,J. Harris,-8,62,6,Missed,1,,,0,h,MISS Harris 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,90
+0021700756,125,PT02M20.00S,1,1610612755,PHI,202344,Booker,T. Booker,0,0,0,,0,,,0,v,Booker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,91
+0021700756,126,PT02M18.00S,1,1610612755,PHI,202344,Booker,T. Booker,7,11,1,Made,1,21,30,51,v,Booker 1' Running Layup (2 PTS) (McConnell 1 AST),Made Shot,Running Layup Shot,1,2,92
+0021700756,128,PT02M09.00S,1,1610612751,BKN,1626156,Russell,D. Russell,-92,90,13,Missed,1,,,0,h,MISS Russell 13' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,93
+0021700756,129,PT02M07.00S,1,1610612755,PHI,202344,Booker,T. Booker,0,0,0,,0,,,0,v,Booker REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,94
+0021700756,130,PT01M58.00S,1,1610612755,PHI,204456,McConnell,T. McConnell,28,151,15,Missed,1,,,0,v,MISS McConnell 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,95
+0021700756,131,PT01M56.00S,1,0,,1610612751,,,0,0,0,,0,,,0,h,NETS Rebound,Rebound,Unknown,0,0,96
+0021700756,132,PT01M37.00S,1,1610612751,BKN,1626156,Russell,D. Russell,-44,109,12,Made,1,23,30,53,h,Russell 12' Floating Jump Shot (2 PTS),Made Shot,Floating Jump shot,1,2,97
+0021700756,133,PT01M26.00S,1,1610612755,PHI,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,McConnell Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,98
+0021700756,133,PT01M26.00S,1,1610612751,BKN,1626156,Russell,D. Russell,0,0,0,,0,,,0,h,Russell STEAL (1 STL),,,1,0,99
+0021700756,135,PT01M22.00S,1,1610612751,BKN,1626156,Russell,D. Russell,0,0,0,,0,,,0,h,Russell Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,100
+0021700756,135,PT01M22.00S,1,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,v,Redick STEAL (1 STL),,,1,0,101
+0021700756,137,PT01M22.00S,1,1610612751,BKN,1626156,Russell,D. Russell,0,0,0,,0,,,0,h,Russell P.FOUL (P1.PN) (N.Buchert),Foul,Personal,1,0,102
+0021700756,156,PT01M22.00S,1,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,23,32,55,v,Redick Free Throw 1 of 2 (2 PTS),Free Throw,Free Throw 1 of 2,0,0,103
+0021700756,157,PT01M22.00S,1,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,23,31,54,v,Redick Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,0,0,104
+0021700756,140,PT01M22.00S,1,1610612751,BKN,1626156,Russell,D. Russell,97,63,12,Made,1,25,32,57,h,Russell 12' Jump Shot (4 PTS),Made Shot,Jump Shot,1,2,105
+0021700756,141,PT00M59.00S,1,1610612751,BKN,203925,Harris,J. Harris,0,0,0,,0,,,0,h,Harris P.FOUL (P2.PN) (C.Blair),Foul,Personal,1,0,106
+0021700756,143,PT00M59.00S,1,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,25,33,58,v,Redick Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,107
+0021700756,144,PT00M59.00S,1,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,25,34,59,v,Redick Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,108
+0021700756,145,PT00M40.60S,1,1610612751,BKN,1627821,Webb III,J. Webb III,-229,33,0,Missed,1,,,0,h,MISS Webb III 3PT Jump Shot,Missed Shot,Jump Shot,1,3,109
+0021700756,146,PT00M36.20S,1,1610612751,BKN,1626156,Russell,D. Russell,0,0,0,,0,,,0,h,Russell REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,110
+0021700756,147,PT00M25.60S,1,1610612755,PHI,202344,Booker,T. Booker,0,0,0,,0,,,0,v,Booker S.FOUL (P1.T3) (R.Mott),Foul,Shooting,1,0,111
+0021700756,149,PT00M25.60S,1,1610612751,BKN,1626156,Russell,D. Russell,0,0,0,,0,26,34,60,h,Russell Free Throw 1 of 3 (5 PTS),Free Throw,Free Throw 1 of 3,0,0,112
+0021700756,150,PT00M25.60S,1,1610612751,BKN,1626156,Russell,D. Russell,0,0,0,,0,27,34,61,h,Russell Free Throw 2 of 3 (6 PTS),Free Throw,Free Throw 2 of 3,0,0,113
+0021700756,151,PT00M25.60S,1,1610612751,BKN,203917,Stauskas,N. Stauskas,0,0,0,,0,,,0,h,SUB: Allen FOR Stauskas,Substitution,,0,0,114
+0021700756,152,PT00M25.60S,1,1610612751,BKN,1627821,Webb III,J. Webb III,0,0,0,,0,,,0,h,SUB: Dinwiddie FOR Webb III,Substitution,,0,0,115
+0021700756,155,PT00M25.60S,1,1610612751,BKN,1626156,Russell,D. Russell,0,0,0,,0,28,34,62,h,Russell Free Throw 3 of 3 (7 PTS),Free Throw,Free Throw 3 of 3,0,0,116
+0021700756,158,PT00M06.50S,1,1610612755,PHI,200755,Redick,J. Redick,-80,162,18,Missed,1,,,0,v,MISS Redick 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,117
+0021700756,159,PT00M03.10S,1,1610612751,BKN,203925,Harris,J. Harris,0,0,0,,0,,,0,h,Harris REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,118
+0021700756,160,PT00M01.00S,1,1610612755,PHI,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,McConnell P.FOUL (P1.PN) (R.Mott),Foul,Personal,1,0,119
+0021700756,162,PT00M01.00S,1,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,29,34,63,h,Dinwiddie Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,120
+0021700756,163,PT00M01.00S,1,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,30,34,64,h,Dinwiddie Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,121
+0021700756,164,PT00M00.00S,1,0,,0,,,0,0,0,,0,30,34,64,,End of 1st Period (8:11 PM EST),period,end,1,0,122
+0021700756,173,PT12M00.00S,2,0,,0,,,0,0,0,,0,30,34,64,,Start of 2nd Period (8:14 PM EST),period,start,0,0,123
+0021700756,174,PT11M41.00S,2,1610612751,BKN,1626156,Russell,D. Russell,-66,191,20,Made,1,32,34,66,h,Russell 20' Pullup Jump Shot (9 PTS),Made Shot,Pullup Jump shot,1,2,124
+0021700756,176,PT11M17.00S,2,1610612755,PHI,203954,Embiid,J. Embiid,154,108,19,Missed,1,,,0,v,MISS Embiid 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,125
+0021700756,177,PT11M12.00S,2,1610612751,BKN,203925,Harris,J. Harris,0,0,0,,0,,,0,h,Harris REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,126
+0021700756,178,PT11M08.00S,2,1610612751,BKN,203092,Zeller,T. Zeller,-239,13,24,Made,1,35,34,69,h,Zeller 24' 3PT Jump Shot (3 PTS) (Russell 2 AST),Made Shot,Jump Shot,1,3,127
+0021700756,180,PT10M53.00S,2,1610612755,PHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,231,37,0,Missed,1,,,0,v,MISS Luwawu-Cabarrot 3PT Jump Shot,Missed Shot,Jump Shot,1,3,128
+0021700756,181,PT10M50.00S,2,1610612751,BKN,203925,Harris,J. Harris,0,0,0,,0,,,0,h,Harris REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,129
+0021700756,182,PT10M45.00S,2,1610612751,BKN,1626156,Russell,D. Russell,-72,248,26,Made,1,38,34,72,h,Russell 26' 3PT Jump Shot (12 PTS),Made Shot,Jump Shot,1,3,130
+0021700756,183,PT10M44.00S,2,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,131
+0021700756,184,PT10M44.00S,2,1610612755,PHI,202344,Booker,T. Booker,0,0,0,,0,,,0,v,SUB: Saric FOR Booker,Substitution,,0,0,132
+0021700756,187,PT10M23.00S,2,1610612751,BKN,203092,Zeller,T. Zeller,0,0,0,,0,,,0,h,Zeller S.FOUL (P1.T1) (N.Buchert),Foul,Shooting,1,0,133
+0021700756,189,PT10M23.00S,2,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,38,35,73,v,Embiid Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,0,0,134
+0021700756,190,PT10M23.00S,2,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,38,36,74,v,Embiid Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,0,0,135
+0021700756,191,PT10M15.00S,2,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,Embiid P.FOUL (P1.T1) (C.Blair),Foul,Personal,1,0,136
+0021700756,193,PT10M02.00S,2,1610612751,BKN,1626156,Russell,D. Russell,-8,263,26,Made,1,41,36,77,h,Russell 26' 3PT Pullup Jump Shot (15 PTS),Made Shot,Pullup Jump shot,1,3,137
+0021700756,194,PT09M49.00S,2,1610612755,PHI,203496,Covington,R. Covington,-9,19,2,Missed,1,,,0,v,MISS Covington 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,138
+0021700756,195,PT09M47.00S,2,1610612751,BKN,203092,Zeller,T. Zeller,0,0,0,,0,,,0,h,Zeller REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,139
+0021700756,196,PT09M42.00S,2,1610612751,BKN,203925,Harris,J. Harris,-152,205,26,Missed,1,,,0,h,MISS Harris 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,140
+0021700756,197,PT09M41.00S,2,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Unknown,0,0,141
+0021700756,198,PT09M41.00S,2,1610612755,PHI,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,SUB: Simmons FOR McConnell,Substitution,,0,0,142
+0021700756,200,PT09M31.00S,2,1610612751,BKN,1627821,Webb III,J. Webb III,0,0,0,,0,,,0,h,Webb III P.FOUL (P1.T2) (C.Blair),Foul,Personal,1,0,143
+0021700756,202,PT09M25.00S,2,1610612751,BKN,203925,Harris,J. Harris,0,0,0,,0,,,0,h,Harris S.FOUL (P3.T3) (R.Mott),Foul,Shooting,1,0,144
+0021700756,204,PT09M25.00S,2,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,41,37,78,v,Saric Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,0,0,145
+0021700756,205,PT09M25.00S,2,1610612751,BKN,203925,Harris,J. Harris,0,0,0,,0,,,0,h,SUB: Dinwiddie FOR Harris,Substitution,,0,0,146
+0021700756,207,PT09M25.00S,2,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,41,38,79,v,Saric Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,0,0,147
+0021700756,208,PT09M15.00S,2,1610612751,BKN,1626156,Russell,D. Russell,210,116,24,Missed,1,,,0,h,MISS Russell 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,148
+0021700756,209,PT09M11.00S,2,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,v,Saric REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,149
+0021700756,210,PT09M07.00S,2,1610612751,BKN,203092,Zeller,T. Zeller,0,0,0,,0,,,0,h,Zeller S.FOUL (P2.T4) (R.Mott),Foul,Shooting,1,0,150
+0021700756,212,PT09M07.00S,2,1610612751,BKN,203092,Zeller,T. Zeller,0,0,0,,0,,,0,h,SUB: Allen FOR Zeller,Substitution,,0,0,151
+0021700756,214,PT09M07.00S,2,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,41,39,80,v,Embiid Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,0,0,152
+0021700756,215,PT09M07.00S,2,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,MISS Embiid Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,153
+0021700756,216,PT09M03.00S,2,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,v,Saric REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,154
+0021700756,217,PT09M03.00S,2,1610612755,PHI,203967,Šarić,D. Šarić,11,21,2,Missed,1,,,0,v,MISS Saric 2' Putback Layup,Missed Shot,Putback Layup Shot,1,2,155
+0021700756,218,PT09M00.00S,2,1610612751,BKN,203917,Stauskas,N. Stauskas,0,0,0,,0,,,0,h,Stauskas REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,156
+0021700756,219,PT08M54.00S,2,1610612751,BKN,1628386,Allen,J. Allen,41,134,14,Made,1,43,39,82,h,Allen 14' Floating Jump Shot (4 PTS) (Stauskas 1 AST),Made Shot,Floating Jump shot,1,2,157
+0021700756,221,PT08M37.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,-2,15,2,Made,1,43,41,84,v,Simmons 2' Reverse Dunk (12 PTS),Made Shot,Reverse Dunk Shot,1,2,158
+0021700756,222,PT08M26.00S,2,1610612751,BKN,1626156,Russell,D. Russell,103,110,15,Made,1,45,41,86,h,Russell 15' Step Back Jump Shot (17 PTS),Made Shot,Step Back Jump shot,1,2,159
+0021700756,223,PT08M04.00S,2,1610612755,PHI,203954,Embiid,J. Embiid,65,83,11,Missed,1,,,0,v,MISS Embiid 11' Layup,Missed Shot,Layup Shot,1,2,160
+0021700756,224,PT08M01.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,161
+0021700756,225,PT07M59.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,16,75,8,Made,1,45,43,88,v,Simmons 8' Hook Shot (14 PTS),Made Shot,Hook Shot,1,2,162
+0021700756,226,PT07M44.00S,2,1610612755,PHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,0,0,0,,0,,,0,v,Luwawu-Cabarrot S.FOUL (P1.T2) (N.Buchert),Foul,Shooting,1,0,163
+0021700756,228,PT07M44.00S,2,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,46,43,89,h,Allen Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,0,0,164
+0021700756,229,PT07M44.00S,2,1610612751,BKN,1627821,Webb III,J. Webb III,0,0,0,,0,,,0,h,SUB: Acy FOR Webb III,Substitution,,0,0,165
+0021700756,230,PT07M44.00S,2,1610612751,BKN,203917,Stauskas,N. Stauskas,0,0,0,,0,,,0,h,SUB: Carroll FOR Stauskas,Substitution,,0,0,166
+0021700756,233,PT07M44.00S,2,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,47,43,90,h,Allen Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,0,0,167
+0021700756,234,PT07M29.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,32,69,8,Made,1,47,45,92,v,Simmons 8' Turnaround Hook Shot (16 PTS) (Embiid 1 AST),Made Shot,Turnaround Hook Shot,1,2,168
+0021700756,235,PT07M26.00S,2,0,,1610612751,,,0,0,0,,0,,,0,h,NETS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,169
+0021700756,237,PT07M26.00S,2,1610612751,BKN,1626156,Russell,D. Russell,0,0,0,,0,,,0,h,SUB: Crabbe FOR Russell,Substitution,,0,0,170
+0021700756,238,PT07M26.00S,2,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,SUB: Johnson FOR Embiid,Substitution,,0,0,171
+0021700756,241,PT07M09.00S,2,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,,,0,h,Dinwiddie OFF.Foul (P1) (N.Buchert),Foul,Offensive,1,0,172
+0021700756,243,PT07M09.00S,2,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,,,0,h,Dinwiddie Offensive Foul Turnover (P1.T4),Turnover,Offensive Foul Turnover,1,0,173
+0021700756,245,PT06M51.00S,2,1610612755,PHI,203967,Šarić,D. Šarić,-112,234,26,Missed,1,,,0,v,MISS Saric 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,174
+0021700756,246,PT06M47.00S,2,1610612751,BKN,203459,Crabbe,A. Crabbe,0,0,0,,0,,,0,h,Crabbe REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,175
+0021700756,247,PT06M33.00S,2,1610612751,BKN,201960,Carroll,D. Carroll,8,34,3,Missed,1,,,0,h,MISS Carroll 3' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,176
+0021700756,247,PT06M33.00S,2,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,v,Johnson BLOCK (2 BLK),,,1,2,177
+0021700756,248,PT06M30.00S,2,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,v,Saric REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,178
+0021700756,249,PT06M21.00S,2,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,v,Saric Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,179
+0021700756,249,PT06M21.00S,2,1610612751,BKN,203112,Acy,Q. Acy,0,0,0,,0,,,0,h,Acy STEAL (1 STL),,,1,0,180
+0021700756,251,PT06M19.00S,2,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,v,Covington S.FOUL (P1.T3) (R.Mott),Foul,Shooting,1,0,181
+0021700756,253,PT06M19.00S,2,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,48,45,93,h,Allen Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,0,0,182
+0021700756,255,PT06M19.00S,2,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,49,45,94,h,Allen Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,183
+0021700756,256,PT06M00.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,28,27,4,Made,1,49,47,96,v,Simmons 4' Driving Reverse Layup (18 PTS),Made Shot,Driving Reverse Layup Shot,1,2,184
+0021700756,257,PT05M39.00S,2,1610612751,BKN,203459,Crabbe,A. Crabbe,123,221,25,Missed,1,,,0,h,MISS Crabbe 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,185
+0021700756,258,PT05M36.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,186
+0021700756,259,PT05M31.00S,2,1610612755,PHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,237,46,24,Missed,1,,,0,v,MISS Luwawu-Cabarrot 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,187
+0021700756,260,PT05M28.00S,2,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,v,Saric REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,188
+0021700756,261,PT05M22.00S,2,1610612755,PHI,1627732,Simmons,B. Simmons,-9,34,4,Missed,1,,,0,v,MISS Simmons 4' Hook Shot,Missed Shot,Hook Shot,1,2,189
+0021700756,261,PT05M22.00S,2,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen BLOCK (2 BLK),,,1,2,190
+0021700756,263,PT05M18.00S,2,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,191
+0021700756,264,PT05M17.00S,2,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,192
+0021700756,264,PT05M17.00S,2,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,v,Saric STEAL (1 STL),,,1,0,193
+0021700756,266,PT05M15.00S,2,1610612755,PHI,101161,Johnson,A. Johnson,12,9,2,Missed,1,,,0,v,MISS Johnson 2' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,194
+0021700756,267,PT05M15.00S,2,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Unknown,0,0,195
+0021700756,268,PT05M15.00S,2,1610612755,PHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,0,0,0,,0,,,0,v,SUB: Redick FOR Luwawu-Cabarrot,Substitution,,0,0,196
+0021700756,270,PT05M09.00S,2,1610612755,PHI,200755,Redick,J. Redick,-105,141,18,Made,1,49,49,98,v,Redick 18' Jump Shot (6 PTS) (Saric 2 AST),Made Shot,Jump Shot,1,2,197
+0021700756,273,PT05M09.00S,2,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen S.FOUL (P1.PN) (R.Mott),Foul,Shooting,1,0,198
+0021700756,275,PT05M09.00S,2,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,49,50,99,v,Redick Free Throw 1 of 1 (7 PTS),Free Throw,Free Throw 1 of 1,0,0,199
+0021700756,276,PT04M49.00S,2,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,-139,233,27,Made,1,52,50,102,h,Dinwiddie 27' 3PT Jump Shot (7 PTS),Made Shot,Jump Shot,1,3,200
+0021700756,277,PT04M36.00S,2,1610612751,BKN,203459,Crabbe,A. Crabbe,0,0,0,,0,,,0,h,Crabbe P.FOUL (P1.PN) (N.Buchert),Foul,Personal,1,0,201
+0021700756,279,PT04M36.00S,2,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,52,51,103,v,Johnson Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,202
+0021700756,280,PT04M36.00S,2,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,v,MISS Johnson Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,203
+0021700756,281,PT04M33.00S,2,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,204
+0021700756,282,PT04M20.00S,2,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,59,55,8,Made,1,54,51,105,h,Dinwiddie 8' Driving Layup (9 PTS),Made Shot,Driving Layup Shot,1,2,205
+0021700756,283,PT04M20.00S,2,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,v,Johnson S.FOUL (P2.T4) (N.Buchert),Foul,Shooting,1,0,206
+0021700756,285,PT04M20.00S,2,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,v,SUB: Anderson FOR Covington,Substitution,,0,0,207
+0021700756,287,PT04M20.00S,2,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,55,51,106,h,Dinwiddie Free Throw 1 of 1 (10 PTS),Free Throw,Free Throw 1 of 1,0,0,208
+0021700756,288,PT04M09.00S,2,1610612755,PHI,200755,Redick,J. Redick,50,155,16,Missed,1,,,0,v,MISS Redick 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,209
+0021700756,288,PT04M09.00S,2,1610612751,BKN,203459,Crabbe,A. Crabbe,0,0,0,,0,,,0,h,Crabbe BLOCK (1 BLK),,,1,2,210
+0021700756,290,PT04M05.00S,2,1610612751,BKN,203459,Crabbe,A. Crabbe,0,0,0,,0,,,0,h,Crabbe REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,211
+0021700756,291,PT03M53.00S,2,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,-114,86,14,Missed,1,,,0,h,MISS Dinwiddie 14' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,212
+0021700756,292,PT03M49.00S,2,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,v,Johnson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,213
+0021700756,293,PT03M45.00S,2,1610612755,PHI,203967,Šarić,D. Šarić,66,251,26,Missed,1,,,0,v,MISS Saric 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,214
+0021700756,294,PT03M42.00S,2,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,215
+0021700756,295,PT03M25.00S,2,1610612751,BKN,201960,Carroll,D. Carroll,-99,237,26,Made,1,58,51,109,h,Carroll 26' 3PT Jump Shot (10 PTS) (Dinwiddie 1 AST),Made Shot,Jump Shot,1,3,216
+0021700756,297,PT03M11.00S,2,1610612755,PHI,101161,Johnson,A. Johnson,-89,211,23,Made,1,58,53,111,v,Johnson 23' Jump Shot (3 PTS),Made Shot,Jump Shot,1,2,217
+0021700756,298,PT02M57.00S,2,1610612751,BKN,1628386,Allen,J. Allen,-11,15,2,Made,1,60,53,113,h,Allen 2' Cutting Dunk Shot (10 PTS) (Dinwiddie 2 AST),Made Shot,Cutting Dunk Shot,1,2,218
+0021700756,300,PT02M31.00S,2,1610612755,PHI,1626147,Anderson,J. Anderson,103,145,18,Made,1,60,55,115,v,Anderson 18' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,219
+0021700756,301,PT02M16.00S,2,1610612751,BKN,203112,Acy,Q. Acy,33,17,4,Missed,1,,,0,h,MISS Acy 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,220
+0021700756,302,PT02M12.00S,2,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,221
+0021700756,303,PT02M07.00S,2,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,180,162,24,Missed,1,,,0,h,MISS Dinwiddie 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,222
+0021700756,304,PT02M04.00S,2,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,223
+0021700756,305,PT02M01.00S,2,1610612755,PHI,1626147,Anderson,J. Anderson,0,0,0,,0,,,0,v,Anderson Shooting Block Foul (P2.PN) (R.Mott),Foul,Shooting Block,1,0,224
+0021700756,307,PT02M01.00S,2,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,61,55,116,h,Dinwiddie Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,1,0,225
+0021700756,308,PT02M01.00S,2,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,SUB: Zeller FOR Allen,Substitution,,0,0,226
+0021700756,309,PT02M01.00S,2,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,v,SUB: Booker FOR Johnson,Substitution,,0,0,227
+0021700756,310,PT02M01.00S,2,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,v,SUB: Embiid FOR Saric,Substitution,,0,0,228
+0021700756,314,PT02M01.00S,2,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,62,55,117,h,Dinwiddie Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,0,0,229
+0021700756,315,PT01M50.00S,2,1610612755,PHI,200755,Redick,J. Redick,-149,208,26,Made,1,62,58,120,v,Redick 26' 3PT Jump Shot (10 PTS) (Anderson 1 AST),Made Shot,Jump Shot,1,3,230
+0021700756,317,PT01M35.00S,2,1610612751,BKN,203092,Zeller,T. Zeller,13,79,8,Missed,1,,,0,h,MISS Zeller 8' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,231
+0021700756,318,PT01M32.00S,2,1610612755,PHI,202344,Booker,T. Booker,0,0,0,,0,,,0,v,Booker REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,232
+0021700756,319,PT01M25.00S,2,1610612755,PHI,200755,Redick,J. Redick,10,252,25,Made,1,62,61,123,v,Redick 25' 3PT Jump Shot (13 PTS) (Simmons 2 AST),Made Shot,Jump Shot,1,3,233
+0021700756,333,PT01M25.00S,2,0,,319,,,0,0,0,,0,62,61,123,,Instant Replay2nd Period (8:39 PM EST),Instant Replay,Overturn Ruling,0,0,234
+0021700756,321,PT01M04.00S,2,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,,,0,h,Dinwiddie Lost Ball Turnover (P2.T6),Turnover,Lost Ball,1,0,235
+0021700756,321,PT01M04.00S,2,1610612755,PHI,1626147,Anderson,J. Anderson,0,0,0,,0,,,0,v,Anderson STEAL (1 STL),,,1,0,236
+0021700756,323,PT01M00.00S,2,1610612755,PHI,202344,Booker,T. Booker,17,11,2,Made,1,62,63,125,v,Booker 2' Driving Layup (4 PTS) (Simmons 3 AST),Made Shot,Driving Layup Shot,1,2,237
+0021700756,325,PT00M39.40S,2,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,3,12,1,Made,1,64,63,127,h,Dinwiddie 1' Driving Layup (14 PTS),Made Shot,Driving Layup Shot,1,2,238
+0021700756,326,PT00M24.80S,2,1610612755,PHI,203954,Embiid,J. Embiid,-38,71,8,Made,1,64,65,129,v,Embiid 8' Turnaround Fadeaway (14 PTS) (Booker 1 AST),Made Shot,Turnaround Fadeaway shot,1,2,239
+0021700756,328,PT00M00.50S,2,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,9,88,9,Missed,1,,,0,h,MISS Dinwiddie 9' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,240
+0021700756,329,PT00M00.50S,2,0,,1610612751,,,0,0,0,,0,,,0,h,NETS Rebound,Rebound,Unknown,0,0,241
+0021700756,330,PT00M00.50S,2,0,,1610612751,,,0,0,0,,0,,,0,h,NETS Turnover: Shot Clock (T#7),Turnover,Shot Clock Turnover,0,0,242
+0021700756,334,PT00M00.00S,2,0,,0,,,0,0,0,,0,64,65,129,,End of 2nd Period (8:42 PM EST),period,end,1,0,243
+0021700756,341,PT12M00.00S,3,0,,0,,,0,0,0,,0,64,65,129,,Start of 3rd Period (8:56 PM EST),period,start,0,0,244
+0021700756,342,PT11M47.00S,3,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,,,0,h,Dinwiddie Bad Pass Turnover (P3.T8),Turnover,Bad Pass,1,0,245
+0021700756,342,PT11M47.00S,3,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,v,Saric STEAL (2 STL),,,1,0,246
+0021700756,344,PT11M33.00S,3,1610612751,BKN,203112,Acy,Q. Acy,0,0,0,,0,,,0,h,Acy P.FOUL (P2.T1) (R.Mott),Foul,Personal,1,0,247
+0021700756,346,PT11M20.00S,3,1610612755,PHI,203954,Embiid,J. Embiid,-36,96,10,Missed,1,,,0,v,MISS Embiid 10' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,248
+0021700756,347,PT11M17.00S,3,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,249
+0021700756,348,PT11M00.00S,3,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,10,1,Missed,1,,,0,h,MISS Dinwiddie 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,250
+0021700756,348,PT11M00.00S,3,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,Embiid BLOCK (1 BLK),,,1,2,251
+0021700756,350,PT10M57.00S,3,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,Embiid REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,252
+0021700756,351,PT10M48.00S,3,1610612755,PHI,203967,Šarić,D. Šarić,-8,22,2,Missed,1,,,0,v,MISS Saric 2' Layup,Missed Shot,Layup Shot,1,2,253
+0021700756,352,PT10M45.00S,3,1610612751,BKN,203112,Acy,Q. Acy,0,0,0,,0,,,0,h,Acy REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,254
+0021700756,353,PT10M37.00S,3,1610612751,BKN,203112,Acy,Q. Acy,30,258,26,Made,1,67,65,132,h,Acy 26' 3PT Jump Shot (6 PTS) (Dinwiddie 3 AST),Made Shot,Jump Shot,1,3,255
+0021700756,355,PT10M07.00S,3,1610612751,BKN,203459,Crabbe,A. Crabbe,0,0,0,,0,,,0,h,Crabbe S.FOUL (P2.T2) (N.Buchert),Foul,Shooting,1,0,256
+0021700756,357,PT10M07.00S,3,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,v,MISS Redick Free Throw 1 of 3,Free Throw,Free Throw 1 of 3,0,0,257
+0021700756,358,PT10M07.00S,3,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Normal Rebound,0,0,258
+0021700756,359,PT10M07.00S,3,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,67,66,133,v,Redick Free Throw 2 of 3 (14 PTS),Free Throw,Free Throw 2 of 3,0,0,259
+0021700756,360,PT10M07.00S,3,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,67,67,134,v,Redick Free Throw 3 of 3 (15 PTS),Free Throw,Free Throw 3 of 3,0,0,260
+0021700756,361,PT09M50.00S,3,1610612751,BKN,1628386,Allen,J. Allen,8,64,6,Missed,1,,,0,h,MISS Allen 6' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,261
+0021700756,362,PT09M46.00S,3,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,Embiid REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,262
+0021700756,363,PT09M34.00S,3,1610612755,PHI,200755,Redick,J. Redick,222,47,0,Missed,1,,,0,v,MISS Redick 3PT Jump Shot,Missed Shot,Jump Shot,1,3,263
+0021700756,364,PT09M32.00S,3,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,264
+0021700756,365,PT09M17.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons S.FOUL (P1.T1) (C.Blair),Foul,Shooting,1,0,265
+0021700756,367,PT09M17.00S,3,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,68,67,135,h,Dinwiddie Free Throw 1 of 2 (15 PTS),Free Throw,Free Throw 1 of 2,0,0,266
+0021700756,368,PT09M17.00S,3,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,,,0,h,MISS Dinwiddie Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,267
+0021700756,369,PT09M12.00S,3,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,268
+0021700756,370,PT09M10.00S,3,1610612751,BKN,203459,Crabbe,A. Crabbe,201,162,26,Made,1,71,67,138,h,Crabbe 26' 3PT Jump Shot (8 PTS) (Allen 2 AST),Made Shot,Jump Shot,1,3,269
+0021700756,372,PT09M09.00S,3,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,270
+0021700756,373,PT08M53.00S,3,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen S.FOUL (P2.T3) (C.Blair),Foul,Shooting,1,0,271
+0021700756,375,PT08M53.00S,3,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,71,68,139,v,Embiid Free Throw 1 of 2 (15 PTS),Free Throw,Free Throw 1 of 2,0,0,272
+0021700756,376,PT08M53.00S,3,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,71,69,140,v,Embiid Free Throw 2 of 2 (16 PTS),Free Throw,Free Throw 2 of 2,0,0,273
+0021700756,377,PT08M41.00S,3,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen Out of Bounds - Bad Pass Turnover Turnover (P2.T9),Turnover,Out of Bounds - Bad Pass Turnover,1,0,274
+0021700756,378,PT08M20.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,-54,102,12,Made,1,71,71,142,v,Simmons 12' Pullup Jump Shot (20 PTS),Made Shot,Pullup Jump shot,1,2,275
+0021700756,379,PT08M00.00S,3,1610612751,BKN,203459,Crabbe,A. Crabbe,17,204,20,Made,1,73,71,144,h,Crabbe 20' Pullup Jump Shot (10 PTS),Made Shot,Pullup Jump shot,1,2,276
+0021700756,380,PT07M33.00S,3,1610612755,PHI,203496,Covington,R. Covington,221,120,25,Made,1,73,74,147,v,Covington 25' 3PT Jump Shot (3 PTS) (Saric 3 AST),Made Shot,Jump Shot,1,3,277
+0021700756,382,PT07M15.00S,3,1610612751,BKN,1628386,Allen,J. Allen,33,55,6,Made,1,75,74,149,h,Allen 6' Turnaround Hook Shot (12 PTS) (Carroll 2 AST),Made Shot,Turnaround Hook Shot,1,2,278
+0021700756,384,PT06M51.00S,3,1610612755,PHI,203967,Šarić,D. Šarić,-24,260,26,Made,1,75,77,152,v,Saric 26' 3PT Jump Shot (12 PTS) (Simmons 4 AST),Made Shot,Jump Shot,1,3,279
+0021700756,386,PT06M31.00S,3,1610612751,BKN,203459,Crabbe,A. Crabbe,-177,178,25,Missed,1,,,0,h,MISS Crabbe 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,280
+0021700756,387,PT06M28.00S,3,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:4 Def:5),Rebound,Unknown,1,0,281
+0021700756,388,PT06M24.00S,3,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen Lost Ball Turnover (P3.T10),Turnover,Lost Ball,1,0,282
+0021700756,388,PT06M24.00S,3,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,v,Saric STEAL (3 STL),,,1,0,283
+0021700756,392,PT06M22.00S,3,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,Embiid Offensive Charge Foul (P2.T2) (C.Blair),Foul,Offensive Charge,1,0,284
+0021700756,394,PT06M22.00S,3,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,Embiid Offensive Foul Turnover (P1.T4),Turnover,Offensive Foul Turnover,1,0,285
+0021700756,395,PT06M22.00S,3,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,v,SUB: McConnell FOR Redick,Substitution,,0,0,286
+0021700756,397,PT06M22.00S,3,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,SUB: Johnson FOR Embiid,Substitution,,0,0,287
+0021700756,399,PT05M58.00S,3,1610612751,BKN,201960,Carroll,D. Carroll,9,110,11,Missed,1,,,0,h,MISS Carroll 11' Jump Shot,Missed Shot,Jump Shot,1,2,288
+0021700756,400,PT05M57.00S,3,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Unknown,0,0,289
+0021700756,401,PT05M57.00S,3,1610612751,BKN,201960,Carroll,D. Carroll,0,0,0,,0,,,0,h,Carroll L.B.FOUL (P2.T4) (R.Mott),Foul,Loose Ball,1,0,290
+0021700756,403,PT05M57.00S,3,1610612751,BKN,203112,Acy,Q. Acy,0,0,0,,0,,,0,h,SUB: Okafor FOR Acy,Substitution,,0,0,291
+0021700756,404,PT05M57.00S,3,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,SUB: Harris FOR Allen,Substitution,,0,0,292
+0021700756,407,PT05M37.00S,3,1610612755,PHI,101161,Johnson,A. Johnson,9,27,3,Made,1,75,79,154,v,Johnson 3' Cutting Layup Shot (5 PTS) (Simmons 5 AST),Made Shot,Cutting Layup Shot,1,2,293
+0021700756,409,PT05M14.00S,3,1610612751,BKN,203459,Crabbe,A. Crabbe,28,22,4,Made,1,77,79,156,h,Crabbe 4' Driving Finger Roll Layup (12 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,294
+0021700756,410,PT05M01.00S,3,1610612755,PHI,101161,Johnson,A. Johnson,95,152,18,Made,1,77,81,158,v,Johnson 18' Jump Shot (7 PTS),Made Shot,Jump Shot,1,2,295
+0021700756,411,PT04M50.00S,3,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,33,26,4,Made,1,79,81,160,h,Dinwiddie 4' Driving Finger Roll Layup (17 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,296
+0021700756,412,PT04M50.00S,3,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,v,Johnson S.FOUL (P3.T3) (R.Mott),Foul,Shooting,1,0,297
+0021700756,414,PT04M50.00S,3,1610612751,BKN,203459,Crabbe,A. Crabbe,0,0,0,,0,,,0,h,SUB: Stauskas FOR Crabbe,Substitution,,0,0,298
+0021700756,416,PT04M50.00S,3,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,80,81,161,h,Dinwiddie Free Throw 1 of 1 (18 PTS),Free Throw,Free Throw 1 of 1,0,0,299
+0021700756,417,PT04M32.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,37,94,10,Missed,1,,,0,v,MISS Simmons 10' Hook Shot,Missed Shot,Hook Shot,1,2,300
+0021700756,418,PT04M28.00S,3,1610612751,BKN,203917,Stauskas,N. Stauskas,0,0,0,,0,,,0,h,Stauskas REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,301
+0021700756,419,PT04M23.00S,3,1610612751,BKN,1626143,Okafor,J. Okafor,8,17,2,Made,1,82,81,163,h,Okafor 2' Layup (4 PTS) (Carroll 3 AST),Made Shot,Layup Shot,1,2,302
+0021700756,421,PT04M10.00S,3,1610612755,PHI,203967,Šarić,D. Šarić,-3,211,21,Missed,1,,,0,v,MISS Saric 21' Jump Shot,Missed Shot,Jump Shot,1,2,303
+0021700756,422,PT04M08.00S,3,1610612751,BKN,203917,Stauskas,N. Stauskas,0,0,0,,0,,,0,h,Stauskas REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,304
+0021700756,423,PT03M51.00S,3,1610612751,BKN,203917,Stauskas,N. Stauskas,0,0,0,,0,,,0,h,Stauskas Bad Pass Turnover (P1.T11),Turnover,Bad Pass,1,0,305
+0021700756,423,PT03M51.00S,3,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,v,Covington STEAL (1 STL),,,1,0,306
+0021700756,425,PT03M47.00S,3,1610612755,PHI,203496,Covington,R. Covington,0,5,1,Made,1,82,83,165,v,Covington 1' Driving Layup (5 PTS) (Simmons 6 AST),Made Shot,Driving Layup Shot,1,2,307
+0021700756,427,PT03M47.00S,3,0,,1610612751,,,0,0,0,,0,,,0,h,NETS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,308
+0021700756,428,PT03M47.00S,3,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,,,0,h,SUB: Russell FOR Dinwiddie,Substitution,,0,0,309
+0021700756,429,PT03M47.00S,3,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,v,SUB: Anderson FOR Johnson,Substitution,,0,0,310
+0021700756,430,PT03M47.00S,3,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,v,SUB: Embiid FOR Covington,Substitution,,0,0,311
+0021700756,434,PT03M24.00S,3,1610612751,BKN,1626143,Okafor,J. Okafor,30,10,3,Made,1,84,83,167,h,Okafor 3' Cutting Layup Shot (6 PTS) (Stauskas 2 AST),Made Shot,Cutting Layup Shot,1,2,312
+0021700756,456,PT03M05.00S,3,1610612755,PHI,203954,Embiid,J. Embiid,-33,54,6,Missed,1,,,0,v,MISS Embiid 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,313
+0021700756,456,PT03M05.00S,3,1610612751,BKN,1626156,Russell,D. Russell,0,0,0,,0,,,0,h,Russell BLOCK (1 BLK),,,1,2,314
+0021700756,458,PT03M05.00S,3,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Unknown,0,0,315
+0021700756,437,PT03M03.00S,3,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,v,SUB: Booker FOR Saric,Substitution,,0,0,316
+0021700756,439,PT03M01.00S,3,1610612755,PHI,203954,Embiid,J. Embiid,-122,227,26,Missed,1,,,0,v,MISS Embiid 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,317
+0021700756,440,PT02M58.00S,3,1610612751,BKN,1626156,Russell,D. Russell,0,0,0,,0,,,0,h,Russell REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,318
+0021700756,441,PT02M53.00S,3,1610612751,BKN,203925,Harris,J. Harris,23,22,3,Missed,1,,,0,h,MISS Harris 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,319
+0021700756,442,PT02M49.00S,3,1610612751,BKN,203925,Harris,J. Harris,0,0,0,,0,,,0,h,Harris REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,320
+0021700756,443,PT02M47.00S,3,1610612751,BKN,203925,Harris,J. Harris,-5,22,2,Made,1,86,83,169,h,Harris 2' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,321
+0021700756,444,PT02M28.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,3,70,7,Made,1,86,85,171,v,Simmons 7' Turnaround Hook Shot (22 PTS),Made Shot,Turnaround Hook Shot,1,2,322
+0021700756,445,PT02M09.00S,3,1610612751,BKN,1626156,Russell,D. Russell,-30,40,5,Made,1,88,85,173,h,Russell 5' Driving Hook Shot (19 PTS),Made Shot,Driving Hook Shot,1,2,323
+0021700756,446,PT01M51.00S,3,1610612755,PHI,203954,Embiid,J. Embiid,-116,130,17,Made,1,88,87,175,v,Embiid 17' Jump Shot (18 PTS),Made Shot,Jump Shot,1,2,324
+0021700756,447,PT01M35.00S,3,1610612755,PHI,1626147,Anderson,J. Anderson,0,0,0,,0,,,0,v,Anderson S.FOUL (P3.T4) (R.Mott),Foul,Shooting,1,0,325
+0021700756,449,PT01M35.00S,3,1610612751,BKN,1626156,Russell,D. Russell,0,0,0,,0,89,87,176,h,Russell Free Throw 1 of 2 (20 PTS),Free Throw,Free Throw 1 of 2,0,0,326
+0021700756,450,PT01M35.00S,3,1610612751,BKN,201960,Carroll,D. Carroll,0,0,0,,0,,,0,h,SUB: Webb III FOR Carroll,Substitution,,0,0,327
+0021700756,451,PT01M35.00S,3,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,SUB: Redick FOR Simmons,Substitution,,0,0,328
+0021700756,454,PT01M35.00S,3,1610612751,BKN,1626156,Russell,D. Russell,0,0,0,,0,,,0,h,MISS Russell Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,329
+0021700756,455,PT01M32.00S,3,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,Embiid REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,330
+0021700756,459,PT01M20.00S,3,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,Embiid Discontinue Dribble Turnover (P2.T5),Turnover,Discontinue Dribble,1,0,331
+0021700756,460,PT01M11.00S,3,1610612751,BKN,1626156,Russell,D. Russell,-15,66,7,Made,1,91,87,178,h,Russell 7' Driving Finger Roll Layup (22 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,332
+0021700756,461,PT00M47.30S,3,1610612755,PHI,200755,Redick,J. Redick,-46,181,19,Missed,1,,,0,v,MISS Redick 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,333
+0021700756,462,PT00M44.50S,3,1610612751,BKN,1626156,Russell,D. Russell,0,0,0,,0,,,0,h,Russell REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,334
+0021700756,463,PT00M35.30S,3,1610612751,BKN,1626156,Russell,D. Russell,-27,252,25,Missed,1,,,0,h,MISS Russell 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,335
+0021700756,464,PT00M31.00S,3,1610612755,PHI,202344,Booker,T. Booker,0,0,0,,0,,,0,v,Booker REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,336
+0021700756,465,PT00M19.20S,3,1610612751,BKN,1626143,Okafor,J. Okafor,0,0,0,,0,,,0,h,Okafor P.FOUL (P4.PN) (N.Buchert),Foul,Personal,1,0,337
+0021700756,467,PT00M19.20S,3,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,MISS Embiid Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,338
+0021700756,468,PT00M19.20S,3,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Normal Rebound,0,0,339
+0021700756,469,PT00M19.20S,3,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,v,SUB: Luwawu-Cabarrot FOR Redick,Substitution,,0,0,340
+0021700756,471,PT00M19.20S,3,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,91,88,179,v,Embiid Free Throw 2 of 2 (19 PTS),Free Throw,Free Throw 2 of 2,0,0,341
+0021700756,472,PT00M04.40S,3,1610612751,BKN,1627821,Webb III,J. Webb III,239,25,24,Missed,1,,,0,h,MISS Webb III 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,342
+0021700756,473,PT00M00.40S,3,1610612755,PHI,1626147,Anderson,J. Anderson,0,0,0,,0,,,0,v,Anderson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,343
+0021700756,474,PT00M00.00S,3,1610612755,PHI,1626147,Anderson,J. Anderson,31,601,60,Missed,1,,,0,v,MISS Anderson 60' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,344
+0021700756,475,PT00M00.00S,3,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Unknown,0,0,345
+0021700756,476,PT00M00.00S,3,0,,0,,,0,0,0,,0,91,88,179,,End of 3rd Period (9:20 PM EST),period,end,1,0,346
+0021700756,477,PT12M00.00S,4,0,,0,,,0,0,0,,0,91,88,179,,Start of 4th Period (9:23 PM EST),period,start,0,0,347
+0021700756,478,PT11M42.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,-3,99,10,Made,1,91,90,181,v,Embiid 10' Hook Shot (21 PTS),Made Shot,Hook Shot,1,2,348
+0021700756,479,PT11M23.00S,4,1610612751,BKN,203925,Harris,J. Harris,-141,213,26,Missed,1,,,0,h,MISS Harris 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,349
+0021700756,480,PT11M20.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,Embiid REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,350
+0021700756,481,PT11M06.00S,4,1610612755,PHI,202344,Booker,T. Booker,-9,10,1,Made,1,91,92,183,v,Booker 1' Cutting Dunk Shot (6 PTS) (Embiid 2 AST),Made Shot,Cutting Dunk Shot,1,2,351
+0021700756,483,PT10M49.00S,4,1610612751,BKN,1626156,Russell,D. Russell,52,177,18,Missed,1,,,0,h,MISS Russell 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,352
+0021700756,483,PT10M49.00S,4,1610612755,PHI,1626147,Anderson,J. Anderson,0,0,0,,0,,,0,v,Anderson BLOCK (1 BLK),,,1,2,353
+0021700756,485,PT10M46.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,Embiid REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,354
+0021700756,486,PT10M42.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,41,248,25,Missed,1,,,0,v,MISS Embiid 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,355
+0021700756,487,PT10M37.00S,4,1610612755,PHI,1626147,Anderson,J. Anderson,0,0,0,,0,,,0,v,Anderson REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,356
+0021700756,488,PT10M35.00S,4,1610612755,PHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,-237,29,24,Missed,1,,,0,v,MISS Luwawu-Cabarrot 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,357
+0021700756,489,PT10M29.00S,4,1610612751,BKN,1626156,Russell,D. Russell,0,0,0,,0,,,0,h,Russell REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,358
+0021700756,490,PT10M23.00S,4,1610612751,BKN,1626156,Russell,D. Russell,-168,185,25,Missed,1,,,0,h,MISS Russell 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,359
+0021700756,491,PT10M20.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,Embiid REBOUND (Off:1 Def:10),Rebound,Unknown,1,0,360
+0021700756,492,PT10M13.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,-7,253,25,Missed,1,,,0,v,MISS Embiid 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,361
+0021700756,493,PT10M08.00S,4,1610612755,PHI,202344,Booker,T. Booker,0,0,0,,0,,,0,v,Booker REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,362
+0021700756,494,PT09M54.00S,4,1610612755,PHI,202344,Booker,T. Booker,0,0,0,,0,,,0,v,Booker OFF.Foul (P2) (N.Buchert),Foul,Offensive,1,0,363
+0021700756,496,PT09M54.00S,4,1610612755,PHI,202344,Booker,T. Booker,0,0,0,,0,,,0,v,Booker Offensive Foul Turnover (P1.T6),Turnover,Offensive Foul Turnover,1,0,364
+0021700756,497,PT09M44.00S,4,1610612751,BKN,1626156,Russell,D. Russell,-9,32,3,Missed,1,,,0,h,MISS Russell 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,365
+0021700756,498,PT09M41.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,Embiid REBOUND (Off:1 Def:11),Rebound,Unknown,1,0,366
+0021700756,499,PT09M38.00S,4,1610612755,PHI,1626147,Anderson,J. Anderson,-2,11,1,Missed,1,,,0,v,MISS Anderson 1' Dunk,Missed Shot,Dunk Shot,1,2,367
+0021700756,499,PT09M38.00S,4,1610612751,BKN,203925,Harris,J. Harris,0,0,0,,0,,,0,h,Harris BLOCK (1 BLK),,,1,2,368
+0021700756,501,PT09M38.00S,4,1610612751,BKN,203917,Stauskas,N. Stauskas,0,0,0,,0,,,0,h,Stauskas REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,369
+0021700756,502,PT09M18.00S,4,1610612751,BKN,203917,Stauskas,N. Stauskas,142,216,26,Missed,1,,,0,h,MISS Stauskas 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,370
+0021700756,503,PT09M13.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,Embiid REBOUND (Off:1 Def:12),Rebound,Unknown,1,0,371
+0021700756,504,PT09M02.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,33,123,13,Missed,1,,,0,v,MISS Embiid 13' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,372
+0021700756,505,PT08M58.00S,4,1610612751,BKN,1626156,Russell,D. Russell,0,0,0,,0,,,0,h,Russell REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,373
+0021700756,506,PT08M51.00S,4,1610612751,BKN,203917,Stauskas,N. Stauskas,155,197,25,Made,1,94,92,186,h,Stauskas 25' 3PT Jump Shot (3 PTS) (Russell 3 AST),Made Shot,Jump Shot,1,3,374
+0021700756,508,PT08M50.00S,4,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,375
+0021700756,509,PT08M50.00S,4,1610612751,BKN,1627821,Webb III,J. Webb III,0,0,0,,0,,,0,h,SUB: Acy FOR Webb III,Substitution,,0,0,376
+0021700756,510,PT08M50.00S,4,1610612751,BKN,1626156,Russell,D. Russell,0,0,0,,0,,,0,h,SUB: Dinwiddie FOR Russell,Substitution,,0,0,377
+0021700756,511,PT08M50.00S,4,1610612755,PHI,1626147,Anderson,J. Anderson,0,0,0,,0,,,0,v,SUB: Johnson FOR Anderson,Substitution,,0,0,378
+0021700756,512,PT08M50.00S,4,1610612755,PHI,204456,McConnell,T. McConnell,0,0,0,,0,,,0,v,SUB: Simmons FOR McConnell,Substitution,,0,0,379
+0021700756,513,PT08M50.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,SUB: Covington FOR Embiid,Substitution,,0,0,380
+0021700756,519,PT08M33.00S,4,1610612755,PHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,-41,32,5,Missed,1,,,0,v,MISS Luwawu-Cabarrot 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,381
+0021700756,520,PT08M29.00S,4,1610612751,BKN,203112,Acy,Q. Acy,0,0,0,,0,,,0,h,Acy REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,382
+0021700756,521,PT08M15.00S,4,1610612755,PHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,0,0,0,,0,,,0,v,Luwawu-Cabarrot S.FOUL (P2.T1) (C.Blair),Foul,Shooting,1,0,383
+0021700756,523,PT08M15.00S,4,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,95,92,187,h,Dinwiddie Free Throw 1 of 3 (19 PTS),Free Throw,Free Throw 1 of 3,0,0,384
+0021700756,524,PT08M15.00S,4,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,96,92,188,h,Dinwiddie Free Throw 2 of 3 (20 PTS),Free Throw,Free Throw 2 of 3,0,0,385
+0021700756,525,PT08M15.00S,4,1610612751,BKN,203925,Harris,J. Harris,0,0,0,,0,,,0,h,SUB: Carroll FOR Harris,Substitution,,0,0,386
+0021700756,526,PT08M15.00S,4,1610612755,PHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,0,0,0,,0,,,0,v,SUB: Anderson FOR Luwawu-Cabarrot,Substitution,,0,0,387
+0021700756,529,PT08M15.00S,4,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,97,92,189,h,Dinwiddie Free Throw 3 of 3 (21 PTS),Free Throw,Free Throw 3 of 3,0,0,388
+0021700756,530,PT07M59.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,389
+0021700756,530,PT07M59.00S,4,1610612751,BKN,203112,Acy,Q. Acy,0,0,0,,0,,,0,h,Acy STEAL (2 STL),,,1,0,390
+0021700756,532,PT07M46.00S,4,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,232,36,0,Made,1,100,92,192,h,Dinwiddie 3PT Jump Shot (24 PTS) (Stauskas 3 AST),Made Shot,Jump Shot,1,3,391
+0021700756,534,PT07M28.00S,4,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,,,0,h,Dinwiddie P.FOUL (P2.T1) (N.Buchert),Foul,Personal,1,0,392
+0021700756,536,PT07M28.00S,4,1610612755,PHI,101161,Johnson,A. Johnson,0,0,0,,0,,,0,v,SUB: Embiid FOR Johnson,Substitution,,0,0,393
+0021700756,537,PT07M28.00S,4,1610612755,PHI,1626147,Anderson,J. Anderson,0,0,0,,0,,,0,v,SUB: Redick FOR Anderson,Substitution,,0,0,394
+0021700756,540,PT07M20.00S,4,1610612755,PHI,200755,Redick,J. Redick,87,179,20,Missed,1,,,0,v,MISS Redick 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,395
+0021700756,541,PT07M17.00S,4,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,,,0,h,Dinwiddie REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,396
+0021700756,542,PT07M08.00S,4,1610612751,BKN,1626143,Okafor,J. Okafor,20,122,12,Made,1,102,92,194,h,Okafor 12' Driving Floating Jump Shot (8 PTS) (Carroll 4 AST),Made Shot,Driving Floating Jump Shot,1,2,397
+0021700756,544,PT07M04.00S,4,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,398
+0021700756,545,PT07M04.00S,4,1610612755,PHI,202344,Booker,T. Booker,0,0,0,,0,,,0,v,SUB: Saric FOR Booker,Substitution,,0,0,399
+0021700756,547,PT06M54.00S,4,1610612751,BKN,203917,Stauskas,N. Stauskas,0,0,0,,0,,,0,h,Stauskas S.FOUL (P1.T2) (C.Blair),Foul,Shooting,1,0,400
+0021700756,549,PT06M54.00S,4,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,102,93,195,v,Redick Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,0,0,401
+0021700756,550,PT06M54.00S,4,1610612751,BKN,203917,Stauskas,N. Stauskas,0,0,0,,0,,,0,h,SUB: Crabbe FOR Stauskas,Substitution,,0,0,402
+0021700756,552,PT06M54.00S,4,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,102,94,196,v,Redick Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,0,0,403
+0021700756,553,PT06M48.00S,4,0,,1610612751,,,0,0,0,,0,,,0,h,NETS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,404
+0021700756,554,PT06M48.00S,4,1610612751,BKN,1626143,Okafor,J. Okafor,0,0,0,,0,,,0,h,SUB: Allen FOR Okafor,Substitution,,0,0,405
+0021700756,556,PT06M31.00S,4,1610612751,BKN,201960,Carroll,D. Carroll,17,268,27,Made,1,105,94,199,h,Carroll 27' 3PT Jump Shot (13 PTS) (Allen 3 AST),Made Shot,Jump Shot,1,3,406
+0021700756,558,PT06M16.00S,4,1610612751,BKN,203459,Crabbe,A. Crabbe,0,0,0,,0,,,0,h,Crabbe S.FOUL (P3.T3) (N.Buchert),Foul,Shooting,1,0,407
+0021700756,560,PT06M16.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,105,95,200,v,Simmons Free Throw 1 of 2 (23 PTS),Free Throw,Free Throw 1 of 2,0,0,408
+0021700756,561,PT06M16.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,105,96,201,v,Simmons Free Throw 2 of 2 (24 PTS),Free Throw,Free Throw 2 of 2,0,0,409
+0021700756,562,PT05M58.00S,4,1610612751,BKN,203459,Crabbe,A. Crabbe,-15,257,26,Missed,1,,,0,h,MISS Crabbe 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,410
+0021700756,563,PT05M54.00S,4,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,v,Saric REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,411
+0021700756,564,PT05M49.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,-2,10,1,Missed,1,,,0,v,MISS Simmons 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,412
+0021700756,565,PT05M46.00S,4,1610612751,BKN,203459,Crabbe,A. Crabbe,0,0,0,,0,,,0,h,Crabbe REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,413
+0021700756,566,PT05M43.00S,4,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,v,Covington S.FOUL (P2.T2) (C.Blair),Foul,Shooting,1,0,414
+0021700756,568,PT05M43.00S,4,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,106,96,202,h,Dinwiddie Free Throw 1 of 2 (25 PTS),Free Throw,Free Throw 1 of 2,0,0,415
+0021700756,569,PT05M43.00S,4,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,107,96,203,h,Dinwiddie Free Throw 2 of 2 (26 PTS),Free Throw,Free Throw 2 of 2,0,0,416
+0021700756,570,PT05M33.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,-14,21,3,Missed,1,,,0,v,MISS Embiid 3' Layup,Missed Shot,Layup Shot,1,2,417
+0021700756,570,PT05M33.00S,4,1610612751,BKN,201960,Carroll,D. Carroll,0,0,0,,0,,,0,h,Carroll BLOCK (1 BLK),,,1,2,418
+0021700756,572,PT05M33.00S,4,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Rebound,Rebound,Unknown,0,0,419
+0021700756,573,PT05M29.00S,4,1610612751,BKN,203459,Crabbe,A. Crabbe,0,0,0,,0,,,0,h,Crabbe P.FOUL (P4.T4) (C.Blair),Foul,Personal,1,0,420
+0021700756,575,PT05M21.00S,4,1610612755,PHI,200755,Redick,J. Redick,-106,242,26,Made,1,107,99,206,v,Redick 26' 3PT Jump Shot (20 PTS) (Simmons 7 AST),Made Shot,Jump Shot,1,3,421
+0021700756,577,PT05M08.00S,4,1610612751,BKN,1628386,Allen,J. Allen,-27,71,8,Made,1,109,99,208,h,Allen 8' Hook Shot (14 PTS) (Dinwiddie 4 AST),Made Shot,Hook Shot,1,2,422
+0021700756,579,PT04M50.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,-27,20,3,Made,1,109,101,210,v,Embiid 3' Driving Finger Roll Layup (23 PTS) (Saric 4 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,423
+0021700756,581,PT04M37.00S,4,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,,,0,h,Jump Ball Dinwiddie vs. Covington: Tip to Carroll,Jump Ball,,1,0,424
+0021700756,584,PT04M37.00S,4,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,v,Redick P.FOUL (P1.T3) (N.Buchert),Foul,Personal,1,0,425
+0021700756,586,PT04M21.00S,4,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,-100,236,26,Missed,1,,,0,h,MISS Dinwiddie 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,426
+0021700756,587,PT04M20.00S,4,0,,1610612751,,,0,0,0,,0,,,0,h,NETS Rebound,Rebound,Unknown,0,0,427
+0021700756,588,PT04M20.00S,4,0,,1610612751,,,0,0,0,,0,,,0,h,NETS Turnover: Shot Clock (T#12),Turnover,Shot Clock Turnover,0,0,428
+0021700756,589,PT04M08.00S,4,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen S.FOUL (P3.PN) (C.Blair),Foul,Shooting,1,0,429
+0021700756,591,PT04M08.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,109,102,211,v,Embiid Free Throw 1 of 2 (24 PTS),Free Throw,Free Throw 1 of 2,0,0,430
+0021700756,592,PT04M08.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,109,103,212,v,Embiid Free Throw 2 of 2 (25 PTS),Free Throw,Free Throw 2 of 2,0,0,431
+0021700756,593,PT03M52.00S,4,1610612751,BKN,203459,Crabbe,A. Crabbe,45,129,14,Made,1,111,103,214,h,Crabbe 14' Pullup Jump Shot (14 PTS) (Carroll 5 AST),Made Shot,Pullup Jump shot,1,2,432
+0021700756,595,PT03M44.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,52,5,Missed,1,,,0,v,MISS Simmons 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,433
+0021700756,596,PT03M39.00S,4,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:4 Def:6),Rebound,Unknown,1,0,434
+0021700756,597,PT03M23.00S,4,1610612751,BKN,203459,Crabbe,A. Crabbe,-21,256,26,Missed,1,,,0,h,MISS Crabbe 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,435
+0021700756,598,PT03M19.00S,4,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,v,Covington REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,436
+0021700756,599,PT03M05.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,-12,20,2,Made,1,111,105,216,v,Embiid 2' Layup (27 PTS),Made Shot,Layup Shot,1,2,437
+0021700756,600,PT03M03.00S,4,0,,1610612751,,,0,0,0,,0,,,0,h,NETS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,438
+0021700756,601,PT02M40.00S,4,1610612751,BKN,203112,Acy,Q. Acy,-174,173,25,Missed,1,,,0,h,MISS Acy 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,439
+0021700756,602,PT02M37.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,Embiid REBOUND (Off:1 Def:13),Rebound,Unknown,1,0,440
+0021700756,603,PT02M14.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,-35,16,4,Made,1,111,107,218,v,Embiid 4' Layup (29 PTS),Made Shot,Layup Shot,1,2,441
+0021700756,604,PT01M53.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,Embiid S.FOUL (P3.T4) (C.Blair),Foul,Shooting,1,0,442
+0021700756,606,PT01M53.00S,4,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,112,107,219,h,Allen Free Throw 1 of 2 (15 PTS),Free Throw,Free Throw 1 of 2,0,0,443
+0021700756,607,PT01M53.00S,4,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,113,107,220,h,Allen Free Throw 2 of 2 (16 PTS),Free Throw,Free Throw 2 of 2,0,0,444
+0021700756,608,PT01M42.00S,4,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,Embiid Out of Bounds - Bad Pass Turnover Turnover (P3.T8),Turnover,Out of Bounds - Bad Pass Turnover,1,0,445
+0021700756,609,PT01M17.00S,4,1610612751,BKN,203112,Acy,Q. Acy,-228,-6,0,Missed,1,,,0,h,MISS Acy 3PT Jump Shot,Missed Shot,Jump Shot,1,3,446
+0021700756,610,PT01M13.00S,4,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,v,Redick REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,447
+0021700756,611,PT01M08.00S,4,1610612751,BKN,201960,Carroll,D. Carroll,0,0,0,,0,,,0,h,Carroll P.FOUL (P3.PN) (R.Mott),Foul,Personal,1,0,448
+0021700756,613,PT01M08.00S,4,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,113,108,221,v,Covington Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,0,0,449
+0021700756,614,PT01M08.00S,4,1610612755,PHI,203496,Covington,R. Covington,0,0,0,,0,,,0,v,MISS Covington Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,450
+0021700756,615,PT01M05.00S,4,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:4 Def:7),Rebound,Unknown,1,0,451
+0021700756,616,PT01M03.00S,4,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen Lost Ball Turnover (P4.T13),Turnover,Lost Ball,1,0,452
+0021700756,616,PT01M03.00S,4,1610612755,PHI,1627732,Simmons,B. Simmons,0,0,0,,0,,,0,v,Simmons STEAL (1 STL),,,1,0,453
+0021700756,618,PT00M58.90S,4,1610612755,PHI,203967,Šarić,D. Šarić,-2,28,3,Missed,1,,,0,v,MISS Saric 3' Layup,Missed Shot,Layup Shot,1,2,454
+0021700756,618,PT00M58.90S,4,1610612751,BKN,203112,Acy,Q. Acy,0,0,0,,0,,,0,h,Acy BLOCK (2 BLK),,,1,2,455
+0021700756,620,PT00M54.20S,4,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,,,0,h,Dinwiddie REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,456
+0021700756,621,PT00M44.80S,4,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,Embiid S.FOUL (P4.PN) (N.Buchert),Foul,Shooting,1,0,457
+0021700756,623,PT00M44.80S,4,1610612751,BKN,201960,Carroll,D. Carroll,0,0,0,,0,114,108,222,h,Carroll Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,458
+0021700756,624,PT00M44.80S,4,1610612751,BKN,201960,Carroll,D. Carroll,0,0,0,,0,115,108,223,h,Carroll Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,459
+0021700756,625,PT00M44.80S,4,0,,1610612755,,,0,0,0,,0,,,0,v,76ers Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,460
+0021700756,626,PT00M41.60S,4,1610612755,PHI,203954,Embiid,J. Embiid,-13,264,26,Missed,1,,,0,v,MISS Embiid 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,461
+0021700756,627,PT00M39.20S,4,0,,1610612751,,,0,0,0,,0,,,0,h,NETS Rebound,Rebound,Unknown,0,0,462
+0021700756,628,PT00M39.20S,4,0,,1610612751,,,0,0,0,,0,,,0,h,NETS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,463
+0021700756,629,PT00M39.20S,4,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,SUB: Stauskas FOR Allen,Substitution,,0,0,464
+0021700756,630,PT00M39.20S,4,1610612755,PHI,203967,Šarić,D. Šarić,0,0,0,,0,,,0,v,SUB: Anderson FOR Saric,Substitution,,0,0,465
+0021700756,631,PT00M39.20S,4,1610612755,PHI,200755,Redick,J. Redick,0,0,0,,0,,,0,v,SUB: McConnell FOR Redick,Substitution,,0,0,466
+0021700756,632,PT00M39.20S,4,1610612755,PHI,203954,Embiid,J. Embiid,0,0,0,,0,,,0,v,SUB: Luwawu-Cabarrot FOR Embiid,Substitution,,0,0,467
+0021700756,637,PT00M26.00S,4,1610612755,PHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,0,0,0,,0,,,0,v,Luwawu-Cabarrot P.FOUL (P3.PN) (C.Blair),Foul,Personal,1,0,468
+0021700756,639,PT00M26.00S,4,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,116,108,224,h,Dinwiddie Free Throw 1 of 2 (27 PTS),Free Throw,Free Throw 1 of 2,1,0,469
+0021700756,640,PT00M26.00S,4,1610612751,BKN,203917,Stauskas,N. Stauskas,0,0,0,,0,,,0,h,SUB: Allen FOR Stauskas,Substitution,,0,0,470
+0021700756,642,PT00M26.00S,4,1610612751,BKN,203915,Dinwiddie,S. Dinwiddie,0,0,0,,0,,,0,h,MISS Dinwiddie Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,471
+0021700756,643,PT00M21.90S,4,1610612751,BKN,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:5 Def:7),Rebound,Unknown,1,0,472
+0021700756,644,PT00M01.10S,4,0,,1610612751,,,0,0,0,,0,,,0,h,NETS Turnover: Shot Clock (T#14),Turnover,Shot Clock Turnover,0,0,473
+0021700756,645,PT00M00.00S,4,0,,0,,,0,0,0,,0,116,108,224,,End of 4th Period (9:58 PM EST),period,end,1,0,474

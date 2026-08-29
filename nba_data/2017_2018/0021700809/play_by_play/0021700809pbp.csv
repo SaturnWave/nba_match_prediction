@@ -1,0 +1,518 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021700809,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (8:11 PM EST),period,start,0,0,1
+0021700809,4,PT12M00.00S,1,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Jump Ball Davis vs. Turner: Tip to Rondo,Jump Ball,,1,0,2
+0021700809,7,PT11M43.00S,1,1610612740,NOP,2731,Okafor,E. Okafor,163,6,16,Missed,1,,,0,h,MISS Okafor 16' Jump Shot,Missed Shot,Jump Shot,1,2,3
+0021700809,8,PT11M40.00S,1,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,Collison REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,4
+0021700809,9,PT11M27.00S,1,1610612754,IND,1626167,Turner,M. Turner,22,157,16,Missed,1,,,0,v,MISS Turner 16' Jump Shot,Missed Shot,Jump Shot,1,2,5
+0021700809,10,PT11M24.00S,1,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,6
+0021700809,11,PT11M22.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,109,230,25,Made,1,0,3,3,v,Oladipo 25' 3PT Jump Shot (3 PTS) (T. Young 1 AST),Made Shot,Jump Shot,1,3,7
+0021700809,323,PT11M07.00S,1,1610612740,NOP,2731,Okafor,E. Okafor,11,19,2,Missed,1,,,0,h,MISS Okafor 2' Layup,Missed Shot,Layup Shot,1,2,8
+0021700809,323,PT11M07.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner BLOCK (1 BLK),,,1,2,9
+0021700809,325,PT11M05.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,10
+0021700809,15,PT10M57.00S,1,1610612754,IND,1626167,Turner,M. Turner,5,125,13,Missed,1,,,0,v,MISS Turner 13' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,11
+0021700809,16,PT10M50.00S,1,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,12
+0021700809,17,PT10M42.00S,1,1610612740,NOP,202734,Moore,E. Moore,-28,6,3,Missed,1,,,0,h,MISS Moore 3' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,13
+0021700809,18,PT10M36.00S,1,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,14
+0021700809,19,PT10M28.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,-8,6,1,Missed,1,,,0,v,MISS Bogdanovic 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,15
+0021700809,20,PT10M26.00S,1,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,16
+0021700809,21,PT10M22.00S,1,1610612740,NOP,202734,Moore,E. Moore,-32,73,8,Missed,1,,,0,h,MISS Moore 8' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,17
+0021700809,22,PT10M19.00S,1,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Rebound,Rebound,Unknown,0,0,18
+0021700809,23,PT10M11.00S,1,1610612740,NOP,201950,Holiday,J. Holiday,-9,86,9,Missed,1,,,0,h,MISS Holiday 9' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,19
+0021700809,24,PT10M09.00S,1,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,20
+0021700809,25,PT09M54.00S,1,1610612754,IND,1626167,Turner,M. Turner,104,178,21,Missed,1,,,0,v,MISS Turner 21' Jump Shot,Missed Shot,Jump Shot,1,2,21
+0021700809,26,PT09M52.00S,1,1610612740,NOP,200765,Rondo,R. Rondo,0,0,0,,0,,,0,h,Rondo REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,22
+0021700809,27,PT09M39.00S,1,1610612740,NOP,200765,Rondo,R. Rondo,-20,13,2,Made,1,2,3,5,h,Rondo 2' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,23
+0021700809,29,PT09M22.00S,1,1610612740,NOP,200765,Rondo,R. Rondo,0,0,0,,0,,,0,h,Rondo S.FOUL (P1.T1) (S.Twardoski),Foul,Shooting,1,0,24
+0021700809,31,PT09M22.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,2,4,6,v,Turner Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,25
+0021700809,32,PT09M22.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,2,5,7,v,Turner Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,26
+0021700809,33,PT09M10.00S,1,1610612740,NOP,203076,Davis,A. Davis,-144,106,18,Made,1,4,5,9,h,Davis 18' Jump Shot (2 PTS),Made Shot,Jump Shot,1,2,27
+0021700809,34,PT08M58.00S,1,1610612754,IND,201152,Young,T. Young,-20,29,4,Missed,1,,,0,v,MISS T. Young 4' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,28
+0021700809,34,PT08M58.00S,1,1610612740,NOP,2731,Okafor,E. Okafor,0,0,0,,0,,,0,h,Okafor BLOCK (1 BLK),,,1,2,29
+0021700809,36,PT08M54.00S,1,1610612740,NOP,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,30
+0021700809,37,PT08M50.00S,1,1610612740,NOP,201950,Holiday,J. Holiday,-12,70,7,Made,1,6,5,11,h,Holiday 7' Hook Shot (2 PTS),Made Shot,Hook Shot,1,2,31
+0021700809,38,PT08M35.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,-21,253,25,Missed,1,,,0,v,MISS Bogdanovic 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,32
+0021700809,39,PT08M31.00S,1,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,33
+0021700809,40,PT08M26.00S,1,1610612740,NOP,202734,Moore,E. Moore,-164,159,23,Made,1,8,5,13,h,Moore 23' Pullup Jump Shot (2 PTS) (Rondo 1 AST),Made Shot,Pullup Jump shot,1,2,34
+0021700809,42,PT08M02.00S,1,1610612754,IND,201152,Young,T. Young,-14,4,1,Made,1,8,7,15,v,T. Young 1' Reverse Layup (2 PTS) (Collison 1 AST),Made Shot,Reverse Layup Shot,1,2,35
+0021700809,320,PT07M53.00S,1,1610612740,NOP,2731,Okafor,E. Okafor,-8,16,2,Missed,1,,,0,h,MISS Okafor 2' Layup,Missed Shot,Layup Shot,1,2,36
+0021700809,320,PT07M53.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner BLOCK (2 BLK),,,1,2,37
+0021700809,322,PT07M52.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,38
+0021700809,46,PT07M39.00S,1,1610612754,IND,201954,Collison,D. Collison,18,-6,2,Made,1,8,9,17,v,Collison 2' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,39
+0021700809,47,PT07M26.00S,1,1610612740,NOP,203076,Davis,A. Davis,-68,141,16,Missed,1,,,0,h,MISS Davis 16' Jump Shot,Missed Shot,Jump Shot,1,2,40
+0021700809,48,PT07M23.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,41
+0021700809,49,PT07M14.00S,1,1610612740,NOP,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday S.FOUL (P1.T2) (K.Lane),Foul,Shooting,1,0,42
+0021700809,51,PT07M14.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,8,10,18,v,Turner Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,43
+0021700809,52,PT07M14.00S,1,1610612740,NOP,2731,Okafor,E. Okafor,0,0,0,,0,,,0,h,SUB: Mirotic FOR Okafor,Substitution,,0,0,44
+0021700809,54,PT07M14.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,8,11,19,v,Turner Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,45
+0021700809,55,PT07M01.00S,1,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,46
+0021700809,55,PT07M01.00S,1,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,Collison STEAL (1 STL),,,1,0,47
+0021700809,57,PT06M55.00S,1,1610612754,IND,201152,Young,T. Young,224,25,0,Missed,1,,,0,v,MISS T. Young 3PT Jump Shot,Missed Shot,Jump Shot,1,3,48
+0021700809,58,PT06M51.00S,1,1610612740,NOP,200765,Rondo,R. Rondo,0,0,0,,0,,,0,h,Rondo REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,49
+0021700809,59,PT06M47.00S,1,1610612740,NOP,200765,Rondo,R. Rondo,27,0,3,Missed,1,,,0,h,MISS Rondo 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,50
+0021700809,60,PT06M46.00S,1,1610612740,NOP,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,51
+0021700809,61,PT06M43.00S,1,1610612740,NOP,202734,Moore,E. Moore,-228,17,0,Made,1,11,11,22,h,Moore 3PT Jump Shot (5 PTS) (Holiday 1 AST),Made Shot,Jump Shot,1,3,52
+0021700809,63,PT06M27.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,-3,169,17,Missed,1,,,0,v,MISS Oladipo 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,53
+0021700809,64,PT06M25.00S,1,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Rebound,Rebound,Unknown,0,0,54
+0021700809,65,PT06M25.00S,1,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,55
+0021700809,66,PT06M25.00S,1,0,,40,,,0,0,0,,0,11,11,22,,Instant Replay1st Period (8:18 PM EST),Instant Replay,Support Ruling,0,0,56
+0021700809,67,PT06M25.00S,1,1610612740,NOP,200765,Rondo,R. Rondo,0,0,0,,0,,,0,h,SUB: Miller FOR Rondo,Substitution,,0,0,57
+0021700809,68,PT06M25.00S,1,1610612740,NOP,202734,Moore,E. Moore,0,0,0,,0,,,0,h,SUB: Clark FOR Moore,Substitution,,0,0,58
+0021700809,71,PT06M17.00S,1,1610612740,NOP,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,59
+0021700809,71,PT06M17.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner STEAL (1 STL),,,1,0,60
+0021700809,73,PT06M17.00S,1,1610612740,NOP,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday P.FOUL (P2.T3) (K.Lane),Foul,Personal,1,0,61
+0021700809,75,PT06M17.00S,1,0,,73,Williams,H. Williams,0,0,0,,0,11,11,22,,Instant Replay1st Period (8:21 PM EST),Instant Replay,Support Ruling,0,0,62
+0021700809,76,PT06M17.00S,1,1610612740,NOP,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,SUB: Drew II FOR Holiday,Substitution,,0,0,63
+0021700809,78,PT06M05.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,6,0,1,Made,1,11,13,24,v,Bogdanovic 1' Driving Dunk (2 PTS) (Oladipo 1 AST),Made Shot,Driving Dunk Shot,1,2,64
+0021700809,80,PT05M48.00S,1,1610612740,NOP,203546,Clark,I. Clark,-127,160,20,Made,1,13,13,26,h,Clark 20' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,65
+0021700809,81,PT05M26.00S,1,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,Collison Out of Bounds - Bad Pass Turnover Turnover (P1.T1),Turnover,Out of Bounds - Bad Pass Turnover,1,0,66
+0021700809,98,PT05M02.00S,1,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Turnover: Shot Clock (T#3),Turnover,Shot Clock Turnover,0,0,67
+0021700809,83,PT04M49.00S,1,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis S.FOUL (P1.T4) (K.Lane),Foul,Shooting,1,0,68
+0021700809,85,PT04M49.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,13,14,27,v,Oladipo Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,0,0,69
+0021700809,86,PT04M49.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,13,15,28,v,Oladipo Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,0,0,70
+0021700809,87,PT04M38.00S,1,1610612740,NOP,203121,Miller,D. Miller,-224,5,0,Missed,1,,,0,h,MISS Miller 3PT Jump Shot,Missed Shot,Jump Shot,1,3,71
+0021700809,88,PT04M34.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,72
+0021700809,89,PT04M23.00S,1,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,Collison Out of Bounds - Bad Pass Turnover Turnover (P2.T2),Turnover,Out of Bounds - Bad Pass Turnover,1,0,73
+0021700809,90,PT04M23.00S,1,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,SUB: Booker FOR T. Young,Substitution,,0,0,74
+0021700809,92,PT04M05.00S,1,1610612740,NOP,203580,Drew II,L. Drew II,-3,58,6,Missed,1,,,0,h,MISS Drew II 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,75
+0021700809,93,PT04M03.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,76
+0021700809,94,PT03M53.00S,1,1610612754,IND,202344,Booker,T. Booker,-48,8,5,Made,1,13,17,30,v,Booker 5' Turnaround Hook Shot (2 PTS),Made Shot,Turnaround Hook Shot,1,2,77
+0021700809,95,PT03M37.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo S.FOUL (P1.T1) (K.Fitzgerald),Foul,Shooting,1,0,78
+0021700809,97,PT03M37.00S,1,1610612740,NOP,203546,Clark,I. Clark,0,0,0,,0,14,17,31,h,Clark Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,79
+0021700809,99,PT03M37.00S,1,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,SUB: Diallo FOR Davis,Substitution,,0,0,80
+0021700809,100,PT03M37.00S,1,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,SUB: Joseph FOR Collison,Substitution,,0,0,81
+0021700809,101,PT03M37.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,SUB: Stephenson FOR Bogdanovic,Substitution,,0,0,82
+0021700809,105,PT03M37.00S,1,1610612740,NOP,203546,Clark,I. Clark,0,0,0,,0,15,17,32,h,Clark Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,83
+0021700809,106,PT03M19.00S,1,1610612754,IND,202344,Booker,T. Booker,-15,11,2,Made,1,15,19,34,v,Booker 2' Driving Finger Roll Layup (4 PTS) (Stephenson 1 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,84
+0021700809,108,PT03M02.00S,1,1610612740,NOP,202703,Mirotic,N. Mirotic,-186,25,19,Made,1,17,19,36,h,Mirotic 19' Jump Shot (2 PTS),Made Shot,Jump Shot,1,2,85
+0021700809,109,PT02M45.00S,1,1610612754,IND,202344,Booker,T. Booker,61,64,9,Made,1,17,21,38,v,Booker 9' Turnaround Hook Shot (6 PTS),Made Shot,Turnaround Hook Shot,1,2,86
+0021700809,110,PT02M38.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo P.FOUL (P2.T2) (S.Twardoski),Foul,Personal,1,0,87
+0021700809,112,PT02M38.00S,1,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,88
+0021700809,113,PT02M38.00S,1,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,SUB: Robinson III FOR Oladipo,Substitution,,0,0,89
+0021700809,114,PT02M38.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,SUB: Jefferson FOR Turner,Substitution,,0,0,90
+0021700809,117,PT02M27.00S,1,1610612740,NOP,202703,Mirotic,N. Mirotic,-154,58,16,Made,1,19,21,40,h,Mirotic 16' Turnaround Fadeaway (4 PTS),Made Shot,Turnaround Fadeaway shot,1,2,91
+0021700809,118,PT02M07.00S,1,1610612754,IND,202344,Booker,T. Booker,139,68,15,Made,1,19,23,42,v,Booker 15' Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,2,92
+0021700809,119,PT01M59.00S,1,1610612740,NOP,202703,Mirotic,N. Mirotic,-132,235,27,Missed,1,,,0,h,MISS Mirotic 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,93
+0021700809,120,PT01M54.00S,1,1610612754,IND,202362,Stephenson,L. Stephenson,0,0,0,,0,,,0,v,Stephenson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,94
+0021700809,121,PT01M50.00S,1,1610612754,IND,202362,Stephenson,L. Stephenson,-134,94,16,Missed,1,,,0,v,MISS Stephenson 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,95
+0021700809,122,PT01M47.00S,1,1610612740,NOP,202703,Mirotic,N. Mirotic,0,0,0,,0,,,0,h,Mirotic REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,96
+0021700809,123,PT01M44.00S,1,1610612740,NOP,203546,Clark,I. Clark,0,0,0,,0,,,0,h,Clark Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,97
+0021700809,123,PT01M44.00S,1,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,Joseph STEAL (1 STL),,,1,0,98
+0021700809,125,PT01M38.00S,1,1610612754,IND,202362,Stephenson,L. Stephenson,-232,-4,0,Missed,1,,,0,v,MISS Stephenson 3PT Jump Shot,Missed Shot,Jump Shot,1,3,99
+0021700809,126,PT01M35.00S,1,1610612740,NOP,202703,Mirotic,N. Mirotic,0,0,0,,0,,,0,h,Mirotic REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,100
+0021700809,127,PT01M29.00S,1,1610612740,NOP,202703,Mirotic,N. Mirotic,-136,43,14,Missed,1,,,0,h,MISS Mirotic 14' Jump Shot,Missed Shot,Jump Shot,1,2,101
+0021700809,128,PT01M25.00S,1,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,Joseph REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,102
+0021700809,129,PT01M18.00S,1,1610612754,IND,202709,Joseph,C. Joseph,-79,213,23,Missed,1,,,0,v,MISS Joseph 23' Jump Shot,Missed Shot,Jump Shot,1,2,103
+0021700809,130,PT01M10.00S,1,1610612754,IND,202344,Booker,T. Booker,0,0,0,,0,,,0,v,Booker REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,104
+0021700809,131,PT01M08.00S,1,1610612754,IND,202344,Booker,T. Booker,5,-11,1,Missed,1,,,0,v,MISS Booker 1' Layup,Missed Shot,Layup Shot,1,2,105
+0021700809,131,PT01M08.00S,1,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,h,Diallo BLOCK (1 BLK),,,1,2,106
+0021700809,133,PT01M05.00S,1,1610612740,NOP,203121,Miller,D. Miller,0,0,0,,0,,,0,h,Miller REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,107
+0021700809,134,PT01M01.00S,1,1610612740,NOP,202703,Mirotic,N. Mirotic,9,-8,1,Made,1,21,23,44,h,Mirotic 1' Running Layup (6 PTS) (Miller 1 AST),Made Shot,Running Layup Shot,1,2,108
+0021700809,136,PT00M42.70S,1,1610612754,IND,202709,Joseph,C. Joseph,-48,255,26,Missed,1,,,0,v,MISS Joseph 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,109
+0021700809,137,PT00M37.00S,1,1610612754,IND,2744,Jefferson,A. Jefferson,0,0,0,,0,,,0,v,Jefferson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,110
+0021700809,138,PT00M36.40S,1,1610612754,IND,202709,Joseph,C. Joseph,14,3,1,Made,1,21,25,46,v,Joseph 1' Driving Layup (2 PTS) (Jefferson 1 AST),Made Shot,Driving Layup Shot,1,2,111
+0021700809,139,PT00M26.50S,1,1610612740,NOP,203121,Miller,D. Miller,-196,157,25,Made,1,24,25,49,h,Miller 25' 3PT Jump Shot (3 PTS) (Clark 1 AST),Made Shot,Jump Shot,1,3,112
+0021700809,141,PT00M00.00S,1,1610612754,IND,202362,Stephenson,L. Stephenson,0,0,0,,0,,,0,v,Stephenson Offensive Goaltending Turnover (P1.T3),Turnover,Offensive Goaltending,1,0,113
+0021700809,146,PT00M00.00S,1,0,,141,Tucker,A. Tucker,0,0,0,,0,24,25,49,,Instant Replay1st Period (8:35 PM EST),Instant Replay,Overturn Ruling,0,0,114
+0021700809,142,PT00M00.00S,1,0,,0,,,0,0,0,,0,24,25,49,,End of 1st Period (8:35 PM EST),period,end,1,0,115
+0021700809,145,PT12M00.00S,2,0,,0,,,0,0,0,,0,24,25,49,,Start of 2nd Period (8:38 PM EST),period,start,0,0,116
+0021700809,147,PT11M44.00S,2,1610612754,IND,2744,Jefferson,A. Jefferson,5,101,10,Made,1,24,27,51,v,Jefferson 10' Turnaround Hook Shot (2 PTS),Made Shot,Turnaround Hook Shot,1,2,117
+0021700809,148,PT11M35.00S,2,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,h,Diallo OFF.Foul (P1) (K.Fitzgerald),Foul,Offensive,1,0,118
+0021700809,150,PT11M35.00S,2,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,h,Diallo Offensive Foul Turnover (P1.T5),Turnover,Offensive Foul Turnover,1,0,119
+0021700809,151,PT11M22.00S,2,1610612754,IND,2744,Jefferson,A. Jefferson,0,0,0,,0,,,0,v,Jefferson Out of Bounds - Bad Pass Turnover Turnover (P1.T4),Turnover,Out of Bounds - Bad Pass Turnover,1,0,120
+0021700809,152,PT11M01.00S,2,1610612740,NOP,203546,Clark,I. Clark,16,60,6,Missed,1,,,0,h,MISS Clark 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,121
+0021700809,153,PT11M01.00S,2,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,h,Diallo REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,122
+0021700809,154,PT11M01.00S,2,1610612754,IND,2744,Jefferson,A. Jefferson,0,0,0,,0,,,0,v,Jefferson S.FOUL (P1.T1) (S.Twardoski),Foul,Shooting,1,0,123
+0021700809,156,PT11M01.00S,2,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,25,27,52,h,Diallo Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,124
+0021700809,157,PT11M01.00S,2,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,26,27,53,h,Diallo Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,125
+0021700809,158,PT10M40.00S,2,1610612754,IND,202344,Booker,T. Booker,-14,189,19,Missed,1,,,0,v,MISS Booker 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,126
+0021700809,159,PT10M35.00S,2,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,h,Diallo REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,127
+0021700809,160,PT10M32.00S,2,1610612740,NOP,202734,Moore,E. Moore,0,0,0,,0,,,0,h,Moore OFF.Foul (P1) (K.Fitzgerald),Foul,Offensive,1,0,128
+0021700809,162,PT10M32.00S,2,1610612740,NOP,202734,Moore,E. Moore,0,0,0,,0,,,0,h,Moore Offensive Foul Turnover (P1.T6),Turnover,Offensive Foul Turnover,1,0,129
+0021700809,163,PT10M26.00S,2,1610612754,IND,202362,Stephenson,L. Stephenson,0,0,0,,0,,,0,v,Stephenson Palming Turnover (P2.T5),Turnover,Palming Turnover,1,0,130
+0021700809,164,PT10M26.00S,2,1610612754,IND,202344,Booker,T. Booker,0,0,0,,0,,,0,v,SUB: Bogdanovic FOR Booker,Substitution,,0,0,131
+0021700809,166,PT10M15.00S,2,1610612740,NOP,202703,Mirotic,N. Mirotic,220,130,26,Missed,1,,,0,h,MISS Mirotic 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,132
+0021700809,167,PT10M13.00S,2,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,133
+0021700809,168,PT10M07.00S,2,1610612754,IND,202362,Stephenson,L. Stephenson,76,141,16,Made,1,26,29,55,v,Stephenson 16' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,134
+0021700809,169,PT09M53.00S,2,1610612740,NOP,203546,Clark,I. Clark,-11,47,5,Missed,1,,,0,h,MISS Clark 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,135
+0021700809,169,PT09M53.00S,2,1610612754,IND,2744,Jefferson,A. Jefferson,0,0,0,,0,,,0,v,Jefferson BLOCK (1 BLK),,,1,2,136
+0021700809,171,PT09M53.00S,2,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,137
+0021700809,172,PT09M53.00S,2,1610612740,NOP,203546,Clark,I. Clark,0,0,0,,0,,,0,h,SUB: Rondo FOR Clark,Substitution,,0,0,138
+0021700809,174,PT09M42.00S,2,1610612754,IND,202362,Stephenson,L. Stephenson,65,141,16,Missed,1,,,0,v,MISS Stephenson 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,139
+0021700809,175,PT09M37.00S,2,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,h,Diallo REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,140
+0021700809,176,PT09M31.00S,2,1610612740,NOP,1627767,Diallo,C. Diallo,-5,2,1,Made,1,28,29,57,h,Diallo 1' Cutting Dunk Shot (4 PTS) (Rondo 2 AST),Made Shot,Cutting Dunk Shot,1,2,141
+0021700809,178,PT09M31.00S,2,1610612754,IND,202362,Stephenson,L. Stephenson,0,0,0,,0,,,0,v,Stephenson S.FOUL (P1.T2) (K.Fitzgerald),Foul,Shooting,1,0,142
+0021700809,180,PT09M31.00S,2,1610612754,IND,202362,Stephenson,L. Stephenson,0,0,0,,0,,,0,v,SUB: T. Young FOR Stephenson,Substitution,,0,0,143
+0021700809,182,PT09M31.00S,2,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,29,29,58,h,Diallo Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,0,0,144
+0021700809,183,PT09M16.00S,2,1610612754,IND,202711,Bogdanović,B. Bogdanović,19,0,2,Made,1,29,31,60,v,Bogdanovic 2' Cutting Layup Shot (4 PTS) (T. Young 2 AST),Made Shot,Cutting Layup Shot,1,2,145
+0021700809,185,PT09M03.00S,2,1610612740,NOP,202703,Mirotic,N. Mirotic,-18,0,2,Missed,1,,,0,h,MISS Mirotic 2' Cutting Finger Roll Layup Shot,Missed Shot,Cutting Finger Roll Layup Shot,1,2,146
+0021700809,186,PT09M00.00S,2,1610612754,IND,2744,Jefferson,A. Jefferson,0,0,0,,0,,,0,v,Jefferson REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,147
+0021700809,187,PT08M59.00S,2,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,h,Diallo S.FOUL (P2.T1) (K.Lane),Foul,Shooting,1,0,148
+0021700809,189,PT08M59.00S,2,1610612754,IND,203922,Robinson III,G. Robinson III,0,0,0,,0,29,32,61,v,Robinson III Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,149
+0021700809,190,PT08M59.00S,2,1610612740,NOP,202703,Mirotic,N. Mirotic,0,0,0,,0,,,0,h,SUB: Holiday FOR Mirotic,Substitution,,0,0,150
+0021700809,191,PT08M59.00S,2,1610612740,NOP,203121,Miller,D. Miller,0,0,0,,0,,,0,h,SUB: Davis FOR Miller,Substitution,,0,0,151
+0021700809,192,PT08M59.00S,2,1610612754,IND,2744,Jefferson,A. Jefferson,0,0,0,,0,,,0,v,SUB: Turner FOR Jefferson,Substitution,,0,0,152
+0021700809,196,PT08M59.00S,2,1610612754,IND,203922,Robinson III,G. Robinson III,0,0,0,,0,29,33,62,v,Robinson III Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,153
+0021700809,197,PT08M52.00S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young Violation:Kicked Ball (S.Twardoski),Violation,Kicked Ball,0,0,154
+0021700809,198,PT08M40.00S,2,1610612740,NOP,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday Lost Ball Turnover (P2.T7),Turnover,Lost Ball,1,0,155
+0021700809,198,PT08M40.00S,2,1610612754,IND,203922,Robinson III,G. Robinson III,0,0,0,,0,,,0,v,Robinson III STEAL (1 STL),,,1,0,156
+0021700809,200,PT08M36.00S,2,1610612754,IND,202711,Bogdanović,B. Bogdanović,-25,-2,3,Missed,1,,,0,v,MISS Bogdanovic 3' Running Layup,Missed Shot,Running Layup Shot,1,2,157
+0021700809,201,PT08M31.00S,2,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,h,Diallo REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,158
+0021700809,202,PT08M29.00S,2,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,h,Diallo Bad Pass Turnover (P2.T8),Turnover,Bad Pass,1,0,159
+0021700809,202,PT08M29.00S,2,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,Joseph STEAL (2 STL),,,1,0,160
+0021700809,204,PT08M25.00S,2,1610612754,IND,202711,Bogdanović,B. Bogdanović,18,8,2,Missed,1,,,0,v,MISS Bogdanovic 2' Layup,Missed Shot,Layup Shot,1,2,161
+0021700809,204,PT08M25.00S,2,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis BLOCK (1 BLK),,,1,2,162
+0021700809,206,PT08M22.00S,2,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,h,Diallo REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,163
+0021700809,207,PT08M18.00S,2,1610612740,NOP,1627767,Diallo,C. Diallo,8,8,1,Missed,1,,,0,h,MISS Diallo 1' Alley Oop Dunk,Missed Shot,Alley Oop Dunk Shot,1,2,164
+0021700809,208,PT08M14.00S,2,1610612740,NOP,202734,Moore,E. Moore,0,0,0,,0,,,0,h,Moore REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,165
+0021700809,209,PT08M14.00S,2,1610612740,NOP,202734,Moore,E. Moore,0,-6,1,Made,1,31,33,64,h,Moore 1' Tip Layup Shot (7 PTS),Made Shot,Tip Layup Shot,1,2,166
+0021700809,210,PT07M59.00S,2,1610612754,IND,202709,Joseph,C. Joseph,47,109,12,Made,1,31,35,66,v,Joseph 12' Driving Floating Jump Shot (4 PTS),Made Shot,Driving Floating Jump Shot,1,2,167
+0021700809,211,PT07M50.00S,2,1610612740,NOP,200765,Rondo,R. Rondo,0,0,0,,0,,,0,h,Rondo Bad Pass Turnover (P1.T9),Turnover,Bad Pass,1,0,168
+0021700809,211,PT07M50.00S,2,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,Joseph STEAL (3 STL),,,1,0,169
+0021700809,213,PT07M46.00S,2,1610612754,IND,202709,Joseph,C. Joseph,27,11,3,Missed,1,,,0,v,MISS Joseph 3' Layup,Missed Shot,Layup Shot,1,2,170
+0021700809,213,PT07M46.00S,2,1610612740,NOP,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday BLOCK (1 BLK),,,1,2,171
+0021700809,215,PT07M43.00S,2,1610612740,NOP,200765,Rondo,R. Rondo,0,0,0,,0,,,0,h,Rondo REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,172
+0021700809,216,PT07M41.00S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young P.FOUL (P1.T3) (K.Lane),Foul,Personal,1,0,173
+0021700809,218,PT07M41.00S,2,1610612754,IND,203922,Robinson III,G. Robinson III,0,0,0,,0,,,0,v,SUB: Collison FOR Robinson III,Substitution,,0,0,174
+0021700809,220,PT07M38.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner P.FOUL (P1.T4) (K.Fitzgerald),Foul,Personal,1,0,175
+0021700809,222,PT07M27.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner S.FOUL (P2.PN) (K.Lane),Foul,Shooting,1,0,176
+0021700809,224,PT07M27.00S,2,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,32,35,67,h,Diallo Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,0,0,177
+0021700809,225,PT07M27.00S,2,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,33,35,68,h,Diallo Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,0,0,178
+0021700809,226,PT07M17.00S,2,1610612754,IND,202709,Joseph,C. Joseph,94,135,16,Missed,1,,,0,v,MISS Joseph 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,179
+0021700809,227,PT07M13.00S,2,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,Collison REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,180
+0021700809,228,PT07M10.00S,2,1610612754,IND,202711,Bogdanović,B. Bogdanović,175,182,25,Missed,1,,,0,v,MISS Bogdanovic 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,181
+0021700809,229,PT07M06.00S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,182
+0021700809,230,PT07M04.00S,2,1610612754,IND,201152,Young,T. Young,17,9,2,Missed,1,,,0,v,MISS T. Young 2' Layup,Missed Shot,Layup Shot,1,2,183
+0021700809,231,PT07M02.00S,2,1610612740,NOP,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,184
+0021700809,232,PT06M57.00S,2,1610612740,NOP,202734,Moore,E. Moore,-128,220,25,Made,1,36,35,71,h,Moore 25' 3PT Jump Shot (10 PTS) (Holiday 2 AST),Made Shot,Jump Shot,1,3,185
+0021700809,234,PT06M46.00S,2,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,186
+0021700809,236,PT06M46.00S,2,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,SUB: Oladipo FOR Joseph,Substitution,,0,0,187
+0021700809,238,PT06M36.00S,2,1610612754,IND,1626167,Turner,M. Turner,-5,-1,1,Made,1,36,37,73,v,Turner 1' Driving Dunk (6 PTS) (Collison 2 AST),Made Shot,Driving Dunk Shot,1,2,188
+0021700809,240,PT06M26.00S,2,1610612740,NOP,201950,Holiday,J. Holiday,-28,112,12,Missed,1,,,0,h,MISS Holiday 12' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,189
+0021700809,241,PT06M23.00S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,190
+0021700809,242,PT06M03.00S,2,1610612754,IND,201152,Young,T. Young,9,256,26,Missed,1,,,0,v,MISS T. Young 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,191
+0021700809,243,PT05M59.00S,2,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,192
+0021700809,244,PT05M48.00S,2,1610612740,NOP,203076,Davis,A. Davis,-77,100,13,Made,1,38,37,75,h,Davis 13' Floating Jump Shot (4 PTS) (Rondo 3 AST),Made Shot,Floating Jump shot,1,2,193
+0021700809,245,PT05M32.00S,2,1610612754,IND,1626167,Turner,M. Turner,70,161,18,Missed,1,,,0,v,MISS Turner 18' Jump Shot,Missed Shot,Jump Shot,1,2,194
+0021700809,247,PT05M32.00S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,195
+0021700809,248,PT05M26.00S,2,1610612754,IND,201954,Collison,D. Collison,206,-8,21,Missed,1,,,0,v,MISS Collison 21' Jump Shot,Missed Shot,Jump Shot,1,2,196
+0021700809,249,PT05M24.00S,2,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,h,Diallo REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,197
+0021700809,250,PT05M18.00S,2,1610612740,NOP,203076,Davis,A. Davis,38,25,5,Missed,1,,,0,h,MISS Davis 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,198
+0021700809,251,PT05M14.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,199
+0021700809,252,PT05M07.00S,2,1610612754,IND,201954,Collison,D. Collison,-166,189,25,Missed,1,,,0,v,MISS Collison 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,200
+0021700809,253,PT05M02.00S,2,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,201
+0021700809,254,PT05M01.00S,2,1610612754,IND,202711,Bogdanović,B. Bogdanović,-108,66,13,Made,1,38,39,77,v,Bogdanovic 13' Jump Shot (6 PTS),Made Shot,Jump Shot,1,2,202
+0021700809,255,PT04M35.00S,2,1610612740,NOP,200765,Rondo,R. Rondo,149,27,15,Missed,1,,,0,h,MISS Rondo 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,203
+0021700809,256,PT04M32.00S,2,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,204
+0021700809,257,PT04M15.00S,2,1610612754,IND,203506,Oladipo,V. Oladipo,-234,19,0,Made,1,38,42,80,v,Oladipo 3PT Jump Shot (8 PTS) (Collison 3 AST),Made Shot,Jump Shot,1,3,205
+0021700809,259,PT04M03.00S,2,1610612740,NOP,202734,Moore,E. Moore,200,172,26,Made,1,41,42,83,h,Moore 26' 3PT Jump Shot (13 PTS) (Davis 1 AST),Made Shot,Jump Shot,1,3,206
+0021700809,261,PT03M42.00S,2,1610612754,IND,201152,Young,T. Young,7,185,19,Missed,1,,,0,v,MISS T. Young 19' Jump Shot,Missed Shot,Jump Shot,1,2,207
+0021700809,262,PT03M38.00S,2,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,208
+0021700809,263,PT03M34.00S,2,1610612740,NOP,203076,Davis,A. Davis,-13,257,26,Made,1,44,42,86,h,Davis 26' 3PT Pullup Jump Shot (7 PTS),Made Shot,Pullup Jump shot,1,3,209
+0021700809,264,PT03M07.00S,2,1610612754,IND,202711,Bogdanović,B. Bogdanović,25,143,15,Missed,1,,,0,v,MISS Bogdanovic 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,210
+0021700809,265,PT03M03.00S,2,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,211
+0021700809,266,PT02M45.00S,2,1610612740,NOP,203076,Davis,A. Davis,124,13,12,Made,1,46,42,88,h,Davis 12' Fadeaway Jumper (9 PTS),Made Shot,Fadeaway Jump Shot,1,2,212
+0021700809,267,PT02M36.00S,2,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,h,Diallo S.FOUL (P3.T2) (K.Fitzgerald),Foul,Shooting,1,0,213
+0021700809,269,PT02M36.00S,2,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,214
+0021700809,270,PT02M36.00S,2,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,h,SUB: Mirotic FOR Diallo,Substitution,,0,0,215
+0021700809,271,PT02M36.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,SUB: Stephenson FOR Turner,Substitution,,0,0,216
+0021700809,272,PT02M36.00S,2,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,SUB: Booker FOR Bogdanovic,Substitution,,0,0,217
+0021700809,276,PT02M36.00S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,46,43,89,v,T. Young Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,218
+0021700809,277,PT02M36.00S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,46,44,90,v,T. Young Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,219
+0021700809,278,PT02M25.00S,2,1610612740,NOP,202703,Mirotic,N. Mirotic,-235,5,24,Missed,1,,,0,h,MISS Mirotic 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,220
+0021700809,279,PT02M21.00S,2,1610612754,IND,202344,Booker,T. Booker,0,0,0,,0,,,0,v,Booker REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,221
+0021700809,280,PT02M15.00S,2,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,Collison Bad Pass Turnover (P3.T6),Turnover,Bad Pass,1,0,222
+0021700809,280,PT02M15.00S,2,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis STEAL (1 STL),,,1,0,223
+0021700809,282,PT02M08.00S,2,1610612740,NOP,202734,Moore,E. Moore,0,0,0,,0,,,0,h,Moore Bad Pass Turnover (P2.T10),Turnover,Bad Pass,1,0,224
+0021700809,282,PT02M08.00S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young STEAL (1 STL),,,1,0,225
+0021700809,284,PT02M04.00S,2,1610612754,IND,202362,Stephenson,L. Stephenson,-223,11,0,Made,1,46,47,93,v,Stephenson 3PT Running Jump Shot (5 PTS) (Oladipo 2 AST),Made Shot,Running Jump Shot,1,3,226
+0021700809,286,PT01M35.00S,2,1610612740,NOP,200765,Rondo,R. Rondo,231,34,0,Missed,1,,,0,h,MISS Rondo 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,227
+0021700809,287,PT01M33.00S,2,1610612754,IND,202344,Booker,T. Booker,0,0,0,,0,,,0,v,Booker REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,228
+0021700809,288,PT01M26.00S,2,1610612754,IND,201152,Young,T. Young,-15,74,8,Missed,1,,,0,v,MISS T. Young 8' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,229
+0021700809,289,PT01M24.00S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young REBOUND (Off:4 Def:3),Rebound,Unknown,1,0,230
+0021700809,290,PT01M12.00S,2,1610612740,NOP,200765,Rondo,R. Rondo,0,0,0,,0,,,0,h,Rondo S.FOUL (P2.T3) (S.Twardoski),Foul,Shooting,1,0,231
+0021700809,292,PT01M12.00S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,MISS T. Young Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,232
+0021700809,293,PT01M12.00S,2,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Normal Rebound,0,0,233
+0021700809,294,PT01M12.00S,2,1610612740,NOP,200765,Rondo,R. Rondo,0,0,0,,0,,,0,h,SUB: Clark FOR Rondo,Substitution,,0,0,234
+0021700809,295,PT01M12.00S,2,1610612740,NOP,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,SUB: Drew II FOR Holiday,Substitution,,0,0,235
+0021700809,296,PT01M12.00S,2,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,SUB: Joseph FOR Oladipo,Substitution,,0,0,236
+0021700809,300,PT01M12.00S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,46,48,94,v,T. Young Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,0,0,237
+0021700809,301,PT01M01.00S,2,1610612754,IND,202344,Booker,T. Booker,0,0,0,,0,,,0,v,Booker P.FOUL (P1.PN) (K.Fitzgerald),Foul,Personal,1,0,238
+0021700809,303,PT01M01.00S,2,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,47,48,95,h,Davis Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,0,0,239
+0021700809,304,PT01M01.00S,2,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,48,48,96,h,Davis Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,0,0,240
+0021700809,305,PT00M46.70S,2,1610612754,IND,201152,Young,T. Young,119,72,14,Made,1,48,50,98,v,T. Young 14' Jump Shot (7 PTS) (Collison 4 AST),Made Shot,Jump Shot,1,2,241
+0021700809,307,PT00M39.40S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young P.FOUL (P2.PN) (K.Fitzgerald),Foul,Personal,1,0,242
+0021700809,309,PT00M39.40S,2,1610612740,NOP,202703,Mirotic,N. Mirotic,0,0,0,,0,,,0,h,MISS Mirotic Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,243
+0021700809,310,PT00M39.40S,2,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Rebound,Rebound,Normal Rebound,0,0,244
+0021700809,311,PT00M39.40S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,SUB: Bogdanovic FOR T. Young,Substitution,,0,0,245
+0021700809,313,PT00M39.40S,2,1610612740,NOP,202703,Mirotic,N. Mirotic,0,0,0,,0,49,50,99,h,Mirotic Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,0,0,246
+0021700809,314,PT00M30.10S,2,1610612754,IND,201954,Collison,D. Collison,14,9,2,Missed,1,,,0,v,MISS Collison 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,247
+0021700809,315,PT00M27.90S,2,1610612740,NOP,202703,Mirotic,N. Mirotic,0,0,0,,0,,,0,h,Mirotic REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,248
+0021700809,316,PT00M09.40S,2,1610612740,NOP,202734,Moore,E. Moore,-144,131,19,Made,1,51,50,101,h,Moore 19' Pullup Jump Shot (15 PTS),Made Shot,Pullup Jump shot,1,2,249
+0021700809,317,PT00M00.90S,2,1610612754,IND,201954,Collison,D. Collison,83,200,22,Missed,1,,,0,v,MISS Collison 22' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,250
+0021700809,318,PT00M00.90S,2,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,251
+0021700809,319,PT00M00.00S,2,0,,0,,,0,0,0,,0,51,50,101,,End of 2nd Period (9:06 PM EST),period,end,1,0,252
+0021700809,336,PT12M00.00S,3,0,,0,,,0,0,0,,0,51,50,101,,Start of 3rd Period (9:21 PM EST),period,start,0,0,253
+0021700809,337,PT11M40.00S,3,1610612754,IND,1626167,Turner,M. Turner,-5,34,3,Missed,1,,,0,v,MISS Turner 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,254
+0021700809,338,PT11M39.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,255
+0021700809,449,PT11M38.00S,3,1610612754,IND,1626167,Turner,M. Turner,-5,11,1,Missed,1,,,0,v,MISS Turner 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,256
+0021700809,450,PT11M37.00S,3,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,257
+0021700809,339,PT11M23.00S,3,1610612740,NOP,202734,Moore,E. Moore,0,0,0,,0,,,0,h,Moore Lost Ball Turnover (P3.T11),Turnover,Lost Ball,1,0,258
+0021700809,339,PT11M23.00S,3,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young STEAL (2 STL),,,1,0,259
+0021700809,341,PT11M09.00S,3,1610612754,IND,1626167,Turner,M. Turner,-92,180,20,Made,1,51,52,103,v,Turner 20' Jump Shot (8 PTS) (Bogdanovic 1 AST),Made Shot,Jump Shot,1,2,260
+0021700809,343,PT10M47.00S,3,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young S.FOUL (P3.T1) (K.Lane),Foul,Shooting,1,0,261
+0021700809,345,PT10M47.00S,3,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,52,52,104,h,Davis Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,0,0,262
+0021700809,348,PT10M47.00S,3,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,53,52,105,h,Davis Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,0,0,263
+0021700809,346,PT10M47.00S,3,1610612740,NOP,203546,Clark,I. Clark,0,0,0,,0,,,0,h,SUB: Holiday FOR Clark,Substitution,,0,0,264
+0021700809,402,PT10M22.00S,3,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Turnover: Shot Clock (T#7),Turnover,Shot Clock Turnover,0,0,265
+0021700809,351,PT10M06.00S,3,1610612740,NOP,203076,Davis,A. Davis,-15,179,18,Missed,1,,,0,h,MISS Davis 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,266
+0021700809,352,PT10M04.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,267
+0021700809,353,PT09M54.00S,3,1610612754,IND,201152,Young,T. Young,21,10,2,Missed,1,,,0,v,MISS T. Young 2' Layup,Missed Shot,Layup Shot,1,2,268
+0021700809,353,PT09M54.00S,3,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis BLOCK (2 BLK),,,1,2,269
+0021700809,355,PT09M50.00S,3,1610612740,NOP,200765,Rondo,R. Rondo,0,0,0,,0,,,0,h,Rondo REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,270
+0021700809,356,PT09M44.00S,3,1610612740,NOP,2731,Okafor,E. Okafor,20,32,4,Missed,1,,,0,h,MISS Okafor 4' Layup,Missed Shot,Layup Shot,1,2,271
+0021700809,358,PT09M44.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,272
+0021700809,359,PT09M42.00S,3,1610612740,NOP,200765,Rondo,R. Rondo,0,0,0,,0,,,0,h,Rondo P.FOUL (P3.T1) (S.Twardoski),Foul,Personal,1,0,273
+0021700809,361,PT09M32.00S,3,1610612754,IND,1626167,Turner,M. Turner,-3,189,19,Missed,1,,,0,v,MISS Turner 19' Jump Shot,Missed Shot,Jump Shot,1,2,274
+0021700809,362,PT09M28.00S,3,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:0 Def:9),Rebound,Unknown,1,0,275
+0021700809,363,PT09M07.00S,3,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Turnover: Shot Clock (T#12),Turnover,Shot Clock Turnover,0,0,276
+0021700809,364,PT08M56.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,58,-4,6,Made,1,53,54,107,v,Oladipo 6' Driving Layup (10 PTS),Made Shot,Driving Layup Shot,1,2,277
+0021700809,365,PT08M46.00S,3,1610612740,NOP,202734,Moore,E. Moore,1,64,6,Made,1,55,54,109,h,Moore 6' Driving Finger Roll Layup (17 PTS) (Holiday 3 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,278
+0021700809,367,PT08M28.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,63,247,25,Made,1,55,57,112,v,Oladipo 25' 3PT Pullup Jump Shot (13 PTS),Made Shot,Pullup Jump shot,1,3,279
+0021700809,368,PT08M20.00S,3,1610612740,NOP,201950,Holiday,J. Holiday,-38,37,5,Missed,1,,,0,h,MISS Holiday 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,280
+0021700809,369,PT08M16.00S,3,1610612740,NOP,2731,Okafor,E. Okafor,0,0,0,,0,,,0,h,Okafor REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,281
+0021700809,370,PT08M15.00S,3,1610612740,NOP,200765,Rondo,R. Rondo,223,141,26,Missed,1,,,0,h,MISS Rondo 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,282
+0021700809,371,PT08M11.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,283
+0021700809,372,PT08M04.00S,3,1610612754,IND,1626167,Turner,M. Turner,2,46,5,Missed,1,,,0,v,MISS Turner 5' Dunk,Missed Shot,Dunk Shot,1,2,284
+0021700809,372,PT08M04.00S,3,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis BLOCK (3 BLK),,,1,2,285
+0021700809,373,PT08M02.00S,3,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young REBOUND (Off:5 Def:3),Rebound,Unknown,1,0,286
+0021700809,486,PT08M01.00S,3,1610612754,IND,201152,Young,T. Young,-24,8,3,Missed,1,,,0,v,MISS T. Young 3' Layup,Missed Shot,Layup Shot,1,2,287
+0021700809,486,PT08M01.00S,3,1610612740,NOP,2731,Okafor,E. Okafor,0,0,0,,0,,,0,h,Okafor BLOCK (2 BLK),,,1,2,288
+0021700809,488,PT08M00.00S,3,1610612740,NOP,2731,Okafor,E. Okafor,0,0,0,,0,,,0,h,Okafor REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,289
+0021700809,374,PT07M54.00S,3,1610612740,NOP,203076,Davis,A. Davis,8,34,3,Made,1,57,57,114,h,Davis 3' Layup (15 PTS) (Rondo 4 AST),Made Shot,Layup Shot,1,2,290
+0021700809,377,PT07M39.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,-54,270,28,Missed,1,,,0,v,MISS Oladipo 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,291
+0021700809,378,PT07M39.00S,3,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,292
+0021700809,379,PT07M36.00S,3,1610612740,NOP,2731,Okafor,E. Okafor,0,0,0,,0,,,0,h,SUB: Mirotic FOR Okafor,Substitution,,0,0,293
+0021700809,381,PT07M23.00S,3,1610612754,IND,1626167,Turner,M. Turner,-73,193,21,Missed,1,,,0,v,MISS Turner 21' Jump Shot,Missed Shot,Jump Shot,1,2,294
+0021700809,382,PT07M19.00S,3,1610612740,NOP,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,295
+0021700809,383,PT07M15.00S,3,1610612740,NOP,200765,Rondo,R. Rondo,0,0,0,,0,,,0,h,Rondo OFF.Foul (P4) (S.Twardoski),Foul,Offensive,1,0,296
+0021700809,385,PT07M15.00S,3,1610612740,NOP,200765,Rondo,R. Rondo,0,0,0,,0,,,0,h,Rondo Offensive Foul Turnover (P2.T13),Turnover,Offensive Foul Turnover,1,0,297
+0021700809,386,PT06M59.00S,3,1610612754,IND,201954,Collison,D. Collison,-51,13,5,Missed,1,,,0,v,MISS Collison 5' Layup,Missed Shot,Layup Shot,1,2,298
+0021700809,386,PT06M59.00S,3,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis BLOCK (4 BLK),,,1,2,299
+0021700809,388,PT06M55.00S,3,1610612740,NOP,202703,Mirotic,N. Mirotic,0,0,0,,0,,,0,h,Mirotic REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,300
+0021700809,389,PT06M47.00S,3,1610612740,NOP,201950,Holiday,J. Holiday,159,201,26,Missed,1,,,0,h,MISS Holiday 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,301
+0021700809,390,PT06M42.00S,3,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,302
+0021700809,391,PT06M34.00S,3,1610612740,NOP,200765,Rondo,R. Rondo,-60,43,7,Missed,1,,,0,h,MISS Rondo 7' Turnaround Fadeaway Bank Jump Shot,Missed Shot,Turnaround Fadeaway Bank Jump Shot,1,2,303
+0021700809,392,PT06M30.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,304
+0021700809,393,PT06M28.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo Bad Pass Turnover (P1.T8),Turnover,Bad Pass,1,0,305
+0021700809,393,PT06M28.00S,3,1610612740,NOP,202734,Moore,E. Moore,0,0,0,,0,,,0,h,Moore STEAL (1 STL),,,1,0,306
+0021700809,395,PT06M19.00S,3,1610612740,NOP,202734,Moore,E. Moore,0,0,0,,0,,,0,h,Moore Bad Pass Turnover (P4.T14),Turnover,Bad Pass,1,0,307
+0021700809,395,PT06M19.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo STEAL (1 STL),,,1,0,308
+0021700809,400,PT06M19.00S,3,1610612754,IND,201954,Collison,D. Collison,238,26,24,Missed,1,,,0,v,MISS Collison 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,309
+0021700809,401,PT06M19.00S,3,1610612740,NOP,200765,Rondo,R. Rondo,0,0,0,,0,,,0,h,Rondo REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,310
+0021700809,397,PT06M06.00S,3,1610612740,NOP,202703,Mirotic,N. Mirotic,-168,195,26,Missed,1,,,0,h,MISS Mirotic 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,311
+0021700809,398,PT06M02.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,312
+0021700809,399,PT05M59.00S,3,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,313
+0021700809,410,PT05M59.00S,3,0,,0,,,0,0,0,,0,57,57,114,,Instant Replay3rd Period (9:31 PM EST),Instant Replay,Overturn Ruling,0,0,314
+0021700809,403,PT05M59.00S,3,1610612740,NOP,200765,Rondo,R. Rondo,0,0,0,,0,,,0,h,SUB: Clark FOR Rondo,Substitution,,0,0,315
+0021700809,404,PT05M59.00S,3,1610612740,NOP,202734,Moore,E. Moore,0,0,0,,0,,,0,h,SUB: Miller FOR Moore,Substitution,,0,0,316
+0021700809,407,PT05M53.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,63,18,7,Missed,1,,,0,v,MISS Oladipo 7' Layup,Missed Shot,Layup Shot,1,2,317
+0021700809,407,PT05M53.00S,3,1610612740,NOP,202703,Mirotic,N. Mirotic,0,0,0,,0,,,0,h,Mirotic BLOCK (1 BLK),,,1,2,318
+0021700809,409,PT05M48.00S,3,1610612740,NOP,203121,Miller,D. Miller,0,0,0,,0,,,0,h,Miller REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,319
+0021700809,411,PT05M38.00S,3,1610612740,NOP,202703,Mirotic,N. Mirotic,-211,159,26,Missed,1,,,0,h,MISS Mirotic 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,320
+0021700809,412,PT05M35.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,321
+0021700809,413,PT05M24.00S,3,1610612754,IND,201152,Young,T. Young,-39,50,6,Missed,1,,,0,v,MISS T. Young 6' Layup,Missed Shot,Layup Shot,1,2,322
+0021700809,414,PT05M18.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,323
+0021700809,415,PT05M15.00S,3,1610612754,IND,201954,Collison,D. Collison,-16,272,27,Made,1,57,60,117,v,Collison 27' 3PT Jump Shot (5 PTS) (Turner 1 AST),Made Shot,Jump Shot,1,3,324
+0021700809,417,PT05M07.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic P.FOUL (P1.T2) (S.Twardoski),Foul,Personal,1,0,325
+0021700809,419,PT04M59.00S,3,1610612740,NOP,201950,Holiday,J. Holiday,54,45,7,Made,1,59,60,119,h,Holiday 7' Layup (4 PTS),Made Shot,Layup Shot,1,2,326
+0021700809,420,PT04M37.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,122,239,27,Made,1,59,63,122,v,Bogdanovic 27' 3PT Jump Shot (9 PTS) (Oladipo 3 AST),Made Shot,Jump Shot,1,3,327
+0021700809,422,PT04M26.00S,3,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis OFF.Foul (P2) (K.Lane),Foul,Offensive,1,0,328
+0021700809,424,PT04M26.00S,3,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis Offensive Foul Turnover (P2.T15),Turnover,Offensive Foul Turnover,1,0,329
+0021700809,425,PT04M26.00S,3,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,SUB: Booker FOR T. Young,Substitution,,0,0,330
+0021700809,427,PT04M09.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,75,262,27,Missed,1,,,0,v,MISS Oladipo 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,331
+0021700809,428,PT04M05.00S,3,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:1 Def:10),Rebound,Unknown,1,0,332
+0021700809,429,PT03M52.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo S.FOUL (P3.T3) (K.Fitzgerald),Foul,Shooting,1,0,333
+0021700809,431,PT03M52.00S,3,1610612740,NOP,203546,Clark,I. Clark,0,0,0,,0,60,63,123,h,Clark Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,0,0,334
+0021700809,432,PT03M52.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,SUB: Joseph FOR Bogdanovic,Substitution,,0,0,335
+0021700809,434,PT03M52.00S,3,1610612740,NOP,203546,Clark,I. Clark,0,0,0,,0,61,63,124,h,Clark Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,0,0,336
+0021700809,435,PT03M34.00S,3,1610612754,IND,1626167,Turner,M. Turner,98,242,26,Missed,1,,,0,v,MISS Turner 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,337
+0021700809,436,PT03M30.00S,3,1610612740,NOP,202703,Mirotic,N. Mirotic,0,0,0,,0,,,0,h,Mirotic REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,338
+0021700809,438,PT03M24.00S,3,1610612740,NOP,203546,Clark,I. Clark,-13,63,6,Missed,1,,,0,h,MISS Clark 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,339
+0021700809,438,PT03M24.00S,3,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,Joseph BLOCK (1 BLK),,,1,2,340
+0021700809,440,PT03M21.00S,3,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,Joseph REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,341
+0021700809,471,PT03M17.00S,3,1610612740,NOP,202703,Mirotic,N. Mirotic,0,0,0,,0,,,0,h,Kicked Ball,Violation,Kicked Ball,0,0,342
+0021700809,441,PT03M17.00S,3,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,SUB: Diallo FOR Davis,Substitution,,0,0,343
+0021700809,442,PT03M17.00S,3,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,SUB: Stephenson FOR Collison,Substitution,,0,0,344
+0021700809,446,PT03M04.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,42,5,4,Missed,1,,,0,v,MISS Oladipo 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,345
+0021700809,447,PT03M04.00S,3,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,Joseph REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,346
+0021700809,448,PT02M59.00S,3,1610612754,IND,202709,Joseph,C. Joseph,24,84,9,Made,1,61,65,126,v,Joseph 9' Jump Shot (6 PTS),Made Shot,Jump Shot,1,2,347
+0021700809,451,PT02M35.00S,3,1610612740,NOP,203121,Miller,D. Miller,0,0,0,,0,,,0,h,Miller Lost Ball Turnover (P1.T16),Turnover,Lost Ball,1,0,348
+0021700809,451,PT02M35.00S,3,1610612754,IND,202362,Stephenson,L. Stephenson,0,0,0,,0,,,0,v,Stephenson STEAL (1 STL),,,1,0,349
+0021700809,453,PT02M27.00S,3,1610612754,IND,202709,Joseph,C. Joseph,-107,164,20,Made,1,61,67,128,v,Joseph 20' Jump Shot (8 PTS),Made Shot,Jump Shot,1,2,350
+0021700809,454,PT02M25.00S,3,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,351
+0021700809,456,PT02M25.00S,3,1610612740,NOP,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,SUB: Moore FOR Holiday,Substitution,,0,0,352
+0021700809,457,PT02M25.00S,3,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,SUB: Robinson III FOR Oladipo,Substitution,,0,0,353
+0021700809,458,PT02M25.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,SUB: Jefferson FOR Turner,Substitution,,0,0,354
+0021700809,462,PT02M10.00S,3,1610612740,NOP,203546,Clark,I. Clark,41,203,21,Missed,1,,,0,h,MISS Clark 21' Jump Shot,Missed Shot,Jump Shot,1,2,355
+0021700809,463,PT02M10.00S,3,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,1,0,356
+0021700809,465,PT02M08.00S,3,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,h,Diallo L.B.FOUL (P4.T2) (S.Twardoski),Foul,Loose Ball,1,0,357
+0021700809,467,PT01M55.00S,3,1610612754,IND,202709,Joseph,C. Joseph,145,58,16,Missed,1,,,0,v,MISS Joseph 16' Jump Shot,Missed Shot,Jump Shot,1,2,358
+0021700809,468,PT01M51.00S,3,1610612740,NOP,202703,Mirotic,N. Mirotic,0,0,0,,0,,,0,h,Mirotic REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,359
+0021700809,469,PT01M48.00S,3,1610612740,NOP,202703,Mirotic,N. Mirotic,-10,188,19,Made,1,63,67,130,h,Mirotic 19' Pullup Jump Shot (9 PTS),Made Shot,Pullup Jump shot,1,2,360
+0021700809,472,PT01M21.00S,3,1610612754,IND,202709,Joseph,C. Joseph,-107,0,11,Missed,1,,,0,v,MISS Joseph 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,361
+0021700809,473,PT01M18.00S,3,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,h,Diallo REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,362
+0021700809,474,PT01M14.00S,3,1610612740,NOP,202734,Moore,E. Moore,43,66,8,Made,1,65,67,132,h,Moore 8' Pullup Jump Shot (19 PTS),Made Shot,Pullup Jump shot,1,2,363
+0021700809,475,PT00M54.80S,3,1610612754,IND,202362,Stephenson,L. Stephenson,3,183,18,Missed,1,,,0,v,MISS Stephenson 18' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,364
+0021700809,476,PT00M54.80S,3,1610612754,IND,2744,Jefferson,A. Jefferson,0,0,0,,0,,,0,v,Jefferson REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,365
+0021700809,477,PT00M45.50S,3,1610612740,NOP,202703,Mirotic,N. Mirotic,0,0,0,,0,,,0,h,Mirotic S.FOUL (P1.T3) (K.Fitzgerald),Foul,Shooting,1,0,366
+0021700809,479,PT00M45.50S,3,1610612754,IND,2744,Jefferson,A. Jefferson,0,0,0,,0,65,68,133,v,Jefferson Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,367
+0021700809,480,PT00M45.50S,3,1610612754,IND,2744,Jefferson,A. Jefferson,0,0,0,,0,65,69,134,v,Jefferson Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,368
+0021700809,481,PT00M37.90S,3,1610612740,NOP,202703,Mirotic,N. Mirotic,0,0,0,,0,,,0,h,Mirotic Lost Ball Turnover (P1.T17),Turnover,Lost Ball,1,0,369
+0021700809,481,PT00M37.90S,3,1610612754,IND,203922,Robinson III,G. Robinson III,0,0,0,,0,,,0,v,Robinson III STEAL (2 STL),,,1,0,370
+0021700809,483,PT00M30.30S,3,1610612754,IND,202362,Stephenson,L. Stephenson,-138,218,26,Missed,1,,,0,v,MISS Stephenson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,371
+0021700809,484,PT00M26.50S,3,1610612740,NOP,203546,Clark,I. Clark,0,0,0,,0,,,0,h,Clark REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,372
+0021700809,485,PT00M10.80S,3,1610612740,NOP,203546,Clark,I. Clark,35,25,4,Missed,1,,,0,h,MISS Clark 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,373
+0021700809,489,PT00M09.90S,3,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,h,Diallo REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,374
+0021700809,490,PT00M09.00S,3,1610612740,NOP,1627767,Diallo,C. Diallo,0,-6,1,Made,1,67,69,136,h,Diallo 1' Tip Layup Shot (9 PTS),Made Shot,Tip Layup Shot,1,2,375
+0021700809,491,PT00M00.00S,3,0,,0,,,0,0,0,,0,67,69,136,,End of 3rd Period (9:45 PM EST),period,end,1,0,376
+0021700809,492,PT12M00.00S,4,0,,0,,,0,0,0,,0,67,69,136,,Start of 4th Period (9:48 PM EST),period,start,0,0,377
+0021700809,493,PT11M47.00S,4,1610612740,NOP,203546,Clark,I. Clark,0,0,0,,0,,,0,h,Clark Bad Pass Turnover (P2.T18),Turnover,Bad Pass,1,0,378
+0021700809,493,PT11M47.00S,4,1610612754,IND,202344,Booker,T. Booker,0,0,0,,0,,,0,v,Booker STEAL (1 STL),,,1,0,379
+0021700809,495,PT11M30.00S,4,1610612754,IND,2744,Jefferson,A. Jefferson,-16,4,2,Missed,1,,,0,v,MISS Jefferson 2' Layup,Missed Shot,Layup Shot,1,2,380
+0021700809,495,PT11M30.00S,4,1610612740,NOP,202703,Mirotic,N. Mirotic,0,0,0,,0,,,0,h,Mirotic BLOCK (2 BLK),,,1,2,381
+0021700809,497,PT11M27.00S,4,1610612740,NOP,203546,Clark,I. Clark,0,0,0,,0,,,0,h,Clark REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,382
+0021700809,498,PT11M23.00S,4,1610612740,NOP,202734,Moore,E. Moore,-233,4,0,Missed,1,,,0,h,MISS Moore 3PT Jump Shot,Missed Shot,Jump Shot,1,3,383
+0021700809,499,PT11M19.00S,4,1610612754,IND,203922,Robinson III,G. Robinson III,0,0,0,,0,,,0,v,Robinson III REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,384
+0021700809,500,PT11M10.00S,4,1610612754,IND,202344,Booker,T. Booker,13,-4,1,Missed,1,,,0,v,MISS Booker 1' Layup,Missed Shot,Layup Shot,1,2,385
+0021700809,501,PT11M04.00S,4,1610612754,IND,2744,Jefferson,A. Jefferson,0,0,0,,0,,,0,v,Jefferson REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,386
+0021700809,502,PT11M04.00S,4,1610612754,IND,2744,Jefferson,A. Jefferson,0,-6,1,Missed,1,,,0,v,MISS Jefferson 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,387
+0021700809,503,PT11M04.00S,4,1610612740,NOP,202734,Moore,E. Moore,0,0,0,,0,,,0,h,Moore REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,388
+0021700809,504,PT11M02.00S,4,1610612740,NOP,202734,Moore,E. Moore,50,106,12,Made,1,69,69,138,h,Moore 12' Floating Jump Shot (21 PTS),Made Shot,Floating Jump shot,1,2,389
+0021700809,505,PT10M47.00S,4,1610612754,IND,202344,Booker,T. Booker,0,0,0,,0,,,0,v,Booker OFF.Foul (P2) (K.Lane),Foul,Offensive,1,0,390
+0021700809,507,PT10M47.00S,4,1610612754,IND,202344,Booker,T. Booker,0,0,0,,0,,,0,v,Booker Offensive Foul Turnover (P1.T9),Turnover,Offensive Foul Turnover,1,0,391
+0021700809,508,PT10M47.00S,4,1610612754,IND,203922,Robinson III,G. Robinson III,0,0,0,,0,,,0,v,SUB: Collison FOR Robinson III,Substitution,,0,0,392
+0021700809,509,PT10M47.00S,4,1610612754,IND,2744,Jefferson,A. Jefferson,0,0,0,,0,,,0,v,SUB: Turner FOR Jefferson,Substitution,,0,0,393
+0021700809,512,PT10M47.00S,4,1610612740,NOP,203121,Miller,D. Miller,0,0,0,,0,,,0,h,SUB: Holiday FOR Miller,Substitution,,0,0,394
+0021700809,514,PT10M38.00S,4,1610612740,NOP,202703,Mirotic,N. Mirotic,-192,168,26,Missed,1,,,0,h,MISS Mirotic 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,395
+0021700809,515,PT10M34.00S,4,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,Joseph REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,396
+0021700809,516,PT10M31.00S,4,1610612740,NOP,203546,Clark,I. Clark,0,0,0,,0,,,0,h,Clark P.FOUL (P1.T1) (K.Fitzgerald),Foul,Personal,1,0,397
+0021700809,518,PT10M31.00S,4,1610612754,IND,202362,Stephenson,L. Stephenson,0,0,0,,0,,,0,v,SUB: Oladipo FOR Stephenson,Substitution,,0,0,398
+0021700809,520,PT10M17.00S,4,1610612740,NOP,203546,Clark,I. Clark,0,0,0,,0,,,0,h,Clark P.FOUL (P2.T2) (S.Twardoski),Foul,Personal,1,0,399
+0021700809,522,PT10M06.00S,4,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo Lost Ball Turnover (P2.T10),Turnover,Lost Ball,1,0,400
+0021700809,522,PT10M06.00S,4,1610612740,NOP,202734,Moore,E. Moore,0,0,0,,0,,,0,h,Moore STEAL (2 STL),,,1,0,401
+0021700809,524,PT10M02.00S,4,1610612740,NOP,202734,Moore,E. Moore,8,13,2,Missed,1,,,0,h,MISS Moore 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,402
+0021700809,525,PT10M02.00S,4,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,h,Diallo REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,403
+0021700809,527,PT10M00.00S,4,1610612740,NOP,202703,Mirotic,N. Mirotic,154,36,16,Missed,1,,,0,h,MISS Mirotic 16' Jump Shot,Missed Shot,Jump Shot,1,2,404
+0021700809,528,PT09M57.00S,4,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,h,Diallo REBOUND (Off:4 Def:6),Rebound,Unknown,1,0,405
+0021700809,529,PT09M54.00S,4,1610612740,NOP,203546,Clark,I. Clark,-68,243,25,Missed,1,,,0,h,MISS Clark 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,406
+0021700809,530,PT09M49.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,407
+0021700809,531,PT09M35.00S,4,1610612754,IND,1626167,Turner,M. Turner,15,1,2,Made,1,69,71,140,v,Turner 2' Cutting Layup Shot (10 PTS) (Collison 5 AST),Made Shot,Cutting Layup Shot,1,2,408
+0021700809,533,PT09M17.00S,4,1610612740,NOP,202703,Mirotic,N. Mirotic,44,253,26,Missed,1,,,0,h,MISS Mirotic 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,409
+0021700809,534,PT09M17.00S,4,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,410
+0021700809,535,PT09M01.00S,4,1610612754,IND,1626167,Turner,M. Turner,-18,2,2,Made,1,69,73,142,v,Turner 2' Driving Finger Roll Layup (12 PTS) (Collison 6 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,411
+0021700809,537,PT09M01.00S,4,1610612740,NOP,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday S.FOUL (P3.T3) (K.Fitzgerald),Foul,Shooting,1,0,412
+0021700809,539,PT09M01.00S,4,1610612740,NOP,202703,Mirotic,N. Mirotic,0,0,0,,0,,,0,h,SUB: Davis FOR Mirotic,Substitution,,0,0,413
+0021700809,540,PT09M01.00S,4,1610612754,IND,202344,Booker,T. Booker,0,0,0,,0,,,0,v,SUB: Bogdanovic FOR Booker,Substitution,,0,0,414
+0021700809,543,PT09M01.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,69,74,143,v,Turner Free Throw 1 of 1 (13 PTS),Free Throw,Free Throw 1 of 1,0,0,415
+0021700809,544,PT08M50.00S,4,1610612740,NOP,201950,Holiday,J. Holiday,-124,214,25,Made,1,72,74,146,h,Holiday 25' 3PT Jump Shot (7 PTS),Made Shot,Jump Shot,1,3,416
+0021700809,545,PT08M31.00S,4,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,Collison OFF.Foul (P1) (K.Fitzgerald),Foul,Offensive,1,0,417
+0021700809,547,PT08M31.00S,4,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,Collison Offensive Foul Turnover (P4.T11),Turnover,Offensive Foul Turnover,1,0,418
+0021700809,548,PT08M31.00S,4,1610612740,NOP,1627767,Diallo,C. Diallo,0,0,0,,0,,,0,h,SUB: Miller FOR Diallo,Substitution,,0,0,419
+0021700809,550,PT08M16.00S,4,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,Pacers T.Foul (Def. 3 Sec Collison ) (K.Lane),Foul,Defense 3 Second,1,0,420
+0021700809,551,PT08M16.00S,4,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,73,74,147,h,Davis Free Throw Technical (16 PTS),Free Throw,Free Throw Technical,0,0,421
+0021700809,552,PT08M16.00S,4,1610612740,NOP,202734,Moore,E. Moore,0,0,0,,0,,,0,h,SUB: Rondo FOR Moore,Substitution,,0,0,422
+0021700809,554,PT08M06.00S,4,1610612740,NOP,201950,Holiday,J. Holiday,8,13,2,Made,1,75,74,149,h,Holiday 2' Driving Layup (9 PTS),Made Shot,Driving Layup Shot,1,2,423
+0021700809,555,PT07M49.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner Offensive Charge Foul (P3) (K.Lane),Foul,Offensive Charge,1,0,424
+0021700809,557,PT07M49.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner Offensive Foul Turnover (P1.T12),Turnover,Offensive Foul Turnover,1,0,425
+0021700809,558,PT07M31.00S,4,1610612740,NOP,203076,Davis,A. Davis,-5,169,17,Made,1,77,74,151,h,Davis 17' Step Back Jump Shot (18 PTS) (Rondo 5 AST),Made Shot,Step Back Jump shot,1,2,426
+0021700809,560,PT07M30.00S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,427
+0021700809,561,PT07M30.00S,4,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,SUB: T. Young FOR Collison,Substitution,,0,0,428
+0021700809,563,PT07M20.00S,4,1610612754,IND,203506,Oladipo,V. Oladipo,-2,211,21,Missed,1,,,0,v,MISS Oladipo 21' Jump Shot,Missed Shot,Jump Shot,1,2,429
+0021700809,564,PT07M17.00S,4,1610612740,NOP,200765,Rondo,R. Rondo,0,0,0,,0,,,0,h,Rondo REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,430
+0021700809,565,PT07M08.00S,4,1610612740,NOP,203121,Miller,D. Miller,225,34,0,Missed,1,,,0,h,MISS Miller 3PT Jump Shot,Missed Shot,Jump Shot,1,3,431
+0021700809,566,PT07M02.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,432
+0021700809,567,PT06M52.00S,4,1610612754,IND,203506,Oladipo,V. Oladipo,81,149,17,Made,1,77,76,153,v,Oladipo 17' Pullup Jump Shot (15 PTS),Made Shot,Pullup Jump shot,1,2,433
+0021700809,568,PT06M29.00S,4,1610612740,NOP,201950,Holiday,J. Holiday,93,242,26,Missed,1,,,0,h,MISS Holiday 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,434
+0021700809,569,PT06M26.00S,4,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young REBOUND (Off:5 Def:4),Rebound,Unknown,1,0,435
+0021700809,570,PT06M03.00S,4,1610612754,IND,203506,Oladipo,V. Oladipo,-14,7,2,Missed,1,,,0,v,MISS Oladipo 2' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,436
+0021700809,570,PT06M03.00S,4,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis BLOCK (5 BLK),,,1,2,437
+0021700809,571,PT06M00.00S,4,1610612740,NOP,203121,Miller,D. Miller,0,0,0,,0,,,0,h,Miller REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,438
+0021700809,572,PT05M54.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner S.FOUL (P4.T1) (S.Twardoski),Foul,Shooting,1,0,439
+0021700809,574,PT05M54.00S,4,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,78,76,154,h,Davis Free Throw 1 of 2 (19 PTS),Free Throw,Free Throw 1 of 2,0,0,440
+0021700809,575,PT05M54.00S,4,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,79,76,155,h,Davis Free Throw 2 of 2 (20 PTS),Free Throw,Free Throw 2 of 2,0,0,441
+0021700809,576,PT05M34.00S,4,1610612754,IND,201152,Young,T. Young,19,1,2,Made,1,79,78,157,v,T. Young 2' Layup (9 PTS),Made Shot,Layup Shot,1,2,442
+0021700809,577,PT05M18.00S,4,1610612740,NOP,203076,Davis,A. Davis,-75,110,13,Missed,1,,,0,h,MISS Davis 13' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,443
+0021700809,578,PT05M13.00S,4,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young REBOUND (Off:5 Def:5),Rebound,Unknown,1,0,444
+0021700809,579,PT04M57.00S,4,1610612754,IND,203506,Oladipo,V. Oladipo,-172,193,26,Missed,1,,,0,v,MISS Oladipo 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,445
+0021700809,580,PT04M52.00S,4,1610612740,NOP,203121,Miller,D. Miller,0,0,0,,0,,,0,h,Miller REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,446
+0021700809,581,PT04M37.00S,4,1610612740,NOP,203076,Davis,A. Davis,8,57,6,Missed,1,,,0,h,MISS Davis 6' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,447
+0021700809,582,PT04M34.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,448
+0021700809,583,PT04M29.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner OFF.Foul (P5) (K.Lane),Foul,Offensive,1,0,449
+0021700809,585,PT04M29.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,Turner Offensive Foul Turnover (P2.T13),Turnover,Offensive Foul Turnover,1,0,450
+0021700809,586,PT04M29.00S,4,1610612740,NOP,203121,Miller,D. Miller,0,0,0,,0,,,0,h,SUB: Mirotic FOR Miller,Substitution,,0,0,451
+0021700809,588,PT04M29.00S,4,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,452
+0021700809,589,PT04M29.00S,4,1610612740,NOP,203546,Clark,I. Clark,0,0,0,,0,,,0,h,SUB: Moore FOR Clark,Substitution,,0,0,453
+0021700809,590,PT04M29.00S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,SUB: Booker FOR Turner,Substitution,,0,0,454
+0021700809,594,PT04M14.00S,4,1610612740,NOP,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday Lost Ball Turnover (P3.T19),Turnover,Lost Ball,1,0,455
+0021700809,594,PT04M14.00S,4,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,T. Young STEAL (3 STL),,,1,0,456
+0021700809,596,PT03M57.00S,4,1610612754,IND,203506,Oladipo,V. Oladipo,9,8,1,Made,1,79,80,159,v,Oladipo 1' Driving Layup (17 PTS),Made Shot,Driving Layup Shot,1,2,457
+0021700809,597,PT03M50.00S,4,1610612740,NOP,202703,Mirotic,N. Mirotic,-157,204,26,Made,1,82,80,162,h,Mirotic 26' 3PT Jump Shot (12 PTS) (Rondo 6 AST),Made Shot,Jump Shot,1,3,458
+0021700809,599,PT03M29.00S,4,1610612754,IND,202709,Joseph,C. Joseph,-130,142,19,Missed,1,,,0,v,MISS Joseph 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,459
+0021700809,600,PT03M21.00S,4,1610612754,IND,202344,Booker,T. Booker,0,0,0,,0,,,0,v,Booker REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,460
+0021700809,601,PT03M21.00S,4,1610612754,IND,202344,Booker,T. Booker,0,-6,1,Made,1,82,82,164,v,Booker 1' Tip Layup Shot (10 PTS),Made Shot,Tip Layup Shot,1,2,461
+0021700809,602,PT03M09.00S,4,1610612740,NOP,202703,Mirotic,N. Mirotic,226,30,0,Made,1,85,82,167,h,Mirotic 3PT Jump Shot (15 PTS) (Holiday 4 AST),Made Shot,Jump Shot,1,3,462
+0021700809,604,PT03M08.00S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,463
+0021700809,605,PT03M08.00S,4,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,464
+0021700809,606,PT03M08.00S,4,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,SUB: Turner FOR Joseph,Substitution,,0,0,465
+0021700809,607,PT03M08.00S,4,1610612754,IND,202344,Booker,T. Booker,0,0,0,,0,,,0,v,SUB: Collison FOR Booker,Substitution,,0,0,466
+0021700809,610,PT02M54.00S,4,1610612754,IND,203506,Oladipo,V. Oladipo,-54,143,15,Made,1,85,84,169,v,Oladipo 15' Pullup Jump Shot (19 PTS),Made Shot,Pullup Jump shot,1,2,467
+0021700809,611,PT02M33.00S,4,1610612740,NOP,203076,Davis,A. Davis,-95,67,12,Made,1,87,84,171,h,Davis 12' Fadeaway Jumper (22 PTS) (Holiday 5 AST),Made Shot,Fadeaway Jump Shot,1,2,468
+0021700809,613,PT02M15.00S,4,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo Lost Ball Turnover (P3.T14),Turnover,Lost Ball,1,0,469
+0021700809,613,PT02M15.00S,4,1610612740,NOP,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday STEAL (1 STL),,,1,0,470
+0021700809,615,PT01M52.00S,4,1610612740,NOP,201950,Holiday,J. Holiday,-5,27,3,Missed,1,,,0,h,MISS Holiday 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,471
+0021700809,615,PT01M52.00S,4,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo BLOCK (1 BLK),,,1,2,472
+0021700809,617,PT01M49.00S,4,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,v,Collison REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,473
+0021700809,618,PT01M49.00S,4,1610612754,IND,201954,Collison,D. Collison,16,2,2,Made,1,87,86,173,v,Collison 2' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,474
+0021700809,619,PT01M49.00S,4,1610612740,NOP,202734,Moore,E. Moore,0,0,0,,0,,,0,h,Moore S.FOUL (P2.T4) (K.Fitzgerald),Foul,Shooting,1,0,475
+0021700809,621,PT01M49.00S,4,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,87,87,174,v,Collison Free Throw 1 of 1 (8 PTS),Free Throw,Free Throw 1 of 1,1,0,476
+0021700809,622,PT01M41.00S,4,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo Violation:Kicked Ball (K.Lane),Violation,Kicked Ball,0,0,477
+0021700809,623,PT01M25.00S,4,1610612740,NOP,202734,Moore,E. Moore,-42,110,12,Missed,1,,,0,h,MISS Moore 12' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,478
+0021700809,624,PT01M24.00S,4,1610612740,NOP,202734,Moore,E. Moore,0,0,0,,0,,,0,h,Moore REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,479
+0021700809,625,PT01M24.00S,4,1610612740,NOP,202734,Moore,E. Moore,-11,4,1,Made,1,89,87,176,h,Moore 1' Layup (23 PTS),Made Shot,Layup Shot,1,2,480
+0021700809,626,PT01M12.00S,4,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo Traveling Turnover (P4.T15),Turnover,Traveling,1,0,481
+0021700809,627,PT01M12.00S,4,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,482
+0021700809,629,PT00M53.70S,4,1610612740,NOP,203076,Davis,A. Davis,-149,8,15,Made,1,91,87,178,h,Davis 15' Fadeaway Jumper (24 PTS) (Mirotic 1 AST),Made Shot,Fadeaway Jump Shot,1,2,483
+0021700809,631,PT00M42.60S,4,1610612754,IND,201954,Collison,D. Collison,20,-3,2,Missed,1,,,0,v,MISS Collison 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,484
+0021700809,632,PT00M41.70S,4,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:1 Def:11),Rebound,Unknown,1,0,485
+0021700809,633,PT00M41.70S,4,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis Step Out of Bounds Turnover (P3.T20),Turnover,Step Out of Bounds Turnover,1,0,486
+0021700809,634,PT00M41.70S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,487
+0021700809,635,PT00M41.70S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Timeout: Regular (Reg.7 Short 0),Timeout,Regular,0,0,488
+0021700809,636,PT00M28.70S,4,1610612754,IND,203506,Oladipo,V. Oladipo,11,288,29,Missed,1,,,0,v,MISS Oladipo 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,489
+0021700809,637,PT00M25.80S,4,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Rebound,Rebound,Unknown,0,0,490
+0021700809,638,PT00M25.80S,4,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,SUB: Joseph FOR Bogdanovic,Substitution,,0,0,491
+0021700809,640,PT00M25.80S,4,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Timeout: Regular (Full 7 Short 0),Timeout,Regular,0,0,492
+0021700809,641,PT00M25.80S,4,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,v,SUB: Booker FOR Turner,Substitution,,0,0,493
+0021700809,643,PT00M17.60S,4,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,Joseph Personal Take Foul (P1.T2) (K.Lane),Foul,Personal Take,1,0,494
+0021700809,645,PT00M16.10S,4,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo Personal Take Foul (P4.PN) (S.Twardoski),Foul,Personal Take,1,0,495
+0021700809,647,PT00M16.10S,4,1610612740,NOP,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,MISS Holiday Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,496
+0021700809,648,PT00M16.10S,4,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Rebound,Rebound,Normal Rebound,0,0,497
+0021700809,649,PT00M16.10S,4,1610612754,IND,202344,Booker,T. Booker,0,0,0,,0,,,0,v,SUB: Turner FOR Booker,Substitution,,0,0,498
+0021700809,651,PT00M16.10S,4,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,v,SUB: Bogdanovic FOR T. Young,Substitution,,0,0,499
+0021700809,653,PT00M16.10S,4,1610612740,NOP,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,MISS Holiday Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,500
+0021700809,654,PT00M15.00S,4,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,,,0,h,Davis REBOUND (Off:2 Def:11),Rebound,Unknown,1,0,501
+0021700809,655,PT00M15.00S,4,1610612740,NOP,203076,Davis,A. Davis,0,-6,1,Made,1,93,87,180,h,Davis 1' Tip Layup Shot (26 PTS),Made Shot,Tip Layup Shot,1,2,502
+0021700809,656,PT00M08.20S,4,1610612740,NOP,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,Holiday P.FOUL (P4.PN) (K.Lane),Foul,Personal,1,0,503
+0021700809,658,PT00M08.20S,4,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,93,88,181,v,Oladipo Free Throw 1 of 2 (20 PTS),Free Throw,Free Throw 1 of 2,1,0,504
+0021700809,659,PT00M08.20S,4,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,93,89,182,v,Oladipo Free Throw 2 of 2 (21 PTS),Free Throw,Free Throw 2 of 2,1,0,505
+0021700809,660,PT00M07.60S,4,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,v,Bogdanovic Personal Take Foul (P2.PN) (K.Fitzgerald),Foul,Personal Take,1,0,506
+0021700809,662,PT00M07.60S,4,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,94,89,183,h,Davis Free Throw 1 of 2 (27 PTS),Free Throw,Free Throw 1 of 2,1,0,507
+0021700809,663,PT00M07.60S,4,1610612740,NOP,203076,Davis,A. Davis,0,0,0,,0,95,89,184,h,Davis Free Throw 2 of 2 (28 PTS),Free Throw,Free Throw 2 of 2,1,0,508
+0021700809,664,PT00M03.30S,4,1610612754,IND,201954,Collison,D. Collison,-112,248,27,Made,1,95,92,187,v,Collison 27' 3PT Pullup Jump Shot (11 PTS),Made Shot,Pullup Jump shot,1,3,509
+0021700809,665,PT00M02.10S,4,1610612754,IND,203506,Oladipo,V. Oladipo,0,0,0,,0,,,0,v,Oladipo Personal Take Foul (P5.PN) (S.Twardoski),Foul,Personal Take,1,0,510
+0021700809,667,PT00M02.10S,4,1610612740,NOP,201950,Holiday,J. Holiday,0,0,0,,0,,,0,h,MISS Holiday Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,511
+0021700809,668,PT00M02.10S,4,0,,1610612740,,,0,0,0,,0,,,0,h,PELICANS Rebound,Rebound,Normal Rebound,0,0,512
+0021700809,669,PT00M02.10S,4,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,v,SUB: T. Young FOR Joseph,Substitution,,0,0,513
+0021700809,671,PT00M02.10S,4,1610612740,NOP,201950,Holiday,J. Holiday,0,0,0,,0,96,92,188,h,Holiday Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,1,0,514
+0021700809,672,PT00M00.90S,4,1610612754,IND,1626167,Turner,M. Turner,-79,331,34,Missed,1,,,0,v,MISS Turner 34' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,515
+0021700809,673,PT00M00.90S,4,0,,1610612754,,,0,0,0,,0,,,0,v,Pacers Rebound,Rebound,Unknown,0,0,516
+0021700809,674,PT00M00.00S,4,0,,0,,,0,0,0,,0,96,92,188,,End of 4th Period (10:27 PM EST),period,end,1,0,517

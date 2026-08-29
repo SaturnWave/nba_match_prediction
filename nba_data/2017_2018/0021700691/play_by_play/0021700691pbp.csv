@@ -1,0 +1,487 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021700691,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (8:10 PM EST),period,start,0,0,1
+0021700691,4,PT12M00.00S,1,1610612749,MIL,203089,Henson,J. Henson,0,0,0,,0,,,0,h,Jump Ball Henson vs. Monroe: Tip to Middleton,Jump Ball,,1,0,2
+0021700691,7,PT11M45.00S,1,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,Bledsoe Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,3
+0021700691,7,PT11M45.00S,1,1610612756,PHX,203933,Warren,T. Warren,0,0,0,,0,,,0,v,Warren STEAL (1 STL),,,1,0,4
+0021700691,9,PT11M22.00S,1,1610612756,PHX,202328,Monroe,G. Monroe,-3,0,0,Made,1,0,2,2,v,Monroe Layup (2 PTS) (Booker 1 AST),Made Shot,Layup Shot,1,2,5
+0021700691,11,PT11M07.00S,1,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker S.FOUL (P1.T1) (N.Buchert),Foul,Shooting,1,0,6
+0021700691,13,PT11M07.00S,1,1610612749,MIL,203089,Henson,J. Henson,0,0,0,,0,1,2,3,h,Henson Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,7
+0021700691,14,PT11M07.00S,1,1610612749,MIL,203089,Henson,J. Henson,0,0,0,,0,2,2,4,h,Henson Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,8
+0021700691,15,PT10M49.00S,1,1610612756,PHX,1626164,Booker,D. Booker,-231,-20,0,Made,1,2,5,7,v,Booker 3PT Jump Shot (3 PTS),Made Shot,Jump Shot,1,3,9
+0021700691,16,PT10M21.00S,1,1610612749,MIL,202339,Bledsoe,E. Bledsoe,-157,120,20,Missed,1,,,0,h,MISS Bledsoe 20' Jump Shot,Missed Shot,Jump Shot,1,2,10
+0021700691,17,PT10M18.00S,1,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,11
+0021700691,19,PT10M07.00S,1,1610612756,PHX,203933,Warren,T. Warren,226,2,0,Missed,1,,,0,v,MISS Warren 3PT Jump Shot,Missed Shot,Jump Shot,1,3,12
+0021700691,20,PT10M03.00S,1,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,13
+0021700691,21,PT09M59.00S,1,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,14
+0021700691,21,PT09M59.00S,1,1610612756,PHX,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe STEAL (1 STL),,,1,0,15
+0021700691,23,PT09M56.00S,1,1610612756,PHX,203933,Warren,T. Warren,4,8,1,Made,1,2,7,9,v,Warren 1' Running Dunk (2 PTS) (Monroe 1 AST),Made Shot,Running Dunk Shot,1,2,16
+0021700691,24,PT09M26.00S,1,1610612749,MIL,203089,Henson,J. Henson,84,183,20,Missed,1,,,0,h,MISS Henson 20' Jump Shot,Missed Shot,Jump Shot,1,2,17
+0021700691,25,PT09M26.00S,1,1610612756,PHX,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,18
+0021700691,26,PT09M11.00S,1,1610612756,PHX,1627733,Bender,D. Bender,-155,217,27,Made,1,2,10,12,v,Bender 27' 3PT Jump Shot (3 PTS) (Monroe 2 AST),Made Shot,Jump Shot,1,3,19
+0021700691,28,PT09M09.00S,1,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,20
+0021700691,30,PT08M55.00S,1,1610612749,MIL,203114,Middleton,K. Middleton,68,161,17,Missed,1,,,0,h,MISS Middleton 17' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,21
+0021700691,30,PT08M55.00S,1,1610612756,PHX,203933,Warren,T. Warren,0,0,0,,0,,,0,v,Warren BLOCK (1 BLK),,,1,2,22
+0021700691,32,PT08M49.00S,1,1610612749,MIL,203089,Henson,J. Henson,0,0,0,,0,,,0,h,Henson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,23
+0021700691,33,PT08M45.00S,1,1610612749,MIL,203114,Middleton,K. Middleton,181,183,26,Made,1,5,10,15,h,Middleton 26' 3PT Jump Shot (3 PTS) (Brown 1 AST),Made Shot,Jump Shot,1,3,24
+0021700691,35,PT08M24.00S,1,1610612756,PHX,1627733,Bender,D. Bender,4,25,3,Missed,1,,,0,v,MISS Bender 3' Hook Shot,Missed Shot,Hook Shot,1,2,25
+0021700691,36,PT08M22.00S,1,1610612756,PHX,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,26
+0021700691,37,PT08M20.00S,1,1610612756,PHX,202328,Monroe,G. Monroe,2,20,2,Made,1,5,12,17,v,Monroe 2' Putback Layup (4 PTS),Made Shot,Putback Layup Shot,1,2,27
+0021700691,38,PT08M06.00S,1,1610612749,MIL,1627763,Brogdon,M. Brogdon,49,103,11,Missed,1,,,0,h,MISS Brogdon 11' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,28
+0021700691,38,PT08M06.00S,1,1610612756,PHX,203933,Warren,T. Warren,0,0,0,,0,,,0,v,Warren BLOCK (2 BLK),,,1,2,29
+0021700691,39,PT08M04.00S,1,1610612756,PHX,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,30
+0021700691,40,PT08M00.00S,1,1610612756,PHX,203933,Warren,T. Warren,4,6,1,Made,1,5,14,19,v,Warren 1' Running Layup (4 PTS) (Booker 2 AST),Made Shot,Running Layup Shot,1,2,31
+0021700691,42,PT07M41.00S,1,1610612749,MIL,203114,Middleton,K. Middleton,122,245,27,Missed,1,,,0,h,MISS Middleton 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,32
+0021700691,43,PT07M38.00S,1,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,33
+0021700691,44,PT07M35.00S,1,1610612756,PHX,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe S.FOUL (P1.T2) (D.Richardson),Foul,Shooting,1,0,34
+0021700691,46,PT07M35.00S,1,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,MISS Brogdon Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,35
+0021700691,47,PT07M35.00S,1,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Rebound,Rebound,Normal Rebound,0,0,36
+0021700691,48,PT07M35.00S,1,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,6,14,20,h,Brogdon Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,0,0,37
+0021700691,49,PT07M14.00S,1,1610612756,PHX,202328,Monroe,G. Monroe,-8,48,5,Missed,1,,,0,v,MISS Monroe 5' Hook Shot,Missed Shot,Hook Shot,1,2,38
+0021700691,49,PT07M14.00S,1,1610612749,MIL,203089,Henson,J. Henson,0,0,0,,0,,,0,h,Henson BLOCK (1 BLK),,,1,2,39
+0021700691,51,PT07M14.00S,1,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Rebound,Rebound,Unknown,0,0,40
+0021700691,52,PT07M12.00S,1,1610612756,PHX,203933,Warren,T. Warren,0,4,0,Made,1,6,16,22,v,Warren Reverse Layup (6 PTS) (Ulis 1 AST),Made Shot,Reverse Layup Shot,0,2,41
+0021700691,54,PT06M52.00S,1,1610612749,MIL,203114,Middleton,K. Middleton,2,21,2,Made,1,8,16,24,h,Middleton 2' Reverse Layup (5 PTS) (Brogdon 1 AST),Made Shot,Reverse Layup Shot,1,2,42
+0021700691,56,PT06M39.00S,1,1610612756,PHX,1627755,Ulis,T. Ulis,0,0,0,,0,,,0,v,Ulis Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,43
+0021700691,56,PT06M39.00S,1,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,Brown STEAL (1 STL),,,1,0,44
+0021700691,58,PT06M33.00S,1,1610612749,MIL,1628425,Brown,S. Brown,2,11,1,Made,1,10,16,26,h,Brown 1' Running Layup (2 PTS),Made Shot,Running Layup Shot,1,2,45
+0021700691,59,PT06M21.00S,1,1610612756,PHX,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe Offensive Charge Foul (P2.T3) (N.Buchert),Foul,Offensive Charge,1,0,46
+0021700691,61,PT06M21.00S,1,1610612756,PHX,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe Offensive Foul Turnover (P1.T2),Turnover,Offensive Foul Turnover,1,0,47
+0021700691,62,PT06M21.00S,1,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,SUB: Snell FOR Brown,Substitution,,0,0,48
+0021700691,64,PT06M06.00S,1,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,14,1,Missed,1,,,0,h,MISS Bledsoe 1' Layup,Missed Shot,Layup Shot,1,2,49
+0021700691,65,PT06M02.00S,1,1610612749,MIL,203089,Henson,J. Henson,0,0,0,,0,,,0,h,Henson REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,50
+0021700691,66,PT06M02.00S,1,1610612749,MIL,203089,Henson,J. Henson,0,-6,1,Made,1,12,16,28,h,Henson 1' Putback Dunk (4 PTS),Made Shot,Putback Dunk Shot,1,2,51
+0021700691,67,PT05M55.00S,1,1610612756,PHX,1626164,Booker,D. Booker,-170,121,21,Missed,1,,,0,v,MISS Booker 21' Jump Shot,Missed Shot,Jump Shot,1,2,52
+0021700691,68,PT05M52.00S,1,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,53
+0021700691,69,PT05M47.00S,1,1610612749,MIL,203114,Middleton,K. Middleton,-18,22,3,Missed,1,,,0,h,MISS Middleton 3' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,54
+0021700691,70,PT05M44.00S,1,1610612756,PHX,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,55
+0021700691,71,PT05M42.00S,1,1610612756,PHX,1627755,Ulis,T. Ulis,0,0,0,,0,,,0,v,Ulis Lost Ball Turnover (P2.T3),Turnover,Lost Ball,1,0,56
+0021700691,71,PT05M42.00S,1,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon STEAL (1 STL),,,1,0,57
+0021700691,73,PT05M40.00S,1,1610612749,MIL,203089,Henson,J. Henson,-2,0,0,Made,1,14,16,30,h,Henson Running Layup (6 PTS) (Brogdon 2 AST),Made Shot,Running Layup Shot,1,2,58
+0021700691,75,PT05M40.00S,1,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,59
+0021700691,76,PT05M40.00S,1,1610612756,PHX,1627755,Ulis,T. Ulis,0,0,0,,0,,,0,v,SUB: Canaan FOR Ulis,Substitution,,0,0,60
+0021700691,77,PT05M40.00S,1,1610612756,PHX,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,SUB: Len FOR Monroe,Substitution,,0,0,61
+0021700691,80,PT05M25.00S,1,1610612756,PHX,1627733,Bender,D. Bender,0,0,0,,0,,,0,v,Bender Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,62
+0021700691,80,PT05M25.00S,1,1610612749,MIL,203503,Snell,T. Snell,0,0,0,,0,,,0,h,Snell STEAL (1 STL),,,1,0,63
+0021700691,82,PT05M16.00S,1,1610612749,MIL,203089,Henson,J. Henson,-2,19,2,Made,1,16,16,32,h,Henson 2' Dunk (8 PTS) (Bledsoe 1 AST),Made Shot,Dunk Shot,1,2,64
+0021700691,84,PT04M51.00S,1,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker Lost Ball Turnover (P1.T5),Turnover,Lost Ball,1,0,65
+0021700691,84,PT04M51.00S,1,1610612749,MIL,203089,Henson,J. Henson,0,0,0,,0,,,0,h,Henson STEAL (1 STL),,,1,0,66
+0021700691,86,PT04M47.00S,1,1610612749,MIL,1627763,Brogdon,M. Brogdon,-6,0,1,Made,1,18,16,34,h,Brogdon 1' Running Layup (3 PTS) (Henson 1 AST),Made Shot,Running Layup Shot,1,2,67
+0021700691,88,PT04M29.00S,1,1610612756,PHX,203477,Canaan,I. Canaan,-1,-4,0,Made,1,18,18,36,v,Canaan Cutting Layup Shot (2 PTS) (Len 1 AST),Made Shot,Cutting Layup Shot,1,2,68
+0021700691,90,PT04M15.00S,1,1610612749,MIL,202339,Bledsoe,E. Bledsoe,83,35,9,Made,1,20,18,38,h,Bledsoe 9' Jump Shot (2 PTS) (Middleton 1 AST),Made Shot,Jump Shot,1,2,69
+0021700691,92,PT03M55.00S,1,1610612756,PHX,203933,Warren,T. Warren,0,0,0,,0,,,0,v,Warren Bad Pass Turnover (P1.T6),Turnover,Bad Pass,1,0,70
+0021700691,92,PT03M55.00S,1,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,Bledsoe STEAL (1 STL),,,1,0,71
+0021700691,94,PT03M52.00S,1,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,Bledsoe Out of Bounds - Bad Pass Turnover Turnover (P2.T3),Turnover,Out of Bounds - Bad Pass Turnover,1,0,72
+0021700691,96,PT03M52.00S,1,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,SUB: Dellavedova FOR Bledsoe,Substitution,,0,0,73
+0021700691,97,PT03M52.00S,1,1610612749,MIL,203089,Henson,J. Henson,0,0,0,,0,,,0,h,SUB: Maker FOR Henson,Substitution,,0,0,74
+0021700691,98,PT03M52.00S,1,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,SUB: Dudley FOR Booker,Substitution,,0,0,75
+0021700691,99,PT03M52.00S,1,1610612756,PHX,1627733,Bender,D. Bender,0,0,0,,0,,,0,v,SUB: Daniels FOR Bender,Substitution,,0,0,76
+0021700691,104,PT03M25.00S,1,1610612756,PHX,203458,Len,A. Len,6,18,2,Made,1,20,20,40,v,Len 2' Driving Reverse Layup (2 PTS) (Dudley 1 AST),Made Shot,Driving Reverse Layup Shot,1,2,77
+0021700691,106,PT03M15.00S,1,1610612749,MIL,203114,Middleton,K. Middleton,-103,24,11,Made,1,22,20,42,h,Middleton 11' Turnaround Fadeaway (7 PTS),Made Shot,Turnaround Fadeaway shot,1,2,78
+0021700691,107,PT03M09.00S,1,1610612756,PHX,203933,Warren,T. Warren,2,16,2,Made,1,22,22,44,v,Warren 2' Running Layup (8 PTS),Made Shot,Running Layup Shot,1,2,79
+0021700691,108,PT02M51.00S,1,1610612749,MIL,203521,Dellavedova,M. Dellavedova,-6,83,8,Missed,1,,,0,h,MISS Dellavedova 8' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,80
+0021700691,109,PT02M48.00S,1,1610612756,PHX,203458,Len,A. Len,0,0,0,,0,,,0,v,Len REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,81
+0021700691,110,PT02M36.00S,1,1610612756,PHX,201162,Dudley,J. Dudley,2,10,1,Made,1,22,24,46,v,Dudley 1' Driving Layup (2 PTS) (Warren 1 AST),Made Shot,Driving Layup Shot,1,2,82
+0021700691,112,PT02M13.00S,1,1610612749,MIL,1627763,Brogdon,M. Brogdon,-11,0,1,Made,1,24,24,48,h,Brogdon 1' Reverse Layup (5 PTS) (Dellavedova 1 AST),Made Shot,Reverse Layup Shot,1,2,83
+0021700691,114,PT02M01.00S,1,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon P.FOUL (P1.T1) (D.Richardson),Foul,Personal,1,0,84
+0021700691,116,PT02M01.00S,1,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,SUB: Terry FOR Brogdon,Substitution,,0,0,85
+0021700691,118,PT01M50.00S,1,1610612756,PHX,203458,Len,A. Len,0,0,0,,0,,,0,v,Len Out of Bounds - Bad Pass Turnover Turnover (P1.T7),Turnover,Out of Bounds - Bad Pass Turnover,1,0,86
+0021700691,119,PT01M27.00S,1,1610612749,MIL,203114,Middleton,K. Middleton,109,84,14,Made,1,26,24,50,h,Middleton 14' Turnaround Fadeaway (9 PTS),Made Shot,Turnaround Fadeaway shot,1,2,87
+0021700691,120,PT01M15.00S,1,1610612756,PHX,203584,Daniels,T. Daniels,-154,221,27,Missed,1,,,0,v,MISS Daniels 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,88
+0021700691,121,PT01M15.00S,1,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Rebound,Rebound,Unknown,0,0,89
+0021700691,122,PT01M15.00S,1,1610612749,MIL,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker L.B.FOUL (P1.T2) (N.Buchert),Foul,Loose Ball,1,0,90
+0021700691,124,PT01M15.00S,1,1610612756,PHX,203933,Warren,T. Warren,0,0,0,,0,,,0,v,SUB: Jackson FOR Warren,Substitution,,0,0,91
+0021700691,126,PT01M11.00S,1,1610612756,PHX,1628367,Jackson,J. Jackson,0,4,0,Made,1,26,26,52,v,Jackson Cutting Layup Shot (2 PTS) (Dudley 2 AST),Made Shot,Cutting Layup Shot,1,2,92
+0021700691,128,PT00M52.90S,1,1610612749,MIL,203114,Middleton,K. Middleton,182,50,19,Made,1,28,26,54,h,Middleton 19' Jump Shot (11 PTS) (Dellavedova 2 AST),Made Shot,Jump Shot,1,2,93
+0021700691,130,PT00M44.40S,1,1610612756,PHX,201162,Dudley,J. Dudley,0,0,0,,0,,,0,v,Dudley Out of Bounds - Bad Pass Turnover Turnover (P1.T8),Turnover,Out of Bounds - Bad Pass Turnover,1,0,94
+0021700691,131,PT00M31.00S,1,1610612749,MIL,203114,Middleton,K. Middleton,-71,105,13,Made,1,30,26,56,h,Middleton 13' Pullup Jump Shot (13 PTS),Made Shot,Pullup Jump shot,1,2,95
+0021700691,132,PT00M11.10S,1,1610612749,MIL,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker Violation:Kicked Ball (N.Buchert),Violation,Kicked Ball,0,0,96
+0021700691,133,PT00M01.90S,1,1610612756,PHX,1628367,Jackson,J. Jackson,18,267,27,Missed,1,,,0,v,MISS Jackson 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,97
+0021700691,134,PT00M01.90S,1,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Rebound,Rebound,Unknown,1,0,98
+0021700691,135,PT00M00.00S,1,0,,0,,,0,0,0,,0,30,26,56,,End of 1st Period (8:32 PM EST),period,end,1,0,99
+0021700691,138,PT12M00.00S,2,0,,0,,,0,0,0,,0,30,26,56,,Start of 2nd Period (8:35 PM EST),period,start,0,0,100
+0021700691,139,PT11M45.00S,2,1610612756,PHX,203477,Canaan,I. Canaan,-92,269,28,Made,1,30,29,59,v,Canaan 28' 3PT Jump Shot (5 PTS) (Dudley 3 AST),Made Shot,Jump Shot,1,3,101
+0021700691,141,PT11M25.00S,2,1610612749,MIL,1627748,Maker,T. Maker,-133,-6,13,Missed,1,,,0,h,MISS Maker 13' Jump Shot,Missed Shot,Jump Shot,1,2,102
+0021700691,142,PT11M22.00S,2,1610612756,PHX,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,v,Jackson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,103
+0021700691,143,PT11M08.00S,2,1610612756,PHX,203458,Len,A. Len,3,12,1,Missed,1,,,0,v,MISS Len 1' Layup,Missed Shot,Layup Shot,1,2,104
+0021700691,143,PT11M08.00S,2,1610612749,MIL,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker BLOCK (1 BLK),,,1,2,105
+0021700691,144,PT11M05.00S,2,1610612749,MIL,203521,Dellavedova,M. Dellavedova,0,0,0,,0,,,0,h,Dellavedova REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,106
+0021700691,145,PT11M01.00S,2,1610612749,MIL,1628425,Brown,S. Brown,115,235,26,Missed,1,,,0,h,MISS Brown 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,107
+0021700691,146,PT11M01.00S,2,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Rebound,Rebound,Unknown,0,0,108
+0021700691,147,PT10M50.00S,2,1610612756,PHX,1628367,Jackson,J. Jackson,95,244,26,Missed,1,,,0,v,MISS Jackson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,109
+0021700691,148,PT10M48.00S,2,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Rebound,Rebound,Unknown,0,0,110
+0021700691,149,PT10M27.00S,2,1610612749,MIL,1628425,Brown,S. Brown,-226,15,0,Missed,1,,,0,h,MISS Brown 3PT Jump Shot,Missed Shot,Jump Shot,1,3,111
+0021700691,150,PT10M24.00S,2,1610612756,PHX,203458,Len,A. Len,0,0,0,,0,,,0,v,Len REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,112
+0021700691,151,PT10M07.00S,2,1610612756,PHX,201162,Dudley,J. Dudley,141,227,27,Made,1,30,32,62,v,Dudley 27' 3PT Jump Shot (5 PTS) (Canaan 1 AST),Made Shot,Jump Shot,1,3,113
+0021700691,153,PT09M52.00S,2,1610612756,PHX,203458,Len,A. Len,0,0,0,,0,,,0,v,Len S.FOUL (P1.T1) (D.Richardson),Foul,Shooting,1,0,114
+0021700691,155,PT09M52.00S,2,0,,153,,,0,0,0,,0,30,32,62,,Instant Replay2nd Period (8:38 PM EST),Instant Replay,Support Ruling,0,0,115
+0021700691,156,PT09M52.00S,2,1610612749,MIL,1627748,Maker,T. Maker,0,0,0,,0,31,32,63,h,Maker Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,116
+0021700691,157,PT09M52.00S,2,1610612749,MIL,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,MISS Maker Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,117
+0021700691,158,PT09M49.00S,2,1610612756,PHX,203584,Daniels,T. Daniels,0,0,0,,0,,,0,v,Daniels REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,118
+0021700691,159,PT09M27.00S,2,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Turnover: Shot Clock (T#9),Turnover,Shot Clock Turnover,0,0,119
+0021700691,161,PT09M13.00S,2,1610612749,MIL,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker OFF.Foul (P2) (N.Buchert),Foul,Offensive,1,0,120
+0021700691,163,PT09M13.00S,2,1610612749,MIL,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker Offensive Foul Turnover (P1.T4),Turnover,Offensive Foul Turnover,1,0,121
+0021700691,164,PT08M59.00S,2,1610612756,PHX,203458,Len,A. Len,0,0,0,,0,,,0,v,Len Out of Bounds - Bad Pass Turnover Turnover (P2.T10),Turnover,Out of Bounds - Bad Pass Turnover,1,0,122
+0021700691,165,PT08M59.00S,2,1610612749,MIL,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,SUB: Plumlee FOR Maker,Substitution,,0,0,123
+0021700691,167,PT08M49.00S,2,1610612756,PHX,203477,Canaan,I. Canaan,0,0,0,,0,,,0,v,Canaan P.FOUL (P1.T2) (Z.Zarba),Foul,Personal,1,0,124
+0021700691,169,PT08M49.00S,2,1610612749,MIL,1891,Terry,J. Terry,0,0,0,,0,,,0,h,SUB: Brogdon FOR Terry,Substitution,,0,0,125
+0021700691,170,PT08M49.00S,2,1610612756,PHX,203584,Daniels,T. Daniels,0,0,0,,0,,,0,v,SUB: Booker FOR Daniels,Substitution,,0,0,126
+0021700691,173,PT08M42.00S,2,1610612756,PHX,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,v,Jackson S.FOUL (P1.T3) (N.Buchert),Foul,Shooting,1,0,127
+0021700691,176,PT08M42.00S,2,1610612749,MIL,1627850,Plumlee,M. Plumlee,0,0,0,,0,32,32,64,h,Plumlee Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,128
+0021700691,177,PT08M42.00S,2,1610612756,PHX,203458,Len,A. Len,0,0,0,,0,,,0,v,SUB: Monroe FOR Len,Substitution,,0,0,129
+0021700691,179,PT08M42.00S,2,1610612749,MIL,1627850,Plumlee,M. Plumlee,0,0,0,,0,33,32,65,h,Plumlee Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,130
+0021700691,180,PT08M21.00S,2,1610612756,PHX,202328,Monroe,G. Monroe,2,1,0,Made,1,33,34,67,v,Monroe Layup (6 PTS) (Dudley 4 AST),Made Shot,Layup Shot,1,2,131
+0021700691,182,PT08M05.00S,2,1610612749,MIL,203521,Dellavedova,M. Dellavedova,0,0,0,,0,,,0,h,Dellavedova Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,132
+0021700691,182,PT08M05.00S,2,1610612756,PHX,201162,Dudley,J. Dudley,0,0,0,,0,,,0,v,Dudley STEAL (1 STL),,,1,0,133
+0021700691,184,PT08M01.00S,2,1610612756,PHX,1626164,Booker,D. Booker,0,4,0,Made,1,33,36,69,v,Booker Running Dunk (5 PTS) (Dudley 5 AST),Made Shot,Running Dunk Shot,1,2,134
+0021700691,186,PT07M51.00S,2,1610612749,MIL,1627763,Brogdon,M. Brogdon,-9,15,2,Made,1,35,36,71,h,Brogdon 2' Layup (7 PTS) (Dellavedova 3 AST),Made Shot,Layup Shot,1,2,135
+0021700691,188,PT07M51.00S,2,1610612756,PHX,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,v,Jackson Violation:Defensive Goaltending (N.Buchert),Violation,Defensive Goaltending,1,0,136
+0021700691,189,PT07M37.00S,2,1610612749,MIL,1627850,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee P.FOUL (P1.T1) (Z.Zarba),Foul,Personal,1,0,137
+0021700691,191,PT07M37.00S,2,1610612749,MIL,203521,Dellavedova,M. Dellavedova,0,0,0,,0,,,0,h,SUB: Bledsoe FOR Dellavedova,Substitution,,0,0,138
+0021700691,193,PT07M31.00S,2,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,BUCKS T.Foul (Def. 3 Sec Bledsoe ) (D.Richardson),Foul,Defense 3 Second,1,0,139
+0021700691,194,PT07M31.00S,2,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,35,37,72,v,Booker Free Throw Technical (6 PTS),Free Throw,Free Throw Technical,0,0,140
+0021700691,195,PT07M21.00S,2,1610612756,PHX,1628367,Jackson,J. Jackson,8,12,1,Missed,1,,,0,v,MISS Jackson 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,141
+0021700691,196,PT07M18.00S,2,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,142
+0021700691,197,PT07M17.00S,2,1610612749,MIL,202339,Bledsoe,E. Bledsoe,1,5,1,Made,1,37,37,74,h,Bledsoe 1' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,143
+0021700691,198,PT07M17.00S,2,1610612756,PHX,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,v,Jackson S.FOUL (P2.T4) (N.Buchert),Foul,Shooting,1,0,144
+0021700691,200,PT07M17.00S,2,1610612756,PHX,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,v,SUB: Warren FOR Jackson,Substitution,,0,0,145
+0021700691,202,PT07M17.00S,2,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,38,37,75,h,Bledsoe Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,0,0,146
+0021700691,203,PT07M02.00S,2,1610612756,PHX,1626164,Booker,D. Booker,-106,253,27,Missed,1,,,0,v,MISS Booker 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,147
+0021700691,204,PT06M59.00S,2,1610612749,MIL,1627850,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,148
+0021700691,205,PT06M47.00S,2,1610612749,MIL,202339,Bledsoe,E. Bledsoe,-64,163,18,Missed,1,,,0,h,MISS Bledsoe 18' Jump Shot,Missed Shot,Jump Shot,1,2,149
+0021700691,209,PT06M45.00S,2,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Rebound,Rebound,Unknown,0,0,150
+0021700691,206,PT06M45.00S,2,1610612749,MIL,1627850,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee L.B.FOUL (P2.T2) (Z.Zarba),Foul,Loose Ball,1,0,151
+0021700691,208,PT06M45.00S,2,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,152
+0021700691,210,PT06M45.00S,2,1610612749,MIL,203503,Snell,T. Snell,0,0,0,,0,,,0,h,SUB: Middleton FOR Snell,Substitution,,0,0,153
+0021700691,211,PT06M45.00S,2,1610612756,PHX,201162,Dudley,J. Dudley,0,0,0,,0,,,0,v,SUB: Bender FOR Dudley,Substitution,,0,0,154
+0021700691,244,PT06M35.00S,2,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h, ,Jump Ball,,0,0,155
+0021700691,214,PT06M23.00S,2,1610612756,PHX,202328,Monroe,G. Monroe,3,4,1,Made,1,38,39,77,v,Monroe 1' Driving Layup (8 PTS) (Canaan 2 AST),Made Shot,Driving Layup Shot,1,2,156
+0021700691,216,PT06M08.00S,2,1610612749,MIL,1627763,Brogdon,M. Brogdon,-225,31,0,Made,1,41,39,80,h,Brogdon 3PT Jump Shot (10 PTS) (Bledsoe 2 AST),Made Shot,Jump Shot,1,3,157
+0021700691,218,PT05M52.00S,2,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker Bad Pass Turnover (P2.T11),Turnover,Bad Pass,1,0,158
+0021700691,218,PT05M52.00S,2,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton STEAL (1 STL),,,1,0,159
+0021700691,220,PT05M49.00S,2,1610612749,MIL,203114,Middleton,K. Middleton,-2,10,1,Made,1,43,39,82,h,Middleton 1' Running Layup (15 PTS),Made Shot,Running Layup Shot,1,2,160
+0021700691,221,PT05M46.00S,2,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon P.FOUL (P2.T3) (D.Richardson),Foul,Personal,1,0,161
+0021700691,223,PT05M46.00S,2,1610612749,MIL,1627850,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,SUB: Henson FOR Plumlee,Substitution,,0,0,162
+0021700691,225,PT05M39.00S,2,1610612756,PHX,203477,Canaan,I. Canaan,5,20,2,Missed,1,,,0,v,MISS Canaan 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,163
+0021700691,226,PT05M35.00S,2,1610612756,PHX,203477,Canaan,I. Canaan,0,0,0,,0,,,0,v,Canaan REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,164
+0021700691,227,PT05M34.00S,2,1610612756,PHX,203477,Canaan,I. Canaan,5,-14,1,Missed,1,,,0,v,MISS Canaan 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,165
+0021700691,228,PT05M34.00S,2,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,166
+0021700691,229,PT05M24.00S,2,1610612749,MIL,203089,Henson,J. Henson,54,11,6,Missed,1,,,0,h,MISS Henson 6' Hook Shot,Missed Shot,Hook Shot,1,2,167
+0021700691,230,PT05M23.00S,2,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Rebound,Rebound,Unknown,0,0,168
+0021700691,231,PT05M23.00S,2,1610612756,PHX,203477,Canaan,I. Canaan,0,0,0,,0,,,0,v,SUB: Ulis FOR Canaan,Substitution,,0,0,169
+0021700691,233,PT05M10.00S,2,1610612749,MIL,1627763,Brogdon,M. Brogdon,-3,15,2,Made,1,45,39,84,h,Brogdon 2' Driving Floating Jump Shot (12 PTS),Made Shot,Driving Floating Jump Shot,1,2,170
+0021700691,234,PT04M52.00S,2,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker Bad Pass Turnover (P3.T12),Turnover,Bad Pass,1,0,171
+0021700691,234,PT04M52.00S,2,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton STEAL (2 STL),,,1,0,172
+0021700691,236,PT04M48.00S,2,1610612749,MIL,203114,Middleton,K. Middleton,6,22,2,Missed,1,,,0,h,MISS Middleton 2' Running Layup,Missed Shot,Running Layup Shot,1,2,173
+0021700691,237,PT04M45.00S,2,1610612756,PHX,1627733,Bender,D. Bender,0,0,0,,0,,,0,v,Bender REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,174
+0021700691,238,PT04M31.00S,2,1610612756,PHX,202328,Monroe,G. Monroe,-16,13,2,Made,1,45,41,86,v,Monroe 2' Driving Hook Shot (10 PTS),Made Shot,Driving Hook Shot,1,2,175
+0021700691,239,PT04M15.00S,2,1610612749,MIL,1628425,Brown,S. Brown,215,131,25,Missed,1,,,0,h,MISS Brown 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,176
+0021700691,240,PT04M12.00S,2,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,177
+0021700691,241,PT04M07.00S,2,1610612756,PHX,202328,Monroe,G. Monroe,5,5,1,Made,1,45,43,88,v,Monroe 1' Layup (12 PTS) (Bender 1 AST),Made Shot,Layup Shot,1,2,178
+0021700691,243,PT04M07.00S,2,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,179
+0021700691,247,PT03M54.00S,2,1610612756,PHX,1627755,Ulis,T. Ulis,0,0,0,,0,,,0,v,Ulis S.FOUL (P1.PN) (Z.Zarba),Foul,Shooting,1,0,180
+0021700691,249,PT03M54.00S,2,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,MISS Bledsoe Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,181
+0021700691,250,PT03M54.00S,2,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Rebound,Rebound,Normal Rebound,0,0,182
+0021700691,251,PT03M54.00S,2,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,46,43,89,h,Bledsoe Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,0,0,183
+0021700691,252,PT03M41.00S,2,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon S.FOUL (P3.T4) (Z.Zarba),Foul,Shooting,1,0,184
+0021700691,270,PT03M41.00S,2,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,46,45,91,v,Booker Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,0,0,185
+0021700691,271,PT03M41.00S,2,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,46,44,90,v,Booker Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,0,0,186
+0021700691,254,PT03M41.00S,2,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,SUB: Snell FOR Brogdon,Substitution,,0,0,187
+0021700691,256,PT03M28.00S,2,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Suns T.Foul (Def. 3 Sec Booker ) (D.Richardson),Foul,Defense 3 Second,1,0,188
+0021700691,257,PT03M28.00S,2,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,47,45,92,h,Middleton Free Throw Technical (16 PTS),Free Throw,Free Throw Technical,0,0,189
+0021700691,258,PT03M26.00S,2,1610612756,PHX,1627755,Ulis,T. Ulis,0,0,0,,0,,,0,v,Ulis S.FOUL (P2.PN) (Z.Zarba),Foul,Shooting,1,0,190
+0021700691,260,PT03M26.00S,2,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,48,45,93,h,Bledsoe Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,0,0,191
+0021700691,261,PT03M26.00S,2,1610612756,PHX,1627755,Ulis,T. Ulis,0,0,0,,0,,,0,v,SUB: Canaan FOR Ulis,Substitution,,0,0,192
+0021700691,263,PT03M26.00S,2,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,MISS Bledsoe Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,193
+0021700691,264,PT03M23.00S,2,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,194
+0021700691,265,PT03M04.00S,2,1610612749,MIL,203089,Henson,J. Henson,-6,26,3,Missed,1,,,0,h,MISS Henson 3' Layup,Missed Shot,Layup Shot,1,2,195
+0021700691,266,PT03M01.00S,2,1610612756,PHX,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,196
+0021700691,267,PT02M59.00S,2,1610612749,MIL,203503,Snell,T. Snell,0,0,0,,0,,,0,h,Snell P.FOUL (P1.PN) (Z.Zarba),Foul,Personal,1,0,197
+0021700691,269,PT02M59.00S,2,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,198
+0021700691,272,PT02M59.00S,2,1610612749,MIL,203503,Snell,T. Snell,0,0,0,,0,,,0,h,SUB: Terry FOR Snell,Substitution,,0,0,199
+0021700691,274,PT02M59.00S,2,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,48,46,94,v,Booker Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,0,0,200
+0021700691,275,PT02M59.00S,2,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,48,47,95,v,Booker Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,0,0,201
+0021700691,276,PT02M45.00S,2,1610612749,MIL,203114,Middleton,K. Middleton,120,110,16,Missed,1,,,0,h,MISS Middleton 16' Jump Shot,Missed Shot,Jump Shot,1,2,202
+0021700691,277,PT02M42.00S,2,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,203
+0021700691,278,PT02M30.00S,2,1610612756,PHX,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe Bad Pass Turnover (P2.T13),Turnover,Bad Pass,1,0,204
+0021700691,278,PT02M30.00S,2,1610612749,MIL,203089,Henson,J. Henson,0,0,0,,0,,,0,h,Henson STEAL (2 STL),,,1,0,205
+0021700691,280,PT02M24.00S,2,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,Bledsoe Bad Pass Turnover (P3.T6),Turnover,Bad Pass,1,0,206
+0021700691,280,PT02M24.00S,2,1610612756,PHX,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe STEAL (2 STL),,,1,0,207
+0021700691,282,PT02M19.00S,2,1610612749,MIL,1891,Terry,J. Terry,0,0,0,,0,,,0,h,Terry P.FOUL (P1.PN) (D.Richardson),Foul,Personal,1,0,208
+0021700691,284,PT02M19.00S,2,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,48,48,96,v,Booker Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,0,0,209
+0021700691,285,PT02M19.00S,2,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,48,49,97,v,Booker Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,0,0,210
+0021700691,286,PT02M04.00S,2,1610612749,MIL,202339,Bledsoe,E. Bledsoe,33,25,4,Missed,1,,,0,h,MISS Bledsoe 4' Jump Shot,Missed Shot,Jump Shot,1,2,211
+0021700691,287,PT02M04.00S,2,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,Bledsoe REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,212
+0021700691,288,PT01M58.00S,2,1610612749,MIL,1628425,Brown,S. Brown,-3,9,1,Made,1,50,49,99,h,Brown 1' Driving Layup (4 PTS) (Bledsoe 3 AST),Made Shot,Driving Layup Shot,1,2,213
+0021700691,290,PT01M32.00S,2,1610612756,PHX,1627733,Bender,D. Bender,-3,15,2,Made,1,50,51,101,v,Bender 2' Driving Layup (5 PTS) (Canaan 3 AST),Made Shot,Driving Layup Shot,1,2,214
+0021700691,292,PT01M09.00S,2,1610612756,PHX,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe S.FOUL (P3.PN) (D.Richardson),Foul,Shooting,1,0,215
+0021700691,294,PT01M09.00S,2,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,MISS Bledsoe Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,216
+0021700691,295,PT01M09.00S,2,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Rebound,Rebound,Normal Rebound,0,0,217
+0021700691,296,PT01M09.00S,2,1610612756,PHX,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,SUB: Len FOR Monroe,Substitution,,0,0,218
+0021700691,298,PT01M09.00S,2,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,51,51,102,h,Bledsoe Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,219
+0021700691,299,PT01M01.00S,2,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,Bledsoe Violation:Kicked Ball (Z.Zarba),Violation,Kicked Ball,0,0,220
+0021700691,300,PT00M55.70S,2,1610612756,PHX,203933,Warren,T. Warren,11,15,2,Missed,1,,,0,v,MISS Warren 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,221
+0021700691,301,PT00M53.40S,2,1610612749,MIL,203089,Henson,J. Henson,0,0,0,,0,,,0,h,Henson REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,222
+0021700691,302,PT00M44.60S,2,1610612749,MIL,203089,Henson,J. Henson,0,0,0,,0,,,0,h,Henson Traveling Turnover (P1.T7),Turnover,Traveling,1,0,223
+0021700691,303,PT00M32.50S,2,1610612756,PHX,1626164,Booker,D. Booker,73,123,14,Missed,1,,,0,v,MISS Booker 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,224
+0021700691,304,PT00M30.20S,2,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,Bledsoe REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,225
+0021700691,305,PT00M18.50S,2,1610612749,MIL,202339,Bledsoe,E. Bledsoe,-6,9,1,Made,1,53,51,104,h,Bledsoe 1' Driving Layup (10 PTS),Made Shot,Driving Layup Shot,1,2,226
+0021700691,306,PT00M02.80S,2,1610612756,PHX,203477,Canaan,I. Canaan,6,-9,1,Missed,1,,,0,v,MISS Canaan 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,227
+0021700691,307,PT00M01.30S,2,1610612756,PHX,203458,Len,A. Len,0,0,0,,0,,,0,v,Len REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,228
+0021700691,310,PT00M01.30S,2,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,Brown P.FOUL (P1.PN) (D.Richardson),Foul,Personal,1,0,229
+0021700691,312,PT00M01.30S,2,1610612756,PHX,203458,Len,A. Len,0,0,0,,0,53,52,105,v,Len Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,230
+0021700691,313,PT00M01.30S,2,1610612756,PHX,203458,Len,A. Len,0,0,0,,0,53,53,106,v,Len Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,231
+0021700691,315,PT00M00.00S,2,1610612749,MIL,203089,Henson,J. Henson,0,0,0,,0,,,0,,"Double Technical - Henson, Warren (Z.Zarba)",Foul,Double Technical,0,0,232
+0021700691,314,PT00M00.00S,2,0,,0,,,0,0,0,,0,53,53,106,,End of 2nd Period (9:08 PM EST),period,end,1,0,233
+0021700691,323,PT12M00.00S,3,0,,0,,,0,0,0,,0,53,53,106,,Start of 3rd Period (9:23 PM EST),period,start,0,0,234
+0021700691,324,PT11M47.00S,3,1610612756,PHX,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe Lost Ball Turnover (P3.T14),Turnover,Lost Ball,1,0,235
+0021700691,324,PT11M47.00S,3,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,Bledsoe STEAL (2 STL),,,1,0,236
+0021700691,326,PT11M46.00S,3,1610612749,MIL,202339,Bledsoe,E. Bledsoe,4,2,0,Made,1,55,53,108,h,Bledsoe Running Reverse Layup (12 PTS),Made Shot,Running Reverse Layup Shot,1,2,237
+0021700691,327,PT11M46.00S,3,1610612756,PHX,1627733,Bender,D. Bender,0,0,0,,0,,,0,v,Bender S.FOUL (P1.T1) (N.Buchert),Foul,Shooting,1,0,238
+0021700691,329,PT11M46.00S,3,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,56,53,109,h,Bledsoe Free Throw 1 of 1 (13 PTS),Free Throw,Free Throw 1 of 1,0,0,239
+0021700691,330,PT11M25.00S,3,1610612756,PHX,203933,Warren,T. Warren,-232,6,0,Missed,1,,,0,v,MISS Warren 3PT Jump Shot,Missed Shot,Jump Shot,1,3,240
+0021700691,331,PT11M21.00S,3,1610612749,MIL,203089,Henson,J. Henson,0,0,0,,0,,,0,h,Henson REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,241
+0021700691,333,PT11M07.00S,3,1610612749,MIL,203114,Middleton,K. Middleton,-14,41,4,Made,1,58,53,111,h,Middleton 4' Floating Jump Shot (18 PTS) (Bledsoe 4 AST),Made Shot,Floating Jump shot,1,2,242
+0021700691,335,PT10M48.00S,3,1610612756,PHX,203933,Warren,T. Warren,0,16,2,Made,1,58,55,113,v,Warren 2' Layup (10 PTS) (Monroe 3 AST),Made Shot,Layup Shot,1,2,243
+0021700691,337,PT10M48.00S,3,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,Brown S.FOUL (P2.T1) (N.Buchert),Foul,Shooting,1,0,244
+0021700691,339,PT10M48.00S,3,1610612756,PHX,203933,Warren,T. Warren,0,0,0,,0,58,56,114,v,Warren Free Throw 1 of 1 (11 PTS),Free Throw,Free Throw 1 of 1,0,0,245
+0021700691,340,PT10M32.00S,3,1610612749,MIL,203089,Henson,J. Henson,3,10,1,Made,1,60,56,116,h,Henson 1' Cutting Dunk Shot (10 PTS) (Bledsoe 5 AST),Made Shot,Cutting Dunk Shot,1,2,246
+0021700691,342,PT10M12.00S,3,1610612756,PHX,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe Bad Pass Turnover (P4.T15),Turnover,Bad Pass,1,0,247
+0021700691,342,PT10M12.00S,3,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,Bledsoe STEAL (3 STL),,,1,0,248
+0021700691,344,PT10M05.00S,3,1610612749,MIL,202339,Bledsoe,E. Bledsoe,-171,196,26,Missed,1,,,0,h,MISS Bledsoe 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,249
+0021700691,345,PT10M03.00S,3,1610612756,PHX,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,250
+0021700691,346,PT09M48.00S,3,1610612756,PHX,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe Lost Ball Turnover (P5.T16),Turnover,Lost Ball,1,0,251
+0021700691,346,PT09M48.00S,3,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,Bledsoe STEAL (4 STL),,,1,0,252
+0021700691,348,PT09M48.00S,3,1610612756,PHX,1627755,Ulis,T. Ulis,0,0,0,,0,,,0,v,Ulis P.FOUL (P3.T2) (Z.Zarba),Foul,Personal,1,0,253
+0021700691,350,PT09M34.00S,3,1610612749,MIL,203089,Henson,J. Henson,0,11,1,Missed,1,,,0,h,MISS Henson 1' Hook Shot,Missed Shot,Hook Shot,1,2,254
+0021700691,351,PT09M31.00S,3,1610612756,PHX,1627733,Bender,D. Bender,0,0,0,,0,,,0,v,Bender REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,255
+0021700691,352,PT09M15.00S,3,1610612756,PHX,1627733,Bender,D. Bender,0,0,0,,0,,,0,v,Bender Out of Bounds - Bad Pass Turnover Turnover (P2.T17),Turnover,Out of Bounds - Bad Pass Turnover,1,0,256
+0021700691,353,PT08M52.00S,3,1610612749,MIL,202339,Bledsoe,E. Bledsoe,-230,8,0,Missed,1,,,0,h,MISS Bledsoe 3PT Jump Shot,Missed Shot,Jump Shot,1,3,257
+0021700691,354,PT08M50.00S,3,1610612756,PHX,1627733,Bender,D. Bender,0,0,0,,0,,,0,v,Bender REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,258
+0021700691,355,PT08M39.00S,3,1610612756,PHX,203933,Warren,T. Warren,-29,9,3,Missed,1,,,0,v,MISS Warren 3' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,259
+0021700691,356,PT08M37.00S,3,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,260
+0021700691,357,PT08M29.00S,3,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon Double Dribble Turnover (P2.T8),Turnover,Double Dribble,1,0,261
+0021700691,358,PT08M29.00S,3,1610612756,PHX,203933,Warren,T. Warren,0,0,0,,0,,,0,v,SUB: Jackson FOR Warren,Substitution,,0,0,262
+0021700691,360,PT08M13.00S,3,1610612756,PHX,1626164,Booker,D. Booker,94,73,12,Missed,1,,,0,v,MISS Booker 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,263
+0021700691,361,PT08M11.00S,3,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,264
+0021700691,362,PT08M10.00S,3,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,Brown Bad Pass Turnover (P1.T9),Turnover,Bad Pass,1,0,265
+0021700691,362,PT08M10.00S,3,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker STEAL (1 STL),,,1,0,266
+0021700691,364,PT08M06.00S,3,1610612756,PHX,202328,Monroe,G. Monroe,-5,3,1,Made,1,60,58,118,v,Monroe 1' Reverse Layup (14 PTS) (Booker 3 AST),Made Shot,Reverse Layup Shot,1,2,267
+0021700691,366,PT07M49.00S,3,1610612756,PHX,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,v,Jackson P.FOUL (P3.T3) (D.Richardson),Foul,Personal,1,0,268
+0021700691,368,PT07M44.00S,3,1610612749,MIL,1627763,Brogdon,M. Brogdon,-208,154,26,Made,1,63,58,121,h,Brogdon 26' 3PT Jump Shot (15 PTS) (Bledsoe 6 AST),Made Shot,Jump Shot,1,3,269
+0021700691,370,PT07M30.00S,3,1610612756,PHX,1626164,Booker,D. Booker,-5,26,3,Missed,1,,,0,v,MISS Booker 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,270
+0021700691,370,PT07M30.00S,3,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon BLOCK (1 BLK),,,1,2,271
+0021700691,372,PT07M30.00S,3,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Rebound,Rebound,Unknown,0,0,272
+0021700691,373,PT07M27.00S,3,1610612756,PHX,202328,Monroe,G. Monroe,11,66,7,Missed,1,,,0,v,MISS Monroe 7' Hook Shot,Missed Shot,Hook Shot,1,2,273
+0021700691,374,PT07M24.00S,3,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,Bledsoe REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,274
+0021700691,376,PT07M05.00S,3,1610612749,MIL,1627763,Brogdon,M. Brogdon,5,4,1,Made,1,65,58,123,h,Brogdon 1' Driving Layup (17 PTS),Made Shot,Driving Layup Shot,1,2,275
+0021700691,377,PT06M44.00S,3,1610612756,PHX,1626164,Booker,D. Booker,232,46,24,Missed,1,,,0,v,MISS Booker 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,276
+0021700691,378,PT06M40.00S,3,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,277
+0021700691,379,PT06M38.00S,3,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,Bledsoe Bad Pass Turnover (P4.T10),Turnover,Bad Pass,1,0,278
+0021700691,379,PT06M38.00S,3,1610612756,PHX,1627755,Ulis,T. Ulis,0,0,0,,0,,,0,v,Ulis STEAL (1 STL),,,1,0,279
+0021700691,381,PT06M33.00S,3,1610612756,PHX,1628367,Jackson,J. Jackson,-2,5,1,Made,1,65,60,125,v,Jackson 1' Running Layup (4 PTS) (Ulis 2 AST),Made Shot,Running Layup Shot,1,2,280
+0021700691,383,PT06M30.00S,3,1610612756,PHX,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,v,Jackson T.FOUL (P3.T3) (N.Buchert),Foul,Technical,1,0,281
+0021700691,384,PT06M30.00S,3,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,MISS Middleton Free Throw Technical,Free Throw,Free Throw Technical,0,0,282
+0021700691,385,PT06M30.00S,3,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Rebound,Rebound,Normal Rebound,0,0,283
+0021700691,386,PT06M30.00S,3,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,284
+0021700691,387,PT06M30.00S,3,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,SUB: Snell FOR Brown,Substitution,,0,0,285
+0021700691,389,PT06M13.00S,3,1610612749,MIL,1627763,Brogdon,M. Brogdon,-5,-1,1,Made,1,67,60,127,h,Brogdon 1' Driving Layup (19 PTS),Made Shot,Driving Layup Shot,1,2,286
+0021700691,390,PT05M51.00S,3,1610612749,MIL,203089,Henson,J. Henson,0,0,0,,0,,,0,h,Henson S.FOUL (P1.T2) (Z.Zarba),Foul,Shooting,1,0,287
+0021700691,392,PT05M51.00S,3,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,67,61,128,v,Booker Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,0,0,288
+0021700691,393,PT05M51.00S,3,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,67,62,129,v,Booker Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,0,0,289
+0021700691,394,PT05M27.00S,3,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon Out of Bounds - Bad Pass Turnover Turnover (P3.T11),Turnover,Out of Bounds - Bad Pass Turnover,1,0,290
+0021700691,395,PT05M27.00S,3,1610612756,PHX,1627755,Ulis,T. Ulis,0,0,0,,0,,,0,v,SUB: Canaan FOR Ulis,Substitution,,0,0,291
+0021700691,397,PT05M08.00S,3,1610612749,MIL,203089,Henson,J. Henson,0,0,0,,0,,,0,h,Henson P.FOUL (P2.T3) (Z.Zarba),Foul,Personal,1,0,292
+0021700691,399,PT05M01.00S,3,1610612756,PHX,1628367,Jackson,J. Jackson,204,164,26,Missed,1,,,0,v,MISS Jackson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,293
+0021700691,400,PT04M58.00S,3,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,294
+0021700691,401,PT04M40.00S,3,1610612749,MIL,203114,Middleton,K. Middleton,120,227,26,Missed,1,,,0,h,MISS Middleton 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,295
+0021700691,402,PT04M37.00S,3,1610612756,PHX,203477,Canaan,I. Canaan,0,0,0,,0,,,0,v,Canaan REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,296
+0021700691,403,PT04M28.00S,3,1610612749,MIL,203503,Snell,T. Snell,0,0,0,,0,,,0,h,Snell S.FOUL (P2.T4) (D.Richardson),Foul,Shooting,1,0,297
+0021700691,405,PT04M28.00S,3,1610612756,PHX,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,v,MISS Jackson Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,298
+0021700691,406,PT04M28.00S,3,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Rebound,Rebound,Normal Rebound,0,0,299
+0021700691,407,PT04M28.00S,3,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,SUB: Dellavedova FOR Bledsoe,Substitution,,0,0,300
+0021700691,409,PT04M28.00S,3,1610612756,PHX,1628367,Jackson,J. Jackson,0,0,0,,0,67,63,130,v,Jackson Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,0,0,301
+0021700691,410,PT04M05.00S,3,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon Bad Pass Turnover (P4.T12),Turnover,Bad Pass,1,0,302
+0021700691,410,PT04M05.00S,3,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker STEAL (2 STL),,,1,0,303
+0021700691,412,PT04M01.00S,3,1610612756,PHX,1626164,Booker,D. Booker,148,208,26,Missed,1,,,0,v,MISS Booker 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,304
+0021700691,413,PT04M01.00S,3,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Rebound,Rebound,Unknown,1,0,305
+0021700691,414,PT04M01.00S,3,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton L.B.FOUL (P1.PN) (Z.Zarba),Foul,Loose Ball,1,0,306
+0021700691,416,PT04M01.00S,3,1610612756,PHX,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,v,MISS Jackson Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,307
+0021700691,417,PT04M01.00S,3,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Rebound,Rebound,Normal Rebound,0,0,308
+0021700691,418,PT04M01.00S,3,1610612756,PHX,1628367,Jackson,J. Jackson,0,0,0,,0,67,64,131,v,Jackson Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,0,0,309
+0021700691,419,PT03M54.00S,3,1610612756,PHX,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,v,Jackson S.FOUL (P4.T4) (Z.Zarba),Foul,Shooting,1,0,310
+0021700691,421,PT03M54.00S,3,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,68,64,132,h,Middleton Free Throw 1 of 2 (19 PTS),Free Throw,Free Throw 1 of 2,0,0,311
+0021700691,422,PT03M54.00S,3,1610612756,PHX,1628367,Jackson,J. Jackson,0,0,0,,0,,,0,v,SUB: Daniels FOR Jackson,Substitution,,0,0,312
+0021700691,424,PT03M54.00S,3,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,69,64,133,h,Middleton Free Throw 2 of 2 (20 PTS),Free Throw,Free Throw 2 of 2,0,0,313
+0021700691,425,PT03M36.00S,3,1610612756,PHX,1626164,Booker,D. Booker,229,46,0,Missed,1,,,0,v,MISS Booker 3PT Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,3,314
+0021700691,426,PT03M33.00S,3,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,315
+0021700691,427,PT03M27.00S,3,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton Bad Pass Turnover (P1.T13),Turnover,Bad Pass,1,0,316
+0021700691,427,PT03M27.00S,3,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker STEAL (3 STL),,,1,0,317
+0021700691,429,PT03M23.00S,3,1610612756,PHX,1627733,Bender,D. Bender,3,15,2,Made,1,69,66,135,v,Bender 2' Running Dunk (7 PTS) (Booker 4 AST),Made Shot,Running Dunk Shot,1,2,318
+0021700691,431,PT03M09.00S,3,1610612749,MIL,203114,Middleton,K. Middleton,231,33,0,Made,1,72,66,138,h,Middleton 3PT Jump Shot (23 PTS) (Dellavedova 4 AST),Made Shot,Jump Shot,1,3,319
+0021700691,433,PT02M56.00S,3,1610612756,PHX,203584,Daniels,T. Daniels,157,247,29,Made,1,72,69,141,v,Daniels 29' 3PT Jump Shot (3 PTS) (Monroe 4 AST),Made Shot,Jump Shot,1,3,320
+0021700691,435,PT02M37.00S,3,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker P.FOUL (P2.PN) (Z.Zarba),Foul,Personal,1,0,321
+0021700691,437,PT02M37.00S,3,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,322
+0021700691,438,PT02M37.00S,3,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,SUB: Terry FOR Brogdon,Substitution,,0,0,323
+0021700691,439,PT02M37.00S,3,1610612749,MIL,203089,Henson,J. Henson,0,0,0,,0,,,0,h,SUB: Maker FOR Henson,Substitution,,0,0,324
+0021700691,440,PT02M37.00S,3,1610612756,PHX,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,SUB: Dudley FOR Monroe,Substitution,,0,0,325
+0021700691,441,PT02M37.00S,3,1610612756,PHX,1627733,Bender,D. Bender,0,0,0,,0,,,0,v,SUB: Len FOR Bender,Substitution,,0,0,326
+0021700691,446,PT02M37.00S,3,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,73,69,142,h,Middleton Free Throw 1 of 2 (24 PTS),Free Throw,Free Throw 1 of 2,0,0,327
+0021700691,447,PT02M37.00S,3,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,74,69,143,h,Middleton Free Throw 2 of 2 (25 PTS),Free Throw,Free Throw 2 of 2,0,0,328
+0021700691,448,PT02M18.00S,3,1610612756,PHX,203584,Daniels,T. Daniels,-141,225,27,Made,1,74,72,146,v,Daniels 27' 3PT Jump Shot (6 PTS) (Dudley 6 AST),Made Shot,Jump Shot,1,3,329
+0021700691,450,PT01M58.00S,3,1610612749,MIL,203503,Snell,T. Snell,-226,42,0,Missed,1,,,0,h,MISS Snell 3PT Jump Shot,Missed Shot,Jump Shot,1,3,330
+0021700691,451,PT01M55.00S,3,1610612749,MIL,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,331
+0021700691,452,PT01M55.00S,3,1610612749,MIL,1627748,Maker,T. Maker,-33,20,4,Made,1,76,72,148,h,Maker 4' Hook Shot (3 PTS),Made Shot,Hook Shot,1,2,332
+0021700691,453,PT01M35.00S,3,1610612756,PHX,203458,Len,A. Len,-4,9,1,Made,1,76,74,150,v,Len 1' Dunk (6 PTS) (Dudley 7 AST),Made Shot,Dunk Shot,1,2,333
+0021700691,455,PT01M17.00S,3,1610612749,MIL,203503,Snell,T. Snell,-168,232,29,Missed,1,,,0,h,MISS Snell 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,334
+0021700691,456,PT01M14.00S,3,1610612756,PHX,201162,Dudley,J. Dudley,0,0,0,,0,,,0,v,Dudley REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,335
+0021700691,457,PT01M07.00S,3,1610612756,PHX,203477,Canaan,I. Canaan,154,242,29,Missed,1,,,0,v,MISS Canaan 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,336
+0021700691,458,PT01M03.00S,3,1610612749,MIL,1891,Terry,J. Terry,0,0,0,,0,,,0,h,Terry REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,337
+0021700691,459,PT00M55.30S,3,1610612749,MIL,1627748,Maker,T. Maker,138,25,14,Missed,1,,,0,h,MISS Maker 14' Jump Shot,Missed Shot,Jump Shot,1,2,338
+0021700691,460,PT00M53.20S,3,1610612756,PHX,201162,Dudley,J. Dudley,0,0,0,,0,,,0,v,Dudley REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,339
+0021700691,461,PT00M36.70S,3,1610612756,PHX,1626164,Booker,D. Booker,0,16,2,Missed,1,,,0,v,MISS Booker 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,340
+0021700691,462,PT00M35.30S,3,1610612756,PHX,203458,Len,A. Len,0,0,0,,0,,,0,v,Len REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,341
+0021700691,463,PT00M35.30S,3,1610612756,PHX,203458,Len,A. Len,-8,8,1,Made,1,76,76,152,v,Len 1' Putback Layup (8 PTS),Made Shot,Putback Layup Shot,1,2,342
+0021700691,464,PT00M35.30S,3,1610612749,MIL,1627748,Maker,T. Maker,0,0,0,,0,,,0,h,Maker S.FOUL (P3.PN) (N.Buchert),Foul,Shooting,1,0,343
+0021700691,466,PT00M35.30S,3,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,SUB: Warren FOR Booker,Substitution,,0,0,344
+0021700691,468,PT00M35.30S,3,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,SUB: Brown FOR Middleton,Substitution,,0,0,345
+0021700691,470,PT00M35.30S,3,1610612756,PHX,203458,Len,A. Len,0,0,0,,0,76,77,153,v,Len Free Throw 1 of 1 (9 PTS),Free Throw,Free Throw 1 of 1,0,0,346
+0021700691,471,PT00M22.50S,3,1610612749,MIL,203521,Dellavedova,M. Dellavedova,16,0,2,Missed,1,,,0,h,MISS Dellavedova 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,347
+0021700691,472,PT00M20.20S,3,1610612756,PHX,203584,Daniels,T. Daniels,0,0,0,,0,,,0,v,Daniels REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,348
+0021700691,473,PT00M18.10S,3,1610612756,PHX,203933,Warren,T. Warren,-15,9,2,Made,1,76,79,155,v,Warren 2' Running Dunk (13 PTS) (Daniels 1 AST),Made Shot,Running Dunk Shot,1,2,349
+0021700691,475,PT00M01.70S,3,1610612749,MIL,203521,Dellavedova,M. Dellavedova,-111,259,28,Missed,1,,,0,h,MISS Dellavedova 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,350
+0021700691,476,PT00M01.70S,3,1610612756,PHX,201162,Dudley,J. Dudley,0,0,0,,0,,,0,v,Dudley REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,351
+0021700691,477,PT00M00.00S,3,0,,0,,,0,0,0,,0,76,79,155,,End of 3rd Period (9:51 PM EST),period,end,1,0,352
+0021700691,480,PT12M00.00S,4,0,,0,,,0,0,0,,0,76,79,155,,Start of 4th Period (9:54 PM EST),period,start,0,0,353
+0021700691,481,PT11M35.00S,4,1610612749,MIL,1891,Terry,J. Terry,-18,269,27,Missed,1,,,0,h,MISS Terry 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,354
+0021700691,482,PT11M35.00S,4,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Rebound,Rebound,Unknown,0,0,355
+0021700691,525,PT11M35.00S,4,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Turnover: Shot Clock (T#14),Turnover,Shot Clock Turnover,0,0,356
+0021700691,483,PT11M24.00S,4,1610612756,PHX,203933,Warren,T. Warren,-8,16,2,Made,1,76,81,157,v,Warren 2' Cutting Layup Shot (15 PTS) (Dudley 8 AST),Made Shot,Cutting Layup Shot,1,2,357
+0021700691,485,PT11M04.00S,4,1610612749,MIL,203503,Snell,T. Snell,-1,6,1,Made,1,78,81,159,h,Snell 1' Driving Finger Roll Layup (2 PTS) (Dellavedova 5 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,358
+0021700691,487,PT10M43.00S,4,1610612756,PHX,203933,Warren,T. Warren,43,47,6,Missed,1,,,0,v,MISS Warren 6' Jump Shot,Missed Shot,Jump Shot,1,2,359
+0021700691,488,PT10M40.00S,4,1610612749,MIL,1891,Terry,J. Terry,0,0,0,,0,,,0,h,Terry REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,360
+0021700691,489,PT10M34.00S,4,1610612749,MIL,1891,Terry,J. Terry,0,0,0,,0,,,0,h,Terry Bad Pass Turnover (P1.T15),Turnover,Bad Pass,1,0,361
+0021700691,489,PT10M34.00S,4,1610612756,PHX,201162,Dudley,J. Dudley,0,0,0,,0,,,0,v,Dudley STEAL (2 STL),,,1,0,362
+0021700691,491,PT10M26.00S,4,1610612756,PHX,203933,Warren,T. Warren,-4,-4,1,Made,1,78,83,161,v,Warren 1' Reverse Layup (17 PTS) (Dudley 9 AST),Made Shot,Reverse Layup Shot,1,2,363
+0021700691,493,PT10M12.00S,4,1610612756,PHX,203477,Canaan,I. Canaan,0,0,0,,0,,,0,v,Canaan P.FOUL (P2.T1) (Z.Zarba),Foul,Personal,1,0,364
+0021700691,495,PT10M12.00S,4,1610612749,MIL,203503,Snell,T. Snell,0,0,0,,0,,,0,h,SUB: Brogdon FOR Snell,Substitution,,0,0,365
+0021700691,497,PT10M01.00S,4,1610612749,MIL,1891,Terry,J. Terry,73,34,8,Missed,1,,,0,h,MISS Terry 8' Jump Shot,Missed Shot,Jump Shot,1,2,366
+0021700691,498,PT09M59.00S,4,1610612749,MIL,1891,Terry,J. Terry,0,0,0,,0,,,0,h,Terry REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,367
+0021700691,499,PT09M56.00S,4,1610612749,MIL,1627763,Brogdon,M. Brogdon,-158,209,26,Missed,1,,,0,h,MISS Brogdon 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,368
+0021700691,500,PT09M53.00S,4,1610612756,PHX,203584,Daniels,T. Daniels,0,0,0,,0,,,0,v,Daniels REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,369
+0021700691,501,PT09M47.00S,4,1610612756,PHX,203584,Daniels,T. Daniels,-223,134,26,Missed,1,,,0,v,MISS Daniels 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,370
+0021700691,502,PT09M45.00S,4,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,371
+0021700691,503,PT09M38.00S,4,1610612749,MIL,1627763,Brogdon,M. Brogdon,6,11,1,Made,1,80,83,163,h,Brogdon 1' Driving Layup (21 PTS),Made Shot,Driving Layup Shot,1,2,372
+0021700691,505,PT09M22.00S,4,1610612749,MIL,203521,Dellavedova,M. Dellavedova,0,0,0,,0,,,0,h,Dellavedova P.FOUL (P1.T1) (D.Richardson),Foul,Personal,1,0,373
+0021700691,507,PT09M22.00S,4,1610612749,MIL,1891,Terry,J. Terry,0,0,0,,0,,,0,h,SUB: Bledsoe FOR Terry,Substitution,,0,0,374
+0021700691,509,PT09M17.00S,4,1610612756,PHX,203933,Warren,T. Warren,-76,72,10,Missed,1,,,0,v,MISS Warren 10' Driving Layup,Missed Shot,Driving Layup Shot,1,2,375
+0021700691,510,PT09M17.00S,4,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Rebound,Rebound,Unknown,0,0,376
+0021700691,511,PT08M55.00S,4,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon Bad Pass Turnover (P5.T16),Turnover,Bad Pass,1,0,377
+0021700691,511,PT08M55.00S,4,1610612756,PHX,203477,Canaan,I. Canaan,0,0,0,,0,,,0,v,Canaan STEAL (1 STL),,,1,0,378
+0021700691,513,PT08M47.00S,4,1610612756,PHX,203477,Canaan,I. Canaan,7,24,3,Missed,1,,,0,v,MISS Canaan 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,379
+0021700691,513,PT08M47.00S,4,1610612749,MIL,1627850,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee BLOCK (1 BLK),,,1,2,380
+0021700691,514,PT08M43.00S,4,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,381
+0021700691,516,PT08M42.00S,4,1610612756,PHX,201162,Dudley,J. Dudley,0,0,0,,0,,,0,v,Dudley P.FOUL (P1.T2) (N.Buchert),Foul,Personal,1,0,382
+0021700691,518,PT08M35.00S,4,1610612756,PHX,203458,Len,A. Len,0,0,0,,0,,,0,v,Len P.FOUL (P2.T3) (D.Richardson),Foul,Personal,1,0,383
+0021700691,520,PT08M35.00S,4,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,SUB: Middleton FOR Brown,Substitution,,0,0,384
+0021700691,522,PT08M32.00S,4,1610612756,PHX,201162,Dudley,J. Dudley,0,0,0,,0,,,0,v,Dudley S.FOUL (P2.T4) (N.Buchert),Foul,Shooting,1,0,385
+0021700691,524,PT08M32.00S,4,1610612749,MIL,1627850,Plumlee,M. Plumlee,0,0,0,,0,81,83,164,h,Plumlee Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,386
+0021700691,526,PT08M32.00S,4,1610612749,MIL,1627850,Plumlee,M. Plumlee,0,0,0,,0,82,83,165,h,Plumlee Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,387
+0021700691,527,PT08M22.00S,4,1610612749,MIL,203521,Dellavedova,M. Dellavedova,0,0,0,,0,,,0,h,Dellavedova P.FOUL (P2.T2) (N.Buchert),Foul,Personal,1,0,388
+0021700691,529,PT08M15.00S,4,1610612756,PHX,203933,Warren,T. Warren,-52,147,16,Missed,1,,,0,v,MISS Warren 16' Jump Shot,Missed Shot,Jump Shot,1,2,389
+0021700691,530,PT08M12.00S,4,1610612749,MIL,1627850,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,Plumlee REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,390
+0021700691,531,PT07M58.00S,4,1610612749,MIL,202339,Bledsoe,E. Bledsoe,-35,76,8,Missed,1,,,0,h,MISS Bledsoe 8' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,391
+0021700691,532,PT07M55.00S,4,1610612756,PHX,203477,Canaan,I. Canaan,0,0,0,,0,,,0,v,Canaan REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,392
+0021700691,533,PT07M49.00S,4,1610612756,PHX,201162,Dudley,J. Dudley,0,0,0,,0,,,0,v,Dudley Bad Pass Turnover (P2.T18),Turnover,Bad Pass,1,0,393
+0021700691,533,PT07M49.00S,4,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon STEAL (2 STL),,,1,0,394
+0021700691,535,PT07M45.00S,4,1610612756,PHX,203584,Daniels,T. Daniels,0,0,0,,0,,,0,v,Daniels S.FOUL (P1.PN) (N.Buchert),Foul,Shooting,1,0,395
+0021700691,537,PT07M45.00S,4,1610612749,MIL,1627850,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,MISS Plumlee Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,396
+0021700691,538,PT07M45.00S,4,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Rebound,Rebound,Normal Rebound,0,0,397
+0021700691,541,PT07M45.00S,4,1610612749,MIL,1627850,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,MISS Plumlee Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,398
+0021700691,542,PT07M45.00S,4,1610612756,PHX,203458,Len,A. Len,0,0,0,,0,,,0,v,Len REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,399
+0021700691,539,PT07M45.00S,4,1610612756,PHX,203477,Canaan,I. Canaan,0,0,0,,0,,,0,v,SUB: Booker FOR Canaan,Substitution,,0,0,400
+0021700691,543,PT07M30.00S,4,1610612756,PHX,203933,Warren,T. Warren,-11,6,1,Missed,1,,,0,v,MISS Warren 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,401
+0021700691,544,PT07M29.00S,4,1610612756,PHX,203933,Warren,T. Warren,0,0,0,,0,,,0,v,Warren REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,402
+0021700691,551,PT07M28.00S,4,1610612756,PHX,203933,Warren,T. Warren,2,10,1,Missed,1,,,0,v,MISS Warren 1' Putback Layup,Missed Shot,Putback Layup Shot,1,2,403
+0021700691,552,PT07M27.00S,4,1610612749,MIL,203521,Dellavedova,M. Dellavedova,0,0,0,,0,,,0,h,Dellavedova REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,404
+0021700691,548,PT07M12.00S,4,1610612749,MIL,1627763,Brogdon,M. Brogdon,-133,231,27,Made,1,85,83,168,h,Brogdon 27' 3PT Jump Shot (24 PTS),Made Shot,Jump Shot,1,3,405
+0021700691,549,PT06M53.00S,4,1610612756,PHX,203933,Warren,T. Warren,0,0,0,,0,,,0,v,Warren Out of Bounds - Bad Pass Turnover Turnover (P2.T19),Turnover,Out of Bounds - Bad Pass Turnover,1,0,406
+0021700691,550,PT06M53.00S,4,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,407
+0021700691,553,PT06M53.00S,4,1610612749,MIL,1627850,Plumlee,M. Plumlee,0,0,0,,0,,,0,h,SUB: Henson FOR Plumlee,Substitution,,0,0,408
+0021700691,554,PT06M53.00S,4,1610612756,PHX,201162,Dudley,J. Dudley,0,0,0,,0,,,0,v,SUB: Bender FOR Dudley,Substitution,,0,0,409
+0021700691,555,PT06M53.00S,4,1610612756,PHX,203458,Len,A. Len,0,0,0,,0,,,0,v,SUB: Monroe FOR Len,Substitution,,0,0,410
+0021700691,559,PT06M39.00S,4,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker P.FOUL (P3.PN) (Z.Zarba),Foul,Personal,1,0,411
+0021700691,561,PT06M39.00S,4,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,86,83,169,h,Bledsoe Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,0,0,412
+0021700691,562,PT06M39.00S,4,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,MISS Bledsoe Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,413
+0021700691,563,PT06M36.00S,4,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,414
+0021700691,565,PT06M16.00S,4,1610612756,PHX,203584,Daniels,T. Daniels,0,0,0,,0,,,0,v,Daniels Bad Pass Turnover (P1.T20),Turnover,Bad Pass,1,0,415
+0021700691,565,PT06M16.00S,4,1610612749,MIL,203089,Henson,J. Henson,0,0,0,,0,,,0,h,Henson STEAL (3 STL),,,1,0,416
+0021700691,567,PT06M11.00S,4,1610612749,MIL,202339,Bledsoe,E. Bledsoe,4,8,1,Made,1,88,83,171,h,Bledsoe 1' Running Alley Oop Dunk Shot (16 PTS) (Middleton 2 AST),Made Shot,Running Alley Oop Dunk Shot,1,2,417
+0021700691,569,PT05M58.00S,4,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon P.FOUL (P4.T3) (N.Buchert),Foul,Personal,1,0,418
+0021700691,571,PT05M46.00S,4,1610612756,PHX,203584,Daniels,T. Daniels,-231,52,24,Missed,1,,,0,v,MISS Daniels 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,419
+0021700691,572,PT05M42.00S,4,1610612756,PHX,203933,Warren,T. Warren,0,0,0,,0,,,0,v,Warren REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,420
+0021700691,573,PT05M41.00S,4,1610612756,PHX,203933,Warren,T. Warren,-8,-6,1,Made,1,88,85,173,v,Warren 1' Putback Layup (19 PTS),Made Shot,Putback Layup Shot,1,2,421
+0021700691,574,PT05M33.00S,4,1610612756,PHX,203584,Daniels,T. Daniels,0,0,0,,0,,,0,v,Daniels P.FOUL (P2.PN) (N.Buchert),Foul,Personal,1,0,422
+0021700691,576,PT05M33.00S,4,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,89,85,174,h,Brogdon Free Throw 1 of 2 (25 PTS),Free Throw,Free Throw 1 of 2,0,0,423
+0021700691,577,PT05M33.00S,4,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,90,85,175,h,Brogdon Free Throw 2 of 2 (26 PTS),Free Throw,Free Throw 2 of 2,0,0,424
+0021700691,578,PT05M21.00S,4,1610612756,PHX,1626164,Booker,D. Booker,54,98,11,Missed,1,,,0,v,MISS Booker 11' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,425
+0021700691,579,PT05M18.00S,4,1610612749,MIL,203521,Dellavedova,M. Dellavedova,0,0,0,,0,,,0,h,Dellavedova REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,426
+0021700691,580,PT05M03.00S,4,1610612749,MIL,203114,Middleton,K. Middleton,57,175,18,Made,1,92,85,177,h,Middleton 18' Pullup Jump Shot (27 PTS) (Dellavedova 6 AST),Made Shot,Pullup Jump shot,1,2,427
+0021700691,582,PT05M03.00S,4,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,428
+0021700691,583,PT04M58.00S,4,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker Out of Bounds - Bad Pass Turnover Turnover (P4.T21),Turnover,Out of Bounds - Bad Pass Turnover,1,0,429
+0021700691,584,PT04M50.00S,4,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton Bad Pass Turnover (P2.T17),Turnover,Bad Pass,1,0,430
+0021700691,584,PT04M50.00S,4,1610612756,PHX,203933,Warren,T. Warren,0,0,0,,0,,,0,v,Warren STEAL (2 STL),,,1,0,431
+0021700691,586,PT04M43.00S,4,1610612756,PHX,203933,Warren,T. Warren,0,6,1,Made,1,92,87,179,v,Warren 1' Reverse Layup (21 PTS) (Booker 5 AST),Made Shot,Reverse Layup Shot,1,2,432
+0021700691,588,PT04M18.00S,4,1610612749,MIL,203114,Middleton,K. Middleton,-125,-16,13,Made,1,94,87,181,h,Middleton 13' Step Back Jump Shot (29 PTS),Made Shot,Step Back Jump shot,1,2,433
+0021700691,589,PT04M02.00S,4,1610612749,MIL,203089,Henson,J. Henson,0,0,0,,0,,,0,h,Henson P.FOUL (P3.T4) (D.Richardson),Foul,Personal,1,0,434
+0021700691,591,PT03M56.00S,4,1610612756,PHX,202328,Monroe,G. Monroe,9,17,2,Made,1,94,89,183,v,Monroe 2' Hook Shot (16 PTS),Made Shot,Hook Shot,1,2,435
+0021700691,593,PT03M32.00S,4,1610612749,MIL,1627763,Brogdon,M. Brogdon,3,2,0,Made,1,96,89,185,h,Brogdon Driving Layup (28 PTS),Made Shot,Driving Layup Shot,1,2,436
+0021700691,594,PT03M17.00S,4,1610612756,PHX,203584,Daniels,T. Daniels,230,13,0,Made,1,96,92,188,v,Daniels 3PT Jump Shot (9 PTS) (Booker 6 AST),Made Shot,Jump Shot,1,3,437
+0021700691,596,PT03M02.00S,4,1610612749,MIL,202339,Bledsoe,E. Bledsoe,4,5,1,Made,1,98,92,190,h,Bledsoe 1' Cutting Layup Shot (18 PTS) (Middleton 3 AST),Made Shot,Cutting Layup Shot,1,2,438
+0021700691,598,PT03M02.00S,4,1610612756,PHX,203584,Daniels,T. Daniels,0,0,0,,0,,,0,v,Daniels S.FOUL (P3.PN) (D.Richardson),Foul,Shooting,1,0,439
+0021700691,600,PT03M02.00S,4,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,440
+0021700691,601,PT03M02.00S,4,1610612756,PHX,1627733,Bender,D. Bender,0,0,0,,0,,,0,v,SUB: Canaan FOR Bender,Substitution,,0,0,441
+0021700691,603,PT03M02.00S,4,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,99,92,191,h,Bledsoe Free Throw 1 of 1 (19 PTS),Free Throw,Free Throw 1 of 1,0,0,442
+0021700691,604,PT02M46.00S,4,1610612756,PHX,203584,Daniels,T. Daniels,-100,247,27,Made,1,99,95,194,v,Daniels 27' 3PT Jump Shot (12 PTS) (Booker 7 AST),Made Shot,Jump Shot,1,3,443
+0021700691,606,PT02M27.00S,4,1610612749,MIL,1627763,Brogdon,M. Brogdon,13,139,14,Missed,1,,,0,h,MISS Brogdon 14' Driving Layup,Missed Shot,Driving Layup Shot,1,2,444
+0021700691,607,PT02M24.00S,4,1610612749,MIL,203089,Henson,J. Henson,0,0,0,,0,,,0,h,Henson REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,445
+0021700691,608,PT02M24.00S,4,1610612749,MIL,203089,Henson,J. Henson,0,-6,1,Missed,1,,,0,h,MISS Henson 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,446
+0021700691,609,PT02M24.00S,4,1610612756,PHX,203584,Daniels,T. Daniels,0,0,0,,0,,,0,v,Daniels REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,447
+0021700691,611,PT02M20.00S,4,1610612756,PHX,203933,Warren,T. Warren,-2,16,2,Made,1,99,97,196,v,Warren 2' Driving Layup (23 PTS) (Booker 8 AST),Made Shot,Driving Layup Shot,1,2,448
+0021700691,613,PT02M02.00S,4,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker P.FOUL (P4.PN) (N.Buchert),Foul,Personal,1,0,449
+0021700691,615,PT02M02.00S,4,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,100,97,197,h,Brogdon Free Throw 1 of 2 (29 PTS),Free Throw,Free Throw 1 of 2,0,0,450
+0021700691,616,PT02M02.00S,4,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,101,97,198,h,Brogdon Free Throw 2 of 2 (30 PTS),Free Throw,Free Throw 2 of 2,0,0,451
+0021700691,617,PT01M49.00S,4,1610612756,PHX,1626164,Booker,D. Booker,2,83,8,Missed,1,,,0,v,MISS Booker 8' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,452
+0021700691,618,PT01M49.00S,4,1610612756,PHX,202328,Monroe,G. Monroe,0,0,0,,0,,,0,v,Monroe REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,453
+0021700691,619,PT01M49.00S,4,1610612756,PHX,202328,Monroe,G. Monroe,-13,-6,1,Made,1,101,99,200,v,Monroe 1' Putback Layup (18 PTS),Made Shot,Putback Layup Shot,1,2,454
+0021700691,620,PT01M49.00S,4,1610612749,MIL,203521,Dellavedova,M. Dellavedova,0,0,0,,0,,,0,h,Dellavedova S.FOUL (P3.PN) (N.Buchert),Foul,Shooting,1,0,455
+0021700691,622,PT01M49.00S,4,1610612756,PHX,202328,Monroe,G. Monroe,0,0,0,,0,101,100,201,v,Monroe Free Throw 1 of 1 (19 PTS),Free Throw,Free Throw 1 of 1,1,0,456
+0021700691,623,PT01M27.00S,4,1610612749,MIL,203089,Henson,J. Henson,0,0,0,,0,,,0,h,Henson Bad Pass Turnover (P2.T18),Turnover,Bad Pass,1,0,457
+0021700691,623,PT01M27.00S,4,1610612756,PHX,203477,Canaan,I. Canaan,0,0,0,,0,,,0,v,Canaan STEAL (2 STL),,,1,0,458
+0021700691,625,PT01M22.00S,4,1610612756,PHX,203584,Daniels,T. Daniels,-26,267,27,Missed,1,,,0,v,MISS Daniels 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,459
+0021700691,626,PT01M18.00S,4,1610612756,PHX,203933,Warren,T. Warren,0,0,0,,0,,,0,v,Warren REBOUND (Off:3 Def:0),Rebound,Unknown,1,0,460
+0021700691,627,PT01M15.00S,4,1610612756,PHX,203477,Canaan,I. Canaan,-193,187,27,Missed,1,,,0,v,MISS Canaan 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,461
+0021700691,628,PT01M15.00S,4,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,462
+0021700691,629,PT00M54.60S,4,1610612749,MIL,203114,Middleton,K. Middleton,-115,-11,12,Made,1,103,100,203,h,Middleton 12' Turnaround Fadeaway (31 PTS) (Bledsoe 7 AST),Made Shot,Turnaround Fadeaway shot,1,2,463
+0021700691,631,PT00M54.60S,4,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,464
+0021700691,632,PT00M41.80S,4,1610612756,PHX,1626164,Booker,D. Booker,0,0,0,,0,,,0,v,Booker Bad Pass Turnover (P5.T22),Turnover,Bad Pass,1,0,465
+0021700691,632,PT00M41.80S,4,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,,,0,h,Brogdon STEAL (3 STL),,,1,0,466
+0021700691,634,PT00M24.30S,4,1610612749,MIL,203114,Middleton,K. Middleton,-114,-1,11,Made,1,105,100,205,h,Middleton 11' Turnaround Fadeaway (33 PTS),Made Shot,Turnaround Fadeaway shot,1,2,467
+0021700691,635,PT00M24.30S,4,0,,1610612756,,,0,0,0,,0,,,0,v,Suns Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,468
+0021700691,636,PT00M24.30S,4,1610612756,PHX,203477,Canaan,I. Canaan,0,0,0,,0,,,0,v,SUB: Bender FOR Canaan,Substitution,,0,0,469
+0021700691,638,PT00M19.60S,4,1610612756,PHX,203584,Daniels,T. Daniels,-46,262,27,Made,1,105,103,208,v,Daniels 27' 3PT Jump Shot (15 PTS) (Bender 2 AST),Made Shot,Jump Shot,1,3,470
+0021700691,640,PT00M18.90S,4,1610612756,PHX,203933,Warren,T. Warren,0,0,0,,0,,,0,v,Warren Personal Take Foul (P1.PN) (D.Richardson),Foul,Personal Take,1,0,471
+0021700691,642,PT00M18.90S,4,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,106,103,209,h,Middleton Free Throw 1 of 2 (34 PTS),Free Throw,Free Throw 1 of 2,1,0,472
+0021700691,643,PT00M18.90S,4,1610612756,PHX,1627733,Bender,D. Bender,0,0,0,,0,,,0,v,SUB: Canaan FOR Bender,Substitution,,0,0,473
+0021700691,645,PT00M18.90S,4,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,107,103,210,h,Middleton Free Throw 2 of 2 (35 PTS),Free Throw,Free Throw 2 of 2,1,0,474
+0021700691,646,PT00M11.80S,4,1610612749,MIL,203521,Dellavedova,M. Dellavedova,0,0,0,,0,,,0,h,Dellavedova P.FOUL (P4.PN) (N.Buchert),Foul,Personal,1,0,475
+0021700691,648,PT00M11.80S,4,1610612756,PHX,203477,Canaan,I. Canaan,0,0,0,,0,107,104,211,v,Canaan Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,476
+0021700691,649,PT00M11.80S,4,1610612756,PHX,203477,Canaan,I. Canaan,0,0,0,,0,107,105,212,v,Canaan Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,477
+0021700691,650,PT00M10.50S,4,1610612756,PHX,203477,Canaan,I. Canaan,0,0,0,,0,,,0,v,Canaan Personal Take Foul (P3.PN) (D.Richardson),Foul,Personal Take,1,0,478
+0021700691,652,PT00M10.50S,4,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,108,105,213,h,Brogdon Free Throw 1 of 2 (31 PTS),Free Throw,Free Throw 1 of 2,1,0,479
+0021700691,653,PT00M10.50S,4,1610612749,MIL,1627763,Brogdon,M. Brogdon,0,0,0,,0,109,105,214,h,Brogdon Free Throw 2 of 2 (32 PTS),Free Throw,Free Throw 2 of 2,1,0,480
+0021700691,654,PT00M04.50S,4,1610612756,PHX,1626164,Booker,D. Booker,36,262,26,Missed,1,,,0,v,MISS Booker 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,481
+0021700691,655,PT00M02.50S,4,1610612756,PHX,203477,Canaan,I. Canaan,0,0,0,,0,,,0,v,Canaan REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,482
+0021700691,656,PT00M00.70S,4,1610612756,PHX,203584,Daniels,T. Daniels,-163,221,27,Missed,1,,,0,v,MISS Daniels 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,483
+0021700691,656,PT00M00.70S,4,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,Bledsoe BLOCK (1 BLK),,,1,3,484
+0021700691,658,PT00M00.70S,4,1610612749,MIL,203089,Henson,J. Henson,0,0,0,,0,,,0,h,Henson REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,485
+0021700691,659,PT00M00.00S,4,0,,0,,,0,0,0,,0,109,105,214,,End of 4th Period (10:29 PM EST),period,end,1,0,486

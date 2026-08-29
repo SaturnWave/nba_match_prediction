@@ -1,0 +1,464 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021800980,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (8:10 PM EST),period,start,0,0,1
+0021800980,4,PT12M00.00S,1,1610612741,CHI,201577,Lopez,R. Lopez,0,0,0,,0,,,0,h,Jump Ball Lopez vs. Drummond: Tip to Brown,Jump Ball,,1,0,2
+0021800980,7,PT11M36.00S,1,1610612765,DET,202704,Jackson,R. Jackson,221,-9,0,Made,1,0,3,3,v,Jackson 3PT Jump Shot (3 PTS),Made Shot,Jump Shot,1,3,3
+0021800980,8,PT11M14.00S,1,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,4
+0021800980,8,PT11M14.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond STEAL (1 STL),,,1,0,5
+0021800980,10,PT11M05.00S,1,1610612765,DET,1628971,Brown,B. Brown,2,15,2,Made,1,0,5,5,v,Brown 2' Driving Finger Roll Layup (2 PTS) (Ellington 1 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,6
+0021800980,11,PT10M46.00S,1,1610612741,CHI,201577,Lopez,R. Lopez,14,1,1,Made,1,2,5,7,h,Lopez 1' Cutting Layup Shot (2 PTS) (Porter Jr. 1 AST),Made Shot,Cutting Layup Shot,1,2,7
+0021800980,13,PT10M36.00S,1,1610612765,DET,203083,Drummond,A. Drummond,-115,44,12,Made,1,2,7,9,v,Drummond 12' Jump Shot (2 PTS) (Jackson 1 AST),Made Shot,Jump Shot,1,2,8
+0021800980,16,PT10M24.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond S.FOUL (P1.T1) (T.Brown),Foul,Shooting,1,0,9
+0021800980,18,PT10M24.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,MISS LaVine Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,10
+0021800980,19,PT10M24.00S,1,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Rebound,Rebound,Normal Rebound,0,0,11
+0021800980,20,PT10M24.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,MISS LaVine Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,12
+0021800980,21,PT10M20.00S,1,1610612765,DET,201933,Griffin,B. Griffin,0,0,0,,0,,,0,v,Griffin REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,13
+0021800980,22,PT10M06.00S,1,1610612765,DET,202704,Jackson,R. Jackson,107,235,26,Missed,1,,,0,v,MISS Jackson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,14
+0021800980,23,PT10M04.00S,1,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,15
+0021800980,24,PT09M55.00S,1,1610612741,CHI,1627739,Dunn,K. Dunn,-225,8,0,Made,1,5,7,12,h,Dunn 3PT Jump Shot (3 PTS) (Markkanen 1 AST),Made Shot,Jump Shot,1,3,16
+0021800980,26,PT09M35.00S,1,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. P.FOUL (P1.T1) (T.Brown),Foul,Personal,1,0,17
+0021800980,28,PT09M22.00S,1,1610612765,DET,201933,Griffin,B. Griffin,-228,-16,0,Made,1,5,10,15,v,Griffin 3PT Jump Shot (3 PTS),Made Shot,Jump Shot,1,3,18
+0021800980,29,PT08M55.00S,1,1610612741,CHI,1628374,Markkanen,L. Markkanen,150,210,26,Made,1,8,10,18,h,Markkanen 26' 3PT Jump Bank Shot (3 PTS),Made Shot,Jump Bank Shot,1,3,19
+0021800980,30,PT08M42.00S,1,1610612765,DET,201933,Griffin,B. Griffin,-145,63,16,Missed,1,,,0,v,MISS Griffin 16' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,20
+0021800980,31,PT08M38.00S,1,1610612741,CHI,201577,Lopez,R. Lopez,0,0,0,,0,,,0,h,Lopez REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,21
+0021800980,32,PT08M25.00S,1,1610612741,CHI,1627739,Dunn,K. Dunn,65,106,12,Made,1,10,10,20,h,Dunn 12' Step Back Jump Shot (5 PTS),Made Shot,Step Back Jump shot,1,2,22
+0021800980,33,PT08M07.00S,1,1610612765,DET,203083,Drummond,A. Drummond,-8,44,4,Missed,1,,,0,v,MISS Drummond 4' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,23
+0021800980,34,PT08M05.00S,1,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,24
+0021800980,35,PT07M51.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,-15,4,2,Made,1,12,10,22,h,LaVine 2' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,25
+0021800980,36,PT07M41.00S,1,1610612765,DET,202704,Jackson,R. Jackson,-93,54,11,Made,1,12,12,24,v,Jackson 11' Driving Floating Bank Jump Shot (5 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,26
+0021800980,37,PT07M28.00S,1,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen Out of Bounds Lost Ball Turnover (P1.T2),Turnover,Out of Bounds Lost Ball Turnover,1,0,27
+0021800980,38,PT07M08.00S,1,1610612765,DET,202704,Jackson,R. Jackson,82,248,26,Missed,1,,,0,v,MISS Jackson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,28
+0021800980,39,PT07M05.00S,1,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,29
+0021800980,40,PT06M56.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,-14,8,2,Made,1,14,12,26,h,LaVine 2' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,30
+0021800980,41,PT06M47.00S,1,1610612765,DET,201961,Ellington,W. Ellington,-143,212,26,Missed,1,,,0,v,MISS Ellington 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,31
+0021800980,42,PT06M43.00S,1,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,32
+0021800980,43,PT06M36.00S,1,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,94,232,25,Missed,1,,,0,h,MISS Porter Jr. 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,33
+0021800980,44,PT06M36.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,34
+0021800980,45,PT06M28.00S,1,1610612765,DET,201961,Ellington,W. Ellington,0,0,0,,0,,,0,v,Ellington Out of Bounds - Bad Pass Turnover Turnover (P1.T1),Turnover,Out of Bounds - Bad Pass Turnover,1,0,35
+0021800980,46,PT06M28.00S,1,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,36
+0021800980,47,PT06M17.00S,1,1610612741,CHI,1628374,Markkanen,L. Markkanen,3,0,0,Made,1,16,12,28,h,Markkanen Driving Dunk (5 PTS) (Porter Jr. 2 AST),Made Shot,Driving Dunk Shot,1,2,37
+0021800980,49,PT05M57.00S,1,1610612765,DET,1628971,Brown,B. Brown,-236,-31,24,Missed,1,,,0,v,MISS Brown 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,38
+0021800980,50,PT05M53.00S,1,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,39
+0021800980,51,PT05M47.00S,1,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,22,5,2,Made,1,18,12,30,h,Porter Jr. 2' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,40
+0021800980,52,PT05M35.00S,1,1610612765,DET,201961,Ellington,W. Ellington,29,0,3,Missed,1,,,0,v,MISS Ellington 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,41
+0021800980,52,PT05M35.00S,1,1610612741,CHI,201577,Lopez,R. Lopez,0,0,0,,0,,,0,h,Lopez BLOCK (1 BLK),,,1,2,42
+0021800980,54,PT05M33.00S,1,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,43
+0021800980,55,PT05M29.00S,1,1610612741,CHI,1628374,Markkanen,L. Markkanen,169,189,25,Missed,1,,,0,h,MISS Markkanen 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,44
+0021800980,56,PT05M26.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,45
+0021800980,57,PT05M15.00S,1,1610612765,DET,201933,Griffin,B. Griffin,-82,244,26,Missed,1,,,0,v,MISS Griffin 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,46
+0021800980,58,PT05M13.00S,1,0,,1610612765,,,0,0,0,,0,,,0,v,Pistons Rebound,Rebound,Unknown,0,0,47
+0021800980,60,PT05M13.00S,1,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,SUB: Arcidiacono FOR Dunn,Substitution,,0,0,48
+0021800980,62,PT05M04.00S,1,1610612765,DET,201933,Griffin,B. Griffin,217,125,25,Missed,1,,,0,v,MISS Griffin 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,49
+0021800980,63,PT05M01.00S,1,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,0,0,0,,0,,,0,h,Arcidiacono REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,50
+0021800980,64,PT04M57.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine Out of Bounds Lost Ball Turnover (P1.T3),Turnover,Out of Bounds Lost Ball Turnover,1,0,51
+0021800980,65,PT04M42.00S,1,1610612765,DET,202704,Jackson,R. Jackson,-5,120,12,Made,1,18,14,32,v,Jackson 12' Driving Floating Jump Shot (7 PTS),Made Shot,Driving Floating Jump Shot,1,2,52
+0021800980,66,PT04M27.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine Traveling Turnover (P2.T4),Turnover,Traveling,1,0,53
+0021800980,67,PT04M12.00S,1,1610612765,DET,202704,Jackson,R. Jackson,119,-9,12,Made,1,18,16,34,v,Jackson 12' Step Back Jump Shot (9 PTS),Made Shot,Step Back Jump shot,1,2,54
+0021800980,69,PT03M57.00S,1,1610612741,CHI,201577,Lopez,R. Lopez,11,14,2,Made,1,20,16,36,h,Lopez 2' Layup (4 PTS) (Arcidiacono 1 AST),Made Shot,Layup Shot,1,2,55
+0021800980,71,PT03M48.00S,1,1610612765,DET,202704,Jackson,R. Jackson,-18,-4,2,Made,1,20,18,38,v,Jackson 2' Driving Layup (11 PTS),Made Shot,Driving Layup Shot,1,2,56
+0021800980,72,PT03M28.00S,1,1610612741,CHI,201577,Lopez,R. Lopez,34,34,5,Made,1,22,18,40,h,Lopez 5' Floating Jump Shot (6 PTS) (LaVine 1 AST),Made Shot,Floating Jump shot,1,2,57
+0021800980,74,PT03M13.00S,1,1610612765,DET,201961,Ellington,W. Ellington,0,0,0,,0,,,0,v,Ellington Bad Pass Turnover (P2.T2),Turnover,Bad Pass,1,0,58
+0021800980,74,PT03M13.00S,1,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. STEAL (1 STL),,,1,0,59
+0021800980,76,PT03M06.00S,1,1610612765,DET,201961,Ellington,W. Ellington,0,0,0,,0,,,0,v,Ellington S.FOUL (P1.T2) (T.Brown),Foul,Shooting,1,0,60
+0021800980,78,PT03M06.00S,1,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,23,18,41,h,Porter Jr. Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,61
+0021800980,79,PT03M06.00S,1,1610612765,DET,201961,Ellington,W. Ellington,0,0,0,,0,,,0,v,SUB: Kennard FOR Ellington,Substitution,,0,0,62
+0021800980,81,PT03M06.00S,1,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,24,18,42,h,Porter Jr. Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,63
+0021800980,82,PT03M01.00S,1,0,,1610612765,,,0,0,0,,0,,,0,v,Pistons Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,64
+0021800980,92,PT03M01.00S,1,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,SUB: Selden FOR Markkanen,Substitution,,0,0,65
+0021800980,93,PT03M01.00S,1,1610612765,DET,202704,Jackson,R. Jackson,0,0,0,,0,,,0,v,SUB: Smith FOR Jackson,Substitution,,0,0,66
+0021800980,94,PT03M01.00S,1,1610612765,DET,201933,Griffin,B. Griffin,0,0,0,,0,,,0,v,SUB: Maker FOR Griffin,Substitution,,0,0,67
+0021800980,89,PT02M53.00S,1,1610612765,DET,1628379,Kennard,L. Kennard,-1,64,6,Made,1,24,20,44,v,Kennard 6' Floating Jump Shot (2 PTS) (Drummond 1 AST),Made Shot,Floating Jump shot,1,2,68
+0021800980,91,PT02M40.00S,1,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Pistons T.Foul (Def. 3 Sec Drummond ) (T.Brown),Foul,Defense 3 Second,1,0,69
+0021800980,96,PT02M40.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,MISS LaVine Free Throw Technical,Free Throw,Free Throw Technical,0,0,70
+0021800980,97,PT02M40.00S,1,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Rebound,Rebound,Normal Rebound,0,0,71
+0021800980,98,PT02M30.00S,1,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,v,Brown P.FOUL (P1.T3) (T.Brown),Foul,Personal,1,0,72
+0021800980,100,PT02M30.00S,1,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,,,0,h,SUB: Luwawu-Cabarrot FOR Porter Jr.,Substitution,,0,0,73
+0021800980,102,PT02M30.00S,1,1610612741,CHI,201577,Lopez,R. Lopez,0,0,0,,0,,,0,h,Lopez OFF.Foul (P1) (J.Goble),Foul,Offensive,1,0,74
+0021800980,104,PT02M30.00S,1,1610612741,CHI,201577,Lopez,R. Lopez,0,0,0,,0,,,0,h,Lopez Offensive Foul Turnover (P1.T5),Turnover,Offensive Foul Turnover,1,0,75
+0021800980,105,PT02M14.00S,1,1610612765,DET,203083,Drummond,A. Drummond,32,55,6,Made,1,24,22,46,v,Drummond 6' Hook Shot (4 PTS),Made Shot,Hook Shot,1,2,76
+0021800980,106,PT02M05.00S,1,1610612765,DET,202397,Smith,I. Smith,0,0,0,,0,,,0,v,Smith P.FOUL (P1.T4) (J.Goble),Foul,Personal,1,0,77
+0021800980,108,PT02M05.00S,1,1610612741,CHI,201577,Lopez,R. Lopez,0,0,0,,0,,,0,h,SUB: Felicio FOR Lopez,Substitution,,0,0,78
+0021800980,110,PT01M56.00S,1,1610612741,CHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,-211,138,25,Missed,1,,,0,h,MISS Luwawu-Cabarrot 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,79
+0021800980,111,PT01M52.00S,1,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,v,Kennard REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,80
+0021800980,112,PT01M38.00S,1,1610612765,DET,203083,Drummond,A. Drummond,-30,60,7,Made,1,24,24,48,v,Drummond 7' Hook Shot (6 PTS) (Kennard 1 AST),Made Shot,Hook Shot,1,2,81
+0021800980,114,PT01M19.00S,1,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,-16,8,2,Made,1,26,24,50,h,Arcidiacono 2' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,82
+0021800980,115,PT00M55.00S,1,1610612765,DET,203083,Drummond,A. Drummond,-11,102,10,Missed,1,,,0,v,MISS Drummond 10' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,83
+0021800980,116,PT00M52.70S,1,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,v,Maker REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,84
+0021800980,117,PT00M43.10S,1,1610612765,DET,1627748,Maker,T. Maker,-231,-21,0,Missed,1,,,0,v,MISS Maker 3PT Jump Shot,Missed Shot,Jump Shot,1,3,85
+0021800980,118,PT00M40.80S,1,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,0,0,0,,0,,,0,h,Arcidiacono REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,86
+0021800980,119,PT00M30.20S,1,1610612741,CHI,203897,LaVine,Z. LaVine,-2,30,3,Missed,1,,,0,h,MISS LaVine 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,87
+0021800980,119,PT00M30.20S,1,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,v,Maker BLOCK (1 BLK),,,1,2,88
+0021800980,121,PT00M29.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,89
+0021800980,122,PT00M29.00S,1,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,v,Brown P.FOUL (P2.PN) (T.Brown),Foul,Personal,1,0,90
+0021800980,124,PT00M29.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,27,24,51,h,LaVine Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,0,0,91
+0021800980,125,PT00M29.00S,1,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,v,SUB: Galloway FOR Brown,Substitution,,0,0,92
+0021800980,127,PT00M29.00S,1,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,28,24,52,h,LaVine Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,0,0,93
+0021800980,128,PT00M10.60S,1,1610612765,DET,202397,Smith,I. Smith,0,0,0,,0,,,0,v,Smith Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,94
+0021800980,128,PT00M10.60S,1,1610612741,CHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,0,0,0,,0,,,0,h,Luwawu-Cabarrot STEAL (1 STL),,,1,0,95
+0021800980,131,PT00M00.60S,1,1610612741,CHI,203897,LaVine,Z. LaVine,-81,1,8,Made,1,30,24,54,h,LaVine 8' Driving Floating Jump Shot (8 PTS) (Arcidiacono 2 AST),Made Shot,Driving Floating Jump Shot,1,2,96
+0021800980,133,PT00M00.00S,1,0,,0,,,0,0,0,,0,30,24,54,,End of 1st Period (8:35 PM EST),period,end,1,0,97
+0021800980,138,PT12M00.00S,2,0,,0,,,0,0,0,,0,30,24,54,,Start of 2nd Period (8:37 PM EST),period,start,0,0,98
+0021800980,140,PT11M40.00S,2,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,-41,51,7,Missed,1,,,0,h,MISS Arcidiacono 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,99
+0021800980,141,PT11M38.00S,2,1610612741,CHI,1626245,Felicio,C. Felicio,0,0,0,,0,,,0,h,Felicio REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,100
+0021800980,142,PT11M37.00S,2,1610612741,CHI,1626245,Felicio,C. Felicio,8,20,2,Missed,1,,,0,h,MISS Felicio 2' Putback Layup,Missed Shot,Putback Layup Shot,1,2,101
+0021800980,142,PT11M37.00S,2,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,v,Maker BLOCK (2 BLK),,,1,2,102
+0021800980,144,PT11M34.00S,2,1610612765,DET,202397,Smith,I. Smith,0,0,0,,0,,,0,v,Smith REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,103
+0021800980,145,PT11M32.00S,2,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,0,0,0,,0,,,0,h,Arcidiacono S.FOUL (P1.T1) (T.Brown),Foul,Shooting,1,0,104
+0021800980,147,PT11M32.00S,2,1610612765,DET,202397,Smith,I. Smith,0,0,0,,0,,,0,v,MISS Smith Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,105
+0021800980,148,PT11M32.00S,2,0,,1610612765,,,0,0,0,,0,,,0,v,Pistons Rebound,Rebound,Normal Rebound,0,0,106
+0021800980,149,PT11M32.00S,2,1610612765,DET,202397,Smith,I. Smith,0,0,0,,0,30,25,55,v,Smith Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,0,0,107
+0021800980,150,PT11M22.00S,2,1610612741,CHI,1627885,Harrison,S. Harrison,7,32,3,Missed,1,,,0,h,MISS Harrison 3' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,108
+0021800980,151,PT11M20.00S,2,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,v,Maker REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,109
+0021800980,152,PT11M15.00S,2,1610612765,DET,202397,Smith,I. Smith,15,-5,2,Made,1,30,27,57,v,Smith 2' Running Layup (3 PTS),Made Shot,Running Layup Shot,1,2,110
+0021800980,153,PT11M04.00S,2,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,24,82,9,Made,1,32,27,59,h,Arcidiacono 9' Driving Floating Jump Shot (4 PTS),Made Shot,Driving Floating Jump Shot,1,2,111
+0021800980,154,PT10M46.00S,2,1610612765,DET,202397,Smith,I. Smith,-8,25,3,Missed,1,,,0,v,MISS Smith 3' Layup,Missed Shot,Layup Shot,1,2,112
+0021800980,155,PT10M41.00S,2,1610612765,DET,202397,Smith,I. Smith,0,0,0,,0,,,0,v,Smith REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,113
+0021800980,156,PT10M41.00S,2,1610612765,DET,202397,Smith,I. Smith,0,-6,1,Missed,1,,,0,v,MISS Smith 1' Putback Layup,Missed Shot,Putback Layup Shot,1,2,114
+0021800980,157,PT10M39.00S,2,1610612765,DET,202397,Smith,I. Smith,0,0,0,,0,,,0,v,Smith REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,115
+0021800980,158,PT10M31.00S,2,1610612765,DET,202397,Smith,I. Smith,158,-9,16,Made,1,32,29,61,v,Smith 16' Jump Shot (5 PTS),Made Shot,Jump Shot,1,2,116
+0021800980,159,PT10M16.00S,2,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,0,0,0,,0,,,0,h,Arcidiacono Traveling Turnover (P1.T6),Turnover,Traveling,1,0,117
+0021800980,160,PT10M16.00S,2,1610612741,CHI,1626245,Felicio,C. Felicio,0,0,0,,0,,,0,h,SUB: Markkanen FOR Felicio,Substitution,,0,0,118
+0021800980,162,PT10M02.00S,2,1610612765,DET,204038,Galloway,L. Galloway,-226,-4,0,Made,1,32,32,64,v,Galloway 3PT Jump Shot (3 PTS) (Robinson III 1 AST),Made Shot,Jump Shot,1,3,119
+0021800980,164,PT09M45.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,-20,16,3,Missed,1,,,0,h,MISS Markkanen 3' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,120
+0021800980,165,PT09M44.00S,2,1610612741,CHI,1627782,Selden,W. Selden,0,0,0,,0,,,0,h,Selden REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,121
+0021800980,166,PT09M38.00S,2,1610612741,CHI,1627885,Harrison,S. Harrison,-26,17,3,Missed,1,,,0,h,MISS Harrison 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,122
+0021800980,166,PT09M38.00S,2,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,v,Maker BLOCK (3 BLK),,,1,2,123
+0021800980,168,PT09M36.00S,2,1610612765,DET,202397,Smith,I. Smith,0,0,0,,0,,,0,v,Smith REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,124
+0021800980,169,PT09M34.00S,2,1610612765,DET,1628379,Kennard,L. Kennard,232,-17,0,Made,1,32,35,67,v,Kennard 3PT Running Jump Shot (5 PTS) (Smith 1 AST),Made Shot,Running Jump Shot,1,3,125
+0021800980,171,PT09M32.00S,2,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,126
+0021800980,172,PT09M18.00S,2,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,v,Galloway S.FOUL (P1.T1) (B.Nansel),Foul,Shooting,1,0,127
+0021800980,174,PT09M18.00S,2,1610612741,CHI,1627782,Selden,W. Selden,0,0,0,,0,,,0,h,MISS Selden Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,128
+0021800980,175,PT09M18.00S,2,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Rebound,Rebound,Normal Rebound,0,0,129
+0021800980,176,PT09M18.00S,2,1610612741,CHI,1627782,Selden,W. Selden,0,0,0,,0,33,35,68,h,Selden Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,0,0,130
+0021800980,177,PT09M11.00S,2,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,v,Galloway OFF.Foul (P2) (J.Goble),Foul,Offensive,1,0,131
+0021800980,179,PT09M11.00S,2,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,v,Galloway Offensive Foul Turnover (P1.T4),Turnover,Offensive Foul Turnover,1,0,132
+0021800980,180,PT08M58.00S,2,1610612741,CHI,1627885,Harrison,S. Harrison,3,5,1,Made,1,35,35,70,h,Harrison 1' Driving Dunk (2 PTS),Made Shot,Driving Dunk Shot,1,2,133
+0021800980,181,PT08M43.00S,2,1610612765,DET,1627748,Maker,T. Maker,3,2,0,Made,1,35,37,72,v,Maker Dunk (2 PTS) (Smith 2 AST),Made Shot,Dunk Shot,1,2,134
+0021800980,183,PT08M27.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,2,20,2,Made,1,37,37,74,h,Markkanen 2' Hook Shot (7 PTS) (Luwawu-Cabarrot 1 AST),Made Shot,Hook Shot,1,2,135
+0021800980,185,PT08M16.00S,2,1610612741,CHI,1627782,Selden,W. Selden,0,0,0,,0,,,0,h,Selden S.FOUL (P1.T2) (B.Nansel),Foul,Shooting,1,0,136
+0021800980,187,PT08M16.00S,2,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,v,MISS Maker Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,137
+0021800980,188,PT08M16.00S,2,0,,1610612765,,,0,0,0,,0,,,0,v,Pistons Rebound,Rebound,Normal Rebound,0,0,138
+0021800980,189,PT08M16.00S,2,1610612741,CHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,0,0,0,,0,,,0,h,SUB: Porter Jr. FOR Luwawu-Cabarrot,Substitution,,0,0,139
+0021800980,191,PT08M16.00S,2,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,v,MISS Maker Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,140
+0021800980,192,PT08M16.00S,2,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Rebound,Rebound,Unknown,0,0,141
+0021800980,194,PT08M05.00S,2,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,v,Kennard S.FOUL (P1.T2) (B.Nansel),Foul,Shooting,1,0,142
+0021800980,196,PT08M05.00S,2,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,38,37,75,h,Porter Jr. Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,0,0,143
+0021800980,197,PT08M05.00S,2,1610612765,DET,203922,Robinson III,G. Robinson III,0,0,0,,0,,,0,v,SUB: Griffin FOR Robinson III,Substitution,,0,0,144
+0021800980,199,PT08M05.00S,2,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,39,37,76,h,Porter Jr. Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,0,0,145
+0021800980,200,PT07M52.00S,2,1610612765,DET,1628379,Kennard,L. Kennard,113,110,16,Missed,1,,,0,v,MISS Kennard 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,146
+0021800980,201,PT07M46.00S,2,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,147
+0021800980,202,PT07M44.00S,2,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,11,167,17,Made,1,41,37,78,h,Porter Jr. 17' Running Pull-Up Jump Shot (8 PTS),Made Shot,Running Pull-Up Jump Shot,1,2,148
+0021800980,203,PT07M26.00S,2,1610612765,DET,201933,Griffin,B. Griffin,-237,-16,24,Missed,1,,,0,v,MISS Griffin 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,149
+0021800980,204,PT07M22.00S,2,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,0,0,0,,0,,,0,h,Arcidiacono REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,150
+0021800980,205,PT07M18.00S,2,1610612741,CHI,1627885,Harrison,S. Harrison,-3,4,1,Made,1,43,37,80,h,Harrison 1' Cutting Layup Shot (4 PTS) (Porter Jr. 3 AST),Made Shot,Cutting Layup Shot,1,2,151
+0021800980,207,PT07M12.00S,2,0,,1610612765,,,0,0,0,,0,,,0,v,Pistons Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,152
+0021800980,208,PT07M12.00S,2,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,0,0,0,,0,,,0,h,SUB: Dunn FOR Arcidiacono,Substitution,,0,0,153
+0021800980,209,PT07M12.00S,2,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,v,SUB: Drummond FOR Maker,Substitution,,0,0,154
+0021800980,212,PT07M03.00S,2,1610612765,DET,1628379,Kennard,L. Kennard,-159,209,26,Missed,1,,,0,v,MISS Kennard 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,155
+0021800980,213,PT06M57.00S,2,1610612741,CHI,1627885,Harrison,S. Harrison,0,0,0,,0,,,0,h,Harrison REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,156
+0021800980,214,PT06M54.00S,2,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,13,5,1,Made,1,45,37,82,h,Porter Jr. 1' Layup (10 PTS) (Harrison 1 AST),Made Shot,Layup Shot,1,2,157
+0021800980,217,PT06M43.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen P.FOUL (P1.T3) (B.Nansel),Foul,Personal,1,0,158
+0021800980,219,PT06M43.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,SUB: Lopez FOR Markkanen,Substitution,,0,0,159
+0021800980,220,PT06M43.00S,2,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,v,SUB: Ellington FOR Galloway,Substitution,,0,0,160
+0021800980,223,PT06M29.00S,2,1610612765,DET,203083,Drummond,A. Drummond,-242,31,24,Missed,1,,,0,v,MISS Drummond 24' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,161
+0021800980,225,PT06M29.00S,2,0,,1610612765,,,0,0,0,,0,,,0,v,Pistons Rebound,Rebound,Unknown,0,0,162
+0021800980,224,PT06M29.00S,2,0,,1610612765,,,0,0,0,,0,,,0,v,Pistons Turnover: Shot Clock (T#5),Turnover,Shot Clock Turnover,0,0,163
+0021800980,226,PT06M29.00S,2,1610612741,CHI,1627782,Selden,W. Selden,0,0,0,,0,,,0,h,SUB: LaVine FOR Selden,Substitution,,0,0,164
+0021800980,228,PT06M16.00S,2,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,134,168,21,Made,1,47,37,84,h,Porter Jr. 21' Step Back Jump Shot (12 PTS),Made Shot,Step Back Jump shot,1,2,165
+0021800980,229,PT05M59.00S,2,1610612765,DET,201933,Griffin,B. Griffin,-172,85,19,Missed,1,,,0,v,MISS Griffin 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,166
+0021800980,230,PT05M56.00S,2,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,167
+0021800980,231,PT05M48.00S,2,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,19,205,21,Made,1,49,37,86,h,Porter Jr. 21' Pullup Jump Shot (14 PTS),Made Shot,Pullup Jump shot,1,2,168
+0021800980,233,PT05M27.00S,2,1610612765,DET,201933,Griffin,B. Griffin,0,0,0,,0,,,0,v,Griffin Lost Ball Turnover (P1.T6),Turnover,Lost Ball,1,0,169
+0021800980,233,PT05M27.00S,2,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. STEAL (2 STL),,,1,0,170
+0021800980,235,PT05M24.00S,2,1610612741,CHI,203897,LaVine,Z. LaVine,9,0,1,Made,1,51,37,88,h,LaVine 1' Running Layup (10 PTS) (Dunn 1 AST),Made Shot,Running Layup Shot,1,2,171
+0021800980,237,PT05M20.00S,2,0,,1610612765,,,0,0,0,,0,,,0,v,Pistons Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,172
+0021800980,238,PT05M20.00S,2,1610612765,DET,202397,Smith,I. Smith,0,0,0,,0,,,0,v,SUB: Jackson FOR Smith,Substitution,,0,0,173
+0021800980,240,PT05M14.00S,2,1610612765,DET,203083,Drummond,A. Drummond,33,4,3,Missed,1,,,0,v,MISS Drummond 3' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,174
+0021800980,242,PT05M10.00S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,175
+0021800980,246,PT05M06.00S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond OFF.Foul (P2) (J.Goble),Foul,Offensive,1,0,176
+0021800980,248,PT05M06.00S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond Offensive Foul Turnover (P1.T7),Turnover,Offensive Foul Turnover,1,0,177
+0021800980,249,PT04M57.00S,2,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,-210,141,25,Missed,1,,,0,h,MISS Porter Jr. 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,178
+0021800980,250,PT04M54.00S,2,1610612741,CHI,1627885,Harrison,S. Harrison,0,0,0,,0,,,0,h,Harrison REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,179
+0021800980,251,PT04M50.00S,2,1610612741,CHI,203897,LaVine,Z. LaVine,-15,13,2,Made,1,53,37,90,h,LaVine 2' Driving Layup (12 PTS) (Porter Jr. 4 AST),Made Shot,Driving Layup Shot,1,2,180
+0021800980,253,PT04M39.00S,2,1610612741,CHI,1627885,Harrison,S. Harrison,0,0,0,,0,,,0,h,Harrison P.FOUL (P1.T4) (B.Nansel),Foul,Personal,1,0,181
+0021800980,255,PT04M27.00S,2,1610612765,DET,201933,Griffin,B. Griffin,0,0,0,,0,,,0,v,Griffin Bad Pass Turnover (P2.T8),Turnover,Bad Pass,1,0,182
+0021800980,255,PT04M27.00S,2,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine STEAL (1 STL),,,1,0,183
+0021800980,257,PT04M22.00S,2,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine Bad Pass Turnover (P3.T7),Turnover,Bad Pass,1,0,184
+0021800980,257,PT04M22.00S,2,1610612765,DET,201961,Ellington,W. Ellington,0,0,0,,0,,,0,v,Ellington STEAL (1 STL),,,1,0,185
+0021800980,259,PT04M19.00S,2,1610612741,CHI,201577,Lopez,R. Lopez,0,0,0,,0,,,0,h,Lopez P.FOUL (P2.PN) (T.Brown),Foul,Personal,1,0,186
+0021800980,261,PT04M19.00S,2,1610612765,DET,201933,Griffin,B. Griffin,0,0,0,,0,53,38,91,v,Griffin Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,0,0,187
+0021800980,262,PT04M19.00S,2,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,v,SUB: Brown FOR Kennard,Substitution,,0,0,188
+0021800980,264,PT04M19.00S,2,1610612765,DET,201933,Griffin,B. Griffin,0,0,0,,0,53,39,92,v,Griffin Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,0,0,189
+0021800980,265,PT04M01.00S,2,1610612741,CHI,203897,LaVine,Z. LaVine,-19,4,2,Missed,1,,,0,h,MISS LaVine 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,190
+0021800980,265,PT04M01.00S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond BLOCK (1 BLK),,,1,2,191
+0021800980,267,PT03M59.00S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,192
+0021800980,268,PT03M47.00S,2,1610612765,DET,201933,Griffin,B. Griffin,0,0,0,,0,,,0,v,Griffin Lost Ball Turnover (P3.T9),Turnover,Lost Ball,1,0,193
+0021800980,268,PT03M47.00S,2,1610612741,CHI,1627885,Harrison,S. Harrison,0,0,0,,0,,,0,h,Harrison STEAL (1 STL),,,1,0,194
+0021800980,270,PT03M45.00S,2,1610612741,CHI,1627885,Harrison,S. Harrison,6,16,2,Missed,1,,,0,h,MISS Harrison 2' Running Layup,Missed Shot,Running Layup Shot,1,2,195
+0021800980,271,PT03M43.00S,2,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,196
+0021800980,272,PT03M43.00S,2,1610612741,CHI,1627739,Dunn,K. Dunn,0,-6,1,Made,1,55,39,94,h,Dunn 1' Putback Layup (7 PTS),Made Shot,Putback Layup Shot,1,2,197
+0021800980,273,PT03M24.00S,2,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine P.FOUL (P1.PN) (B.Nansel),Foul,Personal,1,0,198
+0021800980,275,PT03M24.00S,2,1610612765,DET,201933,Griffin,B. Griffin,0,0,0,,0,55,40,95,v,Griffin Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,0,0,199
+0021800980,276,PT03M24.00S,2,1610612741,CHI,1627885,Harrison,S. Harrison,0,0,0,,0,,,0,h,SUB: Markkanen FOR Harrison,Substitution,,0,0,200
+0021800980,278,PT03M24.00S,2,1610612765,DET,201933,Griffin,B. Griffin,0,0,0,,0,,,0,v,MISS Griffin Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,201
+0021800980,279,PT03M21.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,202
+0021800980,280,PT03M16.00S,2,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn Out of Bounds - Bad Pass Turnover Turnover (P1.T8),Turnover,Out of Bounds - Bad Pass Turnover,1,0,203
+0021800980,281,PT03M07.00S,2,1610612765,DET,201933,Griffin,B. Griffin,98,222,24,Made,1,55,43,98,v,Griffin 24' 3PT Jump Shot (9 PTS) (Jackson 2 AST),Made Shot,Jump Shot,1,3,204
+0021800980,283,PT02M44.00S,2,1610612741,CHI,201577,Lopez,R. Lopez,35,62,7,Missed,1,,,0,h,MISS Lopez 7' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,205
+0021800980,284,PT02M41.00S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,206
+0021800980,285,PT02M38.00S,2,1610612765,DET,202704,Jackson,R. Jackson,0,0,0,,0,,,0,v,Jackson Lost Ball Turnover (P1.T10),Turnover,Lost Ball,1,0,207
+0021800980,285,PT02M38.00S,2,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn STEAL (1 STL),,,1,0,208
+0021800980,287,PT02M31.00S,2,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,13,15,2,Made,1,57,43,100,h,Porter Jr. 2' Running Layup (16 PTS) (Dunn 2 AST),Made Shot,Running Layup Shot,1,2,209
+0021800980,290,PT02M26.00S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond Bad Pass Turnover (P2.T11),Turnover,Bad Pass,0,0,210
+0021800980,290,PT02M26.00S,2,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn STEAL (2 STL),,,0,0,211
+0021800980,292,PT02M21.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,16,1,2,Made,1,59,43,102,h,Markkanen 2' Floating Jump Shot (9 PTS) (Porter Jr. 5 AST),Made Shot,Floating Jump shot,1,2,212
+0021800980,294,PT02M09.00S,2,1610612765,DET,202704,Jackson,R. Jackson,-136,211,25,Missed,1,,,0,v,MISS Jackson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,213
+0021800980,295,PT02M07.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,214
+0021800980,296,PT01M59.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,27,75,8,Made,1,61,43,104,h,Markkanen 8' Driving Hook Shot (11 PTS),Made Shot,Driving Hook Shot,1,2,215
+0021800980,297,PT01M41.00S,2,1610612765,DET,201933,Griffin,B. Griffin,-3,0,0,Made,1,61,45,106,v,Griffin Cutting Dunk Shot (11 PTS) (Ellington 2 AST),Made Shot,Cutting Dunk Shot,1,2,216
+0021800980,299,PT01M40.00S,2,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,217
+0021800980,300,PT01M17.00S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,3,243,24,Made,1,64,45,109,h,Markkanen 24' 3PT Jump Shot (14 PTS) (Porter Jr. 6 AST),Made Shot,Jump Shot,1,3,218
+0021800980,302,PT01M06.00S,2,1610612765,DET,201933,Griffin,B. Griffin,-3,253,25,Missed,1,,,0,v,MISS Griffin 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,219
+0021800980,303,PT01M03.00S,2,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,220
+0021800980,304,PT00M55.90S,2,1610612741,CHI,201577,Lopez,R. Lopez,-5,10,1,Made,1,66,45,111,h,Lopez 1' Turnaround Hook Shot (8 PTS) (Dunn 3 AST),Made Shot,Turnaround Hook Shot,1,2,221
+0021800980,306,PT00M47.30S,2,1610612765,DET,202704,Jackson,R. Jackson,58,32,7,Made,1,66,47,113,v,Jackson 7' Driving Floating Jump Shot (13 PTS),Made Shot,Driving Floating Jump Shot,1,2,222
+0021800980,307,PT00M35.80S,2,1610612741,CHI,203897,LaVine,Z. LaVine,76,246,26,Missed,1,,,0,h,MISS LaVine 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,223
+0021800980,308,PT00M32.40S,2,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,224
+0021800980,309,PT00M22.90S,2,1610612765,DET,202704,Jackson,R. Jackson,-12,65,7,Made,1,66,49,115,v,Jackson 7' Driving Floating Jump Shot (15 PTS),Made Shot,Driving Floating Jump Shot,1,2,225
+0021800980,310,PT00M03.30S,2,1610612741,CHI,1628374,Markkanen,L. Markkanen,-127,-18,13,Missed,1,,,0,h,MISS Markkanen 13' Jump Shot,Missed Shot,Jump Shot,1,2,226
+0021800980,311,PT00M01.30S,2,1610612765,DET,202704,Jackson,R. Jackson,0,0,0,,0,,,0,v,Jackson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,227
+0021800980,312,PT00M00.00S,2,1610612765,DET,202704,Jackson,R. Jackson,63,524,53,Missed,1,,,0,v,MISS Jackson 53' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,228
+0021800980,313,PT00M00.00S,2,0,,1610612765,,,0,0,0,,0,,,0,v,Pistons Rebound,Rebound,Unknown,0,0,229
+0021800980,314,PT00M00.00S,2,0,,0,,,0,0,0,,0,66,49,115,,End of 2nd Period (9:08 PM EST),period,end,1,0,230
+0021800980,315,PT12M00.00S,3,0,,0,,,0,0,0,,0,66,49,115,,Start of 3rd Period (9:23 PM EST),period,start,0,0,231
+0021800980,316,PT11M39.00S,3,1610612765,DET,201961,Ellington,W. Ellington,0,0,0,,0,,,0,v,Ellington S.FOUL (P2.T1) (T.Brown),Foul,Shooting,1,0,232
+0021800980,318,PT11M39.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,67,49,116,h,LaVine Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,0,0,233
+0021800980,319,PT11M39.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,MISS LaVine Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,234
+0021800980,320,PT11M36.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,235
+0021800980,321,PT11M15.00S,3,1610612765,DET,202704,Jackson,R. Jackson,145,150,21,Missed,1,,,0,v,MISS Jackson 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,236
+0021800980,322,PT11M12.00S,3,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,237
+0021800980,323,PT11M04.00S,3,1610612741,CHI,1628374,Markkanen,L. Markkanen,-77,67,10,Missed,1,,,0,h,MISS Markkanen 10' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,238
+0021800980,324,PT11M02.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,239
+0021800980,325,PT10M45.00S,3,1610612765,DET,1628971,Brown,B. Brown,-106,-4,11,Made,1,67,51,118,v,Brown 11' Driving Floating Jump Shot (4 PTS) (Griffin 1 AST),Made Shot,Driving Floating Jump Shot,1,2,240
+0021800980,327,PT10M29.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine Traveling Turnover (P4.T9),Turnover,Traveling,1,0,241
+0021800980,328,PT10M22.00S,3,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen P.FOUL (P2.T1) (T.Brown),Foul,Personal,1,0,242
+0021800980,330,PT10M06.00S,3,1610612765,DET,203083,Drummond,A. Drummond,50,68,8,Missed,1,,,0,v,MISS Drummond 8' Hook Shot,Missed Shot,Hook Shot,1,2,243
+0021800980,331,PT10M04.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,244
+0021800980,358,PT09M52.00S,3,1610612741,CHI,201577,Lopez,R. Lopez,0,0,0,,0,,,0,h,Lopez Lost Ball Turnover (P2.T10),Turnover,Lost Ball,1,0,245
+0021800980,358,PT09M52.00S,3,1610612765,DET,202704,Jackson,R. Jackson,0,0,0,,0,,,0,v,Jackson STEAL (1 STL),,,1,0,246
+0021800980,335,PT09M44.00S,3,1610612765,DET,202704,Jackson,R. Jackson,24,56,6,Made,1,67,53,120,v,Jackson 6' Driving Floating Jump Shot (17 PTS),Made Shot,Driving Floating Jump Shot,1,2,247
+0021800980,336,PT09M19.00S,3,1610612741,CHI,1627739,Dunn,K. Dunn,-2,112,11,Missed,1,,,0,h,MISS Dunn 11' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,248
+0021800980,337,PT09M19.00S,3,0,,1610612765,,,0,0,0,,0,,,0,v,Pistons Rebound,Rebound,Unknown,0,0,249
+0021800980,339,PT08M55.00S,3,1610612765,DET,202704,Jackson,R. Jackson,38,85,9,Missed,1,,,0,v,MISS Jackson 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,250
+0021800980,340,PT08M55.00S,3,0,,1610612765,,,0,0,0,,0,,,0,v,Pistons Rebound,Rebound,Unknown,0,0,251
+0021800980,341,PT08M55.00S,3,0,,1610612765,,,0,0,0,,0,,,0,v,Pistons Turnover: Shot Clock (T#12),Turnover,Shot Clock Turnover,0,0,252
+0021800980,342,PT08M43.00S,3,1610612741,CHI,201577,Lopez,R. Lopez,-8,-6,1,Made,1,69,53,122,h,Lopez 1' Driving Layup (10 PTS),Made Shot,Driving Layup Shot,1,2,253
+0021800980,343,PT08M43.00S,3,1610612765,DET,202704,Jackson,R. Jackson,0,0,0,,0,,,0,v,Jackson S.FOUL (P1.T2) (J.Goble),Foul,Shooting,1,0,254
+0021800980,345,PT08M43.00S,3,1610612741,CHI,201577,Lopez,R. Lopez,0,0,0,,0,70,53,123,h,Lopez Free Throw 1 of 1 (11 PTS),Free Throw,Free Throw 1 of 1,0,0,255
+0021800980,346,PT08M35.00S,3,1610612765,DET,202704,Jackson,R. Jackson,0,0,0,,0,,,0,v,Jackson Out of Bounds Lost Ball Turnover (P2.T13),Turnover,Out of Bounds Lost Ball Turnover,1,0,256
+0021800980,347,PT08M18.00S,3,1610612741,CHI,201577,Lopez,R. Lopez,15,33,4,Missed,1,,,0,h,MISS Lopez 4' Layup,Missed Shot,Layup Shot,1,2,257
+0021800980,347,PT08M18.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond BLOCK (2 BLK),,,1,2,258
+0021800980,349,PT08M15.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,259
+0021800980,350,PT08M09.00S,3,1610612765,DET,202704,Jackson,R. Jackson,-15,8,2,Missed,1,,,0,v,MISS Jackson 2' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,260
+0021800980,351,PT08M07.00S,3,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,261
+0021800980,352,PT08M03.00S,3,1610612741,CHI,1628374,Markkanen,L. Markkanen,4,33,3,Missed,1,,,0,h,MISS Markkanen 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,262
+0021800980,354,PT07M59.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,263
+0021800980,355,PT07M58.00S,3,0,,1610612765,,,0,0,0,,0,,,0,v,Pistons Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,264
+0021800980,356,PT07M58.00S,3,1610612765,DET,201933,Griffin,B. Griffin,0,0,0,,0,,,0,v,SUB: Maker FOR Griffin,Substitution,,0,0,265
+0021800980,360,PT07M46.00S,3,1610612765,DET,201961,Ellington,W. Ellington,18,15,2,Made,1,70,55,125,v,Ellington 2' Driving Layup (2 PTS) (Drummond 2 AST),Made Shot,Driving Layup Shot,1,2,266
+0021800980,361,PT07M23.00S,3,1610612741,CHI,201577,Lopez,R. Lopez,0,0,0,,0,,,0,h,Lopez Lost Ball Turnover (P3.T11),Turnover,Lost Ball,1,0,267
+0021800980,361,PT07M23.00S,3,1610612765,DET,202704,Jackson,R. Jackson,0,0,0,,0,,,0,v,Jackson STEAL (2 STL),,,1,0,268
+0021800980,363,PT07M11.00S,3,1610612765,DET,1628971,Brown,B. Brown,28,46,5,Missed,1,,,0,v,MISS Brown 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,269
+0021800980,363,PT07M11.00S,3,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn BLOCK (1 BLK),,,1,2,270
+0021800980,365,PT07M08.00S,3,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,271
+0021800980,366,PT07M08.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,-5,13,1,Missed,1,,,0,h,MISS LaVine 1' Running Layup,Missed Shot,Running Layup Shot,1,2,272
+0021800980,366,PT07M08.00S,3,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,v,Brown BLOCK (1 BLK),,,1,2,273
+0021800980,368,PT07M08.00S,3,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Rebound,Rebound,Unknown,0,0,274
+0021800980,371,PT07M06.00S,3,1610612741,CHI,1628374,Markkanen,L. Markkanen,-234,-29,24,Missed,1,,,0,h,MISS Markkanen 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,275
+0021800980,372,PT07M02.00S,3,1610612741,CHI,201577,Lopez,R. Lopez,0,0,0,,0,,,0,h,Lopez REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,276
+0021800980,373,PT06M49.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,-27,10,3,Missed,1,,,0,h,MISS LaVine 3' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,277
+0021800980,374,PT06M47.00S,3,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,v,Maker REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,278
+0021800980,375,PT06M30.00S,3,1610612765,DET,202704,Jackson,R. Jackson,122,142,19,Made,1,70,57,127,v,Jackson 19' Driving Floating Jump Shot (19 PTS),Made Shot,Driving Floating Jump Shot,1,2,279
+0021800980,376,PT06M15.00S,3,1610612741,CHI,1627739,Dunn,K. Dunn,49,63,8,Missed,1,,,0,h,MISS Dunn 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,280
+0021800980,377,PT06M13.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:1 Def:10),Rebound,Unknown,1,0,281
+0021800980,378,PT06M05.00S,3,1610612765,DET,1627748,Maker,T. Maker,27,34,4,Missed,1,,,0,v,MISS Maker 4' Layup,Missed Shot,Layup Shot,1,2,282
+0021800980,378,PT06M05.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine BLOCK (1 BLK),,,1,2,283
+0021800980,380,PT06M05.00S,3,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Rebound,Rebound,Unknown,0,0,284
+0021800980,381,PT06M05.00S,3,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,v,Maker L.B.FOUL (P1.T3) (T.Brown),Foul,Loose Ball,1,0,285
+0021800980,383,PT05M52.00S,3,1610612741,CHI,1627739,Dunn,K. Dunn,227,-24,0,Missed,1,,,0,h,MISS Dunn 3PT Jump Shot,Missed Shot,Jump Shot,1,3,286
+0021800980,384,PT05M49.00S,3,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,v,Brown REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,287
+0021800980,385,PT05M41.00S,3,1610612765,DET,1627748,Maker,T. Maker,0,0,0,,0,,,0,v,Maker Bad Pass Turnover (P1.T14),Turnover,Bad Pass,1,0,288
+0021800980,385,PT05M41.00S,3,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen STEAL (1 STL),,,1,0,289
+0021800980,387,PT05M35.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,-27,4,3,Missed,1,,,0,h,MISS LaVine 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,290
+0021800980,387,PT05M35.00S,3,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,v,Brown BLOCK (2 BLK),,,1,2,291
+0021800980,388,PT05M31.00S,3,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,v,Brown REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,292
+0021800980,389,PT05M30.00S,3,1610612765,DET,201961,Ellington,W. Ellington,159,208,26,Missed,1,,,0,v,MISS Ellington 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,293
+0021800980,390,PT05M30.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:2 Def:10),Rebound,Unknown,1,0,294
+0021800980,391,PT05M29.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,-6,1,Made,1,70,59,129,v,Drummond 1' Putback Layup (8 PTS),Made Shot,Putback Layup Shot,1,2,295
+0021800980,392,PT05M29.00S,3,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,296
+0021800980,393,PT05M29.00S,3,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,SUB: Arcidiacono FOR Dunn,Substitution,,0,0,297
+0021800980,394,PT05M29.00S,3,1610612765,DET,201961,Ellington,W. Ellington,0,0,0,,0,,,0,v,SUB: Kennard FOR Ellington,Substitution,,0,0,298
+0021800980,397,PT05M13.00S,3,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,8,202,20,Made,1,72,59,131,h,Porter Jr. 20' Pullup Jump Shot (18 PTS),Made Shot,Pullup Jump shot,1,2,299
+0021800980,399,PT04M49.00S,3,1610612765,DET,202704,Jackson,R. Jackson,23,45,5,Missed,1,,,0,v,MISS Jackson 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,300
+0021800980,400,PT04M47.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,301
+0021800980,401,PT04M29.00S,3,1610612741,CHI,201577,Lopez,R. Lopez,26,33,4,Missed,1,,,0,h,MISS Lopez 4' Hook Shot,Missed Shot,Hook Shot,1,2,302
+0021800980,402,PT04M27.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:2 Def:11),Rebound,Unknown,1,0,303
+0021800980,403,PT04M19.00S,3,1610612765,DET,202704,Jackson,R. Jackson,9,15,2,Made,1,72,61,133,v,Jackson 2' Driving Layup (21 PTS),Made Shot,Driving Layup Shot,1,2,304
+0021800980,404,PT04M19.00S,3,1610612741,CHI,201577,Lopez,R. Lopez,0,0,0,,0,,,0,h,Lopez Violation:Defensive Goaltending (J.Goble),Violation,Defensive Goaltending,1,0,305
+0021800980,405,PT03M56.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,-17,-4,2,Made,1,74,61,135,h,LaVine 2' Cutting Layup Shot (15 PTS) (Markkanen 2 AST),Made Shot,Cutting Layup Shot,1,2,306
+0021800980,407,PT03M33.00S,3,1610612765,DET,1628379,Kennard,L. Kennard,-38,257,26,Missed,1,,,0,v,MISS Kennard 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,307
+0021800980,408,PT03M32.00S,3,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Rebound,Rebound,Unknown,0,0,308
+0021800980,410,PT03M32.00S,3,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,,,0,h,SUB: Selden FOR Porter Jr.,Substitution,,0,0,309
+0021800980,411,PT03M32.00S,3,1610612765,DET,202704,Jackson,R. Jackson,0,0,0,,0,,,0,v,SUB: Smith FOR Jackson,Substitution,,0,0,310
+0021800980,412,PT03M32.00S,3,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,v,SUB: Galloway FOR Brown,Substitution,,0,0,311
+0021800980,416,PT03M17.00S,3,1610612741,CHI,201577,Lopez,R. Lopez,0,0,0,,0,,,0,h,Lopez OFF.Foul (P3) (T.Brown),Foul,Offensive,1,0,312
+0021800980,418,PT03M17.00S,3,1610612741,CHI,201577,Lopez,R. Lopez,0,0,0,,0,,,0,h,Lopez Offensive Foul Turnover (P4.T12),Turnover,Offensive Foul Turnover,1,0,313
+0021800980,419,PT02M59.00S,3,1610612765,DET,203083,Drummond,A. Drummond,8,11,1,Made,1,74,63,137,v,Drummond 1' Driving Layup (10 PTS) (Kennard 2 AST),Made Shot,Driving Layup Shot,1,2,314
+0021800980,421,PT02M35.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,-33,63,7,Missed,1,,,0,h,MISS LaVine 7' Jump Shot,Missed Shot,Jump Shot,1,2,315
+0021800980,422,PT02M35.00S,3,0,,1610612765,,,0,0,0,,0,,,0,v,Pistons Rebound,Rebound,Unknown,0,0,316
+0021800980,424,PT02M19.00S,3,1610612765,DET,1628379,Kennard,L. Kennard,63,134,15,Made,1,74,65,139,v,Kennard 15' Step Back Jump Shot (7 PTS),Made Shot,Step Back Jump shot,1,2,317
+0021800980,425,PT02M00.00S,3,1610612741,CHI,1627782,Selden,W. Selden,-56,123,14,Made,1,76,65,141,h,Selden 14' Step Back Jump Shot (3 PTS) (LaVine 2 AST),Made Shot,Step Back Jump shot,1,2,318
+0021800980,427,PT01M40.00S,3,1610612765,DET,1628379,Kennard,L. Kennard,-8,4,1,Made,1,76,67,143,v,Kennard 1' Driving Reverse Layup (9 PTS) (Maker 1 AST),Made Shot,Driving Reverse Layup Shot,1,2,319
+0021800980,429,PT01M16.00S,3,1610612741,CHI,201577,Lopez,R. Lopez,-40,2,4,Missed,1,,,0,h,MISS Lopez 4' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,320
+0021800980,430,PT01M13.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:2 Def:12),Rebound,Unknown,1,0,321
+0021800980,431,PT00M56.10S,3,1610612765,DET,202397,Smith,I. Smith,-136,227,26,Missed,1,,,0,v,MISS Smith 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,322
+0021800980,432,PT00M53.70S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,323
+0021800980,433,PT00M47.40S,3,1610612741,CHI,203897,LaVine,Z. LaVine,-62,42,7,Made,1,78,67,145,h,LaVine 7' Driving Floating Bank Jump Shot (17 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,324
+0021800980,434,PT00M47.40S,3,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,v,Galloway S.FOUL (P3.T4) (T.Brown),Foul,Shooting,1,0,325
+0021800980,436,PT00M47.40S,3,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,SUB: Luwawu-Cabarrot FOR Markkanen,Substitution,,0,0,326
+0021800980,438,PT00M47.40S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,MISS LaVine Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,0,0,327
+0021800980,439,PT00M45.30S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:2 Def:13),Rebound,Unknown,1,0,328
+0021800980,440,PT00M27.00S,3,1610612741,CHI,201577,Lopez,R. Lopez,0,0,0,,0,,,0,h,Lopez S.FOUL (P4.T2) (T.Brown),Foul,Shooting,1,0,329
+0021800980,442,PT00M27.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,78,68,146,v,Drummond Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,0,0,330
+0021800980,443,PT00M27.00S,3,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,SUB: Harrison FOR LaVine,Substitution,,0,0,331
+0021800980,444,PT00M27.00S,3,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,v,SUB: Brown FOR Kennard,Substitution,,0,0,332
+0021800980,447,PT00M27.00S,3,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,78,69,147,v,Drummond Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,0,0,333
+0021800980,448,PT00M06.80S,3,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,-7,6,1,Made,1,80,69,149,h,Arcidiacono 1' Driving Layup (6 PTS),Made Shot,Driving Layup Shot,1,2,334
+0021800980,449,PT00M00.00S,3,1610612765,DET,203083,Drummond,A. Drummond,14,24,3,Missed,1,,,0,v,MISS Drummond 3' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,335
+0021800980,449,PT00M00.00S,3,1610612741,CHI,1627782,Selden,W. Selden,0,0,0,,0,,,0,h,Selden BLOCK (1 BLK),,,1,2,336
+0021800980,451,PT00M00.00S,3,0,,1610612765,,,0,0,0,,0,,,0,v,Pistons Rebound,Rebound,Unknown,0,0,337
+0021800980,452,PT00M00.00S,3,0,,0,,,0,0,0,,0,80,69,149,,End of 3rd Period (9:47 PM EST),period,end,1,0,338
+0021800980,459,PT12M00.00S,4,0,,0,,,0,0,0,,0,80,69,149,,Start of 4th Period (9:49 PM EST),period,start,0,0,339
+0021800980,460,PT11M48.00S,4,1610612765,DET,201933,Griffin,B. Griffin,-20,250,25,Made,1,80,72,152,v,Griffin 25' 3PT Jump Shot (14 PTS) (Smith 3 AST),Made Shot,Jump Shot,1,3,340
+0021800980,462,PT11M28.00S,4,1610612741,CHI,1627885,Harrison,S. Harrison,0,0,0,,0,,,0,h,Harrison Bad Pass Turnover (P1.T13),Turnover,Bad Pass,1,0,341
+0021800980,462,PT11M28.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond STEAL (2 STL),,,1,0,342
+0021800980,464,PT11M24.00S,4,1610612765,DET,204038,Galloway,L. Galloway,179,195,26,Made,1,80,75,155,v,Galloway 26' 3PT Jump Shot (6 PTS) (Smith 4 AST),Made Shot,Jump Shot,1,3,343
+0021800980,466,PT11M13.00S,4,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,v,Galloway P.FOUL (P4.T1) (J.Goble),Foul,Personal,1,0,344
+0021800980,468,PT11M03.00S,4,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,0,73,7,Made,1,82,75,157,h,Arcidiacono 7' Driving Floating Jump Shot (8 PTS),Made Shot,Driving Floating Jump Shot,1,2,345
+0021800980,469,PT10M57.00S,4,1610612741,CHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,0,0,0,,0,,,0,h,Luwawu-Cabarrot S.FOUL (P1.T1) (T.Brown),Foul,Shooting,1,0,346
+0021800980,471,PT10M57.00S,4,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,82,76,158,v,Galloway Free Throw 1 of 3 (7 PTS),Free Throw,Free Throw 1 of 3,0,0,347
+0021800980,472,PT10M57.00S,4,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,82,77,159,v,Galloway Free Throw 2 of 3 (8 PTS),Free Throw,Free Throw 2 of 3,0,0,348
+0021800980,473,PT10M57.00S,4,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,82,78,160,v,Galloway Free Throw 3 of 3 (9 PTS),Free Throw,Free Throw 3 of 3,0,0,349
+0021800980,474,PT10M40.00S,4,1610612741,CHI,1627782,Selden,W. Selden,3,75,8,Made,1,84,78,162,h,Selden 8' Turnaround Jump Shot (5 PTS) (Arcidiacono 3 AST),Made Shot,Turnaround Jump Shot,1,2,350
+0021800980,476,PT10M20.00S,4,1610612765,DET,202397,Smith,I. Smith,0,0,0,,0,,,0,v,Smith Bad Pass Turnover (P2.T15),Turnover,Bad Pass,1,0,351
+0021800980,476,PT10M20.00S,4,1610612741,CHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,0,0,0,,0,,,0,h,Luwawu-Cabarrot STEAL (2 STL),,,1,0,352
+0021800980,478,PT10M17.00S,4,1610612765,DET,201933,Griffin,B. Griffin,0,0,0,,0,,,0,v,Griffin S.FOUL (P1.T2) (B.Nansel),Foul,Shooting,1,0,353
+0021800980,480,PT10M17.00S,4,1610612741,CHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,0,0,0,,0,85,78,163,h,Luwawu-Cabarrot Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,354
+0021800980,481,PT10M17.00S,4,1610612741,CHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,0,0,0,,0,,,0,h,MISS Luwawu-Cabarrot Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,355
+0021800980,482,PT10M15.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:2 Def:14),Rebound,Unknown,1,0,356
+0021800980,483,PT09M54.00S,4,1610612765,DET,204038,Galloway,L. Galloway,76,6,8,Made,1,85,80,165,v,Galloway 8' Floating Jump Shot (11 PTS) (Griffin 2 AST),Made Shot,Floating Jump shot,1,2,357
+0021800980,485,PT09M38.00S,4,1610612741,CHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,-17,-1,2,Missed,1,,,0,h,MISS Luwawu-Cabarrot 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,358
+0021800980,486,PT09M36.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:2 Def:15),Rebound,Unknown,1,0,359
+0021800980,487,PT09M28.00S,4,1610612765,DET,202397,Smith,I. Smith,-13,16,2,Missed,1,,,0,v,MISS Smith 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,360
+0021800980,488,PT09M28.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:3 Def:15),Rebound,Unknown,1,0,361
+0021800980,489,PT09M28.00S,4,1610612765,DET,202397,Smith,I. Smith,0,0,0,,0,,,0,v,Smith Step Out of Bounds Turnover (P3.T16),Turnover,Step Out of Bounds Turnover,1,0,362
+0021800980,490,PT09M16.00S,4,1610612741,CHI,1627782,Selden,W. Selden,-230,22,0,Missed,1,,,0,h,MISS Selden 3PT Jump Shot,Missed Shot,Jump Shot,1,3,363
+0021800980,491,PT09M14.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:3 Def:16),Rebound,Unknown,1,0,364
+0021800980,492,PT09M04.00S,4,1610612765,DET,203083,Drummond,A. Drummond,2,9,1,Made,1,85,82,167,v,Drummond 1' Alley Oop Dunk (14 PTS) (Galloway 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,365
+0021800980,495,PT08M42.00S,4,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,0,0,0,,0,,,0,h,Arcidiacono Out of Bounds Lost Ball Turnover (P2.T14),Turnover,Out of Bounds Lost Ball Turnover,1,0,366
+0021800980,496,PT08M42.00S,4,1610612741,CHI,1627789,Luwawu-Cabarrot,T. Luwawu-Cabarrot,0,0,0,,0,,,0,h,SUB: Markkanen FOR Luwawu-Cabarrot,Substitution,,0,0,367
+0021800980,498,PT08M34.00S,4,1610612765,DET,204038,Galloway,L. Galloway,103,246,27,Made,1,85,85,170,v,Galloway 27' 3PT Jump Shot (14 PTS) (Griffin 3 AST),Made Shot,Jump Shot,1,3,368
+0021800980,500,PT08M16.00S,4,1610612765,DET,201933,Griffin,B. Griffin,0,0,0,,0,,,0,v,Griffin P.FOUL (P2.T3) (B.Nansel),Foul,Personal,1,0,369
+0021800980,502,PT08M16.00S,4,1610612741,CHI,1627782,Selden,W. Selden,0,0,0,,0,,,0,h,SUB: LaVine FOR Selden,Substitution,,0,0,370
+0021800980,504,PT08M11.00S,4,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,v,Kennard S.FOUL (P2.T4) (B.Nansel),Foul,Shooting,1,0,371
+0021800980,506,PT08M11.00S,4,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,0,0,0,,0,86,85,171,h,Arcidiacono Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,0,0,372
+0021800980,507,PT08M11.00S,4,1610612741,CHI,1626245,Felicio,C. Felicio,0,0,0,,0,,,0,h,SUB: Porter Jr. FOR Felicio,Substitution,,0,0,373
+0021800980,509,PT08M11.00S,4,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,0,0,0,,0,,,0,h,MISS Arcidiacono Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,374
+0021800980,510,PT08M08.00S,4,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,0,0,0,,0,,,0,h,Arcidiacono REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,375
+0021800980,511,PT08M02.00S,4,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,24,25,3,Missed,1,,,0,h,MISS Porter Jr. 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,376
+0021800980,512,PT08M00.00S,4,1610612765,DET,202397,Smith,I. Smith,0,0,0,,0,,,0,v,Smith REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,377
+0021800980,513,PT07M58.00S,4,1610612765,DET,1628379,Kennard,L. Kennard,-179,163,24,Made,1,86,88,174,v,Kennard 24' 3PT Jump Shot (12 PTS) (Smith 5 AST),Made Shot,Jump Shot,1,3,378
+0021800980,515,PT07M53.00S,4,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,379
+0021800980,516,PT07M53.00S,4,1610612741,CHI,1627885,Harrison,S. Harrison,0,0,0,,0,,,0,h,SUB: Dunn FOR Harrison,Substitution,,0,0,380
+0021800980,517,PT07M53.00S,4,1610612741,CHI,1627853,Arcidiacono,R. Arcidiacono,0,0,0,,0,,,0,h,SUB: Lopez FOR Arcidiacono,Substitution,,0,0,381
+0021800980,520,PT07M37.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,-24,65,7,Missed,1,,,0,h,MISS Markkanen 7' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,382
+0021800980,521,PT07M36.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:3 Def:17),Rebound,Unknown,1,0,383
+0021800980,522,PT07M17.00S,4,1610612765,DET,204038,Galloway,L. Galloway,-130,-18,13,Missed,1,,,0,v,MISS Galloway 13' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,384
+0021800980,523,PT07M14.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,,,0,h,Markkanen REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,385
+0021800980,524,PT07M06.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,10,1,1,Made,1,88,88,176,h,Markkanen 1' Driving Layup (16 PTS),Made Shot,Driving Layup Shot,1,2,386
+0021800980,525,PT06M48.00S,4,1610612765,DET,202397,Smith,I. Smith,9,173,17,Made,1,88,90,178,v,Smith 17' Pullup Jump Shot (7 PTS),Made Shot,Pullup Jump shot,1,2,387
+0021800980,526,PT06M32.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,-163,193,25,Missed,1,,,0,h,MISS Markkanen 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,388
+0021800980,527,PT06M29.00S,4,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,v,Kennard REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,389
+0021800980,528,PT06M15.00S,4,1610612765,DET,203083,Drummond,A. Drummond,1,4,0,Made,1,88,92,180,v,Drummond Cutting Dunk Shot (16 PTS) (Kennard 3 AST),Made Shot,Cutting Dunk Shot,1,2,390
+0021800980,530,PT05M51.00S,4,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,-181,187,26,Missed,1,,,0,h,MISS Porter Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,391
+0021800980,531,PT05M50.00S,4,1610612765,DET,202397,Smith,I. Smith,0,0,0,,0,,,0,v,Smith REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,392
+0021800980,532,PT05M50.00S,4,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn Personal Take Foul (P1.T2) (B.Nansel),Foul,Personal Take,1,0,393
+0021800980,534,PT05M41.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,16,2,Made,1,88,94,182,v,Drummond 2' Layup (18 PTS) (Smith 6 AST),Made Shot,Layup Shot,1,2,394
+0021800980,536,PT05M41.00S,4,1610612741,CHI,201577,Lopez,R. Lopez,0,0,0,,0,,,0,h,Lopez S.FOUL (P5.T3) (T.Brown),Foul,Shooting,1,0,395
+0021800980,538,PT05M41.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,MISS Drummond Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,0,0,396
+0021800980,539,PT05M39.00S,4,1610612741,CHI,201577,Lopez,R. Lopez,0,0,0,,0,,,0,h,Lopez REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,397
+0021800980,540,PT05M23.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,33,13,4,Missed,1,,,0,h,MISS LaVine 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,398
+0021800980,540,PT05M23.00S,4,1610612765,DET,202397,Smith,I. Smith,0,0,0,,0,,,0,v,Smith BLOCK (1 BLK),,,1,2,399
+0021800980,541,PT05M20.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:3 Def:18),Rebound,Unknown,1,0,400
+0021800980,542,PT05M19.00S,4,1610612765,DET,201933,Griffin,B. Griffin,-10,8,1,Made,1,88,96,184,v,Griffin 1' Running Layup (16 PTS) (Smith 7 AST),Made Shot,Running Layup Shot,1,2,401
+0021800980,545,PT05M19.00S,4,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,402
+0021800980,546,PT05M08.00S,4,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn Out of Bounds Lost Ball Turnover (P2.T15),Turnover,Out of Bounds Lost Ball Turnover,1,0,403
+0021800980,547,PT04M50.00S,4,1610612765,DET,203083,Drummond,A. Drummond,99,1,10,Made,1,88,98,186,v,Drummond 10' Floating Jump Shot (20 PTS) (Galloway 2 AST),Made Shot,Floating Jump shot,1,2,404
+0021800980,549,PT04M34.00S,4,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,81,191,21,Made,1,90,98,188,h,Porter Jr. 21' Jump Shot (20 PTS),Made Shot,Jump Shot,1,2,405
+0021800980,550,PT04M16.00S,4,1610612765,DET,201933,Griffin,B. Griffin,-156,61,17,Missed,1,,,0,v,MISS Griffin 17' Jump Shot,Missed Shot,Jump Shot,1,2,406
+0021800980,551,PT04M14.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,407
+0021800980,553,PT04M08.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,-8,265,27,Made,1,93,98,191,h,LaVine 27' 3PT Jump Shot (20 PTS),Made Shot,Jump Shot,1,3,408
+0021800980,554,PT03M41.00S,4,1610612765,DET,201933,Griffin,B. Griffin,-6,6,1,Made,1,93,100,193,v,Griffin 1' Driving Reverse Layup (18 PTS),Made Shot,Driving Reverse Layup Shot,1,2,409
+0021800980,555,PT03M28.00S,4,1610612741,CHI,201577,Lopez,R. Lopez,-3,74,7,Missed,1,,,0,h,MISS Lopez 7' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,410
+0021800980,555,PT03M28.00S,4,1610612765,DET,202397,Smith,I. Smith,0,0,0,,0,,,0,v,Smith BLOCK (2 BLK),,,1,2,411
+0021800980,557,PT03M24.00S,4,1610612741,CHI,201577,Lopez,R. Lopez,0,0,0,,0,,,0,h,Lopez REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,412
+0021800980,558,PT03M23.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond P.FOUL (P3.PN) (J.Goble),Foul,Personal,1,0,413
+0021800980,560,PT03M23.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,94,100,194,h,Markkanen Free Throw 1 of 2 (17 PTS),Free Throw,Free Throw 1 of 2,0,0,414
+0021800980,561,PT03M23.00S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,0,0,0,,0,95,100,195,h,Markkanen Free Throw 2 of 2 (18 PTS),Free Throw,Free Throw 2 of 2,0,0,415
+0021800980,562,PT03M22.00S,4,0,,1610612765,,,0,0,0,,0,,,0,v,Pistons Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,416
+0021800980,563,PT03M05.00S,4,1610612765,DET,201933,Griffin,B. Griffin,23,5,2,Made,1,95,102,197,v,Griffin 2' Driving Layup (20 PTS),Made Shot,Driving Layup Shot,1,2,417
+0021800980,564,PT02M51.00S,4,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,v,Galloway S.FOUL (P5.PN) (T.Brown),Foul,Shooting,1,0,418
+0021800980,566,PT02M51.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,96,102,198,h,LaVine Free Throw 1 of 2 (21 PTS),Free Throw,Free Throw 1 of 2,0,0,419
+0021800980,567,PT02M51.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,97,102,199,h,LaVine Free Throw 2 of 2 (22 PTS),Free Throw,Free Throw 2 of 2,0,0,420
+0021800980,568,PT02M31.00S,4,1610612765,DET,201933,Griffin,B. Griffin,-15,1,2,Made,1,97,104,201,v,Griffin 2' Driving Layup (22 PTS),Made Shot,Driving Layup Shot,1,2,421
+0021800980,569,PT02M16.00S,4,1610612741,CHI,201577,Lopez,R. Lopez,-8,73,7,Missed,1,,,0,h,MISS Lopez 7' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,422
+0021800980,570,PT02M13.00S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:3 Def:19),Rebound,Unknown,1,0,423
+0021800980,571,PT01M59.00S,4,1610612765,DET,201933,Griffin,B. Griffin,230,93,25,Missed,1,,,0,v,MISS Griffin 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,424
+0021800980,572,PT01M57.00S,4,1610612765,DET,201933,Griffin,B. Griffin,0,0,0,,0,,,0,v,Griffin REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,425
+0021800980,573,PT01M57.00S,4,1610612765,DET,201933,Griffin,B. Griffin,0,-6,1,Made,1,97,106,203,v,Griffin 1' Putback Layup (24 PTS),Made Shot,Putback Layup Shot,1,2,426
+0021800980,574,PT01M57.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine S.FOUL (P2.T4) (T.Brown),Foul,Shooting,1,0,427
+0021800980,576,PT01M57.00S,4,1610612765,DET,201933,Griffin,B. Griffin,0,0,0,,0,97,107,204,v,Griffin Free Throw 1 of 1 (25 PTS),Free Throw,Free Throw 1 of 1,0,0,428
+0021800980,577,PT01M45.00S,4,1610612741,CHI,201577,Lopez,R. Lopez,-5,2,1,Made,1,99,107,206,h,Lopez 1' Cutting Dunk Shot (13 PTS) (Porter Jr. 7 AST),Made Shot,Cutting Dunk Shot,1,2,429
+0021800980,579,PT01M32.00S,4,1610612765,DET,201933,Griffin,B. Griffin,136,227,26,Missed,1,,,0,v,MISS Griffin 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,430
+0021800980,580,PT01M29.00S,4,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,431
+0021800980,581,PT01M24.00S,4,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,120,222,25,Made,1,102,107,209,h,Porter Jr. 25' 3PT Running Pull-Up Jump Shot (23 PTS),Made Shot,Running Pull-Up Jump Shot,1,3,432
+0021800980,582,PT00M59.90S,4,1610612765,DET,201933,Griffin,B. Griffin,116,171,21,Made,1,102,109,211,v,Griffin 21' Turnaround Fadeaway (27 PTS),Made Shot,Turnaround Fadeaway shot,1,2,433
+0021800980,583,PT00M52.50S,4,1610612741,CHI,1628374,Markkanen,L. Markkanen,-122,246,27,Missed,1,,,0,h,MISS Markkanen 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,434
+0021800980,584,PT00M48.30S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:3 Def:20),Rebound,Unknown,1,0,435
+0021800980,585,PT00M43.50S,4,1610612765,DET,202397,Smith,I. Smith,0,0,0,,0,,,0,v,Smith Out of Bounds Lost Ball Turnover (P4.T17),Turnover,Out of Bounds Lost Ball Turnover,1,0,436
+0021800980,586,PT00M43.50S,4,0,,585,,,0,0,0,,0,102,109,211,,Instant Replay4th Period (10:17 PM EST),Instant Replay,Support Ruling,0,0,437
+0021800980,600,PT00M43.50S,4,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,,,0,v,SUB: Brown FOR Kennard,Substitution,,0,0,438
+0021800980,587,PT00M35.70S,4,1610612741,CHI,203897,LaVine,Z. LaVine,-236,-6,24,Missed,1,,,0,h,MISS LaVine 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,439
+0021800980,588,PT00M34.80S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,Drummond REBOUND (Off:3 Def:21),Rebound,Unknown,1,0,440
+0021800980,589,PT00M34.80S,4,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn P.FOUL (P2.PN) (T.Brown),Foul,Personal,1,0,441
+0021800980,591,PT00M34.80S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,MISS Drummond Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,442
+0021800980,592,PT00M34.80S,4,0,,1610612765,,,0,0,0,,0,,,0,v,Pistons Rebound,Rebound,Normal Rebound,0,0,443
+0021800980,593,PT00M34.80S,4,1610612765,DET,203083,Drummond,A. Drummond,0,0,0,,0,,,0,v,MISS Drummond Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,444
+0021800980,594,PT00M33.00S,4,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,445
+0021800980,595,PT00M27.80S,4,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine Out of Bounds Lost Ball Turnover (P5.T16),Turnover,Out of Bounds Lost Ball Turnover,1,0,446
+0021800980,596,PT00M27.80S,4,1610612741,CHI,201577,Lopez,R. Lopez,0,0,0,,0,,,0,h,SUB: Selden FOR Lopez,Substitution,,0,0,447
+0021800980,602,PT00M27.80S,4,1610612765,DET,1628971,Brown,B. Brown,0,0,0,,0,,,0,v,SUB: Kennard FOR Brown,Substitution,,0,0,448
+0021800980,598,PT00M26.80S,4,1610612741,CHI,203897,LaVine,Z. LaVine,0,0,0,,0,,,0,h,LaVine Personal Take Foul (P3.PN) (J.Goble),Foul,Personal Take,1,0,449
+0021800980,604,PT00M26.80S,4,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,102,110,212,v,Kennard Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,1,0,450
+0021800980,605,PT00M26.80S,4,1610612741,CHI,1627782,Selden,W. Selden,0,0,0,,0,,,0,h,SUB: Lopez FOR Selden,Substitution,,0,0,451
+0021800980,606,PT00M26.80S,4,1610612765,DET,202397,Smith,I. Smith,0,0,0,,0,,,0,v,SUB: Brown FOR Smith,Substitution,,0,0,452
+0021800980,609,PT00M26.80S,4,1610612765,DET,1628379,Kennard,L. Kennard,0,0,0,,0,102,111,213,v,Kennard Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,1,0,453
+0021800980,610,PT00M26.80S,4,0,,1610612741,,,0,0,0,,0,,,0,h,BULLS Timeout: Regular (Full 7 Short 0),Timeout,Regular,0,0,454
+0021800980,611,PT00M23.30S,4,1610612741,CHI,203897,LaVine,Z. LaVine,0,13,1,Made,1,104,111,215,h,LaVine 1' Driving Dunk (24 PTS) (Porter Jr. 8 AST),Made Shot,Driving Dunk Shot,1,2,455
+0021800980,613,PT00M21.80S,4,1610612741,CHI,1627739,Dunn,K. Dunn,0,0,0,,0,,,0,h,Dunn Personal Take Foul (P3.PN) (B.Nansel),Foul,Personal Take,1,0,456
+0021800980,615,PT00M21.80S,4,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,,,0,v,MISS Galloway Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,457
+0021800980,616,PT00M21.80S,4,0,,1610612765,,,0,0,0,,0,,,0,v,Pistons Rebound,Rebound,Normal Rebound,0,0,458
+0021800980,617,PT00M21.80S,4,1610612741,CHI,203490,Porter Jr.,O. Porter Jr.,0,0,0,,0,,,0,h,SUB: Arcidiacono FOR Porter Jr.,Substitution,,0,0,459
+0021800980,619,PT00M21.80S,4,1610612765,DET,204038,Galloway,L. Galloway,0,0,0,,0,104,112,216,v,Galloway Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,460
+0021800980,620,PT00M11.50S,4,1610612741,CHI,201577,Lopez,R. Lopez,-18,10,2,Missed,1,,,0,h,MISS Lopez 2' Hook Shot,Missed Shot,Hook Shot,1,2,461
+0021800980,622,PT00M08.60S,4,1610612765,DET,201933,Griffin,B. Griffin,0,0,0,,0,,,0,v,Griffin REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,462
+0021800980,623,PT00M00.00S,4,0,,0,,,0,0,0,,0,104,112,216,,End of 4th Period (10:24 PM EST),period,end,1,0,463

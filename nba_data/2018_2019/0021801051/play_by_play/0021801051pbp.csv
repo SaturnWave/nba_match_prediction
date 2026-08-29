@@ -1,0 +1,464 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021801051,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:11 PM EST),period,start,0,0,1
+0021801051,4,PT12M00.00S,1,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,Jump Ball Portis vs. Gobert: Tip to Favors,Jump Ball,,1,0,2
+0021801051,7,PT11M41.00S,1,1610612762,UTA,202324,Favors,D. Favors,221,122,25,Missed,1,,,0,v,MISS Favors 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,3
+0021801051,8,PT11M36.00S,1,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,h,Beal REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,4
+0021801051,9,PT11M28.00S,1,1610612764,WAS,1626171,Portis,B. Portis,-161,198,26,Missed,1,,,0,h,MISS Portis 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,5
+0021801051,10,PT11M24.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,6
+0021801051,11,PT11M11.00S,1,1610612762,UTA,202324,Favors,D. Favors,-109,36,11,Made,1,0,2,2,v,Favors 11' Hook Shot (2 PTS) (Rubio 1 AST),Made Shot,Hook Shot,1,2,7
+0021801051,13,PT10M54.00S,1,1610612764,WAS,201145,Green,J. Green,38,210,21,Made,1,2,2,4,h,Green 21' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,8
+0021801051,15,PT10M34.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,-19,34,4,Missed,1,,,0,v,MISS Mitchell 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,9
+0021801051,16,PT10M29.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,10
+0021801051,17,PT10M29.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,-6,1,Made,1,2,4,6,v,Gobert 1' Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,11
+0021801051,18,PT10M17.00S,1,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,Portis Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,12
+0021801051,18,PT10M17.00S,1,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio STEAL (1 STL),,,1,0,13
+0021801051,20,PT10M14.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,-220,151,27,Missed,1,,,0,v,MISS Ingles 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,14
+0021801051,21,PT10M10.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,15
+0021801051,22,PT09M59.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,-120,265,29,Missed,1,,,0,v,MISS Mitchell 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,16
+0021801051,23,PT09M56.00S,1,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,17
+0021801051,25,PT09M46.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,116,37,12,Missed,1,,,0,v,MISS Ingles 12' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,18
+0021801051,26,PT09M42.00S,1,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,Portis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,19
+0021801051,27,PT09M37.00S,1,1610612764,WAS,203107,Satoransky,T. Satoransky,-10,1,1,Made,1,4,4,8,h,Satoransky 1' Cutting Layup Shot (2 PTS) (Ariza 1 AST),Made Shot,Cutting Layup Shot,1,2,20
+0021801051,29,PT09M28.00S,1,1610612762,UTA,201937,Rubio,R. Rubio,-22,12,3,Made,1,4,6,10,v,Rubio 3' Driving Reverse Layup (2 PTS),Made Shot,Driving Reverse Layup Shot,1,2,21
+0021801051,30,PT09M17.00S,1,1610612764,WAS,2772,Ariza,T. Ariza,18,15,2,Made,1,6,6,12,h,Ariza 2' Running Reverse Layup (2 PTS) (Satoransky 1 AST),Made Shot,Running Reverse Layup Shot,1,2,22
+0021801051,32,PT09M03.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,-11,1,1,Made,1,6,8,14,v,Gobert 1' Dunk (4 PTS) (Ingles 1 AST),Made Shot,Dunk Shot,1,2,23
+0021801051,34,PT09M03.00S,1,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,Satoransky S.FOUL (P1.T1) (E.Lewis),Foul,Shooting,1,0,24
+0021801051,36,PT09M03.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,6,9,15,v,Gobert Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,0,0,25
+0021801051,37,PT08M49.00S,1,1610612764,WAS,2772,Ariza,T. Ariza,-16,4,2,Made,1,8,9,17,h,Ariza 2' Layup (4 PTS),Made Shot,Layup Shot,1,2,26
+0021801051,38,PT08M32.00S,1,1610612762,UTA,202324,Favors,D. Favors,2,2,0,Made,1,8,11,19,v,Favors Dunk (4 PTS) (Gobert 1 AST),Made Shot,Dunk Shot,1,2,27
+0021801051,40,PT08M11.00S,1,1610612764,WAS,201145,Green,J. Green,-225,100,25,Missed,1,,,0,h,MISS Green 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,28
+0021801051,41,PT08M08.00S,1,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,Satoransky REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,29
+0021801051,42,PT07M57.00S,1,1610612764,WAS,203078,Beal,B. Beal,35,188,19,Missed,1,,,0,h,MISS Beal 19' Jump Shot,Missed Shot,Jump Shot,1,2,30
+0021801051,43,PT07M53.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,31
+0021801051,44,PT07M44.00S,1,1610612762,UTA,201937,Rubio,R. Rubio,13,4,1,Made,1,8,13,21,v,Rubio 1' Driving Finger Roll Layup (4 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,32
+0021801051,45,PT07M44.00S,1,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,33
+0021801051,46,PT07M34.00S,1,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,h,Beal Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,34
+0021801051,46,PT07M34.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert STEAL (1 STL),,,1,0,35
+0021801051,48,PT07M29.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,37,20,4,Missed,1,,,0,v,MISS Mitchell 4' Layup,Missed Shot,Layup Shot,1,2,36
+0021801051,49,PT07M28.00S,1,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Unknown,0,0,37
+0021801051,51,PT07M17.00S,1,1610612764,WAS,1626171,Portis,B. Portis,71,189,20,Missed,1,,,0,h,MISS Portis 20' Jump Shot,Missed Shot,Jump Shot,1,2,38
+0021801051,52,PT07M13.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,39
+0021801051,53,PT06M55.00S,1,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio Out of Bounds - Bad Pass Turnover Turnover (P1.T1),Turnover,Out of Bounds - Bad Pass Turnover,1,0,40
+0021801051,55,PT06M55.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,SUB: O'Neale FOR Ingles,Substitution,,0,0,41
+0021801051,56,PT06M55.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,SUB: Crowder FOR Favors,Substitution,,0,0,42
+0021801051,59,PT06M48.00S,1,1610612764,WAS,2772,Ariza,T. Ariza,197,180,27,Made,1,11,13,24,h,Ariza 27' 3PT Jump Shot (7 PTS) (Satoransky 2 AST),Made Shot,Jump Shot,1,3,43
+0021801051,60,PT06M22.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,-76,144,16,Missed,1,,,0,v,MISS Mitchell 16' Jump Shot,Missed Shot,Jump Shot,1,2,44
+0021801051,61,PT06M19.00S,1,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,Satoransky REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,45
+0021801051,62,PT06M11.00S,1,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,Portis Lost Ball Turnover (P2.T3),Turnover,Lost Ball,1,0,46
+0021801051,62,PT06M11.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell STEAL (1 STL),,,1,0,47
+0021801051,64,PT06M01.00S,1,1610612762,UTA,201937,Rubio,R. Rubio,136,90,16,Missed,1,,,0,v,MISS Rubio 16' Jump Shot,Missed Shot,Jump Shot,1,2,48
+0021801051,65,PT05M57.00S,1,1610612764,WAS,201145,Green,J. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,49
+0021801051,66,PT05M52.00S,1,1610612764,WAS,2772,Ariza,T. Ariza,-160,197,25,Made,1,14,13,27,h,Ariza 25' 3PT Jump Shot (10 PTS) (Green 1 AST),Made Shot,Jump Shot,1,3,50
+0021801051,68,PT05M50.00S,1,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,51
+0021801051,70,PT05M38.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,-33,264,27,Missed,1,,,0,v,MISS Mitchell 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,52
+0021801051,71,PT05M33.00S,1,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,Portis REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,53
+0021801051,72,PT05M14.00S,1,1610612764,WAS,201145,Green,J. Green,-178,179,25,Missed,1,,,0,h,MISS Green 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,54
+0021801051,73,PT05M11.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,55
+0021801051,74,PT05M01.00S,1,1610612762,UTA,203109,Crowder,J. Crowder,154,201,25,Missed,1,,,0,v,MISS Crowder 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,56
+0021801051,75,PT04M56.00S,1,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,Portis REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,57
+0021801051,76,PT04M41.00S,1,1610612764,WAS,203107,Satoransky,T. Satoransky,-81,14,8,Missed,1,,,0,h,MISS Satoransky 8' Hook Shot,Missed Shot,Hook Shot,1,2,58
+0021801051,77,PT04M40.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,59
+0021801051,78,PT04M40.00S,1,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,Satoransky P.FOUL (P2.T2) (E.Lewis),Foul,Personal,1,0,60
+0021801051,80,PT04M40.00S,1,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,SUB: Brown Jr. FOR Satoransky,Substitution,,0,0,61
+0021801051,81,PT04M40.00S,1,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,SUB: Korver FOR Rubio,Substitution,,0,0,62
+0021801051,84,PT04M27.00S,1,1610612762,UTA,1626220,O'Neale,R. O'Neale,-232,21,0,Made,1,14,16,30,v,O'Neale 3PT Jump Shot (3 PTS) (Gobert 2 AST),Made Shot,Jump Shot,1,3,63
+0021801051,86,PT04M14.00S,1,1610612764,WAS,1626171,Portis,B. Portis,83,251,26,Made,1,17,16,33,h,Portis 26' 3PT Jump Shot (3 PTS) (Beal 1 AST),Made Shot,Jump Shot,1,3,64
+0021801051,88,PT03M57.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,38,67,8,Made,1,17,18,35,v,Mitchell 8' Driving Bank Hook Shot (2 PTS) (Crowder 1 AST),Made Shot,Driving Bank Hook Shot,1,2,65
+0021801051,90,PT03M44.00S,1,1610612764,WAS,1626171,Portis,B. Portis,-18,268,27,Missed,1,,,0,h,MISS Portis 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,66
+0021801051,91,PT03M44.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,67
+0021801051,92,PT03M31.00S,1,1610612762,UTA,203109,Crowder,J. Crowder,-22,6,2,Made,1,17,20,37,v,Crowder 2' Layup (2 PTS) (Korver 1 AST),Made Shot,Layup Shot,1,2,68
+0021801051,94,PT03M17.00S,1,1610612764,WAS,2772,Ariza,T. Ariza,163,204,26,Missed,1,,,0,h,MISS Ariza 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,69
+0021801051,95,PT03M17.00S,1,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,70
+0021801051,97,PT02M54.00S,1,1610612762,UTA,203109,Crowder,J. Crowder,230,94,25,Missed,1,,,0,v,MISS Crowder 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,71
+0021801051,98,PT02M51.00S,1,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,Portis REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,72
+0021801051,99,PT02M44.00S,1,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale P.FOUL (P1.T1) (A.Moyer-Gleich),Foul,Personal,1,0,73
+0021801051,101,PT02M44.00S,1,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,SUB: Bryant FOR Portis,Substitution,,0,0,74
+0021801051,102,PT02M44.00S,1,1610612764,WAS,201145,Green,J. Green,0,0,0,,0,,,0,h,SUB: Parker FOR Green,Substitution,,0,0,75
+0021801051,103,PT02M44.00S,1,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,SUB: Favors FOR O'Neale,Substitution,,0,0,76
+0021801051,104,PT02M44.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,SUB: Neto FOR Gobert,Substitution,,0,0,77
+0021801051,105,PT02M44.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,SUB: Ingles FOR Mitchell,Substitution,,0,0,78
+0021801051,111,PT02M38.00S,1,1610612764,WAS,203078,Beal,B. Beal,199,176,27,Missed,1,,,0,h,MISS Beal 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,79
+0021801051,112,PT02M38.00S,1,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Unknown,0,0,80
+0021801051,114,PT02M33.00S,1,1610612764,WAS,203078,Beal,B. Beal,214,150,26,Missed,1,,,0,h,MISS Beal 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,81
+0021801051,115,PT02M32.00S,1,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,82
+0021801051,117,PT02M15.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,-138,43,14,Made,1,17,22,39,v,Ingles 14' Driving Floating Jump Shot (2 PTS) (Neto 1 AST),Made Shot,Driving Floating Jump Shot,1,2,83
+0021801051,119,PT02M02.00S,1,1610612764,WAS,1628418,Bryant,T. Bryant,58,183,19,Made,1,19,22,41,h,Bryant 19' Jump Shot (2 PTS) (Brown Jr. 1 AST),Made Shot,Jump Shot,1,2,84
+0021801051,121,PT01M47.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,-181,205,27,Missed,1,,,0,v,MISS Ingles 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,85
+0021801051,122,PT01M43.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,86
+0021801051,123,PT01M41.00S,1,1610612762,UTA,2594,Korver,K. Korver,74,253,26,Made,1,19,25,44,v,Korver 26' 3PT Jump Shot (3 PTS) (Favors 1 AST),Made Shot,Jump Shot,1,3,87
+0021801051,125,PT01M22.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles S.FOUL (P1.T2) (M.Lindsay),Foul,Shooting,1,0,88
+0021801051,127,PT01M22.00S,1,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,20,25,45,h,Beal Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,89
+0021801051,128,PT01M22.00S,1,1610612764,WAS,2772,Ariza,T. Ariza,0,0,0,,0,,,0,h,SUB: Randle FOR Ariza,Substitution,,0,0,90
+0021801051,130,PT01M22.00S,1,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,21,25,46,h,Beal Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,91
+0021801051,131,PT01M13.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,-232,2,0,Missed,1,,,0,v,MISS Ingles 3PT Jump Shot,Missed Shot,Jump Shot,1,3,92
+0021801051,132,PT01M08.00S,1,1610612764,WAS,1628418,Bryant,T. Bryant,0,0,0,,0,,,0,h,Bryant REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,93
+0021801051,133,PT01M08.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles Personal Take Foul (P2.PN) (E.Lewis),Foul,Personal Take,1,0,94
+0021801051,135,PT01M08.00S,1,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,22,25,47,h,Beal Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,95
+0021801051,136,PT01M08.00S,1,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,h,MISS Beal Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,96
+0021801051,137,PT01M05.00S,1,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,97
+0021801051,138,PT00M53.80S,1,1610612762,UTA,204060,Ingles,J. Ingles,-181,199,27,Made,1,22,28,50,v,Ingles 27' 3PT Jump Shot (5 PTS) (Neto 2 AST),Made Shot,Jump Shot,1,3,98
+0021801051,140,PT00M34.20S,1,1610612764,WAS,1628418,Bryant,T. Bryant,0,0,0,,0,,,0,h,Bryant Step Out of Bounds Turnover (P1.T4),Turnover,Step Out of Bounds Turnover,1,0,99
+0021801051,141,PT00M26.60S,1,1610612762,UTA,204060,Ingles,J. Ingles,225,94,24,Made,1,22,31,53,v,Ingles 24' 3PT Jump Shot (8 PTS) (Crowder 2 AST),Made Shot,Jump Shot,1,3,100
+0021801051,143,PT00M05.20S,1,1610612764,WAS,1626184,Randle,C. Randle,32,21,4,Made,1,24,31,55,h,Randle 4' Cutting Finger Roll Layup Shot (2 PTS) (Beal 2 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,101
+0021801051,145,PT00M00.00S,1,1610612762,UTA,203526,Neto,R. Neto,-174,252,31,Missed,1,,,0,v,MISS Neto 31' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,102
+0021801051,146,PT00M00.00S,1,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,103
+0021801051,147,PT00M00.00S,1,0,,0,,,0,0,0,,0,24,31,55,,End of 1st Period (7:35 PM EST),period,end,1,0,104
+0021801051,150,PT12M00.00S,2,0,,0,,,0,0,0,,0,24,31,55,,Start of 2nd Period (7:37 PM EST),period,start,0,0,105
+0021801051,151,PT11M42.00S,2,1610612764,WAS,203953,Parker,J. Parker,8,15,2,Made,1,26,31,57,h,Parker 2' Driving Layup (2 PTS) (Randle 1 AST),Made Shot,Driving Layup Shot,1,2,106
+0021801051,153,PT11M21.00S,2,1610612762,UTA,203109,Crowder,J. Crowder,82,38,9,Made,1,26,33,59,v,Crowder 9' Driving Floating Bank Jump Shot (4 PTS) (Ingles 2 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,107
+0021801051,155,PT11M09.00S,2,1610612764,WAS,1628972,Brown Jr.,T. Brown Jr.,41,38,6,Missed,1,,,0,h,MISS Brown Jr. 6' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,108
+0021801051,156,PT11M06.00S,2,1610612764,WAS,1628418,Bryant,T. Bryant,0,0,0,,0,,,0,h,Bryant REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,109
+0021801051,157,PT11M05.00S,2,1610612764,WAS,1628418,Bryant,T. Bryant,-22,19,3,Missed,1,,,0,h,MISS Bryant 3' Jump Shot,Missed Shot,Jump Shot,1,2,110
+0021801051,157,PT11M05.00S,2,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder BLOCK (1 BLK),,,1,2,111
+0021801051,158,PT11M03.00S,2,1610612764,WAS,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,h,Brown Jr. REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,112
+0021801051,159,PT11M01.00S,2,1610612764,WAS,203953,Parker,J. Parker,217,155,27,Missed,1,,,0,h,MISS Parker 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,113
+0021801051,160,PT10M57.00S,2,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,114
+0021801051,161,PT10M47.00S,2,1610612764,WAS,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,h,Brown Jr. P.FOUL (P1.T1) (A.Moyer-Gleich),Foul,Personal,1,0,115
+0021801051,163,PT10M47.00S,2,0,,2623,,,0,0,0,,0,,,0,,Scott Brooks Foul:T.FOUL (A.Moyer-Gleich),Foul,Technical,1,0,116
+0021801051,164,PT10M47.00S,2,1610612762,UTA,2594,Korver,K. Korver,0,0,0,,0,26,34,60,v,Korver Free Throw Technical (4 PTS),Free Throw,Free Throw Technical,0,0,117
+0021801051,166,PT10M38.00S,2,1610612762,UTA,203109,Crowder,J. Crowder,-145,235,28,Missed,1,,,0,v,MISS Crowder 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,118
+0021801051,167,PT10M33.00S,2,1610612764,WAS,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,h,Brown Jr. REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,119
+0021801051,168,PT10M22.00S,2,1610612764,WAS,1626184,Randle,C. Randle,-140,218,26,Made,1,29,34,63,h,Randle 26' 3PT Jump Shot (5 PTS) (Satoransky 3 AST),Made Shot,Jump Shot,1,3,120
+0021801051,171,PT10M13.00S,2,1610612762,UTA,203526,Neto,R. Neto,-26,181,18,Made,1,29,36,65,v,Neto 18' Jump Shot (2 PTS),Made Shot,Jump Shot,1,2,121
+0021801051,172,PT09M55.00S,2,1610612764,WAS,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,h,Brown Jr. Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,122
+0021801051,172,PT09M55.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles STEAL (1 STL),,,1,0,123
+0021801051,174,PT09M53.00S,2,1610612762,UTA,203526,Neto,R. Neto,2,26,3,Made,1,29,38,67,v,Neto 3' Layup (4 PTS) (Ingles 3 AST),Made Shot,Layup Shot,1,2,124
+0021801051,175,PT09M53.00S,2,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,125
+0021801051,178,PT09M53.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,SUB: Niang FOR Ingles,Substitution,,0,0,126
+0021801051,179,PT09M53.00S,2,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,SUB: O'Neale FOR Crowder,Substitution,,0,0,127
+0021801051,182,PT09M34.00S,2,1610612764,WAS,203107,Satoransky,T. Satoransky,-81,36,9,Made,1,31,38,69,h,Satoransky 9' Driving Floating Jump Shot (4 PTS),Made Shot,Driving Floating Jump Shot,1,2,128
+0021801051,183,PT09M18.00S,2,1610612762,UTA,2594,Korver,K. Korver,147,209,26,Made,1,31,41,72,v,Korver 26' 3PT Pullup Jump Shot (7 PTS) (Favors 2 AST),Made Shot,Pullup Jump shot,1,3,129
+0021801051,185,PT09M00.00S,2,1610612764,WAS,203107,Satoransky,T. Satoransky,-13,22,3,Made,1,33,41,74,h,Satoransky 3' Running Jump Shot (6 PTS),Made Shot,Running Jump Shot,1,2,130
+0021801051,186,PT08M39.00S,2,1610612762,UTA,202324,Favors,D. Favors,-149,67,16,Missed,1,,,0,v,MISS Favors 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,131
+0021801051,187,PT08M34.00S,2,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,h,Parker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,132
+0021801051,188,PT08M29.00S,2,1610612764,WAS,203953,Parker,J. Parker,78,48,9,Made,1,35,41,76,h,Parker 9' Driving Floating Bank Jump Shot (4 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,133
+0021801051,189,PT08M08.00S,2,1610612762,UTA,1627777,Niang,G. Niang,9,23,2,Made,1,35,43,78,v,Niang 2' Driving Finger Roll Layup (2 PTS) (Neto 3 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,134
+0021801051,191,PT08M08.00S,2,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,h,Parker S.FOUL (P1.T2) (A.Moyer-Gleich),Foul,Shooting,1,0,135
+0021801051,193,PT08M08.00S,2,1610612762,UTA,203526,Neto,R. Neto,0,0,0,,0,,,0,v,SUB: Mitchell FOR Neto,Substitution,,0,0,136
+0021801051,195,PT08M08.00S,2,1610612762,UTA,1627777,Niang,G. Niang,0,0,0,,0,,,0,v,MISS Niang Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,0,0,137
+0021801051,196,PT08M05.00S,2,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,h,Parker REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,138
+0021801051,197,PT07M47.00S,2,1610612764,WAS,1628418,Bryant,T. Bryant,25,55,6,Missed,1,,,0,h,MISS Bryant 6' Layup,Missed Shot,Layup Shot,1,2,139
+0021801051,197,PT07M47.00S,2,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors BLOCK (1 BLK),,,1,2,140
+0021801051,199,PT07M47.00S,2,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,141
+0021801051,200,PT07M47.00S,2,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,SUB: Gobert FOR Favors,Substitution,,0,0,142
+0021801051,202,PT07M36.00S,2,1610612762,UTA,2594,Korver,K. Korver,16,269,27,Missed,1,,,0,v,MISS Korver 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,143
+0021801051,203,PT07M31.00S,2,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,h,Parker REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,144
+0021801051,204,PT07M29.00S,2,1610612764,WAS,203953,Parker,J. Parker,-55,155,16,Missed,1,,,0,h,MISS Parker 16' Jump Shot,Missed Shot,Jump Shot,1,2,145
+0021801051,205,PT07M25.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,146
+0021801051,206,PT07M04.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,165,85,19,Missed,1,,,0,v,MISS Mitchell 19' Jump Shot,Missed Shot,Jump Shot,1,2,147
+0021801051,206,PT07M04.00S,2,1610612764,WAS,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,h,Brown Jr. BLOCK (1 BLK),,,1,2,148
+0021801051,207,PT07M01.00S,2,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,h,Parker REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,149
+0021801051,208,PT06M54.00S,2,1610612764,WAS,203953,Parker,J. Parker,5,16,2,Made,1,37,43,80,h,Parker 2' Cutting Layup Shot (6 PTS) (Randle 2 AST),Made Shot,Cutting Layup Shot,1,2,150
+0021801051,210,PT06M54.00S,2,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,151
+0021801051,212,PT06M54.00S,2,1610612764,WAS,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,h,SUB: Beal FOR Brown Jr.,Substitution,,0,0,152
+0021801051,213,PT06M54.00S,2,1610612764,WAS,1626184,Randle,C. Randle,0,0,0,,0,,,0,h,SUB: Green FOR Randle,Substitution,,0,0,153
+0021801051,214,PT06M54.00S,2,1610612762,UTA,2594,Korver,K. Korver,0,0,0,,0,,,0,v,SUB: Rubio FOR Korver,Substitution,,0,0,154
+0021801051,218,PT06M41.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio Out of Bounds - Bad Pass Turnover Turnover (P2.T2),Turnover,Out of Bounds - Bad Pass Turnover,1,0,155
+0021801051,219,PT06M21.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell P.FOUL (P1.T1) (E.Lewis),Foul,Personal,1,0,156
+0021801051,221,PT06M09.00S,2,1610612764,WAS,203953,Parker,J. Parker,109,27,11,Made,1,39,43,82,h,Parker 11' Turnaround Jump Shot (8 PTS),Made Shot,Turnaround Jump Shot,1,2,157
+0021801051,222,PT05M50.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,14,11,2,Made,1,39,45,84,v,Mitchell 2' Cutting Finger Roll Layup Shot (4 PTS) (Rubio 2 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,158
+0021801051,224,PT05M36.00S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale P.FOUL (P2.T2) (A.Moyer-Gleich),Foul,Personal,1,0,159
+0021801051,226,PT05M36.00S,2,1610612762,UTA,1627777,Niang,G. Niang,0,0,0,,0,,,0,v,SUB: Crowder FOR Niang,Substitution,,0,0,160
+0021801051,228,PT05M28.00S,2,1610612764,WAS,203078,Beal,B. Beal,186,26,19,Made,1,41,45,86,h,Beal 19' Pullup Jump Shot (5 PTS),Made Shot,Pullup Jump shot,1,2,161
+0021801051,229,PT05M08.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,58,256,26,Made,1,41,48,89,v,Mitchell 26' 3PT Jump Shot (7 PTS) (O'Neale 1 AST),Made Shot,Jump Shot,1,3,162
+0021801051,231,PT04M46.00S,2,1610612764,WAS,1628418,Bryant,T. Bryant,3,43,4,Missed,1,,,0,h,MISS Bryant 4' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,163
+0021801051,231,PT04M46.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell BLOCK (1 BLK),,,1,2,164
+0021801051,233,PT04M42.00S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,165
+0021801051,234,PT04M30.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,-231,16,0,Missed,1,,,0,v,MISS Rubio 3PT Jump Shot,Missed Shot,Jump Shot,1,3,166
+0021801051,235,PT04M26.00S,2,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,h,Parker REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,167
+0021801051,236,PT04M26.00S,2,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,h,Parker Lost Ball Turnover (P1.T6),Turnover,Lost Ball,1,0,168
+0021801051,236,PT04M26.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio STEAL (2 STL),,,1,0,169
+0021801051,238,PT04M25.00S,2,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,h,Parker P.FOUL (P2.T3) (A.Moyer-Gleich),Foul,Personal,1,0,170
+0021801051,240,PT04M25.00S,2,1610612764,WAS,1628418,Bryant,T. Bryant,0,0,0,,0,,,0,h,SUB: Ariza FOR Bryant,Substitution,,0,0,171
+0021801051,241,PT04M25.00S,2,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,SUB: Portis FOR Satoransky,Substitution,,0,0,172
+0021801051,242,PT04M25.00S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,SUB: Ingles FOR O'Neale,Substitution,,0,0,173
+0021801051,246,PT04M04.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,174
+0021801051,246,PT04M04.00S,2,1610612764,WAS,201145,Green,J. Green,0,0,0,,0,,,0,h,Green STEAL (1 STL),,,1,0,175
+0021801051,248,PT03M59.00S,2,1610612764,WAS,2772,Ariza,T. Ariza,9,11,1,Made,1,43,48,91,h,Ariza 1' Layup (12 PTS) (Green 2 AST),Made Shot,Layup Shot,1,2,176
+0021801051,250,PT03M35.00S,2,1610612762,UTA,203109,Crowder,J. Crowder,-232,64,24,Missed,1,,,0,v,MISS Crowder 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,177
+0021801051,251,PT03M35.00S,2,1610612764,WAS,201145,Green,J. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,178
+0021801051,252,PT03M26.00S,2,1610612764,WAS,203953,Parker,J. Parker,9,8,1,Made,1,45,48,93,h,Parker 1' Layup (10 PTS),Made Shot,Layup Shot,1,2,179
+0021801051,253,PT03M26.00S,2,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,180
+0021801051,254,PT03M15.00S,2,1610612762,UTA,203109,Crowder,J. Crowder,18,53,6,Made,1,45,50,95,v,Crowder 6' Driving Floating Jump Shot (6 PTS) (Rubio 3 AST),Made Shot,Driving Floating Jump Shot,1,2,181
+0021801051,256,PT02M56.00S,2,1610612764,WAS,203078,Beal,B. Beal,-71,267,28,Missed,1,,,0,h,MISS Beal 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,182
+0021801051,257,PT02M53.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,183
+0021801051,258,PT02M38.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio Bad Pass Turnover (P3.T4),Turnover,Bad Pass,1,0,184
+0021801051,258,PT02M38.00S,2,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,h,Parker STEAL (1 STL),,,1,0,185
+0021801051,260,PT02M28.00S,2,1610612764,WAS,201145,Green,J. Green,-25,15,3,Missed,1,,,0,h,MISS Green 3' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,186
+0021801051,261,PT02M26.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,187
+0021801051,262,PT02M22.00S,2,1610612762,UTA,203109,Crowder,J. Crowder,-7,8,1,Made,1,45,52,97,v,Crowder 1' Layup (8 PTS) (Rubio 4 AST),Made Shot,Layup Shot,1,2,188
+0021801051,264,PT02M14.00S,2,1610612764,WAS,203953,Parker,J. Parker,60,3,6,Missed,1,,,0,h,MISS Parker 6' Layup,Missed Shot,Layup Shot,1,2,189
+0021801051,264,PT02M14.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert BLOCK (1 BLK),,,1,2,190
+0021801051,266,PT02M14.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,191
+0021801051,267,PT02M04.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,-66,254,26,Missed,1,,,0,v,MISS Ingles 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,192
+0021801051,268,PT02M00.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,193
+0021801051,269,PT01M58.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,-94,246,26,Made,1,45,55,100,v,Ingles 26' 3PT Jump Shot (11 PTS) (Rubio 5 AST),Made Shot,Jump Shot,1,3,194
+0021801051,271,PT01M55.00S,2,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,195
+0021801051,272,PT01M55.00S,2,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,h,SUB: Satoransky FOR Parker,Substitution,,0,0,196
+0021801051,274,PT01M35.00S,2,1610612764,WAS,201145,Green,J. Green,177,85,20,Missed,1,,,0,h,MISS Green 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,197
+0021801051,275,PT01M30.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,198
+0021801051,276,PT01M20.00S,2,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,Portis P.FOUL (P1.T4) (E.Lewis),Foul,Personal,1,0,199
+0021801051,278,PT01M10.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,-14,27,3,Made,1,45,57,102,v,Gobert 3' Finger Roll Layup (7 PTS) (Ingles 4 AST),Made Shot,Finger Roll Layup Shot,1,2,200
+0021801051,280,PT00M54.70S,2,1610612764,WAS,201145,Green,J. Green,-122,230,26,Missed,1,,,0,h,MISS Green 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,201
+0021801051,281,PT00M52.20S,2,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,202
+0021801051,282,PT00M42.40S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell Out of Bounds - Bad Pass Turnover Turnover (P1.T5),Turnover,Out of Bounds - Bad Pass Turnover,1,0,203
+0021801051,283,PT00M35.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert Violation:Kicked Ball (E.Lewis),Violation,Kicked Ball,0,0,204
+0021801051,284,PT00M31.00S,2,1610612764,WAS,203078,Beal,B. Beal,-46,6,5,Missed,1,,,0,h,MISS Beal 5' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,205
+0021801051,285,PT00M28.80S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,206
+0021801051,286,PT00M13.70S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert Traveling Turnover (P1.T6),Turnover,Traveling,1,0,207
+0021801051,287,PT00M04.80S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles P.FOUL (P3.T3) (E.Lewis),Foul,Personal,1,0,208
+0021801051,289,PT00M04.80S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,SUB: O'Neale FOR Ingles,Substitution,,0,0,209
+0021801051,291,PT00M01.10S,2,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,h,Beal Out of Bounds - Bad Pass Turnover Turnover (P2.T7),Turnover,Out of Bounds - Bad Pass Turnover,1,0,210
+0021801051,292,PT00M00.00S,2,0,,0,,,0,0,0,,0,45,57,102,,End of 2nd Period (8:03 PM EST),period,end,1,0,211
+0021801051,295,PT12M00.00S,3,0,,0,,,0,0,0,,0,45,57,102,,Start of 3rd Period (8:19 PM EST),period,start,0,0,212
+0021801051,296,PT11M45.00S,3,1610612764,WAS,1626171,Portis,B. Portis,5,47,5,Missed,1,,,0,h,MISS Portis 5' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,213
+0021801051,297,PT11M42.00S,3,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,Portis REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,214
+0021801051,298,PT11M42.00S,3,1610612764,WAS,1626171,Portis,B. Portis,0,-6,1,Made,1,47,57,104,h,Portis 1' Tip Layup Shot (5 PTS),Made Shot,Tip Layup Shot,1,2,215
+0021801051,299,PT11M16.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,7,177,18,Made,1,47,59,106,v,Ingles 18' Pullup Jump Shot (13 PTS),Made Shot,Pullup Jump shot,1,2,216
+0021801051,300,PT10M59.00S,3,1610612764,WAS,203078,Beal,B. Beal,138,39,14,Made,1,49,59,108,h,Beal 14' Fadeaway Jumper (7 PTS),Made Shot,Fadeaway Jump Shot,1,2,217
+0021801051,301,PT10M42.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell Bad Pass Turnover (P2.T7),Turnover,Bad Pass,1,0,218
+0021801051,301,PT10M42.00S,3,1610612764,WAS,201145,Green,J. Green,0,0,0,,0,,,0,h,Green STEAL (2 STL),,,1,0,219
+0021801051,303,PT10M25.00S,3,1610612764,WAS,2772,Ariza,T. Ariza,14,20,2,Missed,1,,,0,h,MISS Ariza 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,220
+0021801051,304,PT10M22.00S,3,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,221
+0021801051,305,PT10M10.00S,3,1610612762,UTA,201937,Rubio,R. Rubio,-10,3,1,Made,1,49,61,110,v,Rubio 1' Driving Layup (6 PTS),Made Shot,Driving Layup Shot,1,2,222
+0021801051,306,PT09M55.00S,3,1610612764,WAS,1626171,Portis,B. Portis,-14,265,27,Made,1,52,61,113,h,Portis 27' 3PT Pullup Jump Shot (8 PTS) (Satoransky 4 AST),Made Shot,Pullup Jump shot,1,3,223
+0021801051,308,PT09M35.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,-228,21,0,Made,1,52,64,116,v,Mitchell 3PT Jump Shot (10 PTS) (Gobert 3 AST),Made Shot,Jump Shot,1,3,224
+0021801051,310,PT09M21.00S,3,1610612764,WAS,1626171,Portis,B. Portis,-63,268,28,Made,1,55,64,119,h,Portis 28' 3PT Jump Shot (11 PTS) (Satoransky 5 AST),Made Shot,Jump Shot,1,3,225
+0021801051,312,PT09M00.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,235,61,24,Made,1,55,67,122,v,Ingles 24' 3PT Step Back Jump Shot (16 PTS) (Crowder 3 AST),Made Shot,Step Back Jump shot,1,3,226
+0021801051,314,PT08M50.00S,3,1610612764,WAS,201145,Green,J. Green,225,60,0,Made,1,58,67,125,h,Green 3PT Jump Shot (5 PTS) (Ariza 2 AST),Made Shot,Jump Shot,1,3,227
+0021801051,316,PT08M45.00S,3,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,228
+0021801051,317,PT08M35.00S,3,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,Portis S.FOUL (P2.T1) (M.Lindsay),Foul,Shooting,1,0,229
+0021801051,319,PT08M35.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,MISS Gobert Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,230
+0021801051,320,PT08M35.00S,3,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Normal Rebound,0,0,231
+0021801051,321,PT08M35.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,58,68,126,v,Gobert Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,232
+0021801051,322,PT08M24.00S,3,1610612764,WAS,203078,Beal,B. Beal,135,26,14,Missed,1,,,0,h,MISS Beal 14' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,233
+0021801051,323,PT08M16.00S,3,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,234
+0021801051,324,PT08M10.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles Step Out of Bounds Turnover (P2.T8),Turnover,Step Out of Bounds Turnover,1,0,235
+0021801051,325,PT07M58.00S,3,1610612764,WAS,203107,Satoransky,T. Satoransky,-65,264,27,Missed,1,,,0,h,MISS Satoransky 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,236
+0021801051,326,PT07M53.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:3 Def:8),Rebound,Unknown,1,0,237
+0021801051,327,PT07M48.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,5,8,1,Made,1,58,70,128,v,Mitchell 1' Driving Layup (12 PTS),Made Shot,Driving Layup Shot,1,2,238
+0021801051,328,PT07M29.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell P.FOUL (P2.T1) (M.Lindsay),Foul,Personal,1,0,239
+0021801051,330,PT07M18.00S,3,1610612764,WAS,2772,Ariza,T. Ariza,0,0,0,,0,,,0,h,Ariza Traveling Turnover (P1.T8),Turnover,Traveling,1,0,240
+0021801051,331,PT06M56.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,1,-7,1,Made,1,58,72,130,v,Gobert 1' Dunk (10 PTS) (Rubio 6 AST),Made Shot,Dunk Shot,1,2,241
+0021801051,333,PT06M39.00S,3,1610612764,WAS,1626171,Portis,B. Portis,-170,212,27,Missed,1,,,0,h,MISS Portis 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,242
+0021801051,334,PT06M35.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:3 Def:9),Rebound,Unknown,1,0,243
+0021801051,335,PT06M32.00S,3,1610612762,UTA,203109,Crowder,J. Crowder,14,15,2,Made,1,58,74,132,v,Crowder 2' Cutting Layup Shot (10 PTS) (Mitchell 1 AST),Made Shot,Cutting Layup Shot,1,2,244
+0021801051,337,PT06M32.00S,3,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,245
+0021801051,338,PT06M32.00S,3,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,h,SUB: Parker FOR Portis,Substitution,,0,0,246
+0021801051,341,PT06M15.00S,3,1610612764,WAS,203107,Satoransky,T. Satoransky,-16,5,2,Made,1,60,74,134,h,Satoransky 2' Cutting Layup Shot (8 PTS) (Ariza 3 AST),Made Shot,Cutting Layup Shot,1,2,247
+0021801051,343,PT05M59.00S,3,1610612762,UTA,203109,Crowder,J. Crowder,218,138,26,Made,1,60,77,137,v,Crowder 26' 3PT Jump Shot (13 PTS) (Rubio 7 AST),Made Shot,Jump Shot,1,3,248
+0021801051,345,PT05M50.00S,3,1610612764,WAS,203953,Parker,J. Parker,-212,175,27,Missed,1,,,0,h,MISS Parker 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,249
+0021801051,346,PT05M50.00S,3,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,250
+0021801051,348,PT05M39.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,2,-1,0,Made,1,60,79,139,v,Mitchell Alley Oop Dunk (14 PTS) (Rubio 8 AST),Made Shot,Alley Oop Dunk Shot,1,2,251
+0021801051,350,PT05M30.00S,3,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,h,Parker OFF.Foul (P3) (M.Lindsay),Foul,Offensive,1,0,252
+0021801051,352,PT05M30.00S,3,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,h,Parker Offensive Foul Turnover (P2.T9),Turnover,Offensive Foul Turnover,1,0,253
+0021801051,353,PT05M30.00S,3,1610612764,WAS,201145,Green,J. Green,0,0,0,,0,,,0,h,SUB: Bryant FOR Green,Substitution,,0,0,254
+0021801051,354,PT05M30.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,SUB: O'Neale FOR Ingles,Substitution,,0,0,255
+0021801051,357,PT05M19.00S,3,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio Bad Pass Turnover (P4.T9),Turnover,Bad Pass,1,0,256
+0021801051,357,PT05M19.00S,3,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,h,Parker STEAL (2 STL),,,1,0,257
+0021801051,359,PT05M14.00S,3,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio P.FOUL (P1.T2) (E.Lewis),Foul,Personal,1,0,258
+0021801051,361,PT05M08.00S,3,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder S.FOUL (P1.T3) (M.Lindsay),Foul,Shooting,1,0,259
+0021801051,363,PT05M08.00S,3,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,61,79,140,h,Beal Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,0,0,260
+0021801051,364,PT05M08.00S,3,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,62,79,141,h,Beal Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,0,0,261
+0021801051,365,PT04M57.00S,3,1610612762,UTA,1626220,O'Neale,R. O'Neale,225,62,0,Missed,1,,,0,v,MISS O'Neale 3PT Jump Shot,Missed Shot,Jump Shot,1,3,262
+0021801051,366,PT04M53.00S,3,1610612764,WAS,2772,Ariza,T. Ariza,0,0,0,,0,,,0,h,Ariza REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,263
+0021801051,367,PT04M45.00S,3,1610612764,WAS,1628418,Bryant,T. Bryant,16,16,2,Missed,1,,,0,h,MISS Bryant 2' Layup,Missed Shot,Layup Shot,1,2,264
+0021801051,368,PT04M45.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,265
+0021801051,369,PT04M39.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell Bad Pass Turnover (P3.T10),Turnover,Bad Pass,1,0,266
+0021801051,369,PT04M39.00S,3,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,Satoransky STEAL (1 STL),,,1,0,267
+0021801051,371,PT04M38.00S,3,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder Personal Take Foul (P2.T4) (E.Lewis),Foul,Personal Take,1,0,268
+0021801051,373,PT04M38.00S,3,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,SUB: Neto FOR Rubio,Substitution,,0,0,269
+0021801051,374,PT04M38.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,SUB: Korver FOR Mitchell,Substitution,,0,0,270
+0021801051,375,PT04M38.00S,3,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,SUB: Niang FOR Crowder,Substitution,,0,0,271
+0021801051,379,PT04M30.00S,3,1610612764,WAS,203078,Beal,B. Beal,27,22,3,Missed,1,,,0,h,MISS Beal 3' Layup,Missed Shot,Layup Shot,1,2,272
+0021801051,380,PT04M30.00S,3,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Unknown,0,0,273
+0021801051,381,PT04M30.00S,3,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale L.B.FOUL (P3.PN) (M.Lindsay),Foul,Loose Ball,1,0,274
+0021801051,383,PT04M30.00S,3,1610612764,WAS,1628418,Bryant,T. Bryant,0,0,0,,0,63,79,142,h,Bryant Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,275
+0021801051,384,PT04M30.00S,3,1610612764,WAS,1628418,Bryant,T. Bryant,0,0,0,,0,,,0,h,MISS Bryant Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,276
+0021801051,385,PT04M26.00S,3,1610612762,UTA,1627777,Niang,G. Niang,0,0,0,,0,,,0,v,Niang REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,277
+0021801051,386,PT04M17.00S,3,1610612762,UTA,203526,Neto,R. Neto,0,0,0,,0,,,0,v,Neto Out of Bounds Lost Ball Turnover (P1.T11),Turnover,Out of Bounds Lost Ball Turnover,1,0,278
+0021801051,387,PT04M07.00S,3,1610612764,WAS,203078,Beal,B. Beal,81,180,20,Made,1,65,79,144,h,Beal 20' Pullup Jump Shot (11 PTS) (Satoransky 6 AST),Made Shot,Pullup Jump shot,1,2,279
+0021801051,389,PT03M54.00S,3,1610612762,UTA,2594,Korver,K. Korver,218,136,26,Made,1,65,82,147,v,Korver 26' 3PT Jump Shot (10 PTS) (Neto 4 AST),Made Shot,Jump Shot,1,3,280
+0021801051,391,PT03M40.00S,3,1610612764,WAS,203107,Satoransky,T. Satoransky,14,190,19,Missed,1,,,0,h,MISS Satoransky 19' Jump Shot,Missed Shot,Jump Shot,1,2,281
+0021801051,392,PT03M40.00S,3,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,282
+0021801051,393,PT03M40.00S,3,1610612764,WAS,1628418,Bryant,T. Bryant,0,0,0,,0,,,0,h,Bryant P.FOUL (P1.T2) (A.Moyer-Gleich),Foul,Personal,1,0,283
+0021801051,395,PT03M40.00S,3,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,SUB: Brown Jr. FOR Satoransky,Substitution,,0,0,284
+0021801051,396,PT03M40.00S,3,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,SUB: Udoh FOR O'Neale,Substitution,,0,0,285
+0021801051,397,PT03M40.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,SUB: Ingles FOR Gobert,Substitution,,0,0,286
+0021801051,398,PT03M40.00S,3,1610612762,UTA,1627777,Niang,G. Niang,0,0,0,,0,,,0,v,SUB: Crowder FOR Niang,Substitution,,0,0,287
+0021801051,403,PT03M28.00S,3,1610612762,UTA,202327,Udoh,E. Udoh,-2,17,2,Missed,1,,,0,v,MISS Udoh 2' Layup,Missed Shot,Layup Shot,1,2,288
+0021801051,403,PT03M28.00S,3,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,h,Parker BLOCK (1 BLK),,,1,2,289
+0021801051,405,PT03M28.00S,3,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,290
+0021801051,407,PT03M19.00S,3,1610612762,UTA,203109,Crowder,J. Crowder,104,241,26,Made,1,65,85,150,v,Crowder 26' 3PT Jump Shot (16 PTS) (Korver 2 AST),Made Shot,Jump Shot,1,3,291
+0021801051,409,PT03M07.00S,3,1610612764,WAS,1628418,Bryant,T. Bryant,-165,222,28,Missed,1,,,0,h,MISS Bryant 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,292
+0021801051,410,PT03M02.00S,3,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,293
+0021801051,411,PT02M50.00S,3,1610612762,UTA,2594,Korver,K. Korver,217,192,29,Missed,1,,,0,v,MISS Korver 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,294
+0021801051,412,PT02M48.00S,3,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Unknown,0,0,295
+0021801051,414,PT02M30.00S,3,1610612764,WAS,1628972,Brown Jr.,T. Brown Jr.,41,28,5,Missed,1,,,0,h,MISS Brown Jr. 5' Layup,Missed Shot,Layup Shot,1,2,296
+0021801051,414,PT02M30.00S,3,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder BLOCK (2 BLK),,,1,2,297
+0021801051,416,PT02M28.00S,3,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,298
+0021801051,417,PT02M26.00S,3,1610612764,WAS,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,h,Brown Jr. P.FOUL (P2.T3) (M.Lindsay),Foul,Personal,1,0,299
+0021801051,419,PT02M26.00S,3,1610612764,WAS,2772,Ariza,T. Ariza,0,0,0,,0,,,0,h,SUB: McRae FOR Ariza,Substitution,,0,0,300
+0021801051,421,PT02M14.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,-47,40,6,Missed,1,,,0,v,MISS Ingles 6' Layup,Missed Shot,Layup Shot,1,2,301
+0021801051,422,PT02M13.00S,3,1610612762,UTA,202327,Udoh,E. Udoh,0,0,0,,0,,,0,v,Udoh REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,302
+0021801051,423,PT02M13.00S,3,1610612762,UTA,202327,Udoh,E. Udoh,0,-6,1,Made,1,65,87,152,v,Udoh 1' Tip Dunk Shot (2 PTS),Made Shot,Tip Dunk Shot,1,2,303
+0021801051,424,PT02M04.00S,3,1610612764,WAS,1628972,Brown Jr.,T. Brown Jr.,37,54,7,Missed,1,,,0,h,MISS Brown Jr. 7' Jump Shot,Missed Shot,Jump Shot,1,2,304
+0021801051,424,PT02M04.00S,3,1610612762,UTA,202327,Udoh,E. Udoh,0,0,0,,0,,,0,v,Udoh BLOCK (1 BLK),,,1,2,305
+0021801051,426,PT02M04.00S,3,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,306
+0021801051,428,PT01M53.00S,3,1610612762,UTA,203526,Neto,R. Neto,-5,5,1,Missed,1,,,0,v,MISS Neto 1' Layup,Missed Shot,Layup Shot,1,2,307
+0021801051,429,PT01M52.00S,3,1610612762,UTA,202327,Udoh,E. Udoh,0,0,0,,0,,,0,v,Udoh REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,308
+0021801051,430,PT01M52.00S,3,1610612762,UTA,202327,Udoh,E. Udoh,0,-6,1,Missed,1,,,0,v,MISS Udoh 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,309
+0021801051,431,PT01M50.00S,3,1610612762,UTA,202327,Udoh,E. Udoh,0,0,0,,0,,,0,v,Udoh REBOUND (Off:3 Def:0),Rebound,Unknown,1,0,310
+0021801051,432,PT01M50.00S,3,1610612762,UTA,203109,Crowder,J. Crowder,13,15,2,Made,1,65,89,154,v,Crowder 2' Layup (18 PTS),Made Shot,Layup Shot,1,2,311
+0021801051,433,PT01M38.00S,3,1610612762,UTA,202327,Udoh,E. Udoh,0,0,0,,0,,,0,v,Udoh S.FOUL (P1.PN) (M.Lindsay),Foul,Shooting,1,0,312
+0021801051,435,PT01M38.00S,3,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,66,89,155,h,Beal Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,0,0,313
+0021801051,436,PT01M38.00S,3,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,SUB: Sefolosha FOR Crowder,Substitution,,0,0,314
+0021801051,438,PT01M38.00S,3,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,67,89,156,h,Beal Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,0,0,315
+0021801051,439,PT01M21.00S,3,1610612762,UTA,200757,Sefolosha,T. Sefolosha,79,47,9,Made,1,67,91,158,v,Sefolosha 9' Layup (2 PTS) (Korver 3 AST),Made Shot,Layup Shot,1,2,316
+0021801051,441,PT01M05.00S,3,1610612764,WAS,203078,Beal,B. Beal,-13,36,4,Made,1,69,91,160,h,Beal 4' Layup (15 PTS) (Brown Jr. 2 AST),Made Shot,Layup Shot,1,2,317
+0021801051,443,PT00M56.10S,3,1610612762,UTA,203526,Neto,R. Neto,-63,247,25,Missed,1,,,0,v,MISS Neto 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,318
+0021801051,444,PT00M53.50S,3,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,h,Beal REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,319
+0021801051,445,PT00M46.60S,3,1610612764,WAS,203078,Beal,B. Beal,-38,41,6,Missed,1,,,0,h,MISS Beal 6' Layup,Missed Shot,Layup Shot,1,2,320
+0021801051,446,PT00M44.20S,3,1610612762,UTA,200757,Sefolosha,T. Sefolosha,0,0,0,,0,,,0,v,Sefolosha REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,321
+0021801051,447,PT00M44.20S,3,1610612764,WAS,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,h,Brown Jr. P.FOUL (P3.T4) (M.Lindsay),Foul,Personal,1,0,322
+0021801051,449,PT00M23.20S,3,1610612762,UTA,202327,Udoh,E. Udoh,-58,21,6,Missed,1,,,0,v,MISS Udoh 6' Layup,Missed Shot,Layup Shot,1,2,323
+0021801051,450,PT00M20.70S,3,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,h,Parker REBOUND (Off:0 Def:6),Rebound,Unknown,0,0,324
+0021801051,451,PT00M05.10S,3,1610612764,WAS,1628418,Bryant,T. Bryant,-1,8,1,Made,1,71,91,162,h,Bryant 1' Cutting Dunk Shot (5 PTS) (Parker 1 AST),Made Shot,Cutting Dunk Shot,1,2,325
+0021801051,453,PT00M01.80S,3,1610612762,UTA,204060,Ingles,J. Ingles,68,129,15,Missed,1,,,0,v,MISS Ingles 15' Jump Shot,Missed Shot,Jump Shot,1,2,326
+0021801051,454,PT00M01.80S,3,1610612764,WAS,1628418,Bryant,T. Bryant,0,0,0,,0,,,0,h,Bryant REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,327
+0021801051,455,PT00M00.00S,3,0,,0,,,0,0,0,,0,71,91,162,,End of 3rd Period (8:44 PM EST),period,end,1,0,328
+0021801051,464,PT12M00.00S,4,0,,0,,,0,0,0,,0,71,91,162,,Start of 4th Period (8:47 PM EST),period,start,0,0,329
+0021801051,465,PT11M43.00S,4,1610612762,UTA,2594,Korver,K. Korver,-79,148,17,Missed,1,,,0,v,MISS Korver 17' Jump Shot,Missed Shot,Jump Shot,1,2,330
+0021801051,466,PT11M39.00S,4,1610612764,WAS,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,h,Brown Jr. REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,331
+0021801051,467,PT11M20.00S,4,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,h,Parker Lost Ball Turnover (P3.T10),Turnover,Lost Ball,1,0,332
+0021801051,467,PT11M20.00S,4,1610612762,UTA,200757,Sefolosha,T. Sefolosha,0,0,0,,0,,,0,v,Sefolosha STEAL (1 STL),,,1,0,333
+0021801051,469,PT11M15.00S,4,1610612762,UTA,201937,Rubio,R. Rubio,2,16,2,Missed,1,,,0,v,MISS Rubio 2' Layup,Missed Shot,Layup Shot,1,2,334
+0021801051,470,PT11M11.00S,4,1610612764,WAS,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,h,Brown Jr. REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,335
+0021801051,512,PT11M10.00S,4,1610612764,WAS,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,h,Brown Jr. Lost Ball Turnover (P2.T11),Turnover,Lost Ball,1,0,336
+0021801051,512,PT11M10.00S,4,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio STEAL (3 STL),,,1,0,337
+0021801051,471,PT11M08.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,11,-4,1,Made,1,71,93,164,v,Gobert 1' Dunk (12 PTS) (Rubio 9 AST),Made Shot,Dunk Shot,1,2,338
+0021801051,473,PT10M49.00S,4,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,h,Parker Bad Pass Turnover (P4.T12),Turnover,Bad Pass,1,0,339
+0021801051,473,PT10M49.00S,4,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio STEAL (4 STL),,,1,0,340
+0021801051,475,PT10M49.00S,4,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,h,Parker Personal Take Foul (P4.T1) (A.Moyer-Gleich),Foul,Personal Take,1,0,341
+0021801051,477,PT10M36.00S,4,1610612762,UTA,2594,Korver,K. Korver,77,246,26,Missed,1,,,0,v,MISS Korver 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,342
+0021801051,478,PT10M32.00S,4,1610612764,WAS,1628418,Bryant,T. Bryant,0,0,0,,0,,,0,h,Bryant REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,343
+0021801051,479,PT10M26.00S,4,1610612764,WAS,203953,Parker,J. Parker,63,259,27,Made,1,74,93,167,h,Parker 27' 3PT Jump Shot (13 PTS),Made Shot,Jump Shot,1,3,344
+0021801051,480,PT10M07.00S,4,1610612762,UTA,200757,Sefolosha,T. Sefolosha,-218,122,25,Missed,1,,,0,v,MISS Sefolosha 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,345
+0021801051,481,PT10M07.00S,4,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,346
+0021801051,482,PT10M07.00S,4,1610612762,UTA,2594,Korver,K. Korver,0,0,0,,0,,,0,v,SUB: O'Neale FOR Korver,Substitution,,0,0,347
+0021801051,485,PT09M58.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,-30,145,15,Missed,1,,,0,v,MISS Mitchell 15' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,348
+0021801051,486,PT09M54.00S,4,1610612764,WAS,1628418,Bryant,T. Bryant,0,0,0,,0,,,0,h,Bryant REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,349
+0021801051,487,PT09M50.00S,4,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,h,Parker Bad Pass Turnover (P5.T13),Turnover,Bad Pass,1,0,350
+0021801051,487,PT09M50.00S,4,1610612762,UTA,200757,Sefolosha,T. Sefolosha,0,0,0,,0,,,0,v,Sefolosha STEAL (2 STL),,,1,0,351
+0021801051,489,PT09M44.00S,4,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio Bad Pass Turnover (P5.T12),Turnover,Bad Pass,1,0,352
+0021801051,489,PT09M44.00S,4,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,Satoransky STEAL (2 STL),,,1,0,353
+0021801051,491,PT09M41.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell S.FOUL (P3.T1) (M.Lindsay),Foul,Shooting,1,0,354
+0021801051,493,PT09M41.00S,4,1610612764,WAS,203895,McRae,J. McRae,0,0,0,,0,75,93,168,h,McRae Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,355
+0021801051,494,PT09M41.00S,4,1610612764,WAS,203895,McRae,J. McRae,0,0,0,,0,76,93,169,h,McRae Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,356
+0021801051,495,PT09M31.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,122,236,27,Missed,1,,,0,v,MISS Mitchell 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,357
+0021801051,496,PT09M27.00S,4,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,h,Parker REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,358
+0021801051,497,PT09M21.00S,4,1610612764,WAS,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,h,Brown Jr. Offensive Charge Foul (P4.T2) (E.Lewis),Foul,Offensive Charge,1,0,359
+0021801051,499,PT09M21.00S,4,1610612764,WAS,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,h,Brown Jr. Offensive Foul Turnover (P3.T14),Turnover,Offensive Foul Turnover,1,0,360
+0021801051,500,PT09M06.00S,4,1610612762,UTA,200757,Sefolosha,T. Sefolosha,-4,78,8,Made,1,76,95,171,v,Sefolosha 8' Turnaround Jump Shot (4 PTS),Made Shot,Turnaround Jump Shot,1,2,361
+0021801051,501,PT08M54.00S,4,1610612764,WAS,1628972,Brown Jr.,T. Brown Jr.,150,81,17,Missed,1,,,0,h,MISS Brown Jr. 17' Jump Shot,Missed Shot,Jump Shot,1,2,362
+0021801051,502,PT08M49.00S,4,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,363
+0021801051,503,PT08M37.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,-8,20,2,Made,1,76,97,173,v,Mitchell 2' Layup (16 PTS) (Rubio 10 AST),Made Shot,Layup Shot,1,2,364
+0021801051,505,PT08M28.00S,4,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio P.FOUL (P2.T2) (A.Moyer-Gleich),Foul,Personal,1,0,365
+0021801051,507,PT08M18.00S,4,1610612764,WAS,1628418,Bryant,T. Bryant,8,5,1,Missed,1,,,0,h,MISS Bryant 1' Layup,Missed Shot,Layup Shot,1,2,366
+0021801051,507,PT08M18.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert BLOCK (2 BLK),,,1,2,367
+0021801051,509,PT08M14.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:3 Def:10),Rebound,Unknown,1,0,368
+0021801051,510,PT08M08.00S,4,1610612762,UTA,201937,Rubio,R. Rubio,58,163,17,Made,1,76,99,175,v,Rubio 17' Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,2,369
+0021801051,511,PT08M06.00S,4,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,370
+0021801051,514,PT08M06.00S,4,1610612764,WAS,1628418,Bryant,T. Bryant,0,0,0,,0,,,0,h,SUB: Mahinmi FOR Bryant,Substitution,,0,0,371
+0021801051,515,PT08M06.00S,4,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,h,SUB: Dekker FOR Satoransky,Substitution,,0,0,372
+0021801051,516,PT08M06.00S,4,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,SUB: Neto FOR Rubio,Substitution,,0,0,373
+0021801051,520,PT07M46.00S,4,1610612764,WAS,101133,Mahinmi,I. Mahinmi,-134,235,27,Missed,1,,,0,h,MISS Mahinmi 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,374
+0021801051,521,PT07M42.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:3 Def:11),Rebound,Unknown,1,0,375
+0021801051,522,PT07M29.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,-5,-7,1,Made,1,76,101,177,v,Gobert 1' Dunk (14 PTS) (O'Neale 2 AST),Made Shot,Dunk Shot,1,2,376
+0021801051,524,PT07M20.00S,4,1610612762,UTA,203526,Neto,R. Neto,0,0,0,,0,,,0,v,Neto P.FOUL (P1.T3) (M.Lindsay),Foul,Personal,1,0,377
+0021801051,527,PT07M10.00S,4,1610612764,WAS,1628972,Brown Jr.,T. Brown Jr.,-24,64,7,Made,1,78,101,179,h,Brown Jr. 7' Turnaround Jump Shot (2 PTS),Made Shot,Turnaround Jump Shot,1,2,378
+0021801051,528,PT06M58.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,103,153,18,Missed,1,,,0,v,MISS Mitchell 18' Jump Shot,Missed Shot,Jump Shot,1,2,379
+0021801051,529,PT06M53.00S,4,1610612764,WAS,203895,McRae,J. McRae,0,0,0,,0,,,0,h,McRae REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,380
+0021801051,530,PT06M49.00S,4,1610612764,WAS,203953,Parker,J. Parker,-2,7,1,Made,1,80,101,181,h,Parker 1' Cutting Layup Shot (15 PTS) (McRae 1 AST),Made Shot,Cutting Layup Shot,1,2,381
+0021801051,532,PT06M33.00S,4,1610612762,UTA,200757,Sefolosha,T. Sefolosha,0,-1,0,Made,1,80,103,183,v,Sefolosha Cutting Dunk Shot (6 PTS) (Mitchell 2 AST),Made Shot,Cutting Dunk Shot,1,2,382
+0021801051,534,PT06M15.00S,4,1610612764,WAS,101133,Mahinmi,I. Mahinmi,-6,2,1,Made,1,82,103,185,h,Mahinmi 1' Cutting Dunk Shot (2 PTS) (Brown Jr. 3 AST),Made Shot,Cutting Dunk Shot,1,2,383
+0021801051,536,PT05M52.00S,4,1610612764,WAS,101133,Mahinmi,I. Mahinmi,0,0,0,,0,,,0,h,Mahinmi P.FOUL (P1.T3) (E.Lewis),Foul,Personal,1,0,384
+0021801051,538,PT05M52.00S,4,1610612762,UTA,200757,Sefolosha,T. Sefolosha,0,0,0,,0,,,0,v,SUB: Crowder FOR Sefolosha,Substitution,,0,0,385
+0021801051,539,PT05M52.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,SUB: Udoh FOR Gobert,Substitution,,0,0,386
+0021801051,540,PT05M52.00S,4,1610612762,UTA,203526,Neto,R. Neto,0,0,0,,0,,,0,v,SUB: Rubio FOR Neto,Substitution,,0,0,387
+0021801051,544,PT05M40.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,133,236,27,Made,1,82,106,188,v,Mitchell 27' 3PT Jump Shot (19 PTS) (O'Neale 3 AST),Made Shot,Jump Shot,1,3,388
+0021801051,546,PT05M26.00S,4,1610612764,WAS,203953,Parker,J. Parker,227,64,24,Missed,1,,,0,h,MISS Parker 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,389
+0021801051,547,PT05M24.00S,4,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Unknown,0,0,390
+0021801051,550,PT05M17.00S,4,1610612764,WAS,203895,McRae,J. McRae,-148,57,16,Missed,1,,,0,h,MISS McRae 16' Jump Shot,Missed Shot,Jump Shot,1,2,391
+0021801051,551,PT05M12.00S,4,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,392
+0021801051,552,PT05M05.00S,4,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio Lost Ball Turnover (P6.T13),Turnover,Lost Ball,1,0,393
+0021801051,552,PT05M05.00S,4,1610612764,WAS,203895,McRae,J. McRae,0,0,0,,0,,,0,h,McRae STEAL (1 STL),,,1,0,394
+0021801051,554,PT05M02.00S,4,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale S.FOUL (P4.T4) (E.Lewis),Foul,Shooting,1,0,395
+0021801051,556,PT05M02.00S,4,1610612764,WAS,203895,McRae,J. McRae,0,0,0,,0,83,106,189,h,McRae Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,396
+0021801051,557,PT05M02.00S,4,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,SUB: Niang FOR O'Neale,Substitution,,0,0,397
+0021801051,559,PT05M02.00S,4,1610612764,WAS,203895,McRae,J. McRae,0,0,0,,0,84,106,190,h,McRae Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,398
+0021801051,560,PT04M48.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,119,224,25,Missed,1,,,0,v,MISS Mitchell 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,399
+0021801051,561,PT04M42.00S,4,1610612764,WAS,1626155,Dekker,S. Dekker,0,0,0,,0,,,0,h,Dekker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,400
+0021801051,562,PT04M41.00S,4,1610612764,WAS,1626155,Dekker,S. Dekker,-159,223,27,Missed,1,,,0,h,MISS Dekker 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,401
+0021801051,563,PT04M39.00S,4,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Unknown,0,0,402
+0021801051,565,PT04M39.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,SUB: Korver FOR Mitchell,Substitution,,0,0,403
+0021801051,567,PT04M37.00S,4,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio S.FOUL (P3.PN) (A.Moyer-Gleich),Foul,Shooting,1,0,404
+0021801051,569,PT04M37.00S,4,1610612764,WAS,203895,McRae,J. McRae,0,0,0,,0,85,106,191,h,McRae Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,0,0,405
+0021801051,570,PT04M37.00S,4,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,SUB: Neto FOR Rubio,Substitution,,0,0,406
+0021801051,574,PT04M37.00S,4,1610612762,UTA,1627777,Niang,G. Niang,0,0,0,,0,,,0,v,Lane,Violation,Lane,0,0,407
+0021801051,572,PT04M37.00S,4,1610612764,WAS,203895,McRae,J. McRae,0,0,0,,0,86,106,192,h,McRae Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,0,0,408
+0021801051,575,PT04M26.00S,4,1610612762,UTA,202327,Udoh,E. Udoh,0,0,0,,0,,,0,v,Udoh OFF.Foul (P2) (M.Lindsay),Foul,Offensive,1,0,409
+0021801051,577,PT04M26.00S,4,1610612762,UTA,202327,Udoh,E. Udoh,0,0,0,,0,,,0,v,Udoh Offensive Foul Turnover (P1.T14),Turnover,Offensive Foul Turnover,1,0,410
+0021801051,578,PT04M15.00S,4,1610612764,WAS,1628972,Brown Jr.,T. Brown Jr.,-38,84,9,Missed,1,,,0,h,MISS Brown Jr. 9' Jump Shot,Missed Shot,Jump Shot,1,2,411
+0021801051,579,PT04M08.00S,4,1610612764,WAS,101133,Mahinmi,I. Mahinmi,0,0,0,,0,,,0,h,Mahinmi REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,412
+0021801051,580,PT04M08.00S,4,1610612764,WAS,101133,Mahinmi,I. Mahinmi,0,-6,1,Missed,1,,,0,h,MISS Mahinmi 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,413
+0021801051,585,PT04M08.00S,4,1610612762,UTA,202327,Udoh,E. Udoh,0,0,0,,0,,,0,v,Udoh REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,414
+0021801051,583,PT04M03.00S,4,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder Bad Pass Turnover (P1.T15),Turnover,Bad Pass,1,0,415
+0021801051,583,PT04M03.00S,4,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,h,Parker STEAL (3 STL),,,1,0,416
+0021801051,586,PT04M03.00S,4,1610612762,UTA,203526,Neto,R. Neto,0,0,0,,0,,,0,v,Neto S.FOUL (P2.PN) (M.Lindsay),Foul,Shooting,1,0,417
+0021801051,588,PT04M03.00S,4,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,87,106,193,h,Parker Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,0,0,418
+0021801051,589,PT04M03.00S,4,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,88,106,194,h,Parker Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,0,0,419
+0021801051,590,PT03M48.00S,4,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,h,Parker P.FOUL (P5.T4) (M.Lindsay),Foul,Personal,1,0,420
+0021801051,592,PT03M48.00S,4,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,421
+0021801051,593,PT03M48.00S,4,1610612762,UTA,2594,Korver,K. Korver,0,0,0,,0,,,0,v,SUB: Sefolosha FOR Korver,Substitution,,0,0,422
+0021801051,594,PT03M48.00S,4,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,SUB: O'Neale FOR Crowder,Substitution,,0,0,423
+0021801051,597,PT03M34.00S,4,1610612762,UTA,203526,Neto,R. Neto,-91,237,25,Made,1,88,109,197,v,Neto 25' 3PT Jump Shot (7 PTS),Made Shot,Jump Shot,1,3,424
+0021801051,598,PT03M15.00S,4,1610612762,UTA,200757,Sefolosha,T. Sefolosha,0,0,0,,0,,,0,v,Sefolosha S.FOUL (P1.PN) (M.Lindsay),Foul,Shooting,1,0,425
+0021801051,600,PT03M15.00S,4,1610612764,WAS,203895,McRae,J. McRae,0,0,0,,0,89,109,198,h,McRae Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,0,0,426
+0021801051,601,PT03M15.00S,4,1610612764,WAS,203895,McRae,J. McRae,0,0,0,,0,90,109,199,h,McRae Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,427
+0021801051,602,PT03M04.00S,4,1610612762,UTA,203526,Neto,R. Neto,13,14,2,Made,1,90,111,201,v,Neto 2' Driving Layup (9 PTS),Made Shot,Driving Layup Shot,1,2,428
+0021801051,603,PT02M52.00S,4,1610612764,WAS,203953,Parker,J. Parker,-27,11,3,Made,1,92,111,203,h,Parker 3' Layup (19 PTS),Made Shot,Layup Shot,1,2,429
+0021801051,604,PT02M36.00S,4,1610612762,UTA,203526,Neto,R. Neto,0,0,0,,0,,,0,v,Neto Traveling Turnover (P2.T16),Turnover,Traveling,1,0,430
+0021801051,605,PT02M19.00S,4,1610612764,WAS,1626155,Dekker,S. Dekker,27,22,3,Missed,1,,,0,h,MISS Dekker 3' Running Reverse Layup,Missed Shot,Running Reverse Layup Shot,1,2,431
+0021801051,606,PT02M19.00S,4,1610612762,UTA,202327,Udoh,E. Udoh,0,0,0,,0,,,0,v,Udoh REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,432
+0021801051,607,PT02M08.00S,4,1610612762,UTA,1627777,Niang,G. Niang,-160,205,26,Missed,1,,,0,v,MISS Niang 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,433
+0021801051,608,PT02M04.00S,4,1610612764,WAS,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,h,Brown Jr. REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,434
+0021801051,609,PT02M02.00S,4,1610612764,WAS,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,h,Brown Jr. Out of Bounds - Bad Pass Turnover Turnover (P4.T15),Turnover,Out of Bounds - Bad Pass Turnover,1,0,435
+0021801051,610,PT01M51.00S,4,1610612762,UTA,203526,Neto,R. Neto,88,56,10,Missed,1,,,0,v,MISS Neto 10' Driving Layup,Missed Shot,Driving Layup Shot,1,2,436
+0021801051,611,PT01M51.00S,4,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Unknown,0,0,437
+0021801051,613,PT01M51.00S,4,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,h,SUB: Randle FOR Parker,Substitution,,0,0,438
+0021801051,615,PT01M42.00S,4,1610612764,WAS,1626184,Randle,C. Randle,0,0,0,,0,,,0,h,Randle Bad Pass Turnover (P1.T16),Turnover,Bad Pass,1,0,439
+0021801051,615,PT01M42.00S,4,1610612762,UTA,203526,Neto,R. Neto,0,0,0,,0,,,0,v,Neto STEAL (1 STL),,,1,0,440
+0021801051,617,PT01M39.00S,4,1610612762,UTA,1627777,Niang,G. Niang,5,11,1,Made,1,92,113,205,v,Niang 1' Layup (4 PTS) (Neto 5 AST),Made Shot,Layup Shot,1,2,441
+0021801051,619,PT01M37.00S,4,1610612762,UTA,203526,Neto,R. Neto,0,0,0,,0,,,0,v,Neto P.FOUL (P3.PN) (A.Moyer-Gleich),Foul,Personal,1,0,442
+0021801051,621,PT01M37.00S,4,1610612764,WAS,1626155,Dekker,S. Dekker,0,0,0,,0,,,0,h,MISS Dekker Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,443
+0021801051,622,PT01M37.00S,4,0,,1610612764,,,0,0,0,,0,,,0,h,WIZARDS Rebound,Rebound,Normal Rebound,0,0,444
+0021801051,623,PT01M37.00S,4,1610612764,WAS,1626155,Dekker,S. Dekker,0,0,0,,0,93,113,206,h,Dekker Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,0,0,445
+0021801051,624,PT01M26.00S,4,1610612762,UTA,202327,Udoh,E. Udoh,0,0,0,,0,,,0,v,Udoh Bad Pass Turnover (P2.T17),Turnover,Bad Pass,1,0,446
+0021801051,624,PT01M26.00S,4,1610612764,WAS,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,h,Brown Jr. STEAL (1 STL),,,1,0,447
+0021801051,626,PT01M20.00S,4,1610612764,WAS,1626184,Randle,C. Randle,-185,193,27,Missed,1,,,0,h,MISS Randle 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,448
+0021801051,627,PT01M15.00S,4,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,449
+0021801051,628,PT01M12.00S,4,1610612762,UTA,1627777,Niang,G. Niang,39,79,9,Made,1,93,115,208,v,Niang 9' Running Layup (6 PTS),Made Shot,Running Layup Shot,1,2,450
+0021801051,629,PT01M12.00S,4,1610612764,WAS,1626184,Randle,C. Randle,0,0,0,,0,,,0,h,Randle S.FOUL (P1.PN) (E.Lewis),Foul,Shooting,1,0,451
+0021801051,631,PT01M12.00S,4,1610612762,UTA,1627777,Niang,G. Niang,0,0,0,,0,93,116,209,v,Niang Free Throw 1 of 1 (7 PTS),Free Throw,Free Throw 1 of 1,0,0,452
+0021801051,632,PT00M57.60S,4,1610612764,WAS,1626155,Dekker,S. Dekker,16,41,4,Missed,1,,,0,h,MISS Dekker 4' Layup,Missed Shot,Layup Shot,1,2,453
+0021801051,632,PT00M57.60S,4,1610612762,UTA,202327,Udoh,E. Udoh,0,0,0,,0,,,0,v,Udoh BLOCK (2 BLK),,,1,2,454
+0021801051,634,PT00M53.80S,4,1610612762,UTA,200757,Sefolosha,T. Sefolosha,0,0,0,,0,,,0,v,Sefolosha REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,455
+0021801051,635,PT00M50.10S,4,1610612762,UTA,203526,Neto,R. Neto,235,43,24,Missed,1,,,0,v,MISS Neto 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,456
+0021801051,636,PT00M45.80S,4,1610612764,WAS,1628972,Brown Jr.,T. Brown Jr.,0,0,0,,0,,,0,h,Brown Jr. REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,457
+0021801051,637,PT00M37.30S,4,1610612764,WAS,203895,McRae,J. McRae,0,17,2,Made,1,95,116,211,h,McRae 2' Layup (10 PTS),Made Shot,Layup Shot,1,2,458
+0021801051,638,PT00M16.80S,4,1610612762,UTA,200757,Sefolosha,T. Sefolosha,-5,20,2,Missed,1,,,0,v,MISS Sefolosha 2' Layup,Missed Shot,Layup Shot,1,2,459
+0021801051,639,PT00M10.80S,4,1610612764,WAS,101133,Mahinmi,I. Mahinmi,0,0,0,,0,,,0,h,Mahinmi REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,460
+0021801051,640,PT00M07.20S,4,1610612764,WAS,1626155,Dekker,S. Dekker,146,227,27,Missed,1,,,0,h,MISS Dekker 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,461
+0021801051,641,PT00M02.70S,4,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,462
+0021801051,642,PT00M00.00S,4,0,,0,,,0,0,0,,0,95,116,211,,End of 4th Period (9:14 PM EST),period,end,1,0,463

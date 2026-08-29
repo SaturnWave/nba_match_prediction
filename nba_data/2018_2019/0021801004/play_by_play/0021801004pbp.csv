@@ -1,0 +1,484 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021801004,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (8:11 PM EST),period,start,0,0,1
+0021801004,4,PT12M00.00S,1,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,Jump Ball Capela vs. Hernangomez: Tip to Paul,Jump Ball,,1,0,2
+0021801004,7,PT11M39.00S,1,1610612745,HOU,200782,Tucker,P. Tucker,233,-4,0,Missed,1,,,0,h,MISS Tucker 3PT Jump Shot,Missed Shot,Jump Shot,1,3,3
+0021801004,8,PT11M36.00S,1,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,v,Walker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,4
+0021801004,10,PT11M17.00S,1,1610612766,CHA,1626195,Hernangomez,W. Hernangomez,1,52,5,Made,1,0,2,2,v,Hernangomez 5' Hook Shot (2 PTS) (Lamb 1 AST),Made Shot,Hook Shot,1,2,5
+0021801004,12,PT10M58.00S,1,1610612745,HOU,201569,Gordon,E. Gordon,-204,144,25,Missed,1,,,0,h,MISS Gordon 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,6
+0021801004,13,PT10M56.00S,1,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Rebound,Rebound,Unknown,0,0,7
+0021801004,15,PT10M40.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,206,157,26,Missed,1,,,0,v,MISS Bridges 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,8
+0021801004,16,PT10M38.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,9
+0021801004,17,PT10M33.00S,1,1610612745,HOU,201935,Harden,J. Harden,-3,252,25,Missed,1,,,0,h,MISS Harden 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,10
+0021801004,18,PT10M33.00S,1,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Rebound,Rebound,Unknown,0,0,11
+0021801004,20,PT10M21.00S,1,1610612766,CHA,203087,Lamb,J. Lamb,60,255,26,Made,1,0,5,5,v,Lamb 26' 3PT Jump Shot (3 PTS) (Walker 1 AST),Made Shot,Jump Shot,1,3,12
+0021801004,22,PT10M12.00S,1,1610612745,HOU,201569,Gordon,E. Gordon,171,190,26,Missed,1,,,0,h,MISS Gordon 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,13
+0021801004,23,PT10M09.00S,1,1610612766,CHA,1628407,Bacon,D. Bacon,0,0,0,,0,,,0,v,Bacon REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,14
+0021801004,24,PT09M57.00S,1,1610612766,CHA,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,v,Hernangomez Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,15
+0021801004,24,PT09M57.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden STEAL (1 STL),,,1,0,16
+0021801004,26,PT09M49.00S,1,1610612745,HOU,201935,Harden,J. Harden,-8,-3,1,Missed,1,,,0,h,MISS Harden 1' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,17
+0021801004,27,PT09M47.00S,1,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,Capela REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,18
+0021801004,28,PT09M45.00S,1,1610612745,HOU,203991,Capela,C. Capela,-8,39,4,Made,1,2,5,7,h,Capela 4' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,19
+0021801004,29,PT09M37.00S,1,1610612766,CHA,1628407,Bacon,D. Bacon,-234,13,0,Missed,1,,,0,v,MISS Bacon 3PT Jump Shot,Missed Shot,Jump Shot,1,3,20
+0021801004,30,PT09M34.00S,1,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,21
+0021801004,31,PT09M27.00S,1,1610612745,HOU,203991,Capela,C. Capela,-49,16,5,Missed,1,,,0,h,MISS Capela 5' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,22
+0021801004,32,PT09M27.00S,1,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,Capela REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,23
+0021801004,33,PT09M27.00S,1,1610612745,HOU,203991,Capela,C. Capela,-5,-5,1,Made,1,4,5,9,h,Capela 1' Putback Layup (4 PTS),Made Shot,Putback Layup Shot,1,2,24
+0021801004,34,PT09M27.00S,1,1610612766,CHA,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,v,Hernangomez S.FOUL (P1.T1) (T.Washington),Foul,Shooting,1,0,25
+0021801004,36,PT09M27.00S,1,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,5,5,10,h,Capela Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,0,0,26
+0021801004,37,PT09M13.00S,1,1610612766,CHA,1626195,Hernangomez,W. Hernangomez,0,71,7,Missed,1,,,0,v,MISS Hernangomez 7' Jump Shot,Missed Shot,Jump Shot,1,2,27
+0021801004,37,PT09M13.00S,1,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul BLOCK (1 BLK),,,1,2,28
+0021801004,39,PT09M10.00S,1,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,Capela REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,29
+0021801004,40,PT09M06.00S,1,1610612745,HOU,201569,Gordon,E. Gordon,-122,235,26,Made,1,8,5,13,h,Gordon 26' 3PT Jump Shot (3 PTS) (Tucker 1 AST),Made Shot,Jump Shot,1,3,30
+0021801004,43,PT08M45.00S,1,1610612766,CHA,1628407,Bacon,D. Bacon,9,16,2,Made,1,8,7,15,v,Bacon 2' Driving Finger Roll Layup (2 PTS) (Lamb 2 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,31
+0021801004,45,PT08M34.00S,1,1610612745,HOU,101108,Paul,C. Paul,-51,96,11,Missed,1,,,0,h,MISS Paul 11' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,32
+0021801004,46,PT08M32.00S,1,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,v,Walker REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,33
+0021801004,47,PT08M32.00S,1,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,v,Walker Out of Bounds Lost Ball Turnover (P1.T2),Turnover,Out of Bounds Lost Ball Turnover,1,0,34
+0021801004,48,PT08M28.00S,1,1610612745,HOU,101108,Paul,C. Paul,-141,225,27,Made,1,11,7,18,h,Paul 27' 3PT Jump Shot (3 PTS) (Capela 1 AST),Made Shot,Jump Shot,1,3,35
+0021801004,49,PT08M08.00S,1,1610612766,CHA,202689,Walker,K. Walker,-155,211,26,Made,1,11,10,21,v,Walker 26' 3PT Jump Shot (3 PTS) (Bacon 1 AST),Made Shot,Jump Shot,1,3,36
+0021801004,51,PT07M54.00S,1,1610612745,HOU,201935,Harden,J. Harden,8,62,6,Missed,1,,,0,h,MISS Harden 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,37
+0021801004,52,PT07M50.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,38
+0021801004,53,PT07M50.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,-6,1,Missed,1,,,0,h,MISS Harden 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,39
+0021801004,54,PT07M47.00S,1,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,Capela REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,40
+0021801004,55,PT07M47.00S,1,1610612745,HOU,203991,Capela,C. Capela,0,-6,1,Made,1,13,10,23,h,Capela 1' Tip Layup Shot (7 PTS),Made Shot,Tip Layup Shot,1,2,41
+0021801004,57,PT07M35.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,3,9,1,Missed,1,,,0,v,MISS Bridges 1' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,42
+0021801004,58,PT07M33.00S,1,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,h,Tucker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,43
+0021801004,59,PT07M26.00S,1,1610612745,HOU,201935,Harden,J. Harden,95,230,25,Missed,1,,,0,h,MISS Harden 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,44
+0021801004,60,PT07M21.00S,1,1610612766,CHA,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,v,Hernangomez REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,45
+0021801004,61,PT07M17.00S,1,1610612766,CHA,202689,Walker,K. Walker,-10,40,4,Missed,1,,,0,v,MISS Walker 4' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,46
+0021801004,62,PT07M13.00S,1,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,47
+0021801004,63,PT06M57.00S,1,1610612745,HOU,101108,Paul,C. Paul,-117,65,13,Missed,1,,,0,h,MISS Paul 13' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,48
+0021801004,64,PT06M55.00S,1,1610612766,CHA,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,v,Hernangomez REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,49
+0021801004,65,PT06M45.00S,1,1610612766,CHA,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,v,Hernangomez OFF.Foul (P2) (N.Buchert),Foul,Offensive,1,0,50
+0021801004,67,PT06M45.00S,1,1610612766,CHA,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,v,Hernangomez Offensive Foul Turnover (P2.T3),Turnover,Offensive Foul Turnover,1,0,51
+0021801004,68,PT06M45.00S,1,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,52
+0021801004,69,PT06M45.00S,1,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,h,SUB: Rivers FOR Tucker,Substitution,,0,0,53
+0021801004,70,PT06M45.00S,1,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,h,SUB: Faried FOR Paul,Substitution,,0,0,54
+0021801004,71,PT06M45.00S,1,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,v,SUB: Biyombo FOR Lamb,Substitution,,0,0,55
+0021801004,72,PT06M45.00S,1,1610612766,CHA,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,v,SUB: Monk FOR Hernangomez,Substitution,,0,0,56
+0021801004,77,PT06M27.00S,1,1610612745,HOU,201935,Harden,J. Harden,118,-14,12,Missed,1,,,0,h,MISS Harden 12' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,57
+0021801004,78,PT06M23.00S,1,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,v,Biyombo REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,58
+0021801004,79,PT06M18.00S,1,1610612766,CHA,1628407,Bacon,D. Bacon,224,34,0,Missed,1,,,0,v,MISS Bacon 3PT Jump Shot,Missed Shot,Jump Shot,1,3,59
+0021801004,80,PT06M15.00S,1,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,Capela REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,60
+0021801004,81,PT06M12.00S,1,1610612745,HOU,201569,Gordon,E. Gordon,-9,2,1,Made,1,15,10,25,h,Gordon 1' Driving Finger Roll Layup (5 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,61
+0021801004,82,PT06M12.00S,1,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk S.FOUL (P1.T2) (M.Lindsay),Foul,Shooting,1,0,62
+0021801004,84,PT06M12.00S,1,1610612745,HOU,201569,Gordon,E. Gordon,0,0,0,,0,16,10,26,h,Gordon Free Throw 1 of 1 (6 PTS),Free Throw,Free Throw 1 of 1,0,0,63
+0021801004,85,PT06M03.00S,1,1610612745,HOU,203085,Rivers,A. Rivers,0,0,0,,0,,,0,h,Rivers P.FOUL (P1.T1) (N.Buchert),Foul,Personal,1,0,64
+0021801004,87,PT06M03.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,v,SUB: Kaminsky FOR Bridges,Substitution,,0,0,65
+0021801004,89,PT05M48.00S,1,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Turnover: Shot Clock (T#4),Turnover,Shot Clock Turnover,0,0,66
+0021801004,90,PT05M33.00S,1,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,v,Hornets T.Foul (Def. 3 Sec Biyombo ) (T.Washington),Foul,Defense 3 Second,1,0,67
+0021801004,91,PT05M33.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,h,MISS Harden Free Throw Technical,Free Throw,Free Throw Technical,0,0,68
+0021801004,92,PT05M33.00S,1,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Rebound,Rebound,Normal Rebound,0,0,69
+0021801004,93,PT05M23.00S,1,1610612745,HOU,203085,Rivers,A. Rivers,-201,176,27,Made,1,19,10,29,h,Rivers 27' 3PT Jump Shot (3 PTS) (Harden 1 AST),Made Shot,Jump Shot,1,3,70
+0021801004,95,PT04M58.00S,1,1610612766,CHA,1628407,Bacon,D. Bacon,7,4,1,Made,1,19,12,31,v,Bacon 1' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,71
+0021801004,96,PT04M45.00S,1,1610612745,HOU,201569,Gordon,E. Gordon,-197,204,28,Made,1,22,12,34,h,Gordon 28' 3PT Jump Shot (9 PTS) (Harden 2 AST),Made Shot,Jump Shot,1,3,72
+0021801004,98,PT04M31.00S,1,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,73
+0021801004,98,PT04M31.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden STEAL (2 STL),,,1,0,74
+0021801004,100,PT04M27.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden Out of Bounds - Bad Pass Turnover Turnover (P1.T1),Turnover,Out of Bounds - Bad Pass Turnover,1,0,75
+0021801004,101,PT04M27.00S,1,1610612745,HOU,201569,Gordon,E. Gordon,0,0,0,,0,,,0,h,SUB: Shumpert FOR Gordon,Substitution,,0,0,76
+0021801004,102,PT04M27.00S,1,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,SUB: Green FOR Capela,Substitution,,0,0,77
+0021801004,105,PT04M16.00S,1,1610612766,CHA,202689,Walker,K. Walker,50,125,13,Missed,1,,,0,v,MISS Walker 13' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,78
+0021801004,106,PT04M12.00S,1,1610612745,HOU,202702,Faried,K. Faried,0,0,0,,0,,,0,h,Faried REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,79
+0021801004,107,PT04M08.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden Offensive Charge Foul (P1.T2) (N.Buchert),Foul,Offensive Charge,1,0,80
+0021801004,109,PT04M08.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden Offensive Foul Turnover (P2.T2),Turnover,Offensive Foul Turnover,1,0,81
+0021801004,110,PT03M52.00S,1,1610612766,CHA,1628370,Monk,M. Monk,230,58,24,Missed,1,,,0,v,MISS Monk 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,82
+0021801004,111,PT03M49.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,83
+0021801004,112,PT03M38.00S,1,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,v,Biyombo S.FOUL (P1.T3) (M.Lindsay),Foul,Shooting,1,0,84
+0021801004,114,PT03M38.00S,1,1610612745,HOU,202702,Faried,K. Faried,0,0,0,,0,23,12,35,h,Faried Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,85
+0021801004,115,PT03M38.00S,1,1610612766,CHA,1628407,Bacon,D. Bacon,0,0,0,,0,,,0,v,SUB: Lamb FOR Bacon,Substitution,,0,0,86
+0021801004,117,PT03M38.00S,1,1610612745,HOU,202702,Faried,K. Faried,0,0,0,,0,24,12,36,h,Faried Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,87
+0021801004,118,PT03M26.00S,1,1610612766,CHA,203087,Lamb,J. Lamb,-26,27,4,Missed,1,,,0,v,MISS Lamb 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,88
+0021801004,120,PT03M23.00S,1,1610612745,HOU,202702,Faried,K. Faried,0,0,0,,0,,,0,h,Faried REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,89
+0021801004,121,PT03M23.00S,1,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,v,Lamb T.FOUL (P0.T3) (M.Lindsay),Foul,Technical,1,0,90
+0021801004,122,PT03M23.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,25,12,37,h,Harden Free Throw Technical (1 PTS),Free Throw,Free Throw Technical,0,0,91
+0021801004,123,PT03M12.00S,1,1610612745,HOU,202697,Shumpert,I. Shumpert,118,164,20,Missed,1,,,0,h,MISS Shumpert 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,92
+0021801004,124,PT03M09.00S,1,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,93
+0021801004,125,PT03M04.00S,1,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,-233,13,0,Missed,1,,,0,v,MISS Kaminsky 3PT Jump Shot,Missed Shot,Jump Shot,1,3,94
+0021801004,126,PT03M02.00S,1,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Rebound,Rebound,Unknown,0,0,95
+0021801004,127,PT03M02.00S,1,1610612745,HOU,202702,Faried,K. Faried,0,0,0,,0,,,0,h,Faried L.B.FOUL (P1.T3) (N.Buchert),Foul,Loose Ball,1,0,96
+0021801004,129,PT03M02.00S,1,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,97
+0021801004,130,PT03M02.00S,1,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,v,SUB: Graham FOR Walker,Substitution,,0,0,98
+0021801004,132,PT02M53.00S,1,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,5,10,1,Made,1,25,14,39,v,Kaminsky 1' Driving Layup (2 PTS) (Graham 1 AST),Made Shot,Driving Layup Shot,1,2,99
+0021801004,134,PT02M45.00S,1,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk S.FOUL (P2.T4) (T.Washington),Foul,Shooting,1,0,100
+0021801004,136,PT02M45.00S,1,1610612745,HOU,202702,Faried,K. Faried,0,0,0,,0,26,14,40,h,Faried Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,101
+0021801004,137,PT02M45.00S,1,1610612745,HOU,202702,Faried,K. Faried,0,0,0,,0,27,14,41,h,Faried Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,102
+0021801004,138,PT02M27.00S,1,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,0,0,0,,0,,,0,v,Kaminsky Bad Pass Turnover (P1.T6),Turnover,Bad Pass,1,0,103
+0021801004,138,PT02M27.00S,1,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,h,Green STEAL (1 STL),,,1,0,104
+0021801004,141,PT02M17.00S,1,1610612745,HOU,201935,Harden,J. Harden,239,0,24,Made,1,30,14,44,h,Harden 24' 3PT Step Back Jump Shot (4 PTS),Made Shot,Step Back Jump shot,1,3,105
+0021801004,142,PT01M59.00S,1,1610612766,CHA,1628370,Monk,M. Monk,-241,14,24,Made,1,30,17,47,v,Monk 24' 3PT Jump Shot (3 PTS) (Kaminsky 1 AST),Made Shot,Jump Shot,1,3,106
+0021801004,144,PT01M50.00S,1,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,v,Biyombo S.FOUL (P2.PN) (T.Washington),Foul,Shooting,1,0,107
+0021801004,146,PT01M50.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,31,17,48,h,Harden Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,0,0,108
+0021801004,147,PT01M50.00S,1,1610612745,HOU,203085,Rivers,A. Rivers,0,0,0,,0,,,0,h,SUB: Paul FOR Rivers,Substitution,,0,0,109
+0021801004,149,PT01M50.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,32,17,49,h,Harden Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,0,0,110
+0021801004,150,PT01M38.00S,1,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,188,163,25,Missed,1,,,0,v,MISS Kaminsky 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,111
+0021801004,151,PT01M35.00S,1,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,112
+0021801004,152,PT01M22.00S,1,1610612766,CHA,1628984,Graham,D. Graham,0,0,0,,0,,,0,v,Graham S.FOUL (P1.PN) (N.Buchert),Foul,Shooting,1,0,113
+0021801004,154,PT01M22.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,33,17,50,h,Harden Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,0,0,114
+0021801004,155,PT01M22.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,34,17,51,h,Harden Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,115
+0021801004,156,PT01M02.00S,1,1610612766,CHA,202687,Biyombo,B. Biyombo,-69,188,20,Missed,1,,,0,v,MISS Biyombo 20' Jump Shot,Missed Shot,Jump Shot,1,2,116
+0021801004,157,PT00M59.00S,1,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,117
+0021801004,158,PT00M37.00S,1,1610612745,HOU,201935,Harden,J. Harden,-210,141,25,Missed,1,,,0,h,MISS Harden 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,118
+0021801004,159,PT00M36.10S,1,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Rebound,Rebound,Unknown,0,0,119
+0021801004,160,PT00M36.10S,1,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,0,0,0,,0,,,0,v,Kaminsky L.B.FOUL (P1.PN) (N.Buchert),Foul,Loose Ball,1,0,120
+0021801004,162,PT00M36.10S,1,1610612745,HOU,202702,Faried,K. Faried,0,0,0,,0,35,17,52,h,Faried Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,0,0,121
+0021801004,163,PT00M36.10S,1,1610612745,HOU,202702,Faried,K. Faried,0,0,0,,0,36,17,53,h,Faried Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,0,0,122
+0021801004,164,PT00M25.40S,1,1610612766,CHA,203087,Lamb,J. Lamb,-6,14,2,Made,1,36,19,55,v,Lamb 2' Driving Layup (5 PTS),Made Shot,Driving Layup Shot,1,2,123
+0021801004,165,PT00M10.70S,1,1610612766,CHA,1628984,Graham,D. Graham,0,0,0,,0,,,0,v,Graham P.FOUL (P2.PN) (M.Lindsay),Foul,Personal,1,0,124
+0021801004,167,PT00M10.70S,1,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,37,19,56,h,Paul Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,0,0,125
+0021801004,168,PT00M10.70S,1,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,38,19,57,h,Paul Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,0,0,126
+0021801004,169,PT00M09.70S,1,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,v,Biyombo Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,127
+0021801004,169,PT00M09.70S,1,1610612745,HOU,202697,Shumpert,I. Shumpert,0,0,0,,0,,,0,h,Shumpert STEAL (1 STL),,,1,0,128
+0021801004,171,PT00M00.00S,1,1610612745,HOU,201935,Harden,J. Harden,-1,16,2,Missed,1,,,0,h,MISS Harden 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,129
+0021801004,171,PT00M00.00S,1,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,v,Biyombo BLOCK (1 BLK),,,1,2,130
+0021801004,173,PT00M00.00S,1,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Rebound,Rebound,Unknown,0,0,131
+0021801004,174,PT00M00.00S,1,0,,0,,,0,0,0,,0,38,19,57,,End of 1st Period (8:38 PM EST),period,end,1,0,132
+0021801004,183,PT12M00.00S,2,0,,0,,,0,0,0,,0,38,19,57,,Start of 2nd Period (8:41 PM EST),period,start,0,0,133
+0021801004,184,PT11M51.00S,2,1610612766,CHA,1628370,Monk,M. Monk,236,37,24,Missed,1,,,0,v,MISS Monk 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,134
+0021801004,185,PT11M46.00S,2,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,135
+0021801004,186,PT11M37.00S,2,1610612745,HOU,203085,Rivers,A. Rivers,14,37,4,Missed,1,,,0,h,MISS Rivers 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,136
+0021801004,187,PT11M36.00S,2,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Rebound,Rebound,Unknown,0,0,137
+0021801004,189,PT11M24.00S,2,1610612745,HOU,101108,Paul,C. Paul,139,53,15,Made,1,40,19,59,h,Paul 15' Jump Shot (7 PTS),Made Shot,Jump Shot,1,2,138
+0021801004,190,PT11M12.00S,2,1610612766,CHA,202689,Walker,K. Walker,6,20,2,Made,1,40,21,61,v,Walker 2' Driving Layup (5 PTS),Made Shot,Driving Layup Shot,1,2,139
+0021801004,191,PT10M50.00S,2,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,h,Green Traveling Turnover (P1.T3),Turnover,Traveling,1,0,140
+0021801004,192,PT10M50.00S,2,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,0,0,0,,0,,,0,v,SUB: Hernangomez FOR Kaminsky,Substitution,,0,0,141
+0021801004,194,PT10M39.00S,2,1610612766,CHA,1628370,Monk,M. Monk,-108,236,26,Made,1,40,24,64,v,Monk 26' 3PT Jump Shot (6 PTS) (Walker 2 AST),Made Shot,Jump Shot,1,3,142
+0021801004,196,PT10M25.00S,2,1610612745,HOU,202697,Shumpert,I. Shumpert,-154,189,24,Made,1,43,24,67,h,Shumpert 24' 3PT Jump Shot (3 PTS) (Paul 1 AST),Made Shot,Jump Shot,1,3,143
+0021801004,198,PT10M06.00S,2,1610612766,CHA,1628370,Monk,M. Monk,-22,11,2,Made,1,43,26,69,v,Monk 2' Driving Layup (8 PTS) (Walker 3 AST),Made Shot,Driving Layup Shot,1,2,144
+0021801004,200,PT09M55.00S,2,1610612745,HOU,202697,Shumpert,I. Shumpert,60,138,15,Missed,1,,,0,h,MISS Shumpert 15' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,145
+0021801004,201,PT09M50.00S,2,1610612745,HOU,202697,Shumpert,I. Shumpert,0,0,0,,0,,,0,h,Shumpert REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,146
+0021801004,202,PT09M47.00S,2,1610612745,HOU,101123,Green,G. Green,53,111,12,Missed,1,,,0,h,MISS Green 12' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,147
+0021801004,203,PT09M44.00S,2,1610612766,CHA,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,v,Hernangomez REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,148
+0021801004,204,PT09M39.00S,2,1610612766,CHA,202689,Walker,K. Walker,125,176,22,Made,1,43,28,71,v,Walker 22' Step Back Jump Shot (7 PTS),Made Shot,Step Back Jump shot,1,2,149
+0021801004,205,PT09M21.00S,2,1610612745,HOU,101123,Green,G. Green,147,206,25,Made,1,46,28,74,h,Green 25' 3PT Jump Shot (3 PTS) (Paul 2 AST),Made Shot,Jump Shot,1,3,150
+0021801004,207,PT08M57.00S,2,1610612766,CHA,203087,Lamb,J. Lamb,-96,96,14,Missed,1,,,0,v,MISS Lamb 14' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,151
+0021801004,208,PT08M53.00S,2,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,Capela REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,152
+0021801004,209,PT08M35.00S,2,1610612745,HOU,202697,Shumpert,I. Shumpert,-231,12,0,Missed,1,,,0,h,MISS Shumpert 3PT Jump Shot,Missed Shot,Jump Shot,1,3,153
+0021801004,210,PT08M32.00S,2,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Rebound,Rebound,Unknown,0,0,154
+0021801004,212,PT08M32.00S,2,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,155
+0021801004,213,PT08M32.00S,2,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,v,SUB: Bacon FOR Lamb,Substitution,,0,0,156
+0021801004,215,PT08M16.00S,2,1610612766,CHA,1628370,Monk,M. Monk,76,105,13,Missed,1,,,0,v,MISS Monk 13' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,157
+0021801004,216,PT08M13.00S,2,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,158
+0021801004,217,PT08M02.00S,2,1610612745,HOU,101123,Green,G. Green,38,33,5,Missed,1,,,0,h,MISS Green 5' Driving Layup,Missed Shot,Driving Layup Shot,1,2,159
+0021801004,217,PT08M02.00S,2,1610612766,CHA,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,v,Hernangomez BLOCK (1 BLK),,,1,2,160
+0021801004,219,PT07M59.00S,2,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,161
+0021801004,220,PT07M57.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,-11,17,2,Missed,1,,,0,v,MISS Bridges 2' Driving Dunk,Missed Shot,Driving Dunk Shot,1,2,162
+0021801004,221,PT07M53.00S,2,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,v,Walker REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,163
+0021801004,222,PT07M52.00S,2,1610612766,CHA,202689,Walker,K. Walker,-19,11,2,Made,1,46,30,76,v,Walker 2' Layup (9 PTS),Made Shot,Layup Shot,1,2,164
+0021801004,223,PT07M37.00S,2,1610612745,HOU,203085,Rivers,A. Rivers,2,75,8,Missed,1,,,0,h,MISS Rivers 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,165
+0021801004,224,PT07M31.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,v,Bridges REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,166
+0021801004,225,PT07M25.00S,2,1610612766,CHA,1628407,Bacon,D. Bacon,18,6,2,Missed,1,,,0,v,MISS Bacon 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,167
+0021801004,226,PT07M23.00S,2,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,Capela REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,168
+0021801004,227,PT07M17.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,v,Bridges P.FOUL (P1.T1) (T.Washington),Foul,Personal,1,0,169
+0021801004,229,PT07M17.00S,2,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,h,SUB: Tucker FOR Green,Substitution,,0,0,170
+0021801004,230,PT07M17.00S,2,1610612745,HOU,203085,Rivers,A. Rivers,0,0,0,,0,,,0,h,SUB: Gordon FOR Rivers,Substitution,,0,0,171
+0021801004,231,PT07M17.00S,2,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,SUB: Graham FOR Monk,Substitution,,0,0,172
+0021801004,235,PT07M07.00S,2,1610612745,HOU,203991,Capela,C. Capela,13,15,2,Missed,1,,,0,h,MISS Capela 2' Layup,Missed Shot,Layup Shot,1,2,173
+0021801004,235,PT07M07.00S,2,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,v,Walker BLOCK (1 BLK),,,1,2,174
+0021801004,237,PT07M07.00S,2,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Rebound,Rebound,Unknown,0,0,175
+0021801004,239,PT07M05.00S,2,1610612766,CHA,1628407,Bacon,D. Bacon,0,0,0,,0,,,0,v,Bacon S.FOUL (P1.T2) (T.Washington),Foul,Shooting,1,0,176
+0021801004,241,PT07M05.00S,2,1610612745,HOU,201569,Gordon,E. Gordon,0,0,0,,0,47,30,77,h,Gordon Free Throw 1 of 3 (10 PTS),Free Throw,Free Throw 1 of 3,0,0,177
+0021801004,242,PT07M05.00S,2,1610612745,HOU,201569,Gordon,E. Gordon,0,0,0,,0,48,30,78,h,Gordon Free Throw 2 of 3 (11 PTS),Free Throw,Free Throw 2 of 3,0,0,178
+0021801004,243,PT07M05.00S,2,1610612745,HOU,201569,Gordon,E. Gordon,0,0,0,,0,,,0,h,MISS Gordon Free Throw 3 of 3,Free Throw,Free Throw 3 of 3,0,0,179
+0021801004,244,PT07M05.00S,2,1610612766,CHA,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,v,Hernangomez REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,180
+0021801004,245,PT06M52.00S,2,1610612766,CHA,1628984,Graham,D. Graham,126,219,25,Missed,1,,,0,v,MISS Graham 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,181
+0021801004,246,PT06M49.00S,2,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,182
+0021801004,247,PT06M38.00S,2,1610612745,HOU,203991,Capela,C. Capela,29,0,3,Made,1,50,30,80,h,Capela 3' Cutting Layup Shot (9 PTS) (Paul 3 AST),Made Shot,Cutting Layup Shot,1,2,183
+0021801004,249,PT06M19.00S,2,1610612766,CHA,1628407,Bacon,D. Bacon,-21,96,10,Missed,1,,,0,v,MISS Bacon 10' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,184
+0021801004,250,PT06M17.00S,2,1610612745,HOU,202697,Shumpert,I. Shumpert,0,0,0,,0,,,0,h,Shumpert REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,185
+0021801004,251,PT06M09.00S,2,1610612766,CHA,1628407,Bacon,D. Bacon,0,0,0,,0,,,0,v,Bacon P.FOUL (P2.T3) (T.Washington),Foul,Personal,1,0,186
+0021801004,253,PT06M09.00S,2,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,h,SUB: Harden FOR Paul,Substitution,,0,0,187
+0021801004,254,PT06M09.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,v,SUB: Lamb FOR Bridges,Substitution,,0,0,188
+0021801004,257,PT05M59.00S,2,1610612745,HOU,201569,Gordon,E. Gordon,25,-5,3,Made,1,52,30,82,h,Gordon 3' Layup (13 PTS) (Harden 3 AST),Made Shot,Layup Shot,1,2,189
+0021801004,259,PT05M42.00S,2,1610612766,CHA,203087,Lamb,J. Lamb,176,189,26,Missed,1,,,0,v,MISS Lamb 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,190
+0021801004,260,PT05M40.00S,2,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,Capela REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,191
+0021801004,261,PT05M29.00S,2,1610612745,HOU,203991,Capela,C. Capela,21,16,3,Made,1,54,30,84,h,Capela 3' Layup (11 PTS) (Shumpert 1 AST),Made Shot,Layup Shot,1,2,192
+0021801004,263,PT05M16.00S,2,1610612745,HOU,201569,Gordon,E. Gordon,0,0,0,,0,,,0,h,Gordon S.FOUL (P1.T1) (N.Buchert),Foul,Shooting,1,0,193
+0021801004,265,PT05M16.00S,2,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,54,31,85,v,Walker Free Throw 1 of 3 (10 PTS),Free Throw,Free Throw 1 of 3,0,0,194
+0021801004,266,PT05M16.00S,2,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,54,32,86,v,Walker Free Throw 2 of 3 (11 PTS),Free Throw,Free Throw 2 of 3,0,0,195
+0021801004,267,PT05M16.00S,2,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,SUB: Faried FOR Capela,Substitution,,0,0,196
+0021801004,269,PT05M16.00S,2,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,54,33,87,v,Walker Free Throw 3 of 3 (12 PTS),Free Throw,Free Throw 3 of 3,0,0,197
+0021801004,270,PT05M05.00S,2,1610612745,HOU,201569,Gordon,E. Gordon,-196,186,27,Missed,1,,,0,h,MISS Gordon 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,198
+0021801004,271,PT05M02.00S,2,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,v,Lamb REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,199
+0021801004,272,PT04M56.00S,2,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,v,Lamb Lost Ball Turnover (P1.T8),Turnover,Lost Ball,1,0,200
+0021801004,272,PT04M56.00S,2,1610612745,HOU,202702,Faried,K. Faried,0,0,0,,0,,,0,h,Faried STEAL (1 STL),,,1,0,201
+0021801004,274,PT04M42.00S,2,1610612745,HOU,201935,Harden,J. Harden,22,10,2,Missed,1,,,0,h,MISS Harden 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,202
+0021801004,274,PT04M42.00S,2,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,v,Lamb BLOCK (1 BLK),,,1,2,203
+0021801004,276,PT04M35.00S,2,1610612766,CHA,1628407,Bacon,D. Bacon,0,0,0,,0,,,0,v,Bacon REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,204
+0021801004,277,PT04M34.00S,2,1610612766,CHA,1628407,Bacon,D. Bacon,7,26,3,Missed,1,,,0,v,MISS Bacon 3' Layup,Missed Shot,Layup Shot,1,2,205
+0021801004,277,PT04M34.00S,2,1610612745,HOU,201569,Gordon,E. Gordon,0,0,0,,0,,,0,h,Gordon BLOCK (1 BLK),,,1,2,206
+0021801004,279,PT04M31.00S,2,1610612745,HOU,201569,Gordon,E. Gordon,0,0,0,,0,,,0,h,Gordon REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,207
+0021801004,280,PT04M27.00S,2,1610612745,HOU,202697,Shumpert,I. Shumpert,-228,38,0,Made,1,57,33,90,h,Shumpert 3PT Jump Shot (6 PTS) (Gordon 1 AST),Made Shot,Jump Shot,1,3,208
+0021801004,282,PT04M27.00S,2,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,209
+0021801004,283,PT04M27.00S,2,1610612745,HOU,202697,Shumpert,I. Shumpert,0,0,0,,0,,,0,h,SUB: Rivers FOR Shumpert,Substitution,,0,0,210
+0021801004,285,PT04M13.00S,2,1610612766,CHA,202689,Walker,K. Walker,-70,124,14,Made,1,57,35,92,v,Walker 14' Pullup Jump Shot (14 PTS) (Bacon 2 AST),Made Shot,Pullup Jump shot,1,2,211
+0021801004,287,PT03M50.00S,2,1610612745,HOU,202702,Faried,K. Faried,10,-14,2,Made,1,59,35,94,h,Faried 2' Cutting Dunk Shot (8 PTS) (Harden 4 AST),Made Shot,Cutting Dunk Shot,1,2,212
+0021801004,289,PT03M34.00S,2,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,v,Walker Out of Bounds - Bad Pass Turnover Turnover (P2.T9),Turnover,Out of Bounds - Bad Pass Turnover,1,0,213
+0021801004,290,PT03M23.00S,2,1610612745,HOU,201935,Harden,J. Harden,203,152,25,Missed,1,,,0,h,MISS Harden 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,214
+0021801004,291,PT03M19.00S,2,1610612766,CHA,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,v,Hernangomez REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,215
+0021801004,292,PT03M02.00S,2,1610612766,CHA,1628984,Graham,D. Graham,229,30,0,Made,1,59,38,97,v,Graham 3PT Jump Shot (3 PTS) (Hernangomez 1 AST),Made Shot,Jump Shot,1,3,216
+0021801004,294,PT02M50.00S,2,1610612745,HOU,202702,Faried,K. Faried,-3,5,1,Missed,1,,,0,h,MISS Faried 1' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,217
+0021801004,295,PT02M47.00S,2,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,v,Walker REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,218
+0021801004,296,PT02M46.00S,2,1610612745,HOU,201569,Gordon,E. Gordon,0,0,0,,0,,,0,h,Gordon P.FOUL (P2.T2) (T.Washington),Foul,Personal,1,0,219
+0021801004,298,PT02M37.00S,2,1610612766,CHA,1626195,Hernangomez,W. Hernangomez,-19,16,2,Missed,1,,,0,v,MISS Hernangomez 2' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,220
+0021801004,299,PT02M35.00S,2,1610612745,HOU,202702,Faried,K. Faried,0,0,0,,0,,,0,h,Faried REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,221
+0021801004,300,PT02M31.00S,2,1610612745,HOU,202702,Faried,K. Faried,-6,-4,1,Made,1,61,38,99,h,Faried 1' Alley Oop Dunk (10 PTS) (Harden 5 AST),Made Shot,Alley Oop Dunk Shot,1,2,222
+0021801004,302,PT02M14.00S,2,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden S.FOUL (P2.T3) (M.Lindsay),Foul,Shooting,1,0,223
+0021801004,304,PT02M14.00S,2,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,61,39,100,v,Walker Free Throw 1 of 2 (15 PTS),Free Throw,Free Throw 1 of 2,0,0,224
+0021801004,305,PT02M14.00S,2,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,v,MISS Walker Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,225
+0021801004,306,PT02M14.00S,2,1610612745,HOU,202702,Faried,K. Faried,0,0,0,,0,,,0,h,Faried REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,226
+0021801004,307,PT02M00.00S,2,1610612745,HOU,203085,Rivers,A. Rivers,-235,5,24,Made,1,64,39,103,h,Rivers 24' 3PT Jump Shot (6 PTS) (Harden 6 AST),Made Shot,Jump Shot,1,3,227
+0021801004,309,PT01M47.00S,2,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,v,Walker Bad Pass Turnover (P3.T10),Turnover,Bad Pass,1,0,228
+0021801004,309,PT01M47.00S,2,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden STEAL (3 STL),,,1,0,229
+0021801004,311,PT01M40.00S,2,1610612745,HOU,202702,Faried,K. Faried,11,-3,1,Made,1,66,39,105,h,Faried 1' Dunk (12 PTS) (Harden 7 AST),Made Shot,Dunk Shot,1,2,230
+0021801004,313,PT01M16.00S,2,1610612766,CHA,202689,Walker,K. Walker,-98,231,25,Made,1,66,42,108,v,Walker 25' 3PT Jump Shot (18 PTS),Made Shot,Jump Shot,1,3,231
+0021801004,314,PT01M00.00S,2,1610612745,HOU,200782,Tucker,P. Tucker,-226,-1,0,Made,1,69,42,111,h,Tucker 3PT Jump Shot (3 PTS) (Gordon 2 AST),Made Shot,Jump Shot,1,3,232
+0021801004,316,PT00M48.80S,2,1610612766,CHA,203087,Lamb,J. Lamb,183,201,27,Missed,1,,,0,v,MISS Lamb 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,233
+0021801004,317,PT00M46.10S,2,1610612766,CHA,1628984,Graham,D. Graham,0,0,0,,0,,,0,v,Graham REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,234
+0021801004,318,PT00M44.30S,2,1610612766,CHA,1628984,Graham,D. Graham,85,140,16,Missed,1,,,0,v,MISS Graham 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,235
+0021801004,319,PT00M41.70S,2,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,h,Tucker REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,236
+0021801004,320,PT00M32.70S,2,1610612745,HOU,201935,Harden,J. Harden,-22,55,6,Made,1,71,42,113,h,Harden 6' Driving Floating Jump Shot (10 PTS),Made Shot,Driving Floating Jump Shot,1,2,237
+0021801004,321,PT00M11.40S,2,1610612766,CHA,1628984,Graham,D. Graham,-158,257,30,Missed,1,,,0,v,MISS Graham 30' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,238
+0021801004,322,PT00M09.50S,2,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,h,Tucker REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,239
+0021801004,323,PT00M06.10S,2,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden Out of Bounds - Bad Pass Turnover Turnover (P3.T4),Turnover,Out of Bounds - Bad Pass Turnover,1,0,240
+0021801004,324,PT00M05.00S,2,1610612745,HOU,203085,Rivers,A. Rivers,0,0,0,,0,,,0,h,Rivers P.FOUL (P2.T4) (M.Lindsay),Foul,Personal,1,0,241
+0021801004,326,PT00M00.00S,2,1610612766,CHA,202689,Walker,K. Walker,-43,135,14,Made,1,71,44,115,v,Walker 14' Driving Floating Jump Shot (20 PTS),Made Shot,Driving Floating Jump Shot,1,2,242
+0021801004,327,PT00M00.00S,2,0,,326,,,0,0,0,,0,71,44,115,,Instant Replay2nd Period (9:05 PM EST),Instant Replay,Support Ruling,0,0,243
+0021801004,328,PT00M00.00S,2,0,,0,,,0,0,0,,0,71,44,115,,End of 2nd Period (9:06 PM EST),period,end,1,0,244
+0021801004,335,PT12M00.00S,3,0,,0,,,0,0,0,,0,71,44,115,,Start of 3rd Period (9:20 PM EST),period,start,0,0,245
+0021801004,337,PT11M37.00S,3,1610612766,CHA,203087,Lamb,J. Lamb,-25,7,3,Missed,1,,,0,v,MISS Lamb 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,246
+0021801004,338,PT11M34.00S,3,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,Capela REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,247
+0021801004,339,PT11M23.00S,3,1610612745,HOU,201935,Harden,J. Harden,3,13,1,Missed,1,,,0,h,MISS Harden 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,248
+0021801004,340,PT11M21.00S,3,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,v,Walker REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,249
+0021801004,341,PT11M20.00S,3,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,v,Walker Out of Bounds - Bad Pass Turnover Turnover (P4.T11),Turnover,Out of Bounds - Bad Pass Turnover,1,0,250
+0021801004,342,PT10M56.00S,3,1610612745,HOU,101108,Paul,C. Paul,231,47,24,Missed,1,,,0,h,MISS Paul 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,251
+0021801004,343,PT10M52.00S,3,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,252
+0021801004,344,PT10M49.00S,3,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul Out of Bounds - Bad Pass Turnover Turnover (P1.T5),Turnover,Out of Bounds - Bad Pass Turnover,1,0,253
+0021801004,345,PT10M49.00S,3,1610612766,CHA,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,v,SUB: Kaminsky FOR Hernangomez,Substitution,,0,0,254
+0021801004,347,PT10M37.00S,3,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,0,121,12,Missed,1,,,0,v,MISS Kaminsky 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,255
+0021801004,348,PT10M34.00S,3,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,256
+0021801004,349,PT10M26.00S,3,1610612745,HOU,201569,Gordon,E. Gordon,0,0,0,,0,,,0,h,Gordon Out of Bounds - Bad Pass Turnover Turnover (P1.T6),Turnover,Out of Bounds - Bad Pass Turnover,1,0,257
+0021801004,350,PT10M26.00S,3,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,0,0,0,,0,,,0,v,SUB: Hernangomez FOR Kaminsky,Substitution,,0,0,258
+0021801004,352,PT10M13.00S,3,1610612766,CHA,203087,Lamb,J. Lamb,-62,244,25,Made,1,71,47,118,v,Lamb 25' 3PT Jump Shot (8 PTS),Made Shot,Jump Shot,1,3,259
+0021801004,353,PT10M05.00S,3,1610612766,CHA,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,v,Hernangomez Personal Take Foul (P3.T1) (T.Washington),Foul,Personal Take,1,0,260
+0021801004,355,PT10M04.00S,3,1610612745,HOU,201569,Gordon,E. Gordon,0,0,0,,0,,,0,h,Gordon Bad Pass Turnover (P2.T7),Turnover,Bad Pass,1,0,261
+0021801004,355,PT10M04.00S,3,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,v,Lamb STEAL (1 STL),,,1,0,262
+0021801004,357,PT09M57.00S,3,1610612766,CHA,202689,Walker,K. Walker,-103,236,26,Made,1,71,50,121,v,Walker 26' 3PT Jump Shot (23 PTS) (Lamb 3 AST),Made Shot,Jump Shot,1,3,263
+0021801004,359,PT09M34.00S,3,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden Bad Pass Turnover (P4.T8),Turnover,Bad Pass,1,0,264
+0021801004,359,PT09M34.00S,3,1610612766,CHA,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,v,Hernangomez STEAL (1 STL),,,1,0,265
+0021801004,362,PT09M26.00S,3,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul P.FOUL (P1.T1) (N.Buchert),Foul,Personal,1,0,266
+0021801004,364,PT09M16.00S,3,1610612766,CHA,1628407,Bacon,D. Bacon,-8,-5,1,Made,1,71,52,123,v,Bacon 1' Layup (6 PTS) (Hernangomez 2 AST),Made Shot,Layup Shot,1,2,267
+0021801004,366,PT08M58.00S,3,1610612745,HOU,201569,Gordon,E. Gordon,68,285,29,Made,1,74,52,126,h,Gordon 29' 3PT Jump Shot (16 PTS) (Paul 4 AST),Made Shot,Jump Shot,1,3,268
+0021801004,368,PT08M35.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,230,-22,0,Missed,1,,,0,v,MISS Bridges 3PT Jump Shot,Missed Shot,Jump Shot,1,3,269
+0021801004,369,PT08M33.00S,3,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,Capela REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,270
+0021801004,370,PT08M16.00S,3,1610612766,CHA,1628407,Bacon,D. Bacon,0,0,0,,0,,,0,v,Bacon S.FOUL (P3.T2) (T.Washington),Foul,Shooting,1,0,271
+0021801004,372,PT08M16.00S,3,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,75,52,127,h,Harden Free Throw 1 of 3 (11 PTS),Free Throw,Free Throw 1 of 3,0,0,272
+0021801004,373,PT08M16.00S,3,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,76,52,128,h,Harden Free Throw 2 of 3 (12 PTS),Free Throw,Free Throw 2 of 3,0,0,273
+0021801004,374,PT08M16.00S,3,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,77,52,129,h,Harden Free Throw 3 of 3 (13 PTS),Free Throw,Free Throw 3 of 3,0,0,274
+0021801004,375,PT08M02.00S,3,1610612766,CHA,1628407,Bacon,D. Bacon,-163,202,26,Missed,1,,,0,v,MISS Bacon 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,275
+0021801004,376,PT07M56.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,v,Bridges REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,276
+0021801004,377,PT07M54.00S,3,1610612766,CHA,202689,Walker,K. Walker,-18,27,3,Made,1,77,54,131,v,Walker 3' Pullup Jump Shot (25 PTS) (Lamb 4 AST),Made Shot,Pullup Jump shot,1,2,277
+0021801004,378,PT07M33.00S,3,1610612745,HOU,203991,Capela,C. Capela,-9,14,2,Made,1,79,54,133,h,Capela 2' Cutting Dunk Shot (13 PTS) (Harden 8 AST),Made Shot,Cutting Dunk Shot,1,2,278
+0021801004,380,PT07M33.00S,3,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,279
+0021801004,381,PT07M33.00S,3,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,h,SUB: Rivers FOR Paul,Substitution,,0,0,280
+0021801004,382,PT07M33.00S,3,1610612766,CHA,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,v,SUB: Kaminsky FOR Hernangomez,Substitution,,0,0,281
+0021801004,385,PT07M11.00S,3,1610612766,CHA,203087,Lamb,J. Lamb,-208,155,26,Missed,1,,,0,v,MISS Lamb 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,282
+0021801004,386,PT07M08.00S,3,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,h,Tucker REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,283
+0021801004,387,PT06M57.00S,3,1610612745,HOU,201935,Harden,J. Harden,-20,3,2,Made,1,81,54,135,h,Harden 2' Driving Layup (15 PTS),Made Shot,Driving Layup Shot,1,2,284
+0021801004,388,PT06M34.00S,3,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,h,Tucker P.FOUL (P1.T2) (N.Buchert),Foul,Personal,1,0,285
+0021801004,390,PT06M34.00S,3,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,v,SUB: Monk FOR Lamb,Substitution,,0,0,286
+0021801004,392,PT06M25.00S,3,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,-93,-4,9,Made,1,81,56,137,v,Kaminsky 9' Turnaround Fadeaway (4 PTS) (Walker 4 AST),Made Shot,Turnaround Fadeaway shot,1,2,287
+0021801004,393,PT06M25.00S,3,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden S.FOUL (P3.T3) (M.Lindsay),Foul,Shooting,1,0,288
+0021801004,395,PT06M25.00S,3,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,0,0,0,,0,81,57,138,v,Kaminsky Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,0,0,289
+0021801004,397,PT06M04.00S,3,1610612745,HOU,203085,Rivers,A. Rivers,-231,11,0,Missed,1,,,0,h,MISS Rivers 3PT Jump Shot,Missed Shot,Jump Shot,1,3,290
+0021801004,398,PT06M02.00S,3,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,v,Walker REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,291
+0021801004,399,PT05M57.00S,3,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,207,131,24,Made,1,81,60,141,v,Kaminsky 24' 3PT Jump Shot (8 PTS) (Walker 5 AST),Made Shot,Jump Shot,1,3,292
+0021801004,401,PT05M39.00S,3,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,v,Walker S.FOUL (P1.T3) (M.Lindsay),Foul,Shooting,1,0,293
+0021801004,403,PT05M39.00S,3,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,82,60,142,h,Capela Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,0,0,294
+0021801004,405,PT05M39.00S,3,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,83,60,143,h,Capela Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,0,0,295
+0021801004,406,PT05M27.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,74,20,8,Made,1,83,62,145,v,Bridges 8' Driving Floating Bank Jump Shot (2 PTS) (Walker 6 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,296
+0021801004,407,PT05M27.00S,3,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,h,Tucker S.FOUL (P2.T4) (M.Lindsay),Foul,Shooting,1,0,297
+0021801004,409,PT05M27.00S,3,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,SUB: Faried FOR Capela,Substitution,,0,0,298
+0021801004,411,PT05M27.00S,3,0,,1610612745,,,0,0,0,,0,,,0,,Delay Of Game,Violation,Delay Of Game,0,0,299
+0021801004,412,PT05M27.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,83,63,146,v,Bridges Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,0,0,300
+0021801004,413,PT05M11.00S,3,1610612745,HOU,201935,Harden,J. Harden,177,210,27,Made,1,86,63,149,h,Harden 27' 3PT Jump Shot (18 PTS),Made Shot,Jump Shot,1,3,301
+0021801004,414,PT04M58.00S,3,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,-60,65,9,Missed,1,,,0,v,MISS Kaminsky 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,302
+0021801004,415,PT04M55.00S,3,1610612745,HOU,202702,Faried,K. Faried,0,0,0,,0,,,0,h,Faried REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,303
+0021801004,416,PT04M51.00S,3,1610612745,HOU,201569,Gordon,E. Gordon,175,195,26,Made,1,89,63,152,h,Gordon 26' 3PT Jump Shot (19 PTS) (Tucker 2 AST),Made Shot,Jump Shot,1,3,304
+0021801004,418,PT04M36.00S,3,1610612766,CHA,1628370,Monk,M. Monk,237,86,25,Missed,1,,,0,v,MISS Monk 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,305
+0021801004,419,PT04M32.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,v,Bridges REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,306
+0021801004,420,PT04M29.00S,3,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk Bad Pass Turnover (P2.T12),Turnover,Bad Pass,1,0,307
+0021801004,420,PT04M29.00S,3,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,h,Tucker STEAL (1 STL),,,1,0,308
+0021801004,422,PT04M13.00S,3,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk S.FOUL (P3.T4) (M.Lindsay),Foul,Shooting,1,0,309
+0021801004,425,PT04M13.00S,3,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,90,63,153,h,Harden Free Throw 1 of 2 (19 PTS),Free Throw,Free Throw 1 of 2,0,0,310
+0021801004,426,PT04M13.00S,3,1610612745,HOU,201569,Gordon,E. Gordon,0,0,0,,0,,,0,h,SUB: Green FOR Gordon,Substitution,,0,0,311
+0021801004,427,PT04M13.00S,3,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,h,SUB: Shumpert FOR Tucker,Substitution,,0,0,312
+0021801004,430,PT04M13.00S,3,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,91,63,154,h,Harden Free Throw 2 of 2 (20 PTS),Free Throw,Free Throw 2 of 2,0,0,313
+0021801004,431,PT04M03.00S,3,1610612766,CHA,202689,Walker,K. Walker,117,235,26,Made,1,91,66,157,v,Walker 26' 3PT Pullup Jump Shot (28 PTS),Made Shot,Pullup Jump shot,1,3,314
+0021801004,432,PT03M40.00S,3,1610612745,HOU,203085,Rivers,A. Rivers,-178,195,26,Missed,1,,,0,h,MISS Rivers 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,315
+0021801004,433,PT03M37.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,v,Bridges REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,316
+0021801004,434,PT03M28.00S,3,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,168,196,26,Made,1,91,69,160,v,Kaminsky 26' 3PT Jump Shot (11 PTS) (Walker 7 AST),Made Shot,Jump Shot,1,3,317
+0021801004,436,PT03M10.00S,3,1610612745,HOU,202702,Faried,K. Faried,-3,48,5,Missed,1,,,0,h,MISS Faried 5' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,318
+0021801004,437,PT03M06.00S,3,1610612745,HOU,202702,Faried,K. Faried,0,0,0,,0,,,0,h,Faried REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,319
+0021801004,438,PT03M06.00S,3,1610612745,HOU,202702,Faried,K. Faried,0,-6,1,Missed,1,,,0,h,MISS Faried 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,320
+0021801004,439,PT03M05.00S,3,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,0,0,0,,0,,,0,v,Kaminsky REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,321
+0021801004,440,PT02M56.00S,3,1610612766,CHA,202689,Walker,K. Walker,-61,96,11,Made,1,91,71,162,v,Walker 11' Driving Floating Jump Shot (30 PTS),Made Shot,Driving Floating Jump Shot,1,2,322
+0021801004,441,PT02M56.00S,3,1610612745,HOU,203085,Rivers,A. Rivers,0,0,0,,0,,,0,h,Rivers S.FOUL (P3.PN) (M.Lindsay),Foul,Shooting,1,0,323
+0021801004,443,PT02M56.00S,3,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,324
+0021801004,444,PT02M56.00S,3,1610612766,CHA,1628407,Bacon,D. Bacon,0,0,0,,0,,,0,v,SUB: Lamb FOR Bacon,Substitution,,0,0,325
+0021801004,446,PT02M56.00S,3,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,91,72,163,v,Walker Free Throw 1 of 1 (31 PTS),Free Throw,Free Throw 1 of 1,0,0,326
+0021801004,447,PT02M37.00S,3,1610612745,HOU,201935,Harden,J. Harden,13,266,27,Missed,1,,,0,h,MISS Harden 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,327
+0021801004,448,PT02M33.00S,3,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,v,Walker REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,328
+0021801004,449,PT02M21.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,230,-3,0,Made,1,91,75,166,v,Bridges 3PT Jump Shot (6 PTS) (Kaminsky 2 AST),Made Shot,Jump Shot,1,3,329
+0021801004,451,PT02M01.00S,3,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,h,Green Out of Bounds - Bad Pass Turnover Turnover (P2.T9),Turnover,Out of Bounds - Bad Pass Turnover,1,0,330
+0021801004,452,PT01M49.00S,3,1610612766,CHA,1628370,Monk,M. Monk,-230,64,24,Missed,1,,,0,v,MISS Monk 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,331
+0021801004,453,PT01M46.00S,3,1610612745,HOU,202702,Faried,K. Faried,0,0,0,,0,,,0,h,Faried REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,332
+0021801004,454,PT01M42.00S,3,1610612745,HOU,201935,Harden,J. Harden,-8,29,3,Missed,1,,,0,h,MISS Harden 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,333
+0021801004,455,PT01M38.00S,3,1610612745,HOU,202702,Faried,K. Faried,0,0,0,,0,,,0,h,Faried REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,334
+0021801004,456,PT01M38.00S,3,1610612745,HOU,202702,Faried,K. Faried,0,-6,1,Missed,1,,,0,h,MISS Faried 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,335
+0021801004,457,PT01M37.00S,3,1610612745,HOU,203085,Rivers,A. Rivers,0,0,0,,0,,,0,h,Rivers REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,336
+0021801004,458,PT01M36.00S,3,1610612745,HOU,101123,Green,G. Green,217,126,25,Missed,1,,,0,h,MISS Green 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,337
+0021801004,459,PT01M35.00S,3,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Rebound,Rebound,Unknown,0,0,338
+0021801004,461,PT01M35.00S,3,1610612745,HOU,203085,Rivers,A. Rivers,0,0,0,,0,,,0,h,SUB: Paul FOR Rivers,Substitution,,0,0,339
+0021801004,463,PT01M30.00S,3,1610612745,HOU,202702,Faried,K. Faried,-37,257,26,Missed,1,,,0,h,MISS Faried 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,340
+0021801004,464,PT01M27.00S,3,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,v,Lamb REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,341
+0021801004,465,PT01M11.00S,3,1610612766,CHA,202689,Walker,K. Walker,92,254,27,Made,1,91,78,169,v,Walker 27' 3PT Pullup Jump Shot (34 PTS),Made Shot,Pullup Jump shot,1,3,342
+0021801004,466,PT00M53.60S,3,1610612745,HOU,202702,Faried,K. Faried,-9,11,1,Made,1,93,78,171,h,Faried 1' Alley Oop Dunk (14 PTS) (Harden 9 AST),Made Shot,Alley Oop Dunk Shot,1,2,343
+0021801004,468,PT00M40.90S,3,1610612766,CHA,1628970,Bridges,M. Bridges,-16,-1,2,Missed,1,,,0,v,MISS Bridges 2' Alley Oop Dunk,Missed Shot,Alley Oop Dunk Shot,1,2,344
+0021801004,469,PT00M39.60S,3,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Rebound,Rebound,Unknown,0,0,345
+0021801004,471,PT00M39.60S,3,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,h,SUB: Capela FOR Green,Substitution,,0,0,346
+0021801004,472,PT00M39.60S,3,1610612745,HOU,202702,Faried,K. Faried,0,0,0,,0,,,0,h,SUB: Tucker FOR Faried,Substitution,,0,0,347
+0021801004,473,PT00M39.60S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,v,SUB: Bacon FOR Bridges,Substitution,,0,0,348
+0021801004,477,PT00M30.30S,3,1610612745,HOU,201935,Harden,J. Harden,-60,251,26,Missed,1,,,0,h,MISS Harden 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,349
+0021801004,478,PT00M28.10S,3,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,350
+0021801004,479,PT00M09.80S,3,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,Capela S.FOUL (P1.PN) (N.Buchert),Foul,Shooting,1,0,351
+0021801004,481,PT00M09.80S,3,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,93,79,172,v,Monk Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,0,0,352
+0021801004,482,PT00M09.80S,3,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,v,SUB: Bridges FOR Walker,Substitution,,0,0,353
+0021801004,483,PT00M09.80S,3,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,0,0,0,,0,,,0,v,SUB: Graham FOR Kaminsky,Substitution,,0,0,354
+0021801004,486,PT00M09.80S,3,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,93,80,173,v,Monk Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,0,0,355
+0021801004,487,PT00M04.20S,3,1610612745,HOU,203991,Capela,C. Capela,-24,4,2,Missed,1,,,0,h,MISS Capela 2' Alley Oop Layup,Missed Shot,Alley Oop Layup shot,1,2,356
+0021801004,488,PT00M04.10S,3,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Rebound,Rebound,Unknown,0,0,357
+0021801004,489,PT00M04.10S,3,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,SUB: Biyombo FOR Monk,Substitution,,0,0,358
+0021801004,491,PT00M00.00S,3,1610612745,HOU,101108,Paul,C. Paul,169,37,17,Missed,1,,,0,h,MISS Paul 17' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,359
+0021801004,492,PT00M00.00S,3,0,,1610612745,,,0,0,0,,0,,,0,h,ROCKETS Rebound,Rebound,Unknown,0,0,360
+0021801004,493,PT00M00.00S,3,0,,0,,,0,0,0,,0,93,80,173,,End of 3rd Period (9:47 PM EST),period,end,1,0,361
+0021801004,500,PT12M00.00S,4,0,,0,,,0,0,0,,0,93,80,173,,Start of 4th Period (9:49 PM EST),period,start,0,0,362
+0021801004,501,PT11M37.00S,4,1610612745,HOU,203991,Capela,C. Capela,-5,14,1,Made,1,95,80,175,h,Capela 1' Cutting Layup Shot (17 PTS) (Gordon 3 AST),Made Shot,Cutting Layup Shot,1,2,363
+0021801004,504,PT11M12.00S,4,1610612766,CHA,203087,Lamb,J. Lamb,-67,125,14,Missed,1,,,0,v,MISS Lamb 14' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,364
+0021801004,505,PT11M10.00S,4,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,Capela REBOUND (Off:3 Def:8),Rebound,Unknown,1,0,365
+0021801004,506,PT10M57.00S,4,1610612745,HOU,202697,Shumpert,I. Shumpert,-14,220,22,Missed,1,,,0,h,MISS Shumpert 22' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,366
+0021801004,507,PT10M54.00S,4,1610612766,CHA,1628984,Graham,D. Graham,0,0,0,,0,,,0,v,Graham REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,367
+0021801004,508,PT10M48.00S,4,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,93,259,28,Missed,1,,,0,v,MISS Kaminsky 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,368
+0021801004,509,PT10M45.00S,4,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,Capela REBOUND (Off:3 Def:9),Rebound,Unknown,1,0,369
+0021801004,510,PT10M31.00S,4,1610612745,HOU,201569,Gordon,E. Gordon,192,214,29,Missed,1,,,0,h,MISS Gordon 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,370
+0021801004,511,PT10M28.00S,4,1610612766,CHA,1628407,Bacon,D. Bacon,0,0,0,,0,,,0,v,Bacon REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,371
+0021801004,512,PT10M24.00S,4,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,Capela P.FOUL (P2.T1) (T.Washington),Foul,Personal,1,0,372
+0021801004,514,PT10M24.00S,4,1610612745,HOU,202697,Shumpert,I. Shumpert,0,0,0,,0,,,0,h,SUB: Green FOR Shumpert,Substitution,,0,0,373
+0021801004,516,PT10M13.00S,4,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,5,12,1,Made,1,95,82,177,v,Kaminsky 1' Layup (13 PTS) (Lamb 5 AST),Made Shot,Layup Shot,1,2,374
+0021801004,518,PT10M01.00S,4,1610612745,HOU,201569,Gordon,E. Gordon,-203,178,27,Missed,1,,,0,h,MISS Gordon 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,375
+0021801004,519,PT09M57.00S,4,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,h,Tucker REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,376
+0021801004,520,PT09M55.00S,4,1610612745,HOU,101123,Green,G. Green,230,126,26,Missed,1,,,0,h,MISS Green 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,377
+0021801004,521,PT09M51.00S,4,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,v,Lamb REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,378
+0021801004,522,PT09M47.00S,4,1610612766,CHA,203087,Lamb,J. Lamb,112,226,25,Missed,1,,,0,v,MISS Lamb 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,379
+0021801004,523,PT09M45.00S,4,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,h,Tucker REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,380
+0021801004,524,PT09M34.00S,4,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,Capela Traveling Turnover (P1.T10),Turnover,Traveling,1,0,381
+0021801004,525,PT09M22.00S,4,1610612766,CHA,1628370,Monk,M. Monk,-142,228,27,Missed,1,,,0,v,MISS Monk 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,382
+0021801004,526,PT09M19.00S,4,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,Capela REBOUND (Off:3 Def:10),Rebound,Unknown,1,0,383
+0021801004,527,PT09M07.00S,4,1610612745,HOU,203991,Capela,C. Capela,-21,11,2,Made,1,97,82,179,h,Capela 2' Layup (19 PTS) (Tucker 3 AST),Made Shot,Layup Shot,1,2,384
+0021801004,529,PT09M07.00S,4,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,385
+0021801004,530,PT09M07.00S,4,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,SUB: Hernangomez FOR Monk,Substitution,,0,0,386
+0021801004,531,PT09M07.00S,4,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,0,0,0,,0,,,0,v,SUB: Walker FOR Kaminsky,Substitution,,0,0,387
+0021801004,534,PT08M50.00S,4,1610612766,CHA,202689,Walker,K. Walker,65,252,26,Made,1,97,85,182,v,Walker 26' 3PT Pullup Jump Shot (37 PTS),Made Shot,Pullup Jump shot,1,3,388
+0021801004,535,PT08M29.00S,4,1610612745,HOU,101123,Green,G. Green,218,157,27,Made,1,100,85,185,h,Green 27' 3PT Jump Shot (6 PTS) (Tucker 4 AST),Made Shot,Jump Shot,1,3,389
+0021801004,537,PT08M14.00S,4,1610612766,CHA,1628407,Bacon,D. Bacon,-7,4,1,Made,1,100,87,187,v,Bacon 1' Cutting Layup Shot (8 PTS) (Hernangomez 3 AST),Made Shot,Cutting Layup Shot,1,2,390
+0021801004,539,PT07M54.00S,4,1610612745,HOU,201569,Gordon,E. Gordon,-168,222,28,Made,1,103,87,190,h,Gordon 28' 3PT Jump Shot (22 PTS) (Green 1 AST),Made Shot,Jump Shot,1,3,391
+0021801004,541,PT07M33.00S,4,1610612766,CHA,202689,Walker,K. Walker,24,-15,3,Missed,1,,,0,v,MISS Walker 3' Layup,Missed Shot,Layup Shot,1,2,392
+0021801004,542,PT07M31.00S,4,1610612745,HOU,201569,Gordon,E. Gordon,0,0,0,,0,,,0,h,Gordon REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,393
+0021801004,543,PT07M21.00S,4,1610612745,HOU,101123,Green,G. Green,-6,35,4,Missed,1,,,0,h,MISS Green 4' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,394
+0021801004,544,PT07M19.00S,4,1610612766,CHA,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,v,Hernangomez REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,395
+0021801004,545,PT07M17.00S,4,1610612745,HOU,201569,Gordon,E. Gordon,0,0,0,,0,,,0,h,Gordon S.FOUL (P3.T2) (N.Buchert),Foul,Shooting,1,0,396
+0021801004,547,PT07M17.00S,4,1610612766,CHA,1628407,Bacon,D. Bacon,0,0,0,,0,103,88,191,v,Bacon Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,0,0,397
+0021801004,548,PT07M17.00S,4,1610612766,CHA,1628407,Bacon,D. Bacon,0,0,0,,0,103,89,192,v,Bacon Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,0,0,398
+0021801004,549,PT07M05.00S,4,1610612745,HOU,200782,Tucker,P. Tucker,-238,31,24,Missed,1,,,0,h,MISS Tucker 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,399
+0021801004,550,PT07M03.00S,4,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,Capela REBOUND (Off:4 Def:10),Rebound,Unknown,1,0,400
+0021801004,551,PT06M59.00S,4,1610612745,HOU,101108,Paul,C. Paul,-11,266,27,Made,1,106,89,195,h,Paul 27' 3PT Jump Shot (10 PTS),Made Shot,Jump Shot,1,3,401
+0021801004,552,PT06M43.00S,4,1610612766,CHA,1628984,Graham,D. Graham,225,-8,0,Made,1,106,92,198,v,Graham 3PT Jump Shot (6 PTS) (Hernangomez 4 AST),Made Shot,Jump Shot,1,3,402
+0021801004,554,PT06M32.00S,4,1610612745,HOU,101123,Green,G. Green,-228,22,0,Missed,1,,,0,h,MISS Green 3PT Jump Shot,Missed Shot,Jump Shot,1,3,403
+0021801004,555,PT06M29.00S,4,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,v,Walker REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,404
+0021801004,556,PT06M25.00S,4,1610612766,CHA,202689,Walker,K. Walker,26,0,3,Missed,1,,,0,v,MISS Walker 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,405
+0021801004,556,PT06M25.00S,4,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,h,Tucker BLOCK (1 BLK),,,1,2,406
+0021801004,558,PT06M22.00S,4,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,Capela REBOUND (Off:4 Def:11),Rebound,Unknown,1,0,407
+0021801004,559,PT06M20.00S,4,1610612766,CHA,1628984,Graham,D. Graham,0,0,0,,0,,,0,v,Graham P.FOUL (P3.T1) (T.Washington),Foul,Personal,1,0,408
+0021801004,561,PT06M20.00S,4,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,h,SUB: Harden FOR Green,Substitution,,0,0,409
+0021801004,562,PT06M20.00S,4,1610612766,CHA,1626195,Hernangomez,W. Hernangomez,0,0,0,,0,,,0,v,SUB: Bridges FOR Hernangomez,Substitution,,0,0,410
+0021801004,565,PT06M05.00S,4,1610612745,HOU,200782,Tucker,P. Tucker,229,20,0,Missed,1,,,0,h,MISS Tucker 3PT Jump Shot,Missed Shot,Jump Shot,1,3,411
+0021801004,566,PT06M03.00S,4,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,v,Lamb REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,412
+0021801004,567,PT05M51.00S,4,1610612766,CHA,1628984,Graham,D. Graham,51,249,25,Missed,1,,,0,v,MISS Graham 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,413
+0021801004,568,PT05M47.00S,4,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,414
+0021801004,569,PT05M41.00S,4,1610612745,HOU,101108,Paul,C. Paul,-125,235,27,Missed,1,,,0,h,MISS Paul 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,415
+0021801004,570,PT05M40.00S,4,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,416
+0021801004,571,PT05M36.00S,4,1610612766,CHA,1628407,Bacon,D. Bacon,0,0,0,,0,,,0,v,Bacon P.FOUL (P4.T2) (T.Washington),Foul,Personal,1,0,417
+0021801004,573,PT05M29.00S,4,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul Out of Bounds - Bad Pass Turnover Turnover (P2.T11),Turnover,Out of Bounds - Bad Pass Turnover,1,0,418
+0021801004,575,PT05M18.00S,4,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,419
+0021801004,576,PT05M18.00S,4,1610612766,CHA,1628984,Graham,D. Graham,0,0,0,,0,,,0,v,SUB: Kaminsky FOR Graham,Substitution,,0,0,420
+0021801004,577,PT05M18.00S,4,1610612766,CHA,1628407,Bacon,D. Bacon,0,0,0,,0,,,0,v,SUB: Monk FOR Bacon,Substitution,,0,0,421
+0021801004,580,PT05M03.00S,4,1610612766,CHA,1628370,Monk,M. Monk,-193,323,38,Missed,1,,,0,v,MISS Monk 38' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,422
+0021801004,581,PT05M01.00S,4,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,423
+0021801004,582,PT04M44.00S,4,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,Capela 3 Second Violation Turnover (P2.T12),Turnover,3 Second Violation,1,0,424
+0021801004,583,PT04M33.00S,4,1610612745,HOU,201569,Gordon,E. Gordon,0,0,0,,0,,,0,h,Gordon S.FOUL (P4.T3) (T.Washington),Foul,Shooting,1,0,425
+0021801004,585,PT04M33.00S,4,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,0,0,0,,0,106,93,199,v,Kaminsky Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,0,0,426
+0021801004,586,PT04M33.00S,4,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,0,0,0,,0,106,94,200,v,Kaminsky Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,0,0,427
+0021801004,587,PT04M20.00S,4,1610612745,HOU,201935,Harden,J. Harden,237,58,24,Made,1,109,94,203,h,Harden 24' 3PT Jump Shot (23 PTS) (Capela 2 AST),Made Shot,Jump Shot,1,3,428
+0021801004,589,PT04M04.00S,4,1610612766,CHA,202689,Walker,K. Walker,35,5,4,Made,1,109,96,205,v,Walker 4' Turnaround Fadeaway Bank Jump Shot (39 PTS),Made Shot,Turnaround Fadeaway Bank Jump Shot,1,2,429
+0021801004,590,PT04M04.00S,4,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,h,Tucker S.FOUL (P3.T4) (M.Lindsay),Foul,Shooting,1,0,430
+0021801004,592,PT04M04.00S,4,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,109,97,206,v,Walker Free Throw 1 of 1 (40 PTS),Free Throw,Free Throw 1 of 1,0,0,431
+0021801004,593,PT03M52.00S,4,1610612745,HOU,203991,Capela,C. Capela,-5,20,2,Missed,1,,,0,h,MISS Capela 2' Layup,Missed Shot,Layup Shot,1,2,432
+0021801004,594,PT03M50.00S,4,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,v,Walker REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,433
+0021801004,595,PT03M37.00S,4,1610612766,CHA,202689,Walker,K. Walker,-19,28,3,Missed,1,,,0,v,MISS Walker 3' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,434
+0021801004,596,PT03M35.00S,4,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,435
+0021801004,597,PT03M30.00S,4,1610612745,HOU,201569,Gordon,E. Gordon,229,129,26,Missed,1,,,0,h,MISS Gordon 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,436
+0021801004,598,PT03M26.00S,4,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,v,Walker REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,437
+0021801004,599,PT03M22.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,8,-9,1,Made,1,109,99,208,v,Bridges 1' Running Dunk (8 PTS) (Lamb 6 AST),Made Shot,Running Dunk Shot,1,2,438
+0021801004,601,PT03M02.00S,4,1610612745,HOU,201569,Gordon,E. Gordon,229,56,24,Missed,1,,,0,h,MISS Gordon 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,439
+0021801004,602,PT03M00.00S,4,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,0,0,0,,0,,,0,v,Kaminsky REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,440
+0021801004,603,PT02M52.00S,4,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,-35,272,27,Missed,1,,,0,v,MISS Kaminsky 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,441
+0021801004,604,PT02M50.00S,4,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,442
+0021801004,605,PT02M41.00S,4,1610612745,HOU,201935,Harden,J. Harden,16,69,7,Made,1,111,99,210,h,Harden 7' Driving Floating Bank Jump Shot (25 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,443
+0021801004,606,PT02M41.00S,4,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,v,Lamb S.FOUL (P1.T3) (T.Washington),Foul,Shooting,1,0,444
+0021801004,608,PT02M41.00S,4,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,h,SUB: Faried FOR Capela,Substitution,,0,0,445
+0021801004,610,PT02M41.00S,4,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,112,99,211,h,Harden Free Throw 1 of 1 (26 PTS),Free Throw,Free Throw 1 of 1,0,0,446
+0021801004,611,PT02M27.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,-128,227,26,Missed,1,,,0,v,MISS Bridges 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,447
+0021801004,612,PT02M25.00S,4,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,448
+0021801004,613,PT02M22.00S,4,1610612766,CHA,1628370,Monk,M. Monk,5,37,4,Missed,1,,,0,v,MISS Monk 4' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,449
+0021801004,614,PT02M22.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,v,Bridges REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,450
+0021801004,615,PT02M21.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,-6,1,Made,1,112,101,213,v,Bridges 1' Tip Dunk Shot (10 PTS),Made Shot,Tip Dunk Shot,1,2,451
+0021801004,616,PT02M11.00S,4,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,h,Paul Bad Pass Turnover (P3.T13),Turnover,Bad Pass,1,0,452
+0021801004,616,PT02M11.00S,4,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk STEAL (1 STL),,,1,0,453
+0021801004,618,PT02M06.00S,4,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,4,-3,1,Missed,1,,,0,v,MISS Kaminsky 1' Layup,Missed Shot,Layup Shot,1,2,454
+0021801004,619,PT02M04.00S,4,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,455
+0021801004,620,PT02M02.00S,4,1610612745,HOU,202702,Faried,K. Faried,-13,11,2,Made,1,114,101,215,h,Faried 2' Cutting Dunk Shot (16 PTS) (Harden 10 AST),Made Shot,Cutting Dunk Shot,1,2,456
+0021801004,622,PT02M02.00S,4,0,,1610612766,,,0,0,0,,0,,,0,v,Hornets Timeout: Regular (Reg.7 Short 0),Timeout,Regular,0,0,457
+0021801004,623,PT02M02.00S,4,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,h,SUB: Rivers FOR Paul,Substitution,,0,0,458
+0021801004,625,PT01M53.00S,4,1610612766,CHA,203087,Lamb,J. Lamb,-1,7,1,Missed,1,,,0,v,MISS Lamb 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,459
+0021801004,626,PT01M51.00S,4,1610612745,HOU,202702,Faried,K. Faried,0,0,0,,0,,,0,h,Faried REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,460
+0021801004,627,PT01M47.00S,4,1610612745,HOU,201935,Harden,J. Harden,-19,6,2,Made,1,116,101,217,h,Harden 2' Driving Layup (28 PTS),Made Shot,Driving Layup Shot,1,2,461
+0021801004,628,PT01M36.00S,4,1610612766,CHA,202689,Walker,K. Walker,-13,-4,1,Missed,1,,,0,v,MISS Walker 1' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,462
+0021801004,628,PT01M36.00S,4,1610612745,HOU,202702,Faried,K. Faried,0,0,0,,0,,,0,h,Faried BLOCK (1 BLK),,,1,2,463
+0021801004,630,PT01M31.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,v,Bridges REBOUND (Off:4 Def:2),Rebound,Unknown,1,0,464
+0021801004,631,PT01M31.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,-6,1,Made,1,116,103,219,v,Bridges 1' Tip Dunk Shot (12 PTS),Made Shot,Tip Dunk Shot,1,2,465
+0021801004,632,PT01M29.00S,4,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk P.FOUL (P4.T4) (M.Lindsay),Foul,Personal,1,0,466
+0021801004,634,PT01M29.00S,4,1610612745,HOU,201569,Gordon,E. Gordon,0,0,0,,0,,,0,h,SUB: Green FOR Gordon,Substitution,,0,0,467
+0021801004,635,PT01M29.00S,4,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,h,SUB: Shumpert FOR Harden,Substitution,,0,0,468
+0021801004,636,PT01M29.00S,4,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,h,SUB: Clark FOR Tucker,Substitution,,0,0,469
+0021801004,637,PT01M29.00S,4,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,v,SUB: Bacon FOR Lamb,Substitution,,0,0,470
+0021801004,638,PT01M29.00S,4,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,v,SUB: Graham FOR Walker,Substitution,,0,0,471
+0021801004,639,PT01M29.00S,4,1610612766,CHA,1626163,Kaminsky,F. Kaminsky,0,0,0,,0,,,0,v,SUB: Hernangomez FOR Kaminsky,Substitution,,0,0,472
+0021801004,646,PT01M21.00S,4,1610612745,HOU,203085,Rivers,A. Rivers,2,72,7,Made,1,118,103,221,h,Rivers 7' Driving Floating Jump Shot (8 PTS),Made Shot,Driving Floating Jump Shot,1,2,473
+0021801004,647,PT01M09.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,-62,239,25,Missed,1,,,0,v,MISS Bridges 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,474
+0021801004,648,PT01M07.00S,4,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,h,Green REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,475
+0021801004,649,PT00M57.20S,4,1610612745,HOU,202702,Faried,K. Faried,0,0,0,,0,,,0,h,Faried Bad Pass Turnover (P1.T14),Turnover,Bad Pass,1,0,476
+0021801004,649,PT00M57.20S,4,1610612766,CHA,1628407,Bacon,D. Bacon,0,0,0,,0,,,0,v,Bacon STEAL (1 STL),,,1,0,477
+0021801004,651,PT00M49.00S,4,1610612766,CHA,1628407,Bacon,D. Bacon,-136,222,26,Made,1,118,106,224,v,Bacon 26' 3PT Jump Shot (13 PTS) (Monk 1 AST),Made Shot,Jump Shot,1,3,478
+0021801004,653,PT00M31.90S,4,1610612745,HOU,101123,Green,G. Green,-188,167,25,Missed,1,,,0,h,MISS Green 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,479
+0021801004,654,PT00M30.00S,4,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,v,Monk REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,480
+0021801004,655,PT00M22.80S,4,1610612766,CHA,1628370,Monk,M. Monk,108,231,26,Missed,1,,,0,v,MISS Monk 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,481
+0021801004,656,PT00M20.80S,4,1610612745,HOU,202697,Shumpert,I. Shumpert,0,0,0,,0,,,0,h,Shumpert REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,482
+0021801004,657,PT00M00.00S,4,0,,0,,,0,0,0,,0,118,106,224,,End of 4th Period (10:15 PM EST),period,end,1,0,483

@@ -1,0 +1,510 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021800873,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:11 PM EST),period,start,0,0,1
+0021800873,4,PT12M00.00S,1,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,,,0,h,Jump Ball Zeller vs. Bryant: Tip to Green,Jump Ball,,1,0,2
+0021800873,7,PT11M48.00S,1,1610612764,WAS,203078,Beal,B. Beal,-166,52,17,Made,1,0,2,2,v,Beal 17' Jump Shot (2 PTS),Made Shot,Jump Shot,1,2,3
+0021800873,9,PT11M29.00S,1,1610612766,CHA,202689,Walker,K. Walker,-34,207,21,Missed,1,,,0,h,MISS Walker 21' Jump Shot,Missed Shot,Jump Shot,1,2,4
+0021800873,10,PT11M24.00S,1,1610612764,WAS,1628418,Bryant,T. Bryant,0,0,0,,0,,,0,v,Bryant REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,5
+0021800873,11,PT11M12.00S,1,1610612764,WAS,1628418,Bryant,T. Bryant,43,253,26,Missed,1,,,0,v,MISS Bryant 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,6
+0021800873,12,PT11M09.00S,1,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,,,0,h,Zeller REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,7
+0021800873,13,PT10M58.00S,1,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,h,Walker Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,8
+0021800873,13,PT10M58.00S,1,1610612764,WAS,201145,Green,J. Green,0,0,0,,0,,,0,v,Green STEAL (1 STL),,,1,0,9
+0021800873,15,PT10M55.00S,1,1610612764,WAS,201145,Green,J. Green,8,9,1,Made,1,0,4,4,v,Green 1' Running Layup (2 PTS),Made Shot,Running Layup Shot,1,2,10
+0021800873,16,PT10M55.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges S.FOUL (P1.T1) (J.Goble),Foul,Shooting,1,0,11
+0021800873,18,PT10M55.00S,1,1610612764,WAS,201145,Green,J. Green,0,0,0,,0,0,5,5,v,Green Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,0,0,12
+0021800873,20,PT10M30.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,53,22,6,Missed,1,,,0,h,MISS Bridges 6' Hook Shot,Missed Shot,Hook Shot,1,2,13
+0021800873,21,PT10M27.00S,1,1610612764,WAS,1628418,Bryant,T. Bryant,0,0,0,,0,,,0,v,Bryant REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,14
+0021800873,22,PT10M25.00S,1,1610612764,WAS,203078,Beal,B. Beal,-70,243,25,Missed,1,,,0,v,MISS Beal 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,15
+0021800873,23,PT10M22.00S,1,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,h,Walker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,16
+0021800873,24,PT10M18.00S,1,1610612766,CHA,101107,Williams,M. Williams,-236,38,24,Missed,1,,,0,h,MISS Williams 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,17
+0021800873,25,PT10M15.00S,1,1610612766,CHA,201587,Batum,N. Batum,0,0,0,,0,,,0,h,Batum REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,18
+0021800873,26,PT10M09.00S,1,1610612766,CHA,203469,Zeller,C. Zeller,-32,52,6,Missed,1,,,0,h,MISS Zeller 6' Jump Shot,Missed Shot,Jump Shot,1,2,19
+0021800873,27,PT10M04.00S,1,1610612766,CHA,101107,Williams,M. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,20
+0021800873,28,PT10M02.00S,1,1610612766,CHA,101107,Williams,M. Williams,-16,60,6,Made,1,2,5,7,h,Williams 6' Running Jump Shot (2 PTS),Made Shot,Running Jump Shot,1,2,21
+0021800873,29,PT09M52.00S,1,1610612764,WAS,203107,Satoransky,T. Satoransky,-10,247,25,Missed,1,,,0,v,MISS Satoransky 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,22
+0021800873,30,PT09M49.00S,1,1610612766,CHA,201587,Batum,N. Batum,0,0,0,,0,,,0,h,Batum REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,23
+0021800873,32,PT09M34.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,-1,11,1,Made,1,4,5,9,h,Bridges 1' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,24
+0021800873,33,PT09M34.00S,1,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,Satoransky S.FOUL (P1.T1) (J.Goble),Foul,Shooting,1,0,25
+0021800873,35,PT09M34.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,5,5,10,h,Bridges Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,0,0,26
+0021800873,36,PT09M20.00S,1,1610612764,WAS,203107,Satoransky,T. Satoransky,-63,241,25,Made,1,5,8,13,v,Satoransky 25' 3PT Jump Bank Shot (3 PTS) (Ariza 1 AST),Made Shot,Jump Bank Shot,1,3,27
+0021800873,38,PT09M08.00S,1,1610612764,WAS,1628418,Bryant,T. Bryant,0,0,0,,0,,,0,v,Bryant S.FOUL (P1.T2) (D.Richardson),Foul,Shooting,1,0,28
+0021800873,40,PT09M08.00S,1,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,h,MISS Walker Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,29
+0021800873,41,PT09M08.00S,1,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Normal Rebound,0,0,30
+0021800873,42,PT09M08.00S,1,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,6,8,14,h,Walker Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,0,0,31
+0021800873,43,PT08M55.00S,1,1610612764,WAS,2772,Ariza,T. Ariza,-169,178,25,Made,1,6,11,17,v,Ariza 25' 3PT Jump Shot (3 PTS) (Bryant 1 AST),Made Shot,Jump Shot,1,3,32
+0021800873,45,PT08M42.00S,1,1610612766,CHA,201587,Batum,N. Batum,18,258,26,Made,1,9,11,20,h,Batum 26' 3PT Jump Shot (3 PTS),Made Shot,Jump Shot,1,3,33
+0021800873,46,PT08M19.00S,1,1610612764,WAS,203078,Beal,B. Beal,17,15,2,Made,1,9,13,22,v,Beal 2' Driving Layup (4 PTS) (Satoransky 1 AST),Made Shot,Driving Layup Shot,1,2,34
+0021800873,48,PT08M06.00S,1,1610612766,CHA,201587,Batum,N. Batum,70,251,26,Missed,1,,,0,h,MISS Batum 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,35
+0021800873,49,PT08M03.00S,1,1610612764,WAS,2772,Ariza,T. Ariza,0,0,0,,0,,,0,v,Ariza REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,36
+0021800873,50,PT08M01.00S,1,1610612766,CHA,201587,Batum,N. Batum,0,0,0,,0,,,0,h,Batum P.FOUL (P1.T2) (D.Richardson),Foul,Personal,1,0,37
+0021800873,52,PT07M50.00S,1,1610612764,WAS,2772,Ariza,T. Ariza,22,37,4,Missed,1,,,0,v,MISS Ariza 4' Layup,Missed Shot,Layup Shot,1,2,38
+0021800873,52,PT07M50.00S,1,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,,,0,h,Zeller BLOCK (1 BLK),,,1,2,39
+0021800873,54,PT07M46.00S,1,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,,,0,h,Zeller REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,40
+0021800873,55,PT07M41.00S,1,1610612766,CHA,202689,Walker,K. Walker,9,58,6,Missed,1,,,0,h,MISS Walker 6' Layup,Missed Shot,Layup Shot,1,2,41
+0021800873,56,PT07M38.00S,1,1610612764,WAS,201145,Green,J. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,42
+0021800873,57,PT07M33.00S,1,1610612764,WAS,1628418,Bryant,T. Bryant,6,15,2,Made,1,9,15,24,v,Bryant 2' Layup (2 PTS) (Green 1 AST),Made Shot,Layup Shot,1,2,43
+0021800873,59,PT07M18.00S,1,1610612766,CHA,201587,Batum,N. Batum,10,4,1,Made,1,11,15,26,h,Batum 1' Driving Layup (5 PTS) (Zeller 1 AST),Made Shot,Driving Layup Shot,1,2,44
+0021800873,60,PT07M05.00S,1,1610612764,WAS,201145,Green,J. Green,-223,25,0,Missed,1,,,0,v,MISS Green 3PT Jump Shot,Missed Shot,Jump Shot,1,3,45
+0021800873,61,PT07M05.00S,1,1610612766,CHA,201587,Batum,N. Batum,0,0,0,,0,,,0,h,Batum REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,46
+0021800873,63,PT06M55.00S,1,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,Satoransky P.FOUL (P2.T3) (J.Goble),Foul,Personal,1,0,47
+0021800873,65,PT06M55.00S,1,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,48
+0021800873,66,PT06M55.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,SUB: Lamb FOR Bridges,Substitution,,0,0,49
+0021800873,67,PT06M55.00S,1,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,SUB: Randle FOR Satoransky,Substitution,,0,0,50
+0021800873,70,PT06M40.00S,1,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Turnover: Shot Clock (T#2),Turnover,Shot Clock Turnover,0,0,51
+0021800873,71,PT06M22.00S,1,1610612764,WAS,2772,Ariza,T. Ariza,-10,29,3,Missed,1,,,0,v,MISS Ariza 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,52
+0021800873,72,PT06M19.00S,1,1610612766,CHA,101107,Williams,M. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,53
+0021800873,73,PT06M16.00S,1,1610612766,CHA,202689,Walker,K. Walker,11,48,5,Missed,1,,,0,h,MISS Walker 5' Layup,Missed Shot,Layup Shot,1,2,54
+0021800873,73,PT06M16.00S,1,1610612764,WAS,201145,Green,J. Green,0,0,0,,0,,,0,v,Green BLOCK (1 BLK),,,1,2,55
+0021800873,75,PT06M13.00S,1,1610612766,CHA,201587,Batum,N. Batum,0,0,0,,0,,,0,h,Batum REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,56
+0021800873,76,PT06M12.00S,1,1610612766,CHA,203469,Zeller,C. Zeller,13,4,1,Missed,1,,,0,h,MISS Zeller 1' Layup,Missed Shot,Layup Shot,1,2,57
+0021800873,77,PT06M09.00S,1,1610612764,WAS,1628418,Bryant,T. Bryant,0,0,0,,0,,,0,v,Bryant REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,58
+0021800873,78,PT06M05.00S,1,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,h,Lamb S.FOUL (P1.T3) (J.Goble),Foul,Shooting,1,0,59
+0021800873,80,PT06M05.00S,1,1610612764,WAS,201145,Green,J. Green,0,0,0,,0,11,16,27,v,Green Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,0,0,60
+0021800873,81,PT06M05.00S,1,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,,,0,h,SUB: Kidd-Gilchrist FOR Zeller,Substitution,,0,0,61
+0021800873,83,PT06M05.00S,1,1610612764,WAS,201145,Green,J. Green,0,0,0,,0,11,17,28,v,Green Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,0,0,62
+0021800873,84,PT05M46.00S,1,1610612766,CHA,101107,Williams,M. Williams,9,44,4,Made,1,13,17,30,h,Williams 4' Floating Jump Shot (4 PTS) (Walker 1 AST),Made Shot,Floating Jump shot,1,2,63
+0021800873,86,PT05M21.00S,1,1610612764,WAS,1626184,Randle,C. Randle,-218,106,24,Made,1,13,20,33,v,Randle 24' 3PT Jump Shot (3 PTS),Made Shot,Jump Shot,1,3,64
+0021800873,87,PT05M04.00S,1,1610612766,CHA,201587,Batum,N. Batum,-8,71,7,Missed,1,,,0,h,MISS Batum 7' Jump Shot,Missed Shot,Jump Shot,1,2,65
+0021800873,88,PT05M01.00S,1,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,v,Beal REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,66
+0021800873,89,PT04M56.00S,1,1610612764,WAS,203078,Beal,B. Beal,-30,119,12,Made,1,13,22,35,v,Beal 12' Jump Shot (6 PTS),Made Shot,Jump Shot,1,2,67
+0021800873,90,PT04M41.00S,1,1610612766,CHA,202689,Walker,K. Walker,107,228,25,Made,1,16,22,38,h,Walker 25' 3PT Jump Shot (4 PTS),Made Shot,Jump Shot,1,3,68
+0021800873,91,PT04M24.00S,1,1610612764,WAS,201145,Green,J. Green,-6,55,6,Made,1,16,24,40,v,Green 6' Hook Shot (7 PTS),Made Shot,Hook Shot,1,2,69
+0021800873,92,PT04M12.00S,1,1610612766,CHA,202689,Walker,K. Walker,11,12,2,Missed,1,,,0,h,MISS Walker 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,70
+0021800873,93,PT04M08.00S,1,1610612764,WAS,1626184,Randle,C. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,71
+0021800873,94,PT04M04.00S,1,1610612764,WAS,203078,Beal,B. Beal,-91,10,9,Made,1,16,26,42,v,Beal 9' Step Back Jump Shot (8 PTS),Made Shot,Step Back Jump shot,1,2,72
+0021800873,96,PT03M50.00S,1,1610612766,CHA,203087,Lamb,J. Lamb,-41,106,11,Missed,1,,,0,h,MISS Lamb 11' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,73
+0021800873,97,PT03M46.00S,1,1610612764,WAS,1628418,Bryant,T. Bryant,0,0,0,,0,,,0,v,Bryant REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,74
+0021800873,98,PT03M44.00S,1,1610612766,CHA,201587,Batum,N. Batum,0,0,0,,0,,,0,h,Batum P.FOUL (P2.T4) (J.Williams),Foul,Personal,1,0,75
+0021800873,100,PT03M44.00S,1,1610612766,CHA,101107,Williams,M. Williams,0,0,0,,0,,,0,h,SUB: Biyombo FOR Williams,Substitution,,0,0,76
+0021800873,101,PT03M44.00S,1,1610612766,CHA,201587,Batum,N. Batum,0,0,0,,0,,,0,h,SUB: Bridges FOR Batum,Substitution,,0,0,77
+0021800873,102,PT03M44.00S,1,1610612764,WAS,1628418,Bryant,T. Bryant,0,0,0,,0,,,0,v,SUB: Portis FOR Bryant,Substitution,,0,0,78
+0021800873,106,PT03M36.00S,1,1610612764,WAS,201145,Green,J. Green,-5,-2,1,Made,1,16,28,44,v,Green 1' Alley Oop Layup (9 PTS) (Beal 1 AST),Made Shot,Alley Oop Layup shot,1,2,79
+0021800873,108,PT03M21.00S,1,1610612766,CHA,202687,Biyombo,B. Biyombo,3,11,1,Made,1,18,28,46,h,Biyombo 1' Dunk (2 PTS) (Walker 2 AST),Made Shot,Dunk Shot,1,2,80
+0021800873,110,PT03M07.00S,1,1610612764,WAS,203078,Beal,B. Beal,-207,138,25,Missed,1,,,0,v,MISS Beal 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,81
+0021800873,111,PT03M04.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,82
+0021800873,112,PT03M02.00S,1,1610612766,CHA,203077,Kidd-Gilchrist,M. Kidd-Gilchrist,11,12,2,Made,1,20,28,48,h,Kidd-Gilchrist 2' Layup (2 PTS) (Walker 3 AST),Made Shot,Layup Shot,1,2,83
+0021800873,114,PT03M02.00S,1,0,,1610612764,,,0,0,0,,0,,,0,v,Wizards Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,84
+0021800873,115,PT03M02.00S,1,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,h,SUB: Parker FOR Walker,Substitution,,0,0,85
+0021800873,116,PT03M02.00S,1,1610612764,WAS,201145,Green,J. Green,0,0,0,,0,,,0,v,SUB: Parker FOR Green,Substitution,,0,0,86
+0021800873,119,PT02M46.00S,1,1610612764,WAS,2772,Ariza,T. Ariza,-8,42,4,Made,1,20,30,50,v,Ariza 4' Hook Shot (5 PTS),Made Shot,Hook Shot,1,2,87
+0021800873,120,PT02M34.00S,1,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,h,Lamb Out of Bounds - Bad Pass Turnover Turnover (P1.T3),Turnover,Out of Bounds - Bad Pass Turnover,1,0,88
+0021800873,121,PT02M15.00S,1,1610612764,WAS,1626184,Randle,C. Randle,0,0,0,,0,,,0,v,Randle Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,89
+0021800873,121,PT02M15.00S,1,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,h,Lamb STEAL (1 STL),,,1,0,90
+0021800873,123,PT02M10.00S,1,1610612766,CHA,203087,Lamb,J. Lamb,-24,257,26,Made,1,23,30,53,h,Lamb 26' 3PT Pullup Jump Shot (3 PTS),Made Shot,Pullup Jump shot,1,3,91
+0021800873,124,PT01M59.00S,1,1610612764,WAS,1626184,Randle,C. Randle,-5,8,1,Made,1,23,32,55,v,Randle 1' Driving Reverse Layup (5 PTS),Made Shot,Driving Reverse Layup Shot,1,2,92
+0021800873,125,PT01M34.00S,1,1610612766,CHA,203077,Kidd-Gilchrist,M. Kidd-Gilchrist,-8,10,1,Made,1,25,32,57,h,Kidd-Gilchrist 1' Layup (4 PTS),Made Shot,Layup Shot,1,2,93
+0021800873,126,PT01M23.00S,1,1610612764,WAS,203078,Beal,B. Beal,0,3,0,Made,1,25,34,59,v,Beal Driving Layup (10 PTS),Made Shot,Driving Layup Shot,1,2,94
+0021800873,127,PT01M06.00S,1,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,h,Lamb Lost Ball Turnover (P2.T4),Turnover,Lost Ball,1,0,95
+0021800873,127,PT01M06.00S,1,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis STEAL (1 STL),,,1,0,96
+0021800873,129,PT01M03.00S,1,1610612764,WAS,203078,Beal,B. Beal,5,15,2,Made,1,25,36,61,v,Beal 2' Dunk (12 PTS) (Portis 1 AST),Made Shot,Dunk Shot,1,2,97
+0021800873,130,PT01M03.00S,1,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,98
+0021800873,132,PT01M03.00S,1,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,SUB: Monk FOR Bridges,Substitution,,0,0,99
+0021800873,133,PT01M03.00S,1,1610612764,WAS,2772,Ariza,T. Ariza,0,0,0,,0,,,0,v,SUB: W. Johnson FOR Ariza,Substitution,,0,0,100
+0021800873,136,PT00M48.30S,1,1610612766,CHA,203087,Lamb,J. Lamb,25,49,6,Missed,1,,,0,h,MISS Lamb 6' Layup,Missed Shot,Layup Shot,1,2,101
+0021800873,137,PT00M43.90S,1,1610612766,CHA,203077,Kidd-Gilchrist,M. Kidd-Gilchrist,0,0,0,,0,,,0,h,Kidd-Gilchrist REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,102
+0021800873,138,PT00M42.80S,1,1610612766,CHA,203077,Kidd-Gilchrist,M. Kidd-Gilchrist,0,0,0,,0,,,0,h, ,Jump Ball,,1,0,103
+0021800873,142,PT00M34.30S,1,1610612766,CHA,2225,Parker,T. Parker,-14,8,2,Made,1,27,36,63,h,Parker 2' Layup (2 PTS),Made Shot,Layup Shot,1,2,104
+0021800873,143,PT00M13.90S,1,1610612764,WAS,203078,Beal,B. Beal,-20,172,17,Made,1,27,38,65,v,Beal 17' Fadeaway Jumper (14 PTS) (Randle 1 AST),Made Shot,Fadeaway Jump Shot,1,2,105
+0021800873,145,PT00M07.40S,1,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,v,Beal Personal Take Foul (P1.T4) (D.Richardson),Foul,Personal Take,1,0,106
+0021800873,147,PT00M07.40S,1,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,SUB: Williams FOR Biyombo,Substitution,,0,0,107
+0021800873,148,PT00M07.40S,1,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,v,SUB: Ariza FOR Beal,Substitution,,0,0,108
+0021800873,154,PT00M00.00S,1,1610612766,CHA,1628370,Monk,M. Monk,52,283,29,Missed,1,,,0,h,MISS Monk 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,109
+0021800873,154,PT00M00.00S,1,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,v,Parker BLOCK (1 BLK),,,1,3,110
+0021800873,156,PT00M00.00S,1,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Unknown,0,0,111
+0021800873,157,PT00M00.00S,1,0,,0,,,0,0,0,,0,27,38,65,,End of 1st Period (7:37 PM EST),period,end,1,0,112
+0021800873,162,PT12M00.00S,2,0,,0,,,0,0,0,,0,27,38,65,,Start of 2nd Period (7:40 PM EST),period,start,0,0,113
+0021800873,163,PT11M45.00S,2,1610612766,CHA,203087,Lamb,J. Lamb,140,38,15,Made,1,29,38,67,h,Lamb 15' Jump Bank Shot (5 PTS) (Parker 1 AST),Made Shot,Jump Bank Shot,1,2,114
+0021800873,165,PT11M25.00S,2,1610612764,WAS,1626184,Randle,C. Randle,-185,176,26,Missed,1,,,0,v,MISS Randle 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,115
+0021800873,166,PT11M21.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,116
+0021800873,167,PT11M16.00S,2,1610612766,CHA,2225,Parker,T. Parker,-8,13,2,Made,1,31,38,69,h,Parker 2' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,117
+0021800873,168,PT11M00.00S,2,1610612764,WAS,202325,Johnson,W. Johnson,0,0,0,,0,,,0,v,W. Johnson Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,118
+0021800873,168,PT11M00.00S,2,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,h,Lamb STEAL (2 STL),,,1,0,119
+0021800873,170,PT10M56.00S,2,1610612766,CHA,203087,Lamb,J. Lamb,2,12,1,Made,1,33,38,71,h,Lamb 1' Dunk (7 PTS),Made Shot,Dunk Shot,1,2,120
+0021800873,171,PT10M40.00S,2,1610612764,WAS,202325,Johnson,W. Johnson,0,0,0,,0,,,0,v,W. Johnson Bad Pass Turnover (P2.T3),Turnover,Bad Pass,1,0,121
+0021800873,171,PT10M40.00S,2,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,h,Lamb STEAL (3 STL),,,1,0,122
+0021800873,173,PT10M36.00S,2,1610612766,CHA,203087,Lamb,J. Lamb,8,5,1,Missed,1,,,0,h,MISS Lamb 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,123
+0021800873,174,PT10M34.00S,2,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,124
+0021800873,175,PT10M33.00S,2,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,125
+0021800873,175,PT10M33.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges STEAL (1 STL),,,1,0,126
+0021800873,177,PT10M28.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,5,11,1,Made,1,35,38,73,h,Bridges 1' Alley Oop Layup (5 PTS) (Parker 2 AST),Made Shot,Alley Oop Layup shot,1,2,127
+0021800873,179,PT10M07.00S,2,1610612764,WAS,202325,Johnson,W. Johnson,101,87,13,Missed,1,,,0,v,MISS W. Johnson 13' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,128
+0021800873,180,PT10M04.00S,2,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,129
+0021800873,188,PT10M04.00S,2,1610612764,WAS,1626171,Portis,B. Portis,-10,1,1,Missed,1,,,0,v,MISS Portis 1' Putback Layup,Missed Shot,Putback Layup Shot,1,2,130
+0021800873,189,PT10M03.00S,2,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,131
+0021800873,181,PT10M03.00S,2,1610612764,WAS,1626171,Portis,B. Portis,-6,8,1,Missed,1,,,0,v,MISS Portis 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,132
+0021800873,182,PT10M00.00S,2,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,,,0,h,Zeller REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,133
+0021800873,183,PT09M56.00S,2,1610612764,WAS,1626184,Randle,C. Randle,0,0,0,,0,,,0,v,Randle S.FOUL (P1.T1) (J.Goble),Foul,Shooting,1,0,134
+0021800873,185,PT09M56.00S,2,1610612766,CHA,2225,Parker,T. Parker,0,0,0,,0,,,0,h,MISS Parker Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,135
+0021800873,186,PT09M56.00S,2,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Normal Rebound,0,0,136
+0021800873,187,PT09M56.00S,2,1610612766,CHA,2225,Parker,T. Parker,0,0,0,,0,36,38,74,h,Parker Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,0,0,137
+0021800873,190,PT09M45.00S,2,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,h,HORNETS T.Foul (Def. 3 Sec Monk ) (D.Richardson),Foul,Defense 3 Second,1,0,138
+0021800873,191,PT09M45.00S,2,1610612764,WAS,2772,Ariza,T. Ariza,0,0,0,,0,,,0,v,MISS Ariza Free Throw Technical,Free Throw,Free Throw Technical,0,0,139
+0021800873,192,PT09M45.00S,2,0,,1610612764,,,0,0,0,,0,,,0,v,Wizards Rebound,Rebound,Normal Rebound,0,0,140
+0021800873,193,PT09M41.00S,2,1610612764,WAS,203953,Parker,J. Parker,-3,11,1,Missed,1,,,0,v,MISS Parker 1' Layup,Missed Shot,Layup Shot,1,2,141
+0021800873,194,PT09M38.00S,2,1610612764,WAS,2772,Ariza,T. Ariza,0,0,0,,0,,,0,v,Ariza REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,142
+0021800873,197,PT09M38.00S,2,1610612764,WAS,2772,Ariza,T. Ariza,-13,27,3,Missed,1,,,0,v,MISS Ariza 3' Layup,Missed Shot,Layup Shot,1,2,143
+0021800873,197,PT09M38.00S,2,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,h,Monk BLOCK (1 BLK),,,1,2,144
+0021800873,199,PT09M38.00S,2,0,,1610612764,,,0,0,0,,0,,,0,v,Wizards Rebound,Rebound,Unknown,0,0,145
+0021800873,201,PT09M31.00S,2,1610612764,WAS,202325,Johnson,W. Johnson,207,29,21,Missed,1,,,0,v,MISS W. Johnson 21' Jump Shot,Missed Shot,Jump Shot,1,2,146
+0021800873,202,PT09M26.00S,2,1610612764,WAS,2772,Ariza,T. Ariza,0,0,0,,0,,,0,v,Ariza REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,147
+0021800873,203,PT09M26.00S,2,1610612764,WAS,2772,Ariza,T. Ariza,-6,16,2,Missed,1,,,0,v,MISS Ariza 2' Layup,Missed Shot,Layup Shot,1,2,148
+0021800873,203,PT09M26.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges BLOCK (1 BLK),,,1,2,149
+0021800873,205,PT09M24.00S,2,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,h,Lamb REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,150
+0021800873,320,PT09M24.00S,2,1610612766,CHA,1628370,Monk,M. Monk,190,164,25,Missed,1,,,0,h,MISS Monk 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,151
+0021800873,321,PT09M24.00S,2,0,,1610612764,,,0,0,0,,0,,,0,v,Wizards Rebound,Rebound,Unknown,0,0,152
+0021800873,207,PT09M11.00S,2,1610612764,WAS,1626171,Portis,B. Portis,-3,-2,0,Made,1,36,40,76,v,Portis Layup (2 PTS) (W. Johnson 1 AST),Made Shot,Layup Shot,1,2,153
+0021800873,209,PT08M59.00S,2,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,h,Monk Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,154
+0021800873,209,PT08M59.00S,2,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis STEAL (2 STL),,,1,0,155
+0021800873,211,PT08M52.00S,2,1610612764,WAS,1626184,Randle,C. Randle,-21,16,3,Missed,1,,,0,v,MISS Randle 3' Layup,Missed Shot,Layup Shot,1,2,156
+0021800873,213,PT08M52.00S,2,0,,1610612764,,,0,0,0,,0,,,0,v,Wizards Rebound,Rebound,Unknown,0,0,157
+0021800873,215,PT08M52.00S,2,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,h,SUB: Batum FOR Lamb,Substitution,,0,0,158
+0021800873,216,PT08M52.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,SUB: Williams FOR Bridges,Substitution,,0,0,159
+0021800873,219,PT08M44.00S,2,1610612764,WAS,1626171,Portis,B. Portis,-4,72,7,Missed,1,,,0,v,MISS Portis 7' Hook Shot,Missed Shot,Hook Shot,1,2,160
+0021800873,220,PT08M41.00S,2,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,,,0,h,Zeller REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,161
+0021800873,221,PT08M26.00S,2,1610612766,CHA,2225,Parker,T. Parker,-2,62,6,Missed,1,,,0,h,MISS Parker 6' Layup,Missed Shot,Layup Shot,1,2,162
+0021800873,221,PT08M26.00S,2,1610612764,WAS,202325,Johnson,W. Johnson,0,0,0,,0,,,0,v,W. Johnson BLOCK (1 BLK),,,1,2,163
+0021800873,223,PT08M23.00S,2,1610612766,CHA,2225,Parker,T. Parker,0,0,0,,0,,,0,h,Parker REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,164
+0021800873,224,PT08M23.00S,2,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis S.FOUL (P1.T2) (J.Williams),Foul,Shooting,1,0,165
+0021800873,226,PT08M23.00S,2,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,37,40,77,h,Monk Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,166
+0021800873,227,PT08M23.00S,2,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,38,40,78,h,Monk Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,167
+0021800873,228,PT08M14.00S,2,1610612764,WAS,203953,Parker,J. Parker,-54,163,17,Made,1,38,42,80,v,Parker 17' Jump Shot (2 PTS) (Randle 2 AST),Made Shot,Jump Shot,1,2,168
+0021800873,229,PT08M00.00S,2,1610612766,CHA,2225,Parker,T. Parker,6,13,1,Made,1,40,42,82,h,Parker 1' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,169
+0021800873,231,PT07M41.00S,2,1610612764,WAS,1626171,Portis,B. Portis,193,43,20,Missed,1,,,0,v,MISS Portis 20' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,170
+0021800873,232,PT07M38.00S,2,1610612766,CHA,101107,Williams,M. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,171
+0021800873,233,PT07M24.00S,2,1610612766,CHA,1628370,Monk,M. Monk,0,257,26,Missed,1,,,0,h,MISS Monk 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,172
+0021800873,234,PT07M21.00S,2,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,h,Monk REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,173
+0021800873,235,PT07M18.00S,2,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,h,Monk Out of Bounds - Bad Pass Turnover Turnover (P2.T6),Turnover,Out of Bounds - Bad Pass Turnover,1,0,174
+0021800873,236,PT07M18.00S,2,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,h,SUB: Walker FOR Monk,Substitution,,0,0,175
+0021800873,237,PT07M18.00S,2,1610612764,WAS,2772,Ariza,T. Ariza,0,0,0,,0,,,0,v,SUB: Satoransky FOR Ariza,Substitution,,0,0,176
+0021800873,238,PT07M18.00S,2,1610612764,WAS,1626184,Randle,C. Randle,0,0,0,,0,,,0,v,SUB: Beal FOR Randle,Substitution,,0,0,177
+0021800873,242,PT07M11.00S,2,1610612764,WAS,202325,Johnson,W. Johnson,236,40,24,Missed,1,,,0,v,MISS W. Johnson 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,178
+0021800873,243,PT07M07.00S,2,1610612766,CHA,2225,Parker,T. Parker,0,0,0,,0,,,0,h,Parker REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,179
+0021800873,244,PT07M03.00S,2,1610612766,CHA,2225,Parker,T. Parker,16,5,2,Missed,1,,,0,h,MISS Parker 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,180
+0021800873,245,PT07M02.00S,2,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,h,Walker REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,181
+0021800873,246,PT07M02.00S,2,1610612766,CHA,202689,Walker,K. Walker,-6,17,2,Made,1,42,42,84,h,Walker 2' Putback Layup (6 PTS),Made Shot,Putback Layup Shot,1,2,182
+0021800873,247,PT07M02.00S,2,1610612764,WAS,202325,Johnson,W. Johnson,0,0,0,,0,,,0,v,W. Johnson S.FOUL (P1.T3) (D.Richardson),Foul,Shooting,1,0,183
+0021800873,249,PT07M02.00S,2,1610612764,WAS,202325,Johnson,W. Johnson,0,0,0,,0,,,0,v,SUB: Green FOR W. Johnson,Substitution,,0,0,184
+0021800873,251,PT07M02.00S,2,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,43,42,85,h,Walker Free Throw 1 of 1 (7 PTS),Free Throw,Free Throw 1 of 1,0,0,185
+0021800873,252,PT06M54.00S,2,1610612764,WAS,203953,Parker,J. Parker,-196,148,25,Missed,1,,,0,v,MISS Parker 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,186
+0021800873,253,PT06M51.00S,2,1610612766,CHA,201587,Batum,N. Batum,0,0,0,,0,,,0,h,Batum REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,187
+0021800873,254,PT06M46.00S,2,1610612766,CHA,2225,Parker,T. Parker,-106,112,15,Missed,1,,,0,h,MISS Parker 15' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,188
+0021800873,255,PT06M42.00S,2,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,Satoransky REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,189
+0021800873,256,PT06M19.00S,2,1610612764,WAS,203107,Satoransky,T. Satoransky,-8,13,2,Made,1,43,44,87,v,Satoransky 2' Layup (5 PTS) (Green 2 AST),Made Shot,Layup Shot,1,2,190
+0021800873,258,PT06M07.00S,2,1610612766,CHA,202689,Walker,K. Walker,-8,10,1,Missed,1,,,0,h,MISS Walker 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,191
+0021800873,259,PT06M04.00S,2,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,192
+0021800873,260,PT06M02.00S,2,1610612764,WAS,203107,Satoransky,T. Satoransky,16,6,2,Made,1,43,46,89,v,Satoransky 2' Layup (7 PTS),Made Shot,Layup Shot,1,2,193
+0021800873,261,PT06M02.00S,2,1610612766,CHA,101107,Williams,M. Williams,0,0,0,,0,,,0,h,Williams S.FOUL (P1.T1) (J.Goble),Foul,Shooting,1,0,194
+0021800873,263,PT06M02.00S,2,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,195
+0021800873,265,PT06M02.00S,2,1610612766,CHA,2225,Parker,T. Parker,0,0,0,,0,,,0,h,SUB: Bridges FOR Parker,Substitution,,0,0,196
+0021800873,267,PT06M02.00S,2,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,43,47,90,v,Satoransky Free Throw 1 of 1 (8 PTS),Free Throw,Free Throw 1 of 1,0,0,197
+0021800873,268,PT05M48.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,205,17,21,Made,1,45,47,92,h,Bridges 21' Jump Shot (7 PTS) (Batum 1 AST),Made Shot,Jump Shot,1,2,198
+0021800873,270,PT05M33.00S,2,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,,,0,h,Zeller P.FOUL (P1.T2) (J.Goble),Foul,Personal,1,0,199
+0021800873,272,PT05M33.00S,2,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,,,0,h,SUB: Kidd-Gilchrist FOR Zeller,Substitution,,0,0,200
+0021800873,274,PT05M24.00S,2,1610612764,WAS,203078,Beal,B. Beal,105,119,16,Missed,1,,,0,v,MISS Beal 16' Jump Shot,Missed Shot,Jump Shot,1,2,201
+0021800873,275,PT05M21.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,202
+0021800873,276,PT05M19.00S,2,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,h,Walker Lost Ball Turnover (P2.T7),Turnover,Lost Ball,1,0,203
+0021800873,276,PT05M19.00S,2,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis STEAL (3 STL),,,1,0,204
+0021800873,278,PT05M16.00S,2,1610612764,WAS,1626171,Portis,B. Portis,-11,10,1,Made,1,45,49,94,v,Portis 1' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,205
+0021800873,279,PT05M16.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges Violation:Defensive Goaltending (D.Richardson),Violation,Defensive Goaltending,1,0,206
+0021800873,280,PT05M05.00S,2,1610612766,CHA,201587,Batum,N. Batum,131,218,25,Made,1,48,49,97,h,Batum 25' 3PT Jump Shot (8 PTS),Made Shot,Jump Shot,1,3,207
+0021800873,281,PT04M50.00S,2,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,Satoransky Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,208
+0021800873,281,PT04M50.00S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges STEAL (2 STL),,,1,0,209
+0021800873,283,PT04M43.00S,2,1610612766,CHA,202689,Walker,K. Walker,-103,241,26,Missed,1,,,0,h,MISS Walker 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,210
+0021800873,284,PT04M40.00S,2,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,v,Beal REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,211
+0021800873,285,PT04M36.00S,2,1610612766,CHA,203077,Kidd-Gilchrist,M. Kidd-Gilchrist,0,0,0,,0,,,0,h,Kidd-Gilchrist P.FOUL (P1.T3) (J.Williams),Foul,Personal,1,0,212
+0021800873,287,PT04M24.00S,2,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,Satoransky Offensive Charge Foul (P3.T4) (D.Richardson),Foul,Offensive Charge,1,0,213
+0021800873,289,PT04M24.00S,2,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,Satoransky Offensive Foul Turnover (P2.T6),Turnover,Offensive Foul Turnover,1,0,214
+0021800873,290,PT04M24.00S,2,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,SUB: Ariza FOR Satoransky,Substitution,,0,0,215
+0021800873,292,PT04M07.00S,2,1610612766,CHA,202689,Walker,K. Walker,207,148,25,Missed,1,,,0,h,MISS Walker 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,216
+0021800873,293,PT04M04.00S,2,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,v,Beal REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,217
+0021800873,294,PT03M53.00S,2,1610612764,WAS,1626171,Portis,B. Portis,-9,87,9,Missed,1,,,0,v,MISS Portis 9' Jump Shot,Missed Shot,Jump Shot,1,2,218
+0021800873,294,PT03M53.00S,2,1610612766,CHA,101107,Williams,M. Williams,0,0,0,,0,,,0,h,Williams BLOCK (1 BLK),,,1,2,219
+0021800873,296,PT03M50.00S,2,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,h,Walker REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,220
+0021800873,297,PT03M46.00S,2,1610612766,CHA,201587,Batum,N. Batum,-126,227,26,Missed,1,,,0,h,MISS Batum 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,221
+0021800873,298,PT03M43.00S,2,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,v,Parker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,222
+0021800873,299,PT03M39.00S,2,1610612764,WAS,1626171,Portis,B. Portis,13,10,2,Missed,1,,,0,v,MISS Portis 2' Alley Oop Layup,Missed Shot,Alley Oop Layup shot,1,2,223
+0021800873,300,PT03M36.00S,2,1610612766,CHA,203077,Kidd-Gilchrist,M. Kidd-Gilchrist,0,0,0,,0,,,0,h,Kidd-Gilchrist REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,224
+0021800873,301,PT03M30.00S,2,1610612766,CHA,201587,Batum,N. Batum,-9,7,1,Made,1,50,49,99,h,Batum 1' Layup (10 PTS) (Williams 1 AST),Made Shot,Layup Shot,1,2,225
+0021800873,303,PT03M30.00S,2,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,v,Beal S.FOUL (P2.PN) (D.Richardson),Foul,Shooting,1,0,226
+0021800873,305,PT03M30.00S,2,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,v,SUB: Bryant FOR Parker,Substitution,,0,0,227
+0021800873,307,PT03M30.00S,2,1610612766,CHA,201587,Batum,N. Batum,0,0,0,,0,51,49,100,h,Batum Free Throw 1 of 1 (11 PTS),Free Throw,Free Throw 1 of 1,0,0,228
+0021800873,308,PT03M14.00S,2,1610612764,WAS,201145,Green,J. Green,236,43,24,Made,1,51,52,103,v,Green 24' 3PT Jump Shot (12 PTS) (Beal 2 AST),Made Shot,Jump Shot,1,3,229
+0021800873,310,PT02M49.00S,2,1610612766,CHA,201587,Batum,N. Batum,54,254,26,Made,1,54,52,106,h,Batum 26' 3PT Jump Shot (14 PTS) (Walker 4 AST),Made Shot,Jump Shot,1,3,230
+0021800873,312,PT02M43.00S,2,1610612764,WAS,203078,Beal,B. Beal,-81,255,27,Missed,1,,,0,v,MISS Beal 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,231
+0021800873,313,PT02M39.00S,2,1610612766,CHA,203077,Kidd-Gilchrist,M. Kidd-Gilchrist,0,0,0,,0,,,0,h,Kidd-Gilchrist REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,232
+0021800873,314,PT02M35.00S,2,1610612766,CHA,202689,Walker,K. Walker,-40,259,26,Missed,1,,,0,h,MISS Walker 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,233
+0021800873,315,PT02M32.00S,2,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,234
+0021800873,316,PT02M24.00S,2,1610612764,WAS,2772,Ariza,T. Ariza,-188,162,25,Missed,1,,,0,v,MISS Ariza 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,235
+0021800873,317,PT02M21.00S,2,1610612766,CHA,203077,Kidd-Gilchrist,M. Kidd-Gilchrist,0,0,0,,0,,,0,h,Kidd-Gilchrist REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,236
+0021800873,318,PT02M16.00S,2,1610612766,CHA,202689,Walker,K. Walker,-12,21,2,Made,1,56,52,108,h,Walker 2' Running Layup (9 PTS),Made Shot,Running Layup Shot,1,2,237
+0021800873,319,PT02M16.00S,2,0,,1610612764,,,0,0,0,,0,,,0,v,Wizards Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,238
+0021800873,323,PT02M05.00S,2,1610612766,CHA,203077,Kidd-Gilchrist,M. Kidd-Gilchrist,0,0,0,,0,,,0,h,Kidd-Gilchrist S.FOUL (P2.T4) (J.Goble),Foul,Shooting,1,0,239
+0021800873,325,PT02M05.00S,2,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,56,53,109,v,Beal Free Throw 1 of 2 (15 PTS),Free Throw,Free Throw 1 of 2,0,0,240
+0021800873,326,PT02M05.00S,2,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,56,54,110,v,Beal Free Throw 2 of 2 (16 PTS),Free Throw,Free Throw 2 of 2,0,0,241
+0021800873,327,PT01M54.00S,2,1610612766,CHA,201587,Batum,N. Batum,-62,251,26,Missed,1,,,0,h,MISS Batum 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,242
+0021800873,328,PT01M50.00S,2,1610612764,WAS,2772,Ariza,T. Ariza,0,0,0,,0,,,0,v,Ariza REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,243
+0021800873,329,PT01M43.00S,2,1610612764,WAS,201145,Green,J. Green,-11,95,10,Missed,1,,,0,v,MISS Green 10' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,244
+0021800873,330,PT01M41.00S,2,1610612766,CHA,101107,Williams,M. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,245
+0021800873,331,PT01M31.00S,2,1610612766,CHA,202689,Walker,K. Walker,-38,57,7,Made,1,58,54,112,h,Walker 7' Hook Shot (11 PTS),Made Shot,Hook Shot,1,2,246
+0021800873,332,PT01M19.00S,2,1610612766,CHA,203077,Kidd-Gilchrist,M. Kidd-Gilchrist,0,0,0,,0,,,0,h,Kidd-Gilchrist S.FOUL (P3.PN) (J.Williams),Foul,Shooting,1,0,247
+0021800873,334,PT01M19.00S,2,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,58,55,113,v,Beal Free Throw 1 of 2 (17 PTS),Free Throw,Free Throw 1 of 2,0,0,248
+0021800873,335,PT01M19.00S,2,1610612766,CHA,203077,Kidd-Gilchrist,M. Kidd-Gilchrist,0,0,0,,0,,,0,h,SUB: Zeller FOR Kidd-Gilchrist,Substitution,,0,0,249
+0021800873,337,PT01M19.00S,2,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,58,56,114,v,Beal Free Throw 2 of 2 (18 PTS),Free Throw,Free Throw 2 of 2,0,0,250
+0021800873,338,PT01M07.00S,2,1610612766,CHA,202689,Walker,K. Walker,16,12,2,Missed,1,,,0,h,MISS Walker 2' Layup,Missed Shot,Layup Shot,1,2,251
+0021800873,339,PT01M06.00S,2,1610612764,WAS,1628418,Bryant,T. Bryant,0,0,0,,0,,,0,v,Bryant REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,252
+0021800873,340,PT01M06.00S,2,1610612764,WAS,1628418,Bryant,T. Bryant,0,0,0,,0,,,0,v,Bryant Traveling Turnover (P1.T7),Turnover,Traveling,1,0,253
+0021800873,341,PT01M00.00S,2,1610612766,CHA,203469,Zeller,C. Zeller,4,15,2,Made,1,60,56,116,h,Zeller 2' Dunk (2 PTS) (Walker 5 AST),Made Shot,Dunk Shot,1,2,254
+0021800873,343,PT00M46.90S,2,1610612764,WAS,201145,Green,J. Green,0,10,1,Missed,1,,,0,v,MISS Green 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,255
+0021800873,344,PT00M44.60S,2,1610612764,WAS,201145,Green,J. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,256
+0021800873,345,PT00M44.20S,2,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges S.FOUL (P2.PN) (D.Richardson),Foul,Shooting,1,0,257
+0021800873,347,PT00M44.20S,2,1610612764,WAS,201145,Green,J. Green,0,0,0,,0,60,57,117,v,Green Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,0,0,258
+0021800873,348,PT00M44.20S,2,1610612764,WAS,201145,Green,J. Green,0,0,0,,0,60,58,118,v,Green Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,0,0,259
+0021800873,349,PT00M30.70S,2,1610612766,CHA,201587,Batum,N. Batum,230,26,0,Made,1,63,58,121,h,Batum 3PT Jump Shot (17 PTS) (Walker 6 AST),Made Shot,Jump Shot,1,3,260
+0021800873,351,PT00M07.80S,2,1610612764,WAS,203078,Beal,B. Beal,-2,11,1,Made,1,63,60,123,v,Beal 1' Cutting Layup Shot (20 PTS) (Bryant 2 AST),Made Shot,Cutting Layup Shot,1,2,261
+0021800873,353,PT00M00.50S,2,1610612766,CHA,202689,Walker,K. Walker,13,15,2,Made,1,65,60,125,h,Walker 2' Driving Layup (13 PTS),Made Shot,Driving Layup Shot,1,2,262
+0021800873,354,PT00M00.00S,2,0,,0,,,0,0,0,,0,65,60,125,,End of 2nd Period (8:07 PM EST),period,end,1,0,263
+0021800873,357,PT12M00.00S,3,0,,0,,,0,0,0,,0,65,60,125,,Start of 3rd Period (8:22 PM EST),period,start,0,0,264
+0021800873,358,PT11M43.00S,3,1610612766,CHA,203469,Zeller,C. Zeller,-9,8,1,Missed,1,,,0,h,MISS Zeller 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,265
+0021800873,359,PT11M37.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,266
+0021800873,360,PT11M37.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,-6,1,Made,1,67,60,127,h,Bridges 1' Tip Dunk Shot (9 PTS),Made Shot,Tip Dunk Shot,1,2,267
+0021800873,361,PT11M25.00S,3,1610612764,WAS,201145,Green,J. Green,-235,21,24,Missed,1,,,0,v,MISS Green 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,268
+0021800873,362,PT11M22.00S,3,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,Satoransky REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,269
+0021800873,363,PT11M21.00S,3,1610612764,WAS,203107,Satoransky,T. Satoransky,8,0,1,Made,1,67,62,129,v,Satoransky 1' Putback Layup (10 PTS),Made Shot,Putback Layup Shot,1,2,270
+0021800873,364,PT11M07.00S,3,1610612766,CHA,101107,Williams,M. Williams,71,24,7,Made,1,69,62,131,h,Williams 7' Floating Jump Shot (6 PTS) (Batum 2 AST),Made Shot,Floating Jump shot,1,2,271
+0021800873,366,PT10M55.00S,3,1610612764,WAS,1628418,Bryant,T. Bryant,-79,252,26,Missed,1,,,0,v,MISS Bryant 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,272
+0021800873,367,PT10M52.00S,3,1610612766,CHA,201587,Batum,N. Batum,0,0,0,,0,,,0,h,Batum REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,273
+0021800873,368,PT10M45.00S,3,1610612766,CHA,202689,Walker,K. Walker,40,250,25,Missed,1,,,0,h,MISS Walker 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,274
+0021800873,369,PT10M42.00S,3,1610612764,WAS,2772,Ariza,T. Ariza,0,0,0,,0,,,0,v,Ariza REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,275
+0021800873,370,PT10M33.00S,3,1610612764,WAS,203078,Beal,B. Beal,-24,22,3,Missed,1,,,0,v,MISS Beal 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,276
+0021800873,371,PT10M31.00S,3,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,,,0,h,Zeller REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,277
+0021800873,372,PT10M23.00S,3,1610612766,CHA,101107,Williams,M. Williams,-6,4,1,Made,1,71,62,133,h,Williams 1' Layup (8 PTS) (Walker 7 AST),Made Shot,Layup Shot,1,2,278
+0021800873,373,PT10M04.00S,3,1610612764,WAS,2772,Ariza,T. Ariza,-231,15,0,Missed,1,,,0,v,MISS Ariza 3PT Jump Shot,Missed Shot,Jump Shot,1,3,279
+0021800873,374,PT10M02.00S,3,1610612766,CHA,101107,Williams,M. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,280
+0021800873,375,PT09M51.00S,3,1610612766,CHA,201587,Batum,N. Batum,-13,37,4,Missed,1,,,0,h,MISS Batum 4' Hook Shot,Missed Shot,Hook Shot,1,2,281
+0021800873,375,PT09M51.00S,3,1610612764,WAS,1628418,Bryant,T. Bryant,0,0,0,,0,,,0,v,Bryant BLOCK (1 BLK),,,1,2,282
+0021800873,377,PT09M49.00S,3,0,,1610612764,,,0,0,0,,0,,,0,v,Wizards Rebound,Rebound,Unknown,0,0,283
+0021800873,379,PT09M36.00S,3,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,v,Beal Bad Pass Turnover (P1.T8),Turnover,Bad Pass,1,0,284
+0021800873,379,PT09M36.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges STEAL (3 STL),,,1,0,285
+0021800873,381,PT09M33.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges Out of Bounds Lost Ball Turnover (P1.T8),Turnover,Out of Bounds Lost Ball Turnover,1,0,286
+0021800873,382,PT09M19.00S,3,1610612764,WAS,203078,Beal,B. Beal,233,39,24,Made,1,71,65,136,v,Beal 24' 3PT Jump Shot (23 PTS) (Bryant 3 AST),Made Shot,Jump Shot,1,3,287
+0021800873,384,PT09M05.00S,3,1610612766,CHA,203469,Zeller,C. Zeller,-20,69,7,Missed,1,,,0,h,MISS Zeller 7' Layup,Missed Shot,Layup Shot,1,2,288
+0021800873,384,PT09M05.00S,3,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,v,Beal BLOCK (1 BLK),,,1,2,289
+0021800873,386,PT09M05.00S,3,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Unknown,0,0,290
+0021800873,388,PT08M56.00S,3,1610612766,CHA,202689,Walker,K. Walker,11,8,1,Made,1,73,65,138,h,Walker 1' Driving Layup (15 PTS) (Batum 3 AST),Made Shot,Driving Layup Shot,1,2,291
+0021800873,390,PT08M51.00S,3,1610612764,WAS,2772,Ariza,T. Ariza,9,20,2,Made,1,73,67,140,v,Ariza 2' Running Dunk (7 PTS) (Beal 3 AST),Made Shot,Running Dunk Shot,1,2,292
+0021800873,391,PT08M36.00S,3,1610612766,CHA,202689,Walker,K. Walker,235,56,24,Missed,1,,,0,h,MISS Walker 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,293
+0021800873,392,PT08M36.00S,3,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Unknown,0,0,294
+0021800873,393,PT08M36.00S,3,1610612764,WAS,201145,Green,J. Green,0,0,0,,0,,,0,v,Green L.B.FOUL (P1.T1) (J.Goble),Foul,Loose Ball,1,0,295
+0021800873,395,PT08M22.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,-228,25,0,Made,1,76,67,143,h,Bridges 3PT Jump Shot (12 PTS) (Zeller 2 AST),Made Shot,Jump Shot,1,3,296
+0021800873,397,PT08M01.00S,3,1610612764,WAS,1628418,Bryant,T. Bryant,-23,44,5,Missed,1,,,0,v,MISS Bryant 5' Layup,Missed Shot,Layup Shot,1,2,297
+0021800873,398,PT07M58.00S,3,1610612764,WAS,1628418,Bryant,T. Bryant,0,0,0,,0,,,0,v,Bryant REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,298
+0021800873,399,PT07M57.00S,3,1610612764,WAS,1628418,Bryant,T. Bryant,10,27,3,Missed,1,,,0,v,MISS Bryant 3' Layup,Missed Shot,Layup Shot,1,2,299
+0021800873,399,PT07M57.00S,3,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,,,0,h,Zeller BLOCK (2 BLK),,,1,2,300
+0021800873,401,PT07M57.00S,3,1610612764,WAS,1628418,Bryant,T. Bryant,0,0,0,,0,,,0,v,Bryant REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,301
+0021800873,402,PT07M54.00S,3,1610612764,WAS,1628418,Bryant,T. Bryant,0,43,4,Missed,1,,,0,v,MISS Bryant 4' Layup,Missed Shot,Layup Shot,1,2,302
+0021800873,402,PT07M54.00S,3,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,,,0,h,Zeller BLOCK (3 BLK),,,1,2,303
+0021800873,404,PT07M49.00S,3,1610612766,CHA,201587,Batum,N. Batum,0,0,0,,0,,,0,h,Batum REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,304
+0021800873,405,PT07M46.00S,3,1610612766,CHA,203469,Zeller,C. Zeller,11,8,1,Made,1,78,67,145,h,Zeller 1' Layup (4 PTS) (Walker 8 AST),Made Shot,Layup Shot,1,2,305
+0021800873,407,PT07M46.00S,3,0,,1610612764,,,0,0,0,,0,,,0,v,Wizards Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,306
+0021800873,408,PT07M46.00S,3,1610612764,WAS,1628418,Bryant,T. Bryant,0,0,0,,0,,,0,v,SUB: Parker FOR Bryant,Substitution,,0,0,307
+0021800873,410,PT07M35.00S,3,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,h,Walker P.FOUL (P1.T1) (J.Williams),Foul,Personal,1,0,308
+0021800873,412,PT07M28.00S,3,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,,,0,h,Zeller S.FOUL (P2.T2) (J.Goble),Foul,Shooting,1,0,309
+0021800873,414,PT07M28.00S,3,0,,0,,,0,0,0,,0,78,67,145,,Instant Replay3rd Period (8:32 PM EST),Instant Replay,Altercation Ruling,0,0,310
+0021800873,416,PT07M28.00S,3,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,78,68,146,v,Beal Free Throw 1 of 2 (24 PTS),Free Throw,Free Throw 1 of 2,0,0,311
+0021800873,417,PT07M28.00S,3,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,78,69,147,v,Beal Free Throw 2 of 2 (25 PTS),Free Throw,Free Throw 2 of 2,0,0,312
+0021800873,418,PT07M15.00S,3,1610612766,CHA,101107,Williams,M. Williams,0,0,0,,0,,,0,h,Williams OFF.Foul (P2) (J.Goble),Foul,Offensive,1,0,313
+0021800873,420,PT07M15.00S,3,1610612766,CHA,101107,Williams,M. Williams,0,0,0,,0,,,0,h,Williams Offensive Foul Turnover (P1.T9),Turnover,Offensive Foul Turnover,1,0,314
+0021800873,421,PT07M15.00S,3,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,SUB: Lamb FOR Bridges,Substitution,,0,0,315
+0021800873,423,PT07M02.00S,3,1610612764,WAS,203953,Parker,J. Parker,136,138,19,Missed,1,,,0,v,MISS Parker 19' Jump Shot,Missed Shot,Jump Shot,1,2,316
+0021800873,424,PT06M54.00S,3,1610612766,CHA,101107,Williams,M. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,317
+0021800873,425,PT06M50.00S,3,1610612766,CHA,101107,Williams,M. Williams,43,31,5,Made,1,80,69,149,h,Williams 5' Layup (10 PTS),Made Shot,Layup Shot,1,2,318
+0021800873,426,PT06M35.00S,3,1610612764,WAS,201145,Green,J. Green,0,0,0,,0,,,0,v,Green Out of Bounds Lost Ball Turnover (P1.T9),Turnover,Out of Bounds Lost Ball Turnover,1,0,319
+0021800873,427,PT06M19.00S,3,1610612766,CHA,201587,Batum,N. Batum,0,0,0,,0,,,0,h,Batum Bad Pass Turnover (P1.T10),Turnover,Bad Pass,1,0,320
+0021800873,427,PT06M19.00S,3,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,Satoransky STEAL (1 STL),,,1,0,321
+0021800873,429,PT06M11.00S,3,1610612764,WAS,2772,Ariza,T. Ariza,67,249,26,Missed,1,,,0,v,MISS Ariza 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,322
+0021800873,430,PT06M08.00S,3,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,h,Lamb REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,323
+0021800873,431,PT06M01.00S,3,1610612766,CHA,203087,Lamb,J. Lamb,208,150,26,Missed,1,,,0,h,MISS Lamb 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,324
+0021800873,432,PT06M00.00S,3,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,,,0,h,Zeller REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,325
+0021800873,433,PT06M00.00S,3,1610612764,WAS,2772,Ariza,T. Ariza,0,0,0,,0,,,0,v,Ariza S.FOUL (P1.T2) (D.Richardson),Foul,Shooting,1,0,326
+0021800873,435,PT06M00.00S,3,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,,,0,h,MISS Zeller Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,327
+0021800873,436,PT06M00.00S,3,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Normal Rebound,0,0,328
+0021800873,437,PT06M00.00S,3,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,81,69,150,h,Zeller Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,0,0,329
+0021800873,438,PT05M46.00S,3,1610612764,WAS,201145,Green,J. Green,0,8,1,Made,1,81,71,152,v,Green 1' Cutting Dunk Shot (16 PTS) (Beal 4 AST),Made Shot,Cutting Dunk Shot,1,2,330
+0021800873,440,PT05M31.00S,3,1610612766,CHA,202689,Walker,K. Walker,98,179,20,Missed,1,,,0,h,MISS Walker 20' Jump Shot,Missed Shot,Jump Shot,1,2,331
+0021800873,441,PT05M27.00S,3,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,Satoransky REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,332
+0021800873,442,PT05M15.00S,3,1610612764,WAS,201145,Green,J. Green,228,11,0,Missed,1,,,0,v,MISS Green 3PT Jump Shot,Missed Shot,Jump Shot,1,3,333
+0021800873,443,PT05M11.00S,3,1610612766,CHA,101107,Williams,M. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,334
+0021800873,444,PT05M06.00S,3,1610612766,CHA,203087,Lamb,J. Lamb,241,21,24,Made,1,84,71,155,h,Lamb 24' 3PT Jump Shot (10 PTS) (Zeller 3 AST),Made Shot,Jump Shot,1,3,335
+0021800873,446,PT04M51.00S,3,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,v,Parker Bad Pass Turnover (P1.T10),Turnover,Bad Pass,1,0,336
+0021800873,446,PT04M51.00S,3,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,h,Lamb STEAL (4 STL),,,1,0,337
+0021800873,448,PT04M46.00S,3,1610612766,CHA,203087,Lamb,J. Lamb,6,17,2,Made,1,86,71,157,h,Lamb 2' Running Layup (12 PTS),Made Shot,Running Layup Shot,1,2,338
+0021800873,449,PT04M46.00S,3,0,,1610612764,,,0,0,0,,0,,,0,v,Wizards Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,339
+0021800873,451,PT04M46.00S,3,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,,,0,h,SUB: Kidd-Gilchrist FOR Zeller,Substitution,,0,0,340
+0021800873,452,PT04M46.00S,3,1610612764,WAS,201145,Green,J. Green,0,0,0,,0,,,0,v,SUB: Portis FOR Green,Substitution,,0,0,341
+0021800873,455,PT04M35.00S,3,1610612764,WAS,203078,Beal,B. Beal,-150,162,22,Made,1,86,73,159,v,Beal 22' Jump Shot (27 PTS) (Satoransky 2 AST),Made Shot,Jump Shot,1,2,342
+0021800873,457,PT04M17.00S,3,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,Satoransky S.FOUL (P4.T3) (J.Goble),Foul,Shooting,1,0,343
+0021800873,459,PT04M17.00S,3,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,h,MISS Walker Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,344
+0021800873,460,PT04M17.00S,3,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Normal Rebound,0,0,345
+0021800873,461,PT04M17.00S,3,1610612766,CHA,101107,Williams,M. Williams,0,0,0,,0,,,0,h,SUB: Biyombo FOR Williams,Substitution,,0,0,346
+0021800873,463,PT04M17.00S,3,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,87,73,160,h,Walker Free Throw 2 of 2 (16 PTS),Free Throw,Free Throw 2 of 2,0,0,347
+0021800873,549,PT04M06.00S,3,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,Satoransky Out of Bounds - Bad Pass Turnover Turnover (P3.T11),Turnover,Out of Bounds - Bad Pass Turnover,1,0,348
+0021800873,465,PT03M52.00S,3,1610612766,CHA,203077,Kidd-Gilchrist,M. Kidd-Gilchrist,56,95,11,Made,1,89,73,162,h,Kidd-Gilchrist 11' Jump Shot (6 PTS) (Lamb 1 AST),Made Shot,Jump Shot,1,2,349
+0021800873,558,PT03M41.00S,3,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis Step Out of Bounds Turnover (P2.T12),Turnover,Step Out of Bounds Turnover,1,0,350
+0021800873,468,PT03M25.00S,3,1610612766,CHA,203087,Lamb,J. Lamb,-89,157,18,Missed,1,,,0,h,MISS Lamb 18' Jump Shot,Missed Shot,Jump Shot,1,2,351
+0021800873,469,PT03M22.00S,3,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,v,Beal REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,352
+0021800873,470,PT03M20.00S,3,1610612764,WAS,203078,Beal,B. Beal,-57,249,26,Missed,1,,,0,v,MISS Beal 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,353
+0021800873,471,PT03M18.00S,3,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,v,Beal REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,354
+0021800873,472,PT03M18.00S,3,1610612766,CHA,203077,Kidd-Gilchrist,M. Kidd-Gilchrist,0,0,0,,0,,,0,h,Kidd-Gilchrist S.FOUL (P4.T3) (J.Goble),Foul,Shooting,1,0,355
+0021800873,474,PT03M18.00S,3,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,89,74,163,v,Beal Free Throw 1 of 2 (28 PTS),Free Throw,Free Throw 1 of 2,0,0,356
+0021800873,475,PT03M18.00S,3,1610612766,CHA,201587,Batum,N. Batum,0,0,0,,0,,,0,h,SUB: Parker FOR Batum,Substitution,,0,0,357
+0021800873,476,PT03M18.00S,3,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,h,SUB: Monk FOR Walker,Substitution,,0,0,358
+0021800873,479,PT03M18.00S,3,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,89,75,164,v,Beal Free Throw 2 of 2 (29 PTS),Free Throw,Free Throw 2 of 2,0,0,359
+0021800873,480,PT02M57.00S,3,1610612766,CHA,203077,Kidd-Gilchrist,M. Kidd-Gilchrist,68,111,13,Missed,1,,,0,h,MISS Kidd-Gilchrist 13' Jump Shot,Missed Shot,Jump Shot,1,2,360
+0021800873,481,PT02M54.00S,3,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,v,Beal REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,361
+0021800873,482,PT02M49.00S,3,1610612764,WAS,1626171,Portis,B. Portis,-14,18,2,Made,1,89,77,166,v,Portis 2' Layup (6 PTS) (Beal 5 AST),Made Shot,Layup Shot,1,2,362
+0021800873,484,PT02M49.00S,3,1610612766,CHA,202687,Biyombo,B. Biyombo,0,0,0,,0,,,0,h,Biyombo S.FOUL (P1.T4) (D.Richardson),Foul,Shooting,1,0,363
+0021800873,486,PT02M49.00S,3,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,MISS Portis Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,0,0,364
+0021800873,487,PT02M46.00S,3,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,h,Lamb REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,365
+0021800873,488,PT02M36.00S,3,1610612766,CHA,2225,Parker,T. Parker,19,15,2,Missed,1,,,0,h,MISS Parker 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,366
+0021800873,489,PT02M34.00S,3,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,367
+0021800873,490,PT02M30.00S,3,1610612764,WAS,203107,Satoransky,T. Satoransky,-63,249,26,Made,1,89,80,169,v,Satoransky 26' 3PT Jump Shot (13 PTS) (Ariza 2 AST),Made Shot,Jump Shot,1,3,368
+0021800873,492,PT02M14.00S,3,1610612766,CHA,203087,Lamb,J. Lamb,2,19,2,Made,1,91,80,171,h,Lamb 2' Layup (14 PTS) (Kidd-Gilchrist 1 AST),Made Shot,Layup Shot,1,2,369
+0021800873,494,PT02M04.00S,3,1610612764,WAS,203953,Parker,J. Parker,116,42,12,Made,1,91,82,173,v,Parker 12' Jump Shot (4 PTS),Made Shot,Jump Shot,1,2,370
+0021800873,495,PT01M48.00S,3,1610612766,CHA,1628370,Monk,M. Monk,-125,219,25,Made,1,94,82,176,h,Monk 25' 3PT Jump Shot (5 PTS) (Parker 3 AST),Made Shot,Jump Shot,1,3,371
+0021800873,497,PT01M36.00S,3,1610612764,WAS,203953,Parker,J. Parker,152,206,26,Missed,1,,,0,v,MISS Parker 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,372
+0021800873,498,PT01M34.00S,3,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,h,Lamb REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,373
+0021800873,499,PT01M19.00S,3,1610612766,CHA,202687,Biyombo,B. Biyombo,11,8,1,Made,1,96,82,178,h,Biyombo 1' Dunk (4 PTS) (Monk 1 AST),Made Shot,Dunk Shot,1,2,374
+0021800873,501,PT00M59.20S,3,1610612764,WAS,203107,Satoransky,T. Satoransky,-56,252,26,Missed,1,,,0,v,MISS Satoransky 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,375
+0021800873,502,PT00M55.00S,3,1610612766,CHA,203077,Kidd-Gilchrist,M. Kidd-Gilchrist,0,0,0,,0,,,0,h,Kidd-Gilchrist REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,376
+0021800873,503,PT00M41.10S,3,1610612766,CHA,1628370,Monk,M. Monk,111,232,26,Missed,1,,,0,h,MISS Monk 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,377
+0021800873,504,PT00M37.30S,3,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,378
+0021800873,505,PT00M33.20S,3,1610612764,WAS,203078,Beal,B. Beal,146,209,25,Made,1,96,85,181,v,Beal 25' 3PT Jump Shot (32 PTS),Made Shot,Jump Shot,1,3,379
+0021800873,506,PT00M15.10S,3,1610612766,CHA,2225,Parker,T. Parker,0,0,0,,0,,,0,h,Parker Traveling Turnover (P1.T11),Turnover,Traveling,1,0,380
+0021800873,507,PT00M15.10S,3,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,h,SUB: Batum FOR Lamb,Substitution,,0,0,381
+0021800873,508,PT00M15.10S,3,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,h,SUB: Bridges FOR Monk,Substitution,,0,0,382
+0021800873,511,PT00M04.80S,3,1610612764,WAS,203078,Beal,B. Beal,-6,10,1,Made,1,96,87,183,v,Beal 1' Driving Dunk (34 PTS),Made Shot,Driving Dunk Shot,1,2,383
+0021800873,512,PT00M01.10S,3,1610612766,CHA,2225,Parker,T. Parker,-91,167,19,Missed,1,,,0,h,MISS Parker 19' Jump Shot,Missed Shot,Jump Shot,1,2,384
+0021800873,513,PT00M01.10S,3,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,385
+0021800873,515,PT00M01.10S,3,0,,455,,,0,0,0,,0,96,87,183,,Instant Replay3rd Period (8:48 PM EST),Instant Replay,Support Ruling,0,0,386
+0021800873,514,PT00M00.00S,3,0,,0,,,0,0,0,,0,96,87,183,,End of 3rd Period (8:48 PM EST),period,end,1,0,387
+0021800873,524,PT12M00.00S,4,0,,0,,,0,0,0,,0,96,87,183,,Start of 4th Period (8:51 PM EST),period,start,0,0,388
+0021800873,525,PT11M52.00S,4,1610612764,WAS,203078,Beal,B. Beal,85,133,16,Made,1,96,89,185,v,Beal 16' Jump Shot (36 PTS),Made Shot,Jump Shot,1,2,389
+0021800873,526,PT11M34.00S,4,1610612766,CHA,2225,Parker,T. Parker,12,15,2,Missed,1,,,0,h,MISS Parker 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,390
+0021800873,527,PT11M31.00S,4,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,391
+0021800873,528,PT11M26.00S,4,1610612764,WAS,202325,Johnson,W. Johnson,3,11,1,Missed,1,,,0,v,MISS W. Johnson 1' Layup,Missed Shot,Layup Shot,1,2,392
+0021800873,529,PT11M22.00S,4,1610612766,CHA,2225,Parker,T. Parker,0,0,0,,0,,,0,h,Parker REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,393
+0021800873,530,PT11M17.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,17,13,2,Missed,1,,,0,h,MISS Bridges 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,394
+0021800873,531,PT11M14.00S,4,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,v,Parker REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,395
+0021800873,532,PT11M07.00S,4,1610612764,WAS,203953,Parker,J. Parker,-47,111,12,Missed,1,,,0,v,MISS Parker 12' Jump Shot,Missed Shot,Jump Shot,1,2,396
+0021800873,533,PT11M05.00S,4,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,h,Lamb REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,397
+0021800873,534,PT10M54.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges Bad Pass Turnover (P2.T12),Turnover,Bad Pass,1,0,398
+0021800873,534,PT10M54.00S,4,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis STEAL (4 STL),,,1,0,399
+0021800873,536,PT10M49.00S,4,1610612764,WAS,1626171,Portis,B. Portis,3,11,1,Made,1,96,91,187,v,Portis 1' Dunk (8 PTS) (Beal 6 AST),Made Shot,Dunk Shot,1,2,400
+0021800873,538,PT10M49.00S,4,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,401
+0021800873,539,PT10M49.00S,4,1610612766,CHA,2225,Parker,T. Parker,0,0,0,,0,,,0,h,SUB: Batum FOR Parker,Substitution,,0,0,402
+0021800873,540,PT10M49.00S,4,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,h,SUB: Walker FOR Lamb,Substitution,,0,0,403
+0021800873,543,PT10M32.00S,4,1610612766,CHA,1628370,Monk,M. Monk,22,29,4,Missed,1,,,0,h,MISS Monk 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,404
+0021800873,543,PT10M32.00S,4,1610612764,WAS,2772,Ariza,T. Ariza,0,0,0,,0,,,0,v,Ariza BLOCK (1 BLK),,,1,2,405
+0021800873,545,PT10M32.00S,4,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,,,0,h,Zeller REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,406
+0021800873,546,PT10M32.00S,4,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,v,Beal S.FOUL (P3.T1) (D.Richardson),Foul,Shooting,1,0,407
+0021800873,548,PT10M32.00S,4,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,97,91,188,h,Zeller Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,0,0,408
+0021800873,550,PT10M32.00S,4,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,98,91,189,h,Zeller Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,0,0,409
+0021800873,551,PT10M24.00S,4,1610612764,WAS,203078,Beal,B. Beal,-85,269,28,Missed,1,,,0,v,MISS Beal 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,410
+0021800873,552,PT10M19.00S,4,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,h,Walker REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,411
+0021800873,553,PT10M09.00S,4,1610612766,CHA,201587,Batum,N. Batum,71,248,26,Missed,1,,,0,h,MISS Batum 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,412
+0021800873,554,PT10M06.00S,4,1610612764,WAS,202325,Johnson,W. Johnson,0,0,0,,0,,,0,v,W. Johnson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,413
+0021800873,555,PT09M58.00S,4,1610612764,WAS,1626171,Portis,B. Portis,81,247,26,Missed,1,,,0,v,MISS Portis 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,414
+0021800873,556,PT09M57.00S,4,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Unknown,0,0,415
+0021800873,559,PT09M45.00S,4,1610612766,CHA,202689,Walker,K. Walker,103,237,26,Made,1,101,91,192,h,Walker 26' 3PT Jump Shot (19 PTS) (Batum 4 AST),Made Shot,Jump Shot,1,3,416
+0021800873,561,PT09M25.00S,4,1610612764,WAS,1626171,Portis,B. Portis,-236,13,24,Missed,1,,,0,v,MISS Portis 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,417
+0021800873,562,PT09M21.00S,4,1610612766,CHA,201587,Batum,N. Batum,0,0,0,,0,,,0,h,Batum REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,418
+0021800873,563,PT09M17.00S,4,1610612764,WAS,202325,Johnson,W. Johnson,0,0,0,,0,,,0,v,W. Johnson P.FOUL (P2.T2) (J.Goble),Foul,Personal,1,0,419
+0021800873,565,PT09M17.00S,4,1610612766,CHA,1628370,Monk,M. Monk,0,0,0,,0,,,0,h,SUB: Williams FOR Monk,Substitution,,0,0,420
+0021800873,566,PT09M17.00S,4,1610612764,WAS,2772,Ariza,T. Ariza,0,0,0,,0,,,0,v,SUB: Green FOR Ariza,Substitution,,0,0,421
+0021800873,569,PT09M05.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,9,110,11,Missed,1,,,0,h,MISS Bridges 11' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,422
+0021800873,570,PT09M05.00S,4,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,,,0,h,Zeller REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,423
+0021800873,571,PT09M05.00S,4,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,v,Parker S.FOUL (P1.T3) (D.Richardson),Foul,Shooting,1,0,424
+0021800873,573,PT09M05.00S,4,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,102,91,193,h,Zeller Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,0,0,425
+0021800873,574,PT09M05.00S,4,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,103,91,194,h,Zeller Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,0,0,426
+0021800873,575,PT08M53.00S,4,1610612764,WAS,1626171,Portis,B. Portis,-7,17,2,Made,1,103,93,196,v,Portis 2' Cutting Layup Shot (10 PTS) (Beal 7 AST),Made Shot,Cutting Layup Shot,1,2,427
+0021800873,577,PT08M41.00S,4,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,,,0,h,Zeller Offensive Charge Foul (P3.T1) (J.Williams),Foul,Offensive Charge,1,0,428
+0021800873,579,PT08M41.00S,4,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,,,0,h,Zeller Offensive Foul Turnover (P1.T13),Turnover,Offensive Foul Turnover,1,0,429
+0021800873,580,PT08M36.00S,4,1610612766,CHA,201587,Batum,N. Batum,0,0,0,,0,,,0,h,Batum P.FOUL (P3.T2) (J.Williams),Foul,Personal,1,0,430
+0021800873,582,PT08M33.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges P.FOUL (P3.T3) (J.Goble),Foul,Personal,1,0,431
+0021800873,584,PT08M26.00S,4,1610612764,WAS,203078,Beal,B. Beal,8,21,2,Missed,1,,,0,v,MISS Beal 2' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,432
+0021800873,585,PT08M23.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,433
+0021800873,586,PT08M19.00S,4,1610612766,CHA,101107,Williams,M. Williams,175,188,26,Missed,1,,,0,h,MISS Williams 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,434
+0021800873,587,PT08M15.00S,4,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,v,Parker REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,435
+0021800873,588,PT08M04.00S,4,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis OFF.Foul (P2) (D.Richardson),Foul,Offensive,1,0,436
+0021800873,590,PT08M04.00S,4,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis Offensive Foul Turnover (P3.T13),Turnover,Offensive Foul Turnover,1,0,437
+0021800873,591,PT08M04.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,SUB: Lamb FOR Bridges,Substitution,,0,0,438
+0021800873,593,PT07M55.00S,4,1610612766,CHA,203469,Zeller,C. Zeller,6,11,1,Made,1,105,93,198,h,Zeller 1' Driving Dunk (11 PTS) (Walker 9 AST),Made Shot,Driving Dunk Shot,1,2,439
+0021800873,595,PT07M44.00S,4,1610612764,WAS,201145,Green,J. Green,227,10,0,Missed,1,,,0,v,MISS Green 3PT Jump Shot,Missed Shot,Jump Shot,1,3,440
+0021800873,596,PT07M39.00S,4,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,441
+0021800873,597,PT07M39.00S,4,1610612764,WAS,1626171,Portis,B. Portis,0,-6,1,Missed,1,,,0,v,MISS Portis 1' Putback Layup,Missed Shot,Putback Layup Shot,1,2,442
+0021800873,598,PT07M37.00S,4,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis REBOUND (Off:4 Def:7),Rebound,Unknown,1,0,443
+0021800873,599,PT07M37.00S,4,1610612764,WAS,1626171,Portis,B. Portis,0,-6,1,Made,1,105,95,200,v,Portis 1' Tip Layup Shot (12 PTS),Made Shot,Tip Layup Shot,1,2,444
+0021800873,600,PT07M24.00S,4,1610612766,CHA,202689,Walker,K. Walker,187,172,25,Made,1,108,95,203,h,Walker 25' 3PT Jump Shot (22 PTS),Made Shot,Jump Shot,1,3,445
+0021800873,601,PT07M22.00S,4,0,,1610612764,,,0,0,0,,0,,,0,v,Wizards Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,446
+0021800873,602,PT07M22.00S,4,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,,,0,h,SUB: Kidd-Gilchrist FOR Zeller,Substitution,,0,0,447
+0021800873,603,PT07M22.00S,4,1610612764,WAS,203953,Parker,J. Parker,0,0,0,,0,,,0,v,SUB: Satoransky FOR Parker,Substitution,,0,0,448
+0021800873,606,PT07M05.00S,4,1610612764,WAS,203107,Satoransky,T. Satoransky,-201,158,26,Missed,1,,,0,v,MISS Satoransky 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,449
+0021800873,607,PT07M02.00S,4,1610612766,CHA,203077,Kidd-Gilchrist,M. Kidd-Gilchrist,0,0,0,,0,,,0,h,Kidd-Gilchrist REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,450
+0021800873,608,PT06M44.00S,4,1610612766,CHA,202689,Walker,K. Walker,-21,250,25,Missed,1,,,0,h,MISS Walker 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,451
+0021800873,609,PT06M41.00S,4,1610612764,WAS,202325,Johnson,W. Johnson,0,0,0,,0,,,0,v,W. Johnson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,452
+0021800873,610,PT06M33.00S,4,1610612764,WAS,202325,Johnson,W. Johnson,225,21,0,Missed,1,,,0,v,MISS W. Johnson 3PT Jump Shot,Missed Shot,Jump Shot,1,3,453
+0021800873,611,PT06M30.00S,4,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,h,Lamb REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,454
+0021800873,612,PT06M11.00S,4,1610612766,CHA,202689,Walker,K. Walker,1,36,4,Missed,1,,,0,h,MISS Walker 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,455
+0021800873,613,PT06M08.00S,4,1610612764,WAS,202325,Johnson,W. Johnson,0,0,0,,0,,,0,v,W. Johnson REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,456
+0021800873,614,PT06M04.00S,4,1610612764,WAS,203078,Beal,B. Beal,43,279,28,Made,1,108,98,206,v,Beal 28' 3PT Jump Shot (39 PTS) (Green 3 AST),Made Shot,Jump Shot,1,3,457
+0021800873,616,PT05M37.00S,4,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis P.FOUL (P3.T4) (J.Williams),Foul,Personal,1,0,458
+0021800873,618,PT05M37.00S,4,1610612764,WAS,202325,Johnson,W. Johnson,0,0,0,,0,,,0,v,SUB: Ariza FOR W. Johnson,Substitution,,0,0,459
+0021800873,620,PT05M26.00S,4,1610612766,CHA,203087,Lamb,J. Lamb,30,0,3,Missed,1,,,0,h,MISS Lamb 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,460
+0021800873,621,PT05M26.00S,4,0,,1610612764,,,0,0,0,,0,,,0,v,Wizards Rebound,Rebound,Unknown,0,0,461
+0021800873,624,PT05M14.00S,4,1610612766,CHA,201587,Batum,N. Batum,0,0,0,,0,,,0,h,Batum S.FOUL (P4.T4) (D.Richardson),Foul,Shooting,1,0,462
+0021800873,627,PT05M14.00S,4,0,,624,,,0,0,0,,0,108,98,206,,Instant Replay4th Period (9:09 PM EST),Instant Replay,Overturn Ruling,0,0,463
+0021800873,628,PT05M14.00S,4,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,108,99,207,v,Beal Free Throw 1 of 2 (40 PTS),Free Throw,Free Throw 1 of 2,0,0,464
+0021800873,629,PT05M14.00S,4,1610612766,CHA,203077,Kidd-Gilchrist,M. Kidd-Gilchrist,0,0,0,,0,,,0,h,SUB: Zeller FOR Kidd-Gilchrist,Substitution,,0,0,465
+0021800873,631,PT05M14.00S,4,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,108,100,208,v,Beal Free Throw 2 of 2 (41 PTS),Free Throw,Free Throw 2 of 2,0,0,466
+0021800873,632,PT04M51.00S,4,1610612766,CHA,201587,Batum,N. Batum,-223,15,0,Made,1,111,100,211,h,Batum 3PT Jump Shot (20 PTS) (Walker 10 AST),Made Shot,Jump Shot,1,3,467
+0021800873,634,PT04M39.00S,4,1610612764,WAS,2772,Ariza,T. Ariza,-157,210,26,Made,1,111,103,214,v,Ariza 26' 3PT Jump Shot (10 PTS) (Satoransky 3 AST),Made Shot,Jump Shot,1,3,468
+0021800873,636,PT04M24.00S,4,1610612766,CHA,202689,Walker,K. Walker,177,203,27,Missed,1,,,0,h,MISS Walker 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,469
+0021800873,637,PT04M21.00S,4,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis REBOUND (Off:4 Def:8),Rebound,Unknown,1,0,470
+0021800873,638,PT04M14.00S,4,1610612764,WAS,2772,Ariza,T. Ariza,207,139,25,Missed,1,,,0,v,MISS Ariza 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,471
+0021800873,639,PT04M10.00S,4,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,h,Walker REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,472
+0021800873,640,PT03M53.00S,4,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,Portis S.FOUL (P4.PN) (J.Goble),Foul,Shooting,1,0,473
+0021800873,642,PT03M53.00S,4,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,112,103,215,h,Lamb Free Throw 1 of 2 (15 PTS),Free Throw,Free Throw 1 of 2,0,0,474
+0021800873,643,PT03M53.00S,4,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,113,103,216,h,Lamb Free Throw 2 of 2 (16 PTS),Free Throw,Free Throw 2 of 2,0,0,475
+0021800873,644,PT03M38.00S,4,1610612764,WAS,203078,Beal,B. Beal,-154,201,25,Made,1,113,106,219,v,Beal 25' 3PT Jump Shot (44 PTS) (Satoransky 4 AST),Made Shot,Jump Shot,1,3,476
+0021800873,646,PT03M37.00S,4,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,477
+0021800873,647,PT03M21.00S,4,1610612766,CHA,202689,Walker,K. Walker,17,16,2,Made,1,115,106,221,h,Walker 2' Driving Layup (24 PTS),Made Shot,Driving Layup Shot,1,2,478
+0021800873,648,PT03M21.00S,4,1610612764,WAS,201145,Green,J. Green,0,0,0,,0,,,0,v,Green S.FOUL (P2.PN) (D.Richardson),Foul,Shooting,1,0,479
+0021800873,650,PT03M21.00S,4,1610612766,CHA,203087,Lamb,J. Lamb,0,0,0,,0,,,0,h,SUB: Bridges FOR Lamb,Substitution,,0,0,480
+0021800873,652,PT03M21.00S,4,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,116,106,222,h,Walker Free Throw 1 of 1 (25 PTS),Free Throw,Free Throw 1 of 1,0,0,481
+0021800873,653,PT03M05.00S,4,1610612764,WAS,203078,Beal,B. Beal,-208,146,25,Missed,1,,,0,v,MISS Beal 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,482
+0021800873,654,PT03M02.00S,4,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,,,0,h,Zeller REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,483
+0021800873,655,PT02M46.00S,4,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,v,Beal S.FOUL (P4.PN) (J.Williams),Foul,Shooting,1,0,484
+0021800873,657,PT02M46.00S,4,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,117,106,223,h,Walker Free Throw 1 of 2 (26 PTS),Free Throw,Free Throw 1 of 2,0,0,485
+0021800873,658,PT02M46.00S,4,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,118,106,224,h,Walker Free Throw 2 of 2 (27 PTS),Free Throw,Free Throw 2 of 2,0,0,486
+0021800873,659,PT02M40.00S,4,1610612764,WAS,2772,Ariza,T. Ariza,90,239,26,Missed,1,,,0,v,MISS Ariza 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,487
+0021800873,660,PT02M37.00S,4,1610612766,CHA,101107,Williams,M. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,488
+0021800873,661,PT02M15.00S,4,1610612766,CHA,101107,Williams,M. Williams,-225,11,0,Made,1,121,106,227,h,Williams 3PT Jump Shot (13 PTS) (Walker 11 AST),Made Shot,Jump Shot,1,3,489
+0021800873,663,PT01M57.00S,4,1610612764,WAS,203078,Beal,B. Beal,-2,11,1,Made,1,121,108,229,v,Beal 1' Cutting Layup Shot (46 PTS) (Ariza 3 AST),Made Shot,Cutting Layup Shot,1,2,490
+0021800873,665,PT01M46.00S,4,1610612766,CHA,1628970,Bridges,M. Bridges,2,10,1,Made,1,123,108,231,h,Bridges 1' Dunk (14 PTS) (Batum 5 AST),Made Shot,Dunk Shot,1,2,491
+0021800873,667,PT01M41.00S,4,1610612766,CHA,202689,Walker,K. Walker,0,0,0,,0,,,0,h,Walker P.FOUL (P2.PN) (J.Goble),Foul,Personal,1,0,492
+0021800873,669,PT01M37.00S,4,1610612764,WAS,203107,Satoransky,T. Satoransky,5,15,2,Made,1,123,110,233,v,Satoransky 2' Layup (15 PTS),Made Shot,Layup Shot,1,2,493
+0021800873,670,PT01M14.00S,4,1610612766,CHA,101107,Williams,M. Williams,-226,38,0,Missed,1,,,0,h,MISS Williams 3PT Jump Shot,Missed Shot,Jump Shot,1,3,494
+0021800873,671,PT01M13.00S,4,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Rebound,Rebound,Unknown,0,0,495
+0021800873,673,PT01M13.00S,4,0,,1610612766,,,0,0,0,,0,,,0,h,HORNETS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,496
+0021800873,674,PT01M13.00S,4,1610612764,WAS,2772,Ariza,T. Ariza,0,0,0,,0,,,0,v,SUB: Randle FOR Ariza,Substitution,,0,0,497
+0021800873,675,PT01M13.00S,4,1610612764,WAS,203078,Beal,B. Beal,0,0,0,,0,,,0,v,SUB: W. Johnson FOR Beal,Substitution,,0,0,498
+0021800873,676,PT01M13.00S,4,1610612764,WAS,1626171,Portis,B. Portis,0,0,0,,0,,,0,v,SUB: Bryant FOR Portis,Substitution,,0,0,499
+0021800873,677,PT01M13.00S,4,1610612764,WAS,203107,Satoransky,T. Satoransky,0,0,0,,0,,,0,v,SUB: Dekker FOR Satoransky,Substitution,,0,0,500
+0021800873,678,PT01M13.00S,4,1610612764,WAS,201145,Green,J. Green,0,0,0,,0,,,0,v,SUB: Parker FOR Green,Substitution,,0,0,501
+0021800873,684,PT00M58.90S,4,1610612766,CHA,202689,Walker,K. Walker,133,226,26,Missed,1,,,0,h,MISS Walker 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,502
+0021800873,685,PT00M56.30S,4,1610612764,WAS,202325,Johnson,W. Johnson,0,0,0,,0,,,0,v,W. Johnson REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,503
+0021800873,686,PT00M46.80S,4,1610612764,WAS,203953,Parker,J. Parker,-188,189,27,Missed,1,,,0,v,MISS Parker 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,504
+0021800873,687,PT00M43.50S,4,1610612766,CHA,1628970,Bridges,M. Bridges,0,0,0,,0,,,0,h,Bridges REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,505
+0021800873,688,PT00M23.50S,4,1610612766,CHA,203469,Zeller,C. Zeller,0,0,0,,0,,,0,h,Zeller Out of Bounds - Bad Pass Turnover Turnover (P2.T14),Turnover,Out of Bounds - Bad Pass Turnover,1,0,506
+0021800873,689,PT00M17.00S,4,1610612764,WAS,1626184,Randle,C. Randle,2,270,27,Missed,1,,,0,v,MISS Randle 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,507
+0021800873,690,PT00M13.30S,4,1610612766,CHA,101107,Williams,M. Williams,0,0,0,,0,,,0,h,Williams REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,508
+0021800873,691,PT00M00.00S,4,0,,0,,,0,0,0,,0,123,110,233,,End of 4th Period (9:22 PM EST),period,end,1,0,509

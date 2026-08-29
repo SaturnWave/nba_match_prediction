@@ -1,0 +1,554 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021801202,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:11 PM EST),period,start,0,0,1
+0021801202,4,PT12M00.00S,1,1610612749,MIL,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Jump Ball Lopez vs. Len: Tip to Antetokounmpo,Jump Ball,,1,0,2
+0021801202,7,PT11M45.00S,1,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,Prince P.FOUL (P1.T1) (K.Lane),Foul,Personal,1,0,3
+0021801202,9,PT11M34.00S,1,1610612749,MIL,203114,Middleton,K. Middleton,13,13,2,Made,1,2,0,2,h,Middleton 2' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,4
+0021801202,10,PT11M19.00S,1,1610612737,ATL,1629353,Humphries,I. Humphries,-119,-1,12,Missed,1,,,0,v,MISS Humphries 12' Jump Shot,Missed Shot,Jump Shot,1,2,5
+0021801202,11,PT11M14.00S,1,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,Len REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,6
+0021801202,12,PT11M14.00S,1,1610612737,ATL,203458,Len,A. Len,0,-6,1,Missed,1,,,0,v,MISS Len 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,7
+0021801202,13,PT11M13.00S,1,1610612749,MIL,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,8
+0021801202,14,PT11M07.00S,1,1610612749,MIL,203114,Middleton,K. Middleton,-123,21,12,Made,1,4,0,4,h,Middleton 12' Pullup Jump Shot (4 PTS) (Antetokounmpo 1 AST),Made Shot,Pullup Jump shot,1,2,9
+0021801202,16,PT10M59.00S,1,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,Brown P.FOUL (P1.T1) (J.Capers),Foul,Personal,1,0,10
+0021801202,18,PT10M55.00S,1,1610612737,ATL,203458,Len,A. Len,149,199,25,Missed,1,,,0,v,MISS Len 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,11
+0021801202,19,PT10M54.00S,1,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Rebound,Rebound,Unknown,0,0,12
+0021801202,21,PT10M46.00S,1,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,3,13,1,Made,1,6,0,6,h,Antetokounmpo 1' Driving Finger Roll Layup (2 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,13
+0021801202,22,PT10M33.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,-62,112,13,Missed,1,,,0,v,MISS Huerter 13' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,14
+0021801202,23,PT10M31.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,Huerter REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,15
+0021801202,24,PT10M29.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,-66,113,13,Made,1,6,2,8,v,Huerter 13' Jump Shot (2 PTS),Made Shot,Jump Shot,1,2,16
+0021801202,25,PT10M20.00S,1,1610612749,MIL,202339,Bledsoe,E. Bledsoe,8,22,2,Made,1,8,2,10,h,Bledsoe 2' Driving Reverse Layup (2 PTS),Made Shot,Driving Reverse Layup Shot,1,2,17
+0021801202,26,PT10M06.00S,1,1610612737,ATL,1627752,Prince,T. Prince,11,83,8,Missed,1,,,0,v,MISS Prince 8' Driving Layup,Missed Shot,Driving Layup Shot,1,2,18
+0021801202,26,PT10M06.00S,1,1610612749,MIL,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez BLOCK (1 BLK),,,1,2,19
+0021801202,28,PT10M06.00S,1,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Rebound,Rebound,Unknown,0,0,20
+0021801202,30,PT09M56.00S,1,1610612737,ATL,1629353,Humphries,I. Humphries,-6,41,4,Missed,1,,,0,v,MISS Humphries 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,21
+0021801202,30,PT09M56.00S,1,1610612749,MIL,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez BLOCK (2 BLK),,,1,2,22
+0021801202,32,PT09M52.00S,1,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,23
+0021801202,34,PT09M46.00S,1,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,17,2,Made,1,10,2,12,h,Antetokounmpo 2' Driving Finger Roll Layup (4 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,24
+0021801202,35,PT09M29.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,38,31,5,Made,1,10,4,14,v,Huerter 5' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,25
+0021801202,36,PT09M21.00S,1,1610612749,MIL,201572,Lopez,B. Lopez,131,252,28,Missed,1,,,0,h,MISS Lopez 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,26
+0021801202,37,PT09M18.00S,1,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,Bledsoe REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,27
+0021801202,38,PT09M09.00S,1,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,Brown Out of Bounds Lost Ball Turnover (P1.T1),Turnover,Out of Bounds Lost Ball Turnover,1,0,28
+0021801202,39,PT08M54.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,-56,86,10,Missed,1,,,0,v,MISS Huerter 10' Driving Layup,Missed Shot,Driving Layup Shot,1,2,29
+0021801202,39,PT08M54.00S,1,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton BLOCK (1 BLK),,,1,2,30
+0021801202,41,PT08M54.00S,1,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Rebound,Rebound,Unknown,0,0,31
+0021801202,43,PT08M49.00S,1,1610612737,ATL,1629353,Humphries,I. Humphries,-141,233,27,Missed,1,,,0,v,MISS Humphries 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,32
+0021801202,44,PT08M46.00S,1,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,Bledsoe REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,33
+0021801202,45,PT08M39.00S,1,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,Prince P.FOUL (P2.T2) (M.Dagher),Foul,Personal,1,0,34
+0021801202,48,PT08M26.00S,1,1610612749,MIL,203114,Middleton,K. Middleton,-16,13,2,Missed,1,,,0,h,MISS Middleton 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,35
+0021801202,49,PT08M23.00S,1,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,Len REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,36
+0021801202,50,PT08M09.00S,1,1610612737,ATL,1627752,Prince,T. Prince,32,258,26,Made,1,10,7,17,v,Prince 26' 3PT Pullup Jump Shot (3 PTS),Made Shot,Pullup Jump shot,1,3,37
+0021801202,51,PT07M55.00S,1,1610612749,MIL,203114,Middleton,K. Middleton,-225,11,0,Missed,1,,,0,h,MISS Middleton 3PT Jump Shot,Missed Shot,Jump Shot,1,3,38
+0021801202,52,PT07M52.00S,1,1610612737,ATL,1629121,Adams,J. Adams,0,0,0,,0,,,0,v,Adams REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,39
+0021801202,53,PT07M50.00S,1,1610612737,ATL,1627752,Prince,T. Prince,0,58,6,Missed,1,,,0,v,MISS Prince 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,40
+0021801202,53,PT07M50.00S,1,1610612749,MIL,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez BLOCK (3 BLK),,,1,2,41
+0021801202,55,PT07M45.00S,1,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,42
+0021801202,56,PT07M44.00S,1,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,5,1,Made,1,12,7,19,h,Antetokounmpo 1' Running Alley Oop Dunk Shot (6 PTS) (Bledsoe 1 AST),Made Shot,Running Alley Oop Dunk Shot,1,2,43
+0021801202,58,PT07M28.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,-8,121,12,Missed,1,,,0,v,MISS Huerter 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,44
+0021801202,58,PT07M28.00S,1,1610612749,MIL,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez BLOCK (4 BLK),,,1,2,45
+0021801202,60,PT07M25.00S,1,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,46
+0021801202,61,PT07M23.00S,1,1610612749,MIL,1628425,Brown,S. Brown,8,9,1,Made,1,14,7,21,h,Brown 1' Running Dunk (2 PTS),Made Shot,Running Dunk Shot,1,2,47
+0021801202,62,PT07M23.00S,1,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,48
+0021801202,63,PT07M23.00S,1,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,SUB: Connaughton FOR Middleton,Substitution,,0,0,49
+0021801202,64,PT07M23.00S,1,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,SUB: Frazier FOR Bledsoe,Substitution,,0,0,50
+0021801202,65,PT07M23.00S,1,1610612737,ATL,1629353,Humphries,I. Humphries,0,0,0,,0,,,0,v,SUB: Carter FOR Humphries,Substitution,,0,0,51
+0021801202,66,PT07M23.00S,1,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,SUB: Anderson FOR Prince,Substitution,,0,0,52
+0021801202,71,PT07M11.00S,1,1610612737,ATL,1713,Carter,V. Carter,59,251,26,Missed,1,,,0,v,MISS Carter 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,53
+0021801202,72,PT07M07.00S,1,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,54
+0021801202,73,PT06M58.00S,1,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,15,251,25,Missed,1,,,0,h,MISS Antetokounmpo 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,55
+0021801202,74,PT06M55.00S,1,1610612737,ATL,1626147,Anderson,J. Anderson,0,0,0,,0,,,0,v,Anderson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,56
+0021801202,75,PT06M51.00S,1,1610612737,ATL,1626147,Anderson,J. Anderson,-8,102,10,Missed,1,,,0,v,MISS Anderson 10' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,57
+0021801202,76,PT06M47.00S,1,1610612749,MIL,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,58
+0021801202,77,PT06M36.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,Huerter P.FOUL (P1.T3) (J.Capers),Foul,Personal,1,0,59
+0021801202,79,PT06M36.00S,1,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,SUB: Wilson FOR Antetokounmpo,Substitution,,0,0,60
+0021801202,81,PT06M30.00S,1,1610612749,MIL,1628391,Wilson,D. Wilson,1,13,1,Made,1,16,7,23,h,Wilson 1' Cutting Layup Shot (2 PTS) (Connaughton 1 AST),Made Shot,Cutting Layup Shot,1,2,61
+0021801202,83,PT06M30.00S,1,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,Len S.FOUL (P1.T4) (M.Dagher),Foul,Shooting,1,0,62
+0021801202,85,PT06M30.00S,1,1610612749,MIL,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,h,MISS Wilson Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,0,0,63
+0021801202,86,PT06M29.00S,1,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Rebound,Rebound,Unknown,0,0,64
+0021801202,88,PT06M14.00S,1,1610612737,ATL,203458,Len,A. Len,139,222,26,Made,1,16,10,26,v,Len 26' 3PT Jump Shot (3 PTS) (Huerter 1 AST),Made Shot,Jump Shot,1,3,65
+0021801202,90,PT05M50.00S,1,1610612749,MIL,1626192,Connaughton,P. Connaughton,-128,85,15,Made,1,18,10,28,h,Connaughton 15' Fadeaway Jumper (2 PTS),Made Shot,Fadeaway Jump Shot,1,2,66
+0021801202,91,PT05M42.00S,1,1610612737,ATL,203458,Len,A. Len,-1,11,1,Missed,1,,,0,v,MISS Len 1' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,67
+0021801202,92,PT05M39.00S,1,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,Connaughton REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,68
+0021801202,93,PT05M32.00S,1,1610612749,MIL,201572,Lopez,B. Lopez,119,257,28,Missed,1,,,0,h,MISS Lopez 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,69
+0021801202,94,PT05M29.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,Huerter REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,70
+0021801202,95,PT05M19.00S,1,1610612737,ATL,203458,Len,A. Len,-244,27,25,Missed,1,,,0,v,MISS Len 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,71
+0021801202,96,PT05M16.00S,1,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,72
+0021801202,97,PT05M10.00S,1,1610612749,MIL,1626192,Connaughton,P. Connaughton,-97,250,27,Missed,1,,,0,h,MISS Connaughton 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,73
+0021801202,98,PT05M10.00S,1,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Rebound,Rebound,Unknown,0,0,74
+0021801202,100,PT05M10.00S,1,1610612749,MIL,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,SUB: Ilyasova FOR Lopez,Substitution,,0,0,75
+0021801202,101,PT05M10.00S,1,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,SUB: G. Hill FOR Brown,Substitution,,0,0,76
+0021801202,102,PT05M10.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,SUB: Davis FOR Huerter,Substitution,,0,0,77
+0021801202,103,PT05M10.00S,1,1610612737,ATL,1629121,Adams,J. Adams,0,0,0,,0,,,0,v,SUB: Bembry FOR Adams,Substitution,,0,0,78
+0021801202,104,PT05M10.00S,1,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,SUB: Bazemore FOR Len,Substitution,,0,0,79
+0021801202,110,PT05M03.00S,1,1610612749,MIL,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova S.FOUL (P1.T2) (K.Lane),Foul,Shooting,1,0,80
+0021801202,112,PT05M03.00S,1,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,18,11,29,v,Bembry Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,81
+0021801202,113,PT05M03.00S,1,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,18,12,30,v,Bembry Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,82
+0021801202,114,PT04M49.00S,1,1610612749,MIL,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier Lost Ball Turnover (P1.T2),Turnover,Lost Ball,1,0,83
+0021801202,114,PT04M49.00S,1,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,v,Bembry STEAL (1 STL),,,1,0,84
+0021801202,117,PT04M41.00S,1,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,v,Bembry Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,85
+0021801202,117,PT04M41.00S,1,1610612749,MIL,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier STEAL (1 STL),,,1,0,86
+0021801202,119,PT04M35.00S,1,1610612749,MIL,101141,Ilyasova,E. Ilyasova,-6,59,6,Missed,1,,,0,h,MISS Ilyasova 6' Layup,Missed Shot,Layup Shot,1,2,87
+0021801202,120,PT04M32.00S,1,1610612737,ATL,1627738,Davis,D. Davis,0,0,0,,0,,,0,v,Davis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,88
+0021801202,121,PT04M29.00S,1,1610612737,ATL,203145,Bazemore,K. Bazemore,226,12,0,Made,1,18,15,33,v,Bazemore 3PT Jump Shot (3 PTS) (Bembry 1 AST),Made Shot,Jump Shot,1,3,89
+0021801202,123,PT04M12.00S,1,1610612749,MIL,1626192,Connaughton,P. Connaughton,-21,277,28,Made,1,21,15,36,h,Connaughton 28' 3PT Jump Shot (5 PTS) (G. Hill 1 AST),Made Shot,Jump Shot,1,3,90
+0021801202,125,PT03M51.00S,1,1610612737,ATL,1626147,Anderson,J. Anderson,199,185,27,Missed,1,,,0,v,MISS Anderson 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,91
+0021801202,126,PT03M47.00S,1,1610612749,MIL,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,92
+0021801202,127,PT03M44.00S,1,1610612749,MIL,201588,Hill,G. Hill,186,205,28,Missed,1,,,0,h,MISS G. Hill 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,93
+0021801202,128,PT03M42.00S,1,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Rebound,Rebound,Unknown,0,0,94
+0021801202,130,PT03M32.00S,1,1610612737,ATL,1627761,Bembry,D. Bembry,71,139,16,Made,1,21,17,38,v,Bembry 16' Driving Floating Jump Shot (4 PTS),Made Shot,Driving Floating Jump Shot,1,2,95
+0021801202,131,PT03M27.00S,1,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,96
+0021801202,132,PT03M18.00S,1,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,Connaughton Out of Bounds - Bad Pass Turnover Turnover (P1.T3),Turnover,Out of Bounds - Bad Pass Turnover,1,0,97
+0021801202,133,PT03M02.00S,1,1610612737,ATL,203145,Bazemore,K. Bazemore,108,175,21,Missed,1,,,0,v,MISS Bazemore 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,98
+0021801202,134,PT02M59.00S,1,1610612749,MIL,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,99
+0021801202,135,PT02M53.00S,1,1610612749,MIL,204025,Frazier,T. Frazier,-3,20,2,Made,1,23,17,40,h,Frazier 2' Layup (2 PTS),Made Shot,Layup Shot,1,2,100
+0021801202,136,PT02M40.00S,1,1610612749,MIL,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova S.FOUL (P2.T3) (J.Capers),Foul,Shooting,1,0,101
+0021801202,138,PT02M40.00S,1,1610612737,ATL,1627738,Davis,D. Davis,0,0,0,,0,,,0,v,MISS Davis Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,102
+0021801202,139,PT02M40.00S,1,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Rebound,Rebound,Normal Rebound,0,0,103
+0021801202,140,PT02M40.00S,1,1610612737,ATL,1627738,Davis,D. Davis,0,0,0,,0,,,0,v,MISS Davis Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,104
+0021801202,141,PT02M37.00S,1,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,G. Hill REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,105
+0021801202,142,PT02M20.00S,1,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,G. Hill Out of Bounds Lost Ball Turnover (P1.T4),Turnover,Out of Bounds Lost Ball Turnover,1,0,106
+0021801202,143,PT02M11.00S,1,1610612737,ATL,1627761,Bembry,D. Bembry,9,13,2,Missed,1,,,0,v,MISS Bembry 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,107
+0021801202,144,PT02M06.00S,1,1610612737,ATL,1627738,Davis,D. Davis,0,0,0,,0,,,0,v,Davis REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,108
+0021801202,145,PT02M06.00S,1,1610612737,ATL,1627738,Davis,D. Davis,0,-6,1,Made,1,23,19,42,v,Davis 1' Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,109
+0021801202,146,PT02M00.00S,1,1610612749,MIL,1628391,Wilson,D. Wilson,-138,199,24,Made,1,26,19,45,h,Wilson 24' 3PT Jump Shot (5 PTS) (Ilyasova 1 AST),Made Shot,Jump Shot,1,3,110
+0021801202,148,PT01M52.00S,1,1610612737,ATL,203145,Bazemore,K. Bazemore,18,121,12,Made,1,26,21,47,v,Bazemore 12' Pullup Jump Shot (5 PTS),Made Shot,Pullup Jump shot,1,2,111
+0021801202,149,PT01M39.00S,1,1610612749,MIL,201588,Hill,G. Hill,-62,159,17,Missed,1,,,0,h,MISS G. Hill 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,112
+0021801202,150,PT01M37.00S,1,1610612749,MIL,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,h,Wilson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,113
+0021801202,151,PT01M35.00S,1,1610612749,MIL,204025,Frazier,T. Frazier,208,179,27,Missed,1,,,0,h,MISS Frazier 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,114
+0021801202,152,PT01M35.00S,1,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,G. Hill REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,115
+0021801202,154,PT01M31.00S,1,1610612749,MIL,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,h,SUB: Bledsoe FOR Wilson,Substitution,,0,0,116
+0021801202,155,PT01M31.00S,1,1610612749,MIL,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,SUB: Middleton FOR Frazier,Substitution,,0,0,117
+0021801202,156,PT01M31.00S,1,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,SUB: Antetokounmpo FOR Connaughton,Substitution,,0,0,118
+0021801202,160,PT01M23.00S,1,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,-44,182,19,Missed,1,,,0,h,MISS Antetokounmpo 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,119
+0021801202,161,PT01M19.00S,1,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,v,Bembry REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,120
+0021801202,162,PT01M09.00S,1,1610612737,ATL,1713,Carter,V. Carter,10,21,2,Missed,1,,,0,v,MISS Carter 2' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,121
+0021801202,162,PT01M09.00S,1,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo BLOCK (1 BLK),,,1,2,122
+0021801202,163,PT01M07.00S,1,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,G. Hill REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,123
+0021801202,164,PT01M05.00S,1,1610612737,ATL,1626147,Anderson,J. Anderson,0,0,0,,0,,,0,v,Anderson S.FOUL (P1.PN) (J.Capers),Foul,Shooting,1,0,124
+0021801202,166,PT01M05.00S,1,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,27,21,48,h,Antetokounmpo Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,0,0,125
+0021801202,167,PT01M05.00S,1,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,28,21,49,h,Antetokounmpo Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,126
+0021801202,168,PT00M50.90S,1,1610612737,ATL,1627761,Bembry,D. Bembry,30,25,4,Missed,1,,,0,v,MISS Bembry 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,127
+0021801202,169,PT00M48.30S,1,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,G. Hill REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,128
+0021801202,170,PT00M44.20S,1,1610612749,MIL,202339,Bledsoe,E. Bledsoe,165,213,27,Missed,1,,,0,h,MISS Bledsoe 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,129
+0021801202,171,PT00M41.30S,1,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,v,Bembry REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,130
+0021801202,172,PT00M36.40S,1,1610612737,ATL,203145,Bazemore,K. Bazemore,227,17,0,Missed,1,,,0,v,MISS Bazemore 3PT Jump Shot,Missed Shot,Jump Shot,1,3,131
+0021801202,173,PT00M32.20S,1,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,v,Bembry REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,132
+0021801202,174,PT00M29.50S,1,1610612737,ATL,1713,Carter,V. Carter,-93,256,27,Missed,1,,,0,v,MISS Carter 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,133
+0021801202,175,PT00M26.60S,1,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,G. Hill REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,134
+0021801202,177,PT00M10.20S,1,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,G. Hill OFF.Foul (P1) (M.Dagher),Foul,Offensive,1,0,135
+0021801202,179,PT00M10.20S,1,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,G. Hill Offensive Foul Turnover (P2.T5),Turnover,Offensive Foul Turnover,1,0,136
+0021801202,180,PT00M10.20S,1,1610612749,MIL,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,SUB: Wilson FOR Ilyasova,Substitution,,0,0,137
+0021801202,182,PT00M04.30S,1,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,G. Hill P.FOUL (P2.T4) (J.Capers),Foul,Personal,1,0,138
+0021801202,184,PT00M00.00S,1,1610612737,ATL,203145,Bazemore,K. Bazemore,189,191,27,Missed,1,,,0,v,MISS Bazemore 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,139
+0021801202,185,PT00M00.00S,1,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Rebound,Rebound,Unknown,0,0,140
+0021801202,186,PT00M00.00S,1,0,,0,,,0,0,0,,0,28,21,49,,End of 1st Period (7:37 PM EST),period,end,1,0,141
+0021801202,196,PT12M00.00S,2,0,,0,,,0,0,0,,0,28,21,49,,Start of 2nd Period (7:39 PM EST),period,start,0,0,142
+0021801202,197,PT11M50.00S,2,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton P.FOUL (P1.T1) (K.Lane),Foul,Personal,1,0,143
+0021801202,199,PT11M42.00S,2,1610612737,ATL,1627738,Davis,D. Davis,-14,5,1,Made,1,28,23,51,v,Davis 1' Dunk (4 PTS) (Bembry 2 AST),Made Shot,Dunk Shot,1,2,144
+0021801202,201,PT11M24.00S,2,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,-3,9,1,Made,1,30,23,53,h,Antetokounmpo 1' Reverse Dunk (10 PTS) (Bledsoe 2 AST),Made Shot,Reverse Dunk Shot,1,2,145
+0021801202,203,PT11M06.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,-95,262,28,Missed,1,,,0,v,MISS Bembry 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,146
+0021801202,204,PT11M02.00S,2,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,147
+0021801202,205,PT10M57.00S,2,1610612749,MIL,203114,Middleton,K. Middleton,100,250,27,Missed,1,,,0,h,MISS Middleton 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,148
+0021801202,206,PT10M55.00S,2,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,149
+0021801202,207,PT10M54.00S,2,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo Out of Bounds - Bad Pass Turnover Turnover (P1.T6),Turnover,Out of Bounds - Bad Pass Turnover,1,0,150
+0021801202,208,PT10M41.00S,2,1610612737,ATL,1627752,Prince,T. Prince,-12,110,11,Made,1,30,25,55,v,Prince 11' Pullup Jump Shot (5 PTS),Made Shot,Pullup Jump shot,1,2,151
+0021801202,209,PT10M28.00S,2,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,-106,246,27,Missed,1,,,0,h,MISS Antetokounmpo 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,152
+0021801202,210,PT10M25.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,v,Bembry REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,153
+0021801202,211,PT10M15.00S,2,1610612737,ATL,1627752,Prince,T. Prince,-40,131,14,Missed,1,,,0,v,MISS Prince 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,154
+0021801202,212,PT10M14.00S,2,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,Prince REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,155
+0021801202,250,PT10M13.00S,2,1610612737,ATL,1627752,Prince,T. Prince,-6,13,1,Missed,1,,,0,v,MISS Prince 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,0,2,156
+0021801202,253,PT10M12.00S,2,1610612737,ATL,1629353,Humphries,I. Humphries,0,0,0,,0,,,0,v,Humphries REBOUND (Off:1 Def:0),Rebound,Unknown,0,0,157
+0021801202,213,PT10M08.00S,2,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,Bledsoe P.FOUL (P1.T2) (M.Dagher),Foul,Personal,1,0,158
+0021801202,215,PT09M55.00S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,-176,92,20,Missed,1,,,0,v,MISS Bazemore 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,159
+0021801202,216,PT09M52.00S,2,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,160
+0021801202,217,PT09M43.00S,2,1610612749,MIL,203114,Middleton,K. Middleton,-103,236,26,Missed,1,,,0,h,MISS Middleton 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,161
+0021801202,218,PT09M43.00S,2,1610612737,ATL,1629353,Humphries,I. Humphries,0,0,0,,0,,,0,v,Humphries REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,162
+0021801202,219,PT09M34.00S,2,1610612737,ATL,1627738,Davis,D. Davis,-160,-9,16,Made,1,30,27,57,v,Davis 16' Jump Shot (6 PTS) (Prince 1 AST),Made Shot,Jump Shot,1,2,163
+0021801202,221,PT09M14.00S,2,1610612749,MIL,203114,Middleton,K. Middleton,-11,17,2,Missed,1,,,0,h,MISS Middleton 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,164
+0021801202,223,PT09M10.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,v,Bembry REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,165
+0021801202,224,PT09M09.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,-5,20,2,Missed,1,,,0,v,MISS Bembry 2' Running Layup,Missed Shot,Running Layup Shot,1,2,166
+0021801202,224,PT09M09.00S,2,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo BLOCK (2 BLK),,,1,2,167
+0021801202,226,PT09M04.00S,2,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,Bledsoe REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,168
+0021801202,227,PT09M04.00S,2,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,Prince S.FOUL (P3.T1) (M.Dagher),Foul,Shooting,1,0,169
+0021801202,229,PT09M04.00S,2,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,31,27,58,h,Brown Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,170
+0021801202,230,PT09M04.00S,2,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,SUB: Wilson FOR Antetokounmpo,Substitution,,0,0,171
+0021801202,232,PT09M04.00S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,v,SUB: Huerter FOR Bazemore,Substitution,,0,0,172
+0021801202,233,PT09M04.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,v,SUB: Adams FOR Bembry,Substitution,,0,0,173
+0021801202,236,PT09M04.00S,2,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,32,27,59,h,Brown Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,174
+0021801202,239,PT08M54.00S,2,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,Bledsoe P.FOUL (P2.T3) (K.Lane),Foul,Personal,1,0,175
+0021801202,241,PT08M45.00S,2,1610612737,ATL,1627752,Prince,T. Prince,-11,123,12,Missed,1,,,0,v,MISS Prince 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,176
+0021801202,242,PT08M40.00S,2,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,177
+0021801202,243,PT08M37.00S,2,1610612749,MIL,1628425,Brown,S. Brown,3,27,3,Made,1,34,27,61,h,Brown 3' Running Layup (6 PTS) (Middleton 1 AST),Made Shot,Running Layup Shot,1,2,178
+0021801202,245,PT08M19.00S,2,1610612737,ATL,1629353,Humphries,I. Humphries,136,226,26,Missed,1,,,0,v,MISS Humphries 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,179
+0021801202,246,PT08M16.00S,2,1610612749,MIL,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,180
+0021801202,247,PT08M07.00S,2,1610612749,MIL,1628391,Wilson,D. Wilson,-227,10,0,Made,1,37,27,64,h,Wilson 3PT Jump Shot (8 PTS) (Middleton 2 AST),Made Shot,Jump Shot,1,3,181
+0021801202,249,PT08M07.00S,2,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,182
+0021801202,254,PT08M07.00S,2,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,SUB: Connaughton FOR Bledsoe,Substitution,,0,0,183
+0021801202,255,PT08M07.00S,2,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,SUB: Frazier FOR Middleton,Substitution,,0,0,184
+0021801202,256,PT08M07.00S,2,1610612737,ATL,1627738,Davis,D. Davis,0,0,0,,0,,,0,v,SUB: Len FOR Davis,Substitution,,0,0,185
+0021801202,260,PT07M54.00S,2,1610612737,ATL,1627752,Prince,T. Prince,-30,148,15,Missed,1,,,0,v,MISS Prince 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,186
+0021801202,261,PT07M50.00S,2,1610612749,MIL,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,187
+0021801202,262,PT07M39.00S,2,1610612749,MIL,201572,Lopez,B. Lopez,46,48,7,Made,1,39,27,66,h,Lopez 7' Driving Hook Shot (2 PTS),Made Shot,Driving Hook Shot,1,2,188
+0021801202,263,PT07M30.00S,2,1610612737,ATL,1629121,Adams,J. Adams,9,147,15,Missed,1,,,0,v,MISS Adams 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,189
+0021801202,264,PT07M26.00S,2,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,190
+0021801202,265,PT07M24.00S,2,1610612737,ATL,1629121,Adams,J. Adams,0,0,0,,0,,,0,v,Adams P.FOUL (P1.T2) (M.Dagher),Foul,Personal,1,0,191
+0021801202,267,PT07M24.00S,2,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,SUB: G. Hill FOR Brown,Substitution,,0,0,192
+0021801202,269,PT07M16.00S,2,1610612749,MIL,201572,Lopez,B. Lopez,120,51,13,Made,1,41,27,68,h,Lopez 13' Turnaround Jump Shot (4 PTS),Made Shot,Turnaround Jump Shot,1,2,193
+0021801202,270,PT07M02.00S,2,1610612737,ATL,1629121,Adams,J. Adams,-188,207,28,Made,1,41,30,71,v,Adams 28' 3PT Jump Shot (3 PTS) (Huerter 2 AST),Made Shot,Jump Shot,1,3,194
+0021801202,272,PT06M46.00S,2,1610612749,MIL,201588,Hill,G. Hill,-225,109,25,Made,1,44,30,74,h,G. Hill 25' 3PT Jump Shot (3 PTS) (Connaughton 2 AST),Made Shot,Jump Shot,1,3,195
+0021801202,274,PT06M33.00S,2,1610612737,ATL,1627752,Prince,T. Prince,-43,67,8,Missed,1,,,0,v,MISS Prince 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,196
+0021801202,275,PT06M30.00S,2,1610612749,MIL,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,197
+0021801202,276,PT06M22.00S,2,1610612749,MIL,201572,Lopez,B. Lopez,72,132,15,Made,1,46,30,76,h,Lopez 15' Pullup Jump Shot (6 PTS) (Connaughton 3 AST),Made Shot,Pullup Jump shot,1,2,198
+0021801202,278,PT06M05.00S,2,1610612737,ATL,1629353,Humphries,I. Humphries,234,26,24,Made,1,46,33,79,v,Humphries 24' 3PT Jump Shot (3 PTS) (Huerter 3 AST),Made Shot,Jump Shot,1,3,199
+0021801202,280,PT05M50.00S,2,1610612749,MIL,1626192,Connaughton,P. Connaughton,170,227,28,Missed,1,,,0,h,MISS Connaughton 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,200
+0021801202,281,PT05M47.00S,2,1610612749,MIL,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,201
+0021801202,282,PT05M39.00S,2,1610612749,MIL,201572,Lopez,B. Lopez,89,268,28,Missed,1,,,0,h,MISS Lopez 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,202
+0021801202,283,PT05M38.00S,2,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Rebound,Rebound,Unknown,0,0,203
+0021801202,285,PT05M38.00S,2,1610612749,MIL,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,SUB: Ilyasova FOR Lopez,Substitution,,0,0,204
+0021801202,286,PT05M38.00S,2,1610612737,ATL,1629353,Humphries,I. Humphries,0,0,0,,0,,,0,v,SUB: Anderson FOR Humphries,Substitution,,0,0,205
+0021801202,287,PT05M38.00S,2,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,SUB: Carter FOR Prince,Substitution,,0,0,206
+0021801202,291,PT05M28.00S,2,1610612737,ATL,1628989,Huerter,K. Huerter,-215,193,29,Missed,1,,,0,v,MISS Huerter 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,207
+0021801202,291,PT05M28.00S,2,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,Connaughton BLOCK (1 BLK),,,1,3,208
+0021801202,293,PT05M23.00S,2,1610612749,MIL,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,h,Wilson REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,209
+0021801202,294,PT05M09.00S,2,1610612749,MIL,204025,Frazier,T. Frazier,74,142,16,Made,1,48,33,81,h,Frazier 16' Pullup Jump Shot (4 PTS) (G. Hill 2 AST),Made Shot,Pullup Jump shot,1,2,210
+0021801202,295,PT04M59.00S,2,1610612737,ATL,1626147,Anderson,J. Anderson,52,264,27,Missed,1,,,0,v,MISS Anderson 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,211
+0021801202,296,PT04M55.00S,2,1610612749,MIL,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,212
+0021801202,297,PT04M47.00S,2,1610612737,ATL,1629121,Adams,J. Adams,0,0,0,,0,,,0,v,Adams P.FOUL (P2.T3) (J.Capers),Foul,Personal,1,0,213
+0021801202,299,PT04M36.00S,2,1610612749,MIL,101141,Ilyasova,E. Ilyasova,-96,243,26,Missed,1,,,0,h,MISS Ilyasova 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,214
+0021801202,300,PT04M34.00S,2,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,v,Carter REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,215
+0021801202,301,PT04M33.00S,2,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,v,Carter Lost Ball Turnover (P1.T2),Turnover,Lost Ball,1,0,216
+0021801202,301,PT04M33.00S,2,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,Connaughton STEAL (1 STL),,,1,0,217
+0021801202,303,PT04M31.00S,2,1610612749,MIL,201588,Hill,G. Hill,153,237,28,Missed,1,,,0,h,MISS G. Hill 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,218
+0021801202,304,PT04M30.00S,2,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,v,Carter REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,219
+0021801202,305,PT04M20.00S,2,1610612737,ATL,1713,Carter,V. Carter,-175,226,29,Missed,1,,,0,v,MISS Carter 29' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,220
+0021801202,306,PT04M17.00S,2,1610612749,MIL,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,221
+0021801202,307,PT04M11.00S,2,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,v,Carter P.FOUL (P1.T4) (M.Dagher),Foul,Personal,1,0,222
+0021801202,309,PT04M05.00S,2,1610612749,MIL,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier Out of Bounds - Bad Pass Turnover Turnover (P2.T7),Turnover,Out of Bounds - Bad Pass Turnover,1,0,223
+0021801202,310,PT03M47.00S,2,1610612737,ATL,1629121,Adams,J. Adams,200,165,26,Missed,1,,,0,v,MISS Adams 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,224
+0021801202,311,PT03M43.00S,2,1610612749,MIL,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,h,Wilson REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,225
+0021801202,312,PT03M35.00S,2,1610612749,MIL,1628391,Wilson,D. Wilson,225,141,27,Missed,1,,,0,h,MISS Wilson 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,226
+0021801202,313,PT03M31.00S,2,1610612737,ATL,1629121,Adams,J. Adams,0,0,0,,0,,,0,v,Adams REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,227
+0021801202,314,PT03M26.00S,2,1610612737,ATL,1626147,Anderson,J. Anderson,-241,8,24,Made,1,48,36,84,v,Anderson 24' 3PT Jump Shot (3 PTS) (Huerter 4 AST),Made Shot,Jump Shot,1,3,228
+0021801202,317,PT03M25.00S,2,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,229
+0021801202,318,PT03M25.00S,2,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,SUB: Colson FOR Connaughton,Substitution,,0,0,230
+0021801202,320,PT03M11.00S,2,1610612749,MIL,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,h,Wilson Bad Pass Turnover (P1.T8),Turnover,Bad Pass,1,0,231
+0021801202,320,PT03M11.00S,2,1610612737,ATL,1629121,Adams,J. Adams,0,0,0,,0,,,0,v,Adams STEAL (1 STL),,,1,0,232
+0021801202,322,PT03M05.00S,2,1610612749,MIL,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,h,Wilson S.FOUL (P1.T4) (J.Capers),Foul,Shooting,1,0,233
+0021801202,324,PT03M05.00S,2,1610612737,ATL,1626147,Anderson,J. Anderson,0,0,0,,0,48,37,85,v,Anderson Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,0,0,234
+0021801202,325,PT03M05.00S,2,1610612737,ATL,1626147,Anderson,J. Anderson,0,0,0,,0,48,38,86,v,Anderson Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,0,0,235
+0021801202,326,PT02M43.00S,2,1610612749,MIL,101141,Ilyasova,E. Ilyasova,5,48,5,Missed,1,,,0,h,MISS Ilyasova 5' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,236
+0021801202,326,PT02M43.00S,2,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,Len BLOCK (1 BLK),,,1,2,237
+0021801202,328,PT02M43.00S,2,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,Huerter REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,238
+0021801202,329,PT02M35.00S,2,1610612737,ATL,203458,Len,A. Len,-29,265,27,Made,1,48,41,89,v,Len 27' 3PT Jump Shot (6 PTS) (Anderson 1 AST),Made Shot,Jump Shot,1,3,239
+0021801202,331,PT02M14.00S,2,1610612749,MIL,204025,Frazier,T. Frazier,5,10,1,Made,1,50,41,91,h,Frazier 1' Driving Layup (6 PTS),Made Shot,Driving Layup Shot,1,2,240
+0021801202,332,PT02M10.00S,2,1610612737,ATL,1628989,Huerter,K. Huerter,161,225,28,Missed,1,,,0,v,MISS Huerter 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,241
+0021801202,333,PT02M06.00S,2,1610612749,MIL,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,h,Wilson REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,242
+0021801202,334,PT01M59.00S,2,1610612749,MIL,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova OFF.Foul (P3) (K.Lane),Foul,Offensive,1,0,243
+0021801202,336,PT01M59.00S,2,1610612749,MIL,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova Offensive Foul Turnover (P1.T9),Turnover,Offensive Foul Turnover,1,0,244
+0021801202,337,PT01M59.00S,2,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,SUB: Brown FOR G. Hill,Substitution,,0,0,245
+0021801202,339,PT01M41.00S,2,1610612737,ATL,203458,Len,A. Len,-18,258,26,Missed,1,,,0,v,MISS Len 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,246
+0021801202,340,PT01M38.00S,2,1610612749,MIL,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,247
+0021801202,341,PT01M20.00S,2,1610612749,MIL,101141,Ilyasova,E. Ilyasova,3,27,3,Missed,1,,,0,h,MISS Ilyasova 3' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,248
+0021801202,342,PT01M18.00S,2,1610612737,ATL,1626147,Anderson,J. Anderson,0,0,0,,0,,,0,v,Anderson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,249
+0021801202,343,PT01M05.00S,2,1610612737,ATL,203458,Len,A. Len,-14,12,2,Missed,1,,,0,v,MISS Len 2' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,250
+0021801202,343,PT01M05.00S,2,1610612749,MIL,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,h,Wilson BLOCK (1 BLK),,,1,2,251
+0021801202,345,PT01M03.00S,2,1610612749,MIL,1629045,Colson,B. Colson,0,0,0,,0,,,0,h,Colson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,252
+0021801202,346,PT01M03.00S,2,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,Huerter P.FOUL (P2.PN) (M.Dagher),Foul,Personal,1,0,253
+0021801202,348,PT01M03.00S,2,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,51,41,92,h,Brown Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,0,0,254
+0021801202,349,PT01M03.00S,2,1610612749,MIL,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,SUB: Lopez FOR Ilyasova,Substitution,,0,0,255
+0021801202,351,PT01M03.00S,2,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,52,41,93,h,Brown Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,256
+0021801202,352,PT00M48.90S,2,1610612737,ATL,1628989,Huerter,K. Huerter,109,147,18,Made,1,52,43,95,v,Huerter 18' Pullup Jump Shot (6 PTS),Made Shot,Pullup Jump shot,1,2,257
+0021801202,353,PT00M33.30S,2,1610612749,MIL,201572,Lopez,B. Lopez,1,24,2,Missed,1,,,0,h,MISS Lopez 2' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,258
+0021801202,354,PT00M32.60S,2,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,Len REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,259
+0021801202,356,PT00M24.70S,2,1610612737,ATL,203458,Len,A. Len,2,7,1,Made,1,52,45,97,v,Len 1' Dunk (8 PTS) (Adams 1 AST),Made Shot,Dunk Shot,1,2,260
+0021801202,358,PT00M07.60S,2,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,v,Carter P.FOUL (P2.PN) (J.Capers),Foul,Personal,1,0,261
+0021801202,360,PT00M07.60S,2,1610612749,MIL,1628391,Wilson,D. Wilson,0,0,0,,0,53,45,98,h,Wilson Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,0,0,262
+0021801202,361,PT00M07.60S,2,1610612749,MIL,1628391,Wilson,D. Wilson,0,0,0,,0,54,45,99,h,Wilson Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,0,0,263
+0021801202,362,PT00M01.80S,2,1610612737,ATL,1629121,Adams,J. Adams,0,0,0,,0,,,0,v,Adams Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,264
+0021801202,362,PT00M01.80S,2,1610612749,MIL,1629045,Colson,B. Colson,0,0,0,,0,,,0,h,Colson STEAL (1 STL),,,1,0,265
+0021801202,364,PT00M00.00S,2,1610612749,MIL,1629045,Colson,B. Colson,131,540,56,Missed,1,,,0,h,MISS Colson 56' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,266
+0021801202,365,PT00M00.00S,2,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Rebound,Rebound,Unknown,0,0,267
+0021801202,366,PT00M00.00S,2,0,,0,,,0,0,0,,0,54,45,99,,End of 2nd Period (8:04 PM EST),period,end,1,0,268
+0021801202,377,PT12M00.00S,3,0,,0,,,0,0,0,,0,54,45,99,,Start of 3rd Period (8:19 PM EST),period,start,0,0,269
+0021801202,378,PT11M44.00S,3,1610612737,ATL,1627752,Prince,T. Prince,174,214,28,Missed,1,,,0,v,MISS Prince 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,270
+0021801202,379,PT11M41.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,271
+0021801202,380,PT11M38.00S,3,1610612737,ATL,1629353,Humphries,I. Humphries,0,0,0,,0,,,0,v,Humphries S.FOUL (P1.T1) (M.Dagher),Foul,Shooting,1,0,272
+0021801202,382,PT11M38.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,55,45,100,h,Antetokounmpo Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,0,0,273
+0021801202,383,PT11M38.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,56,45,101,h,Antetokounmpo Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,0,0,274
+0021801202,384,PT11M25.00S,3,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,Huerter Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,275
+0021801202,384,PT11M25.00S,3,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,Bledsoe STEAL (1 STL),,,1,0,276
+0021801202,386,PT11M14.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,-11,16,2,Missed,1,,,0,h,MISS Antetokounmpo 2' Layup,Missed Shot,Layup Shot,1,2,277
+0021801202,387,PT11M11.00S,3,1610612737,ATL,1629353,Humphries,I. Humphries,0,0,0,,0,,,0,v,Humphries REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,278
+0021801202,388,PT10M59.00S,3,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,Prince Traveling Turnover (P1.T5),Turnover,Traveling,1,0,279
+0021801202,390,PT10M56.00S,3,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,Bledsoe Bad Pass Turnover (P1.T10),Turnover,Bad Pass,1,0,280
+0021801202,391,PT10M54.00S,3,1610612749,MIL,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez L.B.FOUL (P1.T1) (J.Capers),Foul,Loose Ball,1,0,281
+0021801202,393,PT10M40.00S,3,1610612737,ATL,203458,Len,A. Len,82,252,27,Made,1,56,48,104,v,Len 27' 3PT Jump Shot (11 PTS) (Huerter 5 AST),Made Shot,Jump Shot,1,3,282
+0021801202,395,PT10M29.00S,3,1610612749,MIL,1628425,Brown,S. Brown,223,11,0,Missed,1,,,0,h,MISS Brown 3PT Jump Shot,Missed Shot,Jump Shot,1,3,283
+0021801202,396,PT10M26.00S,3,1610612737,ATL,1629121,Adams,J. Adams,0,0,0,,0,,,0,v,Adams REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,284
+0021801202,397,PT10M19.00S,3,1610612737,ATL,1628989,Huerter,K. Huerter,-100,36,11,Missed,1,,,0,v,MISS Huerter 11' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,285
+0021801202,398,PT10M17.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,286
+0021801202,400,PT10M04.00S,3,1610612737,ATL,1629353,Humphries,I. Humphries,0,0,0,,0,,,0,v,Humphries S.FOUL (P2.T2) (M.Dagher),Foul,Shooting,1,0,287
+0021801202,402,PT10M04.00S,3,1610612749,MIL,201572,Lopez,B. Lopez,0,0,0,,0,57,48,105,h,Lopez Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,0,0,288
+0021801202,403,PT10M04.00S,3,1610612749,MIL,201572,Lopez,B. Lopez,0,0,0,,0,58,48,106,h,Lopez Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,289
+0021801202,404,PT09M48.00S,3,1610612737,ATL,203458,Len,A. Len,99,253,27,Missed,1,,,0,v,MISS Len 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,290
+0021801202,405,PT09M45.00S,3,1610612749,MIL,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,291
+0021801202,406,PT09M40.00S,3,1610612749,MIL,202339,Bledsoe,E. Bledsoe,-232,46,24,Missed,1,,,0,h,MISS Bledsoe 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,292
+0021801202,407,PT09M36.00S,3,1610612737,ATL,1629353,Humphries,I. Humphries,0,0,0,,0,,,0,v,Humphries REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,293
+0021801202,408,PT09M31.00S,3,1610612737,ATL,1629121,Adams,J. Adams,-53,142,15,Missed,1,,,0,v,MISS Adams 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,294
+0021801202,409,PT09M26.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,295
+0021801202,410,PT09M23.00S,3,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,Prince S.FOUL (P4.T3) (M.Dagher),Foul,Shooting,1,0,296
+0021801202,412,PT09M23.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,59,48,107,h,Antetokounmpo Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,0,0,297
+0021801202,413,PT09M23.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,60,48,108,h,Antetokounmpo Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,0,0,298
+0021801202,414,PT09M07.00S,3,1610612737,ATL,1629353,Humphries,I. Humphries,231,43,0,Made,1,60,51,111,v,Humphries 3PT Jump Shot (6 PTS) (Len 1 AST),Made Shot,Jump Shot,1,3,299
+0021801202,416,PT08M57.00S,3,1610612749,MIL,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez Traveling Turnover (P1.T11),Turnover,Traveling,1,0,300
+0021801202,417,PT08M49.00S,3,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton P.FOUL (P2.T2) (K.Lane),Foul,Personal,1,0,301
+0021801202,419,PT08M34.00S,3,1610612737,ATL,203458,Len,A. Len,3,10,1,Made,1,60,53,113,v,Len 1' Dunk (13 PTS) (Adams 2 AST),Made Shot,Dunk Shot,1,2,302
+0021801202,421,PT08M21.00S,3,1610612749,MIL,202339,Bledsoe,E. Bledsoe,2,13,1,Made,1,62,53,115,h,Bledsoe 1' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,303
+0021801202,422,PT08M10.00S,3,1610612737,ATL,1627752,Prince,T. Prince,-133,100,17,Missed,1,,,0,v,MISS Prince 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,304
+0021801202,423,PT08M06.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,305
+0021801202,424,PT08M02.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,-5,12,1,Made,1,64,53,117,h,Antetokounmpo 1' Running Dunk (16 PTS),Made Shot,Running Dunk Shot,1,2,306
+0021801202,425,PT08M02.00S,3,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,Len S.FOUL (P2.T4) (K.Lane),Foul,Shooting,1,0,307
+0021801202,427,PT08M02.00S,3,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,SUB: Bazemore FOR Prince,Substitution,,0,0,308
+0021801202,429,PT08M02.00S,3,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,Prince T.FOUL (P4.T4) (K.Lane),Foul,Technical,0,0,309
+0021801202,430,PT08M02.00S,3,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,65,53,118,h,Middleton Free Throw Technical (5 PTS),Free Throw,Free Throw Technical,0,0,310
+0021801202,431,PT08M02.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,MISS Antetokounmpo Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,0,0,311
+0021801202,432,PT07M59.00S,3,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,Len REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,312
+0021801202,433,PT07M46.00S,3,1610612737,ATL,203458,Len,A. Len,239,71,25,Made,1,65,56,121,v,Len 25' 3PT Jump Shot (16 PTS) (Bazemore 1 AST),Made Shot,Jump Shot,1,3,313
+0021801202,435,PT07M26.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,70,258,27,Made,1,68,56,124,h,Antetokounmpo 27' 3PT Pullup Jump Shot (19 PTS),Made Shot,Pullup Jump shot,1,3,314
+0021801202,436,PT07M11.00S,3,1610612737,ATL,203458,Len,A. Len,25,71,8,Missed,1,,,0,v,MISS Len 8' Driving Layup,Missed Shot,Driving Layup Shot,1,2,315
+0021801202,437,PT07M10.00S,3,1610612749,MIL,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,316
+0021801202,438,PT07M06.00S,3,1610612749,MIL,203114,Middleton,K. Middleton,0,17,2,Made,1,70,56,126,h,Middleton 2' Layup (7 PTS) (Bledsoe 3 AST),Made Shot,Layup Shot,1,2,317
+0021801202,440,PT07M06.00S,3,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,Huerter S.FOUL (P3.PN) (M.Dagher),Foul,Shooting,1,0,318
+0021801202,442,PT07M06.00S,3,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,SUB: Ilyasova FOR Bledsoe,Substitution,,0,0,319
+0021801202,443,PT07M06.00S,3,1610612749,MIL,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,SUB: Frazier FOR Lopez,Substitution,,0,0,320
+0021801202,444,PT07M06.00S,3,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,SUB: Connaughton FOR Brown,Substitution,,0,0,321
+0021801202,445,PT07M06.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,SUB: Wilson FOR Antetokounmpo,Substitution,,0,0,322
+0021801202,446,PT07M06.00S,3,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,SUB: Bembry FOR Huerter,Substitution,,0,0,323
+0021801202,452,PT07M06.00S,3,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,71,56,127,h,Middleton Free Throw 1 of 1 (8 PTS),Free Throw,Free Throw 1 of 1,0,0,324
+0021801202,453,PT06M57.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,107,252,27,Made,1,71,59,130,v,Bazemore 27' 3PT Step Back Jump Shot (8 PTS),Made Shot,Step Back Jump shot,1,3,325
+0021801202,454,PT06M46.00S,3,1610612749,MIL,203114,Middleton,K. Middleton,144,221,26,Missed,1,,,0,h,MISS Middleton 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,326
+0021801202,455,PT06M43.00S,3,1610612737,ATL,1629121,Adams,J. Adams,0,0,0,,0,,,0,v,Adams REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,327
+0021801202,456,PT06M33.00S,3,1610612737,ATL,203458,Len,A. Len,7,9,1,Made,1,71,61,132,v,Len 1' Reverse Dunk (18 PTS) (Adams 3 AST),Made Shot,Reverse Dunk Shot,1,2,328
+0021801202,459,PT06M25.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,v,Bazemore Violation:Kicked Ball (M.Dagher),Violation,Kicked Ball,0,0,329
+0021801202,460,PT06M25.00S,3,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,330
+0021801202,461,PT06M25.00S,3,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,SUB: Davis FOR Len,Substitution,,0,0,331
+0021801202,463,PT06M09.00S,3,1610612749,MIL,203114,Middleton,K. Middleton,67,138,15,Made,1,73,61,134,h,Middleton 15' Pullup Jump Shot (10 PTS),Made Shot,Pullup Jump shot,1,2,332
+0021801202,464,PT05M55.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,-86,152,17,Missed,1,,,0,v,MISS Bazemore 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,333
+0021801202,465,PT05M52.00S,3,1610612749,MIL,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,334
+0021801202,466,PT05M49.00S,3,1610612749,MIL,203114,Middleton,K. Middleton,-2,20,2,Made,1,75,61,136,h,Middleton 2' Running Layup (12 PTS),Made Shot,Running Layup Shot,1,2,335
+0021801202,467,PT05M49.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,v,Bazemore S.FOUL (P1.PN) (J.Capers),Foul,Shooting,1,0,336
+0021801202,469,PT05M49.00S,3,1610612737,ATL,1629353,Humphries,I. Humphries,0,0,0,,0,,,0,v,SUB: Anderson FOR Humphries,Substitution,,0,0,337
+0021801202,470,PT05M49.00S,3,1610612737,ATL,1629121,Adams,J. Adams,0,0,0,,0,,,0,v,SUB: Carter FOR Adams,Substitution,,0,0,338
+0021801202,473,PT05M49.00S,3,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,76,61,137,h,Middleton Free Throw 1 of 1 (13 PTS),Free Throw,Free Throw 1 of 1,0,0,339
+0021801202,474,PT05M38.00S,3,1610612749,MIL,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier P.FOUL (P1.T3) (M.Dagher),Foul,Personal,1,0,340
+0021801202,476,PT05M31.00S,3,1610612737,ATL,1713,Carter,V. Carter,-145,215,26,Missed,1,,,0,v,MISS Carter 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,341
+0021801202,477,PT05M27.00S,3,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,Connaughton REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,342
+0021801202,478,PT05M14.00S,3,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,v,Bembry S.FOUL (P1.PN) (M.Dagher),Foul,Shooting,1,0,343
+0021801202,480,PT05M14.00S,3,1610612749,MIL,101141,Ilyasova,E. Ilyasova,0,0,0,,0,77,61,138,h,Ilyasova Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,344
+0021801202,481,PT05M14.00S,3,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,SUB: G. Hill FOR Middleton,Substitution,,0,0,345
+0021801202,483,PT05M14.00S,3,1610612749,MIL,101141,Ilyasova,E. Ilyasova,0,0,0,,0,78,61,139,h,Ilyasova Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,346
+0021801202,484,PT05M02.00S,3,1610612737,ATL,1626147,Anderson,J. Anderson,-198,171,26,Made,1,78,64,142,v,Anderson 26' 3PT Jump Shot (8 PTS) (Carter 1 AST),Made Shot,Jump Shot,1,3,347
+0021801202,486,PT04M51.00S,3,1610612749,MIL,1626192,Connaughton,P. Connaughton,-143,246,28,Missed,1,,,0,h,MISS Connaughton 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,348
+0021801202,487,PT04M47.00S,3,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,v,Bembry REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,349
+0021801202,488,PT04M37.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,203,179,27,Made,1,78,67,145,v,Bazemore 27' 3PT Jump Shot (11 PTS) (Davis 1 AST),Made Shot,Jump Shot,1,3,350
+0021801202,490,PT04M09.00S,3,1610612749,MIL,204025,Frazier,T. Frazier,-2,33,3,Missed,1,,,0,h,MISS Frazier 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,351
+0021801202,491,PT04M06.00S,3,1610612737,ATL,1626147,Anderson,J. Anderson,0,0,0,,0,,,0,v,Anderson REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,352
+0021801202,492,PT04M03.00S,3,1610612749,MIL,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier P.FOUL (P2.T4) (K.Lane),Foul,Personal,1,0,353
+0021801202,494,PT03M55.00S,3,1610612737,ATL,1627761,Bembry,D. Bembry,8,19,2,Made,1,78,69,147,v,Bembry 2' Driving Layup (6 PTS) (Anderson 2 AST),Made Shot,Driving Layup Shot,1,2,354
+0021801202,496,PT03M37.00S,3,1610612749,MIL,201588,Hill,G. Hill,-179,226,29,Missed,1,,,0,h,MISS G. Hill 29' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,355
+0021801202,497,PT03M35.00S,3,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,v,Bembry REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,356
+0021801202,498,PT03M28.00S,3,1610612749,MIL,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier S.FOUL (P3.PN) (J.Capers),Foul,Shooting,1,0,357
+0021801202,500,PT03M28.00S,3,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,78,70,148,v,Carter Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,358
+0021801202,501,PT03M28.00S,3,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,78,71,149,v,Carter Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,359
+0021801202,502,PT03M14.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,v,Bazemore S.FOUL (P2.PN) (J.Capers),Foul,Shooting,1,0,360
+0021801202,504,PT03M14.00S,3,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,79,71,150,h,G. Hill Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,0,0,361
+0021801202,505,PT03M14.00S,3,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,MISS G. Hill Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,362
+0021801202,506,PT03M11.00S,3,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,v,Carter REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,363
+0021801202,507,PT03M04.00S,3,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,v,Bembry Offensive Charge Foul (P2.PN) (J.Capers),Foul,Offensive Charge,1,0,364
+0021801202,509,PT03M04.00S,3,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,v,Bembry Offensive Foul Turnover (P2.T6),Turnover,Offensive Foul Turnover,1,0,365
+0021801202,510,PT02M53.00S,3,1610612749,MIL,201588,Hill,G. Hill,3,12,1,Made,1,81,71,152,h,G. Hill 1' Driving Layup (6 PTS),Made Shot,Driving Layup Shot,1,2,366
+0021801202,511,PT02M35.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,-3,117,12,Missed,1,,,0,v,MISS Bazemore 12' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,367
+0021801202,512,PT02M32.00S,3,1610612749,MIL,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,h,Wilson REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,368
+0021801202,513,PT02M19.00S,3,1610612749,MIL,201588,Hill,G. Hill,-127,239,27,Missed,1,,,0,h,MISS G. Hill 27' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,369
+0021801202,514,PT02M16.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,v,Bazemore REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,370
+0021801202,515,PT02M14.00S,3,1610612749,MIL,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova P.FOUL (P4.PN) (J.Capers),Foul,Personal,1,0,371
+0021801202,517,PT02M14.00S,3,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,372
+0021801202,518,PT02M14.00S,3,1610612749,MIL,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,h,SUB: Antetokounmpo FOR Wilson,Substitution,,0,0,373
+0021801202,519,PT02M14.00S,3,1610612749,MIL,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,SUB: Brown FOR Frazier,Substitution,,0,0,374
+0021801202,520,PT02M14.00S,3,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,SUB: Bledsoe FOR Connaughton,Substitution,,0,0,375
+0021801202,521,PT02M14.00S,3,1610612737,ATL,1627738,Davis,D. Davis,0,0,0,,0,,,0,v,SUB: Len FOR Davis,Substitution,,0,0,376
+0021801202,526,PT02M14.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,v,MISS Bazemore Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,377
+0021801202,527,PT02M14.00S,3,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Rebound,Rebound,Normal Rebound,0,0,378
+0021801202,528,PT02M14.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,81,72,153,v,Bazemore Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,0,0,379
+0021801202,529,PT01M55.00S,3,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,v,Carter P.FOUL (P3.PN) (J.Capers),Foul,Personal,1,0,380
+0021801202,531,PT01M55.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,82,72,154,h,Antetokounmpo Free Throw 1 of 2 (20 PTS),Free Throw,Free Throw 1 of 2,0,0,381
+0021801202,532,PT01M55.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,83,72,155,h,Antetokounmpo Free Throw 2 of 2 (21 PTS),Free Throw,Free Throw 2 of 2,0,0,382
+0021801202,533,PT01M38.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,v,Bazemore Lost Ball Turnover (P1.T7),Turnover,Lost Ball,1,0,383
+0021801202,533,PT01M38.00S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo STEAL (1 STL),,,1,0,384
+0021801202,535,PT01M34.00S,3,1610612749,MIL,201588,Hill,G. Hill,-3,12,1,Missed,1,,,0,h,MISS G. Hill 1' Running Layup,Missed Shot,Running Layup Shot,1,2,385
+0021801202,536,PT01M30.00S,3,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,v,Carter REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,386
+0021801202,537,PT01M26.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,-227,27,0,Missed,1,,,0,v,MISS Bazemore 3PT Jump Shot,Missed Shot,Jump Shot,1,3,387
+0021801202,538,PT01M22.00S,3,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,Bledsoe REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,388
+0021801202,539,PT01M16.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,v,Bazemore S.FOUL (P3.PN) (M.Dagher),Foul,Shooting,1,0,389
+0021801202,541,PT01M16.00S,3,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,84,72,156,h,G. Hill Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,0,0,390
+0021801202,542,PT01M16.00S,3,1610612749,MIL,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,SUB: Wilson FOR Ilyasova,Substitution,,0,0,391
+0021801202,544,PT01M16.00S,3,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,85,72,157,h,G. Hill Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,392
+0021801202,766,PT01M03.00S,3,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,v,Bembry Bad Pass Turnover (P3.T8),Turnover,Bad Pass,0,0,393
+0021801202,766,PT01M03.00S,3,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,G. Hill STEAL (1 STL),,,0,0,394
+0021801202,547,PT00M58.70S,3,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,Len S.FOUL (P3.PN) (J.Capers),Foul,Shooting,1,0,395
+0021801202,549,PT00M58.70S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,MISS Antetokounmpo Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,396
+0021801202,550,PT00M58.70S,3,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Rebound,Rebound,Normal Rebound,0,0,397
+0021801202,551,PT00M58.70S,3,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,MISS Antetokounmpo Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,398
+0021801202,552,PT00M55.90S,3,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,v,Carter REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,399
+0021801202,553,PT00M46.60S,3,1610612737,ATL,1713,Carter,V. Carter,183,208,28,Missed,1,,,0,v,MISS Carter 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,400
+0021801202,554,PT00M43.30S,3,1610612749,MIL,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,h,Wilson REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,401
+0021801202,555,PT00M29.70S,3,1610612749,MIL,202339,Bledsoe,E. Bledsoe,91,272,29,Missed,1,,,0,h,MISS Bledsoe 29' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,402
+0021801202,556,PT00M26.00S,3,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,403
+0021801202,557,PT00M23.70S,3,1610612749,MIL,1628425,Brown,S. Brown,-2,11,1,Missed,1,,,0,h,MISS Brown 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,404
+0021801202,558,PT00M20.80S,3,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,Len REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,405
+0021801202,559,PT00M05.20S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,17,294,29,Missed,1,,,0,v,MISS Bazemore 29' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,406
+0021801202,560,PT00M01.80S,3,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,Bledsoe REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,407
+0021801202,561,PT00M01.20S,3,1610612749,MIL,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,h,Wilson Traveling Turnover (P2.T12),Turnover,Traveling,1,0,408
+0021801202,562,PT00M00.00S,3,1610612737,ATL,1626147,Anderson,J. Anderson,0,0,0,,0,,,0,v,Anderson Bad Pass Turnover (P1.T9),Turnover,Bad Pass,1,0,409
+0021801202,562,PT00M00.00S,3,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,Bledsoe STEAL (2 STL),,,1,0,410
+0021801202,564,PT00M00.00S,3,0,,0,,,0,0,0,,0,85,72,157,,End of 3rd Period (8:50 PM EST),period,end,1,0,411
+0021801202,573,PT12M00.00S,4,0,,0,,,0,0,0,,0,85,72,157,,Start of 4th Period (8:53 PM EST),period,start,0,0,412
+0021801202,574,PT11M51.00S,4,1610612749,MIL,1628425,Brown,S. Brown,-7,13,1,Made,1,87,72,159,h,Brown 1' Cutting Layup Shot (10 PTS) (Bledsoe 4 AST),Made Shot,Cutting Layup Shot,1,2,413
+0021801202,576,PT11M35.00S,4,1610612737,ATL,1627752,Prince,T. Prince,6,13,1,Made,1,87,74,161,v,Prince 1' Cutting Layup Shot (7 PTS) (Huerter 6 AST),Made Shot,Cutting Layup Shot,1,2,414
+0021801202,578,PT11M16.00S,4,1610612749,MIL,203114,Middleton,K. Middleton,-66,162,17,Missed,1,,,0,h,MISS Middleton 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,415
+0021801202,579,PT11M14.00S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,Len REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,416
+0021801202,580,PT11M10.00S,4,1610612737,ATL,1713,Carter,V. Carter,-101,248,27,Missed,1,,,0,v,MISS Carter 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,417
+0021801202,581,PT11M05.00S,4,1610612749,MIL,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,h,Wilson REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,418
+0021801202,582,PT11M00.00S,4,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,-5,13,1,Made,1,89,74,163,h,Antetokounmpo 1' Running Layup (23 PTS),Made Shot,Running Layup Shot,1,2,419
+0021801202,583,PT10M47.00S,4,1610612737,ATL,1713,Carter,V. Carter,22,131,13,Made,1,89,76,165,v,Carter 13' Fadeaway Jumper (4 PTS) (Prince 2 AST),Made Shot,Fadeaway Jump Shot,1,2,420
+0021801202,585,PT10M47.00S,4,1610612749,MIL,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,h,Wilson S.FOUL (P2.T1) (K.Lane),Foul,Shooting,1,0,421
+0021801202,587,PT10M47.00S,4,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,89,77,166,v,Carter Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,0,0,422
+0021801202,588,PT10M27.00S,4,1610612749,MIL,202339,Bledsoe,E. Bledsoe,-35,127,13,Made,1,91,77,168,h,Bledsoe 13' Driving Floating Jump Shot (6 PTS) (Antetokounmpo 2 AST),Made Shot,Driving Floating Jump Shot,1,2,423
+0021801202,590,PT10M09.00S,4,1610612737,ATL,203458,Len,A. Len,-6,13,1,Made,1,91,79,170,v,Len 1' Driving Dunk (20 PTS),Made Shot,Driving Dunk Shot,1,2,424
+0021801202,591,PT09M55.00S,4,1610612749,MIL,1628425,Brown,S. Brown,5,17,2,Missed,1,,,0,h,MISS Brown 2' Layup,Missed Shot,Layup Shot,1,2,425
+0021801202,591,PT09M55.00S,4,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,v,Carter BLOCK (1 BLK),,,1,2,426
+0021801202,593,PT09M55.00S,4,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Rebound,Rebound,Unknown,0,0,427
+0021801202,594,PT09M55.00S,4,1610612749,MIL,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,h,SUB: Lopez FOR Wilson,Substitution,,0,0,428
+0021801202,596,PT09M43.00S,4,1610612749,MIL,203114,Middleton,K. Middleton,226,-9,0,Missed,1,,,0,h,MISS Middleton 3PT Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,3,429
+0021801202,597,PT09M40.00S,4,1610612737,ATL,1629121,Adams,J. Adams,0,0,0,,0,,,0,v,Adams REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,430
+0021801202,598,PT09M39.00S,4,1610612737,ATL,1627752,Prince,T. Prince,1,36,4,Missed,1,,,0,v,MISS Prince 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,431
+0021801202,598,PT09M39.00S,4,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo BLOCK (3 BLK),,,1,2,432
+0021801202,600,PT09M38.00S,4,1610612749,MIL,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,433
+0021801202,603,PT09M17.00S,4,1610612749,MIL,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez OFF.Foul (P2) (J.Capers),Foul,Offensive,1,0,434
+0021801202,605,PT09M17.00S,4,1610612749,MIL,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez Offensive Foul Turnover (P2.T13),Turnover,Offensive Foul Turnover,1,0,435
+0021801202,606,PT09M12.00S,4,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,Brown S.FOUL (P2.T2) (J.Capers),Foul,Shooting,1,0,436
+0021801202,608,PT09M12.00S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,MISS Len Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,437
+0021801202,609,PT09M12.00S,4,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Rebound,Rebound,Normal Rebound,0,0,438
+0021801202,610,PT09M12.00S,4,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,SUB: Frazier FOR Bledsoe,Substitution,,0,0,439
+0021801202,612,PT09M12.00S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,91,80,171,v,Len Free Throw 2 of 2 (21 PTS),Free Throw,Free Throw 2 of 2,0,0,440
+0021801202,613,PT08M53.00S,4,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,-83,243,26,Missed,1,,,0,h,MISS Antetokounmpo 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,441
+0021801202,614,PT08M50.00S,4,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,Prince REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,442
+0021801202,615,PT08M46.00S,4,1610612737,ATL,203458,Len,A. Len,0,16,2,Made,1,91,82,173,v,Len 2' Dunk (23 PTS),Made Shot,Dunk Shot,1,2,443
+0021801202,616,PT08M46.00S,4,1610612749,MIL,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,Lopez S.FOUL (P3.T3) (M.Dagher),Foul,Shooting,1,0,444
+0021801202,629,PT08M46.00S,4,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,SUB: Connaughton FOR Antetokounmpo,Substitution,,0,0,445
+0021801202,630,PT08M46.00S,4,1610612737,ATL,1629121,Adams,J. Adams,0,0,0,,0,,,0,v,SUB: Bazemore FOR Adams,Substitution,,0,0,446
+0021801202,618,PT08M46.00S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,MISS Len Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,0,0,447
+0021801202,619,PT08M45.00S,4,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,448
+0021801202,620,PT08M24.00S,4,1610612749,MIL,203114,Middleton,K. Middleton,-152,46,16,Missed,1,,,0,h,MISS Middleton 16' Jump Shot,Missed Shot,Jump Shot,1,2,449
+0021801202,621,PT08M21.00S,4,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,Huerter REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,450
+0021801202,622,PT08M18.00S,4,1610612737,ATL,1713,Carter,V. Carter,-222,21,0,Missed,1,,,0,v,MISS Carter 3PT Jump Shot,Missed Shot,Jump Shot,1,3,451
+0021801202,623,PT08M14.00S,4,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,452
+0021801202,624,PT08M10.00S,4,1610612749,MIL,201572,Lopez,B. Lopez,-39,284,29,Missed,1,,,0,h,MISS Lopez 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,453
+0021801202,625,PT08M05.00S,4,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,v,Bazemore REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,454
+0021801202,626,PT08M02.00S,4,1610612737,ATL,1628989,Huerter,K. Huerter,17,295,30,Made,1,91,85,176,v,Huerter 30' 3PT Jump Bank Shot (9 PTS),Made Shot,Jump Bank Shot,1,3,455
+0021801202,628,PT08M02.00S,4,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,456
+0021801202,633,PT08M02.00S,4,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,v,SUB: Bembry FOR Huerter,Substitution,,0,0,457
+0021801202,635,PT07M43.00S,4,1610612749,MIL,1626192,Connaughton,P. Connaughton,-132,243,28,Made,1,94,85,179,h,Connaughton 28' 3PT Jump Shot (8 PTS) (Frazier 1 AST),Made Shot,Jump Shot,1,3,458
+0021801202,637,PT07M19.00S,4,1610612737,ATL,203458,Len,A. Len,3,14,1,Made,1,94,87,181,v,Len 1' Driving Dunk (25 PTS),Made Shot,Driving Dunk Shot,1,2,459
+0021801202,638,PT07M08.00S,4,1610612749,MIL,203114,Middleton,K. Middleton,81,17,8,Made,1,96,87,183,h,Middleton 8' Turnaround Fadeaway (15 PTS),Made Shot,Turnaround Fadeaway shot,1,2,460
+0021801202,639,PT06M59.00S,4,1610612737,ATL,1627752,Prince,T. Prince,-95,262,28,Missed,1,,,0,v,MISS Prince 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,461
+0021801202,640,PT06M55.00S,4,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,Connaughton REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,462
+0021801202,641,PT06M48.00S,4,1610612749,MIL,203114,Middleton,K. Middleton,-66,23,7,Missed,1,,,0,h,MISS Middleton 7' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,463
+0021801202,642,PT06M45.00S,4,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,v,Carter REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,464
+0021801202,643,PT06M38.00S,4,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton S.FOUL (P3.T4) (J.Capers),Foul,Shooting,1,0,465
+0021801202,645,PT06M38.00S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,MISS Len Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,466
+0021801202,646,PT06M38.00S,4,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Rebound,Rebound,Normal Rebound,0,0,467
+0021801202,647,PT06M38.00S,4,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,SUB: Ilyasova FOR Middleton,Substitution,,0,0,468
+0021801202,649,PT06M38.00S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,MISS Len Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,469
+0021801202,650,PT06M35.00S,4,1610612749,MIL,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,Ilyasova REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,470
+0021801202,651,PT06M20.00S,4,1610612749,MIL,204025,Frazier,T. Frazier,0,4,0,Made,1,98,87,185,h,Frazier Driving Layup (8 PTS) (Lopez 1 AST),Made Shot,Driving Layup Shot,1,2,471
+0021801202,653,PT06M02.00S,4,1610612737,ATL,203458,Len,A. Len,106,260,28,Made,1,98,90,188,v,Len 28' 3PT Jump Shot (28 PTS) (Bazemore 2 AST),Made Shot,Jump Shot,1,3,472
+0021801202,655,PT05M36.00S,4,1610612749,MIL,201572,Lopez,B. Lopez,-8,284,28,Missed,1,,,0,h,MISS Lopez 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,473
+0021801202,656,PT05M33.00S,4,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,v,Carter REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,474
+0021801202,657,PT05M27.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,v,Bembry Bad Pass Turnover (P4.T10),Turnover,Bad Pass,1,0,475
+0021801202,657,PT05M27.00S,4,1610612749,MIL,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier STEAL (2 STL),,,1,0,476
+0021801202,659,PT05M23.00S,4,1610612749,MIL,1628425,Brown,S. Brown,-3,15,2,Missed,1,,,0,h,MISS Brown 2' Layup,Missed Shot,Layup Shot,1,2,477
+0021801202,660,PT05M20.00S,4,1610612749,MIL,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,478
+0021801202,661,PT05M19.00S,4,1610612749,MIL,1628425,Brown,S. Brown,-5,12,1,Missed,1,,,0,h,MISS Brown 1' Layup,Missed Shot,Layup Shot,1,2,479
+0021801202,661,PT05M19.00S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,Len BLOCK (2 BLK),,,1,2,480
+0021801202,663,PT05M12.00S,4,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,Brown REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,481
+0021801202,664,PT05M10.00S,4,1610612749,MIL,101141,Ilyasova,E. Ilyasova,-139,237,27,Missed,1,,,0,h,MISS Ilyasova 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,482
+0021801202,665,PT05M10.00S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,Len REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,483
+0021801202,666,PT05M09.00S,4,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,484
+0021801202,667,PT05M09.00S,4,1610612749,MIL,201572,Lopez,B. Lopez,0,0,0,,0,,,0,h,SUB: Antetokounmpo FOR Lopez,Substitution,,0,0,485
+0021801202,668,PT05M09.00S,4,1610612749,MIL,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,SUB: Bledsoe FOR Frazier,Substitution,,0,0,486
+0021801202,669,PT05M09.00S,4,1610612749,MIL,1628425,Brown,S. Brown,0,0,0,,0,,,0,h,SUB: G. Hill FOR Brown,Substitution,,0,0,487
+0021801202,673,PT04M54.00S,4,1610612737,ATL,203458,Len,A. Len,169,216,27,Made,1,98,93,191,v,Len 27' 3PT Jump Shot (31 PTS) (Bembry 3 AST),Made Shot,Jump Shot,1,3,488
+0021801202,675,PT04M40.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,v,Bembry S.FOUL (P3.T1) (M.Dagher),Foul,Shooting,1,0,489
+0021801202,677,PT04M40.00S,4,1610612749,MIL,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,MISS Ilyasova Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,490
+0021801202,678,PT04M40.00S,4,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Rebound,Rebound,Normal Rebound,0,0,491
+0021801202,679,PT04M40.00S,4,1610612749,MIL,101141,Ilyasova,E. Ilyasova,0,0,0,,0,99,93,192,h,Ilyasova Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,0,0,492
+0021801202,680,PT04M20.00S,4,1610612737,ATL,1627752,Prince,T. Prince,-122,237,27,Made,1,99,96,195,v,Prince 27' 3PT Jump Shot (10 PTS) (Carter 2 AST),Made Shot,Jump Shot,1,3,493
+0021801202,682,PT04M01.00S,4,1610612749,MIL,202339,Bledsoe,E. Bledsoe,226,2,0,Missed,1,,,0,h,MISS Bledsoe 3PT Jump Shot,Missed Shot,Jump Shot,1,3,494
+0021801202,683,PT03M58.00S,4,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,Connaughton REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,495
+0021801202,684,PT03M55.00S,4,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,-19,132,13,Made,1,101,96,197,h,Antetokounmpo 13' Driving Floating Jump Shot (25 PTS) (Bledsoe 5 AST),Made Shot,Driving Floating Jump Shot,1,2,496
+0021801202,686,PT03M55.00S,4,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,Prince S.FOUL (P5.T2) (K.Lane),Foul,Shooting,1,0,497
+0021801202,688,PT03M55.00S,4,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,MISS Antetokounmpo Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,0,0,498
+0021801202,689,PT03M52.00S,4,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,v,Carter REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,499
+0021801202,691,PT03M34.00S,4,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,500
+0021801202,692,PT03M34.00S,4,1610612749,MIL,101141,Ilyasova,E. Ilyasova,0,0,0,,0,,,0,h,SUB: Middleton FOR Ilyasova,Substitution,,0,0,501
+0021801202,694,PT03M28.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,-8,13,2,Made,1,101,98,199,v,Bembry 2' Cutting Dunk Shot (8 PTS) (Len 2 AST),Made Shot,Cutting Dunk Shot,1,2,502
+0021801202,696,PT03M15.00S,4,1610612749,MIL,202339,Bledsoe,E. Bledsoe,-6,110,11,Missed,1,,,0,h,MISS Bledsoe 11' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,503
+0021801202,697,PT03M12.00S,4,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,v,Prince REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,504
+0021801202,698,PT03M05.00S,4,1610612737,ATL,203458,Len,A. Len,234,13,0,Missed,1,,,0,v,MISS Len 3PT Jump Shot,Missed Shot,Jump Shot,1,3,505
+0021801202,699,PT03M01.00S,4,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,Middleton REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,506
+0021801202,700,PT02M51.00S,4,1610612749,MIL,203114,Middleton,K. Middleton,135,231,27,Made,1,104,98,202,h,Middleton 27' 3PT Jump Shot (18 PTS) (Antetokounmpo 3 AST),Made Shot,Jump Shot,1,3,507
+0021801202,702,PT02M28.00S,4,1610612737,ATL,1627752,Prince,T. Prince,237,36,24,Missed,1,,,0,v,MISS Prince 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,508
+0021801202,703,PT02M25.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,v,Bembry REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,509
+0021801202,704,PT02M22.00S,4,1610612737,ATL,1713,Carter,V. Carter,67,6,7,Missed,1,,,0,v,MISS Carter 7' Driving Hook Shot,Missed Shot,Driving Hook Shot,1,2,510
+0021801202,705,PT02M22.00S,4,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Rebound,Rebound,Unknown,0,0,511
+0021801202,707,PT02M03.00S,4,1610612749,MIL,203114,Middleton,K. Middleton,-25,257,26,Made,1,107,98,205,h,Middleton 26' 3PT Pullup Jump Shot (21 PTS),Made Shot,Pullup Jump shot,1,3,512
+0021801202,708,PT01M42.00S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,Len OFF.Foul (P4) (K.Lane),Foul,Offensive,1,0,513
+0021801202,710,PT01M42.00S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,Len Offensive Foul Turnover (P1.T11),Turnover,Offensive Foul Turnover,1,0,514
+0021801202,711,PT01M23.00S,4,1610612749,MIL,202339,Bledsoe,E. Bledsoe,178,204,27,Missed,1,,,0,h,MISS Bledsoe 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,515
+0021801202,712,PT01M20.00S,4,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,516
+0021801202,713,PT01M20.00S,4,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,-128,235,27,Made,1,110,98,208,h,Antetokounmpo 27' 3PT Jump Shot (28 PTS),Made Shot,Jump Shot,1,3,517
+0021801202,714,PT01M20.00S,4,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,518
+0021801202,715,PT01M15.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,-6,4,1,Made,1,110,100,210,v,Bembry 1' Layup (10 PTS) (Len 3 AST),Made Shot,Layup Shot,1,2,519
+0021801202,717,PT01M15.00S,4,1610612749,MIL,1626192,Connaughton,P. Connaughton,0,0,0,,0,,,0,h,Connaughton S.FOUL (P1.PN) (J.Capers),Foul,Shooting,1,0,520
+0021801202,719,PT01M15.00S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,SUB: Adams FOR Len,Substitution,,0,0,521
+0021801202,721,PT01M15.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,110,101,211,v,Bembry Free Throw 1 of 1 (11 PTS),Free Throw,Free Throw 1 of 1,0,0,522
+0021801202,722,PT01M05.00S,4,1610612749,MIL,202339,Bledsoe,E. Bledsoe,3,13,1,Made,1,112,101,213,h,Bledsoe 1' Cutting Layup Shot (8 PTS) (Middleton 3 AST),Made Shot,Cutting Layup Shot,1,2,523
+0021801202,724,PT01M00.00S,4,1610612737,ATL,1629121,Adams,J. Adams,11,9,1,Made,1,112,103,215,v,Adams 1' Driving Layup (5 PTS),Made Shot,Driving Layup Shot,1,2,524
+0021801202,725,PT00M47.40S,4,1610612749,MIL,203114,Middleton,K. Middleton,111,242,27,Missed,1,,,0,h,MISS Middleton 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,525
+0021801202,726,PT00M46.80S,4,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,Antetokounmpo REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,526
+0021801202,727,PT00M46.80S,4,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,8,16,2,Made,1,114,103,217,h,Antetokounmpo 2' Putback Dunk (30 PTS),Made Shot,Putback Dunk Shot,1,2,527
+0021801202,728,PT00M46.80S,4,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Timeout: Regular (Reg.7 Short 0),Timeout,Regular,0,0,528
+0021801202,729,PT00M46.80S,4,1610612749,MIL,202339,Bledsoe,E. Bledsoe,0,0,0,,0,,,0,h,SUB: Colson FOR Bledsoe,Substitution,,0,0,529
+0021801202,730,PT00M46.80S,4,1610612749,MIL,203114,Middleton,K. Middleton,0,0,0,,0,,,0,h,SUB: Frazier FOR Middleton,Substitution,,0,0,530
+0021801202,731,PT00M46.80S,4,1610612749,MIL,203507,Antetokounmpo,G. Antetokounmpo,0,0,0,,0,,,0,h,SUB: Wilson FOR Antetokounmpo,Substitution,,0,0,531
+0021801202,732,PT00M46.80S,4,1610612737,ATL,1629121,Adams,J. Adams,0,0,0,,0,,,0,v,SUB: Len FOR Adams,Substitution,,0,0,532
+0021801202,737,PT00M37.80S,4,1610612737,ATL,203458,Len,A. Len,-95,242,26,Missed,1,,,0,v,MISS Len 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,533
+0021801202,738,PT00M35.10S,4,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,v,Carter REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,534
+0021801202,739,PT00M31.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,6,19,2,Missed,1,,,0,v,MISS Bembry 2' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,535
+0021801202,740,PT00M30.90S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,Len REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,536
+0021801202,741,PT00M30.90S,4,1610612737,ATL,203458,Len,A. Len,0,-6,1,Made,1,114,105,219,v,Len 1' Tip Layup Shot (33 PTS),Made Shot,Tip Layup Shot,1,2,537
+0021801202,743,PT00M29.50S,4,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,v,Bembry P.FOUL (P4.T3) (K.Lane),Foul,Personal,1,0,538
+0021801202,745,PT00M29.50S,4,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,539
+0021801202,746,PT00M29.50S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,SUB: Adams FOR Len,Substitution,,0,0,540
+0021801202,748,PT00M21.80S,4,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,G. Hill Out of Bounds - Bad Pass Turnover Turnover (P3.T14),Turnover,Out of Bounds - Bad Pass Turnover,1,0,541
+0021801202,749,PT00M21.80S,4,1610612737,ATL,1629121,Adams,J. Adams,0,0,0,,0,,,0,v,SUB: Len FOR Adams,Substitution,,0,0,542
+0021801202,751,PT00M19.30S,4,1610612737,ATL,1627761,Bembry,D. Bembry,3,24,2,Made,1,114,107,221,v,Bembry 2' Cutting Dunk Shot (13 PTS) (Len 4 AST),Made Shot,Cutting Dunk Shot,1,2,543
+0021801202,753,PT00M18.40S,4,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,v,Carter Personal Take Foul (P4.PN) (M.Dagher),Foul,Personal Take,1,0,544
+0021801202,755,PT00M18.40S,4,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,,,0,h,MISS G. Hill Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,545
+0021801202,756,PT00M18.40S,4,0,,1610612749,,,0,0,0,,0,,,0,h,BUCKS Rebound,Rebound,Normal Rebound,0,0,546
+0021801202,757,PT00M18.40S,4,1610612749,MIL,201588,Hill,G. Hill,0,0,0,,0,115,107,222,h,G. Hill Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,547
+0021801202,758,PT00M11.80S,4,1610612749,MIL,1628391,Wilson,D. Wilson,0,0,0,,0,,,0,h,Wilson S.FOUL (P3.PN) (M.Dagher),Foul,Shooting,1,0,548
+0021801202,760,PT00M11.80S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,MISS Len Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,549
+0021801202,761,PT00M11.80S,4,0,,1610612737,,,0,0,0,,0,,,0,v,Hawks Rebound,Rebound,Normal Rebound,0,0,550
+0021801202,762,PT00M11.80S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,v,MISS Len Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,551
+0021801202,763,PT00M09.20S,4,1610612749,MIL,204025,Frazier,T. Frazier,0,0,0,,0,,,0,h,Frazier REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,552
+0021801202,764,PT00M00.00S,4,0,,0,,,0,0,0,,0,115,107,222,,End of 4th Period (9:27 PM EST),period,end,1,0,553

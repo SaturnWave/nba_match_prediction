@@ -1,0 +1,512 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021800194,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (8:11 PM EST),period,start,0,0,1
+0021800194,4,PT12M00.00S,1,1610612763,MEM,201188,Gasol,M. Gasol,0,0,0,,0,,,0,h,Jump Ball Gasol vs. Gobert: Tip to Favors,Jump Ball,,1,0,2
+0021800194,7,PT11M35.00S,1,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,3
+0021800194,7,PT11M35.00S,1,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. STEAL (1 STL),,,1,0,4
+0021800194,9,PT11M29.00S,1,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,4,0,Made,1,2,0,2,h,Jackson Jr. Running Finger Roll Layup (2 PTS) (Conley 1 AST),Made Shot,Running Finger Roll Layup Shot,1,2,5
+0021800194,11,PT11M13.00S,1,1610612763,MEM,202066,Temple,G. Temple,0,0,0,,0,,,0,h,Temple P.FOUL (P1.T1) (J.Orr),Foul,Personal,1,0,6
+0021800194,13,PT11M03.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,212,140,25,Made,1,2,3,5,v,Ingles 25' 3PT Pullup Jump Shot (3 PTS),Made Shot,Pullup Jump shot,1,3,7
+0021800194,14,PT10M44.00S,1,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. Step Out of Bounds Turnover (P1.T1),Turnover,Step Out of Bounds Turnover,1,0,8
+0021800194,15,PT10M26.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,-14,3,1,Made,1,2,5,7,v,Ingles 1' Driving Layup (5 PTS) (Gobert 1 AST),Made Shot,Driving Layup Shot,1,2,9
+0021800194,17,PT10M13.00S,1,1610612763,MEM,203937,Anderson,K. Anderson,-3,4,1,Missed,1,,,0,h,MISS Anderson 1' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,10
+0021800194,17,PT10M13.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert BLOCK (1 BLK),,,1,2,11
+0021800194,19,PT10M11.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,12
+0021800194,20,PT10M07.00S,1,1610612762,UTA,201937,Rubio,R. Rubio,-76,250,26,Missed,1,,,0,v,MISS Rubio 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,13
+0021800194,21,PT10M03.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,14
+0021800194,22,PT09M54.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,-13,111,11,Missed,1,,,0,v,MISS Mitchell 11' Jump Shot,Missed Shot,Jump Shot,1,2,15
+0021800194,23,PT09M50.00S,1,1610612763,MEM,201144,Conley,M. Conley,0,0,0,,0,,,0,h,Conley REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,16
+0021800194,24,PT09M39.00S,1,1610612763,MEM,201188,Gasol,M. Gasol,-62,254,26,Missed,1,,,0,h,MISS Gasol 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,17
+0021800194,25,PT09M36.00S,1,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,18
+0021800194,26,PT09M28.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert P.FOUL (P1.T1) (J.Orr),Foul,Personal,1,0,19
+0021800194,28,PT09M18.00S,1,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,-52,106,12,Missed,1,,,0,h,MISS Jackson Jr. 12' Jump Shot,Missed Shot,Jump Shot,1,2,20
+0021800194,29,PT09M15.00S,1,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,21
+0021800194,30,PT09M12.00S,1,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio P.FOUL (P1.T2) (T.Washington),Foul,Personal,1,0,22
+0021800194,32,PT09M02.00S,1,1610612763,MEM,202066,Temple,G. Temple,-112,249,27,Missed,1,,,0,h,MISS Temple 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,23
+0021800194,33,PT08M57.00S,1,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:3 Def:0),Rebound,Unknown,1,0,24
+0021800194,34,PT08M55.00S,1,1610612763,MEM,201144,Conley,M. Conley,215,127,25,Missed,1,,,0,h,MISS Conley 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,25
+0021800194,35,PT08M53.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,26
+0021800194,36,PT08M43.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,-91,240,26,Made,1,2,8,10,v,Ingles 26' 3PT Jump Shot (8 PTS) (Rubio 1 AST),Made Shot,Jump Shot,1,3,27
+0021800194,38,PT08M25.00S,1,1610612763,MEM,203937,Anderson,K. Anderson,75,5,8,Missed,1,,,0,h,MISS Anderson 8' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,28
+0021800194,39,PT08M22.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,29
+0021800194,40,PT08M13.00S,1,1610612762,UTA,202324,Favors,D. Favors,153,-11,15,Missed,1,,,0,v,MISS Favors 15' Jump Shot,Missed Shot,Jump Shot,1,2,30
+0021800194,41,PT08M09.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,31
+0021800194,42,PT08M06.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,-232,24,0,Missed,1,,,0,v,MISS Ingles 3PT Jump Shot,Missed Shot,Jump Shot,1,3,32
+0021800194,43,PT08M01.00S,1,1610612763,MEM,201188,Gasol,M. Gasol,0,0,0,,0,,,0,h,Gasol REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,33
+0021800194,44,PT07M51.00S,1,1610612763,MEM,201144,Conley,M. Conley,0,0,0,,0,,,0,h,Conley Out of Bounds - Bad Pass Turnover Turnover (P1.T2),Turnover,Out of Bounds - Bad Pass Turnover,1,0,34
+0021800194,45,PT07M35.00S,1,1610612762,UTA,202324,Favors,D. Favors,-231,3,0,Made,1,2,11,13,v,Favors 3PT Jump Shot (3 PTS) (Ingles 1 AST),Made Shot,Jump Shot,1,3,35
+0021800194,47,PT07M33.00S,1,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,36
+0021800194,48,PT07M20.00S,1,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,-12,10,2,Missed,1,,,0,h,MISS Jackson Jr. 2' Layup,Missed Shot,Layup Shot,1,2,37
+0021800194,48,PT07M20.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert BLOCK (2 BLK),,,1,2,38
+0021800194,50,PT07M17.00S,1,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:4 Def:0),Rebound,Unknown,1,0,39
+0021800194,51,PT07M15.00S,1,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. Lost Ball Turnover (P2.T3),Turnover,Lost Ball,1,0,40
+0021800194,51,PT07M15.00S,1,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio STEAL (1 STL),,,1,0,41
+0021800194,53,PT07M07.00S,1,1610612762,UTA,201937,Rubio,R. Rubio,-146,206,25,Missed,1,,,0,v,MISS Rubio 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,42
+0021800194,54,PT07M04.00S,1,1610612763,MEM,201188,Gasol,M. Gasol,0,0,0,,0,,,0,h,Gasol REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,43
+0021800194,55,PT06M57.00S,1,1610612763,MEM,202066,Temple,G. Temple,0,59,6,Missed,1,,,0,h,MISS Temple 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,44
+0021800194,56,PT06M53.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,45
+0021800194,57,PT06M36.00S,1,1610612762,UTA,202324,Favors,D. Favors,-68,117,14,Made,1,2,13,15,v,Favors 14' Jump Shot (5 PTS) (Ingles 2 AST),Made Shot,Jump Shot,1,2,46
+0021800194,59,PT06M17.00S,1,1610612763,MEM,202066,Temple,G. Temple,-7,10,1,Made,1,4,13,17,h,Temple 1' Cutting Layup Shot (2 PTS) (Jackson Jr. 1 AST),Made Shot,Cutting Layup Shot,1,2,47
+0021800194,61,PT06M02.00S,1,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson P.FOUL (P1.T2) (T.Washington),Foul,Personal,1,0,48
+0021800194,63,PT06M02.00S,1,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,SUB: Selden FOR Anderson,Substitution,,0,0,49
+0021800194,64,PT06M02.00S,1,1610612763,MEM,202066,Temple,G. Temple,0,0,0,,0,,,0,h,SUB: Mack FOR Temple,Substitution,,0,0,50
+0021800194,65,PT06M02.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,SUB: Crowder FOR Favors,Substitution,,0,0,51
+0021800194,69,PT05M57.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,-48,103,11,Missed,1,,,0,v,MISS Mitchell 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,52
+0021800194,70,PT05M53.00S,1,1610612763,MEM,201188,Gasol,M. Gasol,0,0,0,,0,,,0,h,Gasol REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,53
+0021800194,71,PT05M47.00S,1,1610612763,MEM,1627782,Selden,W. Selden,40,8,4,Made,1,6,13,19,h,Selden 4' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,54
+0021800194,72,PT05M28.00S,1,1610612762,UTA,201937,Rubio,R. Rubio,0,252,25,Made,1,6,16,22,v,Rubio 25' 3PT Jump Shot (3 PTS) (Mitchell 1 AST),Made Shot,Jump Shot,1,3,55
+0021800194,74,PT05M09.00S,1,1610612763,MEM,201144,Conley,M. Conley,-121,244,27,Made,1,9,16,25,h,Conley 27' 3PT Jump Shot (3 PTS) (Jackson Jr. 2 AST),Made Shot,Jump Shot,1,3,56
+0021800194,76,PT04M51.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert Lost Ball Turnover (P1.T2),Turnover,Lost Ball,1,0,57
+0021800194,76,PT04M51.00S,1,1610612763,MEM,1627782,Selden,W. Selden,0,0,0,,0,,,0,h,Selden STEAL (1 STL),,,1,0,58
+0021800194,78,PT04M48.00S,1,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder S.FOUL (P1.T3) (C.Blair),Foul,Shooting,1,0,59
+0021800194,80,PT04M48.00S,1,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,10,16,26,h,Jackson Jr. Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,60
+0021800194,81,PT04M48.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,SUB: Burks FOR Mitchell,Substitution,,0,0,61
+0021800194,83,PT04M48.00S,1,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,11,16,27,h,Jackson Jr. Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,62
+0021800194,84,PT04M37.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert OFF.Foul (P2) (C.Blair),Foul,Offensive,1,0,63
+0021800194,86,PT04M37.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert Offensive Foul Turnover (P2.T3),Turnover,Offensive Foul Turnover,1,0,64
+0021800194,87,PT04M37.00S,1,1610612763,MEM,201144,Conley,M. Conley,0,0,0,,0,,,0,h,SUB: Brooks FOR Conley,Substitution,,0,0,65
+0021800194,88,PT04M37.00S,1,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,SUB: Anderson FOR Jackson Jr.,Substitution,,0,0,66
+0021800194,89,PT04M37.00S,1,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,SUB: Favors FOR Rubio,Substitution,,0,0,67
+0021800194,90,PT04M37.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,SUB: Exum FOR Gobert,Substitution,,0,0,68
+0021800194,95,PT04M21.00S,1,1610612763,MEM,201188,Gasol,M. Gasol,-46,101,11,Made,1,13,16,29,h,Gasol 11' Turnaround Fadeaway (2 PTS) (Mack 1 AST),Made Shot,Turnaround Fadeaway shot,1,2,69
+0021800194,97,PT04M01.00S,1,1610612762,UTA,203109,Crowder,J. Crowder,-228,53,0,Missed,1,,,0,v,MISS Crowder 3PT Jump Shot,Missed Shot,Jump Shot,1,3,70
+0021800194,98,PT03M58.00S,1,1610612763,MEM,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,71
+0021800194,99,PT03M55.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors P.FOUL (P1.T4) (T.Washington),Foul,Personal,1,0,72
+0021800194,101,PT03M42.00S,1,1610612762,UTA,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks P.FOUL (P1.PN) (J.Orr),Foul,Personal,1,0,73
+0021800194,103,PT03M42.00S,1,1610612763,MEM,202705,Brooks,M. Brooks,0,0,0,,0,14,16,30,h,Brooks Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,74
+0021800194,104,PT03M42.00S,1,1610612763,MEM,202705,Brooks,M. Brooks,0,0,0,,0,,,0,h,MISS Brooks Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,75
+0021800194,105,PT03M39.00S,1,1610612762,UTA,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,76
+0021800194,106,PT03M25.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors 3 Second Violation Turnover (P1.T4),Turnover,3 Second Violation,1,0,77
+0021800194,107,PT03M12.00S,1,1610612763,MEM,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,78
+0021800194,107,PT03M12.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors STEAL (1 STL),,,1,0,79
+0021800194,109,PT03M07.00S,1,1610612762,UTA,202692,Burks,A. Burks,2,11,1,Missed,1,,,0,v,MISS Burks 1' Running Layup,Missed Shot,Running Layup Shot,1,2,80
+0021800194,110,PT03M03.00S,1,1610612763,MEM,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,81
+0021800194,111,PT02M45.00S,1,1610612763,MEM,202714,Mack,S. Mack,-165,193,25,Missed,1,,,0,h,MISS Mack 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,82
+0021800194,112,PT02M42.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,83
+0021800194,113,PT02M27.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles Lost Ball Turnover (P1.T5),Turnover,Lost Ball,1,0,84
+0021800194,113,PT02M27.00S,1,1610612763,MEM,1627782,Selden,W. Selden,0,0,0,,0,,,0,h,Selden STEAL (2 STL),,,1,0,85
+0021800194,115,PT02M23.00S,1,1610612763,MEM,202714,Mack,S. Mack,5,4,1,Made,1,16,16,32,h,Mack 1' Running Layup (2 PTS) (Anderson 1 AST),Made Shot,Running Layup Shot,1,2,86
+0021800194,116,PT02M23.00S,1,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,87
+0021800194,118,PT02M23.00S,1,1610612763,MEM,201188,Gasol,M. Gasol,0,0,0,,0,,,0,h,SUB: Jackson Jr. FOR Gasol,Substitution,,0,0,88
+0021800194,119,PT02M23.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,SUB: Mitchell FOR Ingles,Substitution,,0,0,89
+0021800194,122,PT02M04.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors 3 Second Violation Turnover (P2.T6),Turnover,3 Second Violation,1,0,90
+0021800194,123,PT01M46.00S,1,1610612763,MEM,1627782,Selden,W. Selden,0,0,0,,0,,,0,h,Selden Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,91
+0021800194,123,PT01M46.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors STEAL (2 STL),,,1,0,92
+0021800194,125,PT01M42.00S,1,1610612762,UTA,203957,Exum,D. Exum,0,3,0,Missed,1,,,0,v,MISS Exum Running Layup,Missed Shot,Running Layup Shot,1,2,93
+0021800194,125,PT01M42.00S,1,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. BLOCK (1 BLK),,,1,2,94
+0021800194,127,PT01M41.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,95
+0021800194,128,PT01M41.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,-6,1,Made,1,16,18,34,v,Favors 1' Tip Layup Shot (7 PTS),Made Shot,Tip Layup Shot,1,2,96
+0021800194,129,PT01M27.00S,1,1610612763,MEM,202714,Mack,S. Mack,21,0,2,Missed,1,,,0,h,MISS Mack 2' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,97
+0021800194,129,PT01M27.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors BLOCK (1 BLK),,,1,2,98
+0021800194,131,PT01M25.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,99
+0021800194,132,PT01M13.00S,1,1610612762,UTA,203109,Crowder,J. Crowder,-2,252,25,Missed,1,,,0,v,MISS Crowder 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,100
+0021800194,133,PT01M08.00S,1,1610612763,MEM,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,101
+0021800194,134,PT01M02.00S,1,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. Bad Pass Turnover (P3.T6),Turnover,Bad Pass,1,0,102
+0021800194,134,PT01M02.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell STEAL (1 STL),,,1,0,103
+0021800194,136,PT00M57.00S,1,1610612762,UTA,202692,Burks,A. Burks,-228,-15,0,Missed,1,,,0,v,MISS Burks 3PT Jump Shot,Missed Shot,Jump Shot,1,3,104
+0021800194,137,PT00M53.00S,1,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,105
+0021800194,138,PT00M51.30S,1,1610612762,UTA,203957,Exum,D. Exum,61,251,26,Missed,1,,,0,v,MISS Exum 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,106
+0021800194,139,PT00M51.30S,1,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,107
+0021800194,140,PT00M39.00S,1,1610612763,MEM,202705,Brooks,M. Brooks,0,0,0,,0,,,0,h,Brooks OFF.Foul (P1) (J.Orr),Foul,Offensive,1,0,108
+0021800194,142,PT00M39.00S,1,1610612763,MEM,202705,Brooks,M. Brooks,0,0,0,,0,,,0,h,Brooks Offensive Foul Turnover (P1.T7),Turnover,Offensive Foul Turnover,1,0,109
+0021800194,143,PT00M31.60S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,5,89,9,Made,1,16,20,36,v,Mitchell 9' Driving Floating Jump Shot (2 PTS),Made Shot,Driving Floating Jump Shot,1,2,110
+0021800194,144,PT00M13.20S,1,1610612763,MEM,203937,Anderson,K. Anderson,0,13,1,Missed,1,,,0,h,MISS Anderson 1' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,111
+0021800194,144,PT00M13.20S,1,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder BLOCK (1 BLK),,,1,2,112
+0021800194,146,PT00M12.60S,1,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Rebound,Rebound,Unknown,0,0,113
+0021800194,147,PT00M06.50S,1,1610612763,MEM,202714,Mack,S. Mack,-221,83,24,Missed,1,,,0,h,MISS Mack 24' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,114
+0021800194,148,PT00M03.70S,1,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,115
+0021800194,149,PT00M00.80S,1,1610612762,UTA,203109,Crowder,J. Crowder,-156,201,25,Missed,1,,,0,v,MISS Crowder 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,116
+0021800194,150,PT00M00.10S,1,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,117
+0021800194,151,PT00M00.00S,1,0,,0,,,0,0,0,,0,16,20,36,,End of 1st Period (8:34 PM EST),period,end,1,0,118
+0021800194,158,PT12M00.00S,2,0,,0,,,0,0,0,,0,16,20,36,,Start of 2nd Period (8:36 PM EST),period,start,0,0,119
+0021800194,159,PT11M40.00S,2,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,-13,12,2,Missed,1,,,0,h,MISS Jackson Jr. 2' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,120
+0021800194,160,PT11M35.00S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,121
+0021800194,161,PT11M31.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,-96,167,19,Missed,1,,,0,v,MISS Mitchell 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,122
+0021800194,162,PT11M28.00S,2,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:4 Def:1),Rebound,Unknown,1,0,123
+0021800194,163,PT11M18.00S,2,1610612763,MEM,202705,Brooks,M. Brooks,30,57,6,Made,1,18,20,38,h,Brooks 6' Driving Floating Jump Shot (3 PTS),Made Shot,Driving Floating Jump Shot,1,2,124
+0021800194,164,PT11M03.00S,2,1610612762,UTA,203957,Exum,D. Exum,112,237,26,Missed,1,,,0,v,MISS Exum 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,125
+0021800194,165,PT11M00.00S,2,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:4 Def:2),Rebound,Unknown,1,0,126
+0021800194,166,PT10M55.00S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale P.FOUL (P1.T1) (T.Washington),Foul,Personal,1,0,127
+0021800194,168,PT10M51.00S,2,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,15,2,2,Missed,1,,,0,h,MISS Jackson Jr. 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,128
+0021800194,169,PT10M49.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,129
+0021800194,170,PT10M45.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,3,8,1,Made,1,18,22,40,v,Mitchell 1' Driving Finger Roll Layup (4 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,130
+0021800194,171,PT10M23.00S,2,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,-36,42,6,Made,1,20,22,42,h,Jackson Jr. 6' Driving Floating Bank Jump Shot (6 PTS) (Mack 2 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,131
+0021800194,173,PT10M04.00S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,-5,10,1,Made,1,20,24,44,v,O'Neale 1' Cutting Finger Roll Layup Shot (2 PTS) (Exum 1 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,132
+0021800194,175,PT09M53.00S,2,1610612763,MEM,201144,Conley,M. Conley,-3,-11,1,Made,1,22,24,46,h,Conley 1' Driving Reverse Layup (5 PTS) (Jackson Jr. 3 AST),Made Shot,Driving Reverse Layup Shot,1,2,133
+0021800194,177,PT09M38.00S,2,1610612763,MEM,1627782,Selden,W. Selden,0,0,0,,0,,,0,h,Selden S.FOUL (P1.T1) (C.Blair),Foul,Shooting,1,0,134
+0021800194,179,PT09M38.00S,2,1610612762,UTA,203957,Exum,D. Exum,0,0,0,,0,,,0,v,MISS Exum Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,135
+0021800194,180,PT09M38.00S,2,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Normal Rebound,0,0,136
+0021800194,181,PT09M38.00S,2,1610612763,MEM,202714,Mack,S. Mack,0,0,0,,0,,,0,h,SUB: Temple FOR Mack,Substitution,,0,0,137
+0021800194,182,PT09M38.00S,2,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,SUB: Niang FOR Crowder,Substitution,,0,0,138
+0021800194,185,PT09M38.00S,2,1610612762,UTA,203957,Exum,D. Exum,0,0,0,,0,22,25,47,v,Exum Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,0,0,139
+0021800194,186,PT09M24.00S,2,1610612763,MEM,202705,Brooks,M. Brooks,-45,22,5,Missed,1,,,0,h,MISS Brooks 5' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,140
+0021800194,187,PT09M21.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,141
+0021800194,188,PT09M13.00S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale OFF.Foul (P2) (C.Blair),Foul,Offensive,1,0,142
+0021800194,190,PT09M13.00S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale Offensive Foul Turnover (P1.T7),Turnover,Offensive Foul Turnover,1,0,143
+0021800194,191,PT08M55.00S,2,1610612762,UTA,1627777,Niang,G. Niang,0,0,0,,0,,,0,v,Niang S.FOUL (P1.T2) (J.Orr),Foul,Shooting,1,0,144
+0021800194,193,PT08M55.00S,2,1610612763,MEM,1627782,Selden,W. Selden,0,0,0,,0,23,25,48,h,Selden Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,145
+0021800194,194,PT08M55.00S,2,1610612763,MEM,1627782,Selden,W. Selden,0,0,0,,0,24,25,49,h,Selden Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,146
+0021800194,195,PT08M45.00S,2,1610612763,MEM,1627782,Selden,W. Selden,0,0,0,,0,,,0,h,Selden P.FOUL (P2.T2) (T.Washington),Foul,Personal,1,0,147
+0021800194,197,PT08M45.00S,2,1610612762,UTA,203957,Exum,D. Exum,0,0,0,,0,,,0,v,SUB: Rubio FOR Exum,Substitution,,0,0,148
+0021800194,199,PT08M40.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,-81,245,26,Missed,1,,,0,v,MISS Mitchell 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,149
+0021800194,200,PT08M36.00S,2,1610612763,MEM,202705,Brooks,M. Brooks,0,0,0,,0,,,0,h,Brooks REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,150
+0021800194,201,PT08M31.00S,2,1610612763,MEM,202705,Brooks,M. Brooks,-106,138,17,Missed,1,,,0,h,MISS Brooks 17' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,151
+0021800194,202,PT08M30.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,152
+0021800194,203,PT08M11.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,-14,11,2,Missed,1,,,0,v,MISS Mitchell 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,153
+0021800194,203,PT08M11.00S,2,1610612763,MEM,202705,Brooks,M. Brooks,0,0,0,,0,,,0,h,Brooks BLOCK (1 BLK),,,1,2,154
+0021800194,205,PT08M08.00S,2,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:4 Def:3),Rebound,Unknown,1,0,155
+0021800194,206,PT08M03.00S,2,1610612763,MEM,1627782,Selden,W. Selden,0,0,0,,0,,,0,h,Selden Bad Pass Turnover (P2.T8),Turnover,Bad Pass,1,0,156
+0021800194,206,PT08M03.00S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale STEAL (1 STL),,,1,0,157
+0021800194,208,PT07M59.00S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,-173,178,25,Missed,1,,,0,v,MISS O'Neale 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,158
+0021800194,209,PT07M57.00S,2,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Rebound,Rebound,Unknown,0,0,159
+0021800194,210,PT07M57.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert L.B.FOUL (P3.T3) (J.Orr),Foul,Loose Ball,1,0,160
+0021800194,212,PT07M57.00S,2,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,SUB: Gasol FOR Jackson Jr.,Substitution,,0,0,161
+0021800194,213,PT07M57.00S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,SUB: Burks FOR O'Neale,Substitution,,0,0,162
+0021800194,214,PT07M57.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,SUB: Favors FOR Gobert,Substitution,,0,0,163
+0021800194,215,PT07M57.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,SUB: Ingles FOR Mitchell,Substitution,,0,0,164
+0021800194,220,PT07M45.00S,2,1610612763,MEM,201188,Gasol,M. Gasol,0,0,0,,0,,,0,h,Gasol OFF.Foul (P1) (T.Washington),Foul,Offensive,1,0,165
+0021800194,222,PT07M45.00S,2,1610612763,MEM,201188,Gasol,M. Gasol,0,0,0,,0,,,0,h,Gasol Offensive Foul Turnover (P1.T9),Turnover,Offensive Foul Turnover,1,0,166
+0021800194,223,PT07M30.00S,2,1610612762,UTA,1627777,Niang,G. Niang,92,27,10,Made,1,24,27,51,v,Niang 10' Floating Jump Shot (2 PTS) (Favors 1 AST),Made Shot,Floating Jump shot,1,2,167
+0021800194,225,PT07M20.00S,2,1610612763,MEM,201144,Conley,M. Conley,-7,1,1,Made,1,26,27,53,h,Conley 1' Driving Reverse Layup (7 PTS),Made Shot,Driving Reverse Layup Shot,1,2,168
+0021800194,226,PT07M01.00S,2,1610612762,UTA,202692,Burks,A. Burks,-8,224,22,Made,1,26,29,55,v,Burks 22' Jump Shot (2 PTS),Made Shot,Jump Shot,1,2,169
+0021800194,227,PT06M45.00S,2,1610612763,MEM,1627782,Selden,W. Selden,113,227,25,Missed,1,,,0,h,MISS Selden 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,170
+0021800194,228,PT06M42.00S,2,1610612762,UTA,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,171
+0021800194,229,PT06M38.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,-14,14,2,Missed,1,,,0,v,MISS Rubio 2' Running Layup,Missed Shot,Running Layup Shot,1,2,172
+0021800194,230,PT06M33.00S,2,1610612763,MEM,201188,Gasol,M. Gasol,0,0,0,,0,,,0,h,Gasol REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,173
+0021800194,231,PT06M32.00S,2,1610612763,MEM,202705,Brooks,M. Brooks,211,146,26,Made,1,29,29,58,h,Brooks 26' 3PT Jump Shot (6 PTS) (Selden 1 AST),Made Shot,Jump Shot,1,3,174
+0021800194,233,PT06M31.00S,2,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,175
+0021800194,234,PT06M31.00S,2,1610612763,MEM,1627782,Selden,W. Selden,0,0,0,,0,,,0,h,SUB: Anderson FOR Selden,Substitution,,0,0,176
+0021800194,235,PT06M31.00S,2,1610612763,MEM,201144,Conley,M. Conley,0,0,0,,0,,,0,h,SUB: Mack FOR Conley,Substitution,,0,0,177
+0021800194,238,PT06M19.00S,2,1610612762,UTA,1627777,Niang,G. Niang,0,0,0,,0,,,0,v,Niang Lost Ball Turnover (P1.T8),Turnover,Lost Ball,1,0,178
+0021800194,238,PT06M19.00S,2,1610612763,MEM,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack STEAL (1 STL),,,1,0,179
+0021800194,240,PT06M03.00S,2,1610612763,MEM,201188,Gasol,M. Gasol,-50,92,10,Made,1,31,29,60,h,Gasol 10' Driving Floating Jump Shot (4 PTS) (Brooks 1 AST),Made Shot,Driving Floating Jump Shot,1,2,180
+0021800194,242,PT05M45.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,-86,174,19,Missed,1,,,0,v,MISS Rubio 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,181
+0021800194,243,PT05M42.00S,2,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,182
+0021800194,244,PT05M37.00S,2,1610612763,MEM,201188,Gasol,M. Gasol,14,291,29,Missed,1,,,0,h,MISS Gasol 29' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,183
+0021800194,245,PT05M33.00S,2,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,184
+0021800194,246,PT05M33.00S,2,1610612763,MEM,203937,Anderson,K. Anderson,-1,5,1,Made,1,33,29,62,h,Anderson 1' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,185
+0021800194,247,PT05M20.00S,2,1610612763,MEM,202066,Temple,G. Temple,0,0,0,,0,,,0,h,Temple P.FOUL (P2.T3) (T.Washington),Foul,Personal,1,0,186
+0021800194,249,PT05M20.00S,2,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,SUB: Crowder FOR Favors,Substitution,,0,0,187
+0021800194,250,PT05M20.00S,2,1610612762,UTA,1627777,Niang,G. Niang,0,0,0,,0,,,0,v,SUB: Udoh FOR Niang,Substitution,,0,0,188
+0021800194,253,PT05M08.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,-230,87,25,Missed,1,,,0,v,MISS Rubio 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,189
+0021800194,254,PT05M04.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,190
+0021800194,255,PT05M04.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,-103,77,13,Made,1,33,31,64,v,Rubio 13' Pullup Jump Shot (5 PTS),Made Shot,Pullup Jump shot,1,2,191
+0021800194,256,PT04M43.00S,2,1610612763,MEM,202066,Temple,G. Temple,16,-3,2,Missed,1,,,0,h,MISS Temple 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,192
+0021800194,256,PT04M43.00S,2,1610612762,UTA,202327,Udoh,E. Udoh,0,0,0,,0,,,0,v,Udoh BLOCK (1 BLK),,,1,2,193
+0021800194,258,PT04M39.00S,2,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,194
+0021800194,259,PT04M39.00S,2,1610612763,MEM,203937,Anderson,K. Anderson,0,-6,1,Made,1,35,31,66,h,Anderson 1' Putback Layup (4 PTS),Made Shot,Putback Layup Shot,1,2,195
+0021800194,260,PT04M24.00S,2,1610612762,UTA,202692,Burks,A. Burks,-6,17,2,Missed,1,,,0,v,MISS Burks 2' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,196
+0021800194,260,PT04M24.00S,2,1610612763,MEM,201188,Gasol,M. Gasol,0,0,0,,0,,,0,h,Gasol BLOCK (1 BLK),,,1,2,197
+0021800194,262,PT04M20.00S,2,1610612762,UTA,202327,Udoh,E. Udoh,0,0,0,,0,,,0,v,Udoh REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,198
+0021800194,263,PT04M20.00S,2,1610612762,UTA,202327,Udoh,E. Udoh,0,-6,1,Made,1,35,33,68,v,Udoh 1' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,199
+0021800194,264,PT04M04.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles S.FOUL (P1.T4) (C.Blair),Foul,Shooting,1,0,200
+0021800194,266,PT04M04.00S,2,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,MISS Anderson Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,201
+0021800194,267,PT04M04.00S,2,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Rebound,Rebound,Normal Rebound,0,0,202
+0021800194,268,PT04M04.00S,2,1610612763,MEM,202705,Brooks,M. Brooks,0,0,0,,0,,,0,h,SUB: Conley FOR Brooks,Substitution,,0,0,203
+0021800194,269,PT04M04.00S,2,1610612762,UTA,202692,Burks,A. Burks,0,0,0,,0,,,0,v,SUB: Favors FOR Burks,Substitution,,0,0,204
+0021800194,270,PT04M04.00S,2,1610612762,UTA,202327,Udoh,E. Udoh,0,0,0,,0,,,0,v,SUB: Mitchell FOR Udoh,Substitution,,0,0,205
+0021800194,274,PT04M04.00S,2,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,36,33,69,h,Anderson Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,0,0,206
+0021800194,275,PT03M46.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,-44,51,7,Missed,1,,,0,v,MISS Rubio 7' Layup,Missed Shot,Layup Shot,1,2,207
+0021800194,275,PT03M46.00S,2,1610612763,MEM,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack BLOCK (1 BLK),,,1,2,208
+0021800194,277,PT03M45.00S,2,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,209
+0021800194,279,PT03M42.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell Traveling Turnover (P1.T9),Turnover,Traveling,1,0,210
+0021800194,280,PT03M19.00S,2,1610612763,MEM,203937,Anderson,K. Anderson,209,-3,21,Missed,1,,,0,h,MISS Anderson 21' Jump Shot,Missed Shot,Jump Shot,1,2,211
+0021800194,281,PT03M16.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,212
+0021800194,282,PT03M05.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles Bad Pass Turnover (P2.T10),Turnover,Bad Pass,1,0,213
+0021800194,282,PT03M05.00S,2,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson STEAL (1 STL),,,1,0,214
+0021800194,284,PT02M57.00S,2,1610612763,MEM,201188,Gasol,M. Gasol,-79,247,26,Missed,1,,,0,h,MISS Gasol 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,215
+0021800194,285,PT02M54.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,216
+0021800194,286,PT02M41.00S,2,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder Bad Pass Turnover (P1.T11),Turnover,Bad Pass,1,0,217
+0021800194,286,PT02M41.00S,2,1610612763,MEM,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack STEAL (2 STL),,,1,0,218
+0021800194,288,PT02M31.00S,2,1610612763,MEM,201144,Conley,M. Conley,8,99,10,Missed,1,,,0,h,MISS Conley 10' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,219
+0021800194,289,PT02M26.00S,2,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,220
+0021800194,290,PT02M15.00S,2,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson S.FOUL (P2.T4) (J.Orr),Foul,Shooting,1,0,221
+0021800194,292,PT02M15.00S,2,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,222
+0021800194,293,PT02M15.00S,2,1610612763,MEM,202066,Temple,G. Temple,0,0,0,,0,,,0,h,SUB: Selden FOR Temple,Substitution,,0,0,223
+0021800194,295,PT02M15.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,36,34,70,v,Mitchell Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,0,0,224
+0021800194,296,PT02M15.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,36,35,71,v,Mitchell Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,0,0,225
+0021800194,297,PT01M55.00S,2,1610612763,MEM,201188,Gasol,M. Gasol,-1,50,5,Made,1,38,35,73,h,Gasol 5' Turnaround Fadeaway (6 PTS) (Selden 2 AST),Made Shot,Turnaround Fadeaway shot,1,2,226
+0021800194,299,PT01M44.00S,2,1610612763,MEM,1627782,Selden,W. Selden,0,0,0,,0,,,0,h,Selden P.FOUL (P3.PN) (T.Washington),Foul,Personal,1,0,227
+0021800194,301,PT01M44.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,38,36,74,v,Ingles Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,0,0,228
+0021800194,302,PT01M44.00S,2,1610612763,MEM,1627782,Selden,W. Selden,0,0,0,,0,,,0,h,SUB: Brooks FOR Selden,Substitution,,0,0,229
+0021800194,304,PT01M44.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,38,37,75,v,Ingles Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,0,0,230
+0021800194,305,PT01M34.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio S.FOUL (P2.PN) (T.Washington),Foul,Shooting,1,0,231
+0021800194,307,PT01M34.00S,2,1610612763,MEM,201144,Conley,M. Conley,0,0,0,,0,39,37,76,h,Conley Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,0,0,232
+0021800194,308,PT01M34.00S,2,1610612763,MEM,201144,Conley,M. Conley,0,0,0,,0,40,37,77,h,Conley Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,0,0,233
+0021800194,309,PT01M18.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,-9,16,2,Missed,1,,,0,v,MISS Mitchell 2' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,234
+0021800194,309,PT01M18.00S,2,1610612763,MEM,201188,Gasol,M. Gasol,0,0,0,,0,,,0,h,Gasol BLOCK (2 BLK),,,1,2,235
+0021800194,311,PT01M15.00S,2,1610612763,MEM,201144,Conley,M. Conley,0,0,0,,0,,,0,h,Conley REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,236
+0021800194,312,PT01M13.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell S.FOUL (P1.PN) (C.Blair),Foul,Shooting,1,0,237
+0021800194,314,PT01M13.00S,2,1610612763,MEM,201188,Gasol,M. Gasol,0,0,0,,0,,,0,h,MISS Gasol Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,238
+0021800194,315,PT01M13.00S,2,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Rebound,Rebound,Normal Rebound,0,0,239
+0021800194,316,PT01M13.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,SUB: Exum FOR Rubio,Substitution,,0,0,240
+0021800194,318,PT01M13.00S,2,1610612763,MEM,201188,Gasol,M. Gasol,0,0,0,,0,41,37,78,h,Gasol Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,0,0,241
+0021800194,320,PT00M52.50S,2,1610612763,MEM,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack S.FOUL (P1.PN) (C.Blair),Foul,Shooting,1,0,242
+0021800194,322,PT00M52.50S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,41,38,79,v,Mitchell Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,0,0,243
+0021800194,323,PT00M52.50S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,41,39,80,v,Mitchell Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,244
+0021800194,325,PT00M32.90S,2,1610612763,MEM,201144,Conley,M. Conley,109,5,11,Missed,1,,,0,h,MISS Conley 11' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,245
+0021800194,326,PT00M30.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,246
+0021800194,327,PT00M25.80S,2,1610612763,MEM,201144,Conley,M. Conley,0,0,0,,0,,,0,h,Conley S.FOUL (P1.PN) (J.Orr),Foul,Shooting,1,0,247
+0021800194,329,PT00M25.80S,2,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,41,40,81,v,Crowder Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,248
+0021800194,330,PT00M25.80S,2,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,MISS Crowder Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,249
+0021800194,331,PT00M24.20S,2,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,250
+0021800194,332,PT00M03.40S,2,1610612763,MEM,202714,Mack,S. Mack,32,88,9,Made,1,43,40,83,h,Mack 9' Fadeaway Jumper (4 PTS),Made Shot,Fadeaway Jump Shot,1,2,251
+0021800194,333,PT00M01.50S,2,1610612762,UTA,204060,Ingles,J. Ingles,192,479,52,Missed,1,,,0,v,MISS Ingles 52' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,252
+0021800194,334,PT00M01.50S,2,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,253
+0021800194,335,PT00M00.00S,2,0,,0,,,0,0,0,,0,43,40,83,,End of 2nd Period (9:05 PM EST),period,end,1,0,254
+0021800194,344,PT12M00.00S,3,0,,0,,,0,0,0,,0,43,40,83,,Start of 3rd Period (9:21 PM EST),period,start,0,0,255
+0021800194,345,PT11M48.00S,3,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio P.FOUL (P3.T1) (C.Blair),Foul,Personal,1,0,256
+0021800194,347,PT11M44.00S,3,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson Palming Turnover (P1.T10),Turnover,Palming Turnover,1,0,257
+0021800194,348,PT11M32.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,-3,92,9,Made,1,43,42,85,v,Ingles 9' Driving Floating Jump Shot (12 PTS) (Mitchell 2 AST),Made Shot,Driving Floating Jump Shot,1,2,258
+0021800194,350,PT11M10.00S,3,1610612763,MEM,203937,Anderson,K. Anderson,-3,174,17,Missed,1,,,0,h,MISS Anderson 17' Jump Shot,Missed Shot,Jump Shot,1,2,259
+0021800194,351,PT11M07.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,260
+0021800194,352,PT11M02.00S,3,1610612762,UTA,201937,Rubio,R. Rubio,5,1,1,Made,1,43,44,87,v,Rubio 1' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,261
+0021800194,353,PT10M43.00S,3,1610612763,MEM,202066,Temple,G. Temple,-4,10,1,Made,1,45,44,89,h,Temple 1' Cutting Layup Shot (4 PTS) (Gasol 1 AST),Made Shot,Cutting Layup Shot,1,2,262
+0021800194,355,PT10M31.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,139,215,26,Missed,1,,,0,v,MISS Ingles 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,263
+0021800194,356,PT10M30.00S,3,1610612763,MEM,201188,Gasol,M. Gasol,0,0,0,,0,,,0,h,Gasol REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,264
+0021800194,357,PT10M23.00S,3,1610612763,MEM,202066,Temple,G. Temple,-47,250,25,Missed,1,,,0,h,MISS Temple 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,265
+0021800194,358,PT10M19.00S,3,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,266
+0021800194,359,PT10M05.00S,3,1610612763,MEM,201144,Conley,M. Conley,0,0,0,,0,,,0,h,Conley S.FOUL (P2.T1) (J.Orr),Foul,Shooting,1,0,267
+0021800194,361,PT10M05.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,MISS Gobert Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,268
+0021800194,362,PT10M05.00S,3,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Normal Rebound,0,0,269
+0021800194,363,PT10M05.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,45,45,90,v,Gobert Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,0,0,270
+0021800194,364,PT09M52.00S,3,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio P.FOUL (P4.T2) (C.Blair),Foul,Personal,1,0,271
+0021800194,366,PT09M52.00S,3,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,SUB: Exum FOR Rubio,Substitution,,0,0,272
+0021800194,368,PT09M42.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert Violation:Kicked Ball (C.Blair),Violation,Kicked Ball,0,0,273
+0021800194,369,PT09M35.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell S.FOUL (P2.T3) (T.Washington),Foul,Shooting,1,0,274
+0021800194,371,PT09M35.00S,3,1610612763,MEM,202066,Temple,G. Temple,0,0,0,,0,46,45,91,h,Temple Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,0,0,275
+0021800194,372,PT09M35.00S,3,1610612763,MEM,202066,Temple,G. Temple,0,0,0,,0,47,45,92,h,Temple Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,0,0,276
+0021800194,373,PT09M24.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,-111,125,17,Missed,1,,,0,v,MISS Ingles 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,277
+0021800194,374,PT09M20.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,278
+0021800194,375,PT09M20.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,-6,1,Missed,1,,,0,v,MISS Gobert 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,279
+0021800194,376,PT09M20.00S,3,1610612763,MEM,202066,Temple,G. Temple,0,0,0,,0,,,0,h,Temple REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,280
+0021800194,377,PT09M07.00S,3,1610612763,MEM,201188,Gasol,M. Gasol,-103,58,12,Missed,1,,,0,h,MISS Gasol 12' Jump Shot,Missed Shot,Jump Shot,1,2,281
+0021800194,378,PT09M05.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,282
+0021800194,379,PT08M57.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,3,36,4,Made,1,47,47,94,v,Gobert 4' Cutting Layup Shot (3 PTS) (Favors 2 AST),Made Shot,Cutting Layup Shot,1,2,283
+0021800194,381,PT08M43.00S,3,1610612763,MEM,201144,Conley,M. Conley,106,239,26,Made,1,50,47,97,h,Conley 26' 3PT Jump Shot (12 PTS) (Anderson 2 AST),Made Shot,Jump Shot,1,3,284
+0021800194,383,PT08M23.00S,3,1610612762,UTA,202324,Favors,D. Favors,-228,12,0,Made,1,50,50,100,v,Favors 3PT Jump Shot (10 PTS) (Ingles 3 AST),Made Shot,Jump Shot,1,3,285
+0021800194,385,PT08M14.00S,3,1610612762,UTA,203957,Exum,D. Exum,0,0,0,,0,,,0,v,Exum P.FOUL (P1.T4) (T.Washington),Foul,Personal,1,0,286
+0021800194,387,PT07M59.00S,3,1610612763,MEM,201188,Gasol,M. Gasol,61,143,16,Made,1,52,50,102,h,Gasol 16' Turnaround Fadeaway (9 PTS) (Anderson 3 AST),Made Shot,Turnaround Fadeaway shot,1,2,287
+0021800194,389,PT07M47.00S,3,1610612763,MEM,201144,Conley,M. Conley,0,0,0,,0,,,0,h,Conley S.FOUL (P3.T2) (J.Orr),Foul,Shooting,1,0,288
+0021800194,391,PT07M47.00S,3,1610612762,UTA,203957,Exum,D. Exum,0,0,0,,0,,,0,v,MISS Exum Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,289
+0021800194,392,PT07M47.00S,3,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Normal Rebound,0,0,290
+0021800194,393,PT07M47.00S,3,1610612762,UTA,203957,Exum,D. Exum,0,0,0,,0,52,51,103,v,Exum Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,291
+0021800194,394,PT07M29.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. Lost Ball Turnover (P4.T11),Turnover,Lost Ball,1,0,292
+0021800194,394,PT07M29.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles STEAL (1 STL),,,1,0,293
+0021800194,396,PT07M21.00S,3,1610612762,UTA,203957,Exum,D. Exum,-230,-6,0,Made,1,52,54,106,v,Exum 3PT Jump Shot (5 PTS) (Mitchell 3 AST),Made Shot,Jump Shot,1,3,294
+0021800194,398,PT07M05.00S,3,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors P.FOUL (P2.PN) (T.Washington),Foul,Personal,1,0,295
+0021800194,400,PT07M05.00S,3,1610612763,MEM,201144,Conley,M. Conley,0,0,0,,0,53,54,107,h,Conley Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,0,0,296
+0021800194,401,PT07M05.00S,3,1610612763,MEM,201144,Conley,M. Conley,0,0,0,,0,54,54,108,h,Conley Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,0,0,297
+0021800194,402,PT06M55.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,19,-4,2,Missed,1,,,0,v,MISS Mitchell 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,298
+0021800194,402,PT06M55.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. BLOCK (2 BLK),,,1,2,299
+0021800194,404,PT06M51.00S,3,1610612763,MEM,201144,Conley,M. Conley,0,0,0,,0,,,0,h,Conley REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,300
+0021800194,405,PT06M39.00S,3,1610612763,MEM,202066,Temple,G. Temple,226,5,0,Missed,1,,,0,h,MISS Temple 3PT Jump Shot,Missed Shot,Jump Shot,1,3,301
+0021800194,406,PT06M36.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,302
+0021800194,407,PT06M27.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,-27,54,6,Missed,1,,,0,v,MISS Ingles 6' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,303
+0021800194,408,PT06M24.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,304
+0021800194,409,PT06M24.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,0,-6,1,Missed,1,,,0,v,MISS Ingles 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,305
+0021800194,410,PT06M23.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:4 Def:4),Rebound,Unknown,1,0,306
+0021800194,411,PT06M16.00S,3,1610612763,MEM,201188,Gasol,M. Gasol,-4,11,1,Made,1,56,54,110,h,Gasol 1' Driving Reverse Layup (11 PTS) (Conley 2 AST),Made Shot,Driving Reverse Layup Shot,1,2,307
+0021800194,413,PT05M59.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. S.FOUL (P1.T3) (J.Orr),Foul,Shooting,1,0,308
+0021800194,415,PT05M59.00S,3,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,309
+0021800194,416,PT05M59.00S,3,1610612763,MEM,202066,Temple,G. Temple,0,0,0,,0,,,0,h,SUB: Mack FOR Temple,Substitution,,0,0,310
+0021800194,417,PT05M59.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,SUB: Burks FOR Mitchell,Substitution,,0,0,311
+0021800194,420,PT05M59.00S,3,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,56,55,111,v,Favors Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,0,0,312
+0021800194,421,PT05M59.00S,3,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,56,56,112,v,Favors Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,0,0,313
+0021800194,422,PT05M37.00S,3,1610612763,MEM,201188,Gasol,M. Gasol,-2,92,9,Made,1,58,56,114,h,Gasol 9' Turnaround Fadeaway (13 PTS),Made Shot,Turnaround Fadeaway shot,1,2,314
+0021800194,423,PT05M24.00S,3,1610612762,UTA,202692,Burks,A. Burks,-60,267,27,Missed,1,,,0,v,MISS Burks 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,315
+0021800194,424,PT05M23.00S,3,1610612763,MEM,201144,Conley,M. Conley,0,0,0,,0,,,0,h,Conley REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,316
+0021800194,425,PT05M16.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,-4,64,6,Made,1,60,56,116,h,Jackson Jr. 6' Turnaround Hook Shot (8 PTS) (Gasol 2 AST),Made Shot,Turnaround Hook Shot,1,2,317
+0021800194,427,PT04M56.00S,3,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson P.FOUL (P3.T4) (J.Orr),Foul,Personal,1,0,318
+0021800194,429,PT04M56.00S,3,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,SUB: Selden FOR Anderson,Substitution,,0,0,319
+0021800194,430,PT04M56.00S,3,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,SUB: Crowder FOR Favors,Substitution,,0,0,320
+0021800194,433,PT04M48.00S,3,1610612762,UTA,203957,Exum,D. Exum,0,0,0,,0,,,0,v,Exum Bad Pass Turnover (P1.T12),Turnover,Bad Pass,1,0,321
+0021800194,433,PT04M48.00S,3,1610612763,MEM,201188,Gasol,M. Gasol,0,0,0,,0,,,0,h,Gasol STEAL (1 STL),,,1,0,322
+0021800194,435,PT04M43.00S,3,1610612763,MEM,1627782,Selden,W. Selden,-9,-4,1,Made,1,62,56,118,h,Selden 1' Running Dunk (6 PTS) (Conley 3 AST),Made Shot,Running Dunk Shot,1,2,323
+0021800194,437,PT04M41.00S,3,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,324
+0021800194,438,PT04M41.00S,3,1610612763,MEM,201144,Conley,M. Conley,0,0,0,,0,,,0,h,SUB: Brooks FOR Conley,Substitution,,0,0,325
+0021800194,439,PT04M41.00S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,SUB: Temple FOR Jackson Jr.,Substitution,,0,0,326
+0021800194,442,PT04M26.00S,3,1610612763,MEM,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack S.FOUL (P2.PN) (T.Washington),Foul,Shooting,1,0,327
+0021800194,444,PT04M26.00S,3,1610612762,UTA,202692,Burks,A. Burks,0,0,0,,0,62,57,119,v,Burks Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,328
+0021800194,445,PT04M26.00S,3,1610612762,UTA,202692,Burks,A. Burks,0,0,0,,0,62,58,120,v,Burks Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,329
+0021800194,446,PT04M04.00S,3,1610612763,MEM,202066,Temple,G. Temple,0,0,0,,0,,,0,h,Temple Offensive Goaltending Turnover (P1.T12),Turnover,Offensive Goaltending,1,0,330
+0021800194,447,PT03M55.00S,3,1610612762,UTA,202692,Burks,A. Burks,73,84,11,Missed,1,,,0,v,MISS Burks 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,331
+0021800194,448,PT03M53.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,332
+0021800194,449,PT03M53.00S,3,1610612763,MEM,201188,Gasol,M. Gasol,0,0,0,,0,,,0,h,Gasol S.FOUL (P2.PN) (J.Orr),Foul,Shooting,1,0,333
+0021800194,451,PT03M53.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,62,59,121,v,Gobert Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,0,0,334
+0021800194,452,PT03M53.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,62,60,122,v,Gobert Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,0,0,335
+0021800194,453,PT03M34.00S,3,1610612763,MEM,201188,Gasol,M. Gasol,52,75,9,Missed,1,,,0,h,MISS Gasol 9' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,336
+0021800194,454,PT03M30.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,337
+0021800194,455,PT03M26.00S,3,1610612762,UTA,203957,Exum,D. Exum,-3,16,2,Made,1,62,62,124,v,Exum 2' Running Finger Roll Layup (7 PTS),Made Shot,Running Finger Roll Layup Shot,1,2,338
+0021800194,456,PT03M12.00S,3,1610612763,MEM,202705,Brooks,M. Brooks,-237,88,25,Missed,1,,,0,h,MISS Brooks 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,339
+0021800194,457,PT03M10.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:2 Def:9),Rebound,Unknown,1,0,340
+0021800194,458,PT02M59.00S,3,1610612762,UTA,203957,Exum,D. Exum,-62,78,10,Made,1,62,64,126,v,Exum 10' Driving Floating Jump Shot (9 PTS) (Ingles 4 AST),Made Shot,Driving Floating Jump Shot,1,2,341
+0021800194,459,PT02M59.00S,3,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,342
+0021800194,461,PT02M38.00S,3,1610612763,MEM,202705,Brooks,M. Brooks,110,176,21,Missed,1,,,0,h,MISS Brooks 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,343
+0021800194,462,PT02M35.00S,3,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,344
+0021800194,463,PT02M31.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles OFF.Foul (P2) (J.Orr),Foul,Offensive,1,0,345
+0021800194,465,PT02M31.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles Offensive Foul Turnover (P3.T13),Turnover,Offensive Foul Turnover,1,0,346
+0021800194,466,PT02M31.00S,3,1610612763,MEM,202714,Mack,S. Mack,0,0,0,,0,,,0,h,SUB: Jackson Jr. FOR Mack,Substitution,,0,0,347
+0021800194,467,PT02M31.00S,3,1610612763,MEM,201188,Gasol,M. Gasol,0,0,0,,0,,,0,h,SUB: Conley FOR Gasol,Substitution,,0,0,348
+0021800194,470,PT02M31.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,SUB: Mitchell FOR Ingles,Substitution,,0,0,349
+0021800194,472,PT02M21.00S,3,1610612763,MEM,202705,Brooks,M. Brooks,43,110,12,Missed,1,,,0,h,MISS Brooks 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,350
+0021800194,473,PT02M18.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:2 Def:10),Rebound,Unknown,1,0,351
+0021800194,474,PT02M09.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,11,11,2,Missed,1,,,0,v,MISS Mitchell 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,352
+0021800194,475,PT02M05.00S,3,1610612763,MEM,202705,Brooks,M. Brooks,0,0,0,,0,,,0,h,Brooks REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,353
+0021800194,476,PT02M02.00S,3,1610612763,MEM,202705,Brooks,M. Brooks,-5,1,1,Made,1,64,64,128,h,Brooks 1' Running Layup (8 PTS),Made Shot,Running Layup Shot,1,2,354
+0021800194,477,PT01M46.00S,3,1610612762,UTA,203109,Crowder,J. Crowder,-224,8,0,Made,1,64,67,131,v,Crowder 3PT Step Back Jump Shot (4 PTS) (Burks 1 AST),Made Shot,Step Back Jump shot,1,3,355
+0021800194,479,PT01M35.00S,3,1610612763,MEM,201144,Conley,M. Conley,0,0,0,,0,,,0,h,Conley Out of Bounds - Bad Pass Turnover Turnover (P2.T13),Turnover,Out of Bounds - Bad Pass Turnover,1,0,356
+0021800194,480,PT01M22.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,-24,5,2,Missed,1,,,0,v,MISS Gobert 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,357
+0021800194,481,PT01M22.00S,3,1610612762,UTA,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,358
+0021800194,482,PT01M22.00S,3,1610612762,UTA,202692,Burks,A. Burks,0,-6,1,Made,1,64,69,133,v,Burks 1' Tip Layup Shot (6 PTS),Made Shot,Tip Layup Shot,1,2,359
+0021800194,483,PT01M22.00S,3,1610612763,MEM,201144,Conley,M. Conley,0,0,0,,0,,,0,h,Conley S.FOUL (P4.PN) (C.Blair),Foul,Shooting,1,0,360
+0021800194,485,PT01M22.00S,3,1610612763,MEM,202705,Brooks,M. Brooks,0,0,0,,0,,,0,h,SUB: Anderson FOR Brooks,Substitution,,0,0,361
+0021800194,487,PT01M22.00S,3,1610612762,UTA,202692,Burks,A. Burks,0,0,0,,0,64,70,134,v,Burks Free Throw 1 of 1 (7 PTS),Free Throw,Free Throw 1 of 1,0,0,362
+0021800194,488,PT01M12.00S,3,1610612763,MEM,201144,Conley,M. Conley,52,262,27,Made,1,67,70,137,h,Conley 27' 3PT Pullup Jump Shot (17 PTS),Made Shot,Pullup Jump shot,1,3,363
+0021800194,489,PT00M58.40S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. S.FOUL (P2.PN) (J.Orr),Foul,Shooting,1,0,364
+0021800194,491,PT00M58.40S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,67,71,138,v,Mitchell Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,0,0,365
+0021800194,492,PT00M58.40S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,67,72,139,v,Mitchell Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,0,0,366
+0021800194,493,PT00M44.50S,3,1610612763,MEM,202066,Temple,G. Temple,112,230,26,Missed,1,,,0,h,MISS Temple 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,367
+0021800194,494,PT00M41.00S,3,1610612763,MEM,1627782,Selden,W. Selden,0,0,0,,0,,,0,h,Selden REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,368
+0021800194,495,PT00M37.90S,3,1610612763,MEM,1627782,Selden,W. Selden,-24,16,3,Missed,1,,,0,h,MISS Selden 3' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,369
+0021800194,495,PT00M37.90S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert BLOCK (3 BLK),,,1,2,370
+0021800194,496,PT00M35.70S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:2 Def:11),Rebound,Unknown,1,0,371
+0021800194,497,PT00M33.30S,3,1610612762,UTA,203109,Crowder,J. Crowder,-5,5,1,Made,1,67,74,141,v,Crowder 1' Running Reverse Layup (6 PTS) (Gobert 2 AST),Made Shot,Running Reverse Layup Shot,1,2,372
+0021800194,500,PT00M22.50S,3,1610612762,UTA,203957,Exum,D. Exum,0,0,0,,0,,,0,v,Exum P.FOUL (P2.PN) (T.Washington),Foul,Personal,1,0,373
+0021800194,502,PT00M22.50S,3,1610612763,MEM,201144,Conley,M. Conley,0,0,0,,0,68,74,142,h,Conley Free Throw 1 of 2 (18 PTS),Free Throw,Free Throw 1 of 2,0,0,374
+0021800194,503,PT00M22.50S,3,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,SUB: Gasol FOR Jackson Jr.,Substitution,,0,0,375
+0021800194,504,PT00M22.50S,3,1610612762,UTA,203957,Exum,D. Exum,0,0,0,,0,,,0,v,SUB: Ingles FOR Exum,Substitution,,0,0,376
+0021800194,507,PT00M22.50S,3,1610612763,MEM,201144,Conley,M. Conley,0,0,0,,0,69,74,143,h,Conley Free Throw 2 of 2 (19 PTS),Free Throw,Free Throw 2 of 2,0,0,377
+0021800194,512,PT00M02.80S,3,1610612762,UTA,202692,Burks,A. Burks,-50,102,11,Missed,1,,,0,v,MISS Burks 11' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,378
+0021800194,513,PT00M02.80S,3,1610612763,MEM,1627782,Selden,W. Selden,0,0,0,,0,,,0,h,Selden REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,379
+0021800194,510,PT00M00.00S,3,1610612763,MEM,203937,Anderson,K. Anderson,-120,255,28,Missed,1,,,0,h,MISS Anderson 28' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,380
+0021800194,511,PT00M00.00S,3,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Rebound,Rebound,Unknown,0,0,381
+0021800194,514,PT00M00.00S,3,0,,0,,,0,0,0,,0,69,74,143,,End of 3rd Period (9:53 PM EST),period,end,1,0,382
+0021800194,521,PT12M00.00S,4,0,,0,,,0,0,0,,0,69,74,143,,Start of 4th Period (9:54 PM EST),period,start,0,0,383
+0021800194,522,PT11M44.00S,4,1610612762,UTA,203109,Crowder,J. Crowder,-230,-17,0,Missed,1,,,0,v,MISS Crowder 3PT Jump Shot,Missed Shot,Jump Shot,1,3,384
+0021800194,523,PT11M40.00S,4,1610612763,MEM,202066,Temple,G. Temple,0,0,0,,0,,,0,h,Temple REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,385
+0021800194,524,PT11M23.00S,4,1610612763,MEM,1627782,Selden,W. Selden,0,0,0,,0,,,0,h,Selden Bad Pass Turnover (P3.T14),Turnover,Bad Pass,1,0,386
+0021800194,524,PT11M23.00S,4,1610612762,UTA,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks STEAL (1 STL),,,1,0,387
+0021800194,527,PT11M11.00S,4,1610612762,UTA,202692,Burks,A. Burks,189,168,25,Missed,1,,,0,v,MISS Burks 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,388
+0021800194,528,PT11M09.00S,4,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:4 Def:5),Rebound,Unknown,1,0,389
+0021800194,529,PT10M58.00S,4,1610612763,MEM,203937,Anderson,K. Anderson,23,122,12,Missed,1,,,0,h,MISS Anderson 12' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,390
+0021800194,530,PT10M54.00S,4,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,391
+0021800194,531,PT10M47.00S,4,1610612762,UTA,203109,Crowder,J. Crowder,11,7,1,Missed,1,,,0,v,MISS Crowder 1' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,392
+0021800194,531,PT10M47.00S,4,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. BLOCK (3 BLK),,,1,2,393
+0021800194,532,PT10M44.00S,4,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,394
+0021800194,533,PT10M42.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell P.FOUL (P3.T1) (J.Orr),Foul,Personal,1,0,395
+0021800194,535,PT10M42.00S,4,1610612763,MEM,1627782,Selden,W. Selden,0,0,0,,0,,,0,h,SUB: Mack FOR Selden,Substitution,,0,0,396
+0021800194,538,PT10M31.00S,4,1610612763,MEM,203937,Anderson,K. Anderson,16,4,2,Missed,1,,,0,h,MISS Anderson 2' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,397
+0021800194,539,PT10M30.00S,4,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,398
+0021800194,540,PT10M30.00S,4,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. L.B.FOUL (P3.T1) (J.Orr),Foul,Loose Ball,1,0,399
+0021800194,542,PT10M17.00S,4,1610612762,UTA,201937,Rubio,R. Rubio,-72,67,10,Missed,1,,,0,v,MISS Rubio 10' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,400
+0021800194,542,PT10M17.00S,4,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. BLOCK (4 BLK),,,1,2,401
+0021800194,544,PT10M13.00S,4,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,402
+0021800194,545,PT10M12.00S,4,1610612762,UTA,202692,Burks,A. Burks,-132,235,27,Made,1,69,77,146,v,Burks 27' 3PT Jump Shot (10 PTS) (Favors 3 AST),Made Shot,Jump Shot,1,3,403
+0021800194,547,PT09M59.00S,4,1610612763,MEM,201144,Conley,M. Conley,-9,11,1,Missed,1,,,0,h,MISS Conley 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,404
+0021800194,549,PT09M54.00S,4,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:5 Def:5),Rebound,Unknown,1,0,405
+0021800194,550,PT09M54.00S,4,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,-6,1,Made,1,71,77,148,h,Jackson Jr. 1' Tip Layup Shot (10 PTS),Made Shot,Tip Layup Shot,1,2,406
+0021800194,551,PT09M52.00S,4,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson P.FOUL (P4.T2) (C.Blair),Foul,Personal,1,0,407
+0021800194,553,PT09M52.00S,4,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,SUB: Niang FOR Crowder,Substitution,,0,0,408
+0021800194,555,PT09M49.00S,4,1610612762,UTA,202692,Burks,A. Burks,10,17,2,Missed,1,,,0,v,MISS Burks 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,409
+0021800194,555,PT09M49.00S,4,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. BLOCK (5 BLK),,,1,2,410
+0021800194,557,PT09M49.00S,4,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,411
+0021800194,559,PT09M43.00S,4,1610612762,UTA,1627777,Niang,G. Niang,163,197,26,Missed,1,,,0,v,MISS Niang 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,412
+0021800194,560,PT09M40.00S,4,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,413
+0021800194,561,PT09M35.00S,4,1610612763,MEM,203937,Anderson,K. Anderson,6,6,1,Made,1,73,77,150,h,Anderson 1' Running Layup (7 PTS),Made Shot,Running Layup Shot,1,2,414
+0021800194,562,PT09M19.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,-2,-8,1,Made,1,73,79,152,v,Mitchell 1' Driving Layup (12 PTS),Made Shot,Driving Layup Shot,1,2,415
+0021800194,563,PT09M18.00S,4,0,,1610612762,,,0,0,0,,0,,,0,,Delay Of Game,Violation,Delay Of Game,0,0,416
+0021800194,564,PT08M57.00S,4,1610612763,MEM,201144,Conley,M. Conley,-3,252,25,Missed,1,,,0,h,MISS Conley 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,417
+0021800194,565,PT08M54.00S,4,1610612762,UTA,1627777,Niang,G. Niang,0,0,0,,0,,,0,v,Niang REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,418
+0021800194,566,PT08M44.00S,4,1610612762,UTA,201937,Rubio,R. Rubio,60,252,26,Missed,1,,,0,v,MISS Rubio 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,419
+0021800194,567,PT08M41.00S,4,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,Jackson Jr. REBOUND (Off:5 Def:6),Rebound,Unknown,1,0,420
+0021800194,568,PT08M35.00S,4,1610612763,MEM,201144,Conley,M. Conley,8,10,1,Made,1,75,79,154,h,Conley 1' Driving Reverse Layup (21 PTS),Made Shot,Driving Reverse Layup Shot,1,2,421
+0021800194,569,PT08M35.00S,4,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors S.FOUL (P3.T2) (C.Blair),Foul,Shooting,1,0,422
+0021800194,571,PT08M35.00S,4,1610612763,MEM,202066,Temple,G. Temple,0,0,0,,0,,,0,h,SUB: Brooks FOR Temple,Substitution,,0,0,423
+0021800194,572,PT08M35.00S,4,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,SUB: Ingles FOR Rubio,Substitution,,0,0,424
+0021800194,573,PT08M35.00S,4,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,SUB: Exum FOR Favors,Substitution,,0,0,425
+0021800194,574,PT08M35.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,SUB: Gobert FOR Mitchell,Substitution,,0,0,426
+0021800194,579,PT08M35.00S,4,1610612763,MEM,201144,Conley,M. Conley,0,0,0,,0,76,79,155,h,Conley Free Throw 1 of 1 (22 PTS),Free Throw,Free Throw 1 of 1,0,0,427
+0021800194,580,PT08M16.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,-14,0,1,Made,1,76,81,157,v,Gobert 1' Dunk (7 PTS) (Burks 2 AST),Made Shot,Dunk Shot,1,2,428
+0021800194,582,PT07M56.00S,4,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,-232,-1,0,Missed,1,,,0,h,MISS Jackson Jr. 3PT Jump Shot,Missed Shot,Jump Shot,1,3,429
+0021800194,583,PT07M54.00S,4,1610612762,UTA,1627777,Niang,G. Niang,0,0,0,,0,,,0,v,Niang REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,430
+0021800194,584,PT07M48.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert 3 Second Violation Turnover (P3.T14),Turnover,3 Second Violation,1,0,431
+0021800194,585,PT07M48.00S,4,1610612763,MEM,1628991,Jackson Jr.,J. Jackson Jr.,0,0,0,,0,,,0,h,SUB: Gasol FOR Jackson Jr.,Substitution,,0,0,432
+0021800194,587,PT07M31.00S,4,1610612763,MEM,202714,Mack,S. Mack,-57,197,21,Made,1,78,81,159,h,Mack 21' Pullup Jump Shot (6 PTS) (Gasol 3 AST),Made Shot,Pullup Jump shot,1,2,433
+0021800194,589,PT07M18.00S,4,1610612763,MEM,202714,Mack,S. Mack,0,0,0,,0,,,0,h,Mack P.FOUL (P3.T3) (J.Orr),Foul,Personal,1,0,434
+0021800194,591,PT07M11.00S,4,1610612762,UTA,202692,Burks,A. Burks,70,73,10,Missed,1,,,0,v,MISS Burks 10' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,435
+0021800194,592,PT07M08.00S,4,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,436
+0021800194,593,PT06M58.00S,4,1610612763,MEM,201144,Conley,M. Conley,226,21,0,Missed,1,,,0,h,MISS Conley 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,437
+0021800194,594,PT06M56.00S,4,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,438
+0021800194,595,PT06M41.00S,4,1610612762,UTA,203957,Exum,D. Exum,-145,209,25,Missed,1,,,0,v,MISS Exum 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,439
+0021800194,596,PT06M39.00S,4,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Rebound,Rebound,Unknown,0,0,440
+0021800194,597,PT06M39.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert L.B.FOUL (P4.T3) (T.Washington),Foul,Loose Ball,1,0,441
+0021800194,599,PT06M39.00S,4,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,442
+0021800194,600,PT06M39.00S,4,1610612763,MEM,201144,Conley,M. Conley,0,0,0,,0,,,0,h,SUB: Temple FOR Conley,Substitution,,0,0,443
+0021800194,601,PT06M39.00S,4,1610612762,UTA,202692,Burks,A. Burks,0,0,0,,0,,,0,v,SUB: Rubio FOR Burks,Substitution,,0,0,444
+0021800194,602,PT06M39.00S,4,1610612762,UTA,203957,Exum,D. Exum,0,0,0,,0,,,0,v,SUB: Mitchell FOR Exum,Substitution,,0,0,445
+0021800194,603,PT06M39.00S,4,1610612762,UTA,1627777,Niang,G. Niang,0,0,0,,0,,,0,v,SUB: Crowder FOR Niang,Substitution,,0,0,446
+0021800194,608,PT06M24.00S,4,1610612763,MEM,202705,Brooks,M. Brooks,0,0,0,,0,,,0,h,Brooks OFF.Foul (P2) (C.Blair),Foul,Offensive,1,0,447
+0021800194,610,PT06M24.00S,4,1610612763,MEM,202705,Brooks,M. Brooks,0,0,0,,0,,,0,h,Brooks Offensive Foul Turnover (P2.T15),Turnover,Offensive Foul Turnover,1,0,448
+0021800194,611,PT06M02.00S,4,1610612762,UTA,203109,Crowder,J. Crowder,-154,247,29,Missed,1,,,0,v,MISS Crowder 29' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,449
+0021800194,612,PT05M59.00S,4,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,450
+0021800194,613,PT05M58.00S,4,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio Out of Bounds - Bad Pass Turnover Turnover (P2.T15),Turnover,Out of Bounds - Bad Pass Turnover,1,0,451
+0021800194,614,PT05M45.00S,4,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio S.FOUL (P5.T4) (C.Blair),Foul,Shooting,1,0,452
+0021800194,616,PT05M45.00S,4,1610612763,MEM,202714,Mack,S. Mack,0,0,0,,0,79,81,160,h,Mack Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,0,0,453
+0021800194,617,PT05M45.00S,4,1610612763,MEM,202714,Mack,S. Mack,0,0,0,,0,,,0,h,MISS Mack Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,454
+0021800194,618,PT05M42.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:2 Def:12),Rebound,Unknown,1,0,455
+0021800194,619,PT05M32.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,-29,109,11,Missed,1,,,0,v,MISS Mitchell 11' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,456
+0021800194,620,PT05M27.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:3 Def:12),Rebound,Unknown,1,0,457
+0021800194,621,PT05M27.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,-6,1,Made,1,79,83,162,v,Gobert 1' Tip Dunk Shot (9 PTS),Made Shot,Tip Dunk Shot,1,2,458
+0021800194,622,PT05M13.00S,4,1610612763,MEM,202714,Mack,S. Mack,-111,226,25,Missed,1,,,0,h,MISS Mack 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,459
+0021800194,623,PT05M11.00S,4,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Rebound,Rebound,Unknown,0,0,460
+0021800194,625,PT05M04.00S,4,1610612763,MEM,201188,Gasol,M. Gasol,0,0,0,,0,,,0,h,Gasol OFF.Foul (P3) (C.Blair),Foul,Offensive,1,0,461
+0021800194,627,PT05M04.00S,4,1610612763,MEM,201188,Gasol,M. Gasol,0,0,0,,0,,,0,h,Gasol Offensive Foul Turnover (P2.T16),Turnover,Offensive Foul Turnover,1,0,462
+0021800194,628,PT04M47.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,-8,41,4,Made,1,79,85,164,v,Gobert 4' Cutting Layup Shot (11 PTS) (Rubio 2 AST),Made Shot,Cutting Layup Shot,1,2,463
+0021800194,630,PT04M47.00S,4,1610612763,MEM,202066,Temple,G. Temple,0,0,0,,0,,,0,h,Temple S.FOUL (P3.T4) (J.Orr),Foul,Shooting,1,0,464
+0021800194,632,PT04M47.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,79,86,165,v,Gobert Free Throw 1 of 1 (12 PTS),Free Throw,Free Throw 1 of 1,0,0,465
+0021800194,633,PT04M29.00S,4,1610612763,MEM,202705,Brooks,M. Brooks,-4,8,1,Made,1,81,86,167,h,Brooks 1' Driving Dunk (10 PTS),Made Shot,Driving Dunk Shot,1,2,466
+0021800194,634,PT04M11.00S,4,1610612762,UTA,204060,Ingles,J. Ingles,-12,1,1,Made,1,81,88,169,v,Ingles 1' Driving Layup (14 PTS),Made Shot,Driving Layup Shot,1,2,467
+0021800194,635,PT03M47.00S,4,1610612763,MEM,202714,Mack,S. Mack,44,78,9,Missed,1,,,0,h,MISS Mack 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,468
+0021800194,636,PT03M41.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:3 Def:13),Rebound,Unknown,1,0,469
+0021800194,638,PT03M36.00S,4,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,470
+0021800194,639,PT03M36.00S,4,1610612763,MEM,202705,Brooks,M. Brooks,0,0,0,,0,,,0,h,SUB: Conley FOR Brooks,Substitution,,0,0,471
+0021800194,641,PT03M36.00S,4,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,472
+0021800194,642,PT03M32.00S,4,1610612763,MEM,202066,Temple,G. Temple,0,0,0,,0,,,0,h,Temple P.FOUL (P4.PN) (T.Washington),Foul,Personal,1,0,473
+0021800194,644,PT03M32.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,MISS Gobert Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,474
+0021800194,645,PT03M32.00S,4,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Normal Rebound,0,0,475
+0021800194,646,PT03M32.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,81,89,170,v,Gobert Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,0,0,476
+0021800194,647,PT03M20.00S,4,1610612763,MEM,201188,Gasol,M. Gasol,56,256,26,Missed,1,,,0,h,MISS Gasol 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,477
+0021800194,648,PT03M18.00S,4,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,478
+0021800194,649,PT03M05.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,-66,262,27,Missed,1,,,0,v,MISS Mitchell 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,479
+0021800194,650,PT03M03.00S,4,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,480
+0021800194,652,PT02M48.00S,4,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio P.FOUL (P6.PN) (J.Orr),Foul,Personal,1,0,481
+0021800194,654,PT02M48.00S,4,0,,652,,,0,0,0,,0,81,89,170,,Instant Replay4th Period (10:19 PM EST),Instant Replay,Overturn Ruling,0,0,482
+0021800194,655,PT02M48.00S,4,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,SUB: Burks FOR Rubio,Substitution,,0,0,483
+0021800194,657,PT02M48.00S,4,1610612763,MEM,201188,Gasol,M. Gasol,0,0,0,,0,,,0,h,MISS Gasol Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,484
+0021800194,658,PT02M48.00S,4,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Rebound,Rebound,Normal Rebound,0,0,485
+0021800194,659,PT02M48.00S,4,1610612763,MEM,201188,Gasol,M. Gasol,0,0,0,,0,82,89,171,h,Gasol Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,0,0,486
+0021800194,660,PT02M28.00S,4,1610612762,UTA,203109,Crowder,J. Crowder,-225,-8,0,Missed,1,,,0,v,MISS Crowder 3PT Jump Shot,Missed Shot,Jump Shot,1,3,487
+0021800194,661,PT02M26.00S,4,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,488
+0021800194,662,PT02M21.00S,4,1610612763,MEM,202714,Mack,S. Mack,7,10,1,Made,1,84,89,173,h,Mack 1' Running Layup (9 PTS) (Anderson 4 AST),Made Shot,Running Layup Shot,1,2,489
+0021800194,664,PT02M03.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,-5,4,1,Made,1,84,91,175,v,Gobert 1' Alley Oop Layup (15 PTS) (Ingles 5 AST),Made Shot,Alley Oop Layup shot,1,2,490
+0021800194,666,PT01M44.00S,4,1610612763,MEM,201144,Conley,M. Conley,76,245,26,Missed,1,,,0,h,MISS Conley 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,491
+0021800194,667,PT01M38.00S,4,1610612762,UTA,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,492
+0021800194,668,PT01M20.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,-105,78,13,Missed,1,,,0,v,MISS Mitchell 13' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,493
+0021800194,669,PT01M18.00S,4,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson REBOUND (Off:2 Def:9),Rebound,Unknown,1,0,494
+0021800194,670,PT01M06.00S,4,1610612763,MEM,201144,Conley,M. Conley,44,66,8,Missed,1,,,0,h,MISS Conley 8' Driving Layup,Missed Shot,Driving Layup Shot,1,2,495
+0021800194,671,PT01M02.00S,4,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,496
+0021800194,672,PT00M45.40S,4,1610612762,UTA,204060,Ingles,J. Ingles,130,220,26,Made,1,84,94,178,v,Ingles 26' 3PT Jump Shot (17 PTS) (Mitchell 4 AST),Made Shot,Jump Shot,1,3,497
+0021800194,674,PT00M45.40S,4,0,,1610612763,,,0,0,0,,0,,,0,h,GRIZZLIES Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,498
+0021800194,675,PT00M43.90S,4,1610612763,MEM,201144,Conley,M. Conley,-101,247,27,Missed,1,,,0,h,MISS Conley 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,499
+0021800194,676,PT00M41.70S,4,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,500
+0021800194,677,PT00M41.70S,4,1610612763,MEM,202066,Temple,G. Temple,0,0,0,,0,,,0,h,Temple P.FOUL (P5.PN) (C.Blair),Foul,Personal,1,0,501
+0021800194,679,PT00M41.70S,4,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,84,95,179,v,Ingles Free Throw 1 of 2 (18 PTS),Free Throw,Free Throw 1 of 2,1,0,502
+0021800194,680,PT00M41.70S,4,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,MISS Ingles Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,503
+0021800194,681,PT00M40.40S,4,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson REBOUND (Off:2 Def:10),Rebound,Unknown,1,0,504
+0021800194,682,PT00M32.50S,4,1610612763,MEM,201188,Gasol,M. Gasol,-4,-4,1,Made,1,86,95,181,h,Gasol 1' Driving Reverse Layup (16 PTS) (Anderson 5 AST),Made Shot,Driving Reverse Layup Shot,1,2,505
+0021800194,684,PT00M26.30S,4,1610612763,MEM,201188,Gasol,M. Gasol,0,0,0,,0,,,0,h,Gasol P.FOUL (P4.PN) (J.Orr),Foul,Personal,1,0,506
+0021800194,686,PT00M26.30S,4,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,86,96,182,v,Ingles Free Throw 1 of 2 (19 PTS),Free Throw,Free Throw 1 of 2,1,0,507
+0021800194,687,PT00M26.30S,4,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,MISS Ingles Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,508
+0021800194,688,PT00M25.40S,4,1610612763,MEM,203937,Anderson,K. Anderson,0,0,0,,0,,,0,h,Anderson REBOUND (Off:2 Def:11),Rebound,Unknown,1,0,509
+0021800194,689,PT00M19.50S,4,1610612763,MEM,201144,Conley,M. Conley,1,6,1,Made,1,88,96,184,h,Conley 1' Driving Reverse Layup (24 PTS),Made Shot,Driving Reverse Layup Shot,1,2,510
+0021800194,690,PT00M00.00S,4,0,,0,,,0,0,0,,0,88,96,184,,End of 4th Period (10:28 PM EST),period,end,1,0,511

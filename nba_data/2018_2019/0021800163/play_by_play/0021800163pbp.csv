@@ -1,0 +1,482 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021800163,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (8:16 PM EST),period,start,0,0,1
+0021800163,4,PT12M00.00S,1,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Jump Ball Adams vs. Capela: Tip to Schroder,Jump Ball,,1,0,2
+0021800163,7,PT11M44.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden S.FOUL (P1.T1) (K.Mauer),Foul,Shooting,1,0,3
+0021800163,9,PT11M44.00S,1,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,1,0,1,h,Adams Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,4
+0021800163,10,PT11M44.00S,1,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,2,0,2,h,Adams Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,5
+0021800163,11,PT11M31.00S,1,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela Out of Bounds Lost Ball Turnover (P1.T1),Turnover,Out of Bounds Lost Ball Turnover,1,0,6
+0021800163,12,PT11M14.00S,1,1610612760,OKC,203500,Adams,S. Adams,0,4,0,Made,1,4,0,4,h,Adams Dunk (4 PTS),Made Shot,Dunk Shot,1,2,7
+0021800163,14,PT11M06.00S,1,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,Tucker Bad Pass Turnover (P1.T2),Turnover,Bad Pass,0,0,8
+0021800163,14,PT11M06.00S,1,1610612760,OKC,202331,George,P. George,0,0,0,,0,,,0,h,George STEAL (1 STL),,,0,0,9
+0021800163,16,PT10M54.00S,1,1610612760,OKC,1628390,Ferguson,T. Ferguson,-4,0,0,Made,1,6,0,6,h,Ferguson Cutting Dunk Shot (2 PTS) (Adams 1 AST),Made Shot,Cutting Dunk Shot,1,2,10
+0021800163,18,PT10M28.00S,1,1610612745,HOU,203991,Capela,C. Capela,2,1,0,Made,1,6,2,8,v,Capela Dunk (2 PTS) (Paul 1 AST),Made Shot,Dunk Shot,1,2,11
+0021800163,20,PT10M18.00S,1,1610612760,OKC,203471,Schröder,D. Schröder,2,5,1,Made,1,8,2,10,h,Schroder 1' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,12
+0021800163,21,PT10M01.00S,1,1610612745,HOU,203991,Capela,C. Capela,9,11,1,Made,1,8,4,12,v,Capela 1' Alley Oop Dunk (4 PTS) (Harden 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,13
+0021800163,23,PT09M38.00S,1,1610612760,OKC,203471,Schröder,D. Schröder,-84,-12,8,Missed,1,,,0,h,MISS Schroder 8' Driving Layup,Missed Shot,Driving Layup Shot,1,2,14
+0021800163,23,PT09M38.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden BLOCK (1 BLK),,,1,2,15
+0021800163,25,PT09M38.00S,1,0,,1610612760,,,0,0,0,,0,,,0,h,THUNDER Rebound,Rebound,Unknown,0,0,16
+0021800163,27,PT09M35.00S,1,1610612760,OKC,203500,Adams,S. Adams,-4,35,4,Made,1,10,4,14,h,Adams 4' Hook Shot (6 PTS) (George 1 AST),Made Shot,Hook Shot,1,2,17
+0021800163,29,PT09M17.00S,1,1610612745,HOU,203516,Ennis III,J. Ennis III,-226,36,0,Missed,1,,,0,v,MISS Ennis III 3PT Jump Shot,Missed Shot,Jump Shot,1,3,18
+0021800163,30,PT09M14.00S,1,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,19
+0021800163,31,PT09M00.00S,1,1610612760,OKC,202331,George,P. George,133,156,21,Made,1,12,4,16,h,George 21' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,20
+0021800163,32,PT08M50.00S,1,1610612745,HOU,201935,Harden,J. Harden,-6,10,1,Missed,1,,,0,v,MISS Harden 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,21
+0021800163,33,PT08M49.00S,1,1610612760,OKC,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,22
+0021800163,34,PT08M40.00S,1,1610612760,OKC,203471,Schröder,D. Schröder,-24,242,24,Missed,1,,,0,h,MISS Schroder 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,23
+0021800163,35,PT08M36.00S,1,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,24
+0021800163,36,PT08M26.00S,1,1610612745,HOU,101108,Paul,C. Paul,10,7,1,Missed,1,,,0,v,MISS Paul 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,25
+0021800163,37,PT08M24.00S,1,1610612760,OKC,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,Schroder REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,26
+0021800163,38,PT08M22.00S,1,1610612760,OKC,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,Schroder Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,27
+0021800163,38,PT08M22.00S,1,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,v,Paul STEAL (1 STL),,,1,0,28
+0021800163,40,PT08M10.00S,1,1610612745,HOU,203516,Ennis III,J. Ennis III,-5,10,1,Made,1,12,6,18,v,Ennis III 1' Cutting Layup Shot (2 PTS) (Capela 1 AST),Made Shot,Cutting Layup Shot,1,2,29
+0021800163,42,PT08M10.00S,1,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams S.FOUL (P1.T1) (K.Mauer),Foul,Shooting,1,0,30
+0021800163,44,PT08M10.00S,1,1610612745,HOU,203516,Ennis III,J. Ennis III,0,0,0,,0,12,7,19,v,Ennis III Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,0,0,31
+0021800163,45,PT07M52.00S,1,1610612760,OKC,203500,Adams,S. Adams,-64,29,7,Missed,1,,,0,h,MISS Adams 7' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,32
+0021800163,46,PT07M50.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,33
+0021800163,47,PT07M38.00S,1,1610612745,HOU,101108,Paul,C. Paul,-157,184,24,Missed,1,,,0,v,MISS Paul 24' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,34
+0021800163,48,PT07M35.00S,1,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Rebound,Rebound,Unknown,0,0,35
+0021800163,50,PT07M29.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,36
+0021800163,50,PT07M29.00S,1,1610612760,OKC,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,Schroder STEAL (1 STL),,,1,0,37
+0021800163,52,PT07M24.00S,1,1610612760,OKC,202331,George,P. George,-18,16,2,Missed,1,,,0,h,MISS George 2' Running Layup,Missed Shot,Running Layup Shot,1,2,38
+0021800163,53,PT07M21.00S,1,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,Tucker REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,39
+0021800163,54,PT07M19.00S,1,1610612745,HOU,201935,Harden,J. Harden,10,2,1,Made,1,12,9,21,v,Harden 1' Running Layup (2 PTS),Made Shot,Running Layup Shot,1,2,40
+0021800163,55,PT07M19.00S,1,1610612760,OKC,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant S.FOUL (P1.T2) (M.Ayotte),Foul,Shooting,1,0,41
+0021800163,57,PT07M19.00S,1,0,,1610612760,,,0,0,0,,0,,,0,h,THUNDER Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,42
+0021800163,58,PT07M19.00S,1,1610612745,HOU,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,SUB: Anthony FOR Ennis III,Substitution,,0,0,43
+0021800163,60,PT07M19.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,MISS Harden Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,0,0,44
+0021800163,61,PT07M19.00S,1,1610612760,OKC,202331,George,P. George,0,0,0,,0,,,0,h,George REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,45
+0021800163,62,PT06M57.00S,1,1610612760,OKC,1628390,Ferguson,T. Ferguson,226,48,0,Made,1,15,9,24,h,Ferguson 3PT Jump Shot (5 PTS) (George 2 AST),Made Shot,Jump Shot,1,3,46
+0021800163,64,PT06M32.00S,1,1610612745,HOU,201935,Harden,J. Harden,150,200,25,Made,1,15,12,27,v,Harden 25' 3PT Step Back Jump Shot (5 PTS),Made Shot,Step Back Jump shot,1,3,47
+0021800163,65,PT06M18.00S,1,1610612760,OKC,202331,George,P. George,183,158,24,Missed,1,,,0,h,MISS George 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,48
+0021800163,66,PT06M14.00S,1,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,Tucker REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,49
+0021800163,67,PT06M09.00S,1,1610612745,HOU,201935,Harden,J. Harden,-5,13,1,Made,1,15,14,29,v,Harden 1' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,50
+0021800163,68,PT05M54.00S,1,1610612760,OKC,1628390,Ferguson,T. Ferguson,-222,10,0,Missed,1,,,0,h,MISS Ferguson 3PT Jump Shot,Missed Shot,Jump Shot,1,3,51
+0021800163,69,PT05M48.00S,1,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,52
+0021800163,70,PT05M48.00S,1,1610612760,OKC,203500,Adams,S. Adams,0,-6,1,Made,1,17,14,31,h,Adams 1' Tip Layup Shot (8 PTS),Made Shot,Tip Layup Shot,1,2,53
+0021800163,72,PT05M42.00S,1,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,v,SUB: Green FOR Paul,Substitution,,0,0,54
+0021800163,74,PT05M32.00S,1,1610612745,HOU,201935,Harden,J. Harden,-215,60,22,Missed,1,,,0,v,MISS Harden 22' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,55
+0021800163,75,PT05M29.00S,1,1610612760,OKC,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,56
+0021800163,76,PT05M26.00S,1,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,Tucker S.FOUL (P1.T2) (M.Ayotte),Foul,Shooting,1,0,57
+0021800163,78,PT05M26.00S,1,1610612760,OKC,203471,Schröder,D. Schröder,0,0,0,,0,18,14,32,h,Schroder Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,58
+0021800163,79,PT05M26.00S,1,1610612760,OKC,203471,Schröder,D. Schröder,0,0,0,,0,19,14,33,h,Schroder Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,59
+0021800163,80,PT05M08.00S,1,1610612745,HOU,200782,Tucker,P. Tucker,222,21,0,Made,1,19,17,36,v,Tucker 3PT Jump Shot (3 PTS) (Capela 2 AST),Made Shot,Jump Shot,1,3,60
+0021800163,82,PT04M43.00S,1,1610612760,OKC,203500,Adams,S. Adams,9,90,9,Missed,1,,,0,h,MISS Adams 9' Hook Shot,Missed Shot,Hook Shot,1,2,61
+0021800163,83,PT04M42.00S,1,1610612745,HOU,2546,Anthony,C. Anthony,0,0,0,,0,,,0,v,Anthony REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,62
+0021800163,85,PT04M38.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden OFF.Foul (P2) (S.Wall),Foul,Offensive,1,0,63
+0021800163,87,PT04M38.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden Offensive Foul Turnover (P2.T4),Turnover,Offensive Foul Turnover,1,0,64
+0021800163,88,PT04M38.00S,1,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,SUB: Clark FOR Tucker,Substitution,,0,0,65
+0021800163,90,PT04M30.00S,1,1610612760,OKC,203471,Schröder,D. Schröder,-31,245,25,Missed,1,,,0,h,MISS Schroder 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,66
+0021800163,91,PT04M27.00S,1,1610612760,OKC,1628390,Ferguson,T. Ferguson,0,0,0,,0,,,0,h,Ferguson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,67
+0021800163,92,PT04M26.00S,1,1610612760,OKC,202331,George,P. George,115,220,25,Missed,1,,,0,h,MISS George 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,68
+0021800163,93,PT04M23.00S,1,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,69
+0021800163,94,PT04M11.00S,1,1610612745,HOU,1629109,Clark,G. Clark,-232,-3,0,Missed,1,,,0,v,MISS Clark 3PT Jump Shot,Missed Shot,Jump Shot,1,3,70
+0021800163,95,PT04M09.00S,1,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Rebound,Rebound,Unknown,0,0,71
+0021800163,96,PT04M09.00S,1,1610612760,OKC,1628390,Ferguson,T. Ferguson,0,0,0,,0,,,0,h,Ferguson L.B.FOUL (P1.T3) (M.Ayotte),Foul,Loose Ball,1,0,72
+0021800163,98,PT03M58.00S,1,1610612745,HOU,203991,Capela,C. Capela,-6,36,4,Made,1,19,19,38,v,Capela 4' Hook Shot (6 PTS),Made Shot,Hook Shot,1,2,73
+0021800163,99,PT03M45.00S,1,1610612760,OKC,1628390,Ferguson,T. Ferguson,219,125,25,Made,1,22,19,41,h,Ferguson 25' 3PT Jump Shot (8 PTS) (George 3 AST),Made Shot,Jump Shot,1,3,74
+0021800163,101,PT03M33.00S,1,1610612745,HOU,101123,Green,G. Green,91,238,25,Missed,1,,,0,v,MISS Green 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,75
+0021800163,102,PT03M30.00S,1,1610612760,OKC,1628390,Ferguson,T. Ferguson,0,0,0,,0,,,0,h,Ferguson REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,76
+0021800163,103,PT03M12.00S,1,1610612745,HOU,2546,Anthony,C. Anthony,0,0,0,,0,,,0,v,Anthony S.FOUL (P1.T3) (M.Ayotte),Foul,Shooting,1,0,77
+0021800163,105,PT03M12.00S,1,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,MISS Adams Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,78
+0021800163,106,PT03M12.00S,1,0,,1610612760,,,0,0,0,,0,,,0,h,THUNDER Rebound,Rebound,Normal Rebound,0,0,79
+0021800163,107,PT03M12.00S,1,1610612760,OKC,203924,Grant,J. Grant,0,0,0,,0,,,0,h,SUB: Patterson FOR Grant,Substitution,,0,0,80
+0021800163,108,PT03M12.00S,1,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,SUB: Hartenstein FOR Capela,Substitution,,0,0,81
+0021800163,111,PT03M12.00S,1,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,23,19,42,h,Adams Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,0,0,82
+0021800163,112,PT03M02.00S,1,1610612745,HOU,1628392,Hartenstein,I. Hartenstein,16,-4,2,Missed,1,,,0,v,MISS Hartenstein 2' Cutting Dunk Shot,Missed Shot,Cutting Dunk Shot,1,2,83
+0021800163,112,PT03M02.00S,1,1610612760,OKC,1628390,Ferguson,T. Ferguson,0,0,0,,0,,,0,h,Ferguson BLOCK (1 BLK),,,1,2,84
+0021800163,114,PT02M59.00S,1,1610612760,OKC,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,Schroder REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,85
+0021800163,115,PT02M56.00S,1,1610612760,OKC,202331,George,P. George,5,237,24,Missed,1,,,0,h,MISS George 24' Jump Shot,Missed Shot,Jump Shot,1,2,86
+0021800163,116,PT02M53.00S,1,1610612760,OKC,202331,George,P. George,0,0,0,,0,,,0,h,George REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,87
+0021800163,119,PT02M50.00S,1,1610612760,OKC,1628390,Ferguson,T. Ferguson,0,0,0,,0,,,0,h,Ferguson P.FOUL (P2.T4) (K.Mauer),Foul,Personal,1,0,88
+0021800163,122,PT02M50.00S,1,1610612760,OKC,1628390,Ferguson,T. Ferguson,0,0,0,,0,,,0,h,Ferguson No Turnover (P1.T2),Turnover,,0,0,89
+0021800163,121,PT02M50.00S,1,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,90
+0021800163,123,PT02M50.00S,1,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,SUB: Abrines FOR Adams,Substitution,,0,0,91
+0021800163,124,PT02M50.00S,1,1610612760,OKC,1628390,Ferguson,T. Ferguson,0,0,0,,0,,,0,h,SUB: Noel FOR Ferguson,Substitution,,0,0,92
+0021800163,125,PT02M50.00S,1,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,SUB: Paul FOR Harden,Substitution,,0,0,93
+0021800163,129,PT02M37.00S,1,1610612745,HOU,2546,Anthony,C. Anthony,-65,243,25,Missed,1,,,0,v,MISS Anthony 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,94
+0021800163,130,PT02M35.00S,1,1610612760,OKC,203518,Abrines,A. Abrines,0,0,0,,0,,,0,h,Abrines REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,95
+0021800163,131,PT02M35.00S,1,1610612745,HOU,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein P.FOUL (P1.T4) (M.Ayotte),Foul,Personal,1,0,96
+0021800163,133,PT02M35.00S,1,1610612760,OKC,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,SUB: Felton FOR Schroder,Substitution,,0,0,97
+0021800163,135,PT02M18.00S,1,1610612760,OKC,101109,Felton,R. Felton,-43,40,6,Missed,1,,,0,h,MISS Felton 6' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,98
+0021800163,136,PT02M16.00S,1,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Rebound,Rebound,Unknown,0,0,99
+0021800163,138,PT02M08.00S,1,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,v,Paul Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,100
+0021800163,138,PT02M08.00S,1,1610612760,OKC,203518,Abrines,A. Abrines,0,0,0,,0,,,0,h,Abrines STEAL (1 STL),,,1,0,101
+0021800163,140,PT02M04.00S,1,1610612760,OKC,202335,Patterson,P. Patterson,214,126,25,Made,1,26,19,45,h,Patterson 25' 3PT Jump Shot (3 PTS) (Felton 1 AST),Made Shot,Jump Shot,1,3,102
+0021800163,142,PT01M40.00S,1,1610612745,HOU,1629109,Clark,G. Clark,151,199,25,Missed,1,,,0,v,MISS Clark 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,103
+0021800163,143,PT01M35.00S,1,1610612760,OKC,203457,Noel,N. Noel,0,0,0,,0,,,0,h,Noel REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,104
+0021800163,145,PT01M17.00S,1,1610612760,OKC,101109,Felton,R. Felton,-14,281,28,Missed,1,,,0,h,MISS Felton 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,105
+0021800163,146,PT01M16.00S,1,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,106
+0021800163,163,PT01M15.00S,1,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,v,Green Lost Ball Turnover (P1.T6),Turnover,Lost Ball,1,0,107
+0021800163,163,PT01M15.00S,1,1610612760,OKC,202331,George,P. George,0,0,0,,0,,,0,h,George STEAL (2 STL),,,1,0,108
+0021800163,147,PT01M10.00S,1,1610612760,OKC,203518,Abrines,A. Abrines,-32,243,25,Missed,1,,,0,h,MISS Abrines 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,109
+0021800163,148,PT01M07.00S,1,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,v,Paul REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,110
+0021800163,149,PT00M58.10S,1,1610612745,HOU,2546,Anthony,C. Anthony,5,8,1,Missed,1,,,0,v,MISS Anthony 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,111
+0021800163,149,PT00M58.10S,1,1610612760,OKC,203457,Noel,N. Noel,0,0,0,,0,,,0,h,Noel BLOCK (1 BLK),,,1,2,112
+0021800163,151,PT00M55.20S,1,1610612760,OKC,202331,George,P. George,0,0,0,,0,,,0,h,George REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,113
+0021800163,152,PT00M52.30S,1,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,v,Green S.FOUL (P1.PN) (S.Wall),Foul,Shooting,1,0,114
+0021800163,154,PT00M52.30S,1,1610612760,OKC,202331,George,P. George,0,0,0,,0,,,0,h,MISS George Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,115
+0021800163,155,PT00M52.30S,1,0,,1610612760,,,0,0,0,,0,,,0,h,THUNDER Rebound,Rebound,Normal Rebound,0,0,116
+0021800163,156,PT00M52.30S,1,1610612745,HOU,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,SUB: Tucker FOR Hartenstein,Substitution,,0,0,117
+0021800163,158,PT00M52.30S,1,1610612760,OKC,202331,George,P. George,0,0,0,,0,27,19,46,h,George Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,0,0,118
+0021800163,160,PT00M33.00S,1,1610612745,HOU,101123,Green,G. Green,222,-5,0,Missed,1,,,0,v,MISS Green 3PT Jump Shot,Missed Shot,Jump Shot,1,3,119
+0021800163,161,PT00M28.50S,1,1610612745,HOU,1629109,Clark,G. Clark,0,0,0,,0,,,0,v,Clark REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,120
+0021800163,162,PT00M27.60S,1,1610612745,HOU,101108,Paul,C. Paul,57,253,26,Missed,1,,,0,v,MISS Paul 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,121
+0021800163,165,PT00M21.80S,1,1610612760,OKC,203518,Abrines,A. Abrines,0,0,0,,0,,,0,h,Abrines REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,122
+0021800163,166,PT00M03.80S,1,1610612760,OKC,101109,Felton,R. Felton,-3,84,8,Made,1,29,19,48,h,Felton 8' Floating Jump Shot (2 PTS) (George 4 AST),Made Shot,Floating Jump shot,1,2,123
+0021800163,168,PT00M00.00S,1,0,,0,,,0,0,0,,0,29,19,48,,End of 1st Period (8:42 PM EST),period,end,1,0,124
+0021800163,171,PT12M00.00S,2,0,,0,,,0,0,0,,0,29,19,48,,Start of 2nd Period (8:45 PM EST),period,start,0,0,125
+0021800163,172,PT11M40.00S,2,1610612745,HOU,2546,Anthony,C. Anthony,-157,201,26,Missed,1,,,0,v,MISS Anthony 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,126
+0021800163,173,PT11M37.00S,2,1610612760,OKC,1628977,Diallo,H. Diallo,0,0,0,,0,,,0,h,Diallo REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,127
+0021800163,175,PT11M19.00S,2,1610612745,HOU,2546,Anthony,C. Anthony,0,0,0,,0,,,0,v,SUB: Harden FOR Anthony,Substitution,,0,0,128
+0021800163,176,PT11M19.00S,2,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,v,SUB: Capela FOR Green,Substitution,,0,0,129
+0021800163,179,PT11M16.00S,2,1610612760,OKC,101109,Felton,R. Felton,82,243,26,Missed,1,,,0,h,MISS Felton 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,130
+0021800163,180,PT11M13.00S,2,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,131
+0021800163,181,PT11M06.00S,2,1610612745,HOU,203991,Capela,C. Capela,-7,21,2,Missed,1,,,0,v,MISS Capela 2' Layup,Missed Shot,Layup Shot,1,2,132
+0021800163,181,PT11M06.00S,2,1610612760,OKC,203457,Noel,N. Noel,0,0,0,,0,,,0,h,Noel BLOCK (2 BLK),,,1,2,133
+0021800163,183,PT11M02.00S,2,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,134
+0021800163,184,PT11M01.00S,2,1610612745,HOU,200782,Tucker,P. Tucker,226,36,0,Made,1,29,22,51,v,Tucker 3PT Jump Shot (6 PTS) (Harden 2 AST),Made Shot,Jump Shot,1,3,135
+0021800163,186,PT10M50.00S,2,1610612760,OKC,202335,Patterson,P. Patterson,-100,224,25,Missed,1,,,0,h,MISS Patterson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,136
+0021800163,187,PT10M45.00S,2,1610612760,OKC,1628977,Diallo,H. Diallo,0,0,0,,0,,,0,h,Diallo REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,137
+0021800163,188,PT10M45.00S,2,1610612760,OKC,1628977,Diallo,H. Diallo,0,0,0,,0,,,0,h,Diallo Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,138
+0021800163,188,PT10M45.00S,2,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,v,Paul STEAL (2 STL),,,1,0,139
+0021800163,190,PT10M42.00S,2,1610612745,HOU,1629109,Clark,G. Clark,236,0,24,Made,1,29,25,54,v,Clark 24' 3PT Jump Shot (3 PTS) (Tucker 1 AST),Made Shot,Jump Shot,1,3,140
+0021800163,192,PT10M18.00S,2,1610612760,OKC,1628977,Diallo,H. Diallo,13,8,2,Missed,1,,,0,h,MISS Diallo 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,141
+0021800163,193,PT10M15.00S,2,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,142
+0021800163,194,PT10M00.00S,2,1610612745,HOU,201935,Harden,J. Harden,32,257,26,Missed,1,,,0,v,MISS Harden 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,143
+0021800163,195,PT09M57.00S,2,1610612760,OKC,203457,Noel,N. Noel,0,0,0,,0,,,0,h,Noel REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,144
+0021800163,196,PT09M42.00S,2,1610612760,OKC,101109,Felton,R. Felton,41,190,19,Made,1,31,25,56,h,Felton 19' Step Back Jump Shot (4 PTS),Made Shot,Step Back Jump shot,1,2,145
+0021800163,197,PT09M23.00S,2,1610612745,HOU,1629109,Clark,G. Clark,-230,5,0,Missed,1,,,0,v,MISS Clark 3PT Jump Shot,Missed Shot,Jump Shot,1,3,146
+0021800163,198,PT09M23.00S,2,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,147
+0021800163,201,PT09M22.00S,2,1610612745,HOU,1629109,Clark,G. Clark,0,0,0,,0,,,0,v,SUB: Ennis III FOR Clark,Substitution,,0,0,148
+0021800163,199,PT09M21.00S,2,1610612760,OKC,203457,Noel,N. Noel,0,0,0,,0,,,0,h,Noel P.FOUL (P1.T1) (S.Wall),Foul,Personal,1,0,149
+0021800163,203,PT09M16.00S,2,1610612745,HOU,200782,Tucker,P. Tucker,225,11,0,Made,1,31,28,59,v,Tucker 3PT Jump Shot (9 PTS) (Harden 3 AST),Made Shot,Jump Shot,1,3,150
+0021800163,205,PT09M03.00S,2,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela S.FOUL (P1.T1) (S.Wall),Foul,Shooting,1,0,151
+0021800163,207,PT09M03.00S,2,1610612760,OKC,203457,Noel,N. Noel,0,0,0,,0,32,28,60,h,Noel Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,152
+0021800163,208,PT09M03.00S,2,1610612760,OKC,203457,Noel,N. Noel,0,0,0,,0,33,28,61,h,Noel Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,153
+0021800163,209,PT08M51.00S,2,1610612745,HOU,203991,Capela,C. Capela,-5,-4,1,Made,1,33,30,63,v,Capela 1' Cutting Dunk Shot (8 PTS) (Paul 2 AST),Made Shot,Cutting Dunk Shot,1,2,154
+0021800163,211,PT08M50.00S,2,0,,1610612760,,,0,0,0,,0,,,0,h,THUNDER Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,155
+0021800163,212,PT08M41.00S,2,1610612760,OKC,202335,Patterson,P. Patterson,-183,188,26,Missed,1,,,0,h,MISS Patterson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,156
+0021800163,213,PT08M38.00S,2,1610612760,OKC,1628977,Diallo,H. Diallo,0,0,0,,0,,,0,h,Diallo REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,157
+0021800163,214,PT08M38.00S,2,1610612745,HOU,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,Ennis III S.FOUL (P1.T2) (K.Mauer),Foul,Shooting,1,0,158
+0021800163,216,PT08M38.00S,2,1610612760,OKC,1628977,Diallo,H. Diallo,0,0,0,,0,,,0,h,MISS Diallo Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,159
+0021800163,217,PT08M38.00S,2,0,,1610612760,,,0,0,0,,0,,,0,h,THUNDER Rebound,Rebound,Normal Rebound,0,0,160
+0021800163,218,PT08M38.00S,2,1610612760,OKC,101109,Felton,R. Felton,0,0,0,,0,,,0,h,SUB: Schroder FOR Felton,Substitution,,0,0,161
+0021800163,220,PT08M38.00S,2,1610612760,OKC,1628977,Diallo,H. Diallo,0,0,0,,0,34,30,64,h,Diallo Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,0,0,162
+0021800163,221,PT08M27.00S,2,1610612745,HOU,200782,Tucker,P. Tucker,231,16,0,Missed,1,,,0,v,MISS Tucker 3PT Jump Shot,Missed Shot,Jump Shot,1,3,163
+0021800163,222,PT08M24.00S,2,1610612760,OKC,1628977,Diallo,H. Diallo,0,0,0,,0,,,0,h,Diallo REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,164
+0021800163,223,PT08M17.00S,2,1610612760,OKC,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,Schroder Out of Bounds - Bad Pass Turnover Turnover (P2.T4),Turnover,Out of Bounds - Bad Pass Turnover,1,0,165
+0021800163,224,PT08M07.00S,2,1610612745,HOU,201935,Harden,J. Harden,162,186,25,Missed,1,,,0,v,MISS Harden 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,166
+0021800163,225,PT08M05.00S,2,1610612760,OKC,202335,Patterson,P. Patterson,0,0,0,,0,,,0,h,Patterson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,167
+0021800163,226,PT07M51.00S,2,1610612760,OKC,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,Schroder Bad Pass Turnover (P3.T5),Turnover,Bad Pass,1,0,168
+0021800163,226,PT07M51.00S,2,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden STEAL (1 STL),,,1,0,169
+0021800163,228,PT07M49.00S,2,1610612760,OKC,203457,Noel,N. Noel,0,0,0,,0,,,0,h,Noel Violation:Kicked Ball (M.Ayotte),Violation,Kicked Ball,0,0,170
+0021800163,229,PT07M49.00S,2,1610612760,OKC,203457,Noel,N. Noel,0,0,0,,0,,,0,h,SUB: Adams FOR Noel,Substitution,,0,0,171
+0021800163,231,PT07M41.00S,2,1610612745,HOU,203516,Ennis III,J. Ennis III,-229,43,0,Made,1,34,33,67,v,Ennis III 3PT Jump Shot (6 PTS) (Paul 3 AST),Made Shot,Jump Shot,1,3,172
+0021800163,233,PT07M18.00S,2,1610612760,OKC,1628977,Diallo,H. Diallo,7,0,1,Made,1,36,33,69,h,Diallo 1' Driving Layup (3 PTS),Made Shot,Driving Layup Shot,1,2,173
+0021800163,234,PT07M13.00S,2,1610612760,OKC,202335,Patterson,P. Patterson,0,0,0,,0,,,0,h,Patterson S.FOUL (P1.T2) (S.Wall),Foul,Shooting,1,0,174
+0021800163,236,PT07M13.00S,2,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,36,34,70,v,Tucker Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,0,0,175
+0021800163,237,PT07M13.00S,2,1610612760,OKC,202335,Patterson,P. Patterson,0,0,0,,0,,,0,h,SUB: Grant FOR Patterson,Substitution,,0,0,176
+0021800163,239,PT07M13.00S,2,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,36,35,71,v,Tucker Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,0,0,177
+0021800163,240,PT06M57.00S,2,1610612760,OKC,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,Schroder Lost Ball Turnover (P4.T6),Turnover,Lost Ball,1,0,178
+0021800163,240,PT06M57.00S,2,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela STEAL (1 STL),,,1,0,179
+0021800163,242,PT06M54.00S,2,1610612745,HOU,200782,Tucker,P. Tucker,13,10,2,Made,1,36,37,73,v,Tucker 2' Running Layup (13 PTS) (Capela 3 AST),Made Shot,Running Layup Shot,1,2,180
+0021800163,244,PT06M42.00S,2,1610612760,OKC,203471,Schröder,D. Schröder,12,71,7,Made,1,38,37,75,h,Schroder 7' Floating Jump Shot (6 PTS),Made Shot,Floating Jump shot,1,2,181
+0021800163,245,PT06M32.00S,2,1610612745,HOU,201935,Harden,J. Harden,10,28,3,Missed,1,,,0,v,MISS Harden 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,182
+0021800163,246,PT06M30.00S,2,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,Tucker REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,183
+0021800163,247,PT06M20.00S,2,1610612745,HOU,203991,Capela,C. Capela,-3,5,1,Made,1,38,39,77,v,Capela 1' Dunk (10 PTS) (Tucker 2 AST),Made Shot,Dunk Shot,1,2,184
+0021800163,250,PT06M12.00S,2,1610612745,HOU,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,Ennis III P.FOUL (P2.T3) (M.Ayotte),Foul,Personal,0,0,185
+0021800163,252,PT06M12.00S,2,1610612760,OKC,1628977,Diallo,H. Diallo,0,0,0,,0,,,0,h,SUB: George FOR Diallo,Substitution,,0,0,186
+0021800163,253,PT06M12.00S,2,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,SUB: Anthony FOR Capela,Substitution,,0,0,187
+0021800163,256,PT06M04.00S,2,1610612760,OKC,203471,Schröder,D. Schröder,-165,183,25,Missed,1,,,0,h,MISS Schroder 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,188
+0021800163,257,PT06M00.00S,2,1610612745,HOU,2546,Anthony,C. Anthony,0,0,0,,0,,,0,v,Anthony REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,189
+0021800163,258,PT05M51.00S,2,1610612745,HOU,2546,Anthony,C. Anthony,-168,194,26,Missed,1,,,0,v,MISS Anthony 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,190
+0021800163,259,PT05M49.00S,2,1610612760,OKC,202331,George,P. George,0,0,0,,0,,,0,h,George REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,191
+0021800163,260,PT05M40.00S,2,1610612760,OKC,202331,George,P. George,60,235,24,Made,1,41,39,80,h,George 24' 3PT Pullup Jump Shot (6 PTS) (Schroder 1 AST),Made Shot,Pullup Jump shot,1,3,192
+0021800163,262,PT05M24.00S,2,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams P.FOUL (P2.T3) (M.Ayotte),Foul,Personal,1,0,193
+0021800163,264,PT05M24.00S,2,1610612760,OKC,203518,Abrines,A. Abrines,0,0,0,,0,,,0,h,SUB: Ferguson FOR Abrines,Substitution,,0,0,194
+0021800163,265,PT05M24.00S,2,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,v,SUB: Clark FOR Paul,Substitution,,0,0,195
+0021800163,268,PT05M16.00S,2,1610612745,HOU,2546,Anthony,C. Anthony,0,0,0,,0,,,0,v,Anthony OFF.Foul (P2) (K.Mauer),Foul,Offensive,1,0,196
+0021800163,270,PT05M16.00S,2,1610612745,HOU,2546,Anthony,C. Anthony,0,0,0,,0,,,0,v,Anthony Offensive Foul Turnover (P1.T7),Turnover,Offensive Foul Turnover,1,0,197
+0021800163,271,PT04M55.00S,2,1610612760,OKC,203500,Adams,S. Adams,-5,51,5,Made,1,43,39,82,h,Adams 5' Hook Shot (11 PTS),Made Shot,Hook Shot,1,2,198
+0021800163,272,PT04M33.00S,2,1610612760,OKC,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant S.FOUL (P2.T4) (S.Wall),Foul,Shooting,1,0,199
+0021800163,274,PT04M33.00S,2,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,43,40,83,v,Harden Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,0,0,200
+0021800163,275,PT04M33.00S,2,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,SUB: Capela FOR Tucker,Substitution,,0,0,201
+0021800163,277,PT04M33.00S,2,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,MISS Harden Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,202
+0021800163,278,PT04M31.00S,2,1610612760,OKC,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,203
+0021800163,279,PT04M22.00S,2,1610612760,OKC,202331,George,P. George,52,172,18,Made,1,45,40,85,h,George 18' Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,2,204
+0021800163,280,PT03M56.00S,2,1610612745,HOU,2546,Anthony,C. Anthony,-104,88,14,Missed,1,,,0,v,MISS Anthony 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,205
+0021800163,281,PT03M53.00S,2,1610612760,OKC,1628390,Ferguson,T. Ferguson,0,0,0,,0,,,0,h,Ferguson REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,206
+0021800163,282,PT03M50.00S,2,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela P.FOUL (P2.T4) (S.Wall),Foul,Personal,1,0,207
+0021800163,284,PT03M35.00S,2,1610612760,OKC,203471,Schröder,D. Schröder,12,3,1,Made,1,47,40,87,h,Schroder 1' Driving Layup (8 PTS),Made Shot,Driving Layup Shot,1,2,208
+0021800163,285,PT03M14.00S,2,1610612745,HOU,201935,Harden,J. Harden,96,239,26,Made,1,47,43,90,v,Harden 26' 3PT Step Back Jump Shot (11 PTS),Made Shot,Step Back Jump shot,1,3,209
+0021800163,286,PT03M02.00S,2,1610612760,OKC,202331,George,P. George,39,247,25,Made,1,50,43,93,h,George 25' 3PT Jump Shot (11 PTS) (Adams 2 AST),Made Shot,Jump Shot,1,3,210
+0021800163,288,PT02M43.00S,2,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden Out of Bounds - Bad Pass Turnover Turnover (P3.T8),Turnover,Out of Bounds - Bad Pass Turnover,1,0,211
+0021800163,289,PT02M43.00S,2,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,212
+0021800163,290,PT02M43.00S,2,1610612745,HOU,1629109,Clark,G. Clark,0,0,0,,0,,,0,v,SUB: Paul FOR Clark,Substitution,,0,0,213
+0021800163,291,PT02M43.00S,2,1610612745,HOU,2546,Anthony,C. Anthony,0,0,0,,0,,,0,v,SUB: Tucker FOR Anthony,Substitution,,0,0,214
+0021800163,294,PT02M30.00S,2,1610612760,OKC,202331,George,P. George,56,117,13,Made,1,52,43,95,h,George 13' Pullup Jump Shot (13 PTS),Made Shot,Pullup Jump shot,1,2,215
+0021800163,295,PT02M03.00S,2,1610612745,HOU,203991,Capela,C. Capela,-1,0,0,Missed,1,,,0,v,MISS Capela Layup,Missed Shot,Layup Shot,1,2,216
+0021800163,296,PT02M00.00S,2,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,217
+0021800163,297,PT01M59.00S,2,1610612745,HOU,203991,Capela,C. Capela,-12,7,1,Made,1,52,45,97,v,Capela 1' Putback Layup (12 PTS),Made Shot,Putback Layup Shot,1,2,218
+0021800163,298,PT01M41.00S,2,1610612760,OKC,1628390,Ferguson,T. Ferguson,229,17,0,Made,1,55,45,100,h,Ferguson 3PT Jump Shot (11 PTS) (Grant 1 AST),Made Shot,Jump Shot,1,3,219
+0021800163,308,PT01M25.00S,2,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden Lost Ball Turnover (P4.T9),Turnover,Lost Ball,1,0,220
+0021800163,308,PT01M25.00S,2,1610612760,OKC,202331,George,P. George,0,0,0,,0,,,0,h,George STEAL (3 STL),,,1,0,221
+0021800163,303,PT01M21.00S,2,1610612745,HOU,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,Ennis III P.FOUL (P3.PN) (M.Ayotte),Foul,Personal,1,0,222
+0021800163,305,PT01M21.00S,2,0,,303,,,0,0,0,,0,55,45,100,,Instant Replay2nd Period (9:10 PM EST),Instant Replay,Support Ruling,0,0,223
+0021800163,307,PT01M21.00S,2,1610612760,OKC,202331,George,P. George,0,0,0,,0,56,45,101,h,George Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,0,0,224
+0021800163,310,PT01M21.00S,2,1610612760,OKC,202331,George,P. George,0,0,0,,0,,,0,h,MISS George Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,225
+0021800163,311,PT01M18.00S,2,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Rebound,Rebound,Unknown,0,0,226
+0021800163,313,PT01M05.00S,2,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,v,Paul Lost Ball Turnover (P2.T10),Turnover,Lost Ball,1,0,227
+0021800163,313,PT01M05.00S,2,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams STEAL (1 STL),,,1,0,228
+0021800163,315,PT01M02.00S,2,1610612760,OKC,202331,George,P. George,0,0,0,,0,,,0,h,George Lost Ball Turnover (P1.T7),Turnover,Lost Ball,1,0,229
+0021800163,315,PT01M02.00S,2,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,v,Paul STEAL (3 STL),,,1,0,230
+0021800163,317,PT00M58.50S,2,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,Tucker Bad Pass Turnover (P2.T11),Turnover,Bad Pass,1,0,231
+0021800163,317,PT00M58.50S,2,1610612760,OKC,1628390,Ferguson,T. Ferguson,0,0,0,,0,,,0,h,Ferguson STEAL (1 STL),,,1,0,232
+0021800163,319,PT00M53.30S,2,1610612760,OKC,1628390,Ferguson,T. Ferguson,0,0,0,,0,,,0,h,Jump Ball Ferguson vs. Paul: Tip to Tucker,Jump Ball,,1,0,233
+0021800163,322,PT00M53.30S,2,1610612760,OKC,1628390,Ferguson,T. Ferguson,0,0,0,,0,,,0,h,Ferguson Lost Ball Turnover (P2.T8),Turnover,Lost Ball,1,0,234
+0021800163,322,PT00M53.30S,2,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,v,Paul STEAL (4 STL),,,1,0,235
+0021800163,324,PT00M45.10S,2,1610612745,HOU,101108,Paul,C. Paul,101,13,10,Missed,1,,,0,v,MISS Paul 10' Jump Shot,Missed Shot,Jump Shot,1,2,236
+0021800163,325,PT00M41.90S,2,1610612760,OKC,202331,George,P. George,0,0,0,,0,,,0,h,George REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,237
+0021800163,326,PT00M24.70S,2,1610612760,OKC,202331,George,P. George,141,213,26,Made,1,59,45,104,h,George 26' 3PT Jump Shot (17 PTS) (Schroder 2 AST),Made Shot,Jump Shot,1,3,238
+0021800163,328,PT00M03.20S,2,1610612745,HOU,201935,Harden,J. Harden,169,180,25,Missed,1,,,0,v,MISS Harden 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,239
+0021800163,329,PT00M03.20S,2,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Rebound,Rebound,Unknown,0,0,240
+0021800163,330,PT00M00.00S,2,0,,0,,,0,0,0,,0,59,45,104,,End of 2nd Period (9:14 PM EST),period,end,1,0,241
+0021800163,331,PT12M00.00S,3,0,,0,,,0,0,0,,0,59,45,104,,Start of 3rd Period (9:31 PM EST),period,start,0,0,242
+0021800163,332,PT12M00.00S,3,0,,1610612760,,,0,0,0,,0,,,0,,Delay Of Game,Violation,Delay Of Game,0,0,243
+0021800163,333,PT11M45.00S,3,1610612745,HOU,101108,Paul,C. Paul,33,35,5,Made,1,59,47,106,v,Paul 5' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,244
+0021800163,334,PT11M31.00S,3,1610612745,HOU,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,Ennis III P.FOUL (P4.T1) (K.Mauer),Foul,Personal,1,0,245
+0021800163,336,PT11M31.00S,3,1610612745,HOU,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,SUB: Clark FOR Ennis III,Substitution,,0,0,246
+0021800163,338,PT11M19.00S,3,1610612760,OKC,203500,Adams,S. Adams,111,10,11,Missed,1,,,0,h,MISS Adams 11' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,247
+0021800163,339,PT11M15.00S,3,1610612745,HOU,1629109,Clark,G. Clark,0,0,0,,0,,,0,v,Clark REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,248
+0021800163,340,PT11M11.00S,3,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,v,Paul Bad Pass Turnover (P3.T12),Turnover,Bad Pass,1,0,249
+0021800163,340,PT11M11.00S,3,1610612760,OKC,202331,George,P. George,0,0,0,,0,,,0,h,George STEAL (4 STL),,,1,0,250
+0021800163,342,PT11M07.00S,3,1610612760,OKC,202331,George,P. George,123,80,15,Missed,1,,,0,h,MISS George 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,251
+0021800163,343,PT11M03.00S,3,1610612760,OKC,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,Schroder REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,252
+0021800163,344,PT10M57.00S,3,1610612760,OKC,203471,Schröder,D. Schröder,-13,7,1,Made,1,61,47,108,h,Schroder 1' Driving Layup (10 PTS),Made Shot,Driving Layup Shot,1,2,253
+0021800163,346,PT10M33.00S,3,1610612745,HOU,101108,Paul,C. Paul,109,43,12,Made,1,61,49,110,v,Paul 12' Fadeaway Jumper (4 PTS),Made Shot,Fadeaway Jump Shot,1,2,254
+0021800163,347,PT10M21.00S,3,1610612760,OKC,203471,Schröder,D. Schröder,-14,18,2,Missed,1,,,0,h,MISS Schroder 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,255
+0021800163,347,PT10M21.00S,3,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela BLOCK (1 BLK),,,1,2,256
+0021800163,349,PT10M21.00S,3,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,257
+0021800163,350,PT10M18.00S,3,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,v,Paul P.FOUL (P1.T2) (K.Mauer),Foul,Personal,1,0,258
+0021800163,353,PT10M05.00S,3,1610612760,OKC,202331,George,P. George,-41,206,21,Missed,1,,,0,h,MISS George 21' Jump Shot,Missed Shot,Jump Shot,0,2,259
+0021800163,354,PT10M03.00S,3,0,,1610612760,,,0,0,0,,0,,,0,h,THUNDER Rebound,Rebound,Unknown,0,0,260
+0021800163,355,PT10M03.00S,3,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela L.B.FOUL (P3.T3) (S.Wall),Foul,Loose Ball,0,0,261
+0021800163,357,PT09M50.00S,3,1610612760,OKC,203500,Adams,S. Adams,-27,25,4,Made,1,63,49,112,h,Adams 4' Hook Shot (13 PTS) (George 5 AST),Made Shot,Hook Shot,1,2,262
+0021800163,359,PT09M42.00S,3,1610612760,OKC,202331,George,P. George,0,0,0,,0,,,0,h,George P.FOUL (P1.T1) (M.Ayotte),Foul,Personal,1,0,263
+0021800163,361,PT09M26.00S,3,1610612745,HOU,203991,Capela,C. Capela,12,-5,1,Made,1,63,51,114,v,Capela 1' Cutting Layup Shot (14 PTS) (Harden 4 AST),Made Shot,Cutting Layup Shot,1,2,264
+0021800163,363,PT09M05.00S,3,1610612760,OKC,203500,Adams,S. Adams,-9,26,3,Missed,1,,,0,h,MISS Adams 3' Hook Shot,Missed Shot,Hook Shot,1,2,265
+0021800163,363,PT09M05.00S,3,1610612745,HOU,1629109,Clark,G. Clark,0,0,0,,0,,,0,v,Clark BLOCK (1 BLK),,,1,2,266
+0021800163,365,PT09M01.00S,3,1610612745,HOU,1629109,Clark,G. Clark,0,0,0,,0,,,0,v,Clark REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,267
+0021800163,366,PT08M54.00S,3,1610612745,HOU,101108,Paul,C. Paul,45,53,7,Missed,1,,,0,v,MISS Paul 7' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,268
+0021800163,367,PT08M51.00S,3,1610612760,OKC,202331,George,P. George,0,0,0,,0,,,0,h,George REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,269
+0021800163,368,PT08M45.00S,3,1610612760,OKC,203924,Grant,J. Grant,-16,249,25,Made,1,66,51,117,h,Grant 25' 3PT Jump Shot (3 PTS) (Schroder 3 AST),Made Shot,Jump Shot,1,3,270
+0021800163,370,PT08M21.00S,3,1610612760,OKC,1628390,Ferguson,T. Ferguson,0,0,0,,0,,,0,h,Ferguson S.FOUL (P3.T2) (S.Wall),Foul,Shooting,1,0,271
+0021800163,372,PT08M21.00S,3,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,66,52,118,v,Capela Free Throw 1 of 2 (15 PTS),Free Throw,Free Throw 1 of 2,0,0,272
+0021800163,373,PT08M21.00S,3,0,,1610612760,,,0,0,0,,0,,,0,h,THUNDER Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,273
+0021800163,374,PT08M21.00S,3,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,MISS Capela Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,274
+0021800163,375,PT08M19.00S,3,1610612760,OKC,202331,George,P. George,0,0,0,,0,,,0,h,George REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,275
+0021800163,376,PT08M04.00S,3,1610612760,OKC,203924,Grant,J. Grant,228,21,0,Missed,1,,,0,h,MISS Grant 3PT Jump Shot,Missed Shot,Jump Shot,1,3,276
+0021800163,377,PT07M59.00S,3,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,v,Paul REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,277
+0021800163,379,PT07M46.00S,3,1610612745,HOU,201935,Harden,J. Harden,-2,9,1,Missed,1,,,0,v,MISS Harden 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,278
+0021800163,380,PT07M45.00S,3,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,279
+0021800163,381,PT07M27.00S,3,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,Tucker P.FOUL (P2.T4) (M.Ayotte),Foul,Personal,1,0,280
+0021800163,383,PT07M19.00S,3,1610612760,OKC,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,Schroder OFF.Foul (P1) (S.Wall),Foul,Offensive,1,0,281
+0021800163,385,PT07M19.00S,3,1610612760,OKC,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,Schroder Offensive Foul Turnover (P5.T9),Turnover,Offensive Foul Turnover,1,0,282
+0021800163,386,PT07M03.00S,3,1610612745,HOU,201935,Harden,J. Harden,206,148,25,Made,1,66,55,121,v,Harden 25' 3PT Pullup Jump Shot (14 PTS),Made Shot,Pullup Jump shot,1,3,283
+0021800163,387,PT06M52.00S,3,1610612760,OKC,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,Schroder Bad Pass Turnover (P6.T10),Turnover,Bad Pass,1,0,284
+0021800163,388,PT06M38.00S,3,1610612745,HOU,101108,Paul,C. Paul,-63,245,25,Missed,1,,,0,v,MISS Paul 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,285
+0021800163,389,PT06M35.00S,3,1610612760,OKC,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,286
+0021800163,391,PT06M18.00S,3,1610612760,OKC,202331,George,P. George,-23,211,21,Made,1,68,55,123,h,George 21' Jump Shot (19 PTS) (Adams 3 AST),Made Shot,Jump Shot,1,2,287
+0021800163,393,PT05M57.00S,3,1610612745,HOU,200782,Tucker,P. Tucker,-230,-8,0,Missed,1,,,0,v,MISS Tucker 3PT Jump Shot,Missed Shot,Jump Shot,1,3,288
+0021800163,394,PT05M55.00S,3,1610612760,OKC,202331,George,P. George,0,0,0,,0,,,0,h,George REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,289
+0021800163,395,PT05M45.00S,3,1610612760,OKC,202331,George,P. George,-14,251,25,Missed,1,,,0,h,MISS George 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,290
+0021800163,396,PT05M44.00S,3,0,,1610612760,,,0,0,0,,0,,,0,h,THUNDER Rebound,Rebound,Unknown,0,0,291
+0021800163,397,PT05M44.00S,3,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,Tucker L.B.FOUL (P3.PN) (K.Mauer),Foul,Loose Ball,1,0,292
+0021800163,399,PT05M44.00S,3,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,69,55,124,h,Adams Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,0,0,293
+0021800163,400,PT05M44.00S,3,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,v,SUB: Anthony FOR Paul,Substitution,,0,0,294
+0021800163,401,PT05M44.00S,3,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,SUB: Green FOR Tucker,Substitution,,0,0,295
+0021800163,404,PT05M44.00S,3,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,70,55,125,h,Adams Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,0,0,296
+0021800163,405,PT05M31.00S,3,1610612745,HOU,201935,Harden,J. Harden,-154,194,25,Missed,1,,,0,v,MISS Harden 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,297
+0021800163,406,PT05M28.00S,3,1610612760,OKC,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,298
+0021800163,407,PT05M11.00S,3,1610612760,OKC,202331,George,P. George,214,120,25,Missed,1,,,0,h,MISS George 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,299
+0021800163,408,PT05M08.00S,3,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,300
+0021800163,409,PT05M06.00S,3,1610612760,OKC,203924,Grant,J. Grant,-9,4,1,Made,1,72,55,127,h,Grant 1' Cutting Layup Shot (5 PTS) (Adams 4 AST),Made Shot,Cutting Layup Shot,1,2,301
+0021800163,411,PT05M06.00S,3,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela S.FOUL (P4.PN) (S.Wall),Foul,Shooting,1,0,302
+0021800163,413,PT05M06.00S,3,1610612760,OKC,203924,Grant,J. Grant,0,0,0,,0,73,55,128,h,Grant Free Throw 1 of 1 (6 PTS),Free Throw,Free Throw 1 of 1,0,0,303
+0021800163,414,PT04M50.00S,3,1610612745,HOU,101123,Green,G. Green,-31,79,8,Made,1,73,57,130,v,Green 8' Driving Floating Jump Shot (2 PTS) (Harden 5 AST),Made Shot,Driving Floating Jump Shot,1,2,304
+0021800163,415,PT04M35.00S,3,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,v,Green S.FOUL (P2.PN) (K.Mauer),Foul,Shooting,1,0,305
+0021800163,417,PT04M35.00S,3,1610612760,OKC,203924,Grant,J. Grant,0,0,0,,0,74,57,131,h,Grant Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,0,0,306
+0021800163,418,PT04M35.00S,3,1610612760,OKC,203924,Grant,J. Grant,0,0,0,,0,75,57,132,h,Grant Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,307
+0021800163,419,PT04M19.00S,3,1610612745,HOU,2546,Anthony,C. Anthony,106,20,11,Missed,1,,,0,v,MISS Anthony 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,308
+0021800163,420,PT04M17.00S,3,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,309
+0021800163,421,PT04M11.00S,3,1610612760,OKC,203471,Schröder,D. Schröder,-1,12,1,Made,1,77,57,134,h,Schroder 1' Running Layup (12 PTS),Made Shot,Running Layup Shot,1,2,310
+0021800163,422,PT03M54.00S,3,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden Bad Pass Turnover (P5.T13),Turnover,Bad Pass,1,0,311
+0021800163,422,PT03M54.00S,3,1610612760,OKC,202331,George,P. George,0,0,0,,0,,,0,h,George STEAL (5 STL),,,1,0,312
+0021800163,424,PT03M49.00S,3,1610612760,OKC,202331,George,P. George,116,223,25,Missed,1,,,0,h,MISS George 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,313
+0021800163,425,PT03M43.00S,3,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,314
+0021800163,426,PT03M39.00S,3,1610612745,HOU,2546,Anthony,C. Anthony,127,230,26,Missed,1,,,0,v,MISS Anthony 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,315
+0021800163,427,PT03M36.00S,3,1610612760,OKC,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,Schroder REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,316
+0021800163,428,PT03M21.00S,3,1610612760,OKC,203500,Adams,S. Adams,2,32,3,Missed,1,,,0,h,MISS Adams 3' Jump Shot,Missed Shot,Jump Shot,0,2,317
+0021800163,429,PT03M20.00S,3,1610612745,HOU,2546,Anthony,C. Anthony,0,0,0,,0,,,0,v,Anthony REBOUND (Off:0 Def:3),Rebound,Unknown,0,0,318
+0021800163,430,PT03M13.00S,3,1610612745,HOU,1629109,Clark,G. Clark,-108,225,25,Missed,1,,,0,v,MISS Clark 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,319
+0021800163,431,PT03M09.00S,3,1610612760,OKC,1628390,Ferguson,T. Ferguson,0,0,0,,0,,,0,h,Ferguson REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,320
+0021800163,432,PT02M59.00S,3,1610612760,OKC,1628390,Ferguson,T. Ferguson,222,21,0,Missed,1,,,0,h,MISS Ferguson 3PT Jump Shot,Missed Shot,Jump Shot,1,3,321
+0021800163,433,PT02M56.00S,3,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,v,Green REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,322
+0021800163,434,PT02M48.00S,3,1610612760,OKC,1628390,Ferguson,T. Ferguson,0,0,0,,0,,,0,h,Ferguson P.FOUL (P4.T3) (M.Ayotte),Foul,Personal,1,0,323
+0021800163,436,PT02M48.00S,3,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,324
+0021800163,438,PT02M48.00S,3,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,SUB: Noel FOR Adams,Substitution,,0,0,325
+0021800163,439,PT02M48.00S,3,1610612760,OKC,1628390,Ferguson,T. Ferguson,0,0,0,,0,,,0,h,SUB: Abrines FOR Ferguson,Substitution,,0,0,326
+0021800163,440,PT02M48.00S,3,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,SUB: Paul FOR Harden,Substitution,,0,0,327
+0021800163,441,PT02M48.00S,3,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,SUB: Hartenstein FOR Capela,Substitution,,0,0,328
+0021800163,446,PT02M39.00S,3,1610612745,HOU,101123,Green,G. Green,-38,243,25,Made,1,77,60,137,v,Green 25' 3PT Jump Shot (5 PTS) (Paul 4 AST),Made Shot,Jump Shot,1,3,329
+0021800163,448,PT02M26.00S,3,1610612760,OKC,203924,Grant,J. Grant,-1,8,1,Made,1,79,60,139,h,Grant 1' Alley Oop Dunk (10 PTS) (Schroder 4 AST),Made Shot,Alley Oop Dunk Shot,1,2,330
+0021800163,450,PT02M26.00S,3,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,v,Green S.FOUL (P3.PN) (M.Ayotte),Foul,Shooting,1,0,331
+0021800163,452,PT02M26.00S,3,1610612760,OKC,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,SUB: Felton FOR Schroder,Substitution,,0,0,332
+0021800163,454,PT02M26.00S,3,1610612760,OKC,203924,Grant,J. Grant,0,0,0,,0,80,60,140,h,Grant Free Throw 1 of 1 (11 PTS),Free Throw,Free Throw 1 of 1,0,0,333
+0021800163,455,PT02M10.00S,3,1610612745,HOU,2546,Anthony,C. Anthony,-122,24,12,Missed,1,,,0,v,MISS Anthony 12' Jump Shot,Missed Shot,Jump Shot,1,2,334
+0021800163,456,PT02M07.00S,3,1610612760,OKC,202331,George,P. George,0,0,0,,0,,,0,h,George REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,335
+0021800163,457,PT02M00.00S,3,1610612760,OKC,202331,George,P. George,13,1,1,Missed,1,,,0,h,MISS George 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,336
+0021800163,458,PT01M58.00S,3,1610612760,OKC,203457,Noel,N. Noel,0,0,0,,0,,,0,h,Noel REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,337
+0021800163,459,PT01M52.00S,3,1610612760,OKC,202331,George,P. George,-228,6,0,Missed,1,,,0,h,MISS George 3PT Jump Shot,Missed Shot,Jump Shot,1,3,338
+0021800163,460,PT01M50.00S,3,1610612745,HOU,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,339
+0021800163,461,PT01M28.00S,3,1610612745,HOU,1629109,Clark,G. Clark,-230,26,0,Missed,1,,,0,v,MISS Clark 3PT Jump Shot,Missed Shot,Jump Shot,1,3,340
+0021800163,462,PT01M25.00S,3,1610612745,HOU,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,341
+0021800163,463,PT01M17.00S,3,1610612745,HOU,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein Offensive Charge Foul (P2.PN) (M.Ayotte),Foul,Offensive Charge,1,0,342
+0021800163,465,PT01M17.00S,3,1610612745,HOU,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein Offensive Foul Turnover (P1.T14),Turnover,Offensive Foul Turnover,1,0,343
+0021800163,466,PT01M00.00S,3,1610612760,OKC,203924,Grant,J. Grant,221,10,0,Missed,1,,,0,h,MISS Grant 3PT Jump Shot,Missed Shot,Jump Shot,1,3,344
+0021800163,467,PT00M57.10S,3,1610612745,HOU,1628392,Hartenstein,I. Hartenstein,0,0,0,,0,,,0,v,Hartenstein REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,345
+0021800163,468,PT00M43.50S,3,1610612760,OKC,101109,Felton,R. Felton,0,0,0,,0,,,0,h,Felton Violation:Kicked Ball (S.Wall),Violation,Kicked Ball,0,0,346
+0021800163,469,PT00M34.10S,3,1610612745,HOU,101108,Paul,C. Paul,174,187,26,Missed,1,,,0,v,MISS Paul 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,347
+0021800163,470,PT00M30.40S,3,1610612760,OKC,202331,George,P. George,0,0,0,,0,,,0,h,George REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,348
+0021800163,471,PT00M09.90S,3,1610612760,OKC,202331,George,P. George,58,242,25,Missed,1,,,0,h,MISS George 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,349
+0021800163,472,PT00M07.10S,3,1610612745,HOU,1629109,Clark,G. Clark,0,0,0,,0,,,0,v,Clark REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,350
+0021800163,473,PT00M01.90S,3,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,v,Paul Bad Pass Turnover (P4.T15),Turnover,Bad Pass,1,0,351
+0021800163,473,PT00M01.90S,3,1610612760,OKC,202331,George,P. George,0,0,0,,0,,,0,h,George STEAL (6 STL),,,1,0,352
+0021800163,475,PT00M00.00S,3,1610612760,OKC,202331,George,P. George,-130,431,45,Missed,1,,,0,h,MISS George 45' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,353
+0021800163,476,PT00M00.00S,3,0,,1610612760,,,0,0,0,,0,,,0,h,THUNDER Rebound,Rebound,Unknown,0,0,354
+0021800163,477,PT00M00.00S,3,0,,0,,,0,0,0,,0,80,60,140,,End of 3rd Period (9:57 PM EST),period,end,1,0,355
+0021800163,487,PT12M00.00S,4,0,,0,,,0,0,0,,0,80,60,140,,Start of 4th Period (10:00 PM EST),period,start,0,0,356
+0021800163,488,PT11M45.00S,4,1610612760,OKC,1628977,Diallo,H. Diallo,228,25,0,Missed,1,,,0,h,MISS Diallo 3PT Jump Shot,Missed Shot,Jump Shot,1,3,357
+0021800163,489,PT11M40.00S,4,1610612745,HOU,2546,Anthony,C. Anthony,0,0,0,,0,,,0,v,Anthony REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,358
+0021800163,490,PT11M20.00S,4,1610612745,HOU,2546,Anthony,C. Anthony,35,245,25,Missed,1,,,0,v,MISS Anthony 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,359
+0021800163,491,PT11M17.00S,4,1610612760,OKC,203457,Noel,N. Noel,0,0,0,,0,,,0,h,Noel REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,360
+0021800163,492,PT11M16.00S,4,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,v,Paul P.FOUL (P2.T1) (S.Wall),Foul,Personal,1,0,361
+0021800163,494,PT10M54.00S,4,1610612760,OKC,101109,Felton,R. Felton,2,58,6,Made,1,82,60,142,h,Felton 6' Pullup Jump Shot (6 PTS),Made Shot,Pullup Jump shot,1,2,362
+0021800163,495,PT10M52.00S,4,1610612745,HOU,101123,Green,G. Green,197,155,25,Missed,1,,,0,v,MISS Green 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,363
+0021800163,496,PT10M52.00S,4,1610612760,OKC,203518,Abrines,A. Abrines,0,0,0,,0,,,0,h,Abrines REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,364
+0021800163,497,PT10M29.00S,4,1610612760,OKC,101109,Felton,R. Felton,-186,113,22,Made,1,84,60,144,h,Felton 22' Step Back Jump Shot (8 PTS),Made Shot,Step Back Jump shot,1,2,365
+0021800163,498,PT10M20.00S,4,1610612745,HOU,2546,Anthony,C. Anthony,9,3,1,Made,1,84,62,146,v,Anthony 1' Layup (2 PTS),Made Shot,Layup Shot,1,2,366
+0021800163,499,PT10M20.00S,4,1610612760,OKC,203457,Noel,N. Noel,0,0,0,,0,,,0,h,Noel Violation:Defensive Goaltending (K.Mauer),Violation,Defensive Goaltending,1,0,367
+0021800163,500,PT10M04.00S,4,1610612760,OKC,1628977,Diallo,H. Diallo,5,-6,1,Made,1,86,62,148,h,Diallo 1' Driving Layup (5 PTS),Made Shot,Driving Layup Shot,1,2,368
+0021800163,501,PT09M56.00S,4,1610612760,OKC,203457,Noel,N. Noel,0,0,0,,0,,,0,h,Noel S.FOUL (P2.T1) (S.Wall),Foul,Shooting,1,0,369
+0021800163,503,PT09M56.00S,4,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,86,63,149,v,Paul Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,0,0,370
+0021800163,504,PT09M56.00S,4,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,86,64,150,v,Paul Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,0,0,371
+0021800163,505,PT09M56.00S,4,0,,1610612745,,,0,0,0,,0,,,0,,Delay Of Game,Violation,Delay Of Game,0,0,372
+0021800163,506,PT09M33.00S,4,1610612760,OKC,203457,Noel,N. Noel,-138,6,14,Missed,1,,,0,h,MISS Noel 14' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,373
+0021800163,507,PT09M32.00S,4,0,,1610612760,,,0,0,0,,0,,,0,h,THUNDER Rebound,Rebound,Unknown,0,0,374
+0021800163,508,PT09M32.00S,4,0,,1610612760,,,0,0,0,,0,,,0,h,THUNDER Turnover: Shot Clock (T#11),Turnover,Shot Clock Turnover,0,0,375
+0021800163,509,PT09M28.00S,4,1610612745,HOU,203516,Ennis III,J. Ennis III,122,234,26,Missed,1,,,0,v,MISS Ennis III 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,376
+0021800163,510,PT09M25.00S,4,1610612760,OKC,203457,Noel,N. Noel,0,0,0,,0,,,0,h,Noel REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,377
+0021800163,511,PT09M12.00S,4,1610612760,OKC,101109,Felton,R. Felton,134,216,25,Missed,1,,,0,h,MISS Felton 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,378
+0021800163,512,PT09M10.00S,4,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Rebound,Rebound,Unknown,0,0,379
+0021800163,513,PT08M58.00S,4,1610612745,HOU,1627737,Chriss,M. Chriss,-35,247,25,Missed,1,,,0,v,MISS Chriss 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,380
+0021800163,514,PT08M54.00S,4,1610612745,HOU,2546,Anthony,C. Anthony,0,0,0,,0,,,0,v,Anthony REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,381
+0021800163,515,PT08M52.00S,4,1610612745,HOU,2546,Anthony,C. Anthony,-228,6,0,Missed,1,,,0,v,MISS Anthony 3PT Jump Shot,Missed Shot,Jump Shot,1,3,382
+0021800163,516,PT08M50.00S,4,1610612760,OKC,202335,Patterson,P. Patterson,0,0,0,,0,,,0,h,Patterson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,383
+0021800163,517,PT08M50.00S,4,0,,1610612760,,,0,0,0,,0,,,0,h,THUNDER Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,384
+0021800163,518,PT08M50.00S,4,1610612745,HOU,2546,Anthony,C. Anthony,0,0,0,,0,,,0,v,SUB: Tucker FOR Anthony,Substitution,,0,0,385
+0021800163,519,PT08M50.00S,4,1610612745,HOU,101123,Green,G. Green,0,0,0,,0,,,0,v,SUB: Harden FOR Green,Substitution,,0,0,386
+0021800163,522,PT08M47.00S,4,1610612745,HOU,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,Ennis III P.FOUL (P5.T2) (M.Ayotte),Foul,Personal,0,0,387
+0021800163,524,PT08M32.00S,4,1610612760,OKC,203518,Abrines,A. Abrines,0,0,0,,0,,,0,h,Abrines Lost Ball Turnover (P1.T12),Turnover,Lost Ball,1,0,388
+0021800163,524,PT08M32.00S,4,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden STEAL (2 STL),,,1,0,389
+0021800163,526,PT08M24.00S,4,1610612745,HOU,201935,Harden,J. Harden,92,234,25,Made,1,86,67,153,v,Harden 25' 3PT Jump Shot (17 PTS),Made Shot,Jump Shot,1,3,390
+0021800163,527,PT08M06.00S,4,1610612760,OKC,202335,Patterson,P. Patterson,0,0,0,,0,,,0,h,Patterson Bad Pass Turnover (P1.T13),Turnover,Bad Pass,1,0,391
+0021800163,527,PT08M06.00S,4,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,v,Paul STEAL (5 STL),,,1,0,392
+0021800163,529,PT08M02.00S,4,1610612745,HOU,1627737,Chriss,M. Chriss,-8,4,1,Made,1,86,69,155,v,Chriss 1' Dunk (2 PTS) (Paul 5 AST),Made Shot,Dunk Shot,1,2,393
+0021800163,531,PT07M39.00S,4,1610612760,OKC,203518,Abrines,A. Abrines,-154,200,25,Missed,1,,,0,h,MISS Abrines 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,394
+0021800163,532,PT07M36.00S,4,1610612760,OKC,203518,Abrines,A. Abrines,0,0,0,,0,,,0,h,Abrines REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,395
+0021800163,534,PT07M27.00S,4,1610612760,OKC,101109,Felton,R. Felton,0,63,6,Made,1,88,69,157,h,Felton 6' Floating Jump Shot (10 PTS),Made Shot,Floating Jump shot,1,2,396
+0021800163,535,PT07M05.00S,4,1610612760,OKC,1628977,Diallo,H. Diallo,0,0,0,,0,,,0,h,Diallo P.FOUL (P1.T2) (S.Wall),Foul,Personal,1,0,397
+0021800163,537,PT07M05.00S,4,1610612760,OKC,101109,Felton,R. Felton,0,0,0,,0,,,0,h,SUB: Adams FOR Felton,Substitution,,0,0,398
+0021800163,538,PT07M05.00S,4,1610612760,OKC,203457,Noel,N. Noel,0,0,0,,0,,,0,h,SUB: Grant FOR Noel,Substitution,,0,0,399
+0021800163,539,PT07M05.00S,4,1610612760,OKC,1628977,Diallo,H. Diallo,0,0,0,,0,,,0,h,SUB: Schroder FOR Diallo,Substitution,,0,0,400
+0021800163,540,PT07M05.00S,4,1610612760,OKC,202335,Patterson,P. Patterson,0,0,0,,0,,,0,h,SUB: Ferguson FOR Patterson,Substitution,,0,0,401
+0021800163,541,PT07M05.00S,4,1610612745,HOU,1627737,Chriss,M. Chriss,0,0,0,,0,,,0,v,SUB: Capela FOR Chriss,Substitution,,0,0,402
+0021800163,547,PT07M01.00S,4,1610612745,HOU,201935,Harden,J. Harden,214,135,25,Missed,1,,,0,v,MISS Harden 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,403
+0021800163,548,PT06M57.00S,4,1610612745,HOU,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,Ennis III REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,404
+0021800163,549,PT06M45.00S,4,1610612745,HOU,101108,Paul,C. Paul,9,135,14,Made,1,88,71,159,v,Paul 14' Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,2,405
+0021800163,550,PT06M28.00S,4,1610612760,OKC,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant OFF.Foul (P3) (S.Wall),Foul,Offensive,1,0,406
+0021800163,552,PT06M28.00S,4,1610612760,OKC,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant Offensive Foul Turnover (P1.T14),Turnover,Offensive Foul Turnover,1,0,407
+0021800163,553,PT06M16.00S,4,1610612745,HOU,203991,Capela,C. Capela,9,14,2,Missed,1,,,0,v,MISS Capela 2' Alley Oop Dunk,Missed Shot,Alley Oop Dunk Shot,1,2,408
+0021800163,554,PT06M14.00S,4,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,409
+0021800163,555,PT06M08.00S,4,1610612760,OKC,203518,Abrines,A. Abrines,-175,173,25,Missed,1,,,0,h,MISS Abrines 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,410
+0021800163,556,PT06M05.00S,4,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams REBOUND (Off:4 Def:4),Rebound,Unknown,1,0,411
+0021800163,557,PT06M04.00S,4,1610612760,OKC,203518,Abrines,A. Abrines,0,0,0,,0,,,0,h,SUB: George FOR Abrines,Substitution,,0,0,412
+0021800163,559,PT06M02.00S,4,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Jump Ball Adams vs. Paul: Tip to Harden,Jump Ball,,1,0,413
+0021800163,562,PT06M02.00S,4,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams Lost Ball Turnover (P1.T15),Turnover,Lost Ball,1,0,414
+0021800163,562,PT06M02.00S,4,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,v,Paul STEAL (6 STL),,,1,0,415
+0021800163,564,PT05M51.00S,4,1610612745,HOU,203516,Ennis III,J. Ennis III,1,1,0,Missed,1,,,0,v,MISS Ennis III Driving Layup,Missed Shot,Driving Layup Shot,1,2,416
+0021800163,565,PT05M49.00S,4,1610612745,HOU,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,Ennis III REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,417
+0021800163,566,PT05M49.00S,4,1610612745,HOU,203516,Ennis III,J. Ennis III,0,-6,1,Missed,1,,,0,v,MISS Ennis III 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,418
+0021800163,567,PT05M48.00S,4,1610612745,HOU,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,Ennis III REBOUND (Off:3 Def:0),Rebound,Unknown,1,0,419
+0021800163,568,PT05M48.00S,4,1610612745,HOU,203516,Ennis III,J. Ennis III,0,-6,1,Missed,1,,,0,v,MISS Ennis III 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,420
+0021800163,569,PT05M47.00S,4,1610612760,OKC,202331,George,P. George,0,0,0,,0,,,0,h,George REBOUND (Off:1 Def:10),Rebound,Unknown,1,0,421
+0021800163,572,PT05M39.00S,4,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,v,SUB: Clark FOR Paul,Substitution,,0,0,422
+0021800163,574,PT05M37.00S,4,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Jump Ball Adams vs. Ennis III: Tip to George,Jump Ball,,1,0,423
+0021800163,579,PT05M29.00S,4,1610612760,OKC,1628390,Ferguson,T. Ferguson,111,227,25,Made,1,91,71,162,h,Ferguson 25' 3PT Jump Shot (14 PTS) (Grant 2 AST),Made Shot,Jump Shot,1,3,424
+0021800163,581,PT05M06.00S,4,1610612745,HOU,201935,Harden,J. Harden,-27,-1,3,Made,1,91,73,164,v,Harden 3' Driving Layup (19 PTS),Made Shot,Driving Layup Shot,1,2,425
+0021800163,582,PT04M53.00S,4,1610612760,OKC,202331,George,P. George,111,141,18,Missed,1,,,0,h,MISS George 18' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,426
+0021800163,583,PT04M49.00S,4,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams REBOUND (Off:5 Def:4),Rebound,Unknown,1,0,427
+0021800163,584,PT04M48.00S,4,1610612760,OKC,1628390,Ferguson,T. Ferguson,-149,207,26,Missed,1,,,0,h,MISS Ferguson 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,428
+0021800163,585,PT04M45.00S,4,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,429
+0021800163,586,PT04M39.00S,4,1610612745,HOU,201935,Harden,J. Harden,172,180,25,Missed,1,,,0,v,MISS Harden 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,430
+0021800163,587,PT04M35.00S,4,1610612760,OKC,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,Schroder REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,431
+0021800163,588,PT04M21.00S,4,1610612760,OKC,1628390,Ferguson,T. Ferguson,218,115,25,Missed,1,,,0,h,MISS Ferguson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,432
+0021800163,589,PT04M18.00S,4,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,Adams REBOUND (Off:6 Def:4),Rebound,Unknown,1,0,433
+0021800163,590,PT04M10.00S,4,1610612760,OKC,203471,Schröder,D. Schröder,-94,169,19,Made,1,93,73,166,h,Schroder 19' Pullup Jump Shot (14 PTS),Made Shot,Pullup Jump shot,1,2,434
+0021800163,591,PT03M42.00S,4,1610612745,HOU,201935,Harden,J. Harden,-113,248,27,Missed,1,,,0,v,MISS Harden 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,435
+0021800163,592,PT03M39.00S,4,1610612760,OKC,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,436
+0021800163,593,PT03M21.00S,4,1610612760,OKC,1628390,Ferguson,T. Ferguson,-235,1,24,Missed,1,,,0,h,MISS Ferguson 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,437
+0021800163,594,PT03M18.00S,4,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,438
+0021800163,595,PT03M14.00S,4,1610612760,OKC,203924,Grant,J. Grant,0,0,0,,0,,,0,h,Grant P.FOUL (P4.T3) (K.Mauer),Foul,Personal,1,0,439
+0021800163,597,PT03M14.00S,4,1610612745,HOU,203516,Ennis III,J. Ennis III,0,0,0,,0,,,0,v,SUB: Paul FOR Ennis III,Substitution,,0,0,440
+0021800163,599,PT03M06.00S,4,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,v,Paul OFF.Foul (P3) (M.Ayotte),Foul,Offensive,1,0,441
+0021800163,601,PT03M06.00S,4,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,v,Paul Offensive Foul Turnover (P5.T16),Turnover,Offensive Foul Turnover,1,0,442
+0021800163,602,PT03M06.00S,4,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,v,Paul T.FOUL (P3.T2) (M.Ayotte),Foul,Technical,1,0,443
+0021800163,603,PT03M06.00S,4,0,,1610612760,,,0,0,0,,0,,,0,h,THUNDER Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,444
+0021800163,604,PT03M06.00S,4,1610612760,OKC,202331,George,P. George,0,0,0,,0,94,73,167,h,George Free Throw Technical (20 PTS),Free Throw,Free Throw Technical,0,0,445
+0021800163,605,PT02M48.00S,4,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,Tucker S.FOUL (P4.T3) (S.Wall),Foul,Shooting,1,0,446
+0021800163,607,PT02M48.00S,4,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,MISS Adams Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,447
+0021800163,608,PT02M48.00S,4,0,,1610612760,,,0,0,0,,0,,,0,h,THUNDER Rebound,Rebound,Normal Rebound,0,0,448
+0021800163,609,PT02M48.00S,4,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,MISS Adams Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,449
+0021800163,610,PT02M45.00S,4,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,450
+0021800163,611,PT02M29.00S,4,1610612745,HOU,201935,Harden,J. Harden,3,248,25,Missed,1,,,0,v,MISS Harden 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,451
+0021800163,612,PT02M26.00S,4,1610612760,OKC,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,Schroder REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,452
+0021800163,613,PT02M23.00S,4,1610612760,OKC,203500,Adams,S. Adams,-7,10,1,Made,1,96,73,169,h,Adams 1' Layup (17 PTS) (Schroder 5 AST),Made Shot,Layup Shot,1,2,453
+0021800163,615,PT02M23.00S,4,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden S.FOUL (P3.T4) (K.Mauer),Foul,Shooting,1,0,454
+0021800163,617,PT02M23.00S,4,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,MISS Adams Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,0,0,455
+0021800163,618,PT02M23.00S,4,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,456
+0021800163,622,PT01M58.00S,4,0,,1610612745,,,0,0,0,,0,,,0,v,Rockets Turnover: Shot Clock (T#17),Turnover,Shot Clock Turnover,0,0,457
+0021800163,620,PT01M42.00S,4,1610612760,OKC,203500,Adams,S. Adams,4,7,1,Made,1,98,73,171,h,Adams 1' Cutting Dunk Shot (19 PTS) (George 6 AST),Made Shot,Cutting Dunk Shot,1,2,458
+0021800163,623,PT01M29.00S,4,1610612745,HOU,101108,Paul,C. Paul,51,92,11,Made,1,98,75,173,v,Paul 11' Pullup Jump Shot (10 PTS),Made Shot,Pullup Jump shot,1,2,459
+0021800163,624,PT01M06.00S,4,1610612760,OKC,203471,Schröder,D. Schröder,105,157,19,Missed,1,,,0,h,MISS Schroder 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,460
+0021800163,625,PT01M05.00S,4,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,Harden REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,461
+0021800163,626,PT00M59.80S,4,1610612745,HOU,203991,Capela,C. Capela,-6,3,1,Missed,1,,,0,v,MISS Capela 1' Layup,Missed Shot,Layup Shot,1,2,462
+0021800163,627,PT00M59.30S,4,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,Capela REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,463
+0021800163,628,PT00M59.30S,4,1610612745,HOU,203991,Capela,C. Capela,0,-6,1,Made,1,98,77,175,v,Capela 1' Tip Layup Shot (17 PTS),Made Shot,Tip Layup Shot,1,2,464
+0021800163,629,PT00M59.30S,4,0,,1610612760,,,0,0,0,,0,,,0,h,THUNDER Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,465
+0021800163,630,PT00M59.30S,4,1610612760,OKC,203924,Grant,J. Grant,0,0,0,,0,,,0,h,SUB: Noel FOR Grant,Substitution,,0,0,466
+0021800163,631,PT00M59.30S,4,1610612760,OKC,203500,Adams,S. Adams,0,0,0,,0,,,0,h,SUB: Diallo FOR Adams,Substitution,,0,0,467
+0021800163,632,PT00M59.30S,4,1610612760,OKC,202331,George,P. George,0,0,0,,0,,,0,h,SUB: Abrines FOR George,Substitution,,0,0,468
+0021800163,633,PT00M59.30S,4,1610612760,OKC,203471,Schröder,D. Schröder,0,0,0,,0,,,0,h,SUB: Luwawu-Cabarrot FOR Schroder,Substitution,,0,0,469
+0021800163,634,PT00M59.30S,4,1610612760,OKC,1628390,Ferguson,T. Ferguson,0,0,0,,0,,,0,h,SUB: Nader FOR Ferguson,Substitution,,0,0,470
+0021800163,635,PT00M59.30S,4,1610612745,HOU,201935,Harden,J. Harden,0,0,0,,0,,,0,v,SUB: Ennis III FOR Harden,Substitution,,0,0,471
+0021800163,636,PT00M59.30S,4,1610612745,HOU,203991,Capela,C. Capela,0,0,0,,0,,,0,v,SUB: Chriss FOR Capela,Substitution,,0,0,472
+0021800163,637,PT00M59.30S,4,1610612745,HOU,200782,Tucker,P. Tucker,0,0,0,,0,,,0,v,SUB: Green FOR Tucker,Substitution,,0,0,473
+0021800163,638,PT00M59.30S,4,1610612745,HOU,101108,Paul,C. Paul,0,0,0,,0,,,0,v,SUB: Hartenstein FOR Paul,Substitution,,0,0,474
+0021800163,648,PT00M42.90S,4,1610612760,OKC,1627846,Nader,A. Nader,234,0,0,Missed,1,,,0,h,MISS Nader 3PT Jump Shot,Missed Shot,Jump Shot,1,3,475
+0021800163,649,PT00M39.90S,4,1610612745,HOU,1627737,Chriss,M. Chriss,0,0,0,,0,,,0,v,Chriss REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,476
+0021800163,650,PT00M24.00S,4,1610612745,HOU,1627737,Chriss,M. Chriss,1,20,2,Missed,1,,,0,v,MISS Chriss 2' Layup,Missed Shot,Layup Shot,1,2,477
+0021800163,650,PT00M24.00S,4,1610612760,OKC,203457,Noel,N. Noel,0,0,0,,0,,,0,h,Noel BLOCK (3 BLK),,,1,2,478
+0021800163,652,PT00M21.90S,4,1610612745,HOU,1627737,Chriss,M. Chriss,0,0,0,,0,,,0,v,Chriss REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,479
+0021800163,653,PT00M20.40S,4,1610612745,HOU,101123,Green,G. Green,-87,237,25,Made,1,98,80,178,v,Green 25' 3PT Jump Shot (8 PTS) (Chriss 1 AST),Made Shot,Jump Shot,1,3,480
+0021800163,655,PT00M00.00S,4,0,,0,,,0,0,0,,0,98,80,178,,End of 4th Period (10:27 PM EST),period,end,1,0,481

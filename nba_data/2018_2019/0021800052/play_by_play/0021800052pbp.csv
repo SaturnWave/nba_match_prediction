@@ -1,0 +1,568 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021800052,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:16 PM EST),period,start,0,0,1
+0021800052,4,PT12M00.00S,1,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Jump Ball Len vs. Jordan: Tip to Doncic,Jump Ball,,1,0,2
+0021800052,7,PT11M40.00S,1,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,-22,75,8,Missed,1,,,0,v,MISS Smith Jr. 8' Driving Layup,Missed Shot,Driving Layup Shot,1,2,3
+0021800052,7,PT11M40.00S,1,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len BLOCK (1 BLK),,,1,2,4
+0021800052,9,PT11M36.00S,1,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,5
+0021800052,10,PT11M25.00S,1,1610612737,ATL,1629027,Young,T. Young,-6,144,14,Missed,1,,,0,h,MISS Young 14' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,6
+0021800052,10,PT11M25.00S,1,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. BLOCK (1 BLK),,,1,2,7
+0021800052,12,PT11M22.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,8
+0021800052,13,PT11M19.00S,1,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,-92,242,26,Made,1,0,3,3,v,Smith Jr. 26' 3PT Jump Bank Shot (3 PTS) (Doncic 1 AST),Made Shot,Jump Bank Shot,1,3,9
+0021800052,15,PT11M07.00S,1,1610612737,ATL,1713,Carter,V. Carter,112,233,26,Made,1,3,3,6,h,Carter 26' 3PT Jump Shot (3 PTS) (Young 1 AST),Made Shot,Jump Shot,1,3,10
+0021800052,17,PT10M52.00S,1,1610612742,DAL,202083,Matthews,W. Matthews,14,109,11,Made,1,3,5,8,v,Matthews 11' Floating Jump Shot (2 PTS) (Jordan 1 AST),Made Shot,Floating Jump shot,1,2,11
+0021800052,19,PT10M41.00S,1,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. S.FOUL (P1.T1) (M.Kogut),Foul,Shooting,1,0,12
+0021800052,21,PT10M41.00S,1,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,MISS Young Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,13
+0021800052,22,PT10M41.00S,1,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Normal Rebound,0,0,14
+0021800052,23,PT10M41.00S,1,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,4,5,9,h,Young Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,0,0,15
+0021800052,24,PT10M31.00S,1,1610612742,DAL,202083,Matthews,W. Matthews,-20,253,25,Made,1,4,8,12,v,Matthews 25' 3PT Jump Shot (5 PTS) (Smith Jr. 1 AST),Made Shot,Jump Shot,1,3,16
+0021800052,26,PT10M19.00S,1,1610612737,ATL,203458,Len,A. Len,-9,23,2,Missed,1,,,0,h,MISS Len 2' Alley Oop Layup,Missed Shot,Alley Oop Layup shot,1,2,17
+0021800052,27,PT10M19.00S,1,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,18
+0021800052,28,PT10M19.00S,1,1610612737,ATL,203458,Len,A. Len,0,-6,1,Missed,1,,,0,h,MISS Len 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,19
+0021800052,29,PT10M18.00S,1,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,20
+0021800052,144,PT10M17.00S,1,1610612737,ATL,203458,Len,A. Len,22,22,3,Missed,1,,,0,h,MISS Len 3' Putback Layup,Missed Shot,Putback Layup Shot,1,2,21
+0021800052,144,PT10M17.00S,1,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan BLOCK (1 BLK),,,1,2,22
+0021800052,146,PT10M17.00S,1,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,23
+0021800052,30,PT10M14.00S,1,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Jump Ball Len vs. Jordan: Tip to Matthews,Jump Ball,,1,0,24
+0021800052,35,PT09M58.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,-67,247,26,Made,1,4,11,15,v,Doncic 26' 3PT Step Back Jump Shot (3 PTS) (Smith Jr. 2 AST),Made Shot,Step Back Jump shot,1,3,25
+0021800052,37,PT09M42.00S,1,1610612737,ATL,203458,Len,A. Len,2,16,2,Made,1,6,11,17,h,Len 2' Alley Oop Dunk (2 PTS) (Bazemore 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,26
+0021800052,39,PT09M31.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,-105,38,11,Made,1,6,13,19,v,Doncic 11' Driving Floating Jump Shot (5 PTS),Made Shot,Driving Floating Jump Shot,1,2,27
+0021800052,40,PT09M24.00S,1,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young Out of Bounds Lost Ball Turnover (P1.T1),Turnover,Out of Bounds Lost Ball Turnover,1,0,28
+0021800052,41,PT09M17.00S,1,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len S.FOUL (P1.T1) (K.Lane),Foul,Shooting,1,0,29
+0021800052,43,PT09M17.00S,1,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,6,14,20,v,Smith Jr. Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,0,0,30
+0021800052,44,PT09M17.00S,1,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,MISS Smith Jr. Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,31
+0021800052,45,PT09M15.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,32
+0021800052,71,PT09M03.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,71,75,10,Missed,1,,,0,v,MISS Doncic 10' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,33
+0021800052,71,PT09M03.00S,1,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young BLOCK (1 BLK),,,1,2,34
+0021800052,73,PT09M03.00S,1,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,35
+0021800052,48,PT08M58.00S,1,1610612737,ATL,203145,Bazemore,K. Bazemore,-210,146,26,Missed,1,,,0,h,MISS Bazemore 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,36
+0021800052,49,PT08M53.00S,1,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,37
+0021800052,50,PT08M46.00S,1,1610612742,DAL,201599,Jordan,D. Jordan,2,17,2,Made,1,6,16,22,v,Jordan 2' Cutting Layup Shot (2 PTS) (Smith Jr. 3 AST),Made Shot,Cutting Layup Shot,1,2,38
+0021800052,52,PT08M32.00S,1,1610612737,ATL,203145,Bazemore,K. Bazemore,-229,11,0,Made,1,9,16,25,h,Bazemore 3PT Jump Shot (3 PTS) (Prince 1 AST),Made Shot,Jump Shot,1,3,39
+0021800052,54,PT08M13.00S,1,1610612742,DAL,202083,Matthews,W. Matthews,-96,235,25,Made,1,9,19,28,v,Matthews 25' 3PT Jump Shot (8 PTS) (Smith Jr. 4 AST),Made Shot,Jump Shot,1,3,40
+0021800052,56,PT07M51.00S,1,1610612737,ATL,1627752,Prince,T. Prince,123,225,26,Made,1,12,19,31,h,Prince 26' 3PT Jump Shot (3 PTS) (Young 2 AST),Made Shot,Jump Shot,1,3,41
+0021800052,58,PT07M39.00S,1,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. Out of Bounds Lost Ball Turnover (P1.T1),Turnover,Out of Bounds Lost Ball Turnover,1,0,42
+0021800052,59,PT07M26.00S,1,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan P.FOUL (P1.T2) (K.Lane),Foul,Personal,1,0,43
+0021800052,61,PT07M14.00S,1,1610612737,ATL,1713,Carter,V. Carter,-1,128,13,Missed,1,,,0,h,MISS Carter 13' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,44
+0021800052,62,PT07M11.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,45
+0021800052,63,PT07M08.00S,1,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore P.FOUL (P1.T2) (K.Fitzgerald),Foul,Personal,1,0,46
+0021800052,65,PT07M08.00S,1,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,h,SUB: Spellman FOR Carter,Substitution,,0,0,47
+0021800052,67,PT07M01.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,44,125,13,Made,1,12,21,33,v,Doncic 13' Driving Floating Jump Shot (7 PTS),Made Shot,Driving Floating Jump Shot,1,2,48
+0021800052,68,PT06M50.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic P.FOUL (P1.T3) (K.Fitzgerald),Foul,Personal,1,0,49
+0021800052,70,PT06M50.00S,1,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,50
+0021800052,75,PT06M50.00S,1,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,SUB: Dedmon FOR Len,Substitution,,0,0,51
+0021800052,77,PT06M43.00S,1,1610612737,ATL,1629016,Spellman,O. Spellman,-3,15,2,Made,1,14,21,35,h,Spellman 2' Cutting Dunk Shot (2 PTS) (Bazemore 2 AST),Made Shot,Cutting Dunk Shot,1,2,52
+0021800052,79,PT06M32.00S,1,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,-80,245,26,Missed,1,,,0,v,MISS Smith Jr. 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,53
+0021800052,80,PT06M28.00S,1,1610612737,ATL,1629016,Spellman,O. Spellman,0,0,0,,0,,,0,h,Spellman REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,54
+0021800052,81,PT06M18.00S,1,1610612737,ATL,1629027,Young,T. Young,-12,70,7,Missed,1,,,0,h,MISS Young 7' Driving Layup,Missed Shot,Driving Layup Shot,1,2,55
+0021800052,82,PT06M14.00S,1,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,56
+0021800052,83,PT06M12.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,-123,224,26,Made,1,14,24,38,v,Doncic 26' 3PT Jump Shot (10 PTS) (Smith Jr. 5 AST),Made Shot,Jump Shot,1,3,57
+0021800052,85,PT05M54.00S,1,1610612737,ATL,1629027,Young,T. Young,133,232,27,Missed,1,,,0,h,MISS Young 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,58
+0021800052,86,PT05M51.00S,1,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,59
+0021800052,87,PT05M48.00S,1,1610612737,ATL,1629016,Spellman,O. Spellman,0,0,0,,0,,,0,h,Spellman S.FOUL (P1.T3) (M.Kogut),Foul,Shooting,1,0,60
+0021800052,89,PT05M48.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,14,25,39,v,Doncic Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,0,0,61
+0021800052,90,PT05M48.00S,1,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,SUB: Bembry FOR Young,Substitution,,0,0,62
+0021800052,91,PT05M48.00S,1,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,SUB: Lin FOR Bazemore,Substitution,,0,0,63
+0021800052,94,PT05M48.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,14,26,40,v,Doncic Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,0,0,64
+0021800052,95,PT05M39.00S,1,1610612737,ATL,1627752,Prince,T. Prince,-96,236,25,Missed,1,,,0,h,MISS Prince 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,65
+0021800052,96,PT05M34.00S,1,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,66
+0021800052,97,PT05M27.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,-91,232,25,Missed,1,,,0,v,MISS Doncic 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,67
+0021800052,98,PT05M23.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,68
+0021800052,99,PT05M18.00S,1,1610612737,ATL,1627761,Bembry,D. Bembry,15,128,13,Made,1,16,26,42,h,Bembry 13' Floating Jump Shot (2 PTS) (Dedmon 1 AST),Made Shot,Floating Jump shot,1,2,69
+0021800052,101,PT05M11.00S,1,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. Out of Bounds Lost Ball Turnover (P2.T2),Turnover,Out of Bounds Lost Ball Turnover,1,0,70
+0021800052,102,PT04M56.00S,1,1610612737,ATL,202391,Lin,J. Lin,100,235,26,Missed,1,,,0,h,MISS Lin 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,71
+0021800052,103,PT04M53.00S,1,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,72
+0021800052,104,PT04M45.00S,1,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,Prince S.FOUL (P1.T4) (K.Lane),Foul,Shooting,1,0,73
+0021800052,106,PT04M45.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,16,27,43,v,Finney-Smith Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,74
+0021800052,107,PT04M45.00S,1,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,SUB: Brunson FOR Matthews,Substitution,,0,0,75
+0021800052,121,PT04M45.00S,1,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,SUB: Huerter FOR Prince,Substitution,,0,0,76
+0021800052,109,PT04M45.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,MISS Finney-Smith Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,77
+0021800052,110,PT04M37.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,78
+0021800052,113,PT04M25.00S,1,1610612737,ATL,1629016,Spellman,O. Spellman,0,0,0,,0,,,0,h,Spellman Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,79
+0021800052,113,PT04M25.00S,1,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. STEAL (1 STL),,,1,0,80
+0021800052,115,PT04M18.00S,1,1610612742,DAL,201599,Jordan,D. Jordan,-4,13,1,Made,1,16,29,45,v,Jordan 1' Layup (4 PTS),Made Shot,Layup Shot,1,2,81
+0021800052,116,PT04M12.00S,1,1610612737,ATL,1627761,Bembry,D. Bembry,0,20,2,Missed,1,,,0,h,MISS Bembry 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,82
+0021800052,117,PT04M12.00S,1,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,83
+0021800052,118,PT04M04.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,-111,229,25,Missed,1,,,0,v,MISS Doncic 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,84
+0021800052,119,PT03M59.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,85
+0021800052,120,PT03M49.00S,1,1610612737,ATL,1629016,Spellman,O. Spellman,6,12,1,Made,1,18,29,47,h,Spellman 1' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,86
+0021800052,122,PT03M48.00S,1,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,87
+0021800052,123,PT03M48.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,SUB: Len FOR Dedmon,Substitution,,0,0,88
+0021800052,124,PT03M48.00S,1,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,SUB: Barea FOR Smith Jr.,Substitution,,0,0,89
+0021800052,125,PT03M48.00S,1,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,SUB: Powell FOR Jordan,Substitution,,0,0,90
+0021800052,126,PT03M48.00S,1,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,SUB: Broekhoff FOR Finney-Smith,Substitution,,0,0,91
+0021800052,127,PT03M48.00S,1,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,SUB: Kleber FOR Doncic,Substitution,,0,0,92
+0021800052,133,PT03M31.00S,1,1610612742,DAL,1628973,Brunson,J. Brunson,-40,121,13,Made,1,18,31,49,v,Brunson 13' Turnaround Jump Shot (2 PTS) (Barea 1 AST),Made Shot,Turnaround Jump Shot,1,2,93
+0021800052,135,PT03M23.00S,1,1610612737,ATL,202391,Lin,J. Lin,0,0,0,,0,,,0,h,Lin Lost Ball Turnover (P1.T3),Turnover,Lost Ball,1,0,94
+0021800052,135,PT03M23.00S,1,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,Barea STEAL (1 STL),,,1,0,95
+0021800052,137,PT03M20.00S,1,1610612742,DAL,203939,Powell,D. Powell,7,20,2,Made,1,18,33,51,v,Powell 2' Dunk (2 PTS) (Barea 2 AST),Made Shot,Dunk Shot,1,2,96
+0021800052,139,PT03M20.00S,1,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,97
+0021800052,140,PT03M15.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell P.FOUL (P1.T4) (K.Fitzgerald),Foul,Personal,1,0,98
+0021800052,142,PT03M08.00S,1,1610612737,ATL,203458,Len,A. Len,-234,4,0,Made,1,21,33,54,h,Len 3PT Jump Shot (5 PTS) (Bembry 1 AST),Made Shot,Jump Shot,1,3,99
+0021800052,147,PT02M55.00S,1,1610612737,ATL,1629016,Spellman,O. Spellman,0,0,0,,0,,,0,h,Spellman S.FOUL (P2.PN) (K.Fitzgerald),Foul,Shooting,1,0,100
+0021800052,149,PT02M55.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,21,34,55,v,Kleber Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,101
+0021800052,150,PT02M55.00S,1,1610612737,ATL,1629016,Spellman,O. Spellman,0,0,0,,0,,,0,h,SUB: Poythress FOR Spellman,Substitution,,0,0,102
+0021800052,152,PT02M55.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,MISS Kleber Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,103
+0021800052,153,PT02M52.00S,1,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,104
+0021800052,154,PT02M49.00S,1,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson P.FOUL (P1.PN) (K.Lane),Foul,Personal,1,0,105
+0021800052,156,PT02M49.00S,1,1610612737,ATL,1627816,Poythress,A. Poythress,0,0,0,,0,,,0,h,MISS Poythress Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,106
+0021800052,157,PT02M49.00S,1,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Normal Rebound,0,0,107
+0021800052,158,PT02M49.00S,1,1610612737,ATL,1627816,Poythress,A. Poythress,0,0,0,,0,22,34,56,h,Poythress Free Throw 2 of 2 (1 PTS),Free Throw,Free Throw 2 of 2,0,0,108
+0021800052,159,PT02M42.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,94,236,25,Made,1,22,37,59,v,Kleber 25' 3PT Jump Shot (4 PTS) (Barea 3 AST),Made Shot,Jump Shot,1,3,109
+0021800052,161,PT02M25.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,232,44,24,Missed,1,,,0,h,MISS Huerter 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,110
+0021800052,162,PT02M22.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,111
+0021800052,163,PT02M06.00S,1,1610612742,DAL,1628973,Brunson,J. Brunson,41,150,16,Missed,1,,,0,v,MISS Brunson 16' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,112
+0021800052,164,PT02M03.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,Huerter REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,113
+0021800052,165,PT01M50.00S,1,1610612737,ATL,203458,Len,A. Len,230,71,24,Missed,1,,,0,h,MISS Len 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,114
+0021800052,166,PT01M46.00S,1,1610612742,DAL,1629151,Broekhoff,R. Broekhoff,0,0,0,,0,,,0,v,Broekhoff REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,115
+0021800052,167,PT01M35.00S,1,1610612742,DAL,203939,Powell,D. Powell,0,11,1,Made,1,22,39,61,v,Powell 1' Alley Oop Layup (4 PTS) (Barea 4 AST),Made Shot,Alley Oop Layup shot,1,2,116
+0021800052,169,PT01M23.00S,1,1610612737,ATL,202391,Lin,J. Lin,-2,12,1,Missed,1,,,0,h,MISS Lin 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,117
+0021800052,169,PT01M23.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber BLOCK (1 BLK),,,1,2,118
+0021800052,171,PT01M23.00S,1,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Unknown,0,0,119
+0021800052,173,PT01M23.00S,1,1610612737,ATL,202391,Lin,J. Lin,0,0,0,,0,,,0,h,SUB: Young FOR Lin,Substitution,,0,0,120
+0021800052,175,PT01M15.00S,1,1610612737,ATL,1627761,Bembry,D. Bembry,53,155,16,Missed,1,,,0,h,MISS Bembry 16' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,121
+0021800052,176,PT01M12.00S,1,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,Barea REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,122
+0021800052,177,PT00M58.60S,1,1610612742,DAL,200826,Barea,J. Barea,-16,127,13,Missed,1,,,0,v,MISS Barea 13' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,123
+0021800052,178,PT00M54.50S,1,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,Huerter REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,124
+0021800052,179,PT00M49.40S,1,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young Offensive Charge Foul (P1.PN) (K.Lane),Foul,Offensive Charge,1,0,125
+0021800052,181,PT00M49.40S,1,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young Offensive Foul Turnover (P2.T4),Turnover,Offensive Foul Turnover,1,0,126
+0021800052,182,PT00M35.00S,1,1610612742,DAL,1628467,Kleber,M. Kleber,-58,246,25,Made,1,22,42,64,v,Kleber 25' 3PT Jump Shot (7 PTS) (Barea 5 AST),Made Shot,Jump Shot,1,3,127
+0021800052,184,PT00M26.70S,1,1610612737,ATL,1629027,Young,T. Young,-22,117,12,Missed,1,,,0,h,MISS Young 12' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,128
+0021800052,185,PT00M23.10S,1,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,129
+0021800052,186,PT00M07.00S,1,1610612742,DAL,1629151,Broekhoff,R. Broekhoff,228,67,24,Missed,1,,,0,v,MISS Broekhoff 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,130
+0021800052,187,PT00M03.10S,1,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,131
+0021800052,188,PT00M00.00S,1,0,,0,,,0,0,0,,0,22,42,64,,End of 1st Period (7:45 PM EST),period,end,1,0,132
+0021800052,195,PT12M00.00S,2,0,,0,,,0,0,0,,0,22,42,64,,Start of 2nd Period (7:49 PM EST),period,start,0,0,133
+0021800052,196,PT11M44.00S,2,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young OFF.Foul (P2) (K.Fitzgerald),Foul,Offensive,1,0,134
+0021800052,198,PT11M44.00S,2,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young Offensive Foul Turnover (P3.T5),Turnover,Offensive Foul Turnover,1,0,135
+0021800052,199,PT11M31.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,-69,64,9,Missed,1,,,0,v,MISS Kleber 9' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,136
+0021800052,200,PT11M27.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,137
+0021800052,201,PT11M25.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,138
+0021800052,201,PT11M25.00S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore STEAL (1 STL),,,1,0,139
+0021800052,203,PT11M23.00S,2,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell S.FOUL (P2.T1) (M.Kogut),Foul,Shooting,1,0,140
+0021800052,205,PT11M23.00S,2,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,MISS Young Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,141
+0021800052,206,PT11M23.00S,2,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Normal Rebound,0,0,142
+0021800052,207,PT11M23.00S,2,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,23,42,65,h,Young Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,143
+0021800052,208,PT11M04.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,5,188,19,Missed,1,,,0,v,MISS Brunson 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,144
+0021800052,209,PT11M01.00S,2,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,145
+0021800052,210,PT10M54.00S,2,1610612737,ATL,1627752,Prince,T. Prince,-11,33,3,Missed,1,,,0,h,MISS Prince 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,146
+0021800052,211,PT10M52.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,147
+0021800052,212,PT10M46.00S,2,1610612742,DAL,202083,Matthews,W. Matthews,230,34,0,Made,1,23,45,68,v,Matthews 3PT Jump Shot (11 PTS) (Barea 6 AST),Made Shot,Jump Shot,1,3,148
+0021800052,214,PT10M27.00S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,0,16,2,Made,1,25,45,70,h,Bazemore 2' Cutting Layup Shot (5 PTS) (Len 1 AST),Made Shot,Cutting Layup Shot,1,2,149
+0021800052,216,PT10M15.00S,2,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young P.FOUL (P3.T1) (K.Lane),Foul,Personal,1,0,150
+0021800052,218,PT10M15.00S,2,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,SUB: Bembry FOR Young,Substitution,,0,0,151
+0021800052,220,PT10M06.00S,2,1610612742,DAL,202083,Matthews,W. Matthews,-84,116,14,Made,1,25,47,72,v,Matthews 14' Pullup Jump Shot (13 PTS),Made Shot,Pullup Jump shot,1,2,152
+0021800052,221,PT09M54.00S,2,1610612737,ATL,1627752,Prince,T. Prince,134,222,26,Missed,1,,,0,h,MISS Prince 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,153
+0021800052,222,PT09M51.00S,2,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,154
+0021800052,223,PT09M45.00S,2,1610612742,DAL,200826,Barea,J. Barea,35,27,4,Missed,1,,,0,v,MISS Barea 4' Driving Floating Bank Jump Shot,Missed Shot,Driving Floating Bank Jump Shot,1,2,155
+0021800052,224,PT09M45.00S,2,1610612737,ATL,1627816,Poythress,A. Poythress,0,0,0,,0,,,0,h,Poythress REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,156
+0021800052,225,PT09M40.00S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,-176,179,25,Missed,1,,,0,h,MISS Bazemore 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,157
+0021800052,226,PT09M40.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,158
+0021800052,227,PT09M26.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry P.FOUL (P1.T2) (K.Fitzgerald),Foul,Personal,1,0,159
+0021800052,229,PT09M26.00S,2,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,SUB: Spellman FOR Len,Substitution,,0,0,160
+0021800052,231,PT09M16.00S,2,1610612742,DAL,202083,Matthews,W. Matthews,13,17,2,Made,1,25,49,74,v,Matthews 2' Layup (15 PTS) (Brunson 1 AST),Made Shot,Layup Shot,1,2,161
+0021800052,233,PT09M03.00S,2,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,Prince Traveling Turnover (P1.T6),Turnover,Traveling,1,0,162
+0021800052,234,PT08M52.00S,2,1610612737,ATL,1627816,Poythress,A. Poythress,0,0,0,,0,,,0,h,Poythress P.FOUL (P1.T3) (K.Fitzgerald),Foul,Personal,1,0,163
+0021800052,236,PT08M38.00S,2,1610612742,DAL,202083,Matthews,W. Matthews,-227,51,0,Missed,1,,,0,v,MISS Matthews 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,164
+0021800052,237,PT08M34.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,165
+0021800052,238,PT08M31.00S,2,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell L.B.FOUL (P3.T2) (K.Fitzgerald),Foul,Loose Ball,1,0,166
+0021800052,240,PT08M31.00S,2,1610612737,ATL,1627816,Poythress,A. Poythress,0,0,0,,0,,,0,h,SUB: Carter FOR Poythress,Substitution,,0,0,167
+0021800052,241,PT08M31.00S,2,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,SUB: Jordan FOR Powell,Substitution,,0,0,168
+0021800052,244,PT08M28.00S,2,1610612737,ATL,1629016,Spellman,O. Spellman,199,147,25,Missed,1,,,0,h,MISS Spellman 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,169
+0021800052,245,PT08M25.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,170
+0021800052,246,PT08M17.00S,2,1610612742,DAL,200826,Barea,J. Barea,66,35,7,Missed,1,,,0,v,MISS Barea 7' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,171
+0021800052,247,PT08M10.00S,2,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,Matthews REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,172
+0021800052,248,PT08M10.00S,2,1610612742,DAL,202083,Matthews,W. Matthews,0,-6,1,Missed,1,,,0,v,MISS Matthews 1' Putback Layup,Missed Shot,Putback Layup Shot,1,2,173
+0021800052,249,PT08M09.00S,2,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,h,Carter REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,174
+0021800052,250,PT08M07.00S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,-2,26,3,Missed,1,,,0,h,MISS Bazemore 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,175
+0021800052,251,PT08M04.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,176
+0021800052,252,PT08M00.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,127,10,13,Made,1,25,51,76,v,Brunson 13' Step Back Jump Shot (4 PTS),Made Shot,Step Back Jump shot,1,2,177
+0021800052,253,PT07M46.00S,2,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,Prince Offensive Charge Foul (P2.T4) (K.Lane),Foul,Offensive Charge,1,0,178
+0021800052,255,PT07M46.00S,2,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,Prince Offensive Foul Turnover (P2.T7),Turnover,Offensive Foul Turnover,1,0,179
+0021800052,256,PT07M46.00S,2,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,SUB: Smith Jr. FOR Barea,Substitution,,0,0,180
+0021800052,257,PT07M46.00S,2,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,SUB: Finney-Smith FOR Kleber,Substitution,,0,0,181
+0021800052,260,PT07M30.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson Lost Ball Turnover (P1.T4),Turnover,Lost Ball,1,0,182
+0021800052,260,PT07M30.00S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore STEAL (2 STL),,,1,0,183
+0021800052,262,PT07M18.00S,2,1610612737,ATL,1713,Carter,V. Carter,-5,268,27,Missed,1,,,0,h,MISS Carter 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,184
+0021800052,263,PT07M14.00S,2,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,185
+0021800052,264,PT07M05.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,232,31,0,Missed,1,,,0,v,MISS Brunson 3PT Jump Shot,Missed Shot,Jump Shot,1,3,186
+0021800052,265,PT07M02.00S,2,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,187
+0021800052,266,PT06M59.00S,2,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,-228,17,0,Missed,1,,,0,v,MISS Finney-Smith 3PT Jump Shot,Missed Shot,Jump Shot,1,3,188
+0021800052,267,PT06M55.00S,2,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,Prince REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,189
+0021800052,268,PT06M50.00S,2,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,Matthews S.FOUL (P1.T3) (K.Lane),Foul,Shooting,1,0,190
+0021800052,270,PT06M50.00S,2,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,191
+0021800052,271,PT06M50.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,SUB: Doncic FOR Brunson,Substitution,,0,0,192
+0021800052,273,PT06M50.00S,2,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,26,51,77,h,Prince Free Throw 1 of 2 (4 PTS),Free Throw,Free Throw 1 of 2,0,0,193
+0021800052,274,PT06M50.00S,2,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,27,51,78,h,Prince Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,0,0,194
+0021800052,275,PT06M39.00S,2,1610612737,ATL,1629016,Spellman,O. Spellman,0,0,0,,0,,,0,h,Spellman P.FOUL (P3.PN) (K.Lane),Foul,Personal,1,0,195
+0021800052,277,PT06M39.00S,2,1610612737,ATL,1629016,Spellman,O. Spellman,0,0,0,,0,,,0,h,SUB: Dedmon FOR Spellman,Substitution,,0,0,196
+0021800052,279,PT06M27.00S,2,1610612742,DAL,202083,Matthews,W. Matthews,8,68,7,Missed,1,,,0,v,MISS Matthews 7' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,197
+0021800052,279,PT06M27.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry BLOCK (1 BLK),,,1,2,198
+0021800052,280,PT06M24.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,199
+0021800052,281,PT06M21.00S,2,1610612737,ATL,1627752,Prince,T. Prince,-230,-10,0,Made,1,30,51,81,h,Prince 3PT Jump Shot (8 PTS) (Bazemore 3 AST),Made Shot,Jump Shot,1,3,200
+0021800052,283,PT06M09.00S,2,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,231,52,24,Missed,1,,,0,v,MISS Finney-Smith 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,201
+0021800052,284,PT06M04.00S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,202
+0021800052,285,PT06M02.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,-6,16,2,Made,1,32,51,83,h,Bembry 2' Alley Oop Dunk (4 PTS) (Bazemore 4 AST),Made Shot,Alley Oop Dunk Shot,1,2,203
+0021800052,287,PT06M02.00S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,204
+0021800052,289,PT05M44.00S,2,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith Step Out of Bounds Turnover (P1.T5),Turnover,Step Out of Bounds Turnover,1,0,205
+0021800052,290,PT05M25.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,-9,152,15,Missed,1,,,0,h,MISS Bembry 15' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,206
+0021800052,291,PT05M21.00S,2,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,207
+0021800052,292,PT05M16.00S,2,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic Lost Ball Turnover (P1.T6),Turnover,Lost Ball,1,0,208
+0021800052,292,PT05M16.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry STEAL (1 STL),,,1,0,209
+0021800052,294,PT05M08.00S,2,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic S.FOUL (P2.T4) (K.Lane),Foul,Shooting,1,0,210
+0021800052,296,PT05M08.00S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,33,51,84,h,Bazemore Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,0,0,211
+0021800052,297,PT05M08.00S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,34,51,85,h,Bazemore Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,0,0,212
+0021800052,298,PT04M53.00S,2,1610612742,DAL,1629029,Dončić,L. Dončić,-74,120,14,Missed,1,,,0,v,MISS Doncic 14' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,213
+0021800052,299,PT04M50.00S,2,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,h,Carter REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,214
+0021800052,300,PT04M44.00S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,-17,197,20,Made,1,36,51,87,h,Bazemore 20' Pullup Jump Shot (9 PTS),Made Shot,Pullup Jump shot,1,2,215
+0021800052,301,PT04M32.00S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon P.FOUL (P1.PN) (K.Fitzgerald),Foul,Personal,1,0,216
+0021800052,303,PT04M32.00S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon T.FOUL (P1.PN) (K.Fitzgerald),Foul,Technical,1,0,217
+0021800052,304,PT04M32.00S,2,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,36,52,88,v,Smith Jr. Free Throw Technical (5 PTS),Free Throw,Free Throw Technical,0,0,218
+0021800052,305,PT04M32.00S,2,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,36,53,89,v,Smith Jr. Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,0,0,219
+0021800052,386,PT04M32.00S,2,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,SUB: Brunson FOR Matthews,Substitution,,0,0,220
+0021800052,306,PT04M32.00S,2,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,MISS Smith Jr. Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,221
+0021800052,307,PT04M30.00S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,222
+0021800052,308,PT04M15.00S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,200,148,25,Missed,1,,,0,h,MISS Dedmon 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,223
+0021800052,309,PT04M12.00S,2,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,224
+0021800052,310,PT04M05.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,103,230,25,Missed,1,,,0,v,MISS Brunson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,225
+0021800052,310,PT04M05.00S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon BLOCK (1 BLK),,,1,3,226
+0021800052,312,PT04M03.00S,2,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,227
+0021800052,313,PT04M03.00S,2,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan Backcourt Turnover (P1.T7),Turnover,Backcourt Turnover,1,0,228
+0021800052,314,PT03M53.00S,2,1610612737,ATL,1627752,Prince,T. Prince,-33,62,7,Missed,1,,,0,h,MISS Prince 7' Driving Layup,Missed Shot,Driving Layup Shot,1,2,229
+0021800052,315,PT03M50.00S,2,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,230
+0021800052,316,PT03M44.00S,2,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,109,114,16,Made,1,36,55,91,v,Smith Jr. 16' Driving Floating Jump Shot (8 PTS) (Jordan 2 AST),Made Shot,Driving Floating Jump Shot,1,2,231
+0021800052,320,PT03M26.00S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,-82,186,20,Missed,1,,,0,h,MISS Dedmon 20' Jump Shot,Missed Shot,Jump Shot,1,2,232
+0021800052,321,PT03M17.00S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,233
+0021800052,322,PT03M17.00S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,0,-6,1,Made,1,38,55,93,h,Bazemore 1' Tip Layup Shot (11 PTS),Made Shot,Tip Layup Shot,1,2,234
+0021800052,323,PT03M11.00S,2,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan OFF.Foul (P2) (M.Kogut),Foul,Offensive,1,0,235
+0021800052,325,PT03M11.00S,2,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan Offensive Foul Turnover (P2.T8),Turnover,Offensive Foul Turnover,1,0,236
+0021800052,326,PT03M11.00S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,SUB: Len FOR Dedmon,Substitution,,0,0,237
+0021800052,328,PT02M57.00S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,-2,16,2,Made,1,40,55,95,h,Bazemore 2' Driving Dunk (13 PTS),Made Shot,Driving Dunk Shot,1,2,238
+0021800052,329,PT02M47.00S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore P.FOUL (P2.PN) (K.Fitzgerald),Foul,Personal,1,0,239
+0021800052,331,PT02M47.00S,2,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,40,56,96,v,Jordan Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,0,0,240
+0021800052,332,PT02M47.00S,2,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,40,57,97,v,Jordan Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,0,0,241
+0021800052,333,PT02M30.00S,2,1610612737,ATL,1627752,Prince,T. Prince,-5,152,15,Made,1,42,57,99,h,Prince 15' Turnaround Fadeaway (10 PTS) (Bazemore 5 AST),Made Shot,Turnaround Fadeaway shot,1,2,242
+0021800052,335,PT02M18.00S,2,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,-161,200,26,Missed,1,,,0,v,MISS Smith Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,243
+0021800052,336,PT02M14.00S,2,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,h,Carter REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,244
+0021800052,337,PT02M06.00S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,-206,144,25,Missed,1,,,0,h,MISS Bazemore 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,245
+0021800052,338,PT02M03.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,246
+0021800052,339,PT02M01.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,4,32,3,Missed,1,,,0,h,MISS Bembry 3' Putback Layup,Missed Shot,Putback Layup Shot,1,2,247
+0021800052,340,PT02M01.00S,2,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,248
+0021800052,341,PT02M01.00S,2,1610612737,ATL,203458,Len,A. Len,0,-6,1,Made,1,44,57,101,h,Len 1' Tip Layup Shot (7 PTS),Made Shot,Tip Layup Shot,1,2,249
+0021800052,342,PT02M01.00S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,250
+0021800052,402,PT02M01.00S,2,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,SUB: Barea FOR Smith Jr.,Substitution,,0,0,251
+0021800052,404,PT02M01.00S,2,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,SUB: Matthews FOR Brunson,Substitution,,0,0,252
+0021800052,349,PT01M43.00S,2,1610612742,DAL,201599,Jordan,D. Jordan,7,30,3,Missed,1,,,0,v,MISS Jordan 3' Layup,Missed Shot,Layup Shot,1,2,253
+0021800052,350,PT01M40.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,254
+0021800052,351,PT01M37.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry Out of Bounds - Bad Pass Turnover Turnover (P1.T8),Turnover,Out of Bounds - Bad Pass Turnover,1,0,255
+0021800052,352,PT01M16.00S,2,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,Matthews Bad Pass Turnover (P1.T9),Turnover,Bad Pass,1,0,256
+0021800052,352,PT01M16.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry STEAL (2 STL),,,1,0,257
+0021800052,354,PT01M08.00S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,-7,21,2,Made,1,46,57,103,h,Bazemore 2' Running Layup (15 PTS) (Bembry 2 AST),Made Shot,Running Layup Shot,1,2,258
+0021800052,356,PT00M59.40S,2,1610612742,DAL,200826,Barea,J. Barea,96,155,18,Missed,1,,,0,v,MISS Barea 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,259
+0021800052,357,PT00M57.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,260
+0021800052,358,PT00M55.70S,2,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith P.FOUL (P1.PN) (M.Kogut),Foul,Personal,1,0,261
+0021800052,360,PT00M55.70S,2,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,MISS Bembry Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,262
+0021800052,361,PT00M55.70S,2,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Normal Rebound,0,0,263
+0021800052,362,PT00M55.70S,2,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,MISS Bembry Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,264
+0021800052,363,PT00M55.20S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,265
+0021800052,365,PT00M55.20S,2,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len P.FOUL (P2.PN) (K.Lane),Foul,Personal,1,0,266
+0021800052,367,PT00M55.20S,2,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,MISS Jordan Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,267
+0021800052,368,PT00M55.20S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Normal Rebound,0,0,268
+0021800052,369,PT00M55.20S,2,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,46,58,104,v,Jordan Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,0,0,269
+0021800052,370,PT00M45.20S,2,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,Matthews S.FOUL (P2.PN) (M.Kogut),Foul,Shooting,1,0,270
+0021800052,372,PT00M45.20S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,47,58,105,h,Bazemore Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,0,0,271
+0021800052,373,PT00M45.20S,2,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,SUB: Huerter FOR Prince,Substitution,,0,0,272
+0021800052,375,PT00M45.20S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,48,58,106,h,Bazemore Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,0,0,273
+0021800052,376,PT00M32.20S,2,1610612742,DAL,200826,Barea,J. Barea,38,158,16,Missed,1,,,0,v,MISS Barea 16' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,274
+0021800052,377,PT00M28.10S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,275
+0021800052,378,PT00M16.50S,2,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan Violation:Kicked Ball (M.Kogut),Violation,Kicked Ball,0,0,276
+0021800052,379,PT00M16.50S,2,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,SUB: Brunson FOR Barea,Substitution,,0,0,277
+0021800052,381,PT00M05.50S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,95,258,27,Missed,1,,,0,h,MISS Bazemore 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,278
+0021800052,382,PT00M02.00S,2,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,279
+0021800052,383,PT00M00.00S,2,1610612742,DAL,202083,Matthews,W. Matthews,-187,418,46,Missed,1,,,0,v,MISS Matthews 46' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,280
+0021800052,384,PT00M00.00S,2,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,281
+0021800052,385,PT00M00.00S,2,0,,0,,,0,0,0,,0,48,58,106,,End of 2nd Period (8:21 PM EST),period,end,1,0,282
+0021800052,412,PT12M00.00S,3,0,,0,,,0,0,0,,0,48,58,106,,Start of 3rd Period (8:36 PM EST),period,start,0,0,283
+0021800052,413,PT11M48.00S,3,1610612737,ATL,1627752,Prince,T. Prince,6,5,1,Made,1,50,58,108,h,Prince 1' Alley Oop Layup (12 PTS) (Young 3 AST),Made Shot,Alley Oop Layup shot,1,2,284
+0021800052,415,PT11M33.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,-38,142,15,Made,1,50,60,110,v,Doncic 15' Driving Floating Bank Jump Shot (14 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,285
+0021800052,417,PT11M18.00S,3,1610612737,ATL,1629027,Young,T. Young,-20,110,11,Missed,1,,,0,h,MISS Young 11' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,286
+0021800052,418,PT11M14.00S,3,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,287
+0021800052,419,PT11M13.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,-225,21,0,Missed,1,,,0,h,MISS Bazemore 3PT Jump Shot,Missed Shot,Jump Shot,1,3,288
+0021800052,420,PT11M11.00S,3,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,289
+0021800052,421,PT11M01.00S,3,1610612742,DAL,202083,Matthews,W. Matthews,44,253,26,Missed,1,,,0,v,MISS Matthews 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,290
+0021800052,422,PT10M56.00S,3,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,291
+0021800052,423,PT10M53.00S,3,1610612737,ATL,1627752,Prince,T. Prince,-223,6,0,Made,1,53,60,113,h,Prince 3PT Jump Shot (15 PTS) (Young 4 AST),Made Shot,Jump Shot,1,3,292
+0021800052,425,PT10M37.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,102,232,25,Missed,1,,,0,v,MISS Finney-Smith 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,293
+0021800052,426,PT10M32.00S,3,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,Prince REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,294
+0021800052,427,PT10M25.00S,3,1610612737,ATL,1629027,Young,T. Young,51,257,26,Made,1,56,60,116,h,Young 26' 3PT Jump Bank Shot (5 PTS) (Prince 2 AST),Made Shot,Jump Bank Shot,1,3,295
+0021800052,429,PT10M16.00S,3,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,296
+0021800052,430,PT10M07.00S,3,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan OFF.Foul (P3) (K.Lane),Foul,Offensive,1,0,297
+0021800052,432,PT10M07.00S,3,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan Offensive Foul Turnover (P3.T10),Turnover,Offensive Foul Turnover,1,0,298
+0021800052,433,PT10M01.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith P.FOUL (P2.T1) (M.Kogut),Foul,Personal,1,0,299
+0021800052,435,PT09M54.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,-226,19,0,Made,1,59,60,119,h,Bazemore 3PT Jump Shot (20 PTS) (Prince 3 AST),Made Shot,Jump Shot,1,3,300
+0021800052,437,PT09M39.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore P.FOUL (P3.T1) (K.Fitzgerald),Foul,Personal,1,0,301
+0021800052,439,PT09M35.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith Bad Pass Turnover (P2.T11),Turnover,Bad Pass,1,0,302
+0021800052,439,PT09M35.00S,3,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,h,Carter STEAL (1 STL),,,1,0,303
+0021800052,441,PT09M28.00S,3,1610612737,ATL,1629027,Young,T. Young,5,26,3,Missed,1,,,0,h,MISS Young 3' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,304
+0021800052,441,PT09M28.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith BLOCK (1 BLK),,,1,2,305
+0021800052,443,PT09M23.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,306
+0021800052,444,PT09M22.00S,3,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,-5,15,2,Made,1,59,62,121,v,Smith Jr. 2' Running Layup (10 PTS) (Doncic 2 AST),Made Shot,Running Layup Shot,1,2,307
+0021800052,446,PT09M12.00S,3,1610612737,ATL,1627752,Prince,T. Prince,6,247,25,Missed,1,,,0,h,MISS Prince 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,308
+0021800052,447,PT09M12.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,309
+0021800052,448,PT09M06.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,-150,211,26,Missed,1,,,0,v,MISS Doncic 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,310
+0021800052,449,PT09M06.00S,3,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,311
+0021800052,450,PT09M00.00S,3,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,-6,1,Made,1,59,64,123,v,Smith Jr. 1' Tip Dunk Shot (12 PTS),Made Shot,Tip Dunk Shot,1,2,312
+0021800052,451,PT08M48.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,34,257,26,Made,1,62,64,126,h,Bazemore 26' 3PT Pullup Jump Shot (23 PTS),Made Shot,Pullup Jump shot,1,3,313
+0021800052,452,PT08M30.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,-3,20,2,Missed,1,,,0,v,MISS Doncic 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,314
+0021800052,452,PT08M30.00S,3,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len BLOCK (2 BLK),,,1,2,315
+0021800052,454,PT08M30.00S,3,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,316
+0021800052,456,PT08M24.00S,3,1610612742,DAL,201599,Jordan,D. Jordan,-2,11,1,Made,1,62,66,128,v,Jordan 1' Cutting Dunk Shot (9 PTS) (Matthews 1 AST),Made Shot,Cutting Dunk Shot,1,2,317
+0021800052,458,PT08M24.00S,3,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len S.FOUL (P3.T2) (K.Fitzgerald),Foul,Shooting,1,0,318
+0021800052,460,PT08M24.00S,3,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,62,67,129,v,Jordan Free Throw 1 of 1 (10 PTS),Free Throw,Free Throw 1 of 1,0,0,319
+0021800052,461,PT08M15.00S,3,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len Bad Pass Turnover (P1.T9),Turnover,Bad Pass,1,0,320
+0021800052,461,PT08M15.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith STEAL (1 STL),,,1,0,321
+0021800052,463,PT08M11.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,-5,26,3,Made,1,62,69,131,v,Finney-Smith 3' Running Dunk (3 PTS),Made Shot,Running Dunk Shot,1,2,322
+0021800052,464,PT07M50.00S,3,1610612737,ATL,1713,Carter,V. Carter,-231,27,0,Missed,1,,,0,h,MISS Carter 3PT Jump Shot,Missed Shot,Jump Shot,1,3,323
+0021800052,465,PT07M47.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,324
+0021800052,466,PT07M46.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic Out of Bounds - Bad Pass Turnover Turnover (P2.T12),Turnover,Out of Bounds - Bad Pass Turnover,1,0,325
+0021800052,467,PT07M33.00S,3,1610612737,ATL,1713,Carter,V. Carter,-11,258,26,Made,1,65,69,134,h,Carter 26' 3PT Jump Shot (6 PTS) (Bazemore 6 AST),Made Shot,Jump Shot,1,3,326
+0021800052,469,PT07M15.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore P.FOUL (P4.T3) (K.Fitzgerald),Foul,Personal,1,0,327
+0021800052,471,PT07M15.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,SUB: Huerter FOR Bazemore,Substitution,,0,0,328
+0021800052,473,PT07M10.00S,3,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,Prince S.FOUL (P3.T4) (M.Kogut),Foul,Shooting,1,0,329
+0021800052,475,PT07M10.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,MISS Doncic Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,330
+0021800052,476,PT07M10.00S,3,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Normal Rebound,0,0,331
+0021800052,477,PT07M10.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,MISS Doncic Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,332
+0021800052,478,PT07M07.00S,3,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,333
+0021800052,479,PT06M56.00S,3,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,Huerter Bad Pass Turnover (P1.T10),Turnover,Bad Pass,1,0,334
+0021800052,479,PT06M56.00S,3,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. STEAL (2 STL),,,1,0,335
+0021800052,481,PT06M52.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,-2,12,1,Made,1,65,71,136,v,Finney-Smith 1' Alley Oop Dunk (5 PTS) (Smith Jr. 6 AST),Made Shot,Alley Oop Dunk Shot,1,2,336
+0021800052,483,PT06M52.00S,3,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,337
+0021800052,484,PT06M42.00S,3,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young Bad Pass Turnover (P4.T11),Turnover,Bad Pass,1,0,338
+0021800052,484,PT06M42.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith STEAL (2 STL),,,1,0,339
+0021800052,486,PT06M35.00S,3,1610612742,DAL,202083,Matthews,W. Matthews,-153,225,27,Missed,1,,,0,v,MISS Matthews 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,340
+0021800052,487,PT06M32.00S,3,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:2 Def:9),Rebound,Unknown,1,0,341
+0021800052,488,PT06M30.00S,3,1610612742,DAL,202083,Matthews,W. Matthews,-169,201,26,Made,1,65,74,139,v,Matthews 26' 3PT Jump Shot (18 PTS) (Jordan 3 AST),Made Shot,Jump Shot,1,3,342
+0021800052,490,PT06M10.00S,3,1610612737,ATL,203458,Len,A. Len,14,96,10,Missed,1,,,0,h,MISS Len 10' Jump Shot,Missed Shot,Jump Shot,1,2,343
+0021800052,491,PT06M07.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,344
+0021800052,492,PT05M58.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic Traveling Turnover (P3.T13),Turnover,Traveling,1,0,345
+0021800052,493,PT05M48.00S,3,1610612737,ATL,1629027,Young,T. Young,3,257,26,Missed,1,,,0,h,MISS Young 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,346
+0021800052,494,PT05M45.00S,3,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,347
+0021800052,495,PT05M36.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,87,258,27,Missed,1,,,0,v,MISS Doncic 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,348
+0021800052,496,PT05M33.00S,3,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,349
+0021800052,497,PT05M26.00S,3,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young Bad Pass Turnover (P5.T12),Turnover,Bad Pass,1,0,350
+0021800052,497,PT05M26.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic STEAL (1 STL),,,1,0,351
+0021800052,499,PT05M25.00S,3,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,Prince P.FOUL (P4.PN) (M.Kogut),Foul,Personal,1,0,352
+0021800052,501,PT05M25.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,65,75,140,v,Doncic Free Throw 1 of 2 (15 PTS),Free Throw,Free Throw 1 of 2,0,0,353
+0021800052,502,PT05M25.00S,3,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,SUB: Spellman FOR Young,Substitution,,0,0,354
+0021800052,503,PT05M25.00S,3,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,SUB: Lin FOR Prince,Substitution,,0,0,355
+0021800052,504,PT05M25.00S,3,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,h,SUB: Bembry FOR Carter,Substitution,,0,0,356
+0021800052,505,PT05M25.00S,3,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,SUB: Brunson FOR Smith Jr.,Substitution,,0,0,357
+0021800052,510,PT05M25.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,MISS Doncic Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,358
+0021800052,511,PT05M21.00S,3,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,359
+0021800052,512,PT05M11.00S,3,1610612737,ATL,203458,Len,A. Len,236,27,24,Missed,1,,,0,h,MISS Len 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,360
+0021800052,513,PT05M06.00S,3,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,Matthews REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,361
+0021800052,514,PT05M03.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,-164,206,26,Missed,1,,,0,v,MISS Doncic 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,362
+0021800052,515,PT05M00.00S,3,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,363
+0021800052,516,PT04M58.00S,3,1610612737,ATL,1628989,Huerter,K. Huerter,0,11,1,Made,1,67,75,142,h,Huerter 1' Running Dunk (2 PTS) (Bembry 3 AST),Made Shot,Running Dunk Shot,1,2,364
+0021800052,518,PT04M37.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,46,73,9,Missed,1,,,0,v,MISS Doncic 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,365
+0021800052,519,PT04M36.00S,3,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:3 Def:9),Rebound,Unknown,1,0,366
+0021800052,613,PT04M36.00S,3,1610612742,DAL,201599,Jordan,D. Jordan,-2,42,4,Missed,1,,,0,v,MISS Jordan 4' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,367
+0021800052,614,PT04M35.00S,3,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,Huerter REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,368
+0021800052,520,PT04M30.00S,3,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,Matthews P.FOUL (P3.T2) (K.Lane),Foul,Personal,1,0,369
+0021800052,522,PT04M30.00S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,SUB: Barea FOR Doncic,Substitution,,0,0,370
+0021800052,524,PT04M30.00S,3,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,SUB: Dedmon FOR Len,Substitution,,0,0,371
+0021800052,526,PT04M23.00S,3,1610612737,ATL,202391,Lin,J. Lin,0,0,0,,0,,,0,h,Lin Bad Pass Turnover (P2.T13),Turnover,Bad Pass,1,0,372
+0021800052,526,PT04M23.00S,3,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,Barea STEAL (2 STL),,,1,0,373
+0021800052,528,PT04M07.00S,3,1610612742,DAL,202083,Matthews,W. Matthews,47,258,26,Missed,1,,,0,v,MISS Matthews 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,374
+0021800052,529,PT04M03.00S,3,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,Huerter REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,375
+0021800052,530,PT03M54.00S,3,1610612737,ATL,1627761,Bembry,D. Bembry,2,16,2,Made,1,69,75,144,h,Bembry 2' Driving Layup (6 PTS) (Huerter 1 AST),Made Shot,Driving Layup Shot,1,2,376
+0021800052,532,PT03M37.00S,3,1610612742,DAL,1628973,Brunson,J. Brunson,180,176,25,Missed,1,,,0,v,MISS Brunson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,377
+0021800052,533,PT03M33.00S,3,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,378
+0021800052,534,PT03M27.00S,3,1610612737,ATL,1627761,Bembry,D. Bembry,-22,261,26,Made,1,72,75,147,h,Bembry 26' 3PT Jump Shot (9 PTS) (Lin 1 AST),Made Shot,Jump Shot,1,3,379
+0021800052,536,PT03M26.00S,3,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,380
+0021800052,537,PT03M26.00S,3,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,SUB: Kleber FOR Matthews,Substitution,,0,0,381
+0021800052,541,PT03M04.00S,3,1610612742,DAL,1628973,Brunson,J. Brunson,-34,50,6,Missed,1,,,0,v,MISS Brunson 6' Driving Layup,Missed Shot,Driving Layup Shot,1,2,382
+0021800052,542,PT03M00.00S,3,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,383
+0021800052,543,PT02M57.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith S.FOUL (P3.T3) (K.Fitzgerald),Foul,Shooting,1,0,384
+0021800052,545,PT02M57.00S,3,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,73,75,148,h,Bembry Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,0,0,385
+0021800052,546,PT02M57.00S,3,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,74,75,149,h,Bembry Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,0,0,386
+0021800052,548,PT02M42.00S,3,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,SUB: Doncic FOR Finney-Smith,Substitution,,0,0,387
+0021800052,550,PT02M37.00S,3,1610612742,DAL,1628467,Kleber,M. Kleber,188,164,25,Made,1,74,78,152,v,Kleber 25' 3PT Jump Shot (10 PTS) (Barea 7 AST),Made Shot,Jump Shot,1,3,388
+0021800052,552,PT02M19.00S,3,1610612737,ATL,1627761,Bembry,D. Bembry,7,11,1,Missed,1,,,0,h,MISS Bembry 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,389
+0021800052,553,PT02M16.00S,3,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,390
+0021800052,554,PT02M12.00S,3,1610612742,DAL,1628973,Brunson,J. Brunson,0,16,2,Made,1,74,80,154,v,Brunson 2' Driving Layup (6 PTS),Made Shot,Driving Layup Shot,1,2,391
+0021800052,555,PT01M57.00S,3,1610612737,ATL,203473,Dedmon,D. Dedmon,-232,61,24,Made,1,77,80,157,h,Dedmon 24' 3PT Jump Shot (3 PTS) (Lin 2 AST),Made Shot,Jump Shot,1,3,392
+0021800052,557,PT01M41.00S,3,1610612742,DAL,200826,Barea,J. Barea,-105,144,18,Missed,1,,,0,v,MISS Barea 18' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,393
+0021800052,558,PT01M37.00S,3,1610612737,ATL,1629016,Spellman,O. Spellman,0,0,0,,0,,,0,h,Spellman REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,394
+0021800052,559,PT01M35.00S,3,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,Huerter Out of Bounds - Bad Pass Turnover Turnover (P2.T14),Turnover,Out of Bounds - Bad Pass Turnover,1,0,395
+0021800052,560,PT01M35.00S,3,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,SUB: Young FOR Huerter,Substitution,,0,0,396
+0021800052,561,PT01M35.00S,3,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,SUB: Powell FOR Jordan,Substitution,,0,0,397
+0021800052,564,PT01M25.00S,3,1610612742,DAL,203939,Powell,D. Powell,-8,15,2,Made,1,77,82,159,v,Powell 2' Alley Oop Dunk (6 PTS) (Barea 8 AST),Made Shot,Alley Oop Dunk Shot,1,2,398
+0021800052,566,PT01M10.00S,3,1610612737,ATL,1629027,Young,T. Young,-38,122,13,Missed,1,,,0,h,MISS Young 13' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,399
+0021800052,567,PT01M06.00S,3,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,Barea REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,400
+0021800052,568,PT00M52.70S,3,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young P.FOUL (P4.PN) (K.Lane),Foul,Personal,1,0,401
+0021800052,570,PT00M52.70S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,77,83,160,v,Doncic Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,0,0,402
+0021800052,571,PT00M52.70S,3,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,SUB: Huerter FOR Young,Substitution,,0,0,403
+0021800052,573,PT00M52.70S,3,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,77,84,161,v,Doncic Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,0,0,404
+0021800052,574,PT00M41.10S,3,1610612737,ATL,202391,Lin,J. Lin,153,208,26,Made,1,80,84,164,h,Lin 26' 3PT Jump Shot (3 PTS) (Dedmon 2 AST),Made Shot,Jump Shot,1,3,405
+0021800052,576,PT00M28.50S,3,1610612742,DAL,200826,Barea,J. Barea,-208,132,25,Made,1,80,87,167,v,Barea 25' 3PT Jump Shot (3 PTS) (Powell 1 AST),Made Shot,Jump Shot,1,3,406
+0021800052,578,PT00M07.90S,3,1610612737,ATL,1628989,Huerter,K. Huerter,24,25,3,Missed,1,,,0,h,MISS Huerter 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,407
+0021800052,578,PT00M07.90S,3,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell BLOCK (1 BLK),,,1,2,408
+0021800052,580,PT00M03.50S,3,1610612737,ATL,1629016,Spellman,O. Spellman,0,0,0,,0,,,0,h,Spellman REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,409
+0021800052,581,PT00M02.90S,3,1610612737,ATL,1629016,Spellman,O. Spellman,8,24,3,Missed,1,,,0,h,MISS Spellman 3' Putback Layup,Missed Shot,Putback Layup Shot,1,2,410
+0021800052,581,PT00M02.90S,3,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber BLOCK (2 BLK),,,1,2,411
+0021800052,583,PT00M02.90S,3,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,Powell REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,412
+0021800052,585,PT00M01.00S,3,1610612742,DAL,200826,Barea,J. Barea,48,379,38,Missed,1,,,0,v,MISS Barea 38' 3PT Running Pull-Up Jump Shot,Missed Shot,Running Pull-Up Jump Shot,1,3,413
+0021800052,586,PT00M00.10S,3,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Unknown,0,0,414
+0021800052,584,PT00M00.00S,3,0,,0,,,0,0,0,,0,80,87,167,,End of 3rd Period (9:06 PM EST),period,end,1,0,415
+0021800052,595,PT12M00.00S,4,0,,0,,,0,0,0,,0,80,87,167,,Start of 4th Period (9:09 PM EST),period,start,0,0,416
+0021800052,596,PT11M47.00S,4,1610612742,DAL,200826,Barea,J. Barea,-123,228,26,Missed,1,,,0,v,MISS Barea 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,417
+0021800052,597,PT11M42.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,418
+0021800052,598,PT11M34.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,-225,26,0,Missed,1,,,0,h,MISS Bembry 3PT Jump Shot,Missed Shot,Jump Shot,1,3,419
+0021800052,598,PT11M34.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic BLOCK (1 BLK),,,1,3,420
+0021800052,600,PT11M30.00S,4,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,421
+0021800052,601,PT11M27.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,222,4,0,Missed,1,,,0,v,MISS Doncic 3PT Jump Shot,Missed Shot,Jump Shot,1,3,422
+0021800052,602,PT11M23.00S,4,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,423
+0021800052,603,PT11M17.00S,4,1610612737,ATL,1627752,Prince,T. Prince,-125,213,25,Made,1,83,87,170,h,Prince 25' 3PT Pullup Jump Shot (18 PTS) (Bazemore 7 AST),Made Shot,Pullup Jump shot,1,3,424
+0021800052,605,PT10M58.00S,4,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon P.FOUL (P2.T1) (K.Fitzgerald),Foul,Personal,1,0,425
+0021800052,607,PT10M49.00S,4,1610612742,DAL,203939,Powell,D. Powell,-6,13,1,Made,1,83,89,172,v,Powell 1' Cutting Layup Shot (8 PTS) (Barea 9 AST),Made Shot,Cutting Layup Shot,1,2,426
+0021800052,609,PT10M40.00S,4,1610612737,ATL,203145,Bazemore,K. Bazemore,-225,85,24,Missed,1,,,0,h,MISS Bazemore 24' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,427
+0021800052,610,PT10M38.00S,4,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,428
+0021800052,611,PT10M31.00S,4,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,-9,11,1,Made,1,83,91,174,v,Smith Jr. 1' Driving Dunk (14 PTS),Made Shot,Driving Dunk Shot,1,2,429
+0021800052,612,PT10M31.00S,4,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,430
+0021800052,615,PT10M19.00S,4,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. P.FOUL (P2.T1) (K.Lane),Foul,Personal,1,0,431
+0021800052,617,PT10M17.00S,4,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,Barea P.FOUL (P1.T2) (M.Kogut),Foul,Personal,1,0,432
+0021800052,619,PT10M11.00S,4,1610612737,ATL,203473,Dedmon,D. Dedmon,127,82,15,Missed,1,,,0,h,MISS Dedmon 15' Jump Bank Shot,Missed Shot,Jump Bank Shot,1,2,433
+0021800052,620,PT10M08.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,434
+0021800052,621,PT09M58.00S,4,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,-5,8,1,Made,1,83,93,176,v,Smith Jr. 1' Layup (16 PTS) (Powell 2 AST),Made Shot,Layup Shot,1,2,435
+0021800052,623,PT09M37.00S,4,1610612737,ATL,1627752,Prince,T. Prince,68,215,23,Made,1,85,93,178,h,Prince 23' Step Back Jump Shot (20 PTS),Made Shot,Step Back Jump shot,1,2,436
+0021800052,624,PT09M19.00S,4,1610612742,DAL,200826,Barea,J. Barea,-23,13,3,Missed,1,,,0,v,MISS Barea 3' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,437
+0021800052,625,PT09M17.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry REBOUND (Off:1 Def:10),Rebound,Unknown,1,0,438
+0021800052,626,PT09M13.00S,4,1610612737,ATL,1627752,Prince,T. Prince,229,-4,0,Made,1,88,93,181,h,Prince 3PT Jump Shot (23 PTS) (Bembry 4 AST),Made Shot,Jump Shot,1,3,439
+0021800052,628,PT08M58.00S,4,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. OFF.Foul (P3) (M.Kogut),Foul,Offensive,1,0,440
+0021800052,630,PT08M58.00S,4,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. Offensive Foul Turnover (P3.T14),Turnover,Offensive Foul Turnover,1,0,441
+0021800052,631,PT08M58.00S,4,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,SUB: Huerter FOR Dedmon,Substitution,,0,0,442
+0021800052,632,PT08M58.00S,4,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,SUB: Spellman FOR Young,Substitution,,0,0,443
+0021800052,633,PT08M58.00S,4,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,SUB: Finney-Smith FOR Barea,Substitution,,0,0,444
+0021800052,634,PT08M58.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,SUB: Matthews FOR Doncic,Substitution,,0,0,445
+0021800052,640,PT08M49.00S,4,1610612742,DAL,203939,Powell,D. Powell,0,0,0,,0,,,0,v,SUB: Jordan FOR Powell,Substitution,,0,0,446
+0021800052,642,PT08M45.00S,4,1610612737,ATL,203145,Bazemore,K. Bazemore,-5,9,1,Made,1,90,93,183,h,Bazemore 1' Driving Layup (25 PTS) (Bembry 5 AST),Made Shot,Driving Layup Shot,1,2,447
+0021800052,644,PT08M21.00S,4,1610612742,DAL,202083,Matthews,W. Matthews,86,11,9,Made,1,90,95,185,v,Matthews 9' Turnaround Fadeaway (20 PTS),Made Shot,Turnaround Fadeaway shot,1,2,448
+0021800052,645,PT08M16.00S,4,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith S.FOUL (P4.T3) (K.Fitzgerald),Foul,Shooting,1,0,449
+0021800052,647,PT08M16.00S,4,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,MISS Prince Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,450
+0021800052,648,PT08M16.00S,4,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Normal Rebound,0,0,451
+0021800052,649,PT08M16.00S,4,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,91,95,186,h,Prince Free Throw 2 of 2 (24 PTS),Free Throw,Free Throw 2 of 2,0,0,452
+0021800052,650,PT07M57.00S,4,1610612742,DAL,202083,Matthews,W. Matthews,-12,136,14,Missed,1,,,0,v,MISS Matthews 14' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,453
+0021800052,651,PT07M53.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry REBOUND (Off:1 Def:11),Rebound,Unknown,1,0,454
+0021800052,652,PT07M48.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,-3,99,10,Missed,1,,,0,h,MISS Bembry 10' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,455
+0021800052,653,PT07M46.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry REBOUND (Off:2 Def:11),Rebound,Unknown,1,0,456
+0021800052,654,PT07M44.00S,4,1610612737,ATL,203145,Bazemore,K. Bazemore,228,3,0,Missed,1,,,0,h,MISS Bazemore 3PT Jump Shot,Missed Shot,Jump Shot,1,3,457
+0021800052,655,PT07M44.00S,4,1610612737,ATL,1629016,Spellman,O. Spellman,0,0,0,,0,,,0,h,Spellman REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,458
+0021800052,656,PT07M37.00S,4,1610612737,ATL,1629016,Spellman,O. Spellman,0,-6,1,Missed,1,,,0,h,MISS Spellman 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,459
+0021800052,657,PT07M36.00S,4,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:3 Def:10),Rebound,Unknown,1,0,460
+0021800052,658,PT07M30.00S,4,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. Discontinue Dribble Turnover (P4.T15),Turnover,Discontinue Dribble,1,0,461
+0021800052,659,PT07M18.00S,4,1610612737,ATL,203145,Bazemore,K. Bazemore,7,21,2,Missed,1,,,0,h,MISS Bazemore 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,462
+0021800052,660,PT07M13.00S,4,1610612737,ATL,1629016,Spellman,O. Spellman,0,0,0,,0,,,0,h,Spellman REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,463
+0021800052,661,PT07M13.00S,4,1610612737,ATL,1629016,Spellman,O. Spellman,0,-6,1,Missed,1,,,0,h,MISS Spellman 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,464
+0021800052,662,PT07M12.00S,4,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:3 Def:11),Rebound,Unknown,1,0,465
+0021800052,663,PT07M07.00S,4,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,-2,12,1,Missed,1,,,0,v,MISS Smith Jr. 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,466
+0021800052,664,PT07M05.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry REBOUND (Off:2 Def:12),Rebound,Unknown,1,0,467
+0021800052,665,PT07M00.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry Traveling Turnover (P2.T15),Turnover,Traveling,1,0,468
+0021800052,666,PT06M49.00S,4,1610612742,DAL,202083,Matthews,W. Matthews,11,263,26,Missed,1,,,0,v,MISS Matthews 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,469
+0021800052,667,PT06M46.00S,4,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,Prince REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,470
+0021800052,668,PT06M41.00S,4,1610612737,ATL,1627752,Prince,T. Prince,25,247,25,Missed,1,,,0,h,MISS Prince 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,471
+0021800052,669,PT06M37.00S,4,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:3 Def:12),Rebound,Unknown,1,0,472
+0021800052,670,PT06M29.00S,4,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,69,122,14,Missed,1,,,0,v,MISS Smith Jr. 14' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,473
+0021800052,671,PT06M26.00S,4,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,Prince REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,474
+0021800052,672,PT06M06.00S,4,1610612737,ATL,203145,Bazemore,K. Bazemore,-162,185,25,Missed,1,,,0,h,MISS Bazemore 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,475
+0021800052,673,PT06M03.00S,4,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,Matthews REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,476
+0021800052,674,PT05M55.00S,4,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan Offensive Charge Foul (P4.T4) (K.Fitzgerald),Foul,Offensive Charge,1,0,477
+0021800052,676,PT05M55.00S,4,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan Offensive Foul Turnover (P4.T16),Turnover,Offensive Foul Turnover,1,0,478
+0021800052,677,PT05M55.00S,4,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,SUB: Len FOR Prince,Substitution,,0,0,479
+0021800052,678,PT05M55.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,SUB: Young FOR Bembry,Substitution,,0,0,480
+0021800052,679,PT05M55.00S,4,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,SUB: Doncic FOR Smith Jr.,Substitution,,0,0,481
+0021800052,680,PT05M55.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,SUB: Barea FOR Kleber,Substitution,,0,0,482
+0021800052,685,PT05M44.00S,4,1610612737,ATL,203145,Bazemore,K. Bazemore,-2,11,1,Made,1,93,95,188,h,Bazemore 1' Driving Layup (27 PTS) (Len 2 AST),Made Shot,Driving Layup Shot,1,2,483
+0021800052,687,PT05M44.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,484
+0021800052,688,PT05M44.00S,4,1610612737,ATL,1629016,Spellman,O. Spellman,0,0,0,,0,,,0,h,SUB: Carter FOR Spellman,Substitution,,0,0,485
+0021800052,691,PT05M23.00S,4,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,-229,34,0,Missed,1,,,0,v,MISS Finney-Smith 3PT Jump Shot,Missed Shot,Jump Shot,1,3,486
+0021800052,692,PT05M21.00S,4,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Unknown,0,0,487
+0021800052,694,PT05M21.00S,4,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,SUB: Prince FOR Bazemore,Substitution,,0,0,488
+0021800052,696,PT05M13.00S,4,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith S.FOUL (P5.PN) (K.Lane),Foul,Shooting,1,0,489
+0021800052,698,PT05M13.00S,4,0,,696,Best,T. Best,0,0,0,,0,93,95,188,,Instant Replay4th Period (9:29 PM EST),Instant Replay,Support Ruling,0,0,490
+0021800052,699,PT05M13.00S,4,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,94,95,189,h,Young Free Throw 1 of 3 (6 PTS),Free Throw,Free Throw 1 of 3,0,0,491
+0021800052,700,PT05M13.00S,4,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,95,95,190,h,Young Free Throw 2 of 3 (7 PTS),Free Throw,Free Throw 2 of 3,0,0,492
+0021800052,701,PT05M13.00S,4,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,SUB: Kleber FOR Barea,Substitution,,0,0,493
+0021800052,702,PT05M13.00S,4,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,SUB: Smith Jr. FOR Finney-Smith,Substitution,,0,0,494
+0021800052,705,PT05M13.00S,4,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,96,95,191,h,Young Free Throw 3 of 3 (8 PTS),Free Throw,Free Throw 3 of 3,0,0,495
+0021800052,706,PT04M50.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,-41,132,14,Made,1,96,97,193,v,Doncic 14' Driving Floating Jump Shot (19 PTS) (Matthews 2 AST),Made Shot,Driving Floating Jump Shot,1,2,496
+0021800052,708,PT04M34.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber S.FOUL (P1.PN) (K.Fitzgerald),Foul,Shooting,1,0,497
+0021800052,710,PT04M34.00S,4,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,97,97,194,h,Huerter Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,498
+0021800052,711,PT04M34.00S,4,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,MISS Huerter Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,499
+0021800052,712,PT04M31.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,500
+0021800052,713,PT04M17.00S,4,1610612742,DAL,202083,Matthews,W. Matthews,-16,257,26,Made,1,97,100,197,v,Matthews 26' 3PT Step Back Jump Shot (23 PTS),Made Shot,Step Back Jump shot,1,3,501
+0021800052,717,PT04M07.00S,4,1610612737,ATL,1629027,Young,T. Young,-10,37,4,Made,1,99,100,199,h,Young 4' Driving Floating Jump Shot (10 PTS),Made Shot,Driving Floating Jump Shot,1,2,502
+0021800052,718,PT03M51.00S,4,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,Prince P.FOUL (P5.T2) (K.Lane),Foul,Personal,1,0,503
+0021800052,720,PT03M51.00S,4,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,SUB: Bazemore FOR Huerter,Substitution,,0,0,504
+0021800052,722,PT03M46.00S,4,1610612742,DAL,202083,Matthews,W. Matthews,-67,252,26,Missed,1,,,0,v,MISS Matthews 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,505
+0021800052,723,PT03M43.00S,4,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,h,Carter REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,506
+0021800052,724,PT03M34.00S,4,1610612737,ATL,1629027,Young,T. Young,29,19,3,Made,1,101,100,201,h,Young 3' Driving Layup (12 PTS),Made Shot,Driving Layup Shot,1,2,507
+0021800052,725,PT03M20.00S,4,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,-3,15,2,Missed,1,,,0,v,MISS Smith Jr. 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,508
+0021800052,725,PT03M20.00S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len BLOCK (3 BLK),,,1,2,509
+0021800052,726,PT03M14.00S,4,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,h,Carter REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,510
+0021800052,728,PT03M01.00S,4,1610612737,ATL,1629027,Young,T. Young,3,26,3,Missed,1,,,0,h,MISS Young 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,511
+0021800052,728,PT03M01.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber BLOCK (3 BLK),,,1,2,512
+0021800052,730,PT02M58.00S,4,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan REBOUND (Off:3 Def:13),Rebound,Unknown,1,0,513
+0021800052,731,PT02M49.00S,4,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,Smith Jr. Bad Pass Turnover (P5.T17),Turnover,Bad Pass,1,0,514
+0021800052,731,PT02M49.00S,4,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore STEAL (3 STL),,,1,0,515
+0021800052,733,PT02M31.00S,4,1610612737,ATL,1627752,Prince,T. Prince,77,198,21,Missed,1,,,0,h,MISS Prince 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,516
+0021800052,734,PT02M27.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,Kleber REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,517
+0021800052,735,PT02M17.00S,4,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,Prince P.FOUL (P6.T3) (M.Kogut),Foul,Personal,1,0,518
+0021800052,737,PT02M17.00S,4,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,SUB: Bembry FOR Prince,Substitution,,0,0,519
+0021800052,738,PT02M17.00S,4,1610612742,DAL,1628372,Smith Jr.,D. Smith Jr.,0,0,0,,0,,,0,v,SUB: Barea FOR Smith Jr.,Substitution,,0,0,520
+0021800052,741,PT02M10.00S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len S.FOUL (P4.T4) (K.Lane),Foul,Shooting,1,0,521
+0021800052,743,PT02M10.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,MISS Kleber Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,522
+0021800052,744,PT02M10.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Normal Rebound,0,0,523
+0021800052,745,PT02M10.00S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,101,101,202,v,Kleber Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,0,0,524
+0021800052,746,PT02M00.00S,4,1610612737,ATL,203145,Bazemore,K. Bazemore,55,168,18,Made,1,103,101,204,h,Bazemore 18' Pullup Jump Shot (29 PTS) (Len 3 AST),Made Shot,Pullup Jump shot,1,2,525
+0021800052,748,PT01M47.00S,4,1610612742,DAL,202083,Matthews,W. Matthews,29,254,26,Missed,1,,,0,v,MISS Matthews 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,526
+0021800052,749,PT01M44.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry REBOUND (Off:2 Def:13),Rebound,Unknown,1,0,527
+0021800052,750,PT01M34.00S,4,1610612737,ATL,203458,Len,A. Len,5,8,1,Missed,1,,,0,h,MISS Len 1' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,528
+0021800052,750,PT01M34.00S,4,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,Jordan BLOCK (2 BLK),,,1,2,529
+0021800052,752,PT01M29.00S,4,1610612742,DAL,1629029,Dončić,L. Dončić,0,0,0,,0,,,0,v,Doncic REBOUND (Off:0 Def:9),Rebound,Unknown,1,0,530
+0021800052,753,PT01M18.00S,4,1610612742,DAL,201599,Jordan,D. Jordan,3,21,2,Missed,1,,,0,v,MISS Jordan 2' Alley Oop Dunk,Missed Shot,Alley Oop Dunk Shot,1,2,531
+0021800052,754,PT01M18.00S,4,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Unknown,0,0,532
+0021800052,756,PT01M18.00S,4,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,533
+0021800052,757,PT01M06.00S,4,1610612737,ATL,203145,Bazemore,K. Bazemore,-2,11,1,Made,1,105,101,206,h,Bazemore 1' Driving Dunk (31 PTS) (Young 5 AST),Made Shot,Driving Dunk Shot,1,2,534
+0021800052,759,PT00M54.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry S.FOUL (P2.PN) (K.Fitzgerald),Foul,Shooting,1,0,535
+0021800052,761,PT00M54.00S,4,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,MISS Jordan Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,536
+0021800052,762,PT00M54.00S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Rebound,Rebound,Normal Rebound,0,0,537
+0021800052,763,PT00M54.00S,4,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,105,102,207,v,Jordan Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,538
+0021800052,764,PT00M44.10S,4,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,Matthews P.FOUL (P4.PN) (M.Kogut),Foul,Personal,1,0,539
+0021800052,766,PT00M44.10S,4,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,106,102,208,h,Young Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,1,0,540
+0021800052,767,PT00M44.10S,4,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,107,102,209,h,Young Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,1,0,541
+0021800052,768,PT00M35.10S,4,1610612742,DAL,202083,Matthews,W. Matthews,-88,243,26,Missed,1,,,0,v,MISS Matthews 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,542
+0021800052,769,PT00M32.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry REBOUND (Off:2 Def:14),Rebound,Unknown,1,0,543
+0021800052,770,PT00M26.30S,4,1610612742,DAL,202083,Matthews,W. Matthews,0,0,0,,0,,,0,v,Matthews P.FOUL (P5.PN) (M.Kogut),Foul,Personal,1,0,544
+0021800052,772,PT00M26.30S,4,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,MISS Young Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,545
+0021800052,773,PT00M26.30S,4,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Normal Rebound,0,0,546
+0021800052,774,PT00M26.30S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,SUB: Huerter FOR Len,Substitution,,0,0,547
+0021800052,775,PT00M26.30S,4,1610612742,DAL,1628467,Kleber,M. Kleber,0,0,0,,0,,,0,v,SUB: Brunson FOR Kleber,Substitution,,0,0,548
+0021800052,778,PT00M26.30S,4,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,108,102,210,h,Young Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,549
+0021800052,779,PT00M26.30S,4,0,,1610612742,,,0,0,0,,0,,,0,v,Mavericks Timeout: Regular (Reg.7 Short 0),Timeout,Regular,0,0,550
+0021800052,780,PT00M26.30S,4,1610612742,DAL,200826,Barea,J. Barea,0,0,0,,0,,,0,v,SUB: Broekhoff FOR Barea,Substitution,,0,0,551
+0021800052,781,PT00M26.30S,4,1610612742,DAL,201599,Jordan,D. Jordan,0,0,0,,0,,,0,v,SUB: Powell FOR Jordan,Substitution,,0,0,552
+0021800052,784,PT00M24.90S,4,1610612742,DAL,1629029,Dončić,L. Dončić,-143,227,27,Missed,1,,,0,v,MISS Doncic 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,553
+0021800052,785,PT00M21.50S,4,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Unknown,0,0,554
+0021800052,787,PT00M20.60S,4,1610612742,DAL,1628973,Brunson,J. Brunson,0,0,0,,0,,,0,v,Brunson Personal Take Foul (P2.PN) (K.Lane),Foul,Personal Take,1,0,555
+0021800052,789,PT00M20.60S,4,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,MISS Bazemore Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,556
+0021800052,790,PT00M20.60S,4,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Normal Rebound,0,0,557
+0021800052,791,PT00M20.60S,4,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,109,102,211,h,Bazemore Free Throw 2 of 2 (32 PTS),Free Throw,Free Throw 2 of 2,1,0,558
+0021800052,792,PT00M12.40S,4,1610612742,DAL,1629029,Dončić,L. Dončić,3,11,1,Made,1,109,104,213,v,Doncic 1' Driving Layup (21 PTS),Made Shot,Driving Layup Shot,1,2,559
+0021800052,793,PT00M10.00S,4,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Timeout: Regular (Full 7 Short 0),Timeout,Regular,0,0,560
+0021800052,794,PT00M10.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,SUB: Len FOR Bembry,Substitution,,0,0,561
+0021800052,795,PT00M10.00S,4,1610612742,DAL,1629151,Broekhoff,R. Broekhoff,0,0,0,,0,,,0,v,SUB: Finney-Smith FOR Broekhoff,Substitution,,0,0,562
+0021800052,798,PT00M07.40S,4,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,Finney-Smith Personal Take Foul (P6.PN) (M.Kogut),Foul,Personal Take,1,0,563
+0021800052,800,PT00M07.40S,4,1610612742,DAL,1627827,Finney-Smith,D. Finney-Smith,0,0,0,,0,,,0,v,SUB: Barea FOR Finney-Smith,Substitution,,0,0,564
+0021800052,802,PT00M07.40S,4,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,110,104,214,h,Young Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,1,0,565
+0021800052,803,PT00M07.40S,4,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,111,104,215,h,Young Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,1,0,566
+0021800052,804,PT00M00.00S,4,0,,0,,,0,0,0,,0,111,104,215,,End of 4th Period (9:50 PM EST),period,end,1,0,567

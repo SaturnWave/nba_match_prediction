@@ -1,0 +1,460 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021800241,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:11 PM EST),period,start,0,0,1
+0021800241,4,PT12M00.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,h,Jump Ball Turner vs. Gobert: Tip to Rubio,Jump Ball,,1,0,2
+0021800241,7,PT11M47.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,3
+0021800241,7,PT11M47.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,Bogdanovic STEAL (1 STL),,,1,0,4
+0021800241,9,PT11M31.00S,1,1610612754,IND,1626167,Turner,M. Turner,142,116,18,Made,1,2,0,2,h,Turner 18' Jump Shot (2 PTS) (Evans 1 AST),Made Shot,Jump Shot,1,2,5
+0021800241,11,PT11M15.00S,1,1610612762,UTA,201937,Rubio,R. Rubio,-123,27,13,Made,1,2,2,4,v,Rubio 13' Driving Floating Bank Jump Shot (2 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,6
+0021800241,12,PT10M59.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,43,11,4,Made,1,4,2,6,h,Bogdanovic 4' Cutting Layup Shot (2 PTS) (Turner 1 AST),Made Shot,Cutting Layup Shot,1,2,7
+0021800241,15,PT10M36.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,-228,20,0,Missed,1,,,0,v,MISS Ingles 3PT Jump Shot,Missed Shot,Jump Shot,1,3,8
+0021800241,16,PT10M32.00S,1,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,h,Collison REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,9
+0021800241,17,PT10M26.00S,1,1610612754,IND,201936,Evans,T. Evans,17,260,26,Missed,1,,,0,h,MISS Evans 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,10
+0021800241,18,PT10M23.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,11
+0021800241,19,PT10M14.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,-6,-3,1,Missed,1,,,0,v,MISS Gobert 1' Alley Oop Dunk,Missed Shot,Alley Oop Dunk Shot,1,2,12
+0021800241,19,PT10M14.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,h,Turner BLOCK (1 BLK),,,1,2,13
+0021800241,21,PT10M12.00S,1,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,h,Collison REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,14
+0021800241,22,PT10M06.00S,1,1610612754,IND,201954,Collison,D. Collison,-70,136,15,Missed,1,,,0,h,MISS Collison 15' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,15
+0021800241,23,PT10M03.00S,1,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,16
+0021800241,24,PT09M53.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,-9,-3,1,Made,1,4,4,8,v,Ingles 1' Driving Finger Roll Layup (2 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,17
+0021800241,25,PT09M36.00S,1,1610612754,IND,201152,Young,T. Young,6,13,1,Missed,1,,,0,h,MISS Young 1' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,18
+0021800241,25,PT09M36.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors BLOCK (1 BLK),,,1,2,19
+0021800241,27,PT09M34.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,h,Turner REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,20
+0021800241,28,PT09M28.00S,1,1610612754,IND,1626167,Turner,M. Turner,109,255,28,Missed,1,,,0,h,MISS Turner 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,21
+0021800241,29,PT09M25.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,22
+0021800241,30,PT09M17.00S,1,1610612762,UTA,202324,Favors,D. Favors,-88,137,16,Made,1,4,6,10,v,Favors 16' Jump Shot (2 PTS) (Rubio 1 AST),Made Shot,Jump Shot,1,2,23
+0021800241,32,PT09M03.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,12,25,3,Missed,1,,,0,h,MISS Bogdanovic 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,24
+0021800241,32,PT09M03.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles BLOCK (1 BLK),,,1,2,25
+0021800241,34,PT09M00.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,26
+0021800241,35,PT08M56.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,4,-6,1,Made,1,4,8,12,v,Gobert 1' Dunk (2 PTS) (Favors 1 AST),Made Shot,Dunk Shot,1,2,27
+0021800241,39,PT08M44.00S,1,1610612754,IND,1626167,Turner,M. Turner,128,34,13,Missed,1,,,0,h,MISS Turner 13' Jump Bank Shot,Missed Shot,Jump Bank Shot,1,2,28
+0021800241,40,PT08M43.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,29
+0021800241,41,PT08M30.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,30
+0021800241,41,PT08M30.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,h,Turner STEAL (1 STL),,,1,0,31
+0021800241,43,PT08M26.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell Personal Take Foul (P1.T1) (D.Taylor),Foul,Personal Take,1,0,32
+0021800241,45,PT08M20.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,187,14,19,Made,1,6,8,14,h,Bogdanovic 19' Pullup Jump Shot (4 PTS) (Evans 2 AST),Made Shot,Pullup Jump shot,1,2,33
+0021800241,47,PT07M55.00S,1,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,34
+0021800241,47,PT07M55.00S,1,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,h,Young STEAL (1 STL),,,1,0,35
+0021800241,49,PT07M52.00S,1,1610612754,IND,201954,Collison,D. Collison,6,6,1,Made,1,8,8,16,h,Collison 1' Cutting Finger Roll Layup Shot (2 PTS) (Evans 3 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,36
+0021800241,51,PT07M52.00S,1,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,37
+0021800241,52,PT07M40.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,95,147,18,Missed,1,,,0,v,MISS Mitchell 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,38
+0021800241,53,PT07M39.00S,1,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,h,Young REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,39
+0021800241,54,PT07M22.00S,1,1610612754,IND,201152,Young,T. Young,1,8,1,Missed,1,,,0,h,MISS Young 1' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,40
+0021800241,55,PT07M19.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,41
+0021800241,56,PT07M11.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,5,1,1,Made,1,8,10,18,v,Gobert 1' Alley Oop Dunk (4 PTS) (Rubio 2 AST),Made Shot,Alley Oop Dunk Shot,1,2,42
+0021800241,58,PT06M55.00S,1,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio S.FOUL (P1.T2) (P.Fraher),Foul,Shooting,1,0,43
+0021800241,60,PT06M55.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,9,10,19,h,Turner Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,44
+0021800241,61,PT06M55.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,SUB: Crowder FOR Favors,Substitution,,0,0,45
+0021800241,63,PT06M55.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,h,MISS Turner Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,46
+0021800241,64,PT06M53.00S,1,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,47
+0021800241,65,PT06M38.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,48
+0021800241,65,PT06M38.00S,1,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,h,Young STEAL (2 STL),,,1,0,49
+0021800241,67,PT06M35.00S,1,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio P.FOUL (P2.T3) (D.Taylor),Foul,Personal,1,0,50
+0021800241,69,PT06M35.00S,1,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,SUB: Exum FOR Rubio,Substitution,,0,0,51
+0021800241,71,PT06M20.00S,1,1610612754,IND,1626167,Turner,M. Turner,58,29,6,Missed,1,,,0,h,MISS Turner 6' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,52
+0021800241,72,PT06M19.00S,1,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Rebound,Rebound,Unknown,0,0,53
+0021800241,73,PT06M19.00S,1,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder L.B.FOUL (P1.T4) (B.Barnaky),Foul,Loose Ball,1,0,54
+0021800241,75,PT06M19.00S,1,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,SUB: O'Neale FOR Ingles,Substitution,,0,0,55
+0021800241,78,PT06M09.00S,1,1610612754,IND,201936,Evans,T. Evans,38,35,5,Missed,1,,,0,h,MISS Evans 5' Jump Shot,Missed Shot,Jump Shot,1,2,56
+0021800241,78,PT06M09.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell BLOCK (1 BLK),,,1,2,57
+0021800241,80,PT06M06.00S,1,1610612754,IND,201936,Evans,T. Evans,0,0,0,,0,,,0,h,Evans REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,58
+0021800241,81,PT06M05.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,-51,267,27,Made,1,12,10,22,h,Bogdanovic 27' 3PT Step Back Jump Shot (7 PTS) (Evans 4 AST),Made Shot,Step Back Jump shot,1,3,59
+0021800241,83,PT05M56.00S,1,1610612762,UTA,203957,Exum,D. Exum,0,0,0,,0,,,0,v,Exum Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,60
+0021800241,83,PT05M56.00S,1,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,h,Collison STEAL (1 STL),,,1,0,61
+0021800241,85,PT05M52.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,-205,148,25,Missed,1,,,0,h,MISS Bogdanovic 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,62
+0021800241,86,PT05M46.00S,1,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,h,Collison REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,63
+0021800241,87,PT05M43.00S,1,1610612754,IND,201954,Collison,D. Collison,239,14,24,Made,1,15,10,25,h,Collison 24' 3PT Jump Shot (5 PTS) (Bogdanovic 1 AST),Made Shot,Jump Shot,1,3,64
+0021800241,89,PT05M41.00S,1,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,65
+0021800241,90,PT05M41.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,SUB: Burks FOR Mitchell,Substitution,,0,0,66
+0021800241,92,PT05M23.00S,1,1610612762,UTA,203957,Exum,D. Exum,-52,65,8,Missed,1,,,0,v,MISS Exum 8' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,67
+0021800241,93,PT05M22.00S,1,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,68
+0021800241,95,PT05M20.00S,1,1610612762,UTA,202692,Burks,A. Burks,163,50,17,Made,1,15,12,27,v,Burks 17' Jump Shot (2 PTS) (Exum 1 AST),Made Shot,Jump Shot,1,2,69
+0021800241,97,PT04M57.00S,1,1610612754,IND,1626167,Turner,M. Turner,99,248,27,Made,1,18,12,30,h,Turner 27' 3PT Jump Shot (6 PTS) (Collison 1 AST),Made Shot,Jump Shot,1,3,70
+0021800241,99,PT04M40.00S,1,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale Lost Ball Turnover (P1.T6),Turnover,Lost Ball,1,0,71
+0021800241,99,PT04M40.00S,1,1610612754,IND,201936,Evans,T. Evans,0,0,0,,0,,,0,h,Evans STEAL (1 STL),,,1,0,72
+0021800241,101,PT04M37.00S,1,1610612754,IND,201954,Collison,D. Collison,7,9,1,Missed,1,,,0,h,MISS Collison 1' Running Finger Roll Layup,Missed Shot,Running Finger Roll Layup Shot,1,2,73
+0021800241,101,PT04M37.00S,1,1610612762,UTA,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks BLOCK (1 BLK),,,1,2,74
+0021800241,103,PT04M37.00S,1,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Rebound,Rebound,Unknown,0,0,75
+0021800241,105,PT04M37.00S,1,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,h,SUB: Sabonis FOR Young,Substitution,,0,0,76
+0021800241,106,PT04M37.00S,1,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,SUB: Joseph FOR Bogdanovic,Substitution,,0,0,77
+0021800241,109,PT04M28.00S,1,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale P.FOUL (P1.PN) (D.Taylor),Foul,Personal,1,0,78
+0021800241,111,PT04M28.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,19,12,31,h,Sabonis Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,79
+0021800241,112,PT04M28.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,MISS Sabonis Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,80
+0021800241,113,PT04M26.00S,1,1610612754,IND,201936,Evans,T. Evans,0,0,0,,0,,,0,h,Evans REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,81
+0021800241,114,PT04M21.00S,1,1610612762,UTA,203957,Exum,D. Exum,0,0,0,,0,,,0,v,Exum S.FOUL (P1.PN) (B.Barnaky),Foul,Shooting,1,0,82
+0021800241,116,PT04M21.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,MISS Sabonis Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,83
+0021800241,117,PT04M21.00S,1,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Rebound,Rebound,Normal Rebound,0,0,84
+0021800241,118,PT04M21.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,MISS Sabonis Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,85
+0021800241,119,PT04M19.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,86
+0021800241,120,PT04M09.00S,1,1610612762,UTA,202692,Burks,A. Burks,-98,159,19,Missed,1,,,0,v,MISS Burks 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,87
+0021800241,121,PT04M05.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,88
+0021800241,122,PT03M46.00S,1,1610612754,IND,201936,Evans,T. Evans,-211,162,27,Made,1,22,12,34,h,Evans 27' 3PT Jump Shot (3 PTS) (Sabonis 1 AST),Made Shot,Jump Shot,1,3,89
+0021800241,124,PT03M28.00S,1,1610612762,UTA,203957,Exum,D. Exum,-22,0,2,Missed,1,,,0,v,MISS Exum 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,90
+0021800241,125,PT03M25.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,91
+0021800241,126,PT03M25.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,92
+0021800241,126,PT03M25.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert STEAL (1 STL),,,1,0,93
+0021800241,128,PT03M21.00S,1,1610612762,UTA,203109,Crowder,J. Crowder,-230,97,25,Missed,1,,,0,v,MISS Crowder 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,94
+0021800241,129,PT03M20.00S,1,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Rebound,Rebound,Unknown,0,0,95
+0021800241,131,PT03M20.00S,1,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,SUB: Favors FOR Gobert,Substitution,,0,0,96
+0021800241,133,PT02M59.00S,1,1610612754,IND,201954,Collison,D. Collison,185,15,19,Missed,1,,,0,h,MISS Collison 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,97
+0021800241,134,PT02M56.00S,1,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,98
+0021800241,135,PT02M48.00S,1,1610612762,UTA,203109,Crowder,J. Crowder,-8,-4,1,Missed,1,,,0,v,MISS Crowder 1' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,99
+0021800241,135,PT02M48.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,h,Turner BLOCK (2 BLK),,,1,2,100
+0021800241,137,PT02M45.00S,1,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,h,Collison REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,101
+0021800241,138,PT02M40.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors S.FOUL (P1.PN) (P.Fraher),Foul,Shooting,1,0,102
+0021800241,140,PT02M40.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,23,12,35,h,Sabonis Free Throw 1 of 2 (2 PTS),Free Throw,Free Throw 1 of 2,0,0,103
+0021800241,141,PT02M40.00S,1,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,h,SUB: Young FOR Turner,Substitution,,0,0,104
+0021800241,143,PT02M40.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,24,12,36,h,Sabonis Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,0,0,105
+0021800241,144,PT02M22.00S,1,1610612762,UTA,1626220,O'Neale,R. O'Neale,2,-5,1,Made,1,24,14,38,v,O'Neale 1' Driving Finger Roll Layup (2 PTS) (Crowder 1 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,106
+0021800241,145,PT02M03.00S,1,1610612754,IND,202709,Joseph,C. Joseph,-162,219,27,Made,1,27,14,41,h,Joseph 27' 3PT Jump Shot (3 PTS) (Sabonis 2 AST),Made Shot,Jump Shot,1,3,107
+0021800241,148,PT01M52.00S,1,1610612762,UTA,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks Out of Bounds - Bad Pass Turnover Turnover (P1.T7),Turnover,Out of Bounds - Bad Pass Turnover,1,0,108
+0021800241,149,PT01M52.00S,1,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,h,SUB: Holiday FOR Collison,Substitution,,0,0,109
+0021800241,150,PT01M52.00S,1,1610612754,IND,201936,Evans,T. Evans,0,0,0,,0,,,0,h,SUB: McDermott FOR Evans,Substitution,,0,0,110
+0021800241,151,PT01M52.00S,1,1610612762,UTA,202692,Burks,A. Burks,0,0,0,,0,,,0,v,SUB: Mitchell FOR Burks,Substitution,,0,0,111
+0021800241,155,PT01M39.00S,1,1610612754,IND,1627734,Sabonis,D. Sabonis,-22,27,3,Made,1,29,14,43,h,Sabonis 3' Driving Hook Shot (5 PTS) (Joseph 1 AST),Made Shot,Driving Hook Shot,1,2,112
+0021800241,157,PT01M22.00S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,-132,96,16,Made,1,29,16,45,v,Mitchell 16' Pullup Jump Shot (2 PTS) (Crowder 2 AST),Made Shot,Pullup Jump shot,1,2,113
+0021800241,159,PT01M09.00S,1,1610612754,IND,203926,McDermott,D. McDermott,-42,263,27,Missed,1,,,0,h,MISS McDermott 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,114
+0021800241,160,PT01M06.00S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,115
+0021800241,161,PT00M56.00S,1,1610612762,UTA,203109,Crowder,J. Crowder,-188,195,27,Made,1,29,19,48,v,Crowder 27' 3PT Jump Shot (3 PTS) (Mitchell 1 AST),Made Shot,Jump Shot,1,3,116
+0021800241,163,PT00M42.70S,1,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors Violation:Kicked Ball (B.Barnaky),Violation,Kicked Ball,0,0,117
+0021800241,164,PT00M36.70S,1,1610612754,IND,202709,Joseph,C. Joseph,-113,105,15,Made,1,31,19,50,h,Joseph 15' Step Back Jump Shot (5 PTS) (Sabonis 3 AST),Made Shot,Step Back Jump shot,1,2,118
+0021800241,166,PT00M26.70S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell Bad Pass Turnover (P2.T8),Turnover,Bad Pass,1,0,119
+0021800241,166,PT00M26.70S,1,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,h,Young STEAL (3 STL),,,1,0,120
+0021800241,168,PT00M26.70S,1,1610612762,UTA,203957,Exum,D. Exum,0,0,0,,0,,,0,v,Exum L.B.FOUL (P2.PN) (D.Taylor),Foul,Loose Ball,1,0,121
+0021800241,170,PT00M26.70S,1,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,32,19,51,h,Holiday Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,122
+0021800241,171,PT00M26.70S,1,1610612762,UTA,203957,Exum,D. Exum,0,0,0,,0,,,0,v,SUB: Neto FOR Exum,Substitution,,0,0,123
+0021800241,173,PT00M26.70S,1,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,h,MISS Holiday Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,124
+0021800241,174,PT00M25.10S,1,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,125
+0021800241,175,PT00M05.90S,1,1610612762,UTA,1628378,Mitchell,D. Mitchell,89,178,20,Missed,1,,,0,v,MISS Mitchell 20' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,126
+0021800241,176,PT00M03.20S,1,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,h,Holiday REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,127
+0021800241,177,PT00M00.50S,1,1610612754,IND,1628988,Holiday,A. Holiday,-3,319,32,Missed,1,,,0,h,MISS Holiday 32' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,128
+0021800241,178,PT00M00.50S,1,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Rebound,Rebound,Unknown,0,0,129
+0021800241,179,PT00M00.00S,1,0,,0,,,0,0,0,,0,32,19,51,,End of 1st Period (7:36 PM EST),period,end,1,0,130
+0021800241,180,PT12M00.00S,2,0,,0,,,0,0,0,,0,32,19,51,,Start of 2nd Period (7:39 PM EST),period,start,0,0,131
+0021800241,181,PT11M42.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,155,232,28,Made,1,35,19,54,h,Sabonis 28' 3PT Jump Shot (8 PTS) (Joseph 2 AST),Made Shot,Jump Shot,1,3,132
+0021800241,183,PT11M19.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,h,Holiday P.FOUL (P1.T1) (B.Barnaky),Foul,Personal,1,0,133
+0021800241,185,PT11M05.00S,2,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Turnover: Shot Clock (T#9),Turnover,Shot Clock Turnover,0,0,134
+0021800241,186,PT10M50.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,88,14,9,Made,1,37,19,56,h,Holiday 9' Driving Floating Bank Jump Shot (3 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,135
+0021800241,187,PT10M36.00S,2,1610612762,UTA,203109,Crowder,J. Crowder,-231,138,27,Missed,1,,,0,v,MISS Crowder 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,136
+0021800241,188,PT10M33.00S,2,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,h,Joseph REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,137
+0021800241,189,PT10M27.00S,2,1610612754,IND,201152,Young,T. Young,6,-7,1,Missed,1,,,0,h,MISS Young 1' Layup,Missed Shot,Layup Shot,1,2,138
+0021800241,189,PT10M27.00S,2,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder BLOCK (1 BLK),,,1,2,139
+0021800241,191,PT10M25.00S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,h,Young REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,140
+0021800241,192,PT10M25.00S,2,1610612754,IND,201152,Young,T. Young,-8,10,1,Made,1,39,19,58,h,Young 1' Putback Layup (2 PTS),Made Shot,Putback Layup Shot,1,2,141
+0021800241,193,PT10M05.00S,2,1610612762,UTA,203109,Crowder,J. Crowder,-237,59,24,Made,1,39,22,61,v,Crowder 24' 3PT Jump Shot (6 PTS) (Neto 1 AST),Made Shot,Jump Shot,1,3,142
+0021800241,195,PT09M46.00S,2,1610612754,IND,201152,Young,T. Young,-4,8,1,Made,1,41,22,63,h,Young 1' Driving Finger Roll Layup (4 PTS) (Sabonis 4 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,143
+0021800241,197,PT09M39.00S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,h,Young S.FOUL (P1.T2) (D.Taylor),Foul,Shooting,1,0,144
+0021800241,199,PT09M39.00S,2,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,41,23,64,v,Crowder Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,0,0,145
+0021800241,200,PT09M39.00S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,SUB: Ingles FOR O'Neale,Substitution,,0,0,146
+0021800241,202,PT09M39.00S,2,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,41,24,65,v,Crowder Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,147
+0021800241,204,PT09M21.00S,2,1610612762,UTA,203526,Neto,R. Neto,0,0,0,,0,,,0,v,SUB: Rubio FOR Neto,Substitution,,0,0,148
+0021800241,206,PT09M17.00S,2,1610612754,IND,203926,McDermott,D. McDermott,-2,30,3,Made,1,43,24,67,h,McDermott 3' Cutting Dunk Shot (2 PTS) (Young 1 AST),Made Shot,Cutting Dunk Shot,1,2,149
+0021800241,208,PT09M07.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,h,Holiday P.FOUL (P2.T3) (D.Taylor),Foul,Personal,1,0,150
+0021800241,210,PT08M54.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,223,7,0,Made,1,43,27,70,v,Rubio 3PT Jump Shot (5 PTS) (Ingles 1 AST),Made Shot,Jump Shot,1,3,151
+0021800241,212,PT08M36.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis Traveling Turnover (P2.T2),Turnover,Traveling,1,0,152
+0021800241,213,PT08M36.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,SUB: Burks FOR Mitchell,Substitution,,0,0,153
+0021800241,214,PT08M36.00S,2,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,SUB: Sefolosha FOR Crowder,Substitution,,0,0,154
+0021800241,217,PT08M36.00S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,h,SUB: Bogdanovic FOR Young,Substitution,,0,0,155
+0021800241,219,PT08M26.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,-1,-1,0,Made,1,43,29,72,v,Rubio Cutting Finger Roll Layup Shot (7 PTS) (Ingles 2 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,156
+0021800241,221,PT08M14.00S,2,1610612754,IND,202709,Joseph,C. Joseph,-22,58,6,Missed,1,,,0,h,MISS Joseph 6' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,157
+0021800241,222,PT08M10.00S,2,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,158
+0021800241,223,PT07M52.00S,2,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,,,0,h,Jump Ball McDermott vs. Favors: Tip to Ingles,Jump Ball,,1,0,159
+0021800241,226,PT07M49.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,h,Holiday S.FOUL (P3.T4) (B.Barnaky),Foul,Shooting,1,0,160
+0021800241,228,PT07M49.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,43,30,73,v,Rubio Free Throw 1 of 2 (8 PTS),Free Throw,Free Throw 1 of 2,0,0,161
+0021800241,229,PT07M49.00S,2,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,h,SUB: Collison FOR Holiday,Substitution,,0,0,162
+0021800241,230,PT07M49.00S,2,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,SUB: Gobert FOR Favors,Substitution,,0,0,163
+0021800241,233,PT07M49.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,MISS Rubio Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,164
+0021800241,234,PT07M46.00S,2,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,h,Joseph REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,165
+0021800241,235,PT07M43.00S,2,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,166
+0021800241,236,PT07M28.00S,2,1610612754,IND,202711,Bogdanović,B. Bogdanović,-13,101,10,Missed,1,,,0,h,MISS Bogdanovic 10' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,167
+0021800241,237,PT07M24.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,168
+0021800241,238,PT07M17.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles Bad Pass Turnover (P2.T10),Turnover,Bad Pass,1,0,169
+0021800241,238,PT07M17.00S,2,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,h,Joseph STEAL (1 STL),,,1,0,170
+0021800241,240,PT07M07.00S,2,1610612754,IND,202709,Joseph,C. Joseph,67,122,14,Missed,1,,,0,h,MISS Joseph 14' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,171
+0021800241,241,PT07M03.00S,2,1610612762,UTA,200757,Sefolosha,T. Sefolosha,0,0,0,,0,,,0,v,Sefolosha REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,172
+0021800241,242,PT06M46.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio Lost Ball Turnover (P2.T11),Turnover,Lost Ball,1,0,173
+0021800241,242,PT06M46.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis STEAL (1 STL),,,1,0,174
+0021800241,244,PT06M35.00S,2,1610612754,IND,202711,Bogdanović,B. Bogdanović,112,88,14,Made,1,45,30,75,h,Bogdanovic 14' Pullup Jump Shot (9 PTS) (Collison 2 AST),Made Shot,Pullup Jump shot,1,2,175
+0021800241,246,PT06M12.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,184,185,26,Made,1,45,33,78,v,Rubio 26' 3PT Jump Shot (11 PTS) (Ingles 3 AST),Made Shot,Jump Shot,1,3,176
+0021800241,248,PT05M53.00S,2,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,h,Joseph Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,177
+0021800241,248,PT05M53.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio STEAL (1 STL),,,1,0,178
+0021800241,250,PT05M53.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis P.FOUL (P1.PN) (B.Barnaky),Foul,Personal,1,0,179
+0021800241,252,PT05M53.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,45,34,79,v,Rubio Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,0,0,180
+0021800241,253,PT05M53.00S,2,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,h,SUB: Young FOR Joseph,Substitution,,0,0,181
+0021800241,254,PT05M53.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,SUB: Evans FOR Sabonis,Substitution,,0,0,182
+0021800241,255,PT05M53.00S,2,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,,,0,h,SUB: Turner FOR McDermott,Substitution,,0,0,183
+0021800241,256,PT05M53.00S,2,1610612762,UTA,202692,Burks,A. Burks,0,0,0,,0,,,0,v,SUB: Mitchell FOR Burks,Substitution,,0,0,184
+0021800241,257,PT05M53.00S,2,1610612762,UTA,200757,Sefolosha,T. Sefolosha,0,0,0,,0,,,0,v,SUB: Crowder FOR Sefolosha,Substitution,,0,0,185
+0021800241,263,PT05M53.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,45,35,80,v,Rubio Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,0,0,186
+0021800241,264,PT05M40.00S,2,1610612754,IND,202711,Bogdanović,B. Bogdanović,-40,94,10,Missed,1,,,0,h,MISS Bogdanovic 10' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,187
+0021800241,265,PT05M37.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,188
+0021800241,266,PT05M25.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,2,21,2,Missed,1,,,0,v,MISS Gobert 2' Layup,Missed Shot,Layup Shot,1,2,189
+0021800241,266,PT05M25.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,h,Turner BLOCK (3 BLK),,,1,2,190
+0021800241,268,PT05M23.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,h,Turner REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,191
+0021800241,269,PT05M16.00S,2,1610612754,IND,201954,Collison,D. Collison,2,4,0,Made,1,47,35,82,h,Collison Driving Finger Roll Layup (7 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,192
+0021800241,270,PT05M01.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,-125,55,14,Missed,1,,,0,v,MISS Rubio 14' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,193
+0021800241,271,PT04M56.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,194
+0021800241,272,PT04M56.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,-6,1,Missed,1,,,0,v,MISS Gobert 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,195
+0021800241,273,PT04M55.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,h,Turner REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,196
+0021800241,274,PT04M49.00S,2,1610612754,IND,1626167,Turner,M. Turner,116,243,27,Missed,1,,,0,h,MISS Turner 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,197
+0021800241,275,PT04M47.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,198
+0021800241,276,PT04M32.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,-14,-8,2,Missed,1,,,0,v,MISS Ingles 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,199
+0021800241,277,PT04M31.00S,2,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Rebound,Rebound,Unknown,0,0,200
+0021800241,279,PT04M16.00S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,h,Young Lost Ball Turnover (P1.T4),Turnover,Lost Ball,1,0,201
+0021800241,279,PT04M16.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio STEAL (2 STL),,,1,0,202
+0021800241,281,PT04M10.00S,2,1610612762,UTA,203109,Crowder,J. Crowder,-126,65,14,Missed,1,,,0,v,MISS Crowder 14' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,203
+0021800241,282,PT04M08.00S,2,1610612754,IND,201936,Evans,T. Evans,0,0,0,,0,,,0,h,Evans REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,204
+0021800241,283,PT04M03.00S,2,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder P.FOUL (P2.T1) (P.Fraher),Foul,Personal,1,0,205
+0021800241,285,PT04M03.00S,2,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,SUB: Favors FOR Gobert,Substitution,,0,0,206
+0021800241,287,PT03M48.00S,2,1610612754,IND,201954,Collison,D. Collison,-228,29,0,Missed,1,,,0,h,MISS Collison 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,207
+0021800241,288,PT03M45.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,208
+0021800241,289,PT03M38.00S,2,1610612762,UTA,201937,Rubio,R. Rubio,58,257,26,Made,1,47,38,85,v,Rubio 26' 3PT Jump Shot (16 PTS) (Crowder 3 AST),Made Shot,Jump Shot,1,3,209
+0021800241,291,PT03M23.00S,2,1610612754,IND,201936,Evans,T. Evans,3,5,1,Missed,1,,,0,h,MISS Evans 1' Layup,Missed Shot,Layup Shot,1,2,210
+0021800241,292,PT03M21.00S,2,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,211
+0021800241,293,PT03M13.00S,2,1610612762,UTA,204060,Ingles,J. Ingles,-236,46,24,Made,1,47,41,88,v,Ingles 24' 3PT Jump Shot (5 PTS) (Rubio 3 AST),Made Shot,Jump Shot,1,3,212
+0021800241,295,PT03M13.00S,2,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,213
+0021800241,296,PT02M56.00S,2,1610612754,IND,1626167,Turner,M. Turner,-31,121,12,Made,1,49,41,90,h,Turner 12' Floating Jump Shot (8 PTS) (Collison 3 AST),Made Shot,Floating Jump shot,1,2,214
+0021800241,298,PT02M46.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,-55,265,27,Missed,1,,,0,v,MISS Mitchell 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,215
+0021800241,299,PT02M42.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,h,Turner REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,216
+0021800241,300,PT02M33.00S,2,1610612754,IND,1626167,Turner,M. Turner,-44,124,13,Made,1,51,41,92,h,Turner 13' Jump Shot (10 PTS) (Collison 4 AST),Made Shot,Jump Shot,1,2,217
+0021800241,302,PT02M17.00S,2,1610612754,IND,201936,Evans,T. Evans,0,0,0,,0,,,0,h,Evans S.FOUL (P1.PN) (D.Taylor),Foul,Shooting,1,0,218
+0021800241,304,PT02M17.00S,2,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,51,42,93,v,Favors Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,219
+0021800241,428,PT02M17.00S,2,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,h,SUB: Sabonis FOR Young,Substitution,,0,0,220
+0021800241,307,PT02M17.00S,2,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,MISS Favors Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,221
+0021800241,308,PT02M17.00S,2,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Rebound,Rebound,Unknown,0,0,222
+0021800241,340,PT02M17.00S,2,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder L.B.FOUL (P3.T2) (B.Barnaky),Foul,Loose Ball,1,0,223
+0021800241,430,PT02M17.00S,2,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,SUB: O'Neale FOR Crowder,Substitution,,0,0,224
+0021800241,314,PT01M58.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,9,1,Missed,1,,,0,h,MISS Sabonis 1' Cutting Finger Roll Layup Shot,Missed Shot,Cutting Finger Roll Layup Shot,1,2,225
+0021800241,315,PT01M55.00S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,226
+0021800241,316,PT01M49.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,h,Turner P.FOUL (P1.PN) (B.Barnaky),Foul,Personal,1,0,227
+0021800241,318,PT01M49.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,51,43,94,v,Mitchell Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,228
+0021800241,319,PT01M49.00S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,MISS Mitchell Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,229
+0021800241,320,PT01M47.00S,2,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,h,Turner REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,230
+0021800241,323,PT01M27.00S,2,1610612754,IND,201936,Evans,T. Evans,-2,8,1,Made,1,53,43,96,h,Evans 1' Driving Finger Roll Layup (5 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,231
+0021800241,324,PT01M18.00S,2,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,1,0,Made,1,53,45,98,v,O'Neale Reverse Layup (4 PTS) (Ingles 4 AST),Made Shot,Reverse Layup Shot,1,2,232
+0021800241,326,PT00M58.30S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,49,156,16,Made,1,55,45,100,h,Sabonis 16' Jump Shot (10 PTS) (Evans 5 AST),Made Shot,Jump Shot,1,2,233
+0021800241,328,PT00M44.70S,2,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,-1,0,Made,1,55,47,102,v,Mitchell Layup (5 PTS) (Rubio 4 AST),Made Shot,Layup Shot,1,2,234
+0021800241,330,PT00M31.40S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,-2,14,1,Made,1,57,47,104,h,Sabonis 1' Dunk (12 PTS) (Turner 2 AST),Made Shot,Dunk Shot,1,2,235
+0021800241,332,PT00M10.60S,2,1610612762,UTA,202324,Favors,D. Favors,-9,-10,1,Missed,1,,,0,v,MISS Favors 1' Layup,Missed Shot,Layup Shot,1,2,236
+0021800241,333,PT00M09.00S,2,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,237
+0021800241,334,PT00M02.90S,2,1610612754,IND,201936,Evans,T. Evans,9,59,6,Missed,1,,,0,h,MISS Evans 6' Layup,Missed Shot,Layup Shot,1,2,238
+0021800241,336,PT00M00.40S,2,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,239
+0021800241,337,PT00M00.00S,2,0,,0,,,0,0,0,,0,57,47,104,,End of 2nd Period (8:06 PM EST),period,end,1,0,240
+0021800241,350,PT12M00.00S,3,0,,0,,,0,0,0,,0,57,47,104,,Start of 3rd Period (8:22 PM EST),period,start,0,0,241
+0021800241,351,PT11M48.00S,3,1610612754,IND,201936,Evans,T. Evans,-5,-11,1,Missed,1,,,0,h,MISS Evans 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,242
+0021800241,352,PT11M46.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,243
+0021800241,353,PT11M34.00S,3,1610612762,UTA,202324,Favors,D. Favors,11,13,2,Missed,1,,,0,v,MISS Favors 2' Cutting Dunk Shot,Missed Shot,Cutting Dunk Shot,1,2,244
+0021800241,354,PT11M31.00S,3,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,h,Collison REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,245
+0021800241,355,PT11M19.00S,3,1610612754,IND,1626167,Turner,M. Turner,57,113,13,Missed,1,,,0,h,MISS Turner 13' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,246
+0021800241,356,PT11M16.00S,3,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,247
+0021800241,357,PT11M07.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell Bad Pass Turnover (P3.T12),Turnover,Bad Pass,1,0,248
+0021800241,357,PT11M07.00S,3,1610612754,IND,201936,Evans,T. Evans,0,0,0,,0,,,0,h,Evans STEAL (2 STL),,,1,0,249
+0021800241,359,PT11M02.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,4,-9,1,Made,1,59,47,106,h,Bogdanovic 1' Cutting Layup Shot (11 PTS) (Collison 5 AST),Made Shot,Cutting Layup Shot,1,2,250
+0021800241,361,PT10M51.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,67,89,11,Made,1,59,49,108,v,Mitchell 11' Floating Jump Shot (7 PTS),Made Shot,Floating Jump shot,1,2,251
+0021800241,362,PT10M32.00S,3,1610612754,IND,201936,Evans,T. Evans,-174,193,26,Missed,1,,,0,h,MISS Evans 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,252
+0021800241,363,PT10M30.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,253
+0021800241,364,PT10M19.00S,3,1610612762,UTA,202324,Favors,D. Favors,-232,-4,0,Missed,1,,,0,v,MISS Favors 3PT Jump Shot,Missed Shot,Jump Shot,1,3,254
+0021800241,365,PT10M17.00S,3,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,255
+0021800241,366,PT10M06.00S,3,1610612754,IND,201936,Evans,T. Evans,0,0,0,,0,,,0,h,Evans S.FOUL (P2.T1) (B.Barnaky),Foul,Shooting,1,0,256
+0021800241,368,PT10M06.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,MISS Gobert Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,257
+0021800241,369,PT10M06.00S,3,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Normal Rebound,0,0,258
+0021800241,370,PT10M06.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,59,50,109,v,Gobert Free Throw 2 of 2 (5 PTS),Free Throw,Free Throw 2 of 2,0,0,259
+0021800241,371,PT09M51.00S,3,1610612754,IND,1626167,Turner,M. Turner,-62,153,17,Missed,1,,,0,h,MISS Turner 17' Jump Shot,Missed Shot,Jump Shot,1,2,260
+0021800241,372,PT09M48.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:1 Def:9),Rebound,Unknown,1,0,261
+0021800241,373,PT09M33.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,187,106,21,Missed,1,,,0,v,MISS Mitchell 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,262
+0021800241,374,PT09M31.00S,3,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,h,Young REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,263
+0021800241,375,PT09M22.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,Mitchell P.FOUL (P2.T1) (P.Fraher),Foul,Personal,1,0,264
+0021800241,377,PT09M09.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,215,157,27,Made,1,62,50,112,h,Bogdanovic 27' 3PT Pullup Jump Shot (14 PTS),Made Shot,Pullup Jump shot,1,3,265
+0021800241,378,PT08M54.00S,3,1610612762,UTA,201937,Rubio,R. Rubio,-225,73,24,Made,1,62,53,115,v,Rubio 24' 3PT Jump Shot (19 PTS),Made Shot,Jump Shot,1,3,266
+0021800241,379,PT08M33.00S,3,1610612754,IND,1626167,Turner,M. Turner,-1,7,1,Made,1,64,53,117,h,Turner 1' Cutting Finger Roll Layup Shot (12 PTS) (Collison 6 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,267
+0021800241,381,PT08M23.00S,3,1610612762,UTA,201937,Rubio,R. Rubio,89,71,11,Missed,1,,,0,v,MISS Rubio 11' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,268
+0021800241,382,PT08M19.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,Bogdanovic REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,269
+0021800241,383,PT08M13.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,-12,1,1,Missed,1,,,0,h,MISS Bogdanovic 1' Finger Roll Layup,Missed Shot,Finger Roll Layup Shot,1,2,270
+0021800241,383,PT08M13.00S,3,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors BLOCK (2 BLK),,,1,2,271
+0021800241,385,PT08M08.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,Bogdanovic REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,272
+0021800241,386,PT08M06.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles Violation:Kicked Ball (B.Barnaky),Violation,Kicked Ball,0,0,273
+0021800241,387,PT08M06.00S,3,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,SUB: Crowder FOR Favors,Substitution,,0,0,274
+0021800241,389,PT07M55.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,15,6,2,Made,1,66,53,119,h,Bogdanovic 2' Driving Layup (16 PTS),Made Shot,Driving Layup Shot,1,2,275
+0021800241,390,PT07M44.00S,3,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio Bad Pass Turnover (P3.T13),Turnover,Bad Pass,1,0,276
+0021800241,390,PT07M44.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,Bogdanovic STEAL (2 STL),,,1,0,277
+0021800241,392,PT07M42.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles Personal Take Foul (P1.T2) (D.Taylor),Foul,Personal Take,1,0,278
+0021800241,394,PT07M27.00S,3,1610612754,IND,201936,Evans,T. Evans,162,211,27,Made,1,69,53,122,h,Evans 27' 3PT Jump Shot (8 PTS) (Turner 3 AST),Made Shot,Jump Shot,1,3,279
+0021800241,396,PT07M10.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,228,140,27,Missed,1,,,0,v,MISS Ingles 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,280
+0021800241,397,PT07M09.00S,3,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,h,Young REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,281
+0021800241,398,PT07M00.00S,3,1610612754,IND,201152,Young,T. Young,-6,43,4,Made,1,71,53,124,h,Young 4' Turnaround Hook Shot (6 PTS) (Collison 7 AST),Made Shot,Turnaround Hook Shot,1,2,282
+0021800241,400,PT06M46.00S,3,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,h,Young P.FOUL (P2.T2) (D.Taylor),Foul,Personal,1,0,283
+0021800241,402,PT06M46.00S,3,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,284
+0021800241,404,PT06M33.00S,3,1610612762,UTA,201937,Rubio,R. Rubio,-236,-10,24,Made,1,71,56,127,v,Rubio 24' 3PT Step Back Jump Shot (22 PTS),Made Shot,Step Back Jump shot,1,3,285
+0021800241,405,PT06M17.00S,3,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,h,Young OFF.Foul (P3) (D.Taylor),Foul,Offensive,1,0,286
+0021800241,407,PT06M17.00S,3,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,h,Young Offensive Foul Turnover (P2.T5),Turnover,Offensive Foul Turnover,1,0,287
+0021800241,409,PT06M06.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,h,Turner S.FOUL (P2.T3) (P.Fraher),Foul,Shooting,1,0,288
+0021800241,411,PT06M06.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,71,57,128,v,Gobert Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,0,0,289
+0021800241,412,PT06M06.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,MISS Gobert Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,290
+0021800241,413,PT06M04.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,h,Turner REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,291
+0021800241,415,PT05M46.00S,3,1610612754,IND,201936,Evans,T. Evans,205,160,26,Missed,1,,,0,h,MISS Evans 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,292
+0021800241,416,PT05M42.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,Gobert REBOUND (Off:1 Def:10),Rebound,Unknown,1,0,293
+0021800241,417,PT05M28.00S,3,1610612762,UTA,201937,Rubio,R. Rubio,89,164,19,Made,1,71,59,130,v,Rubio 19' Fadeaway Jumper (24 PTS),Made Shot,Fadeaway Jump Shot,1,2,294
+0021800241,418,PT05M08.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,-23,197,20,Made,1,73,59,132,h,Bogdanovic 20' Fadeaway Jumper (18 PTS),Made Shot,Fadeaway Jump Shot,1,2,295
+0021800241,419,PT04M56.00S,3,1610612762,UTA,201937,Rubio,R. Rubio,5,198,20,Made,1,73,61,134,v,Rubio 20' Pullup Jump Shot (26 PTS),Made Shot,Pullup Jump shot,1,2,296
+0021800241,420,PT04M38.00S,3,1610612754,IND,201152,Young,T. Young,0,5,1,Made,1,75,61,136,h,Young 1' Driving Reverse Layup (8 PTS) (Turner 4 AST),Made Shot,Driving Reverse Layup Shot,1,2,297
+0021800241,422,PT04M26.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,6,21,2,Made,1,75,63,138,v,Gobert 2' Alley Oop Dunk (8 PTS) (Ingles 5 AST),Made Shot,Alley Oop Dunk Shot,1,2,298
+0021800241,424,PT04M02.00S,3,1610612754,IND,201954,Collison,D. Collison,168,22,17,Missed,1,,,0,h,MISS Collison 17' Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,2,299
+0021800241,425,PT03M58.00S,3,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,h,Collison REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,300
+0021800241,426,PT03M56.00S,3,1610612754,IND,201954,Collison,D. Collison,8,-10,1,Made,1,77,63,140,h,Collison 1' Layup (9 PTS),Made Shot,Layup Shot,1,2,301
+0021800241,427,PT03M55.00S,3,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,302
+0021800241,432,PT03M55.00S,3,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,h,SUB: Joseph FOR Young,Substitution,,0,0,303
+0021800241,433,PT03M55.00S,3,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,SUB: Sabonis FOR Bogdanovic,Substitution,,0,0,304
+0021800241,434,PT03M55.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,SUB: Burks FOR Ingles,Substitution,,0,0,305
+0021800241,435,PT03M55.00S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,SUB: Exum FOR Mitchell,Substitution,,0,0,306
+0021800241,440,PT03M42.00S,3,1610612762,UTA,201937,Rubio,R. Rubio,-102,19,10,Made,1,77,65,142,v,Rubio 10' Turnaround Fadeaway Bank Jump Shot (28 PTS),Made Shot,Turnaround Fadeaway Bank Jump Shot,1,2,307
+0021800241,441,PT03M21.00S,3,1610612754,IND,201936,Evans,T. Evans,-7,34,3,Missed,1,,,0,h,MISS Evans 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,308
+0021800241,442,PT03M18.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,309
+0021800241,443,PT03M18.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,-6,1,Made,1,79,65,144,h,Sabonis 1' Tip Layup Shot (14 PTS),Made Shot,Tip Layup Shot,1,2,310
+0021800241,444,PT03M03.00S,3,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio Out of Bounds Lost Ball Turnover (P4.T14),Turnover,Out of Bounds Lost Ball Turnover,1,0,311
+0021800241,445,PT03M03.00S,3,1610612754,IND,201954,Collison,D. Collison,0,0,0,,0,,,0,h,SUB: Holiday FOR Collison,Substitution,,0,0,312
+0021800241,446,PT03M03.00S,3,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,SUB: Favors FOR Gobert,Substitution,,0,0,313
+0021800241,449,PT02M51.00S,3,1610612754,IND,1626167,Turner,M. Turner,10,176,18,Missed,1,,,0,h,MISS Turner 18' Jump Shot,Missed Shot,Jump Shot,1,2,314
+0021800241,450,PT02M48.00S,3,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,315
+0021800241,451,PT02M39.00S,3,1610612762,UTA,202324,Favors,D. Favors,-8,31,3,Missed,1,,,0,v,MISS Favors 3' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,316
+0021800241,452,PT02M37.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,317
+0021800241,453,PT02M21.00S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,h,Turner Lost Ball Turnover (P1.T6),Turnover,Lost Ball,1,0,318
+0021800241,453,PT02M21.00S,3,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio STEAL (3 STL),,,1,0,319
+0021800241,455,PT02M15.00S,3,1610612762,UTA,202692,Burks,A. Burks,6,27,3,Made,1,79,67,146,v,Burks 3' Finger Roll Layup (4 PTS) (Crowder 4 AST),Made Shot,Finger Roll Layup Shot,1,2,320
+0021800241,457,PT02M02.00S,3,1610612754,IND,1628988,Holiday,A. Holiday,-142,253,29,Made,1,82,67,149,h,Holiday 29' 3PT Pullup Jump Shot (6 PTS) (Sabonis 5 AST),Made Shot,Pullup Jump shot,1,3,321
+0021800241,458,PT01M42.00S,3,1610612762,UTA,203109,Crowder,J. Crowder,-230,-5,0,Made,1,82,70,152,v,Crowder 3PT Jump Shot (11 PTS) (Rubio 5 AST),Made Shot,Jump Shot,1,3,322
+0021800241,461,PT01M27.00S,3,1610612754,IND,1628988,Holiday,A. Holiday,-49,149,16,Made,1,84,70,154,h,Holiday 16' Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,2,323
+0021800241,462,PT01M10.00S,3,1610612762,UTA,201937,Rubio,R. Rubio,-145,208,25,Missed,1,,,0,v,MISS Rubio 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,324
+0021800241,463,PT01M07.00S,3,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,325
+0021800241,464,PT01M00.00S,3,1610612754,IND,201936,Evans,T. Evans,138,110,18,Missed,1,,,0,h,MISS Evans 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,326
+0021800241,465,PT00M55.90S,3,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,327
+0021800241,466,PT00M51.10S,3,1610612762,UTA,203957,Exum,D. Exum,0,0,0,,0,,,0,v,Exum Step Out of Bounds Turnover (P2.T15),Turnover,Step Out of Bounds Turnover,1,0,328
+0021800241,467,PT00M51.10S,3,1610612754,IND,201936,Evans,T. Evans,0,0,0,,0,,,0,h,SUB: McDermott FOR Evans,Substitution,,0,0,329
+0021800241,468,PT00M51.10S,3,1610612754,IND,1626167,Turner,M. Turner,0,0,0,,0,,,0,h,SUB: Young FOR Turner,Substitution,,0,0,330
+0021800241,469,PT00M51.10S,3,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,SUB: Mitchell FOR Rubio,Substitution,,0,0,331
+0021800241,470,PT00M51.10S,3,1610612762,UTA,202692,Burks,A. Burks,0,0,0,,0,,,0,v,SUB: Ingles FOR Burks,Substitution,,0,0,332
+0021800241,475,PT00M31.50S,3,1610612754,IND,201152,Young,T. Young,-6,-1,1,Made,1,86,70,156,h,Young 1' Cutting Dunk Shot (10 PTS) (Sabonis 6 AST),Made Shot,Cutting Dunk Shot,1,2,333
+0021800241,477,PT00M17.80S,3,1610612762,UTA,1628378,Mitchell,D. Mitchell,-3,75,8,Missed,1,,,0,v,MISS Mitchell 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,334
+0021800241,478,PT00M15.20S,3,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,h,Holiday REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,335
+0021800241,479,PT00M04.60S,3,1610612754,IND,1628988,Holiday,A. Holiday,-6,18,2,Missed,1,,,0,h,MISS Holiday 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,336
+0021800241,479,PT00M04.60S,3,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,Crowder BLOCK (2 BLK),,,1,2,337
+0021800241,481,PT00M04.60S,3,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,338
+0021800241,483,PT00M00.00S,3,1610612762,UTA,204060,Ingles,J. Ingles,198,209,29,Missed,1,,,0,v,MISS Ingles 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,339
+0021800241,484,PT00M00.00S,3,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,340
+0021800241,485,PT00M00.00S,3,0,,0,,,0,0,0,,0,86,70,156,,End of 3rd Period (8:44 PM EST),period,end,1,0,341
+0021800241,486,PT12M00.00S,4,0,,0,,,0,0,0,,0,86,70,156,,Start of 4th Period (8:47 PM EST),period,start,0,0,342
+0021800241,488,PT11M42.00S,4,1610612762,UTA,203957,Exum,D. Exum,2,14,1,Made,1,86,72,158,v,Exum 1' Driving Finger Roll Layup (2 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,343
+0021800241,489,PT11M26.00S,4,1610612754,IND,203926,McDermott,D. McDermott,-17,4,2,Made,1,88,72,160,h,McDermott 2' Reverse Layup (4 PTS) (Sabonis 7 AST),Made Shot,Reverse Layup Shot,1,2,344
+0021800241,491,PT11M10.00S,4,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,Ingles Bad Pass Turnover (P3.T16),Turnover,Bad Pass,1,0,345
+0021800241,491,PT11M10.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis STEAL (2 STL),,,1,0,346
+0021800241,493,PT11M10.00S,4,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors P.FOUL (P2.T1) (B.Barnaky),Foul,Personal,1,0,347
+0021800241,495,PT10M49.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,5,-5,1,Made,1,90,72,162,h,Sabonis 1' Cutting Layup Shot (16 PTS) (Holiday 1 AST),Made Shot,Cutting Layup Shot,1,2,348
+0021800241,497,PT10M35.00S,4,1610612762,UTA,203109,Crowder,J. Crowder,98,256,27,Made,1,90,75,165,v,Crowder 27' 3PT Jump Shot (14 PTS) (Exum 2 AST),Made Shot,Jump Shot,1,3,349
+0021800241,499,PT10M13.00S,4,1610612754,IND,201152,Young,T. Young,-232,29,0,Missed,1,,,0,h,MISS Young 3PT Jump Shot,Missed Shot,Jump Shot,1,3,350
+0021800241,500,PT10M11.00S,4,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,Favors REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,351
+0021800241,501,PT10M00.00S,4,1610612762,UTA,202324,Favors,D. Favors,-9,16,2,Made,1,90,77,167,v,Favors 2' Alley Oop Dunk (5 PTS) (Exum 3 AST),Made Shot,Alley Oop Dunk Shot,1,2,352
+0021800241,503,PT09M45.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,162,205,26,Made,1,93,77,170,h,Holiday 26' 3PT Jump Shot (11 PTS) (McDermott 1 AST),Made Shot,Jump Shot,1,3,353
+0021800241,505,PT09M25.00S,4,1610612762,UTA,203109,Crowder,J. Crowder,-42,252,26,Missed,1,,,0,v,MISS Crowder 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,354
+0021800241,506,PT09M23.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,355
+0021800241,507,PT09M06.00S,4,1610612754,IND,201152,Young,T. Young,5,0,1,Made,1,95,77,172,h,Young 1' Driving Layup (12 PTS),Made Shot,Driving Layup Shot,1,2,356
+0021800241,508,PT08M52.00S,4,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,h,Young P.FOUL (P4.T1) (D.Taylor),Foul,Personal,1,0,357
+0021800241,510,PT08M52.00S,4,1610612754,IND,201152,Young,T. Young,0,0,0,,0,,,0,h,SUB: Bogdanovic FOR Young,Substitution,,0,0,358
+0021800241,511,PT08M52.00S,4,1610612762,UTA,202324,Favors,D. Favors,0,0,0,,0,,,0,v,SUB: Sefolosha FOR Favors,Substitution,,0,0,359
+0021800241,512,PT08M52.00S,4,1610612762,UTA,203109,Crowder,J. Crowder,0,0,0,,0,,,0,v,SUB: Gobert FOR Crowder,Substitution,,0,0,360
+0021800241,516,PT08M46.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,7,24,3,Made,1,95,79,174,v,Gobert 3' Alley Oop Layup (10 PTS) (Exum 4 AST),Made Shot,Alley Oop Layup shot,1,2,361
+0021800241,518,PT08M32.00S,4,1610612754,IND,203926,McDermott,D. McDermott,-20,196,20,Made,1,97,79,176,h,McDermott 20' Pullup Jump Shot (6 PTS) (Sabonis 8 AST),Made Shot,Pullup Jump shot,1,2,362
+0021800241,520,PT08M19.00S,4,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,,,0,h,McDermott P.FOUL (P1.T2) (D.Taylor),Foul,Personal,1,0,363
+0021800241,522,PT08M19.00S,4,1610612762,UTA,203957,Exum,D. Exum,0,0,0,,0,,,0,v,SUB: Rubio FOR Exum,Substitution,,0,0,364
+0021800241,524,PT08M14.00S,4,1610612762,UTA,204060,Ingles,J. Ingles,-176,205,27,Missed,1,,,0,v,MISS Ingles 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,365
+0021800241,525,PT08M13.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,h,Holiday REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,366
+0021800241,527,PT08M08.00S,4,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio P.FOUL (P3.T2) (P.Fraher),Foul,Personal,1,0,367
+0021800241,529,PT08M08.00S,4,1610612762,UTA,204060,Ingles,J. Ingles,0,0,0,,0,,,0,v,SUB: O'Neale FOR Ingles,Substitution,,0,0,368
+0021800241,531,PT08M02.00S,4,1610612754,IND,202709,Joseph,C. Joseph,-73,34,8,Missed,1,,,0,h,MISS Joseph 8' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,369
+0021800241,531,PT08M02.00S,4,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,Rubio BLOCK (1 BLK),,,1,2,370
+0021800241,533,PT07M59.00S,4,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,h,Joseph REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,371
+0021800241,534,PT07M58.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis OFF.Foul (P2) (B.Barnaky),Foul,Offensive,1,0,372
+0021800241,536,PT07M58.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis Offensive Foul Turnover (P3.T7),Turnover,Offensive Foul Turnover,1,0,373
+0021800241,537,PT07M46.00S,4,1610612762,UTA,200757,Sefolosha,T. Sefolosha,-160,128,20,Missed,1,,,0,v,MISS Sefolosha 20' Jump Shot,Missed Shot,Jump Shot,1,2,374
+0021800241,538,PT07M42.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,h,Holiday REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,375
+0021800241,539,PT07M37.00S,4,1610612754,IND,202709,Joseph,C. Joseph,-8,-10,1,Missed,1,,,0,h,MISS Joseph 1' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,376
+0021800241,539,PT07M37.00S,4,1610612762,UTA,200757,Sefolosha,T. Sefolosha,0,0,0,,0,,,0,v,Sefolosha BLOCK (1 BLK),,,1,2,377
+0021800241,541,PT07M37.00S,4,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Rebound,Rebound,Unknown,0,0,378
+0021800241,543,PT07M25.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,9,29,3,Missed,1,,,0,h,MISS Sabonis 3' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,379
+0021800241,544,PT07M23.00S,4,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,h,Joseph REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,380
+0021800241,545,PT07M22.00S,4,1610612754,IND,202709,Joseph,C. Joseph,111,25,11,Missed,1,,,0,h,MISS Joseph 11' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,381
+0021800241,546,PT07M22.00S,4,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,382
+0021800241,547,PT07M13.00S,4,1610612762,UTA,200757,Sefolosha,T. Sefolosha,0,0,0,,0,,,0,v,Sefolosha Traveling Turnover (P1.T17),Turnover,Traveling,1,0,383
+0021800241,548,PT07M03.00S,4,1610612754,IND,202709,Joseph,C. Joseph,-7,2,1,Made,1,99,79,178,h,Joseph 1' Driving Finger Roll Layup (7 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,384
+0021800241,549,PT06M43.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,6,19,2,Made,1,99,81,180,v,Gobert 2' Cutting Dunk Shot (12 PTS) (Rubio 6 AST),Made Shot,Cutting Dunk Shot,1,2,385
+0021800241,551,PT06M24.00S,4,1610612754,IND,202711,Bogdanović,B. Bogdanović,-192,209,28,Made,1,102,81,183,h,Bogdanovic 28' 3PT Jump Shot (21 PTS) (Joseph 3 AST),Made Shot,Jump Shot,1,3,386
+0021800241,553,PT06M22.00S,4,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,387
+0021800241,554,PT06M22.00S,4,1610612762,UTA,201937,Rubio,R. Rubio,0,0,0,,0,,,0,v,SUB: Burks FOR Rubio,Substitution,,0,0,388
+0021800241,555,PT06M22.00S,4,1610612762,UTA,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,v,SUB: Neto FOR Mitchell,Substitution,,0,0,389
+0021800241,558,PT06M06.00S,4,1610612762,UTA,202692,Burks,A. Burks,-2,5,1,Missed,1,,,0,v,MISS Burks 1' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,390
+0021800241,559,PT06M04.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,391
+0021800241,560,PT05M53.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis Bad Pass Turnover (P4.T8),Turnover,Bad Pass,1,0,392
+0021800241,560,PT05M53.00S,4,1610612762,UTA,202692,Burks,A. Burks,0,0,0,,0,,,0,v,Burks STEAL (1 STL),,,1,0,393
+0021800241,562,PT05M43.00S,4,1610612762,UTA,203526,Neto,R. Neto,8,9,1,Made,1,102,83,185,v,Neto 1' Driving Finger Roll Layup (2 PTS) (Burks 1 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,394
+0021800241,564,PT05M20.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,146,43,15,Made,1,104,83,187,h,Holiday 15' Step Back Jump Shot (13 PTS) (Sabonis 9 AST),Made Shot,Step Back Jump shot,1,2,395
+0021800241,566,PT05M07.00S,4,1610612762,UTA,203526,Neto,R. Neto,0,0,0,,0,,,0,v,Neto Bad Pass Turnover (P1.T18),Turnover,Bad Pass,1,0,396
+0021800241,566,PT05M07.00S,4,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,h,Joseph STEAL (2 STL),,,1,0,397
+0021800241,568,PT05M03.00S,4,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,O'Neale S.FOUL (P2.T3) (B.Barnaky),Foul,Shooting,1,0,398
+0021800241,570,PT05M03.00S,4,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,105,83,188,h,McDermott Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,0,0,399
+0021800241,571,PT05M03.00S,4,1610612762,UTA,203497,Gobert,R. Gobert,0,0,0,,0,,,0,v,SUB: Udoh FOR Gobert,Substitution,,0,0,400
+0021800241,573,PT05M03.00S,4,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,106,83,189,h,McDermott Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,401
+0021800241,574,PT04M52.00S,4,1610612762,UTA,202692,Burks,A. Burks,3,11,1,Missed,1,,,0,v,MISS Burks 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,402
+0021800241,575,PT04M49.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,h,Holiday REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,403
+0021800241,576,PT04M45.00S,4,1610612762,UTA,202327,Udoh,E. Udoh,0,0,0,,0,,,0,v,Udoh S.FOUL (P1.T4) (D.Taylor),Foul,Shooting,1,0,404
+0021800241,578,PT04M45.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,107,83,190,h,Holiday Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,0,0,405
+0021800241,579,PT04M45.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,h,MISS Holiday Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,406
+0021800241,580,PT04M43.00S,4,1610612762,UTA,200757,Sefolosha,T. Sefolosha,0,0,0,,0,,,0,v,Sefolosha REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,407
+0021800241,581,PT04M33.00S,4,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,Bogdanovic P.FOUL (P1.T3) (D.Taylor),Foul,Personal,1,0,408
+0021800241,583,PT04M33.00S,4,1610612762,UTA,202692,Burks,A. Burks,0,0,0,,0,,,0,v,SUB: Allen FOR Burks,Substitution,,0,0,409
+0021800241,584,PT04M33.00S,4,1610612762,UTA,1626220,O'Neale,R. O'Neale,0,0,0,,0,,,0,v,SUB: Exum FOR O'Neale,Substitution,,0,0,410
+0021800241,587,PT04M20.00S,4,1610612762,UTA,200757,Sefolosha,T. Sefolosha,-117,-2,12,Missed,1,,,0,v,MISS Sefolosha 12' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,411
+0021800241,588,PT04M17.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,Sabonis REBOUND (Off:1 Def:8),Rebound,Unknown,1,0,412
+0021800241,589,PT04M03.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,14,262,26,Made,1,110,83,193,h,Sabonis 26' 3PT Jump Shot (19 PTS) (Joseph 4 AST),Made Shot,Jump Shot,1,3,413
+0021800241,591,PT03M46.00S,4,1610612762,UTA,1628960,Allen,G. Allen,-118,258,28,Made,1,110,86,196,v,Allen 28' 3PT Jump Shot (3 PTS) (Sefolosha 1 AST),Made Shot,Jump Shot,1,3,414
+0021800241,593,PT03M33.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,-23,260,26,Missed,1,,,0,h,MISS Holiday 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,415
+0021800241,594,PT03M29.00S,4,1610612762,UTA,203957,Exum,D. Exum,0,0,0,,0,,,0,v,Exum REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,416
+0021800241,595,PT03M22.00S,4,1610612762,UTA,202327,Udoh,E. Udoh,-2,20,2,Made,1,110,88,198,v,Udoh 2' Alley Oop Dunk (2 PTS) (Exum 5 AST),Made Shot,Alley Oop Dunk Shot,1,2,417
+0021800241,597,PT03M08.00S,4,1610612754,IND,202709,Joseph,C. Joseph,-16,265,27,Missed,1,,,0,h,MISS Joseph 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,418
+0021800241,598,PT03M05.00S,4,1610612762,UTA,202327,Udoh,E. Udoh,0,0,0,,0,,,0,v,Udoh REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,419
+0021800241,599,PT02M53.00S,4,1610612762,UTA,203526,Neto,R. Neto,235,111,26,Missed,1,,,0,v,MISS Neto 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,420
+0021800241,600,PT02M50.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,h,Holiday REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,421
+0021800241,601,PT02M48.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,-8,0,1,Made,1,112,88,200,h,Holiday 1' Running Layup (16 PTS),Made Shot,Running Layup Shot,1,2,422
+0021800241,602,PT02M48.00S,4,1610612762,UTA,1628960,Allen,G. Allen,0,0,0,,0,,,0,v,Allen S.FOUL (P1.PN) (D.Taylor),Foul,Shooting,1,0,423
+0021800241,604,PT02M48.00S,4,0,,1610612754,,,0,0,0,,0,,,0,h,PACERS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,424
+0021800241,605,PT02M48.00S,4,1610612754,IND,1627734,Sabonis,D. Sabonis,0,0,0,,0,,,0,h,SUB: O'Quinn FOR Sabonis,Substitution,,0,0,425
+0021800241,606,PT02M48.00S,4,1610612754,IND,202711,Bogdanović,B. Bogdanović,0,0,0,,0,,,0,h,SUB: Leaf FOR Bogdanovic,Substitution,,0,0,426
+0021800241,609,PT02M48.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,113,88,201,h,Holiday Free Throw 1 of 1 (17 PTS),Free Throw,Free Throw 1 of 1,0,0,427
+0021800241,610,PT02M37.00S,4,1610612762,UTA,1628960,Allen,G. Allen,207,171,27,Missed,1,,,0,v,MISS Allen 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,428
+0021800241,611,PT02M35.00S,4,1610612754,IND,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,h,O'Quinn REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,429
+0021800241,612,PT02M25.00S,4,1610612754,IND,1628988,Holiday,A. Holiday,0,-9,1,Made,1,115,88,203,h,Holiday 1' Cutting Dunk Shot (19 PTS) (O'Quinn 1 AST),Made Shot,Cutting Dunk Shot,1,2,430
+0021800241,614,PT02M07.00S,4,1610612762,UTA,1628960,Allen,G. Allen,0,10,1,Made,1,115,90,205,v,Allen 1' Driving Dunk (5 PTS),Made Shot,Driving Dunk Shot,1,2,431
+0021800241,615,PT01M54.00S,4,1610612762,UTA,200757,Sefolosha,T. Sefolosha,0,0,0,,0,,,0,v,Sefolosha S.FOUL (P1.PN) (B.Barnaky),Foul,Shooting,1,0,432
+0021800241,617,PT01M54.00S,4,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,116,90,206,h,McDermott Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,0,0,433
+0021800241,618,PT01M54.00S,4,1610612754,IND,202709,Joseph,C. Joseph,0,0,0,,0,,,0,h,SUB: Reed FOR Joseph,Substitution,,0,0,434
+0021800241,620,PT01M54.00S,4,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,117,90,207,h,McDermott Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,0,0,435
+0021800241,621,PT01M45.00S,4,1610612754,IND,203926,McDermott,D. McDermott,0,0,0,,0,,,0,h,McDermott P.FOUL (P2.T4) (B.Barnaky),Foul,Personal,1,0,436
+0021800241,623,PT01M39.00S,4,1610612762,UTA,1628960,Allen,G. Allen,19,32,4,Missed,1,,,0,v,MISS Allen 4' Layup,Missed Shot,Layup Shot,1,2,437
+0021800241,624,PT01M36.00S,4,1610612754,IND,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,h,O'Quinn REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,438
+0021800241,625,PT01M30.00S,4,1610612754,IND,203926,McDermott,D. McDermott,226,75,24,Missed,1,,,0,h,MISS McDermott 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,439
+0021800241,626,PT01M26.00S,4,1610612754,IND,1628388,Leaf,T. Leaf,0,0,0,,0,,,0,h,Leaf REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,440
+0021800241,627,PT01M25.00S,4,1610612754,IND,1628388,Leaf,T. Leaf,0,0,0,,0,,,0,h,Leaf Lost Ball Turnover (P1.T9),Turnover,Lost Ball,1,0,441
+0021800241,627,PT01M25.00S,4,1610612762,UTA,203526,Neto,R. Neto,0,0,0,,0,,,0,v,Neto STEAL (1 STL),,,1,0,442
+0021800241,629,PT01M20.00S,4,1610612762,UTA,203526,Neto,R. Neto,-227,-23,0,Missed,1,,,0,v,MISS Neto 3PT Jump Shot,Missed Shot,Jump Shot,1,3,443
+0021800241,630,PT01M18.00S,4,1610612762,UTA,200757,Sefolosha,T. Sefolosha,0,0,0,,0,,,0,v,Sefolosha REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,444
+0021800241,631,PT01M14.00S,4,1610612762,UTA,1628960,Allen,G. Allen,208,182,28,Missed,1,,,0,v,MISS Allen 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,445
+0021800241,632,PT01M14.00S,4,0,,1610612762,,,0,0,0,,0,,,0,v,Jazz Rebound,Rebound,Unknown,0,0,446
+0021800241,634,PT01M03.00S,4,1610612762,UTA,202327,Udoh,E. Udoh,-4,8,1,Made,1,117,92,209,v,Udoh 1' Cutting Dunk Shot (4 PTS) (Neto 2 AST),Made Shot,Cutting Dunk Shot,1,2,447
+0021800241,636,PT00M55.70S,4,1610612754,IND,1628388,Leaf,T. Leaf,2,2,0,Made,1,119,92,211,h,Leaf Driving Finger Roll Layup (2 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,448
+0021800241,637,PT00M50.10S,4,1610612762,UTA,1628960,Allen,G. Allen,0,0,0,,0,,,0,v,Allen Step Out of Bounds Turnover (P1.T19),Turnover,Step Out of Bounds Turnover,1,0,449
+0021800241,638,PT00M35.30S,4,1610612754,IND,203124,O'Quinn,K. O'Quinn,-28,47,5,Missed,1,,,0,h,MISS O'Quinn 5' Layup,Missed Shot,Layup Shot,1,2,450
+0021800241,638,PT00M35.30S,4,1610612762,UTA,202327,Udoh,E. Udoh,0,0,0,,0,,,0,v,Udoh BLOCK (1 BLK),,,1,2,451
+0021800241,640,PT00M34.40S,4,1610612762,UTA,203957,Exum,D. Exum,0,0,0,,0,,,0,v,Exum REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,452
+0021800241,641,PT00M34.40S,4,1610612754,IND,203124,O'Quinn,K. O'Quinn,0,0,0,,0,,,0,h,O'Quinn P.FOUL (P1.PN) (B.Barnaky),Foul,Personal,1,0,453
+0021800241,643,PT00M34.40S,4,1610612762,UTA,203957,Exum,D. Exum,0,0,0,,0,119,93,212,v,Exum Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,454
+0021800241,644,PT00M34.40S,4,1610612762,UTA,203957,Exum,D. Exum,0,0,0,,0,119,94,213,v,Exum Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,455
+0021800241,645,PT00M26.00S,4,1610612754,IND,203926,McDermott,D. McDermott,-5,25,3,Made,1,121,94,215,h,McDermott 3' Cutting Finger Roll Layup Shot (12 PTS) (O'Quinn 2 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,456
+0021800241,647,PT00M13.70S,4,1610612762,UTA,203957,Exum,D. Exum,17,17,2,Missed,1,,,0,v,MISS Exum 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,457
+0021800241,648,PT00M10.80S,4,1610612754,IND,1628988,Holiday,A. Holiday,0,0,0,,0,,,0,h,Holiday REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,458
+0021800241,649,PT00M00.00S,4,0,,0,,,0,0,0,,0,121,94,215,,End of 4th Period (9:12 PM EST),period,end,1,0,459

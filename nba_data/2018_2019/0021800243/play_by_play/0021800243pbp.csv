@@ -1,0 +1,571 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0021800243,2,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:41 PM EST),period,start,0,0,1
+0021800243,4,PT12M00.00S,1,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Jump Ball Len vs. Gortat: Tip to Harris,Jump Ball,,1,0,2
+0021800243,7,PT11M44.00S,1,1610612746,LAC,202699,Harris,T. Harris,79,200,22,Made,1,0,2,2,v,Harris 22' Step Back Jump Shot (2 PTS) (Gortat 1 AST),Made Shot,Step Back Jump shot,1,2,3
+0021800243,9,PT11M23.00S,1,1610612737,ATL,1627752,Prince,T. Prince,-123,230,26,Missed,1,,,0,h,MISS Prince 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,4
+0021800243,10,PT11M21.00S,1,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,5
+0021800243,11,PT11M14.00S,1,1610612746,LAC,202699,Harris,T. Harris,7,26,3,Missed,1,,,0,v,MISS Harris 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,6
+0021800243,13,PT11M10.00S,1,1610612746,LAC,101162,Gortat,M. Gortat,0,0,0,,0,,,0,v,Gortat REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,7
+0021800243,14,PT11M09.00S,1,1610612746,LAC,101162,Gortat,M. Gortat,9,15,2,Missed,1,,,0,v,MISS Gortat 2' Putback Layup,Missed Shot,Putback Layup Shot,1,2,8
+0021800243,15,PT11M07.00S,1,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,9
+0021800243,16,PT10M59.00S,1,1610612737,ATL,1629027,Young,T. Young,-2,15,2,Made,1,2,2,4,h,Young 2' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,10
+0021800243,17,PT10M43.00S,1,1610612746,LAC,202699,Harris,T. Harris,-100,227,25,Made,1,2,5,7,v,Harris 25' 3PT Pullup Jump Shot (5 PTS) (Gortat 2 AST),Made Shot,Pullup Jump shot,1,3,11
+0021800243,19,PT10M28.00S,1,1610612737,ATL,203458,Len,A. Len,-8,21,2,Made,1,4,5,9,h,Len 2' Cutting Layup Shot (2 PTS) (Young 1 AST),Made Shot,Cutting Layup Shot,1,2,12
+0021800243,21,PT10M14.00S,1,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,3,13,1,Made,1,4,7,11,v,Gilgeous-Alexander 1' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,13
+0021800243,22,PT10M03.00S,1,1610612737,ATL,1629027,Young,T. Young,-5,13,1,Made,1,6,7,13,h,Young 1' Driving Reverse Layup (4 PTS),Made Shot,Driving Reverse Layup Shot,1,2,14
+0021800243,23,PT09M51.00S,1,1610612746,LAC,101162,Gortat,M. Gortat,0,17,2,Missed,1,,,0,v,MISS Gortat 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,15
+0021800243,23,PT09M51.00S,1,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore BLOCK (1 BLK),,,1,2,16
+0021800243,26,PT09M51.00S,1,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Unknown,0,0,17
+0021800243,27,PT09M40.00S,1,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore Bad Pass Turnover (P1.T1),Turnover,Bad Pass,1,0,18
+0021800243,27,PT09M40.00S,1,1610612746,LAC,202340,Bradley,A. Bradley,0,0,0,,0,,,0,v,Bradley STEAL (1 STL),,,1,0,19
+0021800243,29,PT09M38.00S,1,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,v,Beverley Traveling Turnover (P1.T1),Turnover,Traveling,1,0,20
+0021800243,30,PT09M28.00S,1,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore Bad Pass Turnover (P2.T2),Turnover,Bad Pass,1,0,21
+0021800243,30,PT09M28.00S,1,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,Gilgeous-Alexander STEAL (1 STL),,,1,0,22
+0021800243,32,PT09M23.00S,1,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,-8,26,3,Missed,1,,,0,v,MISS Gilgeous-Alexander 3' Running Layup,Missed Shot,Running Layup Shot,1,2,23
+0021800243,33,PT09M21.00S,1,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,v,Beverley REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,24
+0021800243,34,PT09M17.00S,1,1610612746,LAC,101162,Gortat,M. Gortat,6,22,2,Missed,1,,,0,v,MISS Gortat 2' Cutting Dunk Shot,Missed Shot,Cutting Dunk Shot,1,2,25
+0021800243,35,PT09M17.00S,1,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,26
+0021800243,36,PT09M09.00S,1,1610612737,ATL,203458,Len,A. Len,113,194,22,Missed,1,,,0,h,MISS Len 22' Jump Shot,Missed Shot,Jump Shot,1,2,27
+0021800243,37,PT09M06.00S,1,1610612746,LAC,101162,Gortat,M. Gortat,0,0,0,,0,,,0,v,Gortat REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,28
+0021800243,38,PT08M52.00S,1,1610612746,LAC,201976,Beverley,P. Beverley,-75,192,21,Made,1,6,9,15,v,Beverley 21' Pullup Jump Shot (2 PTS),Made Shot,Pullup Jump shot,1,2,29
+0021800243,39,PT08M36.00S,1,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len 3 Second Violation Turnover (P1.T3),Turnover,3 Second Violation,1,0,30
+0021800243,40,PT08M25.00S,1,1610612746,LAC,202699,Harris,T. Harris,-74,190,20,Made,1,6,11,17,v,Harris 20' Pullup Jump Shot (7 PTS),Made Shot,Pullup Jump shot,1,2,31
+0021800243,41,PT08M16.00S,1,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,32
+0021800243,41,PT08M16.00S,1,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris STEAL (1 STL),,,1,0,33
+0021800243,43,PT08M05.00S,1,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,13,1,Made,1,6,13,19,v,Gilgeous-Alexander 1' Driving Layup (4 PTS),Made Shot,Driving Layup Shot,1,2,34
+0021800243,44,PT07M55.00S,1,1610612737,ATL,1629027,Young,T. Young,173,188,26,Made,1,9,13,22,h,Young 26' 3PT Pullup Jump Shot (7 PTS),Made Shot,Pullup Jump shot,1,3,35
+0021800243,46,PT07M55.00S,1,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris S.FOUL (P1.T1) (P.Ransom),Foul,Shooting,1,0,36
+0021800243,48,PT07M55.00S,1,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,10,13,23,h,Young Free Throw 1 of 1 (8 PTS),Free Throw,Free Throw 1 of 1,0,0,37
+0021800243,49,PT07M45.00S,1,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len P.FOUL (P1.T1) (P.Ransom),Foul,Personal,1,0,38
+0021800243,51,PT07M45.00S,1,1610612737,ATL,1629016,Spellman,O. Spellman,0,0,0,,0,,,0,h,SUB: Collins FOR Spellman,Substitution,,0,0,39
+0021800243,53,PT07M36.00S,1,1610612746,LAC,202699,Harris,T. Harris,1,8,1,Made,1,10,15,25,v,Harris 1' Driving Layup (9 PTS),Made Shot,Driving Layup Shot,1,2,40
+0021800243,54,PT07M26.00S,1,1610612737,ATL,1629027,Young,T. Young,52,272,28,Missed,1,,,0,h,MISS Young 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,41
+0021800243,55,PT07M22.00S,1,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,42
+0021800243,56,PT07M22.00S,1,1610612737,ATL,203145,Bazemore,K. Bazemore,103,133,17,Made,1,12,15,27,h,Bazemore 17' Jump Bank Shot (2 PTS),Made Shot,Jump Bank Shot,1,2,43
+0021800243,57,PT07M01.00S,1,1610612746,LAC,201976,Beverley,P. Beverley,63,253,26,Missed,1,,,0,v,MISS Beverley 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,44
+0021800243,58,PT06M58.00S,1,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,45
+0021800243,59,PT06M47.00S,1,1610612737,ATL,1627752,Prince,T. Prince,-60,123,14,Made,1,14,15,29,h,Prince 14' Driving Floating Jump Shot (2 PTS) (Collins 1 AST),Made Shot,Driving Floating Jump Shot,1,2,46
+0021800243,61,PT06M34.00S,1,1610612746,LAC,202340,Bradley,A. Bradley,-6,9,1,Missed,1,,,0,v,MISS Bradley 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,47
+0021800243,65,PT06M33.00S,1,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Unknown,0,0,48
+0021800243,62,PT06M33.00S,1,1610612746,LAC,101162,Gortat,M. Gortat,0,0,0,,0,,,0,v,Gortat L.B.FOUL (P1.T2) (C.Kirkland),Foul,Loose Ball,1,0,49
+0021800243,64,PT06M33.00S,1,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,50
+0021800243,66,PT06M33.00S,1,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,SUB: Dedmon FOR Bazemore,Substitution,,0,0,51
+0021800243,67,PT06M33.00S,1,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,SUB: Huerter FOR Len,Substitution,,0,0,52
+0021800243,70,PT06M24.00S,1,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,v,Beverley S.FOUL (P1.T3) (J.Phillips),Foul,Shooting,1,0,53
+0021800243,72,PT06M24.00S,1,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,15,15,30,h,Young Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,0,0,54
+0021800243,73,PT06M24.00S,1,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,16,15,31,h,Young Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,0,0,55
+0021800243,74,PT06M12.00S,1,1610612746,LAC,202340,Bradley,A. Bradley,-71,135,15,Missed,1,,,0,v,MISS Bradley 15' Jump Shot,Missed Shot,Jump Shot,1,2,56
+0021800243,75,PT06M06.00S,1,1610612746,LAC,101162,Gortat,M. Gortat,0,0,0,,0,,,0,v,Gortat REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,57
+0021800243,76,PT06M06.00S,1,1610612746,LAC,101162,Gortat,M. Gortat,0,-6,1,Made,1,16,17,33,v,Gortat 1' Tip Layup Shot (2 PTS),Made Shot,Tip Layup Shot,1,2,58
+0021800243,77,PT05M55.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,2,13,1,Made,1,18,17,35,h,Dedmon 1' Alley Oop Dunk (2 PTS) (Young 2 AST),Made Shot,Alley Oop Dunk Shot,1,2,59
+0021800243,79,PT05M40.00S,1,1610612746,LAC,202699,Harris,T. Harris,127,213,25,Made,1,18,20,38,v,Harris 25' 3PT Jump Shot (12 PTS) (Beverley 1 AST),Made Shot,Jump Shot,1,3,60
+0021800243,81,PT05M24.00S,1,1610612737,ATL,1628381,Collins,J. Collins,-1,12,1,Made,1,20,20,40,h,Collins 1' Cutting Dunk Shot (2 PTS) (Young 3 AST),Made Shot,Cutting Dunk Shot,1,2,61
+0021800243,83,PT05M08.00S,1,1610612746,LAC,202699,Harris,T. Harris,41,258,26,Missed,1,,,0,v,MISS Harris 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,62
+0021800243,84,PT05M04.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,Huerter REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,63
+0021800243,85,PT04M59.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,38,57,7,Missed,1,,,0,h,MISS Dedmon 7' Hook Shot,Missed Shot,Hook Shot,1,2,64
+0021800243,86,PT04M55.00S,1,1610612746,LAC,101162,Gortat,M. Gortat,0,0,0,,0,,,0,v,Gortat REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,65
+0021800243,87,PT04M42.00S,1,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,-2,8,1,Missed,1,,,0,v,MISS Gilgeous-Alexander 1' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,66
+0021800243,88,PT04M38.00S,1,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,Prince REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,67
+0021800243,89,PT04M31.00S,1,1610612737,ATL,1628381,Collins,J. Collins,-119,120,17,Made,1,22,20,42,h,Collins 17' Step Back Jump Shot (4 PTS),Made Shot,Step Back Jump shot,1,2,68
+0021800243,90,PT04M21.00S,1,1610612746,LAC,101162,Gortat,M. Gortat,0,15,2,Made,1,22,22,44,v,Gortat 2' Cutting Layup Shot (4 PTS) (Gilgeous-Alexander 1 AST),Made Shot,Cutting Layup Shot,1,2,69
+0021800243,92,PT04M09.00S,1,1610612737,ATL,1628381,Collins,J. Collins,-5,6,1,Made,1,24,22,46,h,Collins 1' Alley Oop Dunk (6 PTS) (Young 4 AST),Made Shot,Alley Oop Dunk Shot,1,2,70
+0021800243,94,PT04M09.00S,1,0,,1610612746,,,0,0,0,,0,,,0,v,Clippers Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,71
+0021800243,95,PT04M09.00S,1,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,SUB: Lin FOR Young,Substitution,,0,0,72
+0021800243,96,PT04M09.00S,1,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,SUB: Bembry FOR Prince,Substitution,,0,0,73
+0021800243,97,PT04M09.00S,1,1610612746,LAC,202340,Bradley,A. Bradley,0,0,0,,0,,,0,v,SUB: Scott FOR Bradley,Substitution,,0,0,74
+0021800243,98,PT04M09.00S,1,1610612746,LAC,101162,Gortat,M. Gortat,0,0,0,,0,,,0,v,SUB: Harrell FOR Gortat,Substitution,,0,0,75
+0021800243,99,PT04M09.00S,1,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,v,SUB: Williams FOR Beverley,Substitution,,0,0,76
+0021800243,105,PT03M47.00S,1,1610612746,LAC,203118,Scott,M. Scott,82,240,25,Missed,1,,,0,v,MISS Scott 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,77
+0021800243,105,PT03M47.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon BLOCK (1 BLK),,,1,3,78
+0021800243,107,PT03M46.00S,1,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,Harrell REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,79
+0021800243,108,PT03M46.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,Huerter S.FOUL (P1.T2) (C.Kirkland),Foul,Shooting,1,0,80
+0021800243,110,PT03M46.00S,1,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,24,23,47,v,Harrell Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,81
+0021800243,111,PT03M46.00S,1,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,SUB: Carter FOR Collins,Substitution,,0,0,82
+0021800243,113,PT03M46.00S,1,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,24,24,48,v,Harrell Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,83
+0021800243,114,PT03M31.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,Huerter OFF.Foul (P2) (P.Ransom),Foul,Offensive,1,0,84
+0021800243,116,PT03M31.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,Huerter Offensive Foul Turnover (P1.T5),Turnover,Offensive Foul Turnover,1,0,85
+0021800243,117,PT03M24.00S,1,1610612746,LAC,101150,Williams,L. Williams,-73,193,21,Missed,1,,,0,v,MISS Williams 21' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,86
+0021800243,118,PT03M20.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,87
+0021800243,119,PT03M13.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,-104,248,27,Made,1,27,24,51,h,Huerter 27' 3PT Pullup Jump Shot (3 PTS),Made Shot,Pullup Jump shot,1,3,88
+0021800243,120,PT02M56.00S,1,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,Gilgeous-Alexander Bad Pass Turnover (P1.T2),Turnover,Bad Pass,1,0,89
+0021800243,120,PT02M56.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon STEAL (1 STL),,,1,0,90
+0021800243,122,PT02M51.00S,1,1610612737,ATL,202391,Lin,J. Lin,-6,17,2,Missed,1,,,0,h,MISS Lin 2' Running Reverse Layup,Missed Shot,Running Reverse Layup Shot,1,2,91
+0021800243,123,PT02M47.00S,1,1610612746,LAC,203118,Scott,M. Scott,0,0,0,,0,,,0,v,Scott REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,92
+0021800243,124,PT02M43.00S,1,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,v,Williams Out of Bounds - Bad Pass Turnover Turnover (P1.T3),Turnover,Out of Bounds - Bad Pass Turnover,1,0,93
+0021800243,125,PT02M43.00S,1,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,SUB: Wallace FOR Gilgeous-Alexander,Substitution,,0,0,94
+0021800243,127,PT02M30.00S,1,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris P.FOUL (P2.T4) (P.Ransom),Foul,Personal,1,0,95
+0021800243,129,PT02M30.00S,1,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,SUB: Anderson FOR Huerter,Substitution,,0,0,96
+0021800243,130,PT02M30.00S,1,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,,,0,v,SUB: Thornwell FOR Harris,Substitution,,0,0,97
+0021800243,133,PT02M20.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,3,11,1,Made,1,29,24,53,h,Dedmon 1' Alley Oop Dunk (4 PTS) (Carter 1 AST),Made Shot,Alley Oop Dunk Shot,1,2,98
+0021800243,135,PT01M55.00S,1,1610612746,LAC,1628414,Thornwell,S. Thornwell,-223,96,24,Missed,1,,,0,v,MISS Thornwell 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,99
+0021800243,136,PT01M53.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,100
+0021800243,137,PT01M35.00S,1,1610612737,ATL,1626147,Anderson,J. Anderson,226,2,0,Missed,1,,,0,h,MISS Anderson 3PT Jump Shot,Missed Shot,Jump Shot,1,3,101
+0021800243,138,PT01M30.00S,1,1610612746,LAC,1628414,Thornwell,S. Thornwell,0,0,0,,0,,,0,v,Thornwell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,102
+0021800243,139,PT01M25.00S,1,1610612746,LAC,101150,Williams,L. Williams,1,8,1,Missed,1,,,0,v,MISS Williams 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,103
+0021800243,139,PT01M25.00S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon BLOCK (2 BLK),,,1,2,104
+0021800243,141,PT01M22.00S,1,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,v,Williams REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,105
+0021800243,142,PT01M22.00S,1,1610612737,ATL,1626147,Anderson,J. Anderson,0,0,0,,0,,,0,h,Anderson S.FOUL (P1.T3) (P.Ransom),Foul,Shooting,1,0,106
+0021800243,144,PT01M22.00S,1,0,,1610612737,,,0,0,0,,0,,,0,,Delay Of Game,Violation,Delay Of Game,0,0,107
+0021800243,145,PT01M22.00S,1,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,29,25,54,v,Harrell Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,0,0,108
+0021800243,146,PT01M22.00S,1,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,29,26,55,v,Harrell Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,0,0,109
+0021800243,147,PT01M12.00S,1,1610612737,ATL,1627761,Bembry,D. Bembry,0,13,1,Missed,1,,,0,h,MISS Bembry 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,110
+0021800243,148,PT01M07.00S,1,1610612746,LAC,1627820,Wallace,T. Wallace,0,0,0,,0,,,0,v,Wallace REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,111
+0021800243,149,PT01M05.00S,1,1610612746,LAC,203118,Scott,M. Scott,-130,216,25,Made,1,29,29,58,v,Scott 25' 3PT Jump Shot (3 PTS) (Thornwell 1 AST),Made Shot,Jump Shot,1,3,112
+0021800243,151,PT00M51.10S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,135,54,15,Made,1,31,29,60,h,Dedmon 15' Jump Shot (6 PTS) (Lin 1 AST),Made Shot,Jump Shot,1,2,113
+0021800243,153,PT00M41.70S,1,1610612746,LAC,101150,Williams,L. Williams,-11,171,17,Missed,1,,,0,v,MISS Williams 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,114
+0021800243,154,PT00M38.50S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,115
+0021800243,155,PT00M33.20S,1,1610612737,ATL,203473,Dedmon,D. Dedmon,69,253,26,Made,1,34,29,63,h,Dedmon 26' 3PT Jump Shot (9 PTS) (Bembry 1 AST),Made Shot,Jump Shot,1,3,116
+0021800243,157,PT00M12.50S,1,1610612746,LAC,203118,Scott,M. Scott,18,19,3,Missed,1,,,0,v,MISS Scott 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,117
+0021800243,158,PT00M08.70S,1,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,h,Carter REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,118
+0021800243,159,PT00M05.90S,1,1610612737,ATL,202391,Lin,J. Lin,-107,231,25,Missed,1,,,0,h,MISS Lin 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,119
+0021800243,160,PT00M05.90S,1,1610612746,LAC,1627820,Wallace,T. Wallace,0,0,0,,0,,,0,v,Wallace REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,120
+0021800243,161,PT00M00.00S,1,1610612746,LAC,1627820,Wallace,T. Wallace,-68,305,31,Missed,1,,,0,v,MISS Wallace 31' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,121
+0021800243,162,PT00M00.00S,1,0,,1610612746,,,0,0,0,,0,,,0,v,Clippers Rebound,Rebound,Unknown,0,0,122
+0021800243,163,PT00M00.00S,1,0,,0,,,0,0,0,,0,34,29,63,,End of 1st Period (8:05 PM EST),period,end,1,0,123
+0021800243,172,PT12M00.00S,2,0,,0,,,0,0,0,,0,34,29,63,,Start of 2nd Period (8:08 PM EST),period,start,0,0,124
+0021800243,173,PT11M49.00S,2,1610612737,ATL,1629027,Young,T. Young,-120,253,28,Missed,1,,,0,h,MISS Young 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,125
+0021800243,174,PT11M46.00S,2,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,v,Williams REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,126
+0021800243,175,PT11M44.00S,2,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,v,Williams Bad Pass Turnover (P2.T4),Turnover,Bad Pass,1,0,127
+0021800243,175,PT11M44.00S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore STEAL (1 STL),,,1,0,128
+0021800243,177,PT11M37.00S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,-34,164,17,Missed,1,,,0,h,MISS Bazemore 17' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,129
+0021800243,178,PT11M33.00S,2,1610612746,LAC,203118,Scott,M. Scott,0,0,0,,0,,,0,v,Scott REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,130
+0021800243,179,PT11M27.00S,2,1610612746,LAC,203118,Scott,M. Scott,-103,226,25,Missed,1,,,0,v,MISS Scott 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,131
+0021800243,180,PT11M22.00S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,132
+0021800243,181,PT11M18.00S,2,1610612737,ATL,1627752,Prince,T. Prince,-104,228,25,Missed,1,,,0,h,MISS Prince 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,133
+0021800243,182,PT11M14.00S,2,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,134
+0021800243,183,PT11M13.00S,2,1610612737,ATL,1629027,Young,T. Young,4,123,12,Missed,1,,,0,h,MISS Young 12' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,135
+0021800243,184,PT11M07.00S,2,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,136
+0021800243,185,PT11M07.00S,2,1610612737,ATL,1713,Carter,V. Carter,-36,259,26,Missed,1,,,0,h,MISS Carter 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,137
+0021800243,186,PT11M03.00S,2,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,v,Williams REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,138
+0021800243,187,PT10M59.00S,2,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,h,Carter S.FOUL (P1.T1) (C.Kirkland),Foul,Shooting,1,0,139
+0021800243,189,PT10M59.00S,2,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,34,30,64,v,Williams Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,140
+0021800243,190,PT10M59.00S,2,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,34,31,65,v,Williams Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,141
+0021800243,191,PT10M45.00S,2,1610612737,ATL,1713,Carter,V. Carter,-92,74,12,Made,1,36,31,67,h,Carter 12' Turnaround Fadeaway Bank Jump Shot (2 PTS) (Young 5 AST),Made Shot,Turnaround Fadeaway Bank Jump Shot,1,2,142
+0021800243,193,PT10M30.00S,2,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,h,Carter P.FOUL (P2.T2) (P.Ransom),Foul,Personal,1,0,143
+0021800243,195,PT10M17.00S,2,1610612746,LAC,1627820,Wallace,T. Wallace,33,93,10,Made,1,36,33,69,v,Wallace 10' Pullup Jump Shot (2 PTS) (Williams 1 AST),Made Shot,Pullup Jump shot,1,2,144
+0021800243,197,PT10M09.00S,2,1610612746,LAC,1627820,Wallace,T. Wallace,0,0,0,,0,,,0,v,Wallace P.FOUL (P1.T1) (C.Kirkland),Foul,Personal,1,0,145
+0021800243,199,PT09M56.00S,2,1610612737,ATL,1629027,Young,T. Young,0,8,1,Missed,1,,,0,h,MISS Young 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,146
+0021800243,199,PT09M56.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,Harrell BLOCK (1 BLK),,,1,2,147
+0021800243,201,PT09M54.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,Harrell REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,148
+0021800243,202,PT09M50.00S,2,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,h,Carter P.FOUL (P3.T3) (P.Ransom),Foul,Personal,1,0,149
+0021800243,204,PT09M50.00S,2,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,h,SUB: Collins FOR Carter,Substitution,,0,0,150
+0021800243,206,PT09M38.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,25,143,15,Missed,1,,,0,v,MISS Harrell 15' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,151
+0021800243,207,PT09M36.00S,2,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,Prince REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,152
+0021800243,208,PT09M29.00S,2,1610612737,ATL,203458,Len,A. Len,-14,26,3,Made,1,38,33,71,h,Len 3' Layup (4 PTS) (Collins 2 AST),Made Shot,Layup Shot,1,2,153
+0021800243,210,PT09M29.00S,2,1610612746,LAC,1628414,Thornwell,S. Thornwell,0,0,0,,0,,,0,v,Thornwell S.FOUL (P1.T2) (C.Kirkland),Foul,Shooting,1,0,154
+0021800243,212,PT09M29.00S,2,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,39,33,72,h,Len Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,0,0,155
+0021800243,213,PT09M19.00S,2,1610612746,LAC,101150,Williams,L. Williams,-100,136,17,Made,1,39,35,74,v,Williams 17' Pullup Jump Shot (4 PTS),Made Shot,Pullup Jump shot,1,2,156
+0021800243,214,PT09M10.00S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,-147,54,16,Made,1,41,35,76,h,Bazemore 16' Pullup Jump Shot (4 PTS) (Young 6 AST),Made Shot,Pullup Jump shot,1,2,157
+0021800243,216,PT08M55.00S,2,1610612746,LAC,101150,Williams,L. Williams,3,10,1,Missed,1,,,0,v,MISS Williams 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,158
+0021800243,217,PT08M51.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,Harrell REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,159
+0021800243,218,PT08M51.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,0,-6,1,Missed,1,,,0,v,MISS Harrell 1' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,160
+0021800243,219,PT08M50.00S,2,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,161
+0021800243,220,PT08M47.00S,2,1610612737,ATL,1629027,Young,T. Young,-2,7,1,Made,1,43,35,78,h,Young 1' Driving Layup (12 PTS),Made Shot,Driving Layup Shot,1,2,162
+0021800243,221,PT08M39.00S,2,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins P.FOUL (P1.T4) (C.Kirkland),Foul,Personal,1,0,163
+0021800243,223,PT08M39.00S,2,1610612746,LAC,1628414,Thornwell,S. Thornwell,0,0,0,,0,,,0,v,SUB: Bradley FOR Thornwell,Substitution,,0,0,164
+0021800243,225,PT08M32.00S,2,1610612746,LAC,1627820,Wallace,T. Wallace,27,29,4,Missed,1,,,0,v,MISS Wallace 4' Jump Bank Shot,Missed Shot,Jump Bank Shot,1,2,165
+0021800243,225,PT08M32.00S,2,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len BLOCK (1 BLK),,,1,2,166
+0021800243,227,PT08M28.00S,2,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,167
+0021800243,228,PT08M25.00S,2,1610612737,ATL,1627752,Prince,T. Prince,-172,185,25,Missed,1,,,0,h,MISS Prince 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,168
+0021800243,229,PT08M22.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,Harrell REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,169
+0021800243,230,PT08M20.00S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore S.FOUL (P1.PN) (J.Phillips),Foul,Shooting,1,0,170
+0021800243,232,PT08M20.00S,2,1610612746,LAC,1627820,Wallace,T. Wallace,0,0,0,,0,,,0,v,MISS Wallace Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,171
+0021800243,233,PT08M20.00S,2,0,,1610612746,,,0,0,0,,0,,,0,v,Clippers Rebound,Rebound,Normal Rebound,0,0,172
+0021800243,234,PT08M20.00S,2,1610612746,LAC,1627820,Wallace,T. Wallace,0,0,0,,0,,,0,v,MISS Wallace Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,173
+0021800243,235,PT08M18.00S,2,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,174
+0021800243,236,PT08M06.00S,2,1610612737,ATL,1627752,Prince,T. Prince,230,62,24,Missed,1,,,0,h,MISS Prince 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,175
+0021800243,237,PT08M04.00S,2,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,176
+0021800243,238,PT07M57.00S,2,1610612737,ATL,1628381,Collins,J. Collins,-114,109,16,Missed,1,,,0,h,MISS Collins 16' Jump Shot,Missed Shot,Jump Shot,1,2,177
+0021800243,239,PT07M52.00S,2,1610612746,LAC,203118,Scott,M. Scott,0,0,0,,0,,,0,v,Scott REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,178
+0021800243,240,PT07M47.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,-5,15,2,Made,1,43,37,80,v,Harrell 2' Layup (6 PTS) (Scott 1 AST),Made Shot,Layup Shot,1,2,179
+0021800243,242,PT07M47.00S,2,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins S.FOUL (P2.PN) (C.Kirkland),Foul,Shooting,1,0,180
+0021800243,244,PT07M47.00S,2,1610612746,LAC,1627820,Wallace,T. Wallace,0,0,0,,0,,,0,v,SUB: Beverley FOR Wallace,Substitution,,0,0,181
+0021800243,246,PT07M47.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,43,38,81,v,Harrell Free Throw 1 of 1 (7 PTS),Free Throw,Free Throw 1 of 1,0,0,182
+0021800243,247,PT07M32.00S,2,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young Bad Pass Turnover (P2.T6),Turnover,Bad Pass,1,0,183
+0021800243,247,PT07M32.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,Harrell STEAL (1 STL),,,1,0,184
+0021800243,249,PT07M23.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,7,9,1,Made,1,43,40,83,v,Harrell 1' Driving Layup (9 PTS) (Beverley 2 AST),Made Shot,Driving Layup Shot,1,2,185
+0021800243,251,PT07M23.00S,2,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,186
+0021800243,252,PT07M23.00S,2,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,SUB: Bembry FOR Bazemore,Substitution,,0,0,187
+0021800243,254,PT07M15.00S,2,1610612746,LAC,202340,Bradley,A. Bradley,0,0,0,,0,,,0,v,Bradley P.FOUL (P1.T3) (P.Ransom),Foul,Personal,1,0,188
+0021800243,256,PT07M15.00S,2,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Turnover: 5 Second Violation (T#7),Turnover,5 Second Violation,0,0,189
+0021800243,257,PT07M07.00S,2,1610612746,LAC,203118,Scott,M. Scott,114,227,25,Missed,1,,,0,v,MISS Scott 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,190
+0021800243,258,PT07M04.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,191
+0021800243,259,PT06M53.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,-229,101,25,Missed,1,,,0,h,MISS Bembry 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,192
+0021800243,260,PT06M50.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,Harrell REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,193
+0021800243,261,PT06M46.00S,2,1610612746,LAC,203118,Scott,M. Scott,-103,239,26,Made,1,43,43,86,v,Scott 26' 3PT Pullup Jump Shot (6 PTS) (Williams 2 AST),Made Shot,Pullup Jump shot,1,3,194
+0021800243,263,PT06M33.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,Harrell P.FOUL (P1.T4) (J.Phillips),Foul,Personal,1,0,195
+0021800243,265,PT06M33.00S,2,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,v,SUB: Harris FOR Williams,Substitution,,0,0,196
+0021800243,267,PT06M25.00S,2,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young Offensive Charge Foul (P1.PN) (C.Kirkland),Foul,Offensive Charge,1,0,197
+0021800243,269,PT06M25.00S,2,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young Offensive Foul Turnover (P3.T8),Turnover,Offensive Foul Turnover,1,0,198
+0021800243,270,PT06M20.00S,2,0,,1610612746,,,0,0,0,,0,,,0,v,Clippers Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,199
+0021800243,271,PT06M20.00S,2,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,SUB: Huerter FOR Prince,Substitution,,0,0,200
+0021800243,272,PT06M20.00S,2,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,SUB: Dedmon FOR Len,Substitution,,0,0,201
+0021800243,275,PT06M13.00S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon S.FOUL (P1.PN) (P.Ransom),Foul,Shooting,1,0,202
+0021800243,277,PT06M13.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,43,44,87,v,Harrell Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,0,0,203
+0021800243,278,PT06M13.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,43,45,88,v,Harrell Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,0,0,204
+0021800243,279,PT06M02.00S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,-134,218,26,Missed,1,,,0,h,MISS Dedmon 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,205
+0021800243,280,PT05M57.00S,2,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,206
+0021800243,281,PT05M56.00S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,3,10,1,Made,1,45,45,90,h,Dedmon 1' Cutting Dunk Shot (11 PTS) (Collins 3 AST),Made Shot,Cutting Dunk Shot,1,2,207
+0021800243,283,PT05M38.00S,2,1610612746,LAC,202340,Bradley,A. Bradley,-85,164,18,Missed,1,,,0,v,MISS Bradley 18' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,208
+0021800243,284,PT05M37.00S,2,0,,1610612746,,,0,0,0,,0,,,0,v,Clippers Rebound,Rebound,Unknown,0,0,209
+0021800243,285,PT05M37.00S,2,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins L.B.FOUL (P3.PN) (C.Kirkland),Foul,Loose Ball,1,0,210
+0021800243,287,PT05M37.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,45,46,91,v,Harrell Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,0,0,211
+0021800243,288,PT05M37.00S,2,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,SUB: Spellman FOR Collins,Substitution,,0,0,212
+0021800243,289,PT05M37.00S,2,1610612746,LAC,203118,Scott,M. Scott,0,0,0,,0,,,0,v,SUB: Gilgeous-Alexander FOR Scott,Substitution,,0,0,213
+0021800243,292,PT05M37.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,MISS Harrell Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,214
+0021800243,293,PT05M34.00S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,215
+0021800243,294,PT05M29.00S,2,1610612746,LAC,202340,Bradley,A. Bradley,0,0,0,,0,,,0,v,Bradley P.FOUL (P2.PN) (P.Ransom),Foul,Personal,1,0,216
+0021800243,296,PT05M29.00S,2,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,MISS Young Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,217
+0021800243,297,PT05M29.00S,2,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Normal Rebound,0,0,218
+0021800243,298,PT05M29.00S,2,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,46,46,92,h,Young Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,0,0,219
+0021800243,299,PT05M13.00S,2,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,-14,13,2,Made,1,46,48,94,v,Gilgeous-Alexander 2' Layup (6 PTS),Made Shot,Layup Shot,1,2,220
+0021800243,300,PT05M01.00S,2,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young Bad Pass Turnover (P4.T9),Turnover,Bad Pass,1,0,221
+0021800243,300,PT05M01.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,Harrell STEAL (2 STL),,,1,0,222
+0021800243,302,PT04M56.00S,2,1610612746,LAC,201976,Beverley,P. Beverley,1,14,1,Made,1,46,50,96,v,Beverley 1' Running Reverse Layup (4 PTS),Made Shot,Running Reverse Layup Shot,1,2,223
+0021800243,303,PT04M37.00S,2,1610612737,ATL,1628989,Huerter,K. Huerter,-8,26,3,Missed,1,,,0,h,MISS Huerter 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,224
+0021800243,304,PT04M35.00S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,225
+0021800243,305,PT04M35.00S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,6,15,2,Missed,1,,,0,h,MISS Dedmon 2' Layup,Missed Shot,Layup Shot,1,2,226
+0021800243,306,PT04M35.00S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,227
+0021800243,392,PT04M33.00S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,3,40,4,Missed,1,,,0,h,MISS Dedmon 4' Layup,Missed Shot,Layup Shot,1,2,228
+0021800243,393,PT04M33.00S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,229
+0021800243,394,PT04M33.00S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,27,38,5,Missed,1,,,0,h,MISS Dedmon 5' Layup,Missed Shot,Layup Shot,1,2,230
+0021800243,394,PT04M33.00S,2,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris BLOCK (1 BLK),,,1,2,231
+0021800243,396,PT04M33.00S,2,0,,1610612746,,,0,0,0,,0,,,0,v,Clippers Rebound,Rebound,Unknown,0,0,232
+0021800243,307,PT04M31.00S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Jump Ball Dedmon vs. Harris: Tip to Gilgeous-Alexander,Jump Ball,,1,0,233
+0021800243,312,PT04M27.00S,2,1610612746,LAC,202340,Bradley,A. Bradley,-221,62,0,Missed,1,,,0,v,MISS Bradley 3PT Jump Shot,Missed Shot,Jump Shot,1,3,234
+0021800243,313,PT04M24.00S,2,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,235
+0021800243,314,PT04M11.00S,2,1610612737,ATL,1629016,Spellman,O. Spellman,-166,197,26,Made,1,49,50,99,h,Spellman 26' 3PT Jump Shot (3 PTS) (Bembry 2 AST),Made Shot,Jump Shot,1,3,236
+0021800243,316,PT03M57.00S,2,1610612746,LAC,202699,Harris,T. Harris,3,253,25,Missed,1,,,0,v,MISS Harris 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,237
+0021800243,317,PT03M54.00S,2,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,238
+0021800243,318,PT03M50.00S,2,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,v,Beverley S.FOUL (P2.PN) (C.Kirkland),Foul,Shooting,1,0,239
+0021800243,320,PT03M50.00S,2,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,50,50,100,h,Young Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,0,0,240
+0021800243,321,PT03M50.00S,2,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,SUB: Carter FOR Dedmon,Substitution,,0,0,241
+0021800243,323,PT03M50.00S,2,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,SUB: Gortat FOR Harrell,Substitution,,0,0,242
+0021800243,325,PT03M50.00S,2,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,51,50,101,h,Young Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,0,0,243
+0021800243,326,PT03M37.00S,2,1610612746,LAC,201976,Beverley,P. Beverley,-146,206,25,Missed,1,,,0,v,MISS Beverley 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,244
+0021800243,327,PT03M36.00S,2,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,245
+0021800243,328,PT03M35.00S,2,1610612746,LAC,202340,Bradley,A. Bradley,-225,38,0,Missed,1,,,0,v,MISS Bradley 3PT Jump Shot,Missed Shot,Jump Shot,1,3,246
+0021800243,329,PT03M30.00S,2,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,v,Beverley REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,247
+0021800243,330,PT03M30.00S,2,1610612746,LAC,201976,Beverley,P. Beverley,3,19,2,Missed,1,,,0,v,MISS Beverley 2' Putback Layup,Missed Shot,Putback Layup Shot,1,2,248
+0021800243,331,PT03M28.00S,2,1610612737,ATL,1629016,Spellman,O. Spellman,0,0,0,,0,,,0,h,Spellman REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,249
+0021800243,332,PT03M22.00S,2,1610612737,ATL,1628989,Huerter,K. Huerter,120,227,26,Made,1,54,50,104,h,Huerter 26' 3PT Jump Shot (6 PTS) (Young 7 AST),Made Shot,Jump Shot,1,3,250
+0021800243,334,PT03M12.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry S.FOUL (P1.PN) (C.Kirkland),Foul,Shooting,1,0,251
+0021800243,336,PT03M12.00S,2,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,SUB: Lin FOR Young,Substitution,,0,0,252
+0021800243,338,PT03M12.00S,2,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,54,51,105,v,Gilgeous-Alexander Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,0,0,253
+0021800243,339,PT03M12.00S,2,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,54,52,106,v,Gilgeous-Alexander Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,0,0,254
+0021800243,340,PT02M58.00S,2,1610612737,ATL,1629016,Spellman,O. Spellman,-1,16,2,Missed,1,,,0,h,MISS Spellman 2' Dunk,Missed Shot,Dunk Shot,1,2,255
+0021800243,340,PT02M58.00S,2,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris BLOCK (2 BLK),,,1,2,256
+0021800243,342,PT02M54.00S,2,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,v,Beverley REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,257
+0021800243,343,PT02M49.00S,2,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,v,Beverley Bad Pass Turnover (P2.T5),Turnover,Bad Pass,1,0,258
+0021800243,343,PT02M49.00S,2,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,h,Carter STEAL (1 STL),,,1,0,259
+0021800243,345,PT02M45.00S,2,1610612737,ATL,1628989,Huerter,K. Huerter,-5,11,1,Made,1,56,52,108,h,Huerter 1' Running Dunk (8 PTS) (Spellman 1 AST),Made Shot,Running Dunk Shot,1,2,260
+0021800243,347,PT02M27.00S,2,1610612746,LAC,202699,Harris,T. Harris,-225,42,0,Missed,1,,,0,v,MISS Harris 3PT Jump Shot,Missed Shot,Jump Shot,1,3,261
+0021800243,348,PT02M24.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,262
+0021800243,349,PT02M20.00S,2,1610612737,ATL,1629016,Spellman,O. Spellman,-3,12,1,Made,1,58,52,110,h,Spellman 1' Running Reverse Layup (5 PTS) (Bembry 3 AST),Made Shot,Running Reverse Layup Shot,1,2,263
+0021800243,351,PT02M01.00S,2,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,Gilgeous-Alexander Lost Ball Turnover (P2.T6),Turnover,Lost Ball,1,0,264
+0021800243,351,PT02M01.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry STEAL (1 STL),,,1,0,265
+0021800243,353,PT01M56.00S,2,1610612737,ATL,1713,Carter,V. Carter,-226,88,24,Missed,1,,,0,h,MISS Carter 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,266
+0021800243,354,PT01M55.00S,2,0,,1610612746,,,0,0,0,,0,,,0,v,Clippers Rebound,Rebound,Unknown,0,0,267
+0021800243,355,PT01M55.00S,2,1610612737,ATL,1629016,Spellman,O. Spellman,0,0,0,,0,,,0,h,Spellman L.B.FOUL (P1.PN) (C.Kirkland),Foul,Loose Ball,1,0,268
+0021800243,357,PT01M55.00S,2,1610612746,LAC,202340,Bradley,A. Bradley,0,0,0,,0,,,0,v,SUB: Williams FOR Bradley,Substitution,,0,0,269
+0021800243,359,PT01M55.00S,2,1610612746,LAC,101162,Gortat,M. Gortat,0,0,0,,0,58,53,111,v,Gortat Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,0,0,270
+0021800243,360,PT01M55.00S,2,1610612746,LAC,101162,Gortat,M. Gortat,0,0,0,,0,,,0,v,MISS Gortat Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,271
+0021800243,361,PT01M53.00S,2,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,h,Carter REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,272
+0021800243,362,PT01M46.00S,2,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,v,Beverley P.FOUL (P3.PN) (P.Ransom),Foul,Personal,1,0,273
+0021800243,364,PT01M46.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,59,53,112,h,Bembry Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,0,0,274
+0021800243,365,PT01M46.00S,2,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,60,53,113,h,Bembry Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,0,0,275
+0021800243,366,PT01M40.00S,2,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,Huerter P.FOUL (P3.PN) (J.Phillips),Foul,Personal,1,0,276
+0021800243,368,PT01M40.00S,2,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,MISS Gilgeous-Alexander Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,277
+0021800243,369,PT01M40.00S,2,0,,1610612746,,,0,0,0,,0,,,0,v,Clippers Rebound,Rebound,Normal Rebound,0,0,278
+0021800243,370,PT01M40.00S,2,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,SUB: Young FOR Huerter,Substitution,,0,0,279
+0021800243,371,PT01M40.00S,2,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,v,SUB: Scott FOR Beverley,Substitution,,0,0,280
+0021800243,374,PT01M40.00S,2,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,60,54,114,v,Gilgeous-Alexander Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,0,0,281
+0021800243,375,PT01M28.00S,2,1610612737,ATL,1629027,Young,T. Young,-27,139,14,Missed,1,,,0,h,MISS Young 14' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,282
+0021800243,376,PT01M22.00S,2,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,283
+0021800243,377,PT01M21.00S,2,1610612737,ATL,202391,Lin,J. Lin,0,0,0,,0,,,0,h,Lin S.FOUL (P1.PN) (C.Kirkland),Foul,Shooting,1,0,284
+0021800243,379,PT01M21.00S,2,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,60,55,115,v,Harris Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,0,0,285
+0021800243,380,PT01M21.00S,2,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,60,56,116,v,Harris Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,0,0,286
+0021800243,381,PT01M09.00S,2,1610612737,ATL,1629027,Young,T. Young,-19,94,10,Made,1,62,56,118,h,Young 10' Driving Floating Jump Shot (17 PTS),Made Shot,Driving Floating Jump Shot,1,2,287
+0021800243,382,PT00M58.90S,2,1610612746,LAC,101150,Williams,L. Williams,2,6,1,Made,1,62,58,120,v,Williams 1' Driving Layup (6 PTS),Made Shot,Driving Layup Shot,1,2,288
+0021800243,383,PT00M41.90S,2,1610612737,ATL,1629027,Young,T. Young,-7,15,2,Missed,1,,,0,h,MISS Young 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,289
+0021800243,383,PT00M41.90S,2,1610612746,LAC,101162,Gortat,M. Gortat,0,0,0,,0,,,0,v,Gortat BLOCK (1 BLK),,,1,2,290
+0021800243,385,PT00M37.70S,2,1610612746,LAC,101162,Gortat,M. Gortat,0,0,0,,0,,,0,v,Gortat REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,291
+0021800243,386,PT00M36.00S,2,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris Traveling Turnover (P1.T7),Turnover,Traveling,1,0,292
+0021800243,387,PT00M23.30S,2,1610612737,ATL,1629016,Spellman,O. Spellman,-215,142,26,Missed,1,,,0,h,MISS Spellman 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,293
+0021800243,388,PT00M19.50S,2,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,294
+0021800243,389,PT00M07.00S,2,1610612737,ATL,1629027,Young,T. Young,-6,13,1,Made,1,64,58,122,h,Young 1' Driving Reverse Layup (19 PTS),Made Shot,Driving Reverse Layup Shot,1,2,295
+0021800243,390,PT00M01.70S,2,1610612746,LAC,202699,Harris,T. Harris,74,251,26,Made,1,64,61,125,v,Harris 26' 3PT Pullup Jump Shot (17 PTS),Made Shot,Pullup Jump shot,1,3,296
+0021800243,391,PT00M00.00S,2,0,,0,,,0,0,0,,0,64,61,125,,End of 2nd Period (8:39 PM EST),period,end,1,0,297
+0021800243,407,PT12M00.00S,3,0,,0,,,0,0,0,,0,64,61,125,,Start of 3rd Period (8:55 PM EST),period,start,0,0,298
+0021800243,408,PT11M46.00S,3,1610612737,ATL,1627752,Prince,T. Prince,228,26,0,Made,1,67,61,128,h,Prince 3PT Jump Shot (5 PTS) (Young 8 AST),Made Shot,Jump Shot,1,3,299
+0021800243,410,PT11M27.00S,3,1610612746,LAC,202699,Harris,T. Harris,-11,86,9,Missed,1,,,0,v,MISS Harris 9' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,300
+0021800243,411,PT11M25.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,301
+0021800243,412,PT11M06.00S,3,1610612746,LAC,101162,Gortat,M. Gortat,0,0,0,,0,,,0,v,Gortat P.FOUL (P2.T1) (C.Kirkland),Foul,Personal,1,0,302
+0021800243,414,PT10M59.00S,3,1610612737,ATL,1629016,Spellman,O. Spellman,-4,9,1,Made,1,69,61,130,h,Spellman 1' Alley Oop Dunk (7 PTS) (Young 9 AST),Made Shot,Alley Oop Dunk Shot,1,2,303
+0021800243,416,PT10M41.00S,3,1610612746,LAC,202699,Harris,T. Harris,140,215,26,Made,1,69,64,133,v,Harris 26' 3PT Step Back Jump Shot (20 PTS) (Beverley 3 AST),Made Shot,Step Back Jump shot,1,3,304
+0021800243,418,PT10M27.00S,3,1610612737,ATL,1629027,Young,T. Young,2,8,1,Missed,1,,,0,h,MISS Young 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,305
+0021800243,419,PT10M20.00S,3,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len REBOUND (Off:4 Def:4),Rebound,Unknown,1,0,306
+0021800243,420,PT10M20.00S,3,1610612737,ATL,203458,Len,A. Len,0,-6,1,Made,1,71,64,135,h,Len 1' Putback Dunk (7 PTS),Made Shot,Putback Dunk Shot,1,2,307
+0021800243,421,PT09M57.00S,3,1610612746,LAC,201976,Beverley,P. Beverley,152,195,25,Missed,1,,,0,v,MISS Beverley 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,308
+0021800243,422,PT09M53.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,309
+0021800243,423,PT09M45.00S,3,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len Step Out of Bounds Turnover (P2.T10),Turnover,Step Out of Bounds Turnover,1,0,310
+0021800243,424,PT09M37.00S,3,1610612746,LAC,202340,Bradley,A. Bradley,-1,162,16,Made,1,71,66,137,v,Bradley 16' Pullup Jump Shot (2 PTS) (Gortat 3 AST),Made Shot,Pullup Jump shot,1,2,311
+0021800243,426,PT09M23.00S,3,1610612737,ATL,1629016,Spellman,O. Spellman,-146,204,25,Missed,1,,,0,h,MISS Spellman 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,312
+0021800243,427,PT09M20.00S,3,1610612746,LAC,101162,Gortat,M. Gortat,0,0,0,,0,,,0,v,Gortat REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,313
+0021800243,428,PT09M15.00S,3,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,3,7,1,Made,1,71,68,139,v,Gilgeous-Alexander 1' Driving Layup (11 PTS) (Beverley 4 AST),Made Shot,Driving Layup Shot,1,2,314
+0021800243,430,PT09M15.00S,3,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,Prince S.FOUL (P1.T1) (C.Kirkland),Foul,Shooting,1,0,315
+0021800243,432,PT09M15.00S,3,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,71,69,140,v,Gilgeous-Alexander Free Throw 1 of 1 (12 PTS),Free Throw,Free Throw 1 of 1,0,0,316
+0021800243,433,PT09M04.00S,3,1610612737,ATL,1629027,Young,T. Young,83,66,11,Made,1,73,69,142,h,Young 11' Driving Floating Jump Shot (21 PTS),Made Shot,Driving Floating Jump Shot,1,2,317
+0021800243,434,PT08M50.00S,3,1610612746,LAC,202699,Harris,T. Harris,178,176,25,Missed,1,,,0,v,MISS Harris 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,318
+0021800243,435,PT08M49.00S,3,0,,1610612746,,,0,0,0,,0,,,0,v,Clippers Rebound,Rebound,Unknown,0,0,319
+0021800243,436,PT08M49.00S,3,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len L.B.FOUL (P2.T2) (J.Phillips),Foul,Loose Ball,1,0,320
+0021800243,438,PT08M44.00S,3,1610612737,ATL,1629016,Spellman,O. Spellman,0,0,0,,0,,,0,h,Spellman P.FOUL (P2.T3) (P.Ransom),Foul,Personal,1,0,321
+0021800243,548,PT08M30.00S,3,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris Lost Ball Turnover (P2.T8),Turnover,Lost Ball,1,0,322
+0021800243,440,PT08M30.00S,3,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris L.B.FOUL (P3.T2) (J.Phillips),Foul,Loose Ball,1,0,323
+0021800243,443,PT08M24.00S,3,1610612746,LAC,202340,Bradley,A. Bradley,0,0,0,,0,,,0,v,Bradley P.FOUL (P3.T3) (J.Phillips),Foul,Personal,1,0,324
+0021800243,445,PT08M11.00S,3,1610612737,ATL,203458,Len,A. Len,-92,14,9,Missed,1,,,0,h,MISS Len 9' Jump Shot,Missed Shot,Jump Shot,1,2,325
+0021800243,446,PT08M08.00S,3,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,v,Beverley REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,326
+0021800243,447,PT08M03.00S,3,1610612746,LAC,201976,Beverley,P. Beverley,29,102,11,Missed,1,,,0,v,MISS Beverley 11' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,327
+0021800243,448,PT07M59.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,328
+0021800243,449,PT07M53.00S,3,1610612737,ATL,1629027,Young,T. Young,2,20,2,Missed,1,,,0,h,MISS Young 2' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,329
+0021800243,450,PT07M50.00S,3,1610612746,LAC,101162,Gortat,M. Gortat,0,0,0,,0,,,0,v,Gortat REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,330
+0021800243,451,PT07M47.00S,3,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,123,228,26,Missed,1,,,0,v,MISS Gilgeous-Alexander 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,331
+0021800243,452,PT07M44.00S,3,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,Gilgeous-Alexander REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,332
+0021800243,453,PT07M44.00S,3,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,v,Beverley Traveling Turnover (P3.T9),Turnover,Traveling,1,0,333
+0021800243,454,PT07M44.00S,3,1610612737,ATL,1629016,Spellman,O. Spellman,0,0,0,,0,,,0,h,SUB: Collins FOR Spellman,Substitution,,0,0,334
+0021800243,455,PT07M44.00S,3,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,SUB: Dedmon FOR Len,Substitution,,0,0,335
+0021800243,458,PT07M36.00S,3,1610612746,LAC,202340,Bradley,A. Bradley,0,0,0,,0,,,0,v,Bradley P.FOUL (P4.T4) (J.Phillips),Foul,Personal,1,0,336
+0021800243,460,PT07M36.00S,3,1610612746,LAC,101162,Gortat,M. Gortat,0,0,0,,0,,,0,v,SUB: Harrell FOR Gortat,Substitution,,0,0,337
+0021800243,462,PT07M30.00S,3,1610612737,ATL,1628381,Collins,J. Collins,220,50,0,Made,1,76,69,145,h,Collins 3PT Jump Shot (9 PTS) (Young 10 AST),Made Shot,Jump Shot,1,3,338
+0021800243,464,PT07M16.00S,3,1610612746,LAC,202340,Bradley,A. Bradley,-17,78,8,Made,1,76,71,147,v,Bradley 8' Driving Floating Jump Shot (4 PTS) (Harrell 1 AST),Made Shot,Driving Floating Jump Shot,1,2,339
+0021800243,466,PT07M16.00S,3,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins S.FOUL (P4.T4) (P.Ransom),Foul,Shooting,1,0,340
+0021800243,468,PT07M16.00S,3,1610612746,LAC,202340,Bradley,A. Bradley,0,0,0,,0,76,72,148,v,Bradley Free Throw 1 of 1 (5 PTS),Free Throw,Free Throw 1 of 1,0,0,341
+0021800243,469,PT07M05.00S,3,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,v,Beverley P.FOUL (P4.PN) (P.Ransom),Foul,Personal,1,0,342
+0021800243,471,PT07M05.00S,3,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,v,Beverley T.FOUL (P4.PN) (P.Ransom),Foul,Technical,1,0,343
+0021800243,472,PT07M05.00S,3,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,77,72,149,h,Prince Free Throw Technical (6 PTS),Free Throw,Free Throw Technical,0,0,344
+0021800243,473,PT07M05.00S,3,1610612746,LAC,202340,Bradley,A. Bradley,0,0,0,,0,,,0,v,SUB: Scott FOR Bradley,Substitution,,0,0,345
+0021800243,475,PT07M05.00S,3,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,MISS Prince Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,346
+0021800243,476,PT07M05.00S,3,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Normal Rebound,0,0,347
+0021800243,477,PT07M05.00S,3,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,78,72,150,h,Prince Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,0,0,348
+0021800243,478,PT06M53.00S,3,1610612746,LAC,203118,Scott,M. Scott,225,27,0,Missed,1,,,0,v,MISS Scott 3PT Jump Shot,Missed Shot,Jump Shot,1,3,349
+0021800243,479,PT06M51.00S,3,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Unknown,0,0,350
+0021800243,481,PT06M51.00S,3,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,351
+0021800243,482,PT06M51.00S,3,0,,416,Burton,W. Burton,0,0,0,,0,78,72,150,,Instant Replay3rd Period (9:06 PM EST),Instant Replay,Support Ruling,0,0,352
+0021800243,483,PT06M51.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,SUB: Huerter FOR Bazemore,Substitution,,0,0,353
+0021800243,484,PT06M51.00S,3,1610612746,LAC,201976,Beverley,P. Beverley,0,0,0,,0,,,0,v,SUB: Williams FOR Beverley,Substitution,,0,0,354
+0021800243,487,PT06M34.00S,3,1610612737,ATL,1628381,Collins,J. Collins,229,26,0,Made,1,81,72,153,h,Collins 3PT Jump Shot (12 PTS) (Young 11 AST),Made Shot,Jump Shot,1,3,355
+0021800243,489,PT06M21.00S,3,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,v,Williams Bad Pass Turnover (P3.T10),Turnover,Bad Pass,1,0,356
+0021800243,489,PT06M21.00S,3,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,Prince STEAL (1 STL),,,1,0,357
+0021800243,491,PT06M15.00S,3,1610612737,ATL,1627752,Prince,T. Prince,0,13,1,Missed,1,,,0,h,MISS Prince 1' Layup,Missed Shot,Layup Shot,1,2,358
+0021800243,492,PT06M13.00S,3,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,359
+0021800243,493,PT06M11.00S,3,1610612737,ATL,1627752,Prince,T. Prince,6,11,1,Made,1,83,72,155,h,Prince 1' Layup (9 PTS) (Collins 4 AST),Made Shot,Layup Shot,1,2,360
+0021800243,495,PT05M55.00S,3,1610612746,LAC,101150,Williams,L. Williams,123,226,26,Missed,1,,,0,v,MISS Williams 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,361
+0021800243,496,PT05M50.00S,3,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,362
+0021800243,497,PT05M44.00S,3,1610612737,ATL,1629027,Young,T. Young,2,6,1,Made,1,85,72,157,h,Young 1' Driving Layup (23 PTS),Made Shot,Driving Layup Shot,1,2,363
+0021800243,498,PT05M30.00S,3,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,Gilgeous-Alexander Traveling Turnover (P3.T11),Turnover,Traveling,1,0,364
+0021800243,499,PT05M30.00S,3,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,SUB: Teodosic FOR Gilgeous-Alexander,Substitution,,0,0,365
+0021800243,501,PT05M21.00S,3,1610612746,LAC,1628462,Teodosic,M. Teodosic,0,0,0,,0,,,0,v,Teodosic P.FOUL (P1.PN) (P.Ransom),Foul,Personal,1,0,366
+0021800243,503,PT05M21.00S,3,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,86,72,158,h,Collins Free Throw 1 of 2 (13 PTS),Free Throw,Free Throw 1 of 2,0,0,367
+0021800243,504,PT05M21.00S,3,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,SUB: Bembry FOR Young,Substitution,,0,0,368
+0021800243,505,PT05M21.00S,3,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,SUB: Lin FOR Prince,Substitution,,0,0,369
+0021800243,508,PT05M21.00S,3,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,87,72,159,h,Collins Free Throw 2 of 2 (14 PTS),Free Throw,Free Throw 2 of 2,0,0,370
+0021800243,509,PT05M09.00S,3,1610612746,LAC,101150,Williams,L. Williams,-13,63,6,Missed,1,,,0,v,MISS Williams 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,371
+0021800243,510,PT05M08.00S,3,0,,1610612746,,,0,0,0,,0,,,0,v,Clippers Rebound,Rebound,Unknown,0,0,372
+0021800243,511,PT05M08.00S,3,1610612737,ATL,202391,Lin,J. Lin,0,0,0,,0,,,0,h,Lin L.B.FOUL (P2.PN) (P.Ransom),Foul,Loose Ball,1,0,373
+0021800243,513,PT05M08.00S,3,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,MISS Harrell Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,0,0,374
+0021800243,514,PT05M08.00S,3,0,,1610612746,,,0,0,0,,0,,,0,v,Clippers Rebound,Rebound,Normal Rebound,0,0,375
+0021800243,515,PT05M08.00S,3,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,87,73,160,v,Harrell Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,0,0,376
+0021800243,516,PT05M01.00S,3,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon OFF.Foul (P2) (C.Kirkland),Foul,Offensive,1,0,377
+0021800243,518,PT05M01.00S,3,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon Offensive Foul Turnover (P1.T11),Turnover,Offensive Foul Turnover,1,0,378
+0021800243,519,PT04M48.00S,3,1610612746,LAC,203118,Scott,M. Scott,-44,101,11,Missed,1,,,0,v,MISS Scott 11' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,379
+0021800243,520,PT04M45.00S,3,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:3 Def:6),Rebound,Unknown,1,0,380
+0021800243,521,PT04M41.00S,3,1610612737,ATL,203473,Dedmon,D. Dedmon,-9,243,24,Missed,1,,,0,h,MISS Dedmon 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,381
+0021800243,522,PT04M37.00S,3,1610612746,LAC,1628462,Teodosic,M. Teodosic,0,0,0,,0,,,0,v,Teodosic REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,382
+0021800243,523,PT04M31.00S,3,1610612746,LAC,101150,Williams,L. Williams,-93,112,15,Made,1,87,75,162,v,Williams 15' Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,2,383
+0021800243,524,PT04M09.00S,3,1610612737,ATL,1628381,Collins,J. Collins,-22,111,11,Missed,1,,,0,h,MISS Collins 11' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,384
+0021800243,524,PT04M09.00S,3,1610612746,LAC,203118,Scott,M. Scott,0,0,0,,0,,,0,v,Scott BLOCK (1 BLK),,,1,2,385
+0021800243,526,PT04M06.00S,3,1610612746,LAC,203118,Scott,M. Scott,0,0,0,,0,,,0,v,Scott REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,386
+0021800243,527,PT04M01.00S,3,1610612746,LAC,101150,Williams,L. Williams,-232,21,0,Missed,1,,,0,v,MISS Williams 3PT Jump Shot,Missed Shot,Jump Shot,1,3,387
+0021800243,528,PT04M00.00S,3,0,,1610612746,,,0,0,0,,0,,,0,v,Clippers Rebound,Rebound,Unknown,0,0,388
+0021800243,529,PT04M00.00S,3,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,Huerter L.B.FOUL (P4.PN) (P.Ransom),Foul,Loose Ball,1,0,389
+0021800243,531,PT04M00.00S,3,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,87,76,163,v,Harris Free Throw 1 of 2 (21 PTS),Free Throw,Free Throw 1 of 2,0,0,390
+0021800243,532,PT04M00.00S,3,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,SUB: Carter FOR Huerter,Substitution,,0,0,391
+0021800243,533,PT04M00.00S,3,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,SUB: Bazemore FOR Collins,Substitution,,0,0,392
+0021800243,536,PT04M00.00S,3,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,87,77,164,v,Harris Free Throw 2 of 2 (22 PTS),Free Throw,Free Throw 2 of 2,0,0,393
+0021800243,537,PT03M40.00S,3,1610612737,ATL,1627761,Bembry,D. Bembry,-36,120,13,Missed,1,,,0,h,MISS Bembry 13' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,394
+0021800243,538,PT03M36.00S,3,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,395
+0021800243,539,PT03M28.00S,3,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris Offensive Charge Foul (P4.PN) (C.Kirkland),Foul,Offensive Charge,1,0,396
+0021800243,541,PT03M28.00S,3,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris Offensive Foul Turnover (P3.T12),Turnover,Offensive Foul Turnover,1,0,397
+0021800243,542,PT03M17.00S,3,1610612746,LAC,1628462,Teodosic,M. Teodosic,0,0,0,,0,,,0,v,Teodosic S.FOUL (P2.PN) (J.Phillips),Foul,Shooting,1,0,398
+0021800243,544,PT03M17.00S,3,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,88,77,165,h,Dedmon Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,0,0,399
+0021800243,545,PT03M17.00S,3,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,89,77,166,h,Dedmon Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,0,0,400
+0021800243,546,PT03M02.00S,3,1610612746,LAC,202699,Harris,T. Harris,-81,170,19,Missed,1,,,0,v,MISS Harris 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,401
+0021800243,547,PT02M59.00S,3,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:3 Def:7),Rebound,Unknown,1,0,402
+0021800243,549,PT02M51.00S,3,1610612737,ATL,202391,Lin,J. Lin,-2,87,9,Made,1,91,77,168,h,Lin 9' Driving Floating Jump Shot (2 PTS),Made Shot,Driving Floating Jump Shot,1,2,403
+0021800243,550,PT02M39.00S,3,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore P.FOUL (P2.PN) (P.Ransom),Foul,Personal,1,0,404
+0021800243,552,PT02M39.00S,3,0,,1610612746,,,0,0,0,,0,,,0,v,Clippers Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,405
+0021800243,553,PT02M39.00S,3,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,,,0,v,SUB: Marjanovic FOR Harris,Substitution,,0,0,406
+0021800243,555,PT02M39.00S,3,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,91,78,169,v,Williams Free Throw 1 of 2 (9 PTS),Free Throw,Free Throw 1 of 2,0,0,407
+0021800243,556,PT02M39.00S,3,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,91,79,170,v,Williams Free Throw 2 of 2 (10 PTS),Free Throw,Free Throw 2 of 2,0,0,408
+0021800243,557,PT02M18.00S,3,1610612737,ATL,203473,Dedmon,D. Dedmon,-228,34,0,Missed,1,,,0,h,MISS Dedmon 3PT Jump Shot,Missed Shot,Jump Shot,1,3,409
+0021800243,558,PT02M15.00S,3,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,Harrell REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,410
+0021800243,559,PT02M09.00S,3,1610612746,LAC,101150,Williams,L. Williams,0,10,1,Made,1,91,81,172,v,Williams 1' Driving Reverse Layup (12 PTS),Made Shot,Driving Reverse Layup Shot,1,2,411
+0021800243,561,PT01M59.00S,3,1610612737,ATL,202391,Lin,J. Lin,5,252,25,Made,1,94,81,175,h,Lin 25' 3PT Pullup Jump Shot (5 PTS),Made Shot,Pullup Jump shot,1,3,412
+0021800243,563,PT01M37.00S,3,1610612746,LAC,101150,Williams,L. Williams,-134,131,19,Missed,1,,,0,v,MISS Williams 19' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,413
+0021800243,564,PT01M34.00S,3,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,Harrell REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,414
+0021800243,565,PT01M34.00S,3,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,h,Carter S.FOUL (P4.PN) (J.Phillips),Foul,Shooting,1,0,415
+0021800243,567,PT01M34.00S,3,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,94,82,176,v,Harrell Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,0,0,416
+0021800243,568,PT01M34.00S,3,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,94,83,177,v,Harrell Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,0,0,417
+0021800243,569,PT01M26.00S,3,1610612737,ATL,1713,Carter,V. Carter,32,252,25,Missed,1,,,0,h,MISS Carter 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,418
+0021800243,570,PT01M22.00S,3,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,v,Williams REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,419
+0021800243,571,PT01M11.00S,3,1610612737,ATL,202391,Lin,J. Lin,0,0,0,,0,,,0,h,Lin S.FOUL (P3.PN) (P.Ransom),Foul,Shooting,1,0,420
+0021800243,573,PT01M11.00S,3,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,94,84,178,v,Harrell Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,0,0,421
+0021800243,574,PT01M11.00S,3,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,MISS Harrell Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,422
+0021800243,575,PT01M08.00S,3,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,h,Carter REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,423
+0021800243,576,PT01M03.00S,3,1610612737,ATL,1713,Carter,V. Carter,28,253,25,Missed,1,,,0,h,MISS Carter 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,424
+0021800243,577,PT00M57.20S,3,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:4 Def:7),Rebound,Unknown,1,0,425
+0021800243,578,PT00M56.10S,3,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon Bad Pass Turnover (P2.T12),Turnover,Bad Pass,1,0,426
+0021800243,578,PT00M56.10S,3,1610612746,LAC,203118,Scott,M. Scott,0,0,0,,0,,,0,v,Scott STEAL (1 STL),,,1,0,427
+0021800243,580,PT00M53.00S,3,1610612746,LAC,203118,Scott,M. Scott,-176,189,26,Missed,1,,,0,v,MISS Scott 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,428
+0021800243,581,PT00M50.20S,3,1610612746,LAC,203118,Scott,M. Scott,0,0,0,,0,,,0,v,Scott REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,429
+0021800243,582,PT00M46.30S,3,1610612746,LAC,1626246,Marjanović,B. Marjanović,2,16,2,Made,1,94,86,180,v,Marjanovic 2' Layup (2 PTS) (Teodosic 1 AST),Made Shot,Layup Shot,1,2,430
+0021800243,584,PT00M46.30S,3,1610612737,ATL,1713,Carter,V. Carter,0,0,0,,0,,,0,h,Carter S.FOUL (P5.PN) (C.Kirkland),Foul,Shooting,1,0,431
+0021800243,586,PT00M46.30S,3,1610612746,LAC,1626246,Marjanović,B. Marjanović,0,0,0,,0,94,87,181,v,Marjanovic Free Throw 1 of 1 (3 PTS),Free Throw,Free Throw 1 of 1,0,0,432
+0021800243,587,PT00M32.20S,3,1610612737,ATL,202391,Lin,J. Lin,47,77,9,Made,1,96,87,183,h,Lin 9' Pullup Jump Shot (7 PTS),Made Shot,Pullup Jump shot,1,2,433
+0021800243,588,PT00M14.80S,3,1610612746,LAC,1626246,Marjanović,B. Marjanović,3,12,1,Made,1,96,89,185,v,Marjanovic 1' Layup (5 PTS) (Williams 3 AST),Made Shot,Layup Shot,1,2,434
+0021800243,590,PT00M03.30S,3,1610612737,ATL,202391,Lin,J. Lin,-5,258,26,Missed,1,,,0,h,MISS Lin 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,435
+0021800243,591,PT00M00.30S,3,1610612746,LAC,203118,Scott,M. Scott,0,0,0,,0,,,0,v,Scott REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,436
+0021800243,622,PT00M00.10S,3,1610612746,LAC,203118,Scott,M. Scott,-87,668,67,Missed,1,,,0,v,MISS Scott 67' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,437
+0021800243,631,PT00M00.10S,3,0,,1610612746,,,0,0,0,,0,,,0,v,Clippers Rebound,Rebound,Unknown,0,0,438
+0021800243,592,PT00M00.00S,3,0,,0,,,0,0,0,,0,96,89,185,,End of 3rd Period (9:26 PM EST),period,end,1,0,439
+0021800243,603,PT12M00.00S,4,0,,0,,,0,0,0,,0,96,89,185,,Start of 4th Period (9:28 PM EST),period,start,0,0,440
+0021800243,604,PT11M46.00S,4,1610612746,LAC,1626246,Marjanović,B. Marjanović,-5,13,1,Made,1,96,91,187,v,Marjanovic 1' Cutting Dunk Shot (7 PTS) (Williams 4 AST),Made Shot,Cutting Dunk Shot,1,2,441
+0021800243,606,PT11M26.00S,4,1610612737,ATL,1629027,Young,T. Young,-44,119,13,Missed,1,,,0,h,MISS Young 13' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,442
+0021800243,607,PT11M24.00S,4,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,v,Williams REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,443
+0021800243,608,PT11M20.00S,4,1610612746,LAC,101150,Williams,L. Williams,8,12,1,Missed,1,,,0,v,MISS Williams 1' Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,2,444
+0021800243,609,PT11M17.00S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len REBOUND (Off:4 Def:5),Rebound,Unknown,1,0,445
+0021800243,610,PT11M14.00S,4,1610612737,ATL,1628989,Huerter,K. Huerter,7,14,2,Missed,1,,,0,h,MISS Huerter 2' Running Layup,Missed Shot,Running Layup Shot,1,2,446
+0021800243,610,PT11M14.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,Harrell BLOCK (2 BLK),,,1,2,447
+0021800243,612,PT11M10.00S,4,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,v,Williams REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,448
+0021800243,613,PT11M03.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,2,91,9,Missed,1,,,0,v,MISS Harrell 9' Hook Shot,Missed Shot,Hook Shot,1,2,449
+0021800243,614,PT11M01.00S,4,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,450
+0021800243,615,PT10M41.00S,4,1610612737,ATL,1628381,Collins,J. Collins,-226,20,0,Missed,1,,,0,h,MISS Collins 3PT Jump Shot,Missed Shot,Jump Shot,1,3,451
+0021800243,616,PT10M39.00S,4,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Rebound,Rebound,Unknown,0,0,452
+0021800243,617,PT10M39.00S,4,1610612746,LAC,203118,Scott,M. Scott,0,0,0,,0,,,0,v,Scott L.B.FOUL (P1.T1) (C.Kirkland),Foul,Loose Ball,1,0,453
+0021800243,619,PT10M30.00S,4,1610612737,ATL,1628989,Huerter,K. Huerter,133,218,26,Missed,1,,,0,h,MISS Huerter 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,454
+0021800243,620,PT10M26.00S,4,1610612746,LAC,203118,Scott,M. Scott,0,0,0,,0,,,0,v,Scott REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,455
+0021800243,621,PT10M18.00S,4,1610612746,LAC,1628462,Teodosic,M. Teodosic,0,0,0,,0,,,0,v,Teodosic Out of Bounds - Bad Pass Turnover Turnover (P1.T13),Turnover,Out of Bounds - Bad Pass Turnover,1,0,456
+0021800243,623,PT10M08.00S,4,1610612737,ATL,1629027,Young,T. Young,-49,246,25,Missed,1,,,0,h,MISS Young 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,457
+0021800243,624,PT10M06.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,Harrell REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,458
+0021800243,625,PT09M54.00S,4,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,Prince P.FOUL (P2.T1) (P.Ransom),Foul,Personal,1,0,459
+0021800243,627,PT09M52.00S,4,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,Huerter S.FOUL (P5.T2) (C.Kirkland),Foul,Shooting,1,0,460
+0021800243,629,PT09M52.00S,4,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,96,92,188,v,Williams Free Throw 1 of 3 (13 PTS),Free Throw,Free Throw 1 of 3,0,0,461
+0021800243,630,PT09M52.00S,4,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,96,93,189,v,Williams Free Throw 2 of 3 (14 PTS),Free Throw,Free Throw 2 of 3,0,0,462
+0021800243,632,PT09M52.00S,4,1610612737,ATL,1628989,Huerter,K. Huerter,0,0,0,,0,,,0,h,SUB: Bembry FOR Huerter,Substitution,,0,0,463
+0021800243,634,PT09M52.00S,4,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,96,94,190,v,Williams Free Throw 3 of 3 (15 PTS),Free Throw,Free Throw 3 of 3,0,0,464
+0021800243,635,PT09M39.00S,4,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young Lost Ball Turnover (P5.T13),Turnover,Lost Ball,1,0,465
+0021800243,635,PT09M39.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,Harrell STEAL (3 STL),,,1,0,466
+0021800243,637,PT09M27.00S,4,1610612746,LAC,203118,Scott,M. Scott,-231,-6,0,Made,1,96,97,193,v,Scott 3PT Jump Shot (9 PTS) (Williams 5 AST),Made Shot,Jump Shot,1,3,467
+0021800243,639,PT09M25.00S,4,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,468
+0021800243,640,PT09M11.00S,4,1610612737,ATL,1627752,Prince,T. Prince,2,5,1,Made,1,98,97,195,h,Prince 1' Cutting Dunk Shot (11 PTS) (Collins 5 AST),Made Shot,Cutting Dunk Shot,1,2,469
+0021800243,642,PT08M56.00S,4,1610612746,LAC,1628462,Teodosic,M. Teodosic,105,225,25,Missed,1,,,0,v,MISS Teodosic 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,470
+0021800243,643,PT08M54.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,471
+0021800243,644,PT08M52.00S,4,1610612746,LAC,1626246,Marjanović,B. Marjanović,0,0,0,,0,,,0,v,Marjanovic P.FOUL (P1.T2) (J.Phillips),Foul,Personal,1,0,472
+0021800243,646,PT08M37.00S,4,1610612737,ATL,1627752,Prince,T. Prince,175,188,26,Made,1,101,97,198,h,Prince 26' 3PT Jump Shot (14 PTS) (Collins 6 AST),Made Shot,Jump Shot,1,3,473
+0021800243,648,PT08M22.00S,4,1610612746,LAC,1626246,Marjanović,B. Marjanović,-2,11,1,Made,1,101,99,200,v,Marjanovic 1' Dunk (9 PTS) (Williams 6 AST),Made Shot,Dunk Shot,1,2,474
+0021800243,650,PT08M00.00S,4,1610612737,ATL,1627752,Prince,T. Prince,150,205,25,Missed,1,,,0,h,MISS Prince 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,475
+0021800243,651,PT07M58.00S,4,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,Prince REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,476
+0021800243,652,PT07M52.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,-140,204,25,Missed,1,,,0,h,MISS Bembry 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,477
+0021800243,653,PT07M47.00S,4,1610612746,LAC,1628462,Teodosic,M. Teodosic,0,0,0,,0,,,0,v,Teodosic REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,478
+0021800243,654,PT07M45.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry P.FOUL (P2.T3) (J.Phillips),Foul,Personal,1,0,479
+0021800243,656,PT07M45.00S,4,1610612746,LAC,1628462,Teodosic,M. Teodosic,0,0,0,,0,,,0,v,SUB: Harris FOR Teodosic,Substitution,,0,0,480
+0021800243,657,PT07M45.00S,4,1610612746,LAC,203118,Scott,M. Scott,0,0,0,,0,,,0,v,SUB: Gilgeous-Alexander FOR Scott,Substitution,,0,0,481
+0021800243,660,PT07M42.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,Bembry P.FOUL (P3.T4) (P.Ransom),Foul,Personal,1,0,482
+0021800243,662,PT07M33.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,-27,29,4,Missed,1,,,0,v,MISS Harrell 4' Layup,Missed Shot,Layup Shot,1,2,483
+0021800243,662,PT07M33.00S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len BLOCK (2 BLK),,,1,2,484
+0021800243,664,PT07M29.00S,4,1610612746,LAC,1626246,Marjanović,B. Marjanović,0,0,0,,0,,,0,v,Marjanovic REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,485
+0021800243,665,PT07M27.00S,4,1610612746,LAC,1626246,Marjanović,B. Marjanović,-11,13,2,Missed,1,,,0,v,MISS Marjanovic 2' Putback Layup,Missed Shot,Putback Layup Shot,1,2,486
+0021800243,666,PT07M27.00S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len REBOUND (Off:4 Def:6),Rebound,Unknown,1,0,487
+0021800243,667,PT07M14.00S,4,1610612737,ATL,203458,Len,A. Len,230,20,0,Made,1,104,99,203,h,Len 3PT Jump Shot (10 PTS) (Young 12 AST),Made Shot,Jump Shot,1,3,488
+0021800243,669,PT07M13.00S,4,0,,1610612746,,,0,0,0,,0,,,0,v,Clippers Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,489
+0021800243,670,PT07M13.00S,4,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,SUB: Dedmon FOR Collins,Substitution,,0,0,490
+0021800243,671,PT07M13.00S,4,1610612737,ATL,1627761,Bembry,D. Bembry,0,0,0,,0,,,0,h,SUB: Bazemore FOR Bembry,Substitution,,0,0,491
+0021800243,674,PT07M05.00S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len P.FOUL (P3.PN) (C.Kirkland),Foul,Personal,1,0,492
+0021800243,676,PT07M05.00S,4,1610612746,LAC,1626246,Marjanović,B. Marjanović,0,0,0,,0,104,100,204,v,Marjanovic Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,0,0,493
+0021800243,677,PT07M05.00S,4,1610612746,LAC,1626246,Marjanović,B. Marjanović,0,0,0,,0,,,0,v,MISS Marjanovic Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,0,0,494
+0021800243,678,PT07M03.00S,4,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon REBOUND (Off:4 Def:8),Rebound,Unknown,1,0,495
+0021800243,679,PT06M42.00S,4,1610612737,ATL,203458,Len,A. Len,9,24,3,Missed,1,,,0,h,MISS Len 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,496
+0021800243,680,PT06M39.00S,4,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,Prince REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,497
+0021800243,681,PT06M39.00S,4,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Turnover: Shot Clock (T#14),Turnover,Shot Clock Turnover,0,0,498
+0021800243,682,PT06M24.00S,4,1610612746,LAC,1626246,Marjanović,B. Marjanović,-5,29,3,Made,1,104,102,206,v,Marjanovic 3' Layup (12 PTS) (Williams 7 AST),Made Shot,Layup Shot,1,2,499
+0021800243,684,PT06M07.00S,4,1610612737,ATL,1629027,Young,T. Young,143,75,16,Missed,1,,,0,h,MISS Young 16' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,500
+0021800243,685,PT06M04.00S,4,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,501
+0021800243,686,PT06M00.00S,4,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,241,53,25,Missed,1,,,0,v,MISS Gilgeous-Alexander 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,502
+0021800243,687,PT05M55.00S,4,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,503
+0021800243,688,PT05M48.00S,4,1610612737,ATL,1627752,Prince,T. Prince,5,83,8,Made,1,106,102,208,h,Prince 8' Driving Floating Jump Shot (16 PTS),Made Shot,Driving Floating Jump Shot,1,2,504
+0021800243,689,PT05M30.00S,4,1610612746,LAC,101150,Williams,L. Williams,-66,121,14,Missed,1,,,0,v,MISS Williams 14' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,505
+0021800243,689,PT05M30.00S,4,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore BLOCK (2 BLK),,,1,2,506
+0021800243,691,PT05M25.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,Harrell REBOUND (Off:4 Def:5),Rebound,Unknown,1,0,507
+0021800243,692,PT05M22.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,-17,88,9,Made,1,106,104,210,v,Harrell 9' Hook Shot (18 PTS),Made Shot,Hook Shot,1,2,508
+0021800243,693,PT05M13.00S,4,1610612737,ATL,1629027,Young,T. Young,78,248,26,Missed,1,,,0,h,MISS Young 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,509
+0021800243,694,PT05M09.00S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len REBOUND (Off:5 Def:6),Rebound,Unknown,1,0,510
+0021800243,695,PT05M00.00S,4,1610612737,ATL,1629027,Young,T. Young,-4,13,1,Missed,1,,,0,h,MISS Young 1' Driving Reverse Layup,Missed Shot,Driving Reverse Layup Shot,1,2,511
+0021800243,695,PT05M00.00S,4,1610612746,LAC,1626246,Marjanović,B. Marjanović,0,0,0,,0,,,0,v,Marjanovic BLOCK (1 BLK),,,1,2,512
+0021800243,697,PT04M57.00S,4,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,513
+0021800243,698,PT04M54.00S,4,1610612746,LAC,101150,Williams,L. Williams,-217,137,26,Missed,1,,,0,v,MISS Williams 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,514
+0021800243,699,PT04M54.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,Harrell REBOUND (Off:5 Def:5),Rebound,Unknown,1,0,515
+0021800243,743,PT04M54.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,Harrell Bad Pass Turnover (P1.T14),Turnover,Bad Pass,1,0,516
+0021800243,743,PT04M54.00S,4,1610612737,ATL,1627752,Prince,T. Prince,0,0,0,,0,,,0,h,Prince STEAL (2 STL),,,1,0,517
+0021800243,700,PT04M43.00S,4,1610612737,ATL,203458,Len,A. Len,-6,15,2,Made,1,108,104,212,h,Len 2' Cutting Dunk Shot (12 PTS) (Young 13 AST),Made Shot,Cutting Dunk Shot,1,2,518
+0021800243,702,PT04M43.00S,4,0,,1610612746,,,0,0,0,,0,,,0,v,Clippers Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,519
+0021800243,703,PT04M43.00S,4,1610612746,LAC,1626246,Marjanović,B. Marjanović,0,0,0,,0,,,0,v,SUB: Scott FOR Marjanovic,Substitution,,0,0,520
+0021800243,705,PT04M33.00S,4,1610612746,LAC,202699,Harris,T. Harris,33,85,9,Made,1,108,106,214,v,Harris 9' Driving Floating Jump Shot (24 PTS),Made Shot,Driving Floating Jump Shot,1,2,521
+0021800243,706,PT04M18.00S,4,1610612737,ATL,1629027,Young,T. Young,-10,13,2,Missed,1,,,0,h,MISS Young 2' Layup,Missed Shot,Layup Shot,1,2,522
+0021800243,707,PT04M13.00S,4,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,v,Williams REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,523
+0021800243,708,PT04M08.00S,4,1610612746,LAC,203118,Scott,M. Scott,-203,154,25,Made,1,108,109,217,v,Scott 25' 3PT Jump Shot (12 PTS) (Williams 8 AST),Made Shot,Jump Shot,1,3,524
+0021800243,710,PT03M53.00S,4,1610612737,ATL,203145,Bazemore,K. Bazemore,-46,247,25,Missed,1,,,0,h,MISS Bazemore 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,525
+0021800243,711,PT03M48.00S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,Len REBOUND (Off:6 Def:6),Rebound,Unknown,1,0,526
+0021800243,712,PT03M48.00S,4,1610612737,ATL,203458,Len,A. Len,0,-6,1,Missed,1,,,0,h,MISS Len 1' Tip Dunk Shot,Missed Shot,Tip Dunk Shot,1,2,527
+0021800243,713,PT03M48.00S,4,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,528
+0021800243,714,PT03M47.00S,4,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon S.FOUL (P3.PN) (P.Ransom),Foul,Shooting,1,0,529
+0021800243,716,PT03M47.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,108,110,218,v,Harrell Free Throw 1 of 2 (19 PTS),Free Throw,Free Throw 1 of 2,0,0,530
+0021800243,717,PT03M47.00S,4,1610612737,ATL,203458,Len,A. Len,0,0,0,,0,,,0,h,SUB: Collins FOR Len,Substitution,,0,0,531
+0021800243,719,PT03M47.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,108,111,219,v,Harrell Free Throw 2 of 2 (20 PTS),Free Throw,Free Throw 2 of 2,0,0,532
+0021800243,720,PT03M34.00S,4,1610612737,ATL,1627752,Prince,T. Prince,145,9,15,Made,1,110,111,221,h,Prince 15' Step Back Jump Shot (18 PTS) (Young 14 AST),Made Shot,Step Back Jump shot,1,2,533
+0021800243,721,PT03M12.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,-6,17,2,Made,1,110,113,223,v,Harrell 2' Reverse Layup (22 PTS) (Williams 9 AST),Made Shot,Reverse Layup Shot,1,2,534
+0021800243,723,PT03M12.00S,4,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon S.FOUL (P4.PN) (C.Kirkland),Foul,Shooting,1,0,535
+0021800243,725,PT03M12.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,110,114,224,v,Harrell Free Throw 1 of 1 (23 PTS),Free Throw,Free Throw 1 of 1,0,0,536
+0021800243,726,PT03M00.00S,4,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,,,0,h,Young Bad Pass Turnover (P6.T15),Turnover,Bad Pass,1,0,537
+0021800243,726,PT03M00.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,Harrell STEAL (4 STL),,,1,0,538
+0021800243,728,PT02M55.00S,4,1610612746,LAC,203118,Scott,M. Scott,-228,8,0,Made,1,110,117,227,v,Scott 3PT Jump Shot (15 PTS) (Harris 1 AST),Made Shot,Jump Shot,1,3,539
+0021800243,730,PT02M54.00S,4,0,,1610612737,,,0,0,0,,0,,,0,h,HAWKS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,540
+0021800243,731,PT02M39.00S,4,1610612737,ATL,1627752,Prince,T. Prince,9,36,4,Missed,1,,,0,h,MISS Prince 4' Driving Layup,Missed Shot,Driving Layup Shot,1,2,541
+0021800243,731,PT02M39.00S,4,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,Gilgeous-Alexander BLOCK (1 BLK),,,1,2,542
+0021800243,733,PT02M33.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,Harrell REBOUND (Off:5 Def:6),Rebound,Unknown,1,0,543
+0021800243,734,PT02M21.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,-5,10,1,Missed,1,,,0,v,MISS Harrell 1' Driving Dunk,Missed Shot,Driving Dunk Shot,1,2,544
+0021800243,735,PT02M19.00S,4,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,Gilgeous-Alexander REBOUND (Off:2 Def:0),Rebound,Unknown,1,0,545
+0021800243,736,PT02M19.00S,4,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,-3,10,1,Made,1,110,119,229,v,Gilgeous-Alexander 1' Driving Dunk (14 PTS),Made Shot,Driving Dunk Shot,1,2,546
+0021800243,737,PT02M19.00S,4,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore S.FOUL (P3.PN) (J.Phillips),Foul,Shooting,1,0,547
+0021800243,739,PT02M19.00S,4,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,MISS Gilgeous-Alexander Free Throw 1 of 1,Free Throw,Free Throw 1 of 1,0,0,548
+0021800243,740,PT02M19.00S,4,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,549
+0021800243,741,PT02M10.00S,4,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,,,0,v,Gilgeous-Alexander S.FOUL (P1.T3) (J.Phillips),Foul,Shooting,1,0,550
+0021800243,745,PT02M10.00S,4,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,111,119,230,h,Young Free Throw 1 of 2 (24 PTS),Free Throw,Free Throw 1 of 2,0,0,551
+0021800243,746,PT02M10.00S,4,1610612737,ATL,1629027,Young,T. Young,0,0,0,,0,112,119,231,h,Young Free Throw 2 of 2 (25 PTS),Free Throw,Free Throw 2 of 2,0,0,552
+0021800243,747,PT01M54.00S,4,1610612746,LAC,203118,Scott,M. Scott,0,0,0,,0,,,0,v,Scott Traveling Turnover (P1.T15),Turnover,Traveling,1,0,553
+0021800243,748,PT01M45.00S,4,1610612737,ATL,1628381,Collins,J. Collins,1,17,2,Made,1,114,119,233,h,Collins 2' Cutting Layup Shot (16 PTS) (Young 15 AST),Made Shot,Cutting Layup Shot,1,2,554
+0021800243,750,PT01M29.00S,4,1610612746,LAC,203118,Scott,M. Scott,-98,236,26,Made,1,114,122,236,v,Scott 26' 3PT Jump Shot (18 PTS) (Williams 10 AST),Made Shot,Jump Shot,1,3,555
+0021800243,752,PT01M19.00S,4,1610612737,ATL,203473,Dedmon,D. Dedmon,0,0,0,,0,,,0,h,Dedmon Bad Pass Turnover (P3.T16),Turnover,Bad Pass,1,0,556
+0021800243,752,PT01M19.00S,4,1610612746,LAC,1626149,Harrell,M. Harrell,0,0,0,,0,,,0,v,Harrell STEAL (5 STL),,,1,0,557
+0021800243,754,PT00M59.40S,4,1610612746,LAC,1626149,Harrell,M. Harrell,-3,12,1,Made,1,114,124,238,v,Harrell 1' Alley Oop Layup (25 PTS) (Williams 11 AST),Made Shot,Alley Oop Layup shot,1,2,558
+0021800243,756,PT00M50.50S,4,1610612737,ATL,1628381,Collins,J. Collins,11,52,5,Made,1,116,124,240,h,Collins 5' Turnaround Hook Shot (18 PTS) (Young 16 AST),Made Shot,Turnaround Hook Shot,1,2,559
+0021800243,758,PT00M42.80S,4,1610612737,ATL,1628381,Collins,J. Collins,0,0,0,,0,,,0,h,Collins Personal Take Foul (P5.PN) (P.Ransom),Foul,Personal Take,1,0,560
+0021800243,760,PT00M42.80S,4,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,,,0,v,MISS Williams Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,561
+0021800243,761,PT00M42.80S,4,0,,1610612746,,,0,0,0,,0,,,0,v,Clippers Rebound,Rebound,Normal Rebound,0,0,562
+0021800243,762,PT00M42.80S,4,1610612746,LAC,101150,Williams,L. Williams,0,0,0,,0,116,125,241,v,Williams Free Throw 2 of 2 (16 PTS),Free Throw,Free Throw 2 of 2,1,0,563
+0021800243,763,PT00M37.30S,4,1610612737,ATL,1627752,Prince,T. Prince,-9,260,26,Made,1,119,125,244,h,Prince 26' 3PT Jump Shot (21 PTS) (Young 17 AST),Made Shot,Jump Shot,1,3,564
+0021800243,766,PT00M35.20S,4,1610612737,ATL,203145,Bazemore,K. Bazemore,0,0,0,,0,,,0,h,Bazemore Personal Take Foul (P4.PN) (J.Phillips),Foul,Personal Take,1,0,565
+0021800243,768,PT00M35.20S,4,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,119,126,245,v,Gilgeous-Alexander Free Throw 1 of 2 (15 PTS),Free Throw,Free Throw 1 of 2,1,0,566
+0021800243,769,PT00M35.20S,4,1610612746,LAC,1628983,Gilgeous-Alexander,S. Gilgeous-Alexander,0,0,0,,0,119,127,246,v,Gilgeous-Alexander Free Throw 2 of 2 (16 PTS),Free Throw,Free Throw 2 of 2,1,0,567
+0021800243,770,PT00M25.90S,4,1610612737,ATL,203473,Dedmon,D. Dedmon,101,134,17,Missed,1,,,0,h,MISS Dedmon 17' Jump Shot,Missed Shot,Jump Shot,1,2,568
+0021800243,771,PT00M21.60S,4,1610612746,LAC,202699,Harris,T. Harris,0,0,0,,0,,,0,v,Harris REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,569
+0021800243,772,PT00M00.00S,4,0,,0,,,0,0,0,,0,119,127,246,,End of 4th Period (9:59 PM EST),period,end,1,0,570

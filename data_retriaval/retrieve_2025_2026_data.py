@@ -16,9 +16,13 @@ Fetched per game:
 
 Already-downloaded games are skipped (resumable). Run with an integer arg to cap
 the number of games (chronological), e.g. `py retrieve_2025_2026_data.py 50`.
+
+The same V3-with-remap path also backfills earlier seasons whose V2 download
+left gaps (2024-25 is missing 146 traditional / 147 advanced box scores):
+`py retrieve_2025_2026_data.py --season 2024_2025`.
 """
 import os
-import sys
+import argparse
 import time
 import datetime
 import traceback
@@ -33,7 +37,7 @@ PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE_DIR = os.path.join(PROJECT_ROOT, "nba_data")
 GAME_IDS_DIR = os.path.join(PROJECT_ROOT, "game_ids")
 
-SEASON_FMT = "2025_2026"
+DEFAULT_SEASON = "2025_2026"
 API_DELAY = 0.6
 RETRY_DELAYS = [1, 2, 4, 8, 12]
 MAX_RETRIES = 5
@@ -105,13 +109,13 @@ def _retry(callable_, label, gid):
                 return None
 
 
-def game_dirs(gid):
-    gdir = os.path.join(BASE_DIR, SEASON_FMT, gid)
+def game_dirs(gid, season):
+    gdir = os.path.join(BASE_DIR, season, gid)
     return gdir, os.path.join(gdir, "play_by_play"), os.path.join(gdir, "box_scores")
 
 
-def already_complete(gid):
-    _, pbp_dir, box_dir = game_dirs(gid)
+def already_complete(gid, season):
+    _, pbp_dir, box_dir = game_dirs(gid, season)
     paths = [
         os.path.join(pbp_dir, f"{gid}pbp.csv"),
         os.path.join(box_dir, f"{gid}box_score_traditional.csv"),
@@ -123,8 +127,8 @@ def already_complete(gid):
     return all(os.path.exists(p) and os.path.getsize(p) > 64 for p in paths)
 
 
-def process_game(gid):
-    _, pbp_dir, box_dir = game_dirs(gid)
+def process_game(gid, season):
+    _, pbp_dir, box_dir = game_dirs(gid, season)
     os.makedirs(pbp_dir, exist_ok=True)
     os.makedirs(box_dir, exist_ok=True)
     ok = True
@@ -175,21 +179,28 @@ def process_game(gid):
 
 
 def main():
-    limit = int(sys.argv[1]) if len(sys.argv) > 1 else None
-    csv_path = os.path.join(GAME_IDS_DIR, f"game_id_{SEASON_FMT}.csv")
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("limit", nargs="?", type=int, default=None,
+                        help="cap the number of games processed (chronological)")
+    parser.add_argument("--season", default=DEFAULT_SEASON,
+                        help="season directory name, e.g. 2024_2025 (default: %(default)s)")
+    args = parser.parse_args()
+    season, limit = args.season, args.limit
+
+    csv_path = os.path.join(GAME_IDS_DIR, f"game_id_{season}.csv")
     games = pd.read_csv(csv_path).drop_duplicates(subset=["GAME_ID"]).sort_values("GAME_DATE")
     gids = [fmt_gid(g) for g in games["GAME_ID"].tolist()]
-    if limit:
+    if limit is not None:
         gids = gids[:limit]
 
-    pending = [g for g in gids if not already_complete(g)]
+    pending = [g for g in gids if not already_complete(g, season)]
     start = datetime.datetime.now()
-    print(f"[{start}] 2025-26 retrieval: {len(gids)} total, {len(pending)} pending, "
+    print(f"[{start}] {season} retrieval: {len(gids)} total, {len(pending)} pending, "
           f"{len(gids) - len(pending)} complete", flush=True)
 
     failures = 0
     for i, gid in enumerate(pending, 1):
-        if not process_game(gid):
+        if not process_game(gid, season):
             failures += 1
         if i % 10 == 0 or i == len(pending):
             elapsed = (datetime.datetime.now() - start).total_seconds()

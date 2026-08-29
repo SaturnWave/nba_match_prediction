@@ -1,254 +1,371 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="tr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>NBA 2025-26 Prediction Dashboard</title>
-<link rel="stylesheet" href="/static/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>NBA 2025-26 Tahmin Paneli</title>
+<style>
+:root {
+  --ground:#f4f6f7; --surface:#fff; --surface-2:#edf1f3;
+  --ink:#11181c; --muted:#5a6a72; --faint:#8a99a1;
+  --line:#dce3e6; --line-strong:#c3cfd4;
+  --accent:#2f5d7c; --accent-soft:#e3edf3;
+  --pos:#1e7f4f; --pos-soft:#e0f0e7;
+  --neg:#b4402f; --neg-soft:#f8e4e0;
+  --warn:#8a6416; --warn-soft:#f6ebd6;
+  --mono:"SF Mono",ui-monospace,"Cascadia Mono",Consolas,monospace;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --tap:44px;
+}
+@media (prefers-color-scheme:dark){:root{
+  --ground:#0e1417; --surface:#161f23; --surface-2:#1c272c;
+  --ink:#e6edf0; --muted:#93a5ad; --faint:#6e828b;
+  --line:#26333a; --line-strong:#37474f;
+  --accent:#79aecf; --accent-soft:#172a36;
+  --pos:#4fbe86; --pos-soft:#12271d;
+  --neg:#e2836f; --neg-soft:#2c1815;
+  --warn:#c99b3f; --warn-soft:#2a2213;
+}}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;height:100%}
+body{background:var(--ground);color:var(--ink);font-family:var(--sans);
+  font-size:16px;line-height:1.5;overflow:hidden}
+
+header{background:var(--surface);border-bottom:1px solid var(--line);
+  padding:calc(env(safe-area-inset-top) + 12px) 16px 12px;
+  display:flex;flex-direction:column;gap:6px}
+.brand{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.brand h1{margin:0;font-size:18px;font-weight:650;letter-spacing:-.02em}
+.brand .season{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.metrics{font-family:var(--mono);font-size:11.5px;color:var(--muted);
+  display:flex;gap:14px;flex-wrap:wrap}
+.metrics b{color:var(--ink);font-weight:600}
+
+.filters{display:flex;gap:8px;padding:10px 16px;background:var(--surface);
+  border-bottom:1px solid var(--line);overflow-x:auto}
+.filters select,.filters button{font:inherit;font-size:14px;min-height:var(--tap);
+  padding:0 12px;border:1px solid var(--line-strong);border-radius:8px;
+  background:var(--surface-2);color:var(--ink);flex:0 0 auto}
+.filters button{background:var(--accent-soft);color:var(--accent);font-weight:600}
+
+main{height:100%;display:flex;flex-direction:column;overflow:hidden}
+.panes{flex:1;display:flex;min-height:0}
+.pane{flex:1;min-width:0;overflow-y:auto;-webkit-overflow-scrolling:touch;
+  padding:12px 16px calc(env(safe-area-inset-bottom) + 24px)}
+#detailPane{display:none;background:var(--ground)}
+main.showing-detail #listPane{display:none}
+main.showing-detail #detailPane{display:block}
+@media (min-width:900px){
+  #listPane{max-width:400px;border-right:1px solid var(--line);display:block!important}
+  #detailPane{display:block!important}
+}
+
+.count{font-family:var(--mono);font-size:11.5px;color:var(--faint);
+  padding:2px 0 10px;letter-spacing:.04em;text-transform:uppercase}
+
+.game{display:flex;flex-direction:column;gap:4px;width:100%;text-align:left;
+  background:var(--surface);border:1px solid var(--line);border-radius:10px;
+  padding:12px 14px;margin-bottom:8px;font:inherit;color:inherit;
+  min-height:var(--tap);cursor:pointer}
+.game:active{background:var(--surface-2)}
+.game[aria-current="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.game .top{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.game .mu{font-weight:600;font-size:15px;letter-spacing:-.01em}
+.game .sc{font-family:var(--mono);font-size:14px;font-variant-numeric:tabular-nums}
+.game .bot{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.game .dt{font-family:var(--mono);font-size:11.5px;color:var(--muted)}
+
+.tag{font-family:var(--mono);font-size:10px;letter-spacing:.05em;
+  text-transform:uppercase;padding:2px 7px;border-radius:4px;white-space:nowrap}
+.tag.out-of-sample{background:var(--pos-soft);color:var(--pos)}
+.tag.in-sample{background:var(--warn-soft);color:var(--warn)}
+
+.backbtn{display:none;align-items:center;gap:8px;background:none;border:0;
+  color:var(--accent);font:inherit;font-weight:600;font-size:15px;
+  min-height:var(--tap);padding:0;margin-bottom:4px;cursor:pointer}
+main.showing-detail .backbtn{display:flex}
+@media (min-width:900px){main.showing-detail .backbtn{display:none}}
+
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;
+  padding:16px;margin-bottom:12px}
+.card h2{margin:0 0 12px;font-size:12px;font-weight:600;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--muted);font-family:var(--mono)}
+
+.head-mu{font-size:22px;font-weight:680;letter-spacing:-.02em;margin:0 0 2px}
+.head-dt{font-family:var(--mono);font-size:12.5px;color:var(--muted);margin-bottom:10px}
+
+.prob{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.prob .big{font-family:var(--mono);font-size:40px;font-weight:600;
+  letter-spacing:-.03em;font-variant-numeric:tabular-nums;line-height:1}
+.prob .who{font-size:17px;font-weight:650}
+.bar{height:10px;border-radius:5px;background:var(--surface-2);overflow:hidden;
+  display:flex;margin-bottom:8px}
+.bar i{display:block;background:var(--accent)}
+.rawnote{font-family:var(--mono);font-size:11.5px;color:var(--muted)}
+
+.kv{display:grid;grid-template-columns:1fr auto;gap:7px 14px;
+  font-family:var(--mono);font-size:13.5px;font-variant-numeric:tabular-nums}
+.kv dt{color:var(--muted)}
+.kv dd{margin:0;text-align:right}
+.kv dd.pos{color:var(--pos)} .kv dd.neg{color:var(--neg)}
+.range{color:var(--faint);font-size:12px}
+
+.verdict{display:inline-flex;align-items:center;gap:6px;font-weight:650;
+  font-size:14px;padding:5px 11px;border-radius:7px;margin-bottom:10px}
+.verdict.ok{background:var(--pos-soft);color:var(--pos)}
+.verdict.no{background:var(--neg-soft);color:var(--neg)}
+
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:420px){.two{grid-template-columns:1fr}}
+.team-h{font-family:var(--mono);font-size:11.5px;color:var(--muted);
+  margin-bottom:6px;letter-spacing:.05em}
+.plist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:5px}
+.plist li{display:flex;justify-content:space-between;gap:10px;font-size:13.5px}
+.plist .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.plist .vv{font-family:var(--mono);font-variant-numeric:tabular-nums;color:var(--muted)}
+
+table{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:12.5px}
+th,td{padding:6px 4px;text-align:right;font-variant-numeric:tabular-nums}
+th:first-child,td:first-child,th:nth-child(2),td:nth-child(2){text-align:left}
+th{color:var(--muted);font-weight:600;font-size:10.5px;letter-spacing:.05em;
+  text-transform:uppercase;border-bottom:1px solid var(--line-strong)}
+td{border-bottom:1px solid var(--line)}
+tr:last-child td{border-bottom:none}
+.scroll{overflow-x:auto}
+
+.empty{color:var(--faint);font-size:14px;text-align:center;padding:48px 16px}
+.spin{color:var(--muted);font-size:14px;padding:24px 0;text-align:center}
+.err{background:var(--neg-soft);color:var(--neg);border-radius:8px;padding:12px 14px;
+  font-size:14px}
+</style>
 </head>
 <body>
 
-<header class="topbar">
+<header>
   <div class="brand">
-    <span class="logo">&#127936;</span>
-    <h1>NBA 2025-26 <span class="accent">Prediction Dashboard</span></h1>
+    <h1>NBA Tahmin Paneli</h1>
+    <span class="season">2019-20 → 2025-26</span>
   </div>
-  <div class="filters">
-    <label>Season
-      <select id="seasonSel"><option value="">All seasons</option></select>
-    </label>
-    <label>Team
-      <select id="teamSel"><option value="">All teams</option></select>
-    </label>
-    <label>Month
-      <select id="monthSel"><option value="">All months</option></select>
-    </label>
-    <button id="resetBtn" type="button">Reset</button>
-  </div>
+  <div class="metrics" id="metrics"></div>
 </header>
 
-<main class="layout">
+<div class="filters">
+  <select id="seasonSel"><option value="">Tüm sezonlar</option></select>
+  <select id="teamSel"><option value="">Tüm takımlar</option></select>
+  <select id="monthSel"><option value="">Tüm aylar</option></select>
+  <button id="resetBtn" type="button">Sıfırla</button>
+</div>
 
-  <aside class="panel list-panel">
-    <div class="panel-head">
-      <h2>Games</h2>
-      <span id="gameCount" class="muted"></span>
-    </div>
-    <ul id="gameList" class="game-list"></ul>
-  </aside>
-
-  <section class="panel detail-panel" id="detailPanel">
-    <div id="placeholder" class="placeholder">
-      <div class="placeholder-ball">&#127936;</div>
-      <p>Select a game from the list to see the model's prediction.</p>
-    </div>
-    <div id="card" hidden></div>
-  </section>
-
+<main id="main">
+  <div class="panes">
+    <section class="pane" id="listPane">
+      <div class="count" id="gameCount">yükleniyor…</div>
+      <div id="gameList"></div>
+    </section>
+    <section class="pane" id="detailPane">
+      <button class="backbtn" id="backBtn" type="button">← Maç listesi</button>
+      <div id="detail"><div class="empty">Bir maç seçin</div></div>
+    </section>
+  </div>
 </main>
 
 <script>
-"use strict";
+const $ = s => document.querySelector(s);
+const mainEl = $('#main');
+let selected = null;
 
-var state = { games: [], selected: null };
+const pct = v => (v * 100).toFixed(1) + '%';
+const sign = v => (v > 0 ? '+' : '') + v.toFixed(1);
 
-function $(id) { return document.getElementById(id); }
-
-function esc(s) {
-  return String(s == null ? "" : s)
-    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+async function getJSON(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error((await r.json().catch(() => ({}))).error || r.statusText);
+  return r.json();
 }
 
-function fmt(x, dp) {
-  if (x == null || isNaN(x)) return "–";
-  return Number(x).toFixed(dp == null ? 1 : dp);
-}
-
-function badgePill(badge, compact) {
-  var cls = badge.key === "out-of-sample" ? "badge badge-out" : "badge badge-in";
-  var text = compact
-    ? (badge.key === "out-of-sample" ? "HELD-OUT" : "IN-SAMPLE")
-    : esc(badge.label);
-  return '<span class="' + cls + '" title="' + esc(badge.label) + '">' + text + "</span>";
-}
-
-/* ---------------- filters / game list ---------------- */
-
-function loadMeta() {
-  return fetch("/api/meta").then(function (r) { return r.json(); }).then(function (m) {
-    m.seasons.forEach(function (s) {
-      $("seasonSel").insertAdjacentHTML("beforeend",
-        '<option value="' + esc(s) + '">' + esc(s.replace("_", "-")) + "</option>");
-    });
-    m.teams.forEach(function (t) {
-      $("teamSel").insertAdjacentHTML("beforeend",
-        '<option value="' + esc(t) + '">' + esc(t) + "</option>");
-    });
-    m.months.forEach(function (mo) {
-      $("monthSel").insertAdjacentHTML("beforeend",
-        '<option value="' + esc(mo) + '">' + esc(mo) + "</option>");
-    });
-  });
-}
-
-function loadGames() {
-  var params = new URLSearchParams();
-  if ($("seasonSel").value) params.set("season", $("seasonSel").value);
-  if ($("teamSel").value) params.set("team", $("teamSel").value);
-  if ($("monthSel").value) params.set("month", $("monthSel").value);
-  $("gameCount").textContent = "loading…";
-  fetch("/api/games?" + params.toString())
-    .then(function (r) { return r.json(); })
-    .then(function (data) {
-      state.games = data.games;
-      $("gameCount").textContent = data.count + " games";
-      renderGameList();
-    })
-    .catch(function () { $("gameCount").textContent = "failed to load"; });
-}
-
-function renderGameList() {
-  var html = state.games.map(function (g) {
-    var sel = state.selected === g.game_id ? " selected" : "";
-    var dot = g.badge.key === "out-of-sample" ? "dot dot-out" : "dot dot-in";
-    return '<li class="game-item' + sel + '" data-gid="' + esc(g.game_id) + '">' +
-      '<span class="' + dot + '" title="' + esc(g.badge.label) + '"></span>' +
-      '<span class="gi-matchup">' + esc(g.matchup) + "</span>" +
-      '<span class="gi-score">' + fmt(g.away_score, 0) + "–" + fmt(g.home_score, 0) + "</span>" +
-      '<span class="gi-date">' + esc(g.date) + "</span>" +
-      "</li>";
-  }).join("");
-  $("gameList").innerHTML = html || '<li class="muted empty">No games match the filters.</li>';
-}
-
-$("gameList").addEventListener("click", function (ev) {
-  var li = ev.target.closest("li[data-gid]");
-  if (li) selectGame(li.getAttribute("data-gid"));
-});
-
-function selectGame(gid) {
-  state.selected = gid;
-  renderGameList();
-  $("placeholder").hidden = true;
-  $("card").hidden = false;
-  $("card").innerHTML = '<div class="loading">Predicting&hellip;</div>';
-  fetch("/api/predict/" + encodeURIComponent(gid))
-    .then(function (r) { return r.json(); })
-    .then(renderCard)
-    .catch(function () {
-      $("card").innerHTML = '<div class="loading">Prediction failed — is the server running?</div>';
-    });
-}
-
-/* ---------------- prediction card ---------------- */
-
-function rosterTable(side, label, rows) {
-  var body = (rows && rows.length)
-    ? rows.map(function (p) {
-        return "<tr><td>" + esc(p.name) + "</td><td>" + fmt(p.l10_mean, 2) +
-          "</td><td>" + fmt(p.l3_mean, 2) + "</td><td>" + p.n_games + "</td></tr>";
-      }).join("")
-    : '<tr><td colspan="4" class="muted">No prior impact history before this date.</td></tr>';
-  return '<div class="roster-col">' +
-    '<h4><span class="team-chip ' + side + '">' + esc(label) + "</span> roster impact</h4>" +
-    '<table class="data-table"><thead><tr><th>Player</th><th>L10 impact</th><th>L3 impact</th><th>GP</th></tr></thead>' +
-    "<tbody>" + body + "</tbody></table></div>";
-}
-
-function matchupSection(rows) {
-  if (!rows) {
-    return '<p class="muted small">Matchup box score not downloaded yet for this game ' +
-      "(the BoxScoreMatchupsV3 retrieval job is still running).</p>";
+function fillSelect(el, values) {
+  for (const v of values) {
+    const o = document.createElement('option');
+    o.value = v; o.textContent = v;
+    el.appendChild(o);
   }
-  var body = rows.map(function (m) {
-    return "<tr><td>" + esc(m.offName) + "</td><td>" + esc(m.defName) + "</td><td>" +
-      fmt(m.partialPossessions, 1) + "</td><td>" + m.playerPoints + "</td><td>" +
-      m.matchupFieldGoalsMade + "/" + m.matchupFieldGoalsAttempted + "</td></tr>";
-  }).join("");
-  return '<table class="data-table"><thead><tr>' +
-    "<th>Scorer</th><th>Primary defender</th><th>Poss.</th><th>Pts vs</th><th>FG vs</th>" +
-    "</tr></thead><tbody>" + body + "</tbody></table>";
 }
 
-function renderCard(d) {
-  if (d.error) {
-    $("card").innerHTML = '<div class="loading">' + esc(d.error) + "</div>";
-    return;
+async function loadMeta() {
+  const m = await getJSON('/api/meta');
+  fillSelect($('#seasonSel'), m.seasons);
+  fillSelect($('#teamSel'), m.teams);
+  fillSelect($('#monthSel'), m.months);
+  const k = m.metrics;
+  $('#metrics').innerHTML =
+    `<span>doğruluk <b>${pct(k.accuracy)}</b> ±${(k.accuracy_std * 100).toFixed(1)}</span>` +
+    `<span>taban <b>${pct(k.naive_baseline)}</b></span>` +
+    `<span>AUC <b>${k.auc.toFixed(3)}</b></span>` +
+    `<span>${m.n_games} maç</span>`;
+  $('#metrics').title = k.protocol +
+    ` — tek split ${pct(k.single_split_accuracy)} verirdi ama ${k.single_split_note}`;
+}
+
+function gameCard(g) {
+  const el = document.createElement('button');
+  el.className = 'game';
+  el.type = 'button';
+  el.dataset.id = g.game_id;
+  el.innerHTML =
+    `<div class="top"><span class="mu">${g.matchup}</span>` +
+    `<span class="sc">${g.away_score.toFixed(0)}–${g.home_score.toFixed(0)}</span></div>` +
+    `<div class="bot"><span class="dt">${g.date}</span>` +
+    `<span class="tag ${g.badge.key}">${g.badge.key === 'out-of-sample' ? 'held-out' : 'eğitimde'}</span></div>`;
+  el.addEventListener('click', () => selectGame(g.game_id));
+  return el;
+}
+
+async function loadGames() {
+  const p = new URLSearchParams();
+  for (const [k, id] of [['season', '#seasonSel'], ['team', '#teamSel'], ['month', '#monthSel']]) {
+    if ($(id).value) p.set(k, $(id).value);
   }
-  var p = d.predicted, a = d.actual;
-  var homeProb = p.home_win_prob, awayProb = 1 - homeProb;
-  var conf = Math.max(homeProb, awayProb);
-  var verdict = a.correct_winner
-    ? '<span class="verdict ok">&#10003; correct pick</span>'
-    : '<span class="verdict bad">&#10007; wrong pick</span>';
-
-  var html =
-    '<div class="card-head">' +
-      '<div><h2 class="matchup-title">' + esc(d.away_team) +
-        ' <span class="at">@</span> ' + esc(d.home_team) + "</h2>" +
-      '<div class="muted">' + esc(d.date) + " &middot; " +
-        esc(d.season.replace("_", "-")) + " &middot; game " + esc(d.game_id) + "</div></div>" +
-      badgePill(d.badge, false) +
-    "</div>" +
-
-    '<div class="prob-block">' +
-      '<div class="prob-labels"><span>' + esc(d.away_team) + " " + fmt(awayProb * 100, 1) +
-        "%</span><span>" + esc(d.home_team) + " " + fmt(homeProb * 100, 1) + "%</span></div>" +
-      '<div class="prob-bar"><div class="prob-fill" style="width:' +
-        fmt(homeProb * 100, 1) + '%"></div></div>' +
-      '<div class="prob-caption">Model pick: <strong>' + esc(p.predicted_winner) +
-        "</strong> &middot; confidence " + fmt(conf * 100, 1) + "% " + verdict + "</div>" +
-    "</div>" +
-
-    '<div class="score-grid">' +
-      '<div class="score-cell"><div class="sc-label">Predicted score</div>' +
-        '<div class="sc-value">' + fmt(p.away_score, 1) + " &ndash; " + fmt(p.home_score, 1) + "</div>" +
-        '<div class="sc-sub">' + esc(d.away_team) + " / " + esc(d.home_team) + "</div></div>" +
-      '<div class="score-cell"><div class="sc-label">Actual score</div>' +
-        '<div class="sc-value">' + fmt(a.away_score, 0) + " &ndash; " + fmt(a.home_score, 0) + "</div>" +
-        '<div class="sc-sub">winner: ' + esc(a.winner) + "</div></div>" +
-      '<div class="score-cell"><div class="sc-label">Point diff (home&minus;away)</div>' +
-        '<div class="sc-value">' + fmt(p.point_diff, 1) + "</div>" +
-        '<div class="sc-sub">actual ' + fmt(a.point_diff, 0) + "</div></div>" +
-      '<div class="score-cell"><div class="sc-label">Total points</div>' +
-        '<div class="sc-value">' + fmt(p.total_score, 1) + "</div>" +
-        '<div class="sc-sub">actual ' + fmt(a.total_score, 0) + "</div></div>" +
-    "</div>" +
-
-    '<div class="explainer">' +
-      "<strong>How to read this:</strong> every feature is a rolling &ldquo;as-of&rdquo; stat " +
-      "(shift(1) &mdash; only games strictly before tip-off), so the model knows the team and " +
-      "roster's <em>current</em> 2025-26 form through its features even though the weights were " +
-      "fit on earlier games. The roster panel below is the forward-looking " +
-      "<code>get_current_roster_impact</code> signal: trailing impact per player computed " +
-      "strictly before this game's date." +
-    "</div>" +
-
-    '<div class="roster-grid">' +
-      rosterTable("home", d.home_team + " (home)", d.roster_impact.home) +
-      rosterTable("away", d.away_team + " (away)", d.roster_impact.away) +
-    "</div>" +
-
-    '<div class="matchup-block"><h3>Defender vs scorer assignments ' +
-      '<span class="muted small">(top by partial possessions)</span></h3>' +
-      matchupSection(d.matchup_data) +
-    "</div>";
-
-  $("card").innerHTML = html;
+  $('#gameCount').textContent = 'yükleniyor…';
+  $('#gameList').innerHTML = '';
+  try {
+    const d = await getJSON('/api/games?' + p.toString());
+    $('#gameCount').textContent = d.shown < d.count
+      ? `${d.count} maç · en yeni ${d.shown} gösteriliyor`
+      : `${d.count} maç`;
+    const frag = document.createDocumentFragment();
+    d.games.forEach(g => frag.appendChild(gameCard(g)));
+    $('#gameList').appendChild(frag);
+    if (selected) markSelected(selected);
+  } catch (e) {
+    $('#gameCount').textContent = '';
+    $('#gameList').innerHTML = `<div class="err">Liste alınamadı: ${e.message}</div>`;
+  }
 }
 
-/* ---------------- wiring ---------------- */
+function markSelected(id) {
+  document.querySelectorAll('.game').forEach(el =>
+    el.setAttribute('aria-current', el.dataset.id === id ? 'true' : 'false'));
+}
 
-["seasonSel", "teamSel", "monthSel"].forEach(function (id) {
-  $(id).addEventListener("change", loadGames);
-});
-$("resetBtn").addEventListener("click", function () {
-  $("seasonSel").value = ""; $("teamSel").value = ""; $("monthSel").value = "";
+async function selectGame(id) {
+  selected = id;
+  markSelected(id);
+  mainEl.classList.add('showing-detail');
+  $('#detail').innerHTML = '<div class="spin">hesaplanıyor…</div>';
+  try {
+    renderDetail(await getJSON('/api/predict/' + id));
+  } catch (e) {
+    $('#detail').innerHTML = `<div class="err">Tahmin alınamadı: ${e.message}</div>`;
+  }
+}
+
+function rosterList(players) {
+  if (!players || !players.length) return '<div class="range">veri yok</div>';
+  return '<ul class="plist">' + players.map(p =>
+    `<li><span class="nm">${p.name}</span><span class="vv">${p.l10_mean.toFixed(1)}</span></li>`
+  ).join('') + '</ul>';
+}
+
+function renderDetail(d) {
+  const pr = d.predicted, ac = d.actual, sim = d.simulation, rt = d.ratings;
+  const homeSide = pr.predicted_winner === d.home_team;
+  const shown = homeSide ? pr.home_win_prob : 1 - pr.home_win_prob;
+  const barHome = (pr.home_win_prob * 100).toFixed(1);
+
+  let html = '';
+
+  html += `<div class="card">
+    <p class="head-mu">${d.matchup}</p>
+    <div class="head-dt">${d.date} · ${d.season.replace('_', '-')} ·
+      <span class="tag ${d.badge.key}">${d.badge.key === 'out-of-sample' ? 'held-out' : 'eğitimde'}</span></div>
+    <div class="prob">
+      <span class="big">${pct(shown)}</span>
+      <span class="who">${pr.predicted_winner}</span>
+    </div>
+    <div class="bar"><i style="width:${barHome}%"></i></div>
+    <div class="rawnote">${d.home_team} ${barHome}% · ${d.away_team} ${(100 - barHome).toFixed(1)}%
+      ${pr.calibrated ? ` · kalibre (${pr.calibrated.method}), ham ${pct(pr.home_win_prob_raw)}` : ''}</div>
+  </div>`;
+
+  html += `<div class="card">
+    <h2>Gerçek sonuç</h2>
+    <div class="verdict ${ac.correct_winner ? 'ok' : 'no'}">
+      ${ac.correct_winner ? '✓ doğru bildi' : '✕ yanlış bildi'} — kazanan ${ac.winner}</div>
+    <dl class="kv">
+      <dt>Skor</dt><dd>${d.away_team} ${ac.away_score.toFixed(0)} – ${ac.home_score.toFixed(0)} ${d.home_team}</dd>
+      <dt>Marj</dt><dd>${sign(ac.point_diff)}</dd>
+      <dt>Toplam</dt><dd>${ac.total_score.toFixed(0)}</dd>
+    </dl>
+  </div>`;
+
+  if (sim) {
+    html += `<div class="card">
+      <h2>Simülasyon · ${sim.draws} çekiliş</h2>
+      <dl class="kv">
+        <dt>Ev kazanma</dt><dd>${pct(sim.home_win_prob)}</dd>
+        <dt>${d.home_team} skoru</dt><dd>${sim.home_score.toFixed(0)}
+          <span class="range">(${sim.home_score_range[0]}–${sim.home_score_range[1]})</span></dd>
+        <dt>${d.away_team} skoru</dt><dd>${sim.away_score.toFixed(0)}</dd>
+        <dt>Marj</dt><dd class="${sim.point_diff > 0 ? 'pos' : 'neg'}">${sign(sim.point_diff)}
+          <span class="range">(${sim.margin_range[0]} … ${sim.margin_range[1]})</span></dd>
+        <dt>Toplam</dt><dd>${sim.total_score.toFixed(0)}
+          <span class="range">(${sim.total_range[0]}–${sim.total_range[1]})</span></dd>
+      </dl>
+      <div class="rawnote" style="margin-top:9px">Parantez içi ${sim.interval} aralık —
+        gerçek marjın %78.6'sı bu aralığa düşüyor.</div>
+    </div>`;
+  }
+
+  if (rt && rt.elo && rt.elo.home !== null) {
+    html += `<div class="card">
+      <h2>Rakip düzeltmeli rating</h2>
+      <dl class="kv">
+        <dt>Elo · ${d.home_team}</dt><dd>${rt.elo.home.toFixed(0)}</dd>
+        <dt>Elo · ${d.away_team}</dt><dd>${rt.elo.away.toFixed(0)}</dd>
+        <dt>Elo farkı</dt><dd class="${rt.elo.diff > 0 ? 'pos' : 'neg'}">${sign(rt.elo.diff)}</dd>
+        ${rt.massey.diff !== null ? `<dt>Massey farkı</dt>
+          <dd class="${rt.massey.diff > 0 ? 'pos' : 'neg'}">${sign(rt.massey.diff)}</dd>` : ''}
+        ${rt.sos.home !== null ? `<dt>Fikstür zorluğu</dt>
+          <dd>${rt.sos.home.toFixed(0)} / ${rt.sos.away.toFixed(0)}</dd>` : ''}
+      </dl>
+    </div>`;
+  }
+
+  html += `<div class="card">
+    <h2>Kadro etkisi · maç öncesi son 10</h2>
+    <div class="two">
+      <div><div class="team-h">${d.home_team} (ev)</div>${rosterList(d.roster_impact.home)}</div>
+      <div><div class="team-h">${d.away_team}</div>${rosterList(d.roster_impact.away)}</div>
+    </div>
+  </div>`;
+
+  if (d.matchup_data && d.matchup_data.length) {
+    html += `<div class="card"><h2>Savunma eşleşmeleri</h2><div class="scroll"><table>
+      <thead><tr><th>Hücum</th><th>Savunma</th><th>Poz</th><th>Sayı</th><th>FG</th></tr></thead>
+      <tbody>${d.matchup_data.map(m => `<tr>
+        <td>${m.offName}</td><td>${m.defName}</td>
+        <td>${m.partialPossessions.toFixed(0)}</td><td>${m.playerPoints}</td>
+        <td>${m.matchupFieldGoalsMade}/${m.matchupFieldGoalsAttempted}</td></tr>`).join('')}
+      </tbody></table></div></div>`;
+  }
+
+  $('#detail').innerHTML = html;
+  $('#detailPane').scrollTop = 0;
+}
+
+$('#backBtn').addEventListener('click', () => mainEl.classList.remove('showing-detail'));
+['#seasonSel', '#teamSel', '#monthSel'].forEach(id =>
+  $(id).addEventListener('change', loadGames));
+$('#resetBtn').addEventListener('click', () => {
+  ['#seasonSel', '#teamSel', '#monthSel'].forEach(id => { $(id).value = ''; });
   loadGames();
 });
 
-loadMeta().then(loadGames);
+loadMeta().then(loadGames).catch(e => {
+  $('#gameCount').textContent = '';
+  $('#gameList').innerHTML = `<div class="err">Sunucuya bağlanılamadı: ${e.message}</div>`;
+});
 </script>
 </body>
 </html>

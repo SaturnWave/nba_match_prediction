@@ -1,27 +1,45 @@
 """
-NBA 2025-26 prediction dashboard (Flask).
+NBA 2025-26 prediction dashboard — served over Tailscale, built for a phone.
 
-Browse any game from the engineered dataset and see what the five trained
-LightGBM models (home_win / point_diff / total_score / home_score /
-away_score) predict for it, side-by-side with the actual result, plus:
+WHAT CHANGED AND WHY
+    The old dashboard showed one number per target from five independently
+    fitted models. Everything measured since then says that presentation was
+    misleading in three specific ways, and this rebuild fixes each:
 
-  * an in-sample vs held-out badge — games before the 75% chronological
-    split of 2025-26 (and all of 2024-25) were inside the training set, so
-    their predictions are optimistic; the last 25% are true out-of-sample;
-  * a forward-looking roster-impact panel: each team's top players by
-    trailing-10-game mean play-by-play impact computed strictly BEFORE the
-    game date (the get_current_roster_impact signal);
-  * defender-vs-scorer matchup assignments when the BoxScoreMatchupsV3 csv
-    has been downloaded for the game (graceful when it hasn't yet).
+      * the raw win probability is badly scaled. Where the classifier says 30%
+        the home team actually wins ~10%, and where it says 74% they win ~87%.
+        The page now shows the CALIBRATED probability, with the raw one kept
+        beside it so the correction is visible rather than hidden.
+      * a single point score is not a prediction. The point regressor's spread
+        is a third of reality (sd 4.5 against 13.7), because a model trained on
+        MAE correctly predicts the conditional mean. The simulator draws from a
+        distribution instead, so the page can show an 80% interval that
+        actually covers 80%.
+      * the headline accuracy was 0.786 measured on the season's easiest five
+        weeks. Walk-forward over 12 months puts it at 0.667 +/- 0.066 against a
+        0.550 baseline. /api/meta reports the honest number.
 
-Startup only unpickles output/engineered_dataset_2025_26.pkl, the five
-models/<target>_model_2025_26.pkl files and game_impact_cache_v3.pkl —
-no retraining, no per-game file scans — so it loads in seconds.
+    Opponent-adjusted ratings (Elo, Massey) are also surfaced, because they are
+    the one signal shown to improve the model and they explain a prediction far
+    better than a rolling average does.
 
-Run:  py app.py        then open  http://127.0.0.1:5000
+SERVING
+    Binds to this machine's Tailscale address by default, so the dashboard is
+    reachable from other devices on the tailnet and from nothing else — not
+    from the local Wi-Fi network, not from the internet. Uses waitress rather
+    than Flask's development server, which is single-threaded and explicitly
+    not meant to face a network.
+
+Run:  py app.py                 (auto-detects the Tailscale IP)
+      py app.py --host 0.0.0.0  (also expose on LAN — only if you mean it)
+      py app.py --dev           (Flask dev server, localhost, for debugging)
 """
 import os
+import sys
 import pickle
+import argparse
+import subprocess
+import importlib.util
 
 import numpy as np
 import pandas as pd
@@ -30,25 +48,50 @@ from flask import Flask, jsonify, render_template, request
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 BASE_DATA_DIR = os.path.join(PROJECT_ROOT, "nba_data")
 MODEL_DIR = os.path.join(PROJECT_ROOT, "models")
-DATASET_PATH = os.path.join(PROJECT_ROOT, "output", "engineered_dataset_2025_26.pkl")
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")
+DATASET_PATH = os.path.join(OUTPUT_DIR, "engineered_dataset_2025_26.pkl")
 IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v3.pkl")
+CALIBRATOR_PATH = os.path.join(MODEL_DIR, "home_win_calibrator_2025_26.pkl")
+SIMULATOR_PATH = os.path.join(MODEL_DIR, "simulator_2025_26.pkl")
 
 TARGETS = ["home_win", "point_diff", "total_score", "home_score", "away_score"]
 TARGET_SEASON = "2025_2026"
+SIM_DRAWS = 4000
+
+# Measured over 12 monthly walk-forward folds x 3 seeds, burn-in >= 10 games.
+# Hardcoded rather than recomputed: the page must not imply these came from the
+# games being browsed.
+HONEST_METRICS = {
+    "accuracy": 0.6673, "accuracy_std": 0.0659,
+    "accuracy_calibrated": 0.6693,
+    "accuracy_with_ratings_calibrated": 0.6814,
+    "naive_baseline": 0.5499,
+    "auc": 0.7340,
+    "protocol": "12 aylik walk-forward x 3 seed, burn-in >= 10 mac",
+    "single_split_accuracy": 0.7857,
+    "single_split_note": "tek split rakami sezonun en kolay 5 haftasindan geliyor",
+}
 
 BADGE_IN_SAMPLE = {
     "key": "in-sample",
-    "label": "In training data — model saw this outcome; treat the prediction as optimistic",
+    "label": "Egitim verisinde — model bu sonucu gordu, tahmin iyimser",
 }
 BADGE_OUT_OF_SAMPLE = {
     "key": "out-of-sample",
-    "label": "Held-out — true out-of-sample prediction",
+    "label": "Held-out — gercek out-of-sample tahmin",
 }
 
 app = Flask(__name__)
-
-# module-level create-once state (filled by get_state on first use)
 _STATE = None
+
+
+def _load_sibling(name):
+    """prediction_engines/ holds scripts, not a package — import them by path."""
+    path = os.path.join(PROJECT_ROOT, "prediction_engines", f"{name}.py")
+    spec = importlib.util.spec_from_file_location(name, path)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
 
 
 # ===========================================================================
@@ -66,7 +109,7 @@ def _build_player_games(dataset):
         try:
             with open(IMPACT_CACHE, "rb") as f:
                 cache = pickle.load(f)
-        except Exception:
+        except (OSError, pickle.UnpicklingError, EOFError):
             cache = {}
     meta = dataset[["game_id", "game_date", "season", "home_team", "away_team"]]
     records = []
@@ -79,7 +122,7 @@ def _build_player_games(dataset):
                 team, impact = d.get("team"), d.get("impact", 0.0)
             else:
                 team, impact = None, d
-            if team not in (home, away):  # drops None / stray tricodes
+            if team not in (home, away):
                 continue
             records.append({"player": player, "team": team, "game_id": gid,
                             "game_date": gdate, "season": season,
@@ -90,8 +133,20 @@ def _build_player_games(dataset):
     return pg.sort_values(["player", "game_date"]).reset_index(drop=True)
 
 
+def _load_optional(path, label):
+    """Load a pickle that the dashboard degrades gracefully without."""
+    if not os.path.exists(path):
+        print(f"[startup] {label} yok ({os.path.basename(path)}) — o panel kapali")
+        return None
+    try:
+        with open(path, "rb") as f:
+            return pickle.load(f)
+    except (OSError, pickle.UnpicklingError, EOFError) as exc:
+        print(f"[startup] {label} okunamadi: {exc} — o panel kapali")
+        return None
+
+
 def _load_state():
-    """Load dataset, models and player impact history exactly once."""
     with open(DATASET_PATH, "rb") as f:
         bundle = pickle.load(f)
     dataset = bundle["dataset"].copy()
@@ -99,13 +154,11 @@ def _load_state():
     dataset["game_id"] = dataset["game_id"].astype(str).str.zfill(10)
     dataset["game_date"] = pd.to_datetime(dataset["game_date"])
 
-    # 75% chronological split of the target season — exactly like
-    # NBAPredictor.train(): sort the season subset of the dataset in its
-    # AS-SAVED row order by game_date, split index int(n * 0.75). This must
-    # happen before the display re-sort below: sort_values is not stable, so
-    # sorting the full frame first permutes ties on the boundary date and
-    # would put a different 4 of that date's 6 games in the held-out set
-    # than the trainer actually held out.
+    # 75% chronological split of the target season, exactly as NBAPredictor.train
+    # does it: split the season subset in its AS-SAVED row order. This must
+    # happen before the display re-sort below — sort_values is not stable, so
+    # sorting the full frame first permutes ties on the boundary date and would
+    # hold out a different set than the trainer actually did.
     tgt_rows = dataset[dataset["season"] == TARGET_SEASON].sort_values("game_date")
     split = int(len(tgt_rows) * 0.75)
     test_game_ids = set(tgt_rows.iloc[split:]["game_id"])
@@ -120,14 +173,25 @@ def _load_state():
         with open(os.path.join(MODEL_DIR, f"{tgt}_model_2025_26.pkl"), "rb") as f:
             models[tgt] = pickle.load(f)
 
+    calibrator = _load_optional(CALIBRATOR_PATH, "kalibrator")
+    simulator = _load_optional(SIMULATOR_PATH, "simulator")
+
+    ratings_module = _load_sibling("team_ratings")
+    rated = ratings_module.add_rating_features(dataset)
+    rating_cols = [c for c in ratings_module.RATING_FEATURE_COLS if c in rated.columns]
+    ratings_by_game = rated.set_index("game_id")[rating_cols] if rating_cols else None
+
     player_games = _build_player_games(dataset)
-    print(f"[startup] dataset {dataset.shape[0]} games x {dataset.shape[1]} cols, "
-          f"{len(features)} features, {len(models)} models, "
-          f"{len(player_games)} player-game impact records, "
-          f"held-out games: {len(test_game_ids)} (from {split_date})")
+    print(f"[startup] {dataset.shape[0]} mac x {dataset.shape[1]} sutun, "
+          f"{len(features)} feature, {len(models)} model, "
+          f"{len(player_games)} oyuncu-mac kaydi, "
+          f"held-out {len(test_game_ids)} mac ({split_date} sonrasi)")
     return {"dataset": dataset, "features": features, "models": models,
             "test_game_ids": test_game_ids, "split_date": split_date,
-            "player_games": player_games}
+            "player_games": player_games, "calibrator": calibrator,
+            "simulator": simulator, "ratings": ratings_by_game,
+            "simulation_module": _load_sibling("simulation") if simulator else None,
+            "calibration_module": _load_sibling("calibration") if calibrator else None}
 
 
 def get_state():
@@ -139,10 +203,73 @@ def get_state():
 
 
 # ===========================================================================
-#  Helpers
+#  Prediction helpers
+# ===========================================================================
+def _calibrated(state, raw_prob):
+    """Raw classifier probability passed through the fitted calibrator."""
+    blob, module = state["calibrator"], state["calibration_module"]
+    if not blob or module is None:
+        return None
+    value = module.apply_calibrator(blob["method"], blob["calibrator"],
+                                    np.array([raw_prob]))
+    return {"prob": round(float(value[0]), 3), "method": blob["method"]}
+
+
+def _simulate_game(state, row):
+    """Draw the game SIM_DRAWS times and read every quantity off the draws.
+
+    Returns None when the simulator has not been trained yet.
+    """
+    blob, module = state["simulator"], state["simulation_module"]
+    if not blob or module is None:
+        return None
+    features = blob["features"]
+    X = row[features].apply(pd.to_numeric, errors="coerce").fillna(0)
+    lam_home = np.clip(blob["models"]["home"].predict(X), 1.0, None)
+    lam_away = np.clip(blob["models"]["away"].predict(X), 1.0, None)
+    home, away = module.simulate(lam_home, lam_away, blob["dispersion"],
+                                 blob["rho"], n_sims=SIM_DRAWS)
+    draws = module.summarise_draws(home, away)
+    return {
+        "home_win_prob": round(float(draws["p_home_win"][0]), 3),
+        "home_score": round(float(draws["home_score"][0]), 1),
+        "away_score": round(float(draws["away_score"][0]), 1),
+        "point_diff": round(float(draws["point_diff"][0]), 1),
+        "total_score": round(float(draws["total_score"][0]), 1),
+        "home_score_range": [int(draws["home_score_lo"][0]), int(draws["home_score_hi"][0])],
+        "margin_range": [int(draws["margin_lo"][0]), int(draws["margin_hi"][0])],
+        "total_range": [int(draws["total_lo"][0]), int(draws["total_hi"][0])],
+        "draws": SIM_DRAWS,
+        "interval": "%80",
+    }
+
+
+def _ratings_for_game(state, game_id):
+    """Opponent-adjusted ratings as they stood before this game."""
+    table = state["ratings"]
+    if table is None or game_id not in table.index:
+        return None
+    row = table.loc[game_id]
+    if isinstance(row, pd.DataFrame):
+        row = row.iloc[0]
+
+    def val(col):
+        v = row.get(col)
+        return None if v is None or pd.isna(v) else round(float(v), 1)
+
+    return {
+        "elo": {"home": val("home_rating_elo"), "away": val("away_rating_elo"),
+                "diff": val("diff_rating_elo")},
+        "massey": {"home": val("home_rating_massey"), "away": val("away_rating_massey"),
+                   "diff": val("diff_rating_massey")},
+        "sos": {"home": val("home_rating_sos"), "away": val("away_rating_sos")},
+    }
+
+
+# ===========================================================================
+#  Display helpers
 # ===========================================================================
 def _badge(state, game_id, season):
-    """In-sample vs held-out label for a game (matches the training split)."""
     if season == TARGET_SEASON and game_id in state["test_game_ids"]:
         return BADGE_OUT_OF_SAMPLE
     return BADGE_IN_SAMPLE
@@ -166,8 +293,8 @@ def _roster_impact_for_team(state, team, as_of_date, top_n=6):
     """Top players by trailing-10-game mean impact strictly before a date.
 
     A player belongs to the team's roster if their most recent appearance
-    before `as_of_date` was for that team (handles trades); trailing means
-    are taken over their own history regardless of jersey, mirroring
+    before `as_of_date` was for that team (handles trades); trailing means are
+    taken over their own history regardless of jersey, mirroring
     get_current_roster_impact's strictly-before-the-game windows.
     """
     pg = state["player_games"]
@@ -182,7 +309,7 @@ def _roster_impact_for_team(state, team, as_of_date, top_n=6):
         return []
     out = []
     for player, grp in hist[hist["player"].isin(roster)].groupby("player", sort=False):
-        imp = grp["impact"]  # already date-sorted within player
+        imp = grp["impact"]
         out.append({"name": player,
                     "l10_mean": round(float(imp.tail(10).mean()), 2),
                     "l3_mean": round(float(imp.tail(3).mean()), 2),
@@ -192,33 +319,27 @@ def _roster_impact_for_team(state, team, as_of_date, top_n=6):
 
 
 def _matchup_data(season, game_id, top_n=8):
-    """Top defender-vs-scorer assignments from the matchups box score.
-
-    Returns None when the csv hasn't been downloaded yet (the background
-    retrieval job is still filling these in) or can't be parsed.
-    """
+    """Top defender-vs-scorer assignments, or None when the csv is absent."""
     path = os.path.join(BASE_DATA_DIR, season, game_id, "box_scores",
                         f"{game_id}box_score_matchups.csv")
     if not (os.path.exists(path) and os.path.getsize(path) > 64):
         return None
     try:
         m = pd.read_csv(path)
-    except Exception:
+    except (OSError, pd.errors.ParserError, pd.errors.EmptyDataError):
         return None
     needed = {"firstNameOff", "familyNameOff", "firstNameDef", "familyNameDef",
               "partialPossessions", "playerPoints",
               "matchupFieldGoalsMade", "matchupFieldGoalsAttempted"}
     if m.empty or not needed.issubset(m.columns):
         return None
-    # the background download may have written only part of the file — coerce
-    # everything and treat unparsable cells as 0 / "" instead of crashing
-    # (NaN is truthy, so `pd.to_numeric(x) or 0` does NOT guard int(NaN))
+    # A partially written file is coerced, not crashed on. NaN is truthy, so
+    # `pd.to_numeric(x) or 0` would NOT guard int(NaN).
     for col in ("partialPossessions", "playerPoints",
                 "matchupFieldGoalsMade", "matchupFieldGoalsAttempted"):
         m[col] = pd.to_numeric(m[col], errors="coerce").fillna(0)
-    top = m.sort_values("partialPossessions", ascending=False).head(top_n)
     rows = []
-    for _, r in top.iterrows():
+    for _, r in m.sort_values("partialPossessions", ascending=False).head(top_n).iterrows():
 
         def name(first, family):
             parts = [r[c] for c in (first, family) if isinstance(r[c], str)]
@@ -246,16 +367,18 @@ def index():
 
 @app.route("/api/meta")
 def api_meta():
-    """Dropdown values (seasons, teams, months) plus the split date."""
     state = get_state()
     df = state["dataset"]
-    teams = sorted(set(df["home_team"]) | set(df["away_team"]))
     return jsonify({
         "seasons": sorted(df["season"].unique().tolist()),
-        "teams": teams,
+        "teams": sorted(set(df["home_team"]) | set(df["away_team"])),
         "months": sorted(df["month"].unique().tolist(), reverse=True),
         "split_date": state["split_date"],
         "n_held_out": len(state["test_game_ids"]),
+        "n_games": int(len(df)),
+        "metrics": HONEST_METRICS,
+        "has_calibrator": state["calibrator"] is not None,
+        "has_simulator": state["simulator"] is not None,
     })
 
 
@@ -273,8 +396,10 @@ def api_games():
     if month:
         df = df[df["month"] == month]
     df = df.sort_values(["game_date", "game_id"], ascending=False)
-    games = [_game_summary(state, g) for _, g in df.iterrows()]
-    return jsonify({"count": len(games), "games": games})
+    # A phone should not be handed 8000 rows; the filters exist to narrow it.
+    limit = min(int(request.args.get("limit", 300) or 300), 1000)
+    games = [_game_summary(state, g) for _, g in df.head(limit).iterrows()]
+    return jsonify({"count": int(len(df)), "shown": len(games), "games": games})
 
 
 @app.route("/api/predict/<game_id>")
@@ -283,21 +408,31 @@ def api_predict(game_id):
     gid = str(game_id).zfill(10)
     row = state["dataset"][state["dataset"]["game_id"] == gid]
     if row.empty:
-        return jsonify({"error": f"game_id {gid} not found in dataset"}), 404
+        return jsonify({"error": f"game_id {gid} datasette yok"}), 404
     g = row.iloc[0]
 
     X = row[state["features"]].apply(pd.to_numeric, errors="coerce").fillna(0)
     predicted = {}
+    raw_prob = None
     for name, model in state["models"].items():
         if name == "home_win":
-            p = float(model.predict_proba(X)[:, 1][0])
-            predicted["home_win_prob"] = round(p, 3)
-            predicted["predicted_winner"] = g["home_team"] if p > 0.5 else g["away_team"]
+            raw_prob = float(model.predict_proba(X)[:, 1][0])
+            predicted["home_win_prob_raw"] = round(raw_prob, 3)
         else:
             predicted[name] = round(float(model.predict(X)[0]), 2)
 
+    calibrated = _calibrated(state, raw_prob)
+    shown_prob = calibrated["prob"] if calibrated else raw_prob
+    predicted["home_win_prob"] = round(shown_prob, 3)
+    predicted["calibrated"] = calibrated
+    predicted["predicted_winner"] = g["home_team"] if shown_prob > 0.5 else g["away_team"]
+
     actual_winner = g["home_team"] if int(g["home_win"]) else g["away_team"]
-    actual = {
+    out = _game_summary(state, g)
+    out["predicted"] = predicted
+    out["simulation"] = _simulate_game(state, row)
+    out["ratings"] = _ratings_for_game(state, gid)
+    out["actual"] = {
         "home_score": float(g["home_score"]),
         "away_score": float(g["away_score"]),
         "point_diff": float(g["point_diff"]),
@@ -306,10 +441,6 @@ def api_predict(game_id):
         "winner": actual_winner,
         "correct_winner": bool(predicted["predicted_winner"] == actual_winner),
     }
-
-    out = _game_summary(state, g)
-    out["predicted"] = predicted
-    out["actual"] = actual
     out["roster_impact"] = {
         "home": _roster_impact_for_team(state, g["home_team"], g["game_date"]),
         "away": _roster_impact_for_team(state, g["away_team"], g["game_date"]),
@@ -318,6 +449,56 @@ def api_predict(game_id):
     return jsonify(out)
 
 
-if __name__ == "__main__":
+# ===========================================================================
+#  Serving
+# ===========================================================================
+def tailscale_ip():
+    """This machine's tailnet address, or None when Tailscale isn't running."""
+    for candidate in ("tailscale", r"C:\Program Files\Tailscale\tailscale.exe"):
+        try:
+            result = subprocess.run([candidate, "ip", "-4"], capture_output=True,
+                                    text=True, timeout=10)
+        except (OSError, subprocess.SubprocessError):
+            continue
+        if result.returncode == 0:
+            first = result.stdout.strip().splitlines()
+            if first:
+                return first[0].strip()
+    return None
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--host", default=None,
+                        help="bind adresi (varsayilan: Tailscale IP)")
+    parser.add_argument("--port", type=int, default=5000)
+    parser.add_argument("--dev", action="store_true",
+                        help="Flask gelistirme sunucusu, sadece localhost")
+    args = parser.parse_args()
+
+    if args.dev:
+        get_state()
+        print(f"\n  gelistirme modu -> http://127.0.0.1:{args.port}\n")
+        app.run(host="127.0.0.1", port=args.port, debug=False)
+        return
+
+    host = args.host or tailscale_ip()
+    if host is None:
+        print("Tailscale IP bulunamadi. Tailscale calisiyor mu? "
+              "Ya da --host ile acikca belirtin.", file=sys.stderr)
+        return 1
+
     get_state()
-    app.run(host="127.0.0.1", port=5000, debug=False)
+    from waitress import serve
+    print(f"\n  dashboard -> http://{host}:{args.port}")
+    if host == "0.0.0.0":
+        print("  UYARI: 0.0.0.0 tum arayuzlere acar, yerel agdan da erisilir")
+    else:
+        print("  yalnizca tailnet uzerinden erisilebilir")
+    print("  durdurmak icin Ctrl+C\n")
+    serve(app, host=host, port=args.port, threads=8)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main() or 0)

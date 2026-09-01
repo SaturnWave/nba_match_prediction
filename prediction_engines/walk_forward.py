@@ -220,30 +220,55 @@ def naive_baseline(cells, burn):
     return float(np.mean([max(r, 1 - r) for r in rates.values()]))
 
 
+def load_any_dataset(path=None):
+    """Accept either pickle layout: the CSV build or the database build.
+
+    The database build carries rest_features separately, because
+    _select_features works from a prefix whitelist that predates those columns
+    and would silently drop them.
+    """
+    if path is None:
+        return (*cal.load_dataset(), [])
+    blob = pd.read_pickle(path)
+    return blob["dataset"], blob["features"], blob.get("rest_features", [])
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--months", type=int, default=None)
     parser.add_argument("--seeds", type=int, default=3)
+    parser.add_argument("--dataset", default=None,
+                        help="pickle yolu (varsayilan: CSV yapisi)")
+    parser.add_argument("--with-dt", action="store_true",
+                        help="defensive+tracking kollarini da kos (varsayilan: hayir, "
+                             "onceki olcumde rating'in ustune bir sey katmadi)")
     args = parser.parse_args()
 
-    dataset, features_a = cal.load_dataset()
-    print(f"dataset: {len(dataset)} mac, ARM A {len(features_a)} feature")
-
-    dataset = dtf.add_defensive_tracking_features(
-        dataset, data_dir=os.path.join(PROJECT_ROOT, "nba_data"))
-    dt_feats = [c for c in dtf.DT_FEATURE_COLS if c in dataset.columns]
+    dataset, features_a, rest_feats = load_any_dataset(args.dataset)
+    print(f"dataset: {len(dataset)} mac, {dataset['season'].nunique()} sezon, "
+          f"ARM A {len(features_a)} feature")
 
     dataset = ratings.add_rating_features(dataset)
     rating_feats = [c for c in ratings.RATING_FEATURE_COLS if c in dataset.columns]
 
-    arms = {
-        "A": features_a,
-        "A+rating": features_a + rating_feats,
-        "B": features_a + dt_feats,
-        "A+rating+B": features_a + rating_feats + dt_feats,
-    }
+    arms = {"A": features_a}
+    if rating_feats:
+        arms["A+rating"] = features_a + rating_feats
+    if rest_feats:
+        arms["A+rest"] = features_a + rest_feats
+        if rating_feats:
+            arms["A+rating+rest"] = features_a + rating_feats + rest_feats
+    if args.with_dt:
+        dt_feats = [c for c in dtf.DT_FEATURE_COLS if c in dataset.columns] or \
+            [c for c in dtf.DT_FEATURE_COLS
+             if c in dtf.add_defensive_tracking_features(
+                 dataset, data_dir=os.path.join(PROJECT_ROOT, "nba_data")).columns]
+        if dt_feats:
+            dataset = dtf.add_defensive_tracking_features(
+                dataset, data_dir=os.path.join(PROJECT_ROOT, "nba_data"))
+            arms["B"] = features_a + dt_feats
     for name, feats in arms.items():
-        print(f"  {name:12} {len(feats)} feature")
+        print(f"  {name:16} {len(feats)} feature")
 
     dataset = add_team_game_index(dataset)
     folds = month_folds(dataset, args.months)

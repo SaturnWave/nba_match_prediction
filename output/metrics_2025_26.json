@@ -1,37 +1,49 @@
 {
-  "train_season": [
+  "trained_on": [
+    "2017_2018",
+    "2018_2019",
     "2019_2020",
     "2020_2021",
     "2021_2022",
     "2022_2023",
     "2023_2024",
-    "2024_2025"
+    "2024_2025",
+    "2025_2026"
   ],
-  "target_season": "2025_2026",
-  "n_train": 7981,
+  "n_train": 10441,
   "n_test": 308,
   "n_features": 190,
+  "split_date": "2026-03-04",
   "metrics": {
     "home_win": {
-      "accuracy": 0.7857142857142857,
-      "auc": 0.8402925531914894,
-      "baseline_home_rate": 0.6103896103896104
+      "accuracy": 0.7922077922077922,
+      "auc": 0.8376684006936108,
+      "brier": 0.18010626533977597,
+      "log_loss": 0.5465269201911852,
+      "baseline_home_rate": 0.6136363636363636
     },
     "point_diff": {
-      "mae": 10.495605050111367,
-      "rmse": 13.452808657531559
+      "mae": 10.45423758822583,
+      "rmse": 13.659670812249985
     },
     "total_score": {
-      "mae": 15.260081075802308,
-      "rmse": 19.249659093513582
+      "mae": 15.065007733158648,
+      "rmse": 18.966094485699415
     },
     "home_score": {
-      "mae": 9.826362909722677,
-      "rmse": 12.263882092880438
+      "mae": 9.728480694477682,
+      "rmse": 12.180035607262408
     },
     "away_score": {
-      "mae": 9.47582271085444,
-      "rmse": 11.762863620143502
+      "mae": 9.277445907992725,
+      "rmse": 11.58315482254301
     }
+  },
+  "calibrator": "isotonic",
+  "honest_walk_forward": {
+    "accuracy": 0.6646,
+    "accuracy_std": 0.0557,
+    "naive_baseline": 0.5554,
+    "note": "12 ay x 5 seed, burn-in >= 10; asagidaki tek-split rakami sezonun en kolay 5 haftasindan geliyor ve iyimserdir"
   }
 }

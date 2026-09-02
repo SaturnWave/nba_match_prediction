@@ -51,6 +51,27 @@ def _load_sibling(name):
     return module
 
 
+def _player_impact_history(master, cache_path=IMPACT_CACHE):
+    """(person_id, game_date, impact) for every player-game in the cache.
+
+    The availability features need to value players who did NOT appear in a
+    game, so the history has to be addressable by date rather than by game.
+    """
+    with open(cache_path, "rb") as f:
+        cache = pickle.load(f)
+    dates = master.set_index("game_id")["game_date"].to_dict()
+    rows = []
+    for gid, entry in cache.items():
+        gdate = dates.get(gid)
+        if gdate is None or not isinstance(entry, dict):
+            continue
+        for value in (entry.get("players") or {}).values():
+            if isinstance(value, dict) and value.get("person_id") is not None:
+                rows.append((int(value["person_id"]), gdate,
+                             float(value.get("impact", 0.0))))
+    return pd.DataFrame(rows, columns=["person_id", "game_date", "impact"])
+
+
 def player_records_from_cache(master, cache_path=IMPACT_CACHE):
     """Rebuild NBAPredictor._player_records from the impact cache.
 
@@ -120,16 +141,25 @@ def build(seasons=None, verbose=True, with_clutch=True):
         except Exception as exc:  # noqa: BLE001 - matchups are optional, never fatal
             print(f"  [warn] matchup feature'lari atlandi: {exc}")
 
-    clutch_cols = []
+    clutch_cols, avail_cols = [], []
     if with_clutch:
         clutch_module = _load_sibling("clutch_features")
+        avail_module = _load_sibling("availability_features")
         conn = db.connect()
         try:
             master = clutch_module.add_clutch_features(master, conn, verbose=verbose)
             clutch_cols = [c for c in clutch_module.CLUTCH_FEATURE_COLS
                            if c in master.columns]
-        except Exception as exc:  # noqa: BLE001 - clutch is additive, never fatal
+        except Exception as exc:  # noqa: BLE001 - additive, never fatal
             print(f"  [warn] clutch feature'lari atlandi: {exc}")
+        try:
+            impact_history = _player_impact_history(master)
+            master = avail_module.add_availability_features(
+                master, conn, impact_history, verbose=verbose)
+            avail_cols = [c for c in avail_module.AVAIL_FEATURE_COLS
+                          if c in master.columns]
+        except Exception as exc:  # noqa: BLE001 - additive, never fatal
+            print(f"  [warn] availability feature'lari atlandi: {exc}")
         finally:
             conn.close()
 
@@ -141,6 +171,7 @@ def build(seasons=None, verbose=True, with_clutch=True):
     groups = {
         "rest": [c for c in db.REST_COLUMNS if c in dataset.columns],
         "clutch": [c for c in clutch_cols if c in dataset.columns],
+        "avail": [c for c in avail_cols if c in dataset.columns],
     }
     if verbose:
         matchup = [f for f in base_features if "matchup_" in f]

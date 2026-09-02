@@ -245,6 +245,10 @@ def main():
     parser.add_argument("--with-dt", action="store_true",
                         help="defensive+tracking kollarini da kos (varsayilan: hayir, "
                              "onceki olcumde rating'in ustune bir sey katmadi)")
+    parser.add_argument("--only-arms", default=None,
+                        help="virgulle ayrilmis kol adlari; sadece bunlari kos. "
+                             "Az kol = hucre basina az fit = ayni surede cok daha "
+                             "fazla seed, yani tek bir soruyu kesin cevaplamak icin.")
     args = parser.parse_args()
 
     dataset, features_a, groups = load_any_dataset(args.dataset)
@@ -255,10 +259,11 @@ def main():
     rating_feats = [c for c in ratings.RATING_FEATURE_COLS if c in dataset.columns]
     rest_feats = [c for c in groups.get("rest", []) if c in dataset.columns]
     clutch_feats = [c for c in groups.get("clutch", []) if c in dataset.columns]
+    avail_feats = [c for c in groups.get("avail", []) if c in dataset.columns]
 
-    # One arm per family, plus the combination that the novelty test rated
-    # highest. Every family stacked together is deliberately NOT the default:
-    # a 240-feature arm hides which family did the work.
+    # One arm per family, so a gain can be attributed. Stacking everything is
+    # kept as one extra arm rather than the default: a 250-feature arm hides
+    # which family did the work.
     arms = {"A": features_a}
     if rating_feats:
         arms["A+rating"] = features_a + rating_feats
@@ -266,10 +271,13 @@ def main():
         arms["A+rest"] = features_a + rest_feats
     if clutch_feats:
         arms["A+clutch"] = features_a + clutch_feats
-    if clutch_feats and rating_feats:
-        arms["A+clutch+rating"] = features_a + clutch_feats + rating_feats
-    if clutch_feats and rest_feats and rating_feats:
-        arms["A+all"] = features_a + clutch_feats + rating_feats + rest_feats
+    if avail_feats:
+        arms["A+avail"] = features_a + avail_feats
+    if avail_feats and clutch_feats:
+        arms["A+avail+clutch"] = features_a + avail_feats + clutch_feats
+    extras = clutch_feats + rating_feats + rest_feats + avail_feats
+    if extras:
+        arms["A+all"] = features_a + extras
     if args.with_dt:
         dt_feats = [c for c in dtf.DT_FEATURE_COLS if c in dataset.columns] or \
             [c for c in dtf.DT_FEATURE_COLS
@@ -279,6 +287,15 @@ def main():
             dataset = dtf.add_defensive_tracking_features(
                 dataset, data_dir=os.path.join(PROJECT_ROOT, "nba_data"))
             arms["B"] = features_a + dt_feats
+    if args.only_arms:
+        wanted = [a.strip() for a in args.only_arms.split(",") if a.strip()]
+        missing = [a for a in wanted if a not in arms]
+        if missing:
+            raise SystemExit(f"bilinmeyen kol: {missing}; mevcut: {list(arms)}")
+        if "A" not in wanted:
+            wanted.insert(0, "A")   # baseline is always needed for the paired test
+        arms = {k: arms[k] for k in wanted}
+
     for name, feats in arms.items():
         print(f"  {name:16} {len(feats)} feature")
 

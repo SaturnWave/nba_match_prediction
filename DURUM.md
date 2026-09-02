@@ -47,17 +47,33 @@ Yerel kopyalar DB olmadan çalışmaya yeter:
 
 Hepsi 105 hücrede, A'ya göre eşleştirilmiş fark:
 
-| aile | fark | se | sonuç |
-|---|---|---|---|
-| müsaitlik (avail) | +0.0032 | 0.0025 | en umutlu, 1.28× — kanıtlanmadı |
-| clutch | +0.0006 | 0.0031 | sıfır |
-| kalibrasyon | −0.0003 | 0.0029 | doğrulukta sıfır, Brier'de −%2 |
-| rest / b2b | −0.0015 | 0.0028 | sıfır |
-| rating (Elo/Massey) | −0.0030 | 0.0034 | sıfır |
-| **seed ensemble** | **+0.0103** | **0.0051** | **tek gerçek kazanç** |
+| aile | fark | se | hücre | sonuç |
+|---|---|---|---|---|
+| müsaitlik (avail) | **+0.0011** | 0.0018 | **315** | sıfır (aşağıya bak) |
+| clutch | +0.0006 | 0.0031 | 105 | sıfır |
+| kalibrasyon | −0.0003 | 0.0029 | 105 | doğrulukta sıfır, Brier'de −%2 |
+| rest / b2b | −0.0015 | 0.0028 | 105 | sıfır |
+| rating (Elo/Massey) | −0.0030 | 0.0034 | 105 | sıfır |
+| **seed ensemble** | **+0.0103** | **0.0051** | 21 ay | **tek gerçek kazanç** |
 
 Ensemble kazancı N ile tekdüze artıyor (+0.0070 / +0.0088 / +0.0103 at 3/5/10),
 ki bu bagging'in öngördüğü doz-yanıt ilişkisi.
+
+### Müsaitlik: güç artınca etki söndü
+
+105 hücrede +0.0032 ± 0.0025 (1.28×) ile en umutlu aileydi. Kol sayısı 7'den
+2'ye indirilip seed 5'ten 15'e çıkarılarak 315 hücreye taşındığında etki
+**+0.0011 ± 0.0018**'e düştü ve hücrelerin yalnızca 144/315'inde önde çıktı —
+yarının altında. Güç arttıkça sıfıra yaklaşan bir etki, gerçek bir etki değil.
+
+Bu, ölçüm gücünü artırmanın neden gerekli olduğunun somut örneği: aynı aile az
+hücreyle "en umutlu aday" görünüyordu.
+
+### Toplu sonuç
+
+Altı bağımsız feature ailesi denendi, altısı da sıfır. Bunlardan üçü iki
+parçalı tarama testini (tahmin gücü + yenilik) geçmişti. Elimizdeki veriden
+türetilen tablo tipi feature mühendisliği tükenmiş durumda.
 
 ## Öğrenilen dersler
 
@@ -87,28 +103,33 @@ o yüzden doğruluğu artırıp tutarlılığı artırmıyor.
 
 ## Devam edilecek yer
 
-**Koşan iş:** `walk_forward.py --only-arms A+avail --seeds 15 --months 24`,
-360 hücre. Müsaitlik ailesinin +0.0032'sinin gerçek mi şans mı olduğunu
-kesinleştirecek. DB gerektirmiyor, yerel pickle'dan okuyor.
+Bekleyen koşu yok; müsaitlik testi tamamlandı ve sonucu yukarıda.
 
-Sonuç `output/walk_forward_2025_26.json`'a yazılacak. Eğer 2×se eşiğini
-geçerse müsaitlik production'a girer; geçmezse "mevcut veriyle tablo tipi
-feature mühendisliği tükendi" sonucu altı bağımsız aileyle kanıtlanmış olur.
-
-**DB gerektiren bekleyen işler yok.**
+Production şu an: temel 190 feature, 10 seed ensemble, isotonic kalibratör.
+Eklenmiş fazladan feature ailesi yok — çünkü hiçbiri kazanmadı.
 
 ## Sonraki adım adayları
 
-1. **Müsaitlik sonucuna göre karar** — production'a alınır ya da kapatılır.
-2. **Simülasyon motorunu ürünleştirmek.** Doğruluk artırmıyor ama tutarlı ve
-   dağılımlı çıktı veriyor: kazanan–marj çelişkisi 28 maçtan 1'e düşüyor, %80
-   aralık gerçekte %78.6 kapsıyor. Ürün değeri orada.
-3. **Ödül modeli (MVP/DPOY).** Altyapı hazır: `player_game_impact` (220.001
+Doğruluk cephesinde elimizdeki veri tükendiği için, sıradaki iş "aynı sayıyı
+yükseltmek" değil, farklı bir şey üretmek olmalı.
+
+1. **Simülasyon motorunu ürünleştirmek.** Doğruluk artırmıyor ama beş modelin
+   çelişkisini bitiriyor (kazanan–marj çelişkisi 28 maçtan 1'e) ve dağılım
+   veriyor: %80 aralık gerçekte %78.6 kapsıyor, skor yayılımı 4.5'ten 13.1'e
+   çıkıp gerçek 13.7'ye oturuyor. Ürün değeri burada, ve ödül modelinin de
+   altyapısı bu.
+2. **Ödül modeli (MVP/DPOY).** Altyapı hazır: `player_game_impact` (220.001
    satır, person_id anahtarlı), `pbp_defensive_event` (270.803 satır, blokçu→
-   şutör eşleşmesi), `PlayerAwards` endpoint'i etiketleri veriyor. Maç sonucu
-   tahmininde tavan var; bu problem el değmemiş.
-4. **Dışarıdan bilgi.** Sakatlık raporları, bahis çizgisi hareketi. Elimizdeki
-   veriden çıkarılabilecekler tükendi.
+   şutör eşleşmesi), `PlayerAwards` endpoint'i All-NBA/All-Defensive
+   etiketlerini veriyor (sezon başına ~25 pozitif). Maç sonucu tahmininde tavan
+   var; bu problem el değmemiş.
+3. **Dışarıdan bilgi.** Sakatlık raporları (maç öncesi, bizim geriye dönük
+   yokluk verimizden farklı), bahis çizgisi hareketi. Elimizdeki veriden
+   çıkarılabilecekler tükendi; buradan yukarısı yeni bilgi gerektiriyor.
+
+Hedefe uzaklık: ensemble'lı walk-forward ~0.682, hedef 0.70, kalan 0.018.
+Karşılaştırma için bahis piyasasının kapanış çizgisi düz kazanan tahmininde
+kabaca %68-72 tutar — yani hedef, piyasayı yakalamak demek.
 
 ## Çalıştırma
 

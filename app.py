@@ -173,10 +173,12 @@ def _load_state():
     dataset = dataset.sort_values("game_date").reset_index(drop=True)
     dataset["month"] = dataset["game_date"].dt.strftime("%Y-%m")
 
-    models = {}
-    for tgt in TARGETS:
-        with open(os.path.join(MODEL_DIR, f"{tgt}_model_2025_26.pkl"), "rb") as f:
-            models[tgt] = pickle.load(f)
+    # Through ensemble_model rather than pickle.load: the production models are
+    # SeedEnsemble instances, and a pickle records the class by module path. The
+    # trainer runs as __main__, so a direct load here looks for
+    # __main__.SeedEnsemble in app.py and does not find it.
+    ensemble_module = _load_sibling("ensemble_model")
+    models = {tgt: ensemble_module.load_model(tgt, MODEL_DIR) for tgt in TARGETS}
 
     calibrator = _load_optional(CALIBRATOR_PATH, "kalibrator")
     simulator = _load_optional(SIMULATOR_PATH, "simulator")

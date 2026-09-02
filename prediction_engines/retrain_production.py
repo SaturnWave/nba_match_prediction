@@ -79,32 +79,15 @@ ENSEMBLE_SIZE = 10
 SEEDS = [42 + 7 * i for i in range(ENSEMBLE_SIZE)]
 
 
-class SeedEnsemble:
-    """Average of several identically-configured models with different seeds.
-
-    Exposes predict / predict_proba so every consumer - app.py, the simulator,
-    any script that unpickles a model - treats it like the single estimator it
-    replaces. feature_importances_ averages the members, so the importance
-    plots keep working and describe the ensemble rather than one arbitrary
-    member.
-    """
-
-    def __init__(self, models, kind):
-        self.models = models
-        self.kind = kind
-        self.n_estimators_ = int(np.mean([m.n_estimators_ for m in models]))
-
-    @property
-    def feature_importances_(self):
-        return np.mean([m.feature_importances_ for m in self.models], axis=0)
-
-    def predict_proba(self, X):
-        return np.mean([m.predict_proba(X) for m in self.models], axis=0)
-
-    def predict(self, X):
-        if self.kind == "clf":
-            return (self.predict_proba(X)[:, 1] > 0.5).astype(int)
-        return np.mean([m.predict(X) for m in self.models], axis=0)
+# SeedEnsemble is imported, not defined here. Defining it in a script that is
+# run directly makes every pickled model reference __main__.SeedEnsemble, which
+# only this script can resolve - and that broke the dashboard on startup.
+_spec = importlib.util.spec_from_file_location(
+    "ensemble_model", os.path.join(HERE, "ensemble_model.py"))
+_ensemble_module = importlib.util.module_from_spec(_spec)
+sys.modules["ensemble_model"] = _ensemble_module
+_spec.loader.exec_module(_ensemble_module)
+SeedEnsemble = _ensemble_module.SeedEnsemble
 
 
 def _load_sibling(name):

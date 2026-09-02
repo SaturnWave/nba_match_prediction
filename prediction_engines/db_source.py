@@ -41,6 +41,7 @@ CREDENTIALS
     minutes, so a hardcoded password would be public within the hour.
 """
 import os
+import time
 
 import numpy as np
 import pandas as pd
@@ -115,6 +116,42 @@ def connect(cfg=None, timeout=30):
                            user=cfg["NBA_DB_USER"], password=cfg["NBA_DB_PASSWORD"],
                            database=cfg["NBA_DB_NAME"], connect_timeout=timeout,
                            read_timeout=600)
+
+
+def read_resilient(sql, params=None, cfg=None, attempts=4, backoff=(2, 5, 15),
+                   label=None):
+    """Run a query, reconnecting and retrying when the link drops.
+
+    The database runs on a phone. On the local network a full ten-season pull
+    takes 1.7 seconds; on mobile data the round trip is 506ms and even a
+    thousand-row result gets the connection reset mid-transfer. Neither the
+    query nor the schema is at fault, so failing the whole build on one dropped
+    packet is the wrong response - the right one is a fresh connection and
+    another go.
+
+    Only connection-level failures are retried. A malformed query fails
+    immediately, because retrying it would just be slower.
+    """
+    last = None
+    for attempt in range(attempts):
+        conn = None
+        try:
+            conn = connect(cfg)
+            return pd.read_sql(sql, conn, params=params)
+        except (pymysql.err.OperationalError, pymysql.err.InterfaceError) as exc:
+            last = exc
+            wait = backoff[min(attempt, len(backoff) - 1)]
+            where = f" [{label}]" if label else ""
+            print(f"    baglanti koptu{where}, {wait} sn sonra tekrar "
+                  f"({attempt + 1}/{attempts}): {str(exc)[:60]}", flush=True)
+            time.sleep(wait)
+        finally:
+            if conn is not None:
+                try:
+                    conn.close()
+                except Exception:      # noqa: BLE001 - already failing, closing is best effort
+                    pass
+    raise RuntimeError(f"{attempts} denemede baglanti kurulamadi: {last}")
 
 
 def _season_filter(seasons):

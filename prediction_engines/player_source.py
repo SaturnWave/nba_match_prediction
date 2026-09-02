@@ -64,9 +64,29 @@ def parse_minutes(value):
         return 0.0
 
 
-def _all_seasons(conn):
-    return pd.read_sql("SELECT DISTINCT season FROM games ORDER BY season",
-                       conn)["season"].tolist()
+def _db():
+    """The db_source module, imported by path - these files are scripts."""
+    import importlib.util
+    here = os.path.dirname(os.path.abspath(__file__))
+    spec = importlib.util.spec_from_file_location(
+        "db_source", os.path.join(here, "db_source.py"))
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def _all_seasons(conn=None):
+    """Seasons present in the database. `conn` is accepted but not needed.
+
+    Every query here opens its own short-lived connection, because a connection
+    held open across a nine-season pull is a connection that gets dropped.
+    """
+    if conn is not None:
+        return pd.read_sql("SELECT DISTINCT season FROM games ORDER BY season",
+                           conn)["season"].tolist()
+    return _db().read_resilient(
+        "SELECT DISTINCT season FROM games ORDER BY season",
+        label="seasons")["season"].tolist()
 
 
 def load_player_games(conn, seasons=None, verbose=True):
@@ -79,9 +99,13 @@ def load_player_games(conn, seasons=None, verbose=True):
     """
     seasons = seasons or _all_seasons(conn)
     cols = ", ".join(f"b.`{c}`" for c in BOX_COLUMNS)
+    db = _db()
     frames = []
     for season in seasons:
-        frames.append(pd.read_sql(f"""
+        # Each season goes through read_resilient with its own connection: on a
+        # mobile link the transfer gets reset partway, and losing one season to
+        # a dropped packet should not cost the other eight.
+        frames.append(db.read_resilient(f"""
             SELECT b.game_id, b.player_id AS person_id, b.player_name,
                    b.team_abbreviation AS team, b.comment, {cols},
                    g.season, gd.game_date,
@@ -91,7 +115,9 @@ def load_player_games(conn, seasons=None, verbose=True):
             JOIN game_dates gd ON gd.game_id = b.game_id
             JOIN game_summary gs ON gs.game_id = b.game_id
             WHERE g.season = %s
-        """, conn, params=(season,)))
+        """, params=(season,), label=f"box {season}"))
+        if verbose:
+            print(f"    {season}: {len(frames[-1]):,} satir", flush=True)
     df = pd.concat(frames, ignore_index=True)
     df["game_date"] = pd.to_datetime(df["game_date"])
     df["comment"] = df["comment"].fillna("")

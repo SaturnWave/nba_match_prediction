@@ -21,6 +21,20 @@ FEATURE SET
     significance changed identity and sign between runs. There is no evidence
     for adding anything, so production keeps the simplest set that performs.
 
+SEED ENSEMBLE
+    Each target is an average of ENSEMBLE_SIZE models differing only in their
+    random seed. Measured over 21 monthly folds, accuracy rises monotonically
+    with the number of seeds - +0.0070 at three, +0.0088 at five, +0.0103 at ten
+    - which is the dose-response bagging predicts and much harder to explain as
+    noise than a single threshold crossing would be. It is the only change in
+    this project's history that moved accuracy at all.
+
+    It does not make the model more consistent: fold-to-fold spread is
+    unchanged, because 86% of that variance is genuine month-to-month
+    difficulty and averaging models cannot touch it. AUC and Brier barely move
+    either (0.7405 to 0.7409, 0.2122 to 0.2113), so the gain is in where the
+    probabilities fall relative to the 0.5 threshold, not in ranking.
+
 CALIBRATOR
     Fitted on a slice held out from both the fit and the early stopping, and
     saved beside the models. It does not move accuracy, but it is what makes a
@@ -59,9 +73,38 @@ CALIBRATOR_PATH = os.path.join(MODEL_DIR, "home_win_calibrator_2025_26.pkl")
 
 TARGETS = ["home_win", "point_diff", "total_score", "home_score", "away_score"]
 TARGET_SEASON = "2025_2026"
-PARAMS = dict(random_state=42, n_estimators=600, learning_rate=0.03,
-              num_leaves=31, subsample=0.8, colsample_bytree=0.8,
-              verbose=-1, n_jobs=-1)
+PARAMS = dict(n_estimators=600, learning_rate=0.03, num_leaves=31,
+              subsample=0.8, colsample_bytree=0.8, verbose=-1, n_jobs=-1)
+ENSEMBLE_SIZE = 10
+SEEDS = [42 + 7 * i for i in range(ENSEMBLE_SIZE)]
+
+
+class SeedEnsemble:
+    """Average of several identically-configured models with different seeds.
+
+    Exposes predict / predict_proba so every consumer - app.py, the simulator,
+    any script that unpickles a model - treats it like the single estimator it
+    replaces. feature_importances_ averages the members, so the importance
+    plots keep working and describe the ensemble rather than one arbitrary
+    member.
+    """
+
+    def __init__(self, models, kind):
+        self.models = models
+        self.kind = kind
+        self.n_estimators_ = int(np.mean([m.n_estimators_ for m in models]))
+
+    @property
+    def feature_importances_(self):
+        return np.mean([m.feature_importances_ for m in self.models], axis=0)
+
+    def predict_proba(self, X):
+        return np.mean([m.predict_proba(X) for m in self.models], axis=0)
+
+    def predict(self, X):
+        if self.kind == "clf":
+            return (self.predict_proba(X)[:, 1] > 0.5).astype(int)
+        return np.mean([m.predict(X) for m in self.models], axis=0)
 
 
 def _load_sibling(name):
@@ -111,10 +154,14 @@ def main():
         X_train, y_train = Xy(train_df, features, target)
         X_test, y_test = Xy(test_df, features, target)
         if target == "home_win":
-            model = lgb.LGBMClassifier(**PARAMS)
-            model.fit(X_train, y_train, eval_set=[(X_test, y_test)], eval_metric="auc",
+            members = []
+            for seed in SEEDS:
+                m = lgb.LGBMClassifier(random_state=seed, **PARAMS)
+                m.fit(X_train, y_train, eval_set=[(X_test, y_test)], eval_metric="auc",
                       callbacks=[lgb.early_stopping(30, verbose=False),
                                  lgb.log_evaluation(0)])
+                members.append(m)
+            model = SeedEnsemble(members, "clf")
             probs = model.predict_proba(X_test)[:, 1]
             metrics[target] = {
                 "accuracy": float(accuracy_score(y_test, (probs > 0.5).astype(int))),
@@ -127,10 +174,14 @@ def main():
                   f"brier={metrics[target]['brier']:.4f} "
                   f"({time.time()-t0:.0f} sn)")
         else:
-            model = lgb.LGBMRegressor(**PARAMS)
-            model.fit(X_train, y_train, eval_set=[(X_test, y_test)], eval_metric="mae",
+            members = []
+            for seed in SEEDS:
+                m = lgb.LGBMRegressor(random_state=seed, **PARAMS)
+                m.fit(X_train, y_train, eval_set=[(X_test, y_test)], eval_metric="mae",
                       callbacks=[lgb.early_stopping(30, verbose=False),
                                  lgb.log_evaluation(0)])
+                members.append(m)
+            model = SeedEnsemble(members, "reg")
             preds = model.predict(X_test)
             metrics[target] = {
                 "mae": float(mean_absolute_error(y_test, preds)),
@@ -139,8 +190,14 @@ def main():
                   f"rmse={metrics[target]['rmse']:.3f} ({time.time()-t0:.0f} sn)")
 
         models[target] = model
+        # SeedEnsemble lives in this module, so unpickling it elsewhere needs
+        # the class importable. Storing the members plus a marker keeps the file
+        # loadable by any consumer that only knows LightGBM.
         with open(os.path.join(MODEL_DIR, f"{target}_model_2025_26.pkl"), "wb") as f:
             pickle.dump(model, f)
+        with open(os.path.join(MODEL_DIR, f"{target}_ensemble_2025_26.pkl"), "wb") as f:
+            pickle.dump({"members": model.models, "kind": model.kind,
+                         "seeds": SEEDS}, f)
         if hasattr(model, "feature_importances_"):
             imp = (pd.DataFrame({"feature": features,
                                  "importance": model.feature_importances_})
@@ -153,13 +210,19 @@ def main():
             plt.close()
 
     # Calibrator on a slice the classifier never saw: the last 10% of train.
+    # It is fitted against an ensemble of the same size, so the mapping it
+    # learns matches the shape of the probabilities production actually emits.
     cal = _load_sibling("calibration")
     fit_df, stop_df, cal_df = cal.three_way(train_df)
-    warm = lgb.LGBMClassifier(**PARAMS)
     X_fit, y_fit = Xy(fit_df, features, "home_win")
     X_stop, y_stop = Xy(stop_df, features, "home_win")
-    warm.fit(X_fit, y_fit, eval_set=[(X_stop, y_stop)], eval_metric="auc",
-             callbacks=[lgb.early_stopping(50, verbose=False), lgb.log_evaluation(0)])
+    warm_members = []
+    for seed in SEEDS:
+        w = lgb.LGBMClassifier(random_state=seed, **PARAMS)
+        w.fit(X_fit, y_fit, eval_set=[(X_stop, y_stop)], eval_metric="auc",
+              callbacks=[lgb.early_stopping(50, verbose=False), lgb.log_evaluation(0)])
+        warm_members.append(w)
+    warm = SeedEnsemble(warm_members, "clf")
     X_cal, y_cal = Xy(cal_df, features, "home_win")
     p_cal = warm.predict_proba(X_cal)[:, 1]
     calibrators = cal.fit_calibrators(p_cal, y_cal)
@@ -174,11 +237,15 @@ def main():
         "n_train": int(len(train_df)), "n_test": int(len(test_df)),
         "n_features": len(features),
         "split_date": str(test_df.game_date.min().date()),
+        "ensemble_size": ENSEMBLE_SIZE,
         "metrics": metrics,
         "calibrator": pick,
         "honest_walk_forward": {
-            "accuracy": 0.6646, "accuracy_std": 0.0557, "naive_baseline": 0.5554,
-            "note": "12 ay x 5 seed, burn-in >= 10; asagidaki tek-split rakami "
+            "accuracy_single_model": 0.6689, "accuracy_std": 0.0502,
+            "accuracy_ensemble_10": 0.6792,
+            "ensemble_gain": 0.0103, "ensemble_gain_se": 0.0051,
+            "naive_baseline": 0.5554,
+            "note": "21 ay katmani, burn-in >= 10; asagidaki tek-split rakami "
                     "sezonun en kolay 5 haftasindan geliyor ve iyimserdir",
         },
     }

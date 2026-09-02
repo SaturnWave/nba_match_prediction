@@ -87,8 +87,14 @@ def player_records_from_cache(master, cache_path=IMPACT_CACHE):
     return records
 
 
-def build(seasons=None, verbose=True):
-    """Return (dataset, base_features, rest_features, predictor)."""
+def build(seasons=None, verbose=True, with_clutch=True):
+    """Return (dataset, base_features, extra_feature_groups, predictor).
+
+    extra_feature_groups is a dict of {name: [columns]} for feature families
+    that _select_features cannot see, because it works from a prefix whitelist
+    that predates them. Keeping them grouped and separate is what lets an arm
+    ask for one family without dragging in the others.
+    """
     db = _load_sibling("db_source")
     predictor_module = _load_sibling("predict_2025_2026")
 
@@ -114,19 +120,36 @@ def build(seasons=None, verbose=True):
         except Exception as exc:  # noqa: BLE001 - matchups are optional, never fatal
             print(f"  [warn] matchup feature'lari atlandi: {exc}")
 
+    clutch_cols = []
+    if with_clutch:
+        clutch_module = _load_sibling("clutch_features")
+        conn = db.connect()
+        try:
+            master = clutch_module.add_clutch_features(master, conn, verbose=verbose)
+            clutch_cols = [c for c in clutch_module.CLUTCH_FEATURE_COLS
+                           if c in master.columns]
+        except Exception as exc:  # noqa: BLE001 - clutch is additive, never fatal
+            print(f"  [warn] clutch feature'lari atlandi: {exc}")
+        finally:
+            conn.close()
+
     dataset = predictor.fe.engineer(master.copy()).fillna(0)
     predictor.master_df = master
     predictor.dataset = dataset
 
     base_features = predictor._select_features()
-    rest_features = [c for c in db.REST_COLUMNS if c in dataset.columns]
+    groups = {
+        "rest": [c for c in db.REST_COLUMNS if c in dataset.columns],
+        "clutch": [c for c in clutch_cols if c in dataset.columns],
+    }
     if verbose:
         matchup = [f for f in base_features if "matchup_" in f]
         print(f"  dataset: {dataset.shape[0]} mac x {dataset.shape[1]} sutun")
         print(f"  temel feature: {len(base_features)} ({len(matchup)} matchup)")
-        print(f"  ek rest/b2b feature: {rest_features}")
+        for name, cols in groups.items():
+            print(f"  ek '{name}' feature: {len(cols)}")
         print(f"  toplam sure: {time.time() - t0:.1f} sn")
-    return dataset, base_features, rest_features, predictor
+    return dataset, base_features, groups, predictor
 
 
 def main():
@@ -136,10 +159,11 @@ def main():
     args = parser.parse_args()
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    dataset, features, rest_features, _ = build(args.seasons)
+    dataset, features, groups, _ = build(args.seasons)
 
     pd.to_pickle({"dataset": dataset, "features": features,
-                  "rest_features": rest_features,
+                  "feature_groups": groups,
+                  "rest_features": groups.get("rest", []),   # eski okuyucular icin
                   "seasons": sorted(dataset["season"].unique().tolist())},
                  args.out)
     print(f"\nYazildi: {args.out}")

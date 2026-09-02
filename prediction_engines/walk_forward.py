@@ -223,14 +223,17 @@ def naive_baseline(cells, burn):
 def load_any_dataset(path=None):
     """Accept either pickle layout: the CSV build or the database build.
 
-    The database build carries rest_features separately, because
-    _select_features works from a prefix whitelist that predates those columns
+    The database build carries extra feature families in `feature_groups`,
+    because _select_features works from a prefix whitelist that predates them
     and would silently drop them.
     """
     if path is None:
-        return (*cal.load_dataset(), [])
+        return (*cal.load_dataset(), {})
     blob = pd.read_pickle(path)
-    return blob["dataset"], blob["features"], blob.get("rest_features", [])
+    groups = blob.get("feature_groups")
+    if groups is None:                      # older pickle, rest only
+        groups = {"rest": blob.get("rest_features", [])}
+    return blob["dataset"], blob["features"], groups
 
 
 def main():
@@ -244,20 +247,29 @@ def main():
                              "onceki olcumde rating'in ustune bir sey katmadi)")
     args = parser.parse_args()
 
-    dataset, features_a, rest_feats = load_any_dataset(args.dataset)
+    dataset, features_a, groups = load_any_dataset(args.dataset)
     print(f"dataset: {len(dataset)} mac, {dataset['season'].nunique()} sezon, "
           f"ARM A {len(features_a)} feature")
 
     dataset = ratings.add_rating_features(dataset)
     rating_feats = [c for c in ratings.RATING_FEATURE_COLS if c in dataset.columns]
+    rest_feats = [c for c in groups.get("rest", []) if c in dataset.columns]
+    clutch_feats = [c for c in groups.get("clutch", []) if c in dataset.columns]
 
+    # One arm per family, plus the combination that the novelty test rated
+    # highest. Every family stacked together is deliberately NOT the default:
+    # a 240-feature arm hides which family did the work.
     arms = {"A": features_a}
     if rating_feats:
         arms["A+rating"] = features_a + rating_feats
     if rest_feats:
         arms["A+rest"] = features_a + rest_feats
-        if rating_feats:
-            arms["A+rating+rest"] = features_a + rating_feats + rest_feats
+    if clutch_feats:
+        arms["A+clutch"] = features_a + clutch_feats
+    if clutch_feats and rating_feats:
+        arms["A+clutch+rating"] = features_a + clutch_feats + rating_feats
+    if clutch_feats and rest_feats and rating_feats:
+        arms["A+all"] = features_a + clutch_feats + rating_feats + rest_feats
     if args.with_dt:
         dt_feats = [c for c in dtf.DT_FEATURE_COLS if c in dataset.columns] or \
             [c for c in dtf.DT_FEATURE_COLS

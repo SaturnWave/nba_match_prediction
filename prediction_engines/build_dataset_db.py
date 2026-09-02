@@ -1,11 +1,11 @@
-"""
+﻿"""
 Build the engineered dataset from MariaDB instead of the CSV tree.
 
 WHAT THIS REUSES AND WHAT IT REPLACES
     Only the SOURCE of the per-game rows changes. Roster-impact features, the
     matchup module, and FeatureEngineer are the same objects the CSV pipeline
     uses, called in the same order, so the two datasets are comparable feature
-    for feature. predict_2025_2026.py is not modified at all — that keeps the
+    for feature. predict_2025_2026.py is not modified at all â€” that keeps the
     csv-pipeline and db-pipeline branches cleanly separable, and means a bug
     found here cannot be a bug introduced into the CSV path.
 
@@ -22,7 +22,7 @@ WHAT IS NEW IN THE OUTPUT
     Five columns the CSV path never produced: home_rest, away_rest, rest_diff,
     home_b2b, away_b2b. _select_features works from a prefix whitelist that
     does not know about them, so they are returned as a SEPARATE list rather
-    than smuggled into the base feature set — a caller that wants them has to
+    than smuggled into the base feature set â€” a caller that wants them has to
     ask, and an arm that does not want them is unaffected.
 
 Run:  py prediction_engines/build_dataset_db.py [--seasons 2019_2020 ...]
@@ -41,7 +41,7 @@ PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HERE = os.path.join(PROJECT_ROOT, "prediction_engines")
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")
 DATASET_PATH = os.path.join(OUTPUT_DIR, "engineered_dataset_db.pkl")
-IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v3.pkl")
+IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v4.pkl")
 
 
 def _load_sibling(name):
@@ -69,16 +69,21 @@ def player_records_from_cache(master, cache_path=IMPACT_CACHE):
         entry = cache.get(gid)
         if not isinstance(entry, dict):
             continue
-        for player, value in (entry.get("players") or {}).items():
-            if isinstance(value, dict):
-                team, impact = value.get("team"), value.get("impact", 0.0)
-            else:
-                team, impact = None, value
+        for key, value in (entry.get("players") or {}).items():
+            if not isinstance(value, dict):
+                continue
+            team = value.get("team")
             if team not in (home, away):
                 continue
-            records.append({"player": player, "team": team, "game_id": gid,
+            # Identity is the person id, not the surname. _build_player_history
+            # groups by this column to build trailing form, and surnames are not
+            # unique - two players sharing one would have their histories merged.
+            person_id = value.get("person_id")
+            records.append({"player": person_id if person_id is not None else str(key),
+                            "player_name": value.get("name") or str(key),
+                            "team": team, "game_id": gid,
                             "game_date": gdate, "season": season,
-                            "impact": float(impact)})
+                            "impact": float(value.get("impact", 0.0))})
     return records
 
 

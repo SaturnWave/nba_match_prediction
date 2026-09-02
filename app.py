@@ -1,5 +1,5 @@
-"""
-NBA 2025-26 prediction dashboard — served over Tailscale, built for a phone.
+﻿"""
+NBA 2025-26 prediction dashboard â€” served over Tailscale, built for a phone.
 
 WHAT CHANGED AND WHY
     The old dashboard showed one number per target from five independently
@@ -25,13 +25,13 @@ WHAT CHANGED AND WHY
 
 SERVING
     Binds to this machine's Tailscale address by default, so the dashboard is
-    reachable from other devices on the tailnet and from nothing else — not
+    reachable from other devices on the tailnet and from nothing else â€” not
     from the local Wi-Fi network, not from the internet. Uses waitress rather
     than Flask's development server, which is single-threaded and explicitly
     not meant to face a network.
 
 Run:  py app.py                 (auto-detects the Tailscale IP)
-      py app.py --host 0.0.0.0  (also expose on LAN — only if you mean it)
+      py app.py --host 0.0.0.0  (also expose on LAN â€” only if you mean it)
       py app.py --dev           (Flask dev server, localhost, for debugging)
 """
 import os
@@ -50,7 +50,7 @@ BASE_DATA_DIR = os.path.join(PROJECT_ROOT, "nba_data")
 MODEL_DIR = os.path.join(PROJECT_ROOT, "models")
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")
 DATASET_PATH = os.path.join(OUTPUT_DIR, "engineered_dataset_2025_26.pkl")
-IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v3.pkl")
+IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v4.pkl")
 CALIBRATOR_PATH = os.path.join(MODEL_DIR, "home_win_calibrator_2025_26.pkl")
 SIMULATOR_PATH = os.path.join(MODEL_DIR, "simulator_2025_26.pkl")
 
@@ -74,11 +74,11 @@ HONEST_METRICS = {
 
 BADGE_IN_SAMPLE = {
     "key": "in-sample",
-    "label": "Egitim verisinde — model bu sonucu gordu, tahmin iyimser",
+    "label": "Egitim verisinde â€” model bu sonucu gordu, tahmin iyimser",
 }
 BADGE_OUT_OF_SAMPLE = {
     "key": "out-of-sample",
-    "label": "Held-out — gercek out-of-sample tahmin",
+    "label": "Held-out â€” gercek out-of-sample tahmin",
 }
 
 app = Flask(__name__)
@@ -86,7 +86,7 @@ _STATE = None
 
 
 def _load_sibling(name):
-    """prediction_engines/ holds scripts, not a package — import them by path."""
+    """prediction_engines/ holds scripts, not a package â€” import them by path."""
     path = os.path.join(PROJECT_ROOT, "prediction_engines", f"{name}.py")
     spec = importlib.util.spec_from_file_location(name, path)
     module = importlib.util.module_from_spec(spec)
@@ -100,7 +100,7 @@ def _load_sibling(name):
 def _build_player_games(dataset):
     """Per-player impact history from the v3 impact cache.
 
-    Joins game_impact_cache_v3.pkl to the dataset's game metadata so every
+    Joins game_impact_cache_v4.pkl to the dataset's game metadata so every
     record carries (player, team, game_id, game_date, season, impact),
     sorted by player then date. Powers the roster-impact panel.
     """
@@ -117,16 +117,21 @@ def _build_player_games(dataset):
         imp = cache.get(gid)
         if not isinstance(imp, dict):
             continue
-        for player, d in (imp.get("players") or {}).items():
-            if isinstance(d, dict):
-                team, impact = d.get("team"), d.get("impact", 0.0)
-            else:
-                team, impact = None, d
+        for key, d in (imp.get("players") or {}).items():
+            if not isinstance(d, dict):
+                continue
+            team = d.get("team")
             if team not in (home, away):
                 continue
-            records.append({"player": player, "team": team, "game_id": gid,
+            # The cache keys on person id; the surname is display only, because
+            # surnames collide (two Wigginses on opposing teams, LeBron and
+            # Bronny on the same one) and would merge distinct players.
+            person_id = d.get("person_id")
+            records.append({"player": person_id if person_id is not None else str(key),
+                            "name": d.get("name") or str(key),
+                            "team": team, "game_id": gid,
                             "game_date": gdate, "season": season,
-                            "impact": float(impact)})
+                            "impact": float(d.get("impact", 0.0))})
     pg = pd.DataFrame(records)
     if pg.empty:
         return pg
@@ -136,13 +141,13 @@ def _build_player_games(dataset):
 def _load_optional(path, label):
     """Load a pickle that the dashboard degrades gracefully without."""
     if not os.path.exists(path):
-        print(f"[startup] {label} yok ({os.path.basename(path)}) — o panel kapali")
+        print(f"[startup] {label} yok ({os.path.basename(path)}) â€” o panel kapali")
         return None
     try:
         with open(path, "rb") as f:
             return pickle.load(f)
     except (OSError, pickle.UnpicklingError, EOFError) as exc:
-        print(f"[startup] {label} okunamadi: {exc} — o panel kapali")
+        print(f"[startup] {label} okunamadi: {exc} â€” o panel kapali")
         return None
 
 
@@ -156,7 +161,7 @@ def _load_state():
 
     # 75% chronological split of the target season, exactly as NBAPredictor.train
     # does it: split the season subset in its AS-SAVED row order. This must
-    # happen before the display re-sort below — sort_values is not stable, so
+    # happen before the display re-sort below â€” sort_values is not stable, so
     # sorting the full frame first permutes ties on the boundary date and would
     # hold out a different set than the trainer actually did.
     tgt_rows = dataset[dataset["season"] == TARGET_SEASON].sort_values("game_date")
@@ -195,7 +200,7 @@ def _load_state():
 
 
 def get_state():
-    """Create-once accessor — nothing is reloaded per request."""
+    """Create-once accessor â€” nothing is reloaded per request."""
     global _STATE
     if _STATE is None:
         _STATE = _load_state()
@@ -310,7 +315,9 @@ def _roster_impact_for_team(state, team, as_of_date, top_n=6):
     out = []
     for player, grp in hist[hist["player"].isin(roster)].groupby("player", sort=False):
         imp = grp["impact"]
-        out.append({"name": player,
+        # `player` is the person id; the readable surname rides along separately.
+        display = grp["name"].iloc[-1] if "name" in grp.columns else str(player)
+        out.append({"name": display,
                     "l10_mean": round(float(imp.tail(10).mean()), 2),
                     "l3_mean": round(float(imp.tail(3).mean()), 2),
                     "n_games": int(len(imp))})

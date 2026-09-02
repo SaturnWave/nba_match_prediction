@@ -1,4 +1,4 @@
-"""
+﻿"""
 MariaDB-backed replacement for the per-game CSV reads.
 
 WHY
@@ -32,7 +32,7 @@ WHAT THIS RETURNS
     against the 17.9% the improvement report derived from the schedule).
 
     Impact scores are NOT recomputed here. They come from the existing
-    game_impact_cache_v3.pkl, keyed by game_id and derived from play-by-play,
+    game_impact_cache_v4.pkl, keyed by game_id and derived from play-by-play,
     which this module does not change.
 
 CREDENTIALS
@@ -85,7 +85,7 @@ PBP_MAP = {
 
 
 def load_config(env_path=ENV_PATH):
-    """Environment first, then .env — so a deployment can override the file."""
+    """Environment first, then .env â€” so a deployment can override the file."""
     cfg = {}
     if os.path.exists(env_path):
         with open(env_path, encoding="utf-8-sig") as f:
@@ -109,7 +109,7 @@ def load_config(env_path=ENV_PATH):
 
 
 def connect(cfg=None, timeout=30):
-    """A plain connection — callers close it, or use `with closing(...)`."""
+    """A plain connection â€” callers close it, or use `with closing(...)`."""
     cfg = cfg or load_config()
     return pymysql.connect(host=cfg["NBA_DB_HOST"], port=int(cfg["NBA_DB_PORT"]),
                            user=cfg["NBA_DB_USER"], password=cfg["NBA_DB_PASSWORD"],
@@ -222,7 +222,7 @@ def attach_impact(master, cache_path=None):
     """
     import pickle
 
-    cache_path = cache_path or os.path.join(PROJECT_ROOT, "game_impact_cache_v3.pkl")
+    cache_path = cache_path or os.path.join(PROJECT_ROOT, "game_impact_cache_v4.pkl")
     cache = {}
     if os.path.exists(cache_path):
         try:
@@ -283,7 +283,7 @@ def games_missing_impact(master, cache_path=None):
     """Game ids present in the frame but absent from the impact cache."""
     import pickle
 
-    cache_path = cache_path or os.path.join(PROJECT_ROOT, "game_impact_cache_v3.pkl")
+    cache_path = cache_path or os.path.join(PROJECT_ROOT, "game_impact_cache_v4.pkl")
     cache = {}
     if os.path.exists(cache_path):
         try:

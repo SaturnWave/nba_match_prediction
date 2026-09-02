@@ -1,11 +1,11 @@
-"""
-Fill game_impact_cache_v3.pkl for games the CSV pipeline never covered.
+﻿"""
+Fill game_impact_cache_v4.pkl for games the CSV pipeline never covered.
 
 WHY
     The impact cache holds what compute_game_impact produced per game, keyed by
     game_id, and the model's impact features are built from it. It covers the
-    8,289 games the CSV pipeline knew about. The database carries 10,749 —
-    2,460 more, all of 2017-18 and 2018-19 — and those games have no cached
+    8,289 games the CSV pipeline knew about. The database carries 10,749 â€”
+    2,460 more, all of 2017-18 and 2018-19 â€” and those games have no cached
     impact, so training on nine seasons would silently feed them NaN.
 
     Reading play-by-play from the database makes this cheap: 5 games of
@@ -18,7 +18,7 @@ CONSISTENCY
     and two moved by about 0.4 on aggregates near 200 (0.2%). The scoring-run
     term is order-sensitive and the database orders strictly by action_number,
     which the CSV export did not always preserve. Existing entries are left
-    alone, so that difference never rewrites history — only new games are
+    alone, so that difference never rewrites history â€” only new games are
     added.
 
 SAFETY
@@ -38,7 +38,7 @@ import datetime
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HERE = os.path.join(PROJECT_ROOT, "prediction_engines")
-CACHE_PATH = os.path.join(PROJECT_ROOT, "game_impact_cache_v3.pkl")
+CACHE_PATH = os.path.join(PROJECT_ROOT, "game_impact_cache_v4.pkl")
 CHUNK = 200
 
 

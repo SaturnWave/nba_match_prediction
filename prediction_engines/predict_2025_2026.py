@@ -1,5 +1,5 @@
-"""
-NBA game outcome predictor — 2025-26 edition.
+﻿"""
+NBA game outcome predictor â€” 2025-26 edition.
 
 A corrected, runnable rebuild of prediction_engines/2023_2024.py:
 
@@ -47,7 +47,7 @@ BASE_DATA_DIR = os.path.join(PROJECT_ROOT, "nba_data")
 GAME_IDS_DIR = os.path.join(PROJECT_ROOT, "game_ids")
 MODEL_DIR = os.path.join(PROJECT_ROOT, "models")
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")
-IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v3.pkl")
+IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v4.pkl")
 
 TARGETS = ["home_win", "point_diff", "total_score", "home_score", "away_score"]
 
@@ -153,7 +153,7 @@ def _steal_impact(row, nxt, prev, home_id, away_id):
     if (nxt is not None and nxt.get("actionType") == "Made Shot"
             and pd.notnull(nxt.get("shotDistance")) and nxt["shotDistance"] <= 3):
         bi += 0.3
-    # frontcourt steal — generalised to actual home/away team ids
+    # frontcourt steal â€” generalised to actual home/away team ids
     if pd.notnull(row.get("xLegacy")):
         tid = row.get("teamId")
         if (tid == home_id and row["xLegacy"] < 0) or (tid == away_id and row["xLegacy"] > 0):
@@ -296,13 +296,26 @@ def compute_game_impact(pbp_df, home_tricode, away_tricode, home_id, away_id, te
 
     player_impact = defaultdict(float)
     player_team = {}
+    player_display = {}
     n = len(records)
     for i, row in enumerate(records):
-        player = row.get("playerName")
-        if pd.isna(player) or player is None or player == "":
+        name = row.get("playerName")
+        if pd.isna(name) or name is None or name == "":
             continue
+        # Key on personId, not the name. playerName in play-by-play is the SURNAME
+        # only, and surnames collide constantly: across 2023-24 to 2025-26, 13.1%
+        # of games contain two players sharing one who are on OPPOSING teams
+        # (Wiggins: Andrew/GSW and Aaron/OKC; Holiday: Jrue/DEN and Aaron/HOU;
+        # Edwards: Anthony/MIN and Kessler/SAC). Keying by name merged their
+        # impact into one entry and attributed all of it to whichever team
+        # appeared last, corrupting home_impact_score_agg and away_impact_score_agg
+        # in those games - and those feed twelve of the model's features.
+        player = row.get("personId")
+        if player is None or (isinstance(player, float) and pd.isna(player)) or player == 0:
+            player = f"name:{name}"      # pre-V3 rows carry no id; fall back
         if isinstance(row.get("teamTricode"), str):
             player_team[player] = row["teamTricode"]
+        player_display.setdefault(player, name)
         nxt = records[i + 1] if i < n - 1 else None
         prev = records[max(0, i - 5):i]
         desc = row.get("description")
@@ -336,8 +349,15 @@ def compute_game_impact(pbp_df, home_tricode, away_tricode, home_id, away_id, te
             home_imp += val
         elif team == away_tricode:
             away_imp += val
-    # per-player detail keeps the team so a forward-looking roster impact can be built
-    players_detail = {p: {"impact": v, "team": player_team.get(p)} for p, v in player_impact.items()}
+    # Per-player detail keeps the team so a forward-looking roster impact can be
+    # built, and now the person id as well: the surname alone cannot identify a
+    # player across games, which is what broke the join to the box scores.
+    players_detail = {
+        p: {"impact": v, "team": player_team.get(p),
+            "name": player_display.get(p),
+            "person_id": None if isinstance(p, str) and p.startswith("name:") else p}
+        for p, v in player_impact.items()
+    }
     return {"home_impact": home_imp, "away_impact": away_imp, "players": players_detail}
 
 
@@ -525,7 +545,7 @@ class NBAPredictor:
         self.models = {}
         self.feature_columns = []
         self.metrics = {}
-        # reliable static team map (30 NBA teams) — independent of box-score availability
+        # reliable static team map (30 NBA teams) â€” independent of box-score availability
         self.abbr_to_id = {t["abbreviation"]: int(t["id"]) for t in static_teams.get_teams()}
         self.id_to_abbr = {v: k for k, v in self.abbr_to_id.items()}
         self._impact_cache = self._load_cache()
@@ -642,7 +662,7 @@ class NBAPredictor:
         their last 10 / 6 / 3 games *before* that game (shift(1) excludes the game
         itself). Because the history is sorted by date across ALL loaded seasons,
         a player's window during the first ~10 games of a season automatically
-        rolls back into the previous season — implementing the season-warmup rule
+        rolls back into the previous season â€” implementing the season-warmup rule
         (early-season games lean on last season; from ~game 11 they use this
         season's last 10). l3 / l6 capture short-term form.
         """
@@ -816,7 +836,7 @@ class NBAPredictor:
                        .sort_values("importance", ascending=False).head(20))
                 plt.figure(figsize=(9, 7))
                 sns.barplot(x="importance", y="feature", data=imp)
-                plt.title(f"Top features — {tgt_name} (2025-26)")
+                plt.title(f"Top features â€” {tgt_name} (2025-26)")
                 plt.tight_layout()
                 plt.savefig(os.path.join(MODEL_DIR, f"{tgt_name}_feat_imp_2025_26.png"))
                 plt.close()
@@ -872,7 +892,7 @@ def main():
     predictor = NBAPredictor()
     predictor.load_and_prepare(seasons=ALL_SEASONS)
     if predictor.dataset is None or predictor.dataset.empty:
-        print("No data — aborting.")
+        print("No data â€” aborting.")
         return
     predictor.train(train_season=ALL_SEASONS[:-1], target_season="2025_2026")
 

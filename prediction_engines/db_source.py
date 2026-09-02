@@ -41,6 +41,7 @@ CREDENTIALS
     minutes, so a hardcoded password would be public within the hour.
 """
 import os
+import socket
 import time
 
 import numpy as np
@@ -118,6 +119,38 @@ def connect(cfg=None, timeout=30):
                            read_timeout=600)
 
 
+def probe(cfg=None, timeout=5):
+    """Is the database actually answering? (reachable, detail).
+
+    A plain TCP connect is not enough to tell. Tailscale accepts the connection
+    on port 3306 whether or not MariaDB is listening behind it, so a successful
+    connect() and a dead database look identical. What separates them is the
+    server greeting: MariaDB sends its banner unprompted the moment the socket
+    opens. Silence there means the tunnel is up and the service is not.
+
+    Worth its own function because the alternative is finding out through
+    read_resilient, which spends four connect timeouts per query before giving
+    up - minutes to learn what five seconds settles.
+    """
+    cfg = cfg or load_config()
+    sock = socket.socket()
+    sock.settimeout(timeout)
+    try:
+        sock.connect((cfg["NBA_DB_HOST"], int(cfg["NBA_DB_PORT"])))
+    except OSError as exc:
+        return False, f"port kapali: {exc}"
+    try:
+        banner = sock.recv(128)
+    except OSError:
+        return False, (f"port acik ama MariaDB {timeout} sn icinde selam "
+                       f"vermedi - tunel ayakta, servis degil")
+    finally:
+        sock.close()
+    if not banner:
+        return False, "baglanti aciliyor ama hemen kapaniyor"
+    return True, f"MariaDB {banner[5:banner.find(bytes([0]), 5)].decode(errors='replace')}"
+
+
 def read_resilient(sql, params=None, cfg=None, attempts=4, backoff=(2, 5, 15),
                    label=None):
     """Run a query, reconnecting and retrying when the link drops.
@@ -151,7 +184,12 @@ def read_resilient(sql, params=None, cfg=None, attempts=4, backoff=(2, 5, 15),
                     conn.close()
                 except Exception:      # noqa: BLE001 - already failing, closing is best effort
                     pass
-    raise RuntimeError(f"{attempts} denemede baglanti kurulamadi: {last}")
+    # Say which of the two it was. "Connection refused" four times over reads
+    # the same whether the phone is off or MariaDB has stopped, and those need
+    # different things done about them.
+    _, detail = probe(cfg)
+    raise RuntimeError(
+        f"{attempts} denemede baglanti kurulamadi ({detail}): {last}")
 
 
 def _season_filter(seasons):

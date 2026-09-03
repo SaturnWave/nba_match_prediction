@@ -57,6 +57,8 @@ import numpy as np
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import brier_score_loss
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import StandardScaler
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(HERE)
@@ -184,6 +186,52 @@ def calibrated(model, features, cal_df, p_test):
     return cal.apply_calibrator(pick, calibrators[pick], p_test)
 
 
+def fit_logistic(train_df, features, test_df):
+    """A linear view of the same features, for something to disagree with.
+
+    Blending helped because the margin regressor sees the game differently from
+    the classifier, not because it sees more. A regularised logistic regression
+    is the cheapest genuinely different bias available: it cannot represent the
+    interactions the trees live on, so where it disagrees it disagrees for
+    structural reasons rather than seed noise.
+
+    Standardised because L2 on raw NBA columns would penalise a pace term and a
+    percentage term completely differently.
+    """
+    X = train_df[features].apply(pd.to_numeric, errors="coerce").fillna(0)
+    y = train_df["home_win"].astype(float)
+    model = make_pipeline(StandardScaler(),
+                          LogisticRegression(C=0.1, max_iter=2000))
+    model.fit(X, y)
+    X_test = test_df[features].apply(pd.to_numeric, errors="coerce").fillna(0)
+    return np.clip(model.predict_proba(X_test)[:, 1], 1e-6, 1 - 1e-6)
+
+
+def score_margin_probability(features, train, cal_df, test, seed):
+    """Margin from two one-sided score models rather than one margin model.
+
+    home_score and away_score are already fitted in production for the score
+    display, so this arm costs nothing extra there. Their difference is a
+    second estimate of the same margin, and it can disagree with the direct
+    point-diff model: predicting two totals and subtracting is a different
+    problem from predicting a difference.
+    """
+    home = wf.fit_regressor(train, features, "home_score", seed)
+    away = wf.fit_regressor(train, features, "away_score", seed)
+
+    def margin(df):
+        X = df[features].apply(pd.to_numeric, errors="coerce").fillna(0)
+        return home.predict(X) - away.predict(X)
+
+    y_cal = cal_df["home_win"].astype(float).values
+    if len(np.unique(y_cal)) < 2:
+        return None
+    mapper = LogisticRegression(C=1e6, solver="lbfgs")
+    mapper.fit(margin(cal_df).reshape(-1, 1), y_cal)
+    return np.clip(mapper.predict_proba(margin(test).reshape(-1, 1))[:, 1],
+                   1e-6, 1 - 1e-6)
+
+
 def run_cell(month, train, test, features, seed, only=None):
     """One (fold, seed): every protocol arm, scored at every burn-in.
 
@@ -227,6 +275,30 @@ def run_cell(month, train, test, features, seed, only=None):
         probs["margin_prob"] = p_margin
         probs["blend"] = 0.5 * (probs["base"] + p_margin)
         probs["blend+cal"] = 0.5 * (probs["base+cal"] + p_margin)
+
+    wanted = set(only) if only is not None else None
+    views = [probs["base"]]
+    if p_margin is not None:
+        views.append(p_margin)
+
+    if wanted is None or {"logit_prob", "blend3", "blend_all"} & wanted:
+        probs["logit_prob"] = fit_logistic(train, features, test)
+        views.append(probs["logit_prob"])
+        if p_margin is not None:
+            probs["blend3"] = np.mean(
+                [probs["base"], p_margin, probs["logit_prob"]], axis=0)
+
+    if wanted is None or {"score_margin", "blend_all"} & wanted:
+        p_score = score_margin_probability(features, train, base_cal_df, test, seed)
+        if p_score is not None:
+            probs["score_margin"] = p_score
+            views.append(p_score)
+
+    # Averaged in probability space, not logit: an arm that is confidently wrong
+    # drags a logit mean much further than it drags a probability mean, and
+    # these views disagree most exactly where one of them is overconfident.
+    if len(views) >= 3:
+        probs["blend_all"] = np.mean(views, axis=0)
 
     return _score(month, test, probs, len(train), seed)
 

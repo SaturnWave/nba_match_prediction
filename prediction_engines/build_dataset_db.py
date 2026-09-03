@@ -108,7 +108,43 @@ def player_records_from_cache(master, cache_path=IMPACT_CACHE):
     return records
 
 
-def build(seasons=None, verbose=True, with_clutch=True):
+def _load_master(source, seasons, verbose):
+    """The one game-level frame everything downstream is built from.
+
+    Two sources produce it identically - verified column by column over all
+    10,749 games, 79 of 80 matching exactly and the 80th, rest_diff, differing
+    only where the database's stored value contradicted its own home_rest and
+    away_rest on 16 season-opening rows.
+
+    "auto" prefers the database and falls back to CSV, because the database is
+    a few seconds against a few minutes when it is up - and it was not up on
+    2026-09-03, when the phone hosting it died. A pipeline that stops because
+    its cache is offline is a pipeline with a single point of failure it did
+    not need.
+    """
+    if source in ("auto", "db"):
+        try:
+            db = _load_sibling("db_source")
+            reachable, detail = db.probe()
+            if reachable:
+                return db.load_master_frame(seasons=seasons, verbose=verbose)
+            if source == "db":
+                raise RuntimeError(f"veritabani cevap vermiyor: {detail}")
+            if verbose:
+                print(f"  veritabani yok ({detail}) - CSV'ye dusuluyor")
+        except RuntimeError:
+            raise
+        except Exception as exc:                      # noqa: BLE001
+            if source == "db":
+                raise
+            if verbose:
+                print(f"  veritabani kullanilamadi ({exc}) - CSV'ye dusuluyor")
+
+    return _load_sibling("csv_master").load_master_frame(
+        seasons=seasons, verbose=verbose)
+
+
+def build(seasons=None, verbose=True, with_clutch=True, source="auto"):
     """Return (dataset, base_features, extra_feature_groups, predictor).
 
     extra_feature_groups is a dict of {name: [columns]} for feature families
@@ -116,14 +152,13 @@ def build(seasons=None, verbose=True, with_clutch=True):
     that predates them. Keeping them grouped and separate is what lets an arm
     ask for one family without dragging in the others.
     """
-    db = _load_sibling("db_source")
     predictor_module = _load_sibling("predict_2025_2026")
 
     t0 = time.time()
-    master = db.load_master_frame(seasons=seasons, verbose=verbose)
+    master = _load_master(source, seasons, verbose)
     if master.empty:
         raise RuntimeError("veritabanindan hic mac gelmedi")
-    master = db.attach_impact(master, cache_path=IMPACT_CACHE)
+    master = _load_sibling("db_source").attach_impact(master, cache_path=IMPACT_CACHE)
     if verbose:
         print(f"  master: {master.shape} ({time.time() - t0:.1f} sn)")
 
@@ -141,8 +176,18 @@ def build(seasons=None, verbose=True, with_clutch=True):
         except Exception as exc:  # noqa: BLE001 - matchups are optional, never fatal
             print(f"  [warn] matchup feature'lari atlandi: {exc}")
 
+    # Clutch and availability read the play-by-play and the per-player comment
+    # field straight from the database; neither has a CSV path yet. When the
+    # database is down they are skipped rather than fatal, which costs nothing
+    # measurable - both families were screened at high power and neither beat
+    # the base feature set (clutch and availability each landed inside their
+    # own error bars over 315 seed x fold cells).
     clutch_cols, avail_cols = [], []
-    if with_clutch:
+    db = _load_sibling("db_source")
+    reachable, detail = db.probe() if with_clutch else (False, "istenmedi")
+    if with_clutch and not reachable:
+        print(f"  [warn] clutch/availability atlandi - veritabani yok ({detail})")
+    if with_clutch and reachable:
         clutch_module = _load_sibling("clutch_features")
         avail_module = _load_sibling("availability_features")
         conn = db.connect()
@@ -187,10 +232,12 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--seasons", nargs="*", default=None)
     parser.add_argument("--out", default=DATASET_PATH)
+    parser.add_argument("--source", choices=["auto", "db", "csv"], default="auto",
+                        help="master frame nereden gelsin (varsayilan: db varsa db)")
     args = parser.parse_args()
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    dataset, features, groups, _ = build(args.seasons)
+    dataset, features, groups, _ = build(args.seasons, source=args.source)
 
     pd.to_pickle({"dataset": dataset, "features": features,
                   "feature_groups": groups,

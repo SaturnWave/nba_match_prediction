@@ -30,3 +30,6 @@ graphify-out/
 .env
 *.env
 db_config.json
+
+# derived caches (rebuilt automatically from data on disk)
+team_box_cache_v1.pkl

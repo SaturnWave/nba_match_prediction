@@ -184,13 +184,21 @@ def calibrated(model, features, cal_df, p_test):
     return cal.apply_calibrator(pick, calibrators[pick], p_test)
 
 
-def run_cell(month, train, test, features, seed):
-    """One (fold, seed): every protocol arm, scored at every burn-in."""
+def run_cell(month, train, test, features, seed, only=None):
+    """One (fold, seed): every protocol arm, scored at every burn-in.
+
+    `only` restricts which weight schemes are fitted. Confirmation runs need
+    just base plus the margin arms, and skipping five classifier fits per cell
+    is what makes fifteen seeds affordable rather than a four-hour wait.
+    """
     probs = {}
 
     schemes = {"base": None, "phase_match": weights_phase}
     for hl in HALF_LIVES:
         schemes[f"recency_hl{hl}"] = weights_recency(hl)
+    if only is not None:
+        # base always survives: every paired delta is measured against it.
+        schemes = {k: v for k, v in schemes.items() if k == "base" or k in only}
 
     base_model = base_cal_df = None
     for name, scheme in schemes.items():
@@ -203,12 +211,15 @@ def run_cell(month, train, test, features, seed):
             base_model, base_cal_df = model, cal_df
 
     recent = subset_recent_seasons(train, RECENT_SEASONS)
-    if len(recent) >= wf.MIN_TRAIN_GAMES:
+    if (only is None or "recent_2s" in only) and len(recent) >= wf.MIN_TRAIN_GAMES:
         model, cal_df = fit_weighted_classifier(recent, features, seed, None, test)
         X_test, _ = cal.Xy(test, features)
         p = model.predict_proba(X_test)[:, 1]
         probs["recent_2s"] = p
         probs["recent_2s+cal"] = calibrated(model, features, cal_df, p)
+
+    if only is not None and not ({"margin_prob", "blend"} & set(only)):
+        return _score(month, test, probs, len(train), seed)
 
     reg = wf.fit_regressor(train, features, "point_diff", seed)
     p_margin = margin_to_probability(reg, features, base_cal_df, test)
@@ -217,9 +228,14 @@ def run_cell(month, train, test, features, seed):
         probs["blend"] = 0.5 * (probs["base"] + p_margin)
         probs["blend+cal"] = 0.5 * (probs["base+cal"] + p_margin)
 
+    return _score(month, test, probs, len(train), seed)
+
+
+def _score(month, test, probs, n_train, seed):
+    """Score every arm's probabilities at every burn-in threshold."""
     y = test["home_win"].astype(float).values
     seasoned = np.minimum(test["home_gp"].values, test["away_gp"].values)
-    cell = {"month": month, "seed": seed, "n_train": int(len(train)),
+    cell = {"month": month, "seed": seed, "n_train": int(n_train),
             "by_burn_in": {}}
     for burn in wf.BURN_INS:
         keep = seasoned >= burn
@@ -276,12 +292,14 @@ def main():
     parser.add_argument("--seeds", type=int, default=len(SEEDS))
     parser.add_argument("--months", type=int, default=None)
     parser.add_argument("--out", default=REPORT_PATH)
+    parser.add_argument("--only-arms", nargs="*", default=None,
+                        help="sadece bu kollar (base her zaman dahil)")
     args = parser.parse_args()
 
     dataset, features, _groups = wf.load_any_dataset(args.dataset)
     dataset = wf.add_team_game_index(dataset)
     folds = wf.month_folds(dataset, args.months)
-    seeds = SEEDS[:args.seeds]
+    seeds = [42 + 7 * i for i in range(args.seeds)]
     print(f"{len(folds)} ay x {len(seeds)} seed = {len(folds) * len(seeds)} hucre, "
           f"{len(features)} feature", flush=True)
 
@@ -289,7 +307,8 @@ def main():
     cells = []
     for i, (month, train, test) in enumerate(folds, 1):
         for seed in seeds:
-            cells.append(run_cell(month, train, test, features, seed))
+            cells.append(run_cell(month, train, test, features, seed,
+                                  only=args.only_arms))
         done = i * len(seeds)
         rate = (time.time() - t0) / done
         print(f"  [{i}/{len(folds)}] {month}  n_train={len(train):,} "

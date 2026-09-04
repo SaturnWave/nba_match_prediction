@@ -49,7 +49,13 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 BASE_DATA_DIR = os.path.join(PROJECT_ROOT, "nba_data")
 MODEL_DIR = os.path.join(PROJECT_ROOT, "models")
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")
-DATASET_PATH = os.path.join(OUTPUT_DIR, "engineered_dataset_2025_26.pkl")
+# The SAME pickle retrain_production trains on. It has to be: the two builds
+# disagree on all 190 features - the CSV build predates the impact fix that
+# keyed players by person id instead of surname, so its roster columns are
+# built from impacts that merged same-surname players on opposing teams. Serving
+# predictions from features the models were never fitted on is a silent error;
+# nothing raises, the numbers just mean less than they appear to.
+DATASET_PATH = os.path.join(OUTPUT_DIR, "engineered_dataset_db.pkl")
 IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v4.pkl")
 CALIBRATOR_PATH = os.path.join(MODEL_DIR, "home_win_calibrator_2025_26.pkl")
 SIMULATOR_PATH = os.path.join(MODEL_DIR, "simulator_2025_26.pkl")
@@ -179,6 +185,11 @@ def _load_state():
     # __main__.SeedEnsemble in app.py and does not find it.
     ensemble_module = _load_sibling("ensemble_model")
     models = {tgt: ensemble_module.load_model(tgt, MODEL_DIR) for tgt in TARGETS}
+    # The blended forecaster is what the page quotes when it exists: +0.0183
+    # accuracy and +0.0150 AUC over the classifier alone across 430
+    # walk-forward cells. None until retrain_production has been run since the
+    # blend was added, and the page falls back to the classifier.
+    blend = ensemble_module.load_blend(MODEL_DIR)
 
     calibrator = _load_optional(CALIBRATOR_PATH, "kalibrator")
     simulator = _load_optional(SIMULATOR_PATH, "simulator")
@@ -194,6 +205,7 @@ def _load_state():
           f"{len(player_games)} oyuncu-mac kaydi, "
           f"held-out {len(test_game_ids)} mac ({split_date} sonrasi)")
     return {"dataset": dataset, "features": features, "models": models,
+            "blend": blend,
             "test_game_ids": test_game_ids, "split_date": split_date,
             "player_games": player_games, "calibrator": calibrator,
             "simulator": simulator, "ratings": ratings_by_game,
@@ -431,9 +443,25 @@ def api_predict(game_id):
             predicted[name] = round(float(model.predict(X)[0]), 2)
 
     calibrated = _calibrated(state, raw_prob)
-    shown_prob = calibrated["prob"] if calibrated else raw_prob
-    predicted["home_win_prob"] = round(shown_prob, 3)
     predicted["calibrated"] = calibrated
+
+    # Order of preference: blend, then calibrated classifier, then raw. The
+    # blend is not a calibrated version of the classifier - it is a different
+    # forecast, and it is the only one of the three measured to carry more
+    # information rather than to read the same information better.
+    blend = state.get("blend")
+    if blend is not None:
+        views = blend.views(X)
+        predicted["views"] = {k: round(float(v[0]), 3) for k, v in views.items()}
+        predicted["view_spread"] = round(
+            float(max(v[0] for v in views.values())
+                  - min(v[0] for v in views.values())), 3)
+        shown_prob = float(blend.predict_proba(X)[:, 1][0])
+        predicted["source"] = "blend"
+    else:
+        shown_prob = calibrated["prob"] if calibrated else raw_prob
+        predicted["source"] = "calibrated" if calibrated else "raw"
+    predicted["home_win_prob"] = round(shown_prob, 3)
     predicted["predicted_winner"] = g["home_team"] if shown_prob > 0.5 else g["away_team"]
 
     actual_winner = g["home_team"] if int(g["home_win"]) else g["away_team"]

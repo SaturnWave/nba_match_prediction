@@ -60,6 +60,9 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import seaborn as sns
 import lightgbm as lgb
+from sklearn.linear_model import LogisticRegression
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import (accuracy_score, roc_auc_score, brier_score_loss,
                              log_loss, mean_absolute_error, mean_squared_error)
 
@@ -173,6 +176,8 @@ def main():
                   f"rmse={metrics[target]['rmse']:.3f} ({time.time()-t0:.0f} sn)")
 
         models[target] = model
+        if target == "home_win":
+            X_train_win, y_train_win = X_train, y_train
         # SeedEnsemble lives in this module, so unpickling it elsewhere needs
         # the class importable. Storing the members plus a marker keeps the file
         # loadable by any consumer that only knows LightGBM.
@@ -215,6 +220,48 @@ def main():
         pickle.dump({"method": pick, "calibrator": calibrators[pick]}, f)
     print(f"\nkalibrator: {pick} ({len(cal_df):,} mac uzerinde)")
 
+    # ---- the blended forecaster -------------------------------------------
+    # Worth +0.0183 accuracy and +0.0150 AUC over the classifier alone, across
+    # 430 walk-forward cells. The AUC is the part that matters: the classifier
+    # was already sitting on its own information ceiling, so this is a better
+    # forecast rather than a better reading of the same one.
+    warm_margin = []
+    y_fit_m = fit_df["point_diff"].astype(float)
+    y_stop_m = stop_df["point_diff"].astype(float)
+    for seed in SEEDS:
+        r = lgb.LGBMRegressor(random_state=seed, **PARAMS)
+        r.fit(X_fit, y_fit_m, eval_set=[(X_stop, y_stop_m)], eval_metric="mae",
+              callbacks=[lgb.early_stopping(50, verbose=False),
+                         lgb.log_evaluation(0)])
+        warm_margin.append(r)
+    # Fitted on the same held-out slice the calibrator uses, and by a model that
+    # never saw it - a mapper fitted on the fitting rows would be reading its
+    # own training error as if it were uncertainty.
+    mapper = LogisticRegression(C=1e6, solver="lbfgs")
+    mapper.fit(SeedEnsemble(warm_margin, "reg").predict(X_cal).reshape(-1, 1), y_cal)
+
+    logistic = make_pipeline(StandardScaler(),
+                             LogisticRegression(C=0.1, max_iter=2000))
+    logistic.fit(X_train_win, y_train_win)
+
+    blend = _ensemble_module.BlendedForecaster(
+        models["home_win"], models["point_diff"], mapper, logistic)
+    with open(os.path.join(MODEL_DIR, "blend_2025_26.pkl"), "wb") as f:
+        pickle.dump({"classifier_members": models["home_win"].models,
+                     "margin_members": models["point_diff"].models,
+                     "margin_mapper": mapper, "logistic": logistic}, f)
+
+    X_hold, y_hold = Xy(test_df, features, "home_win")
+    p_blend = blend.predict_proba(X_hold)[:, 1]
+    metrics["blend"] = {
+        "accuracy": float(accuracy_score(y_hold, (p_blend > 0.5).astype(int))),
+        "auc": float(roc_auc_score(y_hold, p_blend)),
+        "brier": float(brier_score_loss(y_hold, p_blend))}
+    print(f"blend        acc={metrics['blend']['accuracy']:.4f} "
+          f"auc={metrics['blend']['auc']:.4f} "
+          f"brier={metrics['blend']['brier']:.4f}")
+
+
     payload = {
         "trained_on": sorted(dataset["season"].unique().tolist()),
         "n_train": int(len(train_df)), "n_test": int(len(test_df)),
@@ -226,6 +273,9 @@ def main():
         "honest_walk_forward": {
             "accuracy_single_model": 0.6689, "accuracy_std": 0.0502,
             "accuracy_ensemble_10": 0.6792,
+            "blend3_gain": 0.0183, "blend3_gain_se": 0.0020,
+            "blend3_auc_gain": 0.0150, "blend3_cells": 430,
+            "ceiling_if_calibrated": 0.6559,
             "ensemble_gain": 0.0103, "ensemble_gain_se": 0.0051,
             "naive_baseline": 0.5554,
             "note": "21 ay katmani, burn-in >= 10; asagidaki tek-split rakami "

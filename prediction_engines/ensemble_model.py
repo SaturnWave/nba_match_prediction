@@ -72,3 +72,78 @@ def load_model(target, model_dir=MODEL_DIR, suffix="2025_26"):
     single_path = os.path.join(model_dir, f"{target}_model_{suffix}.pkl")
     with open(single_path, "rb") as f:
         return pickle.load(f)
+
+
+class BlendedForecaster:
+    """Three views of one game, averaged in probability space.
+
+    WHY THREE
+        Measured over 430 walk-forward cells, paired within each (month, seed):
+
+          blend3        +0.0183 accuracy, +0.0150 AUC (15 standard errors)
+          blend         +0.0146
+          margin_prob   +0.0105
+          base+cal      +0.0055
+
+        The classifier alone sits exactly on its own information ceiling - its
+        calibrated accuracy was 0.6564 against a ceiling of 0.6559 - so nothing
+        done to its probabilities after the fact can help. The blend does not
+        post-process them; it replaces them with a better forecast, and the AUC
+        gain is what proves that rather than the accuracy gain.
+
+        The logistic view is the instructive one. On its own it is no more
+        informative than the classifier (AUC +0.0017, inside the noise), yet
+        adding it to the blend is worth another +0.0037. A view does not have to
+        be better to be useful - it has to be wrong in different places, and a
+        linear model cannot represent the interactions the trees run on.
+
+        A fourth view, taking the margin from the home_score and away_score
+        models and subtracting, was screened and dropped: +0.0006, and adding it
+        made the blend worse.
+
+    Averaged in probability space, not logit: a view that is confidently wrong
+    drags a logit mean much further, and these views disagree precisely where
+    one of them is overconfident.
+    """
+
+    def __init__(self, classifier, margin_model, margin_mapper, logistic):
+        self.classifier = classifier
+        self.margin_model = margin_model
+        self.margin_mapper = margin_mapper
+        self.logistic = logistic
+
+    def views(self, X):
+        """Each view's win probability, for showing where they disagree."""
+        out = {"classifier": self.classifier.predict_proba(X)[:, 1]}
+        margin = self.margin_model.predict(X)
+        out["margin"] = np.clip(
+            self.margin_mapper.predict_proba(margin.reshape(-1, 1))[:, 1],
+            1e-6, 1 - 1e-6)
+        out["logistic"] = np.clip(self.logistic.predict_proba(X)[:, 1],
+                                  1e-6, 1 - 1e-6)
+        return out
+
+    def predict_proba(self, X):
+        p = np.mean(list(self.views(X).values()), axis=0)
+        return np.column_stack([1.0 - p, p])
+
+    def predict(self, X):
+        return (self.predict_proba(X)[:, 1] > 0.5).astype(int)
+
+
+def load_blend(model_dir=MODEL_DIR, suffix="2025_26"):
+    """The blended forecaster, or None when it has not been trained yet.
+
+    Stored as parts rather than as a pickled BlendedForecaster for the same
+    reason load_model rebuilds SeedEnsemble: the trainer runs as __main__, so a
+    pickled instance records a class path nothing else can resolve.
+    """
+    path = os.path.join(model_dir, f"blend_{suffix}.pkl")
+    if not os.path.exists(path):
+        return None
+    with open(path, "rb") as f:
+        parts = pickle.load(f)
+    return BlendedForecaster(
+        SeedEnsemble(parts["classifier_members"], "clf"),
+        SeedEnsemble(parts["margin_members"], "reg"),
+        parts["margin_mapper"], parts["logistic"])

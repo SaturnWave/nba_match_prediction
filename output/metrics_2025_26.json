@@ -38,6 +38,11 @@
     "away_score": {
       "mae": 9.248364356680202,
       "rmse": 11.481266618577958
+    },
+    "blend": {
+      "accuracy": 0.7857142857142857,
+      "auc": 0.8444711217820462,
+      "brier": 0.1692155719742814
     }
   },
   "calibrator": "isotonic",
@@ -45,6 +50,11 @@
     "accuracy_single_model": 0.6689,
     "accuracy_std": 0.0502,
     "accuracy_ensemble_10": 0.6792,
+    "blend3_gain": 0.0183,
+    "blend3_gain_se": 0.002,
+    "blend3_auc_gain": 0.015,
+    "blend3_cells": 430,
+    "ceiling_if_calibrated": 0.6559,
     "ensemble_gain": 0.0103,
     "ensemble_gain_se": 0.0051,
     "naive_baseline": 0.5554,

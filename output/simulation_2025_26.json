@@ -3,37 +3,37 @@
   "n_sims": 4000,
   "n_test": 308,
   "dispersion_r": {
-    "home": 458.69740842136287,
-    "away": 504.7947990771462
+    "home": 477.3491712216606,
+    "away": 489.45656912919725
   },
-  "residual_correlation": 0.2747504705905846,
+  "residual_correlation": 0.27654362978440916,
   "metrics": {
     "home_win": {
-      "accuracy": 0.7694805194805194,
-      "auc": 0.7996531946111778,
-      "brier": 0.18281837266639608,
-      "log_loss": 0.5487441066150974
+      "accuracy": 0.7564935064935064,
+      "auc": 0.7949624294162109,
+      "brier": 0.18449814600243505,
+      "log_loss": 0.5526652046563797
     },
     "mae": {
-      "point_diff": 11.902580357142856,
-      "total_score": 15.253046266233763,
-      "home_score": 9.850401785714286,
-      "away_score": 9.620775974025973
+      "point_diff": 12.029854707792207,
+      "total_score": 15.22005762987013,
+      "home_score": 9.883184253246752,
+      "away_score": 9.71948051948052
     },
     "coherence": {
-      "win_vs_margin_contradictions": 1,
+      "win_vs_margin_contradictions": 3,
       "margin_identity_max_error": 1.4210854715202004e-14,
       "total_identity_max_error": 2.842170943040401e-14
     },
     "spread": {
-      "sim_home_score_sd": 12.091291910106117,
+      "sim_home_score_sd": 12.042615673531422,
       "actual_home_score_sd": 13.623837613142527,
-      "sim_margin_sd": 14.426411726390784,
+      "sim_margin_sd": 14.392520254428385,
       "actual_margin_sd": 17.694564834660827
     },
     "interval_coverage_80pct": {
-      "home_score": 0.827922077922078,
-      "point_diff": 0.7922077922077922,
+      "home_score": 0.8376623376623377,
+      "point_diff": 0.788961038961039,
       "total_score": 0.8181818181818182
     }
   }

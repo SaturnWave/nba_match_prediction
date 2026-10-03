@@ -1,6 +1,6 @@
 # Durum — db-pipeline dalı
 
-Son güncelleme: 2026-10-03 (güç sıralaması, değer skoru, impact v5). Bu dosya, çalışmaya ara verildiğinde nerede
+Son güncelleme: 2026-10-03 (güç sıralaması, değer skoru, impact v5, fiyatlama 5.1). Bu dosya, çalışmaya ara verildiğinde nerede
 kalındığını ve nasıl devam edileceğini anlatır.
 
 ## Tek cümlelik özet
@@ -14,20 +14,21 @@ kuruldu.
 ## Dürüst rakamlar
 
 Bağlayıcı olan walk-forward (18 ay × 3 seed = 54 hücre, 2023-11 → 2026-04,
-burn-in ≥ 10 maç, `output/consistency_lab_round2.json`, kol `reg+mono+out`):
+burn-in ≥ 10 maç, `output/impact_v5_lab.json`, kol `candidate` = üretimdeki
+tarif ve fiyatlama 5.1):
 
 | ölçüm | değer |
 |---|---|
-| Kazanan isabeti (sınıflandırıcı) | 0,673 (ay sapması 0,061) |
-| Kazanan isabeti (blend, dashboard'un gösterdiği) | 0,685 |
-| AUC | 0,743 |
-| Brier | 0,210 (blend 0,204) |
+| Kazanan isabeti (sınıflandırıcı) | 0,666 (ay sapması 0,066) |
+| Kazanan isabeti (blend, dashboard'un gösterdiği) | 0,687 |
+| AUC | 0,742 |
+| Brier | 0,211 (blend 0,204) |
 | Sayı farkı MAE | 11,2 |
-| Kazanan–marj çelişkisi | %8,9 (eski tarifte %13,0) |
+| Kazanan–marj çelişkisi | %10,5 (eski tarifte %13,0) |
 | Naif taban | 0,555 |
 
 Tek split (son 308 maç, 2026-03-04 sonrası, hiçbir fit'e girmedi):
-blend isabet 0,770, AUC 0,832, Brier 0,167; marj MAE 11,42; toplam MAE 15,28
+blend isabet 0,773, AUC 0,829, Brier 0,167; marj MAE 11,49; toplam MAE 15,22
 (impact v5 modelleri; v4 modelleriyle 0,786 / 0,165 / 11,37 idi — 308 maçta
 gürültü sınırında, bağlayıcı olan walk-forward değişmedi).
 Sezonun son beş haftası kolay okur; bu rakama değil üsttekine güven.
@@ -97,11 +98,11 @@ farkları seed gürültüsü sınırında, Brier/çelişki farkları değil.
 
 | soru | model | piyasa |
 |---|---|---|
-| kazanan isabeti | 0,769 | 0,776 |
+| kazanan isabeti | 0,773 | 0,776 |
 | Brier | 0,167 | 0,153 |
-| sayı farkı MAE | 11,42 | 10,58 |
-| toplam MAE | 15,28 | 14,33 |
-| handikapta modelin tarafı | %45,8 ± 2,8 | başabaş %52,4 |
+| sayı farkı MAE | 11,49 | 10,58 |
+| toplam MAE | 15,22 | 14,33 |
+| handikapta modelin tarafı | %45,1 ± 2,8 | başabaş %52,4 |
 
 Önceki oturumda görülen "handikap %57 / çizgiden 3+ sapınca %61" sinyali
 **kadro sızıntısının ürünüydü**; dürüst modelde kayboldu. Piyasa marjda ve
@@ -146,7 +147,8 @@ arasındaki korelasyon **0,14**. Üst sıralar ribaunt alan uzunlar (Drummond
 
 Değer skoru: her oyun sayı cinsinden, 1,00 sayı/pozisyon tabanına göre
 fiyatlanır (basket = sayı − 1; kaçan şut −0,74; TOV −1,15; STL +1,15; ORB
-+0,74; DRB +0,26; blok +0,6; asist +0,35 açıklamadan okunur; faul −0,3/−0,6)
++0,74; DRB +0,26; blok +0,6; asist ve serbest atış için aşağıdaki "Fiyatlama
+5.1" bölümü; faul −0,3/−0,6)
 ve maçın o anki açıklığıyla ağırlıklanır (25+ fark Q4 → 0,3; son 5 dk ≤5
 fark → 1,25). Stil bonusu yok.
 
@@ -160,6 +162,77 @@ Sıralama ekranında oyuncu OVR artık değerden; üretim OVR yanında, fark
 "boş istatistik" rozeti (≥ +8). Önbellek: `output/value_cache_v1.pkl`
 (`value_engine.py --all`, ~7 dk). Hâlâ görmediği: blok/top çalmaya
 dönüşmeyen savunma, perde, alan açma.
+
+## Fiyatlama 5.1 — asist ve serbest atış eksiksiz
+
+Kullanıcı: "ilk denememde asist ve serbest atışı hesaba katmıştım; asist pası
+bile hesaba katılmalı." İzi sürüldü:
+
+- İlk tek-maç motorunda (`impact_score_calculation/impact_score.py`,
+  `add_player_tracking_impact`) **ikincil asist × 0,5** ve pas/asist oranından
+  bir bonus vardı. Sezon betikleri ve tahmin motoru `df_player_track`
+  vermeden çağırdığı için bu parça sezon ölçeğinde hiç çalışmadı. Ayrıca
+  maç toplamı olan bu değer oyuncunun adının geçtiği **her satırda** yeniden
+  ekleniyordu.
+- Serbest atış hiçbir sürümde puanlanmadı; "Free Throw" yalnızca and-one
+  tespiti için okunuyordu.
+- v5.0 ikisini de sayıyordu ama eksikti: asistlerin yalnızca **%87–89'u**
+  oyuncuya yazılabiliyordu.
+
+Ne değişti (`value_engine.py`, `PRICING_VERSION = "5.1"`):
+
+| konu | önce | şimdi |
+|---|---|---|
+| pasörü bulma | o ana kadar görülen oyunculara soyadıyla eşleme; %87–89 | tüm maç + kutu skoru kadrosu; aksansız, eksiz ("Butler" = "Butler III"), baş harfli ("G. Antetokounmpo", "Ja. Green"), açıklamadaki sıra numarasıyla; **%99,8–100**, oyuncu-maç bazında %99,7–99,98 birebir |
+| asistin değeri | sabit +0,35 | basketin değerinin **%30'u, skorerin üstüne** (ikilik +0,3, üçlük +0,6) |
+| ikincil asist | yok | tracking `sast` × 0,15 |
+| serbest atış asisti | yok | tracking `ftast` × 0,17 (not: bu sayım 2019-20'den itibaren kabaca iki katı kaydediliyor) |
+| serbest atışın pozisyon maliyeti | atış başına sabit 0,44 | n atışlık gidişte atış başına 1/n; and-one, teknik, flagrant, clear path = 0 |
+
+Serbest atış sayımı zaten doğruydu: play-by-play isabet ve deneme kutu
+skoruyla her oyuncu-maçta birebir.
+
+Asist kuralı ölçülerek seçildi (düzenli oyuncular, sahadaki +/− /36 dk ile
+korelasyon; 2017-18, 2020-21, 2023-24 ortalaması):
+
+| kural | korelasyon |
+|---|---|
+| asist kredisi yok | 0,394 |
+| sabit +0,35, üstüne | 0,442 |
+| **basketin %30'u, üstüne** | **0,445** (%20: 0,437; %40: 0,444; %50: 0,436) |
+| basketin %30'u, skorerden kesilerek | 0,430 (%20: 0,434; %40: 0,413; %50: 0,389) |
+
+Skorerden kesmek üç sezonda da daha kötü ve kesilen pay arttıkça daha kötü:
+şutu sokmak skorerin işi, pas onu daha iyi bir şut yapan şey. İkincil asist
+küçük ama her sezon aynı yönde (+0,001…+0,004); serbest atış asisti ölçülemez
+(+0,001); **pas başına kredi zarar veriyor** (−0,007 / −0,014), o yüzden ilk
+motordaki pas/asist bonusu geri getirilmedi. Potansiyel asist (şut girseydi
+asist olacak pas) elimizdeki veride yok; tracking'in `pass` sütunu atılan her
+pas. Serbest atışın yeni maliyeti muhasebeyi kesinleştiriyor, +/− ile ilişkiyi
+değiştirmiyor (0,431 / 0,433).
+
+Doğrulama, ayrı tutulan altı sezon (ayar üç sezonda yapıldı): +/− ile
+korelasyon 0,379 → **0,396**, altı sezonun beşinde daha iyi (2025-26'da
+−0,016); ayar sezonlarında 0,430 → 0,448. 2017-18 maç başına değer: Curry 9,9 → 10,6,
+Westbrook 6,7 → 7,9, Chris Paul 7,2 → 8,4 (OVR 97, üretim OVR'ı 86).
+
+Model tarafı (`impact_v5_lab.py`, 54 hücre, önceki üretime karşı eşleştirilmiş):
+blend isabeti +0,0019 ± 0,0013, blend Brier +0,0002 ± 0,0003, sınıflandırıcı
+−0,0044 ± 0,0051, AUC aynı, marj MAE 11,22 / 11,21, çelişki %10,5 / %9,3.
+Ayırt edilemez; tek fiyatlama projenin tamamında.
+
+Düzeltilen bir ölçüm hatası: karşılaştırma betiği "impact sütunlarını" ada
+göre seçiyordu ve `roster_form_l6/l3` (onlar da impact'ten) ile
+`roster_avail_minutes` dışarıda kalıyordu; önceki üç koşuda (aşağıdaki
+tablo) aday kol bu yüzden melezdi. Artık iki veri seti arasında değeri
+gerçekten farklı olan sütunlar (30) seçiliyor. Önceki sonuçların yönü
+değişmiyor: v4 ile tam v5.0 arasındaki fark aynı hücrelerde isabet 0,6729 /
+0,6699, Brier 0,2101 / 0,2109.
+
+Yeniden kurma: `value_engine.py --all --refresh` (oyuncu, ~4 dk) ve
+`--all --refresh --no-leverage --cache output/value_cache_unweighted.pkl`
+(model) → `impact_v5.py` → `rebuild_impact_features.py --in
+output/engineered_dataset_pregame_v4.pkl` → `retrain_production.py`.
 
 ## Impact motoru v5 — açıklar kapatıldı, proje geneline yayıldı
 

@@ -106,9 +106,9 @@ MONOTONE_MIN_CORR = 0.02
 LAB_SOURCES = {   # (recipe, feature_set) -> (report, arm) the honest numbers come from
     ("base", "base"): (os.path.join(OUTPUT_DIR, "consistency_lab.json"), "pregame"),
     ("base", "base+out"): (os.path.join(OUTPUT_DIR, "consistency_lab.json"), "pregame+out"),
-    # impact_v5_lab.py runs the shipped recipe on the v5 impact cache the
-    # production dataset is now built from; its v5 arm is the honest number.
-    ("reg+mono", "base+out"): (os.path.join(OUTPUT_DIR, "impact_v5_lab.json"), "v5"),
+    # impact_v5_lab.py runs the shipped recipe on the impact cache the
+    # production dataset is built from; its candidate arm is the honest number.
+    ("reg+mono", "base+out"): (os.path.join(OUTPUT_DIR, "impact_v5_lab.json"), "candidate"),
 }
 
 
@@ -218,6 +218,15 @@ def make_classifier(seed, params):
 
 def make_regressor(seed, params):
     return lgb.LGBMRegressor(random_state=seed, **params)
+
+
+def impact_pricing_version():
+    """Which pricing built the impact cache, as impact_v5.py recorded it."""
+    path = os.path.join(OUTPUT_DIR, "impact_v5_summary.json")
+    if not os.path.exists(path):
+        return None
+    with open(path, encoding="utf-8") as f:
+        return json.load(f).get("pricing_version")
 
 
 def honest_numbers(recipe, feature_set):
@@ -398,6 +407,7 @@ def main():
         "trained_on": sorted(dataset["season"].unique().tolist()),
         "dataset": os.path.basename(args.dataset), "roster": "pregame",
         "impact_cache": blob.get("impact_cache", "game_impact_cache_v4.pkl"),
+        "impact_pricing": impact_pricing_version(),
         "feature_set": args.feature_set, "recipe": args.recipe,
         "n_train": int(len(train_df)), "n_test": int(len(test_df)),
         "n_features": len(features),

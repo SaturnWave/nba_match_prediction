@@ -120,8 +120,10 @@ rest of the pipeline reads (`game_impact_cache_v5.pkl`).
 |--------------------|---------------------------:|--------------------------------------------------|
 | Made 2 / made 3    | +1.0 / +2.0                | points scored minus the possession spent         |
 | Missed shot        | −0.74                      | the possession is usually gone (26% come back)   |
-| Free throw         | +1 made, −0.44 per attempt | a trip to the line is 0.44 of a possession each  |
-| Assist             | +0.35                      | read from the description's `(Name N AST)`       |
+| Free throw         | +1 made, − possession used | 1/n of a possession per attempt of an n-shot trip; none for an and-one, technical, flagrant or clear path |
+| Assist             | 30% of the basket, on top  | +0.3 on a two, +0.6 on a three; the scorer keeps his full credit |
+| Secondary assist   | +0.15                      | the pass to the passer, from the tracking table  |
+| Free-throw assist  | +0.17                      | a pass that drew a shooting foul, from tracking  |
 | Turnover / steal   | −1.15 / +1.15              | a possession plus a transition premium           |
 | Offensive rebound  | +0.74                      | a possession recovered                           |
 | Defensive rebound  | +0.26                      | a 26% chance denied — the expected outcome       |
@@ -137,6 +139,16 @@ measured to cost the forecast (Brier +0.003) while unweighted ones cost nothing.
 No style bonuses — a step-back three and an open one both put three points on
 the board. Rebound type is read from whose miss preceded it, not from the
 description (which carries the player's running totals).
+
+Passing, as measured against on-court plus-minus over three seasons: no assist
+credit 0.394, a flat +0.35 per assist 0.442, 30% of the basket on top 0.445,
+30% taken out of the scorer's credit 0.430 — so the passer is paid on top. The
+passer is read from the description `(Name N AST)`; matching that name is the
+hard part (no accents, no suffixes, a first-name prefix where teammates share a
+surname, and the running total N to separate the rest), and with all of it
+handled the engine credits 99.8–100% of the box score's assists. A credit per
+pass made (the tracking table's PASS column) made the score worse and is not
+paid; potential assists are not in the data.
 
 Why v5 replaced the original engine: that engine fired only on made shots (a
 miss cost nothing), typed every rebound as offensive because `"Off" in

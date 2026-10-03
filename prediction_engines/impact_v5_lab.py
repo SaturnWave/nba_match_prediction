@@ -1,18 +1,28 @@
 """
-Does fixing the impact engine change what the model can do?
+Does a change to the impact engine change what the model can do?
 
     Same walk-forward cells as consistency_lab.py, same recipe production
     ships (regularised learner, monotone diff_ constraints, pregame+out
-    features, classifier + margin + blend). Two arms differing only in the 24
+    features, classifier + margin + blend). Two arms differing only in the
     impact-derived columns:
-        v4   the production dataset, impact cache v4 (production counted
-             without its cost)
-        v5   the same frame with those columns rebuilt from impact cache v5
-             (value pricing: misses, assists, free throws, leverage)
-        both v4's columns and v5's side by side (--arms v4,both)
+        base        the dataset production trains on today
+        candidate   the same frame with those columns taken from another
+                    dataset, rebuilt from a different impact cache by
+                    rebuild_impact_features.py
+        both        base's columns and the candidate's side by side
+                    (--arms base,both)
     Paired within each (month, seed) cell.
 
-Run:  py prediction_engines/impact_v5_lab.py [--months 21] [--seeds 3]
+    What has been run through it, all against the cache before it:
+        impact_v5_leverage_lab.json  v4 -> value pricing, leverage-weighted
+        impact_v5_lab_both.json      v4 -> v4 + weighted value together
+        impact_v5_unweighted_lab.json v4 -> value pricing, every weight 1.0
+        impact_v5_lab.json           that -> pricing 5.1 (assists complete and
+                                     proportional, tracked passing, exact
+                                     free-throw possessions)
+    The first three label their arms v4 / v5.
+
+Run:  py prediction_engines/impact_v5_lab.py --candidate output/engineered_dataset_pregame_new.pkl
 Output: output/impact_v5_lab.json
 """
 import argparse
@@ -29,9 +39,9 @@ import pandas as pd
 HERE = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(HERE)
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")
-V4_PATH = os.path.join(OUTPUT_DIR, "engineered_dataset_pregame.pkl")
-V5_PATH = os.path.join(OUTPUT_DIR, "engineered_dataset_pregame_v5.pkl")
+BASE_PATH = os.path.join(OUTPUT_DIR, "engineered_dataset_pregame.pkl")
 REPORT_PATH = os.path.join(OUTPUT_DIR, "impact_v5_lab.json")
+CANDIDATE_PREFIX = "cand_"
 
 
 def _load_sibling(name):
@@ -45,26 +55,60 @@ lab = _load_sibling("consistency_lab")
 wf = lab.wf
 
 
-def impact_columns(features):
-    return [f for f in features if "impact" in f]
+def differing_columns(base_ds, candidate_ds, features):
+    """The features whose values differ between the two datasets.
+
+    Found by comparing the columns rather than by their names: roster_form_l6
+    and roster_form_l3 are built from the impact cache too and carry no
+    "impact" in their name, and a name filter left them out - which made the
+    candidate arm a hybrid of the two caches.
+    """
+    a = base_ds.set_index("game_id")
+    b = candidate_ds.set_index("game_id").reindex(a.index)
+    return [f for f in features
+            if not np.allclose(a[f].astype(float), b[f].astype(float), equal_nan=True)]
 
 
-def load_frames(v5_path=V5_PATH):
-    v4 = pd.read_pickle(V4_PATH)
-    v5 = pd.read_pickle(v5_path)
-    base = list(v4["features"])
-    extra = [c for c in v4["feature_groups"]["pregame_extra"] if c in v4["dataset"].columns]
-    features = base + extra
-    changed = impact_columns(features)
-    a = v4["dataset"].copy()
-    a["game_id"] = a["game_id"].astype(str).str.zfill(10)
-    b = v5["dataset"][["game_id"] + changed].rename(columns={c: f"v5_{c}" for c in changed})
-    b["game_id"] = b["game_id"].astype(str).str.zfill(10)
-    frame = a.merge(b, on="game_id", how="left")
+def load_frames(base_path, candidate_path):
+    """One frame carrying both datasets' impact columns, and each arm's features."""
+    base = pd.read_pickle(base_path)
+    candidate = pd.read_pickle(candidate_path)
+    extra = [c for c in base["feature_groups"]["pregame_extra"] if c in base["dataset"].columns]
+    features = list(base["features"]) + extra
+    frame = base["dataset"].copy()
+    frame["game_id"] = frame["game_id"].astype(str).str.zfill(10)
+    candidate_ds = candidate["dataset"].copy()
+    candidate_ds["game_id"] = candidate_ds["game_id"].astype(str).str.zfill(10)
+    changed = differing_columns(frame, candidate_ds, features)
+    other = candidate_ds[["game_id"] + changed].rename(
+        columns={c: CANDIDATE_PREFIX + c for c in changed})
+    frame = frame.merge(other, on="game_id", how="left")
     frame["game_date"] = pd.to_datetime(frame["game_date"])
     frame = wf.add_team_game_index(frame)
-    v5_features = [f"v5_{f}" if f in changed else f for f in features]
-    return frame, {"v4": features, "v5": v5_features}, changed
+    candidate_features = [CANDIDATE_PREFIX + f if f in changed else f for f in features]
+    arms = {"base": features, "candidate": candidate_features,
+            "both": features + [f for f in candidate_features if f.startswith(CANDIDATE_PREFIX)]}
+    return frame, arms, changed, {"base": base.get("impact_cache"),
+                                  "candidate": candidate.get("impact_cache")}
+
+
+def signs_through_prefix(original_signs):
+    """consistency_lab.monotone_signs keys on the diff_ prefix; the candidate's
+    copies carry another prefix in front of it, so the rule has to see through
+    that. Each group is signed on its own sub-frame, so a base column and the
+    candidate column of the same name never sit side by side."""
+    def signs(fit_df, features):
+        plain = [f for f in features if not f.startswith(CANDIDATE_PREFIX)]
+        prefixed = [f for f in features if f.startswith(CANDIDATE_PREFIX)]
+        cut = len(CANDIDATE_PREFIX)
+        out = {}
+        if plain:
+            out.update(zip(plain, original_signs(fit_df[plain + ["point_diff"]], plain)))
+        if prefixed:
+            sub = fit_df[prefixed + ["point_diff"]].rename(columns={f: f[cut:] for f in prefixed})
+            out.update(zip(prefixed, original_signs(sub, [f[cut:] for f in prefixed])))
+        return [out.get(f, 0) for f in features]
+    return signs
 
 
 def main():
@@ -72,39 +116,30 @@ def main():
     parser.add_argument("--months", type=int, default=21)
     parser.add_argument("--seeds", type=int, default=3)
     parser.add_argument("--out", default=REPORT_PATH)
-    parser.add_argument("--arms", default="v4,v5",
-                        help="v4, v5 ve/veya both (v4 + v5 sutunlari birlikte)")
-    parser.add_argument("--v5-path", default=V5_PATH, help="v5 kolunun veri seti")
+    parser.add_argument("--arms", default="base,candidate", help="base, candidate ve/veya both")
+    parser.add_argument("--base", default=BASE_PATH, help="bugunku uretim veri seti")
+    parser.add_argument("--candidate", required=True, help="karsilastirilacak veri seti")
     args = parser.parse_args()
 
-    frame, feats, changed = load_frames(args.v5_path)
-    print(f"{len(changed)} impact sutunu degisiyor: {changed[:6]} ...")
-    # monotone_signs in consistency_lab keys on the diff_ prefix; the v5 copies
-    # carry a v5_ prefix, so the sign rule has to see through it.
-    original_signs = lab.monotone_signs
+    frame, features_by_arm, changed, caches = load_frames(args.base, args.candidate)
+    print(f"{len(changed)} sutun farkli: {sorted(changed)[:4]} ...; base {caches['base']}, "
+          f"candidate {caches['candidate']}")
+    lab.monotone_signs = signs_through_prefix(lab.monotone_signs)
 
-    def signs_through_prefix(fit_df, features):
-        # The v5_ copies are signed on their own sub-frame, renamed to the
-        # diff_ names the rule keys on, so a v4 and a v5 column of the same
-        # name never sit side by side and come back two-dimensional.
-        plain = [f for f in features if not f.startswith("v5_")]
-        v5 = [f for f in features if f.startswith("v5_")]
-        signs = {}
-        if plain:
-            signs.update(zip(plain, original_signs(fit_df[plain + ["point_diff"]], plain)))
-        if v5:
-            sub = fit_df[v5 + ["point_diff"]].rename(columns={f: f[3:] for f in v5})
-            signs.update(zip(v5, original_signs(sub, [f[3:] for f in v5])))
-        return [signs.get(f, 0) for f in features]
-    lab.monotone_signs = signs_through_prefix
-
-    feats["both"] = feats["v4"] + [f for f in feats["v5"] if f.startswith("v5_")]
     wanted = [a.strip() for a in args.arms.split(",") if a.strip()]
-    arms = {name: {"features": feats[name], "params": lab.REGULARIZED_PARAMS, "monotone": True}
-            for name in wanted}
+    arms = {name: {"features": features_by_arm[name], "params": lab.REGULARIZED_PARAMS,
+                   "monotone": True} for name in wanted}
     folds = wf.month_folds(frame, args.months)
     seeds = [42 + 7 * i for i in range(args.seeds)]
-    print(f"{len(folds)} ay x {len(seeds)} seed, 2 kol (reg+mono+out tarifi)", flush=True)
+    print(f"{len(folds)} ay x {len(seeds)} seed, {len(arms)} kol (reg+mono+out tarifi)", flush=True)
+
+    def write_report(cells):
+        with open(args.out, "w", encoding="utf-8") as f:
+            json.dump({"base_dataset": os.path.basename(args.base),
+                       "candidate_dataset": os.path.basename(args.candidate),
+                       "impact_caches": caches, "changed_columns": changed, "seeds": seeds,
+                       "n_cells": len(cells), "cells": cells,
+                       "summary": lab.summarise(cells, list(arms), "base")}, f, indent=1)
 
     t0 = time.time()
     cells = []
@@ -113,16 +148,13 @@ def main():
         cell = lab.run_cell(month, train, test, arms, seed, with_margin=set(arms))
         if cell["arms"]:
             cells.append(cell)
-            line = "  ".join(f"{k}={v['accuracy']:.3f}/{v['point_diff_mae']:.2f}" for k, v in cell["arms"].items())
+            line = "  ".join(f"{k}={v['accuracy']:.3f}/{v['point_diff_mae']:.2f}"
+                             for k, v in cell["arms"].items())
             print(f"[{i}/{total}] {month} seed={seed} n={cell['n_test']:3d}  {line}  "
                   f"(kalan ~{(time.time() - t0) / i * (total - i) / 60:.0f} dk)", flush=True)
         if i % 3 == 0 or i == total:
-            with open(args.out, "w", encoding="utf-8") as f:
-                json.dump({"changed_columns": changed, "seeds": seeds, "n_cells": len(cells),
-                           "cells": cells, "summary": lab.summarise(cells, list(arms), "v4")},
-                          f, indent=1)
-    summary = lab.summarise(cells, list(arms), "v4")
-    lab.print_summary(summary, list(arms))
+            write_report(cells)
+    lab.print_summary(lab.summarise(cells, list(arms), "base"), list(arms))
     print(f"\nYazildi: {args.out}  ({(time.time() - t0) / 60:.0f} dk)")
     return 0
 

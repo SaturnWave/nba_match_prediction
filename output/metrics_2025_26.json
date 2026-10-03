@@ -13,6 +13,7 @@
   "dataset": "engineered_dataset_pregame.pkl",
   "roster": "pregame",
   "impact_cache": "game_impact_cache_v5.pkl",
+  "impact_pricing": "5.1",
   "feature_set": "base+out",
   "recipe": "reg+mono",
   "n_train": 10441,
@@ -22,108 +23,108 @@
   "ensemble_size": 10,
   "tree_counts": {
     "home_win": [
-      103,
-      196,
-      111,
-      129,
-      101,
-      47,
-      123,
-      164,
-      174,
-      189
+      119,
+      116,
+      104,
+      83,
+      138,
+      173,
+      120,
+      176,
+      168,
+      94
     ],
     "point_diff": [
-      275,
-      306,
-      250,
+      296,
+      286,
+      227,
+      281,
       276,
-      270,
-      249,
-      245,
-      260,
-      283,
-      231
+      292,
+      289,
+      284,
+      278,
+      304
     ],
     "total_score": [
-      84,
-      63,
+      86,
+      85,
+      85,
+      83,
+      64,
+      87,
+      102,
+      51,
       69,
-      49,
-      55,
-      80,
-      58,
-      88,
-      60,
-      80
+      69
     ],
     "home_score": [
-      49,
-      60,
       52,
-      70,
-      64,
+      53,
+      52,
+      48,
+      67,
+      57,
+      43,
+      61,
       65,
-      69,
-      50,
-      72,
-      53
+      68
     ],
     "away_score": [
-      148,
-      129,
-      124,
-      103,
-      86,
-      113,
-      92,
-      117,
-      95,
-      133
+      80,
+      109,
+      104,
+      120,
+      90,
+      111,
+      111,
+      140,
+      107,
+      88
     ]
   },
   "early_stopping": "chronological last 10% of train chooses the tree count; members refitted on all training rows; held-out slice used only for scoring",
   "metrics": {
     "home_win": {
       "accuracy": 0.7792207792207793,
-      "auc": 0.832021697567916,
-      "brier": 0.17261885171591296,
-      "log_loss": 0.5284628807407309,
+      "auc": 0.82953181272509,
+      "brier": 0.17269031107090854,
+      "log_loss": 0.5282856015172194,
       "baseline_home_rate": 0.6136363636363636
     },
     "point_diff": {
-      "mae": 11.423263101113905,
-      "rmse": 14.55494194702544
+      "mae": 11.491224356045896,
+      "rmse": 14.609937017862741
     },
     "total_score": {
-      "mae": 15.278147475273437,
-      "rmse": 19.210063690186008
+      "mae": 15.222366145736844,
+      "rmse": 19.175632377697237
     },
     "home_score": {
-      "mae": 9.95801892898448,
-      "rmse": 12.551494543588186
+      "mae": 9.972863791671287,
+      "rmse": 12.55301194620887
     },
     "away_score": {
-      "mae": 9.47469594049592,
-      "rmse": 11.79938545835768
+      "mae": 9.490049355398572,
+      "rmse": 11.809749100143959
     },
     "blend": {
-      "accuracy": 0.7694805194805194,
-      "auc": 0.8319772353385798,
-      "brier": 0.16661024226424798
+      "accuracy": 0.7727272727272727,
+      "auc": 0.8293984260370815,
+      "brier": 0.16730815718884667
     }
   },
   "calibrator": "isotonic",
   "honest_walk_forward": {
-    "arm": "v5",
+    "arm": "candidate",
     "n_cells": 54,
-    "accuracy_classifier": 0.6714,
-    "accuracy_blend3": 0.6863,
-    "auc": 0.7432,
-    "brier": 0.211,
-    "point_diff_mae": 11.2158,
-    "month_sd": 0.0673,
-    "seed_range": 0.0335,
+    "accuracy_classifier": 0.6655,
+    "accuracy_blend3": 0.6865,
+    "auc": 0.7421,
+    "brier": 0.2112,
+    "point_diff_mae": 11.2172,
+    "month_sd": 0.0658,
+    "seed_range": 0.0408,
     "protocol": ""
   },
   "note": "tek-split rakamlari sezonun son bes haftasindan geliyor ve iyimser; baglayici olan honest_walk_forward"

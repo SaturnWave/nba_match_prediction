@@ -37,3 +37,6 @@ phonedb_cache/
 
 # eski modellerin yerel yedekleri (git gecmisinde zaten var)
 models/backup_*/
+
+# modelin impact onbelleginin kaynagi; value_engine.py --all --refresh --no-leverage ile ~4 dk
+output/value_cache_unweighted.pkl

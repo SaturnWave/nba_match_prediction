@@ -85,6 +85,17 @@ def build_v5(value_cache, games):
     return out
 
 
+def _pricing_version():
+    """The value engine's pricing version, so a cache says which rules built it."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("value_engine",
+                                                  os.path.join(HERE, "value_engine.py"))
+    module = importlib.util.module_from_spec(spec)
+    sys.modules["value_engine"] = module      # @dataclass resolves annotations through it
+    spec.loader.exec_module(module)
+    return module.PRICING_VERSION
+
+
 def team_margin_check(cache, games):
     """How tightly the team-level difference tracks the real margin."""
     rows = []
@@ -115,6 +126,7 @@ def main():
         pickle.dump(v5, f)
 
     summary = {"games": len(v5), "source": os.path.basename(args.value_cache),
+               "pricing_version": _pricing_version(),
                "team_diff_vs_margin_corr_v5": team_margin_check(v5, games)}
     if os.path.exists(V4_PATH):
         with open(V4_PATH, "rb") as f:

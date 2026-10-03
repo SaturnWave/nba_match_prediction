@@ -75,10 +75,14 @@
   </div>
   <div class="foot">Takım OVR = 85 + 1,1 × güç; güç = sezon gücü (rakip düzeltmeli Massey çözümü, maç başına sayı)
     + pencerenin formu (haftalık/aylık; az maçta sıfıra doğru çekilir). Sezon görünümünde güç = sezon gücü.
-    Oyuncu OVR, play-by-play impact skorunun ligdeki yüzdelik sırasından türetilir (ortanca rotasyon oyuncusu ~71,
-    en iyi %3 96+); üretimi ölçer, savunmanın blok/top çalmaya dönüşmeyen kısmını görmez. Kadro OVR, sezon
-    oyuncu OVR'larının en çok oynayan sekiz oyuncuda dakika ağırlıklı ortalaması. Bunlar oynanmış maçların
-    özetidir, tahmin değildir.</div>
+    Oyuncu OVR, <b>değer</b> skorunun ligdeki yüzdelik sırasından türetilir (ortanca rotasyon oyuncusu ~71,
+    en iyi %3 96+). Değer: her oyun sayı cinsinden fiyatlanır (basket = sayı − 1 pozisyon, kaçan şut −0,74,
+    top kaybı −1,15, top çalma +1,15, hücum ribaundu +0,74, savunma ribaundu +0,26, asist +0,35) ve maçın
+    o anda ne kadar açık olduğuna göre ağırlıklanır (fark 25+ iken 0,3). "Üretim" eski impact skorudur:
+    kaçan şutu saymaz, her ribaundu basketin üçte biri sayar. İkisinin farkı "boş istatistik" göstergesi.
+    Kadro OVR, sezon oyuncu OVR'larının en çok oynayan sekiz oyuncuda dakika ağırlıklı ortalaması.
+    Hiçbiri savunmanın blok/top çalmaya dönüşmeyen kısmını görmez; bunlar oynanmış maçların özetidir,
+    tahmin değildir.</div>
 </section>
 
 <script>
@@ -538,10 +542,14 @@ async function loadRankPlayers() {
       $('#rankPlayers').innerHTML = '<div class="foot">Bu dönemde yeterli süre alan oyuncu yok.</div>';
       return;
     }
+    const flag = x => x.empty >= 8
+      ? `<span class="flag pad" title="üretim OVR değer OVR'ın ${x.empty} puan üstünde">boş istatistik +${x.empty}</span>`
+      : (x.empty <= -8 ? `<span class="flag quiet" title="değer OVR üretim OVR'ın ${-x.empty} puan üstünde">sessiz değer</span>` : '');
     $('#rankPlayers').innerHTML = '<ol class="plrank">' + d.players.map(x =>
-      `<li>${ovrBadge(x.ovr)}${logo(x.team, 28)}<span class="pn"><span class="nm">${esc(x.name)}</span>` +
-      `<span class="sub">${esc(x.team)} · ${x.games} maç${x.minutes !== null ? ` · ${x.minutes.toFixed(0)} dk` : ''} · impact ${x.impact.toFixed(1)}</span></span>` +
-      `<span class="sub so">sezon ${x.season_ovr !== null && x.season_ovr !== undefined ? x.season_ovr : '–'}</span></li>`
+      `<li>${ovrBadge(x.ovr)}${logo(x.team, 28)}<span class="pn"><span class="nm">${esc(x.name)} ${flag(x)}</span>` +
+      `<span class="sub">${esc(x.team)} · ${x.games} maç${x.minutes !== null ? ` · ${x.minutes.toFixed(0)} dk` : ''}` +
+      `${x.value !== null ? ` · değer ${sign(x.value)}` : ''} · üretim ${x.impact.toFixed(1)}</span></span>` +
+      `<span class="sub so">üretim OVR ${x.ovr_prod}<br>sezon ${x.season_ovr !== null && x.season_ovr !== undefined ? x.season_ovr : '–'}</span></li>`
     ).join('') + '</ol>';
   } catch (e) {
     $('#rankPlayers').innerHTML = `<div class="err">${esc(e.message)}</div>`;

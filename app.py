@@ -247,8 +247,9 @@ def _load_state():
     rating_cols = [c for c in ratings_module.RATING_FEATURE_COLS if c in rated.columns]
     ratings_by_game = rated.set_index("game_id")[rating_cols] if rating_cols else None
 
-    player_games = _attach_minutes(_build_player_games(dataset))
-    rankings = _load_sibling("power_rankings").RankingEngine(dataset, player_games)
+    rankings_module = _load_sibling("power_rankings")
+    player_games = rankings_module.attach_value(_attach_minutes(_build_player_games(dataset)))
+    rankings = rankings_module.RankingEngine(dataset, player_games)
     calibration_module = _load_sibling("calibration") if calibrator else None
     # One forecast per game up front, so the list can show the model's pick
     # beside every result without a model call per card. ~10,000 rows through

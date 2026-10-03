@@ -30,9 +30,15 @@ THE THREE NUMBERS PER TEAM
     +12 team is 98, a -14 team is 70. Elo and the window record ride along.
 
 PLAYERS
-    A player's value is his play-by-play impact score (per game, already
-    possession-normalised by the engine that produces it), averaged over the
-    window. Players who averaged fewer than 12 minutes or too few games are
+    A player is rated on his VALUE score (value_engine.py: every play priced
+    in points against a possession baseline and weighted by how much the game
+    still hung on it), averaged over the window. The raw impact score - the
+    production count - is rated the same way as a second number, and the gap
+    between the two is shown as the "empty stats" index: a player whose
+    production overall is well above his value overall piles up plays that
+    do not move the score (high-volume misses, conceded rebounds, garbage
+    time). Where no value score exists for a game the production score stands
+    in. Players who averaged fewer than 12 minutes or too few games are
     not rated; the rest are ranked, and the percentile is bent into a 2K-shaped
     curve: OVR = 65 + 34 x p^2.6, so the median rotation player is ~71, the
     top 10% are 91+, the top 3% are 96+, the best player in the window is 99. The roster OVR of a
@@ -278,18 +284,35 @@ class RankingEngine:
         w = pg[(pg["game_date"] >= start) & (pg["game_date"] <= end)]
         if w.empty:
             return pd.DataFrame(columns=["player", "name", "team", "games", "minutes", "impact", "ovr"])
+        if "value" not in w.columns:
+            w = w.assign(value=np.nan)
         agg = (w.sort_values("game_date").groupby("player", sort=False)
                .agg(name=("name", "last"), team=("team", "last"), games=("impact", "size"),
                     minutes=("minutes", "mean"), impact=("impact", "mean"),
-                    minutes_total=("minutes", "sum")).reset_index())
+                    value=("value", "mean"), minutes_total=("minutes", "sum")).reset_index())
         qualified = agg[(agg["games"] >= min_games)
                         & (agg["minutes"].fillna(PLAYER_MIN_MINUTES) >= PLAYER_MIN_MINUTES)].copy()
         if qualified.empty:
             qualified["ovr"] = []
+            qualified["ovr_prod"] = []
+            qualified["empty"] = []
             return qualified
-        pct = qualified["impact"].rank(pct=True, method="average")
-        qualified["percentile"] = pct
-        qualified["ovr"] = [player_ovr_from_percentile(p) for p in pct]
+        # Two overalls: value (plays priced in points, leverage-weighted) is the
+        # one that ranks; production (the raw impact score) is kept so the gap
+        # between them - the "empty stats" index - can be shown.
+        prod_pct = qualified["impact"].rank(pct=True, method="average")
+        qualified["ovr_prod"] = [player_ovr_from_percentile(p) for p in prod_pct]
+        has_value = qualified["value"].notna()
+        if has_value.sum() >= 10:
+            value_pct = qualified.loc[has_value, "value"].rank(pct=True, method="average")
+            qualified["ovr"] = qualified["ovr_prod"]
+            qualified.loc[has_value, "ovr"] = [player_ovr_from_percentile(p) for p in value_pct]
+            qualified["ovr_source"] = np.where(has_value, "value", "production")
+        else:
+            qualified["ovr"] = qualified["ovr_prod"]
+            qualified["ovr_source"] = "production"
+        qualified["ovr"] = qualified["ovr"].astype(int)
+        qualified["empty"] = qualified["ovr_prod"] - qualified["ovr"]
         return qualified
 
     def _min_games(self, window, block):
@@ -397,10 +420,14 @@ class RankingEngine:
         return [{"player": int(p) if isinstance(p, (int, np.integer)) else str(p),
                  "name": str(n), "team": str(t), "games": int(g),
                  "minutes": round(float(m), 1) if pd.notna(m) else None,
-                 "impact": round(float(i), 1), "ovr": int(o),
+                 "impact": round(float(i), 1),
+                 "value": round(float(v), 2) if pd.notna(v) else None,
+                 "ovr": int(o), "ovr_prod": int(op), "empty": int(em),
+                 "ovr_source": str(src),
                  "season_ovr": season_ovr.get(p)}
-                for p, n, t, g, m, i, o in table[["player", "name", "team", "games", "minutes",
-                                                    "impact", "ovr"]].itertuples(index=False)]
+                for p, n, t, g, m, i, v, o, op, em, src in table[
+                    ["player", "name", "team", "games", "minutes", "impact", "value",
+                     "ovr", "ovr_prod", "empty", "ovr_source"]].itertuples(index=False)]
 
 
 # ---------------------------------------------------------------------------
@@ -425,6 +452,23 @@ def player_games_with_minutes(dataset):
     pg = pg.merge(listings.rename(columns={"person_id": "player"})[["game_id", "player", "team",
                                                                      "minutes", "name"]],
                   on=["game_id", "player"], how="left")
+    return attach_value(pg)
+
+
+def attach_value(player_games, cache_path=os.path.join(OUTPUT_DIR, "value_cache_v1.pkl")):
+    """Join the value score per (game, player) when value_engine has run."""
+    if not os.path.exists(cache_path):
+        player_games["value"] = np.nan
+        return player_games
+    import pickle
+    with open(cache_path, "rb") as f:
+        cache = pickle.load(f)
+    rows = [(gid, str(pid), e["value"]) for gid, players in cache.items()
+            for pid, e in players.items()]
+    values = pd.DataFrame(rows, columns=["game_id", "key", "value"])
+    pg = player_games.copy()
+    pg["key"] = pg["player"].astype(str)
+    pg = pg.merge(values, on=["game_id", "key"], how="left").drop(columns=["key"])
     return pg
 
 

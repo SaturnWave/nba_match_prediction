@@ -126,6 +126,39 @@ API: `/api/rankings/periods`, `/api/rankings?window=&key=`,
 önbellekte. Trend oku bir önceki dönemle (sezon görünümünde 28 gün önceyle)
 karşılaştırır.
 
+## Değer skoru ve "boş istatistik" (`prediction_engines/value_engine.py`)
+
+Kullanıcının sorusu: Westbrook 2017-18'de Curry'den yüksek impact alıyor; stat
+padder nasıl ayırt edilir? Teşhis: impact skoru üretimi sayar, bedelini saymaz.
+
+| impact skorunun açığı | etkisi |
+|---|---|
+| kaçan şut sıfır | 21 şut/maç %45 ile atan her isabetten puan alır, hiçbir kaçırmadan kaybetmez |
+| her ribaunt 0,9 taban (+bonuslar); "Off" kontrolü açıklamadaki "Off:0 Def:1" sayaçlarıyla eşleştiği için **her ribaunt hücum ribaundu sayılıyor** | takımın zaten alacağı savunma ribaundu basketin üçte biri ediyor |
+| asist ve serbest atış yok | Harden/Curry'nin değeri eksik |
+| çöp zaman indirimi yok | 25 farkla biten maçın son çeyreği tam puan |
+
+2017-18'de 166 düzenli oyuncu: impact/36 dk ile oyuncunun sahadaki +/−'si
+arasındaki korelasyon **0,14**. Üst sıralar ribaunt alan uzunlar (Drummond
+43,8 ile 5., +/− −0,6).
+
+Değer skoru: her oyun sayı cinsinden, 1,00 sayı/pozisyon tabanına göre
+fiyatlanır (basket = sayı − 1; kaçan şut −0,74; TOV −1,15; STL +1,15; ORB
++0,74; DRB +0,26; blok +0,6; asist +0,35 açıklamadan okunur; faul −0,3/−0,6)
+ve maçın o anki açıklığıyla ağırlıklanır (25+ fark Q4 → 0,3; son 5 dk ≤5
+fark → 1,25). Stil bonusu yok.
+
+Sonuç (2017-18): +/− ile korelasyon **0,14 → 0,42** (maç başına 0,28 → 0,48).
+Curry 9,9/maç, Westbrook 6,7 (üretimde 32,0 vs 40,7). Westbrook'un
+bileşenleri: skor +10,6, kaçan şut −8,6, top kaybı −5,3. "Boş istatistik"
+listesi: Nurkić, Josh Jackson, Schröder, Dennis Smith Jr.; "sessiz değer":
+Curry, Collison, Chris Paul, Otto Porter.
+
+Sıralama ekranında oyuncu OVR artık değerden; üretim OVR yanında, fark
+"boş istatistik" rozeti (≥ +8). Önbellek: `output/value_cache_v1.pkl`
+(`value_engine.py --all`, ~7 dk). Hâlâ görmediği: blok/top çalmaya
+dönüşmeyen savunma, perde, alan açma.
+
 ## Veri
 
 DB (telefon) kapalı; her şey yerel: `phonedb_cache/*.pkl` (12 tablo, 12 Eylül

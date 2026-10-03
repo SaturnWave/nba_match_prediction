@@ -311,3 +311,8 @@ nav.views{background:var(--surface);border-bottom:1px solid var(--line);padding:
 .plrank .pn .nm{font-weight:600;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .plrank .so{text-align:right}
 @media (max-width:420px){.rrow .pw .sub{display:none}}
+.flag{display:inline-block;font-family:var(--mono);font-size:9.5px;letter-spacing:.04em;text-transform:uppercase;
+  padding:1px 6px;border-radius:5px;vertical-align:middle;margin-left:4px}
+.flag.pad{background:var(--warn-soft);color:var(--warn)}
+.flag.quiet{background:var(--pos-soft);color:var(--pos)}
+.plrank .so{line-height:1.35}

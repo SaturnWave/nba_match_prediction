@@ -41,7 +41,7 @@ PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HERE = os.path.join(PROJECT_ROOT, "prediction_engines")
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")
 DATASET_PATH = os.path.join(OUTPUT_DIR, "engineered_dataset_db.pkl")
-IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v4.pkl")
+IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v5.pkl")
 
 
 def _load_sibling(name):

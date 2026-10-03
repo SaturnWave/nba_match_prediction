@@ -106,8 +106,9 @@ MONOTONE_MIN_CORR = 0.02
 LAB_SOURCES = {   # (recipe, feature_set) -> (report, arm) the honest numbers come from
     ("base", "base"): (os.path.join(OUTPUT_DIR, "consistency_lab.json"), "pregame"),
     ("base", "base+out"): (os.path.join(OUTPUT_DIR, "consistency_lab.json"), "pregame+out"),
-    ("reg+mono", "base+out"): (os.path.join(OUTPUT_DIR, "consistency_lab_round2.json"),
-                               "reg+mono+out"),
+    # impact_v5_lab.py runs the shipped recipe on the v5 impact cache the
+    # production dataset is now built from; its v5 arm is the honest number.
+    ("reg+mono", "base+out"): (os.path.join(OUTPUT_DIR, "impact_v5_lab.json"), "v5"),
 }
 
 
@@ -264,7 +265,8 @@ def main():
     dataset["game_date"] = pd.to_datetime(dataset["game_date"])
     features = select_features(blob, args.feature_set)
     print(f"dataset: {len(dataset):,} mac, {dataset['season'].nunique()} sezon, "
-          f"{len(features)} feature ({args.feature_set}, kadro: mac oncesi)")
+          f"{len(features)} feature ({args.feature_set}, kadro: mac oncesi, "
+          f"impact: {blob.get('impact_cache', 'v4')})")
 
     train_df, test_df = chrono_split(dataset)
     print(f"train {len(train_df):,} | held-out {len(test_df):,} "
@@ -395,6 +397,7 @@ def main():
     payload = {
         "trained_on": sorted(dataset["season"].unique().tolist()),
         "dataset": os.path.basename(args.dataset), "roster": "pregame",
+        "impact_cache": blob.get("impact_cache", "game_impact_cache_v4.pkl"),
         "feature_set": args.feature_set, "recipe": args.recipe,
         "n_train": int(len(train_df)), "n_test": int(len(test_df)),
         "n_features": len(features),

@@ -35,7 +35,7 @@ import numpy as np
 import pandas as pd
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v4.pkl")
+IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v5.pkl")
 
 # Box columns worth carrying. `to` is a reserved word in SQL, hence backticks
 # at the call site.
@@ -140,7 +140,7 @@ def load_player_games(conn, seasons=None, verbose=True):
 def attach_impact(player_games, conn, seasons=None):
     """Join per-game impact, keyed on person id (surnames do not identify).
 
-    Read from game_impact_cache_v4.pkl. This used to query player_game_impact,
+    Read from game_impact_cache_v5.pkl. This used to query player_game_impact,
     but that table was only ever a flattened copy of this cache
     (db_build_derived.impact_rows), and the rebuilt phonedb does not have it -
     the query now fails. The entries kept follow impact_rows exactly: an entry

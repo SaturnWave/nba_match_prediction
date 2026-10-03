@@ -47,7 +47,7 @@ BASE_DATA_DIR = os.path.join(PROJECT_ROOT, "nba_data")
 GAME_IDS_DIR = os.path.join(PROJECT_ROOT, "game_ids")
 MODEL_DIR = os.path.join(PROJECT_ROOT, "models")
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")
-IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v4.pkl")
+IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v5.pkl")
 
 TARGETS = ["home_win", "point_diff", "total_score", "home_score", "away_score"]
 

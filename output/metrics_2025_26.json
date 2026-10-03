@@ -12,6 +12,7 @@
   ],
   "dataset": "engineered_dataset_pregame.pkl",
   "roster": "pregame",
+  "impact_cache": "game_impact_cache_v5.pkl",
   "feature_set": "base+out",
   "recipe": "reg+mono",
   "n_train": 10441,
@@ -21,109 +22,109 @@
   "ensemble_size": 10,
   "tree_counts": {
     "home_win": [
-      157,
-      188,
-      102,
-      36,
-      173,
-      169,
-      132,
+      103,
+      196,
+      111,
       129,
-      177,
-      185
+      101,
+      47,
+      123,
+      164,
+      174,
+      189
     ],
     "point_diff": [
-      311,
-      267,
-      289,
-      279,
-      204,
-      255,
-      244,
-      330,
-      299,
-      303
+      275,
+      306,
+      250,
+      276,
+      270,
+      249,
+      245,
+      260,
+      283,
+      231
     ],
     "total_score": [
+      84,
+      63,
       69,
-      59,
-      82,
-      95,
-      47,
-      77,
-      99,
-      86,
-      81,
-      88
+      49,
+      55,
+      80,
+      58,
+      88,
+      60,
+      80
     ],
     "home_score": [
+      49,
+      60,
+      52,
+      70,
+      64,
       65,
-      56,
-      58,
-      53,
-      51,
-      56,
-      73,
-      65,
-      56,
-      68
+      69,
+      50,
+      72,
+      53
     ],
     "away_score": [
-      109,
+      148,
+      129,
+      124,
+      103,
+      86,
+      113,
+      92,
+      117,
       95,
-      104,
-      112,
-      103,
-      107,
-      119,
-      103,
-      99,
-      78
+      133
     ]
   },
   "early_stopping": "chronological last 10% of train chooses the tree count; members refitted on all training rows; held-out slice used only for scoring",
   "metrics": {
     "home_win": {
-      "accuracy": 0.801948051948052,
-      "auc": 0.8394913520963941,
-      "brier": 0.16999757027828194,
-      "log_loss": 0.5226571343832891,
+      "accuracy": 0.7792207792207793,
+      "auc": 0.832021697567916,
+      "brier": 0.17261885171591296,
+      "log_loss": 0.5284628807407309,
       "baseline_home_rate": 0.6136363636363636
     },
     "point_diff": {
-      "mae": 11.369691263030894,
-      "rmse": 14.545684780020068
+      "mae": 11.423263101113905,
+      "rmse": 14.55494194702544
     },
     "total_score": {
-      "mae": 15.228728553250706,
-      "rmse": 19.14477169412607
+      "mae": 15.278147475273437,
+      "rmse": 19.210063690186008
     },
     "home_score": {
-      "mae": 9.98979006524018,
-      "rmse": 12.55805962985345
+      "mae": 9.95801892898448,
+      "rmse": 12.551494543588186
     },
     "away_score": {
-      "mae": 9.443849781577164,
-      "rmse": 11.748520626086453
+      "mae": 9.47469594049592,
+      "rmse": 11.79938545835768
     },
     "blend": {
-      "accuracy": 0.7857142857142857,
-      "auc": 0.8365568449602062,
-      "brier": 0.16498985619951417
+      "accuracy": 0.7694805194805194,
+      "auc": 0.8319772353385798,
+      "brier": 0.16661024226424798
     }
   },
   "calibrator": "isotonic",
   "honest_walk_forward": {
-    "arm": "reg+mono+out",
+    "arm": "v5",
     "n_cells": 54,
-    "accuracy_classifier": 0.6729,
-    "accuracy_blend3": 0.6854,
-    "auc": 0.7433,
-    "brier": 0.2101,
-    "point_diff_mae": 11.201,
-    "month_sd": 0.0607,
-    "seed_range": 0.043,
-    "protocol": "walk_forward.py's: expanding-origin monthly folds, a classifier fitted on\n    the first 80% of prior games and early-stopped on the next 10%, the final\n    10% kept for the calibrator and for the margin-to-probability map; a\n    point-differential regressor fitted 90/10. Scored at burn-in 10. The\n    observed, pregame and pregame+out arms also get the blended forecaster\n    (classifier + margin view + logistic view), since that is what production\n    serves.\n\n    Nothing from the test month reaches any fit, and every arm is compared to\n    another arm inside the same cell."
+    "accuracy_classifier": 0.6714,
+    "accuracy_blend3": 0.6863,
+    "auc": 0.7432,
+    "brier": 0.211,
+    "point_diff_mae": 11.2158,
+    "month_sd": 0.0673,
+    "seed_range": 0.0335,
+    "protocol": ""
   },
   "note": "tek-split rakamlari sezonun son bes haftasindan geliyor ve iyimser; baglayici olan honest_walk_forward"
 }

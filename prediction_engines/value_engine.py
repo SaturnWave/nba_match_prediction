@@ -46,6 +46,14 @@ LEVERAGE
     stat line built in garbage time shrinks; one built when it mattered does
     not.
 
+    That is the right weighting for crediting a PLAYER and the wrong one for
+    a TEAM feature: how far a team won by predicts its next game, garbage time
+    included. So the player ratings use the weighted run (default) and the
+    model's impact cache is built from --no-leverage (impact_v5.py), the same
+    pricing with every weight at 1.0. Measured: weighted values as model
+    features cost Brier +0.003 and raised winner-vs-margin contradictions from
+    8.9% to 12.4%; unweighted values were indistinguishable from the old score.
+
 WHAT IT IS NOT
     Still a box-plus-context score. It does not see screens, spacing, closeouts
     or who a player guarded; those live in the tracking and matchup tables and
@@ -162,7 +170,7 @@ def price(row, last_miss_team):
     return None
 
 
-def compute_game_value(pbp):
+def compute_game_value(pbp, use_leverage=True):
     """Per-player value for one game from its play-by-play frame.
 
     Returns {person_id: {name, team, value, <components>, events}}. Rows
@@ -214,7 +222,7 @@ def compute_game_value(pbp):
         if priced is None:
             continue
         component, value = priced
-        w = leverage(row["_p"], row["_t"], row["_h"] - row["_a"])
+        w = leverage(row["_p"], row["_t"], row["_h"] - row["_a"]) if use_leverage else 1.0
         e = entry(pid, name, team)
         e[component] += value * w
         e["value"] += value * w
@@ -243,14 +251,14 @@ def pbp_path(season, game_id):
     return os.path.join(DATA_DIR, season, game_id, "play_by_play", f"{game_id}pbp.csv")
 
 
-def load_cache():
-    if os.path.exists(CACHE_PATH):
-        with open(CACHE_PATH, "rb") as f:
+def load_cache(path=CACHE_PATH):
+    if os.path.exists(path):
+        with open(path, "rb") as f:
             return pickle.load(f)
     return {}
 
 
-def run_seasons(seasons, cache, verbose=True):
+def run_seasons(seasons, cache, verbose=True, cache_path=CACHE_PATH, use_leverage=True):
     t0 = time.time()
     for season in seasons:
         ids = season_game_ids(season)
@@ -262,7 +270,7 @@ def run_seasons(seasons, cache, verbose=True):
                 missing += 1
                 continue
             try:
-                cache[gid] = compute_game_value(pd.read_csv(path, low_memory=False))
+                cache[gid] = compute_game_value(pd.read_csv(path, low_memory=False), use_leverage)
             except (OSError, pd.errors.ParserError, pd.errors.EmptyDataError):
                 missing += 1
             if verbose and n % 200 == 0:
@@ -271,7 +279,7 @@ def run_seasons(seasons, cache, verbose=True):
             print(f"  {season}: {len(ids)} mac, {len(todo)} yeni, {missing} dosyasiz "
                   f"({time.time() - t0:.0f} sn)", flush=True)
         os.makedirs(OUTPUT_DIR, exist_ok=True)
-        with open(CACHE_PATH, "wb") as f:
+        with open(cache_path, "wb") as f:
             pickle.dump(cache, f)
     return cache
 
@@ -356,15 +364,18 @@ def main():
     parser.add_argument("--seasons", nargs="*", default=None)
     parser.add_argument("--all", action="store_true", help="veri setindeki her sezon")
     parser.add_argument("--eval", action="store_true", help="impact ve +/- ile karsilastir")
+    parser.add_argument("--no-leverage", action="store_true",
+                        help="oyun agirligi yok (her oyun 1.0) - takim feature deneyi icin")
+    parser.add_argument("--cache", default=CACHE_PATH, help="onbellek dosyasi")
     args = parser.parse_args()
     seasons = args.seasons or []
     if args.all:
         seasons = sorted(pd.read_pickle(GAMES_PATH)["season"].unique())
     if not seasons:
         seasons = ["2017_2018"]
-    cache = load_cache()
-    cache = run_seasons(seasons, cache)
-    print(f"onbellek: {len(cache):,} mac -> {CACHE_PATH}")
+    cache = load_cache(args.cache)
+    cache = run_seasons(seasons, cache, cache_path=args.cache, use_leverage=not args.no_leverage)
+    print(f"onbellek: {len(cache):,} mac -> {args.cache}")
     if args.eval:
         for season in seasons:
             print_evaluation(evaluate(season, cache), season)

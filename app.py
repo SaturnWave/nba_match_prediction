@@ -57,6 +57,9 @@ OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")
 # Serving predictions from features the models were never fitted on is a silent
 # error; nothing raises, the numbers just mean less than they appear to.
 DATASET_PATH = os.path.join(OUTPUT_DIR, "engineered_dataset_pregame.pkl")
+# Deliberately the OLD engine's cache. The models train on v5 (value pricing),
+# but the rankings show production and value side by side and flag the gap as
+# "empty stats"; production has to come from the engine that counted it.
 IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v4.pkl")
 CALIBRATOR_PATH = os.path.join(MODEL_DIR, "home_win_calibrator_2025_26.pkl")
 SIMULATOR_PATH = os.path.join(MODEL_DIR, "simulator_2025_26.pkl")

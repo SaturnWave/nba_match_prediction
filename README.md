@@ -108,21 +108,43 @@ streaks, season averages, head-to-head history — all shifted to avoid leakage)
 trains three LightGBM models, and saves them with feature-importance plots to
 `models/`. It then runs an example prediction (e.g. `GSW` vs `LAL`).
 
-## The impact score
+## The impact score (v5)
 
-Each play is assigned a base value by event type, then adjusted:
+Every play a player is named on is priced by how it moves expected points
+against a baseline of 1.00 points per possession, then weighted by how much
+the game still hung on it. Implemented in `prediction_engines/value_engine.py`;
+`prediction_engines/impact_v5.py` writes the result in the cache layout the
+rest of the pipeline reads (`game_impact_cache_v5.pkl`).
 
-| Event       | Base value | Example modifiers                                  |
-|-------------|-----------:|----------------------------------------------------|
-| Made shot   | 2.0 / 3.0  | shot difficulty, lead change, late shot clock      |
-| Steal       | 1.4        | leads to score, opponent frontcourt, steal type    |
-| Block       | 1.2        | rim protection, stops a run, shot-clock violation  |
-| Rebound     | 0.6 / 0.9  | offensive vs defensive, putback, after a block     |
-| Foul        | −0.3…−1.5  | foul trouble, bonus situation, foul type           |
-| Turnover    | −0.8       | turnover type, leads to opponent score             |
+| Event              | Value                      | Why                                              |
+|--------------------|---------------------------:|--------------------------------------------------|
+| Made 2 / made 3    | +1.0 / +2.0                | points scored minus the possession spent         |
+| Missed shot        | −0.74                      | the possession is usually gone (26% come back)   |
+| Free throw         | +1 made, −0.44 per attempt | a trip to the line is 0.44 of a possession each  |
+| Assist             | +0.35                      | read from the description's `(Name N AST)`       |
+| Turnover / steal   | −1.15 / +1.15              | a possession plus a transition premium           |
+| Offensive rebound  | +0.74                      | a possession recovered                           |
+| Defensive rebound  | +0.26                      | a 26% chance denied — the expected outcome       |
+| Block              | +0.6                       | the shooter already pays for the miss            |
+| Foul               | −0.3 personal, −0.6 shooting | offensive fouls are paid by their turnover row  |
 
-Plays in clutch time (last 5 min of Q4 / OT) are boosted ×1.5, and totals are
-normalized to 100 possessions per team.
+Leverage: 1.0 while the game is live, sliding to 0.3 at 25 points apart in the
+fourth quarter, 1.25 in the last five minutes of a game within five points.
+The leverage weight is applied in the player ratings only; the model's team
+features use the same pricing with every weight at 1.0 (`--no-leverage`),
+because the size of a win predicts the next game and weighted values were
+measured to cost the forecast (Brier +0.003) while unweighted ones cost nothing.
+No style bonuses — a step-back three and an open one both put three points on
+the board. Rebound type is read from whose miss preceded it, not from the
+description (which carries the player's running totals).
+
+Why v5 replaced the original engine: that engine fired only on made shots (a
+miss cost nothing), typed every rebound as offensive because `"Off" in
+description` matches `REBOUND (Off:0 Def:1)` on every row, scored neither
+assists nor free throws, and discounted nothing once a game was decided. On
+2017-18 regulars it correlated 0.14 with on-court plus-minus per 36 minutes;
+v5 correlates 0.42 (0.39 and 0.43 on 2023-24 and 2025-26). The old functions
+remain in `impact_engine.py` for reference.
 
 ## Shared modules
 

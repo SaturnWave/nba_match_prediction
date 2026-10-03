@@ -1,19 +1,19 @@
 {
   "n_games": 308,
   "winner": {
-    "model_accuracy": 0.7857142857142857,
+    "model_accuracy": 0.7694805194805194,
     "market_accuracy": 0.775974025974026,
-    "model_brier": 0.16498985619951415,
+    "model_brier": 0.16661024226424798,
     "market_brier": 0.15315323299833813,
-    "agreement_rate": 0.9058441558441559
+    "agreement_rate": 0.8961038961038961
   },
   "margin": {
-    "model_mae": 11.369691263030894,
+    "model_mae": 11.423263101113907,
     "market_mae": 10.584415584415584,
-    "mean_abs_model_minus_line": 3.153430700197011
+    "mean_abs_model_minus_line": 3.190665094284686
   },
   "total": {
-    "model_mae": 15.228728553250706,
+    "model_mae": 15.278147475273437,
     "market_mae": 14.331168831168831
   },
   "against_the_spread": {
@@ -22,9 +22,9 @@
     "se": 0.028388452373665874,
     "break_even": 0.524,
     "when_model_differs_by_3plus": {
-      "n": 133,
-      "cover_rate": 0.47368421052631576,
-      "se": 0.04329540766634857
+      "n": 138,
+      "cover_rate": 0.5,
+      "se": 0.04256282653793743
     }
   },
   "features": 196

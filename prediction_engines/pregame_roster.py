@@ -81,7 +81,7 @@ import pandas as pd
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")
 BOX_PLAYER_PATH = os.path.join(PROJECT_ROOT, "phonedb_cache", "box_player_traditional.pkl")
-IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v4.pkl")
+IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v5.pkl")
 MATCHUP_CACHE = os.path.join(PROJECT_ROOT, "matchup_cache_v1.pkl")
 DEFAULT_IN = os.path.join(OUTPUT_DIR, "engineered_dataset_db.pkl")
 DEFAULT_OUT = os.path.join(OUTPUT_DIR, "engineered_dataset_pregame.pkl")
@@ -367,6 +367,9 @@ def replace_roster_features(dataset, pregame, keep_observed_as=None):
         ds = ds.rename(columns={c: f"{keep_observed_as}{c}" for c in present})
     else:
         ds = ds.drop(columns=present)
+    # A frame that already went through this once carries the extras too;
+    # they are rebuilt here, so the old copies go before the merge.
+    ds = ds.drop(columns=[c for c in EXTRA_COLUMNS if c in ds.columns])
     ds = ds.merge(pregame, on="game_id", how="left")
     # The rest of the dataset was fillna(0)'d by the builder; match that so a
     # team with no history is treated the same way in both regimes.

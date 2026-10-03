@@ -1,6 +1,6 @@
 # Durum — db-pipeline dalı
 
-Son güncelleme: 2026-10-03 (güç sıralaması eklendi). Bu dosya, çalışmaya ara verildiğinde nerede
+Son güncelleme: 2026-10-03 (güç sıralaması, değer skoru, impact v5). Bu dosya, çalışmaya ara verildiğinde nerede
 kalındığını ve nasıl devam edileceğini anlatır.
 
 ## Tek cümlelik özet
@@ -27,7 +27,9 @@ burn-in ≥ 10 maç, `output/consistency_lab_round2.json`, kol `reg+mono+out`):
 | Naif taban | 0,555 |
 
 Tek split (son 308 maç, 2026-03-04 sonrası, hiçbir fit'e girmedi):
-blend isabet 0,786, AUC 0,837, Brier 0,165; marj MAE 11,37; toplam MAE 15,23.
+blend isabet 0,770, AUC 0,832, Brier 0,167; marj MAE 11,42; toplam MAE 15,28
+(impact v5 modelleri; v4 modelleriyle 0,786 / 0,165 / 11,37 idi — 308 maçta
+gürültü sınırında, bağlayıcı olan walk-forward değişmedi).
 Sezonun son beş haftası kolay okur; bu rakama değil üsttekine güven.
 
 ## Bulunan iki sızıntı
@@ -95,10 +97,10 @@ farkları seed gürültüsü sınırında, Brier/çelişki farkları değil.
 
 | soru | model | piyasa |
 |---|---|---|
-| kazanan isabeti | 0,786 | 0,776 |
-| Brier | 0,165 | 0,153 |
-| sayı farkı MAE | 11,37 | 10,58 |
-| toplam MAE | 15,23 | 14,33 |
+| kazanan isabeti | 0,769 | 0,776 |
+| Brier | 0,167 | 0,153 |
+| sayı farkı MAE | 11,42 | 10,58 |
+| toplam MAE | 15,28 | 14,33 |
 | handikapta modelin tarafı | %45,8 ± 2,8 | başabaş %52,4 |
 
 Önceki oturumda görülen "handikap %57 / çizgiden 3+ sapınca %61" sinyali
@@ -158,6 +160,38 @@ Sıralama ekranında oyuncu OVR artık değerden; üretim OVR yanında, fark
 "boş istatistik" rozeti (≥ +8). Önbellek: `output/value_cache_v1.pkl`
 (`value_engine.py --all`, ~7 dk). Hâlâ görmediği: blok/top çalmaya
 dönüşmeyen savunma, perde, alan açma.
+
+## Impact motoru v5 — açıklar kapatıldı, proje geneline yayıldı
+
+Kullanıcının hatırladığı düzeltmeler hiçbir dalda yoktu (Master, csv-pipeline,
+db-pipeline, stash: "Off" testi ilk commit'ten beri aynı, kaçan şut/asist hiç
+yazılmamış). Yeniden yapıldı ve bu kez **tüm tüketiciler** değiştirildi:
+
+| ne | nerede |
+|---|---|
+| fiyatlama motoru | `value_engine.py` (üstteki tablo) |
+| v4 biçiminde önbellek | `impact_v5.py` → `game_impact_cache_v5.pkl`; takım farkı ↔ gerçek marj korelasyonu **0,80 → 0,90** |
+| veri setinin 24 impact sütunu | `rebuild_impact_features.py`: takım toplamları + 12 rolling sütun (FeatureEngineer tarifi eski sütunları birebir üretti, fark 0,00) + maç öncesi kadro ailesi |
+| model tarafı tüketiciler | `build_dataset_db`, `db_source`, `pregame_roster`, `player_source`, `player_simulation`, `db_build_derived`, `predict_2025_2026` → v5 |
+| bilerek v4 kalan | `app.py` (sıralamadaki "üretim" sütunu eski motorun saydığı şey olmalı ki "boş istatistik" farkı anlamlı kalsın), `value_engine.py` (karşılaştırma hedefi) |
+
+Walk-forward etkisi (`impact_v5_lab.py`, aynı 54 hücre, reg+mono+out tarifi,
+v4 ile eşleştirilmiş):
+
+| modelin impact feature'ları | isabet | Brier | marj MAE | çelişki | seed yayılımı |
+|---|---|---|---|---|---|
+| v4 (eski üretim skoru) | 0,673 | 0,2101 | 11,20 | %8,9 | 0,043 |
+| değer, oyun ağırlıklı (`impact_v5_leverage_lab.json`) | −0,7 ±0,7 | **+0,0030 ±0,0015** | **+0,04 ±0,01** | %12,4 | 0,045 |
+| v4 + ağırlıklı değer birlikte (`impact_v5_lab_both.json`) | **−2,2 ±0,7** | +0,0051 | +0,02 | %14,9 | 0,054 |
+| **değer, ağırlıksız (`impact_v5_lab.json`, üretimde)** | −0,15 ±0,5 | +0,0009 ±0,0013 | +0,015 ±0,013 | %9,6 | **0,034** |
+
+Okuma: oyun (çöp zaman) ağırlığı oyuncuya hak vermek için doğru, takım
+feature'ı için yanlış — bir sonraki maçı tahmin ederken farkın büyüklüğü
+bilgidir (MOV'lu Elo gibi). Ağırlıksız değer, eski skorla her ölçütte ayırt
+edilemez ve seed'e daha az duyarlı. Karar: **model `game_impact_cache_v5.pkl`
+= ağırlıksız değer** (`value_engine.py --all --no-leverage` →
+`impact_v5.py`), **oyuncu OVR = ağırlıklı değer** (`output/value_cache_v1.pkl`).
+Aynı fiyatlama, iki kullanım. Takım farkı ↔ gerçek marj: v4 0,80, v5 0,94.
 
 ## Veri
 

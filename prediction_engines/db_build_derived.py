@@ -48,7 +48,7 @@ import pandas as pd
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HERE = os.path.join(PROJECT_ROOT, "prediction_engines")
-IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v4.pkl")
+IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v5.pkl")
 INSERT_CHUNK = 5000
 
 DDL_PLAYER_IMPACT = """

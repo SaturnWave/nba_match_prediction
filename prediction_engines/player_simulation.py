@@ -44,7 +44,7 @@ import numpy as np
 import pandas as pd
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v4.pkl")
+IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v5.pkl")
 
 HISTORY_WINDOW = 20      # games of recent history each draw resamples from
 MIN_HISTORY = 5          # below this a player has no usable distribution

@@ -32,7 +32,7 @@ WHAT THIS RETURNS
     against the 17.9% the improvement report derived from the schedule).
 
     Impact scores are NOT recomputed here. They come from the existing
-    game_impact_cache_v4.pkl, keyed by game_id and derived from play-by-play,
+    game_impact_cache_v5.pkl, keyed by game_id and derived from play-by-play,
     which this module does not change.
 
 CREDENTIALS
@@ -320,7 +320,7 @@ def attach_impact(master, cache_path=None):
     """
     import pickle
 
-    cache_path = cache_path or os.path.join(PROJECT_ROOT, "game_impact_cache_v4.pkl")
+    cache_path = cache_path or os.path.join(PROJECT_ROOT, "game_impact_cache_v5.pkl")
     cache = {}
     if os.path.exists(cache_path):
         try:
@@ -381,7 +381,7 @@ def games_missing_impact(master, cache_path=None):
     """Game ids present in the frame but absent from the impact cache."""
     import pickle
 
-    cache_path = cache_path or os.path.join(PROJECT_ROOT, "game_impact_cache_v4.pkl")
+    cache_path = cache_path or os.path.join(PROJECT_ROOT, "game_impact_cache_v5.pkl")
     cache = {}
     if os.path.exists(cache_path):
         try:

@@ -4,242 +4,250 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
-<title>NBA 2025-26 Tahmin Paneli</title>
-<style>
-:root {
-  --ground:#f4f6f7; --surface:#fff; --surface-2:#edf1f3;
-  --ink:#11181c; --muted:#5a6a72; --faint:#8a99a1;
-  --line:#dce3e6; --line-strong:#c3cfd4;
-  --accent:#2f5d7c; --accent-soft:#e3edf3;
-  --pos:#1e7f4f; --pos-soft:#e0f0e7;
-  --neg:#b4402f; --neg-soft:#f8e4e0;
-  --warn:#8a6416; --warn-soft:#f6ebd6;
-  --mono:"SF Mono",ui-monospace,"Cascadia Mono",Consolas,monospace;
-  --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-  --tap:44px;
-}
-@media (prefers-color-scheme:dark){:root{
-  --ground:#0e1417; --surface:#161f23; --surface-2:#1c272c;
-  --ink:#e6edf0; --muted:#93a5ad; --faint:#6e828b;
-  --line:#26333a; --line-strong:#37474f;
-  --accent:#79aecf; --accent-soft:#172a36;
-  --pos:#4fbe86; --pos-soft:#12271d;
-  --neg:#e2836f; --neg-soft:#2c1815;
-  --warn:#c99b3f; --warn-soft:#2a2213;
-}}
-*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
-html,body{margin:0;height:100%}
-body{background:var(--ground);color:var(--ink);font-family:var(--sans);
-  font-size:16px;line-height:1.5;overflow:hidden}
-
-header{background:var(--surface);border-bottom:1px solid var(--line);
-  padding:calc(env(safe-area-inset-top) + 12px) 16px 12px;
-  display:flex;flex-direction:column;gap:6px}
-.brand{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
-.brand h1{margin:0;font-size:18px;font-weight:650;letter-spacing:-.02em}
-.brand .season{font-family:var(--mono);font-size:12px;color:var(--muted)}
-.metrics{font-family:var(--mono);font-size:11.5px;color:var(--muted);
-  display:flex;gap:14px;flex-wrap:wrap}
-.metrics b{color:var(--ink);font-weight:600}
-
-.filters{display:flex;gap:8px;padding:10px 16px;background:var(--surface);
-  border-bottom:1px solid var(--line);overflow-x:auto}
-.filters select,.filters button{font:inherit;font-size:14px;min-height:var(--tap);
-  padding:0 12px;border:1px solid var(--line-strong);border-radius:8px;
-  background:var(--surface-2);color:var(--ink);flex:0 0 auto}
-.filters button{background:var(--accent-soft);color:var(--accent);font-weight:600}
-
-main{height:100%;display:flex;flex-direction:column;overflow:hidden}
-.panes{flex:1;display:flex;min-height:0}
-.pane{flex:1;min-width:0;overflow-y:auto;-webkit-overflow-scrolling:touch;
-  padding:12px 16px calc(env(safe-area-inset-bottom) + 24px)}
-#detailPane{display:none;background:var(--ground)}
-main.showing-detail #listPane{display:none}
-main.showing-detail #detailPane{display:block}
-@media (min-width:900px){
-  #listPane{max-width:400px;border-right:1px solid var(--line);display:block!important}
-  #detailPane{display:block!important}
-}
-
-.count{font-family:var(--mono);font-size:11.5px;color:var(--faint);
-  padding:2px 0 10px;letter-spacing:.04em;text-transform:uppercase}
-
-.game{display:flex;flex-direction:column;gap:4px;width:100%;text-align:left;
-  background:var(--surface);border:1px solid var(--line);border-radius:10px;
-  padding:12px 14px;margin-bottom:8px;font:inherit;color:inherit;
-  min-height:var(--tap);cursor:pointer}
-.game:active{background:var(--surface-2)}
-.game[aria-current="true"]{border-color:var(--accent);background:var(--accent-soft)}
-.game .top{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
-.game .mu{font-weight:600;font-size:15px;letter-spacing:-.01em}
-.game .sc{font-family:var(--mono);font-size:14px;font-variant-numeric:tabular-nums}
-.game .bot{display:flex;justify-content:space-between;align-items:center;gap:10px}
-.game .dt{font-family:var(--mono);font-size:11.5px;color:var(--muted)}
-
-.tag{font-family:var(--mono);font-size:10px;letter-spacing:.05em;
-  text-transform:uppercase;padding:2px 7px;border-radius:4px;white-space:nowrap}
-.tag.out-of-sample{background:var(--pos-soft);color:var(--pos)}
-.tag.in-sample{background:var(--warn-soft);color:var(--warn)}
-
-.backbtn{display:none;align-items:center;gap:8px;background:none;border:0;
-  color:var(--accent);font:inherit;font-weight:600;font-size:15px;
-  min-height:var(--tap);padding:0;margin-bottom:4px;cursor:pointer}
-main.showing-detail .backbtn{display:flex}
-@media (min-width:900px){main.showing-detail .backbtn{display:none}}
-
-.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;
-  padding:16px;margin-bottom:12px}
-.card h2{margin:0 0 12px;font-size:12px;font-weight:600;letter-spacing:.08em;
-  text-transform:uppercase;color:var(--muted);font-family:var(--mono)}
-
-.head-mu{font-size:22px;font-weight:680;letter-spacing:-.02em;margin:0 0 2px}
-.head-dt{font-family:var(--mono);font-size:12.5px;color:var(--muted);margin-bottom:10px}
-
-.prob{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:10px}
-.prob .big{font-family:var(--mono);font-size:40px;font-weight:600;
-  letter-spacing:-.03em;font-variant-numeric:tabular-nums;line-height:1}
-.prob .who{font-size:17px;font-weight:650}
-.bar{height:10px;border-radius:5px;background:var(--surface-2);overflow:hidden;
-  display:flex;margin-bottom:8px}
-.bar i{display:block;background:var(--accent)}
-.rawnote{font-family:var(--mono);font-size:11.5px;color:var(--muted)}
-
-.kv{display:grid;grid-template-columns:1fr auto;gap:7px 14px;
-  font-family:var(--mono);font-size:13.5px;font-variant-numeric:tabular-nums}
-.kv dt{color:var(--muted)}
-.kv dd{margin:0;text-align:right}
-.kv dd.pos{color:var(--pos)} .kv dd.neg{color:var(--neg)}
-.range{color:var(--faint);font-size:12px}
-
-.verdict{display:inline-flex;align-items:center;gap:6px;font-weight:650;
-  font-size:14px;padding:5px 11px;border-radius:7px;margin-bottom:10px}
-.verdict.ok{background:var(--pos-soft);color:var(--pos)}
-.verdict.no{background:var(--neg-soft);color:var(--neg)}
-
-.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-@media (max-width:420px){.two{grid-template-columns:1fr}}
-.team-h{font-family:var(--mono);font-size:11.5px;color:var(--muted);
-  margin-bottom:6px;letter-spacing:.05em}
-.plist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:5px}
-.plist li{display:flex;justify-content:space-between;gap:10px;font-size:13.5px}
-.plist .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.plist .vv{font-family:var(--mono);font-variant-numeric:tabular-nums;color:var(--muted)}
-
-table{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:12.5px}
-th,td{padding:6px 4px;text-align:right;font-variant-numeric:tabular-nums}
-th:first-child,td:first-child,th:nth-child(2),td:nth-child(2){text-align:left}
-th{color:var(--muted);font-weight:600;font-size:10.5px;letter-spacing:.05em;
-  text-transform:uppercase;border-bottom:1px solid var(--line-strong)}
-td{border-bottom:1px solid var(--line)}
-tr:last-child td{border-bottom:none}
-.scroll{overflow-x:auto}
-
-.empty{color:var(--faint);font-size:14px;text-align:center;padding:48px 16px}
-.spin{color:var(--muted);font-size:14px;padding:24px 0;text-align:center}
-.err{background:var(--neg-soft);color:var(--neg);border-radius:8px;padding:12px 14px;
-  font-size:14px}
-</style>
+<title>NBA Tahmin Paneli</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=3">
 </head>
 <body>
 
-<header>
+<header class="top">
   <div class="brand">
-    <h1>NBA Tahmin Paneli</h1>
-    <span class="season">2019-20 → 2025-26</span>
+    <div class="ball" aria-hidden="true"></div>
+    <div>
+      <h1>NBA Tahmin Paneli</h1>
+      <div class="sub" id="brandSub">yükleniyor…</div>
+    </div>
+    <span class="spacer"></span>
+    <button class="info-btn" id="infoBtn" type="button" aria-expanded="false"
+            aria-controls="honesty" title="Rakamlar nasıl ölçüldü?">?</button>
   </div>
-  <div class="metrics" id="metrics"></div>
+  <div class="pills" id="metrics"></div>
+  <div class="honesty" id="honesty"></div>
 </header>
 
+<nav class="teams" aria-label="Takım seç">
+  <div class="strip" id="teamStrip"></div>
+</nav>
+
 <div class="filters">
-  <select id="seasonSel"><option value="">Tüm sezonlar</option></select>
-  <select id="teamSel"><option value="">Tüm takımlar</option></select>
-  <select id="monthSel"><option value="">Tüm aylar</option></select>
+  <select id="seasonSel" aria-label="Sezon"><option value="">Tüm sezonlar</option></select>
+  <select id="monthSel" aria-label="Ay"><option value="">Tüm aylar</option></select>
+  <label><input type="checkbox" id="heldOnly"> sadece held-out</label>
   <button id="resetBtn" type="button">Sıfırla</button>
 </div>
 
 <main id="main">
-  <div class="panes">
-    <section class="pane" id="listPane">
-      <div class="count" id="gameCount">yükleniyor…</div>
-      <div id="gameList"></div>
-    </section>
-    <section class="pane" id="detailPane">
-      <button class="backbtn" id="backBtn" type="button">← Maç listesi</button>
-      <div id="detail"><div class="empty">Bir maç seçin</div></div>
-    </section>
-  </div>
+  <section class="pane" id="listPane">
+    <div id="teamHead"></div>
+    <div class="count" id="gameCount">yükleniyor…</div>
+    <div id="gameList"></div>
+  </section>
+  <section class="pane" id="detailPane">
+    <button class="backbtn" id="backBtn" type="button">← Maç listesi</button>
+    <div id="detail"><div class="empty"><div class="ball" aria-hidden="true"></div>Bir maç seçin</div></div>
+  </section>
 </main>
 
 <script>
+// ---------------------------------------------------------------------------
+//  Takımlar: ad ve renkler sabit; takım id'si (logo için) sunucudan gelir.
+// ---------------------------------------------------------------------------
+const TEAMS = {
+  ATL:{name:'Atlanta Hawks',c:'#E03A3E'},        BKN:{name:'Brooklyn Nets',c:'#777D84'},
+  BOS:{name:'Boston Celtics',c:'#007A33'},       CHA:{name:'Charlotte Hornets',c:'#00788C'},
+  CHI:{name:'Chicago Bulls',c:'#CE1141'},        CLE:{name:'Cleveland Cavaliers',c:'#860038'},
+  DAL:{name:'Dallas Mavericks',c:'#00538C'},     DEN:{name:'Denver Nuggets',c:'#FEC524'},
+  DET:{name:'Detroit Pistons',c:'#C8102E'},      GSW:{name:'Golden State Warriors',c:'#FFC72C'},
+  HOU:{name:'Houston Rockets',c:'#CE1141'},      IND:{name:'Indiana Pacers',c:'#FDBB30'},
+  LAC:{name:'LA Clippers',c:'#C8102E'},          LAL:{name:'Los Angeles Lakers',c:'#FDB927'},
+  MEM:{name:'Memphis Grizzlies',c:'#5D76A9'},    MIA:{name:'Miami Heat',c:'#98002E'},
+  MIL:{name:'Milwaukee Bucks',c:'#00471B'},      MIN:{name:'Minnesota Timberwolves',c:'#236192'},
+  NOP:{name:'New Orleans Pelicans',c:'#C8102E'}, NYK:{name:'New York Knicks',c:'#F58426'},
+  OKC:{name:'Oklahoma City Thunder',c:'#007AC1'},ORL:{name:'Orlando Magic',c:'#0077C0'},
+  PHI:{name:'Philadelphia 76ers',c:'#006BB6'},   PHX:{name:'Phoenix Suns',c:'#E56020'},
+  POR:{name:'Portland Trail Blazers',c:'#E03A3E'},SAC:{name:'Sacramento Kings',c:'#5A2D81'},
+  SAS:{name:'San Antonio Spurs',c:'#8A9BA8'},    TOR:{name:'Toronto Raptors',c:'#CE1141'},
+  UTA:{name:'Utah Jazz',c:'#4C2E8A'},            WAS:{name:'Washington Wizards',c:'#E31837'},
+};
+const FALLBACK_IDS = {ATL:1610612737,BKN:1610612751,BOS:1610612738,CHA:1610612766,CHI:1610612741,
+  CLE:1610612739,DAL:1610612742,DEN:1610612743,DET:1610612765,GSW:1610612744,HOU:1610612745,
+  IND:1610612754,LAC:1610612746,LAL:1610612747,MEM:1610612763,MIA:1610612748,MIL:1610612749,
+  MIN:1610612750,NOP:1610612740,NYK:1610612752,OKC:1610612760,ORL:1610612753,PHI:1610612755,
+  PHX:1610612756,POR:1610612757,SAC:1610612758,SAS:1610612759,TOR:1610612761,UTA:1610612762,
+  WAS:1610612764};
+
 const $ = s => document.querySelector(s);
 const mainEl = $('#main');
-let selected = null;
+const state = {team:'', selected:null, teamIds:{}, games:[], meta:null};
 
 const pct = v => (v * 100).toFixed(1) + '%';
+const pct0 = v => Math.round(v * 100) + '%';
 const sign = v => (v > 0 ? '+' : '') + v.toFixed(1);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+function team(abbr) { return TEAMS[abbr] || {name: abbr, c: '#888'}; }
+function teamId(abbr) { return state.teamIds[abbr] || FALLBACK_IDS[abbr]; }
+function logoUrl(abbr) {
+  const id = teamId(abbr);
+  return id ? `https://cdn.nba.com/logos/nba/${id}/primary/L/logo.svg` : '';
+}
+function logo(abbr, size) {
+  const t = team(abbr), url = logoUrl(abbr);
+  return `<span class="logo s${size}${url ? '' : ' nologo'}">` +
+    (url ? `<img src="${url}" alt="" loading="lazy" decoding="async"
+      onerror="this.parentNode.classList.add('nologo')">` : '') +
+    `<b style="background:${t.c}">${esc(abbr)}</b></span>`;
+}
+// Koyu zeminde siyaha yakın, açık zeminde beyaza yakın takım renkleri kaybolur;
+// çubuk ve çerçevelerde kullanılan renk okunur bir aralığa çekilir.
+function readable(hex) {
+  const n = parseInt(hex.slice(1), 16), r = n >> 16, g = (n >> 8) & 255, b = n & 255;
+  const lum = (0.2126 * r + 0.7152 * g + 0.0722 * b) / 255;
+  const dark = matchMedia('(prefers-color-scheme: dark)').matches;
+  const mix = (v, to, k) => Math.round(v + (to - v) * k);
+  if (dark && lum < 0.28) { const k = 0.45; return `rgb(${mix(r,255,k)},${mix(g,255,k)},${mix(b,255,k)})`; }
+  if (!dark && lum > 0.72) { const k = 0.35; return `rgb(${mix(r,0,k)},${mix(g,0,k)},${mix(b,0,k)})`; }
+  return hex;
+}
+const color = abbr => readable(team(abbr).c);
 
 async function getJSON(url) {
   const r = await fetch(url);
   if (!r.ok) throw new Error((await r.json().catch(() => ({}))).error || r.statusText);
   return r.json();
 }
-
-function fillSelect(el, values) {
+function fillSelect(el, values, label) {
   for (const v of values) {
     const o = document.createElement('option');
-    o.value = v; o.textContent = v;
+    o.value = v; o.textContent = label ? label(v) : v;
     el.appendChild(o);
   }
 }
+const seasonLabel = s => s.replace('_', '-').replace(/^(\d{4})-(\d{2})(\d{2})$/, '$1-$3');
 
+// ---------------------------------------------------------------------------
+//  Üst bant
+// ---------------------------------------------------------------------------
 async function loadMeta() {
   const m = await getJSON('/api/meta');
-  fillSelect($('#seasonSel'), m.seasons);
-  fillSelect($('#teamSel'), m.teams);
+  state.meta = m;
+  state.teamIds = m.team_ids || {};
+  fillSelect($('#seasonSel'), m.seasons, seasonLabel);
   fillSelect($('#monthSel'), m.months);
-  const k = m.metrics;
+  const k = m.metrics, seasons = m.seasons;
+  $('#brandSub').textContent =
+    `${seasonLabel(seasons[0])} → ${seasonLabel(seasons[seasons.length - 1])} · ${m.n_games.toLocaleString('tr-TR')} maç`;
   $('#metrics').innerHTML =
-    `<span>doğruluk <b>${pct(k.accuracy)}</b> ±${(k.accuracy_std * 100).toFixed(1)}</span>` +
-    `<span>taban <b>${pct(k.naive_baseline)}</b></span>` +
-    `<span>AUC <b>${k.auc.toFixed(3)}</b></span>` +
-    `<span>${m.n_games} maç</span>`;
-  $('#metrics').title = k.protocol +
-    ` — tek split ${pct(k.single_split_accuracy)} verirdi ama ${k.single_split_note}`;
+    `<span class="pill pos">kazananı bilme <b>${pct(k.accuracy)}</b> ±${(k.accuracy_std * 100).toFixed(1)}</span>` +
+    `<span class="pill">taban <b>${pct(k.naive_baseline)}</b></span>` +
+    `<span class="pill">AUC <b>${k.auc.toFixed(3)}</b></span>` +
+    `<span class="pill">held-out <b>${m.n_held_out}</b> maç</span>`;
+  $('#honesty').innerHTML =
+    `<b>Rakamlar nasıl ölçüldü?</b> ${esc(k.protocol)}. Taban: her ay daha çok kazanan tarafı ` +
+    `seçmek. <b>Held-out</b> etiketi, ${m.split_date} sonrası ${m.n_held_out} maç: modeller bu maçları ` +
+    `hiç görmedi; o maçlarda tek split ${pct(k.single_split_accuracy)} veriyor ama ${esc(k.single_split_note)}. ` +
+    `<b>Eğitimde</b> etiketli maçlarda tahmin iyimserdir, model sonucu görmüştür. ` +
+    `Kadro feature'ları maç öncesi forma listesinden kurulur; maç içinden hiçbir bilgi kullanılmaz.`;
+  buildTeamStrip(m.teams);
 }
 
+function buildTeamStrip(teams) {
+  const strip = $('#teamStrip');
+  strip.innerHTML = '';
+  const all = document.createElement('button');
+  all.type = 'button'; all.className = 'tbtn all'; all.textContent = 'Tümü';
+  all.setAttribute('aria-pressed', 'true');
+  all.addEventListener('click', () => setTeam(''));
+  strip.appendChild(all);
+  for (const abbr of teams) {
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'tbtn'; b.dataset.team = abbr;
+    b.title = team(abbr).name;
+    b.style.setProperty('--tc', color(abbr));
+    b.setAttribute('aria-pressed', 'false');
+    b.innerHTML = logo(abbr, 36) + `<span class="ab">${esc(abbr)}</span>`;
+    b.addEventListener('click', () => setTeam(abbr === state.team ? '' : abbr));
+    strip.appendChild(b);
+  }
+}
+
+function setTeam(abbr) {
+  state.team = abbr;
+  document.querySelectorAll('.tbtn').forEach(b =>
+    b.setAttribute('aria-pressed', String((b.dataset.team || '') === abbr)));
+  const active = document.querySelector(`.tbtn[data-team="${abbr}"]`);
+  if (active) active.scrollIntoView({block: 'nearest', inline: 'center', behavior: 'smooth'});
+  loadGames();
+}
+
+// ---------------------------------------------------------------------------
+//  Maç listesi
+// ---------------------------------------------------------------------------
 function gameCard(g) {
   const el = document.createElement('button');
-  el.className = 'game';
-  el.type = 'button';
-  el.dataset.id = g.game_id;
+  el.className = 'game'; el.type = 'button'; el.dataset.id = g.game_id;
+  const homeWon = g.home_win;
+  const row = (abbr, score, won, home) =>
+    `<div class="row${won ? ' won' : ''}">${logo(abbr, 28)}<span class="ab">${esc(abbr)}</span>` +
+    (home ? '<span class="hm">ev</span>' : '') +
+    `<span class="nm">${esc(team(abbr).name)}</span>` +
+    `<span class="sc">${score.toFixed(0)}</span></div>`;
+  const p = g.model_home_prob, pickProb = g.model_pick === g.home_team ? p : 1 - p;
   el.innerHTML =
-    `<div class="top"><span class="mu">${g.matchup}</span>` +
-    `<span class="sc">${g.away_score.toFixed(0)}–${g.home_score.toFixed(0)}</span></div>` +
-    `<div class="bot"><span class="dt">${g.date}</span>` +
-    `<span class="tag ${g.badge.key}">${g.badge.key === 'out-of-sample' ? 'held-out' : 'eğitimde'}</span></div>`;
+    `<div class="rows">${row(g.away_team, g.away_score, !homeWon, false)}${row(g.home_team, g.home_score, homeWon, true)}</div>` +
+    `<div class="side"><span class="dt">${g.date}</span>` +
+    `<span class="tag ${g.badge.key}">${g.badge.key === 'out-of-sample' ? 'held-out' : 'eğitimde'}</span>` +
+    `<span class="pick ${g.model_correct ? 'ok' : 'no'}" title="modelin seçimi">${g.model_correct ? '✓' : '✕'} ${esc(g.model_pick)} <span class="p">${pct0(pickProb)}</span></span></div>`;
   el.addEventListener('click', () => selectGame(g.game_id));
   return el;
 }
 
+function teamHead(games) {
+  const box = $('#teamHead');
+  if (!state.team) { box.innerHTML = ''; return; }
+  const abbr = state.team, t = team(abbr);
+  let w = 0, l = 0, hit = 0, held = 0, heldHit = 0;
+  for (const g of games) {
+    const isHome = g.home_team === abbr;
+    const won = isHome ? g.home_win : !g.home_win;
+    won ? w++ : l++;
+    if (g.model_correct) hit++;
+    if (g.badge.key === 'out-of-sample') { held++; if (g.model_correct) heldHit++; }
+  }
+  const n = games.length;
+  box.innerHTML = `<div class="team-head" style="--tc:${color(abbr)}">${logo(abbr, 72)}
+    <div><div class="nm">${esc(t.name)}</div><div class="ab">${esc(abbr)} · listedeki ${n} maç</div></div>
+    <div class="stats">
+      <span>galibiyet</span><b>${w}–${l}</b>
+      <span>model isabeti</span><b>${n ? pct0(hit / n) : '–'}</b>
+      ${held ? `<span>held-out</span><b>${pct0(heldHit / held)} <small>(${held})</small></b>` : ''}
+    </div></div>`;
+}
+
 async function loadGames() {
   const p = new URLSearchParams();
-  for (const [k, id] of [['season', '#seasonSel'], ['team', '#teamSel'], ['month', '#monthSel']]) {
-    if ($(id).value) p.set(k, $(id).value);
-  }
+  if ($('#seasonSel').value) p.set('season', $('#seasonSel').value);
+  if ($('#monthSel').value) p.set('month', $('#monthSel').value);
+  if (state.team) p.set('team', state.team);
   $('#gameCount').textContent = 'yükleniyor…';
   $('#gameList').innerHTML = '';
   try {
     const d = await getJSON('/api/games?' + p.toString());
-    $('#gameCount').textContent = d.shown < d.count
-      ? `${d.count} maç · en yeni ${d.shown} gösteriliyor`
-      : `${d.count} maç`;
+    let games = d.games;
+    if ($('#heldOnly').checked) games = games.filter(g => g.badge.key === 'out-of-sample');
+    state.games = games;
+    const hits = games.filter(g => g.model_correct).length;
+    $('#gameCount').textContent =
+      (d.shown < d.count ? `${d.count} maç · en yeni ${d.shown} gösteriliyor` : `${games.length} maç`) +
+      (games.length ? ` · model ${hits}/${games.length} (${pct0(hits / games.length)})` : '');
+    teamHead(games);
     const frag = document.createDocumentFragment();
-    d.games.forEach(g => frag.appendChild(gameCard(g)));
+    games.forEach(g => frag.appendChild(gameCard(g)));
     $('#gameList').appendChild(frag);
-    if (selected) markSelected(selected);
+    if (!games.length) $('#gameList').innerHTML = '<div class="empty">Bu filtreye uyan maç yok</div>';
+    if (state.selected) markSelected(state.selected);
   } catch (e) {
     $('#gameCount').textContent = '';
-    $('#gameList').innerHTML = `<div class="err">Liste alınamadı: ${e.message}</div>`;
+    $('#gameList').innerHTML = `<div class="err">Liste alınamadı: ${esc(e.message)}</div>`;
   }
 }
 
@@ -248,123 +256,146 @@ function markSelected(id) {
     el.setAttribute('aria-current', el.dataset.id === id ? 'true' : 'false'));
 }
 
+// ---------------------------------------------------------------------------
+//  Detay
+// ---------------------------------------------------------------------------
 async function selectGame(id) {
-  selected = id;
+  state.selected = id;
   markSelected(id);
+  history.replaceState(null, '', '#game=' + id);
   mainEl.classList.add('showing-detail');
   $('#detail').innerHTML = '<div class="spin">hesaplanıyor…</div>';
   try {
     renderDetail(await getJSON('/api/predict/' + id));
   } catch (e) {
-    $('#detail').innerHTML = `<div class="err">Tahmin alınamadı: ${e.message}</div>`;
+    $('#detail').innerHTML = `<div class="err">Tahmin alınamadı: ${esc(e.message)}</div>`;
   }
 }
 
-function rosterList(players) {
-  if (!players || !players.length) return '<div class="range">veri yok</div>';
+function vbar(p, homeColor, awayColor) {
+  const left = Math.min(p, 0.5) * 100, width = Math.abs(p - 0.5) * 100;
+  return `<div class="vbar"><i style="left:${left}%;width:${width}%;background:${p >= 0.5 ? homeColor : awayColor}"></i></div>`;
+}
+
+function rosterList(players, tc) {
+  if (!players || !players.length) return '<div class="foot">veri yok</div>';
+  const max = Math.max(...players.map(p => Math.abs(p.l10_mean)), 1e-9);
   return '<ul class="plist">' + players.map(p =>
-    `<li><span class="nm">${p.name}</span><span class="vv">${p.l10_mean.toFixed(1)}</span></li>`
+    `<li><span class="nm">${esc(p.name)}</span><span class="vv">${p.l10_mean.toFixed(1)} <small>· son 3: ${p.l3_mean.toFixed(1)}</small></span>` +
+    `<span class="mb"><i style="width:${Math.max(0, p.l10_mean) / max * 100}%;background:${tc}"></i></span></li>`
   ).join('') + '</ul>';
 }
 
 function renderDetail(d) {
   const pr = d.predicted, ac = d.actual, sim = d.simulation, rt = d.ratings;
-  const homeSide = pr.predicted_winner === d.home_team;
-  const shown = homeSide ? pr.home_win_prob : 1 - pr.home_win_prob;
-  const barHome = (pr.home_win_prob * 100).toFixed(1);
+  const H = d.home_team, A = d.away_team, hc = color(H), acol = color(A);
+  const p = pr.home_win_prob, pickHome = p > 0.5, pick = pickHome ? H : A;
+  const pickProb = pickHome ? p : 1 - p;
+  const homeWon = !!ac.home_win;
 
-  let html = '';
-
-  html += `<div class="card">
-    <p class="head-mu">${d.matchup}</p>
-    <div class="head-dt">${d.date} · ${d.season.replace('_', '-')} ·
+  let html = `<div class="card hero" style="--hc:${hc};--ac:${acol}">
+    <div class="meta"><span>${d.date}</span><span>${seasonLabel(d.season)}</span>
       <span class="tag ${d.badge.key}">${d.badge.key === 'out-of-sample' ? 'held-out' : 'eğitimde'}</span></div>
-    <div class="prob">
-      <span class="big">${pct(shown)}</span>
-      <span class="who">${pr.predicted_winner}</span>
+    <div class="face">
+      <div class="side-box${homeWon ? '' : ' won'}">${logo(A, 72)}<div class="ab">${esc(A)}</div>
+        <div class="nm">${esc(team(A).name)}</div><div class="sc">${ac.away_score.toFixed(0)}</div><div class="where">deplasman</div></div>
+      <div class="vs"><span class="fin">final</span>@</div>
+      <div class="side-box${homeWon ? ' won' : ''}">${logo(H, 72)}<div class="ab">${esc(H)}</div>
+        <div class="nm">${esc(team(H).name)}</div><div class="sc">${ac.home_score.toFixed(0)}</div><div class="where">ev sahibi</div></div>
     </div>
-    <div class="bar"><i style="width:${barHome}%"></i></div>
-    <div class="rawnote">${d.home_team} ${barHome}% · ${d.away_team} ${(100 - barHome).toFixed(1)}%
-      ${pr.calibrated ? ` · kalibre (${pr.calibrated.method}), ham ${pct(pr.home_win_prob_raw)}` : ''}</div>
+    <div class="tug-wrap">
+      <div class="tug-labels"><span><b>${pct0(1 - p)}</b> ${esc(A)}</span><span>${esc(H)} <b>${pct0(p)}</b></span></div>
+      <div class="tug"><i style="width:${(1 - p) * 100}%;background:${acol}"></i><i style="width:${p * 100}%;background:${hc}"></i></div>
+      <div class="tug-note">modelin ev sahibi kazanma olasılığı · kaynak: ${pr.source === 'blend' ? 'üç görüşün ortalaması' : pr.source}</div>
+    </div>
+    <div class="verdict ${ac.correct_winner ? 'ok' : 'no'}">${ac.correct_winner ? '✓ doğru bildi' : '✕ yanlış bildi'}
+      · model <span class="p">${esc(pick)} ${pct(pickProb)}</span> dedi, kazanan ${esc(ac.winner)}</div>
   </div>`;
 
-  html += `<div class="card">
-    <h2>Gerçek sonuç</h2>
-    <div class="verdict ${ac.correct_winner ? 'ok' : 'no'}">
-      ${ac.correct_winner ? '✓ doğru bildi' : '✕ yanlış bildi'} — kazanan ${ac.winner}</div>
-    <dl class="kv">
-      <dt>Skor</dt><dd>${d.away_team} ${ac.away_score.toFixed(0)} – ${ac.home_score.toFixed(0)} ${d.home_team}</dd>
-      <dt>Marj</dt><dd>${sign(ac.point_diff)}</dd>
-      <dt>Toplam</dt><dd>${ac.total_score.toFixed(0)}</dd>
-    </dl>
+  const cls = v => v > 0 ? 'pos' : (v < 0 ? 'neg' : '');
+  const simCell = (v, rng, fmt) => sim ? `${fmt(v)}<span class="range">${rng[0]}…${rng[1]}</span>` : '–';
+  html += `<div class="card"><h2>Skor tahmini <small>${sim ? `simülasyon ${sim.draws.toLocaleString('tr-TR')} çekiliş, ${sim.interval} aralık` : 'simülasyon yok'}</small></h2>
+    <table class="grid"><thead><tr><th></th><th>simülasyon</th><th>model</th><th>gerçek</th></tr></thead><tbody>
+      <tr><td>${esc(H)} skoru</td><td>${simCell(sim && sim.home_score, sim && sim.home_score_range, v => v.toFixed(0))}</td>
+        <td>${pr.home_score.toFixed(0)}</td><td class="real">${ac.home_score.toFixed(0)}</td></tr>
+      <tr><td>${esc(A)} skoru</td><td>${sim ? sim.away_score.toFixed(0) : '–'}</td>
+        <td>${pr.away_score.toFixed(0)}</td><td class="real">${ac.away_score.toFixed(0)}</td></tr>
+      <tr><td>marj (ev − dep)</td><td class="${sim ? cls(sim.point_diff) : ''}">${simCell(sim && sim.point_diff, sim && sim.margin_range, sign)}</td>
+        <td class="${cls(pr.point_diff)}">${sign(pr.point_diff)}</td><td class="real ${cls(ac.point_diff)}">${sign(ac.point_diff)}</td></tr>
+      <tr><td>toplam</td><td>${simCell(sim && sim.total_score, sim && sim.total_range, v => v.toFixed(0))}</td>
+        <td>${pr.total_score.toFixed(0)}</td><td class="real">${ac.total_score.toFixed(0)}</td></tr>
+    </tbody></table>
+    <div class="foot">Simülasyon sütunu beş çıktıyı aynı çekilişlerden okur, birbiriyle çelişmez; "model" sütunu beş ayrı regresyon modelidir.</div>
   </div>`;
 
-  if (sim) {
-    html += `<div class="card">
-      <h2>Simülasyon · ${sim.draws} çekiliş</h2>
-      <dl class="kv">
-        <dt>Ev kazanma</dt><dd>${pct(sim.home_win_prob)}</dd>
-        <dt>${d.home_team} skoru</dt><dd>${sim.home_score.toFixed(0)}
-          <span class="range">(${sim.home_score_range[0]}–${sim.home_score_range[1]})</span></dd>
-        <dt>${d.away_team} skoru</dt><dd>${sim.away_score.toFixed(0)}</dd>
-        <dt>Marj</dt><dd class="${sim.point_diff > 0 ? 'pos' : 'neg'}">${sign(sim.point_diff)}
-          <span class="range">(${sim.margin_range[0]} … ${sim.margin_range[1]})</span></dd>
-        <dt>Toplam</dt><dd>${sim.total_score.toFixed(0)}
-          <span class="range">(${sim.total_range[0]}–${sim.total_range[1]})</span></dd>
-      </dl>
-      <div class="rawnote" style="margin-top:9px">Parantez içi ${sim.interval} aralık —
-        gerçek marjın %78.6'sı bu aralığa düşüyor.</div>
-    </div>`;
+  if (pr.views) {
+    const v = pr.views;
+    const rows = [['sınıflandırıcı', v.classifier], ['marj görüşü', v.margin], ['lojistik görüş', v.logistic]];
+    html += `<div class="card"><h2>Üç görüş <small>ortadaki çizgi %50</small></h2><div class="views">` +
+      rows.map(([lbl, val]) => `<span class="lbl">${lbl}</span>${vbar(val, hc, acol)}<span class="val">${pct(val)}</span>`).join('') +
+      `<span class="lbl total">ortalama</span>${vbar(p, hc, acol)}<span class="val total">${pct(p)}</span>` +
+      `</div><div class="foot">Görüşler arası fark ${pct(pr.view_spread)}` +
+      (pr.calibrated ? ` · ham sınıflandırıcı ${pct(pr.home_win_prob_raw)}, kalibre (${pr.calibrated.method}) ${pct(pr.calibrated.prob)}` : '') +
+      `. Üç farklı model aynı maça bakar; anlaştıkları yerde tahmin güvenilir, ayrıştıkları yerde temkinli okunmalı.</div></div>`;
   }
 
   if (rt && rt.elo && rt.elo.home !== null) {
-    html += `<div class="card">
-      <h2>Rakip düzeltmeli rating</h2>
+    const span = 400, w = Math.min(Math.abs(rt.elo.diff), span) / span * 50;
+    html += `<div class="card"><h2>Rakip düzeltmeli güç <small>maç öncesi</small></h2>
       <dl class="kv">
-        <dt>Elo · ${d.home_team}</dt><dd>${rt.elo.home.toFixed(0)}</dd>
-        <dt>Elo · ${d.away_team}</dt><dd>${rt.elo.away.toFixed(0)}</dd>
-        <dt>Elo farkı</dt><dd class="${rt.elo.diff > 0 ? 'pos' : 'neg'}">${sign(rt.elo.diff)}</dd>
-        ${rt.massey.diff !== null ? `<dt>Massey farkı</dt>
-          <dd class="${rt.massey.diff > 0 ? 'pos' : 'neg'}">${sign(rt.massey.diff)}</dd>` : ''}
-        ${rt.sos.home !== null ? `<dt>Fikstür zorluğu</dt>
-          <dd>${rt.sos.home.toFixed(0)} / ${rt.sos.away.toFixed(0)}</dd>` : ''}
+        <dt>Elo · ${esc(H)}</dt><dd>${rt.elo.home.toFixed(0)}</dd>
+        <dt>Elo · ${esc(A)}</dt><dd>${rt.elo.away.toFixed(0)}</dd>
+        <dt>Elo farkı</dt><dd class="${cls(rt.elo.diff)}">${sign(rt.elo.diff)}</dd>
+        ${rt.massey.diff !== null ? `<dt>Massey farkı</dt><dd class="${cls(rt.massey.diff)}">${sign(rt.massey.diff)}</dd>` : ''}
+        ${rt.sos.home !== null ? `<dt>Fikstür zorluğu</dt><dd>${rt.sos.home.toFixed(0)} / ${rt.sos.away.toFixed(0)}</dd>` : ''}
       </dl>
+      <div class="diverge"><i style="${rt.elo.diff >= 0 ? 'left:50%' : 'right:50%'};width:${w}%;background:${rt.elo.diff >= 0 ? hc : acol}"></i></div>
+      <div class="foot">Çubuk Elo farkını gösterir: sağa ev sahibi, sola deplasman lehine.</div>
     </div>`;
   }
 
-  html += `<div class="card">
-    <h2>Kadro etkisi · maç öncesi son 10</h2>
+  html += `<div class="card"><h2>Kadro etkisi <small>maç öncesi son 10 maç ortalaması</small></h2>
     <div class="two">
-      <div><div class="team-h">${d.home_team} (ev)</div>${rosterList(d.roster_impact.home)}</div>
-      <div><div class="team-h">${d.away_team}</div>${rosterList(d.roster_impact.away)}</div>
-    </div>
-  </div>`;
+      <div><div class="team-h">${logo(H, 28)}${esc(team(H).name)} <span class="ab">ev</span></div>${rosterList(d.roster_impact.home, hc)}</div>
+      <div><div class="team-h">${logo(A, 28)}${esc(team(A).name)}</div>${rosterList(d.roster_impact.away, acol)}</div>
+    </div></div>`;
 
   if (d.matchup_data && d.matchup_data.length) {
-    html += `<div class="card"><h2>Savunma eşleşmeleri</h2><div class="scroll"><table>
+    html += `<div class="card"><h2>Savunma eşleşmeleri <small>bu maçta, en çok pozisyon</small></h2><div class="scroll"><table class="data">
       <thead><tr><th>Hücum</th><th>Savunma</th><th>Poz</th><th>Sayı</th><th>FG</th></tr></thead>
       <tbody>${d.matchup_data.map(m => `<tr>
-        <td>${m.offName}</td><td>${m.defName}</td>
+        <td>${esc(m.offName)}</td><td>${esc(m.defName)}</td>
         <td>${m.partialPossessions.toFixed(0)}</td><td>${m.playerPoints}</td>
         <td>${m.matchupFieldGoalsMade}/${m.matchupFieldGoalsAttempted}</td></tr>`).join('')}
-      </tbody></table></div></div>`;
+      </tbody></table></div>
+      <div class="foot">Bu tablo maç sonrası veridir, açıklama içindir; tahmin bunu kullanmaz.</div></div>`;
   }
 
   $('#detail').innerHTML = html;
   $('#detailPane').scrollTop = 0;
 }
 
+// ---------------------------------------------------------------------------
+//  Olaylar
+// ---------------------------------------------------------------------------
 $('#backBtn').addEventListener('click', () => mainEl.classList.remove('showing-detail'));
-['#seasonSel', '#teamSel', '#monthSel'].forEach(id =>
-  $(id).addEventListener('change', loadGames));
+$('#infoBtn').addEventListener('click', () => {
+  const open = !$('#honesty').classList.contains('open');
+  $('#honesty').classList.toggle('open', open);
+  $('#infoBtn').setAttribute('aria-expanded', String(open));
+});
+['#seasonSel', '#monthSel', '#heldOnly'].forEach(id => $(id).addEventListener('change', loadGames));
 $('#resetBtn').addEventListener('click', () => {
-  ['#seasonSel', '#teamSel', '#monthSel'].forEach(id => { $(id).value = ''; });
-  loadGames();
+  $('#seasonSel').value = ''; $('#monthSel').value = ''; $('#heldOnly').checked = false;
+  setTeam('');
 });
 
-loadMeta().then(loadGames).catch(e => {
+loadMeta().then(loadGames).then(() => {
+  const m = location.hash.match(/game=(\d+)/);
+  if (m) selectGame(m[1]);
+}).catch(e => {
   $('#gameCount').textContent = '';
-  $('#gameList').innerHTML = `<div class="err">Sunucuya bağlanılamadı: ${e.message}</div>`;
+  $('#gameList').innerHTML = `<div class="err">Sunucuya bağlanılamadı: ${esc(e.message)}</div>`;
 });
 </script>
 </body>

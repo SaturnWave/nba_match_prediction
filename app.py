@@ -248,17 +248,50 @@ def _load_state():
     ratings_by_game = rated.set_index("game_id")[rating_cols] if rating_cols else None
 
     player_games = _build_player_games(dataset)
+    calibration_module = _load_sibling("calibration") if calibrator else None
+    # One forecast per game up front, so the list can show the model's pick
+    # beside every result without a model call per card. ~10,000 rows through
+    # the blend is a few seconds once; per request it would be a few seconds
+    # every time someone scrolls.
+    dataset["model_home_prob"] = _forecast_all(dataset, features, models, blend,
+                                               calibrator, calibration_module)
     print(f"[startup] {dataset.shape[0]} mac x {dataset.shape[1]} sutun, "
           f"{len(features)} feature, {len(models)} model, "
           f"{len(player_games)} oyuncu-mac kaydi, "
           f"held-out {len(test_game_ids)} mac ({split_date} sonrasi)")
     return {"dataset": dataset, "features": features, "models": models,
-            "blend": blend,
+            "blend": blend, "team_ids": _team_ids(dataset),
             "test_game_ids": test_game_ids, "split_date": split_date,
             "player_games": player_games, "calibrator": calibrator,
             "simulator": simulator, "ratings": ratings_by_game,
             "simulation_module": _load_sibling("simulation") if simulator else None,
-            "calibration_module": _load_sibling("calibration") if calibrator else None}
+            "calibration_module": calibration_module}
+
+
+def _forecast_all(dataset, features, models, blend, calibrator, calibration_module):
+    """The shown win probability for every game: blend, else calibrated, else raw.
+
+    Same order of preference api_predict uses, so a card and its detail page
+    never disagree about the pick.
+    """
+    X = dataset[features].apply(pd.to_numeric, errors="coerce").fillna(0)
+    if blend is not None:
+        return blend.predict_proba(X)[:, 1]
+    raw = models["home_win"].predict_proba(X)[:, 1]
+    if calibrator and calibration_module is not None:
+        return calibration_module.apply_calibrator(calibrator["method"],
+                                                   calibrator["calibrator"], raw)
+    return raw
+
+
+def _team_ids(dataset):
+    """{tricode: NBA team id}, read off the games rather than hardcoded, so a
+    relocated or renamed franchise shows up the moment its games do."""
+    sides = pd.concat([
+        dataset[["home_team", "home_team_id"]].set_axis(["abbr", "team_id"], axis=1),
+        dataset[["away_team", "away_team_id"]].set_axis(["abbr", "team_id"], axis=1),
+    ]).dropna().drop_duplicates("abbr")
+    return {str(a): int(t) for a, t in zip(sides["abbr"], sides["team_id"])}
 
 
 def get_state():
@@ -343,6 +376,8 @@ def _badge(state, game_id, season):
 
 
 def _game_summary(state, g):
+    p_home = float(g["model_home_prob"])
+    home_won = bool(int(g["home_win"]))
     return {
         "game_id": g["game_id"],
         "date": str(g["game_date"].date()),
@@ -350,8 +385,14 @@ def _game_summary(state, g):
         "matchup": f"{g['away_team']} @ {g['home_team']}",
         "home_team": g["home_team"],
         "away_team": g["away_team"],
+        "home_team_id": state["team_ids"].get(g["home_team"]),
+        "away_team_id": state["team_ids"].get(g["away_team"]),
         "home_score": float(g["home_score"]),
         "away_score": float(g["away_score"]),
+        "home_win": home_won,
+        "model_home_prob": round(p_home, 3),
+        "model_pick": g["home_team"] if p_home > 0.5 else g["away_team"],
+        "model_correct": (p_home > 0.5) == home_won,
         "badge": _badge(state, g["game_id"], g["season"]),
     }
 
@@ -441,6 +482,7 @@ def api_meta():
     return jsonify({
         "seasons": sorted(df["season"].unique().tolist()),
         "teams": sorted(set(df["home_team"]) | set(df["away_team"])),
+        "team_ids": state["team_ids"],
         "months": sorted(df["month"].unique().tolist(), reverse=True),
         "split_date": state["split_date"],
         "n_held_out": len(state["test_game_ids"]),

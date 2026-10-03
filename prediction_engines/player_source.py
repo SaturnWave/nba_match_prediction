@@ -29,11 +29,13 @@ MINUTES ARE THE HINGE
     minutes draw with a per-minute rate instead of predicting totals directly.
 """
 import os
+import pickle
 
 import numpy as np
 import pandas as pd
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v4.pkl")
 
 # Box columns worth carrying. `to` is a reserved word in SQL, hence backticks
 # at the call site.
@@ -64,61 +66,60 @@ def parse_minutes(value):
         return 0.0
 
 
-def _db():
-    """The db_source module, imported by path - these files are scripts."""
+def _phonedb():
+    """The phonedb_source module, imported by path - these files are scripts.
+
+    Registered in sys.modules before it runs, as importlib's recipe for loading
+    a file by path does: @dataclass resolves string annotations through
+    sys.modules and fails on a module that is not registered. It also lets
+    every later call reuse the first load.
+    """
     import importlib.util
+    import sys
+    loaded = sys.modules.get("phonedb_source")
+    if loaded is not None:
+        return loaded
     here = os.path.dirname(os.path.abspath(__file__))
     spec = importlib.util.spec_from_file_location(
-        "db_source", os.path.join(here, "db_source.py"))
+        "phonedb_source", os.path.join(here, "phonedb_source.py"))
     module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(module)
+    sys.modules["phonedb_source"] = module
+    try:
+        spec.loader.exec_module(module)
+    except BaseException:
+        # A module that failed halfway must not be found by the next call.
+        del sys.modules["phonedb_source"]
+        raise
     return module
-
-
-def _all_seasons(conn=None):
-    """Seasons present in the database. `conn` is accepted but not needed.
-
-    Every query here opens its own short-lived connection, because a connection
-    held open across a nine-season pull is a connection that gets dropped.
-    """
-    if conn is not None:
-        return pd.read_sql("SELECT DISTINCT season FROM games ORDER BY season",
-                           conn)["season"].tolist()
-    return _db().read_resilient(
-        "SELECT DISTINCT season FROM games ORDER BY season",
-        label="seasons")["season"].tolist()
 
 
 def load_player_games(conn, seasons=None, verbose=True):
     """One row per (game, player): box line, availability, impact, game meta.
 
-    Pulled one season at a time. The whole thing is 277k rows across a
-    four-table join, and the database runs on a phone: asking for it in one
-    statement gets the connection dropped mid-result. Per season it is ~30k
-    rows and comes back reliably.
+    Joined locally from phonedb_source's cached tables - box_player_traditional,
+    games, game_dates and game_summary - instead of on the phone. The join used
+    to run once per season because all 277k rows in one result got the
+    connection dropped, and even per season it took over three minutes (193 s,
+    measured just before this change). The same rows are in the cache.
+
+    The frame is the one the SQL produced: same columns in the same order,
+    inner-join semantics, same post-processing, same final ordering. `conn` is
+    still accepted so existing callers keep working, and is not used.
     """
-    seasons = seasons or _all_seasons(conn)
-    cols = ", ".join(f"b.`{c}`" for c in BOX_COLUMNS)
-    db = _db()
-    frames = []
-    for season in seasons:
-        # Each season goes through read_resilient with its own connection: on a
-        # mobile link the transfer gets reset partway, and losing one season to
-        # a dropped packet should not cost the other eight.
-        frames.append(db.read_resilient(f"""
-            SELECT b.game_id, b.player_id AS person_id, b.player_name,
-                   b.team_abbreviation AS team, b.comment, {cols},
-                   g.season, gd.game_date,
-                   gs.home_abbr, gs.away_abbr, gs.home_pts, gs.away_pts
-            FROM box_player_traditional b
-            JOIN games g       ON g.game_id  = b.game_id
-            JOIN game_dates gd ON gd.game_id = b.game_id
-            JOIN game_summary gs ON gs.game_id = b.game_id
-            WHERE g.season = %s
-        """, params=(season,), label=f"box {season}"))
-        if verbose:
-            print(f"    {season}: {len(frames[-1]):,} satir", flush=True)
-    df = pd.concat(frames, ignore_index=True)
+    phonedb = _phonedb()
+    box = phonedb.load("box_player_traditional", verbose=verbose)
+    games = phonedb.load("games", verbose=verbose)[["game_id", "season"]]
+    dates = phonedb.load("game_dates", verbose=verbose)[["game_id", "game_date"]]
+    summary = phonedb.load("game_summary", verbose=verbose)[
+        ["game_id", "home_abbr", "away_abbr", "home_pts", "away_pts"]]
+    if seasons:
+        games = games[games["season"].isin(seasons)]
+
+    df = (box.rename(columns={"player_id": "person_id", "team_abbreviation": "team"})
+          [["game_id", "person_id", "player_name", "team", "comment", *BOX_COLUMNS]]
+          .merge(games, on="game_id", how="inner")
+          .merge(dates, on="game_id", how="inner")
+          .merge(summary, on="game_id", how="inner"))
     df["game_date"] = pd.to_datetime(df["game_date"])
     df["comment"] = df["comment"].fillna("")
     df["available"] = df["comment"].str.strip().eq("")
@@ -139,17 +140,35 @@ def load_player_games(conn, seasons=None, verbose=True):
 def attach_impact(player_games, conn, seasons=None):
     """Join per-game impact, keyed on person id (surnames do not identify).
 
-    Chunked by season for the same reason load_player_games is.
+    Read from game_impact_cache_v4.pkl. This used to query player_game_impact,
+    but that table was only ever a flattened copy of this cache
+    (db_build_derived.impact_rows), and the rebuilt phonedb does not have it -
+    the query now fails. The entries kept follow impact_rows exactly: an entry
+    needs a person id, and its team has to be one of the two sides of that
+    game, or it would attach a player to a roster that never fielded them.
+
+    `conn` and `seasons` are still accepted so existing callers keep working;
+    restricting to the frame's own games makes both unnecessary.
     """
-    seasons = seasons or _all_seasons(conn)
-    frames = []
-    for season in seasons:
-        frames.append(pd.read_sql(
-            "SELECT i.game_id, i.person_id, i.impact FROM player_game_impact i "
-            "JOIN games g ON g.game_id = i.game_id WHERE g.season = %s",
-            conn, params=(season,)))
-    imp = pd.concat(frames, ignore_index=True)
-    return player_games.merge(imp, on=["game_id", "person_id"], how="left")
+    with open(IMPACT_CACHE, "rb") as f:
+        cache = pickle.load(f)
+    sides = (player_games.drop_duplicates("game_id")
+             .set_index("game_id")[["home_abbr", "away_abbr"]]
+             .to_dict("index"))
+    rows = []
+    for game_id, side in sides.items():
+        entry = cache.get(game_id)
+        if not isinstance(entry, dict):
+            continue
+        for value in (entry.get("players") or {}).values():
+            if not isinstance(value, dict) or value.get("person_id") is None:
+                continue
+            if value.get("team") not in (side["home_abbr"], side["away_abbr"]):
+                continue
+            rows.append((game_id, int(value["person_id"]),
+                         float(value.get("impact", 0.0))))
+    impact = pd.DataFrame(rows, columns=["game_id", "person_id", "impact"])
+    return player_games.merge(impact, on=["game_id", "person_id"], how="left")
 
 
 def add_trailing(player_games, verbose=True):

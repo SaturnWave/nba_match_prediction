@@ -33,3 +33,7 @@ db_config.json
 
 # derived caches (rebuilt automatically from data on disk)
 team_box_cache_v1.pkl
+phonedb_cache/
+
+# eski modellerin yerel yedekleri (git gecmisinde zaten var)
+models/backup_*/

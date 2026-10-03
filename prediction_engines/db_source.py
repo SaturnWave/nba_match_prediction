@@ -192,14 +192,6 @@ def read_resilient(sql, params=None, cfg=None, attempts=4, backoff=(2, 5, 15),
         f"{attempts} denemede baglanti kurulamadi ({detail}): {last}")
 
 
-def _season_filter(seasons):
-    """('2019_2020', ...) -> ('AND season IN (%s,%s)', params). Empty = all."""
-    if not seasons:
-        return "", []
-    placeholders = ",".join(["%s"] * len(seasons))
-    return f" AND g.season IN ({placeholders})", list(seasons)
-
-
 def _team_side_frame(raw, column_map, prefix):
     """Rename a per-team table to UPPER_SNAKE and key it by (game_id, abbr)."""
     keep = ["game_id", "team_abbreviation"] + [c for c in column_map if c in raw.columns]
@@ -217,75 +209,106 @@ def _attach_side(master, side_frame, stats, side):
     return master.merge(renamed, on=["game_id", f"{side}_team"], how="left")
 
 
+def _phonedb():
+    """phonedb_source, imported by path and only when a read needs it.
+
+    Lazily, because phonedb_source imports this module for connect,
+    load_config and probe: importing it at the top of this file would make
+    each module wait for the other to finish loading.
+
+    Registered in sys.modules before it runs, which is importlib's own recipe
+    for loading a file by path: @dataclass resolves string annotations through
+    sys.modules and fails on a module that is not there. Registering also
+    lets every later call reuse the first load.
+    """
+    import importlib.util
+    import sys
+    loaded = sys.modules.get("phonedb_source")
+    if loaded is not None:
+        return loaded
+    spec = importlib.util.spec_from_file_location(
+        "phonedb_source",
+        os.path.join(os.path.dirname(os.path.abspath(__file__)), "phonedb_source.py"))
+    module = importlib.util.module_from_spec(spec)
+    sys.modules["phonedb_source"] = module
+    try:
+        spec.loader.exec_module(module)
+    except BaseException:
+        # A module that failed halfway must not be found by the next call.
+        del sys.modules["phonedb_source"]
+        raise
+    return module
+
+
 def load_master_frame(seasons=None, conn=None, verbose=True):
     """One row per game, ready for FeatureEngineer.
 
-    Four bulk queries rather than four reads per game: game metadata, team
-    traditional box scores, team advanced box scores, and the precomputed
-    rest/back-to-back columns.
+    The same frame the four bulk queries used to return, column for column:
+    game_summary joined to games and filtered on games.season, team
+    traditional and advanced box scores attached per side, and the precomputed
+    rest/back-to-back columns from training_games.
+
+    What changed is only how the rows arrive. The database now answers over a
+    phone's mobile uplink, and an unpaged 21,498-row box-score read - which is
+    what this function used to issue - is exactly the size that link resets
+    mid-transfer. So the five tables come through phonedb_source: from the
+    local cache when it holds them, paged and resumable when it does not.
+
+    `conn` is still accepted so existing callers keep working. It is not used:
+    the paged reader opens and replaces its own connections.
     """
-    own_connection = conn is None
-    conn = conn or connect()
-    try:
-        where, params = _season_filter(seasons)
+    phonedb = _phonedb()
+    summary = phonedb.load("game_summary", verbose=verbose)
+    games_season = (phonedb.load("games", verbose=verbose)[["game_id", "season"]]
+                    .rename(columns={"season": "games_season"}))
 
-        games = pd.read_sql(
-            "SELECT gs.game_id, gs.season, gs.game_date, gs.home_abbr, gs.away_abbr, "
-            "       gs.home_team_id, gs.away_team_id, gs.home_pts, gs.away_pts "
-            "FROM game_summary gs JOIN games g ON g.game_id = gs.game_id "
-            f"WHERE 1=1{where} ORDER BY gs.game_date, gs.game_id",
-            conn, params=params)
-        if games.empty:
-            return games
+    # Output season comes from game_summary but the filter reads games.season,
+    # exactly as the SQL did (SELECT gs.season ... WHERE g.season IN ...).
+    selected = summary.merge(games_season, on="game_id", how="inner")
+    if seasons:
+        selected = selected[selected["games_season"].isin(seasons)]
+    games = (selected[["game_id", "season", "game_date", "home_abbr", "away_abbr",
+                       "home_team_id", "away_team_id", "home_pts", "away_pts"]]
+             .sort_values(["game_date", "game_id"])
+             .reset_index(drop=True))
+    if games.empty:
+        return games
 
-        master = games.rename(columns={
-            "home_abbr": "home_team", "away_abbr": "away_team",
-            "home_pts": "home_score", "away_pts": "away_score"})
-        master["game_date"] = pd.to_datetime(master["game_date"])
-        master["home_score"] = pd.to_numeric(master["home_score"], errors="coerce")
-        master["away_score"] = pd.to_numeric(master["away_score"], errors="coerce")
-        master["point_diff"] = master["home_score"] - master["away_score"]
-        master["total_score"] = master["home_score"] + master["away_score"]
-        master["home_win"] = (master["point_diff"] > 0).astype(int)
+    master = games.rename(columns={
+        "home_abbr": "home_team", "away_abbr": "away_team",
+        "home_pts": "home_score", "away_pts": "away_score"})
+    master["game_date"] = pd.to_datetime(master["game_date"])
+    master["home_score"] = pd.to_numeric(master["home_score"], errors="coerce")
+    master["away_score"] = pd.to_numeric(master["away_score"], errors="coerce")
+    master["point_diff"] = master["home_score"] - master["away_score"]
+    master["total_score"] = master["home_score"] + master["away_score"]
+    master["home_win"] = (master["point_diff"] > 0).astype(int)
 
-        ids = tuple(master["game_id"])
-        placeholders = ",".join(["%s"] * len(ids))
+    in_frame = master["game_id"]
+    trad_raw = phonedb.load("box_team_traditional", verbose=verbose)
+    adv_raw = phonedb.load("box_team_advanced", verbose=verbose)
+    trad, trad_stats = _team_side_frame(
+        trad_raw[trad_raw["game_id"].isin(in_frame)], TRADITIONAL_MAP, "")
+    adv, adv_stats = _team_side_frame(
+        adv_raw[adv_raw["game_id"].isin(in_frame)], ADVANCED_MAP, "")
+    for side in ("home", "away"):
+        master = _attach_side(master, trad, trad_stats, side)
+        master = _attach_side(master, adv, adv_stats, side)
 
-        # `to` is a reserved word, hence the backticks around every column.
-        trad_cols = ", ".join(f"`{c}`" for c in TRADITIONAL_MAP)
-        trad_raw = pd.read_sql(
-            f"SELECT game_id, team_abbreviation, {trad_cols} FROM box_team_traditional "
-            f"WHERE game_id IN ({placeholders})", conn, params=list(ids))
-        adv_cols = ", ".join(f"`{c}`" for c in ADVANCED_MAP)
-        adv_raw = pd.read_sql(
-            f"SELECT game_id, team_abbreviation, {adv_cols} FROM box_team_advanced "
-            f"WHERE game_id IN ({placeholders})", conn, params=list(ids))
+    training = phonedb.load("training_games", verbose=verbose)
+    rest = training.loc[training["game_id"].isin(in_frame), ["game_id"] + REST_COLUMNS]
+    master = master.merge(rest, on="game_id", how="left")
+    for col in REST_COLUMNS:
+        if col in master.columns:
+            master[col] = pd.to_numeric(master[col], errors="coerce")
 
-        trad, trad_stats = _team_side_frame(trad_raw, TRADITIONAL_MAP, "")
-        adv, adv_stats = _team_side_frame(adv_raw, ADVANCED_MAP, "")
-        for side in ("home", "away"):
-            master = _attach_side(master, trad, trad_stats, side)
-            master = _attach_side(master, adv, adv_stats, side)
-
-        rest = pd.read_sql(
-            "SELECT game_id, home_rest, away_rest, rest_diff, home_b2b, away_b2b "
-            f"FROM training_games WHERE game_id IN ({placeholders})",
-            conn, params=list(ids))
-        master = master.merge(rest, on="game_id", how="left")
-        for col in REST_COLUMNS:
-            if col in master.columns:
-                master[col] = pd.to_numeric(master[col], errors="coerce")
-
-        master = master.sort_values(["game_date", "game_id"]).reset_index(drop=True)
-        if verbose:
-            covered = int(master["home_PTS"].notna().sum()) if "home_PTS" in master else 0
-            print(f"  db: {len(master)} mac, {master['season'].nunique()} sezon, "
-                  f"takim box score {covered}/{len(master)}, "
-                  f"rest {int(master['home_rest'].notna().sum())}/{len(master)}")
-        return master
-    finally:
-        if own_connection:
-            conn.close()
+    master = master.sort_values(["game_date", "game_id"]).reset_index(drop=True)
+    if verbose:
+        covered = int(master["home_PTS"].notna().sum()) if "home_PTS" in master else 0
+        print(f"  db: {len(master)} mac, {master['season'].nunique()} sezon, "
+              f"takim box score {covered}/{len(master)}, "
+              f"rest {int(master['home_rest'].notna().sum())}/{len(master)}")
+    return master
 
 
 def attach_impact(master, cache_path=None):

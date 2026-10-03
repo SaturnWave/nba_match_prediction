@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "nba-dashboard",
+      "runtimeExecutable": "py",
+      "runtimeArgs": ["app.py"],
+      "port": 5000,
+      "url": "http://100.89.189.40:5000"
+    }
+  ]
+}

@@ -58,20 +58,53 @@ LOOKBACK = 5          # games of absence history that predict tonight
 INJURY_PATTERN = "Injur|Illness|Rest|Health"
 
 
-def load_absences(conn, seasons=None):
-    """One row per (game, player) with whether they were unavailable and why."""
-    where, params = "", []
-    if seasons:
-        where = f" AND g.season IN ({','.join(['%s'] * len(seasons))})"
-        params = list(seasons)
-    sql = f"""
-        SELECT b.game_id, b.player_id AS person_id, b.team_abbreviation AS team,
-               b.comment
-        FROM box_player_traditional b
-        JOIN games g ON g.game_id = b.game_id
-        WHERE 1=1{where}
+def _phonedb():
+    """The phonedb_source module, imported by path - these files are scripts.
+
+    Registered in sys.modules before it runs, as importlib's recipe for loading
+    a file by path does: @dataclass resolves string annotations through
+    sys.modules and fails on a module that is not registered. It also lets
+    every later call reuse the first load.
     """
-    df = pd.read_sql(sql, conn, params=params)
+    import importlib.util
+    import sys
+    loaded = sys.modules.get("phonedb_source")
+    if loaded is not None:
+        return loaded
+    here = os.path.dirname(os.path.abspath(__file__))
+    spec = importlib.util.spec_from_file_location(
+        "phonedb_source", os.path.join(here, "phonedb_source.py"))
+    module = importlib.util.module_from_spec(spec)
+    sys.modules["phonedb_source"] = module
+    try:
+        spec.loader.exec_module(module)
+    except BaseException:
+        # A module that failed halfway must not be found by the next call.
+        del sys.modules["phonedb_source"]
+        raise
+    return module
+
+
+def load_absences(conn, seasons=None):
+    """One row per (game, player) with whether they were unavailable and why.
+
+    Read from phonedb_source's cached box_player_traditional and games tables
+    instead of being joined on the phone: that join comes back as a single
+    277k-row result, many times the size the phone's mobile link has been
+    measured to reset mid-transfer. Same rows and columns as the SQL, ordered
+    by game as the SQL happened to return them. `conn` is still accepted so
+    existing callers keep working, and is not used.
+    """
+    phonedb = _phonedb()
+    box = phonedb.load("box_player_traditional", verbose=False)
+    games = phonedb.load("games", verbose=False)[["game_id", "season"]]
+    if seasons:
+        games = games[games["season"].isin(seasons)]
+    df = (box[["game_id", "player_id", "team_abbreviation", "comment"]]
+          .merge(games[["game_id"]], on="game_id", how="inner")
+          .rename(columns={"player_id": "person_id", "team_abbreviation": "team"})
+          .sort_values("game_id", kind="stable")
+          .reset_index(drop=True))
     df["comment"] = df["comment"].fillna("")
     df["absent"] = df["comment"].str.strip().ne("")
     df["injury"] = df["comment"].str.contains(INJURY_PATTERN, case=False, regex=True)

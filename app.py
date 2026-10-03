@@ -36,6 +36,7 @@ Run:  py app.py                 (auto-detects the Tailscale IP)
 """
 import os
 import sys
+import json
 import pickle
 import argparse
 import subprocess
@@ -49,34 +50,63 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 BASE_DATA_DIR = os.path.join(PROJECT_ROOT, "nba_data")
 MODEL_DIR = os.path.join(PROJECT_ROOT, "models")
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")
-# The SAME pickle retrain_production trains on. It has to be: the two builds
-# disagree on all 190 features - the CSV build predates the impact fix that
-# keyed players by person id instead of surname, so its roster columns are
-# built from impacts that merged same-surname players on opposing teams. Serving
-# predictions from features the models were never fitted on is a silent error;
-# nothing raises, the numbers just mean less than they appear to.
-DATASET_PATH = os.path.join(OUTPUT_DIR, "engineered_dataset_db.pkl")
+# The SAME pickle retrain_production trains on. It has to be: the roster and
+# matchup columns keep their names across the dataset builds but not their
+# meaning - the older builds aggregated them over the players who appeared in
+# the game (which leaks the result), this one over the pre-game team sheet.
+# Serving predictions from features the models were never fitted on is a silent
+# error; nothing raises, the numbers just mean less than they appear to.
+DATASET_PATH = os.path.join(OUTPUT_DIR, "engineered_dataset_pregame.pkl")
 IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v4.pkl")
 CALIBRATOR_PATH = os.path.join(MODEL_DIR, "home_win_calibrator_2025_26.pkl")
 SIMULATOR_PATH = os.path.join(MODEL_DIR, "simulator_2025_26.pkl")
+FEATURE_LIST_PATH = os.path.join(MODEL_DIR, "feature_list_2025_26.json")
+METRICS_PATH = os.path.join(OUTPUT_DIR, "metrics_2025_26.json")
 
 TARGETS = ["home_win", "point_diff", "total_score", "home_score", "away_score"]
 TARGET_SEASON = "2025_2026"
 SIM_DRAWS = 4000
 
-# Measured over 12 monthly walk-forward folds x 3 seeds, burn-in >= 10 games.
-# Hardcoded rather than recomputed: the page must not imply these came from the
-# games being browsed.
-HONEST_METRICS = {
+# What the page quotes as the model's accuracy. Read from the trainer's metrics
+# file, whose honest_walk_forward block is copied from consistency_lab.py's
+# monthly walk-forward - never recomputed from the games being browsed, so the
+# page cannot imply the number came from them. The fallback is the last
+# measurement made by hand, kept so the page still renders without the file.
+# The naive baseline (always pick the side that wins more often that month) is
+# a property of the games, not the model, so it does not change between runs.
+NAIVE_BASELINE_21_MONTHS = 0.5554
+FALLBACK_METRICS = {
     "accuracy": 0.6673, "accuracy_std": 0.0659,
-    "accuracy_calibrated": 0.6693,
-    "accuracy_with_ratings_calibrated": 0.6814,
-    "naive_baseline": 0.5499,
-    "auc": 0.7340,
+    "naive_baseline": 0.5499, "auc": 0.7340,
     "protocol": "12 aylik walk-forward x 3 seed, burn-in >= 10 mac",
     "single_split_accuracy": 0.7857,
     "single_split_note": "tek split rakami sezonun en kolay 5 haftasindan geliyor",
 }
+
+
+def _honest_metrics():
+    """The walk-forward numbers for the models actually on disk."""
+    if not os.path.exists(METRICS_PATH):
+        return FALLBACK_METRICS
+    try:
+        with open(METRICS_PATH, encoding="utf-8") as f:
+            payload = json.load(f)
+    except (OSError, ValueError):
+        return FALLBACK_METRICS
+    honest = payload.get("honest_walk_forward")
+    if not honest or honest.get("accuracy_blend3") is None:
+        return FALLBACK_METRICS
+    return {
+        "accuracy": honest["accuracy_blend3"],
+        "accuracy_std": honest["month_sd"],
+        "naive_baseline": NAIVE_BASELINE_21_MONTHS,
+        "auc": honest["auc"],
+        "protocol": (f"{honest['n_cells']} hucre aylik walk-forward (mac oncesi kadro, "
+                     f"burn-in >= 10 mac); siniflandirici tek basina "
+                     f"{honest['accuracy_classifier']:.3f}"),
+        "single_split_accuracy": payload["metrics"]["blend"]["accuracy"],
+        "single_split_note": "tek split rakami sezonun son 5 haftasindan geliyor",
+    }
 
 BADGE_IN_SAMPLE = {
     "key": "in-sample",
@@ -144,6 +174,24 @@ def _build_player_games(dataset):
     return pg.sort_values(["player", "game_date"]).reset_index(drop=True)
 
 
+def _trained_features(bundle):
+    """The columns the models on disk were fitted on, in their order.
+
+    The trainer writes them beside the models because the shipped set may be
+    wider than the dataset's base list (the who-is-out columns), and a column
+    the model never saw must not be handed to it in another one's place.
+    """
+    if os.path.exists(FEATURE_LIST_PATH):
+        with open(FEATURE_LIST_PATH, encoding="utf-8") as f:
+            listed = json.load(f)["features"]
+        missing = [c for c in listed if c not in bundle["dataset"].columns]
+        if missing:
+            raise RuntimeError(f"model {len(missing)} feature bekliyor ama dataset'te yok: "
+                               f"{missing[:5]} - dataset ve modeller ayni build'den mi?")
+        return listed
+    return bundle["features"]
+
+
 def _load_optional(path, label):
     """Load a pickle that the dashboard degrades gracefully without."""
     if not os.path.exists(path):
@@ -161,7 +209,7 @@ def _load_state():
     with open(DATASET_PATH, "rb") as f:
         bundle = pickle.load(f)
     dataset = bundle["dataset"].copy()
-    features = bundle["features"]
+    features = _trained_features(bundle)
     dataset["game_id"] = dataset["game_id"].astype(str).str.zfill(10)
     dataset["game_date"] = pd.to_datetime(dataset["game_date"])
 
@@ -397,7 +445,7 @@ def api_meta():
         "split_date": state["split_date"],
         "n_held_out": len(state["test_game_ids"]),
         "n_games": int(len(df)),
-        "metrics": HONEST_METRICS,
+        "metrics": _honest_metrics(),
         "has_calibrator": state["calibrator"] is not None,
         "has_simulator": state["simulator"] is not None,
     })

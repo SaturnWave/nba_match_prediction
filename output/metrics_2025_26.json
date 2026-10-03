@@ -10,54 +10,120 @@
     "2024_2025",
     "2025_2026"
   ],
+  "dataset": "engineered_dataset_pregame.pkl",
+  "roster": "pregame",
+  "feature_set": "base+out",
+  "recipe": "reg+mono",
   "n_train": 10441,
   "n_test": 308,
-  "n_features": 190,
+  "n_features": 196,
   "split_date": "2026-03-04",
   "ensemble_size": 10,
+  "tree_counts": {
+    "home_win": [
+      157,
+      188,
+      102,
+      36,
+      173,
+      169,
+      132,
+      129,
+      177,
+      185
+    ],
+    "point_diff": [
+      311,
+      267,
+      289,
+      279,
+      204,
+      255,
+      244,
+      330,
+      299,
+      303
+    ],
+    "total_score": [
+      69,
+      59,
+      82,
+      95,
+      47,
+      77,
+      99,
+      86,
+      81,
+      88
+    ],
+    "home_score": [
+      65,
+      56,
+      58,
+      53,
+      51,
+      56,
+      73,
+      65,
+      56,
+      68
+    ],
+    "away_score": [
+      109,
+      95,
+      104,
+      112,
+      103,
+      107,
+      119,
+      103,
+      99,
+      78
+    ]
+  },
+  "early_stopping": "chronological last 10% of train chooses the tree count; members refitted on all training rows; held-out slice used only for scoring",
   "metrics": {
     "home_win": {
-      "accuracy": 0.7922077922077922,
-      "auc": 0.839935974389756,
-      "brier": 0.18584204961308276,
-      "log_loss": 0.5600220844885307,
+      "accuracy": 0.801948051948052,
+      "auc": 0.8394913520963941,
+      "brier": 0.16999757027828194,
+      "log_loss": 0.5226571343832891,
       "baseline_home_rate": 0.6136363636363636
     },
     "point_diff": {
-      "mae": 10.507551181696543,
-      "rmse": 13.60821141573688
+      "mae": 11.369691263030894,
+      "rmse": 14.545684780020068
     },
     "total_score": {
-      "mae": 15.131823422377456,
-      "rmse": 19.05264024883462
+      "mae": 15.228728553250706,
+      "rmse": 19.14477169412607
     },
     "home_score": {
-      "mae": 9.712385914684008,
-      "rmse": 12.172151159483873
+      "mae": 9.98979006524018,
+      "rmse": 12.55805962985345
     },
     "away_score": {
-      "mae": 9.248364356680202,
-      "rmse": 11.481266618577958
+      "mae": 9.443849781577164,
+      "rmse": 11.748520626086453
     },
     "blend": {
       "accuracy": 0.7857142857142857,
-      "auc": 0.8444711217820462,
-      "brier": 0.1692155719742814
+      "auc": 0.8365568449602062,
+      "brier": 0.16498985619951417
     }
   },
   "calibrator": "isotonic",
   "honest_walk_forward": {
-    "accuracy_single_model": 0.6689,
-    "accuracy_std": 0.0502,
-    "accuracy_ensemble_10": 0.6792,
-    "blend3_gain": 0.0183,
-    "blend3_gain_se": 0.002,
-    "blend3_auc_gain": 0.015,
-    "blend3_cells": 430,
-    "ceiling_if_calibrated": 0.6559,
-    "ensemble_gain": 0.0103,
-    "ensemble_gain_se": 0.0051,
-    "naive_baseline": 0.5554,
-    "note": "21 ay katmani, burn-in >= 10; asagidaki tek-split rakami sezonun en kolay 5 haftasindan geliyor ve iyimserdir"
-  }
+    "arm": "reg+mono+out",
+    "n_cells": 54,
+    "accuracy_classifier": 0.6729,
+    "accuracy_blend3": 0.6854,
+    "auc": 0.7433,
+    "brier": 0.2101,
+    "point_diff_mae": 11.201,
+    "month_sd": 0.0607,
+    "seed_range": 0.043,
+    "protocol": "walk_forward.py's: expanding-origin monthly folds, a classifier fitted on\n    the first 80% of prior games and early-stopped on the next 10%, the final\n    10% kept for the calibrator and for the margin-to-probability map; a\n    point-differential regressor fitted 90/10. Scored at burn-in 10. The\n    observed, pregame and pregame+out arms also get the blended forecaster\n    (classifier + margin view + logistic view), since that is what production\n    serves.\n\n    Nothing from the test month reaches any fit, and every arm is compared to\n    another arm inside the same cell."
+  },
+  "note": "tek-split rakamlari sezonun son bes haftasindan geliyor ve iyimser; baglayici olan honest_walk_forward"
 }

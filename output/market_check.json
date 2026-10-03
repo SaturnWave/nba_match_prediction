@@ -1,0 +1,31 @@
+{
+  "n_games": 308,
+  "winner": {
+    "model_accuracy": 0.7857142857142857,
+    "market_accuracy": 0.775974025974026,
+    "model_brier": 0.16498985619951415,
+    "market_brier": 0.15315323299833813,
+    "agreement_rate": 0.9058441558441559
+  },
+  "margin": {
+    "model_mae": 11.369691263030894,
+    "market_mae": 10.584415584415584,
+    "mean_abs_model_minus_line": 3.153430700197011
+  },
+  "total": {
+    "model_mae": 15.228728553250706,
+    "market_mae": 14.331168831168831
+  },
+  "against_the_spread": {
+    "n": 308,
+    "cover_rate": 0.4577922077922078,
+    "se": 0.028388452373665874,
+    "break_even": 0.524,
+    "when_model_differs_by_3plus": {
+      "n": 133,
+      "cover_rate": 0.47368421052631576,
+      "se": 0.04329540766634857
+    }
+  },
+  "features": 196
+}

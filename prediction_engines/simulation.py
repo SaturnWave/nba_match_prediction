@@ -61,6 +61,9 @@ OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")
 MODEL_DIR = os.path.join(PROJECT_ROOT, "models")
 REPORT_PATH = os.path.join(OUTPUT_DIR, "simulation_2025_26.json")
 SIMULATOR_PATH = os.path.join(MODEL_DIR, "simulator_2025_26.pkl")
+DATASET_PATH = os.path.join(OUTPUT_DIR, "engineered_dataset_pregame.pkl")
+FEATURE_LIST_PATH = os.path.join(MODEL_DIR, "feature_list_2025_26.json")
+TARGET_SEASON = "2025_2026"
 
 POISSON_PARAMS = dict(objective="poisson", random_state=42, n_estimators=600,
                       learning_rate=0.03, num_leaves=31, subsample=0.8,
@@ -217,14 +220,47 @@ def evaluate(test, draws, home, away):
     }
 
 
+def load_production_dataset(path):
+    """The dataset production trains on, with the feature list production ships.
+
+    The simulator has to see exactly the columns the five models see: the
+    roster columns keep their names across dataset builds but not their
+    meaning, so a simulator fitted on another build would be fed numbers from
+    a different definition without anything raising.
+    """
+    blob = pd.read_pickle(path)
+    if blob.get("roster") != "pregame":
+        raise SystemExit(f"{path} mac-oncesi kadro ile kurulmamis; once "
+                         "pregame_roster.py calistirin")
+    dataset = blob["dataset"]
+    dataset["game_date"] = pd.to_datetime(dataset["game_date"])
+    features = list(blob["features"])
+    if os.path.exists(FEATURE_LIST_PATH):
+        with open(FEATURE_LIST_PATH, encoding="utf-8") as f:
+            features = json.load(f)["features"]
+    return dataset, features
+
+
+def chrono_split(dataset, target_season=TARGET_SEASON):
+    """retrain_production's split: every other season plus the first 75% of
+    the target season train; the last 25% is held out."""
+    ctx = dataset[dataset["season"] != target_season]
+    tgt = dataset[dataset["season"] == target_season].sort_values("game_date")
+    split = int(len(tgt) * 0.75)
+    train = pd.concat([ctx, tgt.iloc[:split]]) if not ctx.empty else tgt.iloc[:split]
+    return train.sort_values("game_date"), tgt.iloc[split:]
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--sims", type=int, default=DEFAULT_SIMS)
+    parser.add_argument("--dataset", default=DATASET_PATH)
     args = parser.parse_args()
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    dataset, features = cal.load_dataset()
-    train, test = cal.chrono_split(dataset)
+    dataset, features = load_production_dataset(args.dataset)
+    train, test = chrono_split(dataset)
+    print(f"dataset: {len(dataset):,} mac, {len(features)} feature (mac oncesi kadro)")
     fit_df, stop_df, moment_df = cal.three_way(train.sort_values("game_date"))
     print(f"fit={len(fit_df)} early-stop={len(stop_df)} moment={len(moment_df)} test={len(test)}")
 

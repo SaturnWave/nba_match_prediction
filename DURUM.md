@@ -1,144 +1,153 @@
 # Durum — db-pipeline dalı
 
-Son güncelleme: 2026-09-02. Bu dosya, çalışmaya ara verildiğinde nerede
+Son güncelleme: 2026-10-03. Bu dosya, çalışmaya ara verildiğinde nerede
 kalındığını ve nasıl devam edileceğini anlatır.
 
 ## Tek cümlelik özet
 
-Veri katmanı MariaDB'ye taşındı ve bir veri hatası düzeltildi; altı feature
-ailesi denendi ve hiçbiri doğruluğu artırmadı; doğruluğu artıran tek şey seed
-ensemble oldu (+1.03 puan).
+Modelin iki sızıntısı bulundu ve kapatıldı (kadro feature'ları maçta sahaya
+çıkanlardan hesaplanıyordu; üretim modelleri test setiyle erken duruyordu);
+dürüst feature'lar üzerinde düzenlileştirme + monoton kısıt olasılık kalitesini
+ve iç tutarlılığı artırdı, isabeti değiştirmedi; üretim bu tarifle yeniden
+kuruldu.
 
 ## Dürüst rakamlar
 
-Tek split rakamlarına güvenme — sezonun en kolay beş haftasını ölçüyor ve
-yaklaşık 13 puan yüksek okuyor. Bağlayıcı olan walk-forward:
+Bağlayıcı olan walk-forward (18 ay × 3 seed = 54 hücre, 2023-11 → 2026-04,
+burn-in ≥ 10 maç, `output/consistency_lab_round2.json`, kol `reg+mono+out`):
 
 | ölçüm | değer |
 |---|---|
-| Doğruluk (tek model) | 0.6716 ± 0.0552 |
-| Doğruluk (10 seed ensemble) | ~0.6819 |
-| Naif taban | 0.5494 |
-| Tabana kazanç | +12.2 puan |
-| AUC | 0.7376 |
-| Brier | 0.2126 (kalibrasyonlu 0.2083) |
-| Hedef | 0.70 |
+| Kazanan isabeti (sınıflandırıcı) | 0,673 (ay sapması 0,061) |
+| Kazanan isabeti (blend, dashboard'un gösterdiği) | 0,685 |
+| AUC | 0,743 |
+| Brier | 0,210 (blend 0,204) |
+| Sayı farkı MAE | 11,2 |
+| Kazanan–marj çelişkisi | %8,9 (eski tarifte %13,0) |
+| Naif taban | 0,555 |
 
-Protokol: 24 aylık genişleyen pencere × 5 seed, burn-in ≥ 10 maç, her katman
-kendinden önceki her şeyle eğitiliyor.
+Tek split (son 308 maç, 2026-03-04 sonrası, hiçbir fit'e girmedi):
+blend isabet 0,786, AUC 0,837, Brier 0,165; marj MAE 11,37; toplam MAE 15,23.
+Sezonun son beş haftası kolay okur; bu rakama değil üsttekine güven.
+
+## Bulunan iki sızıntı
+
+**1. Kadro maçın kendisinden okunuyordu.** `roster_impact_*` ve `matchup_*`
+feature'ları oyuncu değerlerini maçtan önce hesaplıyordu (bu doğrulandı), ama
+hangi oyuncuların toplanacağını o maçın impact cache'inden / matchup
+dosyasından, yani **sahaya çıkanlardan** alıyordu. Sahaya çıkan oyuncu sayısı
+maçın |farkı| ile 0,64 korelasyonlu (25 sayılık maçta iki bank da boşalır).
+`roster_impact_l10_sum` sayı farkı modelinin 1 numaralı feature'ıydı.
+
+Ölçülen büyüklük (eşleştirilmiş, 54 hücre, `output/consistency_lab.json`):
+isabet +0,8 ± 0,4 puan, AUC +0,014, Brier −0,005, **sayı farkı MAE −0,80 sayı
+(54 hücrenin 54'ünde)**. Blend isabetine etkisi yok, olasılık kalitesine var.
+
+Çözüm: `prediction_engines/pregame_roster.py`. Kadro = maçın forma listesi
+eksi sakatlık raporu işaretleri (`DND`, `NWT`, `Injury`, `Rest`...; "DNP -
+Coach's Decision" dahil çünkü o oyuncu formayı giymiş). Ağırlık = önceki
+maçlardaki dakika ortalaması. Yeni kadro sayısı 12,5 ± 1,4; |fark| ile
+korelasyonu −0,015. Ek iki meşru sinyal: `roster_avail_minutes` (normal
+rotasyonun ne kadarı sahada) ve `roster_missing_impact` (eksik oyuncuların
+değeri). Veri seti: `output/engineered_dataset_pregame.pkl`
+(`blob["roster"] == "pregame"`).
+
+**2. Test seti ağaç sayısını seçiyordu.** `retrain_production.py` her üyeyi
+308 maçlık held-out dilimiyle erken durduruyordu. Etkisi küçük (isabet
+~0,3 puan, marj MAE ~0,1) ama dashboard'daki "gerçek out-of-sample" etiketi
+doğru değildi. Şimdi: eğitim satırlarının son %10'u ağaç sayısını seçiyor,
+üye tüm eğitim satırlarıyla o sayıda yeniden kuruluyor; held-out yalnızca
+skorlanıyor.
+
+Üçüncü bir uyumsuzluk da düzeltildi: simülatör eski CSV veri setinden
+eğitilmişti, DB veri setiyle servis ediliyordu. `simulation.py` artık üretim
+veri setini ve `models/feature_list_2025_26.json`'daki listeyi kullanır.
+
+## Ne denendi, ne çıktı (dürüst feature'lar üzerinde)
+
+1. tur, `pregame`'e göre eşleştirilmiş (`output/consistency_lab.json`):
+
+| kol | isabet | AUC | Brier | sonuç |
+|---|---|---|---|---|
+| +eksik oyuncu (`pregame+out`) | −0,005 ± 0,006 | +0,004 | +0,001 | tek başına sıfır, blend'de +0,4 |
+| sadece `diff_` (66 feature) | +0,002 ± 0,006 | +0,006 | −0,0035 ± 0,0015 | olasılık kalitesi |
+| düzenlileştirilmiş öğrenici | −0,006 ± 0,007 | **+0,013** | −0,0026 | sıralama kalitesi |
+| monoton kısıt | +0,001 ± 0,005 | +0,008 | −0,0034 ± 0,0013 | olasılık kalitesi |
+| sezon fazı (gp) | −0,004 ± 0,006 | +0,006 | +0,001 | sıfır |
+
+2. tur, `pregame+out`'a göre, hepsi blend ile (`output/consistency_lab_round2.json`):
+
+| kol | isabet | Brier | çelişki | blend isabet | blend Brier |
+|---|---|---|---|---|---|
+| **reg+mono+out** | **+0,011 ± 0,005** | **−0,0061 ± 0,0014** | %8,9 | +0,001 | −0,0013 ± 0,0004 |
+| diff_mono | +0,011 ± 0,006 | −0,0043 | %10,7 | **+0,006 ± 0,002** | −0,0010 |
+| reg+out | −0,001 | −0,0034 | %11,5 | +0,001 | −0,0010 |
+| diff_reg_mono | −0,003 | −0,0030 | %12,7 | +0,004 | −0,0010 |
+
+Üretim tarifi `reg+mono+out`: `num_leaves=15, min_child_samples=60,
+reg_lambda=5, colsample=0.5, subsample=0.8 (freq 1), lr=0.02` + her `diff_`
+sütununda eğitim satırlarından işaretlenen monoton kısıt; kazanan ve marj
+modellerinde. Skor modelleri ölçülmediği için eski parametrelerde.
+`diff_mono` blend isabetinde daha iyi ama ay sapması daha yüksek; isabet
+farkları seed gürültüsü sınırında, Brier/çelişki farkları değil.
+
+## Piyasa ile karşılaştırma (308 maç, DraftKings kapanış, `output/market_check.json`)
+
+| soru | model | piyasa |
+|---|---|---|
+| kazanan isabeti | 0,786 | 0,776 |
+| Brier | 0,165 | 0,153 |
+| sayı farkı MAE | 11,37 | 10,58 |
+| toplam MAE | 15,23 | 14,33 |
+| handikapta modelin tarafı | %45,8 ± 2,8 | başabaş %52,4 |
+
+Önceki oturumda görülen "handikap %57 / çizgiden 3+ sapınca %61" sinyali
+**kadro sızıntısının ürünüydü**; dürüst modelde kayboldu. Piyasa marjda ve
+toplamda açıkça daha iyi; kazananda berabere. Bahis tavsiyesi yok, olmayacak;
+piyasa yalnızca dış ölçüt.
 
 ## Veri
 
-9 sezon, 10.749 maç, `phonedb` (MariaDB, Tailscale üzerinden 100.101.28.63).
-
-Yerel kopyalar DB olmadan çalışmaya yeter:
+DB (telefon) kapalı; her şey yerel: `phonedb_cache/*.pkl` (12 tablo, 12 Eylül
+çekimi), `game_impact_cache_v4.pkl`, `matchup_cache_v1.pkl`, `nba_data/`
+(CSV). Yeniden kurmak için DB gerekmez.
 
 | dosya | içerik |
 |---|---|
-| `output/engineered_dataset_db.pkl` | 10.749 × 274, 190 temel + rest/clutch/avail grupları |
-| `game_impact_cache_v4.pkl` | 220.001 oyuncu-maç impact kaydı, person_id anahtarlı |
-| `output/walk_forward_7arms.json` | 7 kollu son ölçüm, 105 hücre |
-| `output/seed_ensemble.json` | ensemble ölçümü |
-| `output/staleness.json` | ağırlık eskimesi ölçümü |
-
-`.env` DB kimlik bilgilerini taşır ve gitignore'dadır.
-
-## Ne denendi, ne çıktı
-
-Hepsi 105 hücrede, A'ya göre eşleştirilmiş fark:
-
-| aile | fark | se | hücre | sonuç |
-|---|---|---|---|---|
-| müsaitlik (avail) | **+0.0011** | 0.0018 | **315** | sıfır (aşağıya bak) |
-| clutch | +0.0006 | 0.0031 | 105 | sıfır |
-| kalibrasyon | −0.0003 | 0.0029 | 105 | doğrulukta sıfır, Brier'de −%2 |
-| rest / b2b | −0.0015 | 0.0028 | 105 | sıfır |
-| rating (Elo/Massey) | −0.0030 | 0.0034 | 105 | sıfır |
-| **seed ensemble** | **+0.0103** | **0.0051** | 21 ay | **tek gerçek kazanç** |
-
-Ensemble kazancı N ile tekdüze artıyor (+0.0070 / +0.0088 / +0.0103 at 3/5/10),
-ki bu bagging'in öngördüğü doz-yanıt ilişkisi.
-
-### Müsaitlik: güç artınca etki söndü
-
-105 hücrede +0.0032 ± 0.0025 (1.28×) ile en umutlu aileydi. Kol sayısı 7'den
-2'ye indirilip seed 5'ten 15'e çıkarılarak 315 hücreye taşındığında etki
-**+0.0011 ± 0.0018**'e düştü ve hücrelerin yalnızca 144/315'inde önde çıktı —
-yarının altında. Güç arttıkça sıfıra yaklaşan bir etki, gerçek bir etki değil.
-
-Bu, ölçüm gücünü artırmanın neden gerekli olduğunun somut örneği: aynı aile az
-hücreyle "en umutlu aday" görünüyordu.
-
-### Toplu sonuç
-
-Altı bağımsız feature ailesi denendi, altısı da sıfır. Bunlardan üçü iki
-parçalı tarama testini (tahmin gücü + yenilik) geçmişti. Elimizdeki veriden
-türetilen tablo tipi feature mühendisliği tükenmiş durumda.
-
-## Öğrenilen dersler
-
-**İki parçalı tarama testi yeterli değil.** Bir feature'ın işe yaraması için
-hem sonucu tahmin etmesi hem yeni bilgi taşıması gerekiyor gibi görünüyordu,
-ama clutch ikisini de geçip sıfır getirdi. Ridge R² testi *doğrusal*
-fazlalığı ölçüyor; LightGBM'in kurabildiği doğrusal olmayan bileşimler çok
-daha geniş. Test bir eleme filtresi olarak kullanılabilir, yeterli koşul değil.
-
-**Elo neden işe yaramadı.** `diff_rating_elo` mevcut feature'lardan %81
-tahmin edilebiliyor; en çok örtüştüğü `diff_season_avg_point_margin` (0.842).
-Yani Elo aslında "rakip düzeltmeli sezon ortalama marjı" ve model zaten sezon
-ortalama marjına sahip.
-
-**Model ağırlıkları eskimiyor.** Test maçları sabit tutulup eğitim kesimi
-değiştirildiğinde 150 günlük gecikme −0.0013 ± 0.0090 maliyet veriyor.
-Feature'lar zaten maç tarihine göre hesaplandığı için yeni sezonda günlük
-yeniden eğitim gerekmiyor; aylık yeter.
-
-**Zayıf aylar veri sorunu değil.** Aralık–Ocak kötü çünkü maçlar gerçekten
-daha yakın (%33'ü ≤6 sayı, Nisan'da %27) ve feature'lar o aylarda %39 daha az
-sinyal taşıyor. Doğruluk yakın maç oranıyla −0.787, feature-sonuç
-korelasyonuyla +0.879 ilişkili.
-
-**Varyansın %86'sı ay etkisi**, %14'ü seed. Ensemble seed kısmına dokunuyor,
-o yüzden doğruluğu artırıp tutarlılığı artırmıyor.
-
-## Devam edilecek yer
-
-Bekleyen koşu yok; müsaitlik testi tamamlandı ve sonucu yukarıda.
-
-Production şu an: temel 190 feature, 10 seed ensemble, isotonic kalibratör.
-Eklenmiş fazladan feature ailesi yok — çünkü hiçbiri kazanmadı.
-
-## Sonraki adım adayları
-
-Doğruluk cephesinde elimizdeki veri tükendiği için, sıradaki iş "aynı sayıyı
-yükseltmek" değil, farklı bir şey üretmek olmalı.
-
-1. **Simülasyon motorunu ürünleştirmek.** Doğruluk artırmıyor ama beş modelin
-   çelişkisini bitiriyor (kazanan–marj çelişkisi 28 maçtan 1'e) ve dağılım
-   veriyor: %80 aralık gerçekte %78.6 kapsıyor, skor yayılımı 4.5'ten 13.1'e
-   çıkıp gerçek 13.7'ye oturuyor. Ürün değeri burada, ve ödül modelinin de
-   altyapısı bu.
-2. **Ödül modeli (MVP/DPOY).** Altyapı hazır: `player_game_impact` (220.001
-   satır, person_id anahtarlı), `pbp_defensive_event` (270.803 satır, blokçu→
-   şutör eşleşmesi), `PlayerAwards` endpoint'i All-NBA/All-Defensive
-   etiketlerini veriyor (sezon başına ~25 pozitif). Maç sonucu tahmininde tavan
-   var; bu problem el değmemiş.
-3. **Dışarıdan bilgi.** Sakatlık raporları (maç öncesi, bizim geriye dönük
-   yokluk verimizden farklı), bahis çizgisi hareketi. Elimizdeki veriden
-   çıkarılabilecekler tükendi; buradan yukarısı yeni bilgi gerektiriyor.
-
-Hedefe uzaklık: ensemble'lı walk-forward ~0.682, hedef 0.70, kalan 0.018.
-Karşılaştırma için bahis piyasasının kapanış çizgisi düz kazanan tahmininde
-kabaca %68-72 tutar — yani hedef, piyasayı yakalamak demek.
+| `output/engineered_dataset_pregame.pkl` | 10.749 × 316, üretim veri seti |
+| `output/engineered_dataset_db.pkl` | eski (sahaya çıkan kadro) — aynı sütun adları, farklı anlam; modellerle karıştırma |
+| `models/feature_list_2025_26.json` | üretimin 196 feature'ı, tarif, kadro türü |
+| `models/backup_observed_roster_2026-10-03/` | eski modeller |
+| `output/consistency_lab*.json` | iki tur deney |
+| `output/market_check.json` | piyasa karşılaştırması |
 
 ## Çalıştırma
 
 ```
-py prediction_engines/build_dataset_db.py        # DB gerekir, ~5 dk
-py prediction_engines/retrain_production.py      # yerel, 10 seed ensemble
-py prediction_engines/walk_forward.py --dataset output/engineered_dataset_db.pkl
+py prediction_engines/pregame_roster.py          # eski veri setinden mac-oncesi kadro, ~1 dk
+py prediction_engines/retrain_production.py      # --feature-set base+out --recipe reg+mono (varsayilan), ~2 dk
+py prediction_engines/simulation.py              # simulator, ayni veri seti
+py prediction_engines/market_check.py            # 308 mac piyasa karsilastirmasi
+py prediction_engines/consistency_lab.py         # deney harness'i (--arms, --all-margin, --base)
 py app.py                                        # Tailscale IP'sine bind eder
 ```
 
-Otomatik push 5 dakikada bir yalnızca veri dizinlerini commit eder; kod elle
-commit edilir (`schtasks /Delete /TN "NBA repo auto-push" /F` ile kaldırılır).
+Dashboard'un doğruluk rakamı `output/metrics_2025_26.json` →
+`honest_walk_forward` bloğundan okunur (yeniden eğitim lab raporundan kopyalar).
+
+## Sonraki adım adayları
+
+1. **Maç öncesi sakatlık raporu.** `roster_missing_impact` bunun geriye dönük
+   vekili; canlı sezonda gerçek rapor beslenebilir.
+2. **Gelecek maç için feature üretimi.** Dashboard yalnızca veri setindeki
+   maçları tahmin ediyor; oynanmamış bir maç için maç öncesi feature kuran yol
+   yok. `pregame_roster.build_pregame_features` zaten tarih sırasıyla çalışıyor,
+   "bugün itibarıyla" durumunu vermesi küçük bir ek.
+3. **Çok sezonlu çizgi arşivi.** Piyasa karşılaştırması 308 maçla sınırlı.
+
+## Bekleyenler
+
+- Hiçbir şey commit edilmedi (dal `db-pipeline`): yeni modüller, veri seti,
+  raporlar, model dosyaları.
+- `odds_data/*.xlsx` içindeki model sütunları eski (sızıntılı) modelden.
+- `DB_KURTARMA.md` eski host/şemayı anlatıyor.

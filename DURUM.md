@@ -1,6 +1,6 @@
 # Durum — db-pipeline dalı
 
-Son güncelleme: 2026-10-03. Bu dosya, çalışmaya ara verildiğinde nerede
+Son güncelleme: 2026-10-03 (güç sıralaması eklendi). Bu dosya, çalışmaya ara verildiğinde nerede
 kalındığını ve nasıl devam edileceğini anlatır.
 
 ## Tek cümlelik özet
@@ -105,6 +105,26 @@ farkları seed gürültüsü sınırında, Brier/çelişki farkları değil.
 **kadro sızıntısının ürünüydü**; dürüst modelde kayboldu. Piyasa marjda ve
 toplamda açıkça daha iyi; kazananda berabere. Bahis tavsiyesi yok, olmayacak;
 piyasa yalnızca dış ölçüt.
+
+## Güç sıralaması ve OVR (`prediction_engines/power_rankings.py`)
+
+Dashboard'da "Güç Sıralaması" görünümü: hafta / ay / sezon pencereleri,
+30 takım logolu, oyuncu OVR listesi. Hepsi oynanmış maçların özeti, tahmin
+değil. Birimler maç başına sayı (lig ortalaması rakibe, nötr sahada):
+
+| sayı | ne |
+|---|---|
+| sezon gücü | sezon-bugüne Massey çözümü (ridge, eşit ağırlık); sezonun ilk ~100 maçı dolmadan Elo'dan çevrilir (28 Elo ≈ 1 sayı) |
+| form | pencerenin maçlarında sezon gücü + ev avantajı çıkarıldıktan sonra kalan marjın ridge çözümü; az maçta sıfıra çekilir |
+| güç | hafta/ay: sezon gücü + form; sezon: sezon gücü (form ayrı gösterilir) |
+| takım OVR | 85 + 1,1 × güç, 60–99 |
+| oyuncu OVR | penceredeki impact/maç ortalamasının ligdeki yüzdeliği: 65 + 34 × p^2,6 (ortanca ~71, en iyi %3 96+); ≥12 dk ve yeterli maç şartı |
+| kadro OVR | sezon oyuncu OVR'larının en çok oynayan 8 oyuncuda dakika ağırlıklı ortalaması |
+
+API: `/api/rankings/periods`, `/api/rankings?window=&key=`,
+`/api/rankings/players?window=&key=&team=`. Haftalık sorgu ~0,2 sn, sonuçlar
+önbellekte. Trend oku bir önceki dönemle (sezon görünümünde 28 gün önceyle)
+karşılaştırır.
 
 ## Veri
 

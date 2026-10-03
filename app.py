@@ -247,7 +247,8 @@ def _load_state():
     rating_cols = [c for c in ratings_module.RATING_FEATURE_COLS if c in rated.columns]
     ratings_by_game = rated.set_index("game_id")[rating_cols] if rating_cols else None
 
-    player_games = _build_player_games(dataset)
+    player_games = _attach_minutes(_build_player_games(dataset))
+    rankings = _load_sibling("power_rankings").RankingEngine(dataset, player_games)
     calibration_module = _load_sibling("calibration") if calibrator else None
     # One forecast per game up front, so the list can show the model's pick
     # beside every result without a model call per card. ~10,000 rows through
@@ -260,12 +261,40 @@ def _load_state():
           f"{len(player_games)} oyuncu-mac kaydi, "
           f"held-out {len(test_game_ids)} mac ({split_date} sonrasi)")
     return {"dataset": dataset, "features": features, "models": models,
-            "blend": blend, "team_ids": _team_ids(dataset),
+            "blend": blend, "team_ids": _team_ids(dataset), "rankings": rankings,
             "test_game_ids": test_game_ids, "split_date": split_date,
             "player_games": player_games, "calibrator": calibrator,
             "simulator": simulator, "ratings": ratings_by_game,
             "simulation_module": _load_sibling("simulation") if simulator else None,
             "calibration_module": calibration_module}
+
+
+def _attach_minutes(player_games):
+    """Minutes and full names per player-game from the local box-score cache.
+
+    The rankings weight a roster by minutes and refuse to rate a player who
+    barely played; the impact cache only knows surnames, and a ranking that
+    says "Williams" is not a ranking. Without the cache the minutes are NaN
+    (the rankings fall back to games played) and the surnames stay.
+    """
+    if player_games.empty:
+        return player_games
+    pregame = _load_sibling("pregame_roster")
+    if not os.path.exists(pregame.BOX_PLAYER_PATH):
+        player_games["minutes"] = np.nan
+        return player_games
+    box = pd.read_pickle(pregame.BOX_PLAYER_PATH)[["game_id", "player_id", "player_name", "min"]]
+    box = pd.DataFrame({
+        "game_id": box["game_id"].astype(str).str.zfill(10),
+        "key": box["player_id"].astype(str),
+        "full_name": box["player_name"].astype(str),
+        "minutes": pregame.parse_minutes(box["min"]),
+    })
+    pg = player_games.copy()
+    pg["key"] = pg["player"].astype(str)
+    pg = pg.merge(box, on=["game_id", "key"], how="left")
+    pg["name"] = pg["full_name"].where(pg["full_name"].notna(), pg["name"])
+    return pg.drop(columns=["key", "full_name"])
 
 
 def _forecast_all(dataset, features, models, blend, calibrator, calibration_module):
@@ -574,6 +603,44 @@ def api_predict(game_id):
     }
     out["matchup_data"] = _matchup_data(g["season"], gid)
     return jsonify(out)
+
+
+RANKING_WINDOWS = ("week", "month", "season")
+
+
+@app.route("/api/rankings/periods")
+def api_ranking_periods():
+    engine = get_state()["rankings"]
+    return jsonify({w: engine.periods(w) for w in RANKING_WINDOWS})
+
+
+@app.route("/api/rankings")
+def api_rankings():
+    engine = get_state()["rankings"]
+    window = request.args.get("window", "season").strip()
+    if window not in RANKING_WINDOWS:
+        return jsonify({"error": f"pencere week/month/season olmali: {window}"}), 400
+    key = request.args.get("key", "").strip() or engine.periods(window)[-1]["key"]
+    try:
+        return jsonify(engine.rank(window, key))
+    except KeyError as exc:
+        return jsonify({"error": str(exc)}), 404
+
+
+@app.route("/api/rankings/players")
+def api_ranking_players():
+    engine = get_state()["rankings"]
+    window = request.args.get("window", "season").strip()
+    if window not in RANKING_WINDOWS:
+        return jsonify({"error": f"pencere week/month/season olmali: {window}"}), 400
+    key = request.args.get("key", "").strip() or engine.periods(window)[-1]["key"]
+    team = request.args.get("team", "").strip().upper() or None
+    limit = min(int(request.args.get("limit", 40) or 40), 200)
+    try:
+        return jsonify({"window": window, "key": key, "team": team,
+                        "players": engine.players(window, key, team, limit)})
+    except KeyError as exc:
+        return jsonify({"error": str(exc)}), 404
 
 
 # ===========================================================================

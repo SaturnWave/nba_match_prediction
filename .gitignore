@@ -40,3 +40,6 @@ models/backup_*/
 
 # modelin impact onbelleginin kaynagi; value_engine.py --all --refresh --no-leverage ile ~4 dk
 output/value_cache_unweighted.pkl
+
+# sezon simulatorunun kum havuzu: gercek veriye dokunmayan, yeniden uretilebilir ciktilar
+sim_sandbox/

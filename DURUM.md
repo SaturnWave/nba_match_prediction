@@ -1,6 +1,6 @@
 # Durum — db-pipeline dalı
 
-Son güncelleme: 2026-10-03 (güç sıralaması, değer skoru, impact v5, fiyatlama 5.1). Bu dosya, çalışmaya ara verildiğinde nerede
+Son güncelleme: 2026-10-04 (sezon simülatörü; öncesinde güç sıralaması, değer skoru, fiyatlama 5.1). Bu dosya, çalışmaya ara verildiğinde nerede
 kalındığını ve nasıl devam edileceğini anlatır.
 
 ## Tek cümlelik özet
@@ -162,6 +162,79 @@ Sıralama ekranında oyuncu OVR artık değerden; üretim OVR yanında, fark
 "boş istatistik" rozeti (≥ +8). Önbellek: `output/value_cache_v1.pkl`
 (`value_engine.py --all`, ~7 dk). Hâlâ görmediği: blok/top çalmaya
 dönüşmeyen savunma, perde, alan açma.
+
+## Sezon simülatörü (`prediction_engines/season_sim.py`) — kum havuzu
+
+Bir sezonu, gerçek veriye dokunmadan, pozisyon pozisyon oynatır. Her pozisyon
+çekilir (kim bitirdi, şut mu top kaybı mı serbest atış mı, girdi mi, kim pas
+verdi, kim ribaunt aldı) ve **gerçek play-by-play'in sütun düzeni ve
+ifadeleriyle** satır olarak yazılır; böylece impact motoru (`value_engine.py`,
+fiyatlama 5.1) simüle maçı gerçek maç gibi okur. Çıktılar yalnızca
+`sim_sandbox/<koşu>/` altına yazılır (git'te yok sayılır); her koşu proje
+verisinin parmak izini önce ve sonra alıp değişip değişmediğini raporlar.
+
+Maçı ne belirler: oyuncu profilleri (önceki sezonların kutu skorlarından
+dakika başına şut, serbest atış gidişi, top kaybı, asist, ribaunt, top çalma,
+blok, faul oranları ve şut yüzdeleri; az oynayan oyuncu yedek seviyesine
+çekilir) + kutu skorunda bireysel ölçüsü olmayan üç takım etkisi (tempo,
+rakibin şut yüzdesi, zorlanan top kaybı; tahmin modunda oyuncularla birlikte
+taşınır) + ev sahibi avantajı + skor etkisi (öndeki takım gevşer). **Eğitilmiş
+tahmin modelleri maç üretmek için kullanılmaz**: modelin ürettiği bir dünya
+ancak modelle aynı fikirde olabilirdi; bu dünya modeli sınamak için var.
+
+Üç mod:
+
+| mod | ne yapar | ne söyler |
+|---|---|---|
+| `forecast` | oynanmamış sezon: yayınlanmış fikstür + güncel kadrolar (`nba_api`), son iki sezonun profilleri | simüle sezon |
+| `mechanics` | oynanmış sezon, her maçın gerçek kadrosu ve dakikalarıyla | üreteç doğru mu |
+| `backtest` | oynanmış sezon, yalnızca öncesindeki bilgiyle | bir tahmine ne kadar güvenilir |
+
+Üretecin doğruluğu (`mechanics`, 2025-26, altı tohum ortalaması; gerçek / simüle):
+sayı 115,6 / 116,0; pozisyon 101,8 / 101,7; şut %47,1 / %47,3; ev sahibi farkı
+1,74 / 1,70; sayı farkı sapması 16,4 / 16,6; toplam sapması 19,9 / 20,1.
+Takım galibiyetleri korelasyon 0,86–0,88, takım sayı farkı 0,91–0,93.
+Bilinen sapmalar: takımlar arası fark gerçeğin ~%80'i (5,2 / 6,2), uzatma oranı
+%2–3 (gerçek %4,4).
+
+Lig oranları ölçüldü, varsayılmadı (2025-26, 200 maç): asistli ikilik %54,1,
+üçlük %85,5; kaçan ikiliğin %20,1'i blok; oyuncu top kaybının %61'i top çalma;
+hücum ribaundu %26; serbest atış gidişlerinin %3,8'i üçlük, and-one isabetli
+ikiliklerin %7,5'i.
+
+**Tahmin gücü sınırlı ve bu ölçüldü** (`backtest`, beş sezon, sezon öncesi
+bilgiyle): gerçek galibiyetle korelasyon ~0,53, ortalama mutlak hata ~8,7 maç;
+"geçen sezonun aynısı" 0,58 / 8,8. Yani simüle puan durumu makul bir dünyadır,
+güvenilecek bir tahmin değil. Takım etkilerini hiç taşımamak belirgin kötü
+(0,36 / 9,7). Galibiyet aralıkları (`--replications`) her tekrarda takım gücünü
+de çeker (`TEAM_SEASON_SD = 0,11`), öyle ki %10–%90 aralığı geçmiş sezonlarda
+gerçeği ~%80 kapsasın; aralıklar ~30 maç genişliğinde.
+
+2026-27 koşusu (`sim_sandbox/forecast_2026_2027/`, tohum 20261020): 1.200 maç
+(takım başına 80; NBA Kupası eleme maçlarının 6'sının takımı belli değil,
+24 maç henüz takvimde yok), 620 oyuncu, 84 sn. Motorun simüle satırlardan
+okuduğu asistler üretecin dağıttığıyla 1.200 maçın tamamında aynı. Dosyalar:
+`games.csv`, `player_games.csv`, `player_values.csv`, `players.csv`,
+`standings.csv`, `win_ranges.csv`, `pbp.csv.gz` (tüm satırlar),
+`impact_cache.pkl` (gerçek önbellekle aynı düzen), `value_cache.pkl`,
+`summary.md` (puan durumu, projenin güç sıralaması motoru simüle sezonda,
+oyuncu OVR, sayı kralları).
+
+Simüle edilmeyenler: oyuncu değişiklikleri (kadro dakika ağırlıklı toplam),
+ikincil ve serbest atış asisti, teknik ve flagrant fauller, çaylakların gerçek
+seviyesi (hepsi yedek profili, az dakika), sakatlıklar yalnızca geçen sezonun
+oynama oranından.
+
+Sıradaki olası adım: eğitilmiş modeli simüle dünyanın içinde çalıştırmak (her
+simüle maçtan önce feature üretip tahmin almak). Bunun için oynanmamış maça
+feature üreten artımlı bir yol gerekiyor; gerçek sezon için de aynı parça.
+
+```
+py prediction_engines/season_sim.py forecast --season 2026_2027 --replications 30
+py prediction_engines/season_sim.py mechanics --season 2025_2026 --fast
+py prediction_engines/season_sim.py backtest --season 2025_2026 --fast
+py prediction_engines/season_sim.py show --run forecast_2026_2027 --game 0022600003
+```
 
 ## Fiyatlama 5.1 — asist ve serbest atış eksiksiz
 

@@ -68,6 +68,11 @@ METRICS_PATH = os.path.join(OUTPUT_DIR, "metrics_2025_26.json")
 
 TARGETS = ["home_win", "point_diff", "total_score", "home_score", "away_score"]
 TARGET_SEASON = "2025_2026"
+# The simulated season the page shows beside the real ones, when it has been
+# run on this machine (prediction_engines/season_sim.py forecast). It lives in
+# sim_sandbox/, is only ever read here, and is never mixed into the real data:
+# its own routes, its own section of the page, labelled as a simulation.
+SIM_RUN = "forecast_2026_2027"
 SIM_DRAWS = 4000
 
 # What the page quotes as the model's accuracy. Read from the trainer's metrics
@@ -195,6 +200,41 @@ def _trained_features(bundle):
     return bundle["features"]
 
 
+def _load_registered(name):
+    """A sibling module that defines dataclasses, loaded once.
+
+    Registered in sys.modules before it runs: @dataclass resolves annotations
+    through it, and season_sim loads its own siblings the same way.
+    """
+    if name in sys.modules:
+        return sys.modules[name]
+    path = os.path.join(PROJECT_ROOT, "prediction_engines", f"{name}.py")
+    spec = importlib.util.spec_from_file_location(name, path)
+    module = importlib.util.module_from_spec(spec)
+    sys.modules[name] = module
+    try:
+        spec.loader.exec_module(module)
+    except BaseException:
+        del sys.modules[name]
+        raise
+    return module
+
+
+def _load_sim_season():
+    """The simulated season, or None when there is none to show."""
+    try:
+        season = _load_registered("season_sim").SimSeason.load(SIM_RUN)
+    except (OSError, ValueError, KeyError) as exc:
+        print(f"[startup] simule sezon okunamadi ({exc}) - o bolum kapali")
+        return None
+    if season is None:
+        print(f"[startup] simule sezon yok (sim_sandbox/{SIM_RUN}) - o bolum kapali")
+    else:
+        season.ranking_engine()       # built now, so the first click does not wait for it
+        print(f"[startup] simule sezon: {season.season}, {len(season.games)} mac")
+    return season
+
+
 def _load_optional(path, label):
     """Load a pickle that the dashboard degrades gracefully without."""
     if not os.path.exists(path):
@@ -266,6 +306,7 @@ def _load_state():
           f"held-out {len(test_game_ids)} mac ({split_date} sonrasi)")
     return {"dataset": dataset, "features": features, "models": models,
             "blend": blend, "team_ids": _team_ids(dataset), "rankings": rankings,
+            "sim": _load_sim_season(),
             "test_game_ids": test_game_ids, "split_date": split_date,
             "player_games": player_games, "calibrator": calibrator,
             "simulator": simulator, "ratings": ratings_by_game,
@@ -523,6 +564,7 @@ def api_meta():
         "metrics": _honest_metrics(),
         "has_calibrator": state["calibrator"] is not None,
         "has_simulator": state["simulator"] is not None,
+        "sim_season": state["sim"].season if state["sim"] is not None else None,
     })
 
 
@@ -645,6 +687,105 @@ def api_ranking_players():
                         "players": engine.players(window, key, team, limit)})
     except KeyError as exc:
         return jsonify({"error": str(exc)}), 404
+
+
+# ===========================================================================
+#  The simulated season (read-only, sim_sandbox/)
+# ===========================================================================
+NO_SIM = ({"error": "simule sezon yok - once season_sim.py forecast calistirin"}, 404)
+
+
+def _sim():
+    return get_state()["sim"]
+
+
+@app.route("/api/sim/meta")
+def api_sim_meta():
+    sim = _sim()
+    if sim is None:
+        return jsonify(NO_SIM[0]), NO_SIM[1]
+    return jsonify(sim.meta())
+
+
+@app.route("/api/sim/standings")
+def api_sim_standings():
+    sim = _sim()
+    if sim is None:
+        return jsonify(NO_SIM[0]), NO_SIM[1]
+    return jsonify({"teams": sim.standings_rows()})
+
+
+@app.route("/api/sim/leaders")
+def api_sim_leaders():
+    sim = _sim()
+    if sim is None:
+        return jsonify(NO_SIM[0]), NO_SIM[1]
+    team = request.args.get("team", "").strip().upper() or None
+    limit = min(int(request.args.get("limit", 10) or 10), 50)
+    return jsonify(sim.leaders(team, limit))
+
+
+@app.route("/api/sim/games")
+def api_sim_games():
+    sim = _sim()
+    if sim is None:
+        return jsonify(NO_SIM[0]), NO_SIM[1]
+    team = request.args.get("team", "").strip().upper() or None
+    month = request.args.get("month", "").strip() or None
+    limit = min(int(request.args.get("limit", 300) or 300), 1500)
+    return jsonify(sim.games_rows(team, month, limit))
+
+
+@app.route("/api/sim/game/<game_id>")
+def api_sim_game(game_id):
+    sim = _sim()
+    if sim is None:
+        return jsonify(NO_SIM[0]), NO_SIM[1]
+    game = sim.game(game_id)
+    if game is None:
+        return jsonify({"error": f"simule sezonda {game_id} yok"}), 404
+    return jsonify(game)
+
+
+@app.route("/api/sim/rankings/periods")
+def api_sim_ranking_periods():
+    sim = _sim()
+    if sim is None:
+        return jsonify(NO_SIM[0]), NO_SIM[1]
+    return jsonify({w: sim.ranking_periods(w) for w in RANKING_WINDOWS})
+
+
+@app.route("/api/sim/rankings")
+def api_sim_rankings():
+    sim = _sim()
+    if sim is None:
+        return jsonify(NO_SIM[0]), NO_SIM[1]
+    window = request.args.get("window", "season").strip()
+    if window not in RANKING_WINDOWS:
+        return jsonify({"error": f"pencere week/month/season olmali: {window}"}), 400
+    periods = sim.ranking_periods(window)
+    key = request.args.get("key", "").strip() or periods[-1]["key"]
+    if key not in {p["key"] for p in periods}:
+        return jsonify({"error": f"simule sezonda {window} donemi yok: {key}"}), 404
+    return jsonify(sim.ranking_engine().rank(window, key))
+
+
+@app.route("/api/sim/rankings/players")
+def api_sim_ranking_players():
+    sim = _sim()
+    if sim is None:
+        return jsonify(NO_SIM[0]), NO_SIM[1]
+    window = request.args.get("window", "season").strip()
+    if window not in RANKING_WINDOWS:
+        return jsonify({"error": f"pencere week/month/season olmali: {window}"}), 400
+    periods = sim.ranking_periods(window)
+    key = request.args.get("key", "").strip() or periods[-1]["key"]
+    if key not in {p["key"] for p in periods}:
+        return jsonify({"error": f"simule sezonda {window} donemi yok: {key}"}), 404
+    team = request.args.get("team", "").strip().upper() or None
+    limit = min(int(request.args.get("limit", 40) or 40), 200)
+    return jsonify({"window": window, "key": key, "team": team,
+                    "players": sim.ranking_engine().players(window, key, team, limit)})
 
 
 # ===========================================================================

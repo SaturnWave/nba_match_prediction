@@ -67,6 +67,7 @@ import random
 import subprocess
 import sys
 import time
+import zlib
 from collections import defaultdict
 from dataclasses import dataclass
 
@@ -1180,8 +1181,8 @@ def player_table(lines, values):
     return table
 
 
-def power_ranking(sim_games, lines, values, history_games, season):
-    """The project's own ranking engine on the simulated season.
+def build_ranking_engine(sim_games, lines, values, history_games, season):
+    """The project's own ranking engine over the simulated season.
 
     Real seasons before it are included so that Elo carries into the
     simulated one; nothing real is modified - the engine is built in memory.
@@ -1204,8 +1205,240 @@ def power_ranking(sim_games, lines, values, history_games, season):
         "game_id": merged["game_id"], "game_date": pd.to_datetime(merged["game_date"]),
         "season": season, "impact": merged["value_unweighted"].fillna(0.0),
         "minutes": merged["minutes"], "value": merged["value"].fillna(0.0)})
-    engine = rankings.RankingEngine(pd.concat([real, sim], ignore_index=True), player_games)
+    return rankings.RankingEngine(pd.concat([real, sim], ignore_index=True), player_games)
+
+
+def power_ranking(sim_games, lines, values, history_games, season):
+    engine = build_ranking_engine(sim_games, lines, values, history_games, season)
     return engine.rank("season", season), engine.players("season", season, None, 25)
+
+
+# ---------------------------------------------------------------------------
+#  A finished run, for the dashboard
+# ---------------------------------------------------------------------------
+# What the backtests found, so the page can say it beside the standings.
+FORECAST_TRUST = {"correlation": 0.53, "mean_abs_error": 8.7, "naive_correlation": 0.58,
+                  "naive_mean_abs_error": 8.8, "seasons": 5}
+LEADER_GAME_SHARE = 58 / 82          # the league's own rule: 58 of 82 games for per-game leaders
+# Percentage leaders need this many makes over 82 games (the league's rule), scaled to the season.
+LEADER_MINIMUM_MAKES = {"fg_pct": ("fgm", 300), "fg3_pct": ("fg3m", 82), "ft_pct": ("ftm", 125),
+                        "ts": ("fgm", 300)}
+LEADER_CATEGORIES = (("pts", "Sayı", 1), ("reb", "Ribaunt", 1), ("ast", "Asist", 1),
+                     ("stl", "Top çalma", 1), ("blk", "Blok", 1), ("fg3m", "Üçlük isabeti", 1),
+                     ("fg_pct", "Şut %", 3), ("fg3_pct", "Üçlük %", 3),
+                     ("ft_pct", "Serbest atış %", 3), ("ts", "Gerçek şut % (TS)", 3),
+                     ("value", "Değer (impact 5.1)", 2), ("minutes", "Dakika", 1))
+BOX_COUNTS = ("pts", "oreb", "dreb", "ast", "stl", "blk", "tov", "pf",
+              "fgm", "fga", "fg3m", "fg3a", "ftm", "fta")
+
+
+def clock_label(clock):
+    """'PT11M50.11S' -> '11:50'."""
+    try:
+        minutes, rest = str(clock)[2:].split("M")
+        return f"{int(minutes)}:{int(float(rest.rstrip('S'))):02d}"
+    except ValueError:
+        return ""
+
+
+class SimSeason:
+    """A finished run, loaded for reading - what the dashboard shows of it.
+
+    Read-only: nothing here writes. The play-by-play is held as one small
+    compressed blob per game rather than as half a million rows.
+    """
+
+    def __init__(self, root):
+        self.root = root
+        with open(os.path.join(root, "run.json"), encoding="utf-8") as f:
+            self.info = json.load(f)
+        self.season = self.info["season"]
+
+        def read(name):
+            frame = pd.read_csv(os.path.join(root, name), dtype={"game_id": str})
+            frame["game_id"] = frame["game_id"].str.zfill(10)
+            return frame
+
+        self.games = read("games.csv").sort_values(["game_date", "game_id"]).reset_index(drop=True)
+        self.values = read("player_values.csv")
+        self.box = read("player_games.csv")
+        self.lines = self.box.merge(self.values[["game_id", "person_id", "value"]],
+                                    on=["game_id", "person_id"], how="left").fillna({"value": 0.0})
+        ranges_path = os.path.join(root, "win_ranges.csv")
+        self.ranges = (pd.read_csv(ranges_path).set_index("team")
+                       if os.path.exists(ranges_path) else None)
+        played = pd.concat([self.games["home"], self.games["away"]]).value_counts()
+        self.team_games = int(played.max())
+        self.players = self._season_table()
+        self._plays = self._index_plays(os.path.join(root, "pbp.csv.gz"))
+        self._engine = None
+
+    @classmethod
+    def load(cls, run):
+        """The run, or None when it has not been simulated on this machine."""
+        root = os.path.join(SANDBOX_ROOT, run)
+        return cls(root) if os.path.exists(os.path.join(root, "run.json")) else None
+
+    # ----- loading -----------------------------------------------------------
+    def _season_table(self):
+        lines = self.lines
+        table = lines.groupby("person_id").agg(
+            name=("name", "last"), team=("team", "last"), games=("game_id", "size"),
+            minutes=("minutes", "mean"), value=("value", "mean"),
+            **{f"{c}_total": (c, "sum") for c in BOX_COUNTS}).reset_index()
+        for c in ("pts", "ast", "stl", "blk", "fg3m"):
+            table[c] = table[f"{c}_total"] / table["games"]
+        table["reb"] = (table["oreb_total"] + table["dreb_total"]) / table["games"]
+        attempts = lambda made, tried: table[made] / table[tried].where(table[tried] > 0)
+        table["fg_pct"] = attempts("fgm_total", "fga_total")
+        table["fg3_pct"] = attempts("fg3m_total", "fg3a_total")
+        table["ft_pct"] = attempts("ftm_total", "fta_total")
+        true_attempts = 2 * (table["fga_total"] + 0.44 * table["fta_total"])
+        table["ts"] = table["pts_total"] / true_attempts.where(true_attempts > 0)
+        return table
+
+    @staticmethod
+    def _index_plays(path):
+        """{game_id: compressed JSON of its plays}. A play is
+        [period, clock, tricode, description, home score, away score, scored]."""
+        columns = ["gameId", "period", "clock", "teamTricode", "description", "scoreHome",
+                   "scoreAway", "actionType"]
+        frame = pd.read_csv(path, dtype={"gameId": str}, usecols=columns, low_memory=False)
+        frame["gameId"] = frame["gameId"].str.zfill(10)
+        blobs = {}
+        for game_id, rows in frame.groupby("gameId", sort=False):
+            plays, home, away = [], 0, 0
+            for period, clock, team, text, score_home, score_away, kind in rows[columns[1:]].itertuples(index=False):
+                if kind == "period":
+                    continue
+                scored = score_home == score_home          # not NaN
+                if scored:
+                    home, away = int(score_home), int(score_away)
+                plays.append([int(period), clock_label(clock), team if isinstance(team, str) else "",
+                              text, home, away, 1 if scored else 0])
+            blobs[game_id] = zlib.compress(json.dumps(plays, ensure_ascii=False).encode("utf-8"))
+        return blobs
+
+    # ----- what the page asks for ----------------------------------------------
+    def meta(self):
+        dates = pd.to_datetime(self.games["game_date"])
+        return {"run": os.path.basename(self.root), "season": self.season, "mode": self.info["mode"],
+                "seed": self.info["seed"], "games": int(len(self.games)),
+                "players": int(self.players["person_id"].nunique()),
+                "pricing": self.info.get("pricing"), "team_games": self.team_games,
+                "min_games": math.ceil(LEADER_GAME_SHARE * self.team_games),
+                "teams": sorted(set(self.games["home"]) | set(self.games["away"])),
+                "months": sorted(dates.dt.strftime("%Y-%m").unique().tolist()),
+                "first_date": str(dates.min().date()), "last_date": str(dates.max().date()),
+                "has_ranges": self.ranges is not None, "trust": FORECAST_TRUST}
+
+    def standings_rows(self):
+        results = defaultdict(list)                 # team -> [(won, at home)] in date order
+        for home, away, hp, ap in self.games[["home", "away", "home_points",
+                                              "away_points"]].itertuples(index=False):
+            results[home].append((hp > ap, True))
+            results[away].append((ap > hp, False))
+        rows = []
+        for r in standings(self.games).itertuples(index=False):
+            played = results[r.team]
+            games = r.wins + r.losses
+            streak_won, streak = played[-1][0], 0
+            for won, _home in reversed(played):
+                if won != streak_won:
+                    break
+                streak += 1
+
+            def record(subset):
+                wins = sum(1 for won, _h in subset if won)
+                return f"{wins}-{len(subset) - wins}"
+
+            row = {"team": r.team, "wins": int(r.wins), "losses": int(r.losses),
+                   "win_pct": float(r.win_pct), "margin": float(r.margin),
+                   "points_for": float(r.points_for / games),
+                   "points_against": float(r.points_against / games),
+                   "home": record([x for x in played if x[1]]),
+                   "away": record([x for x in played if not x[1]]),
+                   "last10": record(played[-10:]),
+                   "streak": f"{'G' if streak_won else 'M'}{streak}"}
+            if self.ranges is not None and r.team in self.ranges.index:
+                spread = self.ranges.loc[r.team]
+                row.update({"mean_wins": float(spread["mean_wins"]), "low": float(spread["low"]),
+                            "high": float(spread["high"])})
+            rows.append(row)
+        return rows
+
+    def leaders(self, team=None, limit=10):
+        table = self.players if team is None else self.players[self.players["team"] == team]
+        min_games = math.ceil(LEADER_GAME_SHARE * self.team_games)
+        categories = []
+        for key, label, decimals in LEADER_CATEGORIES:
+            if key in LEADER_MINIMUM_MAKES:
+                made, per_82 = LEADER_MINIMUM_MAKES[key]
+                need = math.ceil(per_82 * self.team_games / 82)
+                eligible = table[table[f"{made}_total"] >= need]
+                qualifier = f"en az {need} isabet"
+            else:
+                eligible = table[table["games"] >= min_games]
+                qualifier = f"en az {min_games} maç"
+            top = eligible.dropna(subset=[key]).sort_values(key, ascending=False).head(limit)
+            categories.append({
+                "key": key, "label": label, "decimals": decimals, "qualifier": qualifier,
+                "rows": [{"rank": i, "person_id": int(pid), "name": str(name), "team": str(t),
+                          "games": int(g), "value": float(v)}
+                         for i, (pid, name, t, g, v) in enumerate(
+                             top[["person_id", "name", "team", "games", key]].itertuples(index=False), 1)]})
+        return {"team": team, "min_games": min_games, "categories": categories}
+
+    def games_rows(self, team=None, month=None, limit=300):
+        games = self.games
+        if team:
+            games = games[(games["home"] == team) | (games["away"] == team)]
+        if month:
+            games = games[games["game_date"].str.startswith(month)]
+        shown = games.sort_values(["game_date", "game_id"], ascending=False).head(limit)
+        return {"count": int(len(games)), "shown": int(len(shown)),
+                "games": [self._game_row(g) for g in shown.itertuples(index=False)]}
+
+    @staticmethod
+    def _game_row(g):
+        return {"game_id": g.game_id, "date": g.game_date, "home_team": g.home, "away_team": g.away,
+                "home_score": int(g.home_points), "away_score": int(g.away_points),
+                "periods": int(g.periods), "home_win": bool(g.home_points > g.away_points)}
+
+    def game(self, game_id):
+        """One game's box score and plays, or None when the run has no such game."""
+        game_id = str(game_id).zfill(10)
+        match = self.games[self.games["game_id"] == game_id]
+        if match.empty:
+            return None
+        row = self._game_row(next(match.itertuples(index=False)))
+        lines = self.lines[self.lines["game_id"] == game_id]
+        box = {}
+        for side, team in (("home", row["home_team"]), ("away", row["away_team"])):
+            players = lines[lines["team"] == team].sort_values("minutes", ascending=False)
+            box[side] = {"team": team,
+                         "players": [self._box_line(p) for p in players.itertuples(index=False)],
+                         "totals": {c: int(players[c].sum()) for c in BOX_COUNTS}}
+        plays = json.loads(zlib.decompress(self._plays[game_id])) if game_id in self._plays else []
+        return {"game": row, "box": box, "plays": plays}
+
+    @staticmethod
+    def _box_line(p):
+        return {"person_id": int(p.person_id), "name": str(p.name), "minutes": float(p.minutes),
+                "pts": int(p.pts), "reb": int(p.oreb + p.dreb), "ast": int(p.ast),
+                "stl": int(p.stl), "blk": int(p.blk), "tov": int(p.tov), "pf": int(p.pf),
+                "fg": f"{int(p.fgm)}-{int(p.fga)}", "fg3": f"{int(p.fg3m)}-{int(p.fg3a)}",
+                "ft": f"{int(p.ftm)}-{int(p.fta)}", "value": float(p.value)}
+
+    def ranking_engine(self):
+        """The ranking engine over this season, built on first use."""
+        if self._engine is None:
+            self._engine = build_ranking_engine(self.games, self.box, self.values, load_games(),
+                                                self.season)
+        return self._engine
+
+    def ranking_periods(self, window):
+        return [p for p in self.ranking_engine().periods(window) if p["season"] == self.season]
 
 
 # ---------------------------------------------------------------------------

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
 <title>NBA Tahmin Paneli</title>
-<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=3">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=5">
 </head>
 <body>
 
@@ -28,6 +28,7 @@
   <div class="seg" id="viewSeg">
     <button type="button" data-view="games" aria-pressed="true">Maçlar</button>
     <button type="button" data-view="rank" aria-pressed="false">Güç Sıralaması</button>
+    <button type="button" data-view="sim" aria-pressed="false" id="simTab" hidden>Sim Sezon <span class="simtag">SİM</span></button>
   </div>
 </nav>
 
@@ -84,6 +85,48 @@
     Hiçbiri savunmanın blok/top çalmaya dönüşmeyen kısmını görmez; bunlar oynanmış maçların özetidir,
     tahmin değildir.</div>
 </section>
+
+<div class="simbar" id="simBar" hidden>
+  <div class="simnote" id="simNote"></div>
+  <div class="seg" id="simSeg">
+    <button type="button" data-sub="standings" aria-pressed="true">Puan Durumu</button>
+    <button type="button" data-sub="leaders" aria-pressed="false">Lig Liderleri</button>
+    <button type="button" data-sub="games" aria-pressed="false">Maçlar</button>
+    <button type="button" data-sub="rank" aria-pressed="false">Güç Sıralaması</button>
+  </div>
+</div>
+
+<section class="pane" id="simStandings" hidden>
+  <div class="rank-controls">
+    <div class="seg" id="confSeg">
+      <button type="button" data-conf="all" aria-pressed="true">Lig</button>
+      <button type="button" data-conf="east" aria-pressed="false">Doğu</button>
+      <button type="button" data-conf="west" aria-pressed="false">Batı</button>
+    </div>
+    <span class="rank-meta" id="simStandMeta"></span>
+  </div>
+  <div class="card tight"><div class="scroll" id="simStandTable"></div></div>
+  <div class="foot" id="simStandFoot"></div>
+</section>
+
+<section class="pane" id="simLeaders" hidden>
+  <div class="rank-meta" id="simLeadersHead"></div>
+  <div class="lgrid" id="simLeadersGrid"></div>
+</section>
+
+<div class="split" id="simGames" hidden>
+  <section class="pane pane-list">
+    <div class="simctl">
+      <select id="simMonthSel" aria-label="Ay"><option value="">Tüm aylar</option></select>
+    </div>
+    <div class="count" id="simGameCount"></div>
+    <div id="simGameList"></div>
+  </section>
+  <section class="pane pane-detail">
+    <button class="backbtn" id="simBackBtn" type="button">← Simüle maçlar</button>
+    <div id="simDetail"><div class="empty"><div class="ball" aria-hidden="true"></div>Bir simüle maç seçin</div></div>
+  </section>
+</div>
 
 <script>
 // ---------------------------------------------------------------------------
@@ -186,6 +229,7 @@ async function loadMeta() {
     `<b>Eğitimde</b> etiketli maçlarda tahmin iyimserdir, model sonucu görmüştür. ` +
     `Kadro feature'ları maç öncesi forma listesinden kurulur; maç içinden hiçbir bilgi kullanılmaz.`;
   buildTeamStrip(m.teams);
+  if (m.sim_season) { simState.season = m.sim_season; $('#simTab').hidden = false; }
 }
 
 function buildTeamStrip(teams) {
@@ -203,7 +247,7 @@ function buildTeamStrip(teams) {
     b.style.setProperty('--tc', color(abbr));
     b.setAttribute('aria-pressed', 'false');
     b.innerHTML = logo(abbr, 36) + `<span class="ab">${esc(abbr)}</span>`;
-    b.addEventListener('click', () => setTeam(abbr === state.team ? '' : abbr));
+    b.addEventListener('click', () => setTeam(abbr === currentTeam() ? '' : abbr));
     strip.appendChild(b);
   }
 }
@@ -213,6 +257,7 @@ function setTeam(abbr) {
     b.setAttribute('aria-pressed', String((b.dataset.team || '') === abbr)));
   const active = document.querySelector(`.tbtn[data-team="${abbr}"]`);
   if (active) active.scrollIntoView({block: 'nearest', inline: 'center', behavior: 'smooth'});
+  if (state.view === 'sim') { setSimTeam(abbr); return; }
   if (state.view === 'rank') {
     rank.team = abbr;
     highlightRankTeam();
@@ -437,24 +482,54 @@ $('#resetBtn').addEventListener('click', () => {
 // ---------------------------------------------------------------------------
 //  Güç sıralaması
 // ---------------------------------------------------------------------------
-const rank = {window: 'season', key: null, periods: null, team: '', data: null};
+const rank = {window: 'season', key: null, periods: null, team: '', data: null, sim: false};
+const rankApi = () => rank.sim ? '/api/sim/rankings' : '/api/rankings';
 state.view = 'games';
 const WINDOW_LABEL = {week: 'bu hafta', month: 'bu ay', season: 'sezon'};
+
+function currentTeam() {
+  if (state.view === 'sim') return simState.sub === 'rank' ? rank.team : simState.team;
+  return state.view === 'rank' ? rank.team : state.team;
+}
+function syncTeamStrip() {
+  const t = currentTeam();
+  document.querySelectorAll('.tbtn').forEach(b =>
+    b.setAttribute('aria-pressed', String((b.dataset.team || '') === t)));
+}
 
 function setView(view) {
   state.view = view;
   document.querySelectorAll('#viewSeg button').forEach(b =>
     b.setAttribute('aria-pressed', String(b.dataset.view === view)));
+  const sim = view === 'sim', sub = sim ? simState.sub : null;
+  const showRank = view === 'rank' || sub === 'rank';
   $('.filters').hidden = view !== 'games';
   mainEl.hidden = view !== 'games';
-  $('#rankView').hidden = view !== 'rank';
-  document.querySelectorAll('.tbtn').forEach(b =>
-    b.setAttribute('aria-pressed', String((b.dataset.team || '') === (view === 'rank' ? rank.team : state.team))));
-  if (view === 'rank' && !rank.data) loadRank();
+  $('#simBar').hidden = !sim;
+  $('#simStandings').hidden = sub !== 'standings';
+  $('#simLeaders').hidden = sub !== 'leaders';
+  $('#simGames').hidden = sub !== 'games';
+  $('#rankView').hidden = !showRank;
+  document.body.classList.toggle('in-sim', sim);
+  if (showRank) useRankSource(sim);
+  if (sim) loadSimSub();
+  syncTeamStrip();
+}
+
+// Gerçek sezonlar ile simüle sezon aynı sıralama ekranını kullanır; kaynak
+// değişince dönem listesi ve seçim sıfırlanır.
+function useRankSource(sim) {
+  if (rank.sim !== sim) {
+    Object.assign(rank, {sim, window: 'season', key: null, periods: null, data: null,
+                         team: sim ? simState.team : ''});
+    document.querySelectorAll('#windowSeg button').forEach(x =>
+      x.setAttribute('aria-pressed', String(x.dataset.w === 'season')));
+  }
+  if (!rank.data) loadRank();
 }
 
 async function ensurePeriods() {
-  if (!rank.periods) rank.periods = await getJSON('/api/rankings/periods');
+  if (!rank.periods) rank.periods = await getJSON(rankApi() + '/periods');
 }
 
 function fillPeriods() {
@@ -475,9 +550,9 @@ async function loadRank() {
     await ensurePeriods();
     fillPeriods();
     $('#rankTable').innerHTML = '<div class="spin">hesaplanıyor…</div>';
-    const d = await getJSON(`/api/rankings?window=${rank.window}&key=${encodeURIComponent(rank.key)}`);
+    const d = await getJSON(`${rankApi()}?window=${rank.window}&key=${encodeURIComponent(rank.key)}`);
     rank.data = d;
-    history.replaceState(null, '', `#rank=${rank.window}/${rank.key}`);
+    if (!rank.sim) history.replaceState(null, '', `#rank=${rank.window}/${rank.key}`);
     renderRank(d);
     loadRankPlayers();
   } catch (e) {
@@ -499,7 +574,7 @@ function change(v) {
 
 function renderRank(d) {
   const m = d.meta;
-  $('#rankMeta').innerHTML =
+  $('#rankMeta').innerHTML = (rank.sim ? '<span class="simtag">SİM</span> ' : '') +
     `<b>${esc(m.label)}</b> · ${m.start} → ${m.end} · ${m.n_games} maç · güç kaynağı: ` +
     (m.strength_source === 'massey' ? 'sezon Massey çözümü' : 'Elo (sezon başı, Massey için az maç)') +
     ` · ev avantajı ${sign(m.home_edge)}`;
@@ -520,6 +595,7 @@ function renderRank(d) {
   }).join('');
   document.querySelectorAll('.rrow').forEach(el => el.addEventListener('click', () => {
     rank.team = rank.team === el.dataset.team ? '' : el.dataset.team;
+    if (rank.sim) simState.team = rank.team;
     highlightRankTeam();
     loadRankPlayers();
   }));
@@ -537,19 +613,19 @@ async function loadRankPlayers() {
   $('#rankPlayersTitle').innerHTML = `Oyuncu OVR <small>${rank.team ? esc(team(rank.team).name) + ' · ' : 'ligin en iyileri · '}${WINDOW_LABEL[rank.window]}</small>`;
   $('#rankPlayers').innerHTML = '<div class="spin">…</div>';
   try {
-    const d = await getJSON('/api/rankings/players?' + p.toString());
+    const d = await getJSON(rankApi() + '/players?' + p.toString());
     if (!d.players.length) {
       $('#rankPlayers').innerHTML = '<div class="foot">Bu dönemde yeterli süre alan oyuncu yok.</div>';
       return;
     }
-    const flag = x => x.empty >= 8
+    const flag = x => rank.sim ? '' : x.empty >= 8
       ? `<span class="flag pad" title="üretim OVR değer OVR'ın ${x.empty} puan üstünde">boş istatistik +${x.empty}</span>`
       : (x.empty <= -8 ? `<span class="flag quiet" title="değer OVR üretim OVR'ın ${-x.empty} puan üstünde">sessiz değer</span>` : '');
     $('#rankPlayers').innerHTML = '<ol class="plrank">' + d.players.map(x =>
       `<li>${ovrBadge(x.ovr)}${logo(x.team, 28)}<span class="pn"><span class="nm">${esc(x.name)} ${flag(x)}</span>` +
       `<span class="sub">${esc(x.team)} · ${x.games} maç${x.minutes !== null ? ` · ${x.minutes.toFixed(0)} dk` : ''}` +
-      `${x.value !== null ? ` · değer ${sign(x.value)}` : ''} · üretim ${x.impact.toFixed(1)}</span></span>` +
-      `<span class="sub so">üretim OVR ${x.ovr_prod}<br>sezon ${x.season_ovr !== null && x.season_ovr !== undefined ? x.season_ovr : '–'}</span></li>`
+      `${x.value !== null ? ` · değer ${sign(x.value)}` : ''}${rank.sim ? '' : ` · üretim ${x.impact.toFixed(1)}`}</span></span>` +
+      `<span class="sub so">${rank.sim ? '' : `üretim OVR ${x.ovr_prod}<br>`}sezon ${x.season_ovr !== null && x.season_ovr !== undefined ? x.season_ovr : '–'}</span></li>`
     ).join('') + '</ol>';
   } catch (e) {
     $('#rankPlayers').innerHTML = `<div class="err">${esc(e.message)}</div>`;
@@ -562,6 +638,234 @@ function stepPeriod(dir) {
   rank.key = list[j].key;
   loadRank();
 }
+
+// ---------------------------------------------------------------------------
+//  Simüle sezon (sim_sandbox'tan yalnızca okunur; gerçek veriyle karışmaz)
+// ---------------------------------------------------------------------------
+const EAST = ['ATL','BOS','BKN','CHA','CHI','CLE','DET','IND','MIA','MIL','NYK','ORL','PHI','TOR','WAS'];
+const simState = {season: null, sub: 'standings', team: '', meta: null, standings: null, conf: 'all',
+                  selected: null, game: null, period: 1};
+const fmt = (v, d) => v.toLocaleString('tr-TR', {minimumFractionDigits: d, maximumFractionDigits: d});
+const SIM_PANES = {standings: '#simStandTable', leaders: '#simLeadersGrid', games: '#simGameList'};
+
+async function ensureSimMeta() {
+  if (simState.meta) return;
+  const m = simState.meta = await getJSON('/api/sim/meta');
+  const t = m.trust;
+  // Etiket her zaman görünür; ayrıntı açılır. Telefonda bant ekranın üçte birini kaplamasın.
+  $('#simNote').innerHTML =
+    `<details><summary><span class="simtag">SİM</span> <b>${seasonLabel(m.season)} simülasyonu — gerçek sonuç değil</b>` +
+    `<span class="more">ayrıntı</span></summary><p>` +
+    `${m.games.toLocaleString('tr-TR')} maç pozisyon pozisyon üretildi (takım başına ${m.team_games}); her maçın ` +
+    `play-by-play'inden impact skoru hesaplandı. Maçları oyuncu profilleri belirliyor, tahmin modeli değil. ` +
+    `Bu yöntemin sezon öncesi galibiyet tahmini geçmiş ${t.seasons} sezonda gerçekle ${fmt(t.correlation, 2)} korelasyonlu ve ` +
+    `ortalama ${fmt(t.mean_abs_error, 1)} maç hatalıydı; "geçen sezonun aynısı" demek ${fmt(t.naive_correlation, 2)} / ` +
+    `${fmt(t.naive_mean_abs_error, 1)} veriyor. Bir test dünyası; tahmin olarak okunmamalı. Gerçek veriye dokunmaz.</p></details>`;
+  fillSelect($('#simMonthSel'), m.months);
+}
+
+function setSimSub(sub) {
+  simState.sub = sub;
+  document.querySelectorAll('#simSeg button').forEach(b =>
+    b.setAttribute('aria-pressed', String(b.dataset.sub === sub)));
+  setView('sim');
+}
+
+function setSimTeam(abbr) {
+  simState.team = abbr;
+  if (simState.sub === 'rank') { rank.team = abbr; highlightRankTeam(); loadRankPlayers(); return; }
+  if (simState.sub === 'standings' && simState.standings) { renderSimStandings(); return; }
+  loadSimSub();
+}
+
+async function loadSimSub() {
+  const sub = simState.sub;
+  try {
+    await ensureSimMeta();
+    history.replaceState(null, '', sub === 'games' && simState.selected
+      ? `#simgame=${simState.selected}` : `#sim=${sub}`);
+    if (sub === 'standings') await loadSimStandings();
+    else if (sub === 'leaders') await loadSimLeaders();
+    else if (sub === 'games') await loadSimGames();
+  } catch (e) {
+    if (SIM_PANES[sub]) $(SIM_PANES[sub]).innerHTML = `<div class="err">Simüle sezon alınamadı: ${esc(e.message)}</div>`;
+  }
+}
+
+// ----- puan durumu -----
+async function loadSimStandings() {
+  if (!simState.standings) simState.standings = (await getJSON('/api/sim/standings')).teams;
+  renderSimStandings();
+}
+
+function renderSimStandings() {
+  const conf = simState.conf, m = simState.meta;
+  const rows = simState.standings.filter(r => conf === 'all' || (conf === 'east') === EAST.includes(r.team));
+  const lead = rows[0], ranged = rows.some(r => r.mean_wins !== undefined);
+  $('#simStandMeta').textContent = `${m.first_date} → ${m.last_date} · takım başına ${m.team_games} maç`;
+  const body = rows.map((r, i) => {
+    const behind = ((lead.wins - r.wins) + (r.losses - lead.losses)) / 2;
+    const zone = conf === 'all' ? '' : (i < 6 ? ' po' : i < 10 ? ' pi' : '');
+    return `<tr class="${simState.team === r.team ? 'sel' : ''}${zone}" data-team="${r.team}" style="--tc:${color(r.team)}">
+      <td class="rk">${i + 1}</td>
+      <td class="tm"><span class="tmw">${logo(r.team, 28)}<span class="nm">${esc(team(r.team).name)}</span><span class="ab">${esc(r.team)}</span></span></td>
+      <td><b>${r.wins}-${r.losses}</b></td>
+      <td>${fmt(r.win_pct, 3).replace(/^0/, '')}</td>
+      <td>${behind === 0 ? '–' : fmt(behind, 1)}</td>
+      <td class="${r.margin > 0 ? 'pos' : 'neg'}">${sign(r.margin)}</td>
+      <td class="sm">${r.home}</td><td class="sm">${r.away}</td><td class="sm">${r.last10}</td>
+      <td class="sm ${r.streak[0] === 'G' ? 'pos' : 'neg'}">${r.streak}</td>
+      ${ranged ? `<td class="rng">${fmt(r.mean_wins, 0)} <span>${fmt(r.low, 0)}–${fmt(r.high, 0)}</span></td>` : ''}</tr>`;
+  }).join('');
+  $('#simStandTable').innerHTML = `<table class="stand"><thead><tr>
+    <th>#</th><th class="tm">Takım</th><th>G-M</th><th>%</th><th>Fark</th><th>Sayı farkı</th>
+    <th class="sm">Ev</th><th class="sm">Dep</th><th class="sm">Son 10</th><th class="sm">Seri</th>
+    ${ranged ? '<th title="30 tekrar: ortalama galibiyet ve %10–%90 aralığı">Tekrarlar</th>' : ''}
+    </tr></thead><tbody>${body}</tbody></table>`;
+  $('#simStandFoot').innerHTML =
+    (conf === 'all' ? '' : '<span class="key po"></span> ilk 6: play-off · <span class="key pi"></span> 7–10: play-in · ') +
+    (ranged ? `"Tekrarlar": aynı sezon 30 kez daha oynatıldı ve her seferinde takımların gerçekte ne kadar iyi çıkacağı da ` +
+      `yeniden çekildi; ortalama galibiyet ve %10–%90 aralığı. Aralıklar geniş çünkü bu yöntemin bildiği bu kadar. ` : '') +
+    `Satıra dokununca o takımın simüle maçları açılır.`;
+  document.querySelectorAll('#simStandTable tbody tr').forEach(tr => tr.addEventListener('click', () => {
+    simState.team = tr.dataset.team;
+    setSimSub('games');
+  }));
+}
+
+// ----- lig liderleri -----
+async function loadSimLeaders() {
+  const p = new URLSearchParams({limit: 10});
+  if (simState.team) p.set('team', simState.team);
+  $('#simLeadersGrid').innerHTML = '<div class="spin">hesaplanıyor…</div>';
+  const d = await getJSON('/api/sim/leaders?' + p.toString());
+  $('#simLeadersHead').innerHTML = (simState.team
+    ? `${logo(simState.team, 28)} <b>${esc(team(simState.team).name)}</b> takım liderleri`
+    : '<b>Lig liderleri</b>') +
+    ` · maç başına · ligin kendi kuralıyla en az ${d.min_games} maç (yüzdelerde isabet barajı)`;
+  $('#simLeadersGrid').innerHTML = d.categories.map(c => {
+    const show = v => c.decimals === 3 ? fmt(v * 100, 1) + '%' : fmt(v, c.decimals);
+    const rows = c.rows.map(r =>
+      `<li class="${r.rank === 1 ? 'first' : ''}" style="--tc:${color(r.team)}"><span class="rk">${r.rank}</span>${logo(r.team, r.rank === 1 ? 36 : 28)}
+        <span class="pn"><span class="nm">${esc(r.name)}</span><span class="sub">${esc(r.team)} · ${r.games} maç</span></span>
+        <b class="val">${show(r.value)}</b></li>`).join('');
+    return `<div class="card lcard"><h2>${esc(c.label)} <small>${esc(c.qualifier)}</small></h2>
+      <ol class="lrows">${rows || '<li class="none">barajı geçen oyuncu yok</li>'}</ol></div>`;
+  }).join('');
+}
+
+// ----- maçlar -----
+function simGameCard(g) {
+  const el = document.createElement('button');
+  el.className = 'game'; el.type = 'button'; el.dataset.id = g.game_id;
+  const row = (abbr, score, won, home) =>
+    `<div class="row${won ? ' won' : ''}">${logo(abbr, 28)}<span class="ab">${esc(abbr)}</span>` +
+    (home ? '<span class="hm">ev</span>' : '') +
+    `<span class="nm">${esc(team(abbr).name)}</span><span class="sc">${score}</span></div>`;
+  el.innerHTML =
+    `<div class="rows">${row(g.away_team, g.away_score, !g.home_win, false)}${row(g.home_team, g.home_score, g.home_win, true)}</div>` +
+    `<div class="side"><span class="dt">${g.date}</span><span class="simtag">SİM</span>` +
+    (g.periods > 4 ? `<span class="tag in-sample">${g.periods - 4} uzatma</span>` : '') + `</div>`;
+  el.addEventListener('click', () => selectSimGame(g.game_id));
+  return el;
+}
+
+async function loadSimGames() {
+  const p = new URLSearchParams({limit: 400});
+  if (simState.team) p.set('team', simState.team);
+  if ($('#simMonthSel').value) p.set('month', $('#simMonthSel').value);
+  $('#simGameCount').textContent = 'yükleniyor…';
+  $('#simGameList').innerHTML = '';
+  const d = await getJSON('/api/sim/games?' + p.toString());
+  $('#simGameCount').textContent = `${d.count} simüle maç` +
+    (simState.team ? ` · ${simState.team}` : '') + (d.shown < d.count ? ` · en yeni ${d.shown} gösteriliyor` : '');
+  const frag = document.createDocumentFragment();
+  d.games.forEach(g => frag.appendChild(simGameCard(g)));
+  $('#simGameList').appendChild(frag);
+  if (!d.games.length) $('#simGameList').innerHTML = '<div class="empty">Bu filtreye uyan simüle maç yok</div>';
+  markSimSelected();
+}
+
+function markSimSelected() {
+  document.querySelectorAll('#simGameList .game').forEach(el =>
+    el.setAttribute('aria-current', el.dataset.id === simState.selected ? 'true' : 'false'));
+}
+
+async function selectSimGame(id) {
+  simState.selected = id;
+  markSimSelected();
+  history.replaceState(null, '', '#simgame=' + id);
+  $('#simGames').classList.add('showing-detail');
+  $('#simDetail').innerHTML = '<div class="spin">yükleniyor…</div>';
+  try {
+    simState.game = await getJSON('/api/sim/game/' + id);
+    simState.period = 1;
+    renderSimGame();
+  } catch (e) {
+    $('#simDetail').innerHTML = `<div class="err">Simüle maç alınamadı: ${esc(e.message)}</div>`;
+  }
+}
+
+function boxTable(side, tc) {
+  const t = side.totals;
+  const line = p => `<tr><td>${esc(p.name)}</td><td>${p.minutes.toFixed(0)}</td><td><b>${p.pts}</b></td>
+    <td>${p.reb}</td><td>${p.ast}</td><td>${p.stl}</td><td>${p.blk}</td><td>${p.tov}</td>
+    <td>${p.fg}</td><td>${p.fg3}</td><td>${p.ft}</td><td class="${p.value > 0 ? 'pos' : 'neg'}">${sign(p.value)}</td></tr>`;
+  return `<div class="card"><h2><span class="team-h" style="margin:0">${logo(side.team, 28)}${esc(team(side.team).name)}</span>
+      <small>kutu skoru · değer = impact 5.1</small></h2>
+    <div class="scroll"><table class="data boxt" style="--tc:${tc}"><thead><tr>
+      <th>Oyuncu</th><th>Dk</th><th>Sayı</th><th>Rib</th><th>Ast</th><th>TÇ</th><th>Blk</th><th>TK</th>
+      <th>Şut</th><th>3'lük</th><th>SA</th><th>Değer</th></tr></thead>
+    <tbody>${side.players.map(line).join('')}
+    <tr class="tot"><td>Takım</td><td></td><td><b>${t.pts}</b></td><td>${t.oreb + t.dreb}</td><td>${t.ast}</td>
+      <td>${t.stl}</td><td>${t.blk}</td><td>${t.tov}</td><td>${t.fgm}-${t.fga}</td><td>${t.fg3m}-${t.fg3a}</td>
+      <td>${t.ftm}-${t.fta}</td><td></td></tr></tbody></table></div></div>`;
+}
+
+function renderSimGame() {
+  const d = simState.game, g = d.game, H = g.home_team, A = g.away_team, hc = color(H), ac = color(A);
+  const periods = [...new Set(d.plays.map(p => p[0]))];
+  const label = n => n <= 4 ? `${n}. çeyrek` : `Uzatma ${n - 4}`;
+  $('#simDetail').innerHTML = `<div class="card hero" style="--hc:${hc};--ac:${ac}">
+      <div class="meta"><span>${g.date}</span><span>${seasonLabel(simState.season)}</span><span class="simtag">SİM</span>
+        ${g.periods > 4 ? `<span class="tag in-sample">${g.periods - 4} uzatma</span>` : ''}</div>
+      <div class="face">
+        <div class="side-box${g.home_win ? '' : ' won'}">${logo(A, 72)}<div class="ab">${esc(A)}</div>
+          <div class="nm">${esc(team(A).name)}</div><div class="sc">${g.away_score}</div><div class="where">deplasman</div></div>
+        <div class="vs"><span class="fin">simüle final</span>@</div>
+        <div class="side-box${g.home_win ? ' won' : ''}">${logo(H, 72)}<div class="ab">${esc(H)}</div>
+          <div class="nm">${esc(team(H).name)}</div><div class="sc">${g.home_score}</div><div class="where">ev sahibi</div></div>
+      </div></div>` +
+    boxTable(d.box.away, ac) + boxTable(d.box.home, hc) +
+    `<div class="card"><h2>Play-by-play <small>${d.plays.length} oyun · skor: deplasman–ev</small></h2>
+      <div class="seg pseg" id="simPeriodSeg">${periods.map(n =>
+        `<button type="button" data-p="${n}" aria-pressed="${n === simState.period}">${label(n)}</button>`).join('')}</div>
+      <div class="plays" id="simPlays"></div></div>`;
+  document.querySelectorAll('#simPeriodSeg button').forEach(b => b.addEventListener('click', () => {
+    simState.period = Number(b.dataset.p);
+    document.querySelectorAll('#simPeriodSeg button').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+    renderSimPlays();
+  }));
+  renderSimPlays();
+  $('#simGames .pane-detail').scrollTop = 0;
+}
+
+function renderSimPlays() {
+  const plays = simState.game.plays.filter(p => p[0] === simState.period);
+  $('#simPlays').innerHTML = plays.map(p =>
+    `<div class="play${p[6] ? ' sc' : ''}"><span class="ck">${p[1]}</span>` +
+    (p[2] ? logo(p[2], 20) : '<span class="logo s20 blank"></span>') +
+    `<span class="tx">${esc(p[3])}</span><span class="scr">${p[6] ? `${p[5]}–${p[4]}` : ''}</span></div>`).join('');
+}
+
+document.querySelectorAll('#simSeg button').forEach(b => b.addEventListener('click', () => setSimSub(b.dataset.sub)));
+document.querySelectorAll('#confSeg button').forEach(b => b.addEventListener('click', () => {
+  simState.conf = b.dataset.conf;
+  document.querySelectorAll('#confSeg button').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+  if (simState.standings) renderSimStandings();
+}));
+$('#simMonthSel').addEventListener('change', loadSimGames);
+$('#simBackBtn').addEventListener('click', () => $('#simGames').classList.remove('showing-detail'));
 
 document.querySelectorAll('#viewSeg button').forEach(b => b.addEventListener('click', () => setView(b.dataset.view)));
 document.querySelectorAll('#windowSeg button').forEach(b => b.addEventListener('click', () => {
@@ -583,6 +887,10 @@ loadMeta().then(loadGames).then(() => {
     document.querySelectorAll('#windowSeg button').forEach(x => x.setAttribute('aria-pressed', String(x.dataset.w === rank.window)));
     setView('rank');
   }
+  const simGame = location.hash.match(/simgame=(\d+)/);
+  const simSub = location.hash.match(/sim=(standings|leaders|games|rank)/);
+  if (state.meta.sim_season && simGame) { setSimSub('games'); selectSimGame(simGame[1]); }
+  else if (state.meta.sim_season && simSub) setSimSub(simSub[1]);
 }).catch(e => {
   $('#gameCount').textContent = '';
   $('#gameList').innerHTML = `<div class="err">Sunucuya bağlanılamadı: ${esc(e.message)}</div>`;

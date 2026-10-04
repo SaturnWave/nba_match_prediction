@@ -220,6 +220,19 @@ okuduğu asistler üretecin dağıttığıyla 1.200 maçın tamamında aynı. Do
 `summary.md` (puan durumu, projenin güç sıralaması motoru simüle sezonda,
 oyuncu OVR, sayı kralları).
 
+Dashboard'da: "Sim Sezon" sekmesi (mor SİM etiketi, açılır uyarı bandı: gerçek
+sonuç değil, tahmin gücü sınırlı). Dört alt görünüm: **Puan Durumu** (lig / doğu /
+batı, ev-deplasman, son 10, seri, 30 tekrarın ortalaması ve %10–%90 aralığı),
+**Lig Liderleri** (12 kategori: sayı, ribaunt, asist, top çalma, blok, üçlük,
+şut %, üçlük %, serbest atış %, TS%, değer, dakika; ligin kendi barajı ölçekli:
+80 maçta en az 57 maç, yüzdelerde isabet barajı; takım seçilince takım liderleri),
+**Maçlar** (kutu skoru + çeyrek çeyrek play-by-play), **Güç Sıralaması** (gerçek
+sezonlarla aynı motor ve ekran, sim sezonun haftaları/ayları). Rotalar
+`/api/sim/*`, okuyucu `season_sim.SimSeason`, hangi koşunun gösterileceği
+`app.SIM_RUN`. Yalnızca okur; gerçek veriyle hiçbir yerde karışmaz. Sayfanın
+betiği tarayıcısız bir DOM taklidiyle canlı sunucuya karşı çalıştırıldı (16
+kontrol); gerçek tarayıcıda görsel kontrol yapılmadı.
+
 Simüle edilmeyenler: oyuncu değişiklikleri (kadro dakika ağırlıklı toplam),
 ikincil ve serbest atış asisti, teknik ve flagrant fauller, çaylakların gerçek
 seviyesi (hepsi yedek profili, az dakika), sakatlıklar yalnızca geçen sezonun

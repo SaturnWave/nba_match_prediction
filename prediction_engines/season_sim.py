@@ -47,6 +47,8 @@ ISOLATION
     Reads the local caches; writes only under sim_sandbox/<run>/. Sandbox.path
     refuses any target outside that directory, and every run fingerprints the
     project's data before and after and reports whether anything moved.
+    Forecast runs are kept in the repository so the dashboard can show them
+    after a clone; calibration and backtest runs stay local.
 
 Run:  py prediction_engines/season_sim.py forecast --season 2026_2027
       py prediction_engines/season_sim.py mechanics --season 2025_2026
@@ -195,10 +197,13 @@ def fingerprint_project():
 
     Tracked files through `git status` (any change to a tracked file or any
     new untracked one shows there); the ignored caches by size and mtime.
-    The sandbox is ignored by git and is not part of the fingerprint.
+    The sandbox is left out of both: forecast runs are kept in the repository,
+    so writing one is a change git sees, and it is the one change a run is
+    allowed to make.
     """
-    status = subprocess.run(["git", "status", "--porcelain"], cwd=PROJECT_ROOT,
-                            capture_output=True, text=True, timeout=120, check=True).stdout
+    status = subprocess.run(["git", "status", "--porcelain", "--", ".", ":(exclude)sim_sandbox"],
+                            cwd=PROJECT_ROOT, capture_output=True, text=True, timeout=120,
+                            check=True).stdout
     entries = []
     for relative in PROTECTED_UNTRACKED:
         target = os.path.join(PROJECT_ROOT, relative)

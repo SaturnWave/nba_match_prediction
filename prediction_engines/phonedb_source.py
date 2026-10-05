@@ -508,7 +508,6 @@ def load(table, seasons=None, refresh=False, cfg=None, verbose=True):
         "columns": int(frame.shape[1]),
         "seasons": sorted(seasons) if seasons else "all",
         "pulled_at": time.strftime("%Y-%m-%d %H:%M:%S"),
-        "host": (cfg or load_config())["NBA_DB_HOST"],
     })
     return frame
 

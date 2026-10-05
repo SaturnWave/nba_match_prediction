@@ -1,6 +1,6 @@
 # Durum — db-pipeline dalı
 
-Son güncelleme: 2026-10-04 (sezon simülatörü; öncesinde güç sıralaması, değer skoru, fiyatlama 5.1). Bu dosya, çalışmaya ara verildiğinde nerede
+Son güncelleme: 2026-10-05 (depo kendi kendine yeter hale getirildi; öncesinde sezon simülatörü, güç sıralaması, değer skoru, fiyatlama 5.1). Bu dosya, çalışmaya ara verildiğinde nerede
 kalındığını ve nasıl devam edileceğini anlatır.
 
 ## Tek cümlelik özet
@@ -352,6 +352,43 @@ edilemez ve seed'e daha az duyarlı. Karar: **model `game_impact_cache_v5.pkl`
 `impact_v5.py`), **oyuncu OVR = ağırlıklı değer** (`output/value_cache_v1.pkl`).
 Aynı fiyatlama, iki kullanım. Takım farkı ↔ gerçek marj: v4 0,80, v5 0,94.
 
+## Yeni klonda kurulum
+
+2026-10-05'te yerel çalışma klasörü silinmeden önce, yalnızca yerelde duran
+her şey depoya alındı. Bir klondan sonra yapılacak tek şey:
+
+```
+py tools/local_backup.py restore
+```
+
+Bu, git'in yok saydığı önbellekleri yerlerine açar. Onlar depoda sıkıştırılmış
+halde `local_backup/` altında durur (62 dosya, 792 MB → 53 MB, her birinin
+boyutu ve özeti `MANIFEST.json` içinde): `phonedb_cache/` (telefon
+veritabanının 12 tablosu, 12 Eylül 2026 çekimi), `matchup_cache_v1.pkl`
+(398 MB), `team_box_cache_v1.pkl`, `defensive_tracking_cache_v1.pkl`,
+`graphify-out/` ve koşu günlükleri. Ham hallerinin depoya girmemesinin
+nedeni boyut: ikisi (398 MB ve 106 MB) GitHub'ın 100 MB'lık dosya sınırının
+üstünde. Boş bir klasöre geri yükleme denendi; 62 dosyanın 62'si aslıyla
+birebir aynı çıktı.
+
+Doğrudan depoda duranlar (geri yükleme gerekmez): `nba_data/` (107.421 ham
+CSV), modeller, veri setleri, `game_impact_cache_v4/v5.pkl`, iki değer
+önbelleği (`output/value_cache_v1.pkl` oyuncu, `value_cache_unweighted.pkl`
+model), simüle sezon (`sim_sandbox/forecast_2026_2027/`), `odds_data/`.
+
+**Depoda bilerek olmayan tek şey `.env`**: telefon veritabanının şifresini
+taşır ve depo herkese açıktır. `.env.example` gereken beş anahtarı listeler.
+Veritabanı olmadan da her şey çalışır; okuyucular önce `phonedb_cache/`
+önbelleğine bakar. Aynı nedenle `local_backup.py pack`, içinde `.env`
+değerlerinden biri geçen dosyayı paketlemeyi reddeder. İlk denemede bunu
+yakaladı: `phonedb_cache/manifest.json` her tablonun çekildiği veritabanı
+adresini taşıyordu. O alanı okuyan kod yoktu; yedekten önce silindi ve
+`phonedb_source.py` artık yazmıyor.
+
+`experiments/2026-10/` rakamların çıktığı tek seferlik analiz betiklerini
+tutar (kendi README'si var). Claude'un proje notları (hafıza) bu klasörde
+değil, kullanıcı profilinde durur; proje aynı yola klonlanırsa bulunur.
+
 ## Veri
 
 DB (telefon) kapalı; her şey yerel: `phonedb_cache/*.pkl` (12 tablo, 12 Eylül
@@ -393,7 +430,10 @@ Dashboard'un doğruluk rakamı `output/metrics_2025_26.json` →
 
 ## Bekleyenler
 
-- Hiçbir şey commit edilmedi (dal `db-pipeline`): yeni modüller, veri seti,
-  raporlar, model dosyaları.
-- `odds_data/*.xlsx` içindeki model sütunları eski (sızıntılı) modelden.
+- Her şey commit'li ve `Master` ile `db-pipeline` dallarında GitHub'da.
+- `odds_data/*.xlsx` içindeki "Model vs Piyasa" sayfaları eski (sızıntılı)
+  modelden; oradaki handikap üstünlüğü sızıntının ürünüydü. Güncel
+  karşılaştırma `output/market_check.json`. Excel yeniden üretilmedi.
+- `models/backup_observed_roster_2026-10-03/` (eski modeller) depoda ayrı bir
+  klasör olarak yok; aynı dosyalar git geçmişinde `ace99a7cf` commit'inde.
 - `DB_KURTARMA.md` eski host/şemayı anlatıyor.

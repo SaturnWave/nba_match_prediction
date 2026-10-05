@@ -1,0 +1,16 @@
+import pandas as pd, pickle
+bp = pd.read_pickle("phonedb_cache/box_player_traditional.pkl")
+print(type(bp), getattr(bp, "shape", None))
+if isinstance(bp, dict): print(bp.keys()); bp = bp.get("frame") or bp.get("df")
+print(bp.dtypes.to_string())
+print(bp.head(3).T.to_string())
+print("\ncomment non-null:", bp["comment"].notna().sum() if "comment" in bp else "no comment col")
+if "comment" in bp: print(bp["comment"].dropna().str.slice(0, 25).value_counts().head(12).to_string())
+g = pd.read_pickle("phonedb_cache/games.pkl"); print("\ngames:", g.shape, list(g.columns)); print(g.head(2).to_string())
+gd = pd.read_pickle("phonedb_cache/game_dates.pkl"); print("\ngame_dates:", gd.shape, list(gd.columns)); print(gd.head(2).to_string())
+gs = pd.read_pickle("phonedb_cache/game_summary.pkl"); print("\ngame_summary:", gs.shape, list(gs.columns)); print(gs.head(2).to_string())
+cache = pickle.load(open("game_impact_cache_v4.pkl", "rb"))
+k = next(iter(cache)); e = cache[k]
+print("\nimpact cache entry keys:", list(e.keys()) if isinstance(e, dict) else type(e))
+pl = e.get("players"); pk = next(iter(pl)); print("player entry:", pk, pl[pk])
+print("n games in cache:", len(cache))

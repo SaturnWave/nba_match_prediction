@@ -18,7 +18,19 @@ source venv/bin/activate        # on Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Requires Python 3.9+.
+Requires Python 3.11+ (developed on 3.13).
+
+After cloning, restore the caches git ignores (the local copies of the
+database tables, the matchup cache and two smaller ones - 792 MB, kept
+compressed in `local_backup/`):
+
+```bash
+python tools/local_backup.py restore
+```
+
+Everything else the pipeline reads is tracked directly. The one thing not in
+the repository is `.env` (database credentials); `.env.example` lists its
+keys, and nothing needs the database while the caches are in place.
 
 ## Project layout
 

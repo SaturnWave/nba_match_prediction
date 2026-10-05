@@ -1,0 +1,16 @@
+{
+  "mode": "forecast",
+  "season": "2026_2027",
+  "seed": 20261020,
+  "games": 1200,
+  "pricing": "5.1",
+  "project_untouched": true,
+  "assist_mismatches": 0,
+  "knobs": {
+    "home_edge": 0.01,
+    "game_pace_sd": 0.012,
+    "score_effect": 0.017,
+    "pace_time_factor": 0.945,
+    "team_effect_kept": 1.0
+  }
+}

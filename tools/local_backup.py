@@ -15,7 +15,9 @@ WHY
     manifest of sizes and hashes. A fresh clone runs `restore` once and has
     everything the pipeline expects, where it expects it. The knowledge-graph
     output and the run logs ride along; they are small and were also local
-    only.
+    only. The graph's AST cache does not: /graphify rebuilds it for free, and
+    its 64-character file names made paths long enough for git on Windows to
+    refuse the checkout in a deep folder.
 
     Not backed up, deliberately: .env. It holds the database password and
     this repository is public. .env.example lists the keys it needs. For the
@@ -47,7 +49,7 @@ PRESET = 1
 CHUNK_BYTES = 1 << 20
 MAX_PACKED_BYTES = 95 * 1024 * 1024        # GitHub refuses a single file over 100 MB
 PATTERNS = ("phonedb_cache/*", "matchup_cache_v1.pkl", "team_box_cache_v1.pkl",
-            "defensive_tracking_cache_v1.pkl", "graphify-out/**/*", "auto_push.log",
+            "defensive_tracking_cache_v1.pkl", "graphify-out/*", "auto_push.log",
             "output/*.log", "sim_sandbox/*.log")
 ENV_FILE = ".env"
 MIN_SECRET_CHARS = 8                       # a shorter value (a port number, a short name) turns up by coincidence

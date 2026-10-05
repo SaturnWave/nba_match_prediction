@@ -21,7 +21,7 @@ pip install -r requirements.txt
 Requires Python 3.11+ (developed on 3.13).
 
 After cloning, restore the caches git ignores (the local copies of the
-database tables, the matchup cache and two smaller ones - 792 MB, kept
+database tables, the matchup cache and two smaller ones - 791 MB, kept
 compressed in `local_backup/`):
 
 ```bash

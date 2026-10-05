@@ -362,14 +362,19 @@ py tools/local_backup.py restore
 ```
 
 Bu, git'in yok saydığı önbellekleri yerlerine açar. Onlar depoda sıkıştırılmış
-halde `local_backup/` altında durur (62 dosya, 792 MB → 53 MB, her birinin
+halde `local_backup/` altında durur (37 dosya, 791 MB → 53 MB, her birinin
 boyutu ve özeti `MANIFEST.json` içinde): `phonedb_cache/` (telefon
 veritabanının 12 tablosu, 12 Eylül 2026 çekimi), `matchup_cache_v1.pkl`
 (398 MB), `team_box_cache_v1.pkl`, `defensive_tracking_cache_v1.pkl`,
 `graphify-out/` ve koşu günlükleri. Ham hallerinin depoya girmemesinin
 nedeni boyut: ikisi (398 MB ve 106 MB) GitHub'ın 100 MB'lık dosya sınırının
-üstünde. Boş bir klasöre geri yükleme denendi; 62 dosyanın 62'si aslıyla
+üstünde. Boş bir klasöre geri yükleme denendi; 37 dosyanın 37'si aslıyla
 birebir aynı çıktı.
+
+Yedekte olmayan tek önbellek `graphify-out/cache/` (bilgi grafiğinin AST
+önbelleği): `/graphify` onu bedavaya yeniden kurar, ve 64 karakterlik dosya
+adları depodaki en uzun yolu 81'den 116 karaktere çıkarıp derin bir klasörde
+Windows'ta checkout'u bozuyordu.
 
 Doğrudan depoda duranlar (geri yükleme gerekmez): `nba_data/` (107.421 ham
 CSV), modeller, veri setleri, `game_impact_cache_v4/v5.pkl`, iki değer

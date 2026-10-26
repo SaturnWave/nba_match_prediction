@@ -1,0 +1,16 @@
+# graphify: bilgi grafigine kod ve belgeler girer, veri ve sonuc dosyalari girmez.
+# nba_data/ D: diskine bir junction ve 107 bin CSV tutar; graphify CSV okumaz ama
+# klasoru taramak bile dakikalar surer.
+nba_data/
+game_ids/
+phonedb_cache/
+local_backup/
+sim_sandbox/
+# model dosyalari ve onem grafikleri (14 PNG: her biri ayri bir goruntu cikarimi olurdu)
+models/
+# deney sonuclari (JSON); output/ altindaki rapor ve notlar grafige girer
+output/*.json
+odds_data/*.xlsx
+.claude/
+# egitim kayitlari (ornegin 3.639 satirlik model_training_log_*.txt): belge degil, kayit
+output/*.txt

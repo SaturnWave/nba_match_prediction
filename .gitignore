@@ -48,3 +48,6 @@ sim_sandbox/*
 # Yukarida yok sayilan onbellekler (phonedb_cache/, matchup_cache_v1.pkl, team_box_cache_v1.pkl,
 # defensive_tracking_cache_v1.pkl, graphify-out/, *.log) sikistirilmis halde local_backup/ altinda
 # depodadir; klondan sonra:  py tools/local_backup.py restore
+
+# bahis oranlarinin ham indirmeleri (yeniden indirilebilir; ayristirilmis tablolar odds_data/ altinda)
+odds_data/raw/

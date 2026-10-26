@@ -7,11 +7,15 @@ LeagueGameFinder returns one row per TEAM per game, so each game appears twice
 expects (see NBAPredictor._parse_matchup). Regular-season games only: their
 game ids start with 002.
 
+A finished season's file is written once and then left alone. A season in
+progress grows by the day, so --refresh fetches it again and rewrites it.
+
 Usage:
   py data_retriaval/fetch_season_game_ids.py 2017-18 2018-19
+  py data_retriaval/fetch_season_game_ids.py 2026-27 --refresh
 """
+import argparse
 import os
-import sys
 import time
 
 import pandas as pd
@@ -46,13 +50,17 @@ def fetch(season):
 
 
 def main():
-    seasons = sys.argv[1:] or ["2017-18", "2018-19"]
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("seasons", nargs="*", default=["2017-18", "2018-19"])
+    parser.add_argument("--refresh", action="store_true",
+                        help="dosyasi olan sezonu da yeniden cek (suren sezon icin)")
+    args = parser.parse_args()
     os.makedirs(GAME_IDS_DIR, exist_ok=True)
-    for season in seasons:
+    for season in args.seasons:
         name = season_dir_name(season)
         path = os.path.join(GAME_IDS_DIR, f"game_id_{name}.csv")
-        if os.path.exists(path):
-            print(f"{name}: zaten var, atlaniyor ({path})")
+        if os.path.exists(path) and not args.refresh:
+            print(f"{name}: zaten var, atlaniyor ({path}; suren sezonsa --refresh)")
             continue
         games = fetch(season)
         games.to_csv(path, index=False)

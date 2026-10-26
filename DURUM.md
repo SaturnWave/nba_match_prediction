@@ -506,9 +506,14 @@ kapanış handikabı ortalama 0,10, toplam 0,22 puan farklı. Eylül'de toplanan
 
 Oranlar tahmini belirgin iyileştiriyor: isabet +3 puan, Brier −0,018 ± 0,002.
 Ama işi yapan piyasa. Birleşim piyasanın kendisiyle aynı çıkıyor ve modele
-verdiği ağırlık ortalama −0,29 (ay ay −0,9 ile +0,5 arası). Yani çizgi
-bilindikten sonra modelin sinyali bilgi taşımıyor. Model ile piyasa maçların
-%15,6'sında farklı kazanan seçti; o maçlarda piyasa %60 haklı (904'e 601).
+verdiği ağırlık ortalama −0,29. Bu ağırlık kesin değil: düzenlileştirmesiz,
+birbirine çok bağlı iki girdiyle uyduruluyor; hücrelerin %80'i −0,9 ile +0,5
+arasında, tek tek hücreler −3,2 ile +0,6, aylık ortalamalar −2,1 ile +0,5
+arasında. Yine de hiçbir hücre, piyasanın bilmediği bir bilgi bulmadı.
+Birleşim ve aşağıdaki ayrışma sayımı sevk edilen blend'i değil
+sınıflandırıcıyı kullanıyor. Sınıflandırıcı ile piyasa maçların %15,6'sında
+farklı kazanan seçti ve o maçlarda piyasa %60 haklı çıktı (üç tohumun
+toplamında 904'e 601, tohum başına yaklaşık 500 maç).
 Oranları ağaç modeline doğrudan feature olarak vermek sınıflandırıcıyı
 kötüleştirdi; doğru yol birleşim. Kapanış çizgisi ancak maç başlarken belli
 olur, bu sonuçlar başlama anındaki bir tahmini anlatır. Bir gün önceki tahmin
@@ -555,12 +560,23 @@ Dashboard'un doğruluk rakamı `output/metrics_2025_26.json` →
 
 ## Bekleyenler
 
-- 2026-10-26'ya kadarki çalışma `db-pipeline` dalında GitHub'da. Derin
-  araştırma (`research_notes/`, `reports/`) rapor bitince eklenecek.
-- Oranlarla ilgili iki adım bekliyor. Biri açılış çizgisiyle (bir gün önceki
-  tahmin) `market_lab` testi. Diğeri model ile piyasanın ayrıldığı 1.505
-  maçın incelenmesi; muhtemelen sakatlık ve kadro haberleri modelin
-  görmediği bilgi.
+- 2026-10-26'ya kadarki çalışma `Master` ve `db-pipeline` dallarında GitHub'da.
+- Derin araştırma raporu: `reports/NBA prediction system audit 2026.md`
+  (İngilizce). Notları ve denetim betikleri
+  `research_notes/NBA prediction system audit 2026/` altında. Önerdiği sıra:
+  1. maç öncesi ("as-of") özellik hattı ve sakatlık raporu arşivi,
+  2. küçük kazançları görebilecek bir değerlendirme,
+  3. oynama olasılığı × oyuncu reytingi × dakikadan takım gücü,
+  4. kalibrasyon.
+- Oranlarla ilgili iki adım bekliyor:
+  - **Açılış çizgisi testi** (bir gün önceki tahmin). Ancak kullanılabilirlik,
+    çizginin açıldığı andaki sakatlık raporundan alınırsa anlamlı. Aksi halde
+    maç sonrası kadro bilgisi, çizgiyi oynatan haberleri "önceden bilip"
+    modeli iyi gösterir.
+  - **Model ile piyasanın ayrıldığı maçların incelenmesi** (tohum başına
+    yaklaşık 500). Geri testte model maç sonrası kadroyu zaten gördüğü için
+    bu ayrılık "görülmeyen sakatlık haberi" değil. Model, yokları, dakikaları,
+    dinlenmeyi ve yeni oyuncuları piyasadan farklı değerlendiriyor.
 - 23 Ekim'in 12 maçında defansif kutu, tracking ve matchup eksik (NBA henüz
   yayımlamadı): `backfill_defensive_tracking.py` ve `retrieve_matchups.py`
   yeniden çalıştırılmalı.

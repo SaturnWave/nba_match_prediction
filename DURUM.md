@@ -1,6 +1,6 @@
 # Durum — db-pipeline dalı
 
-Son güncelleme: 2026-10-05 (depo kendi kendine yeter hale getirildi; öncesinde sezon simülatörü, güç sıralaması, değer skoru, fiyatlama 5.1). Bu dosya, çalışmaya ara verildiğinde nerede
+Son güncelleme: 2026-10-24 (2026-27 sezonunun fikstürü ve ilk 28 maçı çekildi; CSV'ler D: diskine taşındı; graphify grafiği yeniden kuruldu; öncesinde depo kendi kendine yeter hale getirildi, sezon simülatörü, güç sıralaması, değer skoru, fiyatlama 5.1). Bu dosya, çalışmaya ara verildiğinde nerede
 kalındığını ve nasıl devam edileceğini anlatır.
 
 ## Tek cümlelik özet
@@ -394,11 +394,48 @@ adresini taşıyordu. O alanı okuyan kod yoktu; yedekten önce silindi ve
 tutar (kendi README'si var). Claude'un proje notları (hafıza) bu klasörde
 değil, kullanıcı profilinde durur; proje aynı yola klonlanırsa bulunur.
 
+## Bu makinede: veri D: diskinde
+
+2026-10-24'te C: diskinde 5 GB yer kalmıştı. `nba_data/` (107.421 CSV,
+1,48 GB) ve `phonedb_cache/` (377 MB) `D:\nba_match_prediction_data\`
+altına taşındı; depodaki iki klasörün yerinde birer junction var. Git ve kod
+onları sıradan klasör gibi görür: git status temiz, yeni dosyalar normal
+commit'lenir, gerçek yolu çözen kod yok. C: kopyası, taşınan her dosya
+junction üzerinden okunup git'teki kaydıyla (`phonedb_cache` için yedeğin
+özetleriyle) birebir eşleştikten sonra silindi. Bu yerel bir düzenleme;
+başka bir klon normal klasörlerle gelir.
+
+D: çok sayıda küçük dosyada yavaş: kopyalama 26 dakika, ardından her dosyayı
+bir kez okuyan içerik doğrulaması 66 dakika sürdü. Büyük önbellekler
+(`matchup_cache_v1.pkl` vb.) C:'de kaldı. Dosya sembolik bağlantısı bu
+makinede yönetici izni istediği için onlar ancak kodda yapılandırılabilir
+bir yolla taşınabilir. Günlük iş önbellekten yürüdüğü için etkilenmez.
+Bütün CSV'leri yeniden okuyan işler (önbellek yeniden kurma, tam denetim)
+uzun sürer.
+
 ## Veri
 
 DB (telefon) kapalı; her şey yerel: `phonedb_cache/*.pkl` (12 tablo, 12 Eylül
 çekimi), `game_impact_cache_v4.pkl`, `matchup_cache_v1.pkl`, `nba_data/`
 (CSV). Yeniden kurmak için DB gerekmez.
+
+2026-27 (24 Ekim itibarıyla): fikstür `game_ids/schedule_2026_2027.csv`
+(1.274 maç: 67 hazırlık, 1.206 normal sezon, NBA Cup finali; Cup eleme
+turundaki 7 maçın takımları henüz belli değil), oynanan maçlar
+`game_ids/game_id_2026_2027.csv` (20–23 Ekim, 28 maç; fikstürdeki biten 28
+maçla birebir aynı). 28 maçın hepsinde play-by-play ile geleneksel ve ileri
+kutu skoru var. 23 Ekim'in 12 maçında defansif kutu, tracking ve matchup
+verisini NBA henüz yayımlamadı; komutlar kaldığı yerden devam eder, ertesi
+gün yeniden çalıştırınca tamamlanır. `phonedb_cache` (12 Eylül çekimi) bu
+sezonu içermez; telefon veritabanına şu an erişilmiyor (Tailscale'de
+çevrimdışı, bu klonda `.env` de yok).
+
+Geçmiş sezonlarda 23 maçta defansif kutu skoru ve matchup verisi kaynakta yok:
+24 Ekim'de yeniden denendi, NBA hâlâ boş döndürüyor, telefon önbelleğinde de
+yoklar. Liste `defensive_box_score_unavailable_games.txt` içinde. 2024-25'in
+tek eksiği (0022400856) o gün tamamlandı. Geri kalan her şey (play-by-play,
+geleneksel ve ileri kutu, tracking) dokuz sezonun tüm maçlarında var
+(`py tools/check_data.py`).
 
 | dosya | içerik |
 |---|---|
@@ -409,6 +446,75 @@ DB (telefon) kapalı; her şey yerel: `phonedb_cache/*.pkl` (12 tablo, 12 Eylül
 | `output/consistency_lab*.json` | iki tur deney |
 | `output/market_check.json` | piyasa karşılaştırması |
 
+## Simülasyon ve gerçek: 2026-27'nin ilk 28 maçı (`prediction_engines/sim_vs_real.py`)
+
+Kayıtlı tahmin koşusu (`sim_sandbox/forecast_2026_2027/`) her maç için tek bir
+çekiliş tutar. Bu yüzden oynanan maçlar aynı kurulumdan 1.000 kez yeniden
+oynatıldı. Kurulum aynı mı diye bakıldı: koşunun kendi tohumu 1.200 maçın
+1.200'ünün skorunu birebir geri verdi. 20–23 Ekim, 28 maç:
+
+| | isabet | Brier | log loss |
+|---|---|---|---|
+| simülasyon (1.000 tekrar) | 18/28 | 0,225 | 0,642 |
+| geçen sezonun dereceleri (log5 + ev sahibi) | 16/28 | 0,218 | 0,622 |
+| her zaman ev sahibi | 13/28 | 0,257 | 0,707 |
+
+Fark MAE simülasyon 13,6 / naif 15,0; toplam MAE 13,9 / 14,6. Gerçek farkın
+simülasyonun %10–%90 aralığında kalma oranı %82 (hedef %80). 28 maçta bu
+farkların hepsi gürültü içinde. Sezon öncesi gücü "geçen sezonun aynısı"
+seviyesinde, geriye dönük testteki gibi.
+
+Lig düzeyinde simülasyon 2025-26'nın sezon ortalamasını kopyalıyor (takım-maç
+başına 116,1 sayı, 22,6 serbest atış, 13,8 top kaybı, üçlük %36,5). İlk hafta
+farklı: 113,1 sayı, 27,0 serbest atış, 24,0 faul, 16,4 top kaybı, üçlük %32,9.
+Serbest atış ve faul fazlası tamamen açılış haftası etkisi. 2025-26'nın tarihe
+göre ilk 28 maçı 27,7 serbest atış, 24,0 faul ve 15,6 top kaybıydı; her ekim
+böyle olup ay ay sönüyor, simülatöre bir "sezonun ayı" çarpanı gerekir. Bu
+sezona özgü görünen soğuk üçlükler (geçen açılışta %36,1) ve 6 sayı eksik;
+28 maçta gürültü de olabilir. (İlk yazımda geçen sezonun "ilk 28 maçı" maç
+numarası sırasıyla alınmıştı, bu Ekim–Ocak'a yayılıyordu; düzeltildi.)
+
+Oyuncu düzeyinde dakika korelasyonu 0,67. Kadrolar neredeyse doğru: 13.440
+gerçek dakikanın yalnızca 1'i simülasyonun kadrosunda olmayan bir oyuncuya
+(Walter Clayton Jr.) gitti. En büyük hata çaylaklarda. NBA geçmişi olmayan oyuncu yedek seviyesinde dakika
+alıyor, bu yüzden Boozer, Acuff, Lendeborg, Wilson, Peterson ve Wagler
+simülasyonda iki maçta toplam 1–5 dakika oynadı, gerçekte maç başına 26–36.
+Sakatlar (Ingram, Knueppel, DiVincenzo, Claxton, Raynaud) simülasyonda
+oynuyordu.
+
+## Bahis oranları: modele ne katıyorlar? (`prediction_engines/market_lab.py`)
+
+`odds_data/odds_history.csv` dokuz sezonun 10.777 normal sezon maçının açılış
+ve kapanış çizgisini tutar: ev sahibinin handikabı, toplam ve marjı ayıklanmış
+ev sahibi olasılığı. 2017-18'den 16 Ocak 2023'e kadar Sportsbook Reviews
+arşivinden (robots.txt izin veriyor), sonrası ESPN'in oran servisinden
+geliyor (kitapların medyanı). ESPN'in koşulları otomatik erişimi yasaklıyor;
+kullanıcının kararıyla, saniyede bir istekle çekildi. İki kaynağın eşleşen
+maçlarındaki skorların %100'ü projeninkiyle aynı. Örtüştükleri 118 maçta
+kapanış handikabı ortalama 0,10, toplam 0,22 puan farklı. Eylül'de toplanan
+308 DraftKings maçıyla birebir aynı.
+
+Üretim tarifinin seçildiği walk-forward'da (Kasım 2023 – Nisan 2026, 18 ay ×
+3 tohum, yaklaşık 3.200 maç):
+
+| | isabet | Brier | log loss | fark MAE |
+|---|---|---|---|---|
+| model (üretim tarifi) | %67,0 (blend %68,9) | 0,212 (blend 0,204) | 0,613 | 11,23 |
+| model + oranlar (ağaca feature) | %64,8 (blend %70,2) | 0,219 (blend 0,199) | 0,627 | 10,87 |
+| model ve piyasa, öğrenilmiş ağırlıkla | %70,1 | 0,194 | 0,570 | – |
+| yalnızca piyasa | %70,2 | 0,194 | 0,569 | 10,72 |
+
+Oranlar tahmini belirgin iyileştiriyor: isabet +3 puan, Brier −0,018 ± 0,002.
+Ama işi yapan piyasa. Birleşim piyasanın kendisiyle aynı çıkıyor ve modele
+verdiği ağırlık ortalama −0,29 (ay ay −0,9 ile +0,5 arası). Yani çizgi
+bilindikten sonra modelin sinyali bilgi taşımıyor. Model ile piyasa maçların
+%15,6'sında farklı kazanan seçti; o maçlarda piyasa %60 haklı (904'e 601).
+Oranları ağaç modeline doğrudan feature olarak vermek sınıflandırıcıyı
+kötüleştirdi; doğru yol birleşim. Kapanış çizgisi ancak maç başlarken belli
+olur, bu sonuçlar başlama anındaki bir tahmini anlatır. Bir gün önceki tahmin
+için açılış çizgileriyle ayrı bir test gerekir. Oranlar yalnızca bilgi ve ölçü
+olarak kullanılıyor; bahis tavsiyesi yok.
+
 ## Çalıştırma
 
 ```
@@ -418,6 +524,20 @@ py prediction_engines/simulation.py              # simulator, ayni veri seti
 py prediction_engines/market_check.py            # 308 mac piyasa karsilastirmasi
 py prediction_engines/consistency_lab.py         # deney harness'i (--arms, --all-margin, --base)
 py app.py                                        # Tailscale IP'sine bind eder
+```
+
+Süren sezonun verisini güncellemek (2026-27; her komut kaldığı yerden devam eder):
+
+```
+py data_retriaval/fetch_schedule.py 2026-27                      # fikstur ve durumlar
+py data_retriaval/fetch_season_game_ids.py 2026-27 --refresh     # oynanan maclar
+py data_retriaval/retrieve_2025_2026_data.py --season 2026_2027  # pbp + geleneksel + ileri kutu
+py data_retriaval/backfill_defensive_tracking.py 2026_2027       # defansif kutu + tracking
+py data_retriaval/retrieve_matchups.py 2026_2027                 # matchup'lar
+py tools/check_data.py 2026_2027                                 # hangi macta hangi dosya eksik
+py prediction_engines/sim_vs_real.py                             # simulasyon ile oynanan maclar, ~1 dk
+py data_retriaval/odds_run_all.py                                # bahis cizgileri: arsiv + ESPN (kaldigi yerden)
+py prediction_engines/market_lab.py                              # oranlar modele ne katiyor
 ```
 
 Dashboard'un doğruluk rakamı `output/metrics_2025_26.json` →
@@ -435,7 +555,22 @@ Dashboard'un doğruluk rakamı `output/metrics_2025_26.json` →
 
 ## Bekleyenler
 
-- Her şey commit'li ve `Master` ile `db-pipeline` dallarında GitHub'da.
+- 2026-10-26'ya kadarki çalışma `db-pipeline` dalında GitHub'da. Derin
+  araştırma (`research_notes/`, `reports/`) rapor bitince eklenecek.
+- Oranlarla ilgili iki adım bekliyor. Biri açılış çizgisiyle (bir gün önceki
+  tahmin) `market_lab` testi. Diğeri model ile piyasanın ayrıldığı 1.505
+  maçın incelenmesi; muhtemelen sakatlık ve kadro haberleri modelin
+  görmediği bilgi.
+- 23 Ekim'in 12 maçında defansif kutu, tracking ve matchup eksik (NBA henüz
+  yayımlamadı): `backfill_defensive_tracking.py` ve `retrieve_matchups.py`
+  yeniden çalıştırılmalı.
+- Bu klonda `.env` yok; telefon veritabanına bağlanmak için `.env.example`
+  kopyalanıp doldurulmalı.
+- `requirements.txt` eksik: `flask` (app.py) ve `xgboost`
+  (`prediction_engines/analysis_2025_2026.py`) yazılı değil.
+- Simülatörde çaylaklar yedek seviyesinde dakika alıyor. Draft sırası ya da
+  hazırlık maçı dakikası ilk tahmin olarak kullanılabilir. Sakatlık listesi de
+  simülasyona girmiyor.
 - `odds_data/*.xlsx` içindeki "Model vs Piyasa" sayfaları eski (sızıntılı)
   modelden; oradaki handikap üstünlüğü sızıntının ürünüydü. Güncel
   karşılaştırma `output/market_check.json`. Excel yeniden üretilmedi.

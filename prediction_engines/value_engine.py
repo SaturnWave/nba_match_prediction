@@ -143,10 +143,12 @@ PROJECT_ROOT = os.path.dirname(HERE)
 DATA_DIR = os.path.join(PROJECT_ROOT, "nba_data")
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")
 CACHE_PATH = os.path.join(OUTPUT_DIR, "value_cache_v1.pkl")
-GAMES_PATH = os.path.join(PROJECT_ROOT, "phonedb_cache", "games.pkl")
-BOX_PLAYER_PATH = os.path.join(PROJECT_ROOT, "phonedb_cache", "box_player_traditional.pkl")
-TRACKING_PATH = os.path.join(PROJECT_ROOT, "phonedb_cache", "player_tracking.pkl")
 IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v4.pkl")
+TRACKED_SUFFIX = ".tracked.pkl"     # beside a cache: the games valued with their tracked passing
+
+if HERE not in sys.path:
+    sys.path.insert(0, HERE)
+import csv_tables  # noqa: E402 - the game list, assists and tracking, built from the CSVs
 
 PRICING_VERSION = "5.1"
 
@@ -209,32 +211,29 @@ NO_CONTEXT = GameContext()
 
 
 def load_contexts(game_ids):
-    """{game_id: GameContext} for the given games, from the local caches."""
+    """{game_id: GameContext} for the given games, from the box scores and tracking (csv_tables.py).
+
+    A game whose tracking the NBA has not published yet gets an empty
+    `tracking`; run_seasons values it again once the tracking arrives.
+    """
     wanted = set(game_ids)
     contexts = {gid: {"final": {}, "passers": defaultdict(list), "tracking": {}} for gid in wanted}
 
-    if os.path.exists(BOX_PLAYER_PATH):
-        box = pd.read_pickle(BOX_PLAYER_PATH)[["game_id", "team_abbreviation", "player_id",
-                                               "player_name", "ast"]]
-        box = box[box["game_id"].isin(wanted) & (box["ast"].fillna(0) > 0)]
-        for gid, team, pid, full, ast in box.itertuples(index=False):
-            first, _, surname = str(full).partition(" ")
-            contexts[gid]["final"][int(pid)] = int(ast)
-            contexts[gid]["passers"][team].append((int(pid), first, surname or first))
-    else:
-        print(f"  [uyari] {os.path.basename(BOX_PLAYER_PATH)} yok - asist toplamlari kullanilamiyor")
+    box = csv_tables.load("box_player_traditional")[["game_id", "team_abbreviation", "player_id",
+                                                      "player_name", "ast"]]
+    box = box[box["game_id"].isin(wanted) & (box["ast"].fillna(0) > 0)]
+    for gid, team, pid, full, ast in box.itertuples(index=False):
+        first, _, surname = str(full).partition(" ")
+        contexts[gid]["final"][int(pid)] = int(ast)
+        contexts[gid]["passers"][team].append((int(pid), first, surname or first))
 
-    if os.path.exists(TRACKING_PATH):
-        track = pd.read_pickle(TRACKING_PATH)[["game_id", "team_abbreviation", "player_id",
-                                               "player_name", "sast", "ftast"]]
-        track = track[track["game_id"].isin(wanted)
-                      & ((track["sast"].fillna(0) > 0) | (track["ftast"].fillna(0) > 0))]
-        for gid, team, pid, full, sast, ftast in track.itertuples(index=False):
-            contexts[gid]["tracking"][int(pid)] = TrackedPassing(
-                float(sast or 0.0), float(ftast or 0.0), team, _surname(full))
-    else:
-        print(f"  [uyari] {os.path.basename(TRACKING_PATH)} yok - ikincil ve serbest atis "
-              f"asistleri eklenmiyor")
+    track = csv_tables.load("player_tracking")[["game_id", "team_abbreviation", "player_id",
+                                                 "player_name", "sast", "ftast"]]
+    track = track[track["game_id"].isin(wanted)
+                  & ((track["sast"].fillna(0) > 0) | (track["ftast"].fillna(0) > 0))]
+    for gid, team, pid, full, sast, ftast in track.itertuples(index=False):
+        contexts[gid]["tracking"][int(pid)] = TrackedPassing(
+            float(sast or 0.0), float(ftast or 0.0), team, _surname(full))
 
     return {gid: GameContext(c["final"], dict(c["passers"]), c["tracking"])
             for gid, c in contexts.items()}
@@ -547,8 +546,21 @@ def _public(e, raw):
 #  Seasons and the cache
 # ---------------------------------------------------------------------------
 def season_game_ids(season):
-    games = pd.read_pickle(GAMES_PATH)
-    return sorted(games.loc[games["season"] == season, "game_id"].astype(str).str.zfill(10))
+    games = csv_tables.load("games")
+    return sorted(games.loc[games["season"] == season, "game_id"])
+
+
+def tracked_games(cache_path, cache):
+    """Ids of the cached games valued with their tracked passing.
+
+    Caches written before this record existed count as fully tracked: they were
+    valued from the database copy, which had tracking for every game.
+    """
+    path = cache_path + TRACKED_SUFFIX
+    if not os.path.exists(path):
+        return set(cache)
+    with open(path, "rb") as f:
+        return set(pickle.load(f))
 
 
 def pbp_path(season, game_id):
@@ -568,11 +580,17 @@ def run_seasons(seasons, cache, verbose=True, cache_path=CACHE_PATH, use_leverag
 
     `refresh` recomputes games already cached - needed whenever the pricing
     changes, because a cached game does not say which pricing produced it.
+    A game valued before its tracking was published is valued again once the
+    tracking is there, so its secondary and free-throw assists are not lost.
     """
     t0 = time.time()
+    tracked = tracked_games(cache_path, cache)
     for season in seasons:
         ids = season_game_ids(season)
         todo = ids if refresh else [g for g in ids if g not in cache]
+        untracked = [g for g in ids if g in cache and g not in tracked and g not in todo]
+        late = [g for g, context in load_contexts(untracked).items() if context.tracking]
+        todo += late
         contexts = load_contexts(todo)
         missing = 0
         for n, gid in enumerate(todo, 1):
@@ -581,18 +599,26 @@ def run_seasons(seasons, cache, verbose=True, cache_path=CACHE_PATH, use_leverag
                 missing += 1
                 continue
             try:
+                context = contexts.get(gid, NO_CONTEXT)
                 cache[gid] = compute_game_value(pd.read_csv(path, low_memory=False), use_leverage,
-                                                contexts.get(gid, NO_CONTEXT), raw)
+                                                context, raw)
             except (OSError, pd.errors.ParserError, pd.errors.EmptyDataError):
                 missing += 1
+                continue
+            if context.tracking:
+                tracked.add(gid)
+            else:
+                tracked.discard(gid)
             if verbose and n % 200 == 0:
                 print(f"    {season}: {n}/{len(todo)} ({time.time() - t0:.0f} sn)", flush=True)
         if verbose:
-            print(f"  {season}: {len(ids)} mac, {len(todo)} hesaplandi, {missing} dosyasiz "
-                  f"({time.time() - t0:.0f} sn)", flush=True)
+            print(f"  {season}: {len(ids)} mac, {len(todo)} hesaplandi ({len(late)} tanesi tracking "
+                  f"sonradan geldigi icin), {missing} dosyasiz ({time.time() - t0:.0f} sn)", flush=True)
         os.makedirs(os.path.dirname(os.path.abspath(cache_path)), exist_ok=True)
         with open(cache_path, "wb") as f:
             pickle.dump(cache, f)
+        with open(cache_path + TRACKED_SUFFIX, "wb") as f:
+            pickle.dump(sorted(tracked), f)
     return cache
 
 
@@ -610,7 +636,7 @@ def player_frame(cache, game_ids, fields=COMPONENTS):
 # ---------------------------------------------------------------------------
 def box_minutes(game_ids):
     """Box-score lines for the games, with minutes parsed."""
-    box = pd.read_pickle(BOX_PLAYER_PATH)
+    box = csv_tables.load("box_player_traditional")
     box = box[box["game_id"].isin(game_ids)][["game_id", "player_id", "player_name", "min",
                                               "plus_minus", "pts", "reb", "ast", "to", "fga",
                                               "fta"]]
@@ -691,7 +717,7 @@ def main():
     args = parser.parse_args()
     seasons = args.seasons or []
     if args.all:
-        seasons = sorted(pd.read_pickle(GAMES_PATH)["season"].unique())
+        seasons = sorted(csv_tables.load("games")["season"].unique())
     if not seasons:
         seasons = ["2017_2018"]
     cache = load_cache(args.cache)

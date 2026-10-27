@@ -35,21 +35,21 @@ WHAT FEEDS WHAT
     own home_rest and away_rest, so the disagreement is in the old data.
 
 SPEED
-    Two small CSVs per game rather than the six the full pipeline reads, cached
-    to a pickle afterwards. The first pass is minutes; every pass after it is
-    seconds. The cache is keyed by season and is safe to delete.
+    Two small CSVs per game rather than the six the full pipeline reads, read
+    through csv_tables.py, which caches every game with the sizes of its files
+    and re-reads only games that are new or changed.
 """
 import glob
 import os
-import time
+import sys
 
 import numpy as np
 import pandas as pd
 
-PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+HERE = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(HERE)
 DATA_DIR = os.path.join(PROJECT_ROOT, "nba_data")
 GAME_ID_DIR = os.path.join(PROJECT_ROOT, "game_ids")
-CACHE_PATH = os.path.join(PROJECT_ROOT, "team_box_cache_v1.pkl")
 
 # The CSV headers are already the UPPER_SNAKE names downstream code expects, so
 # these are the columns to keep rather than a rename. They are deliberately the
@@ -126,53 +126,23 @@ def _read_team_box(season, game_id, kind):
 def load_team_box(seasons=None, use_cache=True, verbose=True):
     """Traditional and advanced team box scores, two rows per game.
 
-    Cached, because this is the only slow part: 2 files per game across 10,749
-    games on OneDrive-backed storage. A cache hit for the requested seasons
-    skips the walk entirely.
+    Read through csv_tables, whose cache is keyed by every game's files, so a
+    game added to a season in progress, or a file fetched again, is picked up.
+    The cache this module used to keep was keyed by season name: a season
+    cached while still being played kept serving its first snapshot, and the
+    games after it came out with no score. `use_cache` stays for callers; the
+    tables are always current.
     """
+    if HERE not in sys.path:
+        sys.path.insert(0, HERE)
+    import csv_tables                                   # noqa: E402 - imports this module in turn
     seasons = seasons or available_seasons()
-    if use_cache and os.path.exists(CACHE_PATH):
-        cached = pd.read_pickle(CACHE_PATH)
-        if set(seasons).issubset(set(cached["seasons"])):
-            trad = cached["traditional"]
-            adv = cached["advanced"]
-            trad = trad[trad["season"].isin(seasons)]
-            adv = adv[adv["season"].isin(seasons)]
-            if verbose:
-                print(f"  onbellek: {len(trad):,} takim-mac (traditional), "
-                      f"{len(adv):,} (advanced)")
-            return trad.reset_index(drop=True), adv.reset_index(drop=True)
-
-    t0 = time.time()
-    trad_rows, adv_rows, missing = [], [], {"traditional": 0, "advanced": 0}
-    for season in seasons:
-        season_dir = os.path.join(DATA_DIR, season)
-        game_ids = sorted(os.listdir(season_dir)) if os.path.isdir(season_dir) else []
-        for game_id in game_ids:
-            for kind, sink in (("traditional", trad_rows), ("advanced", adv_rows)):
-                frame = _read_team_box(season, game_id, kind)
-                if frame is None:
-                    missing[kind] += 1
-                    continue
-                frame["season"] = season
-                sink.append(frame)
-        if verbose:
-            print(f"    {season}: {len(game_ids)} mac okundu "
-                  f"({time.time() - t0:.0f} sn)", flush=True)
-
-    trad = pd.concat(trad_rows, ignore_index=True) if trad_rows else pd.DataFrame()
-    adv = pd.concat(adv_rows, ignore_index=True) if adv_rows else pd.DataFrame()
-    for frame in (trad, adv):
-        if not frame.empty:
-            frame["game_id"] = frame["GAME_ID"].str.zfill(10)
-
+    trad = csv_tables.load("team_traditional_raw")
+    adv = csv_tables.load("team_advanced_raw")
+    trad = trad[trad["season"].isin(seasons)].reset_index(drop=True)
+    adv = adv[adv["season"].isin(seasons)].reset_index(drop=True)
     if verbose:
-        print(f"  {len(trad):,} + {len(adv):,} takim-mac, eksik dosya "
-              f"traditional {missing['traditional']}, advanced {missing['advanced']} "
-              f"({time.time() - t0:.0f} sn)")
-    if use_cache:
-        pd.to_pickle({"seasons": list(seasons), "traditional": trad,
-                      "advanced": adv}, CACHE_PATH)
+        print(f"  takim box score: {len(trad):,} takim-mac (traditional), {len(adv):,} (advanced)")
     return trad, adv
 
 

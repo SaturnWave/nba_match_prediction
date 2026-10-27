@@ -35,6 +35,7 @@ import pickle
 import argparse
 import importlib.util
 
+import numpy as np
 import pandas as pd
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -144,13 +145,54 @@ def _load_master(source, seasons, verbose):
         seasons=seasons, verbose=verbose)
 
 
-def build(seasons=None, verbose=True, with_clutch=True, source="auto"):
+LABEL_COLUMNS = ["home_score", "away_score", "point_diff", "total_score", "home_win"]
+
+
+def _require_results(master):
+    """A played game without a final score stops the build.
+
+    The CSV master derives home_win from point_diff > 0, which turns a missing
+    score into a home loss, and the builder then fills the gaps with zeros - a
+    0-0 game - without a word. A game the list calls played has a score.
+    """
+    missing = master.loc[master["home_score"].isna() | master["away_score"].isna(), "game_id"]
+    if len(missing):
+        raise RuntimeError(f"{len(missing)} oynanmis macin skoru yok (ornek {list(missing[:5])}); "
+                           f"kutu skorlari eksik mi?")
+
+
+def _append_unplayed(master, unplayed):
+    """Games not played yet, after the played ones: no result, and `is_played` False.
+
+    `unplayed` gives game_id, season, game_date, home_team, away_team,
+    home_team_id and away_team_id. Everything a game's result would supply is
+    missing. The rest columns are recomputed over the combined schedule,
+    because an upcoming game's rest is the days since that team's last game.
+    """
+    csv_master = _load_sibling("csv_master")
+    played_ids = set(master["game_id"])
+    overlap = sorted(set(unplayed["game_id"]) & played_ids)
+    if overlap:
+        raise RuntimeError(f"oynanmamis denilen maclar oynanmis listesinde: {overlap[:5]}")
+    upcoming = unplayed.assign(game_date=pd.to_datetime(unplayed["game_date"]), is_played=False)
+    combined = pd.concat([master.assign(is_played=True), upcoming], ignore_index=True)
+    combined = combined.drop(columns=[c for c in csv_master.REST_COLUMNS if c in combined.columns])
+    combined = csv_master.add_rest_columns(combined)
+    return combined.sort_values(["game_date", "game_id"]).reset_index(drop=True)
+
+
+def build(seasons=None, verbose=True, with_clutch=True, source="auto", unplayed=None):
     """Return (dataset, base_features, extra_feature_groups, predictor).
 
     extra_feature_groups is a dict of {name: [columns]} for feature families
     that _select_features cannot see, because it works from a prefix whitelist
     that predates them. Keeping them grouped and separate is what lets an arm
     ask for one family without dragging in the others.
+
+    `unplayed` (see _append_unplayed) adds games not played yet. FeatureEngineer
+    gives them features from the games before them, as it does every game, and
+    their labels come out missing, never zero. The dataset says which rows are
+    which in `is_played`.
     """
     predictor_module = _load_sibling("predict_2025_2026")
 
@@ -158,6 +200,11 @@ def build(seasons=None, verbose=True, with_clutch=True, source="auto"):
     master = _load_master(source, seasons, verbose)
     if master.empty:
         raise RuntimeError("veritabanindan hic mac gelmedi")
+    _require_results(master)
+    if unplayed is not None and len(unplayed):
+        master = _append_unplayed(master, unplayed)
+    else:
+        master = master.assign(is_played=True)
     master = _load_sibling("db_source").attach_impact(master, cache_path=IMPACT_CACHE)
     if verbose:
         print(f"  master: {master.shape} ({time.time() - t0:.1f} sn)")
@@ -209,6 +256,8 @@ def build(seasons=None, verbose=True, with_clutch=True, source="auto"):
             conn.close()
 
     dataset = predictor.fe.engineer(master.copy()).fillna(0)
+    unplayed_rows = ~dataset["is_played"].astype(bool)
+    dataset.loc[unplayed_rows, LABEL_COLUMNS] = np.nan
     predictor.master_df = master
     predictor.dataset = dataset
 

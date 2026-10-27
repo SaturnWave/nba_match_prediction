@@ -103,6 +103,26 @@ def _gid_from_path(fp):
     return os.path.basename(fp).split("box_score")[0].zfill(10)
 
 
+def _index_key(fp, data_dir):
+    """A matchup file's cache key: its path below the data directory, with forward slashes.
+
+    The keys used to be absolute paths, so a clone in another folder matched
+    none of them and parsed all 10,749 files again; a relative key travels
+    with the repository.
+    """
+    return os.path.relpath(fp, data_dir).replace(os.sep, "/")
+
+
+def _relative_index(index):
+    """An index read from a cache, older absolute keys cut to the part below nba_data/."""
+    out = {}
+    for key, size in index.items():
+        text = str(key).replace("\\", "/")
+        marker = text.rfind("nba_data/")
+        out[text[marker + len("nba_data/"):] if marker >= 0 else text] = size
+    return out
+
+
 def _resolve_cache_path(cache_path, data_dir):
     """Use the shared cache file only for the default data dir; a custom
     data_dir gets no cache unless an explicit path is passed, so tests or
@@ -169,11 +189,11 @@ def load_matchup_data(data_dir=BASE_DATA_DIR, seasons=None, game_ids_dir=GAME_ID
     cache_path = _resolve_cache_path(cache_path, data_dir)
     if seasons is None:
         seasons = _detect_seasons(data_dir)
-    files = _list_matchup_files(data_dir, seasons)
+    files = [(season, fp, _index_key(fp, data_dir)) for season, fp in _list_matchup_files(data_dir, seasons)]
     index = {}
-    for _season, fp in files:
+    for _season, fp, key in files:
         try:
-            index[fp] = os.path.getsize(fp)
+            index[key] = os.path.getsize(fp)
         except OSError:
             pass
 
@@ -182,7 +202,7 @@ def load_matchup_data(data_dir=BASE_DATA_DIR, seasons=None, game_ids_dir=GAME_ID
         try:
             with open(cache_path, "rb") as f:
                 cached = pickle.load(f)
-            cached_index = cached.get("file_index") or {}
+            cached_index = _relative_index(cached.get("file_index") or {})
             cached_df = cached.get("long_df")
         except Exception:
             cached_index, cached_df = {}, None
@@ -191,18 +211,18 @@ def load_matchup_data(data_dir=BASE_DATA_DIR, seasons=None, game_ids_dir=GAME_ID
 
     # reuse cached rows for files whose size is unchanged; (re)parse the rest
     frames = []
-    reuse_fps = {fp for fp, size in index.items() if cached_index.get(fp) == size}
-    if cached_df is not None and reuse_fps and not cached_df.empty:
-        reuse_gids = {_gid_from_path(fp) for fp in reuse_fps}
+    reuse_keys = {key for key, size in index.items() if cached_index.get(key) == size}
+    if cached_df is not None and reuse_keys and not cached_df.empty:
+        reuse_gids = {_gid_from_path(key) for key in reuse_keys}
         base = cached_df[cached_df["game_id"].isin(reuse_gids)]
         if not base.empty:
             frames.append(base[LONG_COLUMNS])
     else:
-        reuse_fps = set()
+        reuse_keys = set()
 
     new_frames = []
-    for season, fp in files:
-        if fp in reuse_fps or fp not in index:
+    for season, fp, key in files:
+        if key in reuse_keys or key not in index:
             continue
         rows = _read_one_matchup_csv(fp, season)
         if rows is not None and not rows.empty:

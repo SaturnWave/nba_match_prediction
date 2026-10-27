@@ -56,7 +56,10 @@ VALUE_CACHE = os.path.join(OUTPUT_DIR, "value_cache_unweighted.pkl")
 V4_PATH = os.path.join(PROJECT_ROOT, "game_impact_cache_v4.pkl")
 V5_PATH = os.path.join(PROJECT_ROOT, "game_impact_cache_v5.pkl")
 SUMMARY_PATH = os.path.join(OUTPUT_DIR, "impact_v5_summary.json")
-GAME_SUMMARY = os.path.join(PROJECT_ROOT, "phonedb_cache", "game_summary.pkl")
+
+if HERE not in sys.path:
+    sys.path.insert(0, HERE)
+import csv_tables  # noqa: E402 - each game's sides, built from the CSVs
 
 
 def build_v5(value_cache, games):
@@ -117,8 +120,7 @@ def main():
     parser.add_argument("--out", default=V5_PATH)
     parser.add_argument("--summary", default=SUMMARY_PATH)
     args = parser.parse_args()
-    games = pd.read_pickle(GAME_SUMMARY)
-    games["game_id"] = games["game_id"].astype(str).str.zfill(10)
+    games = csv_tables.load("game_summary")
     with open(args.value_cache, "rb") as f:
         value_cache = pickle.load(f)
     v5 = build_v5(value_cache, games)

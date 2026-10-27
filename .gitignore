@@ -51,3 +51,8 @@ sim_sandbox/*
 
 # bahis oranlarinin ham indirmeleri (yeniden indirilebilir; ayristirilmis tablolar odds_data/ altinda)
 odds_data/raw/
+
+# CSV'lerden kurulan tablolar (prediction_engines/csv_tables.py); nba_data/ dan yeniden kurulur
+/table_cache/
+# her gun yeniden kurulan mac oncesi veri seti (build_dataset_asof.py); tahminler output/forecasts/ altinda kalir
+/output/engineered_dataset_asof.pkl

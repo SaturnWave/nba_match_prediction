@@ -1,0 +1,574 @@
+gameId,actionNumber,clock,period,teamId,teamTricode,personId,playerName,playerNameI,xLegacy,yLegacy,shotDistance,shotResult,isFieldGoal,scoreHome,scoreAway,pointsTotal,location,description,actionType,subType,videoAvailable,shotValue,actionId
+0022600105,3,PT12M00.00S,1,0,,0,,,0,0,0,,0,0,0,0,,Start of 1st Period (7:43 PM EST),period,start,1,0,1
+0022600105,5,PT12M00.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Jump Ball Allen vs. Sharpe: Tip to Demin,Jump Ball,,1,0,2
+0022600105,8,PT11M34.00S,1,0,,1610612751,,,0,0,0,,0,,,0,v,Nets Turnover: Shot Clock (T#1),Turnover,Shot Clock Turnover,1,0,3
+0022600105,35,PT11M16.00S,1,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,,0,,,0,v,Sharpe S.FOUL (P1.T1) (C.Kirkland),Foul,Shooting,1,0,4
+0022600105,37,PT11M16.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,1,0,1,h,Allen Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,5
+0022600105,38,PT11M16.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,2,0,2,h,Allen Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,6
+0022600105,12,PT11M01.00S,1,1610612751,BKN,1631165,Ellis,K. Ellis,124,250,28,Missed,1,,,0,v,MISS Ellis 28' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,7
+0022600105,13,PT11M01.00S,1,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,8
+0022600105,14,PT10M51.00S,1,1610612739,CLE,1631212,Watson,P. Watson,-214,150,26,Made,1,5,0,5,h,Watson 26' 3PT Jump Shot (3 PTS) (Harden 1 AST),Made Shot,Jump Shot,1,3,9
+0022600105,16,PT10M40.00S,1,1610612751,BKN,1631165,Ellis,K. Ellis,-237,-3,24,Made,1,5,3,8,v,Ellis 24' 3PT Jump Shot (3 PTS) (Demin 1 AST),Made Shot,Jump Shot,1,3,10
+0022600105,18,PT10M23.00S,1,1610612739,CLE,1628378,Mitchell,D. Mitchell,-166,196,26,Missed,1,,,0,h,MISS Mitchell 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,11
+0022600105,19,PT10M23.00S,1,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,12
+0022600105,20,PT10M16.00S,1,1610612751,BKN,1642856,Dëmin,E. Dëmin,204,145,25,Missed,1,,,0,v,MISS Demin 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,13
+0022600105,21,PT10M16.00S,1,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,Mobley REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,14
+0022600105,22,PT10M07.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen Lost Ball Turnover (P1.T1),Turnover,Lost Ball,1,0,15
+0022600105,22,PT10M07.00S,1,1610612751,BKN,1631165,Ellis,K. Ellis,0,0,0,,0,,,0,v,Ellis STEAL (1 STL),,,1,0,16
+0022600105,24,PT09M54.00S,1,1610612751,BKN,203944,Randle,J. Randle,-74,51,9,Missed,1,,,0,v,MISS Randle 9' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,17
+0022600105,25,PT09M54.00S,1,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,,0,,,0,v,Sharpe REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,18
+0022600105,26,PT09M50.00S,1,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,Missed,1,,,0,v,MISS Sharpe Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,19
+0022600105,27,PT09M50.00S,1,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,20
+0022600105,28,PT09M48.00S,1,1610612751,BKN,1642856,Dëmin,E. Dëmin,0,0,0,,0,,,0,v,Demin P.FOUL (P1.T2) (E.Dalen),Foul,Personal,1,0,21
+0022600105,30,PT09M27.00S,1,1610612739,CLE,1630596,Mobley,E. Mobley,-215,130,25,Made,1,8,3,11,h,Mobley 25' 3PT Jump Shot (3 PTS) (Watson 1 AST),Made Shot,Jump Shot,1,3,22
+0022600105,32,PT09M17.00S,1,1610612751,BKN,1630549,Sharpe,D. Sharpe,-26,252,25,Made,1,8,6,14,v,Sharpe 25' 3PT Jump Shot (3 PTS) (Demin 2 AST),Made Shot,Jump Shot,1,3,23
+0022600105,34,PT09M06.00S,1,1610612739,CLE,1630596,Mobley,E. Mobley,-85,239,25,Missed,1,,,0,h,MISS Mobley 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,24
+0022600105,39,PT09M06.00S,1,1610612751,BKN,1631165,Ellis,K. Ellis,0,0,0,,0,,,0,v,Ellis REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,25
+0022600105,40,PT08M56.00S,1,1610612751,BKN,1642856,Dëmin,E. Dëmin,175,182,25,Missed,1,,,0,v,MISS Demin 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,26
+0022600105,41,PT08M56.00S,1,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,27
+0022600105,42,PT08M54.00S,1,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden P.FOUL (P1.T1) (S.Mehta),Foul,Personal,1,0,28
+0022600105,44,PT08M44.00S,1,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell S.FOUL (P1.T2) (E.Dalen),Foul,Shooting,1,0,29
+0022600105,46,PT08M44.00S,1,1610612751,BKN,1642856,Dëmin,E. Dëmin,0,0,0,,0,8,7,15,v,Demin Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,30
+0022600105,47,PT08M44.00S,1,1610612751,BKN,1642856,Dëmin,E. Dëmin,0,0,0,,0,8,8,16,v,Demin Free Throw 2 of 2 (2 PTS),Free Throw,Free Throw 2 of 2,1,0,31
+0022600105,48,PT08M28.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,2,0,Made,1,10,8,18,h,Allen Cutting Dunk Shot (4 PTS) (Harden 2 AST),Made Shot,Cutting Dunk Shot,1,2,32
+0022600105,50,PT08M16.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen P.FOUL (P1.T3) (E.Dalen),Foul,Personal,1,0,33
+0022600105,52,PT08M08.00S,1,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,-214,132,25,Missed,1,,,0,v,MISS Porter Jr. 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,34
+0022600105,53,PT08M08.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,35
+0022600105,54,PT07M57.00S,1,1610612739,CLE,1628378,Mitchell,D. Mitchell,16,24,3,Made,1,12,8,20,h,Mitchell 3' Driving Floating Jump Shot (2 PTS),Made Shot,Driving Floating Jump Shot,1,2,36
+0022600105,55,PT07M45.00S,1,1610612751,BKN,203944,Randle,J. Randle,-52,249,25,Made,1,12,11,23,v,Randle 25' 3PT Jump Shot (3 PTS) (Ellis 1 AST),Made Shot,Jump Shot,1,3,37
+0022600105,57,PT07M25.00S,1,1610612739,CLE,1631212,Watson,P. Watson,-161,242,29,Missed,1,,,0,h,MISS Watson 29' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,38
+0022600105,58,PT07M25.00S,1,1610612751,BKN,1642856,Dëmin,E. Dëmin,0,0,0,,0,,,0,v,Demin REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,39
+0022600105,59,PT07M17.00S,1,1610612751,BKN,203944,Randle,J. Randle,65,23,7,Made,1,12,13,25,v,Randle 7' Driving Floating Bank Jump Shot (6 PTS) (Demin 3 AST),Made Shot,Driving Floating Bank Jump Shot,1,2,40
+0022600105,61,PT07M17.00S,1,1610612739,CLE,1631212,Watson,P. Watson,0,0,0,,0,,,0,h,Watson S.FOUL (P1.T4) (C.Kirkland),Foul,Shooting,1,0,41
+0022600105,63,PT07M17.00S,1,1610612751,BKN,203944,Randle,J. Randle,0,0,0,,0,12,14,26,v,Randle Free Throw 1 of 1 (6 PTS),Free Throw,Free Throw 1 of 1,1,0,42
+0022600105,64,PT06M58.00S,1,1610612739,CLE,1630596,Mobley,E. Mobley,226,-10,0,Made,1,15,14,29,h,Mobley 3PT Jump Shot (6 PTS) (Harden 3 AST),Made Shot,Jump Shot,1,3,43
+0022600105,66,PT06M45.00S,1,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,195,171,26,Made,1,15,17,32,v,Porter Jr. 26' 3PT Jump Shot (3 PTS) (Demin 4 AST),Made Shot,Jump Shot,1,3,44
+0022600105,68,PT06M44.00S,1,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Timeout: Regular (Full 1 Short 0),Timeout,Regular,0,0,45
+0022600105,71,PT06M44.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,SUB: Tyson FOR Allen,Substitution,,0,0,46
+0022600105,72,PT06M44.00S,1,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,SUB: Merrill FOR Mitchell,Substitution,,0,0,47
+0022600105,73,PT06M27.00S,1,1610612739,CLE,1630596,Mobley,E. Mobley,-39,24,5,Made,1,17,17,34,h,Mobley 5' Driving Layup (8 PTS) (Harden 4 AST),Made Shot,Driving Layup Shot,1,2,48
+0022600105,75,PT06M09.00S,1,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,-73,249,26,Missed,1,,,0,v,MISS Porter Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,49
+0022600105,76,PT06M09.00S,1,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,Mobley REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,50
+0022600105,77,PT05M57.00S,1,1610612739,CLE,201935,Harden,J. Harden,-72,300,31,Missed,1,,,0,h,MISS Harden 31' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,51
+0022600105,78,PT05M57.00S,1,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,52
+0022600105,79,PT05M43.00S,1,1610612751,BKN,203944,Randle,J. Randle,15,73,7,Missed,1,,,0,v,MISS Randle 7' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,53
+0022600105,79,PT05M43.00S,1,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,Mobley BLOCK (1 BLK),,,1,2,54
+0022600105,80,PT05M43.00S,1,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,Mobley REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,55
+0022600105,82,PT05M36.00S,1,1610612739,CLE,201935,Harden,J. Harden,141,203,25,Missed,1,,,0,h,MISS Harden 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,56
+0022600105,83,PT05M36.00S,1,1610612751,BKN,1631165,Ellis,K. Ellis,0,0,0,,0,,,0,v,Ellis REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,57
+0022600105,84,PT05M21.00S,1,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,-35,44,6,Made,1,17,19,36,v,Porter Jr. 6' Hook Shot (5 PTS) (Randle 1 AST),Made Shot,Hook Shot,1,2,58
+0022600105,86,PT05M07.00S,1,1610612739,CLE,1630596,Mobley,E. Mobley,2,17,2,Missed,1,,,0,h,MISS Mobley 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,59
+0022600105,87,PT05M07.00S,1,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,60
+0022600105,88,PT05M00.00S,1,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,68,46,8,Made,1,17,21,38,v,Porter Jr. 8' Driving Floating Bank Jump Shot (7 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,61
+0022600105,91,PT04M48.00S,1,1610612739,CLE,1631212,Watson,P. Watson,0,0,0,,0,,,0,h,SUB: Hezonja FOR Watson,Substitution,,0,0,62
+0022600105,95,PT04M48.00S,1,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,,0,,,0,v,SUB: Brown Jr. FOR Sharpe,Substitution,,0,0,63
+0022600105,96,PT04M48.00S,1,1610612751,BKN,1642856,Dëmin,E. Dëmin,0,0,0,,0,,,0,v,SUB: Wagner FOR Demin,Substitution,,0,0,64
+0022600105,97,PT04M48.00S,1,1610612751,BKN,203944,Randle,J. Randle,0,0,0,,0,,,0,v,SUB: Johnson FOR Randle,Substitution,,0,0,65
+0022600105,98,PT04M44.00S,1,1610612739,CLE,201935,Harden,J. Harden,-130,238,27,Made,1,20,21,41,h,Harden 27' 3PT Jump Shot (4 PTS) (Tyson 1 AST),Made Shot,Jump Shot,1,3,66
+0022600105,126,PT04M44.00S,1,1610612751,BKN,1631165,Ellis,K. Ellis,0,0,0,,0,,,0,v,Ellis S.FOUL (P1.T3) (E.Dalen),Foul,Shooting,1,0,67
+0022600105,128,PT04M44.00S,1,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,21,21,42,h,Harden Free Throw 1 of 1 (4 PTS),Free Throw,Free Throw 1 of 1,1,0,68
+0022600105,102,PT04M28.00S,1,1610612751,BKN,1643414,Brown Jr.,M. Brown Jr.,105,240,26,Missed,1,,,0,v,MISS Brown Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,69
+0022600105,103,PT04M28.00S,1,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,70
+0022600105,104,PT04M20.00S,1,1610612739,CLE,201935,Harden,J. Harden,-148,246,29,Missed,1,,,0,h,MISS Harden 29' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,71
+0022600105,105,PT04M20.00S,1,1610612739,CLE,1630241,Merrill,S. Merrill,0,0,0,,0,,,0,h,Merrill REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,72
+0022600105,106,PT04M18.00S,1,1610612751,BKN,1643414,Brown Jr.,M. Brown Jr.,0,0,0,,0,,,0,v,Brown Jr. P.FOUL (P1.T4) (C.Kirkland),Foul,Personal,1,0,73
+0022600105,108,PT04M09.00S,1,1610612739,CLE,1642281,Tyson,J. Tyson,38,94,10,Missed,1,,,0,h,MISS Tyson 10' Floating Jump Shot,Missed Shot,Floating Jump shot,1,2,74
+0022600105,109,PT04M09.00S,1,1610612751,BKN,1643052,Johnson,C. Johnson,0,0,0,,0,,,0,v,Johnson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,75
+0022600105,113,PT03M56.00S,1,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,,,0,h,SUB: Allen FOR Harden,Substitution,,0,0,76
+0022600105,114,PT03M56.00S,1,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,SUB: Mitchell FOR Mobley,Substitution,,0,0,77
+0022600105,117,PT03M56.00S,1,1610612751,BKN,1631165,Ellis,K. Ellis,0,0,0,,0,,,0,v,SUB: Clowney FOR Ellis,Substitution,,0,0,78
+0022600105,118,PT03M56.00S,1,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,SUB: Traore FOR Porter Jr.,Substitution,,0,0,79
+0022600105,119,PT03M45.00S,1,1610612751,BKN,1641730,Clowney,N. Clowney,220,136,26,Made,1,21,24,45,v,Clowney 26' 3PT Jump Shot (3 PTS) (Johnson 1 AST),Made Shot,Jump Shot,1,3,80
+0022600105,121,PT03M36.00S,1,1610612751,BKN,1629021,Wagner,M. Wagner,0,0,0,,0,,,0,v,Wagner P.FOUL (P1.PN) (C.Kirkland),Foul,Personal,1,0,81
+0022600105,123,PT03M36.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,22,24,46,h,Allen Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,82
+0022600105,125,PT03M36.00S,1,0,,1610612751,,,0,0,0,,0,,,0,v,Nets Timeout: Regular (Reg.1 Short 0),Timeout,Regular,0,0,83
+0022600105,124,PT03M36.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,MISS Allen Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,84
+0022600105,129,PT03M36.00S,1,1610612751,BKN,1629021,Wagner,M. Wagner,0,0,0,,0,,,0,v,Wagner REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,85
+0022600105,130,PT03M20.00S,1,1610612751,BKN,1643052,Johnson,C. Johnson,234,24,24,Missed,1,,,0,v,MISS Johnson 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,86
+0022600105,131,PT03M20.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,87
+0022600105,132,PT03M00.00S,1,1610612739,CLE,1628378,Mitchell,D. Mitchell,20,76,8,Made,1,24,24,48,h,Mitchell 8' Driving Floating Jump Shot (4 PTS),Made Shot,Driving Floating Jump Shot,1,2,88
+0022600105,133,PT02M52.00S,1,1610612751,BKN,1643414,Brown Jr.,M. Brown Jr.,-11,26,3,Missed,1,,,0,v,MISS Brown Jr. 3' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,89
+0022600105,134,PT02M52.00S,1,1610612751,BKN,1629021,Wagner,M. Wagner,0,0,0,,0,,,0,v,Wagner REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,90
+0022600105,135,PT02M50.00S,1,1610612739,CLE,1630241,Merrill,S. Merrill,0,0,0,,0,,,0,h,Merrill S.FOUL (P1.PN) (C.Kirkland),Foul,Shooting,1,0,91
+0022600105,137,PT02M50.00S,1,1610612751,BKN,1629021,Wagner,M. Wagner,0,0,0,,0,24,25,49,v,Wagner Free Throw 1 of 2 (1 PTS),Free Throw,Free Throw 1 of 2,1,0,92
+0022600105,138,PT02M50.00S,1,1610612751,BKN,1629021,Wagner,M. Wagner,0,0,0,,0,,,0,v,MISS Wagner Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,93
+0022600105,139,PT02M50.00S,1,0,,1610612751,,,0,0,0,,0,,,0,v,Nets Rebound,Rebound,Unknown,0,0,94
+0022600105,141,PT02M40.00S,1,1610612751,BKN,1643052,Johnson,C. Johnson,3,7,1,Missed,1,,,0,v,MISS Johnson 1' Finger Roll Layup,Missed Shot,Finger Roll Layup Shot,1,2,95
+0022600105,142,PT02M40.00S,1,1610612751,BKN,1643052,Johnson,C. Johnson,0,0,0,,0,,,0,v,Johnson REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,96
+0022600105,143,PT02M37.00S,1,1610612751,BKN,1629021,Wagner,M. Wagner,147,213,26,Missed,1,,,0,v,MISS Wagner 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,97
+0022600105,144,PT02M37.00S,1,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,98
+0022600105,145,PT02M29.00S,1,1610612739,CLE,1628378,Mitchell,D. Mitchell,24,3,2,Missed,1,,,0,h,MISS Mitchell 2' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,99
+0022600105,146,PT02M29.00S,1,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Rebound,Rebound,Unknown,0,0,100
+0022600105,147,PT02M29.00S,1,1610612751,BKN,1641730,Clowney,N. Clowney,0,0,0,,0,,,0,v,Clowney L.B.FOUL (P1.PN) (S.Mehta),Foul,Loose Ball,1,0,101
+0022600105,149,PT02M29.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,25,25,50,h,Allen Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,102
+0022600105,150,PT02M29.00S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,MISS Allen Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,103
+0022600105,151,PT02M29.00S,1,1610612751,BKN,1629021,Wagner,M. Wagner,0,0,0,,0,,,0,v,Wagner REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,104
+0022600105,152,PT02M04.00S,1,1610612751,BKN,1643052,Johnson,C. Johnson,-83,113,14,Made,1,25,27,52,v,Johnson 14' Turnaround Fadeaway (2 PTS),Made Shot,Turnaround Fadeaway shot,1,2,105
+0022600105,153,PT01M56.00S,1,1610612751,BKN,1643052,Johnson,C. Johnson,0,0,0,,0,,,0,v,Johnson P.FOUL (P1.PN) (C.Kirkland),Foul,Personal,1,0,106
+0022600105,155,PT01M56.00S,1,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,26,27,53,h,Mitchell Free Throw 1 of 2 (5 PTS),Free Throw,Free Throw 1 of 2,1,0,107
+0022600105,156,PT01M56.00S,1,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,27,27,54,h,Mitchell Free Throw 2 of 2 (6 PTS),Free Throw,Free Throw 2 of 2,1,0,108
+0022600105,157,PT01M44.00S,1,1610612751,BKN,1642849,Traore,N. Traore,2,-5,1,Made,1,27,29,56,v,Traore 1' Driving Layup (2 PTS),Made Shot,Driving Layup Shot,1,2,109
+0022600105,158,PT01M28.00S,1,1610612739,CLE,1642281,Tyson,J. Tyson,0,0,0,,0,,,0,h,Tyson OFF.Foul (P1) (E.Dalen),Foul,Offensive,1,0,110
+0022600105,160,PT01M28.00S,1,1610612739,CLE,1642281,Tyson,J. Tyson,0,0,0,,0,,,0,h,Tyson Offensive Foul Turnover (P1.T2),Turnover,Offensive Foul Turnover,1,0,111
+0022600105,161,PT01M14.00S,1,1610612751,BKN,1643414,Brown Jr.,M. Brown Jr.,-10,87,9,Missed,1,,,0,v,MISS Brown Jr. 9' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,112
+0022600105,162,PT01M14.00S,1,1610612751,BKN,1629021,Wagner,M. Wagner,0,0,0,,0,,,0,v,Wagner REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,113
+0022600105,163,PT01M12.00S,1,1610612751,BKN,1629021,Wagner,M. Wagner,0,0,0,Missed,1,,,0,v,MISS Wagner Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,114
+0022600105,164,PT01M12.00S,1,1610612739,CLE,1642281,Tyson,J. Tyson,0,0,0,,0,,,0,h,Tyson REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,115
+0022600105,165,PT00M58.90S,1,1610612739,CLE,1628378,Mitchell,D. Mitchell,5,5,1,Missed,1,,,0,h,MISS Mitchell 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,116
+0022600105,166,PT00M58.90S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,117
+0022600105,167,PT00M58.90S,1,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,Made,1,29,29,58,h,Allen Tip Dunk Shot (8 PTS),Made Shot,Tip Dunk Shot,1,2,118
+0022600105,168,PT00M49.90S,1,1610612751,BKN,1643414,Brown Jr.,M. Brown Jr.,-178,183,26,Missed,1,,,0,v,MISS Brown Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,119
+0022600105,169,PT00M49.90S,1,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,120
+0022600105,170,PT00M42.80S,1,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell Lost Ball Turnover (P1.T3),Turnover,Lost Ball,1,0,121
+0022600105,170,PT00M42.80S,1,1610612751,BKN,1643052,Johnson,C. Johnson,0,0,0,,0,,,0,v,Johnson STEAL (1 STL),,,1,0,122
+0022600105,172,PT00M41.30S,1,1610612751,BKN,1643052,Johnson,C. Johnson,33,30,4,Missed,1,,,0,v,MISS Johnson 4' Jump Shot,Missed Shot,Jump Shot,1,2,123
+0022600105,172,PT00M41.30S,1,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell BLOCK (1 BLK),,,1,2,124
+0022600105,173,PT00M41.30S,1,1610612751,BKN,1642849,Traore,N. Traore,0,0,0,,0,,,0,v,Traore REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,125
+0022600105,175,PT00M41.30S,1,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell S.FOUL (P2.PN) (S.Mehta),Foul,Shooting,1,0,126
+0022600105,177,PT00M41.30S,1,1610612751,BKN,1642849,Traore,N. Traore,0,0,0,,0,29,30,59,v,Traore Free Throw 1 of 2 (3 PTS),Free Throw,Free Throw 1 of 2,1,0,127
+0022600105,180,PT00M41.30S,1,1610612751,BKN,1643414,Brown Jr.,M. Brown Jr.,0,0,0,,0,,,0,v,SUB: Randle FOR Brown Jr.,Substitution,,0,0,128
+0022600105,178,PT00M41.30S,1,1610612751,BKN,1642849,Traore,N. Traore,0,0,0,,0,,,0,v,MISS Traore Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,129
+0022600105,181,PT00M41.30S,1,1610612739,CLE,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,130
+0022600105,182,PT00M32.10S,1,1610612739,CLE,1642281,Tyson,J. Tyson,-5,309,31,Made,1,32,30,62,h,Tyson 31' 3PT Pullup Jump Shot (3 PTS),Made Shot,Pullup Jump shot,1,3,131
+0022600105,183,PT00M13.20S,1,1610612751,BKN,1629021,Wagner,M. Wagner,0,0,0,,0,,,0,v,Wagner OFF.Foul (P2) (C.Kirkland),Foul,Offensive,1,0,132
+0022600105,188,PT00M13.20S,1,1610612751,BKN,1629021,Wagner,M. Wagner,0,0,0,,0,,,0,v,Wagner Offensive Foul Turnover (P1.T2),Turnover,Offensive Foul Turnover,1,0,133
+0022600105,187,PT00M13.20S,1,1610612751,BKN,1642849,Traore,N. Traore,0,0,0,,0,,,0,v,SUB: Ellis FOR Traore,Substitution,,0,0,134
+0022600105,189,PT00M00.00S,1,1610612739,CLE,1626209,Hezonja,M. Hezonja,-242,60,25,Made,1,35,30,65,h,Hezonja 25' 3PT Jump Shot (3 PTS) (Tyson 2 AST),Made Shot,Jump Shot,1,3,135
+0022600105,191,PT00M00.00S,1,0,,0,,,0,0,0,,0,35,30,65,,End of 1st Period (8:12 PM EST),period,end,1,0,136
+0022600105,192,PT00M00.00S,1,0,,0,,,0,0,0,,0,35,30,65,,Instant Replay1st Period (8:12 PM EST),Instant Replay,Support Ruling,0,0,137
+0022600105,195,PT12M00.00S,2,0,,0,,,0,0,0,,0,35,30,65,,Start of 2nd Period (8:15 PM EST),period,start,1,0,138
+0022600105,200,PT11M43.00S,2,1610612739,CLE,1626209,Hezonja,M. Hezonja,-224,137,26,Made,1,38,30,68,h,Hezonja 26' 3PT Jump Shot (6 PTS) (Merrill 1 AST),Made Shot,Jump Shot,1,3,139
+0022600105,202,PT11M26.00S,2,1610612751,BKN,1642849,Traore,N. Traore,0,0,0,,0,,,0,v,Traore Bad Pass Turnover (P1.T3),Turnover,Bad Pass,1,0,140
+0022600105,202,PT11M26.00S,2,1610612739,CLE,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja STEAL (1 STL),,,1,0,141
+0022600105,204,PT11M15.00S,2,1610612739,CLE,1630596,Mobley,E. Mobley,-37,38,5,Missed,1,,,0,h,MISS Mobley 5' Hook Shot,Missed Shot,Hook Shot,1,2,142
+0022600105,205,PT11M15.00S,2,1610612751,BKN,1642849,Traore,N. Traore,0,0,0,,0,,,0,v,Traore REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,143
+0022600105,206,PT10M55.00S,2,1610612751,BKN,1642849,Traore,N. Traore,-7,12,1,Missed,1,,,0,v,MISS Traore 1' Driving Finger Roll Layup,Missed Shot,Driving Finger Roll Layup Shot,1,2,144
+0022600105,207,PT10M55.00S,2,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,145
+0022600105,208,PT10M51.00S,2,1610612751,BKN,1643414,Brown Jr.,M. Brown Jr.,0,0,0,,0,,,0,v,Brown Jr. S.FOUL (P2.T1) (E.Dalen),Foul,Shooting,1,0,146
+0022600105,210,PT10M51.00S,2,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,39,30,69,h,Mitchell Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,147
+0022600105,211,PT10M51.00S,2,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,40,30,70,h,Mitchell Free Throw 2 of 2 (8 PTS),Free Throw,Free Throw 2 of 2,1,0,148
+0022600105,212,PT10M40.00S,2,1610612751,BKN,1643414,Brown Jr.,M. Brown Jr.,0,0,0,,0,,,0,v,Brown Jr. Bad Pass Turnover (P1.T4),Turnover,Bad Pass,1,0,149
+0022600105,212,PT10M40.00S,2,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell STEAL (1 STL),,,1,0,150
+0022600105,214,PT10M35.00S,2,1610612739,CLE,1642281,Tyson,J. Tyson,8,10,1,Missed,1,,,0,h,MISS Tyson 1' Running Layup,Missed Shot,Running Layup Shot,1,2,151
+0022600105,215,PT10M35.00S,2,1610612739,CLE,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,152
+0022600105,216,PT10M27.00S,2,1610612739,CLE,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja OFF.Foul (P1) (C.Kirkland),Foul,Offensive,1,0,153
+0022600105,218,PT10M27.00S,2,1610612739,CLE,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja Offensive Foul Turnover (P1.T4),Turnover,Offensive Foul Turnover,1,0,154
+0022600105,220,PT10M27.00S,2,1610612751,BKN,1642849,Traore,N. Traore,0,0,0,,0,,,0,v,SUB: Johnson FOR Traore,Substitution,,0,0,155
+0022600105,221,PT10M17.00S,2,1610612751,BKN,1643052,Johnson,C. Johnson,-231,0,0,Made,1,40,33,73,v,Johnson 3PT Jump Shot (5 PTS) (Brown Jr. 1 AST),Made Shot,Jump Shot,1,3,156
+0022600105,223,PT09M54.00S,2,1610612739,CLE,1630596,Mobley,E. Mobley,-5,49,5,Missed,1,,,0,h,MISS Mobley 5' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,157
+0022600105,223,PT09M54.00S,2,1610612751,BKN,1641730,Clowney,N. Clowney,0,0,0,,0,,,0,v,Clowney BLOCK (1 BLK),,,1,2,158
+0022600105,224,PT09M54.00S,2,1610612751,BKN,1643052,Johnson,C. Johnson,0,0,0,,0,,,0,v,Johnson REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,159
+0022600105,226,PT09M43.00S,2,1610612751,BKN,1643414,Brown Jr.,M. Brown Jr.,39,252,26,Missed,1,,,0,v,MISS Brown Jr. 26' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,160
+0022600105,227,PT09M43.00S,2,1610612751,BKN,1643052,Johnson,C. Johnson,0,0,0,,0,,,0,v,Johnson REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,161
+0022600105,228,PT09M34.00S,2,1610612739,CLE,1630241,Merrill,S. Merrill,0,0,0,,0,,,0,h,Merrill P.FOUL (P2.T1) (S.Mehta),Foul,Personal,1,0,162
+0022600105,230,PT09M27.00S,2,1610612751,BKN,1643414,Brown Jr.,M. Brown Jr.,90,90,13,Made,1,40,35,75,v,Brown Jr. 13' Pullup Jump Shot (2 PTS) (Wagner 1 AST),Made Shot,Pullup Jump shot,1,2,163
+0022600105,232,PT09M17.00S,2,1610612739,CLE,1628378,Mitchell,D. Mitchell,82,262,27,Missed,1,,,0,h,MISS Mitchell 27' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,164
+0022600105,233,PT09M17.00S,2,1610612751,BKN,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,165
+0022600105,234,PT09M09.00S,2,1610612751,BKN,1643414,Brown Jr.,M. Brown Jr.,0,0,0,,0,,,0,v,Brown Jr. Traveling Turnover (P2.T5),Turnover,Traveling,1,0,166
+0022600105,237,PT09M09.00S,2,1610612739,CLE,1642281,Tyson,J. Tyson,0,0,0,,0,,,0,h,SUB: Porter Jr. FOR Tyson,Substitution,,0,0,167
+0022600105,238,PT09M09.00S,2,1610612739,CLE,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,SUB: Harden FOR Hezonja,Substitution,,0,0,168
+0022600105,240,PT09M09.00S,2,1610612751,BKN,1629021,Wagner,M. Wagner,0,0,0,,0,,,0,v,SUB: Sharpe FOR Wagner,Substitution,,0,0,169
+0022600105,281,PT09M08.00S,2,1610612739,CLE,1641854,Porter Jr.,C. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. Bad Pass Turnover (P1.T5),Turnover,Bad Pass,1,0,170
+0022600105,281,PT09M08.00S,2,1610612751,BKN,1643052,Johnson,C. Johnson,0,0,0,,0,,,0,v,Johnson STEAL (2 STL),,,1,0,171
+0022600105,283,PT09M05.00S,2,1610612751,BKN,1643052,Johnson,C. Johnson,3,31,3,Missed,1,,,0,v,MISS Johnson 3' Driving Dunk,Missed Shot,Driving Dunk Shot,1,2,172
+0022600105,283,PT09M05.00S,2,1610612739,CLE,1641854,Porter Jr.,C. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. BLOCK (1 BLK),,,1,2,173
+0022600105,285,PT09M05.00S,2,0,,1610612751,,,0,0,0,,0,,,0,v,Nets Rebound,Rebound,Unknown,0,0,174
+0022600105,241,PT09M03.00S,2,1610612739,CLE,1630241,Merrill,S. Merrill,0,0,0,,0,,,0,h,Merrill P.FOUL (P3.T2) (E.Dalen),Foul,Personal,1,0,175
+0022600105,245,PT09M03.00S,2,1610612739,CLE,1630241,Merrill,S. Merrill,0,0,0,,0,,,0,h,SUB: Watson FOR Merrill,Substitution,,0,0,176
+0022600105,246,PT08M41.00S,2,1610612751,BKN,203944,Randle,J. Randle,181,169,25,Missed,1,,,0,v,MISS Randle 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,177
+0022600105,247,PT08M41.00S,2,1610612751,BKN,1641730,Clowney,N. Clowney,0,0,0,,0,,,0,v,Clowney REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,178
+0022600105,248,PT08M39.00S,2,1610612751,BKN,1641730,Clowney,N. Clowney,0,0,0,Missed,1,,,0,v,MISS Clowney Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,179
+0022600105,249,PT08M39.00S,2,1610612739,CLE,1641854,Porter Jr.,C. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,180
+0022600105,250,PT08M39.00S,2,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,,0,,,0,v,Sharpe S.FOUL (P2.T2) (E.Dalen),Foul,Shooting,1,0,181
+0022600105,252,PT08M39.00S,2,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,MISS Mobley Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,182
+0022600105,253,PT08M39.00S,2,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Rebound,Rebound,Normal Rebound,1,0,183
+0022600105,257,PT08M39.00S,2,1610612751,BKN,1643414,Brown Jr.,M. Brown Jr.,0,0,0,,0,,,0,v,SUB: Porter Jr. FOR Brown Jr.,Substitution,,0,0,184
+0022600105,258,PT08M39.00S,2,1610612751,BKN,1641730,Clowney,N. Clowney,0,0,0,,0,,,0,v,SUB: Demin FOR Clowney,Substitution,,0,0,185
+0022600105,254,PT08M39.00S,2,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,MISS Mobley Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,186
+0022600105,259,PT08M39.00S,2,1610612751,BKN,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,187
+0022600105,260,PT08M15.00S,2,1610612751,BKN,1630549,Sharpe,D. Sharpe,5,4,1,Made,1,40,37,77,v,Sharpe 1' Layup (5 PTS) (Randle 2 AST),Made Shot,Layup Shot,1,2,188
+0022600105,262,PT08M01.00S,2,1610612739,CLE,201935,Harden,J. Harden,10,31,3,Missed,1,,,0,h,MISS Harden 3' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,189
+0022600105,263,PT08M01.00S,2,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,Mobley REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,190
+0022600105,264,PT07M54.00S,2,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,Made,1,42,37,79,h,Mobley Putback Dunk (10 PTS),Made Shot,Putback Dunk Shot,1,2,191
+0022600105,265,PT07M43.00S,2,1610612751,BKN,1643052,Johnson,C. Johnson,-225,-20,0,Missed,1,,,0,v,MISS Johnson 3PT Jump Shot,Missed Shot,Jump Shot,1,3,192
+0022600105,266,PT07M43.00S,2,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,Mobley REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,193
+0022600105,267,PT07M27.00S,2,1610612739,CLE,1641854,Porter Jr.,C. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. Out of Bounds - Bad Pass Turnover Turnover (P2.T6),Turnover,Out of Bounds - Bad Pass Turnover,1,0,194
+0022600105,269,PT07M27.00S,2,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,SUB: Proctor FOR Mitchell,Substitution,,0,0,195
+0022600105,271,PT07M27.00S,2,1610612751,BKN,1643052,Johnson,C. Johnson,0,0,0,,0,,,0,v,SUB: Ellis FOR Johnson,Substitution,,0,0,196
+0022600105,272,PT07M14.00S,2,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,7,8,1,Made,1,42,39,81,v,Porter Jr. 1' Cutting Dunk Shot (9 PTS) (Sharpe 1 AST),Made Shot,Cutting Dunk Shot,1,2,197
+0022600105,274,PT07M05.00S,2,1610612739,CLE,1641854,Porter Jr.,C. Porter Jr.,147,200,25,Made,1,45,39,84,h,Porter Jr. 25' 3PT Jump Shot (3 PTS) (Proctor 1 AST),Made Shot,Jump Shot,1,3,198
+0022600105,276,PT06M40.00S,2,1610612751,BKN,1642856,Dëmin,E. Dëmin,-189,171,25,Missed,1,,,0,v,MISS Demin 25' 3PT Jump Bank Shot,Missed Shot,Jump Bank Shot,1,3,199
+0022600105,277,PT06M40.00S,2,1610612751,BKN,1642856,Dëmin,E. Dëmin,0,0,0,,0,,,0,v,Demin REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,200
+0022600105,278,PT06M35.00S,2,1610612739,CLE,1641854,Porter Jr.,C. Porter Jr.,0,0,0,,0,,,0,h,Porter Jr. S.FOUL (P1.T3) (E.Dalen),Foul,Shooting,1,0,201
+0022600105,280,PT06M35.00S,2,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Timeout: Regular (Full 2 Short 0),Timeout,Regular,0,0,202
+0022600105,287,PT06M35.00S,2,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,SUB: Allen FOR Mobley,Substitution,,0,0,203
+0022600105,289,PT06M35.00S,2,1610612751,BKN,203944,Randle,J. Randle,0,0,0,,0,,,0,v,SUB: Johnson FOR Randle,Substitution,,0,0,204
+0022600105,290,PT06M35.00S,2,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,45,40,85,v,Porter Jr. Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,205
+0022600105,291,PT06M35.00S,2,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,45,41,86,v,Porter Jr. Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,206
+0022600105,292,PT06M17.00S,2,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden Out of Bounds - Bad Pass Turnover Turnover (P1.T7),Turnover,Out of Bounds - Bad Pass Turnover,1,0,207
+0022600105,293,PT06M06.00S,2,1610612751,BKN,1631165,Ellis,K. Ellis,11,-8,1,Missed,1,,,0,v,MISS Ellis 1' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,208
+0022600105,293,PT06M06.00S,2,1610612739,CLE,1631212,Watson,P. Watson,0,0,0,,0,,,0,h,Watson BLOCK (1 BLK),,,1,2,209
+0022600105,294,PT06M06.00S,2,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,210
+0022600105,296,PT05M50.00S,2,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen Lost Ball Turnover (P2.T8),Turnover,Lost Ball,1,0,211
+0022600105,296,PT05M50.00S,2,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. STEAL (1 STL),,,1,0,212
+0022600105,298,PT05M45.00S,2,1610612751,BKN,1631165,Ellis,K. Ellis,201,161,26,Made,1,45,44,89,v,Ellis 26' 3PT Jump Shot (6 PTS) (Demin 5 AST),Made Shot,Jump Shot,1,3,213
+0022600105,300,PT05M29.00S,2,1610612739,CLE,1628386,Allen,J. Allen,97,233,25,Made,1,48,44,92,h,Allen 25' 3PT Jump Shot (11 PTS) (Watson 2 AST),Made Shot,Jump Shot,1,3,214
+0022600105,302,PT05M19.00S,2,1610612751,BKN,1631165,Ellis,K. Ellis,0,0,0,,0,,,0,v,Ellis Out of Bounds - Bad Pass Turnover Turnover (P1.T6),Turnover,Out of Bounds - Bad Pass Turnover,1,0,215
+0022600105,303,PT05M03.00S,2,1610612739,CLE,1628386,Allen,J. Allen,-83,14,8,Missed,1,,,0,h,MISS Allen 8' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,216
+0022600105,304,PT05M03.00S,2,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,,0,,,0,v,Sharpe REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,217
+0022600105,305,PT04M42.00S,2,1610612751,BKN,1630549,Sharpe,D. Sharpe,30,60,7,Made,1,48,46,94,v,Sharpe 7' Hook Shot (7 PTS),Made Shot,Hook Shot,1,2,218
+0022600105,306,PT04M30.00S,2,1610612739,CLE,1628386,Allen,J. Allen,8,0,1,Made,1,50,46,96,h,Allen 1' Driving Layup (13 PTS) (Porter Jr. 1 AST),Made Shot,Driving Layup Shot,1,2,219
+0022600105,308,PT04M15.00S,2,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,,0,,,0,v,Sharpe Bad Pass Turnover (P1.T7),Turnover,Bad Pass,1,0,220
+0022600105,308,PT04M15.00S,2,1610612739,CLE,1642878,Proctor,T. Proctor,0,0,0,,0,,,0,h,Proctor STEAL (1 STL),,,1,0,221
+0022600105,310,PT04M04.00S,2,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,,0,,,0,v,Sharpe FLAGRANT.FOUL.TYPE1 (P3.T3) (E.Dalen),Foul,Flagrant Type 1,1,0,222
+0022600105,313,PT04M04.00S,2,0,,0,,,0,0,0,,0,50,46,96,,Instant Replay2nd Period (8:31 PM EST),Instant Replay,Overturn Ruling,0,0,223
+0022600105,315,PT04M04.00S,2,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,,0,,,0,v,SUB: Randle FOR Sharpe,Substitution,,0,0,224
+0022600105,312,PT04M04.00S,2,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,51,46,97,h,Harden Free Throw (5 PTS),Free Throw,,1,0,225
+0022600105,316,PT04M04.00S,2,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,52,46,98,h,Harden Free Throw (6 PTS),Free Throw,,1,0,226
+0022600105,317,PT04M04.00S,2,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,53,46,99,h,Harden Free Throw (7 PTS),Free Throw,,0,0,227
+0022600105,320,PT04M04.00S,2,1610612739,CLE,1641854,Porter Jr.,C. Porter Jr.,0,0,0,,0,,,0,h,SUB: Mitchell FOR Porter Jr.,Substitution,,0,0,228
+0022600105,321,PT03M56.00S,2,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden OFF.Foul (P2) (S.Mehta),Foul,Offensive,1,0,229
+0022600105,323,PT03M56.00S,2,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden Offensive Foul Turnover (P2.T9),Turnover,Offensive Foul Turnover,1,0,230
+0022600105,325,PT03M56.00S,2,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,SUB: Mobley FOR Allen,Substitution,,0,0,231
+0022600105,326,PT03M45.00S,2,1610612751,BKN,1631165,Ellis,K. Ellis,0,0,0,,0,,,0,v,Ellis OFF.Foul (P2) (C.Kirkland),Foul,Offensive,1,0,232
+0022600105,328,PT03M45.00S,2,1610612751,BKN,1631165,Ellis,K. Ellis,0,0,0,,0,,,0,v,Ellis Offensive Foul Turnover (P2.T8),Turnover,Offensive Foul Turnover,1,0,233
+0022600105,329,PT03M30.00S,2,1610612739,CLE,1628378,Mitchell,D. Mitchell,-6,5,1,Made,1,55,46,101,h,Mitchell 1' Driving Finger Roll Layup (10 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,234
+0022600105,330,PT03M16.00S,2,1610612751,BKN,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle Lost Ball Turnover (P1.T9),Turnover,Lost Ball,1,0,235
+0022600105,330,PT03M16.00S,2,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,Mobley STEAL (1 STL),,,1,0,236
+0022600105,332,PT03M09.00S,2,1610612739,CLE,1631212,Watson,P. Watson,160,195,25,Made,1,58,46,104,h,Watson 25' 3PT Running Jump Shot (6 PTS) (Proctor 2 AST),Made Shot,Running Jump Shot,1,3,237
+0022600105,334,PT02M54.00S,2,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,-86,250,26,Missed,1,,,0,v,MISS Porter Jr. 26' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,238
+0022600105,335,PT02M54.00S,2,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,239
+0022600105,336,PT02M48.00S,2,1610612739,CLE,1642878,Proctor,T. Proctor,0,0,0,,0,,,0,h,Proctor Out of Bounds - Bad Pass Turnover Turnover (P1.T10),Turnover,Out of Bounds - Bad Pass Turnover,1,0,240
+0022600105,337,PT02M48.00S,2,0,,1610612751,,,0,0,0,,0,,,0,v,Nets Timeout: Regular (Reg.2 Short 0),Timeout,Regular,0,0,241
+0022600105,338,PT02M30.00S,2,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,-142,111,18,Missed,1,,,0,v,MISS Porter Jr. 18' Fadeaway Jumper,Missed Shot,Fadeaway Jump Shot,1,2,242
+0022600105,339,PT02M30.00S,2,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden REBOUND (Off:0 Def:6),Rebound,Unknown,1,0,243
+0022600105,340,PT02M25.00S,2,1610612739,CLE,1642878,Proctor,T. Proctor,-1,11,1,Made,1,60,46,106,h,Proctor 1' Running Layup (2 PTS) (Harden 5 AST),Made Shot,Running Layup Shot,1,2,244
+0022600105,342,PT02M05.00S,2,1610612751,BKN,1642856,Dëmin,E. Dëmin,201,187,27,Made,1,60,49,109,v,Demin 27' 3PT Jump Shot (5 PTS) (Johnson 2 AST),Made Shot,Jump Shot,1,3,245
+0022600105,344,PT01M45.00S,2,1610612739,CLE,1631212,Watson,P. Watson,39,13,4,Missed,1,,,0,h,MISS Watson 4' Jump Bank Shot,Missed Shot,Jump Bank Shot,1,2,246
+0022600105,345,PT01M45.00S,2,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,247
+0022600105,346,PT01M42.00S,2,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. Bad Pass Turnover (P1.T10),Turnover,Bad Pass,1,0,248
+0022600105,346,PT01M42.00S,2,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,Mobley STEAL (2 STL),,,1,0,249
+0022600105,348,PT01M42.00S,2,1610612751,BKN,1642856,Dëmin,E. Dëmin,0,0,0,,0,,,0,v,Demin S.FOUL (P2.T4) (S.Mehta),Foul,Shooting,1,0,250
+0022600105,350,PT01M42.00S,2,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,MISS Mobley Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,251
+0022600105,352,PT01M42.00S,2,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Rebound,Rebound,Normal Rebound,0,0,252
+0022600105,351,PT01M42.00S,2,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,61,49,110,h,Mobley Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,253
+0022600105,363,PT01M33.00S,2,1610612739,CLE,1642878,Proctor,T. Proctor,0,0,0,,0,,,0,h,Proctor S.FOUL (P1.T4) (C.Kirkland),Foul,Shooting,1,0,254
+0022600105,387,PT01M33.00S,2,1610612751,BKN,1642856,Dëmin,E. Dëmin,0,0,0,,0,61,50,111,v,Demin Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,255
+0022600105,388,PT01M33.00S,2,1610612751,BKN,1642856,Dëmin,E. Dëmin,0,0,0,,0,61,51,112,v,Demin Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,0,0,256
+0022600105,389,PT01M18.00S,2,1610612751,BKN,1642856,Dëmin,E. Dëmin,0,0,0,,0,,,0,v,Demin S.FOUL (P3.PN) (S.Mehta),Foul,Shooting,1,0,257
+0022600105,391,PT01M18.00S,2,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,62,51,113,h,Mobley Free Throw 1 of 2 (12 PTS),Free Throw,Free Throw 1 of 2,0,0,258
+0022600105,360,PT01M18.00S,2,1610612751,BKN,1642856,Dëmin,E. Dëmin,0,0,0,,0,,,0,v,SUB: Brown Jr. FOR Demin,Substitution,,0,0,259
+0022600105,392,PT01M18.00S,2,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,63,51,114,h,Mobley Free Throw 2 of 2 (13 PTS),Free Throw,Free Throw 2 of 2,0,0,260
+0022600105,361,PT01M05.00S,2,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,Mobley S.FOUL (P1.PN) (C.Kirkland),Foul,Shooting,1,0,261
+0022600105,367,PT01M05.00S,2,1610612751,BKN,203944,Randle,J. Randle,0,0,0,,0,63,52,115,v,Randle Free Throw 1 of 2 (7 PTS),Free Throw,Free Throw 1 of 2,1,0,262
+0022600105,370,PT01M05.00S,2,1610612751,BKN,203944,Randle,J. Randle,0,0,0,,0,,,0,v,MISS Randle Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,263
+0022600105,402,PT01M05.00S,2,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Rebound,Rebound,Unknown,1,0,264
+0022600105,373,PT00M56.40S,2,1610612739,CLE,1642878,Proctor,T. Proctor,232,-12,0,Made,1,66,52,118,h,Proctor 3PT Jump Shot (5 PTS) (Watson 3 AST),Made Shot,Jump Shot,1,3,265
+0022600105,375,PT00M38.00S,2,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,2,22,2,Made,1,66,54,120,v,Porter Jr. 2' Layup (13 PTS) (Brown Jr. 2 AST),Made Shot,Layup Shot,1,2,266
+0022600105,377,PT00M30.40S,2,1610612739,CLE,201935,Harden,J. Harden,-169,221,28,Missed,1,,,0,h,MISS Harden 28' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,267
+0022600105,378,PT00M30.40S,2,1610612739,CLE,1631212,Watson,P. Watson,0,0,0,,0,,,0,h,Watson REBOUND (Off:1 Def:0),Rebound,Unknown,1,0,268
+0022600105,379,PT00M27.70S,2,1610612739,CLE,1631212,Watson,P. Watson,3,11,1,Made,1,68,54,122,h,Watson 1' Layup (8 PTS),Made Shot,Layup Shot,1,2,269
+0022600105,380,PT00M04.70S,2,1610612751,BKN,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle Out of Bounds - Bad Pass Turnover Turnover (P2.T11),Turnover,Out of Bounds - Bad Pass Turnover,1,0,270
+0022600105,381,PT00M01.90S,2,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,Mobley Palming Turnover (P1.T11),Turnover,Palming Turnover,1,0,271
+0022600105,382,PT00M00.00S,2,0,,0,,,0,0,0,,0,,,0,v,NETS Heave,Heave,Team Field Goal Attempt,0,0,272
+0022600105,383,PT00M00.00S,2,0,,1610612751,,,0,0,0,,0,,,0,v,Nets Rebound,Rebound,Unknown,0,0,273
+0022600105,384,PT00M00.00S,2,0,,0,,,0,0,0,,0,68,54,122,,End of 2nd Period (8:49 PM EST),period,end,1,0,274
+0022600105,399,PT12M00.00S,3,0,,0,,,0,0,0,,0,68,54,122,,Start of 3rd Period (9:05 PM EST),period,start,1,0,275
+0022600105,400,PT11M42.00S,3,1610612739,CLE,1630596,Mobley,E. Mobley,71,111,13,Missed,1,,,0,h,MISS Mobley 13' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,276
+0022600105,401,PT11M42.00S,3,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,,0,,,0,v,Sharpe REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,277
+0022600105,403,PT11M26.00S,3,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,-237,27,24,Missed,1,,,0,v,MISS Porter Jr. 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,278
+0022600105,404,PT11M26.00S,3,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden REBOUND (Off:0 Def:7),Rebound,Unknown,1,0,279
+0022600105,405,PT11M15.00S,3,1610612739,CLE,1628378,Mitchell,D. Mitchell,132,34,14,Missed,1,,,0,h,MISS Mitchell 14' Turnaround Fadeaway Shot,Missed Shot,Turnaround Fadeaway shot,1,2,280
+0022600105,406,PT11M15.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:2 Def:2),Rebound,Unknown,1,0,281
+0022600105,407,PT11M14.00S,3,1610612751,BKN,1642856,Dëmin,E. Dëmin,0,0,0,,0,,,0,v,Demin S.FOUL (P4.T1) (S.Mehta),Foul,Shooting,1,0,282
+0022600105,409,PT11M14.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,69,54,123,h,Allen Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,283
+0022600105,410,PT11M14.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,70,54,124,h,Allen Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,284
+0022600105,411,PT10M49.00S,3,1610612751,BKN,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle Lost Ball Turnover (P3.T12),Turnover,Lost Ball,1,0,285
+0022600105,411,PT10M49.00S,3,1610612739,CLE,1631212,Watson,P. Watson,0,0,0,,0,,,0,h,Watson STEAL (1 STL),,,1,0,286
+0022600105,413,PT10M43.00S,3,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden Bad Pass Turnover (P3.T12),Turnover,Bad Pass,1,0,287
+0022600105,413,PT10M43.00S,3,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. STEAL (2 STL),,,1,0,288
+0022600105,415,PT10M34.00S,3,1610612751,BKN,1630549,Sharpe,D. Sharpe,10,3,1,Missed,1,,,0,v,MISS Sharpe 1' Layup,Missed Shot,Layup Shot,1,2,289
+0022600105,415,PT10M34.00S,3,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,Mobley BLOCK (2 BLK),,,1,2,290
+0022600105,416,PT10M34.00S,3,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden REBOUND (Off:0 Def:8),Rebound,Unknown,1,0,291
+0022600105,418,PT10M25.00S,3,1610612739,CLE,1628378,Mitchell,D. Mitchell,5,-4,1,Made,1,72,54,126,h,Mitchell 1' Driving Reverse Layup (12 PTS) (Mobley 1 AST),Made Shot,Driving Reverse Layup Shot,1,2,292
+0022600105,420,PT10M15.00S,3,1610612751,BKN,1631165,Ellis,K. Ellis,215,142,26,Missed,1,,,0,v,MISS Ellis 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,293
+0022600105,421,PT10M15.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,294
+0022600105,422,PT10M05.00S,3,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell Out of Bounds Lost Ball Turnover (P2.T13),Turnover,Out of Bounds Lost Ball Turnover,1,0,295
+0022600105,423,PT09M54.00S,3,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,-79,17,8,Missed,1,,,0,v,MISS Porter Jr. 8' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,296
+0022600105,424,PT09M54.00S,3,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,Mobley REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,297
+0022600105,425,PT09M46.00S,3,1610612739,CLE,1631212,Watson,P. Watson,7,26,3,Missed,1,,,0,h,MISS Watson 3' Running Layup,Missed Shot,Running Layup Shot,1,2,298
+0022600105,426,PT09M46.00S,3,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,,0,,,0,v,Sharpe REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,299
+0022600105,427,PT09M38.00S,3,1610612739,CLE,1631212,Watson,P. Watson,0,0,0,,0,,,0,h,Watson P.FOUL (P2.T1) (S.Mehta),Foul,Personal,1,0,300
+0022600105,429,PT09M35.00S,3,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell P.FOUL (P3.T2) (E.Dalen),Foul,Personal,1,0,301
+0022600105,433,PT09M27.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen S.FOUL (P2.T3) (C.Kirkland),Foul,Shooting,1,0,302
+0022600105,435,PT09M27.00S,3,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,72,55,127,v,Porter Jr. Free Throw 1 of 2 (14 PTS),Free Throw,Free Throw 1 of 2,1,0,303
+0022600105,436,PT09M27.00S,3,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,72,56,128,v,Porter Jr. Free Throw 2 of 2 (15 PTS),Free Throw,Free Throw 2 of 2,1,0,304
+0022600105,437,PT09M19.00S,3,1610612739,CLE,1631212,Watson,P. Watson,232,19,0,Missed,1,,,0,h,MISS Watson 3PT Jump Shot,Missed Shot,Jump Shot,1,3,305
+0022600105,438,PT09M19.00S,3,1610612751,BKN,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:0 Def:3),Rebound,Unknown,1,0,306
+0022600105,826,PT09M10.00S,3,1610612751,BKN,203944,Randle,J. Randle,29,62,7,Missed,1,,,0,v,MISS Randle 7' Driving Layup,Missed Shot,Driving Layup Shot,0,2,307
+0022600105,826,PT09M10.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen BLOCK (1 BLK),,,0,2,308
+0022600105,828,PT09M10.00S,3,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Rebound,Rebound,Unknown,0,0,309
+0022600105,442,PT09M10.00S,3,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Timeout: Regular (Full 3 Short 0),Timeout,Regular,0,0,310
+0022600105,823,PT09M10.00S,3,0,,0,,,0,0,0,,0,72,56,128,,Instant Replay3rd Period (9:10 PM EST),Instant Replay,Coach Challenge Overturn Ruling,0,0,311
+0022600105,445,PT09M10.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Jump Ball Allen vs. Randle: Tip to Harden,Jump Ball,,1,0,312
+0022600105,450,PT09M01.00S,3,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden Bad Pass Turnover (P4.T14),Turnover,Bad Pass,1,0,313
+0022600105,450,PT09M01.00S,3,1610612751,BKN,1631165,Ellis,K. Ellis,0,0,0,,0,,,0,v,Ellis STEAL (2 STL),,,1,0,314
+0022600105,552,PT08M55.00S,3,1610612751,BKN,1631165,Ellis,K. Ellis,-236,4,24,Missed,1,,,0,v,MISS Ellis 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,315
+0022600105,553,PT08M55.00S,3,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,,0,,,0,v,Sharpe REBOUND (Off:2 Def:3),Rebound,Unknown,1,0,316
+0022600105,582,PT08M53.00S,3,1610612751,BKN,1630549,Sharpe,D. Sharpe,1,9,1,Missed,1,,,0,v,MISS Sharpe 1' Putback Dunk,Missed Shot,Putback Dunk Shot,0,2,317
+0022600105,582,PT08M53.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen BLOCK (2 BLK),,,0,2,318
+0022600105,584,PT08M53.00S,3,0,,1610612751,,,0,0,0,,0,,,0,v,Nets Rebound,Rebound,Unknown,1,0,319
+0022600105,456,PT08M46.00S,3,1610612751,BKN,1630549,Sharpe,D. Sharpe,-171,195,26,Missed,1,,,0,v,MISS Sharpe 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,320
+0022600105,457,PT08M46.00S,3,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,Mobley REBOUND (Off:1 Def:6),Rebound,Unknown,1,0,321
+0022600105,458,PT08M32.00S,3,1610612739,CLE,1631212,Watson,P. Watson,11,16,2,Missed,1,,,0,h,MISS Watson 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,322
+0022600105,459,PT08M32.00S,3,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,,0,,,0,v,Sharpe REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,323
+0022600105,460,PT08M23.00S,3,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,-195,166,26,Made,1,72,59,131,v,Porter Jr. 26' 3PT Jump Shot (18 PTS) (Randle 3 AST),Made Shot,Jump Shot,1,3,324
+0022600105,463,PT07M58.00S,3,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. P.FOUL (P1.T2) (S.Mehta),Foul,Personal,1,0,325
+0022600105,465,PT07M47.00S,3,1610612739,CLE,1631212,Watson,P. Watson,53,91,11,Made,1,74,59,133,h,Watson 11' Fadeaway Jumper (10 PTS) (Harden 6 AST),Made Shot,Fadeaway Jump Shot,1,2,326
+0022600105,467,PT07M35.00S,3,1610612751,BKN,1631165,Ellis,K. Ellis,149,204,25,Missed,1,,,0,v,MISS Ellis 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,327
+0022600105,468,PT07M35.00S,3,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,Mobley REBOUND (Off:1 Def:7),Rebound,Unknown,1,0,328
+0022600105,469,PT07M22.00S,3,1610612739,CLE,201935,Harden,J. Harden,19,61,6,Missed,1,,,0,h,MISS Harden 6' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,329
+0022600105,470,PT07M22.00S,3,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,Mobley REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,330
+0022600105,471,PT07M18.00S,3,1610612739,CLE,1628378,Mitchell,D. Mitchell,48,253,26,Made,1,77,59,136,h,Mitchell 26' 3PT Jump Shot (15 PTS) (Mobley 2 AST),Made Shot,Jump Shot,1,3,331
+0022600105,473,PT07M18.00S,3,0,,1610612751,,,0,0,0,,0,,,0,v,Nets Timeout: Regular (Reg.3 Short 0),Timeout,Regular,0,0,332
+0022600105,476,PT07M18.00S,3,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,SUB: Merrill FOR Mitchell,Substitution,,0,0,333
+0022600105,477,PT07M18.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,SUB: Tyson FOR Allen,Substitution,,0,0,334
+0022600105,478,PT07M07.00S,3,1610612751,BKN,1630549,Sharpe,D. Sharpe,13,14,2,Missed,1,,,0,v,MISS Sharpe 2' Cutting Layup Shot,Missed Shot,Cutting Layup Shot,1,2,335
+0022600105,479,PT07M07.00S,3,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,,0,,,0,v,Sharpe REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,336
+0022600105,480,PT07M04.00S,3,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,Missed,1,,,0,v,MISS Sharpe Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,337
+0022600105,481,PT07M04.00S,3,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,,0,,,0,v,Sharpe REBOUND (Off:4 Def:4),Rebound,Unknown,1,0,338
+0022600105,482,PT07M03.00S,3,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,Missed,1,,,0,v,MISS Sharpe Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,339
+0022600105,482,PT07M03.00S,3,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden BLOCK (1 BLK),,,1,2,340
+0022600105,483,PT07M03.00S,3,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. REBOUND (Off:2 Def:4),Rebound,Unknown,1,0,341
+0022600105,485,PT06M56.00S,3,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,9,32,3,Made,1,77,61,138,v,Porter Jr. 3' Putback Layup (20 PTS),Made Shot,Putback Layup Shot,1,2,342
+0022600105,486,PT06M37.00S,3,1610612739,CLE,1631212,Watson,P. Watson,168,182,25,Missed,1,,,0,h,MISS Watson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,343
+0022600105,487,PT06M37.00S,3,1610612751,BKN,1642856,Dëmin,E. Dëmin,0,0,0,,0,,,0,v,Demin REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,344
+0022600105,488,PT06M22.00S,3,1610612751,BKN,203944,Randle,J. Randle,171,180,25,Made,1,77,64,141,v,Randle 25' 3PT Pullup Jump Shot (10 PTS),Made Shot,Pullup Jump shot,1,3,345
+0022600105,489,PT06M06.00S,3,1610612739,CLE,1630596,Mobley,E. Mobley,43,26,5,Made,1,79,64,143,h,Mobley 5' Turnaround Fadeaway Bank Jump Shot (16 PTS) (Merrill 2 AST),Made Shot,Turnaround Fadeaway Bank Jump Shot,1,2,346
+0022600105,491,PT06M06.00S,3,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. S.FOUL (P2.T3) (E.Dalen),Foul,Shooting,1,0,347
+0022600105,493,PT06M06.00S,3,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,80,64,144,h,Mobley Free Throw 1 of 1 (16 PTS),Free Throw,Free Throw 1 of 1,1,0,348
+0022600105,494,PT05M55.00S,3,1610612751,BKN,203944,Randle,J. Randle,123,219,25,Missed,1,,,0,v,MISS Randle 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,349
+0022600105,495,PT05M55.00S,3,1610612739,CLE,1631212,Watson,P. Watson,0,0,0,,0,,,0,h,Watson REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,350
+0022600105,496,PT05M38.00S,3,1610612739,CLE,1630241,Merrill,S. Merrill,232,-4,0,Made,1,83,64,147,h,Merrill 3PT Jump Shot (3 PTS) (Tyson 3 AST),Made Shot,Jump Shot,1,3,351
+0022600105,498,PT05M27.00S,3,1610612751,BKN,203944,Randle,J. Randle,-106,47,12,Made,1,83,66,149,v,Randle 12' Driving Floating Bank Jump Shot (13 PTS),Made Shot,Driving Floating Bank Jump Shot,1,2,352
+0022600105,499,PT05M27.00S,3,1610612739,CLE,1642281,Tyson,J. Tyson,0,0,0,,0,,,0,h,Tyson S.FOUL (P2.T4) (S.Mehta),Foul,Shooting,1,0,353
+0022600105,502,PT05M27.00S,3,1610612739,CLE,1631212,Watson,P. Watson,0,0,0,,0,,,0,h,SUB: Hezonja FOR Watson,Substitution,,0,0,354
+0022600105,505,PT05M27.00S,3,1610612751,BKN,1631165,Ellis,K. Ellis,0,0,0,,0,,,0,v,SUB: Minott FOR Ellis,Substitution,,0,0,355
+0022600105,506,PT05M27.00S,3,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,,0,,,0,v,SUB: Wagner FOR Sharpe,Substitution,,0,0,356
+0022600105,507,PT05M27.00S,3,1610612751,BKN,203944,Randle,J. Randle,0,0,0,,0,83,67,150,v,Randle Free Throw 1 of 1 (13 PTS),Free Throw,Free Throw 1 of 1,1,0,357
+0022600105,508,PT05M11.00S,3,1610612739,CLE,1630241,Merrill,S. Merrill,-162,186,25,Missed,1,,,0,h,MISS Merrill 25' 3PT Step Back Jump Shot,Missed Shot,Step Back Jump shot,1,3,358
+0022600105,509,PT05M11.00S,3,1610612751,BKN,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,359
+0022600105,510,PT05M04.00S,3,1610612751,BKN,203944,Randle,J. Randle,7,13,1,Missed,1,,,0,v,MISS Randle 1' Running Layup,Missed Shot,Running Layup Shot,1,2,360
+0022600105,511,PT05M04.00S,3,1610612739,CLE,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja REBOUND (Off:1 Def:2),Rebound,Unknown,1,0,361
+0022600105,512,PT04M50.00S,3,1610612739,CLE,1626209,Hezonja,M. Hezonja,5,18,2,Made,1,85,67,152,h,Hezonja 2' Cutting Layup Shot (8 PTS) (Tyson 4 AST),Made Shot,Cutting Layup Shot,1,2,362
+0022600105,514,PT04M24.00S,3,1610612751,BKN,203944,Randle,J. Randle,1,11,1,Made,1,85,69,154,v,Randle 1' Driving Finger Roll Layup (15 PTS),Made Shot,Driving Finger Roll Layup Shot,1,2,363
+0022600105,515,PT04M14.00S,3,1610612739,CLE,1642281,Tyson,J. Tyson,15,14,2,Made,1,87,69,156,h,Tyson 2' Cutting Layup Shot (5 PTS) (Harden 7 AST),Made Shot,Cutting Layup Shot,1,2,364
+0022600105,517,PT04M03.00S,3,1610612739,CLE,1642281,Tyson,J. Tyson,0,0,0,,0,,,0,h,Tyson S.FOUL (P3.PN) (C.Kirkland),Foul,Shooting,1,0,365
+0022600105,519,PT04M03.00S,3,1610612751,BKN,203944,Randle,J. Randle,0,0,0,,0,87,70,157,v,Randle Free Throw 1 of 2 (16 PTS),Free Throw,Free Throw 1 of 2,1,0,366
+0022600105,523,PT04M03.00S,3,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,SUB: Allen FOR Mobley,Substitution,,0,0,367
+0022600105,524,PT04M03.00S,3,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,,,0,h,SUB: Mitchell FOR Harden,Substitution,,0,0,368
+0022600105,526,PT04M03.00S,3,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,SUB: Clowney FOR Porter Jr.,Substitution,,0,0,369
+0022600105,520,PT04M03.00S,3,1610612751,BKN,203944,Randle,J. Randle,0,0,0,,0,87,71,158,v,Randle Free Throw 2 of 2 (17 PTS),Free Throw,Free Throw 2 of 2,1,0,370
+0022600105,527,PT03M53.00S,3,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Timeout: Regular (Full 4 Short 0),Timeout,Regular,0,0,371
+0022600105,528,PT03M46.00S,3,1610612739,CLE,1642281,Tyson,J. Tyson,-188,161,25,Missed,1,,,0,h,MISS Tyson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,372
+0022600105,529,PT03M46.00S,3,1610612751,BKN,1641730,Clowney,N. Clowney,0,0,0,,0,,,0,v,Clowney REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,373
+0022600105,530,PT03M34.00S,3,1610612751,BKN,1642856,Dëmin,E. Dëmin,0,0,0,,0,,,0,v,Demin OFF.Foul (P5) (C.Kirkland),Foul,Offensive,1,0,374
+0022600105,532,PT03M34.00S,3,1610612751,BKN,1642856,Dëmin,E. Dëmin,0,0,0,,0,,,0,v,Demin Offensive Foul Turnover (P1.T13),Turnover,Offensive Foul Turnover,1,0,375
+0022600105,534,PT03M34.00S,3,1610612751,BKN,1642856,Dëmin,E. Dëmin,0,0,0,,0,,,0,v,SUB: Brown Jr. FOR Demin,Substitution,,0,0,376
+0022600105,535,PT03M19.00S,3,1610612739,CLE,1642281,Tyson,J. Tyson,-229,-16,0,Missed,1,,,0,h,MISS Tyson 3PT Jump Shot,Missed Shot,Jump Shot,1,3,377
+0022600105,536,PT03M19.00S,3,1610612751,BKN,1631169,Minott,J. Minott,0,0,0,,0,,,0,v,Minott REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,378
+0022600105,537,PT03M06.00S,3,1610612751,BKN,1631169,Minott,J. Minott,128,234,27,Missed,1,,,0,v,MISS Minott 27' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,379
+0022600105,538,PT03M06.00S,3,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell REBOUND (Off:0 Def:4),Rebound,Unknown,1,0,380
+0022600105,539,PT03M00.00S,3,1610612739,CLE,1630241,Merrill,S. Merrill,-5,-2,1,Made,1,89,71,160,h,Merrill 1' Running Layup (5 PTS) (Mitchell 1 AST),Made Shot,Running Layup Shot,1,2,381
+0022600105,541,PT02M37.00S,3,1610612751,BKN,1631169,Minott,J. Minott,2,11,1,Made,1,89,73,162,v,Minott 1' Driving Finger Roll Layup (2 PTS) (Randle 4 AST),Made Shot,Driving Finger Roll Layup Shot,1,2,382
+0022600105,543,PT02M25.00S,3,1610612739,CLE,1642281,Tyson,J. Tyson,3,19,2,Made,1,91,73,164,h,Tyson 2' Driving Layup (7 PTS),Made Shot,Driving Layup Shot,1,2,383
+0022600105,622,PT02M16.00S,3,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell S.FOUL (P4.PN) (S.Mehta),Foul,Shooting,0,0,384
+0022600105,549,PT02M16.00S,3,1610612751,BKN,203944,Randle,J. Randle,0,0,0,,0,,,0,v,SUB: Johnson FOR Randle,Substitution,,0,0,385
+0022600105,624,PT02M16.00S,3,1610612751,BKN,1629021,Wagner,M. Wagner,0,0,0,,0,91,74,165,v,Wagner Free Throw 1 of 2 (2 PTS),Free Throw,Free Throw 1 of 2,0,0,386
+0022600105,625,PT02M16.00S,3,1610612751,BKN,1629021,Wagner,M. Wagner,0,0,0,,0,91,75,166,v,Wagner Free Throw 2 of 2 (3 PTS),Free Throw,Free Throw 2 of 2,0,0,387
+0022600105,550,PT01M53.00S,3,1610612739,CLE,1626209,Hezonja,M. Hezonja,-218,107,24,Missed,1,,,0,h,MISS Hezonja 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,388
+0022600105,551,PT01M53.00S,3,1610612751,BKN,1643414,Brown Jr.,M. Brown Jr.,0,0,0,,0,,,0,v,Brown Jr. REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,389
+0022600105,554,PT01M43.00S,3,1610612751,BKN,1629021,Wagner,M. Wagner,-221,122,25,Made,1,91,78,169,v,Wagner 25' 3PT Jump Shot (6 PTS) (Brown Jr. 3 AST),Made Shot,Jump Shot,1,3,390
+0022600105,556,PT01M27.00S,3,1610612739,CLE,1630241,Merrill,S. Merrill,-226,67,24,Missed,1,,,0,h,MISS Merrill 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,391
+0022600105,557,PT01M27.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:3 Def:3),Rebound,Unknown,1,0,392
+0022600105,558,PT01M23.00S,3,1610612739,CLE,1628386,Allen,J. Allen,6,12,1,Made,1,93,78,171,h,Allen 1' Putback Layup (17 PTS),Made Shot,Putback Layup Shot,1,2,393
+0022600105,559,PT01M09.00S,3,1610612751,BKN,1629021,Wagner,M. Wagner,9,13,2,Missed,1,,,0,v,MISS Wagner 2' Driving Floating Jump Shot,Missed Shot,Driving Floating Jump Shot,1,2,394
+0022600105,560,PT01M09.00S,3,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:3 Def:4),Rebound,Unknown,1,0,395
+0022600105,561,PT00M57.80S,3,1610612739,CLE,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja Lost Ball Turnover (P2.T15),Turnover,Lost Ball,1,0,396
+0022600105,561,PT00M57.80S,3,1610612751,BKN,1643414,Brown Jr.,M. Brown Jr.,0,0,0,,0,,,0,v,Brown Jr. STEAL (1 STL),,,1,0,397
+0022600105,563,PT00M54.00S,3,1610612751,BKN,1643052,Johnson,C. Johnson,8,-6,1,Made,1,93,80,173,v,Johnson 1' Running Layup (7 PTS) (Brown Jr. 4 AST),Made Shot,Running Layup Shot,1,2,398
+0022600105,565,PT00M38.50S,3,1610612739,CLE,1628378,Mitchell,D. Mitchell,9,27,3,Missed,1,,,0,h,MISS Mitchell 3' Driving Layup,Missed Shot,Driving Layup Shot,1,2,399
+0022600105,566,PT00M38.50S,3,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Rebound,Rebound,Unknown,1,0,400
+0022600105,567,PT00M38.50S,3,1610612751,BKN,1631169,Minott,J. Minott,0,0,0,,0,,,0,v,Minott L.B.FOUL (P1.T4) (S.Mehta),Foul,Loose Ball,1,0,401
+0022600105,569,PT00M30.00S,3,1610612739,CLE,1642281,Tyson,J. Tyson,-190,157,25,Missed,1,,,0,h,MISS Tyson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,402
+0022600105,570,PT00M30.00S,3,0,,1610612751,,,0,0,0,,0,,,0,v,Nets Rebound,Rebound,Unknown,1,0,403
+0022600105,572,PT00M13.10S,3,1610612751,BKN,1643414,Brown Jr.,M. Brown Jr.,-12,8,1,Missed,1,,,0,v,MISS Brown Jr. 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,404
+0022600105,573,PT00M13.10S,3,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,405
+0022600105,574,PT00M04.80S,3,1610612739,CLE,1628378,Mitchell,D. Mitchell,-107,224,25,Made,1,96,80,176,h,Mitchell 25' 3PT Jump Shot (18 PTS) (Merrill 3 AST),Made Shot,Jump Shot,1,3,406
+0022600105,576,PT00M00.40S,3,1610612751,BKN,1641730,Clowney,N. Clowney,-196,247,32,Missed,1,,,0,v,MISS Clowney 32' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,407
+0022600105,577,PT00M00.40S,3,0,,1610612751,,,0,0,0,,0,,,0,v,Nets Rebound,Rebound,Unknown,1,0,408
+0022600105,578,PT00M00.00S,3,0,,0,,,0,0,0,,0,96,80,176,,End of 3rd Period (9:34 PM EST),period,end,1,0,409
+0022600105,581,PT12M00.00S,4,0,,0,,,0,0,0,,0,96,80,176,,Start of 4th Period (9:37 PM EST),period,start,0,0,410
+0022600105,585,PT11M42.00S,4,1610612751,BKN,1641730,Clowney,N. Clowney,-236,-35,24,Missed,1,,,0,v,MISS Clowney 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,411
+0022600105,586,PT11M42.00S,4,1610612751,BKN,1631169,Minott,J. Minott,0,0,0,,0,,,0,v,Minott REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,412
+0022600105,588,PT11M38.00S,4,1610612751,BKN,1629021,Wagner,M. Wagner,7,9,1,Missed,1,,,0,v,MISS Wagner 1' Layup,Missed Shot,Layup Shot,1,2,413
+0022600105,588,PT11M38.00S,4,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,Mobley BLOCK (3 BLK),,,1,2,414
+0022600105,589,PT11M38.00S,4,1610612739,CLE,1630241,Merrill,S. Merrill,0,0,0,,0,,,0,h,Merrill REBOUND (Off:1 Def:1),Rebound,Unknown,1,0,415
+0022600105,591,PT11M23.00S,4,1610612739,CLE,1642281,Tyson,J. Tyson,198,157,25,Missed,1,,,0,h,MISS Tyson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,416
+0022600105,592,PT11M23.00S,4,1610612751,BKN,1643414,Brown Jr.,M. Brown Jr.,0,0,0,,0,,,0,v,Brown Jr. REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,417
+0022600105,593,PT11M13.00S,4,1610612751,BKN,1631169,Minott,J. Minott,0,0,0,,0,,,0,v,Minott Bad Pass Turnover (P1.T14),Turnover,Bad Pass,1,0,418
+0022600105,593,PT11M13.00S,4,1610612739,CLE,1642281,Tyson,J. Tyson,0,0,0,,0,,,0,h,Tyson STEAL (1 STL),,,1,0,419
+0022600105,595,PT11M05.00S,4,1610612739,CLE,1642281,Tyson,J. Tyson,-70,233,24,Made,1,99,80,179,h,Tyson 24' 3PT Jump Shot (10 PTS) (Hezonja 1 AST),Made Shot,Jump Shot,1,3,420
+0022600105,597,PT10M54.00S,4,1610612751,BKN,1629021,Wagner,M. Wagner,-11,11,2,Missed,1,,,0,v,MISS Wagner 2' Driving Layup,Missed Shot,Driving Layup Shot,1,2,421
+0022600105,598,PT10M54.00S,4,1610612739,CLE,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,422
+0022600105,599,PT10M44.00S,4,1610612739,CLE,1642281,Tyson,J. Tyson,0,0,0,,0,,,0,h,Tyson Out of Bounds - Bad Pass Turnover Turnover (P2.T16),Turnover,Out of Bounds - Bad Pass Turnover,1,0,423
+0022600105,601,PT10M44.00S,4,1610612751,BKN,1629021,Wagner,M. Wagner,0,0,0,,0,,,0,v,SUB: Sharpe FOR Wagner,Substitution,,0,0,424
+0022600105,602,PT10M37.00S,4,1610612739,CLE,1642281,Tyson,J. Tyson,0,0,0,,0,,,0,h,Tyson P.FOUL (P4.T1) (S.Mehta),Foul,Personal,1,0,425
+0022600105,604,PT10M29.00S,4,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,,0,,,0,v,Sharpe OFF.Foul (P4) (C.Kirkland),Foul,Offensive,1,0,426
+0022600105,606,PT10M29.00S,4,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,,0,,,0,v,Sharpe Offensive Foul Turnover (P2.T15),Turnover,Offensive Foul Turnover,1,0,427
+0022600105,607,PT10M11.00S,4,1610612739,CLE,1628378,Mitchell,D. Mitchell,55,219,23,Made,1,101,80,181,h,Mitchell 23' Pullup Jump Shot (20 PTS) (Mobley 3 AST),Made Shot,Pullup Jump shot,1,2,428
+0022600105,609,PT09M54.00S,4,1610612751,BKN,1643052,Johnson,C. Johnson,232,69,24,Missed,1,,,0,v,MISS Johnson 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,429
+0022600105,610,PT09M54.00S,4,0,,1610612751,,,0,0,0,,0,,,0,v,Nets Rebound,Rebound,Unknown,1,0,430
+0022600105,611,PT09M52.00S,4,1610612739,CLE,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja L.B.FOUL (P2.T2) (E.Dalen),Foul,Loose Ball,1,0,431
+0022600105,613,PT09M42.00S,4,1610612751,BKN,1631169,Minott,J. Minott,-35,43,6,Made,1,101,82,183,v,Minott 6' Driving Floating Jump Shot (4 PTS),Made Shot,Driving Floating Jump Shot,1,2,432
+0022600105,614,PT09M29.00S,4,1610612739,CLE,1642281,Tyson,J. Tyson,52,263,27,Made,1,104,82,186,h,Tyson 27' 3PT Jump Shot (13 PTS) (Mitchell 2 AST),Made Shot,Jump Shot,1,3,433
+0022600105,616,PT09M10.00S,4,1610612751,BKN,1643414,Brown Jr.,M. Brown Jr.,-161,256,30,Made,1,104,85,189,v,Brown Jr. 30' 3PT Step Back Jump Shot (5 PTS),Made Shot,Step Back Jump shot,1,3,434
+0022600105,617,PT08M54.00S,4,1610612739,CLE,1642281,Tyson,J. Tyson,-2,4,0,Made,1,106,85,191,h,Tyson Driving Dunk (15 PTS) (Mitchell 3 AST),Made Shot,Driving Dunk Shot,1,2,435
+0022600105,619,PT08M38.00S,4,1610612751,BKN,1643414,Brown Jr.,M. Brown Jr.,-173,281,33,Made,1,106,88,194,v,Brown Jr. 33' 3PT Pullup Jump Shot (8 PTS),Made Shot,Pullup Jump shot,1,3,436
+0022600105,620,PT08M24.00S,4,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell Bad Pass Turnover (P3.T17),Turnover,Bad Pass,1,0,437
+0022600105,620,PT08M24.00S,4,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,,0,,,0,v,Sharpe STEAL (1 STL),,,1,0,438
+0022600105,626,PT08M18.00S,4,1610612751,BKN,1643052,Johnson,C. Johnson,-7,12,1,Missed,1,,,0,v,MISS Johnson 1' Running Layup,Missed Shot,Running Layup Shot,1,2,439
+0022600105,627,PT08M18.00S,4,1610612751,BKN,1643052,Johnson,C. Johnson,0,0,0,,0,,,0,v,Johnson REBOUND (Off:3 Def:2),Rebound,Unknown,1,0,440
+0022600105,628,PT08M18.00S,4,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,,0,,,0,v,Sharpe OFF.Foul (P5) (C.Kirkland),Foul,Offensive,1,0,441
+0022600105,652,PT08M18.00S,4,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,,0,,,0,v,Sharpe Offensive Foul Turnover (P3.T16),Turnover,Offensive Foul Turnover,1,0,442
+0022600105,631,PT08M18.00S,4,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Timeout: Regular (Full 5 Short 0),Timeout,Regular,0,0,443
+0022600105,833,PT08M18.00S,4,0,,0,,,0,0,0,,0,106,88,194,,Instant Replay4th Period (9:44 PM EST),Instant Replay,Coach Challenge Overturn Ruling,0,0,444
+0022600105,635,PT08M18.00S,4,1610612739,CLE,1630241,Merrill,S. Merrill,0,0,0,,0,,,0,h,SUB: Proctor FOR Merrill,Substitution,,0,0,445
+0022600105,636,PT08M18.00S,4,1610612739,CLE,1642281,Tyson,J. Tyson,0,0,0,,0,,,0,h,SUB: Harden FOR Tyson,Substitution,,0,0,446
+0022600105,637,PT08M18.00S,4,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,SUB: Watson FOR Mitchell,Substitution,,0,0,447
+0022600105,641,PT08M18.00S,4,1610612751,BKN,1631169,Minott,J. Minott,0,0,0,,0,,,0,v,SUB: Porter Jr. FOR Minott,Substitution,,0,0,448
+0022600105,642,PT08M18.00S,4,1610612751,BKN,1643052,Johnson,C. Johnson,0,0,0,,0,,,0,v,SUB: Randle FOR Johnson,Substitution,,0,0,449
+0022600105,643,PT08M18.00S,4,1610612751,BKN,1641730,Clowney,N. Clowney,0,0,0,,0,,,0,v,SUB: Demin FOR Clowney,Substitution,,0,0,450
+0022600105,645,PT08M03.00S,4,1610612739,CLE,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja Bad Pass Turnover (P3.T18),Turnover,Bad Pass,1,0,451
+0022600105,645,PT08M03.00S,4,1610612751,BKN,1643414,Brown Jr.,M. Brown Jr.,0,0,0,,0,,,0,v,Brown Jr. STEAL (2 STL),,,1,0,452
+0022600105,647,PT07M57.00S,4,1610612751,BKN,1642856,Dëmin,E. Dëmin,-237,-31,24,Made,1,106,91,197,v,Demin 24' 3PT Jump Shot (10 PTS) (Porter Jr. 1 AST),Made Shot,Jump Shot,1,3,453
+0022600105,649,PT07M42.00S,4,1610612739,CLE,1630596,Mobley,E. Mobley,-5,3,1,Made,1,108,91,199,h,Mobley 1' Layup (18 PTS) (Proctor 3 AST),Made Shot,Layup Shot,1,2,454
+0022600105,651,PT07M32.00S,4,1610612751,BKN,1642856,Dëmin,E. Dëmin,186,191,27,Made,1,108,94,202,v,Demin 27' 3PT Pullup Jump Shot (13 PTS),Made Shot,Pullup Jump shot,1,3,455
+0022600105,653,PT07M16.00S,4,1610612739,CLE,1626209,Hezonja,M. Hezonja,-25,45,5,Missed,1,,,0,h,MISS Hezonja 5' Turnaround Jump Shot,Missed Shot,Turnaround Jump Shot,1,2,456
+0022600105,654,PT07M16.00S,4,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. REBOUND (Off:2 Def:5),Rebound,Unknown,1,0,457
+0022600105,655,PT07M10.00S,4,1610612751,BKN,1642856,Dëmin,E. Dëmin,179,195,26,Made,1,108,97,205,v,Demin 26' 3PT Running Pull-Up Jump Shot (16 PTS) (Randle 5 AST),Made Shot,Running Pull-Up Jump Shot,1,3,458
+0022600105,657,PT07M08.00S,4,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Timeout: Regular (Full 6 Short 0),Timeout,Regular,0,0,459
+0022600105,659,PT07M08.00S,4,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,SUB: Allen FOR Mobley,Substitution,,0,0,460
+0022600105,660,PT06M54.00S,4,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,,0,,,0,v,Sharpe FLAGRANT.FOUL.TYPE1 (P6.T1) (S.Mehta),Foul,Flagrant Type 1,1,0,461
+0022600105,666,PT06M54.00S,4,0,,0,,,0,0,0,,0,108,97,205,,Instant Replay4th Period (9:51 PM EST),Instant Replay,Overturn Ruling,0,0,462
+0022600105,686,PT06M54.00S,4,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,,0,,,0,v,Sharpe Ejection:Second Flagrant Type 1,Ejection,Second Flagrant Type 1,0,0,463
+0022600105,665,PT06M54.00S,4,1610612751,BKN,1630549,Sharpe,D. Sharpe,0,0,0,,0,,,0,v,SUB: Johnson FOR Sharpe,Substitution,,0,0,464
+0022600105,662,PT06M54.00S,4,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,,,0,h,MISS Harden Free Throw,Free Throw,,1,0,465
+0022600105,669,PT06M54.00S,4,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Rebound,Rebound,Normal Rebound,0,0,466
+0022600105,667,PT06M54.00S,4,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,109,97,206,h,Harden Free Throw (8 PTS),Free Throw,,0,0,467
+0022600105,668,PT06M54.00S,4,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,110,97,207,h,Harden Free Throw (9 PTS),Free Throw,,0,0,468
+0022600105,670,PT06M48.00S,4,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. S.FOUL (P3.T2) (E.Dalen),Foul,Shooting,1,0,469
+0022600105,672,PT06M48.00S,4,1610612739,CLE,1631212,Watson,P. Watson,0,0,0,,0,111,97,208,h,Watson Free Throw 1 of 2 (11 PTS),Free Throw,Free Throw 1 of 2,1,0,470
+0022600105,673,PT06M48.00S,4,1610612739,CLE,1631212,Watson,P. Watson,0,0,0,,0,,,0,h,MISS Watson Free Throw 2 of 2,Free Throw,Free Throw 2 of 2,1,0,471
+0022600105,674,PT06M48.00S,4,1610612751,BKN,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:0 Def:5),Rebound,Unknown,1,0,472
+0022600105,675,PT06M29.00S,4,1610612751,BKN,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle Lost Ball Turnover (P4.T17),Turnover,Lost Ball,1,0,473
+0022600105,675,PT06M29.00S,4,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen STEAL (1 STL),,,1,0,474
+0022600105,677,PT06M21.00S,4,1610612739,CLE,1642878,Proctor,T. Proctor,-237,1,24,Missed,1,,,0,h,MISS Proctor 24' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,475
+0022600105,678,PT06M21.00S,4,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. REBOUND (Off:2 Def:6),Rebound,Unknown,1,0,476
+0022600105,679,PT06M11.00S,4,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,7,9,1,Missed,1,,,0,v,MISS Porter Jr. 1' Driving Layup,Missed Shot,Driving Layup Shot,1,2,477
+0022600105,680,PT06M11.00S,4,1610612739,CLE,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja REBOUND (Off:1 Def:4),Rebound,Unknown,1,0,478
+0022600105,681,PT06M05.00S,4,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen OFF.Foul (P3) (C.Kirkland),Foul,Offensive,1,0,479
+0022600105,683,PT06M05.00S,4,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen Offensive Foul Turnover (P3.T19),Turnover,Offensive Foul Turnover,1,0,480
+0022600105,684,PT05M51.00S,4,1610612751,BKN,1643414,Brown Jr.,M. Brown Jr.,230,46,0,Missed,1,,,0,v,MISS Brown Jr. 3PT Jump Shot,Missed Shot,Jump Shot,1,3,481
+0022600105,685,PT05M51.00S,4,1610612739,CLE,1642878,Proctor,T. Proctor,0,0,0,,0,,,0,h,Proctor REBOUND (Off:0 Def:1),Rebound,Unknown,1,0,482
+0022600105,687,PT05M38.00S,4,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. S.FOUL (P4.T3) (S.Mehta),Foul,Shooting,1,0,483
+0022600105,689,PT05M38.00S,4,1610612739,CLE,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,MISS Hezonja Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,484
+0022600105,690,PT05M38.00S,4,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Rebound,Rebound,Normal Rebound,0,0,485
+0022600105,691,PT05M38.00S,4,1610612739,CLE,1626209,Hezonja,M. Hezonja,0,0,0,,0,112,97,209,h,Hezonja Free Throw 2 of 2 (9 PTS),Free Throw,Free Throw 2 of 2,1,0,486
+0022600105,692,PT05M25.00S,4,1610612751,BKN,1642856,Dëmin,E. Dëmin,-2,311,31,Missed,1,,,0,v,MISS Demin 31' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,487
+0022600105,693,PT05M25.00S,4,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,Allen REBOUND (Off:3 Def:5),Rebound,Unknown,1,0,488
+0022600105,694,PT05M11.00S,4,1610612739,CLE,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,Hezonja Traveling Turnover (P4.T20),Turnover,Traveling,1,0,489
+0022600105,697,PT05M11.00S,4,1610612739,CLE,1642878,Proctor,T. Proctor,0,0,0,,0,,,0,h,SUB: Mitchell FOR Proctor,Substitution,,0,0,490
+0022600105,698,PT05M11.00S,4,1610612739,CLE,1626209,Hezonja,M. Hezonja,0,0,0,,0,,,0,h,SUB: Mobley FOR Hezonja,Substitution,,0,0,491
+0022600105,699,PT04M55.00S,4,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,137,-11,14,Made,1,112,99,211,v,Porter Jr. 14' Turnaround Fadeaway (22 PTS) (Johnson 3 AST),Made Shot,Turnaround Fadeaway shot,1,2,492
+0022600105,701,PT04M42.00S,4,1610612751,BKN,1643414,Brown Jr.,M. Brown Jr.,0,0,0,,0,,,0,v,Brown Jr. P.FOUL (P3.T4) (E.Dalen),Foul,Personal,1,0,493
+0022600105,704,PT04M42.00S,4,1610612751,BKN,1643414,Brown Jr.,M. Brown Jr.,0,0,0,,0,,,0,v,SUB: Clowney FOR Brown Jr.,Substitution,,0,0,494
+0022600105,705,PT04M33.00S,4,1610612739,CLE,1628386,Allen,J. Allen,5,12,1,Made,1,114,99,213,h,Allen 1' Dunk (19 PTS) (Mobley 4 AST),Made Shot,Dunk Shot,1,2,495
+0022600105,707,PT04M26.00S,4,1610612751,BKN,1643052,Johnson,C. Johnson,0,0,0,,0,,,0,v,Johnson OFF.Foul (P2) (C.Kirkland),Foul,Offensive,1,0,496
+0022600105,709,PT04M26.00S,4,1610612751,BKN,1643052,Johnson,C. Johnson,0,0,0,,0,,,0,v,Johnson Offensive Foul Turnover (P1.T18),Turnover,Offensive Foul Turnover,1,0,497
+0022600105,710,PT04M08.00S,4,1610612739,CLE,1631212,Watson,P. Watson,250,-18,25,Missed,1,,,0,h,MISS Watson 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,498
+0022600105,711,PT04M08.00S,4,1610612739,CLE,1631212,Watson,P. Watson,0,0,0,,0,,,0,h,Watson REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,499
+0022600105,712,PT04M03.00S,4,1610612739,CLE,1628386,Allen,J. Allen,-3,19,2,Made,1,116,99,215,h,Allen 2' Alley Oop Dunk (21 PTS) (Watson 4 AST),Made Shot,Alley Oop Dunk Shot,1,2,500
+0022600105,714,PT03M54.00S,4,1610612751,BKN,1642856,Dëmin,E. Dëmin,-2,257,26,Made,1,116,102,218,v,Demin 26' 3PT Pullup Jump Shot (20 PTS),Made Shot,Pullup Jump shot,1,3,501
+0022600105,715,PT03M54.00S,4,1610612739,CLE,1631212,Watson,P. Watson,0,0,0,,0,,,0,h,Watson S.FOUL (P3.T3) (C.Kirkland),Foul,Shooting,1,0,502
+0022600105,717,PT03M54.00S,4,1610612751,BKN,1642856,Dëmin,E. Dëmin,0,0,0,,0,116,103,219,v,Demin Free Throw 1 of 1 (20 PTS),Free Throw,Free Throw 1 of 1,1,0,503
+0022600105,718,PT03M36.00S,4,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,,,0,h,Mitchell Lost Ball Turnover (P4.T21),Turnover,Lost Ball,1,0,504
+0022600105,718,PT03M36.00S,4,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. STEAL (3 STL),,,1,0,505
+0022600105,720,PT03M31.00S,4,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,-37,246,25,Made,1,116,106,222,v,Porter Jr. 25' 3PT Pullup Jump Shot (25 PTS),Made Shot,Pullup Jump shot,1,3,506
+0022600105,721,PT03M12.00S,4,1610612751,BKN,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle P.FOUL (P1.PN) (E.Dalen),Foul,Personal,1,0,507
+0022600105,723,PT03M12.00S,4,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,117,106,223,h,Mitchell Free Throw 1 of 2 (21 PTS),Free Throw,Free Throw 1 of 2,1,0,508
+0022600105,725,PT03M12.00S,4,0,,1610612751,,,0,0,0,,0,,,0,v,Nets Timeout: Regular (Reg.4 Short 0),Timeout,Regular,0,0,509
+0022600105,724,PT03M12.00S,4,1610612739,CLE,1628378,Mitchell,D. Mitchell,0,0,0,,0,118,106,224,h,Mitchell Free Throw 2 of 2 (22 PTS),Free Throw,Free Throw 2 of 2,1,0,510
+0022600105,726,PT03M04.00S,4,1610612751,BKN,1641730,Clowney,N. Clowney,-15,28,3,Missed,1,,,0,v,MISS Clowney 3' Turnaround Hook Shot,Missed Shot,Turnaround Hook Shot,1,2,511
+0022600105,727,PT03M04.00S,4,1610612751,BKN,1641730,Clowney,N. Clowney,0,0,0,,0,,,0,v,Clowney REBOUND (Off:2 Def:1),Rebound,Unknown,1,0,512
+0022600105,728,PT03M03.00S,4,1610612751,BKN,1641730,Clowney,N. Clowney,-19,32,4,Missed,1,,,0,v,MISS Clowney 4' Tip Layup Shot,Missed Shot,Tip Layup Shot,1,2,513
+0022600105,729,PT03M03.00S,4,1610612751,BKN,1641730,Clowney,N. Clowney,0,0,0,,0,,,0,v,Clowney REBOUND (Off:3 Def:1),Rebound,Unknown,1,0,514
+0022600105,730,PT03M03.00S,4,1610612739,CLE,1631212,Watson,P. Watson,0,0,0,,0,,,0,h,Watson S.FOUL (P4.T4) (E.Dalen),Foul,Shooting,1,0,515
+0022600105,732,PT03M03.00S,4,1610612751,BKN,1641730,Clowney,N. Clowney,0,0,0,,0,,,0,v,MISS Clowney Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,516
+0022600105,733,PT03M03.00S,4,0,,1610612751,,,0,0,0,,0,,,0,v,Nets Rebound,Rebound,Normal Rebound,1,0,517
+0022600105,734,PT03M03.00S,4,1610612751,BKN,1641730,Clowney,N. Clowney,0,0,0,,0,118,107,225,v,Clowney Free Throw 2 of 2 (4 PTS),Free Throw,Free Throw 2 of 2,1,0,518
+0022600105,735,PT02M52.00S,4,1610612751,BKN,1642856,Dëmin,E. Dëmin,0,0,0,,0,,,0,v,Demin Violation:Kicked Ball (S.Mehta),Violation,Kicked Ball,0,0,519
+0022600105,736,PT02M43.00S,4,1610612739,CLE,1631212,Watson,P. Watson,0,0,0,,0,,,0,h,Watson Bad Pass Turnover (P1.T22),Turnover,Bad Pass,1,0,520
+0022600105,736,PT02M43.00S,4,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. STEAL (4 STL),,,1,0,521
+0022600105,738,PT02M38.00S,4,1610612751,BKN,1643052,Johnson,C. Johnson,-8,16,2,Missed,1,,,0,v,MISS Johnson 2' Reverse Layup,Missed Shot,Reverse Layup Shot,1,2,522
+0022600105,738,PT02M38.00S,4,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,,,0,h,Harden BLOCK (2 BLK),,,1,2,523
+0022600105,739,PT02M38.00S,4,0,,1610612751,,,0,0,0,,0,,,0,v,Nets Rebound,Rebound,Unknown,0,0,524
+0022600105,742,PT02M34.00S,4,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,-181,183,26,Missed,1,,,0,v,MISS Porter Jr. 26' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,525
+0022600105,743,PT02M34.00S,4,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,Mobley REBOUND (Off:2 Def:8),Rebound,Unknown,1,0,526
+0022600105,744,PT02M11.00S,4,1610612739,CLE,1630596,Mobley,E. Mobley,13,15,2,Made,1,120,107,227,h,Mobley 2' Cutting Finger Roll Layup Shot (20 PTS) (Mitchell 4 AST),Made Shot,Cutting Finger Roll Layup Shot,1,2,527
+0022600105,768,PT02M04.00S,4,1610612739,CLE,1631212,Watson,P. Watson,0,0,0,,0,,,0,h,Watson P.FOUL (P5.PN) (E.Dalen),Foul,Personal,0,0,528
+0022600105,770,PT02M04.00S,4,1610612751,BKN,1642856,Dëmin,E. Dëmin,0,0,0,,0,120,108,228,v,Demin Free Throw 1 of 2 (21 PTS),Free Throw,Free Throw 1 of 2,1,0,529
+0022600105,771,PT02M04.00S,4,1610612751,BKN,1642856,Dëmin,E. Dëmin,0,0,0,,0,120,109,229,v,Demin Free Throw 2 of 2 (22 PTS),Free Throw,Free Throw 2 of 2,1,0,530
+0022600105,748,PT01M43.00S,4,1610612739,CLE,201935,Harden,J. Harden,-14,251,25,Missed,1,,,0,h,MISS Harden 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,531
+0022600105,749,PT01M43.00S,4,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. REBOUND (Off:2 Def:7),Rebound,Unknown,1,0,532
+0022600105,750,PT01M37.00S,4,1610612751,BKN,1642856,Dëmin,E. Dëmin,162,193,25,Missed,1,,,0,v,MISS Demin 25' 3PT Running Jump Shot,Missed Shot,Running Jump Shot,1,3,533
+0022600105,751,PT01M37.00S,4,1610612751,BKN,203944,Randle,J. Randle,0,0,0,,0,,,0,v,Randle REBOUND (Off:1 Def:5),Rebound,Unknown,1,0,534
+0022600105,752,PT01M33.00S,4,1610612751,BKN,203944,Randle,J. Randle,6,7,1,Made,1,120,111,231,v,Randle 1' Putback Layup (19 PTS),Made Shot,Putback Layup Shot,1,2,535
+0022600105,753,PT01M10.00S,4,1610612739,CLE,1628378,Mitchell,D. Mitchell,62,247,25,Missed,1,,,0,h,MISS Mitchell 25' 3PT Pullup Jump Shot,Missed Shot,Pullup Jump shot,1,3,536
+0022600105,754,PT01M10.00S,4,1610612751,BKN,1642856,Dëmin,E. Dëmin,0,0,0,,0,,,0,v,Demin REBOUND (Off:1 Def:3),Rebound,Unknown,1,0,537
+0022600105,755,PT01M03.00S,4,1610612739,CLE,1630596,Mobley,E. Mobley,0,0,0,,0,,,0,h,Mobley S.FOUL (P2.PN) (S.Mehta),Foul,Shooting,1,0,538
+0022600105,757,PT01M03.00S,4,1610612751,BKN,203944,Randle,J. Randle,0,0,0,,0,120,112,232,v,Randle Free Throw 1 of 2 (20 PTS),Free Throw,Free Throw 1 of 2,1,0,539
+0022600105,758,PT01M03.00S,4,1610612751,BKN,203944,Randle,J. Randle,0,0,0,,0,120,113,233,v,Randle Free Throw 2 of 2 (21 PTS),Free Throw,Free Throw 2 of 2,1,0,540
+0022600105,759,PT00M43.40S,4,1610612739,CLE,1628378,Mitchell,D. Mitchell,141,203,25,Missed,1,,,0,h,MISS Mitchell 25' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,541
+0022600105,760,PT00M43.40S,4,0,,1610612751,,,0,0,0,,0,,,0,v,Nets Rebound,Rebound,Unknown,1,0,542
+0022600105,762,PT00M33.60S,4,1610612751,BKN,1643052,Johnson,C. Johnson,-158,195,25,Made,1,120,116,236,v,Johnson 25' 3PT Jump Shot (10 PTS) (Demin 6 AST),Made Shot,Jump Shot,1,3,543
+0022600105,764,PT00M26.40S,4,1610612739,CLE,1631212,Watson,P. Watson,0,0,0,,0,,,0,h,Watson OFF.Foul (P6) (E.Dalen),Foul,Offensive,1,0,544
+0022600105,766,PT00M26.40S,4,1610612739,CLE,1631212,Watson,P. Watson,0,0,0,,0,,,0,h,Watson Offensive Foul Turnover (P2.T23),Turnover,Offensive Foul Turnover,1,0,545
+0022600105,767,PT00M26.40S,4,0,,1610612751,,,0,0,0,,0,,,0,v,Nets Timeout: Regular (Reg.5 Short 0),Timeout,Regular,0,0,546
+0022600105,773,PT00M26.40S,4,1610612739,CLE,1631212,Watson,P. Watson,0,0,0,,0,,,0,h,SUB: Merrill FOR Watson,Substitution,,0,0,547
+0022600105,774,PT00M26.40S,4,1610612751,BKN,1641730,Clowney,N. Clowney,0,0,0,,0,,,0,v,Clowney Inbound Turnover (P1.T19),Turnover,Inbound Turnover,1,0,548
+0022600105,776,PT00M26.40S,4,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Timeout: Regular (Full 7 Short 0),Timeout,Regular,0,0,549
+0022600105,779,PT00M26.40S,4,1610612739,CLE,1628386,Allen,J. Allen,0,0,0,,0,,,0,h,SUB: Proctor FOR Allen,Substitution,,0,0,550
+0022600105,782,PT00M26.40S,4,1610612751,BKN,203944,Randle,J. Randle,0,0,0,,0,,,0,v,SUB: Minott FOR Randle,Substitution,,0,0,551
+0022600105,783,PT00M26.40S,4,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,SUB: Ellis FOR Porter Jr.,Substitution,,0,0,552
+0022600105,784,PT00M25.60S,4,1610612751,BKN,1642856,Dëmin,E. Dëmin,0,0,0,,0,,,0,v,Demin P.FOUL (P6.PN) (C.Kirkland),Foul,Personal,1,0,553
+0022600105,786,PT00M25.60S,4,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,121,116,237,h,Harden Free Throw 1 of 2 (10 PTS),Free Throw,Free Throw 1 of 2,1,0,554
+0022600105,791,PT00M25.60S,4,1610612751,BKN,1642856,Dëmin,E. Dëmin,0,0,0,,0,,,0,v,SUB: Randle FOR Demin,Substitution,,0,0,555
+0022600105,792,PT00M25.60S,4,1610612751,BKN,1631169,Minott,J. Minott,0,0,0,,0,,,0,v,SUB: Porter Jr. FOR Minott,Substitution,,0,0,556
+0022600105,793,PT00M25.60S,4,1610612751,BKN,1631165,Ellis,K. Ellis,0,0,0,,0,,,0,v,SUB: Brown Jr. FOR Ellis,Substitution,,0,0,557
+0022600105,787,PT00M25.60S,4,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,122,116,238,h,Harden Free Throw 2 of 2 (11 PTS),Free Throw,Free Throw 2 of 2,1,0,558
+0022600105,794,PT00M20.30S,4,1610612751,BKN,203944,Randle,J. Randle,3,9,1,Made,1,122,118,240,v,Randle 1' Driving Dunk (23 PTS),Made Shot,Driving Dunk Shot,1,2,559
+0022600105,795,PT00M19.80S,4,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. P.FOUL (P5.PN) (E.Dalen),Foul,Personal,1,0,560
+0022600105,797,PT00M19.80S,4,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,,,0,h,MISS Harden Free Throw 1 of 2,Free Throw,Free Throw 1 of 2,1,0,561
+0022600105,798,PT00M19.80S,4,0,,1610612739,,,0,0,0,,0,,,0,h,CAVALIERS Rebound,Rebound,Normal Rebound,0,0,562
+0022600105,799,PT00M19.80S,4,1610612739,CLE,201935,Harden,J. Harden,0,0,0,,0,123,118,241,h,Harden Free Throw 2 of 2 (12 PTS),Free Throw,Free Throw 2 of 2,1,0,563
+0022600105,800,PT00M08.10S,4,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,238,-9,24,Made,1,123,121,244,v,Porter Jr. 24' 3PT Pullup Jump Shot (28 PTS) (Brown Jr. 5 AST),Made Shot,Pullup Jump shot,1,3,564
+0022600105,803,PT00M05.20S,4,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,Porter Jr. P.FOUL (P6.PN) (C.Kirkland),Foul,Personal,1,0,565
+0022600105,807,PT00M05.20S,4,1610612751,BKN,1629008,Porter Jr.,M. Porter Jr.,0,0,0,,0,,,0,v,SUB: Minott FOR Porter Jr.,Substitution,,0,0,566
+0022600105,805,PT00M05.20S,4,1610612739,CLE,1630241,Merrill,S. Merrill,0,0,0,,0,124,121,245,h,Merrill Free Throw 1 of 2 (6 PTS),Free Throw,Free Throw 1 of 2,1,0,567
+0022600105,808,PT00M05.20S,4,1610612739,CLE,1630241,Merrill,S. Merrill,0,0,0,,0,125,121,246,h,Merrill Free Throw 2 of 2 (7 PTS),Free Throw,Free Throw 2 of 2,1,0,568
+0022600105,809,PT00M05.20S,4,0,,1610612751,,,0,0,0,,0,,,0,v,Nets Timeout: Regular (Reg.6 Short 0),Timeout,Regular,0,0,569
+0022600105,811,PT00M05.20S,4,1610612751,BKN,1641730,Clowney,N. Clowney,0,0,0,,0,,,0,v,SUB: Ellis FOR Clowney,Substitution,,0,0,570
+0022600105,812,PT00M03.00S,4,1610612751,BKN,1631169,Minott,J. Minott,79,300,31,Missed,1,,,0,v,MISS Minott 31' 3PT Jump Shot,Missed Shot,Jump Shot,1,3,571
+0022600105,813,PT00M03.00S,4,1610612739,CLE,1642878,Proctor,T. Proctor,0,0,0,,0,,,0,h,Proctor REBOUND (Off:0 Def:2),Rebound,Unknown,1,0,572
+0022600105,814,PT00M00.00S,4,0,,0,,,0,0,0,,0,125,121,246,,End of 4th Period (10:24 PM EST),period,end,1,0,573

@@ -70,7 +70,6 @@ Run:  py prediction_engines/pregame_roster.py [--in output/engineered_dataset_db
 import argparse
 import os
 import pickle
-import re
 import sys
 import time
 from collections import defaultdict, deque
@@ -78,19 +77,42 @@ from collections import defaultdict, deque
 import numpy as np
 import pandas as pd
 
-PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+HERE = os.path.dirname(os.path.abspath(__file__))
+if HERE not in sys.path:
+    sys.path.insert(0, HERE)
+import csv_tables  # noqa: E402 - sibling module; one instance per process, so one read of the tables
+
+PROJECT_ROOT = os.path.dirname(HERE)
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")
-BOX_PLAYER_PATH = os.path.join(PROJECT_ROOT, "phonedb_cache", "box_player_traditional.pkl")
 IMPACT_CACHE = os.path.join(PROJECT_ROOT, "game_impact_cache_v5.pkl")
 MATCHUP_CACHE = os.path.join(PROJECT_ROOT, "matchup_cache_v1.pkl")
 DEFAULT_IN = os.path.join(OUTPUT_DIR, "engineered_dataset_db.pkl")
 DEFAULT_OUT = os.path.join(OUTPUT_DIR, "engineered_dataset_pregame.pkl")
 
-# A comment that means "not available tonight", decided before the game.
-# "DNP - Coach's Decision" deliberately does not match: that player dressed.
-UNAVAILABLE_RE = re.compile(
-    r"Injur|Illness|Rest|Health|Not With Team|NWT|Suspen|Personal|DND|Concussion|Trade",
-    re.IGNORECASE)
+# Every comment the box scores have used, by what it says about the player before
+# tip-off. A substring pattern used to decide this, and it counted the 2026-27
+# "Inactive - G League - Two-Way" and "Inactive - Coach's Decision" listings as
+# dressed. An exact list cannot drift that way: a comment in neither set stops the
+# build until someone decides which set it belongs to. "DNP - Coach's Decision" is
+# the one non-empty comment of a player who dressed. "DNP - Injury/Illness" stays
+# unavailable as it always was here, although such a player was on the active
+# list (the audit's finding A4) - changing that changes the features the
+# production models were trained on.
+DRESSED_COMMENTS = frozenset({"", "DNP - Coach's Decision"})
+UNAVAILABLE_COMMENTS = frozenset({
+    "DND - Injury/Illness", "DNP - Injury/Illness", "NWT - Injury/Illness", "Inactive - Injury/Illness",
+    "NWT - Not With Team", "Inactive - Not With Team", "DND - Rest", "DNP - Rest", "NWT - Rest",
+    "NWT - Personal", "DND - Personal", "DNP - Personal", "DNP_PERSONAL",
+    "NWT - League Suspension", "DNP - League Suspension", "NWT - Suspended", "NWT_LEAGUE_SUSPENSION",
+    "DND_LEAGUE_SUSPENSION", "DNP_LEAGUE_SUSPENSION", "NWT_TEAM_SUSPENSION", "DNP_TEAM_SUSPENSION",
+    "NWT - Health and Safety Protocols", "DND - Health and Safety Protocols",
+    "DNP - Health and Safety Protocols", "NWT_HEALTH_AND_SAFETY_PROTOCOLS", "DND_HEALTH_AND_SAFETY_PROTOCOLS",
+    "DND-Return to Competition Reconditioning", "NWT-Return to Competition Reconditioning",
+    "NWT_RETURN_TO_COMPETITION_RECONDITIONING", "DND - Concussion Protocol", "DNP - Concussion Protocol",
+    "NWT_CONCUSSION_PROTOCOL", "NWT - Trade Pending", "DND - Trade Pending", "DNP_TRADE",
+    "DND - Coach's Decision", "DND_COACH", "NWT_COACH",
+    "Inactive - Coach's Decision", "Inactive - G League - Two-Way",
+})
 IMPACT_WINDOW = 10
 TOP_N_SUM = 8
 RECENT_GAMES_FOR_MISSING = 3
@@ -117,20 +139,75 @@ def parse_minutes(raw):
     return minutes.where(s.notna(), np.nan).astype(float)
 
 
-def load_listings(box_path=BOX_PLAYER_PATH):
+class UnknownComment(ValueError):
+    """A box-score comment that neither DRESSED_COMMENTS nor UNAVAILABLE_COMMENTS knows."""
+
+
+def classify_comments(comments):
+    """True where a comment marks the player unavailable before tip-off; raises on a comment it does not know."""
+    text = comments.astype("string").fillna("").str.strip()
+    known = text.isin(DRESSED_COMMENTS | UNAVAILABLE_COMMENTS)
+    if not known.all():
+        unseen = text[~known].value_counts()
+        raise UnknownComment("taninmayan kutu skoru yorumu: "
+                             + "; ".join(f"{value!r} ({count})" for value, count in unseen.items())
+                             + " - pregame_roster.DRESSED_COMMENTS ya da UNAVAILABLE_COMMENTS'e eklenmeli")
+    return text.isin(UNAVAILABLE_COMMENTS).to_numpy()
+
+
+def load_box():
+    """Every listed player-game, from the tables built off the CSVs (csv_tables.py)."""
+    return csv_tables.load("box_player_traditional")
+
+
+def load_listings(box=None):
     """One row per listed player-game: who was on the team sheet, who was
     unavailable, and how many minutes they ended up playing (used only to
     update state AFTER the game)."""
-    box = pd.read_pickle(box_path)
+    box = load_box() if box is None else box
     out = pd.DataFrame({
         "game_id": box["game_id"].astype(str).str.zfill(10),
         "team": box["team_abbreviation"].astype(str),
         "person_id": box["player_id"].astype("int64"),
         "minutes": parse_minutes(box["min"]).fillna(0.0),
     })
-    comment = box["comment"].astype("string").fillna("")
-    out["unavailable"] = comment.str.contains(UNAVAILABLE_RE).fillna(False).astype(bool).values
+    out["unavailable"] = classify_comments(box["comment"])
     return out
+
+
+class EmptySheet(ValueError):
+    """A team has no listed sheet to carry forward into an unplayed game."""
+
+
+def carried_forward_listings(listings, played, upcoming, unavailable_overrides=None):
+    """Team sheets for unplayed games: each team's sheet from its last game, carried forward.
+
+    No team publishes tonight's sheet before tonight. Until the injury report
+    is archived, a team's upcoming sheet is the one it listed for its last
+    game, with the same players marked unavailable. `unavailable_overrides`
+    ({(team, person_id): bool}) is where report-time statuses plug in. Minutes
+    are zero, so an unplayed game updates nobody's state.
+
+    played    game_id, game_date, home_team, away_team of the games already listed
+    upcoming  game_id, home_team, away_team of the games to sheet
+    """
+    order = played.sort_values(["game_date", "game_id"])
+    last_game = {}
+    for gid, home, away in order[["game_id", "home_team", "away_team"]].itertuples(index=False):
+        last_game[home] = last_game[away] = gid
+    by_game_team = {key: frame for key, frame in listings.groupby(["game_id", "team"], sort=False)}
+    overrides = unavailable_overrides or {}
+    sheets = []
+    for gid, home, away in upcoming[["game_id", "home_team", "away_team"]].itertuples(index=False):
+        for team in (home, away):
+            source = by_game_team.get((last_game.get(team), team))
+            if source is None or source.empty:
+                raise EmptySheet(f"{gid}: {team} icin tasinacak kadro listesi yok")
+            sheet = source.assign(game_id=gid, minutes=0.0)
+            sheet["unavailable"] = [overrides.get((team, int(pid)), flag)
+                                    for pid, flag in zip(sheet["person_id"], sheet["unavailable"])]
+            sheets.append(sheet)
+    return pd.concat(sheets, ignore_index=True) if sheets else listings.iloc[0:0]
 
 
 def load_impacts(cache_path=IMPACT_CACHE):

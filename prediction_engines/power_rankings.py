@@ -434,7 +434,7 @@ class RankingEngine:
 #  Standalone use
 # ---------------------------------------------------------------------------
 def player_games_with_minutes(dataset):
-    """Impact per player-game joined to minutes from the local box-score cache."""
+    """Impact per player-game joined to minutes from the box scores (csv_tables.py)."""
     pregame = _load_sibling("pregame_roster")
     impacts = pregame.load_impacts()
     meta = dataset[["game_id", "game_date", "season", "home_team", "away_team"]].copy()
@@ -444,9 +444,9 @@ def player_games_with_minutes(dataset):
         for pid, imp in impacts.get(gid, {}).items():
             rows.append((pid, gid, gdate, season, imp))
     pg = pd.DataFrame(rows, columns=["player", "game_id", "game_date", "season", "impact"])
-    listings = pregame.load_listings()
-    names = pd.read_pickle(pregame.BOX_PLAYER_PATH)[["game_id", "player_id", "player_name"]]
-    names["game_id"] = names["game_id"].astype(str).str.zfill(10)
+    box = pregame.load_box()
+    listings = pregame.load_listings(box)
+    names = box[["game_id", "player_id", "player_name"]].copy()
     listings = listings.merge(names.rename(columns={"player_id": "person_id", "player_name": "name"}),
                               on=["game_id", "person_id"], how="left")
     pg = pg.merge(listings.rename(columns={"person_id": "player"})[["game_id", "player", "team",

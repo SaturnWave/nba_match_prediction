@@ -315,20 +315,16 @@ def _load_state():
 
 
 def _attach_minutes(player_games):
-    """Minutes and full names per player-game from the local box-score cache.
+    """Minutes and full names per player-game from the box scores (csv_tables.py).
 
     The rankings weight a roster by minutes and refuse to rate a player who
     barely played; the impact cache only knows surnames, and a ranking that
-    says "Williams" is not a ranking. Without the cache the minutes are NaN
-    (the rankings fall back to games played) and the surnames stay.
+    says "Williams" is not a ranking.
     """
     if player_games.empty:
         return player_games
     pregame = _load_sibling("pregame_roster")
-    if not os.path.exists(pregame.BOX_PLAYER_PATH):
-        player_games["minutes"] = np.nan
-        return player_games
-    box = pd.read_pickle(pregame.BOX_PLAYER_PATH)[["game_id", "player_id", "player_name", "min"]]
+    box = pregame.load_box()[["game_id", "player_id", "player_name", "min"]]
     box = pd.DataFrame({
         "game_id": box["game_id"].astype(str).str.zfill(10),
         "key": box["player_id"].astype(str),

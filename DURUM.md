@@ -1,6 +1,6 @@
 # Durum — db-pipeline dalı
 
-Son güncelleme: 2026-10-24 (2026-27 sezonunun fikstürü ve ilk 28 maçı çekildi; CSV'ler D: diskine taşındı; graphify grafiği yeniden kuruldu; öncesinde depo kendi kendine yeter hale getirildi, sezon simülatörü, güç sıralaması, değer skoru, fiyatlama 5.1). Bu dosya, çalışmaya ara verildiğinde nerede
+Son güncelleme: 2026-10-27 (maç öncesi veri hattı: tablolar telefon kopyası yerine CSV'den, oynanmamış maçlar veri setine giriyor, 2026-27'nin ilk tahminleri; öncesinde 2026-27 fikstürü ve ilk maçları, CSV'lerin D: diskine taşınması, graphify, sezon simülatörü, güç sıralaması, değer skoru, fiyatlama 5.1). Bu dosya, çalışmaya ara verildiğinde nerede
 kalındığını ve nasıl devam edileceğini anlatır.
 
 ## Tek cümlelik özet
@@ -419,16 +419,16 @@ DB (telefon) kapalı; her şey yerel: `phonedb_cache/*.pkl` (12 tablo, 12 Eylül
 çekimi), `game_impact_cache_v4.pkl`, `matchup_cache_v1.pkl`, `nba_data/`
 (CSV). Yeniden kurmak için DB gerekmez.
 
-2026-27 (24 Ekim itibarıyla): fikstür `game_ids/schedule_2026_2027.csv`
+2026-27 (27 Ekim itibarıyla): fikstür `game_ids/schedule_2026_2027.csv`
 (1.274 maç: 67 hazırlık, 1.206 normal sezon, NBA Cup finali; Cup eleme
 turundaki 7 maçın takımları henüz belli değil), oynanan maçlar
-`game_ids/game_id_2026_2027.csv` (20–23 Ekim, 28 maç; fikstürdeki biten 28
-maçla birebir aynı). 28 maçın hepsinde play-by-play ile geleneksel ve ileri
-kutu skoru var. 23 Ekim'in 12 maçında defansif kutu, tracking ve matchup
-verisini NBA henüz yayımlamadı; komutlar kaldığı yerden devam eder, ertesi
-gün yeniden çalıştırınca tamamlanır. `phonedb_cache` (12 Eylül çekimi) bu
-sezonu içermez; telefon veritabanına şu an erişilmiyor (Tailscale'de
-çevrimdışı, bu klonda `.env` de yok).
+`game_ids/game_id_2026_2027.csv` (20–25 Ekim, 43 maç; fikstürdeki biten 43
+maçla birebir aynı). 43 maçın hepsinde on dosyanın onu da var: play-by-play,
+geleneksel, ileri ve defansif kutu, tracking, matchup. NBA tracking ve
+matchup'ı maçtan bir iki gün sonra yayımlıyor; komutlar kaldığı yerden devam
+eder. `phonedb_cache` (12 Eylül çekimi) bu sezonu içermez ve artık hiçbir
+hesap onu okumuyor (aşağıda, maç öncesi veri hattı). Telefon veritabanına şu
+an erişilmiyor (Tailscale'de çevrimdışı, bu klonda `.env` de yok).
 
 Geçmiş sezonlarda 23 maçta defansif kutu skoru ve matchup verisi kaynakta yok:
 24 Ekim'de yeniden denendi, NBA hâlâ boş döndürüyor, telefon önbelleğinde de
@@ -520,6 +520,96 @@ olur, bu sonuçlar başlama anındaki bir tahmini anlatır. Bir gün önceki tah
 için açılış çizgileriyle ayrı bir test gerekir. Oranlar yalnızca bilgi ve ölçü
 olarak kullanılıyor; bahis tavsiyesi yok.
 
+## Maç öncesi veri hattı ve ilk 2026-27 tahminleri (`prediction_engines/build_dataset_asof.py`)
+
+Denetim raporunun ilk adımı. Üretim veri seti 2025-26'da bitiyordu. Zincirin
+iki halkası (değer motoru, kadro feature'ları) telefon veritabanının 12 Eylül
+kopyasını okuyordu. O kopyada 2026-27 maçı yok, veritabanı da kapalı. Bu
+yüzden modeller bu sezonun tek maçını tahmin edemiyordu. Şimdi tek komut,
+oynanan bütün maçları ve sıradaki günün maçlarını `nba_data/`'dan kuruyor.
+Bunun için:
+
+- **Tablolar CSV'den** (`csv_tables.py`). Maç listesi, oyuncu kutu skoru ve
+  tracking artık `nba_data/` CSV'lerinden kurulan tablolardan okunuyor. Bu
+  tabloları okuyanlar: değer motoru, impact v5, kadro feature'ları, güç
+  sıralaması ve dashboard. Tablolar telefon kopyasıyla karşılaştırıldı
+  (`csv_tables.py --check`): 10.749 maçta ve 277.127 oyuncu satırında birebir
+  aynı. Önbellek `table_cache/csv_tables.pkl` (340 MB, git dışı). İlk kurulum
+  bu makinede 38 dakika sürdü (D: yavaş). Sonrakiler yalnızca yeni ya da
+  dosyası değişen maçları okuyor; bugün 27 maç, 2,5 dakika. Telefon kopyasını
+  okuyan, günlük hatta olmayan betikler kaldı. Sezon simülatörü de onlardan
+  biri; kayıtlı koşu tekrarlanabilsin diye bilerek değiştirilmedi.
+- **Sözleşmeler.** Tablolardan biri bozuksa kurulum durur:
+  - eksik kimlik,
+  - iki kez listelenen oyuncu,
+  - iki takımı olmayan maç,
+  - skoru olmayan maç,
+  - oyuncu sayılarının toplamı takım sayısını tutmayan takım-maç.
+- **Artımlı değer ve impact.** Değer motoru yalnızca önbellekte olmayan
+  maçları hesaplıyor (bugün 43 maç, 19 saniye). Tracking'i sonradan yayımlanan
+  maç, tracking gelince yeniden hesaplanıyor. Hangi maçın tracking'le
+  hesaplandığı `output/value_cache_unweighted.pkl.tracked.pkl` içinde.
+  `game_impact_cache_v5.pkl` her koşuda yeniden yazılıyor (şu an 10.792 maç).
+- **Oynanmamış maçlar.** Fikstürde olup `nba_data/`'da olmayan normal sezon
+  maçları, en erken tarihten başlayarak. Bir takımın kadro listesi, son
+  maçındaki listesi olarak taşınıyor; dakikalar 0. Sakatlık raporu
+  arşivlenene kadar böyle.
+- **Sert duruşlar.** Kurulum şu durumlarda hata verip duruyor:
+  - Skoru olmayan oynanmış maç. Eskiden 0-0 ve ev sahibi yenilgisi olarak
+    giriyordu.
+  - Kimsenin sınıflamadığı bir kutu skoru yorumu. Yorumlar artık kalıpla
+    değil, tam listeyle sınıflanıyor. Eski kalıp 2026-27'de gelen "Inactive -
+    G League - Two-Way" ve "Inactive - Coach's Decision" satırlarını forma
+    giymiş sayıyordu.
+  - Kadro listesi taşınamayan takım.
+  - Bitmiş ama `nba_data/`'da olmayan maç: fikstürde final görünüyor ya da
+    başlama saatinin üstünden 4 saat geçmiş. O durumda önce veri yenilenmeli.
+- **Eşitlik testi** (`--check`, sonucu `output/asof_parity.json`). Yeniden
+  kurulan veri seti, üretim veri setinin 10.749 maçında 196 feature'ın ve 5
+  etiketin hepsini 1e-9 içinde aynen veriyor. Tek istisna kayıtlı:
+  - 0022400856'nın (28 Şubat 2025, NYK@MEM) matchup dosyası 24 Ekim 20:34'te
+    indi. Üretim veri seti o gün 12:49'da kurulmuştu.
+  - Yeni hat bu dosyayı kullanıyor. Bu yüzden o maçtan sonraki 432 maçta 6
+    matchup sütunu 0,04'e kadar farklı.
+  - Test, o maçın matchup'larını dışarıda bırakıp kadro taramasını yeniden
+    yapıyor. O zaman fark sıfır.
+  - Liste `LATE_MATCHUPS` içinde. Üretim bu hattan yeniden kurulunca
+    boşaltılmalı.
+- **Matchup önbelleği** (`matchup_impact`). Anahtarlar artık göreli yol.
+  Başka klasöre klonlanan depo 10.749 dosyayı yeniden okumuyor.
+- **`requirements.txt`.** Sürümler sabitlendi (pandas 3.0.2, LightGBM 4.6.0
+  …); flask, waitress ve xgboost eklendi.
+
+İlk tahminler `prediction_engines/forecast_upcoming.py` ile üretildi
+(`output/forecasts/`): 26 Ekim'in 9 maçı. Dosya, tahminin üretildiği anı ve
+her maçın başlama saatini UTC olarak tutuyor:
+
+- Bu ilk dosya ABD doğu saatiyle 19:58'de üretildi, yani 19:00 ve 19:30'da
+  başlayan 4 maçtan sonra.
+- O 4 maç `before_tipoff = False` olarak işaretli. Tahmin onlardan hiçbir
+  bilgi kullanmıyor, ama maç öncesi tahmin de sayılmaz.
+- Her koşu ayrı bir dosyaya yazıyor. Sonraki bir koşu, maç öncesi kaydın
+  üstüne yazmaz.
+
+Aynı modeller sezonun oynanan 43 maçında: isabet 0,744, Brier 0,199, marj
+MAE 11,7. Bu satırlar eğitim satırları gibi kuruldu, her takımın listesi o
+maçın kutu skorundan. Yani bunlar geri test koşulları, ve 43 maçta gürültü
+geniş.
+
+Sınırlar:
+
+- Taşınan liste, son maçtan sonra sakatlanan oyuncuyu hâlâ sağlam sayıyor.
+  Dönen oyuncuyu da hâlâ yok sayıyor. İlacı sakatlık raporu arşivi.
+  `pregame_roster.carried_forward_listings` fonksiyonunun
+  `unavailable_overrides` parametresi o raporun takılacağı yer.
+- `--days 3` gibi birden çok tarih, her tarihi sıradaki tarih gibi kuruyor.
+  Aradaki maçlar henüz bilinmediği için ikinci ve üçüncü günün form
+  feature'ları bir maç geride kalıyor. Dinlenme günü de ilk günün maçını
+  görmüyor. Üretim modelleri dinlenme feature'ı kullanmadığı için bu tahmini
+  değiştirmiyor.
+- Modeller değişmedi: 2025-26 sonuna kadarki veriyle eğitilmiş halleriyle
+  tahmin ediyorlar.
+
 ## Çalıştırma
 
 ```
@@ -540,6 +630,8 @@ py data_retriaval/retrieve_2025_2026_data.py --season 2026_2027  # pbp + gelenek
 py data_retriaval/backfill_defensive_tracking.py 2026_2027       # defansif kutu + tracking
 py data_retriaval/retrieve_matchups.py 2026_2027                 # matchup'lar
 py tools/check_data.py 2026_2027                                 # hangi macta hangi dosya eksik
+py prediction_engines/build_dataset_asof.py                      # oynanan maclar + siradaki gunun maclari
+py prediction_engines/forecast_upcoming.py                       # o maclarin tahmini, output/forecasts/
 py prediction_engines/sim_vs_real.py                             # simulasyon ile oynanan maclar, ~1 dk
 py data_retriaval/odds_run_all.py                                # bahis cizgileri: arsiv + ESPN (kaldigi yerden)
 py prediction_engines/market_lab.py                              # oranlar modele ne katiyor
@@ -552,11 +644,9 @@ Dashboard'un doğruluk rakamı `output/metrics_2025_26.json` →
 
 1. **Maç öncesi sakatlık raporu.** `roster_missing_impact` bunun geriye dönük
    vekili; canlı sezonda gerçek rapor beslenebilir.
-2. **Gelecek maç için feature üretimi.** Dashboard yalnızca veri setindeki
-   maçları tahmin ediyor; oynanmamış bir maç için maç öncesi feature kuran yol
-   yok. `pregame_roster.build_pregame_features` zaten tarih sırasıyla çalışıyor,
-   "bugün itibarıyla" durumunu vermesi küçük bir ek.
-3. **Çok sezonlu çizgi arşivi.** Piyasa karşılaştırması 308 maçla sınırlı.
+2. **Dashboard'da oynanmamış maçlar.** Tahminler artık üretiliyor
+   (`forecast_upcoming.py`), ama dashboard hâlâ yalnızca üretim veri setindeki
+   maçları gösteriyor.
 
 ## Bekleyenler
 
@@ -577,13 +667,15 @@ Dashboard'un doğruluk rakamı `output/metrics_2025_26.json` →
     yaklaşık 500). Geri testte model maç sonrası kadroyu zaten gördüğü için
     bu ayrılık "görülmeyen sakatlık haberi" değil. Model, yokları, dakikaları,
     dinlenmeyi ve yeni oyuncuları piyasadan farklı değerlendiriyor.
-- 23 Ekim'in 12 maçında defansif kutu, tracking ve matchup eksik (NBA henüz
-  yayımlamadı): `backfill_defensive_tracking.py` ve `retrieve_matchups.py`
-  yeniden çalıştırılmalı.
+- Üretim veri setinin bu hattan yeniden kurulması ve modellerin yeniden
+  eğitilmesi. 2026-27 maçları eğitime girer, `LATE_MATCHUPS` boşalır. Dürüst
+  rakamlar walk-forward'la yeniden ölçülmeli.
+- Git'in takip ettiği iki önbellek her koşuda değişiyor:
+  `game_impact_cache_v5.pkl` (11 MB) ve `output/value_cache_unweighted.pkl`
+  (30 MB). Her gün commit'lemek depoyu şişirir; git dışına alınmaları
+  düşünülmeli.
 - Bu klonda `.env` yok; telefon veritabanına bağlanmak için `.env.example`
   kopyalanıp doldurulmalı.
-- `requirements.txt` eksik: `flask` (app.py) ve `xgboost`
-  (`prediction_engines/analysis_2025_2026.py`) yazılı değil.
 - Simülatörde çaylaklar yedek seviyesinde dakika alıyor. Draft sırası ya da
   hazırlık maçı dakikası ilk tahmin olarak kullanılabilir. Sakatlık listesi de
   simülasyona girmiyor.

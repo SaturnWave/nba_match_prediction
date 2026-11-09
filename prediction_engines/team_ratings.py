@@ -71,14 +71,21 @@ def _mov_multiplier(margin, elo_diff_for_winner):
     return ((abs(margin) + 3.0) ** 0.8) / (7.5 + 0.006 * elo_diff_for_winner)
 
 
-def _elo_pass(games, margin_col, use_mov):
-    """One sequential sweep: record each game's PRE-game ratings, then update."""
+def _elo_pass(games, margin_col, use_mov, played):
+    """One sequential sweep: record each game's PRE-game ratings, then update.
+
+    `played` keeps a fixture out of the update while still letting it receive
+    the ratings accumulated so far. Testing the margin for NaN is not enough:
+    on the impact_score_diff sweep the margin is a pre-game roster quantity
+    and is populated for games nobody has played, so without this mask a
+    fixture would move both teams' ratings on a result that does not exist.
+    """
     ratings = {}
     prev_season = None
     home_pre, away_pre = [], []
 
-    for season, home, away, margin in zip(games["season"], games["home_team"],
-                                          games["away_team"], games[margin_col]):
+    for i, (season, home, away, margin) in enumerate(zip(games["season"], games["home_team"],
+                                                         games["away_team"], games[margin_col])):
         if season != prev_season and prev_season is not None:
             for team in ratings:
                 ratings[team] = ELO_START + ELO_SEASON_REGRESS * (ratings[team] - ELO_START)
@@ -89,7 +96,7 @@ def _elo_pass(games, margin_col, use_mov):
         home_pre.append(r_home)
         away_pre.append(r_away)
 
-        if not np.isfinite(margin):
+        if not played[i] or not np.isfinite(margin):
             continue
         spread = r_home + ELO_HOME_ADV - r_away
         expected_home = 1.0 / (1.0 + 10.0 ** (-spread / 400.0))
@@ -107,8 +114,14 @@ def _elo_pass(games, margin_col, use_mov):
     return np.asarray(home_pre), np.asarray(away_pre)
 
 
-def _strength_of_schedule(games, home_elo, away_elo):
-    """Mean pre-game Elo of the opponents a team has already met this season."""
+def _strength_of_schedule(games, home_elo, away_elo, played):
+    """Mean pre-game Elo of the opponents a team has already met this season.
+
+    "Already met" is the whole claim, so a fixture is read but not counted: a
+    slate of several unplayed days would otherwise credit a team with
+    opponents it has not faced yet. Measured on three unplayed dates, that
+    moved home_rating_sos by up to 21.7 Elo points.
+    """
     totals, counts = {}, {}
     prev_season = None
     home_sos, away_sos = [], []
@@ -120,6 +133,8 @@ def _strength_of_schedule(games, home_elo, away_elo):
             prev_season = season
         home_sos.append(totals.get(home, 0.0) / counts[home] if counts.get(home) else np.nan)
         away_sos.append(totals.get(away, 0.0) / counts[away] if counts.get(away) else np.nan)
+        if not played[i]:
+            continue
         totals[home] = totals.get(home, 0.0) + away_elo[i]
         counts[home] = counts.get(home, 0) + 1
         totals[away] = totals.get(away, 0.0) + home_elo[i]
@@ -152,14 +167,17 @@ def _solve_massey(block, teams, margin_col):
     return dict(zip(teams, ratings))
 
 
-def _massey_pass(games, margin_col):
-    """Re-solve at every month boundary on games strictly before that month."""
+def _massey_pass(games, margin_col, played):
+    """Re-solve at every month boundary on games strictly before that month.
+
+    A fixture still receives its month's ratings; it just never enters a solve.
+    """
     months = games["game_date"].dt.to_period("M")
     teams = sorted(set(games["home_team"]) | set(games["away_team"]))
     home_out = np.full(len(games), np.nan)
     away_out = np.full(len(games), np.nan)
 
-    usable = games[margin_col].notna().to_numpy()
+    usable = games[margin_col].notna().to_numpy() & played
     for month in months.unique():
         in_month = (months == month).to_numpy()
         history = (months < month).to_numpy() & usable
@@ -173,7 +191,7 @@ def _massey_pass(games, margin_col):
     return home_out, away_out
 
 
-def _impact_vs_expected(games):
+def _impact_vs_expected(games, played):
     """Trailing (own impact - what this opponent usually allows), per team.
 
     Two passes. First, walk forward keeping each team's running mean of impact
@@ -198,6 +216,12 @@ def _impact_vs_expected(games):
             else:
                 away_out[i] = out
 
+        # Read above, write below: a fixture gets the history accumulated so
+        # far and contributes nothing to it. home/away_impact_score_agg are
+        # pre-game quantities and are populated for fixtures, so finiteness
+        # alone would let an unplayed game into later games' history.
+        if not played[i]:
+            continue
         for team, own, opponent in ((home, home_imp[i], away), (away, away_imp[i], home)):
             if not np.isfinite(own):
                 continue
@@ -233,13 +257,19 @@ def add_rating_features(master_df):
         games["impact_score_diff"] = (games.get("home_impact_score_agg", np.nan)
                                       - games.get("away_impact_score_agg", np.nan))
 
+    # Which rows are a result rather than a fixture. point_diff is NaN exactly
+    # when a game has not been played, and it is the one column every pass
+    # here already depends on, so it is the mask rather than is_played - this
+    # module is also called with frames that carry no is_played column.
+    played = games["point_diff"].notna().to_numpy()
+
     values = {}
-    values["elo"] = _elo_pass(games, "point_diff", use_mov=True)
-    values["elo_impact"] = _elo_pass(games, "impact_score_diff", use_mov=False)
-    values["massey"] = _massey_pass(games, "point_diff")
-    values["massey_impact"] = _massey_pass(games, "impact_score_diff")
-    values["sos"] = _strength_of_schedule(games, values["elo"][0], values["elo"][1])
-    values["impact_vs_exp"] = _impact_vs_expected(games)
+    values["elo"] = _elo_pass(games, "point_diff", True, played)
+    values["elo_impact"] = _elo_pass(games, "impact_score_diff", False, played)
+    values["massey"] = _massey_pass(games, "point_diff", played)
+    values["massey_impact"] = _massey_pass(games, "impact_score_diff", played)
+    values["sos"] = _strength_of_schedule(games, values["elo"][0], values["elo"][1], played)
+    values["impact_vs_exp"] = _impact_vs_expected(games, played)
 
     out = pd.DataFrame(index=order)
     for kind, (home_vals, away_vals) in values.items():

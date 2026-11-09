@@ -1,5 +1,5 @@
 ﻿"""
-NBA 2025-26 prediction dashboard â€” served over Tailscale, built for a phone.
+NBA 2025-26 prediction dashboard - served over Tailscale, built for a phone.
 
 WHAT CHANGED AND WHY
     The old dashboard showed one number per target from five independently
@@ -25,17 +25,18 @@ WHAT CHANGED AND WHY
 
 SERVING
     Binds to this machine's Tailscale address by default, so the dashboard is
-    reachable from other devices on the tailnet and from nothing else â€” not
+    reachable from other devices on the tailnet and from nothing else - not
     from the local Wi-Fi network, not from the internet. Uses waitress rather
     than Flask's development server, which is single-threaded and explicitly
     not meant to face a network.
 
 Run:  py app.py                 (auto-detects the Tailscale IP)
-      py app.py --host 0.0.0.0  (also expose on LAN â€” only if you mean it)
+      py app.py --host 0.0.0.0  (also expose on LAN - only if you mean it)
       py app.py --dev           (Flask dev server, localhost, for debugging)
 """
 import os
 import sys
+import glob
 import json
 import pickle
 import argparse
@@ -56,7 +57,19 @@ OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")
 # the game (which leaks the result), this one over the pre-game team sheet.
 # Serving predictions from features the models were never fitted on is a silent
 # error; nothing raises, the numbers just mean less than they appear to.
-DATASET_PATH = os.path.join(OUTPUT_DIR, "engineered_dataset_pregame.pkl")
+#
+# Two builds satisfy that: engineered_dataset_asof.pkl is the one served, and
+# output/asof_parity.json records it equal feature-for-feature to the
+# production build over all 10,749 games it shares with it - which is exactly
+# the check the paragraph above demands. What it adds is the season in
+# progress and the games not played yet (is_played False, with the five result
+# columns NaN and all 196 trained features present).
+#
+# It is rebuilt daily by build_dataset_asof.py and is gitignored, so after a
+# fresh clone it is absent. Then the production pickle is served instead and
+# /api/meta says which one it is, rather than the page refusing to start.
+ASOF_PATH = os.path.join(OUTPUT_DIR, "engineered_dataset_asof.pkl")
+TRAINED_PATH = os.path.join(OUTPUT_DIR, "engineered_dataset_pregame.pkl")
 # Deliberately the OLD engine's cache. The models train on v5 (value pricing),
 # but the rankings show production and value side by side and flag the gap as
 # "empty stats"; production has to come from the engine that counted it.
@@ -67,6 +80,16 @@ FEATURE_LIST_PATH = os.path.join(MODEL_DIR, "feature_list_2025_26.json")
 METRICS_PATH = os.path.join(OUTPUT_DIR, "metrics_2025_26.json")
 
 TARGETS = ["home_win", "point_diff", "total_score", "home_score", "away_score"]
+# How far back the roster panel will look for a team's last game before it
+# says it does not know. Longer than any in-season gap (the All-Star break is
+# about nine days), shorter than an off-season.
+ROSTER_STALE_DAYS = 30
+# The last season the models were fitted through, NOT "the current season" -
+# they stopped being the same thing the moment 2026-27 entered the dataset.
+# Everything about held-out and in-sample is anchored here; what season the
+# page is showing is read from the data instead. Season names sort
+# chronologically because they are fixed-width ("2026_2027" > "2025_2026"),
+# which is what lets a later season be recognised as one the model never saw.
 TARGET_SEASON = "2025_2026"
 # The simulated season the page shows beside the real ones, when it has been
 # run on this machine (prediction_engines/season_sim.py forecast). It lives in
@@ -112,17 +135,40 @@ def _honest_metrics():
         "protocol": (f"{honest['n_cells']} hucre aylik walk-forward (mac oncesi kadro, "
                      f"burn-in >= 10 mac); siniflandirici tek basina "
                      f"{honest['accuracy_classifier']:.3f}"),
-        "single_split_accuracy": payload["metrics"]["blend"]["accuracy"],
+        # Chained indexing here used to be unguarded: a metrics file with a
+        # walk-forward block but no blend block (a retrain with the blend off)
+        # raised KeyError inside /api/meta, which the page calls before
+        # anything else, so the whole dashboard failed to open over one
+        # optional number.
+        "single_split_accuracy": (payload.get("metrics", {}).get("blend", {}).get("accuracy")
+                                  or FALLBACK_METRICS["single_split_accuracy"]),
         "single_split_note": "tek split rakami sezonun son 5 haftasindan geliyor",
     }
 
-BADGE_IN_SAMPLE = {
-    "key": "in-sample",
-    "label": "Egitim verisinde â€” model bu sonucu gordu, tahmin iyimser",
+# Four states, and nothing falls through to "the model trained on this". The
+# page explains its labels, so a wrong one is worse than a missing one: the
+# previous two-state version called every 2026-27 game training data, which is
+# the exact inverse of the truth - the models were fitted through 2025-26 only.
+#
+# "Geri test" and "tahmin" are kept apart on purpose. A played game's team
+# sheet is read from the box score of that same game, so the model is told who
+# actually played while a forecast only knows who was expected to. Only the
+# unplayed rows are forecasts; everything else is a backtest, held-out or not.
+BADGE_UPCOMING = {
+    "key": "upcoming",
+    "label": "Henuz oynanmadi - tip-off oncesi gercek tahmin",
+}
+BADGE_UNSEEN = {
+    "key": "unseen",
+    "label": "Modelin gormedigi sezon - geri test (kadro kutu skorundan)",
 }
 BADGE_OUT_OF_SAMPLE = {
     "key": "out-of-sample",
-    "label": "Held-out â€” gercek out-of-sample tahmin",
+    "label": "Held-out - egitimde yok, geri test (kadro kutu skorundan)",
+}
+BADGE_IN_SAMPLE = {
+    "key": "in-sample",
+    "label": "Egitim verisinde - model bu sonucu gordu, tahmin iyimser",
 }
 
 app = Flask(__name__)
@@ -130,7 +176,7 @@ _STATE = None
 
 
 def _load_sibling(name):
-    """prediction_engines/ holds scripts, not a package â€” import them by path."""
+    """prediction_engines/ holds scripts, not a package - import them by path."""
     path = os.path.join(PROJECT_ROOT, "prediction_engines", f"{name}.py")
     spec = importlib.util.spec_from_file_location(name, path)
     module = importlib.util.module_from_spec(spec)
@@ -197,7 +243,12 @@ def _trained_features(bundle):
             raise RuntimeError(f"model {len(missing)} feature bekliyor ama dataset'te yok: "
                                f"{missing[:5]} - dataset ve modeller ayni build'den mi?")
         return listed
-    return bundle["features"]
+    # Without the file, the widest list the build itself calls production. The
+    # asof blob carries both: "features" is 190 names, "production_features"
+    # the 196 the models were actually fitted on. Reaching for the 190 would
+    # hand the models a frame they were never fitted on - silently, which is
+    # the failure this file's header was written about.
+    return bundle.get("production_features") or bundle["features"]
 
 
 def _load_registered(name):
@@ -238,27 +289,68 @@ def _load_sim_season():
 def _load_optional(path, label):
     """Load a pickle that the dashboard degrades gracefully without."""
     if not os.path.exists(path):
-        print(f"[startup] {label} yok ({os.path.basename(path)}) â€” o panel kapali")
+        print(f"[startup] {label} yok ({os.path.basename(path)}) - o panel kapali")
         return None
     try:
         with open(path, "rb") as f:
             return pickle.load(f)
     except (OSError, pickle.UnpicklingError, EOFError) as exc:
-        print(f"[startup] {label} okunamadi: {exc} â€” o panel kapali")
+        print(f"[startup] {label} okunamadi: {exc} - o panel kapali")
         return None
 
 
+def _dataset_choice():
+    """(path, name) of the dataset to serve: the as-of build when it is there."""
+    if os.path.exists(ASOF_PATH):
+        return ASOF_PATH, "asof"
+    print(f"[startup] {os.path.basename(ASOF_PATH)} yok "
+          f"(build_dataset_asof.py kosturulmadi) - uretim veri seti servis ediliyor, "
+          f"yurumekte olan sezon gorunmeyecek")
+    return TRAINED_PATH, "trained"
+
+
+def _tipoffs():
+    """{game_id: tip-off, UTC} from the newest schedule file, or {} without one.
+
+    The dataset's game_date is a midnight datetime and carries no time, so a
+    day's games cannot be ordered - or shown with a kick-off - from it alone.
+    The schedule file already holds the time; this reads it rather than making
+    build_dataset_asof.py carry a new column.
+    """
+    paths = sorted(glob.glob(os.path.join(PROJECT_ROOT, "game_ids", "schedule_*.csv")))
+    if not paths:
+        return {}
+    try:
+        schedule = pd.read_csv(paths[-1], dtype={"game_id": str})
+    except (OSError, pd.errors.ParserError, pd.errors.EmptyDataError) as exc:
+        print(f"[startup] fikstur okunamadi ({exc}) - tip-off saati gosterilmeyecek")
+        return {}
+    if not {"game_id", "tipoff_utc"}.issubset(schedule.columns):
+        return {}
+    times = pd.to_datetime(schedule["tipoff_utc"], utc=True, errors="coerce")
+    return {gid.zfill(10): t.isoformat() for gid, t in zip(schedule["game_id"], times)
+            if pd.notna(t)}
+
+
 def _load_state():
-    with open(DATASET_PATH, "rb") as f:
+    dataset_path, dataset_name = _dataset_choice()
+    with open(dataset_path, "rb") as f:
         bundle = pickle.load(f)
     dataset = bundle["dataset"].copy()
     features = _trained_features(bundle)
     dataset["game_id"] = dataset["game_id"].astype(str).str.zfill(10)
     dataset["game_date"] = pd.to_datetime(dataset["game_date"])
+    # Every branch below asks "is there a result here" through this one column,
+    # so the older build - which has no such column and no unplayed games - is
+    # given one rather than leaving each reader to guess.
+    if "is_played" in dataset.columns:
+        dataset["is_played"] = dataset["is_played"].astype(bool)
+    else:
+        dataset["is_played"] = True
 
     # 75% chronological split of the target season, exactly as NBAPredictor.train
     # does it: split the season subset in its AS-SAVED row order. This must
-    # happen before the display re-sort below â€” sort_values is not stable, so
+    # happen before the display re-sort below - sort_values is not stable, so
     # sorting the full frame first permutes ties on the boundary date and would
     # hold out a different set than the trainer actually did.
     tgt_rows = dataset[dataset["season"] == TARGET_SEASON].sort_values("game_date")
@@ -292,7 +384,12 @@ def _load_state():
 
     rankings_module = _load_sibling("power_rankings")
     player_games = rankings_module.attach_value(_attach_minutes(_build_player_games(dataset)))
-    rankings = rankings_module.RankingEngine(dataset, player_games)
+    # Played games only. A ranking describes what teams have done, so a
+    # fixture has nothing to contribute - and it does harm: the engine builds
+    # its periods from the games it is given, so today's fixtures created a
+    # week period of their own and the page opened that period by default,
+    # showing all 30 teams with 0 games and an empty form bar.
+    rankings = rankings_module.RankingEngine(dataset[dataset["is_played"]].copy(), player_games)
     calibration_module = _load_sibling("calibration") if calibrator else None
     # One forecast per game up front, so the list can show the model's pick
     # beside every result without a model call per card. ~10,000 rows through
@@ -300,16 +397,34 @@ def _load_state():
     # every time someone scrolls.
     dataset["model_home_prob"] = _forecast_all(dataset, features, models, blend,
                                                calibrator, calibration_module)
-    print(f"[startup] {dataset.shape[0]} mac x {dataset.shape[1]} sutun, "
+    n_played = int(dataset["is_played"].sum())
+    current_season = max(dataset["season"])
+    print(f"[startup] {dataset.shape[0]} mac x {dataset.shape[1]} sutun "
+          f"({dataset_name}, as-of {bundle.get('as_of') or '-'}), "
+          f"oynanmis {n_played}, oynanmamis {len(dataset) - n_played}, "
           f"{len(features)} feature, {len(models)} model, "
           f"{len(player_games)} oyuncu-mac kaydi, "
-          f"held-out {len(test_game_ids)} mac ({split_date} sonrasi)")
+          f"held-out {len(test_game_ids)} mac ({split_date} sonrasi), "
+          f"son sezon {current_season}")
+    if current_season > TARGET_SEASON:
+        seen = int((dataset["season"] > TARGET_SEASON).sum())
+        print(f"[startup] {seen} mac modellerin egitildigi sezondan sonra "
+              f"({TARGET_SEASON} sonrasi) - hepsi out-of-sample")
     return {"dataset": dataset, "features": features, "models": models,
             "blend": blend, "team_ids": _team_ids(dataset), "rankings": rankings,
             "sim": _load_sim_season(),
             "test_game_ids": test_game_ids, "split_date": split_date,
             "player_games": player_games, "calibrator": calibrator,
             "simulator": simulator, "ratings": ratings_by_game,
+            "dataset_name": dataset_name, "as_of": bundle.get("as_of"),
+            # How far the impact cache reaches. The roster panel and the
+            # rankings both come from it and it does not grow by itself, so
+            # this date is the difference between "no players to show" and
+            # "nobody rebuilt the cache".
+            "player_games_through": (str(player_games["game_date"].max().date())
+                                     if len(player_games) else None),
+            "tipoffs": _tipoffs(), "n_played": n_played,
+            "current_season": current_season,
             "simulation_module": _load_sibling("simulation") if simulator else None,
             "calibration_module": calibration_module}
 
@@ -365,7 +480,7 @@ def _team_ids(dataset):
 
 
 def get_state():
-    """Create-once accessor â€” nothing is reloaded per request."""
+    """Create-once accessor - nothing is reloaded per request."""
     global _STATE
     if _STATE is None:
         _STATE = _load_state()
@@ -439,31 +554,48 @@ def _ratings_for_game(state, game_id):
 # ===========================================================================
 #  Display helpers
 # ===========================================================================
-def _badge(state, game_id, season):
+def _badge(state, game_id, season, is_played):
+    """Which of the four states this game is in. Nothing falls through."""
+    if not is_played:
+        return BADGE_UPCOMING
+    if season > TARGET_SEASON:
+        return BADGE_UNSEEN
     if season == TARGET_SEASON and game_id in state["test_game_ids"]:
         return BADGE_OUT_OF_SAMPLE
     return BADGE_IN_SAMPLE
 
 
 def _game_summary(state, g):
+    """One card's worth of a game, played or not.
+
+    A game with no result yet sends JSON null for the five result fields and
+    for model_correct, never a coerced value: bool(float('nan')) is True and
+    g["home_win"] == 1 is False, so coercing would make every fixture either
+    "the home team won" or "the model got it wrong", and the page would count
+    it in the accuracy on screen. is_played rides along so the card and every
+    counter can tell the two apart without inspecting the fields.
+    """
     p_home = float(g["model_home_prob"])
-    home_won = bool(int(g["home_win"]))
+    played = bool(g["is_played"])
+    home_won = bool(int(g["home_win"])) if played else None
     return {
         "game_id": g["game_id"],
         "date": str(g["game_date"].date()),
         "season": g["season"],
+        "is_played": played,
+        "tipoff_utc": state["tipoffs"].get(g["game_id"]),
         "matchup": f"{g['away_team']} @ {g['home_team']}",
         "home_team": g["home_team"],
         "away_team": g["away_team"],
         "home_team_id": state["team_ids"].get(g["home_team"]),
         "away_team_id": state["team_ids"].get(g["away_team"]),
-        "home_score": float(g["home_score"]),
-        "away_score": float(g["away_score"]),
+        "home_score": float(g["home_score"]) if played else None,
+        "away_score": float(g["away_score"]) if played else None,
         "home_win": home_won,
         "model_home_prob": round(p_home, 3),
         "model_pick": g["home_team"] if p_home > 0.5 else g["away_team"],
-        "model_correct": (p_home > 0.5) == home_won,
-        "badge": _badge(state, g["game_id"], g["season"]),
+        "model_correct": ((p_home > 0.5) == home_won) if played else None,
+        "badge": _badge(state, g["game_id"], g["season"], played),
     }
 
 
@@ -474,12 +606,25 @@ def _roster_impact_for_team(state, team, as_of_date, top_n=6):
     before `as_of_date` was for that team (handles trades); trailing means are
     taken over their own history regardless of jersey, mirroring
     get_current_roster_impact's strictly-before-the-game windows.
+
+    It refuses to answer from a stale cache. The player history comes from
+    game_impact_cache_v4.pkl on disk, which does not grow by itself: when it
+    stops before the game being shown, "the most recent appearance" is from
+    last season and this returned whoever finished that season on the team -
+    every trade and signing since then invisible, under a panel the reader
+    takes for today's team sheet. Nothing errored and nothing looked wrong.
+    So if the team has no player-game within ROSTER_STALE_DAYS before the
+    game, the answer is nothing rather than a guess, and the caller can say
+    the cache needs rebuilding (backfill_impact_from_db.py).
     """
     pg = state["player_games"]
     if pg is None or pg.empty:
         return []
     hist = pg[pg["game_date"] < as_of_date]
     if hist.empty:
+        return []
+    fresh = hist[hist["team"] == team]
+    if fresh.empty or (as_of_date - fresh["game_date"].max()).days > ROSTER_STALE_DAYS:
         return []
     latest = hist.groupby("player", sort=False).tail(1)
     roster = set(latest.loc[latest["team"] == team, "player"])
@@ -556,11 +701,29 @@ def api_meta():
         "months": sorted(df["month"].unique().tolist(), reverse=True),
         "split_date": state["split_date"],
         "n_held_out": len(state["test_game_ids"]),
-        "n_games": int(len(df)),
+        # Played games only. The fixtures are counted separately, because the
+        # brand line read "10,903 mac" while 8 of them had not been played.
+        "n_games": state["n_played"],
+        "n_unplayed": int(len(df)) - state["n_played"],
+        # Every game the models were never fitted on: the held-out slice of the
+        # season they were trained through, plus every season after it. The
+        # page used to name only the first group, which made its own honesty
+        # paragraph wrong about the 146 games of the season in progress.
+        "n_unseen_season": int((df["season"] > TARGET_SEASON).sum()),
+        "trained_through": TARGET_SEASON,
+        "current_season": state["current_season"],
+        # The build is rebuilt daily and gitignored, so staleness is a real
+        # failure mode: an old build would show finished games as fixtures
+        # forever with nothing on screen to say so.
+        "dataset": state["dataset_name"],
+        "as_of": state["as_of"],
+        "player_games_through": state["player_games_through"],
         "metrics": _honest_metrics(),
         "has_calibrator": state["calibrator"] is not None,
         "has_simulator": state["simulator"] is not None,
         "sim_season": state["sim"].season if state["sim"] is not None else None,
+        # Named so it cannot be read as the live season: both are 2026-27 now.
+        "sim_is_simulation": True,
     })
 
 
@@ -581,7 +744,12 @@ def api_games():
     # A phone should not be handed 8000 rows; the filters exist to narrow it.
     limit = min(int(request.args.get("limit", 300) or 300), 1000)
     games = [_game_summary(state, g) for _, g in df.head(limit).iterrows()]
-    return jsonify({"count": int(len(df)), "shown": len(games), "games": games})
+    # Counted apart so the accuracy strip on the page has a denominator of
+    # games that were actually played.
+    played = int(df["is_played"].sum())
+    return jsonify({"count": int(len(df)), "count_played": played,
+                    "count_unplayed": int(len(df)) - played,
+                    "shown": len(games), "games": games})
 
 
 @app.route("/api/predict/<game_id>")
@@ -625,19 +793,28 @@ def api_predict(game_id):
     predicted["home_win_prob"] = round(shown_prob, 3)
     predicted["predicted_winner"] = g["home_team"] if shown_prob > 0.5 else g["away_team"]
 
-    actual_winner = g["home_team"] if int(g["home_win"]) else g["away_team"]
     out = _game_summary(state, g)
     out["predicted"] = predicted
     out["simulation"] = _simulate_game(state, row)
     out["ratings"] = _ratings_for_game(state, gid)
+    # The block stays, with every field null, instead of becoming null itself:
+    # the page reads `actual.home_score` in six places, so a missing object
+    # would throw where a missing number shows a dash. `correct_winner` is
+    # null, never False - grading the model against a game nobody has played
+    # is how the page came to print "wrong" next to tonight's forecast.
+    played = bool(g["is_played"])
+    actual_winner = None
+    if played:
+        actual_winner = g["home_team"] if int(g["home_win"]) else g["away_team"]
     out["actual"] = {
-        "home_score": float(g["home_score"]),
-        "away_score": float(g["away_score"]),
-        "point_diff": float(g["point_diff"]),
-        "total_score": float(g["total_score"]),
-        "home_win": int(g["home_win"]),
+        "home_score": float(g["home_score"]) if played else None,
+        "away_score": float(g["away_score"]) if played else None,
+        "point_diff": float(g["point_diff"]) if played else None,
+        "total_score": float(g["total_score"]) if played else None,
+        "home_win": int(g["home_win"]) if played else None,
         "winner": actual_winner,
-        "correct_winner": bool(predicted["predicted_winner"] == actual_winner),
+        "correct_winner": (bool(predicted["predicted_winner"] == actual_winner)
+                           if played else None),
     }
     out["roster_impact"] = {
         "home": _roster_impact_for_team(state, g["home_team"], g["game_date"]),

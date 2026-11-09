@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
 <title>NBA Tahmin Paneli</title>
-<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=5">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=6">
 </head>
 <body>
 
@@ -39,7 +39,8 @@
 <div class="filters">
   <select id="seasonSel" aria-label="Sezon"><option value="">Tüm sezonlar</option></select>
   <select id="monthSel" aria-label="Ay"><option value="">Tüm aylar</option></select>
-  <label><input type="checkbox" id="heldOnly"> sadece held-out</label>
+  <label><input type="checkbox" id="heldOnly"> eğitimde olmayan</label>
+  <label><input type="checkbox" id="upcomingOnly"> oynanmamış</label>
   <button id="resetBtn" type="button">Sıfırla</button>
 </div>
 
@@ -160,9 +161,25 @@ const $ = s => document.querySelector(s);
 const mainEl = $('#main');
 const state = {team:'', selected:null, teamIds:{}, games:[], meta:null};
 
-const pct = v => (v * 100).toFixed(1) + '%';
-const pct0 = v => Math.round(v * 100) + '%';
-const sign = v => (v > 0 ? '+' : '') + v.toFixed(1);
+// Oynanmamış maçta sonuç alanları null gelir. Biçimlendiriciler bunu tire
+// olarak gösterir; eskiden null.toFixed çağrısı panelin tamamını hata
+// mesajına çeviriyordu. `== null` hem null hem undefined'ı yakalar.
+const DASH = '–';
+const pct = v => v == null ? DASH : (v * 100).toFixed(1) + '%';
+const pct0 = v => v == null ? DASH : Math.round(v * 100) + '%';
+const sign = v => v == null ? DASH : (v > 0 ? '+' : '') + v.toFixed(1);
+const num0 = v => v == null ? DASH : v.toFixed(0);
+// Rozetin dört hali var; eskiden iki kol vardı ve "değilse eğitimde" diyordu,
+// bu yüzden modelin hiç görmediği 2026-27 maçları "eğitimde" etiketi alıyordu.
+const BADGE_TEXT = {'upcoming': 'oynanmadı', 'unseen': 'görmedi',
+                    'out-of-sample': 'held-out', 'in-sample': 'eğitimde'};
+const badgeText = b => BADGE_TEXT[b && b.key] || (b && b.key) || '';
+// Tip-off saatini yerel saatle, yalnızca saat:dakika olarak göster.
+const tipoff = iso => {
+  if (!iso) return '';
+  const d = new Date(iso);
+  return isNaN(d) ? '' : d.toLocaleTimeString('tr-TR', {hour: '2-digit', minute: '2-digit'});
+};
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
 function team(abbr) { return TEAMS[abbr] || {name: abbr, c: '#888'}; }
@@ -215,19 +232,37 @@ async function loadMeta() {
   fillSelect($('#seasonSel'), m.seasons, seasonLabel);
   fillSelect($('#monthSel'), m.months);
   const k = m.metrics, seasons = m.seasons;
+  const asOf = m.as_of ? new Date(m.as_of) : null;
   $('#brandSub').textContent =
-    `${seasonLabel(seasons[0])} → ${seasonLabel(seasons[seasons.length - 1])} · ${m.n_games.toLocaleString('tr-TR')} maç`;
+    `${seasonLabel(seasons[0])} → ${seasonLabel(seasons[seasons.length - 1])} · ` +
+    `${m.n_games.toLocaleString('tr-TR')} oynanmış maç` +
+    (m.n_unplayed ? ` · ${m.n_unplayed} maç bekliyor` : '') +
+    (asOf && !isNaN(asOf) ? ` · veri ${asOf.toLocaleString('tr-TR', {dateStyle: 'short', timeStyle: 'short'})}` : '');
   $('#metrics').innerHTML =
     `<span class="pill pos">kazananı bilme <b>${pct(k.accuracy)}</b> ±${(k.accuracy_std * 100).toFixed(1)}</span>` +
     `<span class="pill">taban <b>${pct(k.naive_baseline)}</b></span>` +
     `<span class="pill">AUC <b>${k.auc.toFixed(3)}</b></span>` +
-    `<span class="pill">held-out <b>${m.n_held_out}</b> maç</span>`;
+    `<span class="pill">eğitimde yok <b>${(m.n_held_out + (m.n_unseen_season || 0)).toLocaleString('tr-TR')}</b> maç</span>`;
+  // Panonun kendi etiketlerini açıkladığı yer. Dört kategori var ve hiçbiri
+  // "geri kalan her şey eğitimdedir" diye varsayılmıyor: eski iki kollu
+  // sürüm, modelin hiç görmediği 2026-27 maçlarını "eğitimde" diye
+  // etiketleyip tam bunun tersini yazıyordu.
   $('#honesty').innerHTML =
     `<b>Rakamlar nasıl ölçüldü?</b> ${esc(k.protocol)}. Taban: her ay daha çok kazanan tarafı ` +
-    `seçmek. <b>Held-out</b> etiketi, ${m.split_date} sonrası ${m.n_held_out} maç: modeller bu maçları ` +
-    `hiç görmedi; o maçlarda tek split ${pct(k.single_split_accuracy)} veriyor ama ${esc(k.single_split_note)}. ` +
-    `<b>Eğitimde</b> etiketli maçlarda tahmin iyimserdir, model sonucu görmüştür. ` +
-    `Kadro feature'ları maç öncesi forma listesinden kurulur; maç içinden hiçbir bilgi kullanılmaz.`;
+    `seçmek. Modeller ${seasonLabel(m.trained_through)} sonuna kadar eğitildi, dört etiket bunu anlatır. ` +
+    `<b>held-out</b>: ${m.split_date} sonrası ${m.n_held_out} maç, eğitimde yok. ` +
+    (m.n_unseen_season
+      ? `<b>görmedi</b>: ${seasonLabel(m.trained_through)} sonrasının ${m.n_unseen_season} maçı, eğitimde hiç yok. `
+      : '') +
+    `<b>eğitimde</b>: model bu sonucu gördü, tahmin iyimserdir. ` +
+    (m.n_unplayed ? `<b>oynanmadı</b>: ${m.n_unplayed} maç, panodaki tek gerçek tahmin. ` : '') +
+    `İlk üçü <i>geri test</i>: kadro, tahmin edilen maçın kutu skorundan okunur, yani model kimin ` +
+    `oynadığını bilir; maç içinden başka hiçbir bilgi kullanılmaz. Yalnızca "oynanmadı" etiketli ` +
+    `maçlar tip-off öncesi kurulmuş tahminlerdir. Tek split ${pct(k.single_split_accuracy)} veriyor ama ` +
+    `${esc(k.single_split_note)}.` +
+    (m.player_games_through
+      ? ` Kadro etkisi ve güç sıralaması ${m.player_games_through} tarihine kadar kurulu.`
+      : '');
   buildTeamStrip(m.teams);
   if (m.sim_season) { simState.season = m.sim_season; $('#simTab').hidden = false; }
 }
@@ -274,18 +309,22 @@ function setTeam(abbr) {
 function gameCard(g) {
   const el = document.createElement('button');
   el.className = 'game'; el.type = 'button'; el.dataset.id = g.game_id;
-  const homeWon = g.home_win;
+  // Oynanmamış maçta skor yok, kazanan yok, doğru/yanlış yok - ama tahmin var.
+  const played = g.is_played !== false;
+  const homeWon = played && g.home_win;
   const row = (abbr, score, won, home) =>
-    `<div class="row${won ? ' won' : ''}">${logo(abbr, 28)}<span class="ab">${esc(abbr)}</span>` +
+    `<div class="row${played && won ? ' won' : ''}">${logo(abbr, 28)}<span class="ab">${esc(abbr)}</span>` +
     (home ? '<span class="hm">ev</span>' : '') +
     `<span class="nm">${esc(team(abbr).name)}</span>` +
-    `<span class="sc">${score.toFixed(0)}</span></div>`;
+    `<span class="sc">${num0(score)}</span></div>`;
   const p = g.model_home_prob, pickProb = g.model_pick === g.home_team ? p : 1 - p;
+  const when = played ? g.date : (tipoff(g.tipoff_utc) || g.date);
   el.innerHTML =
     `<div class="rows">${row(g.away_team, g.away_score, !homeWon, false)}${row(g.home_team, g.home_score, homeWon, true)}</div>` +
-    `<div class="side"><span class="dt">${g.date}</span>` +
-    `<span class="tag ${g.badge.key}">${g.badge.key === 'out-of-sample' ? 'held-out' : 'eğitimde'}</span>` +
-    `<span class="pick ${g.model_correct ? 'ok' : 'no'}" title="modelin seçimi">${g.model_correct ? '✓' : '✕'} ${esc(g.model_pick)} <span class="p">${pct0(pickProb)}</span></span></div>`;
+    `<div class="side"><span class="dt">${esc(when)}</span>` +
+    `<span class="tag ${esc(g.badge.key)}" title="${esc(g.badge.label)}">${badgeText(g.badge)}</span>` +
+    `<span class="pick ${!played ? 'pend' : g.model_correct ? 'ok' : 'no'}" title="modelin seçimi">` +
+    `${!played ? '' : g.model_correct ? '✓ ' : '✕ '}${esc(g.model_pick)} <span class="p">${pct0(pickProb)}</span></span></div>`;
   el.addEventListener('click', () => selectGame(g.game_id));
   return el;
 }
@@ -294,21 +333,28 @@ function teamHead(games) {
   const box = $('#teamHead');
   if (!state.team) { box.innerHTML = ''; return; }
   const abbr = state.team, t = team(abbr);
-  let w = 0, l = 0, hit = 0, held = 0, heldHit = 0;
+  let w = 0, l = 0, hit = 0, held = 0, heldHit = 0, n = 0;
   for (const g of games) {
+    // Oynanmamış maç bir özet satırına girmez: home_win null olduğu için
+    // `!g.home_win` true çıkıyor ve deplasmana hayalet bir galibiyet,
+    // modele hayalet bir hata yazılıyordu.
+    if (g.is_played === false) continue;
+    n++;
     const isHome = g.home_team === abbr;
     const won = isHome ? g.home_win : !g.home_win;
     won ? w++ : l++;
     if (g.model_correct) hit++;
-    if (g.badge.key === 'out-of-sample') { held++; if (g.model_correct) heldHit++; }
+    if (g.badge.key === 'out-of-sample' || g.badge.key === 'unseen') {
+      held++; if (g.model_correct) heldHit++;
+    }
   }
-  const n = games.length;
+  const pending = games.length - n;
   box.innerHTML = `<div class="team-head" style="--tc:${color(abbr)}">${logo(abbr, 72)}
-    <div><div class="nm">${esc(t.name)}</div><div class="ab">${esc(abbr)} · listedeki ${n} maç</div></div>
+    <div><div class="nm">${esc(t.name)}</div><div class="ab">${esc(abbr)} · oynanmış ${n} maç${pending ? ` · ${pending} oynanmadı` : ''}</div></div>
     <div class="stats">
       <span>galibiyet</span><b>${w}–${l}</b>
       <span>model isabeti</span><b>${n ? pct0(hit / n) : '–'}</b>
-      ${held ? `<span>held-out</span><b>${pct0(heldHit / held)} <small>(${held})</small></b>` : ''}
+      ${held ? `<span>eğitimde değil</span><b>${pct0(heldHit / held)} <small>(${held})</small></b>` : ''}
     </div></div>`;
 }
 
@@ -322,12 +368,20 @@ async function loadGames() {
   try {
     const d = await getJSON('/api/games?' + p.toString());
     let games = d.games;
-    if ($('#heldOnly').checked) games = games.filter(g => g.badge.key === 'out-of-sample');
+    // "sadece held-out" artık "eğitimde olmayan" demek: aksi halde modelin
+    // hiç görmediği 2026-27 maçları bu filtrenin dışında kalıyordu.
+    if ($('#heldOnly').checked) games = games.filter(g => g.badge.key !== 'in-sample');
+    if ($('#upcomingOnly').checked) games = games.filter(g => g.is_played === false);
     state.games = games;
-    const hits = games.filter(g => g.model_correct).length;
+    // İsabet oranının böleni yalnızca oynanmış maçlar. Oynanmamışlar bölene
+    // girince headline isabet her maç günü sessizce düşüyordu.
+    const graded = games.filter(g => g.is_played !== false);
+    const hits = graded.filter(g => g.model_correct).length;
+    const pending = games.length - graded.length;
     $('#gameCount').textContent =
       (d.shown < d.count ? `${d.count} maç · en yeni ${d.shown} gösteriliyor` : `${games.length} maç`) +
-      (games.length ? ` · model ${hits}/${games.length} (${pct0(hits / games.length)})` : '');
+      (graded.length ? ` · model ${hits}/${graded.length} (${pct0(hits / graded.length)})` : '') +
+      (pending ? ` · ${pending} maç oynanmadı` : '');
     teamHead(games);
     const frag = document.createDocumentFragment();
     games.forEach(g => frag.appendChild(gameCard(g)));
@@ -376,29 +430,33 @@ function rosterList(players, tc) {
 }
 
 function renderDetail(d) {
-  const pr = d.predicted, ac = d.actual, sim = d.simulation, rt = d.ratings;
+  const pr = d.predicted, ac = d.actual || {}, sim = d.simulation, rt = d.ratings;
   const H = d.home_team, A = d.away_team, hc = color(H), acol = color(A);
   const p = pr.home_win_prob, pickHome = p > 0.5, pick = pickHome ? H : A;
   const pickProb = pickHome ? p : 1 - p;
-  const homeWon = !!ac.home_win;
+  // Oynanmamış maçta sonuç alanlarının hepsi null; kazanan da yok, hüküm de.
+  const played = d.is_played !== false;
+  const homeWon = played && !!ac.home_win;
 
   let html = `<div class="card hero" style="--hc:${hc};--ac:${acol}">
-    <div class="meta"><span>${d.date}</span><span>${seasonLabel(d.season)}</span>
-      <span class="tag ${d.badge.key}">${d.badge.key === 'out-of-sample' ? 'held-out' : 'eğitimde'}</span></div>
+    <div class="meta"><span>${esc(d.date)}${!played && tipoff(d.tipoff_utc) ? ' ' + tipoff(d.tipoff_utc) : ''}</span><span>${seasonLabel(d.season)}</span>
+      <span class="tag ${esc(d.badge.key)}" title="${esc(d.badge.label)}">${badgeText(d.badge)}</span></div>
     <div class="face">
-      <div class="side-box${homeWon ? '' : ' won'}">${logo(A, 72)}<div class="ab">${esc(A)}</div>
-        <div class="nm">${esc(team(A).name)}</div><div class="sc">${ac.away_score.toFixed(0)}</div><div class="where">deplasman</div></div>
-      <div class="vs"><span class="fin">final</span>@</div>
+      <div class="side-box${played && !homeWon ? ' won' : ''}">${logo(A, 72)}<div class="ab">${esc(A)}</div>
+        <div class="nm">${esc(team(A).name)}</div><div class="sc">${num0(ac.away_score)}</div><div class="where">deplasman</div></div>
+      <div class="vs"><span class="fin">${played ? 'final' : 'oynanmadı'}</span>@</div>
       <div class="side-box${homeWon ? ' won' : ''}">${logo(H, 72)}<div class="ab">${esc(H)}</div>
-        <div class="nm">${esc(team(H).name)}</div><div class="sc">${ac.home_score.toFixed(0)}</div><div class="where">ev sahibi</div></div>
+        <div class="nm">${esc(team(H).name)}</div><div class="sc">${num0(ac.home_score)}</div><div class="where">ev sahibi</div></div>
     </div>
     <div class="tug-wrap">
       <div class="tug-labels"><span><b>${pct0(1 - p)}</b> ${esc(A)}</span><span>${esc(H)} <b>${pct0(p)}</b></span></div>
       <div class="tug"><i style="width:${(1 - p) * 100}%;background:${acol}"></i><i style="width:${p * 100}%;background:${hc}"></i></div>
       <div class="tug-note">modelin ev sahibi kazanma olasılığı · kaynak: ${pr.source === 'blend' ? 'üç görüşün ortalaması' : pr.source}</div>
     </div>
-    <div class="verdict ${ac.correct_winner ? 'ok' : 'no'}">${ac.correct_winner ? '✓ doğru bildi' : '✕ yanlış bildi'}
-      · model <span class="p">${esc(pick)} ${pct(pickProb)}</span> dedi, kazanan ${esc(ac.winner)}</div>
+    ${played
+      ? `<div class="verdict ${ac.correct_winner ? 'ok' : 'no'}">${ac.correct_winner ? '✓ doğru bildi' : '✕ yanlış bildi'}
+      · model <span class="p">${esc(pick)} ${pct(pickProb)}</span> dedi, kazanan ${esc(ac.winner)}</div>`
+      : `<div class="verdict pend">henüz oynanmadı · model <span class="p">${esc(pick)} ${pct(pickProb)}</span> diyor</div>`}
   </div>`;
 
   const cls = v => v > 0 ? 'pos' : (v < 0 ? 'neg' : '');
@@ -406,13 +464,13 @@ function renderDetail(d) {
   html += `<div class="card"><h2>Skor tahmini <small>${sim ? `simülasyon ${sim.draws.toLocaleString('tr-TR')} çekiliş, ${sim.interval} aralık` : 'simülasyon yok'}</small></h2>
     <table class="grid"><thead><tr><th></th><th>simülasyon</th><th>model</th><th>gerçek</th></tr></thead><tbody>
       <tr><td>${esc(H)} skoru</td><td>${simCell(sim && sim.home_score, sim && sim.home_score_range, v => v.toFixed(0))}</td>
-        <td>${pr.home_score.toFixed(0)}</td><td class="real">${ac.home_score.toFixed(0)}</td></tr>
+        <td>${num0(pr.home_score)}</td><td class="real">${num0(ac.home_score)}</td></tr>
       <tr><td>${esc(A)} skoru</td><td>${sim ? sim.away_score.toFixed(0) : '–'}</td>
-        <td>${pr.away_score.toFixed(0)}</td><td class="real">${ac.away_score.toFixed(0)}</td></tr>
+        <td>${num0(pr.away_score)}</td><td class="real">${num0(ac.away_score)}</td></tr>
       <tr><td>marj (ev − dep)</td><td class="${sim ? cls(sim.point_diff) : ''}">${simCell(sim && sim.point_diff, sim && sim.margin_range, sign)}</td>
-        <td class="${cls(pr.point_diff)}">${sign(pr.point_diff)}</td><td class="real ${cls(ac.point_diff)}">${sign(ac.point_diff)}</td></tr>
+        <td class="${cls(pr.point_diff)}">${sign(pr.point_diff)}</td><td class="real ${played ? cls(ac.point_diff) : ''}">${sign(ac.point_diff)}</td></tr>
       <tr><td>toplam</td><td>${simCell(sim && sim.total_score, sim && sim.total_range, v => v.toFixed(0))}</td>
-        <td>${pr.total_score.toFixed(0)}</td><td class="real">${ac.total_score.toFixed(0)}</td></tr>
+        <td>${num0(pr.total_score)}</td><td class="real">${num0(ac.total_score)}</td></tr>
     </tbody></table>
     <div class="foot">Simülasyon sütunu beş çıktıyı aynı çekilişlerden okur, birbiriyle çelişmez; "model" sütunu beş ayrı regresyon modelidir.</div>
   </div>`;
@@ -473,9 +531,10 @@ $('#infoBtn').addEventListener('click', () => {
   $('#honesty').classList.toggle('open', open);
   $('#infoBtn').setAttribute('aria-expanded', String(open));
 });
-['#seasonSel', '#monthSel', '#heldOnly'].forEach(id => $(id).addEventListener('change', loadGames));
+['#seasonSel', '#monthSel', '#heldOnly', '#upcomingOnly'].forEach(id => $(id).addEventListener('change', loadGames));
 $('#resetBtn').addEventListener('click', () => {
   $('#seasonSel').value = ''; $('#monthSel').value = ''; $('#heldOnly').checked = false;
+  $('#upcomingOnly').checked = false;
   setTeam('');
 });
 

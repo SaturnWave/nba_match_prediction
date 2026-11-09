@@ -155,12 +155,18 @@ main.showing-detail #detailPane{display:block}
   padding:4px 8px;border-radius:7px;white-space:nowrap;font-variant-numeric:tabular-nums}
 .pick.ok{background:var(--pos-soft);color:var(--pos)}
 .pick.no{background:var(--neg-soft);color:var(--neg)}
+/* Oynanmamis mac: tahmin var, dogru/yanlis yok. Ne yesil ne kirmizi. */
+.pick.pend{background:transparent;color:var(--muted);border:1px solid var(--line-strong)}
 .pick .p{font-weight:700}
 
 .tag{font-family:var(--mono);font-size:10px;letter-spacing:.06em;
   text-transform:uppercase;padding:3px 7px;border-radius:5px;white-space:nowrap}
 .tag.out-of-sample{background:var(--pos-soft);color:var(--pos)}
 .tag.in-sample{background:var(--warn-soft);color:var(--warn)}
+/* Henuz oynanmadi: panonun tek gercek tahmini, o yuzden dikkat rengi. */
+.tag.upcoming{background:var(--accent-soft);color:var(--accent)}
+/* Modelin egitiminde olmayan sezon: geri test, held-out gibi ama ayri. */
+.tag.unseen{background:transparent;color:var(--muted);border:1px solid var(--line-strong)}
 
 /* ---------- detay ---------- */
 .backbtn{display:none;align-items:center;gap:8px;background:none;border:0;
@@ -208,6 +214,8 @@ main.showing-detail .backbtn{display:flex}
   font-size:14px;padding:7px 12px;border-radius:9px;margin-top:12px}
 .verdict.ok{background:var(--pos-soft);color:var(--pos)}
 .verdict.no{background:var(--neg-soft);color:var(--neg)}
+/* Oynanmamis macta hukum yok: modelin dedigi durur, dogru/yanlis durmaz. */
+.verdict.pend{background:var(--accent-soft);color:var(--accent)}
 .verdict .p{font-family:var(--mono);font-weight:700}
 
 /* skor tablosu */

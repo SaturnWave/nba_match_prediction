@@ -68,8 +68,11 @@ header.top{background:var(--surface);border-bottom:1px solid var(--line);
   background:var(--warn-soft);color:var(--warn);border:1px solid var(--warn)}
 .banner div + div{margin-top:6px}
 .banner b{color:var(--warn)}
+/* anywhere, break-all degil: break-all komutu rastgele bir harfte kesiyordu
+   ("prediction_engines/bu ild_dataset_asof.py"), bu once normal kirilma
+   noktasini deniyor. */
 .banner code{font-family:var(--mono);font-size:12px;background:rgba(0,0,0,.12);
-  padding:1px 5px;border-radius:4px;word-break:break-all}
+  padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}
 .honesty b{color:var(--accent)}
 
 /* ---------- takım şeridi ---------- */

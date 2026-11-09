@@ -289,7 +289,12 @@ def main():
     parser.add_argument("--out", default=OUT_PATH)
     args = parser.parse_args()
     blob = build(days=args.days)
-    pd.to_pickle(blob, args.out)
+    # Temp file then replace. The dashboard reads this file and it is rebuilt
+    # every day: writing in place means a dashboard started mid-build reads a
+    # half-written pickle, and os.path.exists still calls that file present.
+    partial = f"{args.out}.part"
+    pd.to_pickle(blob, partial)
+    os.replace(partial, args.out)
     print(f"Yazildi: {args.out}")
     if not args.check:
         return 0

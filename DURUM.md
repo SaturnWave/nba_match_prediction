@@ -631,11 +631,22 @@ py data_retriaval/backfill_defensive_tracking.py 2026_2027       # defansif kutu
 py data_retriaval/retrieve_matchups.py 2026_2027                 # matchup'lar
 py tools/check_data.py 2026_2027                                 # hangi macta hangi dosya eksik
 py prediction_engines/build_dataset_asof.py                      # oynanan maclar + siradaki gunun maclari
+py prediction_engines/backfill_impact_from_db.py --source csv --seasons 2026_2027   # panonun kadro/siralama verisi
+py prediction_engines/value_engine.py --seasons 2026_2027        # oyuncu OVR'inin deger tarafi
 py prediction_engines/forecast_upcoming.py                       # o maclarin tahmini, output/forecasts/
+py prediction_engines/forecast_vs_market.py                      # tahminler ve piyasa cizgisi yan yana
 py prediction_engines/sim_vs_real.py                             # simulasyon ile oynanan maclar, ~1 dk
 py data_retriaval/odds_run_all.py                                # bahis cizgileri: arsiv + ESPN (kaldigi yerden)
 py prediction_engines/market_lab.py                              # oranlar modele ne katiyor
 ```
+
+İki önbellek bu listede olmasaydı sessizce geride kalırdı: `game_impact_cache_v4.pkl`
+(panonun kadro paneli ve güç sıralaması) ve `output/value_cache_v1.pkl` (oyuncu
+OVR'ının değer tarafı). `build_dataset_asof.py` yalnızca modelin okuduğu
+`value_cache_unweighted.pkl` ile `game_impact_cache_v5.pkl`'i yazar; bu ikisine
+hiç dokunmaz. Geride kaldıklarında pano hata vermez, yalnızca daha eski bir ligi
+anlatır — o yüzden pano artık ikisinin de kapsamını `/api/meta`'da bildiriyor ve
+geride kalınca sayfanın başına uyarı basıyor.
 
 Dashboard'un doğruluk rakamı `output/metrics_2025_26.json` →
 `honest_walk_forward` bloğundan okunur (yeniden eğitim lab raporundan kopyalar).

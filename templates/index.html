@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
 <title>NBA Tahmin Paneli</title>
-<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=6">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=7">
 </head>
 <body>
 
@@ -21,6 +21,10 @@
             aria-controls="honesty" title="Rakamlar nasıl ölçüldü?">?</button>
   </div>
   <div class="pills" id="metrics"></div>
+  <!-- Panonun eski bir dünyayı gösterdiğini söylemek zorunda olduğu yer.
+       Dürüstlük paragrafı "?" düğmesine basılana kadar gizli, o yüzden bu
+       uyarı oraya konulamaz: görülmesi gereken tek şey o. -->
+  <div class="banner" id="staleBanner" hidden></div>
   <div class="honesty" id="honesty"></div>
 </header>
 
@@ -263,8 +267,38 @@ async function loadMeta() {
     (m.player_games_through
       ? ` Kadro etkisi ve güç sıralaması ${m.player_games_through} tarihine kadar kurulu.`
       : '');
+  renderStaleBanner(m);
   buildTeamStrip(m.teams);
   if (m.sim_season) { simState.season = m.sim_season; $('#simTab').hidden = false; }
+}
+
+// Panonun eski bir dünyayı gösterdiği üç hâli, ekranda. Hiçbiri hata değil,
+// hepsi sessiz: sayfa normal görünür ve yürümekte olan sezonu göstermediğini
+// söylemez. Sunucu bunları başlangıçta da yazar ama pano ayrık çalıştığı için
+// o satırları kimse görmez.
+function renderStaleBanner(m) {
+  const el = $('#staleBanner');
+  const lines = [];
+  if (m.dataset !== 'asof') {
+    lines.push('<b>Bu sezon gösterilmiyor.</b> Günlük veri seti ' +
+      '(engineered_dataset_asof.pkl) bulunamadı, pano eski üretim veri setini ' +
+      'servis ediyor. Kurmak için: <code>py prediction_engines/build_dataset_asof.py</code>');
+  } else if (m.as_of) {
+    const hours = (Date.now() - new Date(m.as_of).getTime()) / 36e5;
+    if (hours > 36) {
+      lines.push(`<b>Veri ${Math.floor(hours / 24)} gün eski.</b> O tarihten sonra oynanan ` +
+        'maçlar hâlâ "oynanmadı" görünür. Tazelemek için: ' +
+        '<code>py prediction_engines/build_dataset_asof.py</code>');
+    }
+  }
+  if (m.player_games_through && m.last_played && m.player_games_through < m.last_played) {
+    lines.push(`<b>Kadro verisi geride.</b> Impact önbelleği ${m.player_games_through} ` +
+      `tarihinde bitiyor, son maç ${m.last_played}. Güç sıralaması ve kadro paneli o tarihe ` +
+      'kadarını anlatır. Düzeltmek için: <code>py prediction_engines/backfill_impact_from_db.py ' +
+      '--source csv --seasons ' + (m.current_season || '') + '</code>');
+  }
+  el.innerHTML = lines.map(t => `<div>${t}</div>`).join('');
+  el.hidden = lines.length === 0;
 }
 
 function buildTeamStrip(teams) {

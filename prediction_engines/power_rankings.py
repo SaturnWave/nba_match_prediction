@@ -81,6 +81,10 @@ TEAM_OVR_RANGE = (60, 99)
 PLAYER_OVR_FLOOR, PLAYER_OVR_SPAN, PLAYER_OVR_CURVE = 65.0, 34.0, 2.6
 PLAYER_MIN_MINUTES = 12.0
 PLAYER_MIN_GAMES_CAP = {"week": 1, "month": 3, "season": 10}
+# Every column players() indexes by. Named once so an empty table cannot ship
+# a narrower frame than the full one.
+PLAYER_TABLE_COLUMNS = ["player", "name", "team", "games", "minutes", "impact",
+                        "value", "minutes_total", "ovr", "ovr_prod", "empty", "ovr_source"]
 ROSTER_TOP_N = 8
 TREND_DAYS_SEASON = 28
 
@@ -282,8 +286,12 @@ class RankingEngine:
         """Per player over [start, end]: games, minutes, impact per game, team."""
         pg = self.player_games
         w = pg[(pg["game_date"] >= start) & (pg["game_date"] <= end)]
+        # Both empty returns carry the full column set. players() indexes the
+        # frame by eleven names, so a short frame raised KeyError there, which
+        # the dashboard reported as "period not found" - a code fault dressed
+        # up as missing data.
         if w.empty:
-            return pd.DataFrame(columns=["player", "name", "team", "games", "minutes", "impact", "ovr"])
+            return pd.DataFrame(columns=PLAYER_TABLE_COLUMNS)
         if "value" not in w.columns:
             w = w.assign(value=np.nan)
         agg = (w.sort_values("game_date").groupby("player", sort=False)
@@ -296,6 +304,7 @@ class RankingEngine:
             qualified["ovr"] = []
             qualified["ovr_prod"] = []
             qualified["empty"] = []
+            qualified["ovr_source"] = []
             return qualified
         # Two overalls: value (plays priced in points, leverage-weighted) is the
         # one that ranks; production (the raw impact score) is kept so the gap

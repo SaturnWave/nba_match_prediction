@@ -63,6 +63,13 @@ header.top{background:var(--surface);border-bottom:1px solid var(--line);
 .honesty{display:none;margin-top:10px;padding:10px 12px;border-radius:10px;
   background:var(--accent-soft);border:1px solid var(--accent);font-size:13.5px;color:var(--ink)}
 .honesty.open{display:block}
+/* Gizlenemez: panonun eski veri gosterdigini soyledigi tek yer. */
+.banner{margin-top:10px;padding:10px 12px;border-radius:10px;font-size:13px;line-height:1.5;
+  background:var(--warn-soft);color:var(--warn);border:1px solid var(--warn)}
+.banner div + div{margin-top:6px}
+.banner b{color:var(--warn)}
+.banner code{font-family:var(--mono);font-size:12px;background:rgba(0,0,0,.12);
+  padding:1px 5px;border-radius:4px;word-break:break-all}
 .honesty b{color:var(--accent)}
 
 /* ---------- takım şeridi ---------- */

@@ -334,8 +334,15 @@ def _tipoffs():
 
 def _load_state():
     dataset_path, dataset_name = _dataset_choice()
-    with open(dataset_path, "rb") as f:
-        bundle = pickle.load(f)
+    try:
+        with open(dataset_path, "rb") as f:
+            bundle = pickle.load(f)
+    except (OSError, pickle.UnpicklingError, EOFError) as exc:
+        # One readable line instead of a traceback. The builder writes this
+        # file atomically now, so a half-written pickle should not happen -
+        # but if it ever does, the reader must say what to run.
+        raise SystemExit(f"{os.path.basename(dataset_path)} okunamadi ({exc}). "
+                         f"Yeniden kurmak icin: py prediction_engines/build_dataset_asof.py") from exc
     dataset = bundle["dataset"].copy()
     features = _trained_features(bundle)
     dataset["game_id"] = dataset["game_id"].astype(str).str.zfill(10)
@@ -729,6 +736,10 @@ def api_meta():
         "dataset": state["dataset_name"],
         "as_of": state["as_of"],
         "player_games_through": state["player_games_through"],
+        # So the page can see for itself whether the impact cache has fallen
+        # behind the games, instead of trusting a server-side print nobody
+        # reads when the dashboard runs detached.
+        "last_played": str(df.loc[df["is_played"], "game_date"].max().date()),
         "metrics": _honest_metrics(),
         "has_calibrator": state["calibrator"] is not None,
         "has_simulator": state["simulator"] is not None,

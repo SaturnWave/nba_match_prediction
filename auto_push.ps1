@@ -9,7 +9,7 @@
 # Gecici durdurmak: schtasks /Change /TN "NBA repo auto-push" /DISABLE
 
 $ErrorActionPreference = "Stop"
-$repo = "C:\Users\arcan\OneDrive\Desktop\NBA\nba_match_prediction"
+$repo = $PSScriptRoot   # sabit yol yaziliydi; repo tasininca gorev aylarca sessizce bos dondu
 $log  = Join-Path $repo "auto_push.log"
 
 # Otomatik commit edilecek yollar - veri ve uretilmis ciktilar.

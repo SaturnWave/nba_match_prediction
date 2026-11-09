@@ -410,6 +410,17 @@ def _load_state():
         seen = int((dataset["season"] > TARGET_SEASON).sum())
         print(f"[startup] {seen} mac modellerin egitildigi sezondan sonra "
               f"({TARGET_SEASON} sonrasi) - hepsi out-of-sample")
+    # The impact cache is a separate file that nothing rebuilds automatically.
+    # When it falls behind the games, the rankings and the roster panel quietly
+    # describe an older league; say so here rather than letting the page look
+    # merely empty.
+    last_played = dataset.loc[dataset["is_played"], "game_date"].max()
+    if len(player_games) and player_games["game_date"].max() < last_played:
+        print(f"[startup] UYARI: impact onbellegi "
+              f"{player_games['game_date'].max().date()} tarihinde bitiyor, son mac "
+              f"{last_played.date()} - guc siralamasi ve kadro paneli geride. "
+              f"Duzeltmek icin: py prediction_engines/backfill_impact_from_db.py "
+              f"--source csv --seasons {current_season}")
     return {"dataset": dataset, "features": features, "models": models,
             "blend": blend, "team_ids": _team_ids(dataset), "rankings": rankings,
             "sim": _load_sim_season(),

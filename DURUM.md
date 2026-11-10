@@ -663,6 +663,79 @@ geride kalınca sayfanın başına uyarı basıyor.
 Dashboard'un doğruluk rakamı `output/metrics_2025_26.json` →
 `honest_walk_forward` bloğundan okunur (yeniden eğitim lab raporundan kopyalar).
 
+## Yeniden eğitim kararı — 2026-11-10: BEKLE
+
+Soru: yürümekte olan sezonun maçlarını katıp modeli yeniden eğitmeli miyiz?
+Cevap ölçüldü, tahmin edilmedi. Karar **bekle**; gerekçe sırayla:
+
+**1. Belirleyici A/B deneyi kazanç göstermiyor.** İki geçmiş sezonda iki kol fit
+edildi — biri sezon öncesine kadar, diğeri aynı veri + sezonun ilk 154 maçı — ve
+ikisi de aynı 1.076 maçta ölçüldü. Blend isabetinde eşleştirilmiş fark
+2025_2026'da **+0,0000** (SE 0,0037), 2024_2025'te **−0,0009** (SE 0,0025). Doz
+artırmak değiştirmiyor: 400 maçta +0,0000, 600 maçta −0,0016. Kanıtın gücü tek
+sezonun hata payından değil, iki sezonda da farkın sıfır olmasından geliyor.
+
+**2. Bugün eğitmek ölçülebilir şekilde zarar verirdi.** `retrain_production.py`
+erken durdurma dilimini eğitim satırlarının son %10'undan alıyor
+(`STOP_SHARE=0.10`). Sezon içi maçlar o dilime girince seçilen ağaç sayısı
+71 → 50'ye düşüyor ve Brier 0,2070 → **0,2122** oluyor. Gözlenen tek gerçek
+değişim eklenen bilgiden değil, bu kaymadan geliyor. Ağaç sayısı iki kolda
+sabitlenince 154 maçın net etkisi: isabet −0,0019 ± 0,0032, Brier +0,0000.
+
+**3. "Yalnızca kalibratörü yenile" bir tuzak.** Kalibratör doğru biçimde yalnızca
+`retrain_production.py` içinde üretiliyor. Tek başına çalıştırılabilen
+`calibration.py` ise `output/engineered_dataset_2025_26.pkl`'yi okuyor — 8.289
+maç, `roster` anahtarı yok, yani **gözlenen kadro = sızıntılı** veri seti — ve
+aynı kalibratör dosyasının üzerine yazıyor. Ucuz görünen hamle en riskli olanı.
+
+**Bozulma kanıtı yok, ama bozulmadığı da gösterilmedi.** Bu sezon 154 maçta
+isabet 0,7208 / Brier 0,2011 / log-loss 0,5885 / AUC 0,7554, kalibrasyon eğimi
+1,156 ± 0,226. n=154 ancak ~10 puanlık bir isabet çöküşünü %80 güçle yakalar.
+Dikkat: "0,72 > walk-forward referansı 0,6865, demek ki sağlıklı" **geçersiz** bir
+kıyas — referans yalnızca burn-in ≥ 10 ve Kasım-Nisan hücrelerinden geliyor, bu
+sezonun maçları o filtrenin dışında ve dilim gerçekten kolay (aynı maçlarda
+piyasa da ~0,72).
+
+**Sevk edilen model geçen sezonun sonuna kadar eğitilmedi.** `metrics_2025_26.json`:
+`n_train=10441`, `n_test=308`, `split_date=2026-03-04`. Tazelik açığı 146 maç
+değil, **462 maç ve ~8 ay**.
+
+**Kararı değiştirecek eşik.** `consistency_lab.py` burn-in ≥ 10 ve en az 40 test
+maçı istiyor; takvime göre uygun maçlar **2026-11-15**'te başlıyor, n≥300'e
+~2026-12-31'de ulaşılıyor. O noktada şunlardan biri olursa karar "şimdi eğit"e
+döner:
+
+- blend isabeti **0,63**'ün altına düşerse (referans 0,6865; n=300'de 2 SE ≈ 0,054)
+- model − piyasa isabet farkı **−0,05**'ten kötü olursa (bugün −0,009, tarihsel −0,0134)
+- model − piyasa Brier farkı **+0,030**'u geçerse (tarihsel +0,0104)
+
+Ölçüm komutu: `py prediction_engines/confidence_buckets.py` (bölüm 2).
+
+**Yine de eğitilecekse** sırayla: (a) `is_played == True` filtresi şart — 8 fikstür
+satırının etiketi NaN ve LightGBM `ValueError` ile düşer; (b) `TARGET_SEASON`
+sabit olduğu için held-out, eğitim satırlarından **önceki** bir dilime düşer
+(kronoloji ters döner); (c) `--out` yok, 19 üretim dosyası üzerine yazılır, geri
+dönüş yalnızca `git checkout`; (d) `app.py:94`'teki `TARGET_SEASON` elle
+değişmezse pano bu sezonun maçlarını "model görmedi" diye etiketlemeye devam
+eder; (e) önce `STOP_SHARE` kayması düzeltilmeli.
+
+**Beklemenin bedeli ağırlıklar değil, veri.** Takas, sakatlık ve form modele
+feature üzerinden giriyor; ağırlıkları yeniden fitlemenin ekleyeceği bir şey yok,
+`build_dataset_asof.py`'yi günlük koşmamanın ise var.
+
+**Test edilmemiş asıl aday:** eski veriyi ağırlıklandırmak (recency weighting) ya
+da yalnızca son N sezonu kullanmak. Deney "eski veriye 154 maç ekle" kurgusunu
+test etti; 146 maç %1,34 ağırlıkla eriyip gidiyor.
+
+**Güç sıralaması oturdu mu?** Dokuz sezonda ölçüldü: ilk 154 maçtan çıkan sıralama
+sezonun kalanını Spearman **0,606 ± 0,165** ile öngörüyor, ilk-8'in 4,3'ü hayatta
+kalıyor, ortalama takım 6 sıra oynuyor. Mutlak anlamda oturmamış. Ama tavan da
+düşük: takım başına 40 maç aynı ölçümde 0,723, yarım sezon 0,68 — yani **154 maçta
+elde edilebilir sinyalin %84'ü zaten masada**. Bu sezonun yaz değişimi olağandan
+az (geçiş rho 0,534; tarihsel ortalama 0,483 ± 0,065). Not: sıralama sütunları
+modelin girdisi **değil** — 196 üretim feature'ının hiçbiri Elo/Massey/rating
+değil — dolayısıyla bu bulgu yeniden eğitim için gerekçe üretmiyor.
+
 ## Sonraki adım adayları
 
 1. **Maç öncesi sakatlık raporu.** `roster_missing_impact` bunun geriye dönük

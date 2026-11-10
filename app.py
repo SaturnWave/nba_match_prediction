@@ -776,7 +776,12 @@ def _game_summary(state, g):
         "home_win": home_won,
         "model_home_prob": round(p_home, 3),
         "model_pick": g["home_team"] if p_home > 0.5 else g["away_team"],
+        # Guven = max(p, 1-p): modelin SECTIGI tarafa ne kadar emin oldugu.
+        # has_pred burada her zaman True - bu uc nokta yalnizca veri setindeki
+        # maclari servis eder - ama alan takvimdekiyle ayni adi tasiyor, cunku
+        # sayfadaki guven filtresi ikisini de ayni kodla suzuyor.
         "confidence": round(max(p_home, 1.0 - p_home), 3),
+        "has_pred": True,
         "model_correct": ((p_home > 0.5) == home_won) if played else None,
         "badge": _badge(state, g["game_id"], g["season"], played,
                         played and not built_played),

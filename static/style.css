@@ -91,7 +91,12 @@ nav.teams{background:var(--surface);border-bottom:1px solid var(--line);flex:0 0
 .tbtn.all{width:auto;padding:0 12px;font-weight:650;font-size:13px}
 
 /* logo çipi: logo açık zemin üzerinde durur; yüklenemezse kısaltma rozeti */
+/* Olcu varsayilani burada duruyor cunku tanimlanmamis bir .sNN sinifi logoyu
+   SVG'nin dogal boyutunda buyutuyor: takvim hucresine 18px'lik logo konuldugunda
+   hucre 312px yuksekliginde bir Pacers amblemine donusmustu. Tanimsiz olcu artik
+   28px'e duser, sayfayi patlatmaz. */
 .logo{display:inline-flex;align-items:center;justify-content:center;border-radius:50%;
+  width:28px;height:28px;font-size:28px;
   background:var(--logo-bg);box-shadow:inset 0 0 0 1px rgba(0,0,0,.08);flex:0 0 auto;overflow:hidden}
 .logo img{width:78%;height:78%;object-fit:contain}
 .logo b{display:none;width:100%;height:100%;align-items:center;justify-content:center;
@@ -99,6 +104,8 @@ nav.teams{background:var(--surface);border-bottom:1px solid var(--line);flex:0 0
   text-shadow:0 1px 2px rgba(0,0,0,.5)}
 .logo.nologo img{display:none}
 .logo.nologo b{display:flex}
+.logo.s16{width:16px;height:16px;font-size:16px}
+.logo.s18{width:18px;height:18px;font-size:18px}
 .logo.s28{width:28px;height:28px;font-size:28px}
 .logo.s36{width:36px;height:36px;font-size:36px}
 .logo.s44{width:44px;height:44px;font-size:44px}
@@ -507,3 +514,29 @@ nav.views .seg{flex:0 0 auto}
    satir 530px'e cikip "?" dugmesini ekranin disina itiyordu. */
 .brand-text{min-width:0;flex:1}
 .brand h1{white-space:nowrap}
+
+/* ---------- guven esigi kaydiraci ----------
+   Esik %50'de kapali. Yukari cekildiginde takvimde elenen maclar solgun kalir
+   (ayin kutusunun sekli bozulmasin), listede gizlenir. */
+.confbar{display:flex;align-items:center;gap:10px;margin-bottom:10px;
+  font-family:var(--mono);font-size:11.5px;color:var(--muted)}
+.confbar label{white-space:nowrap}
+.confbar output{min-width:52px;text-align:right;font-weight:700;color:var(--ink);
+  font-variant-numeric:tabular-nums}
+.confrange{flex:1;min-width:90px;accent-color:var(--accent);height:var(--tap);margin:0}
+
+/* Esigin altinda kalan mac: ne dogru ne yanlis, "bu filtrenin disinda". */
+.dot.out{background:transparent;box-shadow:inset 0 0 0 1px var(--line);opacity:.5}
+.game.dim{opacity:.4}
+/* Takim secili hucrede sonuc ayri daire degil, logonun halkasi. */
+.cal-mine .mini{display:flex;align-items:center;gap:1px}
+.cal-mine .mini .logo{box-shadow:inset 0 0 0 1px rgba(0,0,0,.08),0 0 0 1.5px var(--line-strong)}
+.cal-mine .mini.ok .logo{box-shadow:inset 0 0 0 1px rgba(0,0,0,.08),0 0 0 1.5px var(--pos)}
+.cal-mine .mini.no .logo{box-shadow:inset 0 0 0 1px rgba(0,0,0,.08),0 0 0 1.5px var(--neg)}
+.cal-mine .mini.pend .logo{box-shadow:inset 0 0 0 1px rgba(0,0,0,.08),0 0 0 1.5px var(--accent)}
+.cal-mine .mini.out{opacity:.35}
+
+/* Liste gorunumunun kaydiracı: filtre cubugu yana kaydigi icin kendi satirinda. */
+.confbar.listconf{margin:0;padding:8px 16px;background:var(--surface);
+  border-bottom:1px solid var(--line);flex:0 0 auto}
+.confbar.listconf .confrange{height:36px}

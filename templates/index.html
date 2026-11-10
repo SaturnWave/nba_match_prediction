@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
 <title>NBA Tahmin Paneli</title>
-<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=9">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=11">
 </head>
 <body>
 
@@ -48,6 +48,14 @@
   <label><input type="checkbox" id="upcomingOnly"> oynanmamış</label>
   <button id="resetBtn" type="button">Sıfırla</button>
 </div>
+<!-- Filtre çubuğu telefonda yana kayıyor; kaydırıcı orada kalsa görünmezdi.
+     Kendi satırında duruyor ve takvimdekiyle aynı eşiği paylaşıyor. -->
+<div class="confbar listconf" id="listConfBar">
+  <label for="listConf">güven eşiği</label>
+  <input type="range" class="confrange" id="listConf" min="50" max="95" step="1" value="50"
+         aria-label="Güven eşiği">
+  <output class="confout" for="listConf">kapalı</output>
+</div>
 
 <main id="main">
   <section class="pane" id="listPane">
@@ -72,6 +80,14 @@
     <select id="calMonthSel" aria-label="Ay"></select>
     <button type="button" id="calNext" aria-label="Sonraki ay">›</button>
     <button type="button" id="calToday" class="ghost">bugün</button>
+  </div>
+  <!-- Güven eşiği. %50 = filtre kapalı; yukarı çekildikçe modelin daha emin
+       olduğu maçlar kalır ve ay karnesi o maçlar üzerinden yeniden sayılır. -->
+  <div class="confbar">
+    <label for="calConf">güven eşiği</label>
+    <input type="range" class="confrange" id="calConf" min="50" max="95" step="1" value="50"
+           aria-label="Güven eşiği">
+    <output class="confout" for="calConf">kapalı</output>
   </div>
   <div class="cal-meta" id="calMeta">yükleniyor…</div>
   <div class="cal-grid" id="calGrid"></div>
@@ -189,7 +205,8 @@ const FALLBACK_IDS = {ATL:1610612737,BKN:1610612751,BOS:1610612738,CHA:161061276
 
 const $ = s => document.querySelector(s);
 const mainEl = $('#main');
-const state = {team:'', selected:null, teamIds:{}, games:[], meta:null};
+const state = {team:'', selected:null, teamIds:{}, games:[], meta:null,
+               fetched:null, minConf:0.5};
 
 // Oynanmamış maçta sonuç alanları null gelir. Biçimlendiriciler bunu tire
 // olarak gösterir; eskiden null.toFixed çağrısı panelin tamamını hata
@@ -435,6 +452,9 @@ function teamHead(games) {
     </div></div>`;
 }
 
+// Getirme ve çizme ayrı: güven eşiği sürüklenirken her piksel için sunucuya
+// 300 maç sorulmasın diye. Ham cevap state.fetched'da durur, filtreler
+// istemcide uygulanır.
 async function loadGames() {
   const p = new URLSearchParams();
   if ($('#seasonSel').value) p.set('season', $('#seasonSel').value);
@@ -443,32 +463,47 @@ async function loadGames() {
   $('#gameCount').textContent = 'yükleniyor…';
   $('#gameList').innerHTML = '';
   try {
-    const d = await getJSON('/api/games?' + p.toString());
-    let games = d.games;
-    // "sadece held-out" artık "eğitimde olmayan" demek: aksi halde modelin
-    // hiç görmediği 2026-27 maçları bu filtrenin dışında kalıyordu.
-    if ($('#heldOnly').checked) games = games.filter(g => g.badge.key !== 'in-sample');
-    if ($('#upcomingOnly').checked) games = games.filter(g => g.is_played === false);
-    state.games = games;
-    // İsabet oranının böleni yalnızca oynanmış maçlar. Oynanmamışlar bölene
-    // girince headline isabet her maç günü sessizce düşüyordu.
-    const graded = games.filter(g => g.is_played !== false);
-    const hits = graded.filter(g => g.model_correct).length;
-    const pending = games.length - graded.length;
-    $('#gameCount').textContent =
-      (d.shown < d.count ? `${d.count} maç · en yeni ${d.shown} gösteriliyor` : `${games.length} maç`) +
-      (graded.length ? ` · model ${hits}/${graded.length} (${pct0(hits / graded.length)})` : '') +
-      (pending ? ` · ${pending} maç oynanmadı` : '');
-    teamHead(games);
-    const frag = document.createDocumentFragment();
-    games.forEach(g => frag.appendChild(gameCard(g)));
-    $('#gameList').appendChild(frag);
-    if (!games.length) $('#gameList').innerHTML = '<div class="empty">Bu filtreye uyan maç yok</div>';
-    if (state.selected) markSelected(state.selected);
+    state.fetched = await getJSON('/api/games?' + p.toString());
+    renderGames();
   } catch (e) {
+    state.fetched = null;
     $('#gameCount').textContent = '';
     $('#gameList').innerHTML = `<div class="err">Liste alınamadı: ${esc(e.message)}</div>`;
   }
+}
+
+function renderGames() {
+  const d = state.fetched;
+  if (!d) return;
+  let games = d.games;
+  // "sadece held-out" artık "eğitimde olmayan" demek: aksi halde modelin
+  // hiç görmediği 2026-27 maçları bu filtrenin dışında kalıyordu.
+  if ($('#heldOnly').checked) games = games.filter(g => g.badge.key !== 'in-sample');
+  if ($('#upcomingOnly').checked) games = games.filter(g => g.is_played === false);
+  // Listede eşiğin altındaki maç gizlenir (takvimde solgun kalır: orada ayın
+  // kutusu bozulmasın diye). Eşiksiz oran yanında durur ki filtrenin ne
+  // kazandırdığı görünsün.
+  const before = games.length;
+  const beforeGraded = games.filter(g => g.model_correct != null);
+  games = games.filter(passes);
+  state.games = games;
+  const graded = games.filter(g => g.model_correct != null);
+  const hits = graded.filter(g => g.model_correct).length;
+  const pending = games.filter(g => g.is_played === false).length;
+  const baseHits = beforeGraded.filter(g => g.model_correct).length;
+  $('#gameCount').textContent =
+    (d.shown < d.count ? `${d.count} maç · en yeni ${d.shown} gösteriliyor` : `${games.length} maç`) +
+    (filterOn() ? ` · güven ≥ %${Math.round(state.minConf * 100)}: ${games.length}/${before}` : '') +
+    (graded.length ? ` · model ${hits}/${graded.length} (${pct0(hits / graded.length)})` : '') +
+    (filterOn() && beforeGraded.length ? ` · eşiksiz ${pct0(baseHits / beforeGraded.length)}` : '') +
+    (pending ? ` · ${pending} maç oynanmadı` : '');
+  teamHead(games);
+  const frag = document.createDocumentFragment();
+  games.forEach(g => frag.appendChild(gameCard(g)));
+  $('#gameList').innerHTML = '';
+  $('#gameList').appendChild(frag);
+  if (!games.length) $('#gameList').innerHTML = '<div class="empty">Bu filtreye uyan maç yok</div>';
+  if (state.selected) markSelected(state.selected);
 }
 
 function markSelected(id) {
@@ -628,6 +663,38 @@ const dayLabel = d => {
 const dotClass = g => !g.has_pred ? 'none' : (!g.is_played ? 'pend'
                       : (g.model_correct ? 'ok' : 'no'));
 
+// --- güven eşiği ------------------------------------------------------------
+// Eşik %50'de filtre KAPALI: %50 "yazı tura" demek, altında maç yok, o yüzden
+// orada bir şeyi elemek yanlış olurdu. Eşik yükseldiğinde elenenler ızgarada
+// solgun kalır (ay kutusunun şekli bozulmasın), listede ise gizlenir.
+const filterOn = () => state.minConf > 0.5;
+const passes = g => !filterOn() || (g.has_pred && g.confidence >= state.minConf);
+const markClass = g => passes(g) ? dotClass(g) : 'out';
+
+// Eşiği geçen maçların karnesi. Oynanmamış maç böleni şişirmesin diye
+// model_correct'i null olan hiçbir maç graded'a girmiyor.
+function tally(games) {
+  let n = 0, graded = 0, hits = 0;
+  for (const g of games) {
+    if (!passes(g)) continue;
+    n++;
+    if (g.model_correct == null) continue;
+    graded++;
+    if (g.model_correct) hits++;
+  }
+  return {n, graded, hits};
+}
+
+function setConf(value, source) {
+  state.minConf = value / 100;
+  document.querySelectorAll('.confrange').forEach(el => { if (el !== source) el.value = value; });
+  document.querySelectorAll('.confout').forEach(el => {
+    el.textContent = value <= 50 ? 'kapalı' : '%' + value;
+  });
+  if (state.view === 'cal' && cal.data) { renderCalendar(); selectDay(cal.date); }
+  if (state.view === 'games') renderGames();
+}
+
 async function loadCalendar(month) {
   const p = new URLSearchParams();
   const want = month || cal.month;
@@ -693,8 +760,17 @@ function renderCalendar() {
   $('#calGrid').innerHTML = WEEKDAYS.map(w => `<div class="cal-wd">${w}</div>`).join('')
     + cells.join('');
 
-  const parts = [`${d.n} maç`];
-  if (d.graded) parts.push(`model ${d.hits}/${d.graded} (${pct0(d.hits / d.graded)})`);
+  // Eşik açıkken aydaki sayılar eşiği geçen maçlardan sayılır: filtrenin ne
+  // kazandırdığı ancak kendi paydasıyla okunur.
+  const all = Object.values(cal.days).flatMap(x => x.games);
+  const t = tally(all);
+  const parts = filterOn()
+    ? [`güven ≥ %${Math.round(state.minConf * 100)}`,
+       `${t.n}/${d.n} maç`,
+       ...(t.graded ? [`model ${t.hits}/${t.graded} (${pct0(t.hits / t.graded)})`] : []),
+       ...(d.graded ? [`eşiksiz ${pct0(d.hits / d.graded)}`] : [])]
+    : [`${d.n} maç`];
+  if (!filterOn() && d.graded) parts.push(`model ${d.hits}/${d.graded} (${pct0(d.hits / d.graded)})`);
   if (d.n_pre_tipoff) parts.push(`${d.n_pre_tipoff} tanesi tip-off öncesi yazıldı`);
   if (d.n_unplayed) parts.push(`${d.n_unplayed} oynanmadı`);
   // Oynanmış ama tahmini olmayan maç = veri seti o maçtan önce kurulmuş.
@@ -734,18 +810,20 @@ function calCell(date, n, day) {
   let body = '';
   if (cal.data.team && games.length) {
     // Takım seçiliyse hücre o takımın rakibini gösterir - 2K'da olduğu gibi
-    // kendi fikstürünü okumak için.
+    // kendi fikstürünü okumak için. Sonuç ayrı bir daire değil, logonun
+    // halkası: hücre 45px geniş, oraya daire + "@" + logo sığmıyordu.
     body = '<div class="cal-mine">' + games.map(g => {
       const home = g.home_team === cal.data.team;
       const opp = home ? g.away_team : g.home_team;
-      return `<span class="mini"><i class="dot ${dotClass(g)}"></i>` +
+      return `<span class="mini ${markClass(g)}">` +
              `${home ? '' : '<span class="at">@</span>'}${logo(opp, 18)}</span>`;
     }).join('') + '</div>';
   } else if (games.length) {
     body = '<div class="cal-dots">' +
-      games.map(g => `<i class="dot ${dotClass(g)}"></i>`).join('') + '</div>';
+      games.map(g => `<i class="dot ${markClass(g)}"></i>`).join('') + '</div>';
   }
-  const rec = day && day.graded ? `<span class="rec">${day.hits}/${day.graded}</span>` : '';
+  const t = day ? tally(games) : null;
+  const rec = t && t.graded ? `<span class="rec">${t.hits}/${t.graded}</span>` : '';
   return `<button type="button" class="${cls.join(' ')}" data-date="${date}"${games.length ? '' : ' disabled'}>` +
          `<span class="dn">${n}</span>${rec}${body}</button>`;
 }
@@ -761,8 +839,10 @@ function selectDay(date) {
     list.innerHTML = '<div class="empty">Bu gün maç yok</div>';
     return;
   }
+  const t = tally(day.games);
   head.innerHTML = `${esc(dayLabel(date))} <small>${day.n} maç` +
-    (day.graded ? ` · model ${day.hits}/${day.graded}` : '') + '</small>';
+    (filterOn() ? ` · eşiği geçen ${t.n}` : '') +
+    (t.graded ? ` · model ${t.hits}/${t.graded}` : '') + '</small>';
   const frag = document.createDocumentFragment();
   day.games.forEach(g => frag.appendChild(calGameCard(g)));
   list.innerHTML = '';
@@ -771,7 +851,7 @@ function selectDay(date) {
 
 function calGameCard(g) {
   const el = document.createElement('button');
-  el.className = 'game' + (g.has_pred ? '' : ' nopred');
+  el.className = 'game' + (g.has_pred ? '' : ' nopred') + (passes(g) ? '' : ' dim');
   el.type = 'button'; el.dataset.id = g.game_id;
   // Tahmini olmayan maçın detay sayfası da yoktur: /api/predict onu bulamaz.
   el.disabled = !g.has_pred;
@@ -841,10 +921,15 @@ $('#infoBtn').addEventListener('click', () => {
   $('#honesty').classList.toggle('open', open);
   $('#infoBtn').setAttribute('aria-expanded', String(open));
 });
-['#seasonSel', '#monthSel', '#heldOnly', '#upcomingOnly'].forEach(id => $(id).addEventListener('change', loadGames));
+// Sezon/ay sunucudan yeniden ister; kutular ve güven eşiği istemcide çizer.
+['#seasonSel', '#monthSel'].forEach(id => $(id).addEventListener('change', loadGames));
+['#heldOnly', '#upcomingOnly'].forEach(id => $(id).addEventListener('change', renderGames));
+document.querySelectorAll('.confrange').forEach(el =>
+  el.addEventListener('input', () => setConf(Number(el.value), el)));
 $('#resetBtn').addEventListener('click', () => {
   $('#seasonSel').value = ''; $('#monthSel').value = ''; $('#heldOnly').checked = false;
   $('#upcomingOnly').checked = false;
+  setConf(50, null);
   setTeam('');
 });
 
@@ -874,6 +959,7 @@ function setView(view) {
   const sim = view === 'sim', sub = sim ? simState.sub : null;
   const showRank = view === 'rank' || sub === 'rank';
   $('.filters').hidden = view !== 'games';
+  $('#listConfBar').hidden = view !== 'games';
   mainEl.hidden = view !== 'games';
   $('#calView').hidden = view !== 'cal';
   if (view === 'cal' && !cal.data) loadCalendar();

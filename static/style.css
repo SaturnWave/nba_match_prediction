@@ -429,3 +429,81 @@ table.boxt tr.tot td{border-top:2px solid var(--line-strong);font-weight:700}
 .play.sc .tx{font-weight:650}
 .logo.s20{width:20px;height:20px;font-size:20px}
 .logo.blank{background:transparent;box-shadow:none}
+
+/* ---------- takvim ----------
+   Ayin izgarasi. Bir gun hucresi gunun maclarini daire olarak gosterir:
+   yesil model tuttu, kirmizi tutmadi, turuncu oynanmadi, bos daire tahmin
+   yok. Dorduncusu onemli - veri seti gunde bir kuruldugu icin dun oynanmis
+   bir mac bir sure tahminsiz kalir ve onu "yanlis" saymak modeli haksiz
+   yere suclardi. */
+.pane.cal{flex:1;overflow-y:auto}
+.cal-top{display:flex;gap:8px;align-items:center;margin-bottom:10px}
+.cal-top select{flex:1;min-width:0;font:inherit;font-size:15px;font-weight:650;min-height:var(--tap);
+  padding:0 10px;border:1px solid var(--line-strong);border-radius:10px;
+  background:var(--surface-2);color:var(--ink)}
+.cal-top button{min-width:var(--tap);min-height:var(--tap);border:1px solid var(--line-strong);
+  border-radius:10px;background:var(--surface-2);font-size:20px;line-height:1;cursor:pointer;
+  flex:0 0 auto;padding:0}
+.cal-top button:disabled{opacity:.35;cursor:default}
+.cal-top button.ghost{font-size:13px;font-weight:650;color:var(--accent);
+  background:var(--accent-soft);border-color:var(--accent);padding:0 12px;min-width:0}
+.cal-meta{font-family:var(--mono);font-size:11.5px;color:var(--muted);margin-bottom:10px;line-height:1.5}
+
+.cal-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px;margin-bottom:10px}
+.cal-wd{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.08em;
+  color:var(--faint);text-align:center;padding-bottom:2px}
+.cal-cell{position:relative;min-height:64px;border:1px solid var(--line);border-radius:10px;
+  background:var(--surface);padding:4px;display:flex;flex-direction:column;gap:4px;
+  text-align:left;cursor:pointer;box-shadow:var(--shadow);overflow:hidden;color:inherit}
+.cal-cell.pad{background:transparent;border-color:transparent;box-shadow:none;min-height:0}
+.cal-cell.off{background:var(--surface-2);box-shadow:none;cursor:default}
+.cal-cell .dn{font-family:var(--mono);font-size:12px;font-weight:700;color:var(--muted);line-height:1}
+.cal-cell.off .dn{color:var(--faint);font-weight:400}
+.cal-cell.today{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent),var(--shadow)}
+.cal-cell.today .dn{color:var(--accent)}
+.cal-cell.sel{border-color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--ink),var(--shadow)}
+.cal-cell .rec{position:absolute;top:3px;right:4px;font-family:var(--mono);font-size:9.5px;
+  color:var(--faint);font-variant-numeric:tabular-nums}
+.cal-dots{display:flex;flex-wrap:wrap;gap:3px;align-content:flex-start}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;flex:0 0 auto}
+.dot.ok{background:var(--pos)}
+.dot.no{background:var(--neg)}
+.dot.pend{background:var(--accent)}
+.dot.none{background:transparent;box-shadow:inset 0 0 0 1.5px var(--line-strong)}
+/* Takim seciliyken hucre o takimin rakibini gosterir. */
+.cal-mine{display:flex;flex-direction:column;gap:2px}
+.cal-mine .mini{display:flex;align-items:center;gap:2px}
+.cal-mine .at{font-family:var(--mono);font-size:9px;color:var(--faint)}
+.cal-key{display:flex;gap:12px;flex-wrap:wrap;font-family:var(--mono);font-size:10.5px;
+  color:var(--faint);margin-bottom:16px}
+.cal-key span{display:inline-flex;align-items:center;gap:5px}
+.cal-dayhead{font-size:15px;margin:0 0 8px;font-weight:700;letter-spacing:-.01em}
+.cal-dayhead small{font-family:var(--mono);font-size:11px;color:var(--muted);
+  font-weight:400;margin-left:6px}
+/* Tahmini olmayan mac tiklanmaz; kart bunu gorunur bicimde soyler. */
+.game.nopred{cursor:default;box-shadow:none;background:var(--surface-2)}
+.pick.none{background:transparent;color:var(--faint);border:1px dashed var(--line-strong)}
+.tag.pretip{background:var(--accent);color:var(--ground);font-weight:700}
+.tag.other{background:var(--surface-3);color:var(--muted)}
+
+/* Dort gorunum artik tek satira sigmiyor. */
+nav.views{overflow-x:auto;scrollbar-width:thin}
+nav.views .seg{flex:0 0 auto}
+
+@media (min-width:900px){
+  .pane.cal{align-self:center;width:100%;max-width:1080px}
+  .cal-cell{min-height:96px;padding:6px}
+  .cal-cell .dn{font-size:13px}
+  .dot{width:9px;height:9px}
+  .cal-grid{gap:6px}
+}
+
+/* Izgara ogesinin varsayilan min-width:auto degeri, takim adi uzun oldugunda
+   (Oklahoma City Thunder) karti 70px tasiriyor ve sag sutunu kirpiyordu.
+   Ad zaten ucnokta ile kisaliyor; sutunun kuculmesine izin vermek yeter. */
+.game .rows,.game .row{min-width:0}
+
+/* Ust bantta ozet satiri tek satira zorlanmis ve kisalmiyordu: telefonda
+   satir 530px'e cikip "?" dugmesini ekranin disina itiyordu. */
+.brand-text{min-width:0;flex:1}
+.brand h1{white-space:nowrap}

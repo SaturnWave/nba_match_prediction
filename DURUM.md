@@ -639,7 +639,18 @@ py prediction_engines/forecast_scorecard.py                      # tip-off onces
 py prediction_engines/sim_vs_real.py                             # simulasyon ile oynanan maclar, ~1 dk
 py data_retriaval/odds_run_all.py                                # bahis cizgileri: arsiv + ESPN (kaldigi yerden)
 py prediction_engines/market_lab.py                              # oranlar modele ne katiyor
+py prediction_engines/confidence_buckets.py                      # guven esigi ne satin aliyor (4 rejim)
+py prediction_engines/confidence_buckets.py --list --min 0.60    # esigi gecen maclar tek tek + CSV
 ```
+
+Pano **takvimle** açılıyor (`/api/calendar`): ayın ızgarası, her gün maçları ve
+modelin o gün tuttuğu/tutmadığı. Günler fikstür dosyasından, tahminler veri
+setinden geliyor; ikisi ayrı olduğu için gelecek maçlar "tahmin bekliyor" diye
+görünür. Daha ileriye tahmin istiyorsan `build_dataset_asof.py --days 3` (üç maç
+günü) ile kur. Veri seti günde bir kurulduğu için dün akşamın maçları bir süre
+veri setinde fikstür, fikstür dosyasında final olarak durur: pano sonucu
+fikstürden okuyup o tahminleri **"tip-off öncesi"** rozetiyle not ediyor — panodaki
+tek doğrulanmış tahmin cinsi odur.
 
 İki önbellek bu listede olmasaydı sessizce geride kalırdı: `game_impact_cache_v4.pkl`
 (panonun kadro paneli ve güç sıralaması) ve `output/value_cache_v1.pkl` (oyuncu

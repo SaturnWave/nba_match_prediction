@@ -179,6 +179,26 @@ def scheduled_finals():
                 & (frame["status"] == "final")).sum())
 
 
+def schedule_finals_frame():
+    """{game_id: final score} for every game the newest schedule calls over.
+
+    The build is a day old at most, but a day is a slate: without this the
+    list would silently drop the games whose predictions were written before
+    tip-off - the only forecasts in the file - because the build still has
+    them as fixtures with no result.
+    """
+    paths = sorted(glob.glob(os.path.join(PROJECT_ROOT, "game_ids", "schedule_*.csv")))
+    cols = ["game_id", "home_score", "away_score"]
+    if not paths:
+        return pd.DataFrame(columns=cols)
+    frame = pd.read_csv(paths[-1], dtype={"game_id": str})
+    frame["game_id"] = frame["game_id"].str.zfill(10)
+    for col in ("home_score", "away_score"):
+        frame[col] = pd.to_numeric(frame[col], errors="coerce")
+    done = frame[frame["home_score"].notna() & frame["away_score"].notna()]
+    return done[cols].reset_index(drop=True)
+
+
 def odds():
     if not os.path.exists(ODDS_PATH):
         return pd.DataFrame(columns=["game_id", "p_home_close"])
@@ -323,11 +343,102 @@ def dataset_slice(path, name, selector, regime_note, args, with_market,
         market_on_same_games(frame, args.min, "piyasa karsilastirmasi")
 
 
+def list_slice(args):
+    """The filter itself, game by game: this season's games over the threshold.
+
+    The tables above answer "does the filter buy anything". This answers the
+    other question - which games, and was the model right - because a rate
+    with no games under it cannot be checked by anyone.
+    """
+    path = os.path.join(OUTPUT_DIR, "engineered_dataset_asof.pkl")
+    if not os.path.exists(path):
+        print(f"{os.path.basename(path)} yok. Kurmak icin: "
+              f"py prediction_engines/build_dataset_asof.py")
+        return 1
+    bundle = pd.read_pickle(path)
+    dataset = bundle["dataset"].copy()
+    dataset["game_id"] = dataset["game_id"].astype(str).str.zfill(10)
+    dataset["game_date"] = pd.to_datetime(dataset["game_date"])
+    features = trained_features(bundle)
+    rows = dataset[dataset["season"] > TRAINED_SEASON].copy()
+    if rows.empty:
+        print("yurumekte olan sezondan mac yok")
+        return 1
+    models = load_models()
+    built_played = rows.get("is_played", pd.Series(True, index=rows.index)).astype(bool)
+    frame = pd.DataFrame({
+        "tarih": rows["game_date"].dt.strftime("%Y-%m-%d").to_numpy(),
+        "game_id": rows["game_id"].to_numpy(),
+        "ev": rows["home_team"].to_numpy(),
+        "deplasman": rows["away_team"].to_numpy(),
+        "p_ev": score(rows, features, models),
+        "ev_skor": rows["home_score"].where(built_played).to_numpy(),
+        "dep_skor": rows["away_score"].where(built_played).to_numpy(),
+        "tip_off_oncesi": ~built_played.to_numpy(),
+    })
+    del bundle, dataset, rows, models
+    gc.collect()
+
+    late = schedule_finals_frame().rename(
+        columns={"home_score": "ev_gec", "away_score": "dep_gec"})
+    frame = frame.merge(late, on="game_id", how="left")
+    frame["ev_skor"] = frame["ev_skor"].where(frame["ev_skor"].notna(), frame["ev_gec"])
+    frame["dep_skor"] = frame["dep_skor"].where(frame["dep_skor"].notna(), frame["dep_gec"])
+    frame = frame.drop(columns=["ev_gec", "dep_gec"])
+    # Oynanmamis mac filtrenin paydasina girmez; ayri sayilir.
+    played = frame["ev_skor"].notna() & frame["dep_skor"].notna()
+    frame["guven"] = confidence(frame["p_ev"].to_numpy())
+    frame["secim"] = np.where(frame["p_ev"] > 0.5, frame["ev"], frame["deplasman"])
+    frame["kazanan"] = np.where(frame["ev_skor"] > frame["dep_skor"],
+                                frame["ev"], frame["deplasman"])
+    frame.loc[~played, "kazanan"] = ""
+    frame["dogru"] = np.where(played, frame["secim"] == frame["kazanan"], None)
+
+    kept = frame[played & (frame["guven"] >= args.min)].sort_values(
+        ["tarih", "game_id"]).reset_index(drop=True)
+    total_played = int(played.sum())
+    print("=" * 78)
+    print(f"GUVEN >= %{args.min * 100:.0f} FILTRESI - {total_played} oynanmis mac "
+          f"icinden {len(kept)} tanesi")
+    print(f"({int((~played).sum())} mac henuz oynanmadi, filtreye girmedi)")
+    print("=" * 78)
+    print(f"{'tarih':11s} {'mac':14s} {'secim':6s} {'guven':>6s}  "
+          f"{'skor':>9s}  {'kazanan':7s} {'sonuc':5s} {'tip-off':7s}")
+    for g in kept.itertuples(index=False):
+        print(f"{g.tarih:11s} {g.deplasman + ' @ ' + g.ev:14s} {g.secim:6s} "
+              f"{g.guven:6.1%}  {int(g.dep_skor):4d}-{int(g.ev_skor):<4d}  "
+              f"{g.kazanan:7s} {'TUTTU' if g.dogru else 'yanlis':5s} "
+              f"{'oncesi' if g.tip_off_oncesi else '-':7s}")
+    hits = int(kept["dogru"].sum())
+    print("-" * 78)
+    print(f"  esigi gecen {len(kept)} mac: {hits} dogru, {len(kept) - hits} yanlis "
+          f"= {hits / len(kept):.1%}" if len(kept) else "  esigi gecen mac yok")
+    all_hits = int(frame.loc[played, "dogru"].sum())
+    print(f"  filtresiz {total_played} mac: {all_hits} dogru = "
+          f"{all_hits / total_played:.1%}")
+    print(f"  ilan edilen ortalama guven (esik ustu): {kept['guven'].mean():.1%}"
+          if len(kept) else "")
+    print("  Guven filtresinin isabeti yukseltmesi tek basina bir sey kanitlamaz:")
+    print("  kalibre bir modelde tanim geregi olur. Bedeli ustte: atilan mac sayisi.")
+    print("  Oranlar bir olcut; burada bahis tavsiyesi yok.")
+
+    out = os.path.join(OUTPUT_DIR,
+                       f"guven_filtresi_{int(args.min * 100)}.csv")
+    kept.to_csv(out, index=False, encoding="utf-8-sig")
+    print(f"\n  CSV: {out}")
+    return 0
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--min", type=float, default=0.60,
                         help="piyasa karsilastirmasinda kullanilacak guven esigi")
+    parser.add_argument("--list", action="store_true",
+                        help="tablolar yerine esigi gecen maclari tek tek yaz")
     args = parser.parse_args()
+
+    if args.list:
+        return list_slice(args)
 
     walk_forward_slice()
     forecast_slice(args)

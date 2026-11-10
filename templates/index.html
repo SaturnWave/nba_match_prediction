@@ -5,14 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
 <title>NBA Tahmin Paneli</title>
-<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=8">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=9">
 </head>
 <body>
 
 <header class="top">
   <div class="brand">
     <div class="ball" aria-hidden="true"></div>
-    <div>
+    <div class="brand-text">
       <h1>NBA Tahmin Paneli</h1>
       <div class="sub" id="brandSub">yükleniyor…</div>
     </div>
@@ -30,7 +30,8 @@
 
 <nav class="views" aria-label="Görünüm">
   <div class="seg" id="viewSeg">
-    <button type="button" data-view="games" aria-pressed="true">Maçlar</button>
+    <button type="button" data-view="cal" aria-pressed="true">Takvim</button>
+    <button type="button" data-view="games" aria-pressed="false">Maç Listesi</button>
     <button type="button" data-view="rank" aria-pressed="false">Güç Sıralaması</button>
     <button type="button" data-view="sim" aria-pressed="false" id="simTab" hidden>Sim Sezon <span class="simtag">SİM</span></button>
   </div>
@@ -59,6 +60,31 @@
     <div id="detail"><div class="empty"><div class="ball" aria-hidden="true"></div>Bir maç seçin</div></div>
   </section>
 </main>
+
+<!-- Takvim. Günler fikstür dosyasından gelir, tahminler veri setinden: bir
+     maçın tahmini yoksa hücrede boş daire olarak durur, listeden düşmez.
+     Veri seti günde bir kez kurulduğu için dünün maçı bir süre "tahmin var,
+     sonuç yeni geldi" halinde kalır - o maçlar tip-off öncesi yazılmış
+     gerçek tahminlerdir ve ayrıca işaretlenir. -->
+<section class="pane cal" id="calView" hidden>
+  <div class="cal-top">
+    <button type="button" id="calPrev" aria-label="Önceki ay">‹</button>
+    <select id="calMonthSel" aria-label="Ay"></select>
+    <button type="button" id="calNext" aria-label="Sonraki ay">›</button>
+    <button type="button" id="calToday" class="ghost">bugün</button>
+  </div>
+  <div class="cal-meta" id="calMeta">yükleniyor…</div>
+  <div class="cal-grid" id="calGrid"></div>
+  <div class="cal-key">
+    <span><i class="dot ok"></i>model tuttu</span>
+    <span><i class="dot no"></i>tutmadı</span>
+    <span><i class="dot pend"></i>oynanmadı</span>
+    <span><i class="dot none"></i>tahmin yok</span>
+  </div>
+  <div class="foot" id="calNote"></div>
+  <h2 class="cal-dayhead" id="calDayHead"></h2>
+  <div id="calDayList"></div>
+</section>
 
 <section class="pane rank" id="rankView" hidden>
   <div class="rank-controls">
@@ -176,8 +202,17 @@ const num0 = v => v == null ? DASH : v.toFixed(0);
 // Rozetin dört hali var; eskiden iki kol vardı ve "değilse eğitimde" diyordu,
 // bu yüzden modelin hiç görmediği 2026-27 maçları "eğitimde" etiketi alıyordu.
 const BADGE_TEXT = {'upcoming': 'oynanmadı', 'unseen': 'görmedi',
-                    'out-of-sample': 'held-out', 'in-sample': 'eğitimde'};
+                    'out-of-sample': 'held-out', 'in-sample': 'eğitimde',
+                    'pretip': 'tip-off öncesi'};
 const badgeText = b => BADGE_TEXT[b && b.key] || (b && b.key) || '';
+// Tip-off öncesi yazılmış ve sonucu gelmiş tahmin, geri testten başka bir
+// şeydir: rozet yerine onu söyler. Rozeti olmayan maç (takvimde, veri setinde
+// olmayan) hiç etiket almaz.
+function gameTag(g) {
+  if (g.pre_tipoff) return '<span class="tag pretip" title="tahmin maç başlamadan önce yazıldı">tip-off öncesi</span>';
+  if (!g.badge) return '';
+  return `<span class="tag ${esc(g.badge.key)}" title="${esc(g.badge.label)}">${badgeText(g.badge)}</span>`;
+}
 // Tip-off saatini yerel saatle, yalnızca saat:dakika olarak göster.
 const tipoff = iso => {
   if (!iso) return '';
@@ -259,10 +294,11 @@ async function loadMeta() {
       ? `<b>görmedi</b>: ${seasonLabel(m.trained_through)} sonrasının ${m.n_unseen_season} maçı, eğitimde hiç yok. `
       : '') +
     `<b>eğitimde</b>: model bu sonucu gördü, tahmin iyimserdir. ` +
-    (m.n_unplayed ? `<b>oynanmadı</b>: ${m.n_unplayed} maç, panodaki tek gerçek tahmin. ` : '') +
-    `İlk üçü <i>geri test</i>: kadro, tahmin edilen maçın kutu skorundan okunur, yani model kimin ` +
-    `oynadığını bilir; maç içinden başka hiçbir bilgi kullanılmaz. Yalnızca "oynanmadı" etiketli ` +
-    `maçlar tip-off öncesi kurulmuş tahminlerdir. Tek split ${pct(k.single_split_accuracy)} veriyor ama ` +
+    (m.n_unplayed ? `<b>oynanmadı</b>: ${m.n_unplayed} maç, henüz sonucu olmayan tahmin. ` : '') +
+    `<b>tip-off öncesi</b>: maç başlamadan yazılmış, sonucu sonra gelmiş tahmin - panodaki tek ` +
+    `doğrulanmış tahmin cinsi. İlk üçü <i>geri test</i>: kadro, tahmin edilen maçın kutu skorundan ` +
+    `okunur, yani model kimin oynadığını bilir; maç içinden başka hiçbir bilgi kullanılmaz. ` +
+    `Tek split ${pct(k.single_split_accuracy)} veriyor ama ` +
     `${esc(k.single_split_note)}.` +
     (m.player_games_through
       ? ` Kadro etkisi ve güç sıralaması ${m.player_games_through} tarihine kadar kurulu.`
@@ -327,6 +363,7 @@ function setTeam(abbr) {
   const active = document.querySelector(`.tbtn[data-team="${abbr}"]`);
   if (active) active.scrollIntoView({block: 'nearest', inline: 'center', behavior: 'smooth'});
   if (state.view === 'sim') { setSimTeam(abbr); return; }
+  if (state.view === 'cal') { cal.team = abbr; loadCalendar(); return; }
   if (state.view === 'rank') {
     rank.team = abbr;
     highlightRankTeam();
@@ -340,26 +377,32 @@ function setTeam(abbr) {
 // ---------------------------------------------------------------------------
 //  Maç listesi
 // ---------------------------------------------------------------------------
-function gameCard(g) {
-  const el = document.createElement('button');
-  el.className = 'game'; el.type = 'button'; el.dataset.id = g.game_id;
+// Maçın iki takım satırı. Takvim kartı da aynısını kullanır, böylece iki
+// görünüm aynı maçı farklı biçimde göstermez.
+function scoreRows(g) {
   // Oynanmamış maçta skor yok, kazanan yok, doğru/yanlış yok - ama tahmin var.
   const played = g.is_played !== false;
-  const homeWon = played && g.home_win;
+  const homeWon = played && g.home_win === true;
   const row = (abbr, score, won, home) =>
     `<div class="row${played && won ? ' won' : ''}">${logo(abbr, 28)}<span class="ab">${esc(abbr)}</span>` +
     (home ? '<span class="hm">ev</span>' : '') +
     `<span class="nm">${esc(team(abbr).name)}</span>` +
     `<span class="sc">${num0(score)}</span></div>`;
+  return `<div class="rows">${row(g.away_team, g.away_score, !homeWon, false)}` +
+         `${row(g.home_team, g.home_score, homeWon, true)}</div>`;
+}
+
+function gameCard(g) {
+  const el = document.createElement('button');
+  el.className = 'game'; el.type = 'button'; el.dataset.id = g.game_id;
+  const played = g.is_played !== false;
   const p = g.model_home_prob, pickProb = g.model_pick === g.home_team ? p : 1 - p;
   const when = played ? g.date : (tipoff(g.tipoff_utc) || g.date);
-  el.innerHTML =
-    `<div class="rows">${row(g.away_team, g.away_score, !homeWon, false)}${row(g.home_team, g.home_score, homeWon, true)}</div>` +
-    `<div class="side"><span class="dt">${esc(when)}</span>` +
-    `<span class="tag ${esc(g.badge.key)}" title="${esc(g.badge.label)}">${badgeText(g.badge)}</span>` +
+  el.innerHTML = scoreRows(g) +
+    `<div class="side"><span class="dt">${esc(when)}</span>${gameTag(g)}` +
     `<span class="pick ${!played ? 'pend' : g.model_correct ? 'ok' : 'no'}" title="modelin seçimi">` +
     `${!played ? '' : g.model_correct ? '✓ ' : '✕ '}${esc(g.model_pick)} <span class="p">${pct0(pickProb)}</span></span></div>`;
-  el.addEventListener('click', () => selectGame(g.game_id));
+  el.addEventListener('click', () => { state.from = null; selectGame(g.game_id); });
   return el;
 }
 
@@ -439,6 +482,9 @@ function markSelected(id) {
 async function selectGame(id) {
   state.selected = id;
   markSelected(id);
+  // Detaya takvimden mi listeden mi gelindiğini geri düğmesi söyler; aksi
+  // halde takvimden açılan maç kullanıcıyı listeye düşürüyordu.
+  $('#backBtn').textContent = state.from === 'cal' ? '← Takvim' : '← Maç listesi';
   history.replaceState(null, '', '#game=' + id);
   mainEl.classList.add('showing-detail');
   $('#detail').innerHTML = '<div class="spin">hesaplanıyor…</div>';
@@ -474,7 +520,7 @@ function renderDetail(d) {
 
   let html = `<div class="card hero" style="--hc:${hc};--ac:${acol}">
     <div class="meta"><span>${esc(d.date)}${!played && tipoff(d.tipoff_utc) ? ' ' + tipoff(d.tipoff_utc) : ''}</span><span>${seasonLabel(d.season)}</span>
-      <span class="tag ${esc(d.badge.key)}" title="${esc(d.badge.label)}">${badgeText(d.badge)}</span></div>
+      ${gameTag(d)}</div>
     <div class="face">
       <div class="side-box${played && !homeWon ? ' won' : ''}">${logo(A, 72)}<div class="ab">${esc(A)}</div>
         <div class="nm">${esc(team(A).name)}</div><div class="sc">${num0(ac.away_score)}</div><div class="where">deplasman</div></div>
@@ -557,9 +603,239 @@ function renderDetail(d) {
 }
 
 // ---------------------------------------------------------------------------
+//  Takvim
+//
+//  Ayın ızgarası + seçili günün maçları. Bir maç dört halden birindedir ve
+//  ızgara dördünü ayırır: tahmin tuttu, tutmadı, henüz oynanmadı, tahmin yok.
+//  Son hali "yanlış" sayan bir ızgara, veri seti bir gün geride kaldığında
+//  modeli sessizce suçlardı.
+// ---------------------------------------------------------------------------
+const cal = {month: null, months: [], days: {}, date: null, data: null, team: ''};
+const WEEKDAYS = ['Pzt', 'Sal', 'Çar', 'Per', 'Cum', 'Cmt', 'Paz'];
+const MONTHS = ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz',
+                'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'];
+const monthLabel = m => {
+  const [y, mo] = m.split('-').map(Number);
+  return `${MONTHS[mo - 1]} ${y}`;
+};
+const dayLabel = d => {
+  const [y, mo, n] = d.split('-').map(Number);
+  const wd = (new Date(Date.UTC(y, mo - 1, n)).getUTCDay() + 6) % 7;
+  return `${n} ${MONTHS[mo - 1]} ${y}, ${WEEKDAYS[wd]}`;
+};
+// Dört halin tek yerde tanımı: hücredeki daire, kartın rozeti ve günün
+// özeti aynı sınıfı kullanır.
+const dotClass = g => !g.has_pred ? 'none' : (!g.is_played ? 'pend'
+                      : (g.model_correct ? 'ok' : 'no'));
+
+async function loadCalendar(month) {
+  const p = new URLSearchParams();
+  const want = month || cal.month;
+  if (want) p.set('month', want);
+  if (cal.team) p.set('team', cal.team);
+  $('#calMeta').textContent = 'yükleniyor…';
+  try {
+    const d = await getJSON('/api/calendar?' + p.toString());
+    cal.data = d; cal.month = d.month; cal.months = d.months;
+    cal.days = {};
+    d.days.forEach(x => { cal.days[x.date] = x; });
+    fillCalMonths();
+    renderCalendar();
+    // Ay değişince gün seçimi de değişir: bugüne, bugün yoksa ayın maçı olan
+    // ilk gününe (gelecek ay) ya da son gününe (geçmiş ay).
+    selectDay(cal.days[d.today] ? d.today : defaultCalDay());
+  } catch (e) {
+    $('#calMeta').textContent = '';
+    $('#calGrid').innerHTML = `<div class="err">Takvim alınamadı: ${esc(e.message)}</div>`;
+  }
+}
+
+// Bugün maç yoksa (ya da takım filtresi bugünü eliyorsa) en yakın ileri gün:
+// "sıradaki maç" aranan şey. Geçmiş bir ayda ayın son maç günü.
+function defaultCalDay() {
+  const dates = Object.keys(cal.days).sort();
+  if (!dates.length) return null;
+  const today = cal.data.today || '';
+  return dates.find(d => d >= today) || dates[dates.length - 1];
+}
+
+function fillCalMonths() {
+  const sel = $('#calMonthSel');
+  if (sel.dataset.filled !== String(cal.months.length)) {
+    sel.innerHTML = '';
+    for (let i = cal.months.length - 1; i >= 0; i--) {
+      const o = document.createElement('option');
+      o.value = cal.months[i]; o.textContent = monthLabel(cal.months[i]);
+      sel.appendChild(o);
+    }
+    sel.dataset.filled = String(cal.months.length);
+  }
+  sel.value = cal.month;
+  const i = cal.months.indexOf(cal.month);
+  $('#calPrev').disabled = i <= 0;
+  $('#calNext').disabled = i < 0 || i >= cal.months.length - 1;
+}
+
+function renderCalendar() {
+  const d = cal.data;
+  const [y, mo] = d.month.split('-').map(Number);
+  // Tarihler metin olarak karşılaştırılır; Date nesnesi saat dilimi yüzünden
+  // ayın ilk/son gününü kaydırabilir. Date yalnızca haftanın günü için, UTC.
+  const lead = (new Date(Date.UTC(y, mo - 1, 1)).getUTCDay() + 6) % 7;
+  const nDays = new Date(Date.UTC(y, mo, 0)).getUTCDate();
+  const cells = [];
+  for (let i = 0; i < lead; i++) cells.push('<div class="cal-cell pad"></div>');
+  for (let n = 1; n <= nDays; n++) {
+    const date = `${d.month}-${String(n).padStart(2, '0')}`;
+    cells.push(calCell(date, n, cal.days[date]));
+  }
+  while (cells.length % 7) cells.push('<div class="cal-cell pad"></div>');
+  $('#calGrid').innerHTML = WEEKDAYS.map(w => `<div class="cal-wd">${w}</div>`).join('')
+    + cells.join('');
+
+  const parts = [`${d.n} maç`];
+  if (d.graded) parts.push(`model ${d.hits}/${d.graded} (${pct0(d.hits / d.graded)})`);
+  if (d.n_pre_tipoff) parts.push(`${d.n_pre_tipoff} tanesi tip-off öncesi yazıldı`);
+  if (d.n_unplayed) parts.push(`${d.n_unplayed} oynanmadı`);
+  // Oynanmış ama tahmini olmayan maç = veri seti o maçtan önce kurulmuş.
+  // Sayıyı göstermek, ızgaradaki boş dairelerin sebebini söyler.
+  if (d.n_unpredicted) parts.push(`${d.n_unpredicted} maçta tahmin yok (veri seti geride)`);
+  if (d.team) parts.unshift(esc(d.team));
+  $('#calMeta').innerHTML = parts.join(' · ');
+
+  // Boş daireler sorusunun cevabı. Model gelecekteki her maça tahmin
+  // üretmiyor: veri seti yalnızca kurulduğu günün maçlarını içerir, çünkü
+  // oynanmamış bir maçın özellikleri o güne kadarki maçlardan hesaplanır.
+  const ahead = countAhead();
+  $('#calNote').innerHTML = ahead
+    ? `Bu ayda ${ahead} maç henüz tahmin edilmedi: veri seti her gün yalnızca sıradaki
+       maç günü için kuruluyor. Daha ileriye tahmin istiyorsan
+       <code>py prediction_engines/build_dataset_asof.py --days 3</code>
+       (üç maç günü) ile kurup panoyu yeniden başlat.`
+    : '';
+}
+
+// Oynanmamış ve tahmini olmayan maçlar: "model yanıldı" değil, "model
+// konuşmadı". İkisi ayrı sayılır.
+function countAhead() {
+  let n = 0;
+  for (const date of Object.keys(cal.days)) {
+    for (const g of cal.days[date].games) if (!g.is_played && !g.has_pred) n++;
+  }
+  return n;
+}
+
+function calCell(date, n, day) {
+  const games = day ? day.games : [];
+  const cls = ['cal-cell'];
+  if (!games.length) cls.push('off');
+  if (date === cal.data.today) cls.push('today');
+  if (date === cal.date) cls.push('sel');
+  let body = '';
+  if (cal.data.team && games.length) {
+    // Takım seçiliyse hücre o takımın rakibini gösterir - 2K'da olduğu gibi
+    // kendi fikstürünü okumak için.
+    body = '<div class="cal-mine">' + games.map(g => {
+      const home = g.home_team === cal.data.team;
+      const opp = home ? g.away_team : g.home_team;
+      return `<span class="mini"><i class="dot ${dotClass(g)}"></i>` +
+             `${home ? '' : '<span class="at">@</span>'}${logo(opp, 18)}</span>`;
+    }).join('') + '</div>';
+  } else if (games.length) {
+    body = '<div class="cal-dots">' +
+      games.map(g => `<i class="dot ${dotClass(g)}"></i>`).join('') + '</div>';
+  }
+  const rec = day && day.graded ? `<span class="rec">${day.hits}/${day.graded}</span>` : '';
+  return `<button type="button" class="${cls.join(' ')}" data-date="${date}"${games.length ? '' : ' disabled'}>` +
+         `<span class="dn">${n}</span>${rec}${body}</button>`;
+}
+
+function selectDay(date) {
+  cal.date = date;
+  document.querySelectorAll('.cal-cell').forEach(el =>
+    el.classList.toggle('sel', el.dataset.date === date));
+  const day = date && cal.days[date];
+  const head = $('#calDayHead'), list = $('#calDayList');
+  if (!day) {
+    head.textContent = date ? dayLabel(date) : '';
+    list.innerHTML = '<div class="empty">Bu gün maç yok</div>';
+    return;
+  }
+  head.innerHTML = `${esc(dayLabel(date))} <small>${day.n} maç` +
+    (day.graded ? ` · model ${day.hits}/${day.graded}` : '') + '</small>';
+  const frag = document.createDocumentFragment();
+  day.games.forEach(g => frag.appendChild(calGameCard(g)));
+  list.innerHTML = '';
+  list.appendChild(frag);
+}
+
+function calGameCard(g) {
+  const el = document.createElement('button');
+  el.className = 'game' + (g.has_pred ? '' : ' nopred');
+  el.type = 'button'; el.dataset.id = g.game_id;
+  // Tahmini olmayan maçın detay sayfası da yoktur: /api/predict onu bulamaz.
+  el.disabled = !g.has_pred;
+  const when = tipoff(g.tipoff_utc) || '';
+  const tag = gameTag(g);
+  const extra = g.season_type && g.season_type !== 'regular_season'
+    ? `<span class="tag other">${esc(g.season_type === 'preseason' ? 'hazırlık' : g.season_type.replace(/_/g, ' '))}</span>` : '';
+  let pick;
+  if (!g.has_pred) {
+    // Oynanmış ama tahminsiz = veri seti geride; oynanmamış ve tahminsiz =
+    // sıra ona gelmedi. İkisi farklı cümle kurar.
+    pick = g.is_played
+      ? '<span class="pick none" title="veri seti bu maçtan önce kuruldu">tahmin yok</span>'
+      : '<span class="pick none" title="veri seti henüz bu güne kurulmadı">tahmin bekliyor</span>';
+  } else {
+    const mark = !g.is_played ? '' : (g.model_correct ? '✓ ' : '✕ ');
+    pick = `<span class="pick ${!g.is_played ? 'pend' : g.model_correct ? 'ok' : 'no'}" title="modelin seçimi ve güveni">` +
+           `${mark}${esc(g.model_pick)} <span class="p">${pct0(g.confidence)}</span></span>`;
+  }
+  el.innerHTML = scoreRows(g) +
+    `<div class="side"><span class="dt">${esc(when)}</span>${extra}${tag}${pick}</div>`;
+  if (g.has_pred) el.addEventListener('click', () => openFromCalendar(g.game_id));
+  return el;
+}
+
+// Takvimden açılan maç aynı detay panelini kullanır; geri düğmesi takvime
+// döner, maç listesine değil.
+async function openFromCalendar(id) {
+  state.from = 'cal';
+  await ensureGames();
+  setView('games');
+  selectGame(id);
+}
+
+let gamesLoaded = false;
+async function ensureGames() {
+  if (gamesLoaded) return;
+  gamesLoaded = true;
+  await loadGames();
+}
+
+$('#calGrid').addEventListener('click', e => {
+  const cell = e.target.closest('.cal-cell[data-date]');
+  if (cell && !cell.disabled) selectDay(cell.dataset.date);
+});
+$('#calMonthSel').addEventListener('change', e => loadCalendar(e.target.value));
+$('#calPrev').addEventListener('click', () => stepMonth(-1));
+$('#calNext').addEventListener('click', () => stepMonth(1));
+$('#calToday').addEventListener('click', () => {
+  const today = (cal.data && cal.data.today) || '';
+  if (cal.months.includes(today.slice(0, 7))) loadCalendar(today.slice(0, 7));
+});
+function stepMonth(step) {
+  const i = cal.months.indexOf(cal.month) + step;
+  if (i >= 0 && i < cal.months.length) loadCalendar(cal.months[i]);
+}
+
+// ---------------------------------------------------------------------------
 //  Olaylar
 // ---------------------------------------------------------------------------
-$('#backBtn').addEventListener('click', () => mainEl.classList.remove('showing-detail'));
+$('#backBtn').addEventListener('click', () => {
+  if (state.from === 'cal') { state.from = null; setView('cal'); return; }
+  mainEl.classList.remove('showing-detail');
+});
 $('#infoBtn').addEventListener('click', () => {
   const open = !$('#honesty').classList.contains('open');
   $('#honesty').classList.toggle('open', open);
@@ -582,6 +858,7 @@ const WINDOW_LABEL = {week: 'bu hafta', month: 'bu ay', season: 'sezon'};
 
 function currentTeam() {
   if (state.view === 'sim') return simState.sub === 'rank' ? rank.team : simState.team;
+  if (state.view === 'cal') return cal.team;
   return state.view === 'rank' ? rank.team : state.team;
 }
 function syncTeamStrip() {
@@ -598,6 +875,9 @@ function setView(view) {
   const showRank = view === 'rank' || sub === 'rank';
   $('.filters').hidden = view !== 'games';
   mainEl.hidden = view !== 'games';
+  $('#calView').hidden = view !== 'cal';
+  if (view === 'cal' && !cal.data) loadCalendar();
+  if (view === 'games') ensureGames();
   $('#simBar').hidden = !sim;
   $('#simStandings').hidden = sub !== 'standings';
   $('#simLeaders').hidden = sub !== 'leaders';
@@ -971,20 +1251,26 @@ $('#periodSel').addEventListener('change', e => { rank.key = e.target.value; loa
 $('#periodPrev').addEventListener('click', () => stepPeriod(-1));
 $('#periodNext').addEventListener('click', () => stepPeriod(1));
 
-loadMeta().then(loadGames).then(() => {
+// Pano takvimle açılır: bir maç gününü aramak, 300 maçlık listeyi kaydırmaktan
+// kolay. Maç listesi ilk ihtiyaç duyulduğunda yüklenir (ensureGames).
+loadMeta().then(() => {
   const g = location.hash.match(/game=(\d+)/);
-  if (g) selectGame(g[1]);
   const r = location.hash.match(/rank=(week|month|season)\/([^&]+)/);
+  const simGame = location.hash.match(/simgame=(\d+)/);
+  const simSub = location.hash.match(/sim=(standings|leaders|games|rank)/);
+  if (g) { setView('games'); selectGame(g[1]); return; }
   if (r) {
     rank.window = r[1]; rank.key = decodeURIComponent(r[2]);
     document.querySelectorAll('#windowSeg button').forEach(x => x.setAttribute('aria-pressed', String(x.dataset.w === rank.window)));
     setView('rank');
+    return;
   }
-  const simGame = location.hash.match(/simgame=(\d+)/);
-  const simSub = location.hash.match(/sim=(standings|leaders|games|rank)/);
-  if (state.meta.sim_season && simGame) { setSimSub('games'); selectSimGame(simGame[1]); }
-  else if (state.meta.sim_season && simSub) setSimSub(simSub[1]);
+  if (state.meta.sim_season && simGame) { setSimSub('games'); selectSimGame(simGame[1]); return; }
+  if (state.meta.sim_season && simSub) { setSimSub(simSub[1]); return; }
+  setView('cal');
 }).catch(e => {
+  $('#calMeta').textContent = '';
+  $('#calGrid').innerHTML = `<div class="err">Sunucuya bağlanılamadı: ${esc(e.message)}</div>`;
   $('#gameCount').textContent = '';
   $('#gameList').innerHTML = `<div class="err">Sunucuya bağlanılamadı: ${esc(e.message)}</div>`;
 });

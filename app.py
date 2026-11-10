@@ -40,6 +40,7 @@ import glob
 import json
 import pickle
 import argparse
+import datetime as dt
 import subprocess
 import importlib.util
 
@@ -169,6 +170,13 @@ BADGE_OUT_OF_SAMPLE = {
 BADGE_IN_SAMPLE = {
     "key": "in-sample",
     "label": "Egitim verisinde - model bu sonucu gordu, tahmin iyimser",
+}
+# Tip-off oncesi yazildi, sonra oynandi: panodaki tek dogrulanmis tahmin
+# cinsi. Kadro mac oncesi listeden geldi, kutu skorundan degil - bu yuzden
+# "unseen" rozetinin parantezi bu maclar icin yanlis olurdu.
+BADGE_PRE_TIPOFF = {
+    "key": "pretip",
+    "label": "Tip-off oncesi yazildi, sonucu sonra geldi - dogrulanmis tahmin",
 }
 
 app = Flask(__name__)
@@ -309,27 +317,143 @@ def _dataset_choice():
     return TRAINED_PATH, "trained"
 
 
-def _tipoffs():
-    """{game_id: tip-off, UTC} from the newest schedule file, or {} without one.
+SCHEDULE_COLUMNS = ["game_id", "date", "season", "season_type", "status",
+                    "tipoff_utc", "home_team", "away_team",
+                    "home_score", "away_score"]
 
-    The dataset's game_date is a midnight datetime and carries no time, so a
-    day's games cannot be ordered - or shown with a kick-off - from it alone.
-    The schedule file already holds the time; this reads it rather than making
-    build_dataset_asof.py carry a new column.
+
+def _schedule_frame():
+    """Every game the NBA has scheduled, read from game_ids/schedule_*.csv.
+
+    Two readers need this file. The game list needs the tip-off time, because
+    the dataset's game_date is a midnight datetime and carries no time, so a
+    day's games cannot be ordered from it. The calendar needs the days
+    themselves: the dataset only holds the games the builder has seen - every
+    game played, plus the single slate it was built for - so a month drawn
+    from it alone would show an empty April, and would lose a day's games the
+    moment the build went stale. Reading the file once here keeps the two from
+    disagreeing about what is on the schedule.
     """
     paths = sorted(glob.glob(os.path.join(PROJECT_ROOT, "game_ids", "schedule_*.csv")))
-    if not paths:
+    frames = []
+    for path in paths:
+        name = os.path.basename(path)
+        season = name[len("schedule_"):-len(".csv")]
+        try:
+            raw = pd.read_csv(path, dtype={"game_id": str})
+        except (OSError, pd.errors.ParserError, pd.errors.EmptyDataError) as exc:
+            print(f"[startup] fikstur okunamadi ({name}: {exc}) - atlandi")
+            continue
+        if not {"game_id", "game_date", "home", "away"}.issubset(raw.columns):
+            print(f"[startup] {name} beklenen sutunlari tasimiyor - atlandi")
+            continue
+        def column(col, default):
+            return raw[col] if col in raw.columns else pd.Series(default, index=raw.index)
+        frames.append(pd.DataFrame({
+            "game_id": raw["game_id"].astype(str).str.zfill(10),
+            "date": pd.to_datetime(raw["game_date"], errors="coerce").dt.strftime("%Y-%m-%d"),
+            "season": season,
+            "season_type": column("season_type", "regular_season").astype(str),
+            "status": column("status", "").astype(str),
+            "tipoff_utc": pd.to_datetime(column("tipoff_utc", pd.NaT),
+                                         utc=True, errors="coerce"),
+            "home_team": raw["home"].astype(str),
+            "away_team": raw["away"].astype(str),
+            "home_score": pd.to_numeric(column("home_score", np.nan), errors="coerce"),
+            "away_score": pd.to_numeric(column("away_score", np.nan), errors="coerce"),
+        }))
+    if not frames:
+        print("[startup] game_ids/schedule_*.csv yok - tip-off saati gosterilmeyecek, "
+              "takvim yalnizca veri setindeki maclari gosterir")
+        return pd.DataFrame(columns=SCHEDULE_COLUMNS)
+    out = pd.concat(frames, ignore_index=True)
+    return out[out["date"].notna()].drop_duplicates("game_id").reset_index(drop=True)
+
+
+def _schedule_results(schedule):
+    """{game_id: (home_score, away_score)} for every finished game on file.
+
+    The one source of a result that is newer than the nightly build, and the
+    reason the page can grade a prediction the same day it was made.
+    """
+    if schedule.empty:
         return {}
-    try:
-        schedule = pd.read_csv(paths[-1], dtype={"game_id": str})
-    except (OSError, pd.errors.ParserError, pd.errors.EmptyDataError) as exc:
-        print(f"[startup] fikstur okunamadi ({exc}) - tip-off saati gosterilmeyecek")
+    done = schedule[schedule["home_score"].notna() & schedule["away_score"].notna()]
+    return {gid: (float(h), float(a)) for gid, h, a
+            in zip(done["game_id"], done["home_score"], done["away_score"])}
+
+
+def _tipoffs(schedule):
+    """{game_id: tip-off, UTC} off the schedule frame, or {} without one."""
+    if schedule.empty:
         return {}
-    if not {"game_id", "tipoff_utc"}.issubset(schedule.columns):
-        return {}
-    times = pd.to_datetime(schedule["tipoff_utc"], utc=True, errors="coerce")
-    return {gid.zfill(10): t.isoformat() for gid, t in zip(schedule["game_id"], times)
+    return {gid: t.isoformat()
+            for gid, t in zip(schedule["game_id"], schedule["tipoff_utc"])
             if pd.notna(t)}
+
+
+def _calendar_spine(dataset, schedule):
+    """One row per game a calendar month can draw, predictions where they exist.
+
+    Three kinds of row land here and the page has to tell them apart: a game
+    with a result and a prediction, a game whose result the current build has
+    not reached yet (played, p_home missing), and a fixture (neither). Nothing
+    is coerced - a missing probability stays missing - so no fixture can be
+    counted as a hit or a miss, which is the same rule _game_summary follows.
+    """
+    played = dataset["is_played"].to_numpy()
+    spine = pd.DataFrame({
+        "game_id": dataset["game_id"].to_numpy(),
+        "date": dataset["game_date"].dt.strftime("%Y-%m-%d").to_numpy(),
+        "season": dataset["season"].to_numpy(),
+        "season_type": "regular_season",
+        "status": "",
+        "home_team": dataset["home_team"].to_numpy(),
+        "away_team": dataset["away_team"].to_numpy(),
+        "home_score": dataset["home_score"].where(dataset["is_played"]).to_numpy(),
+        "away_score": dataset["away_score"].where(dataset["is_played"]).to_numpy(),
+        "is_played": played,
+        "p_home": dataset["model_home_prob"].to_numpy(),
+    })
+    rest = schedule[~schedule["game_id"].isin(set(spine["game_id"]))]
+    if not rest.empty:
+        spine = pd.concat([spine, pd.DataFrame({
+            "game_id": rest["game_id"].to_numpy(),
+            "date": rest["date"].to_numpy(),
+            "season": rest["season"].to_numpy(),
+            "season_type": rest["season_type"].to_numpy(),
+            "status": rest["status"].to_numpy(),
+            "home_team": rest["home_team"].to_numpy(),
+            "away_team": rest["away_team"].to_numpy(),
+            "home_score": rest["home_score"].to_numpy(),
+            "away_score": rest["away_score"].to_numpy(),
+            # The score is the evidence, not the status string: a file that
+            # says "final" with no score is not a played game.
+            "is_played": rest["home_score"].notna().to_numpy(),
+            "p_home": np.nan,
+        })], ignore_index=True)
+    # The dataset is rebuilt once a day, so between two builds it holds the
+    # night's games as fixtures while the schedule file already has their
+    # final scores. Without this the calendar would show a finished game as
+    # "not played yet" for a day, and - worse - would leave the one
+    # prediction that was written before tip-off ungraded forever.
+    if not schedule.empty:
+        sch = schedule.set_index("game_id")
+        for col in ("home_score", "away_score"):
+            spine[col] = spine[col].where(spine[col].notna(),
+                                          spine["game_id"].map(sch[col]))
+        for col in ("season_type", "status"):
+            spine[col] = spine["game_id"].map(sch[col]).fillna(spine[col])
+    scored = spine["home_score"].notna() & spine["away_score"].notna()
+    # A prediction the model produced while the builder still called the game
+    # a fixture, on a game that has since finished, is a true pre-tip-off
+    # forecast: no part of the result could have reached its features. That is
+    # a different and much stronger claim than a backtest row, so it is
+    # carried to the page rather than averaged in silently.
+    spine["pre_tipoff"] = (~spine["is_played"]) & scored & spine["p_home"].notna()
+    spine["is_played"] = spine["is_played"] | scored
+    spine["month"] = spine["date"].str.slice(0, 7)
+    return spine.sort_values(["date", "game_id"]).reset_index(drop=True)
 
 
 def _load_state():
@@ -421,6 +545,28 @@ def _load_state():
     # When it falls behind the games, the rankings and the roster panel quietly
     # describe an older league; say so here rather than letting the page look
     # merely empty.
+    # Built here rather than per request: it is a 12,000-row join of two
+    # frames that are both already in memory, and the calendar is the view the
+    # page opens on.
+    schedule = _schedule_frame()
+    results = _schedule_results(schedule)
+    # Games the build still calls fixtures although the schedule file has
+    # their final score. Counted once here so every number on the page -
+    # the headline count, the list's denominator, the last-played date -
+    # agrees with what the cards show.
+    late_ids = {gid for gid in dataset.loc[~dataset["is_played"], "game_id"]
+                if gid in results}
+    if late_ids:
+        print(f"[startup] {len(late_ids)} mac veri setinde fikstur ama fiksturde "
+              f"skoru var - tip-off oncesi yazilmis tahminler, sonuclari "
+              f"fikstur dosyasindan okunuyor")
+    calendar = _calendar_spine(dataset, schedule)
+    cal_months = sorted(calendar["month"].unique().tolist())
+    print(f"[startup] takvim {len(calendar)} mac, {len(cal_months)} ay "
+          f"({cal_months[0] if cal_months else '-'} -> "
+          f"{cal_months[-1] if cal_months else '-'}), "
+          f"fikstur dosyasindan gelen fazladan mac "
+          f"{len(calendar) - len(dataset)}")
     last_played = dataset.loc[dataset["is_played"], "game_date"].max()
     if len(player_games) and player_games["game_date"].max() < last_played:
         print(f"[startup] UYARI: impact onbellegi "
@@ -441,7 +587,10 @@ def _load_state():
             # "nobody rebuilt the cache".
             "player_games_through": (str(player_games["game_date"].max().date())
                                      if len(player_games) else None),
-            "tipoffs": _tipoffs(), "n_played": n_played,
+            "tipoffs": _tipoffs(schedule), "schedule": schedule,
+            "schedule_results": results, "late_ids": late_ids,
+            "calendar": calendar, "calendar_months": cal_months,
+            "n_played": n_played,
             "current_season": current_season,
             "simulation_module": _load_sibling("simulation") if simulator else None,
             "calibration_module": calibration_module}
@@ -572,10 +721,12 @@ def _ratings_for_game(state, game_id):
 # ===========================================================================
 #  Display helpers
 # ===========================================================================
-def _badge(state, game_id, season, is_played):
-    """Which of the four states this game is in. Nothing falls through."""
+def _badge(state, game_id, season, is_played, pre_tipoff=False):
+    """Which of the five states this game is in. Nothing falls through."""
     if not is_played:
         return BADGE_UPCOMING
+    if pre_tipoff:
+        return BADGE_PRE_TIPOFF
     if season > TARGET_SEASON:
         return BADGE_UNSEEN
     if season == TARGET_SEASON and game_id in state["test_game_ids"]:
@@ -594,26 +745,41 @@ def _game_summary(state, g):
     counter can tell the two apart without inspecting the fields.
     """
     p_home = float(g["model_home_prob"])
-    played = bool(g["is_played"])
-    home_won = bool(int(g["home_win"])) if played else None
+    built_played = bool(g["is_played"])
+    if built_played:
+        home_score, away_score = float(g["home_score"]), float(g["away_score"])
+    else:
+        # The build is a day old at most, but that is long enough: last night's
+        # games sit in it as fixtures while the schedule file already has their
+        # scores. Taking the result from there is what lets the page grade the
+        # predictions that were written before tip-off - the only ones on the
+        # dashboard that are forecasts rather than backtests - instead of
+        # printing "not played yet" under a final score.
+        late = state["schedule_results"].get(g["game_id"])
+        home_score, away_score = late if late else (None, None)
+    played = home_score is not None
+    home_won = (home_score > away_score) if played else None
     return {
         "game_id": g["game_id"],
         "date": str(g["game_date"].date()),
         "season": g["season"],
         "is_played": played,
+        "pre_tipoff": played and not built_played,
         "tipoff_utc": state["tipoffs"].get(g["game_id"]),
         "matchup": f"{g['away_team']} @ {g['home_team']}",
         "home_team": g["home_team"],
         "away_team": g["away_team"],
         "home_team_id": state["team_ids"].get(g["home_team"]),
         "away_team_id": state["team_ids"].get(g["away_team"]),
-        "home_score": float(g["home_score"]) if played else None,
-        "away_score": float(g["away_score"]) if played else None,
+        "home_score": home_score,
+        "away_score": away_score,
         "home_win": home_won,
         "model_home_prob": round(p_home, 3),
         "model_pick": g["home_team"] if p_home > 0.5 else g["away_team"],
+        "confidence": round(max(p_home, 1.0 - p_home), 3),
         "model_correct": ((p_home > 0.5) == home_won) if played else None,
-        "badge": _badge(state, g["game_id"], g["season"], played),
+        "badge": _badge(state, g["game_id"], g["season"], played,
+                        played and not built_played),
     }
 
 
@@ -721,8 +887,8 @@ def api_meta():
         "n_held_out": len(state["test_game_ids"]),
         # Played games only. The fixtures are counted separately, because the
         # brand line read "10,903 mac" while 8 of them had not been played.
-        "n_games": state["n_played"],
-        "n_unplayed": int(len(df)) - state["n_played"],
+        "n_games": state["n_played"] + len(state["late_ids"]),
+        "n_unplayed": int(len(df)) - state["n_played"] - len(state["late_ids"]),
         # Every game the models were never fitted on: the held-out slice of the
         # season they were trained through, plus every season after it. The
         # page used to name only the first group, which made its own honesty
@@ -739,7 +905,8 @@ def api_meta():
         # So the page can see for itself whether the impact cache has fallen
         # behind the games, instead of trusting a server-side print nobody
         # reads when the dashboard runs detached.
-        "last_played": str(df.loc[df["is_played"], "game_date"].max().date()),
+        "last_played": str(df.loc[df["is_played"] | df["game_id"].isin(state["late_ids"]),
+                                  "game_date"].max().date()),
         "metrics": _honest_metrics(),
         "has_calibrator": state["calibrator"] is not None,
         "has_simulator": state["simulator"] is not None,
@@ -767,11 +934,110 @@ def api_games():
     limit = min(int(request.args.get("limit", 300) or 300), 1000)
     games = [_game_summary(state, g) for _, g in df.head(limit).iterrows()]
     # Counted apart so the accuracy strip on the page has a denominator of
-    # games that were actually played.
-    played = int(df["is_played"].sum())
+    # games that were actually played - including the ones whose score
+    # arrived after the build, which the cards already grade.
+    played = int((df["is_played"] | df["game_id"].isin(state["late_ids"])).sum())
     return jsonify({"count": int(len(df)), "count_played": played,
                     "count_unplayed": int(len(df)) - played,
                     "shown": len(games), "games": games})
+
+
+def _calendar_entry(state, row):
+    """One game as a calendar cell shows it: pick, confidence, outcome or none.
+
+    Confidence is max(p, 1-p) - how sure the model is about the side it named,
+    not about the home team. It is sent from here so the page never has to
+    re-derive it and the two cannot drift apart.
+    """
+    played = bool(row.is_played)
+    has_pred = bool(pd.notna(row.p_home))
+    p_home = float(row.p_home) if has_pred else None
+    scored = pd.notna(row.home_score) and pd.notna(row.away_score)
+    home_won = bool(float(row.home_score) > float(row.away_score)) if scored else None
+    pick = (row.home_team if p_home > 0.5 else row.away_team) if has_pred else None
+    return {
+        "game_id": row.game_id,
+        "date": row.date,
+        "season": row.season,
+        "season_type": row.season_type,
+        "tipoff_utc": state["tipoffs"].get(row.game_id),
+        "home_team": row.home_team,
+        "away_team": row.away_team,
+        "home_score": float(row.home_score) if pd.notna(row.home_score) else None,
+        "away_score": float(row.away_score) if pd.notna(row.away_score) else None,
+        "is_played": played,
+        "home_win": home_won,
+        # False means "this game has no prediction", which is not the same as
+        # "the model was wrong" and not the same as "not played yet". A game
+        # played after the last build is in exactly this state.
+        "has_pred": has_pred,
+        # The prediction was written before tip-off and the game is over: the
+        # only kind of row that is a forecast rather than a backtest.
+        "pre_tipoff": bool(row.pre_tipoff),
+        "model_home_prob": round(p_home, 3) if has_pred else None,
+        "model_pick": pick,
+        "confidence": round(max(p_home, 1.0 - p_home), 3) if has_pred else None,
+        "model_correct": ((p_home > 0.5) == home_won)
+                         if (has_pred and home_won is not None) else None,
+        "badge": _badge(state, row.game_id, row.season, played,
+                        bool(row.pre_tipoff)) if has_pred else None,
+    }
+
+
+def _default_month(months):
+    """The month the calendar opens on: this one when it has games, else the
+    next one that does. Opening on an empty grid reads as a broken page."""
+    today = dt.date.today().strftime("%Y-%m")
+    if not months or today in months:
+        return today
+    ahead = [m for m in months if m > today]
+    return ahead[0] if ahead else months[-1]
+
+
+@app.route("/api/calendar")
+def api_calendar():
+    """A month of the schedule, day by day, with the model's pick on each game.
+
+    The whole month is sent in one response - a day at a time would be 30
+    requests to page through a season - but a month is at most ~230 games, far
+    short of what the game list already sends.
+    """
+    state = get_state()
+    cal = state["calendar"]
+    months = state["calendar_months"]
+    month = request.args.get("month", "").strip()
+    if month not in months:
+        month = _default_month(months)
+    team = request.args.get("team", "").strip().upper()
+    rows = cal[cal["month"] == month]
+    if team:
+        rows = rows[(rows["home_team"] == team) | (rows["away_team"] == team)]
+    by_day = {}
+    for row in rows.itertuples(index=False):
+        by_day.setdefault(row.date, []).append(_calendar_entry(state, row))
+    days, n, graded, hits = [], 0, 0, 0
+    for date in sorted(by_day):
+        games = sorted(by_day[date], key=lambda g: (g["tipoff_utc"] or "", g["game_id"]))
+        # Graded = played AND predicted. The two reasons a game is ungraded -
+        # not played, or played without a prediction - are both counted apart
+        # so the month header can say which it is.
+        day_graded = sum(1 for g in games if g["model_correct"] is not None)
+        day_hits = sum(1 for g in games if g["model_correct"])
+        days.append({"date": date, "n": len(games), "games": games,
+                     "graded": day_graded, "hits": day_hits})
+        n += len(games)
+        graded += day_graded
+        hits += day_hits
+    return jsonify({
+        "month": month, "months": months, "team": team or None,
+        "today": dt.date.today().isoformat(),
+        "n": n, "graded": graded, "hits": hits,
+        "n_unplayed": sum(1 for d in days for g in d["games"] if not g["is_played"]),
+        "n_unpredicted": sum(1 for d in days for g in d["games"]
+                             if g["is_played"] and not g["has_pred"]),
+        "n_pre_tipoff": sum(1 for d in days for g in d["games"] if g["pre_tipoff"]),
+        "days": days,
+    })
 
 
 @app.route("/api/predict/<game_id>")
@@ -824,16 +1090,20 @@ def api_predict(game_id):
     # would throw where a missing number shows a dash. `correct_winner` is
     # null, never False - grading the model against a game nobody has played
     # is how the page came to print "wrong" next to tonight's forecast.
-    played = bool(g["is_played"])
+    # Read back off the summary rather than off the dataset row, so a game
+    # whose result arrived after the last build is scored here exactly as the
+    # card above it scores it.
+    home_score, away_score = out["home_score"], out["away_score"]
+    played = home_score is not None
     actual_winner = None
     if played:
-        actual_winner = g["home_team"] if int(g["home_win"]) else g["away_team"]
+        actual_winner = g["home_team"] if out["home_win"] else g["away_team"]
     out["actual"] = {
-        "home_score": float(g["home_score"]) if played else None,
-        "away_score": float(g["away_score"]) if played else None,
-        "point_diff": float(g["point_diff"]) if played else None,
-        "total_score": float(g["total_score"]) if played else None,
-        "home_win": int(g["home_win"]) if played else None,
+        "home_score": home_score,
+        "away_score": away_score,
+        "point_diff": (home_score - away_score) if played else None,
+        "total_score": (home_score + away_score) if played else None,
+        "home_win": int(bool(out["home_win"])) if played else None,
         "winner": actual_winner,
         "correct_winner": (bool(predicted["predicted_winner"] == actual_winner)
                            if played else None),

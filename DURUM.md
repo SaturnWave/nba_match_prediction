@@ -635,6 +635,7 @@ py prediction_engines/backfill_impact_from_db.py --source csv --seasons 2026_202
 py prediction_engines/value_engine.py --seasons 2026_2027        # oyuncu OVR'inin deger tarafi
 py prediction_engines/forecast_upcoming.py                       # o maclarin tahmini, output/forecasts/
 py prediction_engines/forecast_vs_market.py                      # tahminler ve piyasa cizgisi yan yana
+py prediction_engines/forecast_scorecard.py                      # tip-off oncesi tahminlerin gercek karnesi
 py prediction_engines/sim_vs_real.py                             # simulasyon ile oynanan maclar, ~1 dk
 py data_retriaval/odds_run_all.py                                # bahis cizgileri: arsiv + ESPN (kaldigi yerden)
 py prediction_engines/market_lab.py                              # oranlar modele ne katiyor

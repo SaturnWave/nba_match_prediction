@@ -212,14 +212,14 @@ game_id,season_type,game_date,tipoff_utc,status,home_id,home,away_id,away,home_s
 0022600200,regular_season,2026-11-08,2026-11-09T01:00:00Z,final,1610612749,MIL,1610612738,BOS,97,117,Fiserv Forum,Milwaukee,False,3,,,,N
 0022600201,regular_season,2026-11-08,2026-11-09T02:00:00Z,final,1610612746,LAC,1610612740,NOP,139,123,Intuit Dome,Inglewood,False,3,,,,N
 0022600202,regular_season,2026-11-08,2026-11-09T02:00:00Z,final,1610612758,SAC,1610612748,MIA,108,114,Golden 1 Center,Sacramento,False,3,,,,N
-0022600203,regular_season,2026-11-09,2026-11-10T00:00:00Z,scheduled,1610612737,ATL,1610612747,LAL,,,State Farm Arena,Atlanta,False,4,,,,N
-0022600204,regular_season,2026-11-09,2026-11-10T00:00:00Z,scheduled,1610612766,CHA,1610612739,CLE,,,Spectrum Center,Charlotte,False,4,,,,N
-0022600205,regular_season,2026-11-09,2026-11-10T00:00:00Z,scheduled,1610612765,DET,1610612764,WAS,,,Little Caesars Arena,Detroit,False,4,,,Peacock,N
-0022600206,regular_season,2026-11-09,2026-11-10T00:30:00Z,scheduled,1610612761,TOR,1610612763,MEM,,,Scotiabank Arena,Toronto,False,4,,,,N
-0022600207,regular_season,2026-11-09,2026-11-10T01:00:00Z,scheduled,1610612742,DAL,1610612754,IND,,,American Airlines Center,Dallas,False,4,,,,N
-0022600208,regular_season,2026-11-09,2026-11-10T01:30:00Z,scheduled,1610612745,HOU,1610612743,DEN,,,Toyota Center,Houston,False,4,,,,N
-0022600209,regular_season,2026-11-09,2026-11-10T02:00:00Z,scheduled,1610612756,PHX,1610612759,SAS,,,Mortgage Matchup Center,Phoenix,False,4,,,,N
-0022600210,regular_season,2026-11-09,2026-11-10T03:00:00Z,scheduled,1610612744,GSW,1610612740,NOP,,,Chase Center,San Francisco,False,4,,,NBA TV,N
+0022600203,regular_season,2026-11-09,2026-11-10T00:00:00Z,final,1610612737,ATL,1610612747,LAL,114,124,State Farm Arena,Atlanta,False,4,,,,N
+0022600204,regular_season,2026-11-09,2026-11-10T00:00:00Z,final,1610612766,CHA,1610612739,CLE,124,112,Spectrum Center,Charlotte,False,4,,,,N
+0022600205,regular_season,2026-11-09,2026-11-10T00:00:00Z,final,1610612765,DET,1610612764,WAS,122,111,Little Caesars Arena,Detroit,False,4,,,Peacock,N
+0022600206,regular_season,2026-11-09,2026-11-10T00:30:00Z,final,1610612761,TOR,1610612763,MEM,102,118,Scotiabank Arena,Toronto,False,4,,,,N
+0022600207,regular_season,2026-11-09,2026-11-10T01:00:00Z,final,1610612742,DAL,1610612754,IND,125,122,American Airlines Center,Dallas,False,4,,,,N
+0022600208,regular_season,2026-11-09,2026-11-10T01:30:00Z,final,1610612745,HOU,1610612743,DEN,110,100,Toyota Center,Houston,False,4,,,,N
+0022600209,regular_season,2026-11-09,2026-11-10T02:00:00Z,final,1610612756,PHX,1610612759,SAS,96,122,Mortgage Matchup Center,Phoenix,False,4,,,,N
+0022600210,regular_season,2026-11-09,2026-11-10T03:00:00Z,final,1610612744,GSW,1610612740,NOP,138,87,Chase Center,San Francisco,False,4,,,NBA TV,N
 0022600211,regular_season,2026-11-10,2026-11-11T00:30:00Z,scheduled,1610612752,NYK,1610612749,MIL,,,Madison Square Garden,New York,False,4,,,,N
 0022600212,regular_season,2026-11-10,2026-11-11T01:00:00Z,scheduled,1610612755,PHI,1610612738,BOS,,,Xfinity Mobile Arena,Philadelphia,False,4,,,NBC,N
 0022600213,regular_season,2026-11-10,2026-11-11T02:00:00Z,scheduled,1610612756,PHX,1610612746,LAC,,,Mortgage Matchup Center,Phoenix,False,4,,,,N
@@ -274,7 +274,7 @@ game_id,season_type,game_date,tipoff_utc,status,home_id,home,away_id,away,home_s
 0022600253,regular_season,2026-11-17,2026-11-18T00:30:00Z,scheduled,1610612761,TOR,1610612752,NYK,,,Scotiabank Arena,Toronto,False,5,,,,N
 0022600254,regular_season,2026-11-17,2026-11-18T01:00:00Z,scheduled,1610612750,MIN,1610612757,POR,,,Target Center,Minneapolis,False,5,,,,N
 0022600255,regular_season,2026-11-17,2026-11-18T01:00:00Z,scheduled,1610612759,SAS,1610612765,DET,,,Frost Bank Center,San Antonio,False,5,,,NBC,N
-0022600257,regular_season,2026-11-17,2026-11-18T03:30:00Z,scheduled,1610612746,LAC,1610612762,UTA,,,Intuit Dome,Inglewood,False,5,,,NBC,N
+0022600257,regular_season,2026-11-17,2026-11-18T03:30:00Z,scheduled,1610612746,LAC,1610612762,UTA,,,Intuit Dome,Inglewood,False,5,,,,N
 0022600256,regular_season,2026-11-17,2026-11-18T04:00:00Z,scheduled,1610612747,LAL,1610612766,CHA,,,Crypto.com Arena,Los Angeles,False,5,,,NBC,N
 0022600258,regular_season,2026-11-18,2026-11-19T00:00:00Z,scheduled,1610612739,CLE,1610612763,MEM,,,Rocket Arena,Cleveland,False,5,,,,N
 0022600259,regular_season,2026-11-18,2026-11-19T00:00:00Z,scheduled,1610612754,IND,1610612745,HOU,,,Gainbridge Fieldhouse,Indianapolis,False,5,,,,N

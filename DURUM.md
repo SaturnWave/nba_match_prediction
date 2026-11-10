@@ -621,7 +621,39 @@ py prediction_engines/consistency_lab.py         # deney harness'i (--arms, --al
 py app.py                                        # Tailscale IP'sine bind eder
 ```
 
-Süren sezonun verisini güncellemek (2026-27; her komut kaldığı yerden devam eder):
+### Günlük güncelleme artık otomatik
+
+`daily_update.ps1` aşağıdaki zincirin tamamını sırayla koşuyor ve
+`daily_update.log`'a yazıyor. **"NBA gunluk guncelleme"** adlı Windows görevi onu
+her gün **12:30**'da çalıştırıyor (`-StartWhenAvailable`, yani makine kapalıysa
+açılınca telafi eder).
+
+```bash
+powershell -NoProfile -ExecutionPolicy Bypass -File daily_update.ps1
+```
+
+Bilinmesi gerekenler:
+
+- **Sezon sabit yazılmadı**; `game_ids/schedule_*.csv` dosyalarının en yenisinden
+  okunuyor. `-Season 2027_2028` ile zorlanabilir.
+- **Tek kritik adım veri seti kurulumu.** O düşerse script durur, çünkü sonraki
+  her adım eski veriyle çalışırdı. Veri çekme adımları kritik değil: NBA'in bir
+  ucu cevap vermezse elde olanla devam eder, eksik dosya ertesi gün alınır.
+- **Aynı anda iki kopya çalışmaz** (`daily_update.lock`; 3 saatten eski kilit
+  çökmüş bir koşudan kalmıştır, yok sayılır).
+- **Commit ve push yapmaz.** `-Commit` ile açılır; otomatik push Eylül'den beri
+  kapalı ve bu script onu geri açmıyor.
+- **Panoyu yeniden başlatmaz.** Pano veriyi açılışta bir kez okur, yani yeniden
+  başlatılmadan bu koşunun ürettiği hiçbir şeyi göstermez. `-RestartDashboard`
+  çalışan kopyayı kendi argümanlarıyla geri getirir.
+- `-NoFetch` API'ye hiç gitmez (hızlı deneme), `-SkipCaches` pano önbelleklerini
+  atlar, `-Days N` kaç maç günü ileri tahmin üretileceğini belirler (varsayılan 2).
+- Pano açıkken koşarsa bellekte ona rakip olur ve günlüğe uyarı düşer; bir kez
+  "paging file too small" ile veri seti kurulumu düşmüştü.
+- `retry_late_files.ps1` artık bunun içinde: 4. ve 5. adımlar aynı geç dosyaları
+  kaldığı yerden istiyor.
+
+Aynı zinciri elle koşmak (her komut kaldığı yerden devam eder):
 
 ```
 py data_retriaval/fetch_schedule.py 2026-27                      # fikstur ve durumlar

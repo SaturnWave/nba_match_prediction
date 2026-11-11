@@ -768,6 +768,108 @@ az (geçiş rho 0,534; tarihsel ortalama 0,483 ± 0,065). Not: sıralama sütunl
 modelin girdisi **değil** — 196 üretim feature'ının hiçbiri Elo/Massey/rating
 değil — dolayısıyla bu bulgu yeniden eğitim için gerekçe üretmiyor.
 
+## Dinlenme / back-to-back feature'ları — 2026-11-11: EKLEME
+
+Soru: 5 dinlenme sütunu (`home_rest`, `away_rest`, `rest_diff`, `home_b2b`,
+`away_b2b`) isabete ne katıyor? Hiçbiri üretimin 196 feature'ında yok. Kontrollü
+A/B: aynı fold, aynı tohum, aynı tarif (`reg+mono`), tek fark 196'ya karşı 201
+sütun. 43 aylık genişleyen-köken walk-forward, 7.495 test maçı, 10 tohum.
+
+**Sinyal gerçek ve modelin içinde yok.** Maçların %30'unda bir taraf b2b. Ham ev
+marjı: iki taraf da dinlenmiş +1,85 ± 0,17; yalnız deplasman b2b +4,04 ± 0,37;
+yalnız ev b2b −0,49 ± 0,45. Üstelik bu bilgi tahminin içinde değil — blend marjı
+regresyonda sabit tutulduğunda `away_b2b` hâlâ +2,08 ± 0,50 sayı, `home_b2b`
+−1,99 ± 0,54 sayı ekliyor (logit LR chi2=19,25, df=3, p=0,0002). "Ağaçlar bunu
+196 feature'dan zaten kurar" savunması yanlış: hiçbir üretim feature'ı takvim
+taşımıyor.
+
+**Karşılığı yok.**
+
+| metrik | rest − base | %95 GA | taban |
+|---|---|---|---|
+| blend isabet | −0,00189 ± 0,00213 | [−0,0062, +0,0024] | 0,6631 |
+| blend Brier | −0,00033 ± 0,00021 | [−0,00076, +0,00010] | 0,2132 |
+| ham clf Brier | −0,00102 ± 0,00065 | — | — |
+| marj MAE | −0,01905 ± 0,00657 | [−0,0323, −0,0058] | 10,858 |
+
+Kıpırdayan tek metrik marj MAE: **0,019 sayı, 10,86 üzerinden %0,18.** O da
+sağlam değil — 43 fold'un 27'sinde önde (işaret testi p=0,126) ve kendi 9
+metrikli ailesinde Bonferroni'yi geçmiyor (p=0,0059, eşik 0,0056).
+
+**Plasebo kontrolü koşuldu** (5 sütunun maçlar arası karıştırılmış hali, aynı
+fold/tohum/tarif): plasebo − base marj MAE −0,0059 ± 0,0052. Yani ölçülen
+kazancın ~%24'ü bilgiden değil, `colsample_bytree=0,5` havuzuna beş sütun daha
+girmesinden. Sütun sayısı sabitken gerçek bilgi etkisi rest − plasebo
+−0,0190 ± 0,0062 (t=−3,07). İsabette plasebo etkisi sıfır (+0,0004 ± 0,0014).
+
+**Tavan hesabı.** Üretimin blend'i sabit tutulup dinlenme terimleri *en verimli*
+biçimde eklendiğinde (ay-gruplu 5-kat CV, zamana saygılı) kazanç Brier −0,00019
+ve isabet +0,0015'te kalıyor. LightGBM'in yapabileceğinden iyi bir kullanım —
+yani bu bir üst sınır ve tabanın %0,2'si. Tercih 7.495 maçın yalnız %2-3'ünde
+değişiyor, değişenlerin yarısı yanlışa gidiyor.
+
+**Neden bu kadar küçük:** etkinin bir kısmı dolaylı olarak zaten içeride (b2b'de
+yıldız dinlendirmesi `roster_missing_impact`'e giriyor, r = 0,11–0,14); bir kısmı
+kötü kodlamadan kayboluyor (sezon açılışı `rest=0` yani "en yorgun" sayılıyor,
+COVID/All-Star araları 146 güne kadar aynı sütuna yığılıyor).
+
+**Benimsemenin maliyeti kazançtan büyük:** `retrain_production.py`'nin `--out`'u
+yok, 19 üretim dosyasını ezer; feature seti adı değişmezse pano 196 feature'la
+ölçülmüş 0,6865'i yeni modelin sayısı diye göstermeye devam eder, değişirse
+`honest_walk_forward` null olur ve app.py sabit kodlanmış 0,6673'e düşer;
+`parity()` karşılaştırmayı `blob["production_features"]` üzerinden yaptığı için
+`rest_diff` listeye girer girmez üretim pickle'ındaki 16 tutarsız satır parity'yi
+kalıcı kırar (app.py'nin asof pickle'ını servis etme gerekçesi tam olarak
+`output/asof_parity.json`). Ayrıca simülatör, `market_check.py` ve
+`confidence_buckets.py` yeniden koşulmalı.
+
+Dünkü "bekle" kararıyla çelişmiyor: o karar eğitim **satırı** eklemeye karşıydı
+(`chrono_split`, `STOP_SHARE` dilimi, `calibration.py`), donmuş veri setine
+**sütun** eklemek üçünü de tetiklemez. Ama feature setini 2026-11-15'ten önce
+değiştirmek, o kararın geri alınma eşiğini ölçecek `confidence_buckets` tabanını
+kaydırır.
+
+### Yan bulgu: asof veri setinde ikinci günün dinlenmesi yanlış
+
+`build_dataset_asof.py:207-218` her oynanmamış tarihi **ayrı geçişte** kuruyor,
+bu yüzden ikinci gün aradaki oynanmamış maçı görmüyor. Doğrulandı
+(as_of 2026-11-10T20:43Z):
+
+- 10 Kasım: 1 gerçek b2b maçı, **1'i doğru**.
+- 11 Kasım: 5 gerçek b2b maçı, **0'ı doğru**. OKC @ POR satırı 4/4 gün dinlenme
+  ve b2b 0/0 diyor; doğrusu 1/1 gün ve b2b 1/1.
+
+Günlük zincir `--days 2` ile koştuğu için bozuk olan **her zaman** ikinci gün.
+Bugün tahmine etkisi **tam sıfır** — üretim bu sütunları kullanmıyor. Ama
+sütunlar bir gün feature setine girerse, tam da önemli oldukları gecede yanlış
+bayrak okuturlar; o yüzden benimsemenin ön koşulu. Düzeltme: tarih geçişleri
+`concat` edildikten **sonra**, birleşik çerçevede 5 sütunu düşürüp
+`csv_master.add_rest_columns` bir kez daha çağrılmalı. Tek başına yetmez: aynı
+satırın L3/L5/L10 pencereleri hâlâ dünkü maçı görmez (satır 604-607'deki bilinen
+gecikme), yani eğitimde hiç bulunmayan bir bileşim üretilir.
+
+### Yan bulgu: olasılıklar fazla temkinli (dinlenmeden büyük)
+
+Ham sınıflandırıcının logit eğimi **1,775** (1 = mükemmel ölçek). Yalnızca
+yeniden ölçekleme Brier'i ~0,001 ve marj MAE'yi ~0,026 sayı düzeltiyor — dinlenme
+sütunlarının verebileceğinin 2-3 katı. Uyarı: bu ölçüm kalibratörden **önce**;
+üretim blend'in üstüne izotonik/Platt takıyor (`retrain_production.py:330-382`)
+ve blend'in kendi eğimi zaten 1,262. Yani kalibratör bu açığın bir kısmını
+kapatıyor olabilir; ayrı bir iş olarak ölçülmeli.
+
+### Denenmeyenler
+
+4 gecede 3 maç, 6 gecede 4 maç, deplasman turunun kaçıncı maçı, seyahat mesafesi,
+saat dilimi, uzatma sonrası — veri setinde hiçbiri yok (takvim dosyasında tip-off
+saati ve arena şehri var). Sezon açılışını 0 yerine ayrı bayrakla kodlamak ve
+rest'i 0-5'e kırpmak denenmedi. `away_b2b`'ye +, `home_b2b`'ye − monoton kısıt
+verilmedi (kural yalnız `diff_` ile **başlayan** sütunlara işaret veriyor,
+`rest_diff` adı yüzünden kısıtsız kaldı). Toplam skor / tempo tarafı hiç
+ölçülmedi. Ölçüm üretimin kendi fit döngüsüyle değil, `consistency_lab` tarifiyle
+yapıldı (80/10/10 + patience 50; üretimde probe+refit, patience 30, MIN_TREES=20)
+— duyarlılık kontrolleri sonucu değiştirmedi ama "üretim tarifinde ölçüldü"
+denemez.
+
 ## Sonraki adım adayları
 
 1. **Maç öncesi sakatlık raporu.** `roster_missing_impact` bunun geriye dönük
